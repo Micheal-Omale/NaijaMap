@@ -1,0 +1,22 @@
+---
+import Base from '../layouts/Base.astro';
+import { getLangFromUrl, useTranslations } from '../i18n/utils';
+
+const t = useTranslations(getLangFromUrl(Astro.url));
+---
+
+<Base>
+	<main>
+		<h1>{t('site.name')}</h1>
+		<p>{t('site.tagline')}</p>
+		<p>{t('home.status')}</p>
+	</main>
+</Base>
+
+<style>
+	main {
+		max-width: 40rem;
+		margin: 0 auto;
+		padding: 3rem 1rem;
+	}
+</style>
