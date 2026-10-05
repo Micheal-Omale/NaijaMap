@@ -21,10 +21,10 @@ An interactive map of Nigeria that shows where each ethnic group lives today, an
 |---|---------|-------|--------|
 | 1 | Stack & architecture | Foundation | in-progress |
 | 2 | Coding standards & tooling | Foundation | planned |
-| 3 | Data model & sourcing rules | Foundation | planned |
-| 4 | Base map geometry | Foundation | planned |
-| 5 | Design system (two moods) | Foundation | planned |
-| 6 | Find a group on the map | Slice 1 | planned |
+| 3 | Data model & sourcing rules | Foundation | in-progress |
+| 4 | Base map geometry | Foundation | in-progress |
+| 5 | Design system (two moods) | Foundation | in-progress |
+| 6 | Find a group on the map | Slice 1 | in-progress |
 | 7 | Top 50 groups data | Slice 2 | planned |
 | 8 | Atlas colours & mixed areas | Slice 2 | planned |
 | 9 | Rich group profiles | Slice 2 | planned |
@@ -58,27 +58,35 @@ Capture the project's conventions and install lint, format and pre-commit checks
 **Done when:** root `AGENTS.md` reflects the real stack, and lint, format and pre-commit all run clean.
 - [ ] Capture conventions + tooling choices: `/audit`
 
-### 3. Data model & sourcing rules · needs a decision · full
+### 3. Data model & sourcing rules · in-progress · needs a decision · full
 Decide how groups, language families, LGAs, enclave points, kingdoms, dated snapshots, influence zones, tribute links, sources and confidence are stored. Also decide the review flow (draft, reviewed, published) that the owner signs off in.
 **Done when:** one shape holds both modes without a breaking change later, every claim must carry a source and a confidence level, nothing unreviewed can reach the public site, and drafts can be reviewed as a simple readable list.
 - [ ] Design it (spec): `/architect data model & sourcing rules`
+⚠ spec pending: built directly at the owner's request (2026-10-05). Decisions to backfill: JSON files in `data/` checked by Astro content collections (`src/content.config.ts`); every claim has `sources` (min 1) and `confidence`; LGA ids are `<state>-<lga>` slugs checked against `src/data/lgas.json`; status `draft` → `reviewed` → `published`, only `published` reaches the public build; drafts show in dev and `npm run build:preview`, with a `/review` page listing every unpublished claim. Kingdoms and snapshots are not modelled yet.
+· code in `src/content.config.ts`, `src/lib/groups.ts`, `data/`
 
-### 4. Base map geometry · needs a decision
+### 4. Base map geometry · in-progress · needs a decision
 Get the outlines of all 774 LGAs and the states from an open source, simplified so they stay light on phones, plus a way to place enclave points.
 **Done when:** every LGA and state draws correctly with its official name and code, the full map loads quickly on a slow mobile connection, and the source and licence of the boundaries are recorded.
 - [ ] Design it (spec): `/architect base map geometry`
+⚠ spec pending: built directly at the owner's request (2026-10-05). Decisions to backfill: GRID3 LGA boundaries via geoBoundaries (CC BY 4.0, 774 LGAs), states joined by largest overlap, simplified with mapshaper to about 128 KB gzipped GeoJSON; state lines and outline derived from the LGAs; Natural Earth rivers and lakes; enclave points are lon/lat, or the LGA centre marked approximate. Two GRID3 name typos kept (Yenegoa, Obi Nwga).
+· code in `scripts/build-geo.mjs`, `public/geo/`, `src/data/lgas.json`
 
-### 5. Design system (two moods) · needs a decision
+### 5. Design system (two moods) · in-progress · needs a decision
 The look of the site in both moods: a clean modern Today mode and an old map Then mode. It covers type, colour tokens, the highlight colour, the confidence styling (how a "disputed" area looks), and the base components.
 **Done when:** `design.md` covers both moods, the confidence styles, and colourblind safe colours with patterns, and the base components work by keyboard and on a phone.
 - [ ] Design it (spec): `/architect design system`
+⚠ spec pending: Today mood only, built directly (2026-10-05). Tokens in `src/styles/global.css` (light and dark), Bricolage Grotesque for headings, one orange highlight, presence shown as solid, hatched and dotted patterns. No `design.md` yet; Then mood not started.
+· code in `src/styles/global.css`, `src/components/map/map-app.css`
 
 ## Slice 1: Find one group (Phase 1, Today mode)
 
-### 6. Find a group on the map · needs a decision
+### 6. Find a group on the map · in-progress · needs a decision
 The first real thread, using Igala. Igala data is drafted with sources and reviewed. A visitor types "Igala", and every Igala LGA in Kogi and the enclave towns in other states (Delta and others) light up. A basic profile shows the language family, the states and LGAs, and the sources with confidence levels. The site is live on the internet.
 **Done when:** on a phone, a visitor can search Igala (including near misses in spelling), see all Igala areas highlighted across states, open the profile with its sources, and the whole thing is deployed publicly.
 - [ ] Design it (spec): `/architect find a group on the map`
+⚠ spec pending: built directly at the owner's request (2026-10-05). Decisions to backfill: React island state in `MapApp.tsx` with the web address (`?group=igala`) as the source of truth; own fuzzy search (no library); bottom sheet on phones. Igala data is a draft awaiting owner review, so the public build shows no groups yet. Not deployed.
+· code in `src/components/map/`, `src/lib/search.ts`
 
 ## Slice 2: The full atlas (Phase 1, Today mode)
 

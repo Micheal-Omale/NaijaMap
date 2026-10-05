@@ -1,24 +1,31 @@
 ---
+import '@fontsource-variable/bricolage-grotesque';
+import '../styles/global.css';
 import { getLangFromUrl, useTranslations } from '../i18n/utils';
 
 interface Props {
 	title?: string;
 	description?: string;
+	noindex?: boolean;
 }
 
 const lang = getLangFromUrl(Astro.url);
-const t = useTranslations(lang);
-const { title = t('site.name'), description = t('site.description') } = Astro.props;
+const { t } = useTranslations(lang);
+const { title = t('site.name'), description = t('site.description'), noindex = false } = Astro.props;
 ---
 
 <!doctype html>
 <html lang={lang}>
 	<head>
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 		<meta name="description" content={description} />
+		<meta name="theme-color" content="#f4f2ed" media="(prefers-color-scheme: light)" />
+		<meta name="theme-color" content="#0f1115" media="(prefers-color-scheme: dark)" />
+		{noindex && <meta name="robots" content="noindex" />}
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<link rel="icon" href="/favicon.ico" />
+		<slot name="head" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
 	</head>
@@ -26,15 +33,3 @@ const { title = t('site.name'), description = t('site.description') } = Astro.pr
 		<slot />
 	</body>
 </html>
-
-<style is:global>
-	/* Placeholder base styles. Tokens for the Today and Then moods come with feature 5. */
-	:root {
-		color-scheme: light dark;
-		font-family: system-ui, sans-serif;
-		line-height: 1.5;
-	}
-	body {
-		margin: 0;
-	}
-</style>

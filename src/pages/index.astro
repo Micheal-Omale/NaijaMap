@@ -1,22 +1,68 @@
 ---
 import Base from '../layouts/Base.astro';
+import MapApp from '../components/map/MapApp';
 import { getLangFromUrl, useTranslations } from '../i18n/utils';
+import { getGroupViews } from '../lib/groups';
 
-const t = useTranslations(getLangFromUrl(Astro.url));
+const lang = getLangFromUrl(Astro.url);
+const { t } = useTranslations(lang);
+const groups = await getGroupViews();
 ---
 
 <Base>
-	<main>
-		<h1>{t('site.name')}</h1>
-		<p>{t('site.tagline')}</p>
-		<p>{t('home.status')}</p>
-	</main>
+	<Fragment slot="head">
+		<link rel="preload" href="/geo/lgas.json" as="fetch" crossorigin="anonymous" />
+		<link rel="preload" href="/data/groups.json" as="fetch" crossorigin="anonymous" />
+	</Fragment>
+
+	<h1 class="visually-hidden">{t('site.name')}: {t('site.tagline')}</h1>
+
+	<MapApp client:only="react" lang={lang}>
+		<!-- Shown until the map app loads, and to visitors without JavaScript. -->
+		<main slot="fallback" class="fallback">
+			<p class="fallback__brand">{t('site.name')}</p>
+			<p class="fallback__tagline">{t('site.tagline')}</p>
+			<h2>{t('site.groupsHeading')}</h2>
+			{
+				groups.length === 0 ? (
+					<p>{t('site.noGroups')}</p>
+				) : (
+					<ul>
+						{groups.map((g) => (
+							<li>
+								<a href={`/?group=${g.id}`}>{g.name}</a>: {g.areas.map((a) => `${a.name} (${a.state})`).join(', ')}
+							</li>
+						))}
+					</ul>
+				)
+			}
+			<p class="fallback__note">{t('site.notOwnership')}</p>
+		</main>
+	</MapApp>
 </Base>
 
 <style>
-	main {
+	.fallback {
 		max-width: 40rem;
 		margin: 0 auto;
-		padding: 3rem 1rem;
+		padding: 2rem 1rem;
+	}
+	.fallback__brand {
+		font-family: var(--font-display);
+		font-weight: 700;
+		font-size: 1.5rem;
+		margin: 0;
+	}
+	.fallback__tagline {
+		font-size: 1.25rem;
+		margin: 0.5rem 0 2rem;
+	}
+	.fallback h2 {
+		font-size: 1.125rem;
+		margin-bottom: 0.5rem;
+	}
+	.fallback__note {
+		color: var(--ink-muted);
+		font-size: 0.875rem;
 	}
 </style>

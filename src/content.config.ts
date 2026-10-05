@@ -1,0 +1,95 @@
+// The data model. Every claim the site makes carries at least one source and a
+// confidence level, and nothing reaches the public build until its status is
+// `published` (see src/lib/groups.ts). A bad reference fails the build.
+
+import { defineCollection, reference } from 'astro:content';
+import { file, glob } from 'astro/loaders';
+import { z } from 'astro/zod';
+import lgaIndex from './data/lgas.json';
+
+const lgaIds = lgaIndex.map((lga) => lga.id) as [string, ...string[]];
+const lga = z.enum(lgaIds);
+
+/** high: well attested. medium: one source, approximate, or not yet checked directly. disputed: sources disagree. */
+const confidence = z.enum(['high', 'medium', 'disputed']);
+
+/** Attached to every claim. */
+const evidence = {
+	sources: z.array(reference('sources')).min(1),
+	confidence,
+	note: z.string().optional(),
+};
+
+const sources = defineCollection({
+	loader: file('data/sources.json'),
+	schema: z.object({
+		title: z.string(),
+		author: z.string().optional(),
+		year: z.number().int().optional(),
+		publisher: z.string().optional(),
+		url: z.url().optional(),
+		kind: z.enum(['book', 'article', 'dataset', 'reference', 'web']),
+		licence: z.string().optional(),
+		accessed: z.iso.date().optional(),
+		/** false when the compiler has only seen this source cited elsewhere. */
+		checked: z.boolean(),
+	}),
+});
+
+const families = defineCollection({
+	loader: file('data/families.json'),
+	schema: z.object({
+		name: z.string(),
+		/** Broadest first, ending with this family. */
+		lineage: z.array(z.string()).min(1),
+		...evidence,
+	}),
+});
+
+const groups = defineCollection({
+	loader: glob({ pattern: '*.json', base: 'data/groups' }),
+	schema: z
+		.object({
+			name: z.string(),
+			/** draft: compiled, not checked. reviewed: owner checked. published: live on the public site. */
+			status: z.enum(['draft', 'reviewed', 'published']),
+			/** Other spellings people type. Search help only, not a claim. */
+			searchAliases: z.array(z.string()).default([]),
+			language: z.object({
+				name: z.string(),
+				iso639_3: z.string().length(3).optional(),
+				glottocode: z.string().optional(),
+				family: reference('families'),
+				...evidence,
+			}),
+			summary: z.object({ text: z.string(), ...evidence }),
+			ruler: z.object({ title: z.string(), seat: lga.optional(), ...evidence }).optional(),
+			areas: z
+				.array(
+					z.object({
+						lga,
+						/** core: homeland, the group is the majority. significant: a large share of a mixed LGA. minority: present but small. */
+						presence: z.enum(['core', 'significant', 'minority']),
+						...evidence,
+					}),
+				)
+				.min(1),
+			enclaves: z
+				.array(
+					z.object({
+						name: z.string(),
+						lga,
+						/** [longitude, latitude]. Leave out when unknown; the map then places it approximately inside its LGA. */
+						point: z.tuple([z.number(), z.number()]).optional(),
+						...evidence,
+					}),
+				)
+				.default([]),
+			reviewNotes: z.array(z.string()).default([]),
+		})
+		.refine((g) => new Set(g.areas.map((a) => a.lga)).size === g.areas.length, {
+			message: 'An LGA is listed twice in areas',
+		}),
+});
+
+export const collections = { sources, families, groups };

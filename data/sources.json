@@ -1,0 +1,71 @@
+[
+	{
+		"id": "grid3-lga-boundaries",
+		"title": "GRID3 Nigeria Local Government Area Boundaries (via geoBoundaries gbOpen NGA ADM2, 2022)",
+		"author": "GRID3; geoBoundaries (William & Mary geoLab)",
+		"year": 2023,
+		"url": "https://data.grid3.org/datasets/grid3-nigeria-local-government-area-boundaries-1",
+		"kind": "dataset",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-05",
+		"checked": true
+	},
+	{
+		"id": "natural-earth",
+		"title": "Natural Earth 1:10m rivers, lake centerlines and lakes",
+		"author": "Natural Earth",
+		"url": "https://www.naturalearthdata.com/",
+		"kind": "dataset",
+		"licence": "Public domain",
+		"accessed": "2026-10-05",
+		"checked": true
+	},
+	{
+		"id": "openstreetmap",
+		"title": "OpenStreetMap place data",
+		"author": "OpenStreetMap contributors",
+		"url": "https://www.openstreetmap.org/",
+		"kind": "dataset",
+		"licence": "ODbL 1.0",
+		"accessed": "2026-10-05",
+		"checked": true
+	},
+	{
+		"id": "glottolog-igala",
+		"title": "Glottolog: Igala (igal1242)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/igal1242",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-05",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-igala-people",
+		"title": "Igala people",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Igala_people",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-05",
+		"checked": true
+	},
+	{
+		"id": "boston-1968",
+		"title": "The Igala Kingdom",
+		"author": "Boston, J. S.",
+		"year": 1968,
+		"publisher": "Oxford University Press for the Nigerian Institute of Social and Economic Research, Ibadan",
+		"kind": "book",
+		"checked": false
+	},
+	{
+		"id": "negedu-2014",
+		"title": "The Igala traditional religious belief system: Between monotheism and polytheism. Ogirisi: A New Journal of African Studies 10(1)",
+		"author": "Negedu, I. A.",
+		"year": 2014,
+		"url": "https://doi.org/10.4314/og.v10i1.7",
+		"kind": "article",
+		"checked": false
+	}
+]

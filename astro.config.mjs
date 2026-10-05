@@ -1,5 +1,6 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
+import react from '@astrojs/react';
 
 // https://astro.build/config
 export default defineConfig({
@@ -12,5 +13,10 @@ export default defineConfig({
 		routing: {
 			prefixDefaultLocale: false,
 		},
+	},
+	integrations: [react()],
+	vite: {
+		// MapLibre 6 runs its worker as an ES module.
+		worker: { format: 'es' },
 	},
 });

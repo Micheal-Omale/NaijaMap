@@ -1,0 +1,77 @@
+{
+	"name": "Igala",
+	"status": "draft",
+	"searchAliases": ["Igara", "Igalla", "Igalaa", "Anẹ Igala"],
+	"language": {
+		"name": "Igala",
+		"iso639_3": "igl",
+		"glottocode": "igal1242",
+		"family": "yoruboid",
+		"sources": ["glottolog-igala"],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Igala live mainly in southern and eastern Kogi State, in the angle where the Niger and Benue rivers meet. Their historic capital is Idah, on the Niger, seat of the Attah Igala, ruler of the Igala Kingdom.",
+		"sources": ["wikipedia-igala-people", "boston-1968", "negedu-2014"],
+		"confidence": "high"
+	},
+	"ruler": {
+		"title": "Attah Igala",
+		"seat": "kogi-idah",
+		"sources": ["wikipedia-igala-people", "boston-1968"],
+		"confidence": "high"
+	},
+	"areas": [
+		{ "lga": "kogi-idah", "presence": "core", "sources": ["wikipedia-igala-people"], "confidence": "high" },
+		{ "lga": "kogi-igalamela-odolu", "presence": "core", "sources": ["wikipedia-igala-people"], "confidence": "high" },
+		{ "lga": "kogi-ibaji", "presence": "core", "sources": ["wikipedia-igala-people"], "confidence": "high" },
+		{ "lga": "kogi-ofu", "presence": "core", "sources": ["wikipedia-igala-people"], "confidence": "high" },
+		{ "lga": "kogi-dekina", "presence": "core", "sources": ["wikipedia-igala-people"], "confidence": "high" },
+		{ "lga": "kogi-ankpa", "presence": "core", "sources": ["wikipedia-igala-people"], "confidence": "high" },
+		{ "lga": "kogi-omala", "presence": "core", "sources": ["wikipedia-igala-people"], "confidence": "high" },
+		{ "lga": "kogi-olamaboro", "presence": "core", "sources": ["wikipedia-igala-people"], "confidence": "high" },
+		{
+			"lga": "kogi-bassa",
+			"presence": "significant",
+			"sources": ["wikipedia-igala-people"],
+			"confidence": "medium",
+			"note": "A mixed LGA. Other groups, including the Bassa, also live here."
+		},
+		{
+			"lga": "kogi-ajaokuta",
+			"presence": "significant",
+			"sources": ["wikipedia-igala-people"],
+			"confidence": "medium",
+			"note": "A mixed LGA, shared with Ebira communities."
+		},
+		{
+			"lga": "kogi-lokoja",
+			"presence": "minority",
+			"sources": ["wikipedia-igala-people"],
+			"confidence": "medium",
+			"note": "Wikipedia names Iyelen in Lokoja LGA. Lokoja is a mixed LGA."
+		}
+	],
+	"enclaves": [
+		{
+			"name": "Ebu",
+			"lga": "delta-oshimili-north",
+			"sources": ["glottolog-igala"],
+			"confidence": "medium",
+			"note": "Glottolog lists Ebu as a dialect of Igala. The point is placed approximately inside Oshimili North LGA until the exact town position is checked."
+		},
+		{
+			"name": "Ogurugu",
+			"lga": "enugu-uzo-uwani",
+			"point": [6.9518, 6.7835],
+			"sources": ["wikipedia-igala-people", "openstreetmap"],
+			"confidence": "medium",
+			"note": "Wikipedia says Igala minorities are native to Enugu State but does not name Ogurugu. Needs a direct source."
+		}
+	],
+	"reviewNotes": [
+		"The LGA list rests on Wikipedia, which flags it as needing a citation. Add a primary source (for example Boston 1968 or a Kogi State source) before publishing.",
+		"Wikipedia also says Igala minorities are native to Edo and Anambra states. No specific towns are listed yet.",
+		"Boston 1968 and Negedu 2014 are cited through Wikipedia and have not been checked directly."
+	]
+}

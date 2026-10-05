@@ -1,0 +1,9 @@
+[
+	{
+		"id": "yoruboid",
+		"name": "Yoruboid",
+		"lineage": ["Atlantic-Congo", "Volta-Congo", "Benue-Congo", "Defoid", "Yoruboid"],
+		"sources": ["glottolog-igala"],
+		"confidence": "high"
+	}
+]

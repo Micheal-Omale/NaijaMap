@@ -1,0 +1,7742 @@
+[
+	{
+		"id": "abia-aba-north",
+		"name": "Aba North",
+		"state": "Abia",
+		"stateId": "abia",
+		"point": [
+			7.3625,
+			5.1195
+		]
+	},
+	{
+		"id": "abia-aba-south",
+		"name": "Aba South",
+		"state": "Abia",
+		"stateId": "abia",
+		"point": [
+			7.35,
+			5.0755
+		]
+	},
+	{
+		"id": "abia-arochukwu",
+		"name": "Arochukwu",
+		"state": "Abia",
+		"stateId": "abia",
+		"point": [
+			7.8625,
+			5.464
+		]
+	},
+	{
+		"id": "abia-bende",
+		"name": "Bende",
+		"state": "Abia",
+		"stateId": "abia",
+		"point": [
+			7.6145,
+			5.724
+		]
+	},
+	{
+		"id": "abia-ikwuano",
+		"name": "Ikwuano",
+		"state": "Abia",
+		"stateId": "abia",
+		"point": [
+			7.5755,
+			5.402
+		]
+	},
+	{
+		"id": "abia-isiala-ngwa-north",
+		"name": "Isiala-Ngwa North",
+		"state": "Abia",
+		"stateId": "abia",
+		"point": [
+			7.419,
+			5.384
+		]
+	},
+	{
+		"id": "abia-isiala-ngwa-south",
+		"name": "Isiala-Ngwa South",
+		"state": "Abia",
+		"stateId": "abia",
+		"point": [
+			7.4255,
+			5.2805
+		]
+	},
+	{
+		"id": "abia-isuikwuato",
+		"name": "Isuikwuato",
+		"state": "Abia",
+		"stateId": "abia",
+		"point": [
+			7.4705,
+			5.7855
+		]
+	},
+	{
+		"id": "abia-obi-nwga",
+		"name": "Obi Nwga",
+		"state": "Abia",
+		"stateId": "abia",
+		"point": [
+			7.463,
+			5.1555
+		]
+	},
+	{
+		"id": "abia-ohafia",
+		"name": "Ohafia",
+		"state": "Abia",
+		"stateId": "abia",
+		"point": [
+			7.809,
+			5.667
+		]
+	},
+	{
+		"id": "abia-osisioma-ngwa",
+		"name": "Osisioma Ngwa",
+		"state": "Abia",
+		"stateId": "abia",
+		"point": [
+			7.329,
+			5.1825
+		]
+	},
+	{
+		"id": "abia-ugwunagbo",
+		"name": "Ugwunagbo",
+		"state": "Abia",
+		"stateId": "abia",
+		"point": [
+			7.3805,
+			5.016
+		]
+	},
+	{
+		"id": "abia-ukwa-east",
+		"name": "Ukwa East",
+		"state": "Abia",
+		"stateId": "abia",
+		"point": [
+			7.429,
+			4.9315
+		]
+	},
+	{
+		"id": "abia-ukwa-west",
+		"name": "Ukwa West",
+		"state": "Abia",
+		"stateId": "abia",
+		"point": [
+			7.2545,
+			4.934
+		]
+	},
+	{
+		"id": "abia-umu-nneochi",
+		"name": "Umu-Nneochi",
+		"state": "Abia",
+		"stateId": "abia",
+		"point": [
+			7.3855,
+			5.961
+		]
+	},
+	{
+		"id": "abia-umuahia-north",
+		"name": "Umuahia North",
+		"state": "Abia",
+		"stateId": "abia",
+		"point": [
+			7.4875,
+			5.5835
+		]
+	},
+	{
+		"id": "abia-umuahia-south",
+		"name": "Umuahia South",
+		"state": "Abia",
+		"stateId": "abia",
+		"point": [
+			7.4335,
+			5.481
+		]
+	},
+	{
+		"id": "adamawa-demsa",
+		"name": "Demsa",
+		"state": "Adamawa",
+		"stateId": "adamawa",
+		"point": [
+			12.1465,
+			9.4785
+		]
+	},
+	{
+		"id": "adamawa-fufore",
+		"name": "Fufore",
+		"state": "Adamawa",
+		"stateId": "adamawa",
+		"point": [
+			12.755,
+			9.1945
+		]
+	},
+	{
+		"id": "adamawa-ganye",
+		"name": "Ganye",
+		"state": "Adamawa",
+		"stateId": "adamawa",
+		"point": [
+			11.962,
+			8.373
+		]
+	},
+	{
+		"id": "adamawa-girei",
+		"name": "Girei",
+		"state": "Adamawa",
+		"stateId": "adamawa",
+		"point": [
+			12.4565,
+			9.443
+		]
+	},
+	{
+		"id": "adamawa-gombi",
+		"name": "Gombi",
+		"state": "Adamawa",
+		"stateId": "adamawa",
+		"point": [
+			12.4695,
+			10.1915
+		]
+	},
+	{
+		"id": "adamawa-guyuk",
+		"name": "Guyuk",
+		"state": "Adamawa",
+		"stateId": "adamawa",
+		"point": [
+			11.919,
+			9.848
+		]
+	},
+	{
+		"id": "adamawa-hong",
+		"name": "Hong",
+		"state": "Adamawa",
+		"stateId": "adamawa",
+		"point": [
+			12.945,
+			10.3075
+		]
+	},
+	{
+		"id": "adamawa-jada",
+		"name": "Jada",
+		"state": "Adamawa",
+		"stateId": "adamawa",
+		"point": [
+			12.4385,
+			8.628
+		]
+	},
+	{
+		"id": "adamawa-lamurde",
+		"name": "Lamurde",
+		"state": "Adamawa",
+		"stateId": "adamawa",
+		"point": [
+			11.7185,
+			9.583
+		]
+	},
+	{
+		"id": "adamawa-madagali",
+		"name": "Madagali",
+		"state": "Adamawa",
+		"stateId": "adamawa",
+		"point": [
+			13.5245,
+			10.808
+		]
+	},
+	{
+		"id": "adamawa-maiha",
+		"name": "Maiha",
+		"state": "Adamawa",
+		"stateId": "adamawa",
+		"point": [
+			13.153,
+			9.851
+		]
+	},
+	{
+		"id": "adamawa-mayo-belwa",
+		"name": "Mayo-Belwa",
+		"state": "Adamawa",
+		"stateId": "adamawa",
+		"point": [
+			11.9475,
+			9.0365
+		]
+	},
+	{
+		"id": "adamawa-michika",
+		"name": "Michika",
+		"state": "Adamawa",
+		"stateId": "adamawa",
+		"point": [
+			13.421,
+			10.591
+		]
+	},
+	{
+		"id": "adamawa-mubi-north",
+		"name": "Mubi North",
+		"state": "Adamawa",
+		"stateId": "adamawa",
+		"point": [
+			13.3575,
+			10.3655
+		]
+	},
+	{
+		"id": "adamawa-mubi-south",
+		"name": "Mubi South",
+		"state": "Adamawa",
+		"stateId": "adamawa",
+		"point": [
+			13.3085,
+			10.1795
+		]
+	},
+	{
+		"id": "adamawa-numan",
+		"name": "Numan",
+		"state": "Adamawa",
+		"stateId": "adamawa",
+		"point": [
+			11.767,
+			9.4385
+		]
+	},
+	{
+		"id": "adamawa-shelleng",
+		"name": "Shelleng",
+		"state": "Adamawa",
+		"stateId": "adamawa",
+		"point": [
+			12.105,
+			9.895
+		]
+	},
+	{
+		"id": "adamawa-song",
+		"name": "Song",
+		"state": "Adamawa",
+		"stateId": "adamawa",
+		"point": [
+			12.622,
+			9.8215
+		]
+	},
+	{
+		"id": "adamawa-toungo",
+		"name": "Toungo",
+		"state": "Adamawa",
+		"stateId": "adamawa",
+		"point": [
+			11.846,
+			7.992
+		]
+	},
+	{
+		"id": "adamawa-yola-north",
+		"name": "Yola North",
+		"state": "Adamawa",
+		"stateId": "adamawa",
+		"point": [
+			12.4495,
+			9.25
+		]
+	},
+	{
+		"id": "adamawa-yola-south",
+		"name": "Yola South",
+		"state": "Adamawa",
+		"stateId": "adamawa",
+		"point": [
+			12.319,
+			9.318
+		]
+	},
+	{
+		"id": "akwa-ibom-abak",
+		"name": "Abak",
+		"state": "Akwa Ibom",
+		"stateId": "akwa-ibom",
+		"point": [
+			7.783,
+			5.0275
+		]
+	},
+	{
+		"id": "akwa-ibom-eastern-obolo",
+		"name": "Eastern Obolo",
+		"state": "Akwa Ibom",
+		"stateId": "akwa-ibom",
+		"point": [
+			7.633,
+			4.518
+		]
+	},
+	{
+		"id": "akwa-ibom-eket",
+		"name": "Eket",
+		"state": "Akwa Ibom",
+		"stateId": "akwa-ibom",
+		"point": [
+			7.943,
+			4.644
+		]
+	},
+	{
+		"id": "akwa-ibom-esit-eket",
+		"name": "Esit Eket",
+		"state": "Akwa Ibom",
+		"stateId": "akwa-ibom",
+		"point": [
+			8.078,
+			4.6435
+		]
+	},
+	{
+		"id": "akwa-ibom-essien-udim",
+		"name": "Essien Udim",
+		"state": "Akwa Ibom",
+		"stateId": "akwa-ibom",
+		"point": [
+			7.649,
+			5.1075
+		]
+	},
+	{
+		"id": "akwa-ibom-etim-ekpo",
+		"name": "Etim Ekpo",
+		"state": "Akwa Ibom",
+		"stateId": "akwa-ibom",
+		"point": [
+			7.619,
+			4.984
+		]
+	},
+	{
+		"id": "akwa-ibom-etinan",
+		"name": "Etinan",
+		"state": "Akwa Ibom",
+		"stateId": "akwa-ibom",
+		"point": [
+			7.838,
+			4.787
+		]
+	},
+	{
+		"id": "akwa-ibom-ibeno",
+		"name": "Ibeno",
+		"state": "Akwa Ibom",
+		"stateId": "akwa-ibom",
+		"point": [
+			8.0545,
+			4.57
+		]
+	},
+	{
+		"id": "akwa-ibom-ibesikpo-asutan",
+		"name": "Ibesikpo Asutan",
+		"state": "Akwa Ibom",
+		"stateId": "akwa-ibom",
+		"point": [
+			7.9565,
+			4.9115
+		]
+	},
+	{
+		"id": "akwa-ibom-ibiono-ibom",
+		"name": "Ibiono Ibom",
+		"state": "Akwa Ibom",
+		"stateId": "akwa-ibom",
+		"point": [
+			7.8995,
+			5.19
+		]
+	},
+	{
+		"id": "akwa-ibom-ika",
+		"name": "Ika",
+		"state": "Akwa Ibom",
+		"stateId": "akwa-ibom",
+		"point": [
+			7.546,
+			5.0125
+		]
+	},
+	{
+		"id": "akwa-ibom-ikono",
+		"name": "Ikono",
+		"state": "Akwa Ibom",
+		"stateId": "akwa-ibom",
+		"point": [
+			7.8045,
+			5.193
+		]
+	},
+	{
+		"id": "akwa-ibom-ikot-abasi",
+		"name": "Ikot Abasi",
+		"state": "Akwa Ibom",
+		"stateId": "akwa-ibom",
+		"point": [
+			7.623,
+			4.611
+		]
+	},
+	{
+		"id": "akwa-ibom-ikot-ekpene",
+		"name": "Ikot Ekpene",
+		"state": "Akwa Ibom",
+		"stateId": "akwa-ibom",
+		"point": [
+			7.7135,
+			5.2035
+		]
+	},
+	{
+		"id": "akwa-ibom-ini",
+		"name": "Ini",
+		"state": "Akwa Ibom",
+		"stateId": "akwa-ibom",
+		"point": [
+			7.7525,
+			5.3835
+		]
+	},
+	{
+		"id": "akwa-ibom-itu",
+		"name": "Itu",
+		"state": "Akwa Ibom",
+		"stateId": "akwa-ibom",
+		"point": [
+			8.007,
+			5.1595
+		]
+	},
+	{
+		"id": "akwa-ibom-mbo",
+		"name": "Mbo",
+		"state": "Akwa Ibom",
+		"stateId": "akwa-ibom",
+		"point": [
+			8.254,
+			4.6445
+		]
+	},
+	{
+		"id": "akwa-ibom-mkpat-enin",
+		"name": "Mkpat Enin",
+		"state": "Akwa Ibom",
+		"stateId": "akwa-ibom",
+		"point": [
+			7.754,
+			4.718
+		]
+	},
+	{
+		"id": "akwa-ibom-nsit-atai",
+		"name": "Nsit Atai",
+		"state": "Akwa Ibom",
+		"stateId": "akwa-ibom",
+		"point": [
+			8.0345,
+			4.8255
+		]
+	},
+	{
+		"id": "akwa-ibom-nsit-ibom",
+		"name": "Nsit Ibom",
+		"state": "Akwa Ibom",
+		"stateId": "akwa-ibom",
+		"point": [
+			7.878,
+			4.9245
+		]
+	},
+	{
+		"id": "akwa-ibom-nsit-ubium",
+		"name": "Nsit Ubium",
+		"state": "Akwa Ibom",
+		"stateId": "akwa-ibom",
+		"point": [
+			7.954,
+			4.761
+		]
+	},
+	{
+		"id": "akwa-ibom-obot-akara",
+		"name": "Obot Akara",
+		"state": "Akwa Ibom",
+		"stateId": "akwa-ibom",
+		"point": [
+			7.6095,
+			5.2605
+		]
+	},
+	{
+		"id": "akwa-ibom-okobo",
+		"name": "Okobo",
+		"state": "Akwa Ibom",
+		"stateId": "akwa-ibom",
+		"point": [
+			8.14,
+			4.8415
+		]
+	},
+	{
+		"id": "akwa-ibom-onna",
+		"name": "Onna",
+		"state": "Akwa Ibom",
+		"stateId": "akwa-ibom",
+		"point": [
+			7.8515,
+			4.6255
+		]
+	},
+	{
+		"id": "akwa-ibom-oron",
+		"name": "Oron",
+		"state": "Akwa Ibom",
+		"stateId": "akwa-ibom",
+		"point": [
+			8.2455,
+			4.829
+		]
+	},
+	{
+		"id": "akwa-ibom-oruk-anam",
+		"name": "Oruk Anam",
+		"state": "Akwa Ibom",
+		"stateId": "akwa-ibom",
+		"point": [
+			7.6395,
+			4.7495
+		]
+	},
+	{
+		"id": "akwa-ibom-udung-uko",
+		"name": "Udung Uko",
+		"state": "Akwa Ibom",
+		"stateId": "akwa-ibom",
+		"point": [
+			8.253,
+			4.748
+		]
+	},
+	{
+		"id": "akwa-ibom-ukanafun",
+		"name": "Ukanafun",
+		"state": "Akwa Ibom",
+		"stateId": "akwa-ibom",
+		"point": [
+			7.6,
+			4.8885
+		]
+	},
+	{
+		"id": "akwa-ibom-uruan",
+		"name": "Uruan",
+		"state": "Akwa Ibom",
+		"stateId": "akwa-ibom",
+		"point": [
+			8.0705,
+			4.994
+		]
+	},
+	{
+		"id": "akwa-ibom-urue-offong-oruko",
+		"name": "Urue Offong/Oruko",
+		"state": "Akwa Ibom",
+		"stateId": "akwa-ibom",
+		"point": [
+			8.16,
+			4.7265
+		]
+	},
+	{
+		"id": "akwa-ibom-uyo",
+		"name": "Uyo",
+		"state": "Akwa Ibom",
+		"stateId": "akwa-ibom",
+		"point": [
+			7.9515,
+			5.029
+		]
+	},
+	{
+		"id": "anambra-aguata",
+		"name": "Aguata",
+		"state": "Anambra",
+		"stateId": "anambra",
+		"point": [
+			7.092,
+			5.981
+		]
+	},
+	{
+		"id": "anambra-anambra-east",
+		"name": "Anambra East",
+		"state": "Anambra",
+		"stateId": "anambra",
+		"point": [
+			6.869,
+			6.6225
+		]
+	},
+	{
+		"id": "anambra-anambra-west",
+		"name": "Anambra West",
+		"state": "Anambra",
+		"stateId": "anambra",
+		"point": [
+			6.7655,
+			6.42
+		]
+	},
+	{
+		"id": "anambra-anaocha",
+		"name": "Anaocha",
+		"state": "Anambra",
+		"stateId": "anambra",
+		"point": [
+			7.0165,
+			6.088
+		]
+	},
+	{
+		"id": "anambra-awka-north",
+		"name": "Awka North",
+		"state": "Anambra",
+		"stateId": "anambra",
+		"point": [
+			7.06,
+			6.3405
+		]
+	},
+	{
+		"id": "anambra-awka-south",
+		"name": "Awka South",
+		"state": "Anambra",
+		"stateId": "anambra",
+		"point": [
+			7.0765,
+			6.1905
+		]
+	},
+	{
+		"id": "anambra-ayamelum",
+		"name": "Ayamelum",
+		"state": "Anambra",
+		"stateId": "anambra",
+		"point": [
+			6.9925,
+			6.5695
+		]
+	},
+	{
+		"id": "anambra-dunukofia",
+		"name": "Dunukofia",
+		"state": "Anambra",
+		"stateId": "anambra",
+		"point": [
+			6.9825,
+			6.2465
+		]
+	},
+	{
+		"id": "anambra-ekwusigo",
+		"name": "Ekwusigo",
+		"state": "Anambra",
+		"stateId": "anambra",
+		"point": [
+			6.8365,
+			5.988
+		]
+	},
+	{
+		"id": "anambra-idemili-north",
+		"name": "Idemili North",
+		"state": "Anambra",
+		"stateId": "anambra",
+		"point": [
+			6.8735,
+			6.1155
+		]
+	},
+	{
+		"id": "anambra-idemili-south",
+		"name": "Idemili South",
+		"state": "Anambra",
+		"stateId": "anambra",
+		"point": [
+			6.9325,
+			6.0715
+		]
+	},
+	{
+		"id": "anambra-ihiala",
+		"name": "Ihiala",
+		"state": "Anambra",
+		"stateId": "anambra",
+		"point": [
+			6.857,
+			5.854
+		]
+	},
+	{
+		"id": "anambra-njikoka",
+		"name": "Njikoka",
+		"state": "Anambra",
+		"stateId": "anambra",
+		"point": [
+			6.9895,
+			6.163
+		]
+	},
+	{
+		"id": "anambra-nnewi-north",
+		"name": "Nnewi North",
+		"state": "Anambra",
+		"stateId": "anambra",
+		"point": [
+			6.9055,
+			6.013
+		]
+	},
+	{
+		"id": "anambra-nnewi-south",
+		"name": "Nnewi South",
+		"state": "Anambra",
+		"stateId": "anambra",
+		"point": [
+			6.975,
+			5.944
+		]
+	},
+	{
+		"id": "anambra-ogbaru",
+		"name": "Ogbaru",
+		"state": "Anambra",
+		"stateId": "anambra",
+		"point": [
+			6.709,
+			5.832
+		]
+	},
+	{
+		"id": "anambra-onitsha-north",
+		"name": "Onitsha North",
+		"state": "Anambra",
+		"stateId": "anambra",
+		"point": [
+			6.7975,
+			6.164
+		]
+	},
+	{
+		"id": "anambra-onitsha-south",
+		"name": "Onitsha South",
+		"state": "Anambra",
+		"stateId": "anambra",
+		"point": [
+			6.77,
+			6.141
+		]
+	},
+	{
+		"id": "anambra-orumba-north",
+		"name": "Orumba North",
+		"state": "Anambra",
+		"stateId": "anambra",
+		"point": [
+			7.162,
+			6.1115
+		]
+	},
+	{
+		"id": "anambra-orumba-south",
+		"name": "Orumba South",
+		"state": "Anambra",
+		"stateId": "anambra",
+		"point": [
+			7.2185,
+			6.0005
+		]
+	},
+	{
+		"id": "anambra-oyi",
+		"name": "Oyi",
+		"state": "Anambra",
+		"stateId": "anambra",
+		"point": [
+			6.888,
+			6.2125
+		]
+	},
+	{
+		"id": "bauchi-alkaleri",
+		"name": "Alkaleri",
+		"state": "Bauchi",
+		"stateId": "bauchi",
+		"point": [
+			10.4805,
+			9.8725
+		]
+	},
+	{
+		"id": "bauchi-bauchi",
+		"name": "Bauchi",
+		"state": "Bauchi",
+		"stateId": "bauchi",
+		"point": [
+			9.896,
+			10.178
+		]
+	},
+	{
+		"id": "bauchi-bogoro",
+		"name": "Bogoro",
+		"state": "Bauchi",
+		"stateId": "bauchi",
+		"point": [
+			9.6175,
+			9.636
+		]
+	},
+	{
+		"id": "bauchi-dambam",
+		"name": "Dambam",
+		"state": "Bauchi",
+		"stateId": "bauchi",
+		"point": [
+			10.78,
+			11.625
+		]
+	},
+	{
+		"id": "bauchi-darazo",
+		"name": "Darazo",
+		"state": "Bauchi",
+		"stateId": "bauchi",
+		"point": [
+			10.5305,
+			11.0955
+		]
+	},
+	{
+		"id": "bauchi-dass",
+		"name": "Dass",
+		"state": "Bauchi",
+		"stateId": "bauchi",
+		"point": [
+			9.4875,
+			10.006
+		]
+	},
+	{
+		"id": "bauchi-gamawa",
+		"name": "Gamawa",
+		"state": "Bauchi",
+		"stateId": "bauchi",
+		"point": [
+			10.612,
+			12.0365
+		]
+	},
+	{
+		"id": "bauchi-ganjuwa",
+		"name": "Ganjuwa",
+		"state": "Bauchi",
+		"stateId": "bauchi",
+		"point": [
+			10.01,
+			10.7285
+		]
+	},
+	{
+		"id": "bauchi-giade",
+		"name": "Giade",
+		"state": "Bauchi",
+		"stateId": "bauchi",
+		"point": [
+			10.229,
+			11.371
+		]
+	},
+	{
+		"id": "bauchi-itas-gadau",
+		"name": "Itas/Gadau",
+		"state": "Bauchi",
+		"stateId": "bauchi",
+		"point": [
+			10.023,
+			11.867
+		]
+	},
+	{
+		"id": "bauchi-jama-are",
+		"name": "Jama'Are",
+		"state": "Bauchi",
+		"stateId": "bauchi",
+		"point": [
+			9.904,
+			11.6745
+		]
+	},
+	{
+		"id": "bauchi-katagum",
+		"name": "Katagum",
+		"state": "Bauchi",
+		"stateId": "bauchi",
+		"point": [
+			10.4415,
+			11.6235
+		]
+	},
+	{
+		"id": "bauchi-kirfi",
+		"name": "Kirfi",
+		"state": "Bauchi",
+		"stateId": "bauchi",
+		"point": [
+			10.5255,
+			10.409
+		]
+	},
+	{
+		"id": "bauchi-misau",
+		"name": "Misau",
+		"state": "Bauchi",
+		"stateId": "bauchi",
+		"point": [
+			10.485,
+			11.377
+		]
+	},
+	{
+		"id": "bauchi-ningi",
+		"name": "Ningi",
+		"state": "Bauchi",
+		"stateId": "bauchi",
+		"point": [
+			9.231,
+			11.03
+		]
+	},
+	{
+		"id": "bauchi-shira",
+		"name": "Shira",
+		"state": "Bauchi",
+		"stateId": "bauchi",
+		"point": [
+			10.0165,
+			11.466
+		]
+	},
+	{
+		"id": "bauchi-tafawa-balewa",
+		"name": "Tafawa-Balewa",
+		"state": "Bauchi",
+		"stateId": "bauchi",
+		"point": [
+			9.7215,
+			9.813
+		]
+	},
+	{
+		"id": "bauchi-toro",
+		"name": "Toro",
+		"state": "Bauchi",
+		"stateId": "bauchi",
+		"point": [
+			9.2245,
+			10.4085
+		]
+	},
+	{
+		"id": "bauchi-warji",
+		"name": "Warji",
+		"state": "Bauchi",
+		"stateId": "bauchi",
+		"point": [
+			9.7565,
+			11.142
+		]
+	},
+	{
+		"id": "bauchi-zaki",
+		"name": "Zaki",
+		"state": "Bauchi",
+		"stateId": "bauchi",
+		"point": [
+			10.3045,
+			12.0125
+		]
+	},
+	{
+		"id": "bayelsa-brass",
+		"name": "Brass",
+		"state": "Bayelsa",
+		"stateId": "bayelsa",
+		"point": [
+			6.471,
+			4.3715
+		]
+	},
+	{
+		"id": "bayelsa-ekeremor",
+		"name": "Ekeremor",
+		"state": "Bayelsa",
+		"stateId": "bayelsa",
+		"point": [
+			5.7455,
+			4.915
+		]
+	},
+	{
+		"id": "bayelsa-kolokuma-opokuma",
+		"name": "Kolokuma/Opokuma",
+		"state": "Bayelsa",
+		"stateId": "bayelsa",
+		"point": [
+			6.2585,
+			5.102
+		]
+	},
+	{
+		"id": "bayelsa-nembe",
+		"name": "Nembe",
+		"state": "Bayelsa",
+		"stateId": "bayelsa",
+		"point": [
+			6.297,
+			4.507
+		]
+	},
+	{
+		"id": "bayelsa-ogbia",
+		"name": "Ogbia",
+		"state": "Bayelsa",
+		"stateId": "bayelsa",
+		"point": [
+			6.3265,
+			4.7675
+		]
+	},
+	{
+		"id": "bayelsa-sagbama",
+		"name": "Sagbama",
+		"state": "Bayelsa",
+		"stateId": "bayelsa",
+		"point": [
+			6.3455,
+			5.2455
+		]
+	},
+	{
+		"id": "bayelsa-southern-ijaw",
+		"name": "Southern Ijaw",
+		"state": "Bayelsa",
+		"stateId": "bayelsa",
+		"point": [
+			5.9195,
+			4.647
+		]
+	},
+	{
+		"id": "bayelsa-yenegoa",
+		"name": "Yenegoa",
+		"state": "Bayelsa",
+		"stateId": "bayelsa",
+		"point": [
+			6.3485,
+			5.004
+		]
+	},
+	{
+		"id": "benue-ado",
+		"name": "Ado",
+		"state": "Benue",
+		"stateId": "benue",
+		"point": [
+			7.9905,
+			6.8105
+		]
+	},
+	{
+		"id": "benue-agatu",
+		"name": "Agatu",
+		"state": "Benue",
+		"stateId": "benue",
+		"point": [
+			7.857,
+			7.8875
+		]
+	},
+	{
+		"id": "benue-apa",
+		"name": "Apa",
+		"state": "Benue",
+		"stateId": "benue",
+		"point": [
+			7.882,
+			7.622
+		]
+	},
+	{
+		"id": "benue-buruku",
+		"name": "Buruku",
+		"state": "Benue",
+		"stateId": "benue",
+		"point": [
+			9.2545,
+			7.3815
+		]
+	},
+	{
+		"id": "benue-gboko",
+		"name": "Gboko",
+		"state": "Benue",
+		"stateId": "benue",
+		"point": [
+			8.8095,
+			7.3565
+		]
+	},
+	{
+		"id": "benue-guma",
+		"name": "Guma",
+		"state": "Benue",
+		"stateId": "benue",
+		"point": [
+			8.776,
+			7.922
+		]
+	},
+	{
+		"id": "benue-gwer-east",
+		"name": "Gwer East",
+		"state": "Benue",
+		"stateId": "benue",
+		"point": [
+			8.4105,
+			7.3975
+		]
+	},
+	{
+		"id": "benue-gwer-west",
+		"name": "Gwer West",
+		"state": "Benue",
+		"stateId": "benue",
+		"point": [
+			8.2115,
+			7.632
+		]
+	},
+	{
+		"id": "benue-katsina-ala",
+		"name": "Katsina-Ala",
+		"state": "Benue",
+		"stateId": "benue",
+		"point": [
+			9.5635,
+			7.2435
+		]
+	},
+	{
+		"id": "benue-konshisha",
+		"name": "Konshisha",
+		"state": "Benue",
+		"stateId": "benue",
+		"point": [
+			8.704,
+			7.0475
+		]
+	},
+	{
+		"id": "benue-kwande",
+		"name": "Kwande",
+		"state": "Benue",
+		"stateId": "benue",
+		"point": [
+			9.445,
+			6.807
+		]
+	},
+	{
+		"id": "benue-logo",
+		"name": "Logo",
+		"state": "Benue",
+		"stateId": "benue",
+		"point": [
+			9.3405,
+			7.617
+		]
+	},
+	{
+		"id": "benue-makurdi",
+		"name": "Makurdi",
+		"state": "Benue",
+		"stateId": "benue",
+		"point": [
+			8.543,
+			7.708
+		]
+	},
+	{
+		"id": "benue-obi",
+		"name": "Obi",
+		"state": "Benue",
+		"stateId": "benue",
+		"point": [
+			8.31,
+			7.007
+		]
+	},
+	{
+		"id": "benue-ogbadibo",
+		"name": "Ogbadibo",
+		"state": "Benue",
+		"stateId": "benue",
+		"point": [
+			7.675,
+			7.0275
+		]
+	},
+	{
+		"id": "benue-ohimini",
+		"name": "Ohimini",
+		"state": "Benue",
+		"stateId": "benue",
+		"point": [
+			7.9355,
+			7.251
+		]
+	},
+	{
+		"id": "benue-oju",
+		"name": "Oju",
+		"state": "Benue",
+		"stateId": "benue",
+		"point": [
+			8.4155,
+			6.8415
+		]
+	},
+	{
+		"id": "benue-okpokwu",
+		"name": "Okpokwu",
+		"state": "Benue",
+		"stateId": "benue",
+		"point": [
+			7.862,
+			7.028
+		]
+	},
+	{
+		"id": "benue-oturkpo",
+		"name": "Oturkpo",
+		"state": "Benue",
+		"stateId": "benue",
+		"point": [
+			8.1595,
+			7.1275
+		]
+	},
+	{
+		"id": "benue-tarka",
+		"name": "Tarka",
+		"state": "Benue",
+		"stateId": "benue",
+		"point": [
+			8.8685,
+			7.6015
+		]
+	},
+	{
+		"id": "benue-ukum",
+		"name": "Ukum",
+		"state": "Benue",
+		"stateId": "benue",
+		"point": [
+			9.623,
+			7.6065
+		]
+	},
+	{
+		"id": "benue-ushongo",
+		"name": "Ushongo",
+		"state": "Benue",
+		"stateId": "benue",
+		"point": [
+			8.9545,
+			7.149
+		]
+	},
+	{
+		"id": "benue-vandeikya",
+		"name": "Vandeikya",
+		"state": "Benue",
+		"stateId": "benue",
+		"point": [
+			9.0915,
+			6.799
+		]
+	},
+	{
+		"id": "borno-abadam",
+		"name": "Abadam",
+		"state": "Borno",
+		"stateId": "borno",
+		"point": [
+			13.2555,
+			13.3355
+		]
+	},
+	{
+		"id": "borno-askira-uba",
+		"name": "Askira Uba",
+		"state": "Borno",
+		"stateId": "borno",
+		"point": [
+			13.1635,
+			10.7245
+		]
+	},
+	{
+		"id": "borno-bama",
+		"name": "Bama",
+		"state": "Borno",
+		"stateId": "borno",
+		"point": [
+			14.0055,
+			11.5185
+		]
+	},
+	{
+		"id": "borno-bayo",
+		"name": "Bayo",
+		"state": "Borno",
+		"stateId": "borno",
+		"point": [
+			11.7025,
+			10.3615
+		]
+	},
+	{
+		"id": "borno-biu",
+		"name": "Biu",
+		"state": "Borno",
+		"stateId": "borno",
+		"point": [
+			12.122,
+			10.847
+		]
+	},
+	{
+		"id": "borno-chibok",
+		"name": "Chibok",
+		"state": "Borno",
+		"stateId": "borno",
+		"point": [
+			12.856,
+			10.844
+		]
+	},
+	{
+		"id": "borno-damboa",
+		"name": "Damboa",
+		"state": "Borno",
+		"stateId": "borno",
+		"point": [
+			12.791,
+			11.141
+		]
+	},
+	{
+		"id": "borno-dikwa",
+		"name": "Dikwa",
+		"state": "Borno",
+		"stateId": "borno",
+		"point": [
+			14.0405,
+			11.908
+		]
+	},
+	{
+		"id": "borno-gubio",
+		"name": "Gubio",
+		"state": "Borno",
+		"stateId": "borno",
+		"point": [
+			12.7685,
+			12.658
+		]
+	},
+	{
+		"id": "borno-guzamala",
+		"name": "Guzamala",
+		"state": "Borno",
+		"stateId": "borno",
+		"point": [
+			13.112,
+			12.9375
+		]
+	},
+	{
+		"id": "borno-gwoza",
+		"name": "Gwoza",
+		"state": "Borno",
+		"stateId": "borno",
+		"point": [
+			13.532,
+			11.132
+		]
+	},
+	{
+		"id": "borno-hawul",
+		"name": "Hawul",
+		"state": "Borno",
+		"stateId": "borno",
+		"point": [
+			12.271,
+			10.469
+		]
+	},
+	{
+		"id": "borno-jere",
+		"name": "Jere",
+		"state": "Borno",
+		"stateId": "borno",
+		"point": [
+			13.1715,
+			11.963
+		]
+	},
+	{
+		"id": "borno-kaga",
+		"name": "Kaga",
+		"state": "Borno",
+		"stateId": "borno",
+		"point": [
+			12.544,
+			11.6175
+		]
+	},
+	{
+		"id": "borno-kala-balge",
+		"name": "Kala Balge",
+		"state": "Borno",
+		"stateId": "borno",
+		"point": [
+			14.4535,
+			11.8785
+		]
+	},
+	{
+		"id": "borno-konduga",
+		"name": "Konduga",
+		"state": "Borno",
+		"stateId": "borno",
+		"point": [
+			13.0435,
+			11.525
+		]
+	},
+	{
+		"id": "borno-kukawa",
+		"name": "Kukawa",
+		"state": "Borno",
+		"stateId": "borno",
+		"point": [
+			13.7185,
+			13.06
+		]
+	},
+	{
+		"id": "borno-kwaya-kusar",
+		"name": "Kwaya Kusar",
+		"state": "Borno",
+		"stateId": "borno",
+		"point": [
+			11.886,
+			10.4745
+		]
+	},
+	{
+		"id": "borno-mafa",
+		"name": "Mafa",
+		"state": "Borno",
+		"stateId": "borno",
+		"point": [
+			13.5495,
+			11.9845
+		]
+	},
+	{
+		"id": "borno-magumeri",
+		"name": "Magumeri",
+		"state": "Borno",
+		"stateId": "borno",
+		"point": [
+			12.6445,
+			12.207
+		]
+	},
+	{
+		"id": "borno-maiduguri",
+		"name": "Maiduguri",
+		"state": "Borno",
+		"stateId": "borno",
+		"point": [
+			13.132,
+			11.8335
+		]
+	},
+	{
+		"id": "borno-marte",
+		"name": "Marte",
+		"state": "Borno",
+		"stateId": "borno",
+		"point": [
+			13.8315,
+			12.386
+		]
+	},
+	{
+		"id": "borno-mobbar",
+		"name": "Mobbar",
+		"state": "Borno",
+		"stateId": "borno",
+		"point": [
+			12.694,
+			13.0985
+		]
+	},
+	{
+		"id": "borno-monguno",
+		"name": "Monguno",
+		"state": "Borno",
+		"stateId": "borno",
+		"point": [
+			13.633,
+			12.558
+		]
+	},
+	{
+		"id": "borno-ngala",
+		"name": "Ngala",
+		"state": "Borno",
+		"stateId": "borno",
+		"point": [
+			14.1505,
+			12.243
+		]
+	},
+	{
+		"id": "borno-nganzai",
+		"name": "Nganzai",
+		"state": "Borno",
+		"stateId": "borno",
+		"point": [
+			13.152,
+			12.497
+		]
+	},
+	{
+		"id": "borno-shani",
+		"name": "Shani",
+		"state": "Borno",
+		"stateId": "borno",
+		"point": [
+			11.937,
+			10.1795
+		]
+	},
+	{
+		"id": "cross-river-abi",
+		"name": "Abi",
+		"state": "Cross River",
+		"stateId": "cross-river",
+		"point": [
+			8.032,
+			5.8895
+		]
+	},
+	{
+		"id": "cross-river-akamkpa",
+		"name": "Akamkpa",
+		"state": "Cross River",
+		"stateId": "cross-river",
+		"point": [
+			8.543,
+			5.3915
+		]
+	},
+	{
+		"id": "cross-river-akpabuyo",
+		"name": "Akpabuyo",
+		"state": "Cross River",
+		"stateId": "cross-river",
+		"point": [
+			8.4825,
+			4.9435
+		]
+	},
+	{
+		"id": "cross-river-bakassi",
+		"name": "Bakassi",
+		"state": "Cross River",
+		"stateId": "cross-river",
+		"point": [
+			8.4955,
+			4.793
+		]
+	},
+	{
+		"id": "cross-river-bekwarra",
+		"name": "Bekwarra",
+		"state": "Cross River",
+		"stateId": "cross-river",
+		"point": [
+			8.905,
+			6.6965
+		]
+	},
+	{
+		"id": "cross-river-biase",
+		"name": "Biase",
+		"state": "Cross River",
+		"stateId": "cross-river",
+		"point": [
+			8.098,
+			5.4985
+		]
+	},
+	{
+		"id": "cross-river-boki",
+		"name": "Boki",
+		"state": "Cross River",
+		"stateId": "cross-river",
+		"point": [
+			9.007,
+			6.224
+		]
+	},
+	{
+		"id": "cross-river-calabar-municipal",
+		"name": "Calabar Municipal",
+		"state": "Cross River",
+		"stateId": "cross-river",
+		"point": [
+			8.328,
+			5.004
+		]
+	},
+	{
+		"id": "cross-river-calabar-south",
+		"name": "Calabar South",
+		"state": "Cross River",
+		"stateId": "cross-river",
+		"point": [
+			8.3,
+			4.909
+		]
+	},
+	{
+		"id": "cross-river-etung",
+		"name": "Etung",
+		"state": "Cross River",
+		"stateId": "cross-river",
+		"point": [
+			8.784,
+			5.8305
+		]
+	},
+	{
+		"id": "cross-river-ikom",
+		"name": "Ikom",
+		"state": "Cross River",
+		"stateId": "cross-river",
+		"point": [
+			8.6215,
+			6.116
+		]
+	},
+	{
+		"id": "cross-river-obanliku",
+		"name": "Obanliku",
+		"state": "Cross River",
+		"stateId": "cross-river",
+		"point": [
+			9.3025,
+			6.5815
+		]
+	},
+	{
+		"id": "cross-river-obubra",
+		"name": "Obubra",
+		"state": "Cross River",
+		"stateId": "cross-river",
+		"point": [
+			8.4265,
+			5.8055
+		]
+	},
+	{
+		"id": "cross-river-obudu",
+		"name": "Obudu",
+		"state": "Cross River",
+		"stateId": "cross-river",
+		"point": [
+			9.0625,
+			6.574
+		]
+	},
+	{
+		"id": "cross-river-odukpani",
+		"name": "Odukpani",
+		"state": "Cross River",
+		"stateId": "cross-river",
+		"point": [
+			8.193,
+			5.118
+		]
+	},
+	{
+		"id": "cross-river-ogoja",
+		"name": "Ogoja",
+		"state": "Cross River",
+		"stateId": "cross-river",
+		"point": [
+			8.704,
+			6.5065
+		]
+	},
+	{
+		"id": "cross-river-yakurr",
+		"name": "Yakurr",
+		"state": "Cross River",
+		"stateId": "cross-river",
+		"point": [
+			8.1765,
+			5.8115
+		]
+	},
+	{
+		"id": "cross-river-yala",
+		"name": "Yala",
+		"state": "Cross River",
+		"stateId": "cross-river",
+		"point": [
+			8.5825,
+			6.66
+		]
+	},
+	{
+		"id": "delta-aniocha-north",
+		"name": "Aniocha North",
+		"state": "Delta",
+		"stateId": "delta",
+		"point": [
+			6.481,
+			6.3635
+		]
+	},
+	{
+		"id": "delta-aniocha-south",
+		"name": "Aniocha South",
+		"state": "Delta",
+		"stateId": "delta",
+		"point": [
+			6.4845,
+			6.134
+		]
+	},
+	{
+		"id": "delta-bomadi",
+		"name": "Bomadi",
+		"state": "Delta",
+		"stateId": "delta",
+		"point": [
+			5.791,
+			5.304
+		]
+	},
+	{
+		"id": "delta-burutu",
+		"name": "Burutu",
+		"state": "Delta",
+		"stateId": "delta",
+		"point": [
+			5.592,
+			5.2165
+		]
+	},
+	{
+		"id": "delta-ethiope-east",
+		"name": "Ethiope East",
+		"state": "Delta",
+		"stateId": "delta",
+		"point": [
+			5.979,
+			5.6855
+		]
+	},
+	{
+		"id": "delta-ethiope-west",
+		"name": "Ethiope West",
+		"state": "Delta",
+		"stateId": "delta",
+		"point": [
+			5.767,
+			5.928
+		]
+	},
+	{
+		"id": "delta-ika-north-east",
+		"name": "Ika North East",
+		"state": "Delta",
+		"stateId": "delta",
+		"point": [
+			6.315,
+			6.211
+		]
+	},
+	{
+		"id": "delta-ika-south",
+		"name": "Ika South",
+		"state": "Delta",
+		"stateId": "delta",
+		"point": [
+			6.1385,
+			6.286
+		]
+	},
+	{
+		"id": "delta-isoko-north",
+		"name": "Isoko North",
+		"state": "Delta",
+		"stateId": "delta",
+		"point": [
+			6.236,
+			5.5665
+		]
+	},
+	{
+		"id": "delta-isoko-south",
+		"name": "Isoko South",
+		"state": "Delta",
+		"stateId": "delta",
+		"point": [
+			6.2225,
+			5.3855
+		]
+	},
+	{
+		"id": "delta-ndokwa-east",
+		"name": "Ndokwa East",
+		"state": "Delta",
+		"stateId": "delta",
+		"point": [
+			6.5405,
+			5.7725
+		]
+	},
+	{
+		"id": "delta-ndokwa-west",
+		"name": "Ndokwa West",
+		"state": "Delta",
+		"stateId": "delta",
+		"point": [
+			6.2645,
+			5.6975
+		]
+	},
+	{
+		"id": "delta-okpe",
+		"name": "Okpe",
+		"state": "Delta",
+		"stateId": "delta",
+		"point": [
+			5.7905,
+			5.686
+		]
+	},
+	{
+		"id": "delta-oshimili-north",
+		"name": "Oshimili North",
+		"state": "Delta",
+		"stateId": "delta",
+		"point": [
+			6.647,
+			6.317
+		]
+	},
+	{
+		"id": "delta-oshimili-south",
+		"name": "Oshimili South",
+		"state": "Delta",
+		"stateId": "delta",
+		"point": [
+			6.667,
+			6.0655
+		]
+	},
+	{
+		"id": "delta-patani",
+		"name": "Patani",
+		"state": "Delta",
+		"stateId": "delta",
+		"point": [
+			6.124,
+			5.1795
+		]
+	},
+	{
+		"id": "delta-sapele",
+		"name": "Sapele",
+		"state": "Delta",
+		"stateId": "delta",
+		"point": [
+			5.638,
+			5.8455
+		]
+	},
+	{
+		"id": "delta-udu",
+		"name": "Udu",
+		"state": "Delta",
+		"stateId": "delta",
+		"point": [
+			5.825,
+			5.4765
+		]
+	},
+	{
+		"id": "delta-ughelli-north",
+		"name": "Ughelli North",
+		"state": "Delta",
+		"stateId": "delta",
+		"point": [
+			6.1115,
+			5.6495
+		]
+	},
+	{
+		"id": "delta-ughelli-south",
+		"name": "Ughelli South",
+		"state": "Delta",
+		"stateId": "delta",
+		"point": [
+			5.9065,
+			5.346
+		]
+	},
+	{
+		"id": "delta-ukwuani",
+		"name": "Ukwuani",
+		"state": "Delta",
+		"stateId": "delta",
+		"point": [
+			6.251,
+			5.845
+		]
+	},
+	{
+		"id": "delta-uvwie",
+		"name": "Uvwie",
+		"state": "Delta",
+		"stateId": "delta",
+		"point": [
+			5.778,
+			5.5785
+		]
+	},
+	{
+		"id": "delta-warri-north",
+		"name": "Warri North",
+		"state": "Delta",
+		"stateId": "delta",
+		"point": [
+			5.203,
+			5.811
+		]
+	},
+	{
+		"id": "delta-warri-south",
+		"name": "Warri South",
+		"state": "Delta",
+		"stateId": "delta",
+		"point": [
+			5.5895,
+			5.6175
+		]
+	},
+	{
+		"id": "delta-warri-south-west",
+		"name": "Warri South-West",
+		"state": "Delta",
+		"stateId": "delta",
+		"point": [
+			5.3905,
+			5.507
+		]
+	},
+	{
+		"id": "ebonyi-abakaliki",
+		"name": "Abakaliki",
+		"state": "Ebonyi",
+		"stateId": "ebonyi",
+		"point": [
+			8.232,
+			6.244
+		]
+	},
+	{
+		"id": "ebonyi-afikpo-north",
+		"name": "Afikpo North",
+		"state": "Ebonyi",
+		"stateId": "ebonyi",
+		"point": [
+			7.9315,
+			5.901
+		]
+	},
+	{
+		"id": "ebonyi-afikpo-south",
+		"name": "Afikpo South",
+		"state": "Ebonyi",
+		"stateId": "ebonyi",
+		"point": [
+			7.812,
+			5.859
+		]
+	},
+	{
+		"id": "ebonyi-ebonyi",
+		"name": "Ebonyi",
+		"state": "Ebonyi",
+		"stateId": "ebonyi",
+		"point": [
+			8.103,
+			6.4315
+		]
+	},
+	{
+		"id": "ebonyi-ezza-north",
+		"name": "Ezza North",
+		"state": "Ebonyi",
+		"stateId": "ebonyi",
+		"point": [
+			7.9715,
+			6.2645
+		]
+	},
+	{
+		"id": "ebonyi-ezza-south",
+		"name": "Ezza South",
+		"state": "Ebonyi",
+		"stateId": "ebonyi",
+		"point": [
+			8.0055,
+			6.124
+		]
+	},
+	{
+		"id": "ebonyi-ikwo",
+		"name": "Ikwo",
+		"state": "Ebonyi",
+		"stateId": "ebonyi",
+		"point": [
+			8.194,
+			6.0925
+		]
+	},
+	{
+		"id": "ebonyi-ishielu",
+		"name": "Ishielu",
+		"state": "Ebonyi",
+		"stateId": "ebonyi",
+		"point": [
+			7.823,
+			6.3755
+		]
+	},
+	{
+		"id": "ebonyi-ivo",
+		"name": "Ivo",
+		"state": "Ebonyi",
+		"stateId": "ebonyi",
+		"point": [
+			7.607,
+			5.8945
+		]
+	},
+	{
+		"id": "ebonyi-izzi",
+		"name": "Izzi",
+		"state": "Ebonyi",
+		"stateId": "ebonyi",
+		"point": [
+			8.2805,
+			6.4695
+		]
+	},
+	{
+		"id": "ebonyi-ohaozara",
+		"name": "Ohaozara",
+		"state": "Ebonyi",
+		"stateId": "ebonyi",
+		"point": [
+			7.7595,
+			6.016
+		]
+	},
+	{
+		"id": "ebonyi-ohaukwu",
+		"name": "Ohaukwu",
+		"state": "Ebonyi",
+		"stateId": "ebonyi",
+		"point": [
+			8.0095,
+			6.5145
+		]
+	},
+	{
+		"id": "ebonyi-onicha",
+		"name": "Onicha",
+		"state": "Ebonyi",
+		"stateId": "ebonyi",
+		"point": [
+			7.8305,
+			6.1275
+		]
+	},
+	{
+		"id": "edo-akoko-edo",
+		"name": "Akoko-Edo",
+		"state": "Edo",
+		"stateId": "edo",
+		"point": [
+			6.1315,
+			7.3405
+		]
+	},
+	{
+		"id": "edo-egor",
+		"name": "Egor",
+		"state": "Edo",
+		"stateId": "edo",
+		"point": [
+			5.577,
+			6.358
+		]
+	},
+	{
+		"id": "edo-esan-central",
+		"name": "Esan Central",
+		"state": "Edo",
+		"stateId": "edo",
+		"point": [
+			6.312,
+			6.791
+		]
+	},
+	{
+		"id": "edo-esan-north-east",
+		"name": "Esan North-East",
+		"state": "Edo",
+		"stateId": "edo",
+		"point": [
+			6.4655,
+			6.8275
+		]
+	},
+	{
+		"id": "edo-esan-south-east",
+		"name": "Esan South-East",
+		"state": "Edo",
+		"stateId": "edo",
+		"point": [
+			6.4715,
+			6.592
+		]
+	},
+	{
+		"id": "edo-esan-west",
+		"name": "Esan West",
+		"state": "Edo",
+		"stateId": "edo",
+		"point": [
+			6.1175,
+			6.734
+		]
+	},
+	{
+		"id": "edo-etsako-central",
+		"name": "Etsako Central",
+		"state": "Edo",
+		"stateId": "edo",
+		"point": [
+			6.4585,
+			7.0045
+		]
+	},
+	{
+		"id": "edo-etsako-east",
+		"name": "Etsako East",
+		"state": "Edo",
+		"stateId": "edo",
+		"point": [
+			6.5825,
+			7.1905
+		]
+	},
+	{
+		"id": "edo-etsako-west",
+		"name": "Etsako West",
+		"state": "Edo",
+		"stateId": "edo",
+		"point": [
+			6.2925,
+			6.9235
+		]
+	},
+	{
+		"id": "edo-iguegben",
+		"name": "Iguegben",
+		"state": "Edo",
+		"stateId": "edo",
+		"point": [
+			6.2515,
+			6.47
+		]
+	},
+	{
+		"id": "edo-ikpoba-okha",
+		"name": "Ikpoba-Okha",
+		"state": "Edo",
+		"stateId": "edo",
+		"point": [
+			5.652,
+			6.144
+		]
+	},
+	{
+		"id": "edo-oredo",
+		"name": "Oredo",
+		"state": "Edo",
+		"stateId": "edo",
+		"point": [
+			5.5565,
+			6.245
+		]
+	},
+	{
+		"id": "edo-orhionmwon",
+		"name": "Orhionmwon",
+		"state": "Edo",
+		"stateId": "edo",
+		"point": [
+			5.9945,
+			6.058
+		]
+	},
+	{
+		"id": "edo-ovia-north-east",
+		"name": "Ovia North-East",
+		"state": "Edo",
+		"stateId": "edo",
+		"point": [
+			5.599,
+			6.565
+		]
+	},
+	{
+		"id": "edo-ovia-south-west",
+		"name": "Ovia South-West",
+		"state": "Edo",
+		"stateId": "edo",
+		"point": [
+			5.2925,
+			6.4835
+		]
+	},
+	{
+		"id": "edo-owan-east",
+		"name": "Owan East",
+		"state": "Edo",
+		"stateId": "edo",
+		"point": [
+			6.096,
+			7.0465
+		]
+	},
+	{
+		"id": "edo-owan-west",
+		"name": "Owan West",
+		"state": "Edo",
+		"stateId": "edo",
+		"point": [
+			5.8915,
+			6.917
+		]
+	},
+	{
+		"id": "edo-uhunmwonde",
+		"name": "Uhunmwonde",
+		"state": "Edo",
+		"stateId": "edo",
+		"point": [
+			5.907,
+			6.4945
+		]
+	},
+	{
+		"id": "ekiti-ado-ekiti",
+		"name": "Ado-Ekiti",
+		"state": "Ekiti",
+		"stateId": "ekiti",
+		"point": [
+			5.252,
+			7.63
+		]
+	},
+	{
+		"id": "ekiti-efon",
+		"name": "Efon",
+		"state": "Ekiti",
+		"stateId": "ekiti",
+		"point": [
+			4.935,
+			7.6795
+		]
+	},
+	{
+		"id": "ekiti-ekiti-east",
+		"name": "Ekiti East",
+		"state": "Ekiti",
+		"stateId": "ekiti",
+		"point": [
+			5.6715,
+			7.736
+		]
+	},
+	{
+		"id": "ekiti-ekiti-south-west",
+		"name": "Ekiti South-West",
+		"state": "Ekiti",
+		"stateId": "ekiti",
+		"point": [
+			5.008,
+			7.491
+		]
+	},
+	{
+		"id": "ekiti-ekiti-west",
+		"name": "Ekiti West",
+		"state": "Ekiti",
+		"stateId": "ekiti",
+		"point": [
+			5.056,
+			7.689
+		]
+	},
+	{
+		"id": "ekiti-emure",
+		"name": "Emure",
+		"state": "Ekiti",
+		"stateId": "ekiti",
+		"point": [
+			5.5095,
+			7.415
+		]
+	},
+	{
+		"id": "ekiti-gbonyin",
+		"name": "Gbonyin",
+		"state": "Ekiti",
+		"stateId": "ekiti",
+		"point": [
+			5.5415,
+			7.5925
+		]
+	},
+	{
+		"id": "ekiti-ido-osi",
+		"name": "Ido-Osi",
+		"state": "Ekiti",
+		"stateId": "ekiti",
+		"point": [
+			5.179,
+			7.8455
+		]
+	},
+	{
+		"id": "ekiti-ijero",
+		"name": "Ijero",
+		"state": "Ekiti",
+		"stateId": "ekiti",
+		"point": [
+			5.0405,
+			7.84
+		]
+	},
+	{
+		"id": "ekiti-ikere",
+		"name": "Ikere",
+		"state": "Ekiti",
+		"stateId": "ekiti",
+		"point": [
+			5.223,
+			7.5
+		]
+	},
+	{
+		"id": "ekiti-ikole",
+		"name": "Ikole",
+		"state": "Ekiti",
+		"stateId": "ekiti",
+		"point": [
+			5.5285,
+			7.837
+		]
+	},
+	{
+		"id": "ekiti-ilejemeje",
+		"name": "Ilejemeje",
+		"state": "Ekiti",
+		"stateId": "ekiti",
+		"point": [
+			5.2235,
+			7.9365
+		]
+	},
+	{
+		"id": "ekiti-irepodun-ifelodun",
+		"name": "Irepodun/Ifelodun",
+		"state": "Ekiti",
+		"stateId": "ekiti",
+		"point": [
+			5.188,
+			7.713
+		]
+	},
+	{
+		"id": "ekiti-ise-orun",
+		"name": "Ise/Orun",
+		"state": "Ekiti",
+		"stateId": "ekiti",
+		"point": [
+			5.38,
+			7.462
+		]
+	},
+	{
+		"id": "ekiti-moba",
+		"name": "Moba",
+		"state": "Ekiti",
+		"stateId": "ekiti",
+		"point": [
+			5.131,
+			7.993
+		]
+	},
+	{
+		"id": "ekiti-oye",
+		"name": "Oye",
+		"state": "Ekiti",
+		"stateId": "ekiti",
+		"point": [
+			5.3415,
+			7.8855
+		]
+	},
+	{
+		"id": "enugu-aninri",
+		"name": "Aninri",
+		"state": "Enugu",
+		"stateId": "enugu",
+		"point": [
+			7.6055,
+			6.039
+		]
+	},
+	{
+		"id": "enugu-awgu",
+		"name": "Awgu",
+		"state": "Enugu",
+		"stateId": "enugu",
+		"point": [
+			7.453,
+			6.1855
+		]
+	},
+	{
+		"id": "enugu-enugu-east",
+		"name": "Enugu East",
+		"state": "Enugu",
+		"stateId": "enugu",
+		"point": [
+			7.524,
+			6.536
+		]
+	},
+	{
+		"id": "enugu-enugu-north",
+		"name": "Enugu North",
+		"state": "Enugu",
+		"stateId": "enugu",
+		"point": [
+			7.489,
+			6.445
+		]
+	},
+	{
+		"id": "enugu-enugu-south",
+		"name": "Enugu South",
+		"state": "Enugu",
+		"stateId": "enugu",
+		"point": [
+			7.5305,
+			6.39
+		]
+	},
+	{
+		"id": "enugu-ezeagu",
+		"name": "Ezeagu",
+		"state": "Enugu",
+		"stateId": "enugu",
+		"point": [
+			7.235,
+			6.396
+		]
+	},
+	{
+		"id": "enugu-igbo-etiti",
+		"name": "Igbo-Etiti",
+		"state": "Enugu",
+		"stateId": "enugu",
+		"point": [
+			7.447,
+			6.6865
+		]
+	},
+	{
+		"id": "enugu-igbo-eze-north",
+		"name": "Igbo-Eze North",
+		"state": "Enugu",
+		"stateId": "enugu",
+		"point": [
+			7.4565,
+			7.01
+		]
+	},
+	{
+		"id": "enugu-igbo-eze-south",
+		"name": "Igbo-Eze-South",
+		"state": "Enugu",
+		"stateId": "enugu",
+		"point": [
+			7.386,
+			6.9355
+		]
+	},
+	{
+		"id": "enugu-isi-uzo",
+		"name": "Isi-Uzo",
+		"state": "Enugu",
+		"stateId": "enugu",
+		"point": [
+			7.7375,
+			6.7445
+		]
+	},
+	{
+		"id": "enugu-nkanu-east",
+		"name": "Nkanu East",
+		"state": "Enugu",
+		"stateId": "enugu",
+		"point": [
+			7.654,
+			6.226
+		]
+	},
+	{
+		"id": "enugu-nkanu-west",
+		"name": "Nkanu West",
+		"state": "Enugu",
+		"stateId": "enugu",
+		"point": [
+			7.5235,
+			6.3125
+		]
+	},
+	{
+		"id": "enugu-nsukka",
+		"name": "Nsukka",
+		"state": "Enugu",
+		"stateId": "enugu",
+		"point": [
+			7.3785,
+			6.8285
+		]
+	},
+	{
+		"id": "enugu-oji-river",
+		"name": "Oji-River",
+		"state": "Enugu",
+		"stateId": "enugu",
+		"point": [
+			7.2985,
+			6.1645
+		]
+	},
+	{
+		"id": "enugu-udenu",
+		"name": "Udenu",
+		"state": "Enugu",
+		"stateId": "enugu",
+		"point": [
+			7.5565,
+			6.8695
+		]
+	},
+	{
+		"id": "enugu-udi",
+		"name": "Udi",
+		"state": "Enugu",
+		"stateId": "enugu",
+		"point": [
+			7.3525,
+			6.5465
+		]
+	},
+	{
+		"id": "enugu-uzo-uwani",
+		"name": "Uzo-Uwani",
+		"state": "Enugu",
+		"stateId": "enugu",
+		"point": [
+			7.1515,
+			6.746
+		]
+	},
+	{
+		"id": "fct-abaji",
+		"name": "Abaji",
+		"state": "Federal Capital Territory",
+		"stateId": "fct",
+		"point": [
+			6.84,
+			8.9325
+		]
+	},
+	{
+		"id": "fct-bwari",
+		"name": "Bwari",
+		"state": "Federal Capital Territory",
+		"stateId": "fct",
+		"point": [
+			7.4865,
+			9.242
+		]
+	},
+	{
+		"id": "fct-gwagwalada",
+		"name": "Gwagwalada",
+		"state": "Federal Capital Territory",
+		"stateId": "fct",
+		"point": [
+			7.028,
+			9.071
+		]
+	},
+	{
+		"id": "fct-kuje",
+		"name": "Kuje",
+		"state": "Federal Capital Territory",
+		"stateId": "fct",
+		"point": [
+			7.223,
+			8.615
+		]
+	},
+	{
+		"id": "fct-kwali",
+		"name": "Kwali",
+		"state": "Federal Capital Territory",
+		"stateId": "fct",
+		"point": [
+			6.9725,
+			8.743
+		]
+	},
+	{
+		"id": "fct-municipal-area-council",
+		"name": "Municipal Area Council",
+		"state": "Federal Capital Territory",
+		"stateId": "fct",
+		"point": [
+			7.4195,
+			9.0105
+		]
+	},
+	{
+		"id": "gombe-akko",
+		"name": "Akko",
+		"state": "Gombe",
+		"stateId": "gombe",
+		"point": [
+			11.0375,
+			10.1085
+		]
+	},
+	{
+		"id": "gombe-balanga",
+		"name": "Balanga",
+		"state": "Gombe",
+		"stateId": "gombe",
+		"point": [
+			11.6895,
+			9.902
+		]
+	},
+	{
+		"id": "gombe-billiri",
+		"name": "Billiri",
+		"state": "Gombe",
+		"stateId": "gombe",
+		"point": [
+			11.129,
+			9.829
+		]
+	},
+	{
+		"id": "gombe-dukku",
+		"name": "Dukku",
+		"state": "Gombe",
+		"stateId": "gombe",
+		"point": [
+			10.8515,
+			10.8065
+		]
+	},
+	{
+		"id": "gombe-funakaye",
+		"name": "Funakaye",
+		"state": "Gombe",
+		"stateId": "gombe",
+		"point": [
+			11.4195,
+			10.7635
+		]
+	},
+	{
+		"id": "gombe-gombe",
+		"name": "Gombe",
+		"state": "Gombe",
+		"stateId": "gombe",
+		"point": [
+			11.1585,
+			10.2915
+		]
+	},
+	{
+		"id": "gombe-kaltungo",
+		"name": "Kaltungo",
+		"state": "Gombe",
+		"stateId": "gombe",
+		"point": [
+			11.419,
+			9.8555
+		]
+	},
+	{
+		"id": "gombe-kwami",
+		"name": "Kwami",
+		"state": "Gombe",
+		"stateId": "gombe",
+		"point": [
+			11.1425,
+			10.4525
+		]
+	},
+	{
+		"id": "gombe-nafada",
+		"name": "Nafada",
+		"state": "Gombe",
+		"stateId": "gombe",
+		"point": [
+			11.2175,
+			11.04
+		]
+	},
+	{
+		"id": "gombe-shomgom",
+		"name": "Shomgom",
+		"state": "Gombe",
+		"stateId": "gombe",
+		"point": [
+			11.229,
+			9.6655
+		]
+	},
+	{
+		"id": "gombe-yamaltu-deba",
+		"name": "Yamaltu/Deba",
+		"state": "Gombe",
+		"stateId": "gombe",
+		"point": [
+			11.4305,
+			10.2425
+		]
+	},
+	{
+		"id": "imo-aboh-mbaise",
+		"name": "Aboh-Mbaise",
+		"state": "Imo",
+		"stateId": "imo",
+		"point": [
+			7.26,
+			5.4085
+		]
+	},
+	{
+		"id": "imo-ahiazu-mbaise",
+		"name": "Ahiazu-Mbaise",
+		"state": "Imo",
+		"stateId": "imo",
+		"point": [
+			7.278,
+			5.55
+		]
+	},
+	{
+		"id": "imo-ehime-mbano",
+		"name": "Ehime-Mbano",
+		"state": "Imo",
+		"stateId": "imo",
+		"point": [
+			7.2935,
+			5.6675
+		]
+	},
+	{
+		"id": "imo-ezinihitte",
+		"name": "Ezinihitte",
+		"state": "Imo",
+		"stateId": "imo",
+		"point": [
+			7.3285,
+			5.4765
+		]
+	},
+	{
+		"id": "imo-ideato-north",
+		"name": "Ideato North",
+		"state": "Imo",
+		"stateId": "imo",
+		"point": [
+			7.106,
+			5.88
+		]
+	},
+	{
+		"id": "imo-ideato-south",
+		"name": "Ideato South",
+		"state": "Imo",
+		"stateId": "imo",
+		"point": [
+			7.159,
+			5.7965
+		]
+	},
+	{
+		"id": "imo-ihitte-uboma",
+		"name": "Ihitte/Uboma",
+		"state": "Imo",
+		"stateId": "imo",
+		"point": [
+			7.3835,
+			5.633
+		]
+	},
+	{
+		"id": "imo-ikeduru",
+		"name": "Ikeduru",
+		"state": "Imo",
+		"stateId": "imo",
+		"point": [
+			7.1555,
+			5.5565
+		]
+	},
+	{
+		"id": "imo-isiala-mbano",
+		"name": "Isiala Mbano",
+		"state": "Imo",
+		"stateId": "imo",
+		"point": [
+			7.182,
+			5.659
+		]
+	},
+	{
+		"id": "imo-isu",
+		"name": "Isu",
+		"state": "Imo",
+		"stateId": "imo",
+		"point": [
+			7.0495,
+			5.7015
+		]
+	},
+	{
+		"id": "imo-mbatoli",
+		"name": "Mbatoli",
+		"state": "Imo",
+		"stateId": "imo",
+		"point": [
+			7.0355,
+			5.5985
+		]
+	},
+	{
+		"id": "imo-ngor-okpala",
+		"name": "Ngor-Okpala",
+		"state": "Imo",
+		"stateId": "imo",
+		"point": [
+			7.1605,
+			5.3045
+		]
+	},
+	{
+		"id": "imo-njaba",
+		"name": "Njaba",
+		"state": "Imo",
+		"stateId": "imo",
+		"point": [
+			6.9965,
+			5.728
+		]
+	},
+	{
+		"id": "imo-nkwerre",
+		"name": "Nkwerre",
+		"state": "Imo",
+		"stateId": "imo",
+		"point": [
+			7.1045,
+			5.758
+		]
+	},
+	{
+		"id": "imo-nwangele",
+		"name": "Nwangele",
+		"state": "Imo",
+		"stateId": "imo",
+		"point": [
+			7.1285,
+			5.706
+		]
+	},
+	{
+		"id": "imo-obowo",
+		"name": "Obowo",
+		"state": "Imo",
+		"stateId": "imo",
+		"point": [
+			7.3655,
+			5.5615
+		]
+	},
+	{
+		"id": "imo-oguta",
+		"name": "Oguta",
+		"state": "Imo",
+		"stateId": "imo",
+		"point": [
+			6.8075,
+			5.672
+		]
+	},
+	{
+		"id": "imo-ohaji-egbema",
+		"name": "Ohaji/Egbema",
+		"state": "Imo",
+		"stateId": "imo",
+		"point": [
+			6.824,
+			5.445
+		]
+	},
+	{
+		"id": "imo-okigwe",
+		"name": "Okigwe",
+		"state": "Imo",
+		"stateId": "imo",
+		"point": [
+			7.3205,
+			5.8275
+		]
+	},
+	{
+		"id": "imo-onuimo",
+		"name": "Onuimo",
+		"state": "Imo",
+		"stateId": "imo",
+		"point": [
+			7.2355,
+			5.768
+		]
+	},
+	{
+		"id": "imo-orlu",
+		"name": "Orlu",
+		"state": "Imo",
+		"stateId": "imo",
+		"point": [
+			7.042,
+			5.8
+		]
+	},
+	{
+		"id": "imo-orsu",
+		"name": "Orsu",
+		"state": "Imo",
+		"stateId": "imo",
+		"point": [
+			6.9875,
+			5.8485
+		]
+	},
+	{
+		"id": "imo-oru-east",
+		"name": "Oru East",
+		"state": "Imo",
+		"stateId": "imo",
+		"point": [
+			6.97,
+			5.6785
+		]
+	},
+	{
+		"id": "imo-oru-west",
+		"name": "Oru West",
+		"state": "Imo",
+		"stateId": "imo",
+		"point": [
+			6.8945,
+			5.7275
+		]
+	},
+	{
+		"id": "imo-owerri-municipal",
+		"name": "Owerri Municipal",
+		"state": "Imo",
+		"stateId": "imo",
+		"point": [
+			7.019,
+			5.479
+		]
+	},
+	{
+		"id": "imo-owerri-north",
+		"name": "Owerri North",
+		"state": "Imo",
+		"stateId": "imo",
+		"point": [
+			7.106,
+			5.4575
+		]
+	},
+	{
+		"id": "imo-owerri-west",
+		"name": "Owerri West",
+		"state": "Imo",
+		"stateId": "imo",
+		"point": [
+			6.9675,
+			5.429
+		]
+	},
+	{
+		"id": "jigawa-auyo",
+		"name": "Auyo",
+		"state": "Jigawa",
+		"stateId": "jigawa",
+		"point": [
+			9.8725,
+			12.2955
+		]
+	},
+	{
+		"id": "jigawa-babura",
+		"name": "Babura",
+		"state": "Jigawa",
+		"stateId": "jigawa",
+		"point": [
+			8.845,
+			12.584
+		]
+	},
+	{
+		"id": "jigawa-biriniwa",
+		"name": "Biriniwa",
+		"state": "Jigawa",
+		"stateId": "jigawa",
+		"point": [
+			10.065,
+			12.812
+		]
+	},
+	{
+		"id": "jigawa-birnin-kudu",
+		"name": "Birnin Kudu",
+		"state": "Jigawa",
+		"stateId": "jigawa",
+		"point": [
+			9.4925,
+			11.456
+		]
+	},
+	{
+		"id": "jigawa-buji",
+		"name": "Buji",
+		"state": "Jigawa",
+		"stateId": "jigawa",
+		"point": [
+			9.7255,
+			11.572
+		]
+	},
+	{
+		"id": "jigawa-dutse",
+		"name": "Dutse",
+		"state": "Jigawa",
+		"stateId": "jigawa",
+		"point": [
+			9.2845,
+			11.799
+		]
+	},
+	{
+		"id": "jigawa-gagarawa",
+		"name": "Gagarawa",
+		"state": "Jigawa",
+		"stateId": "jigawa",
+		"point": [
+			9.522,
+			12.4815
+		]
+	},
+	{
+		"id": "jigawa-garki",
+		"name": "Garki",
+		"state": "Jigawa",
+		"stateId": "jigawa",
+		"point": [
+			9.0425,
+			12.4295
+		]
+	},
+	{
+		"id": "jigawa-gumel",
+		"name": "Gumel",
+		"state": "Jigawa",
+		"stateId": "jigawa",
+		"point": [
+			9.3975,
+			12.6255
+		]
+	},
+	{
+		"id": "jigawa-guri",
+		"name": "Guri",
+		"state": "Jigawa",
+		"stateId": "jigawa",
+		"point": [
+			10.4705,
+			12.6305
+		]
+	},
+	{
+		"id": "jigawa-gwaram",
+		"name": "Gwaram",
+		"state": "Jigawa",
+		"stateId": "jigawa",
+		"point": [
+			10.0125,
+			11.1355
+		]
+	},
+	{
+		"id": "jigawa-gwiwa",
+		"name": "Gwiwa",
+		"state": "Jigawa",
+		"stateId": "jigawa",
+		"point": [
+			8.294,
+			12.756
+		]
+	},
+	{
+		"id": "jigawa-hadejia",
+		"name": "Hadejia",
+		"state": "Jigawa",
+		"stateId": "jigawa",
+		"point": [
+			10.0585,
+			12.4545
+		]
+	},
+	{
+		"id": "jigawa-jahun",
+		"name": "Jahun",
+		"state": "Jigawa",
+		"stateId": "jigawa",
+		"point": [
+			9.525,
+			12.072
+		]
+	},
+	{
+		"id": "jigawa-kafin-hausa",
+		"name": "Kafin Hausa",
+		"state": "Jigawa",
+		"stateId": "jigawa",
+		"point": [
+			9.9935,
+			12.147
+		]
+	},
+	{
+		"id": "jigawa-kaugama",
+		"name": "Kaugama",
+		"state": "Jigawa",
+		"stateId": "jigawa",
+		"point": [
+			9.7285,
+			12.5095
+		]
+	},
+	{
+		"id": "jigawa-kazaure",
+		"name": "Kazaure",
+		"state": "Jigawa",
+		"stateId": "jigawa",
+		"point": [
+			8.471,
+			12.6525
+		]
+	},
+	{
+		"id": "jigawa-kiri-kasama",
+		"name": "Kiri Kasama",
+		"state": "Jigawa",
+		"stateId": "jigawa",
+		"point": [
+			10.2475,
+			12.5765
+		]
+	},
+	{
+		"id": "jigawa-kiyawa",
+		"name": "Kiyawa",
+		"state": "Jigawa",
+		"stateId": "jigawa",
+		"point": [
+			9.558,
+			11.836
+		]
+	},
+	{
+		"id": "jigawa-maigatari",
+		"name": "Maigatari",
+		"state": "Jigawa",
+		"stateId": "jigawa",
+		"point": [
+			9.577,
+			12.701
+		]
+	},
+	{
+		"id": "jigawa-malam-madori",
+		"name": "Malam Madori",
+		"state": "Jigawa",
+		"stateId": "jigawa",
+		"point": [
+			9.9615,
+			12.537
+		]
+	},
+	{
+		"id": "jigawa-miga",
+		"name": "Miga",
+		"state": "Jigawa",
+		"stateId": "jigawa",
+		"point": [
+			9.6905,
+			12.2145
+		]
+	},
+	{
+		"id": "jigawa-ringim",
+		"name": "Ringim",
+		"state": "Jigawa",
+		"stateId": "jigawa",
+		"point": [
+			9.1,
+			12.169
+		]
+	},
+	{
+		"id": "jigawa-roni",
+		"name": "Roni",
+		"state": "Jigawa",
+		"stateId": "jigawa",
+		"point": [
+			8.3525,
+			12.554
+		]
+	},
+	{
+		"id": "jigawa-sule-tankarkar",
+		"name": "Sule Tankarkar",
+		"state": "Jigawa",
+		"stateId": "jigawa",
+		"point": [
+			9.201,
+			12.6415
+		]
+	},
+	{
+		"id": "jigawa-taura",
+		"name": "Taura",
+		"state": "Jigawa",
+		"stateId": "jigawa",
+		"point": [
+			9.428,
+			12.253
+		]
+	},
+	{
+		"id": "jigawa-yankwashi",
+		"name": "Yankwashi",
+		"state": "Jigawa",
+		"stateId": "jigawa",
+		"point": [
+			8.5295,
+			12.78
+		]
+	},
+	{
+		"id": "kaduna-birnin-gwari",
+		"name": "Birnin Gwari",
+		"state": "Kaduna",
+		"stateId": "kaduna",
+		"point": [
+			6.6075,
+			10.836
+		]
+	},
+	{
+		"id": "kaduna-chikun",
+		"name": "Chikun",
+		"state": "Kaduna",
+		"stateId": "kaduna",
+		"point": [
+			7.239,
+			10.3305
+		]
+	},
+	{
+		"id": "kaduna-giwa",
+		"name": "Giwa",
+		"state": "Kaduna",
+		"stateId": "kaduna",
+		"point": [
+			7.32,
+			11.127
+		]
+	},
+	{
+		"id": "kaduna-igabi",
+		"name": "Igabi",
+		"state": "Kaduna",
+		"stateId": "kaduna",
+		"point": [
+			7.5525,
+			10.765
+		]
+	},
+	{
+		"id": "kaduna-ikara",
+		"name": "Ikara",
+		"state": "Kaduna",
+		"stateId": "kaduna",
+		"point": [
+			8.174,
+			11.2415
+		]
+	},
+	{
+		"id": "kaduna-jaba",
+		"name": "Jaba",
+		"state": "Kaduna",
+		"stateId": "kaduna",
+		"point": [
+			8.015,
+			9.4825
+		]
+	},
+	{
+		"id": "kaduna-jema-a",
+		"name": "Jema'A",
+		"state": "Kaduna",
+		"stateId": "kaduna",
+		"point": [
+			8.2475,
+			9.3935
+		]
+	},
+	{
+		"id": "kaduna-kachia",
+		"name": "Kachia",
+		"state": "Kaduna",
+		"stateId": "kaduna",
+		"point": [
+			7.5875,
+			9.8235
+		]
+	},
+	{
+		"id": "kaduna-kaduna-north",
+		"name": "Kaduna North",
+		"state": "Kaduna",
+		"stateId": "kaduna",
+		"point": [
+			7.446,
+			10.5555
+		]
+	},
+	{
+		"id": "kaduna-kaduna-south",
+		"name": "Kaduna South",
+		"state": "Kaduna",
+		"stateId": "kaduna",
+		"point": [
+			7.4125,
+			10.4915
+		]
+	},
+	{
+		"id": "kaduna-kagarko",
+		"name": "Kagarko",
+		"state": "Kaduna",
+		"stateId": "kaduna",
+		"point": [
+			7.7705,
+			9.4755
+		]
+	},
+	{
+		"id": "kaduna-kajuru",
+		"name": "Kajuru",
+		"state": "Kaduna",
+		"stateId": "kaduna",
+		"point": [
+			7.8015,
+			10.2605
+		]
+	},
+	{
+		"id": "kaduna-kaura",
+		"name": "Kaura",
+		"state": "Kaduna",
+		"stateId": "kaduna",
+		"point": [
+			8.456,
+			9.627
+		]
+	},
+	{
+		"id": "kaduna-kauru",
+		"name": "Kauru",
+		"state": "Kaduna",
+		"stateId": "kaduna",
+		"point": [
+			8.198,
+			10.4135
+		]
+	},
+	{
+		"id": "kaduna-kubau",
+		"name": "Kubau",
+		"state": "Kaduna",
+		"stateId": "kaduna",
+		"point": [
+			8.384,
+			10.8795
+		]
+	},
+	{
+		"id": "kaduna-kudan",
+		"name": "Kudan",
+		"state": "Kaduna",
+		"stateId": "kaduna",
+		"point": [
+			7.748,
+			11.2705
+		]
+	},
+	{
+		"id": "kaduna-lere",
+		"name": "Lere",
+		"state": "Kaduna",
+		"stateId": "kaduna",
+		"point": [
+			8.5655,
+			10.374
+		]
+	},
+	{
+		"id": "kaduna-makarfi",
+		"name": "Makarfi",
+		"state": "Kaduna",
+		"stateId": "kaduna",
+		"point": [
+			7.9355,
+			11.299
+		]
+	},
+	{
+		"id": "kaduna-sabon-gari",
+		"name": "Sabon Gari",
+		"state": "Kaduna",
+		"stateId": "kaduna",
+		"point": [
+			7.702,
+			11.1655
+		]
+	},
+	{
+		"id": "kaduna-sanga",
+		"name": "Sanga",
+		"state": "Kaduna",
+		"stateId": "kaduna",
+		"point": [
+			8.4945,
+			9.261
+		]
+	},
+	{
+		"id": "kaduna-soba",
+		"name": "Soba",
+		"state": "Kaduna",
+		"stateId": "kaduna",
+		"point": [
+			7.994,
+			10.967
+		]
+	},
+	{
+		"id": "kaduna-zangon-kataf",
+		"name": "Zangon Kataf",
+		"state": "Kaduna",
+		"stateId": "kaduna",
+		"point": [
+			8.246,
+			9.876
+		]
+	},
+	{
+		"id": "kaduna-zaria",
+		"name": "Zaria",
+		"state": "Kaduna",
+		"stateId": "kaduna",
+		"point": [
+			7.6875,
+			11.048
+		]
+	},
+	{
+		"id": "kano-ajingi",
+		"name": "Ajingi",
+		"state": "Kano",
+		"stateId": "kano",
+		"point": [
+			9.027,
+			11.994
+		]
+	},
+	{
+		"id": "kano-albasu",
+		"name": "Albasu",
+		"state": "Kano",
+		"stateId": "kano",
+		"point": [
+			9.0275,
+			11.6385
+		]
+	},
+	{
+		"id": "kano-bagwai",
+		"name": "Bagwai",
+		"state": "Kano",
+		"stateId": "kano",
+		"point": [
+			8.165,
+			12.102
+		]
+	},
+	{
+		"id": "kano-bebeji",
+		"name": "Bebeji",
+		"state": "Kano",
+		"stateId": "kano",
+		"point": [
+			8.311,
+			11.536
+		]
+	},
+	{
+		"id": "kano-bichi",
+		"name": "Bichi",
+		"state": "Kano",
+		"stateId": "kano",
+		"point": [
+			8.2675,
+			12.2645
+		]
+	},
+	{
+		"id": "kano-bunkure",
+		"name": "Bunkure",
+		"state": "Kano",
+		"stateId": "kano",
+		"point": [
+			8.5755,
+			11.6825
+		]
+	},
+	{
+		"id": "kano-dala",
+		"name": "Dala",
+		"state": "Kano",
+		"stateId": "kano",
+		"point": [
+			8.4885,
+			12.027
+		]
+	},
+	{
+		"id": "kano-dambatta",
+		"name": "Dambatta",
+		"state": "Kano",
+		"stateId": "kano",
+		"point": [
+			8.622,
+			12.4285
+		]
+	},
+	{
+		"id": "kano-dawakin-kudu",
+		"name": "Dawakin Kudu",
+		"state": "Kano",
+		"stateId": "kano",
+		"point": [
+			8.6595,
+			11.821
+		]
+	},
+	{
+		"id": "kano-dawakin-tofa",
+		"name": "Dawakin Tofa",
+		"state": "Kano",
+		"stateId": "kano",
+		"point": [
+			8.396,
+			12.14
+		]
+	},
+	{
+		"id": "kano-doguwa",
+		"name": "Doguwa",
+		"state": "Kano",
+		"stateId": "kano",
+		"point": [
+			8.673,
+			10.7815
+		]
+	},
+	{
+		"id": "kano-fagge",
+		"name": "Fagge",
+		"state": "Kano",
+		"stateId": "kano",
+		"point": [
+			8.5225,
+			12.0385
+		]
+	},
+	{
+		"id": "kano-gabasawa",
+		"name": "Gabasawa",
+		"state": "Kano",
+		"stateId": "kano",
+		"point": [
+			8.857,
+			12.1695
+		]
+	},
+	{
+		"id": "kano-garko",
+		"name": "Garko",
+		"state": "Kano",
+		"stateId": "kano",
+		"point": [
+			8.826,
+			11.5915
+		]
+	},
+	{
+		"id": "kano-garun-malam",
+		"name": "Garun Malam",
+		"state": "Kano",
+		"stateId": "kano",
+		"point": [
+			8.393,
+			11.666
+		]
+	},
+	{
+		"id": "kano-gaya",
+		"name": "Gaya",
+		"state": "Kano",
+		"stateId": "kano",
+		"point": [
+			9.018,
+			11.81
+		]
+	},
+	{
+		"id": "kano-gezawa",
+		"name": "Gezawa",
+		"state": "Kano",
+		"stateId": "kano",
+		"point": [
+			8.7215,
+			12.0645
+		]
+	},
+	{
+		"id": "kano-gwale",
+		"name": "Gwale",
+		"state": "Kano",
+		"stateId": "kano",
+		"point": [
+			8.4855,
+			11.9765
+		]
+	},
+	{
+		"id": "kano-gwarzo",
+		"name": "Gwarzo",
+		"state": "Kano",
+		"stateId": "kano",
+		"point": [
+			7.9505,
+			11.9005
+		]
+	},
+	{
+		"id": "kano-kabo",
+		"name": "Kabo",
+		"state": "Kano",
+		"stateId": "kano",
+		"point": [
+			8.173,
+			11.884
+		]
+	},
+	{
+		"id": "kano-kano-municipal",
+		"name": "Kano Municipal",
+		"state": "Kano",
+		"stateId": "kano",
+		"point": [
+			8.5205,
+			11.985
+		]
+	},
+	{
+		"id": "kano-karaye",
+		"name": "Karaye",
+		"state": "Kano",
+		"stateId": "kano",
+		"point": [
+			7.9955,
+			11.761
+		]
+	},
+	{
+		"id": "kano-kibiya",
+		"name": "Kibiya",
+		"state": "Kano",
+		"stateId": "kano",
+		"point": [
+			8.685,
+			11.4975
+		]
+	},
+	{
+		"id": "kano-kiru",
+		"name": "Kiru",
+		"state": "Kano",
+		"stateId": "kano",
+		"point": [
+			8.116,
+			11.6025
+		]
+	},
+	{
+		"id": "kano-kumbotso",
+		"name": "Kumbotso",
+		"state": "Kano",
+		"stateId": "kano",
+		"point": [
+			8.5095,
+			11.918
+		]
+	},
+	{
+		"id": "kano-kunchi",
+		"name": "Kunchi",
+		"state": "Kano",
+		"stateId": "kano",
+		"point": [
+			8.2665,
+			12.4515
+		]
+	},
+	{
+		"id": "kano-kura",
+		"name": "Kura",
+		"state": "Kano",
+		"stateId": "kano",
+		"point": [
+			8.4735,
+			11.7975
+		]
+	},
+	{
+		"id": "kano-madobi",
+		"name": "Madobi",
+		"state": "Kano",
+		"stateId": "kano",
+		"point": [
+			8.344,
+			11.7995
+		]
+	},
+	{
+		"id": "kano-makoda",
+		"name": "Makoda",
+		"state": "Kano",
+		"stateId": "kano",
+		"point": [
+			8.5,
+			12.342
+		]
+	},
+	{
+		"id": "kano-minjibir",
+		"name": "Minjibir",
+		"state": "Kano",
+		"stateId": "kano",
+		"point": [
+			8.6105,
+			12.1895
+		]
+	},
+	{
+		"id": "kano-nassarawa",
+		"name": "Nassarawa",
+		"state": "Kano",
+		"stateId": "kano",
+		"point": [
+			8.5735,
+			12.0065
+		]
+	},
+	{
+		"id": "kano-rano",
+		"name": "Rano",
+		"state": "Kano",
+		"stateId": "kano",
+		"point": [
+			8.5325,
+			11.493
+		]
+	},
+	{
+		"id": "kano-rimin-gado",
+		"name": "Rimin Gado",
+		"state": "Kano",
+		"stateId": "kano",
+		"point": [
+			8.314,
+			11.9105
+		]
+	},
+	{
+		"id": "kano-rogo",
+		"name": "Rogo",
+		"state": "Kano",
+		"stateId": "kano",
+		"point": [
+			7.8375,
+			11.516
+		]
+	},
+	{
+		"id": "kano-shanono",
+		"name": "Shanono",
+		"state": "Kano",
+		"stateId": "kano",
+		"point": [
+			7.942,
+			12.056
+		]
+	},
+	{
+		"id": "kano-sumaila",
+		"name": "Sumaila",
+		"state": "Kano",
+		"stateId": "kano",
+		"point": [
+			8.886,
+			11.288
+		]
+	},
+	{
+		"id": "kano-takai",
+		"name": "Takai",
+		"state": "Kano",
+		"stateId": "kano",
+		"point": [
+			9.1485,
+			11.476
+		]
+	},
+	{
+		"id": "kano-tarauni",
+		"name": "Tarauni",
+		"state": "Kano",
+		"stateId": "kano",
+		"point": [
+			8.554,
+			11.9615
+		]
+	},
+	{
+		"id": "kano-tofa",
+		"name": "Tofa",
+		"state": "Kano",
+		"stateId": "kano",
+		"point": [
+			8.326,
+			12.0165
+		]
+	},
+	{
+		"id": "kano-tsanyawa",
+		"name": "Tsanyawa",
+		"state": "Kano",
+		"stateId": "kano",
+		"point": [
+			8.01,
+			12.282
+		]
+	},
+	{
+		"id": "kano-tudun-wada",
+		"name": "Tudun Wada",
+		"state": "Kano",
+		"stateId": "kano",
+		"point": [
+			8.5225,
+			11.273
+		]
+	},
+	{
+		"id": "kano-ungogo",
+		"name": "Ungogo",
+		"state": "Kano",
+		"stateId": "kano",
+		"point": [
+			8.4965,
+			12.0895
+		]
+	},
+	{
+		"id": "kano-warawa",
+		"name": "Warawa",
+		"state": "Kano",
+		"stateId": "kano",
+		"point": [
+			8.7875,
+			11.9155
+		]
+	},
+	{
+		"id": "kano-wudil",
+		"name": "Wudil",
+		"state": "Kano",
+		"stateId": "kano",
+		"point": [
+			8.8645,
+			11.761
+		]
+	},
+	{
+		"id": "katsina-bakori",
+		"name": "Bakori",
+		"state": "Katsina",
+		"stateId": "katsina",
+		"point": [
+			7.4235,
+			11.6285
+		]
+	},
+	{
+		"id": "katsina-batagarawa",
+		"name": "Batagarawa",
+		"state": "Katsina",
+		"stateId": "katsina",
+		"point": [
+			7.573,
+			12.8765
+		]
+	},
+	{
+		"id": "katsina-batsari",
+		"name": "Batsari",
+		"state": "Katsina",
+		"stateId": "katsina",
+		"point": [
+			7.254,
+			12.835
+		]
+	},
+	{
+		"id": "katsina-baure",
+		"name": "Baure",
+		"state": "Katsina",
+		"stateId": "katsina",
+		"point": [
+			8.7875,
+			12.791
+		]
+	},
+	{
+		"id": "katsina-bindawa",
+		"name": "Bindawa",
+		"state": "Katsina",
+		"stateId": "katsina",
+		"point": [
+			7.883,
+			12.708
+		]
+	},
+	{
+		"id": "katsina-charanchi",
+		"name": "Charanchi",
+		"state": "Katsina",
+		"stateId": "katsina",
+		"point": [
+			7.671,
+			12.647
+		]
+	},
+	{
+		"id": "katsina-dan-musa",
+		"name": "Dan Musa",
+		"state": "Katsina",
+		"stateId": "katsina",
+		"point": [
+			7.283,
+			12.237
+		]
+	},
+	{
+		"id": "katsina-dandume",
+		"name": "Dandume",
+		"state": "Katsina",
+		"stateId": "katsina",
+		"point": [
+			7.2085,
+			11.4055
+		]
+	},
+	{
+		"id": "katsina-danja",
+		"name": "Danja",
+		"state": "Katsina",
+		"stateId": "katsina",
+		"point": [
+			7.6205,
+			11.3435
+		]
+	},
+	{
+		"id": "katsina-daura",
+		"name": "Daura",
+		"state": "Katsina",
+		"stateId": "katsina",
+		"point": [
+			8.286,
+			12.9715
+		]
+	},
+	{
+		"id": "katsina-dutsi",
+		"name": "Dutsi",
+		"state": "Katsina",
+		"stateId": "katsina",
+		"point": [
+			8.1525,
+			12.9135
+		]
+	},
+	{
+		"id": "katsina-dutsin-ma",
+		"name": "Dutsin Ma",
+		"state": "Katsina",
+		"stateId": "katsina",
+		"point": [
+			7.5115,
+			12.4525
+		]
+	},
+	{
+		"id": "katsina-faskari",
+		"name": "Faskari",
+		"state": "Katsina",
+		"stateId": "katsina",
+		"point": [
+			7.1045,
+			11.6925
+		]
+	},
+	{
+		"id": "katsina-funtua",
+		"name": "Funtua",
+		"state": "Katsina",
+		"stateId": "katsina",
+		"point": [
+			7.228,
+			11.54
+		]
+	},
+	{
+		"id": "katsina-ingawa",
+		"name": "Ingawa",
+		"state": "Katsina",
+		"stateId": "katsina",
+		"point": [
+			8.092,
+			12.6125
+		]
+	},
+	{
+		"id": "katsina-jibia",
+		"name": "Jibia",
+		"state": "Katsina",
+		"stateId": "katsina",
+		"point": [
+			7.4415,
+			13.04
+		]
+	},
+	{
+		"id": "katsina-kafur",
+		"name": "Kafur",
+		"state": "Katsina",
+		"stateId": "katsina",
+		"point": [
+			7.7555,
+			11.717
+		]
+	},
+	{
+		"id": "katsina-kaita",
+		"name": "Kaita",
+		"state": "Katsina",
+		"stateId": "katsina",
+		"point": [
+			7.7635,
+			13.173
+		]
+	},
+	{
+		"id": "katsina-kankara",
+		"name": "Kankara",
+		"state": "Katsina",
+		"stateId": "katsina",
+		"point": [
+			7.3935,
+			11.97
+		]
+	},
+	{
+		"id": "katsina-kankia",
+		"name": "Kankia",
+		"state": "Katsina",
+		"stateId": "katsina",
+		"point": [
+			7.7955,
+			12.44
+		]
+	},
+	{
+		"id": "katsina-katsina",
+		"name": "Katsina",
+		"state": "Katsina",
+		"stateId": "katsina",
+		"point": [
+			7.6185,
+			13.009
+		]
+	},
+	{
+		"id": "katsina-kurfi",
+		"name": "Kurfi",
+		"state": "Katsina",
+		"stateId": "katsina",
+		"point": [
+			7.4655,
+			12.66
+		]
+	},
+	{
+		"id": "katsina-kusada",
+		"name": "Kusada",
+		"state": "Katsina",
+		"stateId": "katsina",
+		"point": [
+			7.95,
+			12.449
+		]
+	},
+	{
+		"id": "katsina-mai-adua",
+		"name": "Mai'Adua",
+		"state": "Katsina",
+		"stateId": "katsina",
+		"point": [
+			8.2255,
+			13.1335
+		]
+	},
+	{
+		"id": "katsina-malumfashi",
+		"name": "Malumfashi",
+		"state": "Katsina",
+		"stateId": "katsina",
+		"point": [
+			7.7075,
+			11.9245
+		]
+	},
+	{
+		"id": "katsina-mani",
+		"name": "Mani",
+		"state": "Katsina",
+		"stateId": "katsina",
+		"point": [
+			7.882,
+			12.8955
+		]
+	},
+	{
+		"id": "katsina-mashi",
+		"name": "Mashi",
+		"state": "Katsina",
+		"stateId": "katsina",
+		"point": [
+			8.0145,
+			13.1245
+		]
+	},
+	{
+		"id": "katsina-matazu",
+		"name": "Matazu",
+		"state": "Katsina",
+		"stateId": "katsina",
+		"point": [
+			7.6395,
+			12.2435
+		]
+	},
+	{
+		"id": "katsina-musawa",
+		"name": "Musawa",
+		"state": "Katsina",
+		"stateId": "katsina",
+		"point": [
+			7.7605,
+			12.104
+		]
+	},
+	{
+		"id": "katsina-rimi",
+		"name": "Rimi",
+		"state": "Katsina",
+		"stateId": "katsina",
+		"point": [
+			7.7185,
+			12.852
+		]
+	},
+	{
+		"id": "katsina-sabuwa",
+		"name": "Sabuwa",
+		"state": "Katsina",
+		"stateId": "katsina",
+		"point": [
+			7.08,
+			11.304
+		]
+	},
+	{
+		"id": "katsina-safana",
+		"name": "Safana",
+		"state": "Katsina",
+		"stateId": "katsina",
+		"point": [
+			7.2435,
+			12.538
+		]
+	},
+	{
+		"id": "katsina-sandamu",
+		"name": "Sandamu",
+		"state": "Katsina",
+		"stateId": "katsina",
+		"point": [
+			8.391,
+			12.898
+		]
+	},
+	{
+		"id": "katsina-zango",
+		"name": "Zango",
+		"state": "Katsina",
+		"stateId": "katsina",
+		"point": [
+			8.5485,
+			12.9545
+		]
+	},
+	{
+		"id": "kebbi-aleiro",
+		"name": "Aleiro",
+		"state": "Kebbi",
+		"stateId": "kebbi",
+		"point": [
+			4.4515,
+			12.3105
+		]
+	},
+	{
+		"id": "kebbi-arewa-dandi",
+		"name": "Arewa Dandi",
+		"state": "Kebbi",
+		"stateId": "kebbi",
+		"point": [
+			4.2615,
+			12.942
+		]
+	},
+	{
+		"id": "kebbi-argungu",
+		"name": "Argungu",
+		"state": "Kebbi",
+		"stateId": "kebbi",
+		"point": [
+			4.426,
+			12.7145
+		]
+	},
+	{
+		"id": "kebbi-augie",
+		"name": "Augie",
+		"state": "Kebbi",
+		"stateId": "kebbi",
+		"point": [
+			4.6295,
+			12.8535
+		]
+	},
+	{
+		"id": "kebbi-bagudu",
+		"name": "Bagudu",
+		"state": "Kebbi",
+		"stateId": "kebbi",
+		"point": [
+			3.9125,
+			11.2895
+		]
+	},
+	{
+		"id": "kebbi-birnin-kebbi",
+		"name": "Birnin Kebbi",
+		"state": "Kebbi",
+		"stateId": "kebbi",
+		"point": [
+			4.2575,
+			12.448
+		]
+	},
+	{
+		"id": "kebbi-bunza",
+		"name": "Bunza",
+		"state": "Kebbi",
+		"stateId": "kebbi",
+		"point": [
+			3.908,
+			12.1865
+		]
+	},
+	{
+		"id": "kebbi-dandi",
+		"name": "Dandi",
+		"state": "Kebbi",
+		"stateId": "kebbi",
+		"point": [
+			3.809,
+			11.86
+		]
+	},
+	{
+		"id": "kebbi-fakai",
+		"name": "Fakai",
+		"state": "Kebbi",
+		"stateId": "kebbi",
+		"point": [
+			4.8545,
+			11.5315
+		]
+	},
+	{
+		"id": "kebbi-gwandu",
+		"name": "Gwandu",
+		"state": "Kebbi",
+		"stateId": "kebbi",
+		"point": [
+			4.579,
+			12.524
+		]
+	},
+	{
+		"id": "kebbi-jega",
+		"name": "Jega",
+		"state": "Kebbi",
+		"stateId": "kebbi",
+		"point": [
+			4.46,
+			12.107
+		]
+	},
+	{
+		"id": "kebbi-kalgo",
+		"name": "Kalgo",
+		"state": "Kebbi",
+		"stateId": "kebbi",
+		"point": [
+			4.0625,
+			12.324
+		]
+	},
+	{
+		"id": "kebbi-koko-besse",
+		"name": "Koko-Besse",
+		"state": "Kebbi",
+		"stateId": "kebbi",
+		"point": [
+			4.4095,
+			11.3125
+		]
+	},
+	{
+		"id": "kebbi-maiyama",
+		"name": "Maiyama",
+		"state": "Kebbi",
+		"stateId": "kebbi",
+		"point": [
+			4.307,
+			11.993
+		]
+	},
+	{
+		"id": "kebbi-ngaski",
+		"name": "Ngaski",
+		"state": "Kebbi",
+		"stateId": "kebbi",
+		"point": [
+			4.6785,
+			10.4375
+		]
+	},
+	{
+		"id": "kebbi-sakaba",
+		"name": "Sakaba",
+		"state": "Kebbi",
+		"stateId": "kebbi",
+		"point": [
+			5.555,
+			11.131
+		]
+	},
+	{
+		"id": "kebbi-shanga",
+		"name": "Shanga",
+		"state": "Kebbi",
+		"stateId": "kebbi",
+		"point": [
+			4.63,
+			11.106
+		]
+	},
+	{
+		"id": "kebbi-suru",
+		"name": "Suru",
+		"state": "Kebbi",
+		"stateId": "kebbi",
+		"point": [
+			4.135,
+			11.8055
+		]
+	},
+	{
+		"id": "kebbi-wasagu-danko",
+		"name": "Wasagu-Danko",
+		"state": "Kebbi",
+		"stateId": "kebbi",
+		"point": [
+			5.686,
+			11.384
+		]
+	},
+	{
+		"id": "kebbi-yauri",
+		"name": "Yauri",
+		"state": "Kebbi",
+		"stateId": "kebbi",
+		"point": [
+			4.7475,
+			10.8315
+		]
+	},
+	{
+		"id": "kebbi-zuru",
+		"name": "Zuru",
+		"state": "Kebbi",
+		"stateId": "kebbi",
+		"point": [
+			5.262,
+			11.4345
+		]
+	},
+	{
+		"id": "kogi-adavi",
+		"name": "Adavi",
+		"state": "Kogi",
+		"stateId": "kogi",
+		"point": [
+			6.4665,
+			7.685
+		]
+	},
+	{
+		"id": "kogi-ajaokuta",
+		"name": "Ajaokuta",
+		"state": "Kogi",
+		"stateId": "kogi",
+		"point": [
+			6.567,
+			7.507
+		]
+	},
+	{
+		"id": "kogi-ankpa",
+		"name": "Ankpa",
+		"state": "Kogi",
+		"stateId": "kogi",
+		"point": [
+			7.6125,
+			7.4615
+		]
+	},
+	{
+		"id": "kogi-bassa",
+		"name": "Bassa",
+		"state": "Kogi",
+		"stateId": "kogi",
+		"point": [
+			7.0365,
+			7.804
+		]
+	},
+	{
+		"id": "kogi-dekina",
+		"name": "Dekina",
+		"state": "Kogi",
+		"stateId": "kogi",
+		"point": [
+			7.2355,
+			7.582
+		]
+	},
+	{
+		"id": "kogi-ibaji",
+		"name": "Ibaji",
+		"state": "Kogi",
+		"stateId": "kogi",
+		"point": [
+			6.7625,
+			6.8285
+		]
+	},
+	{
+		"id": "kogi-idah",
+		"name": "Idah",
+		"state": "Kogi",
+		"stateId": "kogi",
+		"point": [
+			6.735,
+			7.0665
+		]
+	},
+	{
+		"id": "kogi-igalamela-odolu",
+		"name": "Igalamela-Odolu",
+		"state": "Kogi",
+		"stateId": "kogi",
+		"point": [
+			7.065,
+			7.0605
+		]
+	},
+	{
+		"id": "kogi-ijumu",
+		"name": "Ijumu",
+		"state": "Kogi",
+		"stateId": "kogi",
+		"point": [
+			5.929,
+			7.843
+		]
+	},
+	{
+		"id": "kogi-kabba-bunu",
+		"name": "Kabba/Bunu",
+		"state": "Kogi",
+		"stateId": "kogi",
+		"point": [
+			6.2245,
+			8.2425
+		]
+	},
+	{
+		"id": "kogi-kogi",
+		"name": "Kogi",
+		"state": "Kogi",
+		"stateId": "kogi",
+		"point": [
+			6.865,
+			8.145
+		]
+	},
+	{
+		"id": "kogi-lokoja",
+		"name": "Lokoja",
+		"state": "Kogi",
+		"stateId": "kogi",
+		"point": [
+			6.5985,
+			8.043
+		]
+	},
+	{
+		"id": "kogi-mopa-muro",
+		"name": "Mopa-Muro",
+		"state": "Kogi",
+		"stateId": "kogi",
+		"point": [
+			5.9155,
+			8.155
+		]
+	},
+	{
+		"id": "kogi-ofu",
+		"name": "Ofu",
+		"state": "Kogi",
+		"stateId": "kogi",
+		"point": [
+			6.9885,
+			7.318
+		]
+	},
+	{
+		"id": "kogi-ogori-magongo",
+		"name": "Ogori/Magongo",
+		"state": "Kogi",
+		"stateId": "kogi",
+		"point": [
+			6.1615,
+			7.4765
+		]
+	},
+	{
+		"id": "kogi-okehi",
+		"name": "Okehi",
+		"state": "Kogi",
+		"stateId": "kogi",
+		"point": [
+			6.3385,
+			7.7295
+		]
+	},
+	{
+		"id": "kogi-okene",
+		"name": "Okene",
+		"state": "Kogi",
+		"stateId": "kogi",
+		"point": [
+			6.2235,
+			7.5235
+		]
+	},
+	{
+		"id": "kogi-olamaboro",
+		"name": "Olamaboro",
+		"state": "Kogi",
+		"stateId": "kogi",
+		"point": [
+			7.5325,
+			7.19
+		]
+	},
+	{
+		"id": "kogi-omala",
+		"name": "Omala",
+		"state": "Kogi",
+		"stateId": "kogi",
+		"point": [
+			7.5375,
+			7.818
+		]
+	},
+	{
+		"id": "kogi-yagba-east",
+		"name": "Yagba East",
+		"state": "Kogi",
+		"stateId": "kogi",
+		"point": [
+			5.799,
+			8.2855
+		]
+	},
+	{
+		"id": "kogi-yagba-west",
+		"name": "Yagba West",
+		"state": "Kogi",
+		"stateId": "kogi",
+		"point": [
+			5.544,
+			8.3375
+		]
+	},
+	{
+		"id": "kwara-asa",
+		"name": "Asa",
+		"state": "Kwara",
+		"stateId": "kwara",
+		"point": [
+			4.497,
+			8.3185
+		]
+	},
+	{
+		"id": "kwara-baruten",
+		"name": "Baruten",
+		"state": "Kwara",
+		"stateId": "kwara",
+		"point": [
+			3.4165,
+			9.2305
+		]
+	},
+	{
+		"id": "kwara-edu",
+		"name": "Edu",
+		"state": "Kwara",
+		"stateId": "kwara",
+		"point": [
+			5.1855,
+			8.8845
+		]
+	},
+	{
+		"id": "kwara-ekiti",
+		"name": "Ekiti",
+		"state": "Kwara",
+		"stateId": "kwara",
+		"point": [
+			5.2965,
+			8.092
+		]
+	},
+	{
+		"id": "kwara-ifelodun",
+		"name": "Ifelodun",
+		"state": "Kwara",
+		"stateId": "kwara",
+		"point": [
+			5.068,
+			8.533
+		]
+	},
+	{
+		"id": "kwara-ilorin-east",
+		"name": "Ilorin East",
+		"state": "Kwara",
+		"stateId": "kwara",
+		"point": [
+			4.8465,
+			8.632
+		]
+	},
+	{
+		"id": "kwara-ilorin-south",
+		"name": "Ilorin South",
+		"state": "Kwara",
+		"stateId": "kwara",
+		"point": [
+			4.6345,
+			8.465
+		]
+	},
+	{
+		"id": "kwara-ilorin-west",
+		"name": "Ilorin West",
+		"state": "Kwara",
+		"stateId": "kwara",
+		"point": [
+			4.5145,
+			8.4565
+		]
+	},
+	{
+		"id": "kwara-irepodun",
+		"name": "Irepodun",
+		"state": "Kwara",
+		"stateId": "kwara",
+		"point": [
+			4.9,
+			8.1555
+		]
+	},
+	{
+		"id": "kwara-isin",
+		"name": "Isin",
+		"state": "Kwara",
+		"stateId": "kwara",
+		"point": [
+			5.0545,
+			8.2625
+		]
+	},
+	{
+		"id": "kwara-kaiama",
+		"name": "Kaiama",
+		"state": "Kwara",
+		"stateId": "kwara",
+		"point": [
+			4.12,
+			9.4125
+		]
+	},
+	{
+		"id": "kwara-moro",
+		"name": "Moro",
+		"state": "Kwara",
+		"stateId": "kwara",
+		"point": [
+			4.578,
+			8.842
+		]
+	},
+	{
+		"id": "kwara-offa",
+		"name": "Offa",
+		"state": "Kwara",
+		"stateId": "kwara",
+		"point": [
+			4.697,
+			8.1655
+		]
+	},
+	{
+		"id": "kwara-oke-ero",
+		"name": "Oke Ero",
+		"state": "Kwara",
+		"stateId": "kwara",
+		"point": [
+			5.268,
+			8.2065
+		]
+	},
+	{
+		"id": "kwara-oyun",
+		"name": "Oyun",
+		"state": "Kwara",
+		"stateId": "kwara",
+		"point": [
+			4.638,
+			8.2275
+		]
+	},
+	{
+		"id": "kwara-pategi",
+		"name": "Pategi",
+		"state": "Kwara",
+		"stateId": "kwara",
+		"point": [
+			5.77,
+			8.5945
+		]
+	},
+	{
+		"id": "lagos-agege",
+		"name": "Agege",
+		"state": "Lagos",
+		"stateId": "lagos",
+		"point": [
+			3.32,
+			6.627
+		]
+	},
+	{
+		"id": "lagos-ajeromi-ifelodun",
+		"name": "Ajeromi/Ifelodun",
+		"state": "Lagos",
+		"stateId": "lagos",
+		"point": [
+			3.33,
+			6.4575
+		]
+	},
+	{
+		"id": "lagos-alimosho",
+		"name": "Alimosho",
+		"state": "Lagos",
+		"stateId": "lagos",
+		"point": [
+			3.247,
+			6.568
+		]
+	},
+	{
+		"id": "lagos-amuwo-odofin",
+		"name": "Amuwo Odofin",
+		"state": "Lagos",
+		"stateId": "lagos",
+		"point": [
+			3.277,
+			6.4405
+		]
+	},
+	{
+		"id": "lagos-apapa",
+		"name": "Apapa",
+		"state": "Lagos",
+		"stateId": "lagos",
+		"point": [
+			3.3685,
+			6.437
+		]
+	},
+	{
+		"id": "lagos-badagry",
+		"name": "Badagry",
+		"state": "Lagos",
+		"stateId": "lagos",
+		"point": [
+			2.9245,
+			6.4445
+		]
+	},
+	{
+		"id": "lagos-epe",
+		"name": "Epe",
+		"state": "Lagos",
+		"stateId": "lagos",
+		"point": [
+			3.9795,
+			6.5815
+		]
+	},
+	{
+		"id": "lagos-eti-osa",
+		"name": "Eti Osa",
+		"state": "Lagos",
+		"stateId": "lagos",
+		"point": [
+			3.5935,
+			6.4575
+		]
+	},
+	{
+		"id": "lagos-ibeju-lekki",
+		"name": "Ibeju Lekki",
+		"state": "Lagos",
+		"stateId": "lagos",
+		"point": [
+			3.915,
+			6.469
+		]
+	},
+	{
+		"id": "lagos-ifako-ijaye",
+		"name": "Ifako/Ijaye",
+		"state": "Lagos",
+		"stateId": "lagos",
+		"point": [
+			3.318,
+			6.6575
+		]
+	},
+	{
+		"id": "lagos-ikeja",
+		"name": "Ikeja",
+		"state": "Lagos",
+		"stateId": "lagos",
+		"point": [
+			3.344,
+			6.5945
+		]
+	},
+	{
+		"id": "lagos-ikorodu",
+		"name": "Ikorodu",
+		"state": "Lagos",
+		"stateId": "lagos",
+		"point": [
+			3.564,
+			6.613
+		]
+	},
+	{
+		"id": "lagos-kosofe",
+		"name": "Kosofe",
+		"state": "Lagos",
+		"stateId": "lagos",
+		"point": [
+			3.402,
+			6.6085
+		]
+	},
+	{
+		"id": "lagos-lagos-island",
+		"name": "Lagos Island",
+		"state": "Lagos",
+		"stateId": "lagos",
+		"point": [
+			3.3965,
+			6.4545
+		]
+	},
+	{
+		"id": "lagos-lagos-mainland",
+		"name": "Lagos Mainland",
+		"state": "Lagos",
+		"stateId": "lagos",
+		"point": [
+			3.381,
+			6.4995
+		]
+	},
+	{
+		"id": "lagos-mushin",
+		"name": "Mushin",
+		"state": "Lagos",
+		"stateId": "lagos",
+		"point": [
+			3.3485,
+			6.5305
+		]
+	},
+	{
+		"id": "lagos-ojo",
+		"name": "Ojo",
+		"state": "Lagos",
+		"stateId": "lagos",
+		"point": [
+			3.156,
+			6.456
+		]
+	},
+	{
+		"id": "lagos-oshodi-isolo",
+		"name": "Oshodi/Isolo",
+		"state": "Lagos",
+		"stateId": "lagos",
+		"point": [
+			3.311,
+			6.54
+		]
+	},
+	{
+		"id": "lagos-shomolu",
+		"name": "Shomolu",
+		"state": "Lagos",
+		"stateId": "lagos",
+		"point": [
+			3.3815,
+			6.5375
+		]
+	},
+	{
+		"id": "lagos-surulere",
+		"name": "Surulere",
+		"state": "Lagos",
+		"stateId": "lagos",
+		"point": [
+			3.3425,
+			6.4905
+		]
+	},
+	{
+		"id": "nasarawa-akwanga",
+		"name": "Akwanga",
+		"state": "Nasarawa",
+		"stateId": "nasarawa",
+		"point": [
+			8.3435,
+			9.0015
+		]
+	},
+	{
+		"id": "nasarawa-awe",
+		"name": "Awe",
+		"state": "Nasarawa",
+		"stateId": "nasarawa",
+		"point": [
+			9.176,
+			8.2405
+		]
+	},
+	{
+		"id": "nasarawa-doma",
+		"name": "Doma",
+		"state": "Nasarawa",
+		"stateId": "nasarawa",
+		"point": [
+			8.242,
+			8.171
+		]
+	},
+	{
+		"id": "nasarawa-karu",
+		"name": "Karu",
+		"state": "Nasarawa",
+		"stateId": "nasarawa",
+		"point": [
+			7.749,
+			9.0495
+		]
+	},
+	{
+		"id": "nasarawa-keana",
+		"name": "Keana",
+		"state": "Nasarawa",
+		"stateId": "nasarawa",
+		"point": [
+			8.7885,
+			8.173
+		]
+	},
+	{
+		"id": "nasarawa-keffi",
+		"name": "Keffi",
+		"state": "Nasarawa",
+		"stateId": "nasarawa",
+		"point": [
+			7.8365,
+			8.8365
+		]
+	},
+	{
+		"id": "nasarawa-kokona",
+		"name": "Kokona",
+		"state": "Nasarawa",
+		"stateId": "nasarawa",
+		"point": [
+			8.059,
+			8.822
+		]
+	},
+	{
+		"id": "nasarawa-lafia",
+		"name": "Lafia",
+		"state": "Nasarawa",
+		"stateId": "nasarawa",
+		"point": [
+			8.764,
+			8.6035
+		]
+	},
+	{
+		"id": "nasarawa-nasarawa",
+		"name": "Nasarawa",
+		"state": "Nasarawa",
+		"stateId": "nasarawa",
+		"point": [
+			7.7455,
+			8.3385
+		]
+	},
+	{
+		"id": "nasarawa-nasarawa-egon",
+		"name": "Nasarawa Egon",
+		"state": "Nasarawa",
+		"stateId": "nasarawa",
+		"point": [
+			8.394,
+			8.726
+		]
+	},
+	{
+		"id": "nasarawa-obi",
+		"name": "Obi",
+		"state": "Nasarawa",
+		"stateId": "nasarawa",
+		"point": [
+			8.7225,
+			8.3555
+		]
+	},
+	{
+		"id": "nasarawa-toto",
+		"name": "Toto",
+		"state": "Nasarawa",
+		"stateId": "nasarawa",
+		"point": [
+			7.194,
+			8.2405
+		]
+	},
+	{
+		"id": "nasarawa-wamba",
+		"name": "Wamba",
+		"state": "Nasarawa",
+		"stateId": "nasarawa",
+		"point": [
+			8.694,
+			8.9725
+		]
+	},
+	{
+		"id": "niger-agaie",
+		"name": "Agaie",
+		"state": "Niger",
+		"stateId": "niger",
+		"point": [
+			6.432,
+			8.9495
+		]
+	},
+	{
+		"id": "niger-agwara",
+		"name": "Agwara",
+		"state": "Niger",
+		"stateId": "niger",
+		"point": [
+			4.5095,
+			10.7375
+		]
+	},
+	{
+		"id": "niger-bida",
+		"name": "Bida",
+		"state": "Niger",
+		"stateId": "niger",
+		"point": [
+			5.9605,
+			9.029
+		]
+	},
+	{
+		"id": "niger-borgu",
+		"name": "Borgu",
+		"state": "Niger",
+		"stateId": "niger",
+		"point": [
+			4.161,
+			10.29
+		]
+	},
+	{
+		"id": "niger-bosso",
+		"name": "Bosso",
+		"state": "Niger",
+		"stateId": "niger",
+		"point": [
+			6.3725,
+			9.6135
+		]
+	},
+	{
+		"id": "niger-chanchaga",
+		"name": "Chanchaga",
+		"state": "Niger",
+		"stateId": "niger",
+		"point": [
+			6.5375,
+			9.5985
+		]
+	},
+	{
+		"id": "niger-edati",
+		"name": "Edati",
+		"state": "Niger",
+		"stateId": "niger",
+		"point": [
+			5.6695,
+			9.055
+		]
+	},
+	{
+		"id": "niger-gbako",
+		"name": "Gbako",
+		"state": "Niger",
+		"stateId": "niger",
+		"point": [
+			6.01,
+			9.322
+		]
+	},
+	{
+		"id": "niger-gurara",
+		"name": "Gurara",
+		"state": "Niger",
+		"stateId": "niger",
+		"point": [
+			7.067,
+			9.3205
+		]
+	},
+	{
+		"id": "niger-katcha",
+		"name": "Katcha",
+		"state": "Niger",
+		"stateId": "niger",
+		"point": [
+			6.271,
+			9.3075
+		]
+	},
+	{
+		"id": "niger-kontagora",
+		"name": "Kontagora",
+		"state": "Niger",
+		"stateId": "niger",
+		"point": [
+			5.504,
+			10.404
+		]
+	},
+	{
+		"id": "niger-lapai",
+		"name": "Lapai",
+		"state": "Niger",
+		"stateId": "niger",
+		"point": [
+			6.644,
+			8.543
+		]
+	},
+	{
+		"id": "niger-lavun",
+		"name": "Lavun",
+		"state": "Niger",
+		"stateId": "niger",
+		"point": [
+			5.564,
+			9.456
+		]
+	},
+	{
+		"id": "niger-magama",
+		"name": "Magama",
+		"state": "Niger",
+		"stateId": "niger",
+		"point": [
+			5.1075,
+			10.4985
+		]
+	},
+	{
+		"id": "niger-mariga",
+		"name": "Mariga",
+		"state": "Niger",
+		"stateId": "niger",
+		"point": [
+			5.839,
+			10.7055
+		]
+	},
+	{
+		"id": "niger-mashegu",
+		"name": "Mashegu",
+		"state": "Niger",
+		"stateId": "niger",
+		"point": [
+			5.209,
+			9.931
+		]
+	},
+	{
+		"id": "niger-mokwa",
+		"name": "Mokwa",
+		"state": "Niger",
+		"stateId": "niger",
+		"point": [
+			5.184,
+			9.2875
+		]
+	},
+	{
+		"id": "niger-munya",
+		"name": "Munya",
+		"state": "Niger",
+		"stateId": "niger",
+		"point": [
+			7.018,
+			9.8345
+		]
+	},
+	{
+		"id": "niger-paikoro",
+		"name": "Paikoro",
+		"state": "Niger",
+		"stateId": "niger",
+		"point": [
+			6.643,
+			9.427
+		]
+	},
+	{
+		"id": "niger-rafi",
+		"name": "Rafi",
+		"state": "Niger",
+		"stateId": "niger",
+		"point": [
+			6.2215,
+			10.1485
+		]
+	},
+	{
+		"id": "niger-rijau",
+		"name": "Rijau",
+		"state": "Niger",
+		"stateId": "niger",
+		"point": [
+			5.1985,
+			11.0735
+		]
+	},
+	{
+		"id": "niger-shiroro",
+		"name": "Shiroro",
+		"state": "Niger",
+		"stateId": "niger",
+		"point": [
+			6.7,
+			10.1845
+		]
+	},
+	{
+		"id": "niger-suleja",
+		"name": "Suleja",
+		"state": "Niger",
+		"stateId": "niger",
+		"point": [
+			7.161,
+			9.2205
+		]
+	},
+	{
+		"id": "niger-tafa",
+		"name": "Tafa",
+		"state": "Niger",
+		"stateId": "niger",
+		"point": [
+			7.2535,
+			9.2325
+		]
+	},
+	{
+		"id": "niger-wushishi",
+		"name": "Wushishi",
+		"state": "Niger",
+		"stateId": "niger",
+		"point": [
+			5.977,
+			9.6645
+		]
+	},
+	{
+		"id": "ogun-abeokuta-north",
+		"name": "Abeokuta North",
+		"state": "Ogun",
+		"stateId": "ogun",
+		"point": [
+			3.1865,
+			7.2
+		]
+	},
+	{
+		"id": "ogun-abeokuta-south",
+		"name": "Abeokuta South",
+		"state": "Ogun",
+		"stateId": "ogun",
+		"point": [
+			3.374,
+			7.1705
+		]
+	},
+	{
+		"id": "ogun-ado-odo-ota",
+		"name": "Ado Odo/Ota",
+		"state": "Ogun",
+		"stateId": "ogun",
+		"point": [
+			3.092,
+			6.621
+		]
+	},
+	{
+		"id": "ogun-ewekoro",
+		"name": "Ewekoro",
+		"state": "Ogun",
+		"stateId": "ogun",
+		"point": [
+			3.186,
+			6.9565
+		]
+	},
+	{
+		"id": "ogun-ifo",
+		"name": "Ifo",
+		"state": "Ogun",
+		"stateId": "ogun",
+		"point": [
+			3.291,
+			6.805
+		]
+	},
+	{
+		"id": "ogun-ijebu-east",
+		"name": "Ijebu East",
+		"state": "Ogun",
+		"stateId": "ogun",
+		"point": [
+			4.273,
+			6.8265
+		]
+	},
+	{
+		"id": "ogun-ijebu-north",
+		"name": "Ijebu North",
+		"state": "Ogun",
+		"stateId": "ogun",
+		"point": [
+			4.005,
+			7.0195
+		]
+	},
+	{
+		"id": "ogun-ijebu-north-east",
+		"name": "Ijebu North East",
+		"state": "Ogun",
+		"stateId": "ogun",
+		"point": [
+			4.023,
+			6.891
+		]
+	},
+	{
+		"id": "ogun-ijebu-ode",
+		"name": "Ijebu Ode",
+		"state": "Ogun",
+		"stateId": "ogun",
+		"point": [
+			3.977,
+			6.729
+		]
+	},
+	{
+		"id": "ogun-ikenne",
+		"name": "Ikenne",
+		"state": "Ogun",
+		"stateId": "ogun",
+		"point": [
+			3.677,
+			6.908
+		]
+	},
+	{
+		"id": "ogun-imeko-afon",
+		"name": "Imeko Afon",
+		"state": "Ogun",
+		"stateId": "ogun",
+		"point": [
+			2.85,
+			7.5665
+		]
+	},
+	{
+		"id": "ogun-ipokia",
+		"name": "Ipokia",
+		"state": "Ogun",
+		"stateId": "ogun",
+		"point": [
+			2.8105,
+			6.554
+		]
+	},
+	{
+		"id": "ogun-obafemi-owode",
+		"name": "Obafemi Owode",
+		"state": "Ogun",
+		"stateId": "ogun",
+		"point": [
+			3.4875,
+			7.0235
+		]
+	},
+	{
+		"id": "ogun-odeda",
+		"name": "Odeda",
+		"state": "Ogun",
+		"stateId": "ogun",
+		"point": [
+			3.5545,
+			7.2955
+		]
+	},
+	{
+		"id": "ogun-odogbolu",
+		"name": "Odogbolu",
+		"state": "Ogun",
+		"stateId": "ogun",
+		"point": [
+			3.7935,
+			6.7695
+		]
+	},
+	{
+		"id": "ogun-ogun-waterside",
+		"name": "Ogun Waterside",
+		"state": "Ogun",
+		"stateId": "ogun",
+		"point": [
+			4.3865,
+			6.533
+		]
+	},
+	{
+		"id": "ogun-remo-north",
+		"name": "Remo North",
+		"state": "Ogun",
+		"stateId": "ogun",
+		"point": [
+			3.7315,
+			7.0095
+		]
+	},
+	{
+		"id": "ogun-shagamu",
+		"name": "Shagamu",
+		"state": "Ogun",
+		"stateId": "ogun",
+		"point": [
+			3.575,
+			6.7795
+		]
+	},
+	{
+		"id": "ogun-yewa-north",
+		"name": "Yewa North",
+		"state": "Ogun",
+		"stateId": "ogun",
+		"point": [
+			2.905,
+			7.1085
+		]
+	},
+	{
+		"id": "ogun-yewa-south",
+		"name": "Yewa South",
+		"state": "Ogun",
+		"stateId": "ogun",
+		"point": [
+			2.957,
+			6.7895
+		]
+	},
+	{
+		"id": "ondo-akoko-north-east",
+		"name": "Akoko North East",
+		"state": "Ondo",
+		"stateId": "ondo",
+		"point": [
+			5.9025,
+			7.544
+		]
+	},
+	{
+		"id": "ondo-akoko-north-west",
+		"name": "Akoko North West",
+		"state": "Ondo",
+		"stateId": "ondo",
+		"point": [
+			5.793,
+			7.6425
+		]
+	},
+	{
+		"id": "ondo-akoko-south-east",
+		"name": "Akoko South East",
+		"state": "Ondo",
+		"stateId": "ondo",
+		"point": [
+			5.909,
+			7.4315
+		]
+	},
+	{
+		"id": "ondo-akoko-south-west",
+		"name": "Akoko South West",
+		"state": "Ondo",
+		"stateId": "ondo",
+		"point": [
+			5.688,
+			7.398
+		]
+	},
+	{
+		"id": "ondo-akure-north",
+		"name": "Akure North",
+		"state": "Ondo",
+		"stateId": "ondo",
+		"point": [
+			5.3035,
+			7.257
+		]
+	},
+	{
+		"id": "ondo-akure-south",
+		"name": "Akure South",
+		"state": "Ondo",
+		"stateId": "ondo",
+		"point": [
+			5.202,
+			7.195
+		]
+	},
+	{
+		"id": "ondo-ese-odo",
+		"name": "Ese Odo",
+		"state": "Ondo",
+		"stateId": "ondo",
+		"point": [
+			4.969,
+			6.222
+		]
+	},
+	{
+		"id": "ondo-idanre",
+		"name": "Idanre",
+		"state": "Ondo",
+		"stateId": "ondo",
+		"point": [
+			5.1805,
+			6.994
+		]
+	},
+	{
+		"id": "ondo-ifedore",
+		"name": "Ifedore",
+		"state": "Ondo",
+		"stateId": "ondo",
+		"point": [
+			5.113,
+			7.358
+		]
+	},
+	{
+		"id": "ondo-ilaje",
+		"name": "Ilaje",
+		"state": "Ondo",
+		"stateId": "ondo",
+		"point": [
+			4.733,
+			6.259
+		]
+	},
+	{
+		"id": "ondo-ile-oluji-okeigbo",
+		"name": "Ile Oluji/Okeigbo",
+		"state": "Ondo",
+		"stateId": "ondo",
+		"point": [
+			4.8505,
+			7.2705
+		]
+	},
+	{
+		"id": "ondo-irele",
+		"name": "Irele",
+		"state": "Ondo",
+		"stateId": "ondo",
+		"point": [
+			5.004,
+			6.5205
+		]
+	},
+	{
+		"id": "ondo-odigbo",
+		"name": "Odigbo",
+		"state": "Ondo",
+		"stateId": "ondo",
+		"point": [
+			4.828,
+			6.7915
+		]
+	},
+	{
+		"id": "ondo-okitipupa",
+		"name": "Okitipupa",
+		"state": "Ondo",
+		"stateId": "ondo",
+		"point": [
+			4.713,
+			6.5515
+		]
+	},
+	{
+		"id": "ondo-ondo-east",
+		"name": "Ondo East",
+		"state": "Ondo",
+		"stateId": "ondo",
+		"point": [
+			4.956,
+			7.124
+		]
+	},
+	{
+		"id": "ondo-ondo-west",
+		"name": "Ondo West",
+		"state": "Ondo",
+		"stateId": "ondo",
+		"point": [
+			4.7295,
+			6.991
+		]
+	},
+	{
+		"id": "ondo-ose",
+		"name": "Ose",
+		"state": "Ondo",
+		"stateId": "ondo",
+		"point": [
+			5.6945,
+			6.9375
+		]
+	},
+	{
+		"id": "ondo-owo",
+		"name": "Owo",
+		"state": "Ondo",
+		"stateId": "ondo",
+		"point": [
+			5.584,
+			7.1645
+		]
+	},
+	{
+		"id": "osun-atakunmosa-east",
+		"name": "Atakunmosa East",
+		"state": "Osun",
+		"stateId": "osun",
+		"point": [
+			4.761,
+			7.4365
+		]
+	},
+	{
+		"id": "osun-atakunmosa-west",
+		"name": "Atakunmosa West",
+		"state": "Osun",
+		"stateId": "osun",
+		"point": [
+			4.6415,
+			7.576
+		]
+	},
+	{
+		"id": "osun-ayedade",
+		"name": "Ayedade",
+		"state": "Osun",
+		"stateId": "osun",
+		"point": [
+			4.33,
+			7.203
+		]
+	},
+	{
+		"id": "osun-ayedire",
+		"name": "Ayedire",
+		"state": "Osun",
+		"stateId": "osun",
+		"point": [
+			4.237,
+			7.561
+		]
+	},
+	{
+		"id": "osun-boluwaduro",
+		"name": "Boluwaduro",
+		"state": "Osun",
+		"stateId": "osun",
+		"point": [
+			4.8145,
+			7.923
+		]
+	},
+	{
+		"id": "osun-boripe",
+		"name": "Boripe",
+		"state": "Osun",
+		"stateId": "osun",
+		"point": [
+			4.7075,
+			7.8995
+		]
+	},
+	{
+		"id": "osun-ede-north",
+		"name": "Ede North",
+		"state": "Osun",
+		"stateId": "osun",
+		"point": [
+			4.466,
+			7.7265
+		]
+	},
+	{
+		"id": "osun-ede-south",
+		"name": "Ede South",
+		"state": "Osun",
+		"stateId": "osun",
+		"point": [
+			4.4315,
+			7.661
+		]
+	},
+	{
+		"id": "osun-egbedore",
+		"name": "Egbedore",
+		"state": "Osun",
+		"stateId": "osun",
+		"point": [
+			4.4145,
+			7.8135
+		]
+	},
+	{
+		"id": "osun-ejigbo",
+		"name": "Ejigbo",
+		"state": "Osun",
+		"stateId": "osun",
+		"point": [
+			4.27,
+			7.885
+		]
+	},
+	{
+		"id": "osun-ife-central",
+		"name": "Ife Central",
+		"state": "Osun",
+		"stateId": "osun",
+		"point": [
+			4.5375,
+			7.543
+		]
+	},
+	{
+		"id": "osun-ife-east",
+		"name": "Ife East",
+		"state": "Osun",
+		"stateId": "osun",
+		"point": [
+			4.5905,
+			7.434
+		]
+	},
+	{
+		"id": "osun-ife-north",
+		"name": "Ife North",
+		"state": "Osun",
+		"stateId": "osun",
+		"point": [
+			4.4475,
+			7.391
+		]
+	},
+	{
+		"id": "osun-ife-south",
+		"name": "Ife South",
+		"state": "Osun",
+		"stateId": "osun",
+		"point": [
+			4.5545,
+			7.173
+		]
+	},
+	{
+		"id": "osun-ifedayo",
+		"name": "Ifedayo",
+		"state": "Osun",
+		"stateId": "osun",
+		"point": [
+			4.97,
+			7.952
+		]
+	},
+	{
+		"id": "osun-ifelodun",
+		"name": "Ifelodun",
+		"state": "Osun",
+		"stateId": "osun",
+		"point": [
+			4.6515,
+			7.934
+		]
+	},
+	{
+		"id": "osun-ila",
+		"name": "Ila",
+		"state": "Osun",
+		"stateId": "osun",
+		"point": [
+			4.8935,
+			8.015
+		]
+	},
+	{
+		"id": "osun-ilesha-east",
+		"name": "Ilesha East",
+		"state": "Osun",
+		"stateId": "osun",
+		"point": [
+			4.765,
+			7.5865
+		]
+	},
+	{
+		"id": "osun-ilesha-west",
+		"name": "Ilesha West",
+		"state": "Osun",
+		"stateId": "osun",
+		"point": [
+			4.719,
+			7.641
+		]
+	},
+	{
+		"id": "osun-irepodun",
+		"name": "Irepodun",
+		"state": "Osun",
+		"stateId": "osun",
+		"point": [
+			4.513,
+			7.8775
+		]
+	},
+	{
+		"id": "osun-irewole",
+		"name": "Irewole",
+		"state": "Osun",
+		"stateId": "osun",
+		"point": [
+			4.232,
+			7.4125
+		]
+	},
+	{
+		"id": "osun-isokan",
+		"name": "Isokan",
+		"state": "Osun",
+		"stateId": "osun",
+		"point": [
+			4.187,
+			7.288
+		]
+	},
+	{
+		"id": "osun-iwo",
+		"name": "Iwo",
+		"state": "Osun",
+		"stateId": "osun",
+		"point": [
+			4.1375,
+			7.669
+		]
+	},
+	{
+		"id": "osun-obokun",
+		"name": "Obokun",
+		"state": "Osun",
+		"stateId": "osun",
+		"point": [
+			4.7645,
+			7.7925
+		]
+	},
+	{
+		"id": "osun-odo-otin",
+		"name": "Odo Otin",
+		"state": "Osun",
+		"stateId": "osun",
+		"point": [
+			4.651,
+			8.003
+		]
+	},
+	{
+		"id": "osun-ola-oluwa",
+		"name": "Ola Oluwa",
+		"state": "Osun",
+		"stateId": "osun",
+		"point": [
+			4.2195,
+			7.7425
+		]
+	},
+	{
+		"id": "osun-olorunda",
+		"name": "Olorunda",
+		"state": "Osun",
+		"stateId": "osun",
+		"point": [
+			4.5865,
+			7.8455
+		]
+	},
+	{
+		"id": "osun-oriade",
+		"name": "Oriade",
+		"state": "Osun",
+		"stateId": "osun",
+		"point": [
+			4.8935,
+			7.452
+		]
+	},
+	{
+		"id": "osun-orolu",
+		"name": "Orolu",
+		"state": "Osun",
+		"stateId": "osun",
+		"point": [
+			4.472,
+			7.9005
+		]
+	},
+	{
+		"id": "osun-osogbo",
+		"name": "Osogbo",
+		"state": "Osun",
+		"stateId": "osun",
+		"point": [
+			4.5525,
+			7.7535
+		]
+	},
+	{
+		"id": "oyo-afijio",
+		"name": "Afijio",
+		"state": "Oyo",
+		"stateId": "oyo",
+		"point": [
+			3.8185,
+			7.7355
+		]
+	},
+	{
+		"id": "oyo-akinyele",
+		"name": "Akinyele",
+		"state": "Oyo",
+		"stateId": "oyo",
+		"point": [
+			3.9045,
+			7.5765
+		]
+	},
+	{
+		"id": "oyo-atiba",
+		"name": "Atiba",
+		"state": "Oyo",
+		"stateId": "oyo",
+		"point": [
+			3.931,
+			8.0555
+		]
+	},
+	{
+		"id": "oyo-atisbo",
+		"name": "Atisbo",
+		"state": "Oyo",
+		"stateId": "oyo",
+		"point": [
+			3.353,
+			8.426
+		]
+	},
+	{
+		"id": "oyo-egbeda",
+		"name": "Egbeda",
+		"state": "Oyo",
+		"stateId": "oyo",
+		"point": [
+			4.0575,
+			7.394
+		]
+	},
+	{
+		"id": "oyo-ibadan-north",
+		"name": "Ibadan North",
+		"state": "Oyo",
+		"stateId": "oyo",
+		"point": [
+			3.902,
+			7.422
+		]
+	},
+	{
+		"id": "oyo-ibadan-north-east",
+		"name": "Ibadan North East",
+		"state": "Oyo",
+		"stateId": "oyo",
+		"point": [
+			3.9215,
+			7.377
+		]
+	},
+	{
+		"id": "oyo-ibadan-north-west",
+		"name": "Ibadan North West",
+		"state": "Oyo",
+		"stateId": "oyo",
+		"point": [
+			3.8565,
+			7.4055
+		]
+	},
+	{
+		"id": "oyo-ibadan-south-east",
+		"name": "Ibadan South East",
+		"state": "Oyo",
+		"stateId": "oyo",
+		"point": [
+			3.8925,
+			7.3555
+		]
+	},
+	{
+		"id": "oyo-ibadan-south-west",
+		"name": "Ibadan South West",
+		"state": "Oyo",
+		"stateId": "oyo",
+		"point": [
+			3.8655,
+			7.3645
+		]
+	},
+	{
+		"id": "oyo-ibarapa-central",
+		"name": "Ibarapa Central",
+		"state": "Oyo",
+		"stateId": "oyo",
+		"point": [
+			3.255,
+			7.4285
+		]
+	},
+	{
+		"id": "oyo-ibarapa-east",
+		"name": "Ibarapa East",
+		"state": "Oyo",
+		"stateId": "oyo",
+		"point": [
+			3.489,
+			7.5885
+		]
+	},
+	{
+		"id": "oyo-ibarapa-north",
+		"name": "Ibarapa North",
+		"state": "Oyo",
+		"stateId": "oyo",
+		"point": [
+			3.161,
+			7.6495
+		]
+	},
+	{
+		"id": "oyo-ido",
+		"name": "Ido",
+		"state": "Oyo",
+		"stateId": "oyo",
+		"point": [
+			3.711,
+			7.532
+		]
+	},
+	{
+		"id": "oyo-irepo",
+		"name": "Irepo",
+		"state": "Oyo",
+		"stateId": "oyo",
+		"point": [
+			3.8765,
+			9.065
+		]
+	},
+	{
+		"id": "oyo-iseyin",
+		"name": "Iseyin",
+		"state": "Oyo",
+		"stateId": "oyo",
+		"point": [
+			3.595,
+			7.9745
+		]
+	},
+	{
+		"id": "oyo-itesiwaju",
+		"name": "Itesiwaju",
+		"state": "Oyo",
+		"stateId": "oyo",
+		"point": [
+			3.246,
+			8.2695
+		]
+	},
+	{
+		"id": "oyo-iwajowa",
+		"name": "Iwajowa",
+		"state": "Oyo",
+		"stateId": "oyo",
+		"point": [
+			3.0155,
+			8.0295
+		]
+	},
+	{
+		"id": "oyo-kajola",
+		"name": "Kajola",
+		"state": "Oyo",
+		"stateId": "oyo",
+		"point": [
+			3.3595,
+			8.024
+		]
+	},
+	{
+		"id": "oyo-lagelu",
+		"name": "Lagelu",
+		"state": "Oyo",
+		"stateId": "oyo",
+		"point": [
+			4.063,
+			7.5405
+		]
+	},
+	{
+		"id": "oyo-ogbomosho-north",
+		"name": "Ogbomosho North",
+		"state": "Oyo",
+		"stateId": "oyo",
+		"point": [
+			4.272,
+			8.157
+		]
+	},
+	{
+		"id": "oyo-ogbomosho-south",
+		"name": "Ogbomosho South",
+		"state": "Oyo",
+		"stateId": "oyo",
+		"point": [
+			4.2295,
+			8.101
+		]
+	},
+	{
+		"id": "oyo-ogo-oluwa",
+		"name": "Ogo Oluwa",
+		"state": "Oyo",
+		"stateId": "oyo",
+		"point": [
+			4.1935,
+			7.9985
+		]
+	},
+	{
+		"id": "oyo-olorunsogo",
+		"name": "Olorunsogo",
+		"state": "Oyo",
+		"stateId": "oyo",
+		"point": [
+			4.0625,
+			8.6995
+		]
+	},
+	{
+		"id": "oyo-oluyole",
+		"name": "Oluyole",
+		"state": "Oyo",
+		"stateId": "oyo",
+		"point": [
+			3.8745,
+			7.2125
+		]
+	},
+	{
+		"id": "oyo-ona-ara",
+		"name": "Ona Ara",
+		"state": "Oyo",
+		"stateId": "oyo",
+		"point": [
+			4.0435,
+			7.2535
+		]
+	},
+	{
+		"id": "oyo-orelope",
+		"name": "Orelope",
+		"state": "Oyo",
+		"stateId": "oyo",
+		"point": [
+			3.785,
+			8.821
+		]
+	},
+	{
+		"id": "oyo-ori-ire",
+		"name": "Ori Ire",
+		"state": "Oyo",
+		"stateId": "oyo",
+		"point": [
+			4.093,
+			8.317
+		]
+	},
+	{
+		"id": "oyo-oyo-east",
+		"name": "Oyo East",
+		"state": "Oyo",
+		"stateId": "oyo",
+		"point": [
+			4.0575,
+			7.883
+		]
+	},
+	{
+		"id": "oyo-oyo-west",
+		"name": "Oyo West",
+		"state": "Oyo",
+		"stateId": "oyo",
+		"point": [
+			3.8165,
+			7.9345
+		]
+	},
+	{
+		"id": "oyo-saki-east",
+		"name": "Saki East",
+		"state": "Oyo",
+		"stateId": "oyo",
+		"point": [
+			3.617,
+			8.6875
+		]
+	},
+	{
+		"id": "oyo-saki-west",
+		"name": "Saki West",
+		"state": "Oyo",
+		"stateId": "oyo",
+		"point": [
+			3.1705,
+			8.63
+		]
+	},
+	{
+		"id": "oyo-surulere",
+		"name": "Surulere",
+		"state": "Oyo",
+		"stateId": "oyo",
+		"point": [
+			4.4125,
+			8.074
+		]
+	},
+	{
+		"id": "plateau-barkin-ladi",
+		"name": "Barkin Ladi",
+		"state": "Plateau",
+		"stateId": "plateau",
+		"point": [
+			8.967,
+			9.601
+		]
+	},
+	{
+		"id": "plateau-bassa",
+		"name": "Bassa",
+		"state": "Plateau",
+		"stateId": "plateau",
+		"point": [
+			8.8,
+			10.1095
+		]
+	},
+	{
+		"id": "plateau-bokkos",
+		"name": "Bokkos",
+		"state": "Plateau",
+		"stateId": "plateau",
+		"point": [
+			8.9305,
+			9.2125
+		]
+	},
+	{
+		"id": "plateau-jos-east",
+		"name": "Jos East",
+		"state": "Plateau",
+		"stateId": "plateau",
+		"point": [
+			9.1045,
+			9.8785
+		]
+	},
+	{
+		"id": "plateau-jos-north",
+		"name": "Jos North",
+		"state": "Plateau",
+		"stateId": "plateau",
+		"point": [
+			8.911,
+			9.951
+		]
+	},
+	{
+		"id": "plateau-jos-south",
+		"name": "Jos South",
+		"state": "Plateau",
+		"stateId": "plateau",
+		"point": [
+			8.837,
+			9.7565
+		]
+	},
+	{
+		"id": "plateau-kanam",
+		"name": "Kanam",
+		"state": "Plateau",
+		"stateId": "plateau",
+		"point": [
+			9.98,
+			9.469
+		]
+	},
+	{
+		"id": "plateau-kanke",
+		"name": "Kanke",
+		"state": "Plateau",
+		"stateId": "plateau",
+		"point": [
+			9.6385,
+			9.3805
+		]
+	},
+	{
+		"id": "plateau-langtang-north",
+		"name": "Langtang North",
+		"state": "Plateau",
+		"stateId": "plateau",
+		"point": [
+			9.8245,
+			9.128
+		]
+	},
+	{
+		"id": "plateau-langtang-south",
+		"name": "Langtang South",
+		"state": "Plateau",
+		"stateId": "plateau",
+		"point": [
+			9.805,
+			8.5905
+		]
+	},
+	{
+		"id": "plateau-mangu",
+		"name": "Mangu",
+		"state": "Plateau",
+		"stateId": "plateau",
+		"point": [
+			9.181,
+			9.4345
+		]
+	},
+	{
+		"id": "plateau-mikang",
+		"name": "Mikang",
+		"state": "Plateau",
+		"stateId": "plateau",
+		"point": [
+			9.6325,
+			9.043
+		]
+	},
+	{
+		"id": "plateau-pankshin",
+		"name": "Pankshin",
+		"state": "Plateau",
+		"stateId": "plateau",
+		"point": [
+			9.407,
+			9.336
+		]
+	},
+	{
+		"id": "plateau-qua-an-pan",
+		"name": "Qua'An Pan",
+		"state": "Plateau",
+		"stateId": "plateau",
+		"point": [
+			9.17,
+			8.744
+		]
+	},
+	{
+		"id": "plateau-riyom",
+		"name": "Riyom",
+		"state": "Plateau",
+		"stateId": "plateau",
+		"point": [
+			8.6885,
+			9.562
+		]
+	},
+	{
+		"id": "plateau-shendam",
+		"name": "Shendam",
+		"state": "Plateau",
+		"stateId": "plateau",
+		"point": [
+			9.5255,
+			8.7165
+		]
+	},
+	{
+		"id": "plateau-wase",
+		"name": "Wase",
+		"state": "Plateau",
+		"stateId": "plateau",
+		"point": [
+			10.2115,
+			9.0775
+		]
+	},
+	{
+		"id": "rivers-abua-odual",
+		"name": "Abua/Odual",
+		"state": "Rivers",
+		"stateId": "rivers",
+		"point": [
+			6.6145,
+			4.811
+		]
+	},
+	{
+		"id": "rivers-ahoada-east",
+		"name": "Ahoada East",
+		"state": "Rivers",
+		"stateId": "rivers",
+		"point": [
+			6.6375,
+			5.062
+		]
+	},
+	{
+		"id": "rivers-ahoada-west",
+		"name": "Ahoada West",
+		"state": "Rivers",
+		"stateId": "rivers",
+		"point": [
+			6.507,
+			5.022
+		]
+	},
+	{
+		"id": "rivers-akuku-toru",
+		"name": "Akuku Toru",
+		"state": "Rivers",
+		"stateId": "rivers",
+		"point": [
+			6.6335,
+			4.5925
+		]
+	},
+	{
+		"id": "rivers-andoni",
+		"name": "Andoni",
+		"state": "Rivers",
+		"stateId": "rivers",
+		"point": [
+			7.401,
+			4.5085
+		]
+	},
+	{
+		"id": "rivers-asari-toru",
+		"name": "Asari-Toru",
+		"state": "Rivers",
+		"stateId": "rivers",
+		"point": [
+			6.842,
+			4.7395
+		]
+	},
+	{
+		"id": "rivers-bonny",
+		"name": "Bonny",
+		"state": "Rivers",
+		"stateId": "rivers",
+		"point": [
+			7.2405,
+			4.448
+		]
+	},
+	{
+		"id": "rivers-degema",
+		"name": "Degema",
+		"state": "Rivers",
+		"stateId": "rivers",
+		"point": [
+			6.9045,
+			4.554
+		]
+	},
+	{
+		"id": "rivers-eleme",
+		"name": "Eleme",
+		"state": "Rivers",
+		"stateId": "rivers",
+		"point": [
+			7.147,
+			4.794
+		]
+	},
+	{
+		"id": "rivers-emuoha",
+		"name": "Emuoha",
+		"state": "Rivers",
+		"stateId": "rivers",
+		"point": [
+			6.781,
+			4.926
+		]
+	},
+	{
+		"id": "rivers-etche",
+		"name": "Etche",
+		"state": "Rivers",
+		"stateId": "rivers",
+		"point": [
+			7.0825,
+			5.092
+		]
+	},
+	{
+		"id": "rivers-gokana",
+		"name": "Gokana",
+		"state": "Rivers",
+		"stateId": "rivers",
+		"point": [
+			7.2875,
+			4.649
+		]
+	},
+	{
+		"id": "rivers-ikwerre",
+		"name": "Ikwerre",
+		"state": "Rivers",
+		"stateId": "rivers",
+		"point": [
+			6.8955,
+			5.075
+		]
+	},
+	{
+		"id": "rivers-khana",
+		"name": "Khana",
+		"state": "Rivers",
+		"stateId": "rivers",
+		"point": [
+			7.436,
+			4.6955
+		]
+	},
+	{
+		"id": "rivers-obio-akpor",
+		"name": "Obio/Akpor",
+		"state": "Rivers",
+		"stateId": "rivers",
+		"point": [
+			6.996,
+			4.8725
+		]
+	},
+	{
+		"id": "rivers-ogba-egbema-ndoni",
+		"name": "Ogba/Egbema/Ndoni",
+		"state": "Rivers",
+		"stateId": "rivers",
+		"point": [
+			6.6495,
+			5.3985
+		]
+	},
+	{
+		"id": "rivers-ogu-bolo",
+		"name": "Ogu Bolo",
+		"state": "Rivers",
+		"stateId": "rivers",
+		"point": [
+			7.2005,
+			4.662
+		]
+	},
+	{
+		"id": "rivers-okrika",
+		"name": "Okrika",
+		"state": "Rivers",
+		"stateId": "rivers",
+		"point": [
+			7.077,
+			4.598
+		]
+	},
+	{
+		"id": "rivers-omumma",
+		"name": "Omumma",
+		"state": "Rivers",
+		"stateId": "rivers",
+		"point": [
+			7.242,
+			5.122
+		]
+	},
+	{
+		"id": "rivers-opobo-nkoro",
+		"name": "Opobo/Nkoro",
+		"state": "Rivers",
+		"stateId": "rivers",
+		"point": [
+			7.4985,
+			4.527
+		]
+	},
+	{
+		"id": "rivers-oyigbo",
+		"name": "Oyigbo",
+		"state": "Rivers",
+		"stateId": "rivers",
+		"point": [
+			7.3035,
+			4.8315
+		]
+	},
+	{
+		"id": "rivers-port-harcourt",
+		"name": "Port-Harcourt",
+		"state": "Rivers",
+		"stateId": "rivers",
+		"point": [
+			7.018,
+			4.7875
+		]
+	},
+	{
+		"id": "rivers-tai",
+		"name": "Tai",
+		"state": "Rivers",
+		"stateId": "rivers",
+		"point": [
+			7.256,
+			4.75
+		]
+	},
+	{
+		"id": "sokoto-binji",
+		"name": "Binji",
+		"state": "Sokoto",
+		"stateId": "sokoto",
+		"point": [
+			4.7805,
+			13.209
+		]
+	},
+	{
+		"id": "sokoto-bodinga",
+		"name": "Bodinga",
+		"state": "Sokoto",
+		"stateId": "sokoto",
+		"point": [
+			5.1935,
+			12.8345
+		]
+	},
+	{
+		"id": "sokoto-dange-shuni",
+		"name": "Dange Shuni",
+		"state": "Sokoto",
+		"stateId": "sokoto",
+		"point": [
+			5.4235,
+			12.835
+		]
+	},
+	{
+		"id": "sokoto-gada",
+		"name": "Gada",
+		"state": "Sokoto",
+		"stateId": "sokoto",
+		"point": [
+			5.647,
+			13.721
+		]
+	},
+	{
+		"id": "sokoto-goronyo",
+		"name": "Goronyo",
+		"state": "Sokoto",
+		"stateId": "sokoto",
+		"point": [
+			5.833,
+			13.4185
+		]
+	},
+	{
+		"id": "sokoto-gudu",
+		"name": "Gudu",
+		"state": "Sokoto",
+		"stateId": "sokoto",
+		"point": [
+			4.48,
+			13.4475
+		]
+	},
+	{
+		"id": "sokoto-gwadabawa",
+		"name": "Gwadabawa",
+		"state": "Sokoto",
+		"stateId": "sokoto",
+		"point": [
+			5.321,
+			13.416
+		]
+	},
+	{
+		"id": "sokoto-illela",
+		"name": "Illela",
+		"state": "Sokoto",
+		"stateId": "sokoto",
+		"point": [
+			5.356,
+			13.693
+		]
+	},
+	{
+		"id": "sokoto-isa",
+		"name": "Isa",
+		"state": "Sokoto",
+		"stateId": "sokoto",
+		"point": [
+			6.144,
+			13.212
+		]
+	},
+	{
+		"id": "sokoto-kebbe",
+		"name": "Kebbe",
+		"state": "Sokoto",
+		"stateId": "sokoto",
+		"point": [
+			4.703,
+			11.8895
+		]
+	},
+	{
+		"id": "sokoto-kware",
+		"name": "Kware",
+		"state": "Sokoto",
+		"stateId": "sokoto",
+		"point": [
+			5.2455,
+			13.233
+		]
+	},
+	{
+		"id": "sokoto-rabah",
+		"name": "Rabah",
+		"state": "Sokoto",
+		"stateId": "sokoto",
+		"point": [
+			5.7535,
+			12.9765
+		]
+	},
+	{
+		"id": "sokoto-sabon-birni",
+		"name": "Sabon Birni",
+		"state": "Sokoto",
+		"stateId": "sokoto",
+		"point": [
+			6.266,
+			13.494
+		]
+	},
+	{
+		"id": "sokoto-shagari",
+		"name": "Shagari",
+		"state": "Sokoto",
+		"stateId": "sokoto",
+		"point": [
+			5.1315,
+			12.5645
+		]
+	},
+	{
+		"id": "sokoto-silame",
+		"name": "Silame",
+		"state": "Sokoto",
+		"stateId": "sokoto",
+		"point": [
+			4.834,
+			12.9975
+		]
+	},
+	{
+		"id": "sokoto-sokoto-north",
+		"name": "Sokoto North",
+		"state": "Sokoto",
+		"stateId": "sokoto",
+		"point": [
+			5.229,
+			13.0665
+		]
+	},
+	{
+		"id": "sokoto-sokoto-south",
+		"name": "Sokoto South",
+		"state": "Sokoto",
+		"stateId": "sokoto",
+		"point": [
+			5.2625,
+			13.038
+		]
+	},
+	{
+		"id": "sokoto-tambuwal",
+		"name": "Tambuwal",
+		"state": "Sokoto",
+		"stateId": "sokoto",
+		"point": [
+			4.846,
+			12.358
+		]
+	},
+	{
+		"id": "sokoto-tangaza",
+		"name": "Tangaza",
+		"state": "Sokoto",
+		"stateId": "sokoto",
+		"point": [
+			4.96,
+			13.5085
+		]
+	},
+	{
+		"id": "sokoto-tureta",
+		"name": "Tureta",
+		"state": "Sokoto",
+		"stateId": "sokoto",
+		"point": [
+			5.525,
+			12.494
+		]
+	},
+	{
+		"id": "sokoto-wamakko",
+		"name": "Wamakko",
+		"state": "Sokoto",
+		"stateId": "sokoto",
+		"point": [
+			5.1125,
+			13.0765
+		]
+	},
+	{
+		"id": "sokoto-wurno",
+		"name": "Wurno",
+		"state": "Sokoto",
+		"stateId": "sokoto",
+		"point": [
+			5.5015,
+			13.252
+		]
+	},
+	{
+		"id": "sokoto-yabo",
+		"name": "Yabo",
+		"state": "Sokoto",
+		"stateId": "sokoto",
+		"point": [
+			4.9515,
+			12.7915
+		]
+	},
+	{
+		"id": "taraba-ardo-kola",
+		"name": "Ardo-Kola",
+		"state": "Taraba",
+		"stateId": "taraba",
+		"point": [
+			11.1695,
+			8.825
+		]
+	},
+	{
+		"id": "taraba-bali",
+		"name": "Bali",
+		"state": "Taraba",
+		"stateId": "taraba",
+		"point": [
+			11.0685,
+			8.227
+		]
+	},
+	{
+		"id": "taraba-donga",
+		"name": "Donga",
+		"state": "Taraba",
+		"stateId": "taraba",
+		"point": [
+			10.1645,
+			7.6745
+		]
+	},
+	{
+		"id": "taraba-gashaka",
+		"name": "Gashaka",
+		"state": "Taraba",
+		"stateId": "taraba",
+		"point": [
+			11.373,
+			7.4965
+		]
+	},
+	{
+		"id": "taraba-gassol",
+		"name": "Gassol",
+		"state": "Taraba",
+		"stateId": "taraba",
+		"point": [
+			10.557,
+			8.4735
+		]
+	},
+	{
+		"id": "taraba-ibi",
+		"name": "Ibi",
+		"state": "Taraba",
+		"stateId": "taraba",
+		"point": [
+			9.756,
+			8.2425
+		]
+	},
+	{
+		"id": "taraba-jalingo",
+		"name": "Jalingo",
+		"state": "Taraba",
+		"stateId": "taraba",
+		"point": [
+			11.2875,
+			8.9835
+		]
+	},
+	{
+		"id": "taraba-karim-lamido",
+		"name": "Karim Lamido",
+		"state": "Taraba",
+		"stateId": "taraba",
+		"point": [
+			10.8455,
+			9.202
+		]
+	},
+	{
+		"id": "taraba-kurmi",
+		"name": "Kurmi",
+		"state": "Taraba",
+		"stateId": "taraba",
+		"point": [
+			10.687,
+			7.258
+		]
+	},
+	{
+		"id": "taraba-lau",
+		"name": "Lau",
+		"state": "Taraba",
+		"stateId": "taraba",
+		"point": [
+			11.414,
+			9.1955
+		]
+	},
+	{
+		"id": "taraba-sardauna",
+		"name": "Sardauna",
+		"state": "Taraba",
+		"stateId": "taraba",
+		"point": [
+			11.262,
+			6.812
+		]
+	},
+	{
+		"id": "taraba-takum",
+		"name": "Takum",
+		"state": "Taraba",
+		"stateId": "taraba",
+		"point": [
+			10.029,
+			7.4035
+		]
+	},
+	{
+		"id": "taraba-ussa",
+		"name": "Ussa",
+		"state": "Taraba",
+		"stateId": "taraba",
+		"point": [
+			10.065,
+			7.13
+		]
+	},
+	{
+		"id": "taraba-wukari",
+		"name": "Wukari",
+		"state": "Taraba",
+		"stateId": "taraba",
+		"point": [
+			9.825,
+			7.9145
+		]
+	},
+	{
+		"id": "taraba-yorro",
+		"name": "Yorro",
+		"state": "Taraba",
+		"stateId": "taraba",
+		"point": [
+			11.561,
+			8.817
+		]
+	},
+	{
+		"id": "taraba-zing",
+		"name": "Zing",
+		"state": "Taraba",
+		"stateId": "taraba",
+		"point": [
+			11.7335,
+			8.893
+		]
+	},
+	{
+		"id": "yobe-bade",
+		"name": "Bade",
+		"state": "Yobe",
+		"stateId": "yobe",
+		"point": [
+			10.6555,
+			12.797
+		]
+	},
+	{
+		"id": "yobe-bursari",
+		"name": "Bursari",
+		"state": "Yobe",
+		"stateId": "yobe",
+		"point": [
+			11.4415,
+			12.7165
+		]
+	},
+	{
+		"id": "yobe-damaturu",
+		"name": "Damaturu",
+		"state": "Yobe",
+		"stateId": "yobe",
+		"point": [
+			12.043,
+			11.8365
+		]
+	},
+	{
+		"id": "yobe-fika",
+		"name": "Fika",
+		"state": "Yobe",
+		"stateId": "yobe",
+		"point": [
+			11.189,
+			11.372
+		]
+	},
+	{
+		"id": "yobe-fune",
+		"name": "Fune",
+		"state": "Yobe",
+		"stateId": "yobe",
+		"point": [
+			11.5075,
+			11.825
+		]
+	},
+	{
+		"id": "yobe-geidam",
+		"name": "Geidam",
+		"state": "Yobe",
+		"stateId": "yobe",
+		"point": [
+			12.112,
+			12.6585
+		]
+	},
+	{
+		"id": "yobe-gujba",
+		"name": "Gujba",
+		"state": "Yobe",
+		"stateId": "yobe",
+		"point": [
+			11.971,
+			11.3915
+		]
+	},
+	{
+		"id": "yobe-gulani",
+		"name": "Gulani",
+		"state": "Yobe",
+		"stateId": "yobe",
+		"point": [
+			11.677,
+			11.018
+		]
+	},
+	{
+		"id": "yobe-jakusko",
+		"name": "Jakusko",
+		"state": "Yobe",
+		"stateId": "yobe",
+		"point": [
+			10.9335,
+			12.3725
+		]
+	},
+	{
+		"id": "yobe-karasuwa",
+		"name": "Karasuwa",
+		"state": "Yobe",
+		"stateId": "yobe",
+		"point": [
+			10.767,
+			12.975
+		]
+	},
+	{
+		"id": "yobe-machina",
+		"name": "Machina",
+		"state": "Yobe",
+		"stateId": "yobe",
+		"point": [
+			10.038,
+			13.0775
+		]
+	},
+	{
+		"id": "yobe-nangere",
+		"name": "Nangere",
+		"state": "Yobe",
+		"stateId": "yobe",
+		"point": [
+			10.954,
+			11.9015
+		]
+	},
+	{
+		"id": "yobe-nguru",
+		"name": "Nguru",
+		"state": "Yobe",
+		"stateId": "yobe",
+		"point": [
+			10.3705,
+			12.9585
+		]
+	},
+	{
+		"id": "yobe-potiskum",
+		"name": "Potiskum",
+		"state": "Yobe",
+		"stateId": "yobe",
+		"point": [
+			11.143,
+			11.671
+		]
+	},
+	{
+		"id": "yobe-tarmuwa",
+		"name": "Tarmuwa",
+		"state": "Yobe",
+		"stateId": "yobe",
+		"point": [
+			11.8485,
+			12.2265
+		]
+	},
+	{
+		"id": "yobe-yunusari",
+		"name": "Yunusari",
+		"state": "Yobe",
+		"stateId": "yobe",
+		"point": [
+			11.7855,
+			13.095
+		]
+	},
+	{
+		"id": "yobe-yusufari",
+		"name": "Yusufari",
+		"state": "Yobe",
+		"stateId": "yobe",
+		"point": [
+			11.095,
+			13.1865
+		]
+	},
+	{
+		"id": "zamfara-anka",
+		"name": "Anka",
+		"state": "Zamfara",
+		"stateId": "zamfara",
+		"point": [
+			6.012,
+			11.9405
+		]
+	},
+	{
+		"id": "zamfara-bakura",
+		"name": "Bakura",
+		"state": "Zamfara",
+		"stateId": "zamfara",
+		"point": [
+			5.856,
+			12.6195
+		]
+	},
+	{
+		"id": "zamfara-birnin-magaji-kiyaw",
+		"name": "Birnin Magaji-Kiyaw",
+		"state": "Zamfara",
+		"stateId": "zamfara",
+		"point": [
+			6.8745,
+			12.494
+		]
+	},
+	{
+		"id": "zamfara-bukkuyum",
+		"name": "Bukkuyum",
+		"state": "Zamfara",
+		"stateId": "zamfara",
+		"point": [
+			5.568,
+			11.935
+		]
+	},
+	{
+		"id": "zamfara-bungudu",
+		"name": "Bungudu",
+		"state": "Zamfara",
+		"stateId": "zamfara",
+		"point": [
+			6.538,
+			12.274
+		]
+	},
+	{
+		"id": "zamfara-gummi",
+		"name": "Gummi",
+		"state": "Zamfara",
+		"stateId": "zamfara",
+		"point": [
+			5.1095,
+			12.0565
+		]
+	},
+	{
+		"id": "zamfara-gusau",
+		"name": "Gusau",
+		"state": "Zamfara",
+		"stateId": "zamfara",
+		"point": [
+			6.671,
+			12.049
+		]
+	},
+	{
+		"id": "zamfara-kaura-namoda",
+		"name": "Kaura Namoda",
+		"state": "Zamfara",
+		"stateId": "zamfara",
+		"point": [
+			6.559,
+			12.5395
+		]
+	},
+	{
+		"id": "zamfara-maradun",
+		"name": "Maradun",
+		"state": "Zamfara",
+		"stateId": "zamfara",
+		"point": [
+			6.2445,
+			12.736
+		]
+	},
+	{
+		"id": "zamfara-maru",
+		"name": "Maru",
+		"state": "Zamfara",
+		"stateId": "zamfara",
+		"point": [
+			6.4335,
+			11.34
+		]
+	},
+	{
+		"id": "zamfara-shinkafi",
+		"name": "Shinkafi",
+		"state": "Zamfara",
+		"stateId": "zamfara",
+		"point": [
+			6.313,
+			13.0865
+		]
+	},
+	{
+		"id": "zamfara-talata-mafara",
+		"name": "Talata Mafara",
+		"state": "Zamfara",
+		"stateId": "zamfara",
+		"point": [
+			6.049,
+			12.3545
+		]
+	},
+	{
+		"id": "zamfara-tsafe",
+		"name": "Tsafe",
+		"state": "Zamfara",
+		"stateId": "zamfara",
+		"point": [
+			6.916,
+			11.9225
+		]
+	},
+	{
+		"id": "zamfara-zurmi",
+		"name": "Zurmi",
+		"state": "Zamfara",
+		"stateId": "zamfara",
+		"point": [
+			6.831,
+			12.8015
+		]
+	}
+]

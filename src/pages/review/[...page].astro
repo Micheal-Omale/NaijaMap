@@ -1,0 +1,191 @@
+---
+// The owner's review list: every claim of every unpublished group, in plain text.
+// Only built when drafts are included (dev, or NIAJMAP_INCLUDE_DRAFTS=true), so it
+// never exists on the public site.
+import Base from '../../layouts/Base.astro';
+import { ConfidenceBadge } from '../../components/map/Profile';
+import { getLangFromUrl, useTranslations } from '../../i18n/utils';
+import { getGroupViews, includeDrafts } from '../../lib/groups';
+import type { Evidence } from '../../lib/types';
+
+export function getStaticPaths() {
+	return includeDrafts ? [{ params: { page: undefined } }] : [];
+}
+
+const tr = useTranslations(getLangFromUrl(Astro.url));
+const { t } = tr;
+const groups = (await getGroupViews()).filter((g) => g.status !== 'published');
+const refs = (e: Evidence) => e.refs.map((n) => `[${n}]`).join('');
+---
+
+<Base title={`${t('review.title')} · ${t('site.name')}`} noindex>
+	<main class="review">
+		<h1>{t('review.title')}</h1>
+		<p>{t('review.intro')}</p>
+		{
+			groups.map((g) => (
+				<section>
+					<h2>
+						{g.name} <code>data/groups/{g.id}.json</code> <span class="status">{g.status}</span>
+					</h2>
+					<table>
+						<thead>
+							<tr>
+								<th>Claim</th>
+								<th>Value</th>
+								<th>Sources</th>
+								<th>Confidence</th>
+								<th>Note</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Language</td>
+								<td>
+									{g.language.name} ({g.language.iso639_3}, {g.language.glottocode}); {g.language.family.lineage.join(' › ')}
+								</td>
+								<td>{refs(g.language)}</td>
+								<td><ConfidenceBadge level={g.language.confidence} tr={tr} /></td>
+								<td />
+							</tr>
+							<tr>
+								<td>Summary</td>
+								<td>{g.summary.text}</td>
+								<td>{refs(g.summary)}</td>
+								<td><ConfidenceBadge level={g.summary.confidence} tr={tr} /></td>
+								<td>{g.summary.note}</td>
+							</tr>
+							{g.ruler && (
+								<tr>
+									<td>Ruler</td>
+									<td>{g.ruler.title}{g.ruler.seat && `, ${g.ruler.seat}`}</td>
+									<td>{refs(g.ruler)}</td>
+									<td><ConfidenceBadge level={g.ruler.confidence} tr={tr} /></td>
+									<td>{g.ruler.note}</td>
+								</tr>
+							)}
+							{g.areas.map((a) => (
+								<tr>
+									<td>Area</td>
+									<td>
+										{a.name}, {a.state}: {t(`presence.${a.presence}`)}
+									</td>
+									<td>{refs(a)}</td>
+									<td><ConfidenceBadge level={a.confidence} tr={tr} /></td>
+									<td>{a.note}</td>
+								</tr>
+							))}
+							{g.enclaves.map((e) => (
+								<tr>
+									<td>Community</td>
+									<td>
+										{e.name}, {e.lgaName}, {e.state}
+										{e.approximate && ` (${t('map.approximate')})`}
+									</td>
+									<td>{refs(e)}</td>
+									<td><ConfidenceBadge level={e.confidence} tr={tr} /></td>
+									<td>{e.note}</td>
+								</tr>
+							))}
+						</tbody>
+					</table>
+					<h3>{t('profile.sources')}</h3>
+					<ol>
+						{g.sources.map((s) => (
+							<li>
+								{s.url ? <a href={s.url}>{s.citation}</a> : s.citation}
+								{!s.checked && <strong> ({t('profile.sourceNotChecked')})</strong>}
+							</li>
+						))}
+					</ol>
+					{g.reviewNotes.length > 0 && (
+						<>
+							<h3>{t('profile.reviewNotes')}</h3>
+							<ul>
+								{g.reviewNotes.map((n) => (
+									<li>{n}</li>
+								))}
+							</ul>
+						</>
+					)}
+					<p>
+						<a href={`/?group=${g.id}`}>{t('profile.showOnMap', { name: g.name })}</a>
+					</p>
+				</section>
+			))
+		}
+	</main>
+</Base>
+
+<style>
+	.review {
+		max-width: 72rem;
+		margin: 0 auto;
+		padding: 2rem 1rem 4rem;
+	}
+	section {
+		margin-top: 2.5rem;
+	}
+	h2 {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: baseline;
+		gap: 0.75rem;
+	}
+	code {
+		font-size: 0.875rem;
+		color: var(--ink-muted);
+	}
+	.status {
+		font-size: 0.75rem;
+		text-transform: uppercase;
+		letter-spacing: 0.06em;
+		color: var(--conf-medium);
+	}
+	table {
+		width: 100%;
+		border-collapse: collapse;
+		margin: 1rem 0;
+		font-size: 0.875rem;
+		display: block;
+		overflow-x: auto;
+	}
+	th,
+	td {
+		text-align: left;
+		vertical-align: top;
+		padding: 0.5rem;
+		border-bottom: 1px solid var(--rule);
+	}
+	:global(.conf) {
+		display: inline-flex;
+		gap: 4px;
+		align-items: center;
+		font-weight: 600;
+		white-space: nowrap;
+	}
+	:global(.conf svg) {
+		width: 18px;
+		height: 8px;
+	}
+	:global(.conf--high) {
+		color: var(--conf-high);
+	}
+	:global(.conf--medium) {
+		color: var(--conf-medium);
+	}
+	:global(.conf--disputed) {
+		color: var(--conf-disputed);
+	}
+	:global(.conf circle.on) {
+		fill: currentColor;
+	}
+	:global(.conf circle.off) {
+		fill: none;
+		stroke: currentColor;
+	}
+	:global(.conf path) {
+		stroke: currentColor;
+		stroke-width: 2;
+	}
+</style>

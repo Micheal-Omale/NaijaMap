@@ -9,15 +9,18 @@ Needs Node.js 24 (see `.nvmrc`).
 | Command | What it does |
 | :-- | :-- |
 | `npm install` | Install dependencies |
-| `npm run dev` | Start the local dev server at `localhost:4321` |
-| `npm run build` | Build the static site into `./dist/` |
+| `npm run dev` | Start the local dev server at `localhost:4321` (shows draft data) |
+| `npm run build` | Typecheck, then build the public site into `./dist/` (published data only) |
+| `npm run build:preview` | Build a private preview that includes drafts and the `/review` page |
+| `npm run check` | Typecheck and validate all data |
+| `npm run geo` | Rebuild the map geometry from `data/raw/` (see [data/README.md](data/README.md)) |
 | `npm run preview` | Serve the built site locally |
 
 ## How it is built
 
 A static Astro site with the map as a React and MapLibre island, hosted on Vercel. The full decision is in [spec 0001](docs/specs/0001-stack-architecture/index.md). The plan lives in [docs/scope/scope.md](docs/scope/scope.md).
 
-UI text lives in [src/i18n/ui.ts](src/i18n/ui.ts), never inline in components, so the site can be translated later.
+Data rules and sources are in [data/README.md](data/README.md). UI text lives in [src/i18n/ui.ts](src/i18n/ui.ts), never inline in components, so the site can be translated later.
 
 ## Licences
 

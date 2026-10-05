@@ -1,0 +1,147 @@
+/*
+ * Design tokens. Today mood (clean, modern). The Then mood (old map) will
+ * override these under [data-mood="then"] when the timeline lands.
+ * The map reads its colours from these tokens too (src/components/map/style.ts).
+ */
+:root {
+	color-scheme: light;
+
+	--font-display: 'Bricolage Grotesque Variable', ui-sans-serif, system-ui, sans-serif;
+	--font-body: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+
+	--bg: #f4f2ed;
+	--surface: #ffffff;
+	--surface-2: #f8f7f3;
+	--ink: #17191e;
+	--ink-muted: #565b66;
+	--ink-faint: #8a8f99;
+	--rule: #e3e0d8;
+
+	--accent: #0a7650; /* Nigerian green, for links, focus and controls */
+	--accent-ink: #ffffff;
+	--focus: #0a7650;
+
+	/* One bright colour for search results, used nowhere else */
+	--highlight: #e8590c;
+	--highlight-soft: #f6b48a;
+	--highlight-ink: #ffffff;
+
+	/* Map */
+	--map-bg: #f4f2ed;
+	--map-land: #e6e2d8;
+	--map-land-hover: #d8d3c6;
+	--map-lga-line: #fbfaf7;
+	--map-state-line: #8f8a7e;
+	--map-outline: #4a4740;
+	--map-water: #7fb2d6;
+	--map-lake: #c9dff0;
+
+	/* Confidence */
+	--conf-high: #0a7650;
+	--conf-medium: #a35c00;
+	--conf-disputed: #8a3ab9;
+
+	--radius: 14px;
+	--radius-sm: 8px;
+	--shadow: 0 1px 2px rgb(23 25 30 / 6%), 0 8px 24px rgb(23 25 30 / 8%);
+	--panel-width: 400px;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root:not([data-theme='light']) {
+		color-scheme: dark;
+		--bg: #0f1115;
+		--surface: #171a20;
+		--surface-2: #1d2128;
+		--ink: #eceef1;
+		--ink-muted: #a4a9b3;
+		--ink-faint: #737985;
+		--rule: #2a2f38;
+		--accent: #3dbb88;
+		--accent-ink: #08130e;
+		--focus: #3dbb88;
+		--highlight: #ff7a2e;
+		--highlight-soft: #8f4520;
+		--highlight-ink: #140800;
+		--map-bg: #0f1115;
+		--map-land: #22262e;
+		--map-land-hover: #2e333d;
+		--map-lga-line: #12151a;
+		--map-state-line: #5f6673;
+		--map-outline: #9aa1ad;
+		--map-water: #3c6f99;
+		--map-lake: #1e3346;
+		--conf-high: #3dbb88;
+		--conf-medium: #e3a046;
+		--conf-disputed: #c08ae6;
+		--shadow: 0 1px 2px rgb(0 0 0 / 30%), 0 8px 24px rgb(0 0 0 / 35%);
+	}
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	margin: 0;
+	height: 100%;
+}
+
+body {
+	background: var(--bg);
+	color: var(--ink);
+	font-family: var(--font-body);
+	font-size: 16px;
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-size-adjust: 100%;
+}
+
+h1,
+h2,
+h3 {
+	font-family: var(--font-display);
+	line-height: 1.15;
+	letter-spacing: -0.01em;
+	margin: 0;
+}
+
+a {
+	color: var(--accent);
+	text-underline-offset: 2px;
+}
+
+button,
+input {
+	font: inherit;
+	color: inherit;
+}
+
+:focus-visible {
+	outline: 3px solid var(--focus);
+	outline-offset: 2px;
+}
+
+.visually-hidden {
+	position: absolute !important;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0 0 0 0);
+	white-space: nowrap;
+	border: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	*,
+	*::before,
+	*::after {
+		animation-duration: 0.01ms !important;
+		transition-duration: 0.01ms !important;
+	}
+}
