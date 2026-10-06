@@ -25,6 +25,7 @@ The compiled data in this folder is licensed CC BY-SA 4.0. Third party data keep
 
 - LGA and state boundaries: GRID3 via geoBoundaries, CC BY 4.0
 - Rivers and lakes: Natural Earth, public domain
+- Map label font: Noto Sans, SIL Open Font License 1.1 (`public/fonts/OFL.txt`)
 
 ## Rebuilding the geometry
 

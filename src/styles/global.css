@@ -30,11 +30,14 @@
 	--map-bg: #f4f2ed;
 	--map-land: #e6e2d8;
 	--map-land-hover: #d8d3c6;
-	--map-lga-line: #fbfaf7;
+	--map-lga-line: #c4bdac;
 	--map-state-line: #8f8a7e;
 	--map-outline: #4a4740;
 	--map-water: #7fb2d6;
 	--map-lake: #c9dff0;
+	--map-label: #6e695f;
+	--map-label-strong: #3f3c36;
+	--map-label-halo: #f3f1ec;
 
 	/* Confidence */
 	--conf-high: #0a7650;
@@ -66,11 +69,14 @@
 		--map-bg: #0f1115;
 		--map-land: #22262e;
 		--map-land-hover: #2e333d;
-		--map-lga-line: #12151a;
+		--map-lga-line: #3b414d;
 		--map-state-line: #5f6673;
 		--map-outline: #9aa1ad;
 		--map-water: #3c6f99;
 		--map-lake: #1e3346;
+		--map-label: #959caa;
+		--map-label-strong: #cdd2da;
+		--map-label-halo: #14171c;
 		--conf-high: #3dbb88;
 		--conf-medium: #e3a046;
 		--conf-disputed: #c08ae6;

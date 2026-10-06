@@ -18,6 +18,7 @@ type Data = {
 	groups: GroupView[];
 	lgas: GeoJSON.FeatureCollection;
 	base: GeoJSON.FeatureCollection;
+	labels: GeoJSON.FeatureCollection;
 };
 
 type LoadState = { status: 'loading' } | { status: 'error' } | { status: 'ready'; data: Data };
@@ -75,8 +76,9 @@ export default function MapApp({ lang }: Props) {
 			getJson<GroupView[]>('/data/groups.json'),
 			getJson<GeoJSON.FeatureCollection>('/geo/lgas.json'),
 			getJson<GeoJSON.FeatureCollection>('/geo/base.json'),
+			getJson<GeoJSON.FeatureCollection>('/geo/labels.json'),
 		])
-			.then(([groups, lgas, base]) => !cancelled && setLoad({ status: 'ready', data: { groups, lgas, base } }))
+			.then(([groups, lgas, base, labels]) => !cancelled && setLoad({ status: 'ready', data: { groups, lgas, base, labels } }))
 			.catch((err) => {
 				console.error(err);
 				if (!cancelled) setLoad({ status: 'error' });
@@ -268,6 +270,7 @@ export default function MapApp({ lang }: Props) {
 						<MapView
 							lgas={data.lgas}
 							base={data.base}
+							labels={data.labels}
 							group={group}
 							selectedLga={selectedLga}
 							focus={focus}

@@ -69,7 +69,7 @@ Decide how groups, language families, LGAs, enclave points, kingdoms, dated snap
 Get the outlines of all 774 LGAs and the states from an open source, simplified so they stay light on phones, plus a way to place enclave points.
 **Done when:** every LGA and state draws correctly with its official name and code, the full map loads quickly on a slow mobile connection, and the source and licence of the boundaries are recorded.
 - [ ] Design it (spec): `/architect base map geometry`
-⚠ spec pending: built directly at the owner's request (2026-10-05). Decisions to backfill: GRID3 LGA boundaries via geoBoundaries (CC BY 4.0, 774 LGAs), states joined by largest overlap, simplified with mapshaper to about 128 KB gzipped GeoJSON; state lines and outline derived from the LGAs; Natural Earth rivers and lakes; enclave points are lon/lat, or the LGA centre marked approximate. Two GRID3 name typos kept (Yenegoa, Obi Nwga).
+⚠ spec pending: built directly at the owner's request (2026-10-05). Decisions to backfill: GRID3 LGA boundaries via geoBoundaries (CC BY 4.0, 774 LGAs), states joined by largest overlap, simplified with mapshaper to about 128 KB gzipped GeoJSON; state lines and outline derived from the LGAs; Natural Earth rivers and lakes; enclave points are lon/lat, or the LGA centre marked approximate. Two GRID3 name typos kept (Yenegoa, Obi Nwga). Labels (2026-10-06): geopolitical zone, state and LGA label points in `public/geo/labels.json`, drawn with self hosted Noto Sans glyphs (`public/fonts`, OFL); zones on the overview, states from zoom 5, LGA names from zoom 7.2, thin LGA edges inside highlights.
 · code in `scripts/build-geo.mjs`, `public/geo/`, `src/data/lgas.json`
 
 ### 5. Design system (two moods) · in-progress · needs a decision

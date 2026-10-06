@@ -14,6 +14,9 @@ export interface MapColors {
 	highlightSoft: string;
 	ink: string;
 	surface: string;
+	label: string;
+	labelStrong: string;
+	labelHalo: string;
 }
 
 export function readColors(el: Element = document.documentElement): MapColors {
@@ -32,6 +35,9 @@ export function readColors(el: Element = document.documentElement): MapColors {
 		highlightSoft: v('--highlight-soft'),
 		ink: v('--ink'),
 		surface: v('--surface'),
+		label: v('--map-label'),
+		labelStrong: v('--map-label-strong'),
+		labelHalo: v('--map-label-halo'),
 	};
 }
 
@@ -43,14 +49,25 @@ export const EMPTY: GeoJSON.FeatureCollection = { type: 'FeatureCollection', fea
  * colour is never the only cue), LGA lines, rivers and lakes, state lines,
  * outline, then community points (large) and their villages (small). No external tiles or fonts: everything comes from /geo.
  */
-export function buildStyle(c: MapColors, lgas: GeoJSON.FeatureCollection, base: GeoJSON.FeatureCollection): StyleSpecification {
+const REGULAR = ['Noto Sans Regular'];
+const BOLD = ['Noto Sans Bold'];
+
+export function buildStyle(
+	c: MapColors,
+	lgas: GeoJSON.FeatureCollection,
+	base: GeoJSON.FeatureCollection,
+	labels: GeoJSON.FeatureCollection,
+): StyleSpecification {
 	return {
 		version: 8,
+		// Self hosted glyphs (public/fonts, OFL licence), so labels need no outside server.
+		glyphs: `${location.origin}/fonts/{fontstack}/{range}.pbf`,
 		sources: {
 			lgas: { type: 'geojson', data: lgas, promoteId: 'id' },
 			base: { type: 'geojson', data: base },
 			highlight: { type: 'geojson', data: EMPTY },
 			communities: { type: 'geojson', data: EMPTY },
+			labels: { type: 'geojson', data: labels },
 		},
 		layers: [
 			{ id: 'bg', type: 'background', paint: { 'background-color': c.bg } },
@@ -84,7 +101,7 @@ export function buildStyle(c: MapColors, lgas: GeoJSON.FeatureCollection, base: 
 				source: 'lgas',
 				paint: {
 					'line-color': c.lgaLine,
-					'line-width': ['interpolate', ['linear'], ['zoom'], 5, 0.4, 9, 1.2],
+					'line-width': ['interpolate', ['linear'], ['zoom'], 4, 0.3, 6, 0.6, 9, 1.2],
 				},
 			},
 			{
@@ -109,9 +126,11 @@ export function buildStyle(c: MapColors, lgas: GeoJSON.FeatureCollection, base: 
 				id: 'hl-line',
 				type: 'line',
 				source: 'highlight',
+				// Thin dark edges, so each highlighted LGA stays visible inside the orange.
 				paint: {
-					'line-color': c.highlight,
-					'line-width': ['interpolate', ['linear'], ['zoom'], 5, 1, 9, 2],
+					'line-color': c.ink,
+					'line-opacity': 0.55,
+					'line-width': ['interpolate', ['linear'], ['zoom'], 5, 0.6, 9, 1.4],
 				},
 			},
 			{
@@ -143,6 +162,53 @@ export function buildStyle(c: MapColors, lgas: GeoJSON.FeatureCollection, base: 
 					// Feature state cannot drive a filter, so unselected LGAs are drawn fully transparent.
 					'line-opacity': ['case', ['boolean', ['feature-state', 'selected'], false], 1, 0],
 				},
+			},
+			{
+				id: 'lga-label',
+				type: 'symbol',
+				source: 'labels',
+				filter: ['==', ['get', 'kind'], 'lga'],
+				minzoom: 7.2,
+				layout: {
+					'text-field': ['get', 'name'],
+					'text-font': REGULAR,
+					'text-size': ['interpolate', ['linear'], ['zoom'], 7.2, 10, 10, 13],
+					'text-max-width': 7,
+					'text-padding': 3,
+				},
+				paint: { 'text-color': c.label, 'text-halo-color': c.labelHalo, 'text-halo-width': 1.4 },
+			},
+			{
+				id: 'state-label',
+				type: 'symbol',
+				source: 'labels',
+				filter: ['==', ['get', 'kind'], 'state'],
+				minzoom: 5,
+				maxzoom: 8.6,
+				layout: {
+					'text-field': ['upcase', ['get', 'name']],
+					'text-font': BOLD,
+					'text-size': ['interpolate', ['linear'], ['zoom'], 5, 9.5, 8, 13],
+					'text-letter-spacing': 0.12,
+					'text-max-width': 6,
+					'symbol-sort-key': 1,
+				},
+				paint: { 'text-color': c.labelStrong, 'text-halo-color': c.labelHalo, 'text-halo-width': 1.6 },
+			},
+			{
+				id: 'zone-label',
+				type: 'symbol',
+				source: 'labels',
+				filter: ['==', ['get', 'kind'], 'zone'],
+				maxzoom: 5.4,
+				layout: {
+					'text-field': ['upcase', ['get', 'name']],
+					'text-font': BOLD,
+					'text-size': 12,
+					'text-letter-spacing': 0.25,
+					'text-max-width': 6,
+				},
+				paint: { 'text-color': c.labelStrong, 'text-halo-color': c.labelHalo, 'text-halo-width': 1.6 },
 			},
 			{
 				id: 'village',
@@ -180,6 +246,39 @@ export function buildStyle(c: MapColors, lgas: GeoJSON.FeatureCollection, base: 
 					'circle-stroke-color': c.ink,
 					'circle-stroke-width': 1.5,
 				},
+			},
+			{
+				id: 'community-label',
+				type: 'symbol',
+				source: 'communities',
+				filter: ['==', ['get', 'kind'], 'community'],
+				minzoom: 6.4,
+				layout: {
+					'text-field': ['get', 'name'],
+					'text-font': BOLD,
+					'text-size': 12,
+					'text-anchor': 'left',
+					'text-offset': [0.9, 0],
+					'text-max-width': 9,
+					'text-optional': true,
+				},
+				paint: { 'text-color': c.ink, 'text-halo-color': c.labelHalo, 'text-halo-width': 1.8 },
+			},
+			{
+				id: 'village-label',
+				type: 'symbol',
+				source: 'communities',
+				filter: ['==', ['get', 'kind'], 'village'],
+				minzoom: 8.6,
+				layout: {
+					'text-field': ['get', 'name'],
+					'text-font': REGULAR,
+					'text-size': 11,
+					'text-anchor': 'left',
+					'text-offset': [0.7, 0],
+					'text-optional': true,
+				},
+				paint: { 'text-color': c.ink, 'text-halo-color': c.labelHalo, 'text-halo-width': 1.5 },
 			},
 		],
 	};

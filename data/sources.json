@@ -192,5 +192,33 @@
 		"kind": "testimony",
 		"accessed": "2026-10-06",
 		"checked": true
+	},
+	{
+		"id": "ibileye-lokoja",
+		"title": "Functional Definition of Roles in Complex Multilingualism: The Example of Lokoja, Kogi State, Nigeria. Journal of Language Teaching and Research 6(6)",
+		"author": "Ibileye, Gbenga",
+		"url": "https://www.academypublication.com/issues2/jltr/vol06/06/04.pdf",
+		"kind": "article",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-lokoja",
+		"title": "Lokoja",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Lokoja",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "owner-2026-10-06-lokoja",
+		"title": "Local knowledge from the NiajMap owner: the Igala population in Lokoja is large; the Igala are historical traders and the largest group in Kogi State",
+		"author": "NiajMap owner",
+		"year": 2026,
+		"kind": "testimony",
+		"accessed": "2026-10-06",
+		"checked": true
 	}
 ]

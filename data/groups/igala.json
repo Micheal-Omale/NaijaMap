@@ -1,88 +1,188 @@
 {
 	"name": "Igala",
 	"status": "draft",
-	"searchAliases": ["Igara", "Igalla", "Igalaa", "Anẹ Igala", "Olumbanasa", "Olumbanasaa"],
+	"searchAliases": [
+		"Igara",
+		"Igalla",
+		"Igalaa",
+		"Anẹ Igala",
+		"Olumbanasa",
+		"Olumbanasaa"
+	],
 	"language": {
 		"name": "Igala",
 		"iso639_3": "igl",
 		"glottocode": "igal1242",
 		"family": "yoruboid",
-		"sources": ["glottolog-igala"],
+		"sources": [
+			"glottolog-igala"
+		],
 		"confidence": "high"
 	},
 	"summary": {
 		"text": "The Igala live mainly in southern and eastern Kogi State, in the angle where the Niger and Benue rivers meet. Their historic capital is Idah, on the Niger, seat of the Attah Igala, ruler of the Igala Kingdom. Igala is also spoken in riverside communities downstream and across the Niger: Olumbanasa in Anambra West, Igga, Ojjor and Ogurugu in Enugu, Ebu in Delta, and Ilushi and Ifeku in Edo.",
-		"sources": ["wikipedia-igala-people", "boston-1968", "negedu-2014", "obinaju-anyanwu-2018"],
+		"sources": [
+			"wikipedia-igala-people",
+			"boston-1968",
+			"negedu-2014",
+			"obinaju-anyanwu-2018"
+		],
 		"confidence": "high"
 	},
 	"ruler": {
 		"title": "Attah Igala",
 		"seat": "kogi-idah",
-		"sources": ["wikipedia-igala-people", "boston-1968"],
+		"sources": [
+			"wikipedia-igala-people",
+			"boston-1968"
+		],
 		"confidence": "high"
 	},
 	"areas": [
-		{ "lga": "kogi-idah", "presence": "core", "sources": ["wikipedia-igala-people"], "confidence": "high" },
-		{ "lga": "kogi-igalamela-odolu", "presence": "core", "sources": ["wikipedia-igala-people"], "confidence": "high" },
-		{ "lga": "kogi-ibaji", "presence": "core", "sources": ["wikipedia-igala-people"], "confidence": "high" },
-		{ "lga": "kogi-ofu", "presence": "core", "sources": ["wikipedia-igala-people"], "confidence": "high" },
-		{ "lga": "kogi-dekina", "presence": "core", "sources": ["wikipedia-igala-people"], "confidence": "high" },
-		{ "lga": "kogi-ankpa", "presence": "core", "sources": ["wikipedia-igala-people"], "confidence": "high" },
-		{ "lga": "kogi-omala", "presence": "core", "sources": ["wikipedia-igala-people"], "confidence": "high" },
-		{ "lga": "kogi-olamaboro", "presence": "core", "sources": ["wikipedia-igala-people"], "confidence": "high" },
+		{
+			"lga": "kogi-idah",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igala-people"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kogi-igalamela-odolu",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igala-people"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kogi-ibaji",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igala-people"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kogi-ofu",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igala-people"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kogi-dekina",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igala-people"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kogi-ankpa",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igala-people"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kogi-omala",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igala-people"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kogi-olamaboro",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igala-people"
+			],
+			"confidence": "high"
+		},
 		{
 			"lga": "kogi-bassa",
 			"presence": "significant",
-			"sources": ["wikipedia-igala-people"],
+			"sources": [
+				"wikipedia-igala-people"
+			],
 			"confidence": "medium",
 			"note": "A mixed LGA. The Bassa-Nge, Bassa-Komo and Ebira Koto also live here."
 		},
 		{
 			"lga": "kogi-ajaokuta",
 			"presence": "significant",
-			"sources": ["wikipedia-igala-people", "kogireports-2019"],
+			"sources": [
+				"wikipedia-igala-people",
+				"kogireports-2019"
+			],
 			"confidence": "medium",
 			"note": "A mixed LGA, shared with Ebira communities."
 		},
 		{
 			"lga": "kogi-lokoja",
-			"presence": "minority",
-			"sources": ["wikipedia-igala-people", "kogireports-2019"],
+			"presence": "significant",
+			"sources": [
+				"wikipedia-igala-people",
+				"wikipedia-lokoja",
+				"ibileye-lokoja",
+				"owner-2026-10-06-lokoja"
+			],
 			"confidence": "medium",
-			"note": "Wikipedia names Iyelen in Lokoja LGA. Lokoja is a mixed LGA."
+			"note": "Lokoja is a mixed trading town at the confluence. Wikipedia lists the Igala among the groups who settled as it grew into a trade centre, and Ibileye shows Igala in everyday use at home and work. No published figures give the share; the owner reports a large Igala population."
 		},
 		{
 			"lga": "anambra-anambra-west",
 			"presence": "significant",
-			"sources": ["vanguard-2015-igbokaenyi", "grid3-settlement-names", "amali-2023", "owner-2026-10-06"],
+			"sources": [
+				"vanguard-2015-igbokaenyi",
+				"grid3-settlement-names",
+				"amali-2023",
+				"owner-2026-10-06"
+			],
 			"confidence": "disputed",
 			"note": "Two of the LGA's ten wards (Olumbanasa 1 and 2) are the Igala speaking Olumbanasa communities. How large a share the Igala are is disputed: local accounts say most people in these communities are Igala, while Amali and Bieresnu-Nnabugwu (2023) describe a small Igala speaking group in an Igbo majority LGA."
 		},
 		{
 			"lga": "enugu-uzo-uwani",
 			"presence": "significant",
-			"sources": ["vanguard-2026-uzo-uwani", "dailytrust-2022-enugu", "obinaju-anyanwu-2018"],
+			"sources": [
+				"vanguard-2026-uzo-uwani",
+				"dailytrust-2022-enugu",
+				"obinaju-anyanwu-2018"
+			],
 			"confidence": "medium",
 			"note": "Igala speaking communities make up three of the LGA's sixteen wards (Igga/Asaba, Ojjor, Ogurugu), about 20 percent of its people, according to Vanguard (2026)."
 		},
 		{
 			"lga": "edo-esan-south-east",
 			"presence": "minority",
-			"sources": ["wikipedia-ilushi", "vanguard-2024-ifeku", "grid3-settlement-names"],
+			"sources": [
+				"wikipedia-ilushi",
+				"vanguard-2024-ifeku",
+				"grid3-settlement-names"
+			],
 			"confidence": "medium",
 			"note": "The riverside Illushi ward (Ilushi, Uloshi land, and part of Ifeku). The rest of the LGA is Esan."
 		},
 		{
 			"lga": "edo-etsako-central",
 			"presence": "minority",
-			"sources": ["vanguard-2024-ifeku"],
+			"sources": [
+				"vanguard-2024-ifeku"
+			],
 			"confidence": "medium",
 			"note": "The Ifeku island communities in the north of the LGA, on the Niger."
 		},
 		{
 			"lga": "delta-oshimili-north",
 			"presence": "minority",
-			"sources": ["oshimili-north-lga-history"],
+			"sources": [
+				"oshimili-north-lga-history"
+			],
 			"confidence": "high",
 			"note": "The Ebu kingdom, one of the LGA's towns. The rest of the LGA is Igbo (Anioma)."
 		}
@@ -91,121 +191,318 @@
 		{
 			"name": "Ebu",
 			"lga": "delta-oshimili-north",
-			"point": [6.6061, 6.4786],
-			"villages": [
-				{ "name": "Aganike" },
-				{ "name": "Anamaugelo" },
-				{ "name": "Ekpenchor" },
-				{ "name": "Iyagoshimi" },
-				{ "name": "Ogor" },
-				{ "name": "Okwuru" },
-				{ "name": "Uchebe" },
-				{ "name": "Ugbolo" }
+			"point": [
+				6.6061,
+				6.4786
 			],
-			"sources": ["oshimili-north-lga-history", "glottolog-igala"],
+			"villages": [
+				{
+					"name": "Aganike"
+				},
+				{
+					"name": "Anamaugelo"
+				},
+				{
+					"name": "Ekpenchor"
+				},
+				{
+					"name": "Iyagoshimi"
+				},
+				{
+					"name": "Ogor"
+				},
+				{
+					"name": "Okwuru"
+				},
+				{
+					"name": "Uchebe"
+				},
+				{
+					"name": "Ugbolo"
+				}
+			],
+			"sources": [
+				"oshimili-north-lga-history",
+				"glottolog-igala"
+			],
 			"confidence": "high",
 			"note": "The LGA describes Ebu as Igala speaking people who migrated from Idah. Glottolog lists Ebu as a dialect of Igala. Point from the LGA's own coordinates."
 		},
 		{
 			"name": "Ilushi (Uloshi)",
 			"lga": "edo-esan-south-east",
-			"point": [6.6292, 6.6697],
-			"villages": [
-				{ "name": "Uloshi", "point": [6.61, 6.553] },
-				{ "name": "Okpokporo" },
-				{ "name": "Odo-Egwume" },
-				{ "name": "Igbamaka" }
+			"point": [
+				6.6292,
+				6.6697
 			],
-			"sources": ["wikipedia-ilushi", "kogireports-2019", "grid3-settlement-names", "owner-2026-10-06"],
+			"villages": [
+				{
+					"name": "Uloshi",
+					"point": [
+						6.61,
+						6.553
+					]
+				},
+				{
+					"name": "Okpokporo"
+				},
+				{
+					"name": "Odo-Egwume"
+				},
+				{
+					"name": "Igbamaka"
+				}
+			],
+			"sources": [
+				"wikipedia-ilushi",
+				"kogireports-2019",
+				"grid3-settlement-names",
+				"owner-2026-10-06"
+			],
 			"confidence": "high",
 			"note": "Speaks the Olu dialect of Igala; organised in nine clans after the Igala Mela of Idah. Village positions from GRID3 where they could be found."
 		},
 		{
 			"name": "Ifeku",
 			"lga": "edo-etsako-central",
-			"point": [6.6037, 6.8314],
-			"villages": [
-				{ "name": "Owa-Ifeku", "point": [6.6037, 6.8314] },
-				{ "name": "Ifeku Uyi", "point": [6.5965, 6.8309] },
-				{ "name": "Ala-Ifeku", "point": [6.6108, 6.8463] },
-				{ "name": "Okpatawo Ogane-Ifeku", "point": [6.6009, 6.8081] },
-				{ "name": "Allah-Ifeku I", "point": [6.6075, 6.7964] },
-				{ "name": "Allah-Ifeku II", "point": [6.6089, 6.7905] },
-				{ "name": "Okwoshimili", "point": [6.617, 6.752] }
+			"point": [
+				6.6037,
+				6.8314
 			],
-			"sources": ["vanguard-2024-ifeku", "kogireports-2019", "openstreetmap", "grid3-settlement-names", "owner-2026-10-06"],
+			"villages": [
+				{
+					"name": "Owa-Ifeku",
+					"point": [
+						6.6037,
+						6.8314
+					]
+				},
+				{
+					"name": "Ifeku Uyi",
+					"point": [
+						6.5965,
+						6.8309
+					]
+				},
+				{
+					"name": "Ala-Ifeku",
+					"point": [
+						6.6108,
+						6.8463
+					]
+				},
+				{
+					"name": "Okpatawo Ogane-Ifeku",
+					"point": [
+						6.6009,
+						6.8081
+					]
+				},
+				{
+					"name": "Allah-Ifeku I",
+					"point": [
+						6.6075,
+						6.7964
+					]
+				},
+				{
+					"name": "Allah-Ifeku II",
+					"point": [
+						6.6089,
+						6.7905
+					]
+				},
+				{
+					"name": "Okwoshimili",
+					"point": [
+						6.617,
+						6.752
+					]
+				}
+			],
+			"sources": [
+				"vanguard-2024-ifeku",
+				"kogireports-2019",
+				"openstreetmap",
+				"grid3-settlement-names",
+				"owner-2026-10-06"
+			],
 			"confidence": "medium",
 			"note": "Vanguard (2024) counts eleven Ifeku communities across Etsako Central and Esan South-East; seven are located here. Allah-Ifeku II and Okwoshimili fall inside Esan South-East."
 		},
 		{
 			"name": "Olumbanasa",
 			"lga": "anambra-anambra-west",
-			"point": [6.692, 6.49],
-			"villages": [
-				{ "name": "Odekpe", "point": [6.682, 6.524] },
-				{ "name": "Igbedor", "point": [6.72, 6.455] },
-				{ "name": "Ode", "point": [6.697, 6.453] },
-				{ "name": "Alla and Onugwa", "point": [6.677, 6.543] },
-				{ "name": "Igbokenyi", "point": [6.692, 6.465] },
-				{ "name": "Odomagwu" }
+			"point": [
+				6.692,
+				6.49
 			],
-			"sources": ["vanguard-2015-igbokaenyi", "grid3-settlement-names", "owner-2026-10-06"],
+			"villages": [
+				{
+					"name": "Odekpe",
+					"point": [
+						6.682,
+						6.524
+					]
+				},
+				{
+					"name": "Igbedor",
+					"point": [
+						6.72,
+						6.455
+					]
+				},
+				{
+					"name": "Ode",
+					"point": [
+						6.697,
+						6.453
+					]
+				},
+				{
+					"name": "Alla and Onugwa",
+					"point": [
+						6.677,
+						6.543
+					]
+				},
+				{
+					"name": "Igbokenyi",
+					"point": [
+						6.692,
+						6.465
+					]
+				},
+				{
+					"name": "Odomagwu"
+				}
+			],
+			"sources": [
+				"vanguard-2015-igbokaenyi",
+				"grid3-settlement-names",
+				"owner-2026-10-06"
+			],
 			"confidence": "high",
 			"note": "Vanguard (2015) names seven Igala speaking communities, together called Olumbanasaa: Ode, Igbedor, Odekpe, Alla, Onugwa, Odomagwu and Igbokaenyi. Igbokenyi is an island on the Niger. Odomagwu could not be located yet."
 		},
 		{
 			"name": "Inoma and Owelle",
 			"lga": "anambra-anambra-west",
-			"point": [6.706, 6.533],
-			"villages": [
-				{ "name": "Inoma", "point": [6.706, 6.533] },
-				{ "name": "Owelle", "point": [6.707, 6.532] },
-				{ "name": "Ukwala" }
+			"point": [
+				6.706,
+				6.533
 			],
-			"sources": ["x-middlebeltabi-2024", "grid3-settlement-names", "owner-2026-10-06"],
+			"villages": [
+				{
+					"name": "Inoma",
+					"point": [
+						6.706,
+						6.533
+					]
+				},
+				{
+					"name": "Owelle",
+					"point": [
+						6.707,
+						6.532
+					]
+				},
+				{
+					"name": "Ukwala"
+				}
+			],
+			"sources": [
+				"x-middlebeltabi-2024",
+				"grid3-settlement-names",
+				"owner-2026-10-06"
+			],
 			"confidence": "medium",
 			"note": "Listed as Igala towns by a 2024 post and by the owner, and inside the Olumbanasa 1 ward in GRID3, but not named in the Vanguard list. Ukwala could not be located yet."
 		},
 		{
 			"name": "Nzam",
 			"lga": "anambra-anambra-west",
-			"point": [6.702, 6.472],
-			"sources": ["x-middlebeltabi-2024", "wikipedia-nzam"],
+			"point": [
+				6.702,
+				6.472
+			],
+			"sources": [
+				"x-middlebeltabi-2024",
+				"wikipedia-nzam"
+			],
 			"confidence": "disputed",
 			"note": "The LGA headquarters. A 2024 post lists Nzam as Igala, but Wikipedia describes its people as Igbo. Sources disagree."
 		},
 		{
 			"name": "Ogurugu",
 			"lga": "enugu-uzo-uwani",
-			"point": [6.951, 6.787],
-			"sources": ["dailytrust-2022-enugu", "obinaju-anyanwu-2018", "grid3-settlement-names"],
+			"point": [
+				6.951,
+				6.787
+			],
+			"sources": [
+				"dailytrust-2022-enugu",
+				"obinaju-anyanwu-2018",
+				"grid3-settlement-names"
+			],
 			"confidence": "high",
 			"note": "Daily Trust (2022) calls it a community where Igala is still widely spoken. The geolinguistic survey (2018) names it too."
 		},
 		{
 			"name": "Igga",
 			"lga": "enugu-uzo-uwani",
-			"point": [6.95, 6.72],
-			"sources": ["dailytrust-2022-enugu", "vanguard-2026-uzo-uwani", "grid3-settlement-names"],
+			"point": [
+				6.95,
+				6.72
+			],
+			"sources": [
+				"dailytrust-2022-enugu",
+				"vanguard-2026-uzo-uwani",
+				"grid3-settlement-names"
+			],
 			"confidence": "high"
 		},
 		{
 			"name": "Asaba (Uzo-Uwani)",
 			"lga": "enugu-uzo-uwani",
-			"point": [6.984, 6.725],
-			"sources": ["vanguard-2026-uzo-uwani", "grid3-settlement-names"],
+			"point": [
+				6.984,
+				6.725
+			],
+			"sources": [
+				"vanguard-2026-uzo-uwani",
+				"grid3-settlement-names"
+			],
 			"confidence": "medium",
 			"note": "Not the Delta State capital. Part of the Igala speaking Igga/Asaba ward."
 		},
 		{
 			"name": "Ojjor",
 			"lga": "enugu-uzo-uwani",
-			"point": [6.944, 6.749],
-			"villages": [
-				{ "name": "Ojjor Iga", "point": [6.944, 6.748] },
-				{ "name": "Okogbu Ojor Ogboli", "point": [6.967, 6.732] }
+			"point": [
+				6.944,
+				6.749
 			],
-			"sources": ["dailytrust-2022-enugu", "grid3-settlement-names"],
+			"villages": [
+				{
+					"name": "Ojjor Iga",
+					"point": [
+						6.944,
+						6.748
+					]
+				},
+				{
+					"name": "Okogbu Ojor Ogboli",
+					"point": [
+						6.967,
+						6.732
+					]
+				}
+			],
+			"sources": [
+				"dailytrust-2022-enugu",
+				"grid3-settlement-names"
+			],
 			"confidence": "high"
 		}
 	],

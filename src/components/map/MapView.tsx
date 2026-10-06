@@ -25,6 +25,7 @@ export type FocusRequest = { kind: 'group' } | { kind: 'lga'; id: string } | { k
 interface Props {
 	lgas: GeoJSON.FeatureCollection;
 	base: GeoJSON.FeatureCollection;
+	labels: GeoJSON.FeatureCollection;
 	group: GroupView | null;
 	selectedLga: string | null;
 	/** A new object each time the view should move. */
@@ -58,7 +59,7 @@ function boundsOf(features: GeoJSON.Feature[]): LngLatBoundsLike | null {
 }
 
 export default function MapView(props: Props) {
-	const { lgas, base, group, selectedLga, focus, padding, label, attribution, onSelectLga } = props;
+	const { lgas, base, labels, group, selectedLga, focus, padding, label, attribution, onSelectLga } = props;
 	const container = useRef<HTMLDivElement>(null);
 	const mapRef = useRef<MapLibre | null>(null);
 	const ready = useRef<Promise<void> | null>(null);
@@ -72,7 +73,7 @@ export default function MapView(props: Props) {
 		const colors = readColors();
 		const map = new MapLibre({
 			container: container.current,
-			style: buildStyle(colors, lgas, base),
+			style: buildStyle(colors, lgas, base, labels),
 			bounds: NIGERIA,
 			fitBoundsOptions: { padding: latest.current.padding },
 			// Generous, so a tall phone screen can still show the whole country.
@@ -138,7 +139,7 @@ export default function MapView(props: Props) {
 		const scheme = window.matchMedia('(prefers-color-scheme: dark)');
 		const onScheme = () => {
 			const c = readColors();
-			for (const layer of buildStyle(c, EMPTY, EMPTY).layers) {
+			for (const layer of buildStyle(c, EMPTY, EMPTY, EMPTY).layers) {
 				if (!('paint' in layer) || !layer.paint) continue;
 				for (const [key, value] of Object.entries(layer.paint)) {
 					map.setPaintProperty(layer.id, key as Parameters<MapLibre['setPaintProperty']>[1], value);
