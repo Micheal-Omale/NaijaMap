@@ -187,6 +187,17 @@
 			],
 			"confidence": "high",
 			"note": "The Ebu kingdom, one of the LGA's towns. The rest of the LGA is Igbo (Anioma)."
+		},
+		{
+			"lga": "benue-apa",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-apa",
+				"owner-2026-10-06-benue",
+				"wikivoyage-igala"
+			],
+			"confidence": "medium",
+			"note": "Wikipedia: the people of Apa are \"predominantly Idoma and a few Igalas\". Apa borders the Igala LGAs of Kogi. The Igala villages here are not yet named."
 		}
 	],
 	"communities": [
@@ -551,7 +562,7 @@
 	],
 	"reviewNotes": [
 		"The Kogi LGA list still rests on Wikipedia, which flags it as needing a citation. Add a primary source (for example Boston 1968 or a Kogi State source) before publishing.",
-		"Not yet mapped, needs a source that Igala is SPOKEN there today (not only an origin tradition): Toto and Doma LGAs in Nasarawa (Umaisha, Panda), and the Benue towns in Kogi Reports (Otukpo, Otukpa, Agila, Ajomachi, Alifati), which are Idoma speaking.",
+		"Not yet mapped, needs a source that Igala is SPOKEN there today (not only an origin tradition): Toto and Doma LGAs in Nasarawa (Umaisha, Panda). In Benue, Apa is now mapped as a minority area; the Benue towns in Kogi Reports (Otukpo, Otukpa, Agila, Ajomachi, Alifati) are Idoma speaking, and the Igala living in Makurdi (Daily Trust, 2026) are town residents rather than a distinct community, so neither is on the map.",
 		"Kogi Reports (2019) also lists many places with Igala origin traditions (for example Illah, Okpanam and Asaba in Delta, Agenebode and Anegbette in Edo, Nsukka towns in Enugu, Wukari, Ibadan). These are origin claims, not Igala speaking communities, so they are not on the map.",
 		"Odomagwu (Olumbanasa) and Ukwala (Anambra West) could not be located in GRID3 or OpenStreetMap.",
 		"Vanguard (2024) counts eleven Ifeku communities; only seven are located.",

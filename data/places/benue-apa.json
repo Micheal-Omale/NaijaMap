@@ -1,0 +1,37 @@
+{
+	"status": "draft",
+	"summary": {
+		"text": "An Idoma LGA in western Benue, on the border with the Igala LGAs of Kogi. Its people are mainly Idoma, with a few Igala.",
+		"sources": [
+			"wikipedia-apa"
+		],
+		"confidence": "medium"
+	},
+	"peoples": [
+		{
+			"name": "Idoma",
+			"standing": "indigenous",
+			"share": "majority",
+			"languages": [
+				"Idoma"
+			],
+			"sources": [
+				"wikipedia-apa"
+			],
+			"confidence": "high"
+		},
+		{
+			"name": "Igala",
+			"group": "igala",
+			"share": "minority",
+			"languages": [
+				"Igala"
+			],
+			"sources": [
+				"wikipedia-apa",
+				"owner-2026-10-06-benue"
+			],
+			"confidence": "medium"
+		}
+	]
+}
