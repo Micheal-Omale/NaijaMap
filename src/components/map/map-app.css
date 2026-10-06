@@ -1035,3 +1035,82 @@
 	border-radius: 3px;
 	background: repeating-linear-gradient(45deg, rgb(0 0 0 / 40%) 0 1px, transparent 1px 5px), var(--map-land);
 }
+
+.atlas-key__mixed + .atlas-key__mixed {
+	margin-top: 6px;
+}
+
+.atlas-key__stripes {
+	width: 18px;
+	height: 14px;
+	border-radius: 3px;
+	background: repeating-linear-gradient(45deg, #2fae7a 0 4px, #e0457b 4px 8px, #3d7fd1 8px 12px);
+}
+
+/* Hover card: who lives in the LGA under the mouse */
+
+.hover-card {
+	position: absolute;
+	z-index: 5;
+	max-width: 260px;
+	padding: 10px 12px;
+	border-radius: var(--radius-sm);
+	background: var(--surface);
+	box-shadow: var(--shadow);
+	border: 1px solid var(--rule);
+	pointer-events: none;
+	font-size: 0.8125rem;
+}
+
+.hover-card__title {
+	margin: 0 0 6px;
+	font-family: var(--font-display);
+	font-weight: 700;
+	font-size: 0.9375rem;
+}
+
+.hover-card__title span {
+	font-family: var(--font-body);
+	font-weight: 400;
+	color: var(--ink-muted);
+}
+
+.hover-card ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: grid;
+	gap: 4px;
+}
+
+.hover-card li {
+	display: flex;
+	align-items: center;
+	gap: 7px;
+}
+
+.hover-card li span:last-child {
+	margin-left: auto;
+	color: var(--ink-muted);
+	font-size: 0.75rem;
+	white-space: nowrap;
+}
+
+.hover-card__shared {
+	margin: 0 0 6px;
+	font-weight: 600;
+	color: var(--ink-muted);
+}
+
+.hover-card__none,
+.hover-card__hint {
+	margin: 6px 0 0;
+	color: var(--ink-faint);
+	font-size: 0.75rem;
+}
+
+@media (hover: none) {
+	.hover-card {
+		display: none;
+	}
+}

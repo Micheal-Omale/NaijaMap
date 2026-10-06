@@ -73,7 +73,11 @@ export const ui = {
 
 		'atlas.intro': 'Each LGA is coloured by its main people. Colours follow language families; tap a name to see where that people lives.',
 		'atlas.family': '{name} languages',
-		'atlas.mixed': 'Hatched: shared with another people.',
+		'atlas.mixed': 'Hatched: one main people, shared with another.',
+		'atlas.shared': 'Striped: shared by several peoples, none the majority.',
+		'hover.shared': 'Shared by several peoples',
+		'hover.none': 'No people mapped here yet.',
+		'hover.tap': 'Tap for details',
 		'place.who': 'Who lives here',
 		'place.indigenous': 'Indigenous',
 		'place.settled': 'Settled',

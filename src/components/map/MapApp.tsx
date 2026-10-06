@@ -68,6 +68,8 @@ export default function MapApp({ lang }: Props) {
 	const [selectedLga, setSelectedLga] = useState<string | null>(null);
 	// Name of a tapped community dot of the selected group.
 	const [selectedCommunity, setSelectedCommunity] = useState<string | null>(null);
+	// The LGA under the mouse (desktop), for the quick "who lives here" card.
+	const [hover, setHover] = useState<{ id: string; x: number; y: number } | null>(null);
 	const [focus, setFocus] = useState<FocusRequest>({ kind: 'group' });
 	const [sheetOpen, setSheetOpen] = useState(false);
 	const [announcement, setAnnouncement] = useState('');
@@ -285,6 +287,10 @@ export default function MapApp({ lang }: Props) {
 											</section>
 										))}
 										<p className="atlas-key__mixed">
+											<span className="atlas-key__stripes" aria-hidden="true" />
+											{t('atlas.shared')}
+										</p>
+										<p className="atlas-key__mixed">
 											<span className="atlas-key__hatch" aria-hidden="true" />
 											{t('atlas.mixed')}
 										</p>
@@ -298,6 +304,7 @@ export default function MapApp({ lang }: Props) {
 			</div>
 
 			<div className="map-region">
+				{hover && data && !narrow && <HoverCard hover={hover} data={data} groupsIn={groupsIn} tr={tr} />}
 				{!webgl ? (
 					<p className="map-message">{t('map.noWebgl')}</p>
 				) : load.status === 'error' ? (
@@ -322,6 +329,7 @@ export default function MapApp({ lang }: Props) {
 							attribution={`${t('map.creditBoundaries')}: <a href='https://data.grid3.org/' target='_blank' rel='noopener'>GRID3</a> (CC BY 4.0) · ${t('map.creditRivers')}: <a href='https://www.naturalearthdata.com/' target='_blank' rel='noopener'>Natural Earth</a>`}
 							onSelectLga={tapLga}
 							onSelectCommunity={tapCommunity}
+							onHover={setHover}
 						/>
 					</Suspense>
 				) : (
@@ -332,6 +340,51 @@ export default function MapApp({ lang }: Props) {
 			<p className="visually-hidden" role="status" aria-live="polite">
 				{announcement}
 			</p>
+		</div>
+	);
+}
+
+const PRESENCE_ORDER = { core: 0, significant: 1, minority: 2, community: 3 } as const;
+
+/** A small card that follows the mouse: the LGA and every people mapped there. */
+function HoverCard({
+	hover,
+	data,
+	groupsIn,
+	tr,
+}: {
+	hover: { id: string; x: number; y: number };
+	data: Data;
+	groupsIn: (lga: string) => { group: GroupView; presence: Presence | 'community' }[];
+	tr: ReturnType<typeof useTranslations>;
+}) {
+	const { t } = tr;
+	const f = data.lgas.features.find((x) => x.properties?.id === hover.id);
+	if (!f) return null;
+	const p = f.properties as { name: string; state: string };
+	const color = new Map(data.atlas.groups.map((g) => [g.id, g.color]));
+	const here = groupsIn(hover.id).sort((a, b) => PRESENCE_ORDER[a.presence] - PRESENCE_ORDER[b.presence]);
+	const shared = data.atlas.lgas[hover.id]?.shared;
+	return (
+		<div className="hover-card" style={{ left: hover.x + 16, top: hover.y + 16 }} aria-hidden="true">
+			<p className="hover-card__title">
+				{p.name} <span>· {p.state}</span>
+			</p>
+			{shared && <p className="hover-card__shared">{t('hover.shared')}</p>}
+			{here.length === 0 ? (
+				<p className="hover-card__none">{t('hover.none')}</p>
+			) : (
+				<ul>
+					{here.slice(0, 6).map(({ group: g, presence }) => (
+						<li key={g.id}>
+							<span className="chip__dot" style={{ background: color.get(g.id) }} />
+							<strong>{g.name}</strong>
+							<span>{presence === 'community' ? t('presence.community') : t(`presence.${presence}`)}</span>
+						</li>
+					))}
+				</ul>
+			)}
+			<p className="hover-card__hint">{t('hover.tap')}</p>
 		</div>
 	);
 }

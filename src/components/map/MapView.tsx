@@ -12,7 +12,7 @@ import workerUrl from 'maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import type { GroupView } from '../../lib/types';
 import type { Atlas } from '../../lib/atlas';
-import { EMPTY, buildStyle, dotsImage, hatchImage, mixImage, readColors } from './style';
+import { EMPTY, buildStyle, dotsImage, hatchImage, mixImage, readColors, stripesImage } from './style';
 
 setWorkerUrl(workerUrl);
 
@@ -38,6 +38,8 @@ interface Props {
 	attribution: string;
 	onSelectLga: (id: string | null) => void;
 	onSelectCommunity: (name: string) => void;
+	/** The LGA under the mouse, with its position on the map; null when the mouse leaves. */
+	onHover: (hover: { id: string; x: number; y: number } | null) => void;
 }
 
 const reducedMotion = () => window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -63,13 +65,13 @@ function boundsOf(features: GeoJSON.Feature[]): LngLatBoundsLike | null {
 }
 
 export default function MapView(props: Props) {
-	const { lgas, base, labels, atlas, group, selectedLga, focus, padding, label, attribution, onSelectLga, onSelectCommunity } = props;
+	const { lgas, base, labels, atlas, group, selectedLga, focus, padding, label, attribution, onSelectLga, onSelectCommunity, onHover } = props;
 	const container = useRef<HTMLDivElement>(null);
 	const mapRef = useRef<MapLibre | null>(null);
 	const ready = useRef<Promise<void> | null>(null);
 	const highlightFeatures = useRef<GeoJSON.Feature[]>([]);
-	const latest = useRef({ onSelectLga, onSelectCommunity, padding, atlasOn: !group });
-	latest.current = { onSelectLga, onSelectCommunity, padding, atlasOn: !group };
+	const latest = useRef({ onSelectLga, onSelectCommunity, onHover, padding, atlasOn: !group });
+	latest.current = { onSelectLga, onSelectCommunity, onHover, padding, atlasOn: !group };
 
 	// Create the map once.
 	useEffect(() => {
@@ -131,7 +133,9 @@ export default function MapView(props: Props) {
 		};
 		map.on('mousemove', 'land', (e) => {
 			map.getCanvas().style.cursor = 'pointer';
-			setHover(e.features?.[0]?.id);
+			const id = e.features?.[0]?.id;
+			setHover(id);
+			latest.current.onHover(id === undefined ? null : { id: String(id), x: e.point.x, y: e.point.y });
 		});
 		for (const layer of ['community', 'village']) {
 			map.on('mouseenter', layer, () => (map.getCanvas().style.cursor = 'pointer'));
@@ -139,6 +143,7 @@ export default function MapView(props: Props) {
 		map.on('mouseleave', 'land', () => {
 			map.getCanvas().style.cursor = '';
 			setHover(undefined);
+			latest.current.onHover(null);
 		});
 		map.on('click', (e) => {
 			// Dots first: a small box makes them easy to hit with a finger.
@@ -173,6 +178,7 @@ export default function MapView(props: Props) {
 			}
 			addPatterns(c);
 			map.setPaintProperty('atlas-fill', 'fill-opacity', latest.current.atlasOn ? 0.88 : 0.14);
+			map.setPaintProperty('atlas-shared', 'fill-opacity', latest.current.atlasOn ? 0.92 : 0.14);
 		};
 		scheme.addEventListener('change', onScheme);
 
@@ -231,7 +237,17 @@ export default function MapView(props: Props) {
 				.filter((f) => atlas.lgas[String(f.properties?.id)])
 				.map((f) => {
 					const a = atlas.lgas[String(f.properties?.id)];
-					return { ...f, properties: { id: f.properties?.id, group: a.group, color: color.get(a.group), mixed: a.mixed } };
+					let pattern: string | undefined;
+					if (a.shared) {
+						pattern = 'stripes-' + a.shared.join('-');
+						if (!map.hasImage(pattern)) {
+							map.addImage(pattern, stripesImage(a.shared.map((id) => color.get(id) ?? '#999999')), { pixelRatio: 2 });
+						}
+					}
+					return {
+						...f,
+						properties: { id: f.properties?.id, group: a.group, color: color.get(a.group), mixed: a.mixed, ...(pattern ? { pattern } : {}) },
+					};
 				});
 			map.getSource<GeoJSONSource>('atlas')?.setData({ type: 'FeatureCollection', features });
 			map.getSource<GeoJSONSource>('atlas-labels')?.setData({
@@ -249,6 +265,7 @@ export default function MapView(props: Props) {
 		const on = !group;
 		ready.current.then(() => {
 			map.setPaintProperty('atlas-fill', 'fill-opacity', on ? 0.88 : 0.14);
+			map.setPaintProperty('atlas-shared', 'fill-opacity', on ? 0.92 : 0.14);
 			map.setLayoutProperty('atlas-mix', 'visibility', on ? 'visible' : 'none');
 			map.setLayoutProperty('atlas-label', 'visibility', on ? 'visible' : 'none');
 		});

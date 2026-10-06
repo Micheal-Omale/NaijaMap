@@ -88,6 +88,13 @@ export function buildStyle(
 				paint: { 'fill-color': ['get', 'color'], 'fill-opacity': 0.88 },
 			},
 			{
+				id: 'atlas-shared',
+				type: 'fill',
+				source: 'atlas',
+				filter: ['has', 'pattern'],
+				paint: { 'fill-pattern': ['get', 'pattern'], 'fill-opacity': 0.92 },
+			},
+			{
 				id: 'atlas-mix',
 				type: 'fill',
 				source: 'atlas',
@@ -331,6 +338,22 @@ export function hatchImage(color: string, size = 8): Pattern {
 		ctx.lineTo(offset + size, 0);
 	}
 	ctx.stroke();
+	return { width: size, height: size, data: ctx.getImageData(0, 0, size, size).data };
+}
+
+/** Diagonal stripes in each group's colour, for an LGA shared by several groups. */
+export function stripesImage(colors: string[]): Pattern {
+	const band = 5;
+	const size = band * colors.length * 2;
+	const canvas = document.createElement('canvas');
+	canvas.width = canvas.height = size;
+	const ctx = canvas.getContext('2d')!;
+	for (let y = 0; y < size; y++) {
+		for (let x = 0; x < size; x++) {
+			ctx.fillStyle = colors[Math.floor(((x + y) % size) / band) % colors.length];
+			ctx.fillRect(x, y, 1, 1);
+		}
+	}
 	return { width: size, height: size, data: ctx.getImageData(0, 0, size, size).data };
 }
 

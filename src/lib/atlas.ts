@@ -64,8 +64,12 @@ export interface AtlasFamily {
 }
 
 export interface Atlas {
-	/** LGA id → main group id, and whether another group also has a large share there. */
-	lgas: Record<string, { group: string; mixed: boolean }>;
+	/**
+	 * LGA id → its main group, whether another group also has a large share
+	 * (mixed: drawn hatched), or, when no single group leads, the groups that
+	 * share it equally (shared: drawn in stripes of their colours).
+	 */
+	lgas: Record<string, { group: string; mixed: boolean; shared?: string[] }>;
 	groups: AtlasGroup[];
 	families: AtlasFamily[];
 }
@@ -97,12 +101,21 @@ export function buildAtlas(groups: GroupView[]): Atlas {
 					a.group.areas.length - b.group.areas.length,
 			);
 		if (ranked.length === 0) continue;
-		lgas[lga] = { group: ranked[0].group.id, mixed: ranked.length > 1 };
+		const cores = ranked.filter((c) => c.presence === 'core');
+		// No single homeland group: several homeland claims, or only shared claims.
+		const equals = cores.length >= 2 ? cores : cores.length === 0 && ranked.length >= 2 ? ranked : [];
+		if (equals.length >= 2) {
+			const shared = equals.slice(0, 3).map((c) => c.group.id);
+			lgas[lga] = { group: shared[0], mixed: false, shared };
+		} else {
+			lgas[lga] = { group: ranked[0].group.id, mixed: ranked.length > 1 };
+		}
 	}
 
 	// Colours: shades within each family, the largest group darkest.
 	const dominantCount = new Map<string, number>();
-	for (const { group } of Object.values(lgas)) dominantCount.set(group, (dominantCount.get(group) ?? 0) + 1);
+	// Count only LGAs a group leads on its own; shared LGAs belong to no one group.
+	for (const { group, shared } of Object.values(lgas)) if (!shared) dominantCount.set(group, (dominantCount.get(group) ?? 0) + 1);
 	const byFamily = new Map<string, GroupView[]>();
 	for (const g of groups) {
 		const f = g.language.family.name;
@@ -123,15 +136,21 @@ export function buildAtlas(groups: GroupView[]): Atlas {
 	}
 	families.sort((a, b) => b.groups.length - a.groups.length || a.name.localeCompare(b.name));
 
-	// Label at the average point of the LGAs where the group is the main group.
+	// Label inside the group's own land: at the LGA it leads that is nearest the
+	// middle of the others. An average point can fall between two clusters (for
+	// example Okene and Koton Karfe) on someone else's LGA.
 	const atlasGroups: AtlasGroup[] = groups.map((g) => {
-		const own = Object.entries(lgas).filter(([, v]) => v.group === g.id).map(([id]) => point.get(id)!);
+		const own = Object.entries(lgas).filter(([, v]) => v.group === g.id && !v.shared).map(([id]) => point.get(id)!);
 		const pts = own.length ? own : g.areas.filter((a) => a.presence === 'core').map((a) => point.get(a.lga)!);
-		const label = pts.length
-			? ([pts.reduce((s, p) => s + p[0], 0) / pts.length, pts.reduce((s, p) => s + p[1], 0) / pts.length].map(
-					(n) => Math.round(n * 1000) / 1000,
-				) as [number, number])
-			: null;
+		let label: [number, number] | null = null;
+		let best = Infinity;
+		for (const p of pts) {
+			const d = pts.reduce((s, q) => s + (p[0] - q[0]) ** 2 + (p[1] - q[1]) ** 2, 0);
+			if (d < best) {
+				best = d;
+				label = p;
+			}
+		}
 		return { id: g.id, name: g.name, family: g.language.family.name, color: color.get(g.id)!, label, lgas: dominantCount.get(g.id) ?? 0 };
 	});
 
