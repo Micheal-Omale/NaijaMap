@@ -127,12 +127,14 @@
 			"presence": "significant",
 			"sources": [
 				"wikipedia-igala-people",
-				"wikipedia-lokoja",
+				"kogireports-2020-deed",
+				"wikipedia-niger-expedition-1841",
 				"ibileye-lokoja",
+				"owner-2026-10-06-lokoja-fishermen",
 				"owner-2026-10-06-lokoja"
 			],
 			"confidence": "medium",
-			"note": "Lokoja is a mixed trading town at the confluence. Wikipedia lists the Igala among the groups who settled as it grew into a trade centre, and Ibileye shows Igala in everyday use at home and work. No published figures give the share; the owner reports a large Igala population."
+			"note": "Indigenous to the confluence: the Attah of Igala ceded land at Lokoja to the British in 1841, and the owner reports Igala fishermen living there at the time. Today a large Igala population lives alongside many other peoples; no published figures give the share."
 		},
 		{
 			"lga": "anambra-anambra-west",
@@ -427,11 +429,12 @@
 				6.472
 			],
 			"sources": [
+				"owner-2026-10-06-nzam",
 				"x-middlebeltabi-2024",
 				"wikipedia-nzam"
 			],
-			"confidence": "disputed",
-			"note": "The LGA headquarters. A 2024 post lists Nzam as Igala, but Wikipedia describes its people as Igbo. Sources disagree."
+			"confidence": "medium",
+			"note": "The LGA headquarters, home to indigenous Igala speakers (owner testimony and a 2024 list of Igala towns). Wikipedia instead describes its people as Igbo, so a published source naming Nzam as Igala would raise this to high."
 		},
 		{
 			"name": "Ogurugu",

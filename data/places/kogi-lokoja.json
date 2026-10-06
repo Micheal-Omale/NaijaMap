@@ -1,10 +1,11 @@
 {
 	"status": "draft",
 	"summary": {
-		"text": "The Kogi State capital, at the confluence of the Niger and Benue. It grew into a trade centre and became one of the most mixed towns in Nigeria.",
+		"text": "The Kogi State capital, at the confluence of the Niger and Benue. The land was held by the Attah of Igala: in September 1841 his agents ceded land at Lokoja to the British for a model farm, and the deed survives at the Museum of Colonial History. The town later grew into a trade centre where many peoples live together.",
 		"sources": [
 			"wikipedia-lokoja",
-			"ibileye-lokoja"
+			"wikipedia-niger-expedition-1841",
+			"kogireports-2020-deed"
 		],
 		"confidence": "high"
 	},
@@ -45,7 +46,7 @@
 		{
 			"name": "Igala",
 			"group": "igala",
-			"standing": "settled",
+			"standing": "indigenous",
 			"share": "large",
 			"languages": [
 				"Igala",
@@ -53,16 +54,17 @@
 				"Pidgin"
 			],
 			"sources": [
-				"wikipedia-lokoja",
+				"kogireports-2020-deed",
+				"wikipedia-niger-expedition-1841",
 				"ibileye-lokoja",
+				"owner-2026-10-06-lokoja-fishermen",
 				"owner-2026-10-06-lokoja"
 			],
 			"confidence": "medium",
-			"note": "Settled as traders. Igala is used at home and work across the town. The owner reports a large population; no published figures yet."
+			"note": "Indigenous Igala fishermen lived at the confluence when the Attah ceded the land in 1841 (owner testimony). Igala is used at home and work across the town. No published figures give the share; the owner reports a large population."
 		},
 		{
 			"name": "Ebira",
-			"standing": "settled",
 			"languages": [
 				"Ebira"
 			],
@@ -73,7 +75,6 @@
 		},
 		{
 			"name": "Hausa",
-			"standing": "settled",
 			"languages": [
 				"Hausa"
 			],
@@ -84,42 +85,8 @@
 		},
 		{
 			"name": "Kupa-Nupe",
-			"standing": "settled",
 			"languages": [
 				"Nupe (Kupa)"
-			],
-			"sources": [
-				"wikipedia-lokoja"
-			],
-			"confidence": "high"
-		},
-		{
-			"name": "Igbo",
-			"standing": "settled",
-			"languages": [
-				"Igbo"
-			],
-			"sources": [
-				"wikipedia-lokoja"
-			],
-			"confidence": "high"
-		},
-		{
-			"name": "Edo",
-			"standing": "settled",
-			"languages": [
-				"Edo"
-			],
-			"sources": [
-				"wikipedia-lokoja"
-			],
-			"confidence": "high"
-		},
-		{
-			"name": "Tiv",
-			"standing": "settled",
-			"languages": [
-				"Tiv"
 			],
 			"sources": [
 				"wikipedia-lokoja"

@@ -367,5 +367,42 @@
 		"kind": "news",
 		"accessed": "2026-10-06",
 		"checked": true
+	},
+	{
+		"id": "wikipedia-niger-expedition-1841",
+		"title": "Niger expedition of 1841",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Niger_expedition_of_1841",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "kogireports-2020-deed",
+		"title": "Deed of Cession: Attah Igala Sold Lands in Lokoja, Others to Queen of England for 700,000 Cowries. Kogi Reports (the deed of 14 September 1841 is held at the Museum of Colonial History, National Commission for Museums and Monuments)",
+		"year": 2020,
+		"url": "https://kogireports.com/deed-of-cession-attah-igala-sold-lands-in-lokoja-others-to-queen-of-england-for-700000-cowries/",
+		"kind": "news",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "owner-2026-10-06-lokoja-fishermen",
+		"title": "Local knowledge from the NiajMap owner: indigenous Igala fishermen lived at Lokoja when the Attah leased the land to the British; no one in Lokoja should be described as settled",
+		"author": "NiajMap owner",
+		"year": 2026,
+		"kind": "testimony",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "owner-2026-10-06-nzam",
+		"title": "Local knowledge from the NiajMap owner: Nzam, headquarters of Anambra West, is home to indigenous Igala speakers",
+		"author": "NiajMap owner",
+		"year": 2026,
+		"kind": "testimony",
+		"accessed": "2026-10-06",
+		"checked": true
 	}
 ]
