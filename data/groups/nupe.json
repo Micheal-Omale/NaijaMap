@@ -44,7 +44,8 @@
 			"presence": "core",
 			"sources": [
 				"wikipedia-bida",
-				"soluap-2025-niger"
+				"soluap-2025-niger",
+				"omachonu-dalhatu-2018"
 			],
 			"confidence": "high"
 		},
@@ -53,7 +54,8 @@
 			"presence": "core",
 			"sources": [
 				"wikipedia-agaie",
-				"soluap-2025-niger"
+				"soluap-2025-niger",
+				"omachonu-dalhatu-2018"
 			],
 			"confidence": "high"
 		},
@@ -62,7 +64,8 @@
 			"presence": "core",
 			"sources": [
 				"wikipedia-lapai",
-				"soluap-2025-niger"
+				"soluap-2025-niger",
+				"omachonu-dalhatu-2018"
 			],
 			"confidence": "high"
 		},
@@ -70,40 +73,45 @@
 			"lga": "niger-gbako",
 			"presence": "core",
 			"sources": [
-				"soluap-2025-niger"
+				"soluap-2025-niger",
+				"omachonu-dalhatu-2018"
 			],
-			"confidence": "medium"
+			"confidence": "high"
 		},
 		{
 			"lga": "niger-katcha",
 			"presence": "core",
 			"sources": [
-				"soluap-2025-niger"
+				"soluap-2025-niger",
+				"omachonu-dalhatu-2018"
 			],
-			"confidence": "medium"
+			"confidence": "high"
 		},
 		{
 			"lga": "niger-edati",
 			"presence": "core",
 			"sources": [
-				"soluap-2025-niger"
+				"soluap-2025-niger",
+				"omachonu-dalhatu-2018"
 			],
-			"confidence": "medium"
+			"confidence": "high"
 		},
 		{
 			"lga": "niger-mokwa",
 			"presence": "core",
 			"sources": [
-				"soluap-2025-niger"
+				"soluap-2025-niger",
+				"omachonu-dalhatu-2018"
 			],
-			"confidence": "medium"
+			"confidence": "high"
 		},
 		{
 			"lga": "niger-lavun",
 			"presence": "core",
 			"sources": [
 				"wikipedia-kutigi",
-				"wikipedia-nupe-language"
+				"wikipedia-nupe-language",
+				"omachonu-dalhatu-2018"
 			],
 			"confidence": "high"
 		},
@@ -111,25 +119,28 @@
 			"lga": "kwara-edu",
 			"presence": "core",
 			"sources": [
-				"wikipedia-edu"
+				"wikipedia-edu",
+				"omachonu-dalhatu-2018"
 			],
-			"confidence": "medium"
+			"confidence": "high"
 		},
 		{
 			"lga": "kwara-pategi",
 			"presence": "core",
 			"sources": [
-				"wikipedia-pategi"
+				"wikipedia-pategi",
+				"omachonu-dalhatu-2018"
 			],
-			"confidence": "medium"
+			"confidence": "high"
 		},
 		{
 			"lga": "niger-wushishi",
 			"presence": "significant",
 			"sources": [
-				"soluap-2025-niger"
+				"soluap-2025-niger",
+				"omachonu-dalhatu-2018"
 			],
-			"confidence": "medium",
+			"confidence": "high",
 			"note": "Shared with Gbagyi (Gbari) communities."
 		},
 		{
@@ -154,9 +165,10 @@
 			"presence": "minority",
 			"sources": [
 				"soluap-2025-niger",
-				"glottolog-nupe"
+				"glottolog-nupe",
+				"omachonu-dalhatu-2018"
 			],
-			"confidence": "medium",
+			"confidence": "high",
 			"note": "Nupe Tako dialect."
 		},
 		{
@@ -167,11 +179,34 @@
 			],
 			"confidence": "high",
 			"note": "The Nupe are among the indigenous peoples of Lokoja."
+		},
+		{
+			"lga": "niger-borgu",
+			"presence": "minority",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "fct-gwagwalada",
+			"presence": "minority",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "fct-kuje",
+			"presence": "minority",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "medium"
 		}
 	],
 	"communities": [],
 	"reviewNotes": [
-		"Gbako, Katcha, Edati and Mokwa rest on one LGA list (Soluap 2025); find a second source.",
 		"The Bassa-Nge speak Nupe Tako but are mapped as their own people later; the Kakanda and Kupa are related but separate.",
 		"Nupe in the FCT and in Kwara beyond Edu and Pategi (for example Lafiagi’s surroundings, Moro) are not yet mapped."
 	]

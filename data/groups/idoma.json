@@ -40,7 +40,8 @@
 			"presence": "core",
 			"sources": [
 				"iambenue-idoma",
-				"wikipedia-idoma-people"
+				"wikipedia-idoma-people",
+				"omachonu-dalhatu-2018"
 			],
 			"confidence": "high"
 		},
@@ -49,7 +50,8 @@
 			"presence": "core",
 			"sources": [
 				"iambenue-idoma",
-				"wikipedia-idoma-people"
+				"wikipedia-idoma-people",
+				"omachonu-dalhatu-2018"
 			],
 			"confidence": "high"
 		},
@@ -58,7 +60,8 @@
 			"presence": "core",
 			"sources": [
 				"iambenue-idoma",
-				"wikipedia-idoma-people"
+				"wikipedia-idoma-people",
+				"omachonu-dalhatu-2018"
 			],
 			"confidence": "high"
 		},
@@ -67,7 +70,8 @@
 			"presence": "core",
 			"sources": [
 				"iambenue-idoma",
-				"wikipedia-idoma-people"
+				"wikipedia-idoma-people",
+				"omachonu-dalhatu-2018"
 			],
 			"confidence": "high"
 		},
@@ -76,7 +80,8 @@
 			"presence": "core",
 			"sources": [
 				"iambenue-idoma",
-				"wikipedia-idoma-people"
+				"wikipedia-idoma-people",
+				"omachonu-dalhatu-2018"
 			],
 			"confidence": "high"
 		},
@@ -85,7 +90,8 @@
 			"presence": "core",
 			"sources": [
 				"iambenue-idoma",
-				"wikipedia-idoma-people"
+				"wikipedia-idoma-people",
+				"omachonu-dalhatu-2018"
 			],
 			"confidence": "high"
 		},
@@ -94,7 +100,8 @@
 			"presence": "significant",
 			"sources": [
 				"iambenue-idoma",
-				"wikipedia-ado-benue"
+				"wikipedia-ado-benue",
+				"omachonu-dalhatu-2018"
 			],
 			"confidence": "high",
 			"note": "Shared with the Igede and some Igbo communities."
@@ -108,6 +115,41 @@
 			],
 			"confidence": "medium",
 			"note": "A few Agatu (who speak a dialect of Idoma) live in Omala."
+		},
+		{
+			"lga": "benue-gwer-west",
+			"presence": "minority",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "nasarawa-doma",
+			"presence": "minority",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "medium",
+			"note": "Idoma (Agatu) speakers."
+		},
+		{
+			"lga": "nasarawa-nasarawa",
+			"presence": "minority",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "medium",
+			"note": "Idoma (Agatu) speakers."
+		},
+		{
+			"lga": "nasarawa-toto",
+			"presence": "minority",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "medium",
+			"note": "Idoma (Agatu) speakers."
 		}
 	],
 	"communities": [],

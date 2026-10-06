@@ -35,7 +35,8 @@
 				"wikipedia-bassa-people"
 			],
 			"confidence": "medium",
-			"note": "Bassa speakers often also speak Igala, Ebira or Nupe."
+			"note": "Bassa speakers often also speak Igala, Ebira or Nupe.",
+			"group": "bassa"
 		}
 	]
 }

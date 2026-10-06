@@ -29,7 +29,8 @@
 			"sources": [
 				"wikipedia-abaji"
 			],
-			"confidence": "high"
+			"confidence": "high",
+			"group": "bassa"
 		},
 		{
 			"name": "Gbagyi",
@@ -40,7 +41,8 @@
 			"sources": [
 				"wikipedia-abaji"
 			],
-			"confidence": "high"
+			"confidence": "high",
+			"group": "gbagyi"
 		},
 		{
 			"name": "Ganagana",

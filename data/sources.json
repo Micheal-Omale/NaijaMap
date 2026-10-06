@@ -777,5 +777,145 @@
 		"kind": "web",
 		"accessed": "2026-10-06",
 		"checked": true
+	},
+	{
+		"id": "omachonu-dalhatu-2018",
+		"title": "The Languages of the North Central Geopolitical Zone of Nigeria. JOLAN Supplement III (tables of languages by LGA for Benue, FCT, Kogi, Kwara, Nasarawa, Niger and Plateau)",
+		"author": "Omachonu, Gideon S.; Dalhatu, Abigail Musa",
+		"year": 2018,
+		"url": "https://jolan.com.ng/index.php/home/article/download/42/37",
+		"kind": "article",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-basa",
+		"title": "Glottolog: Basa (Nigeria) (basa1282)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/basa1282",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-nupe-tako",
+		"title": "Glottolog: Nupe Tako (nupe1255)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/nupe1255",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-igede",
+		"title": "Glottolog: Igede (iged1239)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/iged1239",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-gbagyi",
+		"title": "Glottolog: Gbagyi (gbag1258)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/gbag1258",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-gbari",
+		"title": "Glottolog: Gbari (gbar1246)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/gbar1246",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-bassa-nge",
+		"title": "Bassa Nge people",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Bassa_Nge_people",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-igede-people",
+		"title": "Igede people",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Igede_people",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-igede-language",
+		"title": "Igede language",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Igede_language",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-gbagyi-people",
+		"title": "Gbagyi people",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Gbagyi_people",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-gwari-language",
+		"title": "Gwari language",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Gwari_language",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-chikun",
+		"title": "Chikun",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Chikun",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-igabi",
+		"title": "Igabi",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Igabi",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-karu-nasarawa",
+		"title": "Karu, Nasarawa State",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Karu,_Nasarawa_State",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
 	}
 ]

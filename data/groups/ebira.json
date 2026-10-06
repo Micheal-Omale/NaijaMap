@@ -45,7 +45,8 @@
 			"presence": "core",
 			"sources": [
 				"wikipedia-okene",
-				"wikipedia-ebira-people"
+				"wikipedia-ebira-people",
+				"omachonu-dalhatu-2018"
 			],
 			"confidence": "high"
 		},
@@ -53,7 +54,8 @@
 			"lga": "kogi-okehi",
 			"presence": "core",
 			"sources": [
-				"wikipedia-ebira-people"
+				"wikipedia-ebira-people",
+				"omachonu-dalhatu-2018"
 			],
 			"confidence": "high"
 		},
@@ -61,7 +63,8 @@
 			"lga": "kogi-adavi",
 			"presence": "core",
 			"sources": [
-				"wikipedia-ebira-people"
+				"wikipedia-ebira-people",
+				"omachonu-dalhatu-2018"
 			],
 			"confidence": "high"
 		},
@@ -70,7 +73,8 @@
 			"presence": "core",
 			"sources": [
 				"wikipedia-koton-karfe",
-				"wikipedia-ebira-people"
+				"wikipedia-ebira-people",
+				"omachonu-dalhatu-2018"
 			],
 			"confidence": "medium",
 			"note": "Koton Karfe, the headquarters, is \"predominantly inhabited by the Egbura Kotos\". Other peoples live in the LGA too."
@@ -80,7 +84,8 @@
 			"presence": "significant",
 			"sources": [
 				"wikipedia-ebira-people",
-				"facts-ng-ajaokuta"
+				"facts-ng-ajaokuta",
+				"omachonu-dalhatu-2018"
 			],
 			"confidence": "high",
 			"note": "Shared with Igala and Bassa communities. The Eganyi, an Ebira people, live here."
@@ -90,7 +95,8 @@
 			"presence": "significant",
 			"sources": [
 				"wikipedia-toto",
-				"wikipedia-ebira-language"
+				"wikipedia-ebira-language",
+				"omachonu-dalhatu-2018"
 			],
 			"confidence": "high",
 			"note": "Toto is mainly Bassa and Egbura (Ebira)."
@@ -100,19 +106,11 @@
 			"presence": "significant",
 			"sources": [
 				"wikipedia-abaji",
-				"wikipedia-ebira-language"
+				"wikipedia-ebira-language",
+				"omachonu-dalhatu-2018"
 			],
 			"confidence": "high",
 			"note": "The Egbura are among the indigenous peoples of Abaji, with the Bassa, Gbagyi and Ganagana."
-		},
-		{
-			"lga": "kogi-ogori-magongo",
-			"presence": "minority",
-			"sources": [
-				"wikipedia-ebira-people"
-			],
-			"confidence": "disputed",
-			"note": "Wikipedia lists Ogori/Magongo among the Ebira Tao LGAs, but the Ogori and Magongo are peoples with their own language; how many Ebira live here needs checking."
 		},
 		{
 			"lga": "kogi-bassa",
@@ -129,7 +127,16 @@
 			"presence": "minority",
 			"sources": [
 				"wikipedia-lokoja",
-				"wikipedia-ebira-people"
+				"wikipedia-ebira-people",
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "nasarawa-nasarawa",
+			"presence": "minority",
+			"sources": [
+				"omachonu-dalhatu-2018"
 			],
 			"confidence": "medium"
 		}
@@ -154,7 +161,7 @@
 	],
 	"reviewNotes": [
 		"The Ohinoyi’s seat (Okene) is not yet stated in a source, so the ruler is shown without a seat.",
-		"Ogori/Magongo is marked disputed: check whether Ebira live there in numbers, or only the Ogori and Magongo.",
+		"Ogori/Magongo removed: Omachonu and Dalhatu (2018) list Ò̩kó̩ as its language, not Ebira, although Wikipedia counts it among the Ebira Tao LGAs.",
 		"The Ebira Mozum of Bassa LGA and the Ebira in Abuja (FCT) beyond Abaji are not yet placed as communities."
 	]
 }

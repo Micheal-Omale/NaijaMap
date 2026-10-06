@@ -30,7 +30,8 @@
 			"sources": [
 				"wikipedia-lokoja"
 			],
-			"confidence": "high"
+			"confidence": "high",
+			"group": "bassa-nge"
 		},
 		{
 			"name": "Nupe",

@@ -34,17 +34,30 @@
 			"note": "Spoken on the Olla, Ojaji and Ogodu axis."
 		},
 		{
-			"name": "Bassa and Agatu",
+			"name": "Bassa",
 			"share": "minority",
 			"languages": [
-				"Bassa",
-				"Agatu"
+				"Basa"
 			],
 			"sources": [
 				"wikipedia-omala"
 			],
 			"confidence": "medium",
-			"note": "Wikipedia: \"a few being Bassa and Agatu from Benue State\"."
+			"note": "Wikipedia: \"a few being Bassa and Agatu from Benue State\".",
+			"group": "bassa"
+		},
+		{
+			"name": "Agatu (Idoma)",
+			"share": "minority",
+			"languages": [
+				"Idoma (Agatu dialect)"
+			],
+			"sources": [
+				"wikipedia-omala"
+			],
+			"confidence": "medium",
+			"note": "Wikipedia: \"a few being Bassa and Agatu from Benue State\".",
+			"group": "idoma"
 		}
 	]
 }

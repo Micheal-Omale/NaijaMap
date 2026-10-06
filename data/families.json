@@ -42,5 +42,19 @@
 			"glottolog-idoma"
 		],
 		"confidence": "high"
+	},
+	{
+		"id": "kainji",
+		"name": "Kainji",
+		"lineage": [
+			"Atlantic-Congo",
+			"Volta-Congo",
+			"Benue-Congo",
+			"Kainji"
+		],
+		"sources": [
+			"glottolog-basa"
+		],
+		"confidence": "high"
 	}
 ]

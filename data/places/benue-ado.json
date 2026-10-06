@@ -30,7 +30,8 @@
 			"sources": [
 				"wikipedia-ado-benue"
 			],
-			"confidence": "high"
+			"confidence": "high",
+			"group": "igede"
 		},
 		{
 			"name": "Igbo",

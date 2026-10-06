@@ -43,7 +43,8 @@
 			"lga": "kogi-idah",
 			"presence": "core",
 			"sources": [
-				"wikipedia-igala-people"
+				"wikipedia-igala-people",
+				"omachonu-dalhatu-2018"
 			],
 			"confidence": "high"
 		},
@@ -51,7 +52,8 @@
 			"lga": "kogi-igalamela-odolu",
 			"presence": "core",
 			"sources": [
-				"wikipedia-igala-people"
+				"wikipedia-igala-people",
+				"omachonu-dalhatu-2018"
 			],
 			"confidence": "high"
 		},
@@ -59,7 +61,8 @@
 			"lga": "kogi-ibaji",
 			"presence": "core",
 			"sources": [
-				"wikipedia-igala-people"
+				"wikipedia-igala-people",
+				"omachonu-dalhatu-2018"
 			],
 			"confidence": "high"
 		},
@@ -67,7 +70,8 @@
 			"lga": "kogi-ofu",
 			"presence": "core",
 			"sources": [
-				"wikipedia-igala-people"
+				"wikipedia-igala-people",
+				"omachonu-dalhatu-2018"
 			],
 			"confidence": "high"
 		},
@@ -75,7 +79,8 @@
 			"lga": "kogi-dekina",
 			"presence": "core",
 			"sources": [
-				"wikipedia-igala-people"
+				"wikipedia-igala-people",
+				"omachonu-dalhatu-2018"
 			],
 			"confidence": "high"
 		},
@@ -83,7 +88,8 @@
 			"lga": "kogi-ankpa",
 			"presence": "core",
 			"sources": [
-				"wikipedia-igala-people"
+				"wikipedia-igala-people",
+				"omachonu-dalhatu-2018"
 			],
 			"confidence": "high"
 		},
@@ -91,7 +97,8 @@
 			"lga": "kogi-omala",
 			"presence": "core",
 			"sources": [
-				"wikipedia-igala-people"
+				"wikipedia-igala-people",
+				"omachonu-dalhatu-2018"
 			],
 			"confidence": "high"
 		},
@@ -99,7 +106,8 @@
 			"lga": "kogi-olamaboro",
 			"presence": "core",
 			"sources": [
-				"wikipedia-igala-people"
+				"wikipedia-igala-people",
+				"omachonu-dalhatu-2018"
 			],
 			"confidence": "high"
 		},
@@ -107,7 +115,8 @@
 			"lga": "kogi-bassa",
 			"presence": "significant",
 			"sources": [
-				"wikipedia-igala-people"
+				"wikipedia-igala-people",
+				"omachonu-dalhatu-2018"
 			],
 			"confidence": "medium",
 			"note": "A mixed LGA. The Bassa-Nge, Bassa-Komo and Ebira Koto also live here."
@@ -117,7 +126,8 @@
 			"presence": "significant",
 			"sources": [
 				"wikipedia-igala-people",
-				"kogireports-2019"
+				"kogireports-2019",
+				"omachonu-dalhatu-2018"
 			],
 			"confidence": "medium",
 			"note": "A mixed LGA, shared with Ebira communities."
@@ -131,7 +141,8 @@
 				"wikipedia-niger-expedition-1841",
 				"ibileye-lokoja",
 				"owner-2026-10-06-lokoja-fishermen",
-				"owner-2026-10-06-lokoja"
+				"owner-2026-10-06-lokoja",
+				"omachonu-dalhatu-2018"
 			],
 			"confidence": "medium",
 			"note": "Indigenous to the confluence: the Attah of Igala ceded land at Lokoja to the British in 1841, and the owner reports Igala fishermen living there at the time. Today a large Igala population lives alongside many other peoples; no published figures give the share."
@@ -561,7 +572,7 @@
 		}
 	],
 	"reviewNotes": [
-		"The Kogi LGA list still rests on Wikipedia, which flags it as needing a citation. Add a primary source (for example Boston 1968 or a Kogi State source) before publishing.",
+		"The Kogi LGA list is now confirmed by Omachonu and Dalhatu (2018), which lists Igala in nine Kogi LGAs (including Bassa) and notes it is also spoken in Ajaokuta and Lokoja.",
 		"Not yet mapped, needs a source that Igala is SPOKEN there today (not only an origin tradition): Toto and Doma LGAs in Nasarawa (Umaisha, Panda). In Benue, Apa is now mapped as a minority area; the Benue towns in Kogi Reports (Otukpo, Otukpa, Agila, Ajomachi, Alifati) are Idoma speaking, and the Igala living in Makurdi (Daily Trust, 2026) are town residents rather than a distinct community, so neither is on the map.",
 		"Kogi Reports (2019) also lists many places with Igala origin traditions (for example Illah, Okpanam and Asaba in Delta, Agenebode and Anegbette in Edo, Nsukka towns in Enugu, Wukari, Ibadan). These are origin claims, not Igala speaking communities, so they are not on the map.",
 		"Odomagwu (Olumbanasa) and Ukwala (Anambra West) could not be located in GRID3 or OpenStreetMap.",

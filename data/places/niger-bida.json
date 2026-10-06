@@ -43,7 +43,8 @@
 			"sources": [
 				"soluap-2025-niger"
 			],
-			"confidence": "medium"
+			"confidence": "medium",
+			"group": "bassa-nge"
 		},
 		{
 			"name": "Gbari",
@@ -54,7 +55,8 @@
 			"sources": [
 				"soluap-2025-niger"
 			],
-			"confidence": "medium"
+			"confidence": "medium",
+			"group": "gbagyi"
 		}
 	]
 }

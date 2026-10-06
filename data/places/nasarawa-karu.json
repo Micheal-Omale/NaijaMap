@@ -1,0 +1,84 @@
+{
+	"status": "draft",
+	"summary": {
+		"text": "An LGA on the edge of Abuja, created in 1991 from Keffi. Its six indigenous peoples are the Gbagyi, Gwandara, Yeskwa, Gade, Hausa-Fulani and Koro.",
+		"sources": [
+			"wikipedia-karu-nasarawa"
+		],
+		"confidence": "high"
+	},
+	"peoples": [
+		{
+			"name": "Gbagyi",
+			"group": "gbagyi",
+			"standing": "indigenous",
+			"share": "large",
+			"languages": [
+				"Gbagyi (Gbagyi Nge)"
+			],
+			"sources": [
+				"wikipedia-karu-nasarawa",
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"name": "Gwandara",
+			"standing": "indigenous",
+			"languages": [
+				"Gwandara"
+			],
+			"sources": [
+				"wikipedia-karu-nasarawa",
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"name": "Yeskwa",
+			"standing": "indigenous",
+			"languages": [
+				"Yeskwa"
+			],
+			"sources": [
+				"wikipedia-karu-nasarawa"
+			],
+			"confidence": "high"
+		},
+		{
+			"name": "Gade",
+			"standing": "indigenous",
+			"languages": [
+				"Gade"
+			],
+			"sources": [
+				"wikipedia-karu-nasarawa",
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"name": "Koro",
+			"standing": "indigenous",
+			"languages": [
+				"Koro"
+			],
+			"sources": [
+				"wikipedia-karu-nasarawa",
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"name": "Hausa-Fulani",
+			"standing": "indigenous",
+			"languages": [
+				"Hausa"
+			],
+			"sources": [
+				"wikipedia-karu-nasarawa"
+			],
+			"confidence": "high"
+		}
+	]
+}

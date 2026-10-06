@@ -1,0 +1,26 @@
+{
+	"status": "draft",
+	"summary": {
+		"text": "An Igede LGA in southern Benue, created in 1976, bordering Ebonyi and Cross River.",
+		"sources": [
+			"wikipedia-igede-people"
+		],
+		"confidence": "high"
+	},
+	"peoples": [
+		{
+			"name": "Igede",
+			"group": "igede",
+			"standing": "indigenous",
+			"share": "majority",
+			"languages": [
+				"Igede"
+			],
+			"sources": [
+				"wikipedia-igede-people",
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high"
+		}
+	]
+}

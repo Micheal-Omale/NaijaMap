@@ -1,0 +1,63 @@
+{
+	"name": "Igede",
+	"status": "draft",
+	"searchAliases": [
+		"Igede",
+		"Egede",
+		"Oju",
+		"Obi"
+	],
+	"language": {
+		"name": "Igede",
+		"iso639_3": "ige",
+		"glottocode": "iged1239",
+		"family": "idomoid",
+		"sources": [
+			"glottolog-igede",
+			"wikipedia-igede-language"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Igede are native to Oju and Obi LGAs in southern Benue, next to Ebonyi and Cross River. Igede is spoken by about 461,000 people in lower Benue and Cross River. Their tradition traces them to Ora in present-day Edo State, by way of Nsukka.",
+		"sources": [
+			"wikipedia-igede-people",
+			"wikipedia-igede-language"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "benue-oju",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igede-people",
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "benue-obi",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igede-people",
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "benue-ado",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-ado-benue"
+			],
+			"confidence": "high",
+			"note": "Shared with the Idoma."
+		}
+	],
+	"communities": [],
+	"reviewNotes": [
+		"Igede is also spoken in Cross River State (probably next to Oju); the LGA is not yet sourced.",
+		"No paramount ruler is recorded yet."
+	]
+}

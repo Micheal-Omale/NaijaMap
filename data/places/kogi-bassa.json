@@ -21,7 +21,8 @@
 				"wikipedia-basa-benue"
 			],
 			"confidence": "high",
-			"note": "The largest of the three main peoples. Wikipedia dates their arrival to about the 1830s."
+			"note": "The largest of the three main peoples. Wikipedia dates their arrival to about the 1830s.",
+			"group": "bassa"
 		},
 		{
 			"name": "Bassa-Nge",
@@ -33,7 +34,8 @@
 				"wikipedia-bassa-kogi"
 			],
 			"confidence": "high",
-			"note": "Wikipedia dates their arrival to about the 1850s."
+			"note": "Wikipedia dates their arrival to about the 1850s.",
+			"group": "bassa-nge"
 		},
 		{
 			"name": "Ebira Koto",

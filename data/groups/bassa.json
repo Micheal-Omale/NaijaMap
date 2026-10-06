@@ -1,0 +1,154 @@
+{
+	"name": "Bassa",
+	"status": "draft",
+	"searchAliases": [
+		"Basa",
+		"Bassa-Komo",
+		"Bassa Kwomo",
+		"Basa-Kwomu",
+		"Bassa Komu",
+		"Rubassa",
+		"Abacha",
+		"Abatsa"
+	],
+	"language": {
+		"name": "Basa (Basa-Benue)",
+		"iso639_3": "bzw",
+		"glottocode": "basa1282",
+		"family": "kainji",
+		"sources": [
+			"glottolog-basa",
+			"wikipedia-basa-benue"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Bassa of central Nigeria speak Basa, a Kainji language, in several varieties: Basa-Komo (Kwomu) in Kogi and Nasarawa, and Basa-Kwali, Basa-Gurara and Basa-Makurdi elsewhere. They live in the FCT, where Gwagwalada is their traditional headquarters, and in Kogi, Nasarawa and Benue. Bassa speakers often also speak Igala, Ebira or Nupe. They are not the same people as the Bassa-Nge.",
+		"sources": [
+			"wikipedia-bassa-people",
+			"wikipedia-basa-benue"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "kogi-bassa",
+			"presence": "core",
+			"sources": [
+				"wikipedia-bassa-kogi",
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high",
+			"note": "The Bassa-Komo are the largest of Bassa LGA’s three main peoples."
+		},
+		{
+			"lga": "nasarawa-toto",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-toto",
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high",
+			"note": "Shared with the Egbura (Ebira)."
+		},
+		{
+			"lga": "fct-abaji",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-abaji",
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high",
+			"note": "One of Abaji’s indigenous peoples."
+		},
+		{
+			"lga": "fct-gwagwalada",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-bassa-people",
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "medium",
+			"note": "The traditional headquarters of the Bassa."
+		},
+		{
+			"lga": "fct-kwali",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-basa-benue",
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "medium",
+			"note": "Basa-Kwali variety."
+		},
+		{
+			"lga": "fct-kuje",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-bassa-people",
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "kogi-ankpa",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-basa-benue",
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "medium",
+			"note": "Basa-Komo variety."
+		},
+		{
+			"lga": "kogi-dekina",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-bassa-people"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "kogi-omala",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-omala"
+			],
+			"confidence": "medium",
+			"note": "A few Bassa live in Omala."
+		},
+		{
+			"lga": "nasarawa-nasarawa",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-basa-benue"
+			],
+			"confidence": "medium",
+			"note": "Basa-Komo variety."
+		},
+		{
+			"lga": "nasarawa-kokona",
+			"presence": "minority",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "benue-makurdi",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-basa-benue",
+				"dailytrust-2026-makurdi"
+			],
+			"confidence": "medium",
+			"note": "Basa-Makurdi variety."
+		}
+	],
+	"communities": [],
+	"reviewNotes": [
+		"Wikipedia also places Bassa in Bwari and the Municipal Area Council (FCT), in Kwara, and in Niger State (Shiroro); not yet mapped.",
+		"Basa-Gurara (Niger State) is named as a variety but its LGA is not yet sourced.",
+		"No paramount ruler is recorded yet."
+	]
+}

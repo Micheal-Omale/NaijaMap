@@ -1,0 +1,233 @@
+{
+	"name": "Gbagyi",
+	"status": "draft",
+	"searchAliases": [
+		"Gbari",
+		"Gwari",
+		"Agbagyi",
+		"Agbari",
+		"Gbagyi Nge",
+		"Gbagyi Nkwa"
+	],
+	"language": {
+		"name": "Gbagyi (and Gbari)",
+		"iso639_3": "gbr",
+		"glottocode": "gbag1258",
+		"family": "ebira-nupoid",
+		"sources": [
+			"glottolog-gbagyi",
+			"glottolog-gbari",
+			"omachonu-dalhatu-2018"
+		],
+		"confidence": "high",
+		"note": "Glottolog lists Gbagyi and Gbari as two languages; Omachonu and Dalhatu (2018) find they are dialects of one language."
+	},
+	"summary": {
+		"text": "The Gbagyi (Gbari) are one of the largest peoples of the Middle Belt and the original people of the land where Abuja was built. Gbagyi is spoken in all six FCT area councils, across southern Niger State, in Kaduna State around Chikun and Igabi, and in Karu and Toto in Nasarawa.",
+		"sources": [
+			"wikipedia-gbagyi-people",
+			"omachonu-dalhatu-2018"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "fct-bwari",
+			"presence": "core",
+			"sources": [
+				"omachonu-dalhatu-2018",
+				"wikipedia-gbagyi-people"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "fct-municipal-area-council",
+			"presence": "core",
+			"sources": [
+				"omachonu-dalhatu-2018",
+				"wikipedia-gbagyi-people"
+			],
+			"confidence": "medium",
+			"note": "The capital city; now home to people from all over Nigeria."
+		},
+		{
+			"lga": "fct-kuje",
+			"presence": "core",
+			"sources": [
+				"omachonu-dalhatu-2018",
+				"wikipedia-gbagyi-people"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "fct-kwali",
+			"presence": "core",
+			"sources": [
+				"omachonu-dalhatu-2018",
+				"wikipedia-gbagyi-people"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "fct-gwagwalada",
+			"presence": "significant",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "medium",
+			"note": "Shared with the Bassa and others."
+		},
+		{
+			"lga": "fct-abaji",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-abaji",
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high",
+			"note": "One of Abaji’s four indigenous peoples."
+		},
+		{
+			"lga": "niger-shiroro",
+			"presence": "core",
+			"sources": [
+				"omachonu-dalhatu-2018",
+				"soluap-2025-niger"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "niger-tafa",
+			"presence": "core",
+			"sources": [
+				"omachonu-dalhatu-2018",
+				"soluap-2025-niger"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "niger-bosso",
+			"presence": "core",
+			"sources": [
+				"omachonu-dalhatu-2018",
+				"soluap-2025-niger"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "niger-suleja",
+			"presence": "core",
+			"sources": [
+				"omachonu-dalhatu-2018",
+				"soluap-2025-niger"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "niger-paikoro",
+			"presence": "core",
+			"sources": [
+				"omachonu-dalhatu-2018",
+				"soluap-2025-niger"
+			],
+			"confidence": "high",
+			"note": "Gwari (Gbari) dialect."
+		},
+		{
+			"lga": "niger-chanchaga",
+			"presence": "significant",
+			"sources": [
+				"omachonu-dalhatu-2018",
+				"soluap-2025-niger"
+			],
+			"confidence": "high",
+			"note": "Minna, the state capital."
+		},
+		{
+			"lga": "niger-gurara",
+			"presence": "significant",
+			"sources": [
+				"omachonu-dalhatu-2018",
+				"soluap-2025-niger"
+			],
+			"confidence": "medium",
+			"note": "Shared with the Gwandara."
+		},
+		{
+			"lga": "niger-munya",
+			"presence": "significant",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "medium",
+			"note": "Gwari (Gbari) dialect."
+		},
+		{
+			"lga": "niger-wushishi",
+			"presence": "significant",
+			"sources": [
+				"soluap-2025-niger"
+			],
+			"confidence": "medium",
+			"note": "Shared with the Nupe."
+		},
+		{
+			"lga": "niger-rafi",
+			"presence": "minority",
+			"sources": [
+				"soluap-2025-niger"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "niger-lapai",
+			"presence": "minority",
+			"sources": [
+				"soluap-2025-niger"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "kaduna-igabi",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igabi"
+			],
+			"confidence": "medium",
+			"note": "Wikipedia: \"predominantly inhabited by the Gbagyi people\"."
+		},
+		{
+			"lga": "kaduna-chikun",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-chikun",
+				"wikipedia-gbagyi-people"
+			],
+			"confidence": "high",
+			"note": "Originally Gbagyi land, now a cosmopolitan part of Kaduna."
+		},
+		{
+			"lga": "nasarawa-karu",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-karu-nasarawa",
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high",
+			"note": "Home mainly to the Gbagyi and Bassa; Karu has six indigenous peoples."
+		},
+		{
+			"lga": "nasarawa-toto",
+			"presence": "minority",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "medium"
+		}
+	],
+	"communities": [],
+	"reviewNotes": [
+		"Wikipedia says the Gbagyi live in about thirty LGAs; the Kaduna LGAs beyond Chikun and Igabi (for example Kajuru, Kachia, Kagarko) are not yet sourced.",
+		"No paramount ruler is recorded yet."
+	]
+}

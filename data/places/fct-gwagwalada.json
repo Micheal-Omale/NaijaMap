@@ -1,0 +1,69 @@
+{
+	"status": "draft",
+	"summary": {
+		"text": "An FCT area council and the traditional headquarters of the Bassa. Gbagyi, Bassa, Gwandara, Koro and Nupe are all spoken here.",
+		"sources": [
+			"wikipedia-bassa-people",
+			"omachonu-dalhatu-2018"
+		],
+		"confidence": "high"
+	},
+	"peoples": [
+		{
+			"name": "Gbagyi",
+			"group": "gbagyi",
+			"standing": "indigenous",
+			"languages": [
+				"Gbagyi"
+			],
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"name": "Bassa",
+			"group": "bassa",
+			"standing": "indigenous",
+			"languages": [
+				"Basa"
+			],
+			"sources": [
+				"wikipedia-bassa-people",
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"name": "Gwandara",
+			"languages": [
+				"Gwandara"
+			],
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"name": "Koro",
+			"languages": [
+				"Koro"
+			],
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"name": "Nupe",
+			"group": "nupe",
+			"languages": [
+				"Nupe"
+			],
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high"
+		}
+	]
+}

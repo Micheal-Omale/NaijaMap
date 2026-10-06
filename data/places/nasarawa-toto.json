@@ -18,7 +18,8 @@
 			"sources": [
 				"wikipedia-toto"
 			],
-			"confidence": "high"
+			"confidence": "high",
+			"group": "bassa"
 		},
 		{
 			"name": "Egbura (Ebira)",
@@ -54,7 +55,8 @@
 			"sources": [
 				"wikipedia-toto"
 			],
-			"confidence": "high"
+			"confidence": "high",
+			"group": "gbagyi"
 		},
 		{
 			"name": "Fulani",

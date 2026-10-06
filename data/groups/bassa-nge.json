@@ -1,0 +1,91 @@
+{
+	"name": "Bassa-Nge",
+	"status": "draft",
+	"searchAliases": [
+		"Bassa Nge",
+		"Bassa Nupe",
+		"Basa Nge",
+		"Nupe Tako",
+		"Etsu Bassa-Nge"
+	],
+	"language": {
+		"name": "Nupe (Tako dialect)",
+		"iso639_3": "nup",
+		"glottocode": "nupe1255",
+		"family": "ebira-nupoid",
+		"sources": [
+			"glottolog-nupe-tako",
+			"wikipedia-bassa-nge",
+			"omachonu-dalhatu-2018"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Bassa-Nge (Bassa Nupe) speak the Tako dialect of Nupe. Tradition places their origin at Gbara, once the capital of the Nupe Kingdom. They live where the Niger meets the Benue, in Bassa LGA and Lokoja, and their ruler, the Etsu Bassa-Nge, sits at Gboloko. Despite the shared name, their language is not related to that of the Bassa-Komo.",
+		"sources": [
+			"wikipedia-bassa-nge",
+			"wikipedia-basa-benue",
+			"omachonu-dalhatu-2018"
+		],
+		"confidence": "high"
+	},
+	"ruler": {
+		"title": "Etsu Bassa-Nge",
+		"seat": "kogi-bassa",
+		"sources": [
+			"wikipedia-bassa-nge"
+		],
+		"confidence": "high",
+		"note": "Seat at Gboloko, in Bassa LGA."
+	},
+	"areas": [
+		{
+			"lga": "kogi-bassa",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-bassa-kogi",
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high",
+			"note": "The second of Bassa LGA’s three main peoples."
+		},
+		{
+			"lga": "kogi-lokoja",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-lokoja",
+				"wikipedia-bassa-nge"
+			],
+			"confidence": "medium",
+			"note": "Among the indigenous peoples of Lokoja."
+		},
+		{
+			"lga": "kogi-dekina",
+			"presence": "minority",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "niger-bida",
+			"presence": "minority",
+			"sources": [
+				"soluap-2025-niger"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "niger-edati",
+			"presence": "minority",
+			"sources": [
+				"soluap-2025-niger"
+			],
+			"confidence": "medium"
+		}
+	],
+	"communities": [],
+	"reviewNotes": [
+		"The Bassa-Nge page says they are the majority in Lokoja; this conflicts with other accounts of Lokoja and is not used."
+	]
+}

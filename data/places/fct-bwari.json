@@ -1,0 +1,27 @@
+{
+	"status": "draft",
+	"summary": {
+		"text": "An FCT area council north of Abuja city. Gbagyi, the original language of the FCT, is spoken here.",
+		"sources": [
+			"omachonu-dalhatu-2018",
+			"wikipedia-gbagyi-people"
+		],
+		"confidence": "high"
+	},
+	"peoples": [
+		{
+			"name": "Gbagyi",
+			"group": "gbagyi",
+			"standing": "indigenous",
+			"share": "majority",
+			"languages": [
+				"Gbagyi"
+			],
+			"sources": [
+				"omachonu-dalhatu-2018",
+				"wikipedia-gbagyi-people"
+			],
+			"confidence": "medium"
+		}
+	]
+}
