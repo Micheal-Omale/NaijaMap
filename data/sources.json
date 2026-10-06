@@ -1947,5 +1947,85 @@
 		"licence": "CC BY-SA 4.0",
 		"accessed": "2026-10-06",
 		"checked": true
+	},
+	{
+		"id": "wikipedia-dekina",
+		"title": "Dekina",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Dekina",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ajaokuta",
+		"title": "Ajaokuta",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ajaokuta",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-anambra-west",
+		"title": "Anambra West",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Anambra_West",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-otukpo",
+		"title": "Otukpo",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Otukpo",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-oju",
+		"title": "Oju, Benue State",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Oju,_Benue_State",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-gwagwalada",
+		"title": "Gwagwalada",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Gwagwalada",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "dailytrust-2017-enugu",
+		"title": "500 Years Of Igalas In Enugu. Daily Trust",
+		"author": "Adibe, Tony",
+		"year": 2017,
+		"url": "https://dailytrust.com/500-years-of-igalas-in-enugu/",
+		"kind": "news",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-akoko-edo",
+		"title": "Akoko-Edo",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Akoko-Edo",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
 	}
 ]

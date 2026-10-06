@@ -44,5 +44,19 @@
 			],
 			"confidence": "high"
 		}
-	]
+	],
+	"history": {
+		"text": "One of the first Idoma areas reached by missionaries: Catholic missionaries arrived at Utonkon in 1922.",
+		"sources": [
+			"wikipedia-ado-benue"
+		],
+		"confidence": "high"
+	},
+	"livelihoods": {
+		"text": "A major producer of yams, with rice, cassava and palm oil.",
+		"sources": [
+			"wikipedia-ado-benue"
+		],
+		"confidence": "high"
+	}
 }

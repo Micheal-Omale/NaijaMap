@@ -6,8 +6,8 @@ a confidence level is missing, or an LGA id does not exist.
 
 | Path | What it holds |
 | :-- | :-- |
-| `groups/<id>.json` | One ethnic group: language, summary, ruler, LGAs, outside communities, review notes |
-| `places/<lga-id>.json` | A brief about who lives in one LGA: its peoples, indigenous or settled, rough share, languages (two or more means bilingual), and how languages are used |
+| `groups/<id>.json` | One ethnic group: language, summary, ruler, LGAs, named communities (each with optional villages, `history` and `livelihoods`), review notes |
+| `places/<lga-id>.json` | A brief about who lives in one LGA: its peoples, indigenous or settled, rough share, languages (two or more means bilingual), how languages are used, and optional `history` (why the place matters) and `livelihoods` (what people mainly do) |
 | `families.json` | Language families and their lineage |
 | `sources.json` | Every source, cited by id from the claims |
 | `raw/` | Downloaded open data, not committed (see below) |

@@ -65,5 +65,19 @@
 			],
 			"confidence": "high"
 		}
-	]
+	],
+	"history": {
+		"text": "The Abaji kingdom, headed by the Ona of Abaji, is the oldest traditional institution in the FCT. The land was once part of the old Koton Karfe kingdom.",
+		"sources": [
+			"wikipedia-abaji"
+		],
+		"confidence": "high"
+	},
+	"livelihoods": {
+		"text": "Farming and trade, centred on the Abaji main market.",
+		"sources": [
+			"wikipedia-abaji"
+		],
+		"confidence": "high"
+	}
 }

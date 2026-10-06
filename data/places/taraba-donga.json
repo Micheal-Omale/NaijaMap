@@ -60,5 +60,19 @@
 			],
 			"confidence": "high"
 		}
-	]
+	],
+	"history": {
+		"text": "Centre of a Chamba kingdom. The Chamba moved from what is now Cameroon into the Benue valley in the 19th century, after attacks by Fulani jihadists.",
+		"sources": [
+			"wikipedia-donga"
+		],
+		"confidence": "medium"
+	},
+	"livelihoods": {
+		"text": "Farming, hunting, fishing, cattle rearing and trading; a hub of Taraba’s cocoa trade.",
+		"sources": [
+			"wikipedia-donga"
+		],
+		"confidence": "medium"
+	}
 }

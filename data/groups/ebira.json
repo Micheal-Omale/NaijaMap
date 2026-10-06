@@ -33,9 +33,10 @@
 	},
 	"ruler": {
 		"title": "Ohinoyi of Ebiraland",
+		"seat": "kogi-okene",
 		"sources": [
 			"wikipedia-ohinoyi",
-			"wikipedia-ebira-people"
+			"wikipedia-okene"
 		],
 		"confidence": "high"
 	},
@@ -156,11 +157,24 @@
 				"grid3-settlement-names"
 			],
 			"confidence": "high",
-			"note": "The people of Igarra speak Etuno, which Glottolog counts as the Igara dialect of Ebira."
+			"note": "The people of Igarra speak Etuno, which Glottolog counts as the Igara dialect of Ebira.",
+			"history": {
+				"text": "Founded by Ariwo Ovejijo, a prince of Idah who left with his followers after he felt cheated of the throne of the Attah of Igala; he ruled as the first Otaru. Igarra’s new yam festival is Upe Enu.",
+				"sources": [
+					"wikipedia-igarra"
+				],
+				"confidence": "medium"
+			},
+			"livelihoods": {
+				"text": "Farming on fertile soil (yam, cassava, palm produce); historically, a bead trade.",
+				"sources": [
+					"wikipedia-igarra"
+				],
+				"confidence": "medium"
+			}
 		}
 	],
 	"reviewNotes": [
-		"The Ohinoyi’s seat (Okene) is not yet stated in a source, so the ruler is shown without a seat.",
 		"Ogori/Magongo removed: Omachonu and Dalhatu (2018) list Ò̩kó̩ as its language, not Ebira, although Wikipedia counts it among the Ebira Tao LGAs.",
 		"The Ebira Mozum of Bassa LGA and the Ebira in Abuja (FCT) beyond Abaji are not yet placed as communities."
 	]

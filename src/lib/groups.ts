@@ -90,6 +90,8 @@ async function toView(entry: CollectionEntry<'groups'>): Promise<GroupView> {
 			point: (c.point ?? l.point) as [number, number],
 			approximate: !c.point,
 			villages: c.villages,
+			history: c.history ? { text: c.history.text, ...(await evidence(c.history)) } : undefined,
+			livelihoods: c.livelihoods ? { text: c.livelihoods.text, ...(await evidence(c.livelihoods)) } : undefined,
 			...(await evidence(c)),
 		});
 	}
@@ -132,7 +134,9 @@ export async function getPlaceViews(): Promise<PlaceView[]> {
 				});
 			}
 			const languageUse = p.languageUse ? { text: p.languageUse.text, ...(await evidence(p.languageUse)) } : undefined;
-			return { lga: l.id, name: l.name, state: l.state, status: p.status, summary, peoples, languageUse, sources };
+			const history = p.history ? { text: p.history.text, ...(await evidence(p.history)) } : undefined;
+			const livelihoods = p.livelihoods ? { text: p.livelihoods.text, ...(await evidence(p.livelihoods)) } : undefined;
+			return { lga: l.id, name: l.name, state: l.state, status: p.status, summary, peoples, languageUse, history, livelihoods, sources };
 		}),
 	);
 }

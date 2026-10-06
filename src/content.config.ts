@@ -87,6 +87,8 @@ const groups = defineCollection({
 						point: point.optional(),
 						/** Villages or quarters that make up the community, each drawn as its own point when located. */
 						villages: z.array(z.object({ name: z.string(), point: point.optional() })).default([]),
+						history: z.object({ text: z.string(), ...evidence }).optional(),
+						livelihoods: z.object({ text: z.string(), ...evidence }).optional(),
 						...evidence,
 					}),
 				)
@@ -125,6 +127,10 @@ const places = defineCollection({
 			.min(1),
 		/** How languages are used across the area: lingua francas, multilingualism. */
 		languageUse: z.object({ text: z.string(), ...evidence }).optional(),
+		/** Why the place matters historically: founding, kingdoms, events. */
+		history: z.object({ text: z.string(), ...evidence }).optional(),
+		/** What people mainly do for a living: farming, fishing, trade, crafts, industry. */
+		livelihoods: z.object({ text: z.string(), ...evidence }).optional(),
 	}),
 });
 

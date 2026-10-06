@@ -51,5 +51,12 @@
 			"facts-ng-ajaokuta"
 		],
 		"confidence": "medium"
+	},
+	"history": {
+		"text": "Home of the Ajaokuta Steel Mill, Nigeria’s largest, once called the bedrock of the country’s industrialisation; by 2017 it had still not produced a sheet of steel. A railway was planned from the Itakpe iron mines through Ajaokuta to Warri.",
+		"sources": [
+			"wikipedia-ajaokuta"
+		],
+		"confidence": "high"
 	}
 }

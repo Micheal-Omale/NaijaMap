@@ -77,5 +77,19 @@
 			],
 			"confidence": "high"
 		}
-	]
+	],
+	"history": {
+		"text": "Founded by Muhammadu Dunama in the late 18th century. Under Mohamman Agwai (1881 to 1903) its market became one of the most important in the Benue valley, and in 1903 the British recognised Musa as Lafia’s first emir.",
+		"sources": [
+			"wikipedia-lafia"
+		],
+		"confidence": "high"
+	},
+	"livelihoods": {
+		"text": "Trade in sesame, soybeans, yams, sorghum, millet and cotton; traditional cotton weaving and dyeing; livestock farming, especially among the Fulani.",
+		"sources": [
+			"wikipedia-lafia"
+		],
+		"confidence": "high"
+	}
 }

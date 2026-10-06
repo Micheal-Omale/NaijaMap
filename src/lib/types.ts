@@ -41,6 +41,8 @@ export interface CommunityView extends Evidence {
 	/** True when the point is the LGA's centre, not the town itself. */
 	approximate: boolean;
 	villages: VillageView[];
+	history?: Evidence & { text: string };
+	livelihoods?: Evidence & { text: string };
 }
 
 export interface GroupView {
@@ -81,5 +83,7 @@ export interface PlaceView {
 	summary: Evidence & { text: string };
 	peoples: PeopleView[];
 	languageUse?: Evidence & { text: string };
+	history?: Evidence & { text: string };
+	livelihoods?: Evidence & { text: string };
 	sources: SourceView[];
 }

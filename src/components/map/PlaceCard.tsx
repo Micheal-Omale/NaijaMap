@@ -1,6 +1,6 @@
 import type { ReactNode } from 'react';
 import type { Translate } from '../../i18n/utils';
-import type { CommunityView, GroupView, PeopleView, PlaceView, Presence, SourceView } from '../../lib/types';
+import type { CommunityView, Evidence, GroupView, PeopleView, PlaceView, Presence, SourceView } from '../../lib/types';
 import { Claim, Swatch } from './Profile';
 
 function Sources({ sources, prefix, tr }: { sources: SourceView[]; prefix: string; tr: Translate }) {
@@ -23,6 +23,19 @@ function Sources({ sources, prefix, tr }: { sources: SourceView[]; prefix: strin
 				))}
 			</ol>
 		</details>
+	);
+}
+
+function Section({ title, e, prefix, tr }: { title: string; e?: Evidence & { text: string }; prefix: string; tr: Translate }) {
+	if (!e) return null;
+	return (
+		<>
+			<h3 className="place-card__h">{title}</h3>
+			<p className="place-card__summary">
+				{e.text} <Claim e={e} tr={tr} prefix={prefix} />
+			</p>
+			{e.note && <p className="note note--card">{e.note}</p>}
+		</>
 	);
 }
 
@@ -108,6 +121,8 @@ export function PlaceCard({ lga, place, groupsHere, tr, onOpenGroup, onClose }: 
 					<p className="place-card__summary">
 						{place.summary.text} <Claim e={place.summary} tr={tr} prefix="place-source" />
 					</p>
+					<Section title={t('place.history')} e={place.history} prefix="place-source" tr={tr} />
+					<Section title={t('place.livelihoods')} e={place.livelihoods} prefix="place-source" tr={tr} />
 					<h3 className="place-card__h">{t('place.who')}</h3>
 					<ul className="peoples">
 						{place.peoples.map((p) => (
@@ -160,13 +175,16 @@ interface CommunityProps {
 export function CommunityCard({ community: c, group, tr, onClose }: CommunityProps) {
 	const { t } = tr;
 	// Only the sources this community cites, keeping the profile's numbers.
-	const cited = group.sources.filter((s) => c.refs.includes(s.n));
+	const refs = new Set([...c.refs, ...(c.history?.refs ?? []), ...(c.livelihoods?.refs ?? [])]);
+	const cited = group.sources.filter((s) => refs.has(s.n));
 	return (
 		<CardFrame title={c.name} sub={t('community.in', { lga: c.lgaName, state: c.state })} onClose={onClose} tr={tr}>
 			<p className="place-card__summary">
 				{t('community.kind', { language: group.language.name })}{' '}
 				<Claim e={c} tr={tr} prefix="community-source" />
 			</p>
+			<Section title={t('place.history')} e={c.history} prefix="community-source" tr={tr} />
+			<Section title={t('place.livelihoods')} e={c.livelihoods} prefix="community-source" tr={tr} />
 			{c.villages.length > 0 && (
 				<>
 					<h3 className="place-card__h">{t('profile.villages')}</h3>

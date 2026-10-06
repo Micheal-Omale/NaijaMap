@@ -24,5 +24,12 @@
 			"confidence": "high",
 			"group": "idoma"
 		}
-	]
+	],
+	"history": {
+		"text": "Local tradition says Owukpa was founded around 1450 by a hunter, Amuche Onomo, who came from Ankpa.",
+		"sources": [
+			"soluap-2023-owukpa"
+		],
+		"confidence": "medium"
+	}
 }

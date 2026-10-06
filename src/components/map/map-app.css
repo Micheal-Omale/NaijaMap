@@ -743,6 +743,9 @@
 
 	.app[data-sheet='none'] .sheet {
 		padding-top: 16px;
+		/* With 50 groups the intro list is long: keep most of the map visible and let the list scroll. */
+		max-height: 32dvh;
+		overflow-y: auto;
 	}
 
 	.app[data-sheet='peek'] .sheet {

@@ -29,5 +29,20 @@
 			"wikipedia-gboko"
 		],
 		"confidence": "high"
+	},
+	"history": {
+		"text": "The ancestral headquarters of the Tiv. In March 2017 James Ayatse was crowned Tor Tiv V at the J. S. Tarka Stadium in Gboko.",
+		"sources": [
+			"wikipedia-gboko",
+			"wikipedia-tor-tiv"
+		],
+		"confidence": "high"
+	},
+	"livelihoods": {
+		"text": "Farming (rice, yams, maize, cassava), cement (the former Benue Cement Company, now Dangote Cement), limestone and other minerals, and trade at the Ortese, Ikpa and Tarukpe markets.",
+		"sources": [
+			"wikipedia-gboko"
+		],
+		"confidence": "high"
 	}
 }

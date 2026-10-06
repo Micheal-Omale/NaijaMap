@@ -35,5 +35,19 @@
 			],
 			"confidence": "medium"
 		}
-	]
+	],
+	"history": {
+		"text": "Tradition says the Kingdom of Doma was founded in 1232 by Andoma and lasted until 1901, when it entered the British Protectorate of Northern Nigeria. The Alago trace their migration from Apa, seat of the ancient Kwararafa.",
+		"sources": [
+			"wikipedia-doma"
+		],
+		"confidence": "medium"
+	},
+	"livelihoods": {
+		"text": "Most Alago are farmers; the Doma Dam and a large rice farm are here.",
+		"sources": [
+			"wikipedia-doma"
+		],
+		"confidence": "high"
+	}
 }

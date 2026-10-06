@@ -63,5 +63,13 @@
 			],
 			"confidence": "high"
 		}
-	]
+	],
+	"history": {
+		"text": "Heir to Kwararafa, the Benue valley state that Sultan Muhammad Bello of Sokoto counted among the seven greatest kingdoms of the Sudan; the Aku Uka of Wukari heads the Jukun today.",
+		"sources": [
+			"wikipedia-wukari",
+			"wikipedia-jukun"
+		],
+		"confidence": "high"
+	}
 }

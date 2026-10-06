@@ -22,5 +22,20 @@
 			],
 			"confidence": "high"
 		}
-	]
+	],
+	"history": {
+		"text": "As a river port on the Niger, Idah linked Lokoja and the north with Onitsha in the south; traders here once paid in bronze rings and cowries. Idah’s war with Benin in 1515 to 1516 is one of the best known events of the kingdom’s history.",
+		"sources": [
+			"wikipedia-idah",
+			"wikipedia-akoko-edo"
+		],
+		"confidence": "medium"
+	},
+	"livelihoods": {
+		"text": "Fishing and market trade: Idah is an important fishing port and market town on the Niger.",
+		"sources": [
+			"wikipedia-idah"
+		],
+		"confidence": "high"
+	}
 }

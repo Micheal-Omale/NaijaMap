@@ -22,5 +22,12 @@
 			],
 			"confidence": "high"
 		}
-	]
+	],
+	"livelihoods": {
+		"text": "Commercial farming (yam, rice, beniseed, guinea corn, soya beans, cassava, palm oil), livestock, fishing and hunting; limestone, coal and salt deposits.",
+		"sources": [
+			"wikipedia-oju"
+		],
+		"confidence": "high"
+	}
 }

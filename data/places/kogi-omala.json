@@ -59,5 +59,19 @@
 			"note": "Wikipedia: \"a few being Bassa and Agatu from Benue State\".",
 			"group": "idoma"
 		}
-	]
+	],
+	"history": {
+		"text": "Igala tradition makes Omala, and the ancient spiritual town of Otutubatu, the point where the Igala first entered the land from Kwararafa: an aged Attah settled here and sent his younger brother on south with the people.",
+		"sources": [
+			"wikipedia-omala"
+		],
+		"confidence": "medium"
+	},
+	"livelihoods": {
+		"text": "Bagana market draws traders from Benue, Enugu, Nasarawa and other states; barter is still practised there, and Bagana smoked fish is a known delicacy. The area holds crude oil, coal, kaolin and limestone.",
+		"sources": [
+			"wikipedia-omala"
+		],
+		"confidence": "medium"
+	}
 }

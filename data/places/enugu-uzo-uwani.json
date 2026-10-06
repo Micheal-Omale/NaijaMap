@@ -38,5 +38,20 @@
 			"confidence": "high",
 			"note": "About 20 percent of the LGA. The Igwe of Ojjor: \"Igala is our mother tongue, but we are from Enugu State. We simply learn Igbo in school.\""
 		}
-	]
+	],
+	"history": {
+		"text": "The Igala communities of Uzo-Uwani trace their roots to Idah. Enugu’s Igala rulers still travel to Idah to receive their staff of office from the Attah of Igala.",
+		"sources": [
+			"dailytrust-2022-enugu",
+			"dailytrust-2017-enugu"
+		],
+		"confidence": "medium"
+	},
+	"livelihoods": {
+		"text": "Farming (maize, cocoyam, cassava, yams), busy rice markets at Adani and Eke Akiyi, hunting, animal rearing and palm wine tapping.",
+		"sources": [
+			"wikipedia-uzo-uwani"
+		],
+		"confidence": "high"
+	}
 }

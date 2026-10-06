@@ -82,6 +82,8 @@ export const ui = {
 		'place.bilingual': 'Bilingual',
 		'place.multilingual': 'Multilingual',
 		'place.languageUse': 'Languages in daily life',
+		'place.history': 'History',
+		'place.livelihoods': 'What people do',
 		'place.noBrief': 'No brief for this area yet.',
 		'place.groupsMapped': 'Groups mapped here',
 		'place.openProfile': 'Open the {name} profile',

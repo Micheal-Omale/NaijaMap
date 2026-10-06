@@ -1,7 +1,7 @@
 {
 	"status": "draft",
 	"summary": {
-		"text": "The Kogi State capital, at the confluence of the Niger and Benue. The land was held by the Attah of Igala: in September 1841 his agents ceded land at Lokoja to the British for a model farm, and the deed survives at the Museum of Colonial History. The town later grew into a trade centre where many peoples live together.",
+		"text": "The Kogi State capital, at the confluence of the Niger and Benue, and one of the most mixed towns in Nigeria.",
 		"sources": [
 			"wikipedia-lokoja",
 			"wikipedia-niger-expedition-1841",
@@ -101,6 +101,21 @@
 		"text": "Strongly multilingual: an average resident speaks between four and nine languages. English and Pidgin are used between people of different groups.",
 		"sources": [
 			"ibileye-lokoja"
+		],
+		"confidence": "high"
+	},
+	"history": {
+		"text": "At the meeting of the Niger and Benue. The Attah of Igala’s agents ceded land here to the British in 1841, and in 1857 William Balfour Baikie set up a trading post on the Niger bank. The colonial government listed it as a township in 1917; it is now the Kogi State capital.",
+		"sources": [
+			"wikipedia-lokoja",
+			"kogireports-2020-deed"
+		],
+		"confidence": "high"
+	},
+	"livelihoods": {
+		"text": "Trade and commerce, thanks to its position at the confluence; the Oworo name Ilu Oke Oja means “the market town on the hill”. Farming and hunting around Agbaja hill.",
+		"sources": [
+			"wikipedia-lokoja"
 		],
 		"confidence": "high"
 	}

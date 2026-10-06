@@ -38,5 +38,12 @@
 			"note": "Bassa speakers often also speak Igala, Ebira or Nupe.",
 			"group": "bassa"
 		}
-	]
+	],
+	"history": {
+		"text": "Tradition says Ankpa was founded by Atiyele, grandson of Abutu Ejeh, founder of the Igala Kingdom. The old Ankpa kingdom reached from today’s Ankpa and Olamaboro into Idoma land, as far as Igumale and Enugu-Ezike.",
+		"sources": [
+			"wikipedia-ankpa"
+		],
+		"confidence": "medium"
+	}
 }

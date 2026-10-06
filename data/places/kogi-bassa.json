@@ -68,5 +68,19 @@
 			"wikipedia-basa-benue"
 		],
 		"confidence": "medium"
+	},
+	"history": {
+		"text": "Created in 1976, re-establishing the Bassa Native Authority that the colonial government set up around 1900. The Etsu Bassa-Nge holds court at Gboloko.",
+		"sources": [
+			"wikipedia-bassa-kogi"
+		],
+		"confidence": "high"
+	},
+	"livelihoods": {
+		"text": "Kogi’s farming hub, between the Niger and the Benue: yam, cassava, rice, guinea corn, millet, beniseed, groundnut and soya beans in large quantities, and fishing in its many ponds and rivers.",
+		"sources": [
+			"wikipedia-bassa-kogi"
+		],
+		"confidence": "high"
 	}
 }

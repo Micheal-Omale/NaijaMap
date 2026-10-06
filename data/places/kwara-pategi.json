@@ -21,5 +21,19 @@
 			],
 			"confidence": "high"
 		}
-	]
+	],
+	"history": {
+		"text": "Grew in importance when the Edegi ruling house moved from Gbara and Bida to found the Pategi Emirate, after the British conquest of Bida.",
+		"sources": [
+			"wikipedia-pategi"
+		],
+		"confidence": "high"
+	},
+	"livelihoods": {
+		"text": "Farming (cassava, millet, rice, guinea corn, melon), fishing on the Niger, and trade.",
+		"sources": [
+			"wikipedia-pategi"
+		],
+		"confidence": "high"
+	}
 }

@@ -58,5 +58,20 @@
 			"confidence": "medium",
 			"group": "gbagyi"
 		}
-	]
+	],
+	"history": {
+		"text": "The old Nupe Kingdom arose in the mid-15th century between the Niger and Kaduna rivers. King Jibiri, around 1770, was the first Nupe king to become Muslim; after the Nupe civil wars the Fulani took the throne, and Bida became the emirate’s capital. The town is famous for its bronze and brass work.",
+		"sources": [
+			"wikipedia-bida-emirate",
+			"wikipedia-bida"
+		],
+		"confidence": "high"
+	},
+	"livelihoods": {
+		"text": "Farming on arable land, with shea nuts, cashew, groundnut and rice sent out in large quantities; a gateway for the livestock trade.",
+		"sources": [
+			"wikipedia-bida"
+		],
+		"confidence": "high"
+	}
 }

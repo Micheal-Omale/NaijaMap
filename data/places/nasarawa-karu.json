@@ -81,5 +81,19 @@
 			],
 			"confidence": "high"
 		}
-	]
+	],
+	"history": {
+		"text": "Grew as a home for the capital’s civil servants and lower income families, on Abuja’s doorstep.",
+		"sources": [
+			"wikipedia-karu-nasarawa"
+		],
+		"confidence": "high"
+	},
+	"livelihoods": {
+		"text": "Farming (yam, maize, greens, tomatoes), trade at the Karu International Market, hunting and leatherwork.",
+		"sources": [
+			"wikipedia-karu-nasarawa"
+		],
+		"confidence": "high"
+	}
 }

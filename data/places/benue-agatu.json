@@ -23,5 +23,12 @@
 			],
 			"confidence": "high"
 		}
-	]
+	],
+	"livelihoods": {
+		"text": "Most people farm: yam, cassava, rice, beans, sorghum and melons. Kaolin and limestone are found here.",
+		"sources": [
+			"wikipedia-agatu"
+		],
+		"confidence": "high"
+	}
 }

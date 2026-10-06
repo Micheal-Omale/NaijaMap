@@ -22,5 +22,19 @@
 			],
 			"confidence": "high"
 		}
-	]
+	],
+	"history": {
+		"text": "Founded, according to tradition, by Akyana Adi in the 12th century.",
+		"sources": [
+			"wikipedia-keana"
+		],
+		"confidence": "medium"
+	},
+	"livelihoods": {
+		"text": "Keana is known as the home of salt.",
+		"sources": [
+			"wikipedia-keana"
+		],
+		"confidence": "medium"
+	}
 }

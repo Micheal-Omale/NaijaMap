@@ -36,5 +36,13 @@
 			"confidence": "high",
 			"note": "Placed under Edo State by colonial and later boundary changes, but distinct from the Esan in language and custom."
 		}
-	]
+	],
+	"livelihoods": {
+		"text": "Farming on fertile upland soils where yam thrives; the Esan traditionally settle on high ground between rivers. The riverside Igala of Ilushi fish and trade on the Niger.",
+		"sources": [
+			"wikipedia-esan-south-east",
+			"wikipedia-ilushi"
+		],
+		"confidence": "high"
+	}
 }

@@ -36,5 +36,12 @@
 			"confidence": "medium",
 			"note": "Recorded on the island before 1787, according to a 1923 colonial report cited by Vanguard."
 		}
-	]
+	],
+	"livelihoods": {
+		"text": "About 60 percent of people are farmers, hunters and fishermen (yam, cassava, groundnut, maize); wood carving, blacksmithing and weekly market trade.",
+		"sources": [
+			"wikipedia-etsako-central"
+		],
+		"confidence": "high"
+	}
 }

@@ -250,7 +250,21 @@
 				"glottolog-igala"
 			],
 			"confidence": "high",
-			"note": "The LGA describes Ebu as Igala speaking people who migrated from Idah. Glottolog lists Ebu as a dialect of Igala. Point from the LGA's own coordinates."
+			"note": "The LGA describes Ebu as Igala speaking people who migrated from Idah. Glottolog lists Ebu as a dialect of Igala. Point from the LGA's own coordinates.",
+			"history": {
+				"text": "Founded by Igala speaking people who migrated from Idah across the Niger. The masquerade known as the “Ebu Wonder” and the White Eagle are symbols of the Ebu kingdom.",
+				"sources": [
+					"oshimili-north-lga-history"
+				],
+				"confidence": "high"
+			},
+			"livelihoods": {
+				"text": "Farming and fishing.",
+				"sources": [
+					"oshimili-north-lga-history"
+				],
+				"confidence": "high"
+			}
 		},
 		{
 			"name": "Ilushi (Uloshi)",
@@ -284,7 +298,21 @@
 				"owner-2026-10-06"
 			],
 			"confidence": "high",
-			"note": "Speaks the Olu dialect of Igala; organised in nine clans after the Igala Mela of Idah. Village positions from GRID3 where they could be found."
+			"note": "Speaks the Olu dialect of Igala; organised in nine clans after the Igala Mela of Idah. Village positions from GRID3 where they could be found.",
+			"history": {
+				"text": "Once part of the Igala Kingdom; the people still call their father Attah. Colonial and later boundary changes placed them in Edo State.",
+				"sources": [
+					"wikipedia-ilushi"
+				],
+				"confidence": "high"
+			},
+			"livelihoods": {
+				"text": "Fishing, farming and trade along the Niger, near the borders of Kogi, Anambra and Delta.",
+				"sources": [
+					"wikipedia-ilushi"
+				],
+				"confidence": "high"
+			}
 		},
 		{
 			"name": "Ifeku",
@@ -352,7 +380,21 @@
 				"owner-2026-10-06"
 			],
 			"confidence": "medium",
-			"note": "Vanguard (2024) counts eleven Ifeku communities across Etsako Central and Esan South-East; seven are located here. Allah-Ifeku II and Okwoshimili fall inside Esan South-East."
+			"note": "Vanguard (2024) counts eleven Ifeku communities across Etsako Central and Esan South-East; seven are located here. Allah-Ifeku II and Okwoshimili fall inside Esan South-East.",
+			"history": {
+				"text": "A 1923 British intelligence report records people living on Ifeku Island since before 1787.",
+				"sources": [
+					"vanguard-2024-ifeku"
+				],
+				"confidence": "medium"
+			},
+			"livelihoods": {
+				"text": "Farming and fishing on fertile land by the Niger and Aika rivers; the island is now promoted for tourism.",
+				"sources": [
+					"vanguard-2024-ifeku"
+				],
+				"confidence": "medium"
+			}
 		},
 		{
 			"name": "Olumbanasa",
@@ -407,7 +449,14 @@
 				"owner-2026-10-06"
 			],
 			"confidence": "high",
-			"note": "Vanguard (2015) names seven Igala speaking communities, together called Olumbanasaa: Ode, Igbedor, Odekpe, Alla, Onugwa, Odomagwu and Igbokaenyi. Igbokenyi is an island on the Niger. Odomagwu could not be located yet."
+			"note": "Vanguard (2015) names seven Igala speaking communities, together called Olumbanasaa: Ode, Igbedor, Odekpe, Alla, Onugwa, Odomagwu and Igbokaenyi. Igbokenyi is an island on the Niger. Odomagwu could not be located yet.",
+			"history": {
+				"text": "Long among Anambra’s most neglected communities: in 2015 Vanguard described Igbokenyi, an island in the Niger with fewer than 2,000 people, as lacking water, electricity, roads and schools.",
+				"sources": [
+					"vanguard-2015-igbokaenyi"
+				],
+				"confidence": "medium"
+			}
 		},
 		{
 			"name": "Inoma and Owelle",
@@ -441,7 +490,14 @@
 				"owner-2026-10-06"
 			],
 			"confidence": "medium",
-			"note": "Listed as Igala towns by a 2024 post and by the owner, and inside the Olumbanasa 1 ward in GRID3, but not named in the Vanguard list. Ukwala could not be located yet."
+			"note": "Listed as Igala towns by a 2024 post and by the owner, and inside the Olumbanasa 1 ward in GRID3, but not named in the Vanguard list. Ukwala could not be located yet.",
+			"livelihoods": {
+				"text": "Owelle Central market is one of the main markets of Anambra West.",
+				"sources": [
+					"wikipedia-anambra-west"
+				],
+				"confidence": "high"
+			}
 		},
 		{
 			"name": "Nzam",
@@ -496,7 +552,21 @@
 				{
 					"name": "Uda"
 				}
-			]
+			],
+			"history": {
+				"text": "The headquarters of Anambra West. In 2021 its Igala speaking people protested their marginalisation “in their ancestral land”.",
+				"sources": [
+					"tribune-2021-nzam"
+				],
+				"confidence": "high"
+			},
+			"livelihoods": {
+				"text": "A riverine town where most people farm or fish, growing yam, cassava, maize and rice.",
+				"sources": [
+					"wikipedia-nzam"
+				],
+				"confidence": "medium"
+			}
 		},
 		{
 			"name": "Ogurugu",
@@ -511,7 +581,21 @@
 				"grid3-settlement-names"
 			],
 			"confidence": "high",
-			"note": "Daily Trust (2022) calls it a community where Igala is still widely spoken. The geolinguistic survey (2018) names it too."
+			"note": "Daily Trust (2022) calls it a community where Igala is still widely spoken. The geolinguistic survey (2018) names it too.",
+			"history": {
+				"text": "Founded by Igala from Idah centuries ago. Its legendary figure Onoja Oboni is credited with building the old walls still visible today; a yearly festival is held at his grave, which women may not enter.",
+				"sources": [
+					"dailytrust-2022-enugu"
+				],
+				"confidence": "medium"
+			},
+			"livelihoods": {
+				"text": "Fishing and river trade with Kogi across the Imabolo, and rice and yam farming.",
+				"sources": [
+					"dailytrust-2022-enugu"
+				],
+				"confidence": "medium"
+			}
 		},
 		{
 			"name": "Igga",
@@ -525,7 +609,22 @@
 				"vanguard-2026-uzo-uwani",
 				"grid3-settlement-names"
 			],
-			"confidence": "high"
+			"confidence": "high",
+			"history": {
+				"text": "One of the riverbank Igala communities of Enugu founded from Idah. Enugu’s Igala rulers receive their staff of office from the Attah at Idah.",
+				"sources": [
+					"dailytrust-2022-enugu",
+					"dailytrust-2017-enugu"
+				],
+				"confidence": "medium"
+			},
+			"livelihoods": {
+				"text": "Fishing and trade across the river with Kogi.",
+				"sources": [
+					"dailytrust-2022-enugu"
+				],
+				"confidence": "medium"
+			}
 		},
 		{
 			"name": "Asaba (Uzo-Uwani)",
@@ -568,7 +667,21 @@
 				"dailytrust-2022-enugu",
 				"grid3-settlement-names"
 			],
-			"confidence": "high"
+			"confidence": "high",
+			"history": {
+				"text": "Faces the Igala communities of Kogi across the Imaboro river. Its ruler: “Igala is our mother tongue, but we are from Enugu State.”",
+				"sources": [
+					"whistler-2020-ojjor"
+				],
+				"confidence": "high"
+			},
+			"livelihoods": {
+				"text": "Fishing and trade across the river with Kogi.",
+				"sources": [
+					"dailytrust-2022-enugu"
+				],
+				"confidence": "medium"
+			}
 		}
 	],
 	"reviewNotes": [

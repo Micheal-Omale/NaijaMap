@@ -34,5 +34,20 @@
 			],
 			"confidence": "medium"
 		}
-	]
+	],
+	"history": {
+		"text": "Part of the ancient Idoma territories of the middle Benue valley; Idoma tradition calls Apa the home of those who made the first migration from the historic kingdom.",
+		"sources": [
+			"wikipedia-apa",
+			"wikipedia-idoma-people"
+		],
+		"confidence": "medium"
+	},
+	"livelihoods": {
+		"text": "Farming: yams, cassava, maize, guinea corn and melons.",
+		"sources": [
+			"wikipedia-apa"
+		],
+		"confidence": "high"
+	}
 }

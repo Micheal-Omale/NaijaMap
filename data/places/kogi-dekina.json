@@ -37,5 +37,12 @@
 			"note": "Bassa speakers often also speak Igala, Ebira or Nupe.",
 			"group": "bassa"
 		}
-	]
+	],
+	"livelihoods": {
+		"text": "Farming (cocoyam, cassava and yam), mining, and trade in many local markets.",
+		"sources": [
+			"wikipedia-dekina"
+		],
+		"confidence": "high"
+	}
 }
