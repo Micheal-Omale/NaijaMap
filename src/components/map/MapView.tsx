@@ -10,8 +10,10 @@ import {
 } from 'maplibre-gl';
 import workerUrl from 'maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url';
 import 'maplibre-gl/dist/maplibre-gl.css';
-import type { GroupView } from '../../lib/types';
+import type { GroupView, History } from '../../lib/types';
 import type { Atlas } from '../../lib/atlas';
+import { HistoryOnMap } from './history-map';
+import { THEN_ONLY, TODAY_ONLY } from './history-style';
 import { EMPTY, buildStyle, dotsImage, hatchImage, mixImage, readColors, stripesImage } from './style';
 
 setWorkerUrl(workerUrl);
@@ -21,7 +23,20 @@ export const NIGERIA: [[number, number], [number, number]] = [
 	[14.68, 13.89],
 ];
 
-export type FocusRequest = { kind: 'group' } | { kind: 'lga'; id: string } | { kind: 'nigeria' };
+/** The history view's opening frame: Nigeria with room for Kanem, Borgu and Adamawa beyond its borders. */
+export const REGION: [[number, number], [number, number]] = [
+	[1.6, 3.9],
+	[15.6, 14.4],
+];
+
+export type Mode = 'today' | 'then';
+
+export type FocusRequest =
+	| { kind: 'group' }
+	| { kind: 'lga'; id: string }
+	| { kind: 'nigeria' }
+	| { kind: 'region' }
+	| { kind: 'polity'; id: string; year: number };
 
 interface Props {
 	lgas: GeoJSON.FeatureCollection;
@@ -42,6 +57,16 @@ interface Props {
 	onSelectCommunity: (name: string, group?: string) => void;
 	/** The LGA under the mouse, with its position on the map; null when the mouse leaves. */
 	onHover: (hover: { id: string; x: number; y: number } | null) => void;
+	mode: Mode;
+	/** The history view's data, once loaded. */
+	history: History | null;
+	region: GeoJSON.FeatureCollection | null;
+	year: number;
+	polity: string | null;
+	showStateLines: boolean;
+	onSelectPolity: (id: string | null) => void;
+	/** Polities under the mouse in the history view; null when the mouse leaves them. */
+	onHoverPolities: (hover: { ids: string[]; x: number; y: number } | null) => void;
 }
 
 const reducedMotion = () => window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -68,12 +93,17 @@ function boundsOf(features: GeoJSON.Feature[]): LngLatBoundsLike | null {
 
 export default function MapView(props: Props) {
 	const { lgas, base, labels, atlas, groups, group, selectedLga, focus, padding, label, attribution, onSelectLga, onSelectCommunity, onHover } = props;
+	const { mode, history, region, year, polity, showStateLines, onSelectPolity, onHoverPolities } = props;
+	const historyRef = useRef<HistoryOnMap | null>(null);
+	const repaintRef = useRef<() => void>(() => {});
+	const latestYear = useRef({ year, mode, polity });
+	latestYear.current = { year, mode, polity };
 	const container = useRef<HTMLDivElement>(null);
 	const mapRef = useRef<MapLibre | null>(null);
 	const ready = useRef<Promise<void> | null>(null);
 	const highlightFeatures = useRef<GeoJSON.Feature[]>([]);
-	const latest = useRef({ onSelectLga, onSelectCommunity, onHover, padding, atlasOn: !group });
-	latest.current = { onSelectLga, onSelectCommunity, onHover, padding, atlasOn: !group };
+	const latest = useRef({ onSelectLga, onSelectCommunity, onHover, onSelectPolity, onHoverPolities, padding, atlasOn: !group, mode });
+	latest.current = { onSelectLga, onSelectCommunity, onHover, onSelectPolity, onHoverPolities, padding, atlasOn: !group, mode };
 
 	// Create the map once.
 	useEffect(() => {
@@ -114,6 +144,9 @@ export default function MapView(props: Props) {
 				['hatch', hatchImage(c.highlight)],
 				['dots', dotsImage(c.highlight)],
 				['mix', mixImage(c.ink)],
+				// Old map hatching and stippling, in faint sepia over each polity's own wash.
+				['hist-hatch', hatchImage(c.labelStrong + '55', 7)],
+				['hist-dots', dotsImage(c.labelStrong + 'aa', 7)],
 			] as const) {
 				if (map.hasImage(id)) map.updateImage(id, image);
 				else map.addImage(id, image, { pixelRatio: 2 });
@@ -122,6 +155,8 @@ export default function MapView(props: Props) {
 		ready.current = new Promise((resolve) => {
 			map.once('load', () => {
 				addPatterns();
+				historyRef.current = new HistoryOnMap(map);
+				if (import.meta.env.DEV) (window as unknown as { __niajhist?: HistoryOnMap }).__niajhist = historyRef.current;
 				resolve();
 			});
 		});
@@ -133,7 +168,15 @@ export default function MapView(props: Props) {
 			hovered = id;
 			if (id !== undefined) map.setFeatureState({ source: 'lgas', id }, { hover: true });
 		};
+		map.on('mousemove', (e) => {
+			if (latest.current.mode !== 'then' || !historyRef.current) return;
+			const ids = historyRef.current.politiesAt(e.point);
+			map.getCanvas().style.cursor = ids.length ? 'pointer' : '';
+			latest.current.onHoverPolities(ids.length ? { ids, x: e.point.x, y: e.point.y } : null);
+		});
+		map.on('mouseout', () => latest.current.onHoverPolities(null));
 		map.on('mousemove', 'land', (e) => {
+			if (latest.current.mode === 'then') return;
 			map.getCanvas().style.cursor = 'pointer';
 			const id = e.features?.[0]?.id;
 			setHover(id);
@@ -148,6 +191,11 @@ export default function MapView(props: Props) {
 			latest.current.onHover(null);
 		});
 		map.on('click', (e) => {
+			if (latest.current.mode === 'then') {
+				const ids = historyRef.current?.politiesAt(e.point) ?? [];
+				latest.current.onSelectPolity(ids[0] ?? null);
+				return;
+			}
 			// Dots first: a small box makes them easy to hit with a finger.
 			const box: [[number, number], [number, number]] = [
 				[e.point.x - 8, e.point.y - 8],
@@ -183,9 +231,12 @@ export default function MapView(props: Props) {
 			map.setPaintProperty('atlas-shared', 'fill-opacity', latest.current.atlasOn ? 0.92 : 0.14);
 		};
 		scheme.addEventListener('change', onScheme);
+		repaintRef.current = onScheme;
 
 		return () => {
 			scheme.removeEventListener('change', onScheme);
+			historyRef.current?.destroy();
+			historyRef.current = null;
 			map.remove();
 			mapRef.current = null;
 		};
@@ -206,11 +257,13 @@ export default function MapView(props: Props) {
 				.map((f) => ({ ...f, properties: { ...f.properties, presence: presence.get(String(f.properties?.id)) } }));
 			const points: GeoJSON.Feature[] = [];
 			for (const c of group?.communities ?? []) {
-				points.push({
-					type: 'Feature',
-					properties: { kind: 'community', name: c.name, lga: c.lga, approximate: c.approximate },
-					geometry: { type: 'Point', coordinates: c.point },
-				});
+				for (const m of c.markers) {
+					points.push({
+						type: 'Feature',
+						properties: { kind: 'community', name: c.name, lga: m.lga, approximate: c.approximate && m.lga === c.lga },
+						geometry: { type: 'Point', coordinates: m.point },
+					});
+				}
 				for (const v of c.villages) {
 					if (!v.point) continue;
 					points.push({
@@ -261,10 +314,13 @@ export default function MapView(props: Props) {
 					const byPlace = new Map<string, { name: string; groups: GroupView[]; point: [number, number] }>();
 					for (const g of groups) {
 						for (const c of g.communities) {
-							const key = c.lga + '|' + c.name;
-							const entry = byPlace.get(key) ?? { name: c.name, groups: [], point: c.point };
-							entry.groups.push(g);
-							byPlace.set(key, entry);
+							// A community across an LGA line (Ifeku) is marked on each side.
+							for (const m of c.markers) {
+								const key = m.lga + '|' + c.name;
+								const entry = byPlace.get(key) ?? { name: c.name, groups: [], point: m.point };
+								entry.groups.push(g);
+								byPlace.set(key, entry);
+							}
 						}
 					}
 					return [...byPlace.values()].map((e) => ({
@@ -289,19 +345,51 @@ export default function MapView(props: Props) {
 		});
 	}, [atlas, lgas, groups]);
 
+	// Which layers show: the Today atlas (dimmed behind a selected group) or the Then old map.
 	useEffect(() => {
 		const map = mapRef.current;
 		if (!map || !ready.current) return;
-		const on = !group;
 		ready.current.then(() => {
+			const then = mode === 'then';
+			// The mood switches the colour tokens; repaint every layer from them.
+			if (document.documentElement.dataset.mood !== mode) {
+				document.documentElement.dataset.mood = mode;
+				repaintRef.current();
+			}
+			const show = (id: string, on: boolean) => map.getLayer(id) && map.setLayoutProperty(id, 'visibility', on ? 'visible' : 'none');
+			for (const id of THEN_ONLY) show(id, then);
+			for (const id of TODAY_ONLY) show(id, !then);
+			show('state-line', !then || showStateLines);
+			const on = !group;
 			map.setPaintProperty('atlas-fill', 'fill-opacity', on ? 0.88 : 0.14);
 			map.setPaintProperty('atlas-shared', 'fill-opacity', on ? 0.92 : 0.14);
-			map.setLayoutProperty('atlas-mix', 'visibility', on ? 'visible' : 'none');
-			map.setLayoutProperty('atlas-label', 'visibility', on ? 'visible' : 'none');
-			map.setLayoutProperty('atlas-community', 'visibility', on ? 'visible' : 'none');
-			map.setLayoutProperty('atlas-community-label', 'visibility', on ? 'visible' : 'none');
+			if (!then) {
+				for (const id of ['atlas-mix', 'atlas-label', 'atlas-community', 'atlas-community-label']) show(id, on);
+			}
+			map.getCanvas().setAttribute('aria-label', label);
 		});
-	}, [group]);
+	}, [group, mode, showStateLines, label]);
+
+	// The history view's data, once it has loaded.
+	useEffect(() => {
+		const map = mapRef.current;
+		if (!map || !ready.current || !history || !region) return;
+		ready.current.then(() => {
+			historyRef.current?.setData(history, region);
+			historyRef.current?.setYear(latestYear.current.year, latestYear.current.mode === 'then');
+			historyRef.current?.setSelected(latestYear.current.polity);
+		});
+	}, [history, region]);
+
+	useEffect(() => {
+		if (!ready.current || !history) return;
+		ready.current.then(() => historyRef.current?.setYear(year, mode === 'then'));
+	}, [year, mode, history]);
+
+	useEffect(() => {
+		if (!ready.current || !history) return;
+		ready.current.then(() => historyRef.current?.setSelected(polity));
+	}, [polity, history]);
 
 	// Outline the tapped LGA.
 	useEffect(() => {
@@ -323,7 +411,12 @@ export default function MapView(props: Props) {
 			if (cancelled) return;
 			let bounds: LngLatBoundsLike | null = NIGERIA;
 			let maxZoom = 7.2;
-			if (focus.kind === 'group') {
+			if (focus.kind === 'region') {
+				bounds = REGION;
+			} else if (focus.kind === 'polity') {
+				bounds = historyRef.current?.bounds(focus.id, focus.year) ?? null;
+				maxZoom = 7.6;
+			} else if (focus.kind === 'group') {
 				bounds = boundsOf(highlightFeatures.current) ?? NIGERIA;
 			} else if (focus.kind === 'lga') {
 				bounds = boundsOf(lgas.features.filter((f) => f.properties?.id === focus.id));
@@ -339,7 +432,7 @@ export default function MapView(props: Props) {
 		return () => {
 			cancelled = true;
 		};
-	}, [focus, lgas]);
+	}, [focus, lgas, history]);
 
 	return <div ref={container} className="map-canvas" />;
 }

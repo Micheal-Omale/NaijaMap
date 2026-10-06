@@ -1,0 +1,47 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Bette (Bendi)",
+	"searchAliases": [
+		"Bette",
+		"Bendi",
+		"Bette-Bendi",
+		"Obudu"
+	],
+	"language": {
+		"name": "Bete-Bendi",
+		"glottocode": "bete1262",
+		"family": "bendi",
+		"sources": [
+			"glottolog-bete1262"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Bette are the main people of Obudu LGA in northern Cross River State. Utugwang, Ubang and Alege communities also live there.",
+		"sources": [
+			"wikipedia-cross-river-state",
+			"glottolog-bete1262"
+		],
+		"confidence": "medium"
+	},
+	"areas": [
+		{
+			"lga": "cross-river-obudu",
+			"presence": "core",
+			"sources": [
+				"wikipedia-cross-river-state"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "cross-river-obanliku",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-cross-river-state"
+			],
+			"confidence": "medium"
+		}
+	]
+}

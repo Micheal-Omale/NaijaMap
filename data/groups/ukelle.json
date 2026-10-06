@@ -1,0 +1,47 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Ukelle",
+	"searchAliases": [
+		"Ukelle",
+		"Kukele",
+		"Kukelle"
+	],
+	"language": {
+		"name": "Kukele",
+		"glottocode": "kuke1242",
+		"family": "upper-cross",
+		"sources": [
+			"glottolog-kuke1242"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Ukelle are the second largest people of Yala LGA in Cross River State and also live in Ogoja.",
+		"sources": [
+			"connectnigeria-yala",
+			"wikipedia-cross-river-state",
+			"glottolog-kuke1242"
+		],
+		"confidence": "medium"
+	},
+	"areas": [
+		{
+			"lga": "cross-river-yala",
+			"presence": "significant",
+			"sources": [
+				"connectnigeria-yala"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "cross-river-ogoja",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-cross-river-state"
+			],
+			"confidence": "medium"
+		}
+	]
+}

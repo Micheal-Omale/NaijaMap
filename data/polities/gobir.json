@@ -1,0 +1,326 @@
+{
+	"name": "Gobir",
+	"status": "draft",
+	"kind": "kingdom",
+	"otherNames": [],
+	"span": {
+		"from": 1400,
+		"to": 1808,
+		"fromLabel": "c. 12th–15th century, in Aïr",
+		"sources": [
+			"wikipedia-gobir"
+		],
+		"confidence": "medium"
+	},
+	"peak": 1790,
+	"summary": {
+		"text": "The northernmost Hausa state, Gobir was pushed south from the Aïr borderlands by Tuareg pressure. In the 18th century it destroyed Zamfara and became the strongest Hausa power, until its quarrel with Usman dan Fodio set off the jihad that ended it in 1808.",
+		"sources": [
+			"wikipedia-gobir"
+		],
+		"confidence": "high"
+	},
+	"ruler": {
+		"title": "Sarkin Gobir",
+		"sources": [
+			"wikipedia-gobir"
+		],
+		"confidence": "high"
+	},
+	"peoples": [
+		"hausa"
+	],
+	"snapshots": [
+		{
+			"year": 1400,
+			"yearLabel": "c. 1400",
+			"title": "Gobir on the desert edge",
+			"text": "Gobir guards the northern frontier of Hausaland, on the southern edge of Aïr, in today's Niger.",
+			"core": {
+				"beyond": [
+					[
+						[
+							4.8,
+							13.8
+						],
+						[
+							7.2,
+							13.8
+						],
+						[
+							7.8,
+							15.4
+						],
+						[
+							7.4,
+							16.6
+						],
+						[
+							5.4,
+							16.4
+						],
+						[
+							4.8,
+							15
+						]
+					]
+				]
+			},
+			"sources": [
+				"wikipedia-gobir"
+			],
+			"confidence": "disputed",
+			"note": "The early homeland is known only from tradition."
+		},
+		{
+			"year": 1700,
+			"yearLabel": "c. 1700",
+			"title": "Moving south",
+			"text": "Under Tuareg pressure Gobir moves south into the valleys around Birnin Lalle and the upper Rima.",
+			"core": {
+				"lgas": [
+					"sokoto-sabon-birni",
+					"sokoto-isa"
+				],
+				"beyond": [
+					[
+						[
+							5.4,
+							13.3
+						],
+						[
+							7.3,
+							13.3
+						],
+						[
+							7.4,
+							14.4
+						],
+						[
+							5.4,
+							14.5
+						]
+					]
+				]
+			},
+			"sources": [
+				"wikipedia-gobir"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1764,
+			"yearLabel": "c. 1756–1764",
+			"title": "Zamfara destroyed; Alkalawa founded",
+			"text": "Gobir destroys Birnin Zamfara and builds a new capital at Alkalawa.",
+			"capital": {
+				"name": "Alkalawa",
+				"point": [
+					6.26,
+					13.613
+				]
+			},
+			"core": {
+				"lgas": [
+					"sokoto-sabon-birni",
+					"sokoto-isa",
+					"sokoto-goronyo",
+					"sokoto-wurno",
+					"sokoto-rabah",
+					"sokoto-gwadabawa",
+					"sokoto-illela",
+					"zamfara-shinkafi",
+					"zamfara-zurmi"
+				],
+				"beyond": [
+					[
+						[
+							5.4,
+							13.3
+						],
+						[
+							7.3,
+							13.3
+						],
+						[
+							7.4,
+							14.4
+						],
+						[
+							5.4,
+							14.5
+						]
+					]
+				]
+			},
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Birnin Zamfara (approximate)",
+						"point": [
+							6.4,
+							12.45
+						]
+					},
+					"label": "Birnin Zamfara destroyed"
+				}
+			],
+			"sources": [
+				"wikipedia-gobir",
+				"wikipedia-alkalawa"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1790,
+			"yearLabel": "c. 1777–1795",
+			"title": "Bawa Jan Gwarzo",
+			"text": "Sarki Bawa Jan Gwarzo campaigns across Hausaland. He tolerates the young preacher Usman dan Fodio, who teaches in Gobir.",
+			"capital": {
+				"name": "Alkalawa",
+				"point": [
+					6.26,
+					13.613
+				]
+			},
+			"core": {
+				"lgas": [
+					"sokoto-sabon-birni",
+					"sokoto-isa",
+					"sokoto-goronyo",
+					"sokoto-wurno",
+					"sokoto-rabah",
+					"sokoto-gwadabawa",
+					"sokoto-illela",
+					"sokoto-kware",
+					"sokoto-wamakko",
+					"sokoto-sokoto-north",
+					"sokoto-sokoto-south",
+					"zamfara-shinkafi",
+					"zamfara-zurmi",
+					"zamfara-kaura-namoda",
+					"zamfara-birnin-magaji-kiyaw"
+				],
+				"beyond": [
+					[
+						[
+							5.4,
+							13.3
+						],
+						[
+							7.3,
+							13.3
+						],
+						[
+							7.4,
+							14.4
+						],
+						[
+							5.4,
+							14.5
+						]
+					]
+				]
+			},
+			"influence": {
+				"lgas": [
+					"zamfara-maradun",
+					"zamfara-talata-mafara",
+					"zamfara-bakura",
+					"zamfara-gusau",
+					"zamfara-tsafe",
+					"zamfara-bungudu",
+					"zamfara-anka"
+				],
+				"confidence": "medium"
+			},
+			"sources": [
+				"wikipedia-gobir"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1804,
+			"title": "Yunfa and the jihad",
+			"text": "Sarki Yunfa turns on dan Fodio's community at Degel, and the jihad begins. Alkalawa falls on 3 October 1808 and Yunfa is killed.",
+			"capital": {
+				"name": "Alkalawa",
+				"point": [
+					6.26,
+					13.613
+				]
+			},
+			"core": {
+				"lgas": [
+					"sokoto-sabon-birni",
+					"sokoto-isa",
+					"sokoto-goronyo",
+					"sokoto-wurno",
+					"sokoto-rabah",
+					"sokoto-gwadabawa",
+					"sokoto-illela",
+					"zamfara-shinkafi",
+					"zamfara-zurmi"
+				],
+				"beyond": [
+					[
+						[
+							5.4,
+							13.3
+						],
+						[
+							7.3,
+							13.3
+						],
+						[
+							7.4,
+							14.4
+						],
+						[
+							5.4,
+							14.5
+						]
+					]
+				]
+			},
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Gudu (approximate)",
+						"point": [
+							4.85,
+							13.4
+						]
+					},
+					"label": "War with the jihad"
+				}
+			],
+			"sources": [
+				"wikipedia-gobir",
+				"wikipedia-alkalawa",
+				"last-1967"
+			],
+			"confidence": "high"
+		}
+	],
+	"today": {
+		"text": "Gobir titles survive on both sides of the border: a Sarkin Gobir at Sabon Birni in Sokoto State and another at Tsibiri in Niger.",
+		"title": "Sarkin Gobir",
+		"seat": {
+			"name": "Sabon Birni",
+			"point": [
+				6.2,
+				13.57
+			]
+		},
+		"sources": [
+			"wikipedia-gobir"
+		],
+		"confidence": "medium"
+	},
+	"reviewNotes": [
+		"Birnin Lalle is not placed; its site is uncertain."
+	]
+}

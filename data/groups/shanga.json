@@ -1,0 +1,41 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Shanga",
+	"searchAliases": [
+		"Shanga",
+		"Shangawa",
+		"Shongawa"
+	],
+	"language": {
+		"name": "Shanga",
+		"glottocode": "shan1282",
+		"family": "mande",
+		"sources": [
+			"glottolog-shanga"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Shanga (Shangawa) are an Eastern Mande people closely related to the Kyenga, from whom they split in the early 19th century when Kaoje was overrun. They live in villages around Shanga town on the north bank of the Niger in Kebbi State. Many, perhaps most, now speak Hausa as their first language.",
+		"sources": [
+			"ross-jones-borgu",
+			"glottolog-shanga",
+			"wikipedia-kebbi-state"
+		],
+		"confidence": "medium"
+	},
+	"areas": [
+		{
+			"lga": "kebbi-shanga",
+			"presence": "core",
+			"sources": [
+				"ross-jones-borgu",
+				"wikipedia-kebbi-state"
+			],
+			"confidence": "medium",
+			"note": "Villages: Gante, Lafugu, Zaria, Besse, Shanga, Dugu Raha, Dugu Tsofo, Bakin Turu. 5,000 to 10,000 people; the language is losing ground to Hausa."
+		}
+	]
+}

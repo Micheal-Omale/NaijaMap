@@ -1,0 +1,37 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Odual",
+	"searchAliases": [
+		"Odual",
+		"Saka"
+	],
+	"language": {
+		"name": "Odual",
+		"glottocode": "odua1238",
+		"family": "central-delta",
+		"sources": [
+			"glottolog-odua1238"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Odual share Abua/Odual LGA in Rivers State with the Abua and speak a closely related Central Delta language.",
+		"sources": [
+			"wikipedia-rivers-state",
+			"glottolog-odua1238"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "rivers-abua-odual",
+			"presence": "core",
+			"sources": [
+				"wikipedia-rivers-state"
+			],
+			"confidence": "high"
+		}
+	]
+}

@@ -1,0 +1,460 @@
+{
+	"name": "Borgu",
+	"status": "draft",
+	"kind": "confederacy",
+	"otherNames": [
+		"Bussa",
+		"Nikki"
+	],
+	"span": {
+		"from": 1450,
+		"to": 1898,
+		"fromLabel": "15th century",
+		"sources": [
+			"wikipedia-borgu",
+			"stewart-1993"
+		],
+		"confidence": "medium"
+	},
+	"peak": 1783,
+	"summary": {
+		"text": "A loose union of Bariba and Busa kingdoms, led by Bussa (the senior, sacred seat), Nikki and Illo, whose rulers claimed descent from the legendary Kisra. Its horsemen fought Songhay and Nupe, and at times served or resisted Oyo. In 1898 Britain and France split Borgu along today's Nigeria–Benin border.",
+		"sources": [
+			"wikipedia-borgu",
+			"stewart-1993"
+		],
+		"confidence": "medium"
+	},
+	"ruler": {
+		"title": "Kings of Bussa, Nikki and Illo (Kisra lineage)",
+		"sources": [
+			"wikipedia-borgu"
+		],
+		"confidence": "medium"
+	},
+	"peoples": [
+		"bariba",
+		"busa"
+	],
+	"snapshots": [
+		{
+			"year": 1450,
+			"yearLabel": "15th century",
+			"title": "The Kisra kingdoms",
+			"text": "Horse-riding warriors remembered as followers of Kisra found kingdoms at Bussa, Nikki and Illo, on both sides of today's border.",
+			"capital": {
+				"name": "Bussa (old town, now under Kainji Lake)",
+				"point": [
+					4.5,
+					10.2
+				]
+			},
+			"core": {
+				"lgas": [
+					"niger-borgu",
+					"niger-agwara",
+					"kwara-baruten",
+					"kwara-kaiama"
+				],
+				"beyond": [
+					[
+						[
+							1.5,
+							9
+						],
+						[
+							2.9,
+							8.9
+						],
+						[
+							3.85,
+							9.6
+						],
+						[
+							3.85,
+							10.6
+						],
+						[
+							3.7,
+							12
+						],
+						[
+							2.7,
+							11.9
+						],
+						[
+							1.4,
+							10.7
+						]
+					]
+				]
+			},
+			"nodes": [
+				{
+					"name": "Nikki",
+					"point": [
+						3.21,
+						9.94
+					]
+				},
+				{
+					"name": "Illo",
+					"point": [
+						3.67,
+						11.55
+					]
+				},
+				{
+					"name": "Kaiama",
+					"point": [
+						3.94,
+						9.6
+					]
+				},
+				{
+					"name": "Parakou",
+					"point": [
+						2.63,
+						9.34
+					]
+				},
+				{
+					"name": "Kandi",
+					"point": [
+						2.94,
+						11.13
+					]
+				}
+			],
+			"sources": [
+				"wikipedia-borgu",
+				"stewart-1993"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1591,
+			"title": "Between Songhay and Oyo",
+			"text": "After surviving Songhay and Nupe attacks (1490s, 1558–1563), Borgu faces Oyo, which reduces much of it to vassal status until 1783.",
+			"capital": {
+				"name": "Bussa (old town, now under Kainji Lake)",
+				"point": [
+					4.5,
+					10.2
+				]
+			},
+			"core": {
+				"lgas": [
+					"niger-borgu",
+					"niger-agwara",
+					"kwara-baruten",
+					"kwara-kaiama"
+				],
+				"beyond": [
+					[
+						[
+							1.5,
+							9
+						],
+						[
+							2.9,
+							8.9
+						],
+						[
+							3.85,
+							9.6
+						],
+						[
+							3.85,
+							10.6
+						],
+						[
+							3.7,
+							12
+						],
+						[
+							2.7,
+							11.9
+						],
+						[
+							1.4,
+							10.7
+						]
+					]
+				]
+			},
+			"nodes": [
+				{
+					"name": "Nikki",
+					"point": [
+						3.21,
+						9.94
+					]
+				},
+				{
+					"name": "Illo",
+					"point": [
+						3.67,
+						11.55
+					]
+				},
+				{
+					"name": "Kaiama",
+					"point": [
+						3.94,
+						9.6
+					]
+				},
+				{
+					"name": "Parakou",
+					"point": [
+						2.63,
+						9.34
+					]
+				},
+				{
+					"name": "Kandi",
+					"point": [
+						2.94,
+						11.13
+					]
+				}
+			],
+			"links": [
+				{
+					"kind": "tribute",
+					"to": {
+						"name": "Oyo-Ile (Old Oyo)",
+						"point": [
+							4.3075,
+							8.9747
+						]
+					},
+					"label": "Vassal of Oyo (until 1783)"
+				}
+			],
+			"sources": [
+				"wikipedia-borgu"
+			],
+			"confidence": "medium",
+			"note": "The degree of Oyo control is debated."
+		},
+		{
+			"year": 1783,
+			"title": "Independence from Oyo",
+			"text": "Borgu defeats Oyo and throws off its overlordship.",
+			"capital": {
+				"name": "Bussa (old town, now under Kainji Lake)",
+				"point": [
+					4.5,
+					10.2
+				]
+			},
+			"core": {
+				"lgas": [
+					"niger-borgu",
+					"niger-agwara",
+					"kwara-baruten",
+					"kwara-kaiama"
+				],
+				"beyond": [
+					[
+						[
+							1.5,
+							9
+						],
+						[
+							2.9,
+							8.9
+						],
+						[
+							3.85,
+							9.6
+						],
+						[
+							3.85,
+							10.6
+						],
+						[
+							3.7,
+							12
+						],
+						[
+							2.7,
+							11.9
+						],
+						[
+							1.4,
+							10.7
+						]
+					]
+				]
+			},
+			"nodes": [
+				{
+					"name": "Nikki",
+					"point": [
+						3.21,
+						9.94
+					]
+				},
+				{
+					"name": "Illo",
+					"point": [
+						3.67,
+						11.55
+					]
+				},
+				{
+					"name": "Kaiama",
+					"point": [
+						3.94,
+						9.6
+					]
+				},
+				{
+					"name": "Parakou",
+					"point": [
+						2.63,
+						9.34
+					]
+				},
+				{
+					"name": "Kandi",
+					"point": [
+						2.94,
+						11.13
+					]
+				}
+			],
+			"sources": [
+				"wikipedia-borgu"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1837,
+			"title": "Defeat at Ilorin",
+			"text": "Borgu joins Oyo against the Ilorin emirate in the Eleduwe war and loses many of its leaders.",
+			"capital": {
+				"name": "Bussa (old town, now under Kainji Lake)",
+				"point": [
+					4.5,
+					10.2
+				]
+			},
+			"core": {
+				"lgas": [
+					"niger-borgu",
+					"niger-agwara",
+					"kwara-baruten",
+					"kwara-kaiama"
+				],
+				"beyond": [
+					[
+						[
+							1.5,
+							9
+						],
+						[
+							2.9,
+							8.9
+						],
+						[
+							3.85,
+							9.6
+						],
+						[
+							3.85,
+							10.6
+						],
+						[
+							3.7,
+							12
+						],
+						[
+							2.7,
+							11.9
+						],
+						[
+							1.4,
+							10.7
+						]
+					]
+				]
+			},
+			"nodes": [
+				{
+					"name": "Nikki",
+					"point": [
+						3.21,
+						9.94
+					]
+				},
+				{
+					"name": "Illo",
+					"point": [
+						3.67,
+						11.55
+					]
+				},
+				{
+					"name": "Kaiama",
+					"point": [
+						3.94,
+						9.6
+					]
+				},
+				{
+					"name": "Parakou",
+					"point": [
+						2.63,
+						9.34
+					]
+				},
+				{
+					"name": "Kandi",
+					"point": [
+						2.94,
+						11.13
+					]
+				}
+			],
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Ilorin",
+						"point": [
+							4.55,
+							8.5
+						]
+					},
+					"label": "Battle of Ilorin"
+				}
+			],
+			"sources": [
+				"wikipedia-borgu"
+			],
+			"confidence": "medium"
+		}
+	],
+	"today": {
+		"text": "Borgu was split in 1898. Old Bussa was drowned by Kainji Lake in 1968; the Emir of Borgu now reigns at New Bussa, Niger State, and the King of Nikki in the Republic of Benin.",
+		"title": "Emir of Borgu",
+		"seat": {
+			"name": "New Bussa",
+			"point": [
+				4.52,
+				9.88
+			]
+		},
+		"sources": [
+			"wikipedia-borgu"
+		],
+		"confidence": "high"
+	},
+	"reviewNotes": [
+		"Old Bussa's point is approximate (the town is under the lake)."
+	]
+}

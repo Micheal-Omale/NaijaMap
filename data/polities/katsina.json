@@ -1,0 +1,251 @@
+{
+	"name": "Katsina",
+	"status": "draft",
+	"kind": "kingdom",
+	"otherNames": [],
+	"span": {
+		"from": 1350,
+		"to": 1807,
+		"fromLabel": "c. 1350 (Korau)",
+		"sources": [
+			"wikipedia-hausa-kingdoms",
+			"usman-1981"
+		],
+		"confidence": "medium"
+	},
+	"peak": 1700,
+	"summary": {
+		"text": "A Hausa kingdom at the southern end of trans-Saharan routes, famed for scholarship and trade. It was briefly subdued by Songhay in the early 1500s and reached its commercial height in the 17th and 18th centuries. The Fulani took it in 1807; its old rulers carried on at Maradi in today's Niger.",
+		"sources": [
+			"wikipedia-hausa-kingdoms",
+			"usman-1981"
+		],
+		"confidence": "high"
+	},
+	"ruler": {
+		"title": "Sarkin Katsina",
+		"sources": [
+			"wikipedia-hausa-kingdoms"
+		],
+		"confidence": "high"
+	},
+	"peoples": [
+		"hausa"
+	],
+	"snapshots": [
+		{
+			"year": 1350,
+			"yearLabel": "c. 1350",
+			"title": "Korau founds a new line",
+			"text": "Tradition says Korau overthrew the older Durbawa rulers and founded the dynasty that made Katsina a Muslim kingdom.",
+			"capital": {
+				"name": "Katsina",
+				"point": [
+					7.6,
+					12.99
+				]
+			},
+			"core": {
+				"lgas": [
+					"katsina-katsina",
+					"katsina-batagarawa",
+					"katsina-kaita",
+					"katsina-jibia",
+					"katsina-rimi",
+					"katsina-charanchi",
+					"katsina-kurfi",
+					"katsina-dutsin-ma",
+					"katsina-mani",
+					"katsina-batsari"
+				]
+			},
+			"sources": [
+				"wikipedia-hausa-kingdoms",
+				"usman-1981"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1513,
+			"title": "Songhay invades",
+			"text": "Askia Muhammad of Songhay subdues Katsina for a time. The Gobarau minaret marks the city's Islamic learning.",
+			"capital": {
+				"name": "Katsina",
+				"point": [
+					7.6,
+					12.99
+				]
+			},
+			"core": {
+				"lgas": [
+					"katsina-katsina",
+					"katsina-batagarawa",
+					"katsina-kaita",
+					"katsina-jibia",
+					"katsina-rimi",
+					"katsina-charanchi",
+					"katsina-kurfi",
+					"katsina-dutsin-ma",
+					"katsina-mani",
+					"katsina-batsari",
+					"katsina-safana",
+					"katsina-kankia",
+					"katsina-ingawa",
+					"katsina-kusada",
+					"katsina-bindawa",
+					"katsina-mashi",
+					"katsina-dutsi"
+				]
+			},
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Gao (Songhay)",
+						"point": [
+							-0.04,
+							16.27
+						]
+					},
+					"label": "Songhay campaign"
+				}
+			],
+			"sources": [
+				"wikipedia-hausa-kingdoms",
+				"usman-1981"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1700,
+			"yearLabel": "c. 1700",
+			"title": "Commercial height",
+			"text": "Katsina is the leading Hausa market for the Saharan caravans, with lands reaching north to Maradi.",
+			"capital": {
+				"name": "Katsina",
+				"point": [
+					7.6,
+					12.99
+				]
+			},
+			"core": {
+				"lgas": [
+					"katsina-katsina",
+					"katsina-batagarawa",
+					"katsina-kaita",
+					"katsina-jibia",
+					"katsina-rimi",
+					"katsina-charanchi",
+					"katsina-kurfi",
+					"katsina-dutsin-ma",
+					"katsina-mani",
+					"katsina-batsari",
+					"katsina-safana",
+					"katsina-kankia",
+					"katsina-ingawa",
+					"katsina-kusada",
+					"katsina-bindawa",
+					"katsina-mashi",
+					"katsina-dutsi",
+					"katsina-dan-musa",
+					"katsina-matazu",
+					"katsina-musawa",
+					"katsina-kankara",
+					"katsina-malumfashi",
+					"katsina-kafur",
+					"katsina-bakori",
+					"katsina-funtua",
+					"katsina-dandume",
+					"katsina-faskari",
+					"katsina-sabuwa",
+					"katsina-danja"
+				],
+				"beyond": [
+					[
+						[
+							6.5,
+							12.9
+						],
+						[
+							8.1,
+							12.9
+						],
+						[
+							8.2,
+							14
+						],
+						[
+							6.6,
+							14
+						]
+					]
+				]
+			},
+			"sources": [
+				"wikipedia-hausa-kingdoms",
+				"usman-1981"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1807,
+			"title": "Fulani take Katsina",
+			"text": "Umaru Dallaji takes the city for the jihad in 1807. The Hausa rulers withdraw north and found a kingdom in exile at Maradi.",
+			"capital": {
+				"name": "Katsina",
+				"point": [
+					7.6,
+					12.99
+				]
+			},
+			"core": {
+				"lgas": [
+					"katsina-katsina",
+					"katsina-batagarawa",
+					"katsina-kaita",
+					"katsina-jibia",
+					"katsina-rimi",
+					"katsina-charanchi",
+					"katsina-kurfi",
+					"katsina-dutsin-ma",
+					"katsina-mani",
+					"katsina-batsari"
+				]
+			},
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Maradi",
+						"point": [
+							7.1,
+							13.5
+						]
+					},
+					"label": "Old dynasty to Maradi"
+				}
+			],
+			"sources": [
+				"wikipedia-hausa-kingdoms",
+				"usman-1981"
+			],
+			"confidence": "high"
+		}
+	],
+	"today": {
+		"text": "The Emir of Katsina reigns at Katsina, and a Sarkin Katsina of the old line still sits at Maradi in Niger.",
+		"title": "Emir of Katsina",
+		"seat": {
+			"name": "Katsina",
+			"point": [
+				7.6,
+				12.99
+			]
+		},
+		"sources": [
+			"wikipedia-hausa-kingdoms"
+		],
+		"confidence": "medium"
+	},
+	"reviewNotes": []
+}

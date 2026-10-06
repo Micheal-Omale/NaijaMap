@@ -1,0 +1,41 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Dghwede",
+	"searchAliases": [
+		"Dghwede",
+		"Dughwede",
+		"Johode",
+		"Zaghvana"
+	],
+	"language": {
+		"name": "Dghwede",
+		"glottocode": "dghw1239",
+		"family": "chadic",
+		"sources": [
+			"glottolog-dghw1239"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Dghwede occupy the central part of the southern Gwoza hills (Gwoza Central District) in Borno State.",
+		"sources": [
+			"mandaras-dghwede",
+			"wikipedia-borno-state",
+			"glottolog-dghw1239"
+		],
+		"confidence": "medium"
+	},
+	"areas": [
+		{
+			"lga": "borno-gwoza",
+			"presence": "core",
+			"sources": [
+				"mandaras-dghwede",
+				"wikipedia-borno-state"
+			],
+			"confidence": "medium"
+		}
+	]
+}

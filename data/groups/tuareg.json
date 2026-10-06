@@ -1,0 +1,80 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [
+		"Wikipedia also lists Tuareg for 'Sokoto' without saying which of the city's LGAs."
+	],
+	"name": "Tuareg (Abzinawa)",
+	"searchAliases": [
+		"Tuareg",
+		"Abzinawa",
+		"Buzaye",
+		"Tamajaq",
+		"Tamasheq",
+		"Kel Tamasheq"
+	],
+	"language": {
+		"name": "Tamajaq",
+		"glottocode": "tawa1286",
+		"family": "berber",
+		"sources": [
+			"glottolog-tamajaq"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "Tuareg minorities, called Abzinawa or Buzaye in Hausa, live in the border LGAs of Sokoto State next to Niger Republic. They speak Tamajaq, a Berber language.",
+		"sources": [
+			"sokoto-state-gov-people",
+			"wikipedia-sokoto-state"
+		],
+		"confidence": "medium"
+	},
+	"areas": [
+		{
+			"lga": "sokoto-gada",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-sokoto-state",
+				"sokoto-state-gov-people"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "sokoto-gudu",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-sokoto-state",
+				"sokoto-state-gov-people"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "sokoto-illela",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-sokoto-state",
+				"sokoto-state-gov-people"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "sokoto-sabon-birni",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-sokoto-state",
+				"sokoto-state-gov-people"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "sokoto-tangaza",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-sokoto-state",
+				"sokoto-state-gov-people"
+			],
+			"confidence": "medium"
+		}
+	]
+}

@@ -124,6 +124,22 @@
 				"wikipedia-ibibio"
 			],
 			"confidence": "medium"
+		},
+		{
+			"lga": "akwa-ibom-ibesikpo-asutan",
+			"presence": "core",
+			"sources": [
+				"wikipedia-akwa-ibom"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "akwa-ibom-ibiono-ibom",
+			"presence": "core",
+			"sources": [
+				"wikipedia-akwa-ibom"
+			],
+			"confidence": "high"
 		}
 	]
 }

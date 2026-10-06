@@ -1,0 +1,42 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Karimjo (Kiyu)",
+	"searchAliases": [
+		"Karimjo",
+		"Kiyu",
+		"Kirim",
+		"Shomo",
+		"Como Karim"
+	],
+	"language": {
+		"name": "Como Karim",
+		"glottocode": "como1258",
+		"family": "jukunoid",
+		"sources": [
+			"glottolog-como1258"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Karimjo, who call themselves Kiyu, live in and around Karim Lamido town in Taraba State and speak a Jukunoid language (about 20,000 speakers).",
+		"sources": [
+			"wikipedia-karim-lamido",
+			"wikipedia-como-karim",
+			"glottolog-como1258"
+		],
+		"confidence": "medium"
+	},
+	"areas": [
+		{
+			"lga": "taraba-karim-lamido",
+			"presence": "core",
+			"sources": [
+				"wikipedia-karim-lamido",
+				"dailytrust-2023-karim-lamido"
+			],
+			"confidence": "medium"
+		}
+	]
+}

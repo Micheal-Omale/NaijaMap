@@ -1,0 +1,51 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Koro",
+	"searchAliases": [
+		"Koro",
+		"Ashe",
+		"Koro Wachi",
+		"Koro Ala",
+		"Koro Myamya",
+		"Kagarko"
+	],
+	"language": {
+		"name": "Ashe (Koro Wachi) and other Koro languages",
+		"glottocode": "ashe1269",
+		"family": "plateau",
+		"sources": [
+			"glottolog-ashe1269"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Koro are, with the Gbagyi and Hausa-Fulani, one of the three dominant peoples of Kagarko LGA in southern Kaduna, under the Koro chiefdom.",
+		"sources": [
+			"kagarko-lga",
+			"wikipedia-kaduna-state",
+			"glottolog-ashe1269"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "kaduna-kagarko",
+			"presence": "core",
+			"sources": [
+				"kagarko-lga",
+				"wikipedia-kaduna-state"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "nasarawa-keffi",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-nasarawa-state"
+			],
+			"confidence": "medium"
+		}
+	]
+}

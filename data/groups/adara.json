@@ -1,0 +1,39 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Adara (Kadara)",
+	"searchAliases": [
+		"Adara",
+		"Kadara",
+		"Ajure",
+		"Kajuru"
+	],
+	"language": {
+		"name": "Kadara",
+		"glottocode": "kada1284",
+		"family": "plateau",
+		"sources": [
+			"glottolog-kada1284"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Adara, called Kadara by Hausa, are the major people of Kajuru LGA in southern Kaduna (Ajure in Adara).",
+		"sources": [
+			"wikipedia-kaduna-state",
+			"glottolog-kada1284"
+		],
+		"confidence": "medium"
+	},
+	"areas": [
+		{
+			"lga": "kaduna-kajuru",
+			"presence": "core",
+			"sources": [
+				"wikipedia-kaduna-state"
+			],
+			"confidence": "medium"
+		}
+	]
+}

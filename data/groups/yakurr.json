@@ -1,0 +1,49 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Yakurr (Lokaa)",
+	"searchAliases": [
+		"Yakurr",
+		"Yako",
+		"Lokaa",
+		"Ugep",
+		"Idomi",
+		"Ekori"
+	],
+	"language": {
+		"name": "Lokaa",
+		"glottocode": "loka1252",
+		"family": "upper-cross",
+		"sources": [
+			"glottolog-loka1252"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Yakurr, who speak Lokaa, are the people of Yakurr LGA in central Cross River State, around Ugep.",
+		"sources": [
+			"wikipedia-cross-river-state",
+			"glottolog-loka1252"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "cross-river-yakurr",
+			"presence": "core",
+			"sources": [
+				"wikipedia-cross-river-state"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "cross-river-obubra",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-cross-river-state"
+			],
+			"confidence": "medium"
+		}
+	]
+}

@@ -93,9 +93,13 @@ interface Props {
 	group: GroupView;
 	tr: Translate;
 	onShowLga: (id: string) => void;
+	/** Back to the list of every people. */
+	onBack: () => void;
+	/** Opens the history view on a polity at its height. */
+	onOpenKingdom: (id: string, peak: number) => void;
 }
 
-export default function Profile({ group, tr, onShowLga }: Props) {
+export default function Profile({ group, tr, onShowLga, onBack, onOpenKingdom }: Props) {
 	const { t, plural } = tr;
 	const states = byState(group.areas);
 	const allStates = new Set([...group.areas.map((a) => a.state), ...group.communities.map((c) => c.state)]);
@@ -103,6 +107,12 @@ export default function Profile({ group, tr, onShowLga }: Props) {
 	return (
 		<article className="profile" aria-labelledby="profile-name">
 			<header className="profile__head">
+				<button type="button" className="back-link" onClick={onBack}>
+					<svg viewBox="0 0 24 24" aria-hidden="true">
+						<path d="M15 6l-6 6 6 6" />
+					</svg>
+					{t('profile.back')}
+				</button>
 				<p className="profile__eyebrow">
 					{t('profile.familyEyebrow', { name: group.language.family.name })}
 				</p>
@@ -145,6 +155,25 @@ export default function Profile({ group, tr, onShowLga }: Props) {
 					</div>
 				)}
 			</dl>
+
+			{group.kingdoms.length > 0 && (
+				<section className="profile__section" aria-labelledby="kingdoms-heading">
+					<h3 id="kingdoms-heading">{t('profile.kingdoms')}</h3>
+					<ul className="kingdom-links">
+						{group.kingdoms.map((k) => (
+							<li key={k.id}>
+								<button type="button" className="kingdom-link" onClick={() => onOpenKingdom(k.id, k.peak)}>
+									<svg viewBox="0 0 24 24" aria-hidden="true">
+										<path d="M5 4h11a3 3 0 013 3v13H8a3 3 0 01-3-3z" />
+										<path d="M5 17a3 3 0 013-3h11" />
+									</svg>
+									<span>{t('profile.seeKingdom', { name: k.name, year: k.peak })}</span>
+								</button>
+							</li>
+						))}
+					</ul>
+				</section>
+			)}
 
 			<section className="profile__section" aria-labelledby="where-heading">
 				<h3 id="where-heading">{t('profile.where')}</h3>

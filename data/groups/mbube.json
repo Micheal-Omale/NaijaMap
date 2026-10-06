@@ -1,0 +1,43 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [
+		"The Ishibori (Igoli) of Ogoja are not yet mapped separately."
+	],
+	"name": "Mbube",
+	"searchAliases": [
+		"Mbube",
+		"Mbe",
+		"Odajie",
+		"Ekumtak"
+	],
+	"language": {
+		"name": "Mbe",
+		"glottocode": "mbee1249",
+		"family": "ekoid",
+		"sources": [
+			"glottolog-mbee1249"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Mbube are one of the major peoples of Ogoja LGA in Cross River State, in villages such as Odajie, Ekumtak, Idum and Benkpe. Their language, Mbe, is related to the Ekoid languages.",
+		"sources": [
+			"crossriverhub-ogoja",
+			"wikipedia-cross-river-state",
+			"glottolog-mbee1249"
+		],
+		"confidence": "medium"
+	},
+	"areas": [
+		{
+			"lga": "cross-river-ogoja",
+			"presence": "core",
+			"sources": [
+				"crossriverhub-ogoja",
+				"wikipedia-cross-river-state"
+			],
+			"confidence": "medium"
+		}
+	]
+}

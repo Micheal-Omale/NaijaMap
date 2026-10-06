@@ -1,0 +1,94 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Chamba (Sama)",
+	"searchAliases": [
+		"Chamba",
+		"Sama",
+		"Samba",
+		"Daka",
+		"Leko",
+		"Chamba Daka",
+		"Chamba Leko",
+		"Ganye",
+		"Gara Donga"
+	],
+	"language": {
+		"name": "Chamba Daka and Chamba Leko",
+		"glottocode": "dako1256",
+		"family": "dakoid",
+		"sources": [
+			"glottolog-dako1256"
+		],
+		"confidence": "high",
+		"note": "Chamba Daka is Dakoid (Benue-Congo); Chamba Leko is an Adamawa language. Glottolog's code here is the Dakoid family."
+	},
+	"summary": {
+		"text": "The Chamba, who call themselves Sama, live along the Nigeria–Cameroon border in southern Adamawa and in Taraba. Ganye is called the headquarters of the Sama people, and Ganye, Jada and Toungo LGAs are Chamba land; the Chamba also founded the chiefdom of Donga in Taraba, whose ruler is the Gara Donga. Unusually, the Chamba speak two unrelated languages: Chamba Daka (Dakoid, the larger) and Chamba Leko (Adamawa).",
+		"sources": [
+			"wikipedia-ganye",
+			"wikipedia-jada",
+			"wikipedia-donga",
+			"glottolog-dako1256"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "adamawa-ganye",
+			"presence": "core",
+			"sources": [
+				"wikipedia-ganye"
+			],
+			"confidence": "high",
+			"note": "'The major and ruling tribe of Ganye.' Chamba 54% of homes surveyed. Share from a 2022-23 survey of displaced people quoted by Wikipedia, not a census."
+		},
+		{
+			"lga": "adamawa-jada",
+			"presence": "core",
+			"sources": [
+				"wikipedia-jada"
+			],
+			"confidence": "medium",
+			"note": "Wikipedia: Ganye, Jada, Toungo and part of Mayo-Belwa 'are occupied by Chamba people'."
+		},
+		{
+			"lga": "adamawa-toungo",
+			"presence": "core",
+			"sources": [
+				"wikipedia-toungo",
+				"wikipedia-jada"
+			],
+			"confidence": "medium",
+			"note": "'Majorly Fulfulde and Chamba speaking'. Share from a 2022-23 survey of displaced people quoted by Wikipedia, not a census."
+		},
+		{
+			"lga": "adamawa-mayo-belwa",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-jada"
+			],
+			"confidence": "medium",
+			"note": "Part of Mayo-Belwa is Chamba land."
+		},
+		{
+			"lga": "adamawa-fufore",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-fufore"
+			],
+			"confidence": "medium",
+			"note": "About 10% of homes surveyed. Share from a 2022-23 survey of displaced people quoted by Wikipedia, not a census."
+		},
+		{
+			"lga": "taraba-donga",
+			"presence": "core",
+			"sources": [
+				"wikipedia-donga"
+			],
+			"confidence": "high",
+			"note": "'The primary ethnic group of Donga'; the Gara Donga is the paramount ruler."
+		}
+	]
+}

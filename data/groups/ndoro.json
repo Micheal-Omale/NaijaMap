@@ -1,0 +1,56 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Ndoro (Ndola)",
+	"searchAliases": [
+		"Ndoro",
+		"Ndola",
+		"Ndoola",
+		"Baissa"
+	],
+	"language": {
+		"name": "Ndoola",
+		"glottocode": "ndoo1241",
+		"family": "mambiloid",
+		"sources": [
+			"glottolog-ndoo1241"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Ndoro (Ndola) are, with the Tigon, the native people of the woodlands of Kurmi LGA in southern Taraba, with its headquarters at Baissa. They speak Ndoola, a Mambiloid language.",
+		"sources": [
+			"wikipedia-kurmi",
+			"wikipedia-taraba-state",
+			"glottolog-ndoo1241"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "taraba-kurmi",
+			"presence": "core",
+			"sources": [
+				"wikipedia-kurmi"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "taraba-gashaka",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-taraba-state"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "taraba-bali",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-taraba-state"
+			],
+			"confidence": "medium"
+		}
+	]
+}

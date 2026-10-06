@@ -1,11 +1,12 @@
 {
 	"status": "draft",
 	"summary": {
-		"text": "An Esan LGA with its headquarters at Ubiaja. Its riverside Illushi ward on the Niger is Igala speaking: Ilushi, Uloshi land and part of Ifeku.",
+		"text": "An Esan LGA with its headquarters at Ubiaja. Its riverside Illushi ward on the Niger is Igala speaking: Ilushi, Uloshi land and the southern Ifeku villages (Allah-Ifeku II, Ifeku Island, Okwoshimili).",
 		"sources": [
 			"wikipedia-esan-south-east",
 			"wikipedia-ilushi",
-			"grid3-settlement-names"
+			"grid3-settlement-names",
+			"vanguard-2024-ifeku"
 		],
 		"confidence": "high"
 	},
@@ -23,7 +24,7 @@
 			"confidence": "high"
 		},
 		{
-			"name": "Igala (Ilushi, Uloshi)",
+			"name": "Igala (Ilushi, Uloshi, Ifeku)",
 			"group": "igala",
 			"standing": "indigenous",
 			"share": "minority",
@@ -31,10 +32,12 @@
 				"Igala (Olu dialect)"
 			],
 			"sources": [
-				"wikipedia-ilushi"
+				"wikipedia-ilushi",
+				"vanguard-2024-ifeku",
+				"grid3-settlement-names"
 			],
 			"confidence": "high",
-			"note": "Placed under Edo State by colonial and later boundary changes, but distinct from the Esan in language and custom."
+			"note": "Placed under Edo State by colonial and later boundary changes, but distinct from the Esan in language and custom. Ifeku spans the Etsako Central and Esan South-East boundary; three of its villages lie on this side."
 		}
 	],
 	"livelihoods": {

@@ -1,0 +1,37 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Abua",
+	"searchAliases": [
+		"Abua",
+		"Abuan"
+	],
+	"language": {
+		"name": "Abua",
+		"glottocode": "abua1244",
+		"family": "central-delta",
+		"sources": [
+			"glottolog-abua1244"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Abua live in Abua/Odual LGA of Rivers State and speak a Central Delta language, related to Ogbia and Odual.",
+		"sources": [
+			"wikipedia-rivers-state",
+			"glottolog-abua1244"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "rivers-abua-odual",
+			"presence": "core",
+			"sources": [
+				"wikipedia-rivers-state"
+			],
+			"confidence": "high"
+		}
+	]
+}

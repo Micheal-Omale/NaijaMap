@@ -1,0 +1,172 @@
+{
+	"name": "Kingdom of Lagos",
+	"status": "draft",
+	"kind": "kingdom",
+	"otherNames": [
+		"Eko"
+	],
+	"span": {
+		"from": 1600,
+		"to": 1861,
+		"fromLabel": "c. 1600 (Awori settlement earlier)",
+		"sources": [
+			"mann-2007",
+			"wikipedia-kingdom-of-benin"
+		],
+		"confidence": "medium"
+	},
+	"peak": 1800,
+	"summary": {
+		"text": "Eko, an Awori Yoruba settlement on Lagos Island, came under a Benin-backed dynasty around 1600 and paid tribute to the Oba of Benin. In the 18th and 19th centuries it became a busy port of the Atlantic slave trade. Britain bombarded it in 1851 and annexed it in 1861, the start of colonial Nigeria.",
+		"sources": [
+			"mann-2007",
+			"wikipedia-kingdom-of-benin"
+		],
+		"confidence": "medium"
+	},
+	"ruler": {
+		"title": "Oba (Eleko)",
+		"sources": [
+			"mann-2007"
+		],
+		"confidence": "high"
+	},
+	"peoples": [
+		"yoruba"
+	],
+	"snapshots": [
+		{
+			"year": 1600,
+			"yearLabel": "c. 1600",
+			"title": "A Benin outpost",
+			"text": "Benin sets up a war camp on the island; a dynasty linked to Benin, beginning with Ashipa and Ado, rules Eko and sends tribute east.",
+			"capital": {
+				"name": "Eko (Lagos Island)",
+				"point": [
+					3.394,
+					6.455
+				]
+			},
+			"core": {
+				"lgas": [
+					"lagos-lagos-island",
+					"lagos-eti-osa",
+					"lagos-lagos-mainland",
+					"lagos-apapa"
+				]
+			},
+			"links": [
+				{
+					"kind": "tribute",
+					"to": {
+						"name": "Benin City",
+						"point": [
+							5.627,
+							6.335
+						]
+					},
+					"label": "Tribute to Benin"
+				}
+			],
+			"sources": [
+				"mann-2007",
+				"wikipedia-kingdom-of-benin"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1800,
+			"yearLabel": "c. 1760–1850",
+			"title": "An Atlantic port",
+			"text": "Lagos becomes one of the main slave-trading ports of the Bight of Benin, linked by lagoon to Badagry, Porto-Novo and the Ijebu markets.",
+			"capital": {
+				"name": "Eko (Lagos Island)",
+				"point": [
+					3.394,
+					6.455
+				]
+			},
+			"core": {
+				"lgas": [
+					"lagos-lagos-island",
+					"lagos-eti-osa",
+					"lagos-lagos-mainland",
+					"lagos-apapa",
+					"lagos-surulere",
+					"lagos-ajeromi-ifelodun",
+					"lagos-amuwo-odofin"
+				]
+			},
+			"links": [
+				{
+					"kind": "tribute",
+					"to": {
+						"name": "Benin City",
+						"point": [
+							5.627,
+							6.335
+						]
+					},
+					"label": "Tribute to Benin"
+				},
+				{
+					"kind": "trade",
+					"to": {
+						"name": "Ajase (Porto-Novo)",
+						"point": [
+							2.6,
+							6.49
+						]
+					},
+					"label": "Lagoon trade west"
+				}
+			],
+			"sources": [
+				"mann-2007"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1851,
+			"title": "The British bombard Lagos",
+			"text": "Britain shells Lagos, drives out Oba Kosoko and installs Akitoye, opening a decade of consular rule. In 1861 Oba Dosunmu is forced to cede Lagos; it becomes a British colony.",
+			"capital": {
+				"name": "Eko (Lagos Island)",
+				"point": [
+					3.394,
+					6.455
+				]
+			},
+			"core": {
+				"lgas": [
+					"lagos-lagos-island",
+					"lagos-eti-osa",
+					"lagos-lagos-mainland",
+					"lagos-apapa"
+				]
+			},
+			"sources": [
+				"mann-2007"
+			],
+			"confidence": "high"
+		}
+	],
+	"today": {
+		"text": "The Oba of Lagos reigns from Iga Idunganran palace on Lagos Island, in what is now Africa's largest city.",
+		"title": "Oba of Lagos",
+		"seat": {
+			"name": "Eko (Lagos Island)",
+			"point": [
+				3.394,
+				6.455
+			]
+		},
+		"sources": [
+			"mann-2007"
+		],
+		"confidence": "high"
+	},
+	"reviewNotes": [
+		"The date of Benin's arrival in Lagos varies between the mid 16th and early 17th century."
+	]
+}

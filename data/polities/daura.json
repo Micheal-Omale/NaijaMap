@@ -1,0 +1,111 @@
+{
+	"name": "Daura",
+	"status": "draft",
+	"kind": "kingdom",
+	"otherNames": [],
+	"span": {
+		"from": 1000,
+		"to": 1806,
+		"fromLabel": "legendary origins",
+		"sources": [
+			"wikipedia-hausa-kingdoms"
+		],
+		"confidence": "disputed",
+		"note": "The Bayajidda legend has no firm date."
+	},
+	"peak": 1000,
+	"summary": {
+		"text": "Daura is the \"mother\" of the Hausa states in the Bayajidda legend: a stranger kills the snake in the town well and marries Queen Daurama, and their descendants found the seven Hausa kingdoms. It became a Fulani emirate in the jihad, while the old line moved to Zango.",
+		"sources": [
+			"wikipedia-hausa-kingdoms"
+		],
+		"confidence": "high"
+	},
+	"ruler": {
+		"title": "Sarkin Daura (in legend, a line of queens)",
+		"sources": [
+			"wikipedia-hausa-kingdoms"
+		],
+		"confidence": "medium"
+	},
+	"peoples": [
+		"hausa"
+	],
+	"snapshots": [
+		{
+			"year": 1000,
+			"yearLabel": "legend",
+			"title": "Queen Daurama and Bayajidda",
+			"text": "The founding legend of the Hausa states is set in Daura. The well where Bayajidda killed the snake, Kusugu, is still shown in the town.",
+			"capital": {
+				"name": "Daura",
+				"point": [
+					8.32,
+					13.04
+				]
+			},
+			"core": {
+				"lgas": [
+					"katsina-daura",
+					"katsina-zango",
+					"katsina-sandamu",
+					"katsina-mai-adua",
+					"katsina-mashi",
+					"katsina-baure",
+					"katsina-dutsi"
+				]
+			},
+			"sources": [
+				"wikipedia-hausa-kingdoms"
+			],
+			"confidence": "disputed",
+			"note": "Legend, not dated history."
+		},
+		{
+			"year": 1806,
+			"title": "The jihad reaches Daura",
+			"text": "A Fulani emir takes Daura. The Hausa dynasty withdraws east and rules from Zango; after colonial rule the line returned to Daura.",
+			"capital": {
+				"name": "Daura",
+				"point": [
+					8.32,
+					13.04
+				]
+			},
+			"core": {
+				"lgas": [
+					"katsina-daura",
+					"katsina-zango",
+					"katsina-sandamu",
+					"katsina-mai-adua",
+					"katsina-mashi",
+					"katsina-baure",
+					"katsina-dutsi"
+				]
+			},
+			"sources": [
+				"wikipedia-hausa-kingdoms",
+				"hogben-kirk-greene-1966"
+			],
+			"confidence": "medium"
+		}
+	],
+	"today": {
+		"text": "The Emir of Daura reigns in Daura, Katsina State.",
+		"title": "Emir of Daura",
+		"seat": {
+			"name": "Daura",
+			"point": [
+				8.32,
+				13.04
+			]
+		},
+		"sources": [
+			"wikipedia-hausa-kingdoms"
+		],
+		"confidence": "high"
+	},
+	"reviewNotes": [
+		"Check the dynastic history after 1806 (Zango, restoration in 1906) against Hogben and Kirk-Greene."
+	]
+}

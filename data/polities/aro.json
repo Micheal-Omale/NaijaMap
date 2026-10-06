@@ -1,0 +1,341 @@
+{
+	"name": "Aro Confederacy",
+	"status": "draft",
+	"kind": "network",
+	"otherNames": [
+		"Arochukwu",
+		"Aro"
+	],
+	"span": {
+		"from": 1650,
+		"to": 1902,
+		"fromLabel": "c. 1650–1700",
+		"sources": [
+			"wikipedia-aro-confederacy",
+			"dike-ekejiuba-1990"
+		],
+		"confidence": "medium"
+	},
+	"peak": 1800,
+	"summary": {
+		"text": "From Arochukwu, the Aro built a trading network across south-eastern Nigeria, backed by the prestige of their oracle, Ibini Ukpabi (the \"Long Juju\"), and by allied fighters from Abam, Ohafia and Edda. Aro settlements and fairs channelled trade, much of it in enslaved people, to Bonny and Calabar. Britain destroyed the oracle in the Anglo-Aro war of 1901–1902.",
+		"sources": [
+			"wikipedia-aro-confederacy",
+			"dike-ekejiuba-1990"
+		],
+		"confidence": "high"
+	},
+	"ruler": {
+		"title": "Eze Aro, with a council (Okpankpo)",
+		"sources": [
+			"wikipedia-aro-confederacy"
+		],
+		"confidence": "medium"
+	},
+	"peoples": [
+		"igbo"
+	],
+	"snapshots": [
+		{
+			"year": 1650,
+			"yearLabel": "c. 1650–1700",
+			"title": "Arochukwu formed",
+			"text": "Igbo, Ibibio and Akpa groups combine at Arochukwu after wars over the area. The oracle of Ibini Ukpabi becomes a court of appeal for a wide region.",
+			"capital": {
+				"name": "Arochukwu",
+				"point": [
+					7.91,
+					5.39
+				]
+			},
+			"core": {
+				"lgas": [
+					"abia-arochukwu"
+				]
+			},
+			"sources": [
+				"wikipedia-aro-confederacy",
+				"dike-ekejiuba-1990"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1750,
+			"yearLabel": "c. 1750",
+			"title": "The network spreads",
+			"text": "Aro families settle along the trade routes and run fairs at Bende and Uburu. Enslaved people pass to the coast at Bonny and Old Calabar.",
+			"capital": {
+				"name": "Arochukwu",
+				"point": [
+					7.91,
+					5.39
+				]
+			},
+			"core": {
+				"lgas": [
+					"abia-arochukwu"
+				]
+			},
+			"influence": {
+				"lgas": [
+					"abia-ohafia",
+					"abia-bende",
+					"ebonyi-afikpo-north",
+					"ebonyi-afikpo-south"
+				],
+				"confidence": "medium"
+			},
+			"nodes": [
+				{
+					"name": "Bende",
+					"point": [
+						7.63,
+						5.56
+					]
+				},
+				{
+					"name": "Uburu",
+					"point": [
+						7.75,
+						6.05
+					]
+				},
+				{
+					"name": "Ndikelionwu (approximate)",
+					"point": [
+						7.06,
+						6.1
+					]
+				},
+				{
+					"name": "Ajalli (approximate)",
+					"point": [
+						7.18,
+						6.07
+					]
+				}
+			],
+			"links": [
+				{
+					"kind": "trade",
+					"to": {
+						"name": "Grand Bonny",
+						"point": [
+							7.17,
+							4.43
+						]
+					},
+					"label": "To Bonny"
+				},
+				{
+					"kind": "trade",
+					"to": {
+						"name": "Duke Town (Atakpa)",
+						"point": [
+							8.32,
+							4.95
+						]
+					},
+					"label": "To Old Calabar via Itu"
+				}
+			],
+			"sources": [
+				"wikipedia-aro-confederacy",
+				"dike-ekejiuba-1990"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1800,
+			"yearLabel": "c. 1800–1850",
+			"title": "The height of the Aro network",
+			"text": "Aro settlements such as Ndikelionwu, Ajalli and Arondizuogu become small states of their own. Aro traders reach north toward the Igala and Idoma country. After Britain bans the slave trade in 1807, palm oil grows alongside it.",
+			"capital": {
+				"name": "Arochukwu",
+				"point": [
+					7.91,
+					5.39
+				]
+			},
+			"core": {
+				"lgas": [
+					"abia-arochukwu"
+				]
+			},
+			"influence": {
+				"lgas": [
+					"abia-ohafia",
+					"abia-bende",
+					"abia-isuikwuato",
+					"ebonyi-afikpo-north",
+					"ebonyi-afikpo-south",
+					"ebonyi-ohaozara",
+					"ebonyi-ivo"
+				],
+				"confidence": "medium"
+			},
+			"nodes": [
+				{
+					"name": "Bende",
+					"point": [
+						7.63,
+						5.56
+					]
+				},
+				{
+					"name": "Uzuakoli",
+					"point": [
+						7.58,
+						5.64
+					]
+				},
+				{
+					"name": "Uburu",
+					"point": [
+						7.75,
+						6.05
+					]
+				},
+				{
+					"name": "Ndikelionwu (approximate)",
+					"point": [
+						7.06,
+						6.1
+					]
+				},
+				{
+					"name": "Ajalli (approximate)",
+					"point": [
+						7.18,
+						6.07
+					]
+				},
+				{
+					"name": "Arondizuogu (approximate)",
+					"point": [
+						7.17,
+						5.92
+					]
+				},
+				{
+					"name": "Itu",
+					"point": [
+						7.98,
+						5.2
+					]
+				}
+			],
+			"links": [
+				{
+					"kind": "trade",
+					"to": {
+						"name": "Grand Bonny",
+						"point": [
+							7.17,
+							4.43
+						]
+					},
+					"label": "To Bonny"
+				},
+				{
+					"kind": "trade",
+					"to": {
+						"name": "Duke Town (Atakpa)",
+						"point": [
+							8.32,
+							4.95
+						]
+					},
+					"label": "To Old Calabar"
+				},
+				{
+					"kind": "trade",
+					"to": {
+						"name": "Igala and Idoma markets",
+						"point": [
+							7.4,
+							6.95
+						]
+					},
+					"label": "North to the Igala and Idoma"
+				}
+			],
+			"sources": [
+				"wikipedia-aro-confederacy",
+				"dike-ekejiuba-1990"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1901,
+			"yearLabel": "1901–1902",
+			"title": "The Anglo-Aro war",
+			"text": "British columns converge on Arochukwu, capture it on 28 December 1901 and blow up the oracle. Resistance ends in early 1902.",
+			"capital": {
+				"name": "Arochukwu",
+				"point": [
+					7.91,
+					5.39
+				]
+			},
+			"core": {
+				"lgas": [
+					"abia-arochukwu"
+				]
+			},
+			"nodes": [
+				{
+					"name": "Bende",
+					"point": [
+						7.63,
+						5.56
+					]
+				},
+				{
+					"name": "Ndikelionwu (approximate)",
+					"point": [
+						7.06,
+						6.1
+					]
+				},
+				{
+					"name": "Ajalli (approximate)",
+					"point": [
+						7.18,
+						6.07
+					]
+				},
+				{
+					"name": "Arondizuogu (approximate)",
+					"point": [
+						7.17,
+						5.92
+					]
+				}
+			],
+			"sources": [
+				"wikipedia-aro-confederacy"
+			],
+			"confidence": "high"
+		}
+	],
+	"today": {
+		"text": "The Eze Aro reigns at Arochukwu, Abia State. The Ibini Ukpabi shrine site is visited as a heritage place.",
+		"title": "Eze Aro",
+		"seat": {
+			"name": "Arochukwu",
+			"point": [
+				7.91,
+				5.39
+			]
+		},
+		"sources": [
+			"wikipedia-aro-confederacy"
+		],
+		"confidence": "high"
+	},
+	"reviewNotes": [
+		"Aro settlement points (Ndikelionwu, Ajalli, Arondizuogu) are approximate.",
+		"The influence zone shows the allied Abam, Ohafia, Edda and Abiriba country; the network itself is shown by points and lines."
+	]
+}

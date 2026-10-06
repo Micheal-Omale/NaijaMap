@@ -1,0 +1,242 @@
+{
+	"name": "Bonny",
+	"status": "draft",
+	"kind": "city-state",
+	"otherNames": [
+		"Ibani",
+		"Grand Bonny"
+	],
+	"span": {
+		"from": 1450,
+		"to": 1886,
+		"fromLabel": "by the 15th century",
+		"sources": [
+			"wikipedia-kingdom-of-bonny",
+			"jones-1963"
+		],
+		"confidence": "medium"
+	},
+	"peak": 1830,
+	"summary": {
+		"text": "An Ijaw (Ibani) trading state at the mouth of the Bonny river. Organised into canoe houses that could each field war canoes, Bonny bought enslaved people and later palm oil from the Igbo hinterland up the Imo river. It was one of the largest slave-trading ports in Africa in the 18th century. The house of Jaja broke away to found Opobo in 1869.",
+		"sources": [
+			"wikipedia-kingdom-of-bonny",
+			"jones-1963",
+			"dike-1956"
+		],
+		"confidence": "high"
+	},
+	"ruler": {
+		"title": "Amanyanabo (Pepple dynasty)",
+		"sources": [
+			"wikipedia-kingdom-of-bonny"
+		],
+		"confidence": "high"
+	},
+	"peoples": [
+		"ijaw"
+	],
+	"snapshots": [
+		{
+			"year": 1450,
+			"yearLabel": "c. 15th century",
+			"title": "Grand Bonny",
+			"text": "Ibani settlers found Bonny near the sea. Portuguese ships arrive in the late 15th century.",
+			"capital": {
+				"name": "Grand Bonny",
+				"point": [
+					7.17,
+					4.43
+				]
+			},
+			"core": {
+				"lgas": [
+					"rivers-bonny"
+				]
+			},
+			"sources": [
+				"wikipedia-kingdom-of-bonny"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1750,
+			"yearLabel": "c. 1700–1807",
+			"title": "A great slave port",
+			"text": "Bonny is among the busiest slave ports in Africa. Its canoe houses buy captives at hinterland markets reached by the Imo river.",
+			"capital": {
+				"name": "Grand Bonny",
+				"point": [
+					7.17,
+					4.43
+				]
+			},
+			"core": {
+				"lgas": [
+					"rivers-bonny"
+				]
+			},
+			"influence": {
+				"lgas": [
+					"rivers-andoni",
+					"rivers-oyigbo",
+					"abia-ukwa-east",
+					"abia-ukwa-west"
+				],
+				"confidence": "medium"
+			},
+			"links": [
+				{
+					"kind": "trade",
+					"to": {
+						"name": "Akwete",
+						"point": [
+							7.36,
+							4.97
+						]
+					},
+					"label": "Imo river markets"
+				},
+				{
+					"kind": "trade",
+					"to": {
+						"name": "Arochukwu",
+						"point": [
+							7.91,
+							5.39
+						]
+					},
+					"label": "Aro trade"
+				}
+			],
+			"sources": [
+				"wikipedia-kingdom-of-bonny",
+				"jones-1963"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1830,
+			"yearLabel": "c. 1830–1860",
+			"title": "The palm-oil kingdom",
+			"text": "After 1807 Bonny turns to palm oil and stays the leading port of the Oil Rivers. Rival houses compete for the trade.",
+			"capital": {
+				"name": "Grand Bonny",
+				"point": [
+					7.17,
+					4.43
+				]
+			},
+			"core": {
+				"lgas": [
+					"rivers-bonny"
+				]
+			},
+			"influence": {
+				"lgas": [
+					"rivers-andoni",
+					"rivers-oyigbo",
+					"rivers-opobo-nkoro",
+					"abia-ukwa-east",
+					"abia-ukwa-west",
+					"abia-obi-nwga",
+					"akwa-ibom-ikot-abasi"
+				],
+				"confidence": "medium"
+			},
+			"links": [
+				{
+					"kind": "trade",
+					"to": {
+						"name": "Akwete",
+						"point": [
+							7.36,
+							4.97
+						]
+					},
+					"label": "Imo river markets"
+				},
+				{
+					"kind": "trade",
+					"to": {
+						"name": "Azumini (approximate)",
+						"point": [
+							7.45,
+							5.06
+						]
+					},
+					"label": "Azumini"
+				},
+				{
+					"kind": "war",
+					"to": {
+						"name": "Elem Kalabari (approximate)",
+						"point": [
+							6.83,
+							4.65
+						]
+					},
+					"label": "Wars with Kalabari"
+				}
+			],
+			"sources": [
+				"dike-1956",
+				"jones-1963"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1869,
+			"title": "Jaja leaves for Opobo",
+			"text": "After a civil war between houses, Jaja of the Anna Pepple house leaves with most of the trade and founds Opobo, cutting Bonny off from the Imo markets. Bonny signs a British protection treaty in 1886.",
+			"capital": {
+				"name": "Grand Bonny",
+				"point": [
+					7.17,
+					4.43
+				]
+			},
+			"core": {
+				"lgas": [
+					"rivers-bonny"
+				]
+			},
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Opobo",
+						"point": [
+							7.54,
+							4.51
+						]
+					},
+					"label": "Split with Opobo"
+				}
+			],
+			"sources": [
+				"wikipedia-kingdom-of-bonny",
+				"wikipedia-opobo"
+			],
+			"confidence": "high"
+		}
+	],
+	"today": {
+		"text": "The Amanyanabo of Grand Bonny reigns on Bonny Island, Rivers State, now home to Nigeria's liquefied natural gas plant.",
+		"title": "Amanyanabo of Bonny",
+		"seat": {
+			"name": "Grand Bonny",
+			"point": [
+				7.17,
+				4.43
+			]
+		},
+		"sources": [
+			"wikipedia-kingdom-of-bonny"
+		],
+		"confidence": "high"
+	},
+	"reviewNotes": [
+		"Andoni (Obolo) was a rival and sometime enemy of Bonny, not a subject; the influence zone shows trade reach only."
+	]
+}

@@ -1,0 +1,49 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Agwagune",
+	"searchAliases": [
+		"Agwagune",
+		"Agwagwune",
+		"Akunakuna",
+		"Egup Ipa"
+	],
+	"language": {
+		"name": "Agwagwune",
+		"glottocode": "agwa1247",
+		"family": "upper-cross",
+		"sources": [
+			"glottolog-agwa1247"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Agwagune (Egup Ipa clan) live in Biase LGA, Cross River State, in towns such as Agwagwune, Okurike and Itu-Agwagune, and also in Abi.",
+		"sources": [
+			"opencommons-biase",
+			"wikipedia-cross-river-state",
+			"glottolog-agwa1247"
+		],
+		"confidence": "medium"
+	},
+	"areas": [
+		{
+			"lga": "cross-river-biase",
+			"presence": "core",
+			"sources": [
+				"opencommons-biase",
+				"wikipedia-cross-river-state"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "cross-river-abi",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-cross-river-state"
+			],
+			"confidence": "medium"
+		}
+	]
+}

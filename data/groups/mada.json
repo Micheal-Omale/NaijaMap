@@ -35,14 +35,6 @@
 			"confidence": "high"
 		},
 		{
-			"lga": "nasarawa-kokona",
-			"presence": "minority",
-			"sources": [
-				"omachonu-dalhatu-2018"
-			],
-			"confidence": "medium"
-		},
-		{
 			"lga": "nasarawa-keffi",
 			"presence": "minority",
 			"sources": [
@@ -73,6 +65,24 @@
 				"omachonu-dalhatu-2018"
 			],
 			"confidence": "medium"
+		},
+		{
+			"lga": "kaduna-sanga",
+			"presence": "core",
+			"sources": [
+				"wikipedia-kaduna-state"
+			],
+			"confidence": "medium",
+			"note": "The Ayu and Godogodo chiefdoms are made up of Ninzo and Mada."
+		},
+		{
+			"lga": "nasarawa-kokona",
+			"presence": "core",
+			"sources": [
+				"wikipedia-nasarawa-state"
+			],
+			"confidence": "medium",
+			"note": "Mada are 'the predominant inhabitants', with the Gwandara."
 		}
 	],
 	"communities": [],

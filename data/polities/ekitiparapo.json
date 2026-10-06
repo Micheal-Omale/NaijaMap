@@ -1,0 +1,187 @@
+{
+	"name": "Ekitiparapo",
+	"status": "draft",
+	"kind": "confederacy",
+	"otherNames": [
+		"Ekiti Parapo",
+		"Kiriji alliance"
+	],
+	"span": {
+		"from": 1878,
+		"to": 1893,
+		"sources": [
+			"akintoye-1971"
+		],
+		"confidence": "high"
+	},
+	"peak": 1880,
+	"summary": {
+		"text": "An alliance of the Ekiti, Ijesha and Igbomina kingdoms, formed to throw off Ibadan's rule. Armed with rifles bought through Lagos and led by the Ijesha general Ogedengbe, it held Ibadan to a long stalemate at Kiriji until British mediation in 1886.",
+		"sources": [
+			"akintoye-1971"
+		],
+		"confidence": "high"
+	},
+	"ruler": {
+		"title": "A council of kings and war leaders (no single ruler)",
+		"sources": [
+			"akintoye-1971"
+		],
+		"confidence": "medium"
+	},
+	"peoples": [
+		"yoruba"
+	],
+	"snapshots": [
+		{
+			"year": 1878,
+			"title": "The alliance forms",
+			"text": "Ekiti, Ijesha and Igbomina towns join forces against Ibadan's agents and garrisons.",
+			"core": {
+				"states": [
+					"ekiti"
+				],
+				"lgas": [
+					"osun-ilesha-east",
+					"osun-ilesha-west",
+					"osun-atakunmosa-east",
+					"osun-atakunmosa-west",
+					"osun-obokun",
+					"osun-oriade",
+					"osun-ila",
+					"osun-ifedayo",
+					"osun-boluwaduro",
+					"kwara-ekiti",
+					"kwara-oke-ero",
+					"kwara-isin"
+				]
+			},
+			"nodes": [
+				{
+					"name": "Ilesa",
+					"point": [
+						4.74,
+						7.62
+					]
+				},
+				{
+					"name": "Ado-Ekiti",
+					"point": [
+						5.22,
+						7.62
+					]
+				}
+			],
+			"sources": [
+				"akintoye-1971"
+			],
+			"confidence": "high"
+		},
+		{
+			"year": 1880,
+			"yearLabel": "1878–1886",
+			"title": "The Kiriji war",
+			"text": "Both armies dig in on the hills near Imesi-Ile for years. It is one of the first wars in the region fought largely with breech-loading rifles.",
+			"core": {
+				"states": [
+					"ekiti"
+				],
+				"lgas": [
+					"osun-ilesha-east",
+					"osun-ilesha-west",
+					"osun-atakunmosa-east",
+					"osun-atakunmosa-west",
+					"osun-obokun",
+					"osun-oriade",
+					"osun-ila",
+					"osun-ifedayo",
+					"osun-boluwaduro",
+					"kwara-ekiti",
+					"kwara-oke-ero",
+					"kwara-isin",
+					"ondo-akoko-north-east",
+					"ondo-akoko-north-west"
+				]
+			},
+			"nodes": [
+				{
+					"name": "Kiriji war camp, near Imesi-Ile (approximate)",
+					"point": [
+						4.9,
+						7.88
+					]
+				},
+				{
+					"name": "Ilesa",
+					"point": [
+						4.74,
+						7.62
+					]
+				},
+				{
+					"name": "Ado-Ekiti",
+					"point": [
+						5.22,
+						7.62
+					]
+				}
+			],
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Ibadan",
+						"point": [
+							3.9,
+							7.38
+						]
+					},
+					"label": "War with Ibadan"
+				}
+			],
+			"sources": [
+				"akintoye-1971"
+			],
+			"confidence": "high"
+		},
+		{
+			"year": 1886,
+			"title": "Peace treaty",
+			"text": "British officials from Lagos broker a peace; the camps break up in 1893 as British rule extends over Yorubaland.",
+			"core": {
+				"states": [
+					"ekiti"
+				],
+				"lgas": [
+					"osun-ilesha-east",
+					"osun-ilesha-west",
+					"osun-atakunmosa-east",
+					"osun-atakunmosa-west",
+					"osun-obokun",
+					"osun-oriade"
+				]
+			},
+			"nodes": [
+				{
+					"name": "Kiriji war camp, near Imesi-Ile (approximate)",
+					"point": [
+						4.9,
+						7.88
+					]
+				}
+			],
+			"sources": [
+				"akintoye-1971"
+			],
+			"confidence": "high"
+		}
+	],
+	"today": {
+		"text": "The alliance ended with British rule. Its member kingdoms continue under their own Obas, such as the Owa Obokun of Ijeshaland and the Ewi of Ado-Ekiti; the Kiriji war is still commemorated.",
+		"sources": [
+			"akintoye-1971"
+		],
+		"confidence": "medium"
+	},
+	"reviewNotes": []
+}

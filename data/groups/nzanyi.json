@@ -1,0 +1,42 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Nzanyi",
+	"searchAliases": [
+		"Nzanyi",
+		"Nzangi",
+		"Njanyi",
+		"Njei",
+		"Maiha"
+	],
+	"language": {
+		"name": "Nzanyi",
+		"glottocode": "nzan1240",
+		"family": "chadic",
+		"sources": [
+			"glottolog-nzan1240"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Nzanyi live in Maiha LGA of Adamawa State, near the Cameroon border. Their language is a Biu-Mandara (Chadic) language.",
+		"sources": [
+			"wikipedia-adamawa-state",
+			"wikipedia-maiha",
+			"glottolog-nzan1240"
+		],
+		"confidence": "medium"
+	},
+	"areas": [
+		{
+			"lga": "adamawa-maiha",
+			"presence": "core",
+			"sources": [
+				"wikipedia-adamawa-state"
+			],
+			"confidence": "medium",
+			"note": "Wikipedia's language table names Nzanyi for Maiha. A 2022 survey of displaced people there found mostly Fulfulde speakers."
+		}
+	]
+}

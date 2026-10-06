@@ -1,0 +1,48 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Jenjo (Dza)",
+	"searchAliases": [
+		"Jenjo",
+		"Jen",
+		"Dza",
+		"Janjo"
+	],
+	"language": {
+		"name": "Dza",
+		"glottocode": "dzaa1238",
+		"family": "adamawa",
+		"sources": [
+			"glottolog-dzaa1238"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Jenjo speak Dza and live mainly in Karim Lamido LGA, with others in Lau.",
+		"sources": [
+			"wikipedia-karim-lamido",
+			"wikipedia-taraba-state",
+			"glottolog-dzaa1238"
+		],
+		"confidence": "medium"
+	},
+	"areas": [
+		{
+			"lga": "taraba-karim-lamido",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-karim-lamido"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "taraba-lau",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-taraba-state"
+			],
+			"confidence": "medium"
+		}
+	]
+}

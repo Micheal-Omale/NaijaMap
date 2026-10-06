@@ -81,9 +81,32 @@ function People({ person, tr, onOpenGroup }: { person: PeopleView; tr: Translate
 	);
 }
 
-function CardFrame({ title, sub, onClose, tr, children }: { title: string; sub: string; onClose: () => void; tr: Translate; children: ReactNode }) {
+function CardFrame({
+	title,
+	sub,
+	onClose,
+	backTo,
+	tr,
+	children,
+}: {
+	title: string;
+	sub: string;
+	onClose: () => void;
+	/** The people whose profile this card was opened from; closing returns there. */
+	backTo?: string;
+	tr: Translate;
+	children: ReactNode;
+}) {
 	return (
 		<section className="place-card" aria-live="polite" aria-labelledby="place-card-title">
+			{backTo && (
+				<button type="button" className="back-link" onClick={onClose}>
+					<svg viewBox="0 0 24 24" aria-hidden="true">
+						<path d="M15 6l-6 6 6 6" />
+					</svg>
+					{tr.t('card.back', { name: backTo })}
+				</button>
+			)}
 			<div className="place-card__head">
 				<h2 id="place-card-title">
 					{title}
@@ -108,13 +131,14 @@ interface PlaceProps {
 	tr: Translate;
 	onOpenGroup: (id: string) => void;
 	onClose: () => void;
+	backTo?: string;
 }
 
 /** What a visitor sees after tapping an LGA: who lives there, and how they speak. */
-export function PlaceCard({ lga, place, groupsHere, tr, onOpenGroup, onClose }: PlaceProps) {
+export function PlaceCard({ lga, place, groupsHere, tr, onOpenGroup, onClose, backTo }: PlaceProps) {
 	const { t } = tr;
 	return (
-		<CardFrame title={lga.name} sub={lga.state} onClose={onClose} tr={tr}>
+		<CardFrame title={lga.name} sub={lga.state} onClose={onClose} backTo={backTo} tr={tr}>
 			{place ? (
 				<>
 					{place.status !== 'published' && <p className="card-draft">{t('place.draft')}</p>}
@@ -169,10 +193,11 @@ interface CommunityProps {
 	group: GroupView;
 	tr: Translate;
 	onClose: () => void;
+	backTo?: string;
 }
 
 /** What a visitor sees after tapping a community dot. */
-export function CommunityCard({ community: c, group, tr, onClose }: CommunityProps) {
+export function CommunityCard({ community: c, group, tr, onClose, backTo }: CommunityProps) {
 	const { t } = tr;
 	// Only the sources this community cites, keeping the profile's numbers.
 	const refs = new Set([...c.refs, ...(c.history?.refs ?? []), ...(c.livelihoods?.refs ?? [])]);
@@ -186,6 +211,7 @@ export function CommunityCard({ community: c, group, tr, onClose }: CommunityPro
 					: t('community.in', { lga: c.lgaName, state: c.state })
 			}
 			onClose={onClose}
+			backTo={backTo}
 			tr={tr}
 		>
 			<p className="place-card__summary">

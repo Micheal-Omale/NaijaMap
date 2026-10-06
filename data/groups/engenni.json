@@ -1,0 +1,38 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Engenni",
+	"searchAliases": [
+		"Engenni",
+		"Egene",
+		"Ngene"
+	],
+	"language": {
+		"name": "Egene",
+		"glottocode": "enge1239",
+		"family": "edoid",
+		"sources": [
+			"glottolog-enge1239"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Engenni live in Ahoada West LGA of Rivers State and speak an Edoid language, related to Degema.",
+		"sources": [
+			"wikipedia-rivers-state",
+			"glottolog-enge1239"
+		],
+		"confidence": "medium"
+	},
+	"areas": [
+		{
+			"lga": "rivers-ahoada-west",
+			"presence": "core",
+			"sources": [
+				"wikipedia-rivers-state"
+			],
+			"confidence": "medium"
+		}
+	]
+}

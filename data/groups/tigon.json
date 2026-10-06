@@ -1,0 +1,47 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Tigon",
+	"searchAliases": [
+		"Tigon",
+		"Tigun",
+		"Tigon Mbembe"
+	],
+	"language": {
+		"name": "Tigon Mbembe",
+		"glottocode": "tigo1236",
+		"family": "jukunoid",
+		"sources": [
+			"glottolog-tigo1236"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Tigon are, with the Ndoro, the native people of the woodlands of Kurmi LGA, Taraba State, and also live in Sardauna. Their language is Jukunoid.",
+		"sources": [
+			"wikipedia-kurmi",
+			"wikipedia-taraba-state",
+			"glottolog-tigo1236"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "taraba-kurmi",
+			"presence": "core",
+			"sources": [
+				"wikipedia-kurmi"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "taraba-sardauna",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-sardauna"
+			],
+			"confidence": "medium"
+		}
+	]
+}

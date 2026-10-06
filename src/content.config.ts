@@ -86,7 +86,16 @@ const groups = defineCollection({
 						/** [longitude, latitude]. Leave out when unknown; the map then places it approximately inside its LGA. */
 						point: point.optional(),
 						/** Villages or quarters that make up the community, each drawn as its own point when located. */
-						villages: z.array(z.object({ name: z.string(), point: point.optional() })).default([]),
+						villages: z
+							.array(
+								z.object({
+									name: z.string(),
+									point: point.optional(),
+									/** Set when the village lies in one of `alsoIn` rather than the community's own LGA. */
+									lga: lga.optional(),
+								}),
+							)
+							.default([]),
 						/** Other LGAs the community spreads into, beyond its main LGA. */
 						alsoIn: z.array(lga).default([]),
 						history: z.object({ text: z.string(), ...evidence }).optional(),
@@ -136,4 +145,88 @@ const places = defineCollection({
 	}),
 });
 
-export const collections = { sources, families, groups, places };
+const stateIds = [...new Set(lgaIndex.map((l) => l.stateId))] as [string, ...string[]];
+/** [longitude, latitude] anywhere a polity on the timeline reached, from the Volta to Darfur and the Fezzan. */
+const wide = z.tuple([z.number().min(-3).max(25), z.number().min(0).max(30)]);
+const year = z.number().int().min(800).max(1960);
+
+/**
+ * Land inside Nigeria, by today's units, drawn to the nearest LGA: whole
+ * states, plus single LGAs, minus `except`. `beyond` adds rough rings outside
+ * Nigeria (clipped at the border when drawn), for land in today's neighbours.
+ */
+const extent = z.object({
+	states: z.array(z.enum(stateIds)).default([]),
+	lgas: z.array(lga).default([]),
+	except: z.array(lga).default([]),
+	beyond: z.array(z.array(wide).min(3)).default([]),
+	/** Set when this layer is less sure than the snapshot as a whole (a claimed tributary, a disputed reach). */
+	confidence: confidence.optional(),
+});
+
+const place = z.object({ name: z.string(), point: wide });
+
+/**
+ * A precolonial state on the timeline: a kingdom, empire, confederacy,
+ * city state or ritual network. Each snapshot is the polity as it stood from
+ * its `year` until the next snapshot (or the end of `span`).
+ */
+const polities = defineCollection({
+	loader: glob({ pattern: '*.json', base: 'data/polities' }),
+	schema: z
+		.object({
+			name: z.string(),
+			status: z.enum(['draft', 'reviewed', 'published']),
+			/** network: ritual or trade reach rather than ruled land (Nri, Aro), drawn differently. */
+			kind: z.enum(['empire', 'kingdom', 'caliphate', 'confederacy', 'city-state', 'network']),
+			otherNames: z.array(z.string()).default([]),
+			/** First and last year on the timeline. Early dates are approximate. */
+			span: z.object({ from: year, to: year, fromLabel: z.string().optional(), toLabel: z.string().optional(), ...evidence }),
+			/** The year shown when the polity is opened from a people's profile: its height. */
+			peak: year,
+			summary: z.object({ text: z.string(), ...evidence }),
+			ruler: z.object({ title: z.string(), ...evidence }).optional(),
+			/** Peoples whose kingdom this was, for the link from their profile. */
+			peoples: z.array(reference('groups')).default([]),
+			snapshots: z
+				.array(
+					z.object({
+						year,
+						/** Shown when the year is not exact, for example "c. 1450". */
+						yearLabel: z.string().optional(),
+						title: z.string(),
+						text: z.string(),
+						capital: place.optional(),
+						/** Land under direct rule. */
+						core: extent.optional(),
+						/** Tributaries, vassals and land under looser control. */
+						influence: extent.optional(),
+						/** Named places of a network polity, or key towns. */
+						nodes: z.array(place).default([]),
+						/** Lines from the capital: tribute paid to it, trade routes, wars fought, ritual reach. */
+						links: z
+							.array(
+								z.object({
+									kind: z.enum(['tribute', 'trade', 'war', 'ritual']),
+									to: place,
+									label: z.string().optional(),
+								}),
+							)
+							.default([]),
+						...evidence,
+					}),
+				)
+				.min(1),
+			/** What remains today: the traditional ruler and seat that carry the name on. */
+			today: z.object({ text: z.string(), title: z.string().optional(), seat: place.optional(), ...evidence }),
+			reviewNotes: z.array(z.string()).default([]),
+		})
+		.refine((p) => p.snapshots.every((s, i) => i === 0 || s.year > p.snapshots[i - 1].year), {
+			message: 'Snapshots must be in year order, one per year',
+		})
+		.refine((p) => p.snapshots[0].year === p.span.from && p.snapshots.every((s) => s.year <= p.span.to), {
+			message: 'The first snapshot starts the span, and none falls after its end',
+		}),
+});
+
+export const collections = { sources, families, groups, places, polities };

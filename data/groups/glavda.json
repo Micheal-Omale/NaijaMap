@@ -1,0 +1,41 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Glavda",
+	"searchAliases": [
+		"Glavda",
+		"Galavda",
+		"Glanda"
+	],
+	"language": {
+		"name": "Glavda",
+		"glottocode": "glav1244",
+		"family": "chadic",
+		"sources": [
+			"glottolog-glav1244"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Glavda live in the Gwoza hills of Borno State and across the border in Cameroon.",
+		"sources": [
+			"udosen-2018",
+			"wikipedia-borno-state",
+			"glottolog-glav1244"
+		],
+		"confidence": "medium"
+	},
+	"areas": [
+		{
+			"lga": "borno-gwoza",
+			"presence": "core",
+			"sources": [
+				"udosen-2018",
+				"wikipedia-borno-state"
+			],
+			"confidence": "medium",
+			"note": "Gwoza has over 20 languages and no single dominant people."
+		}
+	]
+}

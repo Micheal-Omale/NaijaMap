@@ -91,6 +91,16 @@
 				"wikipedia-akwa-ibom"
 			],
 			"confidence": "high"
+		},
+		{
+			"lga": "akwa-ibom-ika",
+			"presence": "core",
+			"sources": [
+				"wikipedia-akwa-ibom",
+				"wikipedia-ika-akwa-ibom"
+			],
+			"confidence": "high",
+			"note": "Ika is one of the eight Annang LGAs; its people call themselves Ika-Annang."
 		}
 	]
 }

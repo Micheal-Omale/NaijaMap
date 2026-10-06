@@ -42,6 +42,23 @@
 				"omachonu-dalhatu-2018"
 			],
 			"confidence": "high"
+		},
+		{
+			"lga": "plateau-jos-south",
+			"presence": "core",
+			"sources": [
+				"wikipedia-plateau-state"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "plateau-jos-north",
+			"presence": "core",
+			"sources": [
+				"hrw-2006-indigenes",
+				"wikipedia-plateau-state"
+			],
+			"confidence": "high"
 		}
 	]
 }

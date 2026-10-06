@@ -1,0 +1,41 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [
+		"Other peoples of Bassa LGA (Amo, Buji, Jere, Pengana, Chawai and more) are not yet mapped separately."
+	],
+	"name": "Rukuba (Bache)",
+	"searchAliases": [
+		"Rukuba",
+		"Bache",
+		"Che",
+		"Kuche"
+	],
+	"language": {
+		"name": "Che",
+		"glottocode": "chee1238",
+		"family": "plateau",
+		"sources": [
+			"glottolog-chee1238"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Rukuba, who call themselves Bache, live mainly in Bassa LGA of Plateau State, next to the Irigwe.",
+		"sources": [
+			"wikipedia-plateau-state",
+			"glottolog-chee1238"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "plateau-bassa",
+			"presence": "core",
+			"sources": [
+				"wikipedia-plateau-state"
+			],
+			"confidence": "medium"
+		}
+	]
+}

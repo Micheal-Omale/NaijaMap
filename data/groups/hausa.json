@@ -4,7 +4,8 @@
 	"reviewNotes": [
 		"Hausa is spoken as a second language almost everywhere in the north; only areas where sources name Hausa as a home language are mapped.",
 		"In Kebbi and Kaduna the share is inferred from where other peoples are sourced; check the southern Kaduna and southern Kebbi LGAs.",
-		"Adamawa and Taraba were not covered by the North East survey and are not yet mapped for Hausa."
+		"Adamawa and Taraba were not covered by the North East survey and are not yet mapped for Hausa.",
+		"Southern Kebbi (Zuru, Sakaba, Wasagu/Danko, Fakai, Yauri, Ngaski, Shanga) is now mapped for its own peoples; the Hausa share there is still inferred."
 	],
 	"name": "Hausa",
 	"searchAliases": [
@@ -1235,11 +1236,12 @@
 		},
 		{
 			"lga": "kebbi-fakai",
-			"presence": "core",
+			"presence": "significant",
 			"sources": [
 				"amfani-2018"
 			],
-			"confidence": "medium"
+			"confidence": "medium",
+			"note": "Fakai is the homeland of the Fakkawa; Hausa is spoken in every Kebbi LGA."
 		},
 		{
 			"lga": "kebbi-gwandu",
@@ -1469,15 +1471,6 @@
 		},
 		{
 			"lga": "kaduna-kachia",
-			"presence": "minority",
-			"sources": [
-				"amfani-2018"
-			],
-			"confidence": "medium",
-			"note": "Southern Kaduna: Hausa is spoken, but other peoples are indigenous here."
-		},
-		{
-			"lga": "kaduna-kagarko",
 			"presence": "minority",
 			"sources": [
 				"amfani-2018"
@@ -2003,15 +1996,6 @@
 			"note": "Hausa is spoken in all 13 Nasarawa LGAs."
 		},
 		{
-			"lga": "nasarawa-keffi",
-			"presence": "minority",
-			"sources": [
-				"omachonu-dalhatu-2018"
-			],
-			"confidence": "high",
-			"note": "Hausa is spoken in all 13 Nasarawa LGAs."
-		},
-		{
 			"lga": "nasarawa-kokona",
 			"presence": "minority",
 			"sources": [
@@ -2122,6 +2106,50 @@
 				"omachonu-dalhatu-2018"
 			],
 			"confidence": "high"
+		},
+		{
+			"lga": "niger-borgu",
+			"presence": "minority",
+			"sources": [
+				"ross-jones-borgu"
+			],
+			"confidence": "high",
+			"note": "About 10,000 in 1991; Hausa sections in the larger towns and farming and fishing settlements on the Niger."
+		},
+		{
+			"lga": "plateau-jos-north",
+			"presence": "significant",
+			"sources": [
+				"hrw-2006-indigenes"
+			],
+			"confidence": "disputed",
+			"note": "A large Hausa community claims its ancestors founded Jos; the Afizere, Anaguta and Berom 'bitterly dispute' this, and the state treats the Hausa as non-indigenes."
+		},
+		{
+			"lga": "kaduna-kagarko",
+			"presence": "significant",
+			"sources": [
+				"kagarko-lga"
+			],
+			"confidence": "medium",
+			"note": "Koro, Hausa/Fulani and Gbagyi are 'the three dominant tribes'."
+		},
+		{
+			"lga": "nasarawa-keffi",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-nasarawa-state"
+			],
+			"confidence": "medium",
+			"note": "Keffi emirate town; Hausa and Fulani are listed first among its languages."
+		},
+		{
+			"lga": "bauchi-toro",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-toro-bauchi"
+			],
+			"confidence": "medium"
 		}
 	]
 }

@@ -101,6 +101,14 @@
 				"wikipedia-akwa-ibom"
 			],
 			"confidence": "high"
+		},
+		{
+			"lga": "cross-river-biase",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-cross-river-state"
+			],
+			"confidence": "medium"
 		}
 	]
 }

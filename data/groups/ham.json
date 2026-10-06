@@ -1,0 +1,49 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Ham (Hyam)",
+	"searchAliases": [
+		"Ham",
+		"Hyam",
+		"Jaba",
+		"Kwoi",
+		"Nok"
+	],
+	"language": {
+		"name": "Hyam",
+		"glottocode": "hyam1245",
+		"family": "plateau",
+		"sources": [
+			"glottolog-hyam1245"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Ham, called Jaba by Hausa, are the people of Jaba LGA in southern Kaduna, around Kwoi and Nok, with smaller groups in Keffi.",
+		"sources": [
+			"wikipedia-kaduna-state",
+			"omachonu-dalhatu-2018",
+			"glottolog-hyam1245"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "kaduna-jaba",
+			"presence": "core",
+			"sources": [
+				"wikipedia-kaduna-state"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "nasarawa-keffi",
+			"presence": "minority",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "medium"
+		}
+	]
+}

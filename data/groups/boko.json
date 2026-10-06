@@ -1,0 +1,70 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [
+		"Samia, Maje and Bakinrua (Kebbi) are not yet located in GRID3."
+	],
+	"name": "Boko",
+	"searchAliases": [
+		"Boko",
+		"Boo",
+		"Busa",
+		"Bussawa",
+		"Babana"
+	],
+	"language": {
+		"name": "Boko",
+		"glottocode": "boko1266",
+		"family": "mande",
+		"sources": [
+			"glottolog-boko"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Boko (who call themselves Boo) were co-rulers of old Borgu with the Baatombu. About 35,000 live in Nigeria between the Niger and the Benin border, around their main centre at Babana in Borgu LGA, Niger State, with more in Benin. Their language, Boko, belongs to the Boko-Busa cluster of Eastern Mande. In Nigeria they are under the Emir of Borgu.",
+		"sources": [
+			"ross-jones-borgu",
+			"glottolog-boko"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "niger-borgu",
+			"presence": "core",
+			"sources": [
+				"ross-jones-borgu"
+			],
+			"confidence": "high",
+			"note": "The largest group in Borgu LGA in 1991 (about 30,000 of 110,000), around Babana."
+		},
+		{
+			"lga": "kebbi-bagudu",
+			"presence": "minority",
+			"sources": [
+				"ross-jones-borgu"
+			],
+			"confidence": "medium",
+			"note": "The villages of Samia, Maje and Bakinrua, north of Borgu."
+		},
+		{
+			"lga": "kwara-kaiama",
+			"presence": "minority",
+			"sources": [
+				"ross-jones-borgu"
+			],
+			"confidence": "medium",
+			"note": "About 2,000 in 1991."
+		},
+		{
+			"lga": "kwara-baruten",
+			"presence": "minority",
+			"sources": [
+				"ross-jones-borgu"
+			],
+			"confidence": "medium",
+			"note": "'Several thousand Boko live among the Bokobaru in Kwara State.'"
+		}
+	]
+}

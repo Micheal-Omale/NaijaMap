@@ -1,0 +1,205 @@
+{
+	"name": "Old Calabar",
+	"status": "draft",
+	"kind": "city-state",
+	"otherNames": [
+		"Akwa Akpa",
+		"Efik city-states"
+	],
+	"span": {
+		"from": 1650,
+		"to": 1884,
+		"fromLabel": "c. 17th century",
+		"sources": [
+			"wikipedia-calabar",
+			"latham-1973"
+		],
+		"confidence": "medium"
+	},
+	"peak": 1780,
+	"summary": {
+		"text": "The Efik towns on the Calabar river (Creek Town, Old Town and Duke Town) traded with Europeans from the 17th century. Their Ekpe society bound merchants, enforced debts and governed the towns. Calabar shipped tens of thousands of enslaved people in the 18th century, then palm oil, and became the first capital of British rule in the east.",
+		"sources": [
+			"wikipedia-calabar",
+			"latham-1973"
+		],
+		"confidence": "high"
+	},
+	"ruler": {
+		"title": "Obong (with the Ekpe society)",
+		"sources": [
+			"wikipedia-obong",
+			"latham-1973"
+		],
+		"confidence": "high"
+	},
+	"peoples": [
+		"efik"
+	],
+	"snapshots": [
+		{
+			"year": 1650,
+			"yearLabel": "c. 1650",
+			"title": "The Efik towns",
+			"text": "Efik settlers found Creek Town and then Obutong (Old Town) and Atakpa (Duke Town) on the Calabar river.",
+			"capital": {
+				"name": "Creek Town (Ikot Itunko) (approximate)",
+				"point": [
+					8.25,
+					5.04
+				]
+			},
+			"core": {
+				"lgas": [
+					"cross-river-calabar-municipal",
+					"cross-river-calabar-south",
+					"cross-river-odukpani"
+				]
+			},
+			"nodes": [
+				{
+					"name": "Duke Town (Atakpa)",
+					"point": [
+						8.32,
+						4.95
+					]
+				}
+			],
+			"sources": [
+				"wikipedia-calabar",
+				"latham-1973"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1780,
+			"yearLabel": "c. 1750–1800",
+			"title": "Ekpe and the Atlantic trade",
+			"text": "Through the Ekpe society the Efik houses control trade up the Cross River to Itu, Umon and beyond, and with Aro traders. Over 60,000 enslaved people leave Calabar in 1772–1775 alone.",
+			"capital": {
+				"name": "Duke Town (Atakpa)",
+				"point": [
+					8.32,
+					4.95
+				]
+			},
+			"core": {
+				"lgas": [
+					"cross-river-calabar-municipal",
+					"cross-river-calabar-south",
+					"cross-river-odukpani",
+					"cross-river-akpabuyo"
+				]
+			},
+			"influence": {
+				"lgas": [
+					"cross-river-bakassi",
+					"cross-river-biase",
+					"akwa-ibom-itu",
+					"akwa-ibom-uruan"
+				],
+				"confidence": "medium"
+			},
+			"nodes": [
+				{
+					"name": "Creek Town (Ikot Itunko) (approximate)",
+					"point": [
+						8.25,
+						5.04
+					]
+				}
+			],
+			"links": [
+				{
+					"kind": "trade",
+					"to": {
+						"name": "Itu",
+						"point": [
+							7.98,
+							5.2
+						]
+					},
+					"label": "Itu market"
+				},
+				{
+					"kind": "trade",
+					"to": {
+						"name": "Umon (approximate)",
+						"point": [
+							8.06,
+							5.47
+						]
+					},
+					"label": "Umon"
+				},
+				{
+					"kind": "trade",
+					"to": {
+						"name": "Ikom",
+						"point": [
+							8.71,
+							5.96
+						]
+					},
+					"label": "Upper Cross River"
+				}
+			],
+			"sources": [
+				"wikipedia-calabar",
+				"latham-1973"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1884,
+			"title": "British protection",
+			"text": "The Efik rulers sign a treaty of protection. Calabar becomes the seat of the Oil Rivers and then Niger Coast Protectorate until 1906.",
+			"capital": {
+				"name": "Duke Town (Atakpa)",
+				"point": [
+					8.32,
+					4.95
+				]
+			},
+			"core": {
+				"lgas": [
+					"cross-river-calabar-municipal",
+					"cross-river-calabar-south",
+					"cross-river-odukpani",
+					"cross-river-akpabuyo"
+				]
+			},
+			"nodes": [
+				{
+					"name": "Creek Town (Ikot Itunko) (approximate)",
+					"point": [
+						8.25,
+						5.04
+					]
+				}
+			],
+			"sources": [
+				"wikipedia-calabar"
+			],
+			"confidence": "high"
+		}
+	],
+	"today": {
+		"text": "The Obong of Calabar reigns in Calabar, Cross River State, as head of the Efik.",
+		"title": "Obong of Calabar",
+		"seat": {
+			"name": "Duke Town (Atakpa)",
+			"point": [
+				8.32,
+				4.95
+			]
+		},
+		"sources": [
+			"wikipedia-obong"
+		],
+		"confidence": "high"
+	},
+	"reviewNotes": [
+		"Creek Town and Umon points are approximate."
+	]
+}

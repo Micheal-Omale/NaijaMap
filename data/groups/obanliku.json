@@ -1,0 +1,41 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Obanliku",
+	"searchAliases": [
+		"Obanliku",
+		"Becheve",
+		"Bebi",
+		"Busi",
+		"Sankwala",
+		"Obudu Cattle Ranch"
+	],
+	"language": {
+		"name": "Obanliku",
+		"glottocode": "oban1244",
+		"family": "bendi",
+		"sources": [
+			"glottolog-oban1244"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Obanliku are the people of Obanliku LGA in the far north-east of Cross River State, home of the Obudu plateau. Their language is Bendi.",
+		"sources": [
+			"wikipedia-cross-river-state",
+			"glottolog-oban1244"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "cross-river-obanliku",
+			"presence": "core",
+			"sources": [
+				"wikipedia-cross-river-state"
+			],
+			"confidence": "high"
+		}
+	]
+}

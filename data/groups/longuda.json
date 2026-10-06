@@ -1,0 +1,51 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Longuda",
+	"searchAliases": [
+		"Longuda",
+		"Nunguda",
+		"Guyuk"
+	],
+	"language": {
+		"name": "Longuda",
+		"glottocode": "long1389",
+		"family": "adamawa",
+		"sources": [
+			"glottolog-long1389"
+		],
+		"confidence": "high",
+		"note": "Usually counted as an Adamawa language; Glottolog places the Tula-Longuda group under Gur."
+	},
+	"summary": {
+		"text": "The Longuda are the people of Guyuk LGA in Adamawa State, where about four in five homes speak Longuda.",
+		"sources": [
+			"wikipedia-guyuk",
+			"wikipedia-adamawa-state",
+			"glottolog-long1389"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "adamawa-guyuk",
+			"presence": "core",
+			"sources": [
+				"wikipedia-guyuk",
+				"wikipedia-adamawa-state"
+			],
+			"confidence": "high",
+			"note": "'Predominantly Longuda': 81% of homes surveyed. Share from a 2022-23 survey of displaced people quoted by Wikipedia, not a census."
+		},
+		{
+			"lga": "adamawa-mayo-belwa",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-mayo-belwa"
+			],
+			"confidence": "medium",
+			"note": "About 7% of homes surveyed. Share from a 2022-23 survey of displaced people quoted by Wikipedia, not a census."
+		}
+	]
+}

@@ -1,0 +1,218 @@
+{
+	"name": "Igala Kingdom",
+	"status": "draft",
+	"kind": "kingdom",
+	"otherNames": [],
+	"span": {
+		"from": 1450,
+		"to": 1900,
+		"fromLabel": "c. 15th century",
+		"sources": [
+			"wikipedia-igala-kingdom",
+			"boston-1968"
+		],
+		"confidence": "medium",
+		"note": "Igala was a strong state by the Benin war of 1515–1516; its founding date is not known."
+	},
+	"peak": 1700,
+	"summary": {
+		"text": "From Idah, near the meeting of the Niger and Benue, the Attah ruled a kingdom that fought Benin in 1515–1516 and later held sway over the northern Igbo states, the old Nsukka division and, at times, Idoma country. The Attah granted titles to northern Igbo rulers. Nupe and Fulani pressure and the British cut it back in the 19th century.",
+		"sources": [
+			"wikipedia-igala-kingdom",
+			"boston-1968",
+			"wikipedia-igbo-igala-wars"
+		],
+		"confidence": "medium"
+	},
+	"ruler": {
+		"title": "Attah Igala",
+		"sources": [
+			"wikipedia-igala-kingdom"
+		],
+		"confidence": "high"
+	},
+	"peoples": [
+		"igala"
+	],
+	"snapshots": [
+		{
+			"year": 1450,
+			"yearLabel": "c. 1450",
+			"title": "The Attah at Idah",
+			"text": "The Igala kingdom takes shape around Idah on the Niger.",
+			"capital": {
+				"name": "Idah",
+				"point": [
+					6.74,
+					7.11
+				]
+			},
+			"core": {
+				"lgas": [
+					"kogi-idah",
+					"kogi-ibaji",
+					"kogi-igalamela-odolu",
+					"kogi-ofu"
+				]
+			},
+			"sources": [
+				"wikipedia-igala-kingdom",
+				"boston-1968"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1515,
+			"yearLabel": "1515–1516",
+			"title": "War with Benin",
+			"text": "An Igala army attacks Benin and is defeated by Oba Esigie. The war is remembered in both kingdoms' traditions.",
+			"capital": {
+				"name": "Idah",
+				"point": [
+					6.74,
+					7.11
+				]
+			},
+			"core": {
+				"lgas": [
+					"kogi-idah",
+					"kogi-ibaji",
+					"kogi-igalamela-odolu",
+					"kogi-ofu",
+					"kogi-dekina",
+					"kogi-ankpa",
+					"kogi-omala",
+					"kogi-olamaboro"
+				]
+			},
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Benin City",
+						"point": [
+							5.627,
+							6.335
+						]
+					},
+					"label": "Benin–Igala war"
+				}
+			],
+			"sources": [
+				"wikipedia-kingdom-of-benin",
+				"boston-1968"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1700,
+			"yearLabel": "c. 1700",
+			"title": "Overlord of the northern Igbo",
+			"text": "Igala holds sway over the northern Igbo states: the whole old Nsukka division and as far as Adamugu, north of Onitsha. Across the Niger it includes Lokoja, Koton Karfe and the Kakanda. Igbo rulers seek titles from the Attah.",
+			"capital": {
+				"name": "Idah",
+				"point": [
+					6.74,
+					7.11
+				]
+			},
+			"core": {
+				"lgas": [
+					"kogi-idah",
+					"kogi-ibaji",
+					"kogi-igalamela-odolu",
+					"kogi-ofu",
+					"kogi-dekina",
+					"kogi-ankpa",
+					"kogi-omala",
+					"kogi-olamaboro",
+					"kogi-bassa",
+					"kogi-lokoja",
+					"kogi-kogi",
+					"anambra-anambra-west"
+				]
+			},
+			"influence": {
+				"lgas": [
+					"enugu-nsukka",
+					"enugu-igbo-eze-north",
+					"enugu-igbo-eze-south",
+					"enugu-udenu",
+					"enugu-igbo-etiti",
+					"enugu-uzo-uwani",
+					"enugu-isi-uzo",
+					"anambra-ayamelum",
+					"anambra-anambra-east",
+					"benue-agatu",
+					"benue-apa",
+					"benue-oturkpo",
+					"benue-ohimini",
+					"benue-ogbadibo",
+					"benue-okpokwu"
+				],
+				"confidence": "disputed"
+			},
+			"sources": [
+				"boston-1968",
+				"wikipedia-igbo-igala-wars"
+			],
+			"confidence": "medium",
+			"note": "Igala overlordship of Idoma country is claimed in Igala tradition and not accepted by all historians."
+		},
+		{
+			"year": 1841,
+			"title": "Lokoja ceded; pressure from the north",
+			"text": "The Attah cedes land at Lokoja to the British Niger Expedition. Nupe and Fulani raids press on the north of the kingdom. British rule comes in 1900.",
+			"capital": {
+				"name": "Idah",
+				"point": [
+					6.74,
+					7.11
+				]
+			},
+			"core": {
+				"lgas": [
+					"kogi-idah",
+					"kogi-ibaji",
+					"kogi-igalamela-odolu",
+					"kogi-ofu",
+					"kogi-dekina",
+					"kogi-ankpa",
+					"kogi-omala",
+					"kogi-olamaboro"
+				]
+			},
+			"influence": {
+				"lgas": [
+					"enugu-uzo-uwani",
+					"enugu-igbo-eze-north",
+					"anambra-anambra-west"
+				],
+				"confidence": "medium"
+			},
+			"sources": [
+				"boston-1968",
+				"wikipedia-niger-expedition-1841"
+			],
+			"confidence": "medium"
+		}
+	],
+	"today": {
+		"text": "The Attah Igala reigns at Idah, Kogi State, over nine traditional councils.",
+		"title": "Attah Igala",
+		"seat": {
+			"name": "Idah",
+			"point": [
+				6.74,
+				7.11
+			]
+		},
+		"sources": [
+			"wikipedia-igala-kingdom"
+		],
+		"confidence": "high"
+	},
+	"reviewNotes": [
+		"The 1841 snapshot reuses the Lokoja cession source already cited on the Igala people profile."
+	]
+}

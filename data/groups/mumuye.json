@@ -91,6 +91,38 @@
 				"wikipedia-mumuye"
 			],
 			"confidence": "medium"
+		},
+		{
+			"lga": "adamawa-jada",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-adamawa-state"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "adamawa-toungo",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-adamawa-state"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "adamawa-mayo-belwa",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-adamawa-state"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "taraba-karim-lamido",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-taraba-state"
+			],
+			"confidence": "medium"
 		}
 	]
 }

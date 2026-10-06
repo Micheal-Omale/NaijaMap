@@ -1,0 +1,48 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Obolo (Andoni)",
+	"searchAliases": [
+		"Obolo",
+		"Andoni",
+		"Doni",
+		"Ngo"
+	],
+	"language": {
+		"name": "Obolo",
+		"glottocode": "obol1243",
+		"family": "lower-cross",
+		"sources": [
+			"glottolog-obol1243"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Obolo, also called Andoni, are a coastal fishing people living on both sides of the Rivers–Akwa Ibom border, in Andoni LGA of Rivers and Eastern Obolo LGA of Akwa Ibom. Eastern Obolo also has the related Iko.",
+		"sources": [
+			"wikipedia-akwa-ibom",
+			"wikipedia-rivers-state",
+			"glottolog-obol1243"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "akwa-ibom-eastern-obolo",
+			"presence": "core",
+			"sources": [
+				"wikipedia-akwa-ibom"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "rivers-andoni",
+			"presence": "core",
+			"sources": [
+				"wikipedia-rivers-state"
+			],
+			"confidence": "high"
+		}
+	]
+}

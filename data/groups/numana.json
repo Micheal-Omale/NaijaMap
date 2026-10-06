@@ -1,0 +1,38 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Numana",
+	"searchAliases": [
+		"Numana",
+		"Gwantu",
+		"Etum Numana"
+	],
+	"language": {
+		"name": "Numana",
+		"glottocode": "numa1252",
+		"family": "plateau",
+		"sources": [
+			"glottolog-numa1252"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Numana have their own chiefdom (the Etum Numana) in Sanga LGA, southern Kaduna.",
+		"sources": [
+			"wikipedia-kaduna-state",
+			"glottolog-numa1252"
+		],
+		"confidence": "medium"
+	},
+	"areas": [
+		{
+			"lga": "kaduna-sanga",
+			"presence": "core",
+			"sources": [
+				"wikipedia-kaduna-state"
+			],
+			"confidence": "medium"
+		}
+	]
+}

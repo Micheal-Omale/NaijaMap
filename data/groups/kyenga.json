@@ -1,0 +1,68 @@
+{
+	"status": "draft",
+	"communities": [
+		{
+			"name": "Pissa",
+			"lga": "niger-agwara",
+			"point": [
+				4.591,
+				10.751
+			],
+			"villages": [],
+			"sources": [
+				"ross-jones-borgu",
+				"grid3-settlement-names"
+			],
+			"confidence": "medium",
+			"note": "Ross Jones places Pissa in Borgu LGA; GRID3 places it in Agwara LGA, carved out of Borgu in 1996. Largely assimilated among the Boko."
+		}
+	],
+	"reviewNotes": [
+		"Geshuru, Kasele, Sarufu and Tuni are not yet located in GRID3."
+	],
+	"name": "Kyenga",
+	"searchAliases": [
+		"Kyenga",
+		"Kenga",
+		"Tienga",
+		"Tyenga"
+	],
+	"language": {
+		"name": "Kyenga",
+		"glottocode": "kyen1242",
+		"family": "mande",
+		"sources": [
+			"glottolog-kyenga"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Kyenga are a small Eastern Mande people, about 4,000 in Nigeria, living near Illo in Kebbi State, in Boko villages of Kebbi and at Pissa. They were once far more numerous on both banks of the Niger; north of the river most have shifted to Hausa, and in Niger Republic to Zarma.",
+		"sources": [
+			"ross-jones-borgu",
+			"glottolog-kyenga"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "kebbi-bagudu",
+			"presence": "minority",
+			"sources": [
+				"ross-jones-borgu"
+			],
+			"confidence": "medium",
+			"note": "Villages near Illo: Geshuru, Kasele, Sarufu and Tuni."
+		},
+		{
+			"lga": "niger-agwara",
+			"presence": "minority",
+			"sources": [
+				"ross-jones-borgu",
+				"grid3-settlement-names"
+			],
+			"confidence": "medium",
+			"note": "The community at Pissa."
+		}
+	]
+}

@@ -1,0 +1,75 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Ichen",
+	"searchAliases": [
+		"Ichen",
+		"Etkywan",
+		"Kentu",
+		"Donga"
+	],
+	"language": {
+		"name": "Etkywan (Ichen)",
+		"glottocode": "etky1238",
+		"family": "jukunoid",
+		"sources": [
+			"glottolog-etky1238"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Ichen speak Etkywan, a Jukunoid language. They are counted as the earliest inhabitants of Donga, before the Chamba came, and are one of the three main peoples of Kurmi LGA, on its grasslands.",
+		"sources": [
+			"wikipedia-donga",
+			"wikipedia-kurmi",
+			"wikipedia-taraba-state",
+			"glottolog-etky1238"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "taraba-donga",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-donga"
+			],
+			"confidence": "high",
+			"note": "'Often considered the indigenous or aboriginal people of Donga before the Chamba arrived.'"
+		},
+		{
+			"lga": "taraba-kurmi",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-kurmi"
+			],
+			"confidence": "high",
+			"note": "One of 'three major ethnic groups', on the grassland."
+		},
+		{
+			"lga": "taraba-takum",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-taraba-state"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "taraba-wukari",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-taraba-state"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "taraba-bali",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-taraba-state"
+			],
+			"confidence": "medium"
+		}
+	]
+}

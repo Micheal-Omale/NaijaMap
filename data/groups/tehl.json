@@ -1,0 +1,45 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Tehl (Montol)",
+	"searchAliases": [
+		"Tehl",
+		"Tel",
+		"Montol",
+		"Tal",
+		"Tunkus",
+		"Lalin"
+	],
+	"language": {
+		"name": "Tehl",
+		"glottocode": "tall1250",
+		"family": "chadic",
+		"sources": [
+			"glottolog-tall1250"
+		],
+		"confidence": "high",
+		"note": "Glottolog lists Tal and Montol as separate Goemaic languages; local sources equate Tehl with Montol."
+	},
+	"summary": {
+		"text": "The Tehl, also called Montol, are the major people of Mikang LGA in Plateau State, living in Lalin and in Tunkus, the LGA headquarters. Koenoem, Piapung and Youm (Garkawa) peoples share the LGA.",
+		"sources": [
+			"sil-2021-mikang",
+			"wikipedia-mikang",
+			"wikipedia-plateau-state",
+			"glottolog-tall1250"
+		],
+		"confidence": "medium"
+	},
+	"areas": [
+		{
+			"lga": "plateau-mikang",
+			"presence": "core",
+			"sources": [
+				"sil-2021-mikang",
+				"wikipedia-mikang"
+			],
+			"confidence": "medium"
+		}
+	]
+}

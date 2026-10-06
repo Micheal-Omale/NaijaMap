@@ -1,0 +1,46 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Wurkun",
+	"searchAliases": [
+		"Wurkun",
+		"Wurkum",
+		"Kulung",
+		"Bakulung",
+		"Piya",
+		"Walo",
+		"Kwonci"
+	],
+	"language": {
+		"name": "Piya-Kwonci and other Wurkun languages",
+		"glottocode": "piya1245",
+		"family": "chadic",
+		"sources": [
+			"glottolog-piya1245"
+		],
+		"confidence": "high",
+		"note": "The Wurkun peoples speak several languages; Piya-Kwonci is West Chadic, while Kulung is a Jarawan Bantu language."
+	},
+	"summary": {
+		"text": "Wurkun is a composite identity of the western Muri Mountains in Karim Lamido LGA, Taraba, taking in the Kulung, Piya (Walo) and other peoples. The Wurkun and the Karimjo are the two main rivals of Karim Lamido; 16 people died in clashes between them over the chieftaincy in May 2023.",
+		"sources": [
+			"wikipedia-karim-lamido",
+			"dailytrust-2023-karim-lamido",
+			"glottolog-piya1245"
+		],
+		"confidence": "medium"
+	},
+	"areas": [
+		{
+			"lga": "taraba-karim-lamido",
+			"presence": "core",
+			"sources": [
+				"wikipedia-karim-lamido",
+				"dailytrust-2023-karim-lamido"
+			],
+			"confidence": "medium",
+			"note": "About 15 peoples live in Karim Lamido; no census breakdown exists."
+		}
+	]
+}

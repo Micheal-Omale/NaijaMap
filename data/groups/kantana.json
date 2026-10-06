@@ -1,0 +1,40 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Kantana (Mama)",
+	"searchAliases": [
+		"Kantana",
+		"Mama",
+		"Kwarra"
+	],
+	"language": {
+		"name": "Mama",
+		"glottocode": "mama1272",
+		"family": "jarawan",
+		"sources": [
+			"glottolog-mama1272"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Kantana speak Mama, a Jarawan Bantu language, in Wamba LGA of Nasarawa State.",
+		"sources": [
+			"omachonu-dalhatu-2018",
+			"wikipedia-wamba",
+			"glottolog-mama1272"
+		],
+		"confidence": "medium"
+	},
+	"areas": [
+		{
+			"lga": "nasarawa-wamba",
+			"presence": "significant",
+			"sources": [
+				"omachonu-dalhatu-2018",
+				"wikipedia-wamba"
+			],
+			"confidence": "medium"
+		}
+	]
+}

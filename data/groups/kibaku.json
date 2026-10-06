@@ -1,0 +1,59 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Kibaku (Chibok)",
+	"searchAliases": [
+		"Kibaku",
+		"Chibok",
+		"Cibak",
+		"Kyibaku"
+	],
+	"language": {
+		"name": "Kibaku (Cibak)",
+		"glottocode": "ciba1236",
+		"family": "chadic",
+		"sources": [
+			"glottolog-ciba1236"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Kibaku, often called Chibok after their town, are the people of Chibok LGA in Borno State, and also live in Askira/Uba and Damboa. Kibaku is a Biu-Mandara (Chadic) language.",
+		"sources": [
+			"udosen-2018",
+			"wikipedia-borno-state",
+			"glottolog-ciba1236"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "borno-chibok",
+			"presence": "core",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high",
+			"note": "Udosen: 'Chibok is both a place name and a name for the people who inhabit Chibok Local Government Area'."
+		},
+		{
+			"lga": "borno-askira-uba",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018",
+				"wikipedia-borno-state"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "borno-damboa",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018",
+				"wikipedia-borno-state"
+			],
+			"confidence": "high"
+		}
+	]
+}

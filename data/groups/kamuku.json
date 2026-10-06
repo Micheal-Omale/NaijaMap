@@ -1,0 +1,52 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [
+		"Amfani (2018) lists Kamuku among Kebbi's languages and Wikipedia lists it for Sokoto, without LGAs."
+	],
+	"name": "Kamuku",
+	"searchAliases": [
+		"Kamuku",
+		"Kamukawa",
+		"Cinda",
+		"Regi",
+		"Tiyal",
+		"Kagara"
+	],
+	"language": {
+		"name": "Kamuku languages",
+		"glottocode": "kamu1262",
+		"family": "kainji",
+		"sources": [
+			"glottolog-kamuku",
+			"wikipedia-kamuku-languages"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Kamuku live in the hills of west-central Niger State, mostly in Mariga and Rafi LGAs, with smaller numbers towards Birnin Gwari in Kaduna. Their speech is a cluster of Kainji languages, each lect tied to a particular hill. More than 35,000 people in 1996.",
+		"sources": [
+			"wikipedia-kamuku-languages",
+			"glottolog-kamuku"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "niger-mariga",
+			"presence": "core",
+			"sources": [
+				"wikipedia-kamuku-languages"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "niger-rafi",
+			"presence": "core",
+			"sources": [
+				"wikipedia-kamuku-languages"
+			],
+			"confidence": "high"
+		}
+	]
+}

@@ -1,0 +1,42 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Pan (Kofyar)",
+	"searchAliases": [
+		"Pan",
+		"Kofyar",
+		"Doemak",
+		"Kwalla",
+		"Mernyang",
+		"Bwall",
+		"Kwagallak"
+	],
+	"language": {
+		"name": "Kofyar (Mernyang, Doemak and others)",
+		"glottocode": "mirr1240",
+		"family": "chadic",
+		"sources": [
+			"glottolog-mirr1240"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Pan, formerly known as the Kofyar, are one of the two major peoples of Qua'an Pan LGA in Plateau State, speaking dialects such as Mernyang, Doemak, Bwall and Kwagallak.",
+		"sources": [
+			"wikipedia-qua-an-pan",
+			"glottolog-mirr1240"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "plateau-qua-an-pan",
+			"presence": "core",
+			"sources": [
+				"wikipedia-qua-an-pan"
+			],
+			"confidence": "high"
+		}
+	]
+}

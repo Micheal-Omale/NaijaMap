@@ -1,0 +1,186 @@
+{
+	"name": "Ijebu Kingdom",
+	"status": "draft",
+	"kind": "kingdom",
+	"otherNames": [],
+	"span": {
+		"from": 1400,
+		"to": 1892,
+		"fromLabel": "c. 15th century",
+		"sources": [
+			"ayandele-1992",
+			"smith-1988"
+		],
+		"confidence": "medium"
+	},
+	"peak": 1820,
+	"summary": {
+		"text": "A Yoruba kingdom of the forest and lagoon, ruled by the Awujale from Ijebu-Ode and surrounded by a great earthwork, Sungbo's Eredo. The Ijebu grew rich as middlemen between the coast and the interior and guarded their trade routes jealously, until a British force defeated them at Imagbon in 1892.",
+		"sources": [
+			"ayandele-1992",
+			"smith-1988"
+		],
+		"confidence": "medium"
+	},
+	"ruler": {
+		"title": "Awujale",
+		"sources": [
+			"ayandele-1992"
+		],
+		"confidence": "high"
+	},
+	"peoples": [
+		"yoruba"
+	],
+	"snapshots": [
+		{
+			"year": 1400,
+			"yearLabel": "c. 1400",
+			"title": "The Awujale at Ijebu-Ode",
+			"text": "The Ijebu kingdom forms around Ijebu-Ode. The vast earthwork of Sungbo's Eredo encircles its heartland.",
+			"capital": {
+				"name": "Ijebu-Ode",
+				"point": [
+					3.92,
+					6.82
+				]
+			},
+			"core": {
+				"lgas": [
+					"ogun-ijebu-ode",
+					"ogun-ijebu-north",
+					"ogun-ijebu-north-east",
+					"ogun-ijebu-east",
+					"ogun-odogbolu",
+					"ogun-ogun-waterside"
+				]
+			},
+			"sources": [
+				"smith-1988",
+				"ogundiran-2020"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1820,
+			"yearLabel": "c. 1817–1825",
+			"title": "The Owu war",
+			"text": "Ijebu and Ife armies, joined by Oyo refugees, destroy the town of Owu. The war opens decades of fighting in Yorubaland. Ijebu controls the routes between the lagoon and the interior, including Remo.",
+			"capital": {
+				"name": "Ijebu-Ode",
+				"point": [
+					3.92,
+					6.82
+				]
+			},
+			"core": {
+				"lgas": [
+					"ogun-ijebu-ode",
+					"ogun-ijebu-north",
+					"ogun-ijebu-north-east",
+					"ogun-ijebu-east",
+					"ogun-odogbolu",
+					"ogun-ogun-waterside",
+					"ogun-ikenne",
+					"ogun-remo-north",
+					"ogun-shagamu",
+					"lagos-epe",
+					"lagos-ibeju-lekki",
+					"lagos-ikorodu"
+				]
+			},
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Owu (approximate)",
+						"point": [
+							4.2,
+							7.3
+						]
+					},
+					"label": "Owu destroyed"
+				},
+				{
+					"kind": "trade",
+					"to": {
+						"name": "Eko (Lagos Island)",
+						"point": [
+							3.394,
+							6.455
+						]
+					},
+					"label": "Lagoon trade to Lagos"
+				}
+			],
+			"sources": [
+				"smith-1988",
+				"ayandele-1992",
+				"johnson-1921"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1892,
+			"title": "Defeat at Imagbon",
+			"text": "After the Ijebu close the trade routes, a British force from Lagos defeats them at Imagbon and occupies Ijebu-Ode.",
+			"capital": {
+				"name": "Ijebu-Ode",
+				"point": [
+					3.92,
+					6.82
+				]
+			},
+			"core": {
+				"lgas": [
+					"ogun-ijebu-ode",
+					"ogun-ijebu-north",
+					"ogun-ijebu-north-east",
+					"ogun-ijebu-east",
+					"ogun-odogbolu",
+					"ogun-ogun-waterside",
+					"ogun-ikenne",
+					"ogun-remo-north",
+					"ogun-shagamu",
+					"lagos-epe",
+					"lagos-ibeju-lekki"
+				]
+			},
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Imagbon (approximate)",
+						"point": [
+							3.98,
+							6.9
+						]
+					},
+					"label": "Battle of Imagbon"
+				}
+			],
+			"sources": [
+				"ayandele-1992"
+			],
+			"confidence": "high"
+		}
+	],
+	"today": {
+		"text": "The Awujale of Ijebuland reigns at Ijebu-Ode, Ogun State.",
+		"title": "Awujale of Ijebuland",
+		"seat": {
+			"name": "Ijebu-Ode",
+			"point": [
+				3.92,
+				6.82
+			]
+		},
+		"sources": [
+			"ayandele-1992"
+		],
+		"confidence": "high"
+	},
+	"reviewNotes": [
+		"Remo's status (part of Ijebu or semi independent under the Akarigbo) changed over time."
+	]
+}

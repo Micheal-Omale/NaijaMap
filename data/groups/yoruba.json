@@ -1308,6 +1308,24 @@
 				"soluap-2025-niger"
 			],
 			"confidence": "medium"
+		},
+		{
+			"lga": "kwara-kaiama",
+			"presence": "minority",
+			"sources": [
+				"ross-jones-borgu"
+			],
+			"confidence": "high",
+			"note": "About 8,000 in 1991, long settled as traders."
+		},
+		{
+			"lga": "niger-borgu",
+			"presence": "minority",
+			"sources": [
+				"ross-jones-borgu"
+			],
+			"confidence": "high",
+			"note": "About 7,000 in 1991, mainly in the larger towns."
 		}
 	]
 }

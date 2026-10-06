@@ -1,0 +1,50 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Bahumono",
+	"searchAliases": [
+		"Bahumono",
+		"Humono",
+		"Kohumono",
+		"Ediba",
+		"Usumutong"
+	],
+	"language": {
+		"name": "Kohumono",
+		"glottocode": "kohu1244",
+		"family": "upper-cross",
+		"sources": [
+			"glottolog-kohu1244"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Bahumono are the largest people of Abi LGA in Cross River State, in villages such as Ediba, Usumutong, Anong and Ebom.",
+		"sources": [
+			"wikipedia-bahumono",
+			"wikipedia-cross-river-state",
+			"glottolog-kohu1244"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "cross-river-abi",
+			"presence": "core",
+			"sources": [
+				"wikipedia-bahumono",
+				"wikipedia-cross-river-state"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "cross-river-obubra",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-cross-river-state"
+			],
+			"confidence": "medium"
+		}
+	]
+}

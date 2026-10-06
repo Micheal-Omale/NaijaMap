@@ -1,0 +1,55 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [
+		"The Illo villages are not yet located in GRID3."
+	],
+	"name": "Busa (Bisã)",
+	"searchAliases": [
+		"Busa",
+		"Bisa",
+		"Bisã",
+		"Bussawa",
+		"Busanchi",
+		"New Bussa",
+		"Wawa",
+		"Illo"
+	],
+	"language": {
+		"name": "Busa",
+		"glottocode": "busa1253",
+		"family": "mande",
+		"sources": [
+			"glottolog-busa"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Busa call themselves Bisã; only people of Bussa town are strictly Busa. They live along the west bank of the Niger around New Bussa (moved when the Kainji dam flooded old Bussa in 1968) and Wawa, with about 30 villages, and a smaller group south of Illo in Kebbi State who say they came from Bussa. Busa is a Boko-Busa language of the Eastern Mande family, and many Kambari, Laru and Lopa neighbours speak it as a second language. The Emir of Borgu at New Bussa rules the Busa and Boko of Borgu LGA.",
+		"sources": [
+			"ross-jones-borgu",
+			"glottolog-busa"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "niger-borgu",
+			"presence": "core",
+			"sources": [
+				"ross-jones-borgu"
+			],
+			"confidence": "high",
+			"note": "About 15,000 Busa in 1991, and 15,000 more who speak Busa as a second language. Predominant in New Bussa, Wawa, Dogongari and Karabonde."
+		},
+		{
+			"lga": "kebbi-bagudu",
+			"presence": "minority",
+			"sources": [
+				"ross-jones-borgu"
+			],
+			"confidence": "medium",
+			"note": "About 6,000 Busa in villages south of Illo (Kali, Bani, Gilanzana, Sangba, Sambe, Wagaga, Anaswa, Gbegbe). In Illo itself only older people still speak Busa."
+		}
+	]
+}

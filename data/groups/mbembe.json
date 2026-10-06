@@ -1,0 +1,50 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [
+		"Agoi, Isobo and other Obubra peoples are not yet mapped separately."
+	],
+	"name": "Mbembe (Cross River)",
+	"searchAliases": [
+		"Mbembe",
+		"Okom",
+		"Ofat",
+		"Obubra"
+	],
+	"language": {
+		"name": "Cross River Mbembe",
+		"glottocode": "cros1244",
+		"family": "upper-cross",
+		"sources": [
+			"glottolog-cros1244"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Mbembe of Cross River State live predominantly in Obubra LGA. They are distinct from the Tigon Mbembe of Taraba.",
+		"sources": [
+			"wikipedia-cross-river-state",
+			"glottolog-cros1244"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "cross-river-obubra",
+			"presence": "core",
+			"sources": [
+				"wikipedia-cross-river-state"
+			],
+			"confidence": "high",
+			"note": "'Mbembe are predominantly found in Obubra LGA.'"
+		},
+		{
+			"lga": "cross-river-yala",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-cross-river-state"
+			],
+			"confidence": "medium"
+		}
+	]
+}

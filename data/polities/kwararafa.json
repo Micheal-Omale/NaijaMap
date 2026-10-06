@@ -1,0 +1,221 @@
+{
+	"name": "Kwararafa",
+	"status": "draft",
+	"kind": "confederacy",
+	"otherNames": [
+		"Kororofa",
+		"Jukun kingdom",
+		"Wukari"
+	],
+	"span": {
+		"from": 1500,
+		"to": 1900,
+		"fromLabel": "c. 13th–15th century",
+		"sources": [
+			"wikipedia-kwararafa",
+			"meek-1931"
+		],
+		"confidence": "medium"
+	},
+	"peak": 1650,
+	"summary": {
+		"text": "A multi-ethnic confederacy led by the Jukun in the Benue valley, rich from the salt flats of Awe and Keana. In the 17th century its cavalry raided Kano, Zaria, Katsina and even the Bornu capital. It declined in the 18th century, and the Jukun kingdom of Wukari carried on its name.",
+		"sources": [
+			"wikipedia-kwararafa",
+			"meek-1931"
+		],
+		"confidence": "medium"
+	},
+	"ruler": {
+		"title": "Aku Uka",
+		"sources": [
+			"wikipedia-wukari",
+			"meek-1931"
+		],
+		"confidence": "high"
+	},
+	"peoples": [
+		"jukun"
+	],
+	"snapshots": [
+		{
+			"year": 1500,
+			"yearLabel": "c. 1500",
+			"title": "A Benue valley power",
+			"text": "After defeats by Bornu in the late 15th century the capital moves to Biepi, near today's Ibi on the Benue. The confederacy controls the valley's salt.",
+			"capital": {
+				"name": "Kwararafa (Biepi, near Ibi)",
+				"point": [
+					9.75,
+					8.18
+				]
+			},
+			"core": {
+				"lgas": [
+					"taraba-ibi",
+					"taraba-wukari",
+					"taraba-gassol",
+					"nasarawa-awe",
+					"nasarawa-keana"
+				]
+			},
+			"sources": [
+				"wikipedia-kwararafa",
+				"meek-1931"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1650,
+			"yearLabel": "c. 1610–1680",
+			"title": "Raids across the north",
+			"text": "Kwararafa cavalry raid Kano (1650s and 1670s), Zaria and Katsina, and in 1680 reach Ngazargamu, the Bornu capital.",
+			"capital": {
+				"name": "Kwararafa (Biepi, near Ibi)",
+				"point": [
+					9.75,
+					8.18
+				]
+			},
+			"core": {
+				"lgas": [
+					"taraba-ibi",
+					"taraba-wukari",
+					"taraba-gassol",
+					"taraba-donga",
+					"taraba-takum",
+					"taraba-bali",
+					"taraba-karim-lamido",
+					"taraba-lau",
+					"nasarawa-awe",
+					"nasarawa-keana",
+					"nasarawa-doma",
+					"nasarawa-obi",
+					"plateau-wase"
+				]
+			},
+			"influence": {
+				"lgas": [
+					"plateau-shendam",
+					"plateau-langtang-south",
+					"plateau-qua-an-pan",
+					"nasarawa-lafia",
+					"benue-agatu",
+					"benue-apa",
+					"benue-oturkpo",
+					"benue-ado"
+				],
+				"confidence": "disputed"
+			},
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Kano",
+						"point": [
+							8.52,
+							12
+						]
+					},
+					"label": "Raids on Kano"
+				},
+				{
+					"kind": "war",
+					"to": {
+						"name": "Zaria",
+						"point": [
+							7.7,
+							11.07
+						]
+					},
+					"label": "Raids on Zaria"
+				},
+				{
+					"kind": "war",
+					"to": {
+						"name": "Ngazargamu",
+						"point": [
+							12.367,
+							13.083
+						]
+					},
+					"label": "Attack on Ngazargamu (1680)"
+				}
+			],
+			"sources": [
+				"wikipedia-kwararafa",
+				"meek-1931"
+			],
+			"confidence": "medium",
+			"note": "Idoma and other Benue peoples trace origins to Kwararafa; whether it ruled them is debated."
+		},
+		{
+			"year": 1750,
+			"yearLabel": "18th century",
+			"title": "Decline; the court at Wukari",
+			"text": "Internal disputes and pressure from neighbours weaken the confederacy. The Jukun capital moves to Uka and then Wukari.",
+			"capital": {
+				"name": "Wukari",
+				"point": [
+					9.78,
+					7.87
+				]
+			},
+			"core": {
+				"lgas": [
+					"taraba-wukari",
+					"taraba-ibi",
+					"taraba-donga",
+					"taraba-takum"
+				]
+			},
+			"sources": [
+				"wikipedia-kwararafa",
+				"wikipedia-wukari"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1850,
+			"yearLabel": "c. 1840–1900",
+			"title": "Wukari between Muri and the Tiv",
+			"text": "The Fulani emirate of Muri takes the north of the old lands, and Tiv farmers expand from the south. Wukari remains a Jukun kingdom until British rule around 1900.",
+			"capital": {
+				"name": "Wukari",
+				"point": [
+					9.78,
+					7.87
+				]
+			},
+			"core": {
+				"lgas": [
+					"taraba-wukari",
+					"taraba-donga"
+				]
+			},
+			"sources": [
+				"wikipedia-kwararafa",
+				"wikipedia-wukari"
+			],
+			"confidence": "medium"
+		}
+	],
+	"today": {
+		"text": "The Aku Uka, king of the Jukun, reigns at Wukari in Taraba State.",
+		"title": "Aku Uka of Wukari",
+		"seat": {
+			"name": "Wukari",
+			"point": [
+				9.78,
+				7.87
+			]
+		},
+		"sources": [
+			"wikipedia-wukari"
+		],
+		"confidence": "high"
+	},
+	"reviewNotes": [
+		"Kwararafa's early capitals (Santolo, Pindiga, Tagara) are placed in different areas by different writers and are left off the map."
+	]
+}

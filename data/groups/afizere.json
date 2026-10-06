@@ -1,0 +1,57 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Afizere (Izere)",
+	"searchAliases": [
+		"Afizere",
+		"Izere",
+		"Afusari",
+		"Jarawa"
+	],
+	"language": {
+		"name": "Izere",
+		"glottocode": "izer1241",
+		"family": "plateau",
+		"sources": [
+			"glottolog-izer1241"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Afizere are one of the three peoples recognised as indigenes of Jos, with the Berom and Anaguta, and the main people of Jos East LGA. Hausa sometimes call them Jarawa, but they are distinct from the Jarawa (Jar) of Kanam and Bauchi.",
+		"sources": [
+			"hrw-2006-indigenes",
+			"wikipedia-plateau-state",
+			"glottolog-izer1241"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "plateau-jos-east",
+			"presence": "core",
+			"sources": [
+				"wikipedia-plateau-state"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "plateau-jos-north",
+			"presence": "core",
+			"sources": [
+				"hrw-2006-indigenes",
+				"wikipedia-plateau-state"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "bauchi-toro",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-toro-bauchi"
+			],
+			"confidence": "medium"
+		}
+	]
+}

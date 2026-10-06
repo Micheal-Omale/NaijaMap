@@ -1,0 +1,43 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Kamwe (Higi)",
+	"searchAliases": [
+		"Kamwe",
+		"Higi",
+		"Hiji",
+		"Vecemwe",
+		"Michika"
+	],
+	"language": {
+		"name": "Kamwe (Vecemwe)",
+		"glottocode": "kamw1239",
+		"family": "chadic",
+		"sources": [
+			"glottolog-kamw1239"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Kamwe, formerly called Higi, are the principal people of Michika LGA in northern Adamawa, in the Mandara hills. They speak Vecemwe, a Biu-Mandara (Chadic) language.",
+		"sources": [
+			"wikipedia-michika",
+			"wikipedia-adamawa-state",
+			"glottolog-kamw1239"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "adamawa-michika",
+			"presence": "core",
+			"sources": [
+				"wikipedia-michika",
+				"wikipedia-adamawa-state"
+			],
+			"confidence": "high",
+			"note": "'The principal ethnic group and language in Mwecika (Michika) is the Kamwe people'."
+		}
+	]
+}

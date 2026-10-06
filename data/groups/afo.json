@@ -1,0 +1,67 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Afo (Eloyi)",
+	"searchAliases": [
+		"Afo",
+		"Eloyi",
+		"Afao",
+		"Ajiri",
+		"Aho",
+		"Epe"
+	],
+	"language": {
+		"name": "Eloyi (Ajiri)",
+		"glottocode": "eloy1241",
+		"family": "plateau",
+		"sources": [
+			"glottolog-eloy1241"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Afo, who call themselves Eloyi, live mostly in Nasarawa, Awe and Kokona LGAs of Nasarawa State; the emirate of Nasarawa was founded around 1838 in Afo country.",
+		"sources": [
+			"wikipedia-eloyi-people",
+			"omachonu-dalhatu-2018",
+			"glottolog-eloy1241"
+		],
+		"confidence": "medium"
+	},
+	"areas": [
+		{
+			"lga": "nasarawa-nasarawa",
+			"presence": "core",
+			"sources": [
+				"wikipedia-eloyi-people",
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "nasarawa-kokona",
+			"presence": "significant",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "nasarawa-keffi",
+			"presence": "significant",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "nasarawa-awe",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-eloyi-people"
+			],
+			"confidence": "medium"
+		}
+	]
+}

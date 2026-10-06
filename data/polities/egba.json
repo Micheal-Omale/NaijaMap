@@ -1,0 +1,177 @@
+{
+	"name": "Egba",
+	"status": "draft",
+	"kind": "confederacy",
+	"otherNames": [
+		"Abeokuta",
+		"Egba United Government"
+	],
+	"span": {
+		"from": 1780,
+		"to": 1914,
+		"fromLabel": "c. 1780s",
+		"sources": [
+			"biobaku-1957",
+			"smith-1988"
+		],
+		"confidence": "medium"
+	},
+	"peak": 1898,
+	"summary": {
+		"text": "The Egba towns of the forest freed themselves from Oyo under the hero Lisabi in the late 18th century. Scattered by the wars, they came together at Abeokuta in 1830 as a federation of townships under the Alake. Abeokuta beat off Dahomey twice and kept a self-governing Egba United Government until 1914.",
+		"sources": [
+			"biobaku-1957",
+			"smith-1988"
+		],
+		"confidence": "medium"
+	},
+	"ruler": {
+		"title": "Alake",
+		"sources": [
+			"biobaku-1957"
+		],
+		"confidence": "high"
+	},
+	"peoples": [
+		"yoruba"
+	],
+	"snapshots": [
+		{
+			"year": 1780,
+			"yearLabel": "c. 1780s",
+			"title": "Lisabi frees the Egba",
+			"text": "The Egba towns of the forest rise against Oyo's agents and win their freedom.",
+			"core": {
+				"lgas": [
+					"ogun-odeda",
+					"ogun-abeokuta-north",
+					"ogun-obafemi-owode",
+					"ogun-ewekoro"
+				],
+				"confidence": "medium"
+			},
+			"sources": [
+				"biobaku-1957",
+				"johnson-1921"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1830,
+			"title": "Abeokuta founded",
+			"text": "Driven from their towns in the wars, the Egba settle together under Olumo Rock and found Abeokuta, a city of many townships.",
+			"capital": {
+				"name": "Abeokuta",
+				"point": [
+					3.35,
+					7.15
+				]
+			},
+			"core": {
+				"lgas": [
+					"ogun-abeokuta-north",
+					"ogun-abeokuta-south",
+					"ogun-odeda",
+					"ogun-obafemi-owode",
+					"ogun-ewekoro"
+				]
+			},
+			"sources": [
+				"biobaku-1957"
+			],
+			"confidence": "high"
+		},
+		{
+			"year": 1851,
+			"title": "Dahomey repulsed",
+			"text": "Abeokuta defeats a Dahomean army at its walls in 1851, and again in 1864.",
+			"capital": {
+				"name": "Abeokuta",
+				"point": [
+					3.35,
+					7.15
+				]
+			},
+			"core": {
+				"lgas": [
+					"ogun-abeokuta-north",
+					"ogun-abeokuta-south",
+					"ogun-odeda",
+					"ogun-obafemi-owode",
+					"ogun-ewekoro",
+					"ogun-ifo"
+				]
+			},
+			"influence": {
+				"lgas": [
+					"ogun-ado-odo-ota",
+					"ogun-yewa-south"
+				],
+				"confidence": "medium"
+			},
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Abomey (Dahomey)",
+						"point": [
+							1.99,
+							7.18
+						]
+					},
+					"label": "Dahomey attacks (1851, 1864)"
+				}
+			],
+			"sources": [
+				"biobaku-1957"
+			],
+			"confidence": "high"
+		},
+		{
+			"year": 1898,
+			"title": "The Egba United Government",
+			"text": "With British encouragement the Egba form a modern government with a council, a secretariat and their own laws, while the British run Lagos next door. It lasts until 1914.",
+			"capital": {
+				"name": "Abeokuta",
+				"point": [
+					3.35,
+					7.15
+				]
+			},
+			"core": {
+				"lgas": [
+					"ogun-abeokuta-north",
+					"ogun-abeokuta-south",
+					"ogun-odeda",
+					"ogun-obafemi-owode",
+					"ogun-ewekoro",
+					"ogun-ifo",
+					"ogun-ado-odo-ota"
+				]
+			},
+			"sources": [
+				"biobaku-1957",
+				"falola-heaton-2008"
+			],
+			"confidence": "medium"
+		}
+	],
+	"today": {
+		"text": "The Alake of Egbaland reigns at Abeokuta, Ogun State.",
+		"title": "Alake of Egbaland",
+		"seat": {
+			"name": "Abeokuta",
+			"point": [
+				3.35,
+				7.15
+			]
+		},
+		"sources": [
+			"biobaku-1957"
+		],
+		"confidence": "high"
+	},
+	"reviewNotes": [
+		"Biobaku covers 1842–1872 directly; the 1898–1914 government needs a second source checked."
+	]
+}

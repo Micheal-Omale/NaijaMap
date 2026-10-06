@@ -1,0 +1,37 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Mushere",
+	"searchAliases": [
+		"Mushere",
+		"Mushere Bokkos"
+	],
+	"language": {
+		"name": "Mushere",
+		"glottocode": "mush1239",
+		"family": "chadic",
+		"sources": [
+			"glottolog-mush1239"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Mushere are a West Chadic-speaking people of Bokkos LGA, Plateau State.",
+		"sources": [
+			"wikipedia-plateau-state",
+			"glottolog-mush1239"
+		],
+		"confidence": "medium"
+	},
+	"areas": [
+		{
+			"lga": "plateau-bokkos",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-plateau-state"
+			],
+			"confidence": "medium"
+		}
+	]
+}

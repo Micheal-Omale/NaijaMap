@@ -1,0 +1,47 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Dendi",
+	"searchAliases": [
+		"Dendi",
+		"Dandawa"
+	],
+	"language": {
+		"name": "Dendi",
+		"glottocode": "dend1243",
+		"family": "songhay",
+		"sources": [
+			"glottolog-dendi"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Dendi are a Songhay-speaking people of the Niger valley where Nigeria, Niger and Benin meet; most live in northern Benin. In Nigeria Dendi is spoken in Bagudo and Argungu LGAs of Kebbi State.",
+		"sources": [
+			"wikipedia-kebbi-state",
+			"ross-jones-borgu",
+			"amfani-2018",
+			"glottolog-dendi"
+		],
+		"confidence": "medium"
+	},
+	"areas": [
+		{
+			"lga": "kebbi-bagudu",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-kebbi-state"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "kebbi-argungu",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-kebbi-state"
+			],
+			"confidence": "medium"
+		}
+	]
+}

@@ -1,0 +1,50 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Dera (Kanakuru)",
+	"searchAliases": [
+		"Dera",
+		"Kanakuru",
+		"Shelleng"
+	],
+	"language": {
+		"name": "Dera",
+		"glottocode": "dera1248",
+		"family": "chadic",
+		"sources": [
+			"glottolog-dera1248"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Dera, called Kanakuru by others, are the main indigenous people of Shelleng LGA in Adamawa State. Dera is a West Chadic language.",
+		"sources": [
+			"wikipedia-shelleng",
+			"wikipedia-adamawa-state",
+			"glottolog-dera1248"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "adamawa-shelleng",
+			"presence": "core",
+			"sources": [
+				"wikipedia-shelleng",
+				"wikipedia-adamawa-state"
+			],
+			"confidence": "high",
+			"note": "Kanakuru 31% and Hausa 35% of homes surveyed. Share from a 2022-23 survey of displaced people quoted by Wikipedia, not a census."
+		},
+		{
+			"lga": "adamawa-guyuk",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-guyuk"
+			],
+			"confidence": "medium",
+			"note": "About 5% of homes surveyed. Share from a 2022-23 survey of displaced people quoted by Wikipedia, not a census."
+		}
+	]
+}

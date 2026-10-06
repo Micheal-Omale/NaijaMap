@@ -223,6 +223,31 @@
 				"omachonu-dalhatu-2018"
 			],
 			"confidence": "medium"
+		},
+		{
+			"lga": "kaduna-kagarko",
+			"presence": "core",
+			"sources": [
+				"kagarko-lga",
+				"wikipedia-kaduna-state"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "kaduna-kajuru",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-kaduna-state"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "nasarawa-keffi",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-nasarawa-state"
+			],
+			"confidence": "medium"
 		}
 	],
 	"communities": [],

@@ -1,0 +1,804 @@
+{
+	"name": "Sokoto Caliphate",
+	"status": "draft",
+	"kind": "caliphate",
+	"otherNames": [
+		"Sokoto Sultanate",
+		"Fulani Empire"
+	],
+	"span": {
+		"from": 1804,
+		"to": 1903,
+		"sources": [
+			"wikipedia-sokoto-caliphate",
+			"last-1967"
+		],
+		"confidence": "high"
+	},
+	"peak": 1850,
+	"summary": {
+		"text": "Born from Usman dan Fodio's jihad of 1804, the caliphate swept away the Hausa kingdoms and joined some thirty emirates under the Commander of the Faithful at Sokoto, with a western half ruled from Gwandu. By the mid 19th century it was the largest state in West Africa, reaching from today's Burkina Faso to Cameroon. The British conquered it in 1903.",
+		"sources": [
+			"wikipedia-sokoto-caliphate",
+			"last-1967",
+			"adeleye-1971"
+		],
+		"confidence": "high"
+	},
+	"ruler": {
+		"title": "Sultan (Amir al-Mu'minin, Commander of the Faithful)",
+		"sources": [
+			"wikipedia-sokoto-caliphate"
+		],
+		"confidence": "high"
+	},
+	"peoples": [
+		"fulani",
+		"hausa"
+	],
+	"snapshots": [
+		{
+			"year": 1804,
+			"title": "The jihad begins",
+			"text": "In February 1804 Usman dan Fodio leaves Degel for Gudu, and his followers declare a jihad against the king of Gobir. Flag bearers carry the movement across Hausaland.",
+			"capital": {
+				"name": "Gudu (approximate)",
+				"point": [
+					4.85,
+					13.4
+				]
+			},
+			"core": {
+				"lgas": [
+					"sokoto-gudu",
+					"sokoto-tangaza",
+					"sokoto-binji",
+					"sokoto-silame"
+				]
+			},
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Alkalawa",
+						"point": [
+							6.26,
+							13.613
+						]
+					},
+					"label": "War with Gobir"
+				}
+			],
+			"sources": [
+				"wikipedia-sokoto-caliphate",
+				"last-1967"
+			],
+			"confidence": "high",
+			"note": "The core is only the area around the first camps."
+		},
+		{
+			"year": 1812,
+			"title": "Hausaland conquered",
+			"text": "Kano, Katsina, Zaria and Daura have fallen. Alkalawa, the Gobir capital, fell in 1808, and Sokoto was founded in 1809. New emirates rise at Bauchi, Gombe, Katagum, Hadejia and in Adamawa.",
+			"capital": {
+				"name": "Sokoto",
+				"point": [
+					5.24,
+					13.06
+				]
+			},
+			"core": {
+				"states": [
+					"sokoto",
+					"zamfara",
+					"katsina",
+					"kano"
+				],
+				"lgas": [
+					"kebbi-gwandu",
+					"kebbi-aleiro",
+					"kebbi-jega",
+					"kebbi-kalgo",
+					"kebbi-bunza",
+					"kebbi-maiyama",
+					"kebbi-koko-besse",
+					"kebbi-birnin-kebbi",
+					"jigawa-dutse",
+					"jigawa-birnin-kudu",
+					"jigawa-gwaram",
+					"jigawa-jahun",
+					"jigawa-kiyawa",
+					"jigawa-ringim",
+					"jigawa-taura",
+					"jigawa-miga",
+					"jigawa-kazaure",
+					"jigawa-roni",
+					"jigawa-gwiwa",
+					"jigawa-yankwashi",
+					"jigawa-hadejia",
+					"jigawa-auyo",
+					"jigawa-kafin-hausa",
+					"jigawa-garki",
+					"jigawa-buji",
+					"kaduna-zaria",
+					"kaduna-sabon-gari",
+					"kaduna-giwa",
+					"kaduna-ikara",
+					"kaduna-kudan",
+					"kaduna-makarfi",
+					"kaduna-soba",
+					"kaduna-kubau",
+					"kaduna-igabi",
+					"bauchi-katagum",
+					"bauchi-jama-are",
+					"bauchi-itas-gadau",
+					"bauchi-gamawa",
+					"bauchi-shira",
+					"bauchi-giade",
+					"bauchi-misau",
+					"bauchi-bauchi",
+					"bauchi-ganjuwa",
+					"bauchi-darazo",
+					"bauchi-dambam",
+					"gombe-gombe",
+					"gombe-akko",
+					"gombe-yamaltu-deba",
+					"gombe-kwami",
+					"gombe-dukku",
+					"gombe-funakaye",
+					"gombe-nafada",
+					"adamawa-yola-north",
+					"adamawa-yola-south",
+					"adamawa-girei",
+					"adamawa-fufore"
+				]
+			},
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Ngazargamu",
+						"point": [
+							12.367,
+							13.083
+						]
+					},
+					"label": "Ngazargamu sacked (1808)"
+				}
+			],
+			"sources": [
+				"wikipedia-sokoto-caliphate",
+				"last-1967",
+				"hogben-kirk-greene-1966"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1850,
+			"yearLabel": "c. 1850",
+			"title": "The largest state in West Africa",
+			"text": "Ilorin has joined (1823), Fulani rule Nupe, and Adamawa reaches deep into today's Cameroon. Gwandu oversees the western emirates as far as Liptako. Emirs send yearly gifts to Sokoto, and the caliphate's slave-worked plantations feed a booming trade.",
+			"capital": {
+				"name": "Sokoto",
+				"point": [
+					5.24,
+					13.06
+				]
+			},
+			"core": {
+				"states": [
+					"sokoto",
+					"zamfara",
+					"katsina",
+					"kano",
+					"jigawa"
+				],
+				"lgas": [
+					"kebbi-gwandu",
+					"kebbi-aleiro",
+					"kebbi-jega",
+					"kebbi-kalgo",
+					"kebbi-bunza",
+					"kebbi-maiyama",
+					"kebbi-koko-besse",
+					"kebbi-birnin-kebbi",
+					"kebbi-yauri",
+					"kebbi-shanga",
+					"kebbi-ngaski",
+					"kaduna-zaria",
+					"kaduna-sabon-gari",
+					"kaduna-giwa",
+					"kaduna-ikara",
+					"kaduna-kudan",
+					"kaduna-makarfi",
+					"kaduna-soba",
+					"kaduna-kubau",
+					"kaduna-igabi",
+					"kaduna-kaduna-north",
+					"kaduna-kaduna-south",
+					"kaduna-lere",
+					"kaduna-jema-a",
+					"kaduna-kachia",
+					"kaduna-birnin-gwari",
+					"bauchi-katagum",
+					"bauchi-jama-are",
+					"bauchi-itas-gadau",
+					"bauchi-gamawa",
+					"bauchi-shira",
+					"bauchi-giade",
+					"bauchi-misau",
+					"bauchi-bauchi",
+					"bauchi-ganjuwa",
+					"bauchi-darazo",
+					"bauchi-dambam",
+					"bauchi-zaki",
+					"bauchi-kirfi",
+					"bauchi-alkaleri",
+					"bauchi-toro",
+					"bauchi-warji",
+					"gombe-gombe",
+					"gombe-akko",
+					"gombe-yamaltu-deba",
+					"gombe-kwami",
+					"gombe-dukku",
+					"gombe-funakaye",
+					"gombe-nafada",
+					"adamawa-yola-north",
+					"adamawa-yola-south",
+					"adamawa-girei",
+					"adamawa-fufore",
+					"adamawa-song",
+					"adamawa-mayo-belwa",
+					"adamawa-jada",
+					"adamawa-ganye",
+					"adamawa-toungo",
+					"adamawa-gombi",
+					"adamawa-hong",
+					"adamawa-mubi-north",
+					"adamawa-mubi-south",
+					"adamawa-maiha",
+					"taraba-jalingo",
+					"taraba-ardo-kola",
+					"taraba-lau",
+					"taraba-gassol",
+					"taraba-karim-lamido",
+					"taraba-gashaka",
+					"plateau-wase",
+					"nasarawa-keffi",
+					"nasarawa-nasarawa",
+					"nasarawa-lafia",
+					"nasarawa-karu",
+					"nasarawa-kokona",
+					"nasarawa-doma",
+					"niger-bida",
+					"niger-lavun",
+					"niger-gbako",
+					"niger-katcha",
+					"niger-edati",
+					"niger-agaie",
+					"niger-lapai",
+					"niger-mokwa",
+					"kwara-ilorin-west",
+					"kwara-ilorin-east",
+					"kwara-ilorin-south",
+					"kwara-asa",
+					"kwara-moro",
+					"kwara-edu",
+					"kwara-pategi"
+				],
+				"beyond": [
+					[
+						[
+							11.8,
+							10.6
+						],
+						[
+							13.6,
+							10.9
+						],
+						[
+							14.6,
+							9.6
+						],
+						[
+							15.2,
+							8
+						],
+						[
+							14.6,
+							6.4
+						],
+						[
+							12.6,
+							6
+						],
+						[
+							11.4,
+							6.8
+						],
+						[
+							11.6,
+							8.6
+						]
+					]
+				]
+			},
+			"influence": {
+				"lgas": [
+					"kebbi-zuru",
+					"kebbi-sakaba",
+					"kebbi-fakai",
+					"kebbi-wasagu-danko",
+					"kwara-irepodun",
+					"kwara-ifelodun",
+					"kwara-isin",
+					"kwara-oke-ero",
+					"kwara-ekiti",
+					"kwara-offa",
+					"kwara-oyun",
+					"niger-kontagora",
+					"niger-mariga",
+					"niger-wushishi",
+					"niger-rafi",
+					"niger-shiroro",
+					"niger-paikoro",
+					"niger-chanchaga",
+					"niger-bosso",
+					"niger-suleja",
+					"niger-tafa",
+					"niger-gurara",
+					"kogi-yagba-east",
+					"kogi-yagba-west",
+					"kogi-mopa-muro",
+					"kogi-kabba-bunu",
+					"kogi-lokoja",
+					"kogi-kogi"
+				],
+				"beyond": [
+					[
+						[
+							0,
+							13.9
+						],
+						[
+							2.4,
+							14.4
+						],
+						[
+							3.6,
+							12.4
+						],
+						[
+							3.7,
+							11.1
+						],
+						[
+							2.3,
+							11
+						],
+						[
+							0.2,
+							12.4
+						]
+					]
+				],
+				"confidence": "medium"
+			},
+			"nodes": [
+				{
+					"name": "Gwandu",
+					"point": [
+						4.64,
+						12.5
+					]
+				},
+				{
+					"name": "Kano",
+					"point": [
+						8.52,
+						12
+					]
+				},
+				{
+					"name": "Zaria",
+					"point": [
+						7.7,
+						11.07
+					]
+				},
+				{
+					"name": "Bauchi",
+					"point": [
+						9.84,
+						10.31
+					]
+				},
+				{
+					"name": "Yola",
+					"point": [
+						12.48,
+						9.21
+					]
+				},
+				{
+					"name": "Ilorin",
+					"point": [
+						4.55,
+						8.5
+					]
+				},
+				{
+					"name": "Bida",
+					"point": [
+						6.01,
+						9.08
+					]
+				}
+			],
+			"sources": [
+				"wikipedia-sokoto-caliphate",
+				"last-1967",
+				"hogben-kirk-greene-1966",
+				"ajayi-crowder-1985"
+			],
+			"confidence": "medium",
+			"note": "Hill peoples inside the emirates (Ningi, Jos Plateau, southern Zaria, Dakarkari) often stayed independent; LGA-level drawing hides those pockets."
+		},
+		{
+			"year": 1880,
+			"yearLabel": "c. 1880",
+			"title": "Frontier emirates in the south",
+			"text": "Kontagora (1859) and Muri raid southward, and Bida's Nupe armies take tribute from the Ebira, Okun Yoruba and northern Edo towns. Kebbi, rebuilt at Argungu, still fights Gwandu.",
+			"capital": {
+				"name": "Sokoto",
+				"point": [
+					5.24,
+					13.06
+				]
+			},
+			"core": {
+				"states": [
+					"sokoto",
+					"zamfara",
+					"katsina",
+					"kano",
+					"jigawa"
+				],
+				"lgas": [
+					"kebbi-gwandu",
+					"kebbi-aleiro",
+					"kebbi-jega",
+					"kebbi-kalgo",
+					"kebbi-bunza",
+					"kebbi-maiyama",
+					"kebbi-koko-besse",
+					"kebbi-birnin-kebbi",
+					"kebbi-yauri",
+					"kebbi-shanga",
+					"kebbi-ngaski",
+					"kaduna-zaria",
+					"kaduna-sabon-gari",
+					"kaduna-giwa",
+					"kaduna-ikara",
+					"kaduna-kudan",
+					"kaduna-makarfi",
+					"kaduna-soba",
+					"kaduna-kubau",
+					"kaduna-igabi",
+					"kaduna-kaduna-north",
+					"kaduna-kaduna-south",
+					"kaduna-lere",
+					"kaduna-jema-a",
+					"kaduna-kachia",
+					"kaduna-birnin-gwari",
+					"bauchi-katagum",
+					"bauchi-jama-are",
+					"bauchi-itas-gadau",
+					"bauchi-gamawa",
+					"bauchi-shira",
+					"bauchi-giade",
+					"bauchi-misau",
+					"bauchi-bauchi",
+					"bauchi-ganjuwa",
+					"bauchi-darazo",
+					"bauchi-dambam",
+					"bauchi-zaki",
+					"bauchi-kirfi",
+					"bauchi-alkaleri",
+					"bauchi-toro",
+					"bauchi-warji",
+					"gombe-gombe",
+					"gombe-akko",
+					"gombe-yamaltu-deba",
+					"gombe-kwami",
+					"gombe-dukku",
+					"gombe-funakaye",
+					"gombe-nafada",
+					"adamawa-yola-north",
+					"adamawa-yola-south",
+					"adamawa-girei",
+					"adamawa-fufore",
+					"adamawa-song",
+					"adamawa-mayo-belwa",
+					"adamawa-jada",
+					"adamawa-ganye",
+					"adamawa-toungo",
+					"adamawa-gombi",
+					"adamawa-hong",
+					"adamawa-mubi-north",
+					"adamawa-mubi-south",
+					"adamawa-maiha",
+					"taraba-jalingo",
+					"taraba-ardo-kola",
+					"taraba-lau",
+					"taraba-gassol",
+					"taraba-karim-lamido",
+					"taraba-gashaka",
+					"plateau-wase",
+					"nasarawa-keffi",
+					"nasarawa-nasarawa",
+					"nasarawa-lafia",
+					"nasarawa-karu",
+					"nasarawa-kokona",
+					"nasarawa-doma",
+					"niger-bida",
+					"niger-lavun",
+					"niger-gbako",
+					"niger-katcha",
+					"niger-edati",
+					"niger-agaie",
+					"niger-lapai",
+					"niger-mokwa",
+					"niger-kontagora",
+					"niger-mariga",
+					"niger-wushishi",
+					"niger-magama",
+					"niger-rijau",
+					"niger-mashegu",
+					"kwara-ilorin-west",
+					"kwara-ilorin-east",
+					"kwara-ilorin-south",
+					"kwara-asa",
+					"kwara-moro",
+					"kwara-edu",
+					"kwara-pategi"
+				],
+				"beyond": [
+					[
+						[
+							11.8,
+							10.6
+						],
+						[
+							13.6,
+							10.9
+						],
+						[
+							14.6,
+							9.6
+						],
+						[
+							15.2,
+							8
+						],
+						[
+							14.6,
+							6.4
+						],
+						[
+							12.6,
+							6
+						],
+						[
+							11.4,
+							6.8
+						],
+						[
+							11.6,
+							8.6
+						]
+					]
+				]
+			},
+			"influence": {
+				"lgas": [
+					"kwara-irepodun",
+					"kwara-ifelodun",
+					"kwara-isin",
+					"kwara-oke-ero",
+					"kwara-ekiti",
+					"kwara-offa",
+					"kwara-oyun",
+					"kogi-yagba-east",
+					"kogi-yagba-west",
+					"kogi-mopa-muro",
+					"kogi-kabba-bunu",
+					"kogi-ijumu",
+					"kogi-lokoja",
+					"kogi-kogi",
+					"kogi-okene",
+					"kogi-adavi",
+					"kogi-okehi",
+					"edo-akoko-edo",
+					"edo-etsako-west",
+					"edo-etsako-central",
+					"edo-etsako-east",
+					"edo-owan-east",
+					"niger-rafi",
+					"niger-shiroro",
+					"niger-paikoro",
+					"niger-chanchaga",
+					"niger-bosso",
+					"niger-suleja",
+					"niger-tafa",
+					"niger-gurara"
+				],
+				"beyond": [
+					[
+						[
+							0,
+							13.9
+						],
+						[
+							2.4,
+							14.4
+						],
+						[
+							3.6,
+							12.4
+						],
+						[
+							3.7,
+							11.1
+						],
+						[
+							2.3,
+							11
+						],
+						[
+							0.2,
+							12.4
+						]
+					]
+				],
+				"confidence": "medium"
+			},
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Argungu",
+						"point": [
+							4.53,
+							12.74
+						]
+					},
+					"label": "Kebbi resists at Argungu"
+				}
+			],
+			"sources": [
+				"wikipedia-sokoto-caliphate",
+				"hogben-kirk-greene-1966",
+				"mason-1981"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1897,
+			"title": "The Royal Niger Company takes Bida and Ilorin",
+			"text": "British company troops capture Bida and Ilorin in 1897. Lugard's West African Frontier Force takes Kano and Sokoto in 1903; Caliph Attahiru I dies resisting at Burmi that July.",
+			"capital": {
+				"name": "Sokoto",
+				"point": [
+					5.24,
+					13.06
+				]
+			},
+			"core": {
+				"states": [
+					"sokoto",
+					"zamfara",
+					"katsina",
+					"kano",
+					"jigawa"
+				],
+				"lgas": [
+					"kebbi-gwandu",
+					"kebbi-aleiro",
+					"kebbi-jega",
+					"kebbi-kalgo",
+					"kebbi-bunza",
+					"kebbi-maiyama",
+					"kebbi-koko-besse",
+					"kebbi-birnin-kebbi",
+					"kaduna-zaria",
+					"kaduna-sabon-gari",
+					"kaduna-giwa",
+					"kaduna-ikara",
+					"kaduna-kudan",
+					"kaduna-makarfi",
+					"kaduna-soba",
+					"kaduna-kubau",
+					"kaduna-igabi",
+					"bauchi-katagum",
+					"bauchi-jama-are",
+					"bauchi-itas-gadau",
+					"bauchi-gamawa",
+					"bauchi-shira",
+					"bauchi-giade",
+					"bauchi-misau",
+					"bauchi-bauchi",
+					"bauchi-ganjuwa",
+					"bauchi-darazo",
+					"bauchi-dambam",
+					"bauchi-zaki",
+					"bauchi-kirfi",
+					"bauchi-alkaleri",
+					"gombe-gombe",
+					"gombe-akko",
+					"gombe-yamaltu-deba",
+					"gombe-kwami",
+					"gombe-dukku",
+					"gombe-funakaye",
+					"gombe-nafada",
+					"adamawa-yola-north",
+					"adamawa-yola-south",
+					"adamawa-girei",
+					"adamawa-fufore",
+					"adamawa-song",
+					"adamawa-mayo-belwa",
+					"niger-kontagora",
+					"niger-mariga"
+				]
+			},
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Bida",
+						"point": [
+							6.01,
+							9.08
+						]
+					},
+					"label": "Bida falls (1897)"
+				},
+				{
+					"kind": "war",
+					"to": {
+						"name": "Ilorin",
+						"point": [
+							4.55,
+							8.5
+						]
+					},
+					"label": "Ilorin falls (1897)"
+				}
+			],
+			"sources": [
+				"wikipedia-sokoto-caliphate",
+				"adeleye-1971"
+			],
+			"confidence": "high"
+		}
+	],
+	"today": {
+		"text": "The caliphate ended in 1903, but the Sultan of Sokoto remains the spiritual leader of Nigeria's Muslims and president-general of the Nigerian Supreme Council for Islamic Affairs. Most of the emirates it created still have emirs.",
+		"title": "Sultan of Sokoto",
+		"seat": {
+			"name": "Sokoto",
+			"point": [
+				5.24,
+				13.06
+			]
+		},
+		"sources": [
+			"wikipedia-sokoto-caliphate"
+		],
+		"confidence": "high"
+	},
+	"reviewNotes": [
+		"Gudu's location is approximate.",
+		"The Adamawa ring in Cameroon and the Gwandu ring (Liptako, Say, Gurma) are rough outlines."
+	]
+}

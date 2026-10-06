@@ -1,0 +1,70 @@
+{
+	"status": "draft",
+	"communities": [
+		{
+			"name": "Kagogi",
+			"lga": "niger-borgu",
+			"point": [
+				4.4984,
+				9.9182
+			],
+			"villages": [],
+			"sources": [
+				"ross-jones-borgu",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"note": "Part of Karabonde, near New Bussa."
+		},
+		{
+			"name": "Monnai",
+			"lga": "niger-borgu",
+			"point": [
+				4.5495,
+				9.8894
+			],
+			"villages": [],
+			"sources": [
+				"ross-jones-borgu",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"note": "Also home to Busa and Nupe."
+		}
+	],
+	"reviewNotes": [
+		"Lesugbe, Luma, Sansanni and Shagunu are not yet located in GRID3."
+	],
+	"name": "Laru",
+	"searchAliases": [
+		"Laru",
+		"Larawa"
+	],
+	"language": {
+		"name": "Laru",
+		"glottocode": "laru1238",
+		"family": "kainji",
+		"sources": [
+			"glottolog-laru"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Laru are a small Kainji people, about 5,000, in Borgu LGA, predominant in the villages of Kagogi, Monnai, Lesugbe, Luma, Sansanni and Shagunu. They are assimilating to Busa language and culture.",
+		"sources": [
+			"ross-jones-borgu",
+			"glottolog-laru"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "niger-borgu",
+			"presence": "minority",
+			"sources": [
+				"ross-jones-borgu"
+			],
+			"confidence": "high"
+		}
+	]
+}

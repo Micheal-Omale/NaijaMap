@@ -196,6 +196,24 @@
 			],
 			"confidence": "high",
 			"note": "Apoi and Arogbo Ijaw; the only Ijaw LGA in the South West."
+		},
+		{
+			"lga": "rivers-ogu-bolo",
+			"presence": "core",
+			"sources": [
+				"wikipedia-rivers-state"
+			],
+			"confidence": "high",
+			"note": "Okrika (Kirike) Ijaw."
+		},
+		{
+			"lga": "rivers-opobo-nkoro",
+			"presence": "core",
+			"sources": [
+				"wikipedia-rivers-state"
+			],
+			"confidence": "high",
+			"note": "Ibani (Opobo) Ijaw, with the Nkoroo and Defaka."
 		}
 	]
 }

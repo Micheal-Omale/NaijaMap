@@ -1,0 +1,292 @@
+{
+	"name": "Kebbi",
+	"status": "draft",
+	"kind": "kingdom",
+	"otherNames": [],
+	"span": {
+		"from": 1516,
+		"to": 1902,
+		"sources": [
+			"wikipedia-argungu-emirate"
+		],
+		"confidence": "medium"
+	},
+	"peak": 1530,
+	"summary": {
+		"text": "Kebbi rose when Muhammadu Kanta rebelled against Songhay around 1516, defeated it, and built a fortified capital at Surame. For a generation Kebbi dominated western Hausaland. It resisted the jihad longer than any Hausa state, and its rulers held out at Argungu until the British arrived in 1902.",
+		"sources": [
+			"wikipedia-argungu-emirate",
+			"wikipedia-surame"
+		],
+		"confidence": "medium"
+	},
+	"ruler": {
+		"title": "Kanta, later Sarkin Kebbi",
+		"sources": [
+			"wikipedia-argungu-emirate"
+		],
+		"confidence": "high"
+	},
+	"peoples": [
+		"hausa"
+	],
+	"snapshots": [
+		{
+			"year": 1516,
+			"yearLabel": "c. 1516",
+			"title": "Kanta rebels against Songhay",
+			"text": "Muhammadu Kanta, a Songhay commander, revolts after a campaign against Agadez and defeats the Askia's army.",
+			"capital": {
+				"name": "Surame",
+				"point": [
+					4.899,
+					13.088
+				]
+			},
+			"core": {
+				"lgas": [
+					"kebbi-argungu",
+					"kebbi-augie",
+					"kebbi-birnin-kebbi",
+					"kebbi-kalgo",
+					"kebbi-bunza",
+					"kebbi-aleiro",
+					"kebbi-gwandu",
+					"kebbi-jega",
+					"sokoto-silame",
+					"sokoto-binji"
+				]
+			},
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Gao (Songhay)",
+						"point": [
+							-0.04,
+							16.27
+						]
+					},
+					"label": "War with Songhay"
+				}
+			],
+			"sources": [
+				"wikipedia-argungu-emirate"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1530,
+			"yearLabel": "c. 1530–1556",
+			"title": "Kebbi at its height",
+			"text": "From the walled city of Surame, Kanta dominates western Hausaland. He dies in 1556 returning from a war with Bornu.",
+			"capital": {
+				"name": "Surame",
+				"point": [
+					4.899,
+					13.088
+				]
+			},
+			"core": {
+				"lgas": [
+					"kebbi-argungu",
+					"kebbi-augie",
+					"kebbi-arewa-dandi",
+					"kebbi-birnin-kebbi",
+					"kebbi-kalgo",
+					"kebbi-bunza",
+					"kebbi-aleiro",
+					"kebbi-gwandu",
+					"kebbi-jega",
+					"kebbi-maiyama",
+					"kebbi-koko-besse",
+					"kebbi-suru",
+					"sokoto-silame",
+					"sokoto-binji",
+					"sokoto-tangaza",
+					"sokoto-gudu",
+					"sokoto-kebbe",
+					"sokoto-dange-shuni",
+					"sokoto-bodinga",
+					"sokoto-yabo",
+					"sokoto-shagari",
+					"sokoto-tambuwal",
+					"sokoto-wamakko",
+					"sokoto-sokoto-north",
+					"sokoto-sokoto-south"
+				],
+				"beyond": [
+					[
+						[
+							3.5,
+							12
+						],
+						[
+							5,
+							13.5
+						],
+						[
+							5,
+							14.2
+						],
+						[
+							3.4,
+							14
+						],
+						[
+							2.9,
+							12.9
+						]
+					]
+				]
+			},
+			"influence": {
+				"lgas": [
+					"zamfara-gummi",
+					"zamfara-bukkuyum",
+					"zamfara-anka",
+					"zamfara-talata-mafara",
+					"zamfara-bakura",
+					"zamfara-maru"
+				],
+				"confidence": "disputed"
+			},
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Ngazargamu",
+						"point": [
+							12.367,
+							13.083
+						]
+					},
+					"label": "War with Bornu"
+				}
+			],
+			"sources": [
+				"wikipedia-argungu-emirate",
+				"wikipedia-surame"
+			],
+			"confidence": "medium",
+			"note": "Claims that Kanta ruled all Hausaland come from tradition and are disputed."
+		},
+		{
+			"year": 1700,
+			"yearLabel": "c. 1700",
+			"title": "Capital at Birnin Kebbi",
+			"text": "Surame is abandoned and Birnin Kebbi becomes the capital of a smaller kingdom.",
+			"capital": {
+				"name": "Birnin Kebbi",
+				"point": [
+					4.2,
+					12.45
+				]
+			},
+			"core": {
+				"lgas": [
+					"kebbi-argungu",
+					"kebbi-augie",
+					"kebbi-arewa-dandi",
+					"kebbi-birnin-kebbi",
+					"kebbi-kalgo",
+					"kebbi-bunza",
+					"kebbi-aleiro",
+					"kebbi-gwandu",
+					"kebbi-jega",
+					"kebbi-maiyama",
+					"kebbi-suru",
+					"sokoto-silame"
+				]
+			},
+			"sources": [
+				"wikipedia-surame",
+				"wikipedia-argungu-emirate"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1805,
+			"title": "The jihad takes Birnin Kebbi",
+			"text": "Abdullahi dan Fodio's forces take Birnin Kebbi, but the Kebbawa fight on from the river valleys.",
+			"core": {
+				"lgas": [
+					"kebbi-argungu",
+					"kebbi-augie",
+					"kebbi-arewa-dandi",
+					"kebbi-suru"
+				]
+			},
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Gwandu",
+						"point": [
+							4.64,
+							12.5
+						]
+					},
+					"label": "War with Gwandu"
+				}
+			],
+			"sources": [
+				"wikipedia-argungu-emirate"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1849,
+			"title": "Independent again at Argungu",
+			"text": "Yakubu Nabame declares Kebbi independent with Argungu as its capital. War with Gwandu and Sokoto goes on until the British arrive in 1902.",
+			"capital": {
+				"name": "Argungu",
+				"point": [
+					4.53,
+					12.74
+				]
+			},
+			"core": {
+				"lgas": [
+					"kebbi-argungu",
+					"kebbi-augie",
+					"kebbi-arewa-dandi",
+					"kebbi-suru"
+				]
+			},
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Gwandu",
+						"point": [
+							4.64,
+							12.5
+						]
+					},
+					"label": "War with Gwandu"
+				}
+			],
+			"sources": [
+				"wikipedia-argungu-emirate"
+			],
+			"confidence": "high"
+		}
+	],
+	"today": {
+		"text": "The Emir of Argungu carries on the Kebbi line. Argungu is known for its fishing festival, held since 1934.",
+		"title": "Emir of Argungu",
+		"seat": {
+			"name": "Argungu",
+			"point": [
+				4.53,
+				12.74
+			]
+		},
+		"sources": [
+			"wikipedia-argungu-emirate"
+		],
+		"confidence": "high"
+	},
+	"reviewNotes": []
+}

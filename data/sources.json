@@ -2219,5 +2219,2044 @@
 		"kind": "testimony",
 		"accessed": "2026-10-06",
 		"checked": true
+	},
+	{
+		"id": "glottolog-egbema",
+		"title": "Glottolog: Egbema, a dialect within Igbo (egbe1246)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/egbe1246",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ohaji-egbema",
+		"title": "Ohaji/Egbema",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ohaji/Egbema",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "okwuzi-history",
+		"title": "History of Okwuzi (Egbema, Rivers State)",
+		"author": "Ezihe, Evidence",
+		"url": "http://alikcarnival.blogspot.com/p/history-of-okwuzi.html",
+		"kind": "web",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "tide-2015-ebocha",
+		"title": "Ebocha Explosions: Agonies Of Host Communities. The Tide",
+		"author": "Ukwe, Goodluck",
+		"year": 2015,
+		"url": "https://www.thetidenewsonline.com/2015/07/ebocha-explosions-agonies-of-host-communities/",
+		"kind": "news",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "owner-2026-10-06-egbema",
+		"title": "Local knowledge from the NiajMap owner: the Egbema of Rivers and of Imo are the same people",
+		"author": "NiajMap owner",
+		"year": 2026,
+		"kind": "testimony",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "ross-jones-borgu",
+		"title": "The ethnic groups of present day Borgu (with population estimates for 1997 from the 1991 census and a 1992 language survey)",
+		"author": "Jones, Ross",
+		"url": "https://wasc.org.uk/Nigeria%20history%20docs/Borgu%20ethnic%20groups.pdf",
+		"kind": "article",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-kebbi-state",
+		"title": "Kebbi State (languages by LGA)",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Kebbi_State",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-sokoto-state",
+		"title": "Sokoto State (languages by LGA)",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Sokoto_State",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-kwara-state",
+		"title": "Kwara State (languages by LGA)",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Kwara_State",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-kainji-languages",
+		"title": "Kainji languages (languages with LGAs)",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Kainji_languages",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-kamuku-languages",
+		"title": "Kamuku languages",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Kamuku_languages",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-kimba-language",
+		"title": "Kimba language (Tsikimba)",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Kimba_language",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ilorin",
+		"title": "Ilorin",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ilorin",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "sokoto-state-gov-people",
+		"title": "People of Sokoto. Official website of Sokoto State Government",
+		"author": "Sokoto State Government",
+		"url": "https://sokotostate.gov.ng/history-of-sokoto/people-of-sokoto/",
+		"kind": "web",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-baatonum",
+		"title": "Glottolog: Baatonum, a Gur language (baat1238)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/baat1238",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-busa",
+		"title": "Glottolog: Busa, Boko-Busa cluster of Eastern Mande (busa1253)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/busa1253",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-boko",
+		"title": "Glottolog: Boko, Boko-Busa cluster of Eastern Mande (boko1266)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/boko1266",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-bokobaru",
+		"title": "Glottolog: Bokobaru, Boko-Busa cluster of Eastern Mande (boko1267)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/boko1267",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-kyenga",
+		"title": "Glottolog: Kyenga, Kyenga-Shanga branch of Eastern Mande (kyen1242)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/kyen1242",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-shanga",
+		"title": "Glottolog: Shanga, Kyenga-Shanga branch of Eastern Mande (shan1282)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/shan1282",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-kambaric",
+		"title": "Glottolog: Kambaric, a Central Kainji family (kamb1319)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/kamb1319",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-reshe",
+		"title": "Glottolog: Reshe, Kainji Lake branch (resh1242)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/resh1242",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-hun-saare",
+		"title": "Glottolog: Hun-Saare (Duka), Northwestern Kainji (huns1239)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/huns1239",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-clela",
+		"title": "Glottolog: Clela-Damakawa, Northwestern Kainji (clel1239)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/clel1239",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-ut-main",
+		"title": "Glottolog: Ut-Ma'in (Kag-Fer-Jiir-Koor-Ror-Us-Zuksun), Northwestern Kainji (kagf1238)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/kagf1238",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-kamuku",
+		"title": "Glottolog: Kamuku, Central Kainji (kamu1262)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/kamu1262",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-cicipu",
+		"title": "Glottolog: Cicipu, Central Kainji (cici1237)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/cici1237",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-laru",
+		"title": "Glottolog: Laru (Nigeria), Upper Niger Kainji (laru1238)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/laru1238",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-lopa",
+		"title": "Glottolog: Lopa, Upper Niger Kainji (lopa1238)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/lopa1238",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-zarma",
+		"title": "Glottolog: Zarma-Kaado, Eastern Songhay (zarm1239)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/zarm1239",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-dendi",
+		"title": "Glottolog: Dendi, Eastern Songhay (dend1243)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/dend1243",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-tamajaq",
+		"title": "Glottolog: Tawallammat Tamajaq, Southern Tuareg (tawa1286)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/tawa1286",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-taraba-state",
+		"title": "Taraba State (languages by LGA)",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Taraba_State",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-plateau-state",
+		"title": "Plateau State (languages by LGA)",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Plateau_State",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-cross-river-state",
+		"title": "Cross River State (languages by LGA)",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Cross_River_State",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-kaduna-state",
+		"title": "Kaduna State (languages by LGA)",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Kaduna_State",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-nasarawa-state",
+		"title": "Nasarawa State (languages by LGA)",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Nasarawa_State",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-rivers-state",
+		"title": "Rivers State (languages by LGA)",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Rivers_State",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-borno-state",
+		"title": "Borno State (languages by LGA)",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Borno_State",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-bauchi-state",
+		"title": "Bauchi State (languages by LGA)",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Bauchi_State",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-fufore",
+		"title": "Fufore",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Fufore",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-girei",
+		"title": "Girei",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Girei",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-mayo-belwa",
+		"title": "Mayo-Belwa",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Mayo-Belwa",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ganye",
+		"title": "Ganye",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ganye",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-jada",
+		"title": "Jada, Nigeria",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Jada,_Nigeria",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-toungo",
+		"title": "Toungo, Nigeria",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Toungo,_Nigeria",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-shelleng",
+		"title": "Shelleng",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Shelleng",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-maiha",
+		"title": "Maiha",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Maiha",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-guyuk",
+		"title": "Guyuk",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Guyuk",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-michika",
+		"title": "Michika",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Michika",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-bena-mboi",
+		"title": "Bena–Mboi languages (Yungur, Mboi, Lala-Roba with LGAs)",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Bena%E2%80%93Mboi_languages",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": false
+	},
+	{
+		"id": "wikipedia-karim-lamido",
+		"title": "Karim Lamido",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Karim_Lamido",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "dailytrust-2023-karim-lamido",
+		"title": "16 killed in Taraba chieftaincy tussle (Karimjo and Wurkun). Daily Trust",
+		"url": "https://dailytrust.com/16-killed-in-taraba-chieftaincy-tussle/",
+		"kind": "news",
+		"accessed": "2026-10-06",
+		"checked": false,
+		"author": "Daily Trust",
+		"year": 2023
+	},
+	{
+		"id": "wikipedia-como-karim",
+		"title": "Como Karim language (Karimjo)",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Como_Karim_language",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": false
+	},
+	{
+		"id": "wikipedia-kurmi",
+		"title": "Kurmi, Nigeria",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Kurmi,_Nigeria",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-mambilla-plateau",
+		"title": "Mambilla Plateau",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Mambilla_Plateau",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": false
+	},
+	{
+		"id": "wikipedia-sardauna",
+		"title": "Sardauna, Taraba State",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Sardauna,_Taraba_State",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-bokkos",
+		"title": "Bokkos",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Bokkos",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-qua-an-pan",
+		"title": "Qua'an Pan",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Qua%27an_Pan",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-shendam",
+		"title": "Shendam",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Shendam",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-mikang",
+		"title": "Mikang",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Mikang",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "sil-2021-mikang",
+		"title": "A sociolinguistic survey in Mikang LGA (Tehl, Koenoem, Piapung, Youm). Journal of Language Survey Reports 2021-007",
+		"url": "https://www.sil.org/system/files/reapdata/71/62/14/71621414605778599033039780031610178665/JLSR2021_007.pdf",
+		"kind": "article",
+		"accessed": "2026-10-06",
+		"checked": false,
+		"author": "SIL Nigeria",
+		"year": 2021
+	},
+	{
+		"id": "wikipedia-kanam",
+		"title": "Kanam, Nigeria",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Kanam,_Nigeria",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": false
+	},
+	{
+		"id": "wikipedia-irigwe-people",
+		"title": "Irigwe people",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Irigwe_people",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": false
+	},
+	{
+		"id": "hrw-2006-indigenes",
+		"title": "\"They Do Not Own This Place\": Government Discrimination Against \"Non-Indigenes\" in Nigeria",
+		"url": "https://www.hrw.org/report/2006/04/25/they-do-not-own-place/government-discrimination-against-non-indigenes-nigeria",
+		"kind": "article",
+		"accessed": "2026-10-06",
+		"checked": true,
+		"author": "Human Rights Watch",
+		"year": 2006
+	},
+	{
+		"id": "wikipedia-jos-north",
+		"title": "Jos North",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Jos_North",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-toro-bauchi",
+		"title": "Toro, Nigeria",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Toro,_Nigeria",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": false
+	},
+	{
+		"id": "wikipedia-warji-language",
+		"title": "Warji language",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Warji_language",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": false
+	},
+	{
+		"id": "wikipedia-gamo-ningi",
+		"title": "Gamo-Ningi language (Butawa)",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Gamo-Ningi_language",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": false
+	},
+	{
+		"id": "mandaras-dghwede",
+		"title": "Dghwede (Mandara Mountains peoples)",
+		"url": "https://mandaras.info/Dghwede.html",
+		"kind": "web",
+		"accessed": "2026-10-06",
+		"checked": false
+	},
+	{
+		"id": "wikipedia-bahumono",
+		"title": "Bahumono people",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Bahumono_people",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": false
+	},
+	{
+		"id": "crossriverhub-ogoja",
+		"title": "About Ogoja Local Government (Mbube, Ishibori, Ekajuk)",
+		"url": "https://www.crossriverhub.com/about-ogoja-local-government/",
+		"kind": "web",
+		"accessed": "2026-10-06",
+		"checked": false
+	},
+	{
+		"id": "opencommons-biase",
+		"title": "Biase, Nigeria (clans: Umon, Egup Ipa, Erei, Ehom, Ubaghara)",
+		"url": "https://opencommons.org/Biase_Nigeria",
+		"kind": "web",
+		"accessed": "2026-10-06",
+		"checked": false
+	},
+	{
+		"id": "connectnigeria-yala",
+		"title": "Ethnic Groups in Nigeria: The Yala People",
+		"url": "https://articles.connectnigeria.com/ethnic-groups-in-nigeria-the-yala-people/",
+		"kind": "web",
+		"accessed": "2026-10-06",
+		"checked": false
+	},
+	{
+		"id": "wikipedia-ika-akwa-ibom",
+		"title": "Ika, Akwa Ibom",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ika,_Akwa_Ibom",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": false
+	},
+	{
+		"id": "wikipedia-ogbia",
+		"title": "Ogbia",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ogbia",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "kagarko-lga",
+		"title": "Kagarko LGA, Kaduna State (official site)",
+		"url": "https://kagarkolga.net/",
+		"kind": "web",
+		"accessed": "2026-10-06",
+		"checked": false
+	},
+	{
+		"id": "wikipedia-atsam-people",
+		"title": "Atsam people",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Atsam_people",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": false
+	},
+	{
+		"id": "wikipedia-wamba",
+		"title": "Wamba, Nigeria",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Wamba,_Nigeria",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-eloyi-people",
+		"title": "Eloyi people",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Eloyi_people",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": false
+	},
+	{
+		"id": "manpower-oyigbo",
+		"title": "Oyigbo Local Government Area",
+		"url": "https://www.manpower.com.ng/places/lga/739/oyigbo",
+		"kind": "web",
+		"accessed": "2026-10-06",
+		"checked": false
+	},
+	{
+		"id": "glottolog-dako1256",
+		"title": "Glottolog: Dakoid family (Chamba Daka) (dako1256)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/dako1256",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-long1389",
+		"title": "Glottolog: Longuda (long1389)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/long1389",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-nzan1240",
+		"title": "Glottolog: Nzanyi (nzan1240)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/nzan1240",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-kamw1239",
+		"title": "Glottolog: Kamwe (kamw1239)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/kamw1239",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-dera1248",
+		"title": "Glottolog: Dera (Kanakuru) (dera1248)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/dera1248",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-yung1254",
+		"title": "Glottolog: Yungur-Voro (yung1254)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/yung1254",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-mboi1246",
+		"title": "Glottolog: Mboi (mboi1246)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/mboi1246",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-etky1238",
+		"title": "Glottolog: Etkywan (Ichen) (etky1238)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/etky1238",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-ndoo1241",
+		"title": "Glottolog: Ndoola (Ndoro) (ndoo1241)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/ndoo1241",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-tigo1236",
+		"title": "Glottolog: Tigon Mbembe (tigo1236)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/tigo1236",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-mamb1312",
+		"title": "Glottolog: Mambila (mamb1312)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/mamb1312",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-yamb1251",
+		"title": "Glottolog: Yamba (Kaka) (yamb1251)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/yamb1251",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-piya1245",
+		"title": "Glottolog: Piya-Kwonci (Wurkun) (piya1245)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/piya1245",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-como1258",
+		"title": "Glottolog: Como Karim (Karimjo) (como1258)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/como1258",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-dzaa1238",
+		"title": "Glottolog: Dza (Jenjo) (dzaa1238)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/dzaa1238",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-kyak1243",
+		"title": "Glottolog: Kyak (Bambuka) (kyak1243)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/kyak1243",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-irig1241",
+		"title": "Glottolog: Irigwe (irig1241)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/irig1241",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-chee1238",
+		"title": "Glottolog: Che (Rukuba) (chee1238)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/chee1238",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-ronn1241",
+		"title": "Glottolog: Ron (ronn1241)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/ronn1241",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-kule1247",
+		"title": "Glottolog: Kulere (kule1247)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/kule1247",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-mush1239",
+		"title": "Glottolog: Mushere (mush1239)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/mush1239",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-izer1241",
+		"title": "Glottolog: Izere (Afizere) (izer1241)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/izer1241",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-igut1238",
+		"title": "Glottolog: Iguta (Anaguta) (igut1238)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/igut1238",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-bogh1241",
+		"title": "Glottolog: Boghom (bogh1241)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/bogh1241",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-jarr1236",
+		"title": "Glottolog: Jar (Jarawa) (jarr1236)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/jarr1236",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-tall1250",
+		"title": "Glottolog: Tal (Tehl) (tall1250)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/tall1250",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-goem1240",
+		"title": "Glottolog: Goemai (goem1240)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/goem1240",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-mirr1240",
+		"title": "Glottolog: Mernyang (Pan/Kofyar) (mirr1240)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/mirr1240",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-warj1256",
+		"title": "Glottolog: Warji (warj1256)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/warj1256",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-gamo1241",
+		"title": "Glottolog: Gamo-Ningi (Butawa) (gamo1241)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/gamo1241",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-ciba1236",
+		"title": "Glottolog: Cibak (Kibaku) (ciba1236)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/ciba1236",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-glav1244",
+		"title": "Glottolog: Glavda (glav1244)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/glav1244",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-dghw1239",
+		"title": "Glottolog: Dghwede (dghw1239)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/dghw1239",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-lama1288",
+		"title": "Glottolog: Lamang (lama1288)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/lama1288",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-kohu1244",
+		"title": "Glottolog: Kohumono (Bahumono) (kohu1244)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/kohu1244",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-legb1242",
+		"title": "Glottolog: Legbo (Agbo) (legb1242)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/legb1242",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-bekw1241",
+		"title": "Glottolog: Bekwarra (bekw1241)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/bekw1241",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-boky1238",
+		"title": "Glottolog: Bokyi (boky1238)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/boky1238",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-oban1244",
+		"title": "Glottolog: Obanliku (oban1244)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/oban1244",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-bete1262",
+		"title": "Glottolog: Bete-Bendi (bete1262)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/bete1262",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-cros1244",
+		"title": "Glottolog: Cross River Mbembe (cros1244)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/cros1244",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-loka1252",
+		"title": "Glottolog: Lokaa (Yakurr) (loka1252)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/loka1252",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-yala1263",
+		"title": "Glottolog: Yala (yala1263)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/yala1263",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-kuke1242",
+		"title": "Glottolog: Kukele (Ukelle) (kuke1242)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/kuke1242",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-mbee1249",
+		"title": "Glottolog: Mbe (Mbube) (mbee1249)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/mbee1249",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-umon1238",
+		"title": "Glottolog: Umon (umon1238)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/umon1238",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-agwa1247",
+		"title": "Glottolog: Agwagwune (agwa1247)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/agwa1247",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-erei1238",
+		"title": "Glottolog: Erei (erei1238)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/erei1238",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-ubag1245",
+		"title": "Glottolog: Ubaghara (ubag1245)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/ubag1245",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-oroo1241",
+		"title": "Glottolog: Oro (Oron) (oroo1241)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/oroo1241",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-ekit1246",
+		"title": "Glottolog: Ekit (Eket) (ekit1246)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/ekit1246",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-ibin1241",
+		"title": "Glottolog: Ibino (Ibeno) (ibin1241)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/ibin1241",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-obol1243",
+		"title": "Glottolog: Obolo (obol1243)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/obol1243",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-abua1244",
+		"title": "Glottolog: Abua (abua1244)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/abua1244",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-odua1238",
+		"title": "Glottolog: Odual (odua1238)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/odua1238",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-ekpe1253",
+		"title": "Glottolog: Ekpeye (ekpe1253)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/ekpe1253",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-enge1239",
+		"title": "Glottolog: Egene (Engenni) (enge1239)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/enge1239",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-ogbi1239",
+		"title": "Glottolog: Ogbia (ogbi1239)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/ogbi1239",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-hyam1245",
+		"title": "Glottolog: Hyam (Ham) (hyam1245)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/hyam1245",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-ashe1269",
+		"title": "Glottolog: Ashe (Koro Wachi) (ashe1269)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/ashe1269",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-kada1284",
+		"title": "Glottolog: Kadara (Adara) (kada1284)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/kada1284",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-atsa1241",
+		"title": "Glottolog: Atsam (atsa1241)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/atsa1241",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-ninz1246",
+		"title": "Glottolog: Ninzo (ninz1246)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/ninz1246",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-numa1252",
+		"title": "Glottolog: Numana (numa1252)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/numa1252",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-eloy1241",
+		"title": "Glottolog: Ajiri (Eloyi, Afo) (eloy1241)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/eloy1241",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-rind1238",
+		"title": "Glottolog: Rindre (rind1238)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/rind1238",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-mama1272",
+		"title": "Glottolog: Mama (Kantana) (mama1272)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/mama1272",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-alum1246",
+		"title": "Glottolog: Arum (alum1246)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/alum1246",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-okoe1238",
+		"title": "Glottolog: Oko-Eni-Osayen (okoe1238)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/okoe1238",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-okob1241",
+		"title": "Glottolog: Okobo (okob1241)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/okob1241",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-kanem-bornu",
+		"title": "Kanem–Bornu Empire",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Kanem%E2%80%93Bornu_Empire",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ngazargamu",
+		"title": "Ngazargamu",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ngazargamu",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-oyo-empire",
+		"title": "Oyo Empire",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Oyo_Empire",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-old-oyo",
+		"title": "Oyo-Ile (Old Oyo)",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Oyo-Ile",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-kingdom-of-benin",
+		"title": "Kingdom of Benin",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Kingdom_of_Benin",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-sokoto-caliphate",
+		"title": "Sokoto Caliphate",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Sokoto_Caliphate",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-kwararafa",
+		"title": "Kwararafa",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Kwararafa",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-igala-kingdom",
+		"title": "Igala Kingdom",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Igala_Kingdom",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-igbo-igala-wars",
+		"title": "Igbo–Igala wars",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Igbo%E2%80%93Igala_wars",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": false
+	},
+	{
+		"id": "wikipedia-borgu",
+		"title": "Borgu",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Borgu",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-aro-confederacy",
+		"title": "Aro Confederacy",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Aro_Confederacy",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-kingdom-of-nri",
+		"title": "Kingdom of Nri",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Kingdom_of_Nri",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-kingdom-of-warri",
+		"title": "Kingdom of Warri",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Kingdom_of_Warri",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-kingdom-of-bonny",
+		"title": "Kingdom of Bonny",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Kingdom_of_Bonny",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-kalabari-kingdom",
+		"title": "Kalabari Kingdom",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Kalabari_Kingdom",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-nembe-kingdom",
+		"title": "Nembe Kingdom",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Nembe_Kingdom",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-opobo",
+		"title": "Opobo",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Opobo",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-argungu-emirate",
+		"title": "Argungu Emirate (Kebbi)",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Kebbi_Emirate",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-surame",
+		"title": "Surame",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Surame",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-zaria",
+		"title": "Zaria (Zazzau)",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Zazzau",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-gobir",
+		"title": "Gobir",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Gobir",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-alkalawa",
+		"title": "Alkalawa",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Alkalawa",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ibadan",
+		"title": "Ibadan",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ibadan",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "law-1977",
+		"title": "The Oyo Empire, c. 1600 – c. 1836: A West African Imperialism in the Era of the Atlantic Slave Trade",
+		"author": "Law, Robin",
+		"year": 1977,
+		"publisher": "Clarendon Press, Oxford",
+		"kind": "book",
+		"checked": false
+	},
+	{
+		"id": "ryder-1969",
+		"title": "Benin and the Europeans, 1485–1897",
+		"author": "Ryder, A. F. C.",
+		"year": 1969,
+		"publisher": "Longmans, London",
+		"kind": "book",
+		"checked": false
+	},
+	{
+		"id": "bradbury-1957",
+		"title": "The Benin Kingdom and the Edo-Speaking Peoples of South-Western Nigeria",
+		"author": "Bradbury, R. E.",
+		"year": 1957,
+		"publisher": "International African Institute, London",
+		"kind": "book",
+		"checked": false
+	},
+	{
+		"id": "egharevba-1968",
+		"title": "A Short History of Benin (4th edition)",
+		"author": "Egharevba, Jacob",
+		"year": 1968,
+		"publisher": "Ibadan University Press",
+		"kind": "book",
+		"checked": false
+	},
+	{
+		"id": "last-1967",
+		"title": "The Sokoto Caliphate",
+		"author": "Last, Murray",
+		"year": 1967,
+		"publisher": "Longmans, London",
+		"kind": "book",
+		"checked": false
+	},
+	{
+		"id": "hogben-kirk-greene-1966",
+		"title": "The Emirates of Northern Nigeria: A Preliminary Survey of Their Historical Traditions",
+		"author": "Hogben, S. J.; Kirk-Greene, A. H. M.",
+		"year": 1966,
+		"publisher": "Oxford University Press",
+		"kind": "book",
+		"checked": false
+	},
+	{
+		"id": "adeleye-1971",
+		"title": "Power and Diplomacy in Northern Nigeria, 1804–1906",
+		"author": "Adeleye, R. A.",
+		"year": 1971,
+		"publisher": "Longman, London",
+		"kind": "book",
+		"checked": false
+	},
+	{
+		"id": "palmer-1928",
+		"title": "Sudanese Memoirs, vol. 3 (includes the Kano Chronicle)",
+		"author": "Palmer, H. R. (translator)",
+		"year": 1928,
+		"publisher": "Government Printer, Lagos",
+		"kind": "book",
+		"checked": false
+	},
+	{
+		"id": "usman-1981",
+		"title": "The Transformation of Katsina, 1400–1883",
+		"author": "Usman, Yusufu Bala",
+		"year": 1981,
+		"publisher": "Ahmadu Bello University Press, Zaria",
+		"kind": "book",
+		"checked": false
+	},
+	{
+		"id": "smith-1960",
+		"title": "Government in Zazzau, 1800–1950",
+		"author": "Smith, M. G.",
+		"year": 1960,
+		"publisher": "Oxford University Press for the International African Institute",
+		"kind": "book",
+		"checked": false
+	},
+	{
+		"id": "brenner-1973",
+		"title": "The Shehus of Kukawa: A History of the al-Kanemi Dynasty of Bornu",
+		"author": "Brenner, Louis",
+		"year": 1973,
+		"publisher": "Clarendon Press, Oxford",
+		"kind": "book",
+		"checked": false
+	},
+	{
+		"id": "barkindo-1980",
+		"title": "The early states of the Central Sudan: Kanem, Borno and some of their neighbours to c. 1500 A.D. (in Ajayi and Crowder, eds., History of West Africa, vol. 1, 3rd edition, 1985)",
+		"author": "Barkindo, Bawuro M.",
+		"year": 1980,
+		"publisher": "Longman",
+		"kind": "book",
+		"checked": false
+	},
+	{
+		"id": "meek-1931",
+		"title": "A Sudanese Kingdom: An Ethnographical Study of the Jukun-Speaking Peoples of Nigeria",
+		"author": "Meek, C. K.",
+		"year": 1931,
+		"publisher": "Kegan Paul, London",
+		"kind": "book",
+		"checked": false
+	},
+	{
+		"id": "nadel-1942",
+		"title": "A Black Byzantium: The Kingdom of Nupe in Nigeria",
+		"author": "Nadel, S. F.",
+		"year": 1942,
+		"publisher": "Oxford University Press for the International African Institute",
+		"kind": "book",
+		"checked": false
+	},
+	{
+		"id": "mason-1981",
+		"title": "Foundations of the Bida Kingdom",
+		"author": "Mason, Michael",
+		"year": 1981,
+		"publisher": "Ahmadu Bello University Press, Zaria",
+		"kind": "book",
+		"checked": false
+	},
+	{
+		"id": "stewart-1993",
+		"title": "Borgu and Its Kingdoms: A Reconstruction of a Western Sudanese Polity",
+		"author": "Stewart, Marjorie Helen",
+		"year": 1993,
+		"publisher": "Edwin Mellen Press, Lewiston",
+		"kind": "book",
+		"checked": false
+	},
+	{
+		"id": "smith-1988",
+		"title": "Kingdoms of the Yoruba (3rd edition)",
+		"author": "Smith, Robert S.",
+		"year": 1988,
+		"publisher": "University of Wisconsin Press / James Currey",
+		"kind": "book",
+		"checked": false
+	},
+	{
+		"id": "johnson-1921",
+		"title": "The History of the Yorubas",
+		"author": "Johnson, Samuel",
+		"year": 1921,
+		"publisher": "Routledge, London (CMS Lagos)",
+		"kind": "book",
+		"checked": false
+	},
+	{
+		"id": "akinjogbin-1967",
+		"title": "Dahomey and Its Neighbours, 1708–1818",
+		"author": "Akinjogbin, I. A.",
+		"year": 1967,
+		"publisher": "Cambridge University Press",
+		"kind": "book",
+		"checked": false
+	},
+	{
+		"id": "biobaku-1957",
+		"title": "The Egba and Their Neighbours, 1842–1872",
+		"author": "Biobaku, Saburi O.",
+		"year": 1957,
+		"publisher": "Clarendon Press, Oxford",
+		"kind": "book",
+		"checked": false
+	},
+	{
+		"id": "akintoye-1971",
+		"title": "Revolution and Power Politics in Yorubaland, 1840–1893: Ibadan Expansion and the Rise of Ekitiparapo",
+		"author": "Akintoye, S. A.",
+		"year": 1971,
+		"publisher": "Longman, London",
+		"kind": "book",
+		"checked": false
+	},
+	{
+		"id": "ayandele-1992",
+		"title": "The Ijebu of Yorubaland, 1850–1950: Politics, Economy and Society",
+		"author": "Ayandele, E. A.",
+		"year": 1992,
+		"publisher": "Heinemann Educational Books, Ibadan",
+		"kind": "book",
+		"checked": false
+	},
+	{
+		"id": "mann-2007",
+		"title": "Slavery and the Birth of an African City: Lagos, 1760–1900",
+		"author": "Mann, Kristin",
+		"year": 2007,
+		"publisher": "Indiana University Press",
+		"kind": "book",
+		"checked": false
+	},
+	{
+		"id": "ogundiran-2020",
+		"title": "The Yoruba: A New History",
+		"author": "Ogundiran, Akinwumi",
+		"year": 2020,
+		"publisher": "Indiana University Press",
+		"kind": "book",
+		"checked": false
+	},
+	{
+		"id": "ikime-1969",
+		"title": "Niger Delta Rivalry: Itsekiri–Urhobo Relations and the European Presence, 1884–1936",
+		"author": "Ikime, Obaro",
+		"year": 1969,
+		"publisher": "Longman, London",
+		"kind": "book",
+		"checked": false
+	},
+	{
+		"id": "onwuejeogwu-1981",
+		"title": "An Igbo Civilization: Nri Kingdom and Hegemony",
+		"author": "Onwuejeogwu, M. Angulu",
+		"year": 1981,
+		"publisher": "Ethnographica, London",
+		"kind": "book",
+		"checked": false
+	},
+	{
+		"id": "shaw-1970",
+		"title": "Igbo-Ukwu: An Account of Archaeological Discoveries in Eastern Nigeria",
+		"author": "Shaw, Thurstan",
+		"year": 1970,
+		"publisher": "Faber and Faber, London",
+		"kind": "book",
+		"checked": false
+	},
+	{
+		"id": "dike-ekejiuba-1990",
+		"title": "The Aro of South-eastern Nigeria, 1650–1980",
+		"author": "Dike, K. Onwuka; Ekejiuba, Felicia",
+		"year": 1990,
+		"publisher": "University Press, Ibadan",
+		"kind": "book",
+		"checked": false
+	},
+	{
+		"id": "dike-1956",
+		"title": "Trade and Politics in the Niger Delta, 1830–1885",
+		"author": "Dike, K. Onwuka",
+		"year": 1956,
+		"publisher": "Clarendon Press, Oxford",
+		"kind": "book",
+		"checked": false
+	},
+	{
+		"id": "jones-1963",
+		"title": "The Trading States of the Oil Rivers: A Study of Political Development in Eastern Nigeria",
+		"author": "Jones, G. I.",
+		"year": 1963,
+		"publisher": "Oxford University Press for the International African Institute",
+		"kind": "book",
+		"checked": false
+	},
+	{
+		"id": "alagoa-1964",
+		"title": "The Small Brave City-State: A History of Nembe-Brass in the Niger Delta",
+		"author": "Alagoa, E. J.",
+		"year": 1964,
+		"publisher": "Ibadan University Press / University of Wisconsin Press",
+		"kind": "book",
+		"checked": false
+	},
+	{
+		"id": "latham-1973",
+		"title": "Old Calabar, 1600–1891: The Impact of the International Economy upon a Traditional Society",
+		"author": "Latham, A. J. H.",
+		"year": 1973,
+		"publisher": "Clarendon Press, Oxford",
+		"kind": "book",
+		"checked": false
+	},
+	{
+		"id": "ikime-1980",
+		"title": "Groundwork of Nigerian History",
+		"author": "Ikime, Obaro (editor)",
+		"year": 1980,
+		"publisher": "Heinemann Educational Books, Ibadan, for the Historical Society of Nigeria",
+		"kind": "book",
+		"checked": false
+	},
+	{
+		"id": "falola-heaton-2008",
+		"title": "A History of Nigeria",
+		"author": "Falola, Toyin; Heaton, Matthew M.",
+		"year": 2008,
+		"publisher": "Cambridge University Press",
+		"kind": "book",
+		"checked": false
+	},
+	{
+		"id": "ajayi-crowder-1985",
+		"title": "Historical Atlas of Africa",
+		"author": "Ajayi, J. F. Ade; Crowder, Michael (editors)",
+		"year": 1985,
+		"publisher": "Cambridge University Press",
+		"kind": "book",
+		"checked": false
 	}
 ]

@@ -1,0 +1,66 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Warji (Sirna)",
+	"searchAliases": [
+		"Warji",
+		"Warjawa",
+		"Sirna",
+		"Sirzakwai"
+	],
+	"language": {
+		"name": "Warji (Sirzakwai)",
+		"glottocode": "warj1256",
+		"family": "chadic",
+		"sources": [
+			"glottolog-warj1256"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Warji call themselves Sirna and their language Sirzakwai. Most live in Warji (formerly a district of Ningi, now its own LGA) and in Ganjuwa in Bauchi State, with a smaller group in Birnin Kudu LGA of Jigawa. About 75,000 speakers; the language is endangered as speakers shift to Hausa.",
+		"sources": [
+			"wikipedia-warji-language",
+			"amfani-2018",
+			"glottolog-warj1256"
+		],
+		"confidence": "medium"
+	},
+	"areas": [
+		{
+			"lga": "bauchi-warji",
+			"presence": "core",
+			"sources": [
+				"wikipedia-warji-language"
+			],
+			"confidence": "medium",
+			"note": "Warji district, named for them, became Warji LGA."
+		},
+		{
+			"lga": "bauchi-ningi",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-bauchi-state"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "bauchi-ganjuwa",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-warji-language"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "jigawa-birnin-kudu",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high",
+			"note": "Amfani: Warji 'is found in Birnin Kudu Local Government Area'."
+		}
+	]
+}

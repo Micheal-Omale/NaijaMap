@@ -819,6 +819,52 @@
 	background: var(--surface-2);
 }
 
+.back-link {
+	display: inline-flex;
+	align-items: center;
+	gap: 4px;
+	min-height: 32px;
+	margin: -4px 0 6px -6px;
+	padding: 0 8px 0 2px;
+	border: 0;
+	border-radius: 999px;
+	background: none;
+	color: var(--ink-muted);
+	font: inherit;
+	font-size: 0.875rem;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.back-link svg {
+	width: 18px;
+	height: 18px;
+	fill: none;
+	stroke: currentColor;
+	stroke-width: 2;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+	transition: transform 0.2s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.back-link:hover {
+	background: var(--surface);
+	color: var(--ink);
+}
+
+.back-link:hover svg {
+	transform: translateX(-2px);
+}
+
+/* On the plain panel (a profile) the hover needs the tinted surface to show. */
+.profile .back-link:hover {
+	background: var(--surface-2);
+}
+
+.swap:focus {
+	outline: none;
+}
+
 .place-card__head {
 	display: flex;
 	align-items: flex-start;

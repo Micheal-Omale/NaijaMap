@@ -1,0 +1,179 @@
+{
+	"name": "Opobo",
+	"status": "draft",
+	"kind": "city-state",
+	"otherNames": [],
+	"span": {
+		"from": 1869,
+		"to": 1887,
+		"sources": [
+			"wikipedia-opobo",
+			"dike-1956"
+		],
+		"confidence": "high"
+	},
+	"peak": 1880,
+	"summary": {
+		"text": "Founded by Jaja, a former slave who rose to head a Bonny trading house, after he broke with Bonny in 1869. Sitting at the mouth of the Imo river, Opobo took over the palm-oil markets of the hinterland, and Jaja dealt with European firms on his own terms until the British consul deported him in 1887.",
+		"sources": [
+			"wikipedia-opobo",
+			"dike-1956"
+		],
+		"confidence": "high"
+	},
+	"ruler": {
+		"title": "Amanyanabo (King Jaja and successors)",
+		"sources": [
+			"wikipedia-opobo"
+		],
+		"confidence": "high"
+	},
+	"peoples": [
+		"ijaw"
+	],
+	"snapshots": [
+		{
+			"year": 1869,
+			"title": "Jaja founds Opobo",
+			"text": "Jaja leads fourteen Bonny houses to a new site at the mouth of the Imo river and names it Opobo.",
+			"capital": {
+				"name": "Opobo",
+				"point": [
+					7.54,
+					4.51
+				]
+			},
+			"core": {
+				"lgas": [
+					"rivers-opobo-nkoro"
+				]
+			},
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Grand Bonny",
+						"point": [
+							7.17,
+							4.43
+						]
+					},
+					"label": "Break with Bonny"
+				}
+			],
+			"sources": [
+				"wikipedia-opobo",
+				"dike-1956"
+			],
+			"confidence": "high"
+		},
+		{
+			"year": 1880,
+			"yearLabel": "1873–1887",
+			"title": "Master of the Imo river",
+			"text": "Recognised by Britain in 1873, Opobo controls the palm-oil markets up the Imo river at Essene, Azumini and Akwete, and Jaja ships oil directly to Britain.",
+			"capital": {
+				"name": "Opobo",
+				"point": [
+					7.54,
+					4.51
+				]
+			},
+			"core": {
+				"lgas": [
+					"rivers-opobo-nkoro"
+				]
+			},
+			"influence": {
+				"lgas": [
+					"akwa-ibom-ikot-abasi",
+					"akwa-ibom-ukanafun",
+					"akwa-ibom-oruk-anam",
+					"akwa-ibom-mkpat-enin",
+					"abia-ukwa-east",
+					"abia-ukwa-west"
+				],
+				"confidence": "medium"
+			},
+			"links": [
+				{
+					"kind": "trade",
+					"to": {
+						"name": "Essene (approximate)",
+						"point": [
+							7.55,
+							4.68
+						]
+					},
+					"label": "Essene"
+				},
+				{
+					"kind": "trade",
+					"to": {
+						"name": "Azumini (approximate)",
+						"point": [
+							7.45,
+							5.06
+						]
+					},
+					"label": "Azumini"
+				},
+				{
+					"kind": "trade",
+					"to": {
+						"name": "Akwete",
+						"point": [
+							7.36,
+							4.97
+						]
+					},
+					"label": "Akwete"
+				}
+			],
+			"sources": [
+				"wikipedia-opobo",
+				"dike-1956"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1887,
+			"title": "Jaja deported",
+			"text": "Consul Harry Johnston lures Jaja onto a ship and deports him for trying to keep his monopoly. He dies in exile in 1891.",
+			"capital": {
+				"name": "Opobo",
+				"point": [
+					7.54,
+					4.51
+				]
+			},
+			"core": {
+				"lgas": [
+					"rivers-opobo-nkoro"
+				]
+			},
+			"sources": [
+				"wikipedia-opobo"
+			],
+			"confidence": "high"
+		}
+	],
+	"today": {
+		"text": "The Amanyanabo of Opobo, of the Jaja line, reigns in Opobo, Rivers State.",
+		"title": "Amanyanabo of Opobo",
+		"seat": {
+			"name": "Opobo",
+			"point": [
+				7.54,
+				4.51
+			]
+		},
+		"sources": [
+			"wikipedia-opobo"
+		],
+		"confidence": "high"
+	},
+	"reviewNotes": [
+		"Jaja's deportation date and Johnston's role are taken from general histories; confirm against Dike (1956)."
+	]
+}

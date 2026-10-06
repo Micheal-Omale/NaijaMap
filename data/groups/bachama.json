@@ -52,7 +52,7 @@
 			"confidence": "medium"
 		},
 		{
-			"lga": "adamawa-girei",
+			"lga": "adamawa-fufore",
 			"presence": "minority",
 			"sources": [
 				"wikipedia-bwatiye"
@@ -60,12 +60,22 @@
 			"confidence": "medium"
 		},
 		{
-			"lga": "adamawa-fufore",
+			"lga": "adamawa-girei",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-girei"
+			],
+			"confidence": "medium",
+			"note": "'A substantial number of Bwatiye also dwell in villages such as Greng and Labondo.'"
+		},
+		{
+			"lga": "adamawa-song",
 			"presence": "minority",
 			"sources": [
-				"wikipedia-bwatiye"
+				"wikipedia-bena-mboi"
 			],
-			"confidence": "medium"
+			"confidence": "medium",
+			"note": "Bata."
 		}
 	]
 }

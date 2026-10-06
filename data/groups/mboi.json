@@ -1,0 +1,48 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Mboi",
+	"searchAliases": [
+		"Mboi",
+		"Mboyi",
+		"Banga"
+	],
+	"language": {
+		"name": "Mboi",
+		"glottocode": "mboi1246",
+		"family": "adamawa",
+		"sources": [
+			"glottolog-mboi1246"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Mboi are a small Adamawa-speaking people of Song, Fufore and Gombi LGAs, about 19,000 speakers in 1992.",
+		"sources": [
+			"wikipedia-adamawa-state",
+			"wikipedia-bena-mboi",
+			"glottolog-mboi1246"
+		],
+		"confidence": "medium"
+	},
+	"areas": [
+		{
+			"lga": "adamawa-song",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-adamawa-state",
+				"wikipedia-bena-mboi"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "adamawa-fufore",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-fufore"
+			],
+			"confidence": "medium"
+		}
+	]
+}

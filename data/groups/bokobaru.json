@@ -1,0 +1,51 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Bokobaru",
+	"searchAliases": [
+		"Bokobaru",
+		"Zogben",
+		"Busa",
+		"Bussawa",
+		"Kaiama",
+		"Woro"
+	],
+	"language": {
+		"name": "Bokobaru (Zogben yan)",
+		"glottocode": "boko1267",
+		"family": "mande",
+		"sources": [
+			"glottolog-bokobaru"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Bokobaru live around Kaiama in Kwara State, in about 30 villages between Kaozi in the north, Mose in the south, Gbete in the west and Woro in the east. They speak Bokobaru, one of the Boko-Busa languages of the Eastern Mande family; the Hausa group them all as Busa (Bussawa). Kaiama was founded in the late 18th century as a royal capital by Boko nobles from Nikki, among Bokobaru people already living there. About 30,000 in 1997.",
+		"sources": [
+			"ross-jones-borgu",
+			"glottolog-bokobaru"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "kwara-kaiama",
+			"presence": "core",
+			"sources": [
+				"ross-jones-borgu"
+			],
+			"confidence": "high",
+			"note": "About 19,000 of Kaiama LGA's 45,900 people in 1991, with about 16,000 Fulbe and 8,000 Yoruba. LGA officials are mainly Bokobaru."
+		},
+		{
+			"lga": "kwara-baruten",
+			"presence": "minority",
+			"sources": [
+				"ross-jones-borgu"
+			],
+			"confidence": "medium",
+			"note": "About 6,000 Bokobaru."
+		}
+	]
+}

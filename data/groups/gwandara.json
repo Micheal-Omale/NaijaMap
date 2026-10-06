@@ -88,14 +88,6 @@
 			"confidence": "medium"
 		},
 		{
-			"lga": "nasarawa-kokona",
-			"presence": "minority",
-			"sources": [
-				"omachonu-dalhatu-2018"
-			],
-			"confidence": "medium"
-		},
-		{
 			"lga": "fct-municipal-area-council",
 			"presence": "minority",
 			"sources": [
@@ -116,6 +108,22 @@
 			"presence": "minority",
 			"sources": [
 				"omachonu-dalhatu-2018"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "nasarawa-kokona",
+			"presence": "core",
+			"sources": [
+				"wikipedia-nasarawa-state"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "kaduna-sanga",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-kaduna-state"
 			],
 			"confidence": "medium"
 		}

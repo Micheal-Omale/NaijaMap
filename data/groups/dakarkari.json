@@ -1,0 +1,90 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [
+		"Sokoto State's government lists the Dakarkari among the state's minorities without naming an LGA."
+	],
+	"name": "Dakarkari (Lelna)",
+	"searchAliases": [
+		"Dakarkari",
+		"Lelna",
+		"Lela",
+		"C'lela",
+		"Clela",
+		"Sindawa",
+		"Zuru"
+	],
+	"language": {
+		"name": "C'lela",
+		"glottocode": "clel1239",
+		"family": "kainji",
+		"sources": [
+			"glottolog-clela"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Lelna, known in Hausa as Dakarkari, are the main people of the Zuru Emirate in southern Kebbi State, in Zuru, Sakaba and Wasagu/Danko LGAs, with more in Rijau LGA of Niger State and across the border in Zamfara. They speak C'lela, a Kainji language related to Duka and Kambari.",
+		"sources": [
+			"wikipedia-kainji-languages",
+			"amfani-2018",
+			"glottolog-clela",
+			"wikipedia-kebbi-state"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "kebbi-zuru",
+			"presence": "core",
+			"sources": [
+				"wikipedia-kainji-languages",
+				"wikipedia-kebbi-state"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kebbi-sakaba",
+			"presence": "core",
+			"sources": [
+				"wikipedia-kainji-languages",
+				"wikipedia-kebbi-state"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kebbi-wasagu-danko",
+			"presence": "core",
+			"sources": [
+				"wikipedia-kainji-languages",
+				"wikipedia-kebbi-state"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "niger-rijau",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-kainji-languages"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "zamfara-bukkuyum",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high",
+			"note": "Amfani: boundary changes left C'lela speakers in Zamfara."
+		},
+		{
+			"lga": "zamfara-maru",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		}
+	]
+}

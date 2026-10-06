@@ -1,0 +1,54 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Bokyi (Boki)",
+	"searchAliases": [
+		"Bokyi",
+		"Boki",
+		"Nki"
+	],
+	"language": {
+		"name": "Bokyi",
+		"glottocode": "boky1238",
+		"family": "bendi",
+		"sources": [
+			"glottolog-boky1238"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Bokyi (Boki) are the people of Boki LGA in Cross River State and also live in Ikom and Etung. Bokyi is a Bendi language.",
+		"sources": [
+			"wikipedia-cross-river-state",
+			"glottolog-boky1238"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "cross-river-boki",
+			"presence": "core",
+			"sources": [
+				"wikipedia-cross-river-state"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "cross-river-ikom",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-cross-river-state"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "cross-river-etung",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-cross-river-state"
+			],
+			"confidence": "medium"
+		}
+	]
+}

@@ -53,6 +53,23 @@
 			],
 			"confidence": "high",
 			"note": "Shared with the Idoma."
+		},
+		{
+			"lga": "cross-river-ogoja",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-cross-river-state"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "cross-river-yala",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-cross-river-state"
+			],
+			"confidence": "medium",
+			"note": "The Igede ward of Yala."
 		}
 	],
 	"communities": [],

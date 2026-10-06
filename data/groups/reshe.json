@@ -1,0 +1,80 @@
+{
+	"status": "draft",
+	"communities": [
+		{
+			"name": "Ujiji",
+			"lga": "niger-agwara",
+			"point": [
+				4.4613,
+				10.5513
+			],
+			"villages": [],
+			"sources": [
+				"ross-jones-borgu",
+				"grid3-settlement-names"
+			],
+			"confidence": "medium",
+			"note": "Ross Jones gives Ujiji as the southern end of Reshe settlement; GRID3 places it in the Papiri ward of Agwara LGA."
+		}
+	],
+	"reviewNotes": [],
+	"name": "Reshe (Gungawa)",
+	"searchAliases": [
+		"Reshe",
+		"Bareshe",
+		"Tsureshe",
+		"Gungawa",
+		"Yaurawa"
+	],
+	"language": {
+		"name": "Reshe (Tsureshe)",
+		"glottocode": "resh1242",
+		"family": "kainji",
+		"sources": [
+			"glottolog-reshe"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Reshe call themselves Bareshe; the Hausa call them Gungawa, 'island people'. They are the original people of Yauri, and fled to the Niger islands in the mid 19th century before the new town of Yelwa was built. The Gungu (island) district of Yauri LGA is now their centre, and they live along the Niger from Illo to Shabanda and south into Borgu. They are known for irrigated onion fields, canoe building and fishing. Most also speak Hausa.",
+		"sources": [
+			"ross-jones-borgu",
+			"glottolog-reshe",
+			"wikipedia-kainji-languages"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "kebbi-yauri",
+			"presence": "core",
+			"sources": [
+				"ross-jones-borgu",
+				"wikipedia-kainji-languages",
+				"wikipedia-kebbi-state"
+			],
+			"confidence": "high",
+			"note": "Ross Jones: Yauri LGA 'is dominated by the Reshe and Kambari peoples'."
+		},
+		{
+			"lga": "niger-borgu",
+			"presence": "minority",
+			"sources": [
+				"ross-jones-borgu",
+				"wikipedia-kainji-languages"
+			],
+			"confidence": "medium",
+			"note": "About 10,000 in old Borgu."
+		},
+		{
+			"lga": "niger-agwara",
+			"presence": "minority",
+			"sources": [
+				"ross-jones-borgu",
+				"grid3-settlement-names"
+			],
+			"confidence": "medium",
+			"note": "At Ujiji, Agwara and Papiri."
+		}
+	]
+}

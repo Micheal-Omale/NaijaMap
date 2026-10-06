@@ -1,0 +1,49 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Goemai",
+	"searchAliases": [
+		"Goemai",
+		"Ankwe",
+		"Shendam"
+	],
+	"language": {
+		"name": "Goemai",
+		"glottocode": "goem1240",
+		"family": "chadic",
+		"sources": [
+			"glottolog-goem1240"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Goemai (formerly called Ankwe) are the main people of Shendam LGA in southern Plateau State and one of the two major peoples of Qua'an Pan.",
+		"sources": [
+			"wikipedia-shendam",
+			"wikipedia-qua-an-pan",
+			"glottolog-goem1240"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "plateau-shendam",
+			"presence": "core",
+			"sources": [
+				"wikipedia-shendam",
+				"wikipedia-plateau-state"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "plateau-qua-an-pan",
+			"presence": "core",
+			"sources": [
+				"wikipedia-qua-an-pan"
+			],
+			"confidence": "high",
+			"note": "'Two major tribes in Qua'an Pan: the Pan and the Goemai.'"
+		}
+	]
+}

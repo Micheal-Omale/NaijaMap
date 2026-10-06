@@ -1,0 +1,170 @@
+{
+	"name": "Nembe",
+	"status": "draft",
+	"kind": "city-state",
+	"otherNames": [
+		"Brass",
+		"Nembe-Brass"
+	],
+	"span": {
+		"from": 1500,
+		"to": 1895,
+		"fromLabel": "by the 16th century",
+		"sources": [
+			"wikipedia-nembe-kingdom",
+			"alagoa-1964"
+		],
+		"confidence": "medium"
+	},
+	"peak": 1850,
+	"summary": {
+		"text": "An Ijaw city-state of the eastern Niger Delta, trading through the port of Twon-Brass at the mouth of the Brass river. Shut out of the Niger trade by the Royal Niger Company, King Koko's Nembe warriors attacked the company at Akassa in 1895 and were punished by a British force.",
+		"sources": [
+			"wikipedia-nembe-kingdom",
+			"alagoa-1964"
+		],
+		"confidence": "high"
+	},
+	"ruler": {
+		"title": "Amanyanabo",
+		"sources": [
+			"wikipedia-nembe-kingdom"
+		],
+		"confidence": "high"
+	},
+	"peoples": [
+		"ijaw"
+	],
+	"snapshots": [
+		{
+			"year": 1500,
+			"yearLabel": "c. 1500",
+			"title": "Nembe in the creeks",
+			"text": "Nembe grows as an Ijaw kingdom; tradition dates its tenth king, Ogio, to around 1639.",
+			"capital": {
+				"name": "Nembe",
+				"point": [
+					6.4,
+					4.53
+				]
+			},
+			"core": {
+				"lgas": [
+					"bayelsa-nembe"
+				]
+			},
+			"sources": [
+				"wikipedia-nembe-kingdom",
+				"alagoa-1964"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1850,
+			"yearLabel": "c. 1830–1860",
+			"title": "Two towns and a port",
+			"text": "Civil war splits Nembe into Ogbolomabiri and Bassambiri. Through Twon-Brass it trades enslaved people and then, by 1856, mostly palm oil.",
+			"capital": {
+				"name": "Nembe",
+				"point": [
+					6.4,
+					4.53
+				]
+			},
+			"core": {
+				"lgas": [
+					"bayelsa-nembe",
+					"bayelsa-brass"
+				]
+			},
+			"nodes": [
+				{
+					"name": "Twon-Brass",
+					"point": [
+						6.24,
+						4.31
+					]
+				}
+			],
+			"links": [
+				{
+					"kind": "trade",
+					"to": {
+						"name": "Niger markets upriver",
+						"point": [
+							6.4,
+							5.4
+						]
+					},
+					"label": "Trade up the Niger"
+				}
+			],
+			"sources": [
+				"wikipedia-nembe-kingdom",
+				"alagoa-1964"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1895,
+			"title": "The Akassa raid",
+			"text": "Cut off from its markets by the Royal Niger Company's monopoly, Nembe under King Koko attacks the company depot at Akassa. A British naval force burns Nembe in reprisal.",
+			"capital": {
+				"name": "Nembe",
+				"point": [
+					6.4,
+					4.53
+				]
+			},
+			"core": {
+				"lgas": [
+					"bayelsa-nembe",
+					"bayelsa-brass"
+				]
+			},
+			"nodes": [
+				{
+					"name": "Twon-Brass",
+					"point": [
+						6.24,
+						4.31
+					]
+				}
+			],
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Akassa",
+						"point": [
+							6.07,
+							4.33
+						]
+					},
+					"label": "Akassa raid"
+				}
+			],
+			"sources": [
+				"wikipedia-nembe-kingdom",
+				"alagoa-1964"
+			],
+			"confidence": "high"
+		}
+	],
+	"today": {
+		"text": "Nembe has several Amanyanabos, for Ogbolomabiri, Bassambiri, Okpoama, Odioama and Twon-Brass, in Bayelsa State.",
+		"title": "Amanyanabo of Nembe",
+		"seat": {
+			"name": "Nembe",
+			"point": [
+				6.4,
+				4.53
+			]
+		},
+		"sources": [
+			"wikipedia-nembe-kingdom"
+		],
+		"confidence": "high"
+	},
+	"reviewNotes": []
+}

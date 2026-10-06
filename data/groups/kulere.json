@@ -1,0 +1,49 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Kulere",
+	"searchAliases": [
+		"Kulere",
+		"Tof",
+		"Richa"
+	],
+	"language": {
+		"name": "Kulere",
+		"glottocode": "kule1247",
+		"family": "chadic",
+		"sources": [
+			"glottolog-kule1247"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Kulere live in Bokkos LGA of Plateau State, under the Saf Ron/Kulere, and in Wamba LGA of Nasarawa.",
+		"sources": [
+			"wikipedia-bokkos",
+			"wikipedia-plateau-state",
+			"omachonu-dalhatu-2018",
+			"glottolog-kule1247"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "plateau-bokkos",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-bokkos",
+				"wikipedia-plateau-state"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "nasarawa-wamba",
+			"presence": "minority",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "medium"
+		}
+	]
+}

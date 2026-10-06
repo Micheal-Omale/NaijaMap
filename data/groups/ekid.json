@@ -1,0 +1,48 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Ekid (Eket)",
+	"searchAliases": [
+		"Ekid",
+		"Eket",
+		"Ekit",
+		"Etebi",
+		"Esit Eket"
+	],
+	"language": {
+		"name": "Ekit",
+		"glottocode": "ekit1246",
+		"family": "lower-cross",
+		"sources": [
+			"glottolog-ekit1246"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Ekid (Eket) are the people of Eket and Esit Eket LGAs on the Akwa Ibom coast; Esit Eket also has the related Etebi.",
+		"sources": [
+			"wikipedia-akwa-ibom",
+			"glottolog-ekit1246"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "akwa-ibom-eket",
+			"presence": "core",
+			"sources": [
+				"wikipedia-akwa-ibom"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "akwa-ibom-esit-eket",
+			"presence": "core",
+			"sources": [
+				"wikipedia-akwa-ibom"
+			],
+			"confidence": "high"
+		}
+	]
+}

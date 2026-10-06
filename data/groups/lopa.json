@@ -1,0 +1,59 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [
+		"Amboshidi and Tungan Bori are not yet located in GRID3."
+	],
+	"name": "Lopa",
+	"searchAliases": [
+		"Lopa",
+		"Lupa",
+		"Djiri",
+		"Kirikjir",
+		"Rop"
+	],
+	"language": {
+		"name": "Lopa (Kirikjir)",
+		"glottocode": "lopa1238",
+		"family": "kainji",
+		"sources": [
+			"glottolog-lopa"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Lopa call themselves Djiri and their language Kirikjir. About 5,000 live around Lake Kainji, with Lopa majorities at Amboshidi and Tungan Bori in Borgu LGA and others in Kebbi State. Those in Borgu are assimilating to Busa.",
+		"sources": [
+			"ross-jones-borgu",
+			"wikipedia-kainji-languages",
+			"glottolog-lopa"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "niger-borgu",
+			"presence": "minority",
+			"sources": [
+				"ross-jones-borgu"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kebbi-ngaski",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-kebbi-state"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "kebbi-yauri",
+			"presence": "minority",
+			"sources": [
+				"ross-jones-borgu"
+			],
+			"confidence": "medium"
+		}
+	]
+}

@@ -1,4 +1,5 @@
 import type { StyleSpecification } from 'maplibre-gl';
+import { historyFillLayers, historyTopLayers, regionLayers } from './history-style';
 
 /** Map colours, read from the CSS tokens in src/styles/global.css. */
 export interface MapColors {
@@ -17,6 +18,9 @@ export interface MapColors {
 	label: string;
 	labelStrong: string;
 	labelHalo: string;
+	regionLand: string;
+	regionBorder: string;
+	inkHalo: string;
 }
 
 export function readColors(el: Element = document.documentElement): MapColors {
@@ -38,6 +42,9 @@ export function readColors(el: Element = document.documentElement): MapColors {
 		label: v('--map-label'),
 		labelStrong: v('--map-label-strong'),
 		labelHalo: v('--map-label-halo'),
+		regionLand: v('--map-region-land'),
+		regionBorder: v('--map-region-border'),
+		inkHalo: v('--map-ink-halo'),
 	};
 }
 
@@ -71,9 +78,15 @@ export function buildStyle(
 			atlas: { type: 'geojson', data: EMPTY },
 			'atlas-labels': { type: 'geojson', data: EMPTY },
 			'atlas-communities': { type: 'geojson', data: EMPTY },
+			// The Then view: land around Nigeria, then polity territory, lines and places.
+			region: { type: 'geojson', data: EMPTY },
+			'hist-shapes': { type: 'geojson', data: EMPTY },
+			'hist-lines': { type: 'geojson', data: EMPTY },
+			'hist-points': { type: 'geojson', data: EMPTY },
 		},
 		layers: [
 			{ id: 'bg', type: 'background', paint: { 'background-color': c.bg } },
+			...regionLayers(c),
 			{
 				id: 'land',
 				type: 'fill',
@@ -118,6 +131,7 @@ export function buildStyle(
 				filter: ['!=', ['get', 'presence'], 'core'],
 				paint: { 'fill-pattern': ['match', ['get', 'presence'], 'significant', 'hatch', 'dots'] },
 			},
+			...historyFillLayers(),
 			{
 				id: 'lga-line',
 				type: 'line',
@@ -175,6 +189,16 @@ export function buildStyle(
 				layout: { 'line-join': 'round' },
 				paint: { 'line-color': c.outline, 'line-width': 1.6 },
 			},
+			{
+				// Today's border, faint and dashed under the old map: a reference, not a frontier of the time.
+				id: 'outline-then',
+				type: 'line',
+				source: 'base',
+				filter: ['==', ['get', 'kind'], 'outline'],
+				layout: { 'line-join': 'round', visibility: 'none' },
+				paint: { 'line-color': c.outline, 'line-width': 1, 'line-opacity': 0.55, 'line-dasharray': [4, 3] },
+			},
+			...historyTopLayers(c),
 			{
 				id: 'lga-selected',
 				type: 'line',
@@ -379,6 +403,16 @@ export function stripesImage(colors: string[]): Pattern {
 		for (let x = 0; x < size; x++) {
 			ctx.fillStyle = colors[Math.floor(((x + y) % size) / band) % colors.length];
 			ctx.fillRect(x, y, 1, 1);
+		}
+	}
+	// Neighbouring shades of one family (Egbema and Ogba) would blur into one
+	// colour, so close colours get a light hairline between bands.
+	const rgb = colors.map((c) => [1, 3, 5].map((i) => parseInt(c.slice(i, i + 2), 16)));
+	const close = rgb.some((a, i) => rgb.some((b, j) => j > i && a.reduce((s, v, k) => s + Math.abs(v - b[k]), 0) < 90));
+	if (close) {
+		ctx.fillStyle = 'rgba(255, 255, 255, 0.6)';
+		for (let y = 0; y < size; y++) {
+			for (let x = 0; x < size; x++) if ((x + y) % band === 0) ctx.fillRect(x, y, 1, 1);
 		}
 	}
 	return { width: size, height: size, data: ctx.getImageData(0, 0, size, size).data };

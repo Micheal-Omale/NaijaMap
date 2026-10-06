@@ -1,0 +1,228 @@
+{
+	"name": "Kano",
+	"status": "draft",
+	"kind": "kingdom",
+	"otherNames": [
+		"Kano Sultanate",
+		"Kano Kingdom"
+	],
+	"span": {
+		"from": 1000,
+		"to": 1807,
+		"fromLabel": "c. 999 (Bagauda)",
+		"sources": [
+			"wikipedia-hausa-kingdoms",
+			"palmer-1928"
+		],
+		"confidence": "medium",
+		"note": "The Kano Chronicle dates Bagauda's accession to 999; early dates are traditional."
+	},
+	"peak": 1470,
+	"summary": {
+		"text": "One of the seven Hausa states, Kano grew around Dala hill into the greatest market city of the central Sudan. Under Muhammad Rumfa it gained walls, a palace and the Kurmi market. It paid tribute at times to Bornu and suffered Kwararafa raids, and fell to the Fulani jihad in 1807.",
+		"sources": [
+			"wikipedia-hausa-kingdoms",
+			"palmer-1928"
+		],
+		"confidence": "high"
+	},
+	"ruler": {
+		"title": "Sarki (Sarkin Kano)",
+		"sources": [
+			"wikipedia-hausa-kingdoms"
+		],
+		"confidence": "high"
+	},
+	"peoples": [
+		"hausa"
+	],
+	"snapshots": [
+		{
+			"year": 1000,
+			"yearLabel": "c. 999",
+			"title": "Bagauda at Dala hill",
+			"text": "According to the Kano Chronicle, Bagauda founds the ruling line around the iron-rich hill of Dala.",
+			"capital": {
+				"name": "Kano",
+				"point": [
+					8.52,
+					12
+				]
+			},
+			"core": {
+				"lgas": [
+					"kano-kano-municipal",
+					"kano-dala",
+					"kano-gwale",
+					"kano-fagge",
+					"kano-nassarawa",
+					"kano-tarauni",
+					"kano-kumbotso",
+					"kano-ungogo"
+				]
+			},
+			"sources": [
+				"wikipedia-hausa-kingdoms",
+				"palmer-1928"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1349,
+			"yearLabel": "1349–1385",
+			"title": "Sarki Yaji: Islam and Rano",
+			"text": "Yaji I accepts Islam brought by Wangarawa scholars from Mali, and conquers the neighbouring Hausa state of Rano.",
+			"capital": {
+				"name": "Kano",
+				"point": [
+					8.52,
+					12
+				]
+			},
+			"core": {
+				"lgas": [
+					"kano-kano-municipal",
+					"kano-dala",
+					"kano-gwale",
+					"kano-fagge",
+					"kano-nassarawa",
+					"kano-tarauni",
+					"kano-kumbotso",
+					"kano-ungogo",
+					"kano-rano",
+					"kano-bunkure",
+					"kano-kibiya",
+					"kano-kura",
+					"kano-madobi",
+					"kano-garun-malam",
+					"kano-dawakin-kudu",
+					"kano-gezawa",
+					"kano-minjibir",
+					"kano-dawakin-tofa",
+					"kano-tofa"
+				]
+			},
+			"sources": [
+				"wikipedia-hausa-kingdoms",
+				"palmer-1928"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1463,
+			"yearLabel": "1463–1499",
+			"title": "Muhammad Rumfa",
+			"text": "Rumfa extends the city walls, builds the Gidan Rumfa palace that still stands, opens the Kurmi market and makes Kano a centre of Islamic learning. Kano pays tribute to Bornu in this era.",
+			"capital": {
+				"name": "Kano",
+				"point": [
+					8.52,
+					12
+				]
+			},
+			"core": {
+				"states": [
+					"kano"
+				]
+			},
+			"influence": {
+				"lgas": [
+					"jigawa-dutse",
+					"jigawa-birnin-kudu",
+					"jigawa-gwaram",
+					"jigawa-jahun",
+					"jigawa-kiyawa",
+					"jigawa-ringim",
+					"jigawa-taura",
+					"jigawa-gwiwa",
+					"jigawa-kazaure",
+					"jigawa-roni",
+					"jigawa-yankwashi"
+				],
+				"confidence": "medium"
+			},
+			"links": [
+				{
+					"kind": "tribute",
+					"to": {
+						"name": "Ngazargamu",
+						"point": [
+							12.367,
+							13.083
+						]
+					},
+					"label": "Tribute to Bornu"
+				}
+			],
+			"sources": [
+				"wikipedia-hausa-kingdoms",
+				"palmer-1928"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1650,
+			"yearLabel": "c. 1650–1700",
+			"title": "Kwararafa raids",
+			"text": "Jukun armies from Kwararafa raid Kano in the 1650s and 1670s. Kano's trade continues to grow regardless.",
+			"capital": {
+				"name": "Kano",
+				"point": [
+					8.52,
+					12
+				]
+			},
+			"core": {
+				"states": [
+					"kano"
+				]
+			},
+			"sources": [
+				"wikipedia-kwararafa",
+				"palmer-1928"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1807,
+			"title": "Fulani take Kano",
+			"text": "Jihad forces capture Kano in 1807; Suleiman becomes the first Fulani emir under Sokoto.",
+			"capital": {
+				"name": "Kano",
+				"point": [
+					8.52,
+					12
+				]
+			},
+			"core": {
+				"states": [
+					"kano"
+				]
+			},
+			"sources": [
+				"wikipedia-hausa-kingdoms",
+				"wikipedia-sokoto-caliphate"
+			],
+			"confidence": "high"
+		}
+	],
+	"today": {
+		"text": "The Emir of Kano reigns from the Gidan Rumfa palace, and Kano is Nigeria's second largest city. Since 2019 the old emirate has been split into several emirates by state law, a change still contested.",
+		"title": "Emir of Kano",
+		"seat": {
+			"name": "Kano",
+			"point": [
+				8.52,
+				12
+			]
+		},
+		"sources": [
+			"wikipedia-hausa-kingdoms"
+		],
+		"confidence": "medium",
+		"note": "The status of the emirate council has changed several times since 2019."
+	},
+	"reviewNotes": [
+		"Using all of Kano State for the core after 1463 is a simplification."
+	]
+}

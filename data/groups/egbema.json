@@ -1,0 +1,141 @@
+{
+	"status": "draft",
+	"communities": [
+		{
+			"name": "Mmahu",
+			"lga": "imo-ohaji-egbema",
+			"point": [
+				6.7402,
+				5.5626
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-ohaji-egbema",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"note": "Headquarters of Ohaji/Egbema LGA. GRID3 places Umueshi Mmahu and Aruru Mmahu in the Egbema A and B wards; point at Umueshi Mmahu."
+		},
+		{
+			"name": "Etekwuru",
+			"lga": "imo-ohaji-egbema",
+			"point": [
+				6.7883,
+				5.4592
+			],
+			"villages": [],
+			"sources": [
+				"tide-2015-ebocha",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"note": "Egbema D ward in GRID3. Neighbours the Rivers Egbema towns across the state line."
+		},
+		{
+			"name": "Mgbede",
+			"lga": "rivers-ogba-egbema-ndoni",
+			"point": [
+				6.7219,
+				5.4739
+			],
+			"villages": [],
+			"sources": [
+				"okwuzi-history",
+				"tide-2015-ebocha",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"note": "GRID3 files Mgbede under the Ndoni C2 ward."
+		},
+		{
+			"name": "Okwuzi",
+			"lga": "rivers-ogba-egbema-ndoni",
+			"point": [
+				6.7184,
+				5.4802
+			],
+			"villages": [],
+			"sources": [
+				"okwuzi-history",
+				"tide-2015-ebocha",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"note": "GRID3 files Okwuzi under the Ndoni C2 ward."
+		},
+		{
+			"name": "Ebocha",
+			"lga": "rivers-ogba-egbema-ndoni",
+			"point": [
+				6.6962,
+				5.4525
+			],
+			"villages": [],
+			"sources": [
+				"okwuzi-history",
+				"grid3-settlement-names"
+			],
+			"confidence": "medium",
+			"note": "Site of the Agip (NAOC) Ebocha oil centre. GRID3 files it under the Ndoni C2 ward."
+		}
+	],
+	"reviewNotes": [
+		"Not the Egbema of Delta State (Warri North and Warri South-West), who are an Ijaw (Izon) clan with a separate history.",
+		"Other Rivers Egbema towns named locally (Aggah, Ukpazi, Ekpe Aggah, Ekpe Mgbede, Ugada) are not yet located in GRID3. In Imo, Abacheke and Abaezi are named as Egbema but not yet located.",
+		"In Ogba/Egbema/Ndoni the Egbema hold about 2 of 17 wards (Wikipedia), so the stripes show a shared homeland, not equal shares."
+	],
+	"name": "Egbema",
+	"searchAliases": [
+		"Egbema",
+		"Egbema Kingdom",
+		"Mmahu",
+		"Mgbede",
+		"Okwuzi",
+		"Ebocha"
+	],
+	"language": {
+		"name": "Egbema",
+		"glottocode": "egbe1246",
+		"family": "igboid",
+		"sources": [
+			"glottolog-egbema"
+		],
+		"confidence": "high",
+		"note": "Glottolog lists Egbema as a dialect within Igbo."
+	},
+	"summary": {
+		"text": "The Egbema are one people whose kingdom was split by the state boundary: most of their towns lie in Ohaji/Egbema LGA of Imo State, around the LGA headquarters at Mmahu, and the rest in Ogba/Egbema/Ndoni LGA of Rivers State, around Mgbede, Okwuzi and Ebocha. Local histories describe the kingdom as “balkanized politically but traditionally one”, and trace its origin to a migration from old Benin. They speak Egbema, which Glottolog counts within Igbo. Their land holds major oil and gas facilities.",
+		"sources": [
+			"okwuzi-history",
+			"wikipedia-oen",
+			"wikipedia-ohaji-egbema",
+			"glottolog-egbema",
+			"owner-2026-10-06-egbema"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "imo-ohaji-egbema",
+			"presence": "core",
+			"sources": [
+				"wikipedia-ohaji-egbema",
+				"grid3-settlement-names",
+				"owner-2026-10-06-egbema"
+			],
+			"confidence": "high",
+			"note": "Five of the LGA’s eleven wards are Egbema A to E; the rest are Ohaji."
+		},
+		{
+			"lga": "rivers-ogba-egbema-ndoni",
+			"presence": "core",
+			"sources": [
+				"wikipedia-oen",
+				"okwuzi-history",
+				"owner-2026-10-06-egbema"
+			],
+			"confidence": "high",
+			"note": "One of the LGA’s three founding peoples, with the Ogba and the Ndoni."
+		}
+	]
+}

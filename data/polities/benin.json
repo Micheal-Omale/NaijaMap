@@ -1,0 +1,468 @@
+{
+	"name": "Kingdom of Benin",
+	"status": "draft",
+	"kind": "kingdom",
+	"otherNames": [
+		"Edo",
+		"Igodomigodo",
+		"Ubini"
+	],
+	"span": {
+		"from": 1000,
+		"to": 1897,
+		"fromLabel": "c. 900–1000 (Ogiso era)",
+		"sources": [
+			"wikipedia-kingdom-of-benin",
+			"egharevba-1968"
+		],
+		"confidence": "medium"
+	},
+	"peak": 1600,
+	"summary": {
+		"text": "The Edo kingdom of Benin grew from the Ogiso era into one of the great forest states of West Africa. Warrior Obas of the 15th and 16th centuries carried its rule west to Lagos and east to the Niger, and it traded with Portugal from 1485. A British force sacked Benin City in 1897 and looted the Benin Bronzes; the monarchy was restored in 1914.",
+		"sources": [
+			"wikipedia-kingdom-of-benin",
+			"ryder-1969",
+			"bradbury-1957"
+		],
+		"confidence": "high"
+	},
+	"ruler": {
+		"title": "Oba (earlier Ogiso)",
+		"sources": [
+			"wikipedia-kingdom-of-benin"
+		],
+		"confidence": "high"
+	},
+	"peoples": [
+		"edo",
+		"esan"
+	],
+	"snapshots": [
+		{
+			"year": 1000,
+			"yearLabel": "c. 1000",
+			"title": "Igodomigodo under the Ogiso",
+			"text": "The Ogiso, the \"kings of the sky\", rule a cluster of Edo communities in the forest around the future Benin City.",
+			"capital": {
+				"name": "Igodomigodo (Benin City)",
+				"point": [
+					5.627,
+					6.335
+				]
+			},
+			"core": {
+				"lgas": [
+					"edo-oredo",
+					"edo-egor",
+					"edo-ikpoba-okha"
+				]
+			},
+			"sources": [
+				"wikipedia-kingdom-of-benin",
+				"egharevba-1968"
+			],
+			"confidence": "medium",
+			"note": "Ogiso traditions are oral; dates are estimates."
+		},
+		{
+			"year": 1180,
+			"yearLabel": "c. 1180–1200",
+			"title": "Eweka I, the first Oba",
+			"text": "After the Ogiso line ends, Oranmiyan of Ife is invited and his son Eweka becomes the first Oba. Benin keeps ritual ties with Ife.",
+			"capital": {
+				"name": "Benin City",
+				"point": [
+					5.627,
+					6.335
+				]
+			},
+			"core": {
+				"lgas": [
+					"edo-oredo",
+					"edo-egor",
+					"edo-ikpoba-okha",
+					"edo-uhunmwonde",
+					"edo-orhionmwon"
+				]
+			},
+			"links": [
+				{
+					"kind": "ritual",
+					"to": {
+						"name": "Ile-Ife",
+						"point": [
+							4.56,
+							7.47
+						]
+					},
+					"label": "Dynastic and ritual ties with Ife"
+				}
+			],
+			"sources": [
+				"wikipedia-kingdom-of-benin",
+				"egharevba-1968"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1440,
+			"title": "Oba Ewuare the Great",
+			"text": "Ewuare rebuilds Benin City with great walls and moats and begins a century of conquest. The Esan chiefdoms come under Benin.",
+			"capital": {
+				"name": "Benin City",
+				"point": [
+					5.627,
+					6.335
+				]
+			},
+			"core": {
+				"lgas": [
+					"edo-oredo",
+					"edo-egor",
+					"edo-ikpoba-okha",
+					"edo-uhunmwonde",
+					"edo-orhionmwon",
+					"edo-ovia-north-east",
+					"edo-ovia-south-west",
+					"edo-esan-west",
+					"edo-esan-central",
+					"edo-esan-north-east",
+					"edo-esan-south-east",
+					"edo-iguegben"
+				]
+			},
+			"influence": {
+				"lgas": [
+					"delta-ika-north-east",
+					"delta-ika-south",
+					"edo-owan-east",
+					"edo-owan-west",
+					"ondo-owo",
+					"ondo-akure-south",
+					"ondo-akure-north"
+				],
+				"confidence": "medium"
+			},
+			"sources": [
+				"wikipedia-kingdom-of-benin",
+				"ryder-1969",
+				"egharevba-1968"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1515,
+			"yearLabel": "1515–1516",
+			"title": "Esigie defeats the Igala",
+			"text": "An Igala army invades from the north-east; Oba Esigie defeats it with help from Portuguese soldiers and guns. Portuguese traders have used the port of Ughoton since 1485.",
+			"capital": {
+				"name": "Benin City",
+				"point": [
+					5.627,
+					6.335
+				]
+			},
+			"core": {
+				"lgas": [
+					"edo-oredo",
+					"edo-egor",
+					"edo-ikpoba-okha",
+					"edo-uhunmwonde",
+					"edo-orhionmwon",
+					"edo-ovia-north-east",
+					"edo-ovia-south-west",
+					"edo-esan-west",
+					"edo-esan-central",
+					"edo-esan-north-east",
+					"edo-esan-south-east",
+					"edo-iguegben",
+					"edo-owan-east",
+					"edo-owan-west",
+					"delta-ika-north-east",
+					"delta-ika-south"
+				]
+			},
+			"influence": {
+				"lgas": [
+					"ondo-owo",
+					"ondo-akure-south",
+					"ondo-akure-north",
+					"ondo-idanre",
+					"ondo-ose",
+					"delta-aniocha-north",
+					"delta-aniocha-south",
+					"delta-oshimili-north",
+					"delta-oshimili-south",
+					"delta-warri-north",
+					"delta-warri-south",
+					"delta-warri-south-west",
+					"edo-etsako-west",
+					"edo-etsako-central",
+					"edo-etsako-east"
+				],
+				"confidence": "medium"
+			},
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Idah",
+						"point": [
+							6.74,
+							7.11
+						]
+					},
+					"label": "Benin–Igala war"
+				},
+				{
+					"kind": "trade",
+					"to": {
+						"name": "Ughoton (Gwato)",
+						"point": [
+							5.43,
+							6.24
+						]
+					},
+					"label": "Portuguese trade at Ughoton"
+				}
+			],
+			"sources": [
+				"wikipedia-kingdom-of-benin",
+				"ryder-1969"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1600,
+			"yearLabel": "c. 1600",
+			"title": "From Lagos to the Niger",
+			"text": "Benin's power reaches west along the lagoon to Eko (Lagos), where a Benin-backed dynasty rules and pays tribute, and east to the Niger, where Onitsha's founders trace their origin to Benin. Owo, Akure and the southern Ekiti towns feel Benin's weight. Oba Ehengbuda is the last of the warrior kings.",
+			"capital": {
+				"name": "Benin City",
+				"point": [
+					5.627,
+					6.335
+				]
+			},
+			"core": {
+				"lgas": [
+					"edo-oredo",
+					"edo-egor",
+					"edo-ikpoba-okha",
+					"edo-uhunmwonde",
+					"edo-orhionmwon",
+					"edo-ovia-north-east",
+					"edo-ovia-south-west",
+					"edo-esan-west",
+					"edo-esan-central",
+					"edo-esan-north-east",
+					"edo-esan-south-east",
+					"edo-iguegben",
+					"edo-owan-east",
+					"edo-owan-west",
+					"delta-ika-north-east",
+					"delta-ika-south",
+					"delta-aniocha-north",
+					"delta-aniocha-south",
+					"delta-oshimili-north",
+					"delta-oshimili-south"
+				]
+			},
+			"influence": {
+				"lgas": [
+					"ondo-owo",
+					"ondo-akure-south",
+					"ondo-akure-north",
+					"ondo-idanre",
+					"ondo-ose",
+					"ondo-ondo-east",
+					"ondo-ondo-west",
+					"ondo-ifedore",
+					"ondo-ile-oluji-okeigbo",
+					"ondo-odigbo",
+					"ondo-okitipupa",
+					"ondo-irele",
+					"ondo-ilaje",
+					"ondo-ese-odo",
+					"ondo-akoko-south-west",
+					"ondo-akoko-south-east",
+					"ekiti-ikere",
+					"ekiti-ise-orun",
+					"ekiti-emure",
+					"ekiti-ado-ekiti",
+					"ekiti-gbonyin",
+					"delta-warri-north",
+					"delta-warri-south",
+					"delta-warri-south-west",
+					"delta-ethiope-east",
+					"delta-ethiope-west",
+					"delta-okpe",
+					"delta-sapele",
+					"delta-uvwie",
+					"delta-ukwuani",
+					"delta-ndokwa-west",
+					"edo-etsako-west",
+					"edo-etsako-central",
+					"edo-etsako-east",
+					"edo-akoko-edo",
+					"lagos-lagos-island",
+					"lagos-eti-osa",
+					"lagos-lagos-mainland",
+					"lagos-apapa",
+					"lagos-epe",
+					"lagos-ibeju-lekki",
+					"anambra-onitsha-north",
+					"anambra-onitsha-south"
+				],
+				"confidence": "disputed"
+			},
+			"links": [
+				{
+					"kind": "tribute",
+					"to": {
+						"name": "Eko (Lagos Island)",
+						"point": [
+							3.394,
+							6.455
+						]
+					},
+					"label": "Eko (Lagos) pays tribute to Benin"
+				},
+				{
+					"kind": "trade",
+					"to": {
+						"name": "Ughoton (Gwato)",
+						"point": [
+							5.43,
+							6.24
+						]
+					},
+					"label": "European trade at Ughoton"
+				}
+			],
+			"sources": [
+				"wikipedia-kingdom-of-benin",
+				"ryder-1969",
+				"ajayi-crowder-1985"
+			],
+			"confidence": "medium",
+			"note": "How far Benin ruled, rather than raided or received tribute, is debated; the outer zone is drawn generously and marked disputed."
+		},
+		{
+			"year": 1700,
+			"yearLabel": "c. 1690–1720",
+			"title": "Civil war and contraction",
+			"text": "Succession wars under Oba Ewuakpe and after weaken the kingdom. Benin keeps its Edo and Esan heartland and ritual prestige, but its western reach shrinks.",
+			"capital": {
+				"name": "Benin City",
+				"point": [
+					5.627,
+					6.335
+				]
+			},
+			"core": {
+				"lgas": [
+					"edo-oredo",
+					"edo-egor",
+					"edo-ikpoba-okha",
+					"edo-uhunmwonde",
+					"edo-orhionmwon",
+					"edo-ovia-north-east",
+					"edo-ovia-south-west",
+					"edo-esan-west",
+					"edo-esan-central",
+					"edo-esan-north-east",
+					"edo-esan-south-east",
+					"edo-iguegben",
+					"edo-owan-east",
+					"edo-owan-west",
+					"delta-ika-north-east",
+					"delta-ika-south"
+				]
+			},
+			"influence": {
+				"lgas": [
+					"delta-aniocha-north",
+					"delta-aniocha-south",
+					"delta-oshimili-north",
+					"delta-oshimili-south",
+					"delta-warri-south-west",
+					"ondo-owo",
+					"ondo-akure-south",
+					"lagos-lagos-island"
+				],
+				"confidence": "medium"
+			},
+			"links": [
+				{
+					"kind": "tribute",
+					"to": {
+						"name": "Eko (Lagos Island)",
+						"point": [
+							3.394,
+							6.455
+						]
+					},
+					"label": "Lagos tribute continues"
+				}
+			],
+			"sources": [
+				"wikipedia-kingdom-of-benin",
+				"ryder-1969"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1897,
+			"title": "The British sack Benin City",
+			"text": "After a British party is ambushed in January 1897, a punitive expedition burns Benin City, loots thousands of bronzes and ivories, and exiles Oba Ovonramwen to Calabar.",
+			"capital": {
+				"name": "Benin City",
+				"point": [
+					5.627,
+					6.335
+				]
+			},
+			"core": {
+				"lgas": [
+					"edo-oredo",
+					"edo-egor",
+					"edo-ikpoba-okha",
+					"edo-uhunmwonde",
+					"edo-orhionmwon",
+					"edo-ovia-north-east",
+					"edo-ovia-south-west",
+					"edo-esan-west",
+					"edo-esan-central",
+					"edo-esan-north-east",
+					"edo-esan-south-east",
+					"edo-iguegben"
+				]
+			},
+			"sources": [
+				"wikipedia-kingdom-of-benin",
+				"ryder-1969"
+			],
+			"confidence": "high"
+		}
+	],
+	"today": {
+		"text": "The monarchy was restored in 1914 under Eweka II. The Oba of Benin reigns from his palace in Benin City, and looted bronzes have begun to return from Europe.",
+		"title": "Oba of Benin",
+		"seat": {
+			"name": "Benin City",
+			"point": [
+				5.627,
+				6.335
+			]
+		},
+		"sources": [
+			"wikipedia-kingdom-of-benin"
+		],
+		"confidence": "high"
+	},
+	"reviewNotes": [
+		"The c. 1600 outer zone (Lagos to Onitsha, Owo, Ekiti, Urhobo) is marked disputed. Ryder (1969) is more cautious than Egharevba (1968)."
+	]
+}

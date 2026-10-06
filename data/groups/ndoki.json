@@ -1,0 +1,41 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Asa and Ndoki (Oyigbo)",
+	"searchAliases": [
+		"Asa",
+		"Ndoki",
+		"Obigbo",
+		"Oyigbo",
+		"Afam"
+	],
+	"language": {
+		"name": "Ndoki and Asa (Igbo dialects)",
+		"family": "igboid",
+		"sources": [
+			"glottolog-igbo"
+		],
+		"confidence": "medium"
+	},
+	"summary": {
+		"text": "The indigenous Asa and Ndoki of Oyigbo LGA in Rivers State speak Igbo dialects. The Indigenous Igbo Council of Rivers counts them as Igbo; as with other Igbo-speaking Rivers peoples, this is contested.",
+		"sources": [
+			"wikipedia-rivers-state",
+			"manpower-oyigbo",
+			"vanguard-2025-rivers-igbo"
+		],
+		"confidence": "medium"
+	},
+	"areas": [
+		{
+			"lga": "rivers-oyigbo",
+			"presence": "core",
+			"sources": [
+				"wikipedia-rivers-state",
+				"manpower-oyigbo"
+			],
+			"confidence": "medium"
+		}
+	]
+}

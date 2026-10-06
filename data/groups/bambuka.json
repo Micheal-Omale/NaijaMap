@@ -1,0 +1,38 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Bambuka (Kyak)",
+	"searchAliases": [
+		"Bambuka",
+		"Kyak",
+		"Nyakyak"
+	],
+	"language": {
+		"name": "Kyak",
+		"glottocode": "kyak1243",
+		"family": "adamawa",
+		"sources": [
+			"glottolog-kyak1243"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Bambuka speak Kyak and are one of the indigenous peoples of Karim Lamido LGA, Taraba.",
+		"sources": [
+			"wikipedia-karim-lamido",
+			"glottolog-kyak1243"
+		],
+		"confidence": "medium"
+	},
+	"areas": [
+		{
+			"lga": "taraba-karim-lamido",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-karim-lamido"
+			],
+			"confidence": "medium"
+		}
+	]
+}

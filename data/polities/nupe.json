@@ -1,0 +1,287 @@
+{
+	"name": "Nupe Kingdom",
+	"status": "draft",
+	"kind": "kingdom",
+	"otherNames": [
+		"Bida Emirate"
+	],
+	"span": {
+		"from": 1450,
+		"to": 1897,
+		"fromLabel": "mid 15th century",
+		"sources": [
+			"wikipedia-bida-emirate",
+			"nadel-1942"
+		],
+		"confidence": "medium"
+	},
+	"peak": 1860,
+	"summary": {
+		"text": "Founded by Tsoede in the basin between the Niger and Kaduna rivers, Nupe was strong enough in the 16th century to sack Oyo-Ile. In the 19th century Fulani rulers took over and, from their new capital at Bida, built a powerful emirate that raided far south of the Niger. Company troops took Bida in 1897.",
+		"sources": [
+			"wikipedia-bida-emirate",
+			"nadel-1942",
+			"mason-1981"
+		],
+		"confidence": "medium"
+	},
+	"ruler": {
+		"title": "Etsu Nupe",
+		"sources": [
+			"wikipedia-bida-emirate"
+		],
+		"confidence": "high"
+	},
+	"peoples": [
+		"nupe"
+	],
+	"snapshots": [
+		{
+			"year": 1450,
+			"yearLabel": "c. 1450–1530",
+			"title": "Tsoede founds Nupe",
+			"text": "Tradition says Tsoede, son of an Attah of Igala, came up the Niger with brass regalia and united the Nupe chiefdoms.",
+			"capital": {
+				"name": "Gbara (approximate)",
+				"point": [
+					6.05,
+					8.9
+				]
+			},
+			"core": {
+				"lgas": [
+					"niger-lavun",
+					"niger-mokwa",
+					"niger-bida",
+					"niger-gbako",
+					"niger-katcha",
+					"niger-edati",
+					"kwara-edu",
+					"kwara-pategi"
+				]
+			},
+			"links": [
+				{
+					"kind": "ritual",
+					"to": {
+						"name": "Idah",
+						"point": [
+							6.74,
+							7.11
+						]
+					},
+					"label": "Founding tradition from Idah"
+				}
+			],
+			"sources": [
+				"wikipedia-bida-emirate",
+				"nadel-1942"
+			],
+			"confidence": "disputed",
+			"note": "Tsoede's dates are given as 15th or 16th century."
+		},
+		{
+			"year": 1535,
+			"yearLabel": "c. 1535",
+			"title": "Nupe sacks Oyo-Ile",
+			"text": "Nupe armies take the Oyo capital and drive its court into exile.",
+			"capital": {
+				"name": "Gbara (approximate)",
+				"point": [
+					6.05,
+					8.9
+				]
+			},
+			"core": {
+				"lgas": [
+					"niger-lavun",
+					"niger-mokwa",
+					"niger-bida",
+					"niger-gbako",
+					"niger-katcha",
+					"niger-edati",
+					"niger-agaie",
+					"niger-lapai",
+					"kwara-edu",
+					"kwara-pategi"
+				]
+			},
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Oyo-Ile (Old Oyo)",
+						"point": [
+							4.3075,
+							8.9747
+						]
+					},
+					"label": "Oyo-Ile sacked"
+				}
+			],
+			"sources": [
+				"wikipedia-oyo-empire",
+				"law-1977"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1770,
+			"yearLabel": "c. 1770–1818",
+			"title": "Islam and Etsu Ma'azu",
+			"text": "Etsu Jibrilu (around 1770) is the first Muslim king. Under Ma'azu, who dies in 1818, Nupe is at its strongest as a Nupe-ruled kingdom.",
+			"capital": {
+				"name": "Gbara (approximate)",
+				"point": [
+					6.05,
+					8.9
+				]
+			},
+			"core": {
+				"lgas": [
+					"niger-lavun",
+					"niger-mokwa",
+					"niger-bida",
+					"niger-gbako",
+					"niger-katcha",
+					"niger-edati",
+					"niger-agaie",
+					"niger-lapai",
+					"niger-wushishi",
+					"kwara-edu",
+					"kwara-pategi",
+					"kwara-moro"
+				]
+			},
+			"influence": {
+				"lgas": [
+					"kogi-lokoja",
+					"kogi-kogi"
+				],
+				"confidence": "medium"
+			},
+			"sources": [
+				"wikipedia-bida-emirate",
+				"nadel-1942"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1857,
+			"title": "Bida and the Fulani emirate",
+			"text": "Mallam Dendo's sons take power after civil wars, and Bida becomes the capital in 1857. Under Masaba and Umaru Majigi, Nupe armies take tribute from the Ebira, the Okun Yoruba and the northern Edo.",
+			"capital": {
+				"name": "Bida",
+				"point": [
+					6.01,
+					9.08
+				]
+			},
+			"core": {
+				"lgas": [
+					"niger-lavun",
+					"niger-mokwa",
+					"niger-bida",
+					"niger-gbako",
+					"niger-katcha",
+					"niger-edati",
+					"niger-agaie",
+					"niger-lapai",
+					"niger-wushishi",
+					"kwara-edu",
+					"kwara-pategi"
+				]
+			},
+			"influence": {
+				"lgas": [
+					"kogi-yagba-east",
+					"kogi-yagba-west",
+					"kogi-mopa-muro",
+					"kogi-kabba-bunu",
+					"kogi-ijumu",
+					"kogi-lokoja",
+					"kogi-kogi",
+					"kogi-okene",
+					"kogi-adavi",
+					"kogi-okehi",
+					"kogi-ajaokuta",
+					"edo-akoko-edo",
+					"edo-etsako-west",
+					"edo-etsako-central",
+					"edo-etsako-east",
+					"edo-owan-east",
+					"kwara-oke-ero",
+					"kwara-ekiti",
+					"kwara-isin"
+				],
+				"confidence": "medium"
+			},
+			"links": [
+				{
+					"kind": "tribute",
+					"to": {
+						"name": "Sokoto",
+						"point": [
+							5.24,
+							13.06
+						]
+					},
+					"label": "Part of the Sokoto Caliphate (via Gwandu)"
+				}
+			],
+			"sources": [
+				"wikipedia-bida-emirate",
+				"mason-1981"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1897,
+			"title": "Company troops take Bida",
+			"text": "The Royal Niger Company captures Bida and installs a ruler of its choosing; Northern Nigeria takes over in 1901.",
+			"capital": {
+				"name": "Bida",
+				"point": [
+					6.01,
+					9.08
+				]
+			},
+			"core": {
+				"lgas": [
+					"niger-lavun",
+					"niger-mokwa",
+					"niger-bida",
+					"niger-gbako",
+					"niger-katcha",
+					"niger-edati",
+					"niger-agaie",
+					"niger-lapai",
+					"kwara-edu",
+					"kwara-pategi"
+				]
+			},
+			"sources": [
+				"wikipedia-bida-emirate"
+			],
+			"confidence": "high"
+		}
+	],
+	"today": {
+		"text": "The Etsu Nupe reigns at Bida in Niger State, as Emir of Bida.",
+		"title": "Etsu Nupe",
+		"seat": {
+			"name": "Bida",
+			"point": [
+				6.01,
+				9.08
+			]
+		},
+		"sources": [
+			"wikipedia-bida-emirate"
+		],
+		"confidence": "high"
+	},
+	"reviewNotes": [
+		"Gbara's point is approximate; Nupe capitals moved often (Nupeko, Gbara, Raba, Bida)."
+	]
+}

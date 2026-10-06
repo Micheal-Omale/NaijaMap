@@ -1,0 +1,301 @@
+{
+	"name": "Nri",
+	"status": "draft",
+	"kind": "network",
+	"otherNames": [
+		"Kingdom of Nri",
+		"Nri hegemony"
+	],
+	"span": {
+		"from": 1000,
+		"to": 1911,
+		"fromLabel": "9th–11th century",
+		"sources": [
+			"wikipedia-kingdom-of-nri",
+			"onwuejeogwu-1981"
+		],
+		"confidence": "disputed",
+		"note": "Founding dates range from the 9th to the 16th century."
+	},
+	"peak": 1550,
+	"summary": {
+		"text": "Nri was not a kingdom of conquest. Its priest-king, the Eze Nri, and his travelling agents cleansed abominations, crowned titled men and settled disputes across a large part of Igboland, a ritual authority without an army. The bronzes of Igbo-Ukwu, from about the 9th century, are linked to its early history. Its power faded in the 18th century, and the British ended it in 1911.",
+		"sources": [
+			"wikipedia-kingdom-of-nri",
+			"onwuejeogwu-1981",
+			"shaw-1970"
+		],
+		"confidence": "medium"
+	},
+	"ruler": {
+		"title": "Eze Nri",
+		"sources": [
+			"wikipedia-kingdom-of-nri"
+		],
+		"confidence": "high"
+	},
+	"peoples": [
+		"igbo"
+	],
+	"snapshots": [
+		{
+			"year": 1000,
+			"yearLabel": "c. 900–1100",
+			"title": "Igbo-Ukwu and early Nri",
+			"text": "At Igbo-Ukwu, a burial of a titled man and a store of ritual bronzes, cast with great skill around the 9th century, show a wealthy ritual centre linked to long-distance trade.",
+			"capital": {
+				"name": "Agukwu Nri",
+				"point": [
+					6.98,
+					6.15
+				]
+			},
+			"core": {
+				"lgas": [
+					"anambra-anaocha",
+					"anambra-aguata",
+					"anambra-njikoka"
+				]
+			},
+			"nodes": [
+				{
+					"name": "Igbo-Ukwu",
+					"point": [
+						7.02,
+						6.02
+					]
+				},
+				{
+					"name": "Oreri (approximate)",
+					"point": [
+						7.08,
+						6.08
+					]
+				},
+				{
+					"name": "Aguleri",
+					"point": [
+						6.88,
+						6.32
+					]
+				}
+			],
+			"sources": [
+				"shaw-1970",
+				"wikipedia-kingdom-of-nri"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1550,
+			"yearLabel": "c. 1500–1700",
+			"title": "The height of Nri's ritual reach",
+			"text": "Nri agents carrying the ofo staff travel across northern and central Igboland and to Igbo towns west of the Niger, crowning ozo titles and lifting taboos.",
+			"capital": {
+				"name": "Agukwu Nri",
+				"point": [
+					6.98,
+					6.15
+				]
+			},
+			"core": {
+				"lgas": [
+					"anambra-anaocha",
+					"anambra-aguata",
+					"anambra-njikoka"
+				]
+			},
+			"influence": {
+				"lgas": [
+					"anambra-awka-north",
+					"anambra-awka-south",
+					"anambra-dunukofia",
+					"anambra-idemili-north",
+					"anambra-idemili-south",
+					"anambra-nnewi-north",
+					"anambra-nnewi-south",
+					"anambra-ekwusigo",
+					"anambra-ihiala",
+					"anambra-orumba-north",
+					"anambra-orumba-south",
+					"anambra-oyi",
+					"anambra-anambra-east",
+					"anambra-onitsha-north",
+					"anambra-onitsha-south",
+					"enugu-udi",
+					"enugu-ezeagu",
+					"enugu-oji-river",
+					"enugu-awgu",
+					"enugu-aninri",
+					"enugu-igbo-etiti",
+					"enugu-enugu-north",
+					"enugu-enugu-south",
+					"enugu-enugu-east",
+					"imo-orlu",
+					"imo-ideato-north",
+					"imo-ideato-south",
+					"imo-njaba",
+					"imo-nkwerre",
+					"imo-isu",
+					"imo-oru-east",
+					"imo-nwangele",
+					"imo-orsu",
+					"delta-aniocha-north",
+					"delta-aniocha-south",
+					"delta-oshimili-north",
+					"delta-oshimili-south"
+				],
+				"confidence": "disputed"
+			},
+			"nodes": [
+				{
+					"name": "Igbo-Ukwu",
+					"point": [
+						7.02,
+						6.02
+					]
+				},
+				{
+					"name": "Oreri (approximate)",
+					"point": [
+						7.08,
+						6.08
+					]
+				},
+				{
+					"name": "Aguleri",
+					"point": [
+						6.88,
+						6.32
+					]
+				},
+				{
+					"name": "Awka",
+					"point": [
+						7.07,
+						6.21
+					]
+				}
+			],
+			"links": [
+				{
+					"kind": "ritual",
+					"to": {
+						"name": "Igbo towns west of the Niger",
+						"point": [
+							6.55,
+							6.25
+						]
+					},
+					"label": "Ritual reach west of the Niger"
+				}
+			],
+			"sources": [
+				"wikipedia-kingdom-of-nri",
+				"onwuejeogwu-1981"
+			],
+			"confidence": "medium",
+			"note": "Ritual reach is not rule. The zone shows where Nri agents worked, as described by Onwuejeogwu; its edges are uncertain."
+		},
+		{
+			"year": 1750,
+			"yearLabel": "18th century",
+			"title": "Decline",
+			"text": "The slave trade, the Aro network and pressure from Igala and Benin weaken Nri's ritual authority.",
+			"capital": {
+				"name": "Agukwu Nri",
+				"point": [
+					6.98,
+					6.15
+				]
+			},
+			"core": {
+				"lgas": [
+					"anambra-anaocha",
+					"anambra-aguata",
+					"anambra-njikoka"
+				]
+			},
+			"influence": {
+				"lgas": [
+					"anambra-awka-north",
+					"anambra-awka-south",
+					"anambra-dunukofia",
+					"anambra-idemili-north",
+					"anambra-idemili-south",
+					"anambra-orumba-north",
+					"anambra-oyi",
+					"anambra-anambra-east"
+				],
+				"confidence": "medium"
+			},
+			"nodes": [
+				{
+					"name": "Igbo-Ukwu",
+					"point": [
+						7.02,
+						6.02
+					]
+				},
+				{
+					"name": "Oreri (approximate)",
+					"point": [
+						7.08,
+						6.08
+					]
+				},
+				{
+					"name": "Aguleri",
+					"point": [
+						6.88,
+						6.32
+					]
+				}
+			],
+			"sources": [
+				"wikipedia-kingdom-of-nri"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1911,
+			"title": "The British end Nri's power",
+			"text": "A colonial expedition forces the Eze Nri to renounce his ritual authority.",
+			"capital": {
+				"name": "Agukwu Nri",
+				"point": [
+					6.98,
+					6.15
+				]
+			},
+			"core": {
+				"lgas": [
+					"anambra-anaocha"
+				]
+			},
+			"sources": [
+				"wikipedia-kingdom-of-nri"
+			],
+			"confidence": "high"
+		}
+	],
+	"today": {
+		"text": "The Eze Nri still reigns at Agukwu Nri, Anaocha LGA, Anambra State, as a traditional ruler.",
+		"title": "Eze Nri",
+		"seat": {
+			"name": "Agukwu Nri",
+			"point": [
+				6.98,
+				6.15
+			]
+		},
+		"sources": [
+			"wikipedia-kingdom-of-nri"
+		],
+		"confidence": "high"
+	},
+	"reviewNotes": [
+		"Oreri's point is approximate.",
+		"The Nri reach is drawn as a ritual zone, not a territory."
+	]
+}

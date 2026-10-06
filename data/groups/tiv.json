@@ -208,6 +208,39 @@
 				"omachonu-dalhatu-2018"
 			],
 			"confidence": "medium"
+		},
+		{
+			"lga": "taraba-kurmi",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-kurmi"
+			],
+			"confidence": "medium",
+			"note": "Farmers."
+		},
+		{
+			"lga": "taraba-sardauna",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-taraba-state"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "plateau-shendam",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-plateau-state"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "plateau-qua-an-pan",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-plateau-state"
+			],
+			"confidence": "medium"
 		}
 	],
 	"communities": [],

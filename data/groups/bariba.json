@@ -1,0 +1,53 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [
+		"About 60,000 in Nigeria in Ross Jones's 1997 estimate; most Baatombu (about 340,000) live in Benin.",
+		"Ilorin is said to have Bariba residents (Wikipedia, Ilorin); not mapped as a community."
+	],
+	"name": "Bariba (Baatombu)",
+	"searchAliases": [
+		"Bariba",
+		"Baatombu",
+		"Baatonu",
+		"Baatonum",
+		"Baruba",
+		"Barba",
+		"Bargawa",
+		"Borgawa",
+		"Okuta",
+		"Ilesha Baruba",
+		"Yashikira",
+		"Kenu"
+	],
+	"language": {
+		"name": "Baatonum",
+		"glottocode": "baat1238",
+		"family": "gur",
+		"sources": [
+			"glottolog-baatonum"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Baatombu, also called Bariba, are with the Boko and Busa the traditional rulers and owners of the land in Borgu, the old kingdom that straddles the Nigeria–Benin border. Most live in Benin; in Nigeria they are the main people of Baruten LGA in Kwara State, with larger centres at Okuta and Ilesha and older towns at Yashikira and Kenu. Their language, Baatonum, is a Gur language, unrelated to Yoruba or Hausa.",
+		"sources": [
+			"ross-jones-borgu",
+			"wikipedia-kwara-state",
+			"glottolog-baatonum"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "kwara-baruten",
+			"presence": "core",
+			"sources": [
+				"ross-jones-borgu",
+				"wikipedia-kwara-state"
+			],
+			"confidence": "high",
+			"note": "Ross Jones: 'The Baatombu are dominant in the Baruten LGA in Kwara State.'"
+		}
+	]
+}

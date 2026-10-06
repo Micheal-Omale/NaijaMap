@@ -1,0 +1,49 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Yala",
+	"searchAliases": [
+		"Yala",
+		"Yache",
+		"Okpoma",
+		"Ijiegu"
+	],
+	"language": {
+		"name": "Yala",
+		"glottocode": "yala1263",
+		"family": "idomoid",
+		"sources": [
+			"glottolog-yala1263"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Yala are the largest people of Yala LGA in northern Cross River State, with headquarters at Okpoma, and trace their ancestry to the Idoma of Benue. The Yache, also of Idoma origin, live around Ijiegu and Uchu.",
+		"sources": [
+			"connectnigeria-yala",
+			"wikipedia-cross-river-state",
+			"glottolog-yala1263"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "cross-river-yala",
+			"presence": "core",
+			"sources": [
+				"connectnigeria-yala",
+				"wikipedia-cross-river-state"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "cross-river-obubra",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-cross-river-state"
+			],
+			"confidence": "medium"
+		}
+	]
+}

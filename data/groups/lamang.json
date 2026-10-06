@@ -1,0 +1,43 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [
+		"Gwoza's other peoples (Mafa, Guduf, Waha, Wandala, Marghi and more) are not yet mapped separately."
+	],
+	"name": "Lamang (Gwoza)",
+	"searchAliases": [
+		"Lamang",
+		"Gwoza",
+		"Laamang",
+		"Waha"
+	],
+	"language": {
+		"name": "Lamang",
+		"glottocode": "lama1288",
+		"family": "chadic",
+		"sources": [
+			"glottolog-lama1288"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Lamang were foothill people of the western Gwoza hills and now live mostly on the plains beside them. Udosen treats Lamang and 'Gwoza' as the same language.",
+		"sources": [
+			"udosen-2018",
+			"wikipedia-borno-state",
+			"glottolog-lama1288"
+		],
+		"confidence": "medium"
+	},
+	"areas": [
+		{
+			"lga": "borno-gwoza",
+			"presence": "core",
+			"sources": [
+				"udosen-2018",
+				"wikipedia-borno-state"
+			],
+			"confidence": "medium"
+		}
+	]
+}

@@ -1,0 +1,41 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Mambila",
+	"searchAliases": [
+		"Mambila",
+		"Mambilla",
+		"Nor",
+		"Gembu"
+	],
+	"language": {
+		"name": "Mambila",
+		"glottocode": "mamb1312",
+		"family": "mambiloid",
+		"sources": [
+			"glottolog-mamb1312"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Mambila are the original and predominant people of the Mambilla Plateau, Sardauna LGA of Taraba State, with more in Cameroon (about 300,000 in Nigeria in 2015). Most people on the plateau speak Mambila as their first language. The largest minorities are the Fulani and the Kaka, who came centuries later.",
+		"sources": [
+			"wikipedia-mambilla-plateau",
+			"wikipedia-taraba-state",
+			"glottolog-mamb1312"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "taraba-sardauna",
+			"presence": "core",
+			"sources": [
+				"wikipedia-mambilla-plateau",
+				"wikipedia-taraba-state"
+			],
+			"confidence": "high"
+		}
+	]
+}

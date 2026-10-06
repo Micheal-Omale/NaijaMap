@@ -1,0 +1,78 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Fakkawa",
+	"searchAliases": [
+		"Fakkawa",
+		"Fakai",
+		"Fakkanci",
+		"Kag",
+		"Ut-Ma'in",
+		"Ma'in",
+		"Kag-Fer-Jiir-Koor-Ror-Us-Zuksun"
+	],
+	"language": {
+		"name": "Ut-Ma'in (Kag, Fakkanci)",
+		"glottocode": "kagf1238",
+		"family": "kainji",
+		"sources": [
+			"glottolog-ut-main"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Fakkawa are the people of Fakai in southern Kebbi State. Their speech, called Fakkanci in Hausa and Kag in Amfani's survey, is the Kainji language Glottolog lists as Ut-Ma'in (Kag-Fer-Jiir-Koor-Ror-Us-Zuksun, after its dialects). It is also spoken in Zuru and Sakaba, in Kebbe LGA of Sokoto, and in Anka LGA of Zamfara.",
+		"sources": [
+			"amfani-2018",
+			"wikipedia-kebbi-state",
+			"wikipedia-sokoto-state",
+			"glottolog-ut-main"
+		],
+		"confidence": "medium"
+	},
+	"areas": [
+		{
+			"lga": "kebbi-fakai",
+			"presence": "core",
+			"sources": [
+				"amfani-2018",
+				"glottolog-ut-main"
+			],
+			"confidence": "medium",
+			"note": "Fakai LGA is named after them."
+		},
+		{
+			"lga": "kebbi-zuru",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-kebbi-state"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "kebbi-sakaba",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-kebbi-state"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "sokoto-kebbe",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-sokoto-state"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "zamfara-anka",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		}
+	]
+}

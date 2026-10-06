@@ -256,5 +256,186 @@
 			"glottolog-mumuye"
 		],
 		"confidence": "high"
+	},
+	{
+		"id": "gur",
+		"name": "Gur",
+		"lineage": [
+			"Atlantic-Congo",
+			"Volta-Congo",
+			"North Volta-Congo",
+			"Gur"
+		],
+		"sources": [
+			"glottolog-baatonum"
+		],
+		"confidence": "high"
+	},
+	{
+		"id": "mande",
+		"name": "Mande",
+		"lineage": [
+			"Mande",
+			"Eastern Mande"
+		],
+		"sources": [
+			"glottolog-busa",
+			"glottolog-kyenga"
+		],
+		"confidence": "high"
+	},
+	{
+		"id": "songhay",
+		"name": "Songhay",
+		"lineage": [
+			"Songhay",
+			"Eastern Songhay"
+		],
+		"sources": [
+			"glottolog-zarma",
+			"glottolog-dendi"
+		],
+		"confidence": "high"
+	},
+	{
+		"id": "berber",
+		"name": "Berber (Tuareg)",
+		"lineage": [
+			"Afro-Asiatic",
+			"Berber",
+			"Tuareg"
+		],
+		"sources": [
+			"glottolog-tamajaq"
+		],
+		"confidence": "high"
+	},
+	{
+		"id": "dakoid",
+		"name": "Dakoid",
+		"lineage": [
+			"Atlantic-Congo",
+			"Volta-Congo",
+			"Benue-Congo",
+			"Bantoid",
+			"Northern Bantoid",
+			"Dakoid"
+		],
+		"sources": [
+			"glottolog-dako1256"
+		],
+		"confidence": "high"
+	},
+	{
+		"id": "upper-cross",
+		"name": "Upper Cross",
+		"lineage": [
+			"Atlantic-Congo",
+			"Volta-Congo",
+			"Benue-Congo",
+			"Delta Cross",
+			"Upper Cross"
+		],
+		"sources": [
+			"glottolog-cros1244",
+			"glottolog-loka1252"
+		],
+		"confidence": "high"
+	},
+	{
+		"id": "bendi",
+		"name": "Bendi",
+		"lineage": [
+			"Atlantic-Congo",
+			"Volta-Congo",
+			"Benue-Congo",
+			"Bantoid",
+			"Southern Bantoid",
+			"Bendi"
+		],
+		"sources": [
+			"glottolog-boky1238",
+			"glottolog-bekw1241"
+		],
+		"confidence": "high"
+	},
+	{
+		"id": "central-delta",
+		"name": "Central Delta",
+		"lineage": [
+			"Atlantic-Congo",
+			"Volta-Congo",
+			"Benue-Congo",
+			"Delta Cross",
+			"Central Delta"
+		],
+		"sources": [
+			"glottolog-abua1244",
+			"glottolog-ogbi1239"
+		],
+		"confidence": "high"
+	},
+	{
+		"id": "jarawan",
+		"name": "Jarawan (Bantu)",
+		"lineage": [
+			"Atlantic-Congo",
+			"Volta-Congo",
+			"Benue-Congo",
+			"Bantoid",
+			"Southern Bantoid",
+			"Jarawan"
+		],
+		"sources": [
+			"glottolog-jarr1236",
+			"glottolog-mama1272"
+		],
+		"confidence": "high"
+	},
+	{
+		"id": "mambiloid",
+		"name": "Mambiloid",
+		"lineage": [
+			"Atlantic-Congo",
+			"Volta-Congo",
+			"Benue-Congo",
+			"Bantoid",
+			"Mambiloid"
+		],
+		"sources": [
+			"glottolog-mamb1312",
+			"glottolog-ndoo1241"
+		],
+		"confidence": "high"
+	},
+	{
+		"id": "grassfields",
+		"name": "Grassfields",
+		"lineage": [
+			"Atlantic-Congo",
+			"Volta-Congo",
+			"Benue-Congo",
+			"Bantoid",
+			"Southern Bantoid",
+			"Wide Grassfields"
+		],
+		"sources": [
+			"glottolog-yamb1251"
+		],
+		"confidence": "high"
+	},
+	{
+		"id": "oko",
+		"name": "Oko",
+		"lineage": [
+			"Atlantic-Congo",
+			"Volta-Congo",
+			"Benue-Congo",
+			"Oko"
+		],
+		"sources": [
+			"glottolog-okoe1238"
+		],
+		"confidence": "high"
 	}
 ]

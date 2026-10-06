@@ -1,0 +1,88 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Dukawa (Hun-Saare)",
+	"searchAliases": [
+		"Dukawa",
+		"Duka",
+		"Hunne",
+		"Hun-Saare",
+		"Dukanchi",
+		"Dukku",
+		"Rijau"
+	],
+	"language": {
+		"name": "Hun-Saare (Duka)",
+		"glottocode": "huns1239",
+		"family": "kainji",
+		"sources": [
+			"glottolog-hun-saare"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Duka call themselves Hunne and their language tHun or sSaare; the Hausa call them Dukawa after their town of Dukku. There are two dialects, centred on Dukku and Rijau. About 73,000 people (1985), mostly in Rijau LGA of Niger State and Sakaba LGA of Kebbi State. Their language is closest to C'lela (Dakarkari); their culture is close to the Kambari.",
+		"sources": [
+			"ross-jones-borgu",
+			"wikipedia-kainji-languages",
+			"glottolog-hun-saare"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "niger-rijau",
+			"presence": "core",
+			"sources": [
+				"ross-jones-borgu",
+				"wikipedia-kainji-languages"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kebbi-sakaba",
+			"presence": "core",
+			"sources": [
+				"ross-jones-borgu",
+				"wikipedia-kainji-languages"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kebbi-wasagu-danko",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-kebbi-state"
+			],
+			"confidence": "medium",
+			"note": "Wikipedia lists us-Saare for Wasagu-Danko."
+		},
+		{
+			"lga": "kebbi-yauri",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-kebbi-state"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "kebbi-shanga",
+			"presence": "minority",
+			"sources": [
+				"ross-jones-borgu"
+			],
+			"confidence": "medium",
+			"note": "Ross Jones: Duka fan out from the Shanga district, where they have assimilated towards the Shangawa."
+		},
+		{
+			"lga": "niger-borgu",
+			"presence": "minority",
+			"sources": [
+				"ross-jones-borgu"
+			],
+			"confidence": "medium",
+			"note": "Several thousand."
+		}
+	]
+}

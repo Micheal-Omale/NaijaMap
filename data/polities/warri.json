@@ -1,0 +1,186 @@
+{
+	"name": "Kingdom of Warri",
+	"status": "draft",
+	"kind": "kingdom",
+	"otherNames": [
+		"Itsekiri kingdom",
+		"Iwere"
+	],
+	"span": {
+		"from": 1480,
+		"to": 1894,
+		"fromLabel": "c. 1480",
+		"sources": [
+			"wikipedia-kingdom-of-warri"
+		],
+		"confidence": "medium"
+	},
+	"peak": 1600,
+	"summary": {
+		"text": "The Itsekiri kingdom of the western Delta creeks, founded by Ginuwa, a prince of Benin. Its Olu adopted Christianity through Portuguese missionaries in the 16th century and grew rich as a middleman in the river trade. After 1848 no Olu was crowned for 88 years and merchant governors ran the rivers; the British crushed Nana Olomu at Ebrohimi in 1894.",
+		"sources": [
+			"wikipedia-kingdom-of-warri",
+			"ikime-1969"
+		],
+		"confidence": "high"
+	},
+	"ruler": {
+		"title": "Olu of Warri",
+		"sources": [
+			"wikipedia-kingdom-of-warri"
+		],
+		"confidence": "high"
+	},
+	"peoples": [
+		"itsekiri"
+	],
+	"snapshots": [
+		{
+			"year": 1480,
+			"yearLabel": "c. 1480",
+			"title": "Ginuwa founds the kingdom",
+			"text": "Ginuwa, a prince of Benin, settles among the Itsekiri and founds the royal seat at Ode-Itsekiri.",
+			"capital": {
+				"name": "Ode-Itsekiri (Big Warri) (approximate)",
+				"point": [
+					5.3,
+					5.55
+				]
+			},
+			"core": {
+				"lgas": [
+					"delta-warri-south-west",
+					"delta-warri-south"
+				]
+			},
+			"links": [
+				{
+					"kind": "ritual",
+					"to": {
+						"name": "Benin City",
+						"point": [
+							5.627,
+							6.335
+						]
+					},
+					"label": "Royal line from Benin"
+				}
+			],
+			"sources": [
+				"wikipedia-kingdom-of-warri"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1600,
+			"yearLabel": "c. 1570–1650",
+			"title": "A Christian kingdom in the Delta",
+			"text": "An Olu is baptised Sebastião by 1597; his son Domingos studies in Portugal and marries a Portuguese noblewoman. Warri trades cloth, palm products and enslaved people.",
+			"capital": {
+				"name": "Ode-Itsekiri (Big Warri) (approximate)",
+				"point": [
+					5.3,
+					5.55
+				]
+			},
+			"core": {
+				"lgas": [
+					"delta-warri-south-west",
+					"delta-warri-south",
+					"delta-warri-north"
+				]
+			},
+			"links": [
+				{
+					"kind": "trade",
+					"to": {
+						"name": "Forcados and Escravos river mouths",
+						"point": [
+							5.35,
+							5.35
+						]
+					},
+					"label": "Portuguese and Dutch ships"
+				}
+			],
+			"sources": [
+				"wikipedia-kingdom-of-warri"
+			],
+			"confidence": "high"
+		},
+		{
+			"year": 1848,
+			"title": "The interregnum",
+			"text": "Olu Akengbuwa dies and no successor is agreed. For 88 years governors of the river, chosen from merchant houses, control the Itsekiri trade.",
+			"core": {
+				"lgas": [
+					"delta-warri-south-west",
+					"delta-warri-south",
+					"delta-warri-north"
+				]
+			},
+			"nodes": [
+				{
+					"name": "Ebrohimi (approximate)",
+					"point": [
+						5.27,
+						5.73
+					]
+				}
+			],
+			"sources": [
+				"wikipedia-kingdom-of-warri"
+			],
+			"confidence": "high"
+		},
+		{
+			"year": 1894,
+			"title": "Ebrohimi falls",
+			"text": "Nana Olomu, Governor of the Benin River, resists British control of the palm-oil trade; British forces take his stronghold at Ebrohimi.",
+			"core": {
+				"lgas": [
+					"delta-warri-south-west",
+					"delta-warri-south",
+					"delta-warri-north"
+				]
+			},
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Ebrohimi (approximate)",
+						"point": [
+							5.27,
+							5.73
+						]
+					},
+					"label": "Siege of Ebrohimi"
+				}
+			],
+			"sources": [
+				"wikipedia-kingdom-of-warri",
+				"ikime-1969"
+			],
+			"confidence": "high"
+		}
+	],
+	"today": {
+		"text": "The monarchy was restored in 1936. The Olu of Warri reigns at Ode-Itsekiri and Warri, Delta State.",
+		"title": "Olu of Warri",
+		"seat": {
+			"name": "Ode-Itsekiri (Big Warri) (approximate)",
+			"point": [
+				5.3,
+				5.55
+			]
+		},
+		"sources": [
+			"wikipedia-kingdom-of-warri"
+		],
+		"confidence": "high"
+	},
+	"reviewNotes": [
+		"Ode-Itsekiri and Ebrohimi points are approximate.",
+		"Itsekiri, Urhobo and Ijaw claims over Warri are politically sensitive; this file only shows where the kingdom's towns were."
+	]
+}

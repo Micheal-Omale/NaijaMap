@@ -1,0 +1,42 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Ron",
+	"searchAliases": [
+		"Ron",
+		"Challa",
+		"Bokkos",
+		"Daffo",
+		"Butura"
+	],
+	"language": {
+		"name": "Ron",
+		"glottocode": "ronn1241",
+		"family": "chadic",
+		"sources": [
+			"glottolog-ronn1241"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Ron are the indigenous people of Bokkos LGA, Plateau State; the paramount ruler is the Saf Ron/Kulere. Ron is a West Chadic language.",
+		"sources": [
+			"wikipedia-bokkos",
+			"wikipedia-plateau-state",
+			"glottolog-ronn1241"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "plateau-bokkos",
+			"presence": "core",
+			"sources": [
+				"wikipedia-bokkos",
+				"wikipedia-plateau-state"
+			],
+			"confidence": "high"
+		}
+	]
+}

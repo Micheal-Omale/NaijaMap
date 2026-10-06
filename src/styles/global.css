@@ -48,6 +48,11 @@
 	--radius-sm: 8px;
 	--shadow: 0 1px 2px rgb(23 25 30 / 6%), 0 8px 24px rgb(23 25 30 / 8%);
 	--panel-width: 400px;
+
+	/* Land around Nigeria, shown in the Then view only */
+	--map-region-land: #ebe7dd;
+	--map-region-border: #b5ad9c;
+	--map-ink-halo: #f3f1ec;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -81,6 +86,72 @@
 		--conf-medium: #e3a046;
 		--conf-disputed: #c08ae6;
 		--shadow: 0 1px 2px rgb(0 0 0 / 30%), 0 8px 24px rgb(0 0 0 / 35%);
+		--map-region-land: #1a1d23;
+		--map-region-border: #444a55;
+		--map-ink-halo: #14171c;
+	}
+}
+
+/*
+ * Then mood: the old map. Parchment land on a muted sea, sepia ink, a book serif
+ * for headings. Set by the map app as data-mood="then" on <html>.
+ */
+:root[data-mood='then'] {
+	--font-display: 'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', Georgia, serif;
+	--bg: #ece1c8;
+	--surface: #f7efdc;
+	--surface-2: #f0e5cc;
+	--ink: #2b2118;
+	--ink-muted: #5f5141;
+	--ink-faint: #8d7c64;
+	--rule: #dccca9;
+	--accent: #8a3f1c;
+	--accent-ink: #fff8ec;
+	--focus: #8a3f1c;
+	--map-bg: #c9d1bf;
+	--map-land: #f0e4c6;
+	--map-land-hover: #e8d9b5;
+	--map-lga-line: #e1d2ad;
+	--map-state-line: #a8936d;
+	--map-outline: #6e5a3c;
+	--map-water: #6f9497;
+	--map-lake: #b4c6bb;
+	--map-label: #6d5a41;
+	--map-label-strong: #46382a;
+	--map-label-halo: #f5ecd6;
+	--map-region-land: #e9dcbc;
+	--map-region-border: #a8936d;
+	--map-ink-halo: #f5ecd6;
+	--shadow: 0 1px 2px rgb(60 40 20 / 10%), 0 8px 24px rgb(60 40 20 / 14%);
+}
+
+@media (prefers-color-scheme: dark) {
+	:root[data-mood='then']:not([data-theme='light']) {
+		--bg: #1a1510;
+		--surface: #231c15;
+		--surface-2: #2a221a;
+		--ink: #f0e3c8;
+		--ink-muted: #c2b192;
+		--ink-faint: #8f7f66;
+		--rule: #3b3024;
+		--accent: #e09a5f;
+		--accent-ink: #1a1007;
+		--focus: #e09a5f;
+		--map-bg: #121612;
+		--map-land: #2b2319;
+		--map-land-hover: #362c20;
+		--map-lga-line: #33291e;
+		--map-state-line: #6d5c44;
+		--map-outline: #b49b74;
+		--map-water: #4d7577;
+		--map-lake: #23332f;
+		--map-label: #b8a37f;
+		--map-label-strong: #e2d1ae;
+		--map-label-halo: #18130e;
+		--map-region-land: #221c15;
+		--map-region-border: #5b4c38;
+		--map-ink-halo: #18130e;
+		--shadow: 0 1px 2px rgb(0 0 0 / 35%), 0 8px 24px rgb(0 0 0 / 40%);
 	}
 }
 

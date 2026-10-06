@@ -1,0 +1,40 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Umon",
+	"searchAliases": [
+		"Umon",
+		"Amon"
+	],
+	"language": {
+		"name": "Umon",
+		"glottocode": "umon1238",
+		"family": "upper-cross",
+		"sources": [
+			"glottolog-umon1238"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Umon are one of the five clans of Biase LGA on the Cross River, mainly fishermen and farmers.",
+		"sources": [
+			"opencommons-biase",
+			"wikipedia-cross-river-state",
+			"glottolog-umon1238"
+		],
+		"confidence": "medium"
+	},
+	"areas": [
+		{
+			"lga": "cross-river-biase",
+			"presence": "core",
+			"sources": [
+				"opencommons-biase",
+				"wikipedia-cross-river-state"
+			],
+			"confidence": "medium",
+			"note": "Biase has five clans: Umon, Egup Ipa (Agwagune), Erei, Ehom and Ubaghara."
+		}
+	]
+}

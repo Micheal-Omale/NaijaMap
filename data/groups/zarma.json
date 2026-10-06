@@ -1,0 +1,125 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Zarma (Zabarmawa)",
+	"searchAliases": [
+		"Zarma",
+		"Zabarma",
+		"Zabarmawa",
+		"Djerma",
+		"Zerma"
+	],
+	"language": {
+		"name": "Zarma",
+		"glottocode": "zarm1239",
+		"family": "songhay",
+		"sources": [
+			"glottolog-zarma"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Zarma (Zabarmawa in Hausa) are a Songhay-speaking people, mainly of Niger Republic, who settled in Kebbi from the 16th century. In Nigeria they live in the border LGAs of Sokoto and Kebbi States. Zarma is a Songhay language, unrelated to Hausa.",
+		"sources": [
+			"amfani-2018",
+			"sokoto-state-gov-people",
+			"wikipedia-kebbi-state",
+			"wikipedia-sokoto-state"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "sokoto-kware",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high",
+			"note": "Amfani: Zarma 'is mainly spoken in Kware Local Government Area and Sokoto North'."
+		},
+		{
+			"lga": "sokoto-sokoto-north",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kebbi-argungu",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-kebbi-state"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "kebbi-birnin-kebbi",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-kebbi-state"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "kebbi-bunza",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-kebbi-state"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "sokoto-gada",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-sokoto-state",
+				"sokoto-state-gov-people"
+			],
+			"confidence": "medium",
+			"note": "A border LGA where Wikipedia lists Zarma and Tuareg."
+		},
+		{
+			"lga": "sokoto-gudu",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-sokoto-state",
+				"sokoto-state-gov-people"
+			],
+			"confidence": "medium",
+			"note": "A border LGA where Wikipedia lists Zarma and Tuareg."
+		},
+		{
+			"lga": "sokoto-illela",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-sokoto-state",
+				"sokoto-state-gov-people"
+			],
+			"confidence": "medium",
+			"note": "A border LGA where Wikipedia lists Zarma and Tuareg."
+		},
+		{
+			"lga": "sokoto-sabon-birni",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-sokoto-state",
+				"sokoto-state-gov-people"
+			],
+			"confidence": "medium",
+			"note": "A border LGA where Wikipedia lists Zarma and Tuareg."
+		},
+		{
+			"lga": "sokoto-tangaza",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-sokoto-state",
+				"sokoto-state-gov-people"
+			],
+			"confidence": "medium",
+			"note": "A border LGA where Wikipedia lists Zarma and Tuareg."
+		}
+	]
+}

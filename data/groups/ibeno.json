@@ -1,0 +1,38 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Ibeno (Ibuno)",
+	"searchAliases": [
+		"Ibeno",
+		"Ibuno",
+		"Ibino"
+	],
+	"language": {
+		"name": "Ibino",
+		"glottocode": "ibin1241",
+		"family": "lower-cross",
+		"sources": [
+			"glottolog-ibin1241"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Ibeno are the coastal people of Ibeno LGA in Akwa Ibom, home of a large oil terminal.",
+		"sources": [
+			"wikipedia-akwa-ibom",
+			"glottolog-ibin1241"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "akwa-ibom-ibeno",
+			"presence": "core",
+			"sources": [
+				"wikipedia-akwa-ibom"
+			],
+			"confidence": "high"
+		}
+	]
+}

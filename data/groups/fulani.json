@@ -3,7 +3,8 @@
 	"communities": [],
 	"reviewNotes": [
 		"Fulani pastoralists live in almost every state; only areas named in sources are mapped.",
-		"Adamawa beyond Yola, Taraba and Niger State need LGA level sources."
+		"Adamawa beyond Yola, Taraba and Niger State need LGA level sources.",
+		"Several Adamawa LGA shares come from a 2022-23 survey of displaced people, which may over-count groups hit hardest by the insurgency."
 	],
 	"name": "Fulani",
 	"searchAliases": [
@@ -2300,6 +2301,180 @@
 				"wikipedia-donga"
 			],
 			"confidence": "high"
+		},
+		{
+			"lga": "kwara-kaiama",
+			"presence": "significant",
+			"sources": [
+				"ross-jones-borgu"
+			],
+			"confidence": "high",
+			"note": "About 16,000 Fulbe of 45,900 people in 1991."
+		},
+		{
+			"lga": "kwara-baruten",
+			"presence": "significant",
+			"sources": [
+				"ross-jones-borgu"
+			],
+			"confidence": "medium",
+			"note": "Ross Jones: the Fulbe are over 25% of the Borgu population, settled near Baatombu and Boko villages."
+		},
+		{
+			"lga": "niger-borgu",
+			"presence": "minority",
+			"sources": [
+				"ross-jones-borgu"
+			],
+			"confidence": "high",
+			"note": "About 8,000 in 1991."
+		},
+		{
+			"lga": "kwara-ilorin-west",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-ilorin"
+			],
+			"confidence": "medium",
+			"note": "Ilorin's emirs are of Fulani descent; the city is mainly Yoruba."
+		},
+		{
+			"lga": "kwara-ilorin-east",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-ilorin"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "kwara-ilorin-south",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-ilorin"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "adamawa-fufore",
+			"presence": "core",
+			"sources": [
+				"wikipedia-fufore"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde 38% of homes surveyed. Share from a 2022-23 survey of displaced people quoted by Wikipedia, not a census."
+		},
+		{
+			"lga": "adamawa-girei",
+			"presence": "core",
+			"sources": [
+				"wikipedia-girei"
+			],
+			"confidence": "high",
+			"note": "'The dominant tribe in the area are the Fulɓe or Fulani.'"
+		},
+		{
+			"lga": "adamawa-mayo-belwa",
+			"presence": "core",
+			"sources": [
+				"wikipedia-mayo-belwa"
+			],
+			"confidence": "medium",
+			"note": "'Majorly Fulfulde speaking': 55% of homes surveyed. Share from a 2022-23 survey of displaced people quoted by Wikipedia, not a census."
+		},
+		{
+			"lga": "adamawa-ganye",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-ganye"
+			],
+			"confidence": "medium",
+			"note": "24% of homes surveyed. Share from a 2022-23 survey of displaced people quoted by Wikipedia, not a census."
+		},
+		{
+			"lga": "adamawa-jada",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-jada"
+			],
+			"confidence": "medium",
+			"note": "37% of homes surveyed. Share from a 2022-23 survey of displaced people quoted by Wikipedia, not a census."
+		},
+		{
+			"lga": "adamawa-toungo",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-toungo"
+			],
+			"confidence": "medium",
+			"note": "41% of homes surveyed. Share from a 2022-23 survey of displaced people quoted by Wikipedia, not a census."
+		},
+		{
+			"lga": "adamawa-maiha",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-maiha"
+			],
+			"confidence": "medium",
+			"note": "66% of homes surveyed. Share from a 2022-23 survey of displaced people quoted by Wikipedia, not a census."
+		},
+		{
+			"lga": "adamawa-song",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-bena-mboi"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "adamawa-shelleng",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-shelleng"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "adamawa-guyuk",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-guyuk"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "taraba-sardauna",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-mambilla-plateau"
+			],
+			"confidence": "medium",
+			"note": "One of the two largest minorities on the plateau."
+		},
+		{
+			"lga": "taraba-karim-lamido",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-karim-lamido"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "taraba-kurmi",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-kurmi"
+			],
+			"confidence": "medium",
+			"note": "Herders."
+		},
+		{
+			"lga": "bauchi-toro",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-toro-bauchi"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is the main language of Toro town."
 		}
 	]
 }

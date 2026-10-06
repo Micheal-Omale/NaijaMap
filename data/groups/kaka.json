@@ -1,0 +1,46 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Kaka (Yamba)",
+	"searchAliases": [
+		"Kaka",
+		"Yamba",
+		"Mbem"
+	],
+	"language": {
+		"name": "Yamba",
+		"glottocode": "yamb1251",
+		"family": "grassfields",
+		"sources": [
+			"glottolog-yamb1251"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Kaka, whose language is Yamba (a Grassfields language), are one of the two largest minorities on the Mambilla Plateau, and the second group in Gembu after the Mambila.",
+		"sources": [
+			"wikipedia-mambilla-plateau",
+			"glottolog-yamb1251"
+		],
+		"confidence": "medium"
+	},
+	"areas": [
+		{
+			"lga": "taraba-sardauna",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-mambilla-plateau"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "taraba-gashaka",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-taraba-state"
+			],
+			"confidence": "medium"
+		}
+	]
+}

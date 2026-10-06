@@ -1,0 +1,50 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Irigwe",
+	"searchAliases": [
+		"Irigwe",
+		"Rigwe",
+		"Miango",
+		"Nyango"
+	],
+	"language": {
+		"name": "Irigwe",
+		"glottocode": "irig1241",
+		"family": "plateau",
+		"sources": [
+			"glottolog-irig1241"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Irigwe live in Bassa LGA of Plateau State, with their headquarters at Miango, and also in neighbouring Kauru LGA of Kaduna.",
+		"sources": [
+			"wikipedia-irigwe-people",
+			"wikipedia-plateau-state",
+			"glottolog-irig1241"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "plateau-bassa",
+			"presence": "core",
+			"sources": [
+				"wikipedia-irigwe-people",
+				"wikipedia-plateau-state"
+			],
+			"confidence": "high",
+			"note": "Bassa LGA is shared by many peoples; Irigwe and Rukuba are the largest named."
+		},
+		{
+			"lga": "kaduna-kauru",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-kaduna-state"
+			],
+			"confidence": "medium"
+		}
+	]
+}

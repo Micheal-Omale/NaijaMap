@@ -1,0 +1,49 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Anaguta",
+	"searchAliases": [
+		"Anaguta",
+		"Iguta",
+		"Naraguta"
+	],
+	"language": {
+		"name": "Iguta",
+		"glottocode": "igut1238",
+		"family": "kainji",
+		"sources": [
+			"glottolog-igut1238"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Anaguta are one of the three peoples recognised as indigenes of Jos, with the Berom and Afizere. Their language, Iguta, is Kainji.",
+		"sources": [
+			"hrw-2006-indigenes",
+			"wikipedia-plateau-state",
+			"glottolog-igut1238"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "plateau-jos-north",
+			"presence": "core",
+			"sources": [
+				"hrw-2006-indigenes",
+				"wikipedia-plateau-state",
+				"wikipedia-jos-north"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "plateau-bassa",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-plateau-state"
+			],
+			"confidence": "medium"
+		}
+	]
+}

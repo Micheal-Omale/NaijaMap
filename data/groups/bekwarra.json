@@ -1,0 +1,37 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Bekwarra",
+	"searchAliases": [
+		"Bekwarra",
+		"Yakoro"
+	],
+	"language": {
+		"name": "Bekwarra",
+		"glottocode": "bekw1241",
+		"family": "bendi",
+		"sources": [
+			"glottolog-bekw1241"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Bekwarra are the people of Bekwarra LGA in northern Cross River State. Bekwarra is a Bendi language.",
+		"sources": [
+			"wikipedia-cross-river-state",
+			"glottolog-bekw1241"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "cross-river-bekwarra",
+			"presence": "core",
+			"sources": [
+				"wikipedia-cross-river-state"
+			],
+			"confidence": "high"
+		}
+	]
+}

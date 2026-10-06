@@ -1,0 +1,52 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Jarawa (Jhar)",
+	"searchAliases": [
+		"Jarawa",
+		"Jhar",
+		"Jar",
+		"Jarawan Kogi",
+		"Jarawan Dutse"
+	],
+	"language": {
+		"name": "Jar",
+		"glottocode": "jarr1236",
+		"family": "jarawan",
+		"sources": [
+			"glottolog-jarr1236"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Jarawa, who call themselves Jhar, speak a Jarawan Bantu language. They are one of the two predominant peoples of Kanam LGA in Plateau State and a main people of Toro LGA in Bauchi.",
+		"sources": [
+			"wikipedia-kanam",
+			"wikipedia-toro-bauchi",
+			"wikipedia-plateau-state",
+			"glottolog-jarr1236"
+		],
+		"confidence": "medium"
+	},
+	"areas": [
+		{
+			"lga": "plateau-kanam",
+			"presence": "core",
+			"sources": [
+				"wikipedia-kanam",
+				"wikipedia-plateau-state"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "bauchi-toro",
+			"presence": "core",
+			"sources": [
+				"wikipedia-toro-bauchi"
+			],
+			"confidence": "medium",
+			"note": "Toro is 'primarily inhabited by members of the Panawa, Jarawa, Izere and Hausa/Fulani ethnic groups'; Fulfulde is the main language of Toro town."
+		}
+	]
+}

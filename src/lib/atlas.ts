@@ -27,6 +27,25 @@ const FAMILY_HUE: Record<string, number> = {
 	Ogonoid: 350,
 	Ekoid: 128,
 	'Arabic (Semitic)': 40,
+	// Borgu: kept clear of Yoruba green, Kainji cyan and Nupe blue next door.
+	Mande: 300,
+	Gur: 340,
+	Songhay: 238,
+	'Berber (Tuareg)': 164,
+	// Chamba sit between Fulani, Mumuye (Adamawa) and Jukunoid neighbours.
+	Dakoid: 140,
+	// Cross River: Upper Cross between Ekoid, Lower Cross and Yala (Idomoid); Bendi in the north next to Tiv and Igede.
+	'Upper Cross': 64,
+	Bendi: 16,
+	// Abua, Odual and Ogbia beside Ijaw, Ekpeye (Igboid) and Engenni (Edoid).
+	'Central Delta': 96,
+	// Jarawa of Kanam and Toro beside Chadic and Plateau peoples.
+	'Jarawan (Bantu)': 324,
+	// Mambilla Plateau: Mambila and Kaka next to Fulani and Jukunoid peoples.
+	Mambiloid: 8,
+	Grassfields: 200,
+	// Ogori/Magongo between Okun Yoruba, Ebira and Afemai.
+	Oko: 290,
 };
 
 function hue(family: string): number {

@@ -1,0 +1,43 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [
+		"Identity: Ogbia are widely counted as Ijaw politically, while their language is Central Delta, not Ijoid. Both are recorded."
+	],
+	"name": "Ogbia",
+	"searchAliases": [
+		"Ogbia",
+		"Oloibiri",
+		"Otuoke",
+		"Kolo",
+		"Emeyal",
+		"Anyama"
+	],
+	"language": {
+		"name": "Ogbia",
+		"glottocode": "ogbi1239",
+		"family": "central-delta",
+		"sources": [
+			"glottolog-ogbi1239"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Ogbia of Ogbia LGA, Bayelsa State, live in towns such as Oloibiri (where Nigeria first struck oil in 1956), Kolo, Emeyal and Otuoke. Wikipedia describes Ogbia as an Ijaw dialect and the Ogbia as part of the Ijaw nation; linguists class Ogbia with Abua and Odual in the Central Delta group, not with Ijaw.",
+		"sources": [
+			"wikipedia-ogbia",
+			"glottolog-ogbi1239"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "bayelsa-ogbia",
+			"presence": "core",
+			"sources": [
+				"wikipedia-ogbia"
+			],
+			"confidence": "high"
+		}
+	]
+}

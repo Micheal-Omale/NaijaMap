@@ -1,0 +1,40 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Arum",
+	"searchAliases": [
+		"Arum",
+		"Alumu",
+		"Alumu-Tesu"
+	],
+	"language": {
+		"name": "Arum (Alumu-Tesu)",
+		"glottocode": "alum1246",
+		"family": "plateau",
+		"sources": [
+			"glottolog-alum1246"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Arum are one of the peoples of Wamba LGA in Nasarawa State.",
+		"sources": [
+			"omachonu-dalhatu-2018",
+			"wikipedia-wamba",
+			"glottolog-alum1246"
+		],
+		"confidence": "medium"
+	},
+	"areas": [
+		{
+			"lga": "nasarawa-wamba",
+			"presence": "significant",
+			"sources": [
+				"omachonu-dalhatu-2018",
+				"wikipedia-wamba"
+			],
+			"confidence": "medium"
+		}
+	]
+}

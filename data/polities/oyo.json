@@ -1,0 +1,469 @@
+{
+	"name": "Oyo Empire",
+	"status": "draft",
+	"kind": "empire",
+	"otherNames": [
+		"Ọ̀yọ́",
+		"Old Oyo"
+	],
+	"span": {
+		"from": 1400,
+		"to": 1836,
+		"fromLabel": "c. 1400 (14th century)",
+		"sources": [
+			"wikipedia-oyo-empire",
+			"law-1977"
+		],
+		"confidence": "medium",
+		"note": "Oyo-Ile was settled in the 14th century; dates before 1600 rest on king lists."
+	},
+	"peak": 1750,
+	"summary": {
+		"text": "The largest Yoruba state, built on cavalry in the open savanna north of the forest. From Oyo-Ile its Alaafin ruled a metropolitan core and a ring of tributaries reaching the coast at Ajase (Porto-Novo), and Dahomey paid it tribute for almost a century. Revolt at Ilorin and the Fulani jihad brought it down in the 1830s.",
+		"sources": [
+			"wikipedia-oyo-empire",
+			"law-1977",
+			"smith-1988"
+		],
+		"confidence": "high"
+	},
+	"ruler": {
+		"title": "Alaafin",
+		"sources": [
+			"wikipedia-oyo-empire"
+		],
+		"confidence": "high"
+	},
+	"peoples": [
+		"yoruba"
+	],
+	"snapshots": [
+		{
+			"year": 1400,
+			"yearLabel": "c. 1400",
+			"title": "Oyo-Ile in the savanna",
+			"text": "Oyo is a modest kingdom around its capital Oyo-Ile, near the Niger in the open country north of the forest.",
+			"capital": {
+				"name": "Oyo-Ile (Old Oyo)",
+				"point": [
+					4.3075,
+					8.9747
+				]
+			},
+			"core": {
+				"lgas": [
+					"oyo-olorunsogo",
+					"oyo-irepo",
+					"oyo-orelope",
+					"oyo-ori-ire",
+					"oyo-atiba",
+					"oyo-ogbomosho-north",
+					"oyo-surulere",
+					"kwara-moro",
+					"kwara-asa"
+				]
+			},
+			"sources": [
+				"wikipedia-oyo-empire",
+				"wikipedia-old-oyo",
+				"law-1977"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1535,
+			"yearLabel": "c. 1535",
+			"title": "Nupe sacks Oyo-Ile",
+			"text": "Nupe armies take Oyo-Ile. The royal court flees to Borgu and then settles in exile at Igboho for most of a century.",
+			"capital": {
+				"name": "Igboho",
+				"point": [
+					3.75,
+					8.83
+				]
+			},
+			"core": {
+				"lgas": [
+					"oyo-orelope",
+					"oyo-olorunsogo",
+					"oyo-irepo",
+					"oyo-saki-east",
+					"oyo-saki-west",
+					"oyo-atisbo"
+				]
+			},
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Gbara (approximate)",
+						"point": [
+							6.05,
+							8.9
+						]
+					},
+					"label": "Defeated by Nupe"
+				}
+			],
+			"sources": [
+				"wikipedia-oyo-empire",
+				"law-1977"
+			],
+			"confidence": "medium",
+			"note": "Date of the sack is estimated from king lists."
+		},
+		{
+			"year": 1610,
+			"yearLabel": "c. 1610",
+			"title": "Return to Oyo-Ile",
+			"text": "Alaafin Abipa brings the court back to Oyo-Ile. A cavalry army rebuilds Oyo's power over the savanna Yoruba.",
+			"capital": {
+				"name": "Oyo-Ile (Old Oyo)",
+				"point": [
+					4.3075,
+					8.9747
+				]
+			},
+			"core": {
+				"lgas": [
+					"oyo-olorunsogo",
+					"oyo-irepo",
+					"oyo-orelope",
+					"oyo-ori-ire",
+					"oyo-atiba",
+					"oyo-ogbomosho-north",
+					"oyo-ogbomosho-south",
+					"oyo-surulere",
+					"oyo-saki-east",
+					"oyo-saki-west",
+					"oyo-atisbo",
+					"oyo-iseyin",
+					"oyo-itesiwaju",
+					"oyo-kajola",
+					"oyo-oyo-east",
+					"oyo-oyo-west",
+					"oyo-afijio",
+					"oyo-ogo-oluwa",
+					"kwara-moro",
+					"kwara-asa",
+					"kwara-ilorin-west",
+					"kwara-ilorin-east",
+					"kwara-ilorin-south"
+				]
+			},
+			"sources": [
+				"wikipedia-oyo-empire",
+				"law-1977"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1750,
+			"yearLabel": "c. 1750",
+			"title": "The height of Oyo",
+			"text": "Oyo rules a metropolitan core and the Egbado corridor to the sea, where Ajase (Porto-Novo) ships enslaved people to European traders. Dahomey has paid tribute since 1730. The Egba and Igbomina towns are tributaries.",
+			"capital": {
+				"name": "Oyo-Ile (Old Oyo)",
+				"point": [
+					4.3075,
+					8.9747
+				]
+			},
+			"core": {
+				"states": [
+					"oyo"
+				],
+				"lgas": [
+					"kwara-moro",
+					"kwara-asa",
+					"kwara-ilorin-west",
+					"kwara-ilorin-east",
+					"kwara-ilorin-south",
+					"kwara-offa",
+					"kwara-oyun",
+					"osun-ejigbo",
+					"osun-ede-north",
+					"osun-ede-south",
+					"osun-iwo",
+					"osun-ola-oluwa",
+					"osun-ayedire",
+					"osun-ayedade",
+					"osun-irewole",
+					"osun-isokan",
+					"osun-egbedore",
+					"osun-olorunda",
+					"osun-osogbo",
+					"osun-irepodun",
+					"osun-ifelodun",
+					"osun-boripe",
+					"osun-odo-otin",
+					"osun-ila",
+					"osun-ifedayo",
+					"osun-boluwaduro",
+					"osun-orolu",
+					"ogun-yewa-north",
+					"ogun-yewa-south",
+					"ogun-ipokia",
+					"ogun-imeko-afon"
+				]
+			},
+			"influence": {
+				"lgas": [
+					"ogun-abeokuta-north",
+					"ogun-abeokuta-south",
+					"ogun-odeda",
+					"ogun-obafemi-owode",
+					"ogun-ewekoro",
+					"ogun-ifo",
+					"ogun-ado-odo-ota",
+					"kwara-irepodun",
+					"kwara-ifelodun",
+					"kwara-isin",
+					"kwara-oke-ero",
+					"kwara-ekiti",
+					"lagos-badagry"
+				],
+				"beyond": [
+					[
+						[
+							1.4,
+							6.2
+						],
+						[
+							2.8,
+							6.3
+						],
+						[
+							2.8,
+							8
+						],
+						[
+							2.4,
+							9.4
+						],
+						[
+							1.5,
+							9.2
+						],
+						[
+							1.3,
+							7.6
+						]
+					],
+					[
+						[
+							2.3,
+							6.9
+						],
+						[
+							2.85,
+							6.9
+						],
+						[
+							2.85,
+							8.4
+						],
+						[
+							2.3,
+							8.4
+						]
+					]
+				],
+				"confidence": "medium"
+			},
+			"links": [
+				{
+					"kind": "tribute",
+					"to": {
+						"name": "Abomey (Dahomey)",
+						"point": [
+							1.99,
+							7.18
+						]
+					},
+					"label": "Dahomey pays tribute (1730–1823)"
+				},
+				{
+					"kind": "trade",
+					"to": {
+						"name": "Ajase (Porto-Novo)",
+						"point": [
+							2.6,
+							6.49
+						]
+					},
+					"label": "Egbado corridor to the coast"
+				}
+			],
+			"sources": [
+				"wikipedia-oyo-empire",
+				"law-1977",
+				"akinjogbin-1967",
+				"ajayi-crowder-1985"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1817,
+			"title": "Afonja revolts at Ilorin",
+			"text": "Afonja, Oyo's war chief at Ilorin, rebels with help from Fulani and Hausa followers. By 1823 Ilorin has joined the Sokoto Caliphate and Dahomey has stopped paying tribute.",
+			"capital": {
+				"name": "Oyo-Ile (Old Oyo)",
+				"point": [
+					4.3075,
+					8.9747
+				]
+			},
+			"core": {
+				"lgas": [
+					"oyo-olorunsogo",
+					"oyo-irepo",
+					"oyo-orelope",
+					"oyo-ori-ire",
+					"oyo-atiba",
+					"oyo-ogbomosho-north",
+					"oyo-ogbomosho-south",
+					"oyo-surulere",
+					"oyo-saki-east",
+					"oyo-saki-west",
+					"oyo-atisbo",
+					"oyo-iseyin",
+					"oyo-itesiwaju",
+					"oyo-kajola",
+					"oyo-oyo-east",
+					"oyo-oyo-west",
+					"oyo-afijio",
+					"oyo-ogo-oluwa",
+					"oyo-iwajowa",
+					"osun-ejigbo",
+					"osun-iwo",
+					"osun-ede-north",
+					"osun-ede-south",
+					"osun-ola-oluwa",
+					"osun-ayedire",
+					"osun-irewole",
+					"osun-isokan",
+					"osun-ayedade"
+				]
+			},
+			"influence": {
+				"lgas": [
+					"ogun-yewa-north",
+					"ogun-yewa-south",
+					"ogun-ipokia",
+					"ogun-imeko-afon"
+				],
+				"beyond": [
+					[
+						[
+							1.4,
+							6.2
+						],
+						[
+							2.8,
+							6.3
+						],
+						[
+							2.8,
+							8
+						],
+						[
+							2.4,
+							9.4
+						],
+						[
+							1.5,
+							9.2
+						],
+						[
+							1.3,
+							7.6
+						]
+					]
+				],
+				"confidence": "medium"
+			},
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Ilorin",
+						"point": [
+							4.55,
+							8.5
+						]
+					},
+					"label": "Ilorin breaks away"
+				}
+			],
+			"sources": [
+				"wikipedia-oyo-empire",
+				"law-1977"
+			],
+			"confidence": "high"
+		},
+		{
+			"year": 1835,
+			"title": "Oyo-Ile abandoned",
+			"text": "After Alaafin Oluewu dies fighting Ilorin, the capital is abandoned. The court moves south to Ago-Oja, the Oyo of today, founded in 1837. Power in Yorubaland passes to new war states such as Ibadan.",
+			"capital": {
+				"name": "Oyo-Ile (Old Oyo)",
+				"point": [
+					4.3075,
+					8.9747
+				]
+			},
+			"core": {
+				"lgas": [
+					"oyo-oyo-east",
+					"oyo-oyo-west",
+					"oyo-afijio",
+					"oyo-atiba",
+					"oyo-ogbomosho-north",
+					"oyo-ogbomosho-south",
+					"oyo-iseyin",
+					"oyo-saki-west"
+				]
+			},
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Ilorin",
+						"point": [
+							4.55,
+							8.5
+						]
+					},
+					"label": "Defeat by Ilorin"
+				}
+			],
+			"sources": [
+				"wikipedia-oyo-empire",
+				"wikipedia-old-oyo",
+				"law-1977"
+			],
+			"confidence": "high"
+		}
+	],
+	"today": {
+		"text": "The Alaafin still reigns from Oyo town, the new capital founded in 1837. The ruins of Oyo-Ile lie inside Old Oyo National Park.",
+		"title": "Alaafin of Oyo",
+		"seat": {
+			"name": "Oyo (Ago-Oja)",
+			"point": [
+				3.93,
+				7.85
+			]
+		},
+		"sources": [
+			"wikipedia-oyo-empire",
+			"wikipedia-old-oyo"
+		],
+		"confidence": "high"
+	},
+	"reviewNotes": [
+		"The 1750 core uses whole Oyo State, which includes the Ibadan area. Ibadan was not founded until 1829; the forest belt there was thinly settled.",
+		"Check whether Osun towns such as Osogbo and Ila were core or tributary in 1750."
+	]
+}

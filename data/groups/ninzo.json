@@ -1,0 +1,57 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Ninzo",
+	"searchAliases": [
+		"Ninzo",
+		"Ninzam",
+		"Ninzom",
+		"Gwantu"
+	],
+	"language": {
+		"name": "Ninzo",
+		"glottocode": "ninz1246",
+		"family": "plateau",
+		"sources": [
+			"glottolog-ninz1246"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Ninzo live in Sanga LGA of southern Kaduna, where the Ayu and Godogodo chiefdoms are made up of Ninzo and Mada, and in Wamba and Kokona of Nasarawa.",
+		"sources": [
+			"wikipedia-kaduna-state",
+			"omachonu-dalhatu-2018",
+			"glottolog-ninz1246"
+		],
+		"confidence": "medium"
+	},
+	"areas": [
+		{
+			"lga": "kaduna-sanga",
+			"presence": "core",
+			"sources": [
+				"wikipedia-kaduna-state"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "nasarawa-wamba",
+			"presence": "significant",
+			"sources": [
+				"omachonu-dalhatu-2018",
+				"wikipedia-wamba"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "nasarawa-kokona",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-nasarawa-state"
+			],
+			"confidence": "medium"
+		}
+	]
+}

@@ -1,0 +1,46 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Ekpeye",
+	"searchAliases": [
+		"Ekpeye",
+		"Ahoada",
+		"Ekpeya"
+	],
+	"language": {
+		"name": "Ekpeye",
+		"glottocode": "ekpe1253",
+		"family": "igboid",
+		"sources": [
+			"glottolog-ekpe1253"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Ekpeye live in Ahoada East and Ahoada West LGAs of Rivers State and speak Ekpeye, an Igboid language.",
+		"sources": [
+			"wikipedia-rivers-state",
+			"glottolog-ekpe1253"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "rivers-ahoada-east",
+			"presence": "core",
+			"sources": [
+				"wikipedia-rivers-state"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "rivers-ahoada-west",
+			"presence": "core",
+			"sources": [
+				"wikipedia-rivers-state"
+			],
+			"confidence": "medium"
+		}
+	]
+}

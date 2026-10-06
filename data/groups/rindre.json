@@ -1,0 +1,40 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Rindre",
+	"searchAliases": [
+		"Rindre",
+		"Nungu",
+		"Wamba"
+	],
+	"language": {
+		"name": "Rindre",
+		"glottocode": "rind1238",
+		"family": "plateau",
+		"sources": [
+			"glottolog-rind1238"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Rindre (Nungu) are one of the peoples of Wamba LGA in northern Nasarawa State, also found in Akwanga and Lafia.",
+		"sources": [
+			"omachonu-dalhatu-2018",
+			"wikipedia-wamba",
+			"glottolog-rind1238"
+		],
+		"confidence": "medium"
+	},
+	"areas": [
+		{
+			"lga": "nasarawa-wamba",
+			"presence": "significant",
+			"sources": [
+				"omachonu-dalhatu-2018",
+				"wikipedia-wamba"
+			],
+			"confidence": "medium"
+		}
+	]
+}

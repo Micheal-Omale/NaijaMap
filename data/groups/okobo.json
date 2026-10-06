@@ -1,0 +1,38 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Okobo",
+	"searchAliases": [
+		"Okobo",
+		"Okobo Ebughu"
+	],
+	"language": {
+		"name": "Okobo",
+		"glottocode": "okob1241",
+		"family": "lower-cross",
+		"sources": [
+			"glottolog-okob1241"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Okobo are the people of Okobo LGA in southern Akwa Ibom, beside the Oron. Okobo is a Lower Cross language of its own, related to Oro and Ibibio.",
+		"sources": [
+			"wikipedia-akwa-ibom",
+			"glottolog-okob1241"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "akwa-ibom-okobo",
+			"presence": "core",
+			"sources": [
+				"wikipedia-akwa-ibom"
+			],
+			"confidence": "high",
+			"note": "Wikipedia's language table gives Okobo for Okobo LGA."
+		}
+	]
+}

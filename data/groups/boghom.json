@@ -1,0 +1,41 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Boghom",
+	"searchAliases": [
+		"Boghom",
+		"Bogghom",
+		"Burrum",
+		"Kanam"
+	],
+	"language": {
+		"name": "Boghom",
+		"glottocode": "bogh1241",
+		"family": "chadic",
+		"sources": [
+			"glottolog-bogh1241"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Boghom are, with the Jhar, the predominant people of Kanam LGA in Plateau State, mostly farmers. Boghom is a West Chadic language.",
+		"sources": [
+			"wikipedia-kanam",
+			"wikipedia-plateau-state",
+			"glottolog-bogh1241"
+		],
+		"confidence": "medium"
+	},
+	"areas": [
+		{
+			"lga": "plateau-kanam",
+			"presence": "core",
+			"sources": [
+				"wikipedia-kanam",
+				"wikipedia-plateau-state"
+			],
+			"confidence": "medium"
+		}
+	]
+}

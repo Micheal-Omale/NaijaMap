@@ -25,11 +25,16 @@ export async function getGroupViews(): Promise<GroupView[]> {
 	const entries = (await getCollection('groups', ({ data }) => isVisible(data.status))).sort((a, b) =>
 		a.data.name.localeCompare(b.data.name),
 	);
-	return Promise.all(entries.map(toView));
+	const polities = (await getCollection('polities', ({ data }) => isVisible(data.status))).sort((a, b) => a.data.span.from - b.data.span.from);
+	const views = await Promise.all(entries.map(toView));
+	for (const v of views) {
+		v.kingdoms = polities.filter((p) => p.data.peoples.some((r) => r.id === v.id)).map((p) => ({ id: p.id, name: p.data.name, peak: p.data.peak }));
+	}
+	return views;
 }
 
 /** Numbers sources in the order claims first cite them, like footnotes, for one profile or brief. */
-function makeCiter() {
+export function makeCiter() {
 	const sources: SourceView[] = [];
 	const numbers = new Map<string, number>();
 	async function evidence(claim: { sources: SourceRef[]; confidence: Evidence['confidence']; note?: string }): Promise<Evidence> {
@@ -82,14 +87,25 @@ async function toView(entry: CollectionEntry<'groups'>): Promise<GroupView> {
 	const communities = [];
 	for (const c of g.communities) {
 		const l = lga(c.lga);
+		const point = (c.point ?? l.point) as [number, number];
+		const markers = [{ lga: l.id, point }];
+		for (const other of c.alsoIn) {
+			// Mark the village nearest the middle of the community's villages in that LGA.
+			const pts = c.villages.filter((v) => v.lga === other && v.point).map((v) => v.point as [number, number]);
+			if (!pts.length) continue;
+			const mid = [pts.reduce((s, p) => s + p[0], 0) / pts.length, pts.reduce((s, p) => s + p[1], 0) / pts.length];
+			const near = pts.reduce((a, b) => ((a[0] - mid[0]) ** 2 + (a[1] - mid[1]) ** 2 <= (b[0] - mid[0]) ** 2 + (b[1] - mid[1]) ** 2 ? a : b));
+			markers.push({ lga: other, point: near });
+		}
 		communities.push({
 			name: c.name,
 			lga: l.id,
 			lgaName: l.name,
 			state: l.state,
-			point: (c.point ?? l.point) as [number, number],
+			point,
 			approximate: !c.point,
 			villages: c.villages,
+			markers,
 			alsoIn: c.alsoIn.map((id) => {
 				const o = lga(id);
 				return { lga: o.id, name: o.name, state: o.state };
@@ -112,6 +128,7 @@ async function toView(entry: CollectionEntry<'groups'>): Promise<GroupView> {
 		communities,
 		sources,
 		reviewNotes: g.reviewNotes,
+		kingdoms: [],
 	};
 }
 

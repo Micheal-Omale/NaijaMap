@@ -1,17 +1,14 @@
 {
 	"status": "draft",
 	"communities": [],
-	"reviewNotes": [
-		"The Egbema (also in Imo State) are not yet mapped separately."
-	],
+	"reviewNotes": [],
 	"name": "Ogba",
 	"searchAliases": [
 		"Ogba",
 		"Ogbah",
 		"Omoku",
 		"Egi",
-		"Igburu",
-		"Egbema"
+		"Igburu"
 	],
 	"language": {
 		"name": "Ogba",

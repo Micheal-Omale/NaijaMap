@@ -1,0 +1,66 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Acipa (Cicipu)",
+	"searchAliases": [
+		"Acipa",
+		"Achipa",
+		"Achifawa",
+		"Cicipu",
+		"Acipanci"
+	],
+	"language": {
+		"name": "Cicipu",
+		"glottocode": "cici1237",
+		"family": "kainji",
+		"sources": [
+			"glottolog-cicipu"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Acipa (Achifawa in Hausa) are a small Kainji people of the Zuru Emirate and western Niger State. Their language, Cicipu, is related to the Kambari languages.",
+		"sources": [
+			"wikipedia-kainji-languages",
+			"glottolog-cicipu",
+			"wikipedia-kebbi-state"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "kebbi-sakaba",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-kainji-languages",
+				"wikipedia-kebbi-state"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "niger-mariga",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-kainji-languages"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "niger-rafi",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-kainji-languages"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kaduna-birnin-gwari",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-kainji-languages"
+			],
+			"confidence": "medium"
+		}
+	]
+}

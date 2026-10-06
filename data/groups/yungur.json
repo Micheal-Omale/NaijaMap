@@ -1,0 +1,42 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Yungur",
+	"searchAliases": [
+		"Yungur",
+		"Ebode",
+		"Ebina",
+		"Song"
+	],
+	"language": {
+		"name": "Yungur",
+		"glottocode": "yung1254",
+		"family": "adamawa",
+		"sources": [
+			"glottolog-yung1254"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Yungur live in Song, Guyuk and Gombi LGAs of Adamawa State, between Shelleng and Song. About 95,000 speakers in 1992.",
+		"sources": [
+			"wikipedia-adamawa-state",
+			"wikipedia-bena-mboi",
+			"glottolog-yung1254"
+		],
+		"confidence": "medium"
+	},
+	"areas": [
+		{
+			"lga": "adamawa-song",
+			"presence": "core",
+			"sources": [
+				"wikipedia-adamawa-state",
+				"wikipedia-bena-mboi"
+			],
+			"confidence": "medium",
+			"note": "Wikipedia's table names Mboi and Yungur for Song. Bata (Bachama), Lala and Fulani also live there."
+		}
+	]
+}

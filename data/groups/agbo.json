@@ -1,0 +1,40 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Agbo",
+	"searchAliases": [
+		"Agbo",
+		"Legbo",
+		"Imabana",
+		"Itigidi",
+		"Ekureku"
+	],
+	"language": {
+		"name": "Legbo",
+		"glottocode": "legb1242",
+		"family": "upper-cross",
+		"sources": [
+			"glottolog-legb1242"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Agbo, who speak Legbo, are with the Bahumono the main people of Abi LGA, Cross River State. Some describe them as an Igbo subgroup; the Agbo reject this.",
+		"sources": [
+			"wikipedia-bahumono",
+			"glottolog-legb1242"
+		],
+		"confidence": "medium"
+	},
+	"areas": [
+		{
+			"lga": "cross-river-abi",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-bahumono"
+			],
+			"confidence": "medium"
+		}
+	]
+}

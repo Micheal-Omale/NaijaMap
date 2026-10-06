@@ -1,0 +1,124 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [
+		"Wikipedia says some Kambari also live in Zamfara State; no LGA named yet.",
+		"The Mashegu LGA page of the Niger State Local Government Service Commission lists Kambari first among its peoples; the page was offline when checked."
+	],
+	"name": "Kambari",
+	"searchAliases": [
+		"Kambari",
+		"Kamberi",
+		"Kambarawa",
+		"Agadi",
+		"Avadi",
+		"Baangi",
+		"Ashingini",
+		"Agaushi",
+		"Akimba",
+		"Nwanci",
+		"Tsishingini",
+		"Cishingini",
+		"Tsikimba",
+		"Auna",
+		"Agwara"
+	],
+	"language": {
+		"name": "Kambari languages (Tsishingini, Cishingini, Tsikimba, Baangi and others)",
+		"glottocode": "kamb1319",
+		"family": "kainji",
+		"sources": [
+			"glottolog-kambaric",
+			"wikipedia-kainji-languages"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Kambari (Kamberi) live around Lake Kainji in Niger and Kebbi States, in two language clusters with many dialects: Agadi in Mariga, Avadi and Ashingini in Magama, Baangi in Kontagora, Nwanci around Agwara, and Agaushi (Cishingini) and Akimba (Tsikimba) around Auna, Magama and Yauri. They are farmers. Kambari languages are Kainji languages, related to C'lela and Duka. In Agwara LGA, formerly part of Borgu, the Kambari now hold political power.",
+		"sources": [
+			"ross-jones-borgu",
+			"wikipedia-kainji-languages",
+			"wikipedia-kimba-language"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "niger-magama",
+			"presence": "core",
+			"sources": [
+				"ross-jones-borgu",
+				"wikipedia-kainji-languages",
+				"wikipedia-kimba-language"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "niger-mariga",
+			"presence": "core",
+			"sources": [
+				"ross-jones-borgu",
+				"wikipedia-kimba-language"
+			],
+			"confidence": "high",
+			"note": "The Agadi."
+		},
+		{
+			"lga": "niger-agwara",
+			"presence": "core",
+			"sources": [
+				"ross-jones-borgu"
+			],
+			"confidence": "high",
+			"note": "The Nwanci; 'the Kambari now have political power in Agwara LGA'."
+		},
+		{
+			"lga": "niger-borgu",
+			"presence": "core",
+			"sources": [
+				"ross-jones-borgu"
+			],
+			"confidence": "high",
+			"note": "About 25,000 in 1991, around Wawa and New Bussa (Ashingini), long settled and assimilating to Busa. Predominant in Doko, Doro, Kuruwasa, Kere, Koro, Lubararu, Tamanai, Yangba, Garafini and Gada Oli."
+		},
+		{
+			"lga": "niger-kontagora",
+			"presence": "significant",
+			"sources": [
+				"ross-jones-borgu",
+				"wikipedia-kainji-languages"
+			],
+			"confidence": "medium",
+			"note": "The Baangi."
+		},
+		{
+			"lga": "niger-mashegu",
+			"presence": "core",
+			"sources": [
+				"wikipedia-kimba-language"
+			],
+			"confidence": "medium",
+			"note": "Tsikimba is spoken in Mashegu LGA."
+		},
+		{
+			"lga": "kebbi-ngaski",
+			"presence": "core",
+			"sources": [
+				"wikipedia-kebbi-state",
+				"wikipedia-kimba-language"
+			],
+			"confidence": "high",
+			"note": "All but one of the languages Wikipedia lists for Ngaski are Kambari (Cishingini, Tsikimba, Tsishingini, Tsuvadi); the other is Lopa."
+		},
+		{
+			"lga": "kebbi-yauri",
+			"presence": "core",
+			"sources": [
+				"ross-jones-borgu",
+				"wikipedia-kainji-languages"
+			],
+			"confidence": "high",
+			"note": "Ross Jones: Yauri LGA 'is dominated by the Reshe and Kambari peoples'."
+		}
+	]
+}

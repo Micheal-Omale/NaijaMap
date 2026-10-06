@@ -1,0 +1,68 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Oron (Oro)",
+	"searchAliases": [
+		"Oron",
+		"Oro",
+		"Ebughu",
+		"Efai",
+		"Enwang",
+		"Mbo",
+		"Udung Uko",
+		"Urue Offong",
+		"Oruko"
+	],
+	"language": {
+		"name": "Oro",
+		"glottocode": "oroo1241",
+		"family": "lower-cross",
+		"sources": [
+			"glottolog-oroo1241"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Oron (Oro) are one of the three main peoples of Akwa Ibom, with the Ibibio and Annang, in the south of the state around Oron on the Cross River estuary. Oro is spoken in Oron, Mbo, Udung Uko and Urue Offong/Oruko LGAs; Mbo also has the related Ebughu, Efai and Enwang.",
+		"sources": [
+			"wikipedia-akwa-ibom",
+			"glottolog-oroo1241"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "akwa-ibom-oron",
+			"presence": "core",
+			"sources": [
+				"wikipedia-akwa-ibom"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "akwa-ibom-mbo",
+			"presence": "core",
+			"sources": [
+				"wikipedia-akwa-ibom"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "akwa-ibom-udung-uko",
+			"presence": "core",
+			"sources": [
+				"wikipedia-akwa-ibom"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "akwa-ibom-urue-offong-oruko",
+			"presence": "core",
+			"sources": [
+				"wikipedia-akwa-ibom"
+			],
+			"confidence": "high"
+		}
+	]
+}

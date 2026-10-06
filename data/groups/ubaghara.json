@@ -1,0 +1,42 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Ubaghara",
+	"searchAliases": [
+		"Ubaghara",
+		"Ehom",
+		"Biakpan",
+		"Ikun",
+		"Etono"
+	],
+	"language": {
+		"name": "Ubaghara",
+		"glottocode": "ubag1245",
+		"family": "upper-cross",
+		"sources": [
+			"glottolog-ubag1245"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Ubaghara (with Ehom) are among the five clans of Biase LGA, Cross River State.",
+		"sources": [
+			"opencommons-biase",
+			"wikipedia-cross-river-state",
+			"glottolog-ubag1245"
+		],
+		"confidence": "medium"
+	},
+	"areas": [
+		{
+			"lga": "cross-river-biase",
+			"presence": "significant",
+			"sources": [
+				"opencommons-biase",
+				"wikipedia-cross-river-state"
+			],
+			"confidence": "medium"
+		}
+	]
+}

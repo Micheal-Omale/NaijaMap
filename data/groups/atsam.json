@@ -1,0 +1,43 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [
+		"Kauru's other peoples (Kurama of Karku, Ruruma, Kinuku and others) are not yet mapped separately."
+	],
+	"name": "Atsam (Chawai)",
+	"searchAliases": [
+		"Atsam",
+		"Chawai",
+		"Tsam"
+	],
+	"language": {
+		"name": "Atsam",
+		"glottocode": "atsa1241",
+		"family": "kainji",
+		"sources": [
+			"glottolog-atsa1241"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Atsam, called Chawai by Hausa, are native to the Tsam (Chawai) chiefdom in south-eastern Kauru LGA, Kaduna State. Their language is Kainji.",
+		"sources": [
+			"wikipedia-atsam-people",
+			"wikipedia-kaduna-state",
+			"glottolog-atsa1241"
+		],
+		"confidence": "medium"
+	},
+	"areas": [
+		{
+			"lga": "kaduna-kauru",
+			"presence": "core",
+			"sources": [
+				"wikipedia-atsam-people",
+				"wikipedia-kaduna-state"
+			],
+			"confidence": "medium",
+			"note": "Kauru is home to about 20 languages, among them Kurama, Ruruma, Kinuku, Dungi, Bina and Rigwe."
+		}
+	]
+}

@@ -1,0 +1,38 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Erei",
+	"searchAliases": [
+		"Erei",
+		"Enna",
+		"Urugbam"
+	],
+	"language": {
+		"name": "Erei",
+		"glottocode": "erei1238",
+		"family": "upper-cross",
+		"sources": [
+			"glottolog-erei1238"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Erei live in Biase LGA, Cross River State, in towns including Abanwan, Afono, Egbor, Ipene and Urugbam, their capital.",
+		"sources": [
+			"opencommons-biase",
+			"glottolog-erei1238"
+		],
+		"confidence": "medium"
+	},
+	"areas": [
+		{
+			"lga": "cross-river-biase",
+			"presence": "core",
+			"sources": [
+				"opencommons-biase"
+			],
+			"confidence": "medium"
+		}
+	]
+}

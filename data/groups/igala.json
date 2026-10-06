@@ -384,21 +384,24 @@
 					"point": [
 						6.6089,
 						6.7905
-					]
+					],
+					"lga": "edo-esan-south-east"
 				},
 				{
 					"name": "Ifeku Island",
 					"point": [
 						6.6089,
 						6.7834
-					]
+					],
+					"lga": "edo-esan-south-east"
 				},
 				{
 					"name": "Okwoshimili",
 					"point": [
 						6.6171,
 						6.7521
-					]
+					],
+					"lga": "edo-esan-south-east"
 				}
 			],
 			"sources": [

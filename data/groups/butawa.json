@@ -1,0 +1,51 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Butawa",
+	"searchAliases": [
+		"Butawa",
+		"Butu",
+		"Butanci",
+		"Ningawa",
+		"Gamo"
+	],
+	"language": {
+		"name": "Gamo-Ningi (Butanci)",
+		"glottocode": "gamo1241",
+		"family": "kainji",
+		"sources": [
+			"glottolog-gamo1241"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Butawa are a small people of the Ningi plateau in Bauchi State, with some in Kano State. Their language, Butanci, is a Kainji language now spoken by very few; most Butawa speak Hausa.",
+		"sources": [
+			"wikipedia-gamo-ningi",
+			"amfani-2018",
+			"glottolog-gamo1241"
+		],
+		"confidence": "medium"
+	},
+	"areas": [
+		{
+			"lga": "bauchi-ningi",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-bauchi-state",
+				"wikipedia-gamo-ningi"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "kano-sumaila",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high",
+			"note": "Amfani: Butanci 'is spoken only in Sumaila' in Kano State, 'by very few people and is near extinction'."
+		}
+	]
+}

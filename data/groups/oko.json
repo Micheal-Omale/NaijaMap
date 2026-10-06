@@ -1,0 +1,44 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Ogori and Magongo (Oko)",
+	"searchAliases": [
+		"Ogori",
+		"Magongo",
+		"Oko",
+		"Osayen",
+		"Eni",
+		"Ologori",
+		"Olu-Magongo"
+	],
+	"language": {
+		"name": "Oko (Ogori) and Osayen (Magongo)",
+		"glottocode": "okoe1238",
+		"family": "oko",
+		"sources": [
+			"glottolog-okoe1238"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The people of Ogori/Magongo LGA in Kogi State speak Oko (Ogori) and Osayen (Magongo), dialects of one Benue-Congo language that has no close relatives. Ogori is ruled by the Ologori and Magongo by the Olu-Magongo. They are known for scholarship.",
+		"sources": [
+			"wikipedia-ogori-magongo",
+			"omachonu-dalhatu-2018",
+			"glottolog-okoe1238"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "kogi-ogori-magongo",
+			"presence": "core",
+			"sources": [
+				"wikipedia-ogori-magongo",
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high"
+		}
+	]
+}
