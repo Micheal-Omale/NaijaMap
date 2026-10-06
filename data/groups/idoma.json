@@ -1,0 +1,118 @@
+{
+	"name": "Idoma",
+	"status": "draft",
+	"searchAliases": [
+		"Idoma",
+		"Agatu",
+		"Och’Idoma",
+		"Ochidoma",
+		"Otukpo"
+	],
+	"language": {
+		"name": "Idoma",
+		"iso639_3": "idu",
+		"glottocode": "idom1241",
+		"family": "idomoid",
+		"sources": [
+			"glottolog-idoma"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Idoma are the second largest people of Benue State, in its lower western part, south of the Benue River. The 2006 census counted about 1.3 million Idoma in Benue. Idoma tradition links them closely to the Igala: it holds that Onoja, founder of the Igala Kingdom, was born of the same ancestor.",
+		"sources": [
+			"wikipedia-idoma-people",
+			"iambenue-idoma"
+		],
+		"confidence": "high"
+	},
+	"ruler": {
+		"title": "Och’Idoma",
+		"seat": "benue-oturkpo",
+		"sources": [
+			"wikipedia-idoma-people"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "benue-agatu",
+			"presence": "core",
+			"sources": [
+				"iambenue-idoma",
+				"wikipedia-idoma-people"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "benue-apa",
+			"presence": "core",
+			"sources": [
+				"iambenue-idoma",
+				"wikipedia-idoma-people"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "benue-ohimini",
+			"presence": "core",
+			"sources": [
+				"iambenue-idoma",
+				"wikipedia-idoma-people"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "benue-ogbadibo",
+			"presence": "core",
+			"sources": [
+				"iambenue-idoma",
+				"wikipedia-idoma-people"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "benue-okpokwu",
+			"presence": "core",
+			"sources": [
+				"iambenue-idoma",
+				"wikipedia-idoma-people"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "benue-oturkpo",
+			"presence": "core",
+			"sources": [
+				"iambenue-idoma",
+				"wikipedia-idoma-people"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "benue-ado",
+			"presence": "significant",
+			"sources": [
+				"iambenue-idoma",
+				"wikipedia-ado-benue"
+			],
+			"confidence": "high",
+			"note": "Shared with the Igede and some Igbo communities."
+		},
+		{
+			"lga": "kogi-omala",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-omala",
+				"wikipedia-agatu-language"
+			],
+			"confidence": "medium",
+			"note": "A few Agatu (who speak a dialect of Idoma) live in Omala."
+		}
+	],
+	"communities": [],
+	"reviewNotes": [
+		"Wikipedia says the Idoma occupy nine LGAs; the Benue source names seven. Obi and Oju (mostly Igede) are not mapped yet.",
+		"Idomoid peoples outside Benue (Alago in Doma and Keana, Yala in Cross River) speak related but separate languages and are not counted as Idoma here."
+	]
+}

@@ -1,0 +1,56 @@
+{
+	"status": "draft",
+	"summary": {
+		"text": "Headquarters at Koton Karfe, on the Niger north of Lokoja. Koton Karfe is predominantly inhabited by the Egbura Koto (Ebira Koto).",
+		"sources": [
+			"wikipedia-koton-karfe"
+		],
+		"confidence": "medium"
+	},
+	"peoples": [
+		{
+			"name": "Ebira Koto (Egbura)",
+			"group": "ebira",
+			"standing": "indigenous",
+			"share": "majority",
+			"languages": [
+				"Ebira (Koto dialect)"
+			],
+			"sources": [
+				"wikipedia-koton-karfe",
+				"glottolog-ebira"
+			],
+			"confidence": "medium"
+		},
+		{
+			"name": "Yoruba",
+			"languages": [
+				"Yoruba"
+			],
+			"sources": [
+				"wikipedia-koton-karfe"
+			],
+			"confidence": "medium"
+		},
+		{
+			"name": "Bassa",
+			"languages": [
+				"Bassa"
+			],
+			"sources": [
+				"wikipedia-koton-karfe"
+			],
+			"confidence": "medium"
+		},
+		{
+			"name": "Nupe",
+			"languages": [
+				"Nupe"
+			],
+			"sources": [
+				"wikipedia-koton-karfe"
+			],
+			"confidence": "medium"
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"status": "draft",
+	"summary": {
+		"text": "A Nupe town on the banks of the Niger in Kwara State. Its people are mainly Nupe farmers.",
+		"sources": [
+			"wikipedia-pategi"
+		],
+		"confidence": "high"
+	},
+	"peoples": [
+		{
+			"name": "Nupe",
+			"group": "nupe",
+			"standing": "indigenous",
+			"share": "majority",
+			"languages": [
+				"Nupe"
+			],
+			"sources": [
+				"wikipedia-pategi"
+			],
+			"confidence": "high"
+		}
+	]
+}

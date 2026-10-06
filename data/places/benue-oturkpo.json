@@ -1,0 +1,26 @@
+{
+	"status": "draft",
+	"summary": {
+		"text": "The heart of Idoma land and the seat of the Och’Idoma, whose palace is in Otukpo.",
+		"sources": [
+			"wikipedia-idoma-people",
+			"iambenue-idoma"
+		],
+		"confidence": "high"
+	},
+	"peoples": [
+		{
+			"name": "Idoma",
+			"group": "idoma",
+			"standing": "indigenous",
+			"share": "majority",
+			"languages": [
+				"Idoma"
+			],
+			"sources": [
+				"iambenue-idoma"
+			],
+			"confidence": "high"
+		}
+	]
+}

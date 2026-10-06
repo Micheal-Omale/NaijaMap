@@ -2,8 +2,45 @@
 	{
 		"id": "yoruboid",
 		"name": "Yoruboid",
-		"lineage": ["Atlantic-Congo", "Volta-Congo", "Benue-Congo", "Defoid", "Yoruboid"],
-		"sources": ["glottolog-igala"],
+		"lineage": [
+			"Atlantic-Congo",
+			"Volta-Congo",
+			"Benue-Congo",
+			"Defoid",
+			"Yoruboid"
+		],
+		"sources": [
+			"glottolog-igala"
+		],
+		"confidence": "high"
+	},
+	{
+		"id": "ebira-nupoid",
+		"name": "Ebira-Nupoid",
+		"lineage": [
+			"Atlantic-Congo",
+			"Volta-Congo",
+			"Benue-Congo",
+			"Ebira-Nupoid"
+		],
+		"sources": [
+			"glottolog-ebira",
+			"glottolog-nupe"
+		],
+		"confidence": "high"
+	},
+	{
+		"id": "idomoid",
+		"name": "Idomoid",
+		"lineage": [
+			"Atlantic-Congo",
+			"Volta-Congo",
+			"Benue-Congo",
+			"Idomoid"
+		],
+		"sources": [
+			"glottolog-idoma"
+		],
 		"confidence": "high"
 	}
 ]

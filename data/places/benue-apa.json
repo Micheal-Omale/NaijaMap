@@ -18,7 +18,8 @@
 			"sources": [
 				"wikipedia-apa"
 			],
-			"confidence": "high"
+			"confidence": "high",
+			"group": "idoma"
 		},
 		{
 			"name": "Igala",

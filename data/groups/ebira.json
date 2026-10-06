@@ -1,0 +1,160 @@
+{
+	"name": "Ebira",
+	"status": "draft",
+	"searchAliases": [
+		"Igbirra",
+		"Igbira",
+		"Egbira",
+		"Egbura",
+		"Ebira Tao",
+		"Ebira Koto",
+		"Ebira Toto",
+		"Etuno",
+		"Anebira"
+	],
+	"language": {
+		"name": "Ebira",
+		"iso639_3": "igb",
+		"glottocode": "ebir1243",
+		"family": "ebira-nupoid",
+		"sources": [
+			"glottolog-ebira",
+			"wikipedia-ebira-language"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Ebira live south-west of the Niger and Benue confluence, mainly in central Kogi State, where Okene has long been their centre. Ebira is spoken by about 2 million people. The Ebira Tao live around Okene; the Ebira Koto (Egbura) at Koton Karfe, Abaji and Toto; and a related people, the Etuno, at Igarra in Edo State.",
+		"sources": [
+			"wikipedia-ebira-people",
+			"wikipedia-ebira-language"
+		],
+		"confidence": "high"
+	},
+	"ruler": {
+		"title": "Ohinoyi of Ebiraland",
+		"sources": [
+			"wikipedia-ohinoyi",
+			"wikipedia-ebira-people"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "kogi-okene",
+			"presence": "core",
+			"sources": [
+				"wikipedia-okene",
+				"wikipedia-ebira-people"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kogi-okehi",
+			"presence": "core",
+			"sources": [
+				"wikipedia-ebira-people"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kogi-adavi",
+			"presence": "core",
+			"sources": [
+				"wikipedia-ebira-people"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kogi-kogi",
+			"presence": "core",
+			"sources": [
+				"wikipedia-koton-karfe",
+				"wikipedia-ebira-people"
+			],
+			"confidence": "medium",
+			"note": "Koton Karfe, the headquarters, is \"predominantly inhabited by the Egbura Kotos\". Other peoples live in the LGA too."
+		},
+		{
+			"lga": "kogi-ajaokuta",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-ebira-people",
+				"facts-ng-ajaokuta"
+			],
+			"confidence": "high",
+			"note": "Shared with Igala and Bassa communities. The Eganyi, an Ebira people, live here."
+		},
+		{
+			"lga": "nasarawa-toto",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-toto",
+				"wikipedia-ebira-language"
+			],
+			"confidence": "high",
+			"note": "Toto is mainly Bassa and Egbura (Ebira)."
+		},
+		{
+			"lga": "fct-abaji",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-abaji",
+				"wikipedia-ebira-language"
+			],
+			"confidence": "high",
+			"note": "The Egbura are among the indigenous peoples of Abaji, with the Bassa, Gbagyi and Ganagana."
+		},
+		{
+			"lga": "kogi-ogori-magongo",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-ebira-people"
+			],
+			"confidence": "disputed",
+			"note": "Wikipedia lists Ogori/Magongo among the Ebira Tao LGAs, but the Ogori and Magongo are peoples with their own language; how many Ebira live here needs checking."
+		},
+		{
+			"lga": "kogi-bassa",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-bassa-kogi",
+				"wikipedia-ebira-people"
+			],
+			"confidence": "high",
+			"note": "The Ebira Koto are the third of Bassa LGA’s three main peoples."
+		},
+		{
+			"lga": "kogi-lokoja",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-lokoja",
+				"wikipedia-ebira-people"
+			],
+			"confidence": "medium"
+		}
+	],
+	"communities": [
+		{
+			"name": "Igarra (Etuno)",
+			"lga": "edo-akoko-edo",
+			"point": [
+				6.1007,
+				7.3027
+			],
+			"sources": [
+				"wikipedia-igarra",
+				"wikipedia-ebira-language",
+				"glottolog-ebira",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"note": "The people of Igarra speak Etuno, which Glottolog counts as the Igara dialect of Ebira."
+		}
+	],
+	"reviewNotes": [
+		"The Ohinoyi’s seat (Okene) is not yet stated in a source, so the ruler is shown without a seat.",
+		"Ogori/Magongo is marked disputed: check whether Ebira live there in numbers, or only the Ogori and Magongo.",
+		"The Ebira Mozum of Bassa LGA and the Ebira in Abuja (FCT) beyond Abaji are not yet placed as communities."
+	]
+}

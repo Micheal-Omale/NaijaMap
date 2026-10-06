@@ -1,0 +1,71 @@
+{
+	"status": "draft",
+	"summary": {
+		"text": "A riverine LGA on the Benue in western Nasarawa, bordering Kogi. Its main peoples are the Bassa and the Egbura (Ebira).",
+		"sources": [
+			"wikipedia-toto"
+		],
+		"confidence": "high"
+	},
+	"peoples": [
+		{
+			"name": "Bassa",
+			"standing": "indigenous",
+			"share": "large",
+			"languages": [
+				"Bassa"
+			],
+			"sources": [
+				"wikipedia-toto"
+			],
+			"confidence": "high"
+		},
+		{
+			"name": "Egbura (Ebira)",
+			"group": "ebira",
+			"standing": "indigenous",
+			"share": "large",
+			"languages": [
+				"Ebira"
+			],
+			"sources": [
+				"wikipedia-toto",
+				"wikipedia-ebira-language"
+			],
+			"confidence": "high"
+		},
+		{
+			"name": "Gade",
+			"share": "minority",
+			"languages": [
+				"Gade"
+			],
+			"sources": [
+				"wikipedia-toto"
+			],
+			"confidence": "high"
+		},
+		{
+			"name": "Gbagyi",
+			"share": "minority",
+			"languages": [
+				"Gbagyi"
+			],
+			"sources": [
+				"wikipedia-toto"
+			],
+			"confidence": "high"
+		},
+		{
+			"name": "Fulani",
+			"share": "minority",
+			"languages": [
+				"Fulfulde"
+			],
+			"sources": [
+				"wikipedia-toto"
+			],
+			"confidence": "high"
+		}
+	]
+}

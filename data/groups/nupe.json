@@ -1,0 +1,178 @@
+{
+	"name": "Nupe",
+	"status": "draft",
+	"searchAliases": [
+		"Nupenci",
+		"Anufe",
+		"Nyinfe",
+		"Tapa",
+		"Etsu Nupe",
+		"Nupe Tako"
+	],
+	"language": {
+		"name": "Nupe",
+		"iso639_3": "nup",
+		"glottocode": "nupe1254",
+		"family": "ebira-nupoid",
+		"sources": [
+			"glottolog-nupe",
+			"wikipedia-nupe-language"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Nupe are the main people of Niger State, living in the lowlands of the Niger basin from Kainji down to below Baro, and an important minority in Kwara. Their kingdom dates from the 15th century; tradition names its founder Tsoede, an Igala prince. Bida is the seat of the Etsu Nupe.",
+		"sources": [
+			"wikipedia-nupe-people",
+			"wikipedia-nupe-language",
+			"wikipedia-bida-emirate"
+		],
+		"confidence": "high"
+	},
+	"ruler": {
+		"title": "Etsu Nupe",
+		"seat": "niger-bida",
+		"sources": [
+			"wikipedia-bida",
+			"wikipedia-bida-emirate"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "niger-bida",
+			"presence": "core",
+			"sources": [
+				"wikipedia-bida",
+				"soluap-2025-niger"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "niger-agaie",
+			"presence": "core",
+			"sources": [
+				"wikipedia-agaie",
+				"soluap-2025-niger"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "niger-lapai",
+			"presence": "core",
+			"sources": [
+				"wikipedia-lapai",
+				"soluap-2025-niger"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "niger-gbako",
+			"presence": "core",
+			"sources": [
+				"soluap-2025-niger"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "niger-katcha",
+			"presence": "core",
+			"sources": [
+				"soluap-2025-niger"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "niger-edati",
+			"presence": "core",
+			"sources": [
+				"soluap-2025-niger"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "niger-mokwa",
+			"presence": "core",
+			"sources": [
+				"soluap-2025-niger"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "niger-lavun",
+			"presence": "core",
+			"sources": [
+				"wikipedia-kutigi",
+				"wikipedia-nupe-language"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kwara-edu",
+			"presence": "core",
+			"sources": [
+				"wikipedia-edu"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "kwara-pategi",
+			"presence": "core",
+			"sources": [
+				"wikipedia-pategi"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "niger-wushishi",
+			"presence": "significant",
+			"sources": [
+				"soluap-2025-niger"
+			],
+			"confidence": "medium",
+			"note": "Shared with Gbagyi (Gbari) communities."
+		},
+		{
+			"lga": "niger-chanchaga",
+			"presence": "minority",
+			"sources": [
+				"soluap-2025-niger"
+			],
+			"confidence": "medium",
+			"note": "Minna, the state capital, with many peoples."
+		},
+		{
+			"lga": "niger-mariga",
+			"presence": "minority",
+			"sources": [
+				"soluap-2025-niger"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "niger-mashegu",
+			"presence": "minority",
+			"sources": [
+				"soluap-2025-niger",
+				"glottolog-nupe"
+			],
+			"confidence": "medium",
+			"note": "Nupe Tako dialect."
+		},
+		{
+			"lga": "kogi-lokoja",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-lokoja"
+			],
+			"confidence": "high",
+			"note": "The Nupe are among the indigenous peoples of Lokoja."
+		}
+	],
+	"communities": [],
+	"reviewNotes": [
+		"Gbako, Katcha, Edati and Mokwa rest on one LGA list (Soluap 2025); find a second source.",
+		"The Bassa-Nge speak Nupe Tako but are mapped as their own people later; the Kakanda and Kupa are related but separate.",
+		"Nupe in the FCT and in Kwara beyond Edu and Pategi (for example Lafiagi’s surroundings, Moro) are not yet mapped."
+	]
+}

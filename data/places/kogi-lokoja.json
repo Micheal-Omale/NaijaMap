@@ -41,7 +41,8 @@
 			"sources": [
 				"wikipedia-lokoja"
 			],
-			"confidence": "high"
+			"confidence": "high",
+			"group": "nupe"
 		},
 		{
 			"name": "Igala",
@@ -71,7 +72,8 @@
 			"sources": [
 				"wikipedia-lokoja"
 			],
-			"confidence": "high"
+			"confidence": "high",
+			"group": "ebira"
 		},
 		{
 			"name": "Hausa",

@@ -1,0 +1,47 @@
+{
+	"status": "draft",
+	"summary": {
+		"text": "An Idoma LGA in southern Benue, one of the first Idoma areas to receive missionaries. Its people are Idoma and Igede, with some Igbo.",
+		"sources": [
+			"wikipedia-ado-benue"
+		],
+		"confidence": "high"
+	},
+	"peoples": [
+		{
+			"name": "Idoma",
+			"group": "idoma",
+			"standing": "indigenous",
+			"share": "large",
+			"languages": [
+				"Idoma"
+			],
+			"sources": [
+				"wikipedia-ado-benue"
+			],
+			"confidence": "high"
+		},
+		{
+			"name": "Igede",
+			"standing": "indigenous",
+			"languages": [
+				"Igede"
+			],
+			"sources": [
+				"wikipedia-ado-benue"
+			],
+			"confidence": "high"
+		},
+		{
+			"name": "Igbo",
+			"share": "minority",
+			"languages": [
+				"Igbo"
+			],
+			"sources": [
+				"wikipedia-ado-benue"
+			],
+			"confidence": "high"
+		}
+	]
+}

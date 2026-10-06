@@ -1,0 +1,27 @@
+{
+	"status": "draft",
+	"summary": {
+		"text": "Long the centre of the Ebira-speaking people. Its people are Ebira Tao and speak the Okene dialect, the central dialect of Ebira.",
+		"sources": [
+			"wikipedia-okene",
+			"wikipedia-ebira-people",
+			"wikipedia-ebira-language"
+		],
+		"confidence": "high"
+	},
+	"peoples": [
+		{
+			"name": "Ebira (Ebira Tao)",
+			"group": "ebira",
+			"standing": "indigenous",
+			"share": "majority",
+			"languages": [
+				"Ebira"
+			],
+			"sources": [
+				"wikipedia-okene"
+			],
+			"confidence": "high"
+		}
+	]
+}

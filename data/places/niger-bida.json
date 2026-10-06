@@ -1,0 +1,60 @@
+{
+	"status": "draft",
+	"summary": {
+		"text": "The capital of the Nupe Kingdom (Bida Emirate) and seat of the Etsu Nupe. Its major people are the Nupe.",
+		"sources": [
+			"wikipedia-bida",
+			"wikipedia-bida-emirate"
+		],
+		"confidence": "high"
+	},
+	"peoples": [
+		{
+			"name": "Nupe",
+			"group": "nupe",
+			"standing": "indigenous",
+			"share": "majority",
+			"languages": [
+				"Nupe"
+			],
+			"sources": [
+				"wikipedia-bida",
+				"soluap-2025-niger"
+			],
+			"confidence": "high"
+		},
+		{
+			"name": "Hausa",
+			"share": "minority",
+			"languages": [
+				"Hausa"
+			],
+			"sources": [
+				"soluap-2025-niger"
+			],
+			"confidence": "medium"
+		},
+		{
+			"name": "Bassa-Nge",
+			"share": "minority",
+			"languages": [
+				"Bassa-Nge"
+			],
+			"sources": [
+				"soluap-2025-niger"
+			],
+			"confidence": "medium"
+		},
+		{
+			"name": "Gbari",
+			"share": "minority",
+			"languages": [
+				"Gbari"
+			],
+			"sources": [
+				"soluap-2025-niger"
+			],
+			"confidence": "medium"
+		}
+	]
+}

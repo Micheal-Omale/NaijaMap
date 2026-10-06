@@ -17,7 +17,8 @@
 			"sources": [
 				"facts-ng-ajaokuta"
 			],
-			"confidence": "medium"
+			"confidence": "medium",
+			"group": "ebira"
 		},
 		{
 			"name": "Igala",

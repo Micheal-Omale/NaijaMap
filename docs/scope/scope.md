@@ -25,7 +25,7 @@ An interactive map of Nigeria that shows where each ethnic group lives today, an
 | 4 | Base map geometry | Foundation | in-progress |
 | 5 | Design system (two moods) | Foundation | in-progress |
 | 6 | Find a group on the map | Slice 1 | in-progress |
-| 7 | Top 50 groups data | Slice 2 | planned |
+| 7 | Top 50 groups data | Slice 2 | in-progress |
 | 8 | Atlas colours & mixed areas | Slice 2 | planned |
 | 9 | Rich group profiles | Slice 2 | planned |
 | 10 | Shareable links & preview images | Slice 3 | planned |
@@ -90,10 +90,13 @@ The first real thread, using Igala. Igala data is drafted with sources and revie
 
 ## Slice 2: The full atlas (Phase 1, Today mode)
 
-### 7. Top 50 groups data
+### 7. Top 50 groups data · in-progress
 Draft the 50 largest groups in reviewable batches (for example Hausa, Yoruba, Igbo, Fulani, Ijaw, Kanuri, Tiv, Ibibio, Edo, Nupe, Idoma, Urhobo, Ebira and others). Each group gets its LGAs, enclaves, language family, sources and confidence levels.
 **Done when:** all 50 groups are drafted, every entry has a source and a confidence level, and the owner has reviewed each batch before it is published.
 - [ ] Build it: `/develop top 50 groups data`
+  - [x] Igala (with every Igala speaking community found, 2026-10-05/06)
+  - [x] Batch 1: Ebira, Idoma, Nupe (drafted 2026-10-06, awaiting owner review)
+  - [ ] Next batches: Hausa, Yoruba, Igbo, Fulani, Ijaw, Kanuri, Tiv, Ibibio, Edo, Urhobo and the rest
 
 ### 8. Atlas colours & mixed areas · needs a decision
 The whole country coloured at once. Each language family gets a hue and each group gets a shade, so related groups (like Igala, Yoruba and Itsekiri) look related. Mixed LGAs show their dominant colour with hatching for other groups. A legend explains it all.

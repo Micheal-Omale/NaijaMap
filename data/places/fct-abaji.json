@@ -1,0 +1,67 @@
+{
+	"status": "draft",
+	"summary": {
+		"text": "An FCT area council on the Kogi border. Its indigenous peoples are the Bassa, Egbura (Ebira), Gbagyi and Ganagana, with a notable Hausa population.",
+		"sources": [
+			"wikipedia-abaji"
+		],
+		"confidence": "high"
+	},
+	"peoples": [
+		{
+			"name": "Egbura (Ebira)",
+			"group": "ebira",
+			"standing": "indigenous",
+			"languages": [
+				"Ebira"
+			],
+			"sources": [
+				"wikipedia-abaji"
+			],
+			"confidence": "high"
+		},
+		{
+			"name": "Bassa",
+			"standing": "indigenous",
+			"languages": [
+				"Bassa"
+			],
+			"sources": [
+				"wikipedia-abaji"
+			],
+			"confidence": "high"
+		},
+		{
+			"name": "Gbagyi",
+			"standing": "indigenous",
+			"languages": [
+				"Gbagyi"
+			],
+			"sources": [
+				"wikipedia-abaji"
+			],
+			"confidence": "high"
+		},
+		{
+			"name": "Ganagana",
+			"standing": "indigenous",
+			"languages": [
+				"Ganagana"
+			],
+			"sources": [
+				"wikipedia-abaji"
+			],
+			"confidence": "high"
+		},
+		{
+			"name": "Hausa",
+			"languages": [
+				"Hausa"
+			],
+			"sources": [
+				"wikipedia-abaji"
+			],
+			"confidence": "high"
+		}
+	]
+}

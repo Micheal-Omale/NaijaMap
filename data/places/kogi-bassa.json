@@ -44,7 +44,8 @@
 			"sources": [
 				"wikipedia-bassa-kogi"
 			],
-			"confidence": "high"
+			"confidence": "high",
+			"group": "ebira"
 		},
 		{
 			"name": "Igala",

@@ -500,5 +500,282 @@
 		"kind": "web",
 		"accessed": "2026-10-06",
 		"checked": true
+	},
+	{
+		"id": "glottolog-ebira",
+		"title": "Glottolog: Ebira (ebir1243)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/ebir1243",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-idoma",
+		"title": "Glottolog: Idoma (idom1241)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/idom1241",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-nupe",
+		"title": "Glottolog: Nupe-Nupe-Tako (nupe1254)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/nupe1254",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ebira-people",
+		"title": "Ebira people",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ebira_people",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ebira-language",
+		"title": "Ebira language",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ebira_language",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-okene",
+		"title": "Okene",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Okene",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-koton-karfe",
+		"title": "Koton Karfe",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Koton_Karfe",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-abaji",
+		"title": "Abaji",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Abaji",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-toto",
+		"title": "Toto, Nigeria",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Toto,_Nigeria",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-igarra",
+		"title": "Igarra",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Igarra",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ohinoyi",
+		"title": "Ohinoyi of Ebiraland",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ohinoyi_of_Ebiraland",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ogori-magongo",
+		"title": "Ogori/Magongo",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ogori/Magongo",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-idoma-people",
+		"title": "Idoma people",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Idoma_people",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-agatu-language",
+		"title": "Agatu language",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Agatu_language",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-agatu",
+		"title": "Agatu",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Agatu",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ado-benue",
+		"title": "Ado, Benue State",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ado,_Benue_State",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ohimini",
+		"title": "Ohimini",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ohimini",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "iambenue-idoma",
+		"title": "Idoma People Of Benue State. I am Benue",
+		"url": "http://www.iambenue.com/benue-state/ethnic-composition/idoma-people-of-benue-state/",
+		"kind": "web",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-nupe-people",
+		"title": "Nupe people",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Nupe_people",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-nupe-language",
+		"title": "Nupe language",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Nupe_language",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-bida",
+		"title": "Bida",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Bida",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-bida-emirate",
+		"title": "Bida Emirate",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Bida_Emirate",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-agaie",
+		"title": "Agaie",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Agaie",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-lapai",
+		"title": "Lapai",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Lapai",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-edu",
+		"title": "Edu, Nigeria",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Edu,_Nigeria",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-pategi",
+		"title": "Pategi",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Pategi",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-kutigi",
+		"title": "Kutigi",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Kutigi",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "soluap-2025-niger",
+		"title": "List of ethnic groups and languages in Niger State by Local Government Area. Soluap",
+		"year": 2025,
+		"url": "https://soluap.com/list-of-ethnic-groups-and-languages-in-niger-state-by-local-government-area/",
+		"kind": "web",
+		"accessed": "2026-10-06",
+		"checked": true
 	}
 ]

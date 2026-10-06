@@ -1,0 +1,27 @@
+{
+	"status": "draft",
+	"summary": {
+		"text": "An Idoma LGA on the Benue River, with its headquarters at Obagaji. Its people speak Agatu (North Idoma), a dialect of Idoma.",
+		"sources": [
+			"wikipedia-agatu",
+			"wikipedia-agatu-language"
+		],
+		"confidence": "high"
+	},
+	"peoples": [
+		{
+			"name": "Idoma (Agatu)",
+			"group": "idoma",
+			"standing": "indigenous",
+			"share": "majority",
+			"languages": [
+				"Idoma (Agatu dialect)"
+			],
+			"sources": [
+				"wikipedia-agatu",
+				"wikipedia-agatu-language"
+			],
+			"confidence": "high"
+		}
+	]
+}
