@@ -168,14 +168,25 @@ export default function MapView(props: Props) {
 			const features = lgas.features
 				.filter((f) => presence.has(String(f.properties?.id)))
 				.map((f) => ({ ...f, properties: { ...f.properties, presence: presence.get(String(f.properties?.id)) } }));
-			const points: GeoJSON.Feature[] = (group?.enclaves ?? []).map((e) => ({
-				type: 'Feature',
-				properties: { name: e.name, lga: e.lga, approximate: e.approximate },
-				geometry: { type: 'Point', coordinates: e.point },
-			}));
+			const points: GeoJSON.Feature[] = [];
+			for (const c of group?.communities ?? []) {
+				points.push({
+					type: 'Feature',
+					properties: { kind: 'community', name: c.name, lga: c.lga, approximate: c.approximate },
+					geometry: { type: 'Point', coordinates: c.point },
+				});
+				for (const v of c.villages) {
+					if (!v.point) continue;
+					points.push({
+						type: 'Feature',
+						properties: { kind: 'village', name: v.name, community: c.name },
+						geometry: { type: 'Point', coordinates: v.point },
+					});
+				}
+			}
 			highlightFeatures.current = [...features, ...points];
 			map.getSource<GeoJSONSource>('highlight')?.setData({ type: 'FeatureCollection', features });
-			map.getSource<GeoJSONSource>('enclaves')?.setData({ type: 'FeatureCollection', features: points });
+			map.getSource<GeoJSONSource>('communities')?.setData({ type: 'FeatureCollection', features: points });
 		});
 		return () => {
 			cancelled = true;

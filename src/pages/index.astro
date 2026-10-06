@@ -31,6 +31,7 @@ const groups = await getGroupViews();
 						{groups.map((g) => (
 							<li>
 								<a href={`/?group=${g.id}`}>{g.name}</a>: {g.areas.map((a) => `${a.name} (${a.state})`).join(', ')}
+								{g.communities.length > 0 && <>; {g.communities.map((c) => `${c.name} (${c.lgaName}, ${c.state})`).join(', ')}</>}
 							</li>
 						))}
 					</ul>

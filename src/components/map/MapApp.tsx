@@ -99,14 +99,14 @@ export default function MapApp({ lang }: Props) {
 		return m;
 	}, [data]);
 
-	// Which groups live in an LGA (homeland, shared, smaller, or an enclave).
+	// Which groups live in an LGA (homeland, shared, smaller, or a named community).
 	const groupsIn = useCallback(
 		(lga: string) => {
-			const found: { group: GroupView; presence: Presence | 'enclave' }[] = [];
+			const found: { group: GroupView; presence: Presence | 'community' }[] = [];
 			for (const g of data?.groups ?? []) {
 				const area = g.areas.find((a) => a.lga === lga);
 				if (area) found.push({ group: g, presence: area.presence });
-				else if (g.enclaves.some((e) => e.lga === lga)) found.push({ group: g, presence: 'enclave' });
+				else if (g.communities.some((c) => c.lga === lga)) found.push({ group: g, presence: 'community' });
 			}
 			return found;
 		},
@@ -126,7 +126,7 @@ export default function MapApp({ lang }: Props) {
 			setSheetOpen(false);
 			setAnnouncement(
 				next
-					? plural('announce.selected', next.areas.length + next.enclaves.length, { name: next.name })
+					? plural('announce.selected', next.areas.length + next.communities.length, { name: next.name })
 					: t('announce.cleared'),
 			);
 		},
@@ -219,7 +219,7 @@ export default function MapApp({ lang }: Props) {
 												{g.name}
 											</button>
 											<span className="muted">
-												{presence === 'enclave' ? t('presence.enclave') : t(`presence.${presence}`)}
+												{presence === 'community' ? t('presence.community') : t(`presence.${presence}`)}
 											</span>
 										</li>
 									))}

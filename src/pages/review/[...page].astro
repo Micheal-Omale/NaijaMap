@@ -75,12 +75,18 @@ const refs = (e: Evidence) => e.refs.map((n) => `[${n}]`).join('');
 									<td>{a.note}</td>
 								</tr>
 							))}
-							{g.enclaves.map((e) => (
+							{g.communities.map((e) => (
 								<tr>
 									<td>Community</td>
 									<td>
 										{e.name}, {e.lgaName}, {e.state}
 										{e.approximate && ` (${t('map.approximate')})`}
+										{e.villages.length > 0 && (
+											<>
+												<br />
+												{t('profile.villages')}: {e.villages.map((v) => v.name + (v.point ? '' : ' (not located)')).join(', ')}
+											</>
+										)}
 									</td>
 									<td>{refs(e)}</td>
 									<td><ConfidenceBadge level={e.confidence} tr={tr} /></td>

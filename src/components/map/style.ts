@@ -39,9 +39,9 @@ export const EMPTY: GeoJSON.FeatureCollection = { type: 'FeatureCollection', fea
 
 /**
  * Layers, bottom to top: land (every LGA), the selected group's areas (solid
- * for homeland, hatched for shared and smaller presence, so colour is never
- * the only cue), LGA lines, rivers and lakes, state lines, outline, enclave
- * points. No external tiles or fonts: everything comes from /geo.
+ * for homeland, hatched for shared areas, dotted for a smaller presence, so
+ * colour is never the only cue), LGA lines, rivers and lakes, state lines,
+ * outline, then community points (large) and their villages (small). No external tiles or fonts: everything comes from /geo.
  */
 export function buildStyle(c: MapColors, lgas: GeoJSON.FeatureCollection, base: GeoJSON.FeatureCollection): StyleSpecification {
 	return {
@@ -50,7 +50,7 @@ export function buildStyle(c: MapColors, lgas: GeoJSON.FeatureCollection, base: 
 			lgas: { type: 'geojson', data: lgas, promoteId: 'id' },
 			base: { type: 'geojson', data: base },
 			highlight: { type: 'geojson', data: EMPTY },
-			enclaves: { type: 'geojson', data: EMPTY },
+			communities: { type: 'geojson', data: EMPTY },
 		},
 		layers: [
 			{ id: 'bg', type: 'background', paint: { 'background-color': c.bg } },
@@ -145,24 +145,40 @@ export function buildStyle(c: MapColors, lgas: GeoJSON.FeatureCollection, base: 
 				},
 			},
 			{
-				id: 'enclave-halo',
+				id: 'village',
 				type: 'circle',
-				source: 'enclaves',
+				source: 'communities',
+				filter: ['==', ['get', 'kind'], 'village'],
+				minzoom: 6.5,
 				paint: {
-					'circle-radius': ['interpolate', ['linear'], ['zoom'], 5, 9, 9, 14],
-					'circle-color': c.highlight,
-					'circle-opacity': 0.25,
+					'circle-radius': ['interpolate', ['linear'], ['zoom'], 6.5, 2.5, 10, 4.5],
+					'circle-color': c.surface,
+					'circle-stroke-color': c.ink,
+					'circle-stroke-width': 1.2,
 				},
 			},
 			{
-				id: 'enclave',
+				id: 'community-halo',
 				type: 'circle',
-				source: 'enclaves',
+				source: 'communities',
+				filter: ['==', ['get', 'kind'], 'community'],
+				paint: {
+					// A light ring so the dot reads on top of the orange areas too.
+					'circle-radius': ['interpolate', ['linear'], ['zoom'], 5, 7.5, 9, 11],
+					'circle-color': c.surface,
+					'circle-opacity': 0.9,
+				},
+			},
+			{
+				id: 'community',
+				type: 'circle',
+				source: 'communities',
+				filter: ['==', ['get', 'kind'], 'community'],
 				paint: {
 					'circle-radius': ['interpolate', ['linear'], ['zoom'], 5, 4.5, 9, 7],
 					'circle-color': c.highlight,
-					'circle-stroke-color': c.surface,
-					'circle-stroke-width': 2,
+					'circle-stroke-color': c.ink,
+					'circle-stroke-width': 1.5,
 				},
 			},
 		],

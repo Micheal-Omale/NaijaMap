@@ -27,7 +27,12 @@ export interface AreaView extends Evidence {
 	presence: Presence;
 }
 
-export interface EnclaveView extends Evidence {
+export interface VillageView {
+	name: string;
+	point?: [number, number];
+}
+
+export interface CommunityView extends Evidence {
 	name: string;
 	lga: string;
 	lgaName: string;
@@ -35,6 +40,7 @@ export interface EnclaveView extends Evidence {
 	point: [number, number];
 	/** True when the point is the LGA's centre, not the town itself. */
 	approximate: boolean;
+	villages: VillageView[];
 }
 
 export interface GroupView {
@@ -51,7 +57,7 @@ export interface GroupView {
 	summary: Evidence & { text: string };
 	ruler?: Evidence & { title: string; seat?: string };
 	areas: AreaView[];
-	enclaves: EnclaveView[];
+	communities: CommunityView[];
 	sources: SourceView[];
 	reviewNotes: string[];
 }

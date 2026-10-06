@@ -493,6 +493,13 @@
 	margin-left: auto;
 }
 
+.villages {
+	flex-basis: 100%;
+	margin: 0 0 4px 28px;
+	font-size: 0.8125rem;
+	color: var(--ink);
+}
+
 .note {
 	flex-basis: 100%;
 	margin: 0 0 4px 28px;
@@ -602,7 +609,7 @@
 		color-mix(in srgb, var(--highlight-soft) 45%, var(--map-land));
 }
 
-.swatch--enclave {
+.swatch--community {
 	border-radius: 50%;
 	width: 14px;
 	height: 14px;

@@ -67,5 +67,130 @@
 		"url": "https://doi.org/10.4314/og.v10i1.7",
 		"kind": "article",
 		"checked": false
+	},
+	{
+		"id": "grid3-settlement-names",
+		"title": "GRID3 NGA Settlement Names (settlement points with ward and LGA)",
+		"author": "GRID3",
+		"year": 2020,
+		"url": "https://services3.arcgis.com/BU6Aadhn6tbBEdyk/arcgis/rest/services/Settlements_in_Nigeria/FeatureServer",
+		"kind": "dataset",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "oshimili-north-lga-history",
+		"title": "History of Oshimili North Local Government Area",
+		"author": "Oshimili North Local Government, Delta State",
+		"url": "https://oshimilinorthlga.dl.gov.ng/history/",
+		"kind": "web",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ilushi",
+		"title": "Ilushi",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ilushi",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-nzam",
+		"title": "Nzam",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Nzam",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "vanguard-2015-igbokaenyi",
+		"title": "IGBOKAENYI: Philanthropist, Ezeemo remembers the forgotten tribe in Anambra. Vanguard",
+		"year": 2015,
+		"url": "https://www.vanguardngr.com/2015/05/igbokaenyi-philanthropist-ezeemo-remembers-the-forgotten-tribe-in-anambra/",
+		"kind": "news",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "amali-2023",
+		"title": "Political Economy of Autonomous Communities in Southeast Nigeria: A Study of Select Autonomous Communities in Anambra State, 2003 to 2023. Socialscientia 8(3)",
+		"author": "Amali, Anthony-Mary Chukwudozie; Bieresnu-Nnabugwu, Makodi",
+		"year": 2023,
+		"url": "https://journals.aphriapub.com/index.php/SS/article/download/2468/2279/3981",
+		"kind": "article",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "obinaju-anyanwu-2018",
+		"title": "A Geolinguistic Survey of the South East Zone of Nigeria. JOLAN Supplement III",
+		"author": "Obinaju, Nwabueze; Anyanwu, Ogbonna",
+		"year": 2018,
+		"url": "https://jolan.com.ng/index.php/home/article/download/30/27/25",
+		"kind": "article",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "dailytrust-2022-enugu",
+		"title": "Igala footprints in Enugu. Daily Trust",
+		"year": 2022,
+		"url": "https://dailytrust.com/igala-footprints-in-enugu/",
+		"kind": "news",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "vanguard-2026-uzo-uwani",
+		"title": "A Case for Equity: The Igga/Asaba narrative in Uzo-Uwani’s political journey. Vanguard",
+		"author": "Igwari, Ako",
+		"year": 2026,
+		"url": "https://www.vanguardngr.com/2026/04/a-case-for-equity-the-igga-asaba-narrative-in-uzo-uwanis-political-journey/",
+		"kind": "news",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "vanguard-2024-ifeku",
+		"title": "Ifeku Island: Unveiling Edo’s hidden gem as Nigeria’s top tourist destination. Vanguard",
+		"author": "Njoku, Benjamin",
+		"year": 2024,
+		"url": "https://www.vanguardngr.com/2024/11/ifeku-island-unveiling-edos-hidden-gem-as-nigerias-top-tourist-destination/",
+		"kind": "news",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "kogireports-2019",
+		"title": "Igala Race Spreads Through 21 States in Nigeria. Kogi Reports",
+		"author": "Abdullahi, Ayegba Aduojoh; Onoja, Johnson Baba",
+		"year": 2019,
+		"url": "https://kogireports.com/igala-race-spreads-through-21-states-in-nigeria/",
+		"kind": "news",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "x-middlebeltabi-2024",
+		"title": "Post listing the Igala towns of Anambra West LGA (X, @middlebeltabi)",
+		"year": 2024,
+		"url": "https://x.com/middlebeltabi/status/1797204710597791833",
+		"kind": "web",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "owner-2026-10-06",
+		"title": "Local knowledge from the NiajMap owner: Anambra West, Ifeku and Ilushi are Igala speaking, and most people in those communities are Igala",
+		"author": "NiajMap owner",
+		"year": 2026,
+		"kind": "testimony",
+		"accessed": "2026-10-06",
+		"checked": true
 	}
 ]

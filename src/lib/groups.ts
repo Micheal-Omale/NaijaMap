@@ -75,17 +75,18 @@ async function toView(entry: CollectionEntry<'groups'>): Promise<GroupView> {
 		areas.push({ lga: l.id, name: l.name, state: l.state, presence: a.presence, ...(await evidence(a)) });
 	}
 
-	const enclaves = [];
-	for (const e of g.enclaves) {
-		const l = lga(e.lga);
-		enclaves.push({
-			name: e.name,
+	const communities = [];
+	for (const c of g.communities) {
+		const l = lga(c.lga);
+		communities.push({
+			name: c.name,
 			lga: l.id,
 			lgaName: l.name,
 			state: l.state,
-			point: (e.point ?? l.point) as [number, number],
-			approximate: !e.point,
-			...(await evidence(e)),
+			point: (c.point ?? l.point) as [number, number],
+			approximate: !c.point,
+			villages: c.villages,
+			...(await evidence(c)),
 		});
 	}
 
@@ -98,7 +99,7 @@ async function toView(entry: CollectionEntry<'groups'>): Promise<GroupView> {
 		summary,
 		ruler,
 		areas,
-		enclaves,
+		communities,
 		sources,
 		reviewNotes: g.reviewNotes,
 	};

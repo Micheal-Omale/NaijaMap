@@ -1,5 +1,5 @@
 import type { Translate } from '../../i18n/utils';
-import type { AreaView, Confidence, Evidence, GroupView, Presence } from '../../lib/types';
+import type { AreaView, CommunityView, Confidence, Evidence, GroupView, Presence } from '../../lib/types';
 
 const PRESENCE_ORDER: Presence[] = ['core', 'significant', 'minority'];
 
@@ -44,7 +44,7 @@ function Claim({ e, tr }: { e: Evidence; tr: Translate }) {
 	);
 }
 
-export function Swatch({ kind }: { kind: Presence | 'enclave' }) {
+export function Swatch({ kind }: { kind: Presence | 'community' }) {
 	return <span className={`swatch swatch--${kind}`} aria-hidden="true" />;
 }
 
@@ -63,12 +63,18 @@ export function Legend({ tr }: { tr: Translate }) {
 					</li>
 				))}
 				<li>
-					<Swatch kind="enclave" />
-					<span>{t('presence.enclave')}</span>
+					<Swatch kind="community" />
+					<span>{t('presence.community')}</span>
 				</li>
 			</ul>
 		</div>
 	);
+}
+
+function communitiesByState(list: CommunityView[]): [string, CommunityView[]][] {
+	const states = new Map<string, CommunityView[]>();
+	for (const c of list) states.set(c.state, [...(states.get(c.state) ?? []), c]);
+	return [...states.entries()].sort((a, b) => b[1].length - a[1].length);
 }
 
 function byState(areas: AreaView[]): [string, AreaView[]][] {
@@ -92,7 +98,7 @@ interface Props {
 export default function Profile({ group, tr, onShowLga }: Props) {
 	const { t, plural } = tr;
 	const states = byState(group.areas);
-	const allStates = new Set([...group.areas.map((a) => a.state), ...group.enclaves.map((e) => e.state)]);
+	const allStates = new Set([...group.areas.map((a) => a.state), ...group.communities.map((c) => c.state)]);
 
 	return (
 		<article className="profile" aria-labelledby="profile-name">
@@ -105,7 +111,7 @@ export default function Profile({ group, tr, onShowLga }: Props) {
 				</h2>
 				<p className="profile__counts">
 					{plural('profile.lgaCount', group.areas.length)} {plural('profile.stateCount', allStates.size)}
-					{group.enclaves.length > 0 && <> · {plural('profile.enclaveCount', group.enclaves.length)}</>}
+					{group.communities.length > 0 && <> · {plural('profile.communityCount', group.communities.length)}</>}
 				</p>
 				{group.status !== 'published' && <p className="profile__draft">{t('profile.draft')}</p>}
 			</header>
@@ -167,30 +173,41 @@ export default function Profile({ group, tr, onShowLga }: Props) {
 				))}
 			</section>
 
-			{group.enclaves.length > 0 && (
-				<section className="profile__section" aria-labelledby="enclaves-heading">
-					<h3 id="enclaves-heading">{t('profile.enclaves')}</h3>
-					<ul className="areas">
-						{group.enclaves.map((e) => (
-							<li key={e.name} className="area">
-								<button
-									type="button"
-									className="area__name"
-									onClick={() => onShowLga(e.lga)}
-									aria-label={t('profile.showOnMap', { name: e.name })}
-								>
-									<Swatch kind="enclave" />
-									{e.name}
-								</button>
-								<span className="area__presence">
-									{e.lgaName}, {e.state}
-									{e.approximate && <> · {t('map.approximate')}</>}
-								</span>
-								<Claim e={e} tr={tr} />
-								{e.note && <p className="note">{e.note}</p>}
-							</li>
-						))}
-					</ul>
+			{group.communities.length > 0 && (
+				<section className="profile__section" aria-labelledby="communities-heading">
+					<h3 id="communities-heading">{t('profile.communities')}</h3>
+					{communitiesByState(group.communities).map(([state, list]) => (
+						<div key={state} className="state-block">
+							<h4>{state}</h4>
+							<ul className="areas">
+								{list.map((c) => (
+									<li key={c.name} className="area">
+										<button
+											type="button"
+											className="area__name"
+											onClick={() => onShowLga(c.lga)}
+											aria-label={t('profile.showOnMap', { name: c.name })}
+										>
+											<Swatch kind="community" />
+											{c.name}
+										</button>
+										<span className="area__presence">
+											{c.lgaName}
+											{c.approximate && <> · {t('map.approximate')}</>}
+										</span>
+										<Claim e={c} tr={tr} />
+										{c.villages.length > 0 && (
+											<p className="villages">
+												<span className="visually-hidden">{t('profile.villages')}: </span>
+												{c.villages.map((v) => v.name).join(' · ')}
+											</p>
+										)}
+										{c.note && <p className="note">{c.note}</p>}
+									</li>
+								))}
+							</ul>
+						</div>
+					))}
 				</section>
 			)}
 

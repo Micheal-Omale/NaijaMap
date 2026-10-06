@@ -9,6 +9,8 @@ import lgaIndex from './data/lgas.json';
 
 const lgaIds = lgaIndex.map((lga) => lga.id) as [string, ...string[]];
 const lga = z.enum(lgaIds);
+/** [longitude, latitude], inside Nigeria. */
+const point = z.tuple([z.number().min(2.6).max(14.7), z.number().min(4.2).max(13.9)]);
 
 /** high: well attested. medium: one source, approximate, or not yet checked directly. disputed: sources disagree. */
 const confidence = z.enum(['high', 'medium', 'disputed']);
@@ -28,7 +30,8 @@ const sources = defineCollection({
 		year: z.number().int().optional(),
 		publisher: z.string().optional(),
 		url: z.url().optional(),
-		kind: z.enum(['book', 'article', 'dataset', 'reference', 'web']),
+		/** testimony: a first hand account (for example the owner's local knowledge), recorded as such. */
+		kind: z.enum(['book', 'article', 'dataset', 'reference', 'news', 'web', 'testimony']),
 		licence: z.string().optional(),
 		accessed: z.iso.date().optional(),
 		/** false when the compiler has only seen this source cited elsewhere. */
@@ -74,13 +77,16 @@ const groups = defineCollection({
 					}),
 				)
 				.min(1),
-			enclaves: z
+			/** Named communities where the group's language is spoken, mainly outside the homeland LGAs. */
+			communities: z
 				.array(
 					z.object({
 						name: z.string(),
 						lga,
 						/** [longitude, latitude]. Leave out when unknown; the map then places it approximately inside its LGA. */
-						point: z.tuple([z.number(), z.number()]).optional(),
+						point: point.optional(),
+						/** Villages or quarters that make up the community, each drawn as its own point when located. */
+						villages: z.array(z.object({ name: z.string(), point: point.optional() })).default([]),
 						...evidence,
 					}),
 				)
