@@ -462,5 +462,43 @@
 		"kind": "testimony",
 		"accessed": "2026-10-06",
 		"checked": true
+	},
+	{
+		"id": "wikipedia-ogbadibo",
+		"title": "Ogbadibo",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ogbadibo",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-otukpa",
+		"title": "Otukpa",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Otukpa",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "ogbadibo-2023-dialects",
+		"title": "A Glimpse of Dialects in Ogbadibo. Ogbadibo.com",
+		"year": 2023,
+		"url": "https://www.ogbadibo.com/2023/10/a-glimpse-of-dialects-in-ogbadibo.html",
+		"kind": "web",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "soluap-2023-owukpa",
+		"title": "Owukpa. Soluap",
+		"year": 2023,
+		"url": "https://soluap.com/owukpa/",
+		"kind": "web",
+		"accessed": "2026-10-06",
+		"checked": true
 	}
 ]

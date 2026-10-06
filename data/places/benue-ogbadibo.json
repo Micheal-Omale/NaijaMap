@@ -1,0 +1,27 @@
+{
+	"status": "draft",
+	"summary": {
+		"text": "An Idoma LGA on the Benue border with Olamaboro in Kogi, with its headquarters at Otukpa and three districts: Orokam, Owukpa and Otukpa. Local tradition says Owukpa was founded around 1450 by a hunter who came from Ankpa.",
+		"sources": [
+			"wikipedia-ogbadibo",
+			"soluap-2023-owukpa"
+		],
+		"confidence": "medium"
+	},
+	"peoples": [
+		{
+			"name": "Idoma",
+			"standing": "indigenous",
+			"share": "majority",
+			"languages": [
+				"Idoma (Orokam, Otukpa and Owukpa dialects)"
+			],
+			"sources": [
+				"wikipedia-ogbadibo",
+				"wikipedia-otukpa",
+				"ogbadibo-2023-dialects"
+			],
+			"confidence": "high"
+		}
+	]
+}
