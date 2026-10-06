@@ -2201,5 +2201,23 @@
 		"kind": "news",
 		"accessed": "2026-10-06",
 		"checked": true
+	},
+	{
+		"id": "owner-2026-10-06-ifeku",
+		"title": "Local knowledge from the NiajMap owner: the Ifeku communities are located in Etsako East and Etsako Central",
+		"author": "NiajMap owner",
+		"year": 2026,
+		"kind": "testimony",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "owner-2026-10-06-umuebu",
+		"title": "Local knowledge from the NiajMap owner: Umuebu (Ukwuani) no longer speaks Igala",
+		"author": "NiajMap owner",
+		"year": 2026,
+		"kind": "testimony",
+		"accessed": "2026-10-06",
+		"checked": true
 	}
 ]

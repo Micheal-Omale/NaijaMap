@@ -185,10 +185,12 @@
 			"lga": "edo-etsako-central",
 			"presence": "minority",
 			"sources": [
-				"vanguard-2024-ifeku"
+				"vanguard-2024-ifeku",
+				"openstreetmap",
+				"owner-2026-10-06-ifeku"
 			],
-			"confidence": "medium",
-			"note": "The Ifeku island communities in the north of the LGA, on the Niger."
+			"confidence": "high",
+			"note": "Most of the Ifeku island communities, on the Niger in the north of the LGA."
 		},
 		{
 			"lga": "delta-oshimili-north",
@@ -222,13 +224,13 @@
 			"note": "Igala is spoken in Ette; the rest of the LGA is Igbo."
 		},
 		{
-			"lga": "delta-ukwuani",
+			"lga": "edo-etsako-east",
 			"presence": "minority",
 			"sources": [
-				"wikipedia-anioma-region"
+				"owner-2026-10-06-ifeku"
 			],
 			"confidence": "medium",
-			"note": "Umuebu."
+			"note": "Ifeku communities, according to the owner. The boundary data does not yet place a mapped Ifeku village here; check which villages lie in Etsako East."
 		}
 	],
 	"communities": [
@@ -343,6 +345,13 @@
 			],
 			"villages": [
 				{
+					"name": "Ala-Ifeku",
+					"point": [
+						6.6108,
+						6.8463
+					]
+				},
+				{
 					"name": "Owa-Ifeku",
 					"point": [
 						6.6037,
@@ -354,13 +363,6 @@
 					"point": [
 						6.5965,
 						6.8309
-					]
-				},
-				{
-					"name": "Ala-Ifeku",
-					"point": [
-						6.6108,
-						6.8463
 					]
 				},
 				{
@@ -385,10 +387,17 @@
 					]
 				},
 				{
+					"name": "Ifeku Island",
+					"point": [
+						6.6089,
+						6.7834
+					]
+				},
+				{
 					"name": "Okwoshimili",
 					"point": [
-						6.617,
-						6.752
+						6.6171,
+						6.7521
 					]
 				}
 			],
@@ -397,10 +406,11 @@
 				"kogireports-2019",
 				"openstreetmap",
 				"grid3-settlement-names",
-				"owner-2026-10-06"
+				"owner-2026-10-06",
+				"owner-2026-10-06-ifeku"
 			],
 			"confidence": "medium",
-			"note": "Vanguard (2024) counts eleven Ifeku communities across Etsako Central and Esan South-East; seven are located here. Allah-Ifeku II and Okwoshimili fall inside Esan South-East.",
+			"note": "Eleven Ifeku communities lie along the Niger and the Aika river. By the GRID3 boundaries, the villages mapped so far fall in Etsako Central (Ala-Ifeku, Owa-Ifeku, Ifeku Uyi, Okpatawo, Allah-Ifeku I) and Esan South-East (Allah-Ifeku II, Ifeku Island, Okwoshimili); Vanguard (2024) says the same. The owner places Ifeku in Etsako East and Etsako Central; the Etsako East villages are not yet located.",
 			"history": {
 				"text": "A 1923 British intelligence report records people living on Ifeku Island since before 1787.",
 				"sources": [
@@ -414,7 +424,11 @@
 					"vanguard-2024-ifeku"
 				],
 				"confidence": "medium"
-			}
+			},
+			"alsoIn": [
+				"edo-etsako-east",
+				"edo-esan-south-east"
+			]
 		},
 		{
 			"name": "Olumbanasa",
@@ -755,36 +769,6 @@
 				],
 				"confidence": "medium"
 			}
-		},
-		{
-			"name": "Umuebu",
-			"lga": "delta-ukwuani",
-			"point": [
-				6.1615,
-				5.7545
-			],
-			"villages": [
-				{
-					"name": "Ogbe Ngbo",
-					"point": [
-						6.1615,
-						5.7545
-					]
-				},
-				{
-					"name": "Aman",
-					"point": [
-						6.2019,
-						5.7524
-					]
-				}
-			],
-			"sources": [
-				"wikipedia-anioma-region",
-				"grid3-settlement-names"
-			],
-			"confidence": "medium",
-			"note": "Wikipedia names an Igala minority at Umuebu in Ukwuani, alongside Ebu. Positions are GRID3 settlements in the Umuebu ward."
 		}
 	],
 	"reviewNotes": [
@@ -795,6 +779,7 @@
 		"Vanguard (2024) counts eleven Ifeku communities; only seven are located.",
 		"Igala speaking towns inside the mixed Kogi LGAs (Bassa, Ajaokuta, Lokoja) are not yet mapped as points.",
 		"Boston 1968 and Negedu 2014 are cited through Wikipedia and have not been checked directly.",
-		"Ogbadibo (Benue): asked about by the owner. Sources describe it as Idoma speaking, with Igala origin traditions (Owukpa founded from Ankpa); no source yet names an Igala speaking village there, so it is not on the Igala map. Add it if a source or the owner names such villages."
+		"Ogbadibo (Benue): asked about by the owner. Sources describe it as Idoma speaking, with Igala origin traditions (Owukpa founded from Ankpa); no source yet names an Igala speaking village there, so it is not on the Igala map. Add it if a source or the owner names such villages.",
+		"Umuebu (Ukwuani, Delta): Wikipedia’s Anioma article names an Igala minority there, but the owner reports Umuebu no longer speaks Igala; it is not mapped as an Igala speaking community."
 	]
 }

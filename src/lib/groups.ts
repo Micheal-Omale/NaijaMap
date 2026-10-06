@@ -90,6 +90,10 @@ async function toView(entry: CollectionEntry<'groups'>): Promise<GroupView> {
 			point: (c.point ?? l.point) as [number, number],
 			approximate: !c.point,
 			villages: c.villages,
+			alsoIn: c.alsoIn.map((id) => {
+				const o = lga(id);
+				return { lga: o.id, name: o.name, state: o.state };
+			}),
 			history: c.history ? { text: c.history.text, ...(await evidence(c.history)) } : undefined,
 			livelihoods: c.livelihoods ? { text: c.livelihoods.text, ...(await evidence(c.livelihoods)) } : undefined,
 			...(await evidence(c)),

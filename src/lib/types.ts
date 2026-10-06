@@ -41,6 +41,8 @@ export interface CommunityView extends Evidence {
 	/** True when the point is the LGA's centre, not the town itself. */
 	approximate: boolean;
 	villages: VillageView[];
+	/** Other LGAs the community spreads into, by name. */
+	alsoIn: { lga: string; name: string; state: string }[];
 	history?: Evidence & { text: string };
 	livelihoods?: Evidence & { text: string };
 }

@@ -87,6 +87,8 @@ const groups = defineCollection({
 						point: point.optional(),
 						/** Villages or quarters that make up the community, each drawn as its own point when located. */
 						villages: z.array(z.object({ name: z.string(), point: point.optional() })).default([]),
+						/** Other LGAs the community spreads into, beyond its main LGA. */
+						alsoIn: z.array(lga).default([]),
 						history: z.object({ text: z.string(), ...evidence }).optional(),
 						livelihoods: z.object({ text: z.string(), ...evidence }).optional(),
 						...evidence,

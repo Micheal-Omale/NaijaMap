@@ -178,7 +178,16 @@ export function CommunityCard({ community: c, group, tr, onClose }: CommunityPro
 	const refs = new Set([...c.refs, ...(c.history?.refs ?? []), ...(c.livelihoods?.refs ?? [])]);
 	const cited = group.sources.filter((s) => refs.has(s.n));
 	return (
-		<CardFrame title={c.name} sub={t('community.in', { lga: c.lgaName, state: c.state })} onClose={onClose} tr={tr}>
+		<CardFrame
+			title={c.name}
+			sub={
+				c.alsoIn.length
+					? t('community.inAlso', { lga: c.lgaName, others: c.alsoIn.map((o) => o.name).join(', '), state: c.state })
+					: t('community.in', { lga: c.lgaName, state: c.state })
+			}
+			onClose={onClose}
+			tr={tr}
+		>
 			<p className="place-card__summary">
 				{t('community.kind', { language: group.language.name })}{' '}
 				<Claim e={c} tr={tr} prefix="community-source" />

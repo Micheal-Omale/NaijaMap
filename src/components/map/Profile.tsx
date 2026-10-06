@@ -193,6 +193,7 @@ export default function Profile({ group, tr, onShowLga }: Props) {
 										</button>
 										<span className="area__presence">
 											{c.lgaName}
+											{c.alsoIn.length > 0 && <>, {c.alsoIn.map((o) => o.name).join(', ')}</>}
 											{c.approximate && <> · {t('map.approximate')}</>}
 										</span>
 										<Claim e={c} tr={tr} />

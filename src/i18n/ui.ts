@@ -99,6 +99,7 @@ export const ui = {
 		'place.draft': 'Draft brief, not yet reviewed.',
 		'community.kind': 'A community where {language} is spoken',
 		'community.in': '{lga} LGA, {state}',
+		'community.inAlso': '{lga} LGA, also {others}, {state}',
 
 		'presence.core': 'Homeland',
 		'presence.significant': 'Shared area',
