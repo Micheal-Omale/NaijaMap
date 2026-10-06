@@ -71,6 +71,9 @@ export const ui = {
 		'profile.reviewNotes': 'Notes for review',
 		'profile.ref': 'Source {n}',
 
+		'atlas.intro': 'Each LGA is coloured by its main people. Colours follow language families; tap a name to see where that people lives.',
+		'atlas.family': '{name} languages',
+		'atlas.mixed': 'Hatched: shared with another people.',
 		'place.who': 'Who lives here',
 		'place.indigenous': 'Indigenous',
 		'place.settled': 'Settled',

@@ -26,7 +26,7 @@ An interactive map of Nigeria that shows where each ethnic group lives today, an
 | 5 | Design system (two moods) | Foundation | in-progress |
 | 6 | Find a group on the map | Slice 1 | in-progress |
 | 7 | Top 50 groups data | Slice 2 | in-progress |
-| 8 | Atlas colours & mixed areas | Slice 2 | planned |
+| 8 | Atlas colours & mixed areas | Slice 2 | in-progress |
 | 9 | Rich group profiles | Slice 2 | planned |
 | 10 | Shareable links & preview images | Slice 3 | planned |
 | 11 | Group pages for search engines | Slice 3 | planned |
@@ -101,10 +101,12 @@ Draft the 50 largest groups in reviewable batches (for example Hausa, Yoruba, Ig
   - [x] Batch 4: the remaining 37 (Hausa, Fulani, Kanuri, Shuwa Arab, Bura-Pabir, Marghi, Karai-Karai, Bolewa, Bade, Tangale, Zaar, Berom, Ngas, Tarok, Mwaghavul, Jukun, Mumuye, Bachama, Kuteb, Atyap, Bajju, Kilba, Yoruba, Igbo, Ijaw, Ibibio, Annang, Efik, Edo, Esan, Afemai, Urhobo, Isoko, Itsekiri, Ikwerre, Ogoni, Ejagham), drafted 2026-10-06
   - [ ] Owner review of all 50 drafts (then set status to published)
 
-### 8. Atlas colours & mixed areas · needs a decision
+### 8. Atlas colours & mixed areas · in-progress · needs a decision
 The whole country coloured at once. Each language family gets a hue and each group gets a shade, so related groups (like Igala, Yoruba and Itsekiri) look related. Mixed LGAs show their dominant colour with hatching for other groups. A legend explains it all.
 **Done when:** the full map reads clearly with 50 groups, colourblind users can still tell families apart, mixed LGAs show hatching, the legend is complete, and a text list version of the map exists for screen readers.
 - [ ] Design it (spec): `/architect atlas colours & mixed areas`
+⚠ spec pending: built directly at the owner's request (2026-10-06). The default view colours every LGA by its main group (strongest presence, then surest claim, then the more local group); one hue per language family, shades by group; light hatching where another group is core or shared; group names written at the middle of their homeland; the intro panel lists families and groups as a colour key. Selecting a group fades the atlas behind the highlight. 698 of 774 LGAs coloured. Colourblind limits: 18 families cannot all be told apart by colour alone; names on the map, the key and tap cards carry the meaning.
+· code in `src/lib/atlas.ts`, `src/components/map/`
 
 ### 9. Rich group profiles · needs a decision
 Profiles grow beyond the basic version: other names, estimated population (clearly marked as an estimate), traditional ruler title (Attah, Oba, Ooni and so on), a short history, related groups, and sources.

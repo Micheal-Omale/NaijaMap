@@ -2,6 +2,7 @@ import { lazy, Suspense, useCallback, useEffect, useMemo, useState } from 'react
 import type { PaddingOptions } from 'maplibre-gl';
 import type { Lang } from '../../i18n/ui';
 import { useTranslations } from '../../i18n/utils';
+import type { Atlas } from '../../lib/atlas';
 import type { GroupView, PlaceView, Presence } from '../../lib/types';
 import type { FocusRequest } from './MapView';
 import { CommunityCard, PlaceCard } from './PlaceCard';
@@ -18,6 +19,7 @@ interface Props {
 type Data = {
 	groups: GroupView[];
 	places: PlaceView[];
+	atlas: Atlas;
 	lgas: GeoJSON.FeatureCollection;
 	base: GeoJSON.FeatureCollection;
 	labels: GeoJSON.FeatureCollection;
@@ -82,10 +84,11 @@ export default function MapApp({ lang }: Props) {
 			getJson<GeoJSON.FeatureCollection>('/geo/base.json'),
 			getJson<GeoJSON.FeatureCollection>('/geo/labels.json'),
 			getJson<PlaceView[]>('/data/places.json'),
+			getJson<Atlas>('/data/atlas.json'),
 		])
 			.then(
-				([groups, lgas, base, labels, places]) =>
-					!cancelled && setLoad({ status: 'ready', data: { groups, places, lgas, base, labels } }),
+				([groups, lgas, base, labels, places, atlas]) =>
+					!cancelled && setLoad({ status: 'ready', data: { groups, places, atlas, lgas, base, labels } }),
 			)
 			.catch((err) => {
 				console.error(err);
@@ -256,15 +259,36 @@ export default function MapApp({ lang }: Props) {
 								<p className="intro__tagline">{t('site.tagline')}</p>
 								{data && data.groups.length === 0 && <p className="muted">{t('site.noGroups')}</p>}
 								{data && data.groups.length > 0 && (
-									<ul className="intro__groups">
-										{data.groups.map((g) => (
-											<li key={g.id}>
-												<button type="button" className="chip" onClick={() => selectGroup(g)}>
-													{g.name}
-												</button>
-											</li>
+									<div className="atlas-key">
+										<p className="atlas-key__intro">{t('atlas.intro')}</p>
+										{data.atlas.families.map((f) => (
+											<section key={f.name} className="atlas-key__family">
+												<h3>
+													<span className="atlas-key__swatch" style={{ background: f.color }} aria-hidden="true" />
+													{t('atlas.family', { name: f.name })}
+												</h3>
+												<ul className="intro__groups">
+													{f.groups.map((id) => {
+														const g = data.groups.find((x) => x.id === id);
+														const a = data.atlas.groups.find((x) => x.id === id);
+														if (!g) return null;
+														return (
+															<li key={id}>
+																<button type="button" className="chip chip--atlas" onClick={() => selectGroup(g)}>
+																	<span className="chip__dot" style={{ background: a?.color }} aria-hidden="true" />
+																	{g.name}
+																</button>
+															</li>
+														);
+													})}
+												</ul>
+											</section>
 										))}
-									</ul>
+										<p className="atlas-key__mixed">
+											<span className="atlas-key__hatch" aria-hidden="true" />
+											{t('atlas.mixed')}
+										</p>
+									</div>
 								)}
 								<p className="intro__note">{t('site.notOwnership')}</p>
 							</div>
@@ -289,6 +313,7 @@ export default function MapApp({ lang }: Props) {
 							lgas={data.lgas}
 							base={data.base}
 							labels={data.labels}
+							atlas={data.atlas}
 							group={group}
 							selectedLga={selectedLga}
 							focus={focus}

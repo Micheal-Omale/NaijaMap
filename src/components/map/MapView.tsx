@@ -11,7 +11,8 @@ import {
 import workerUrl from 'maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import type { GroupView } from '../../lib/types';
-import { EMPTY, buildStyle, dotsImage, hatchImage, readColors } from './style';
+import type { Atlas } from '../../lib/atlas';
+import { EMPTY, buildStyle, dotsImage, hatchImage, mixImage, readColors } from './style';
 
 setWorkerUrl(workerUrl);
 
@@ -26,6 +27,8 @@ interface Props {
 	lgas: GeoJSON.FeatureCollection;
 	base: GeoJSON.FeatureCollection;
 	labels: GeoJSON.FeatureCollection;
+	/** The default coloured view, shown when no group is selected. */
+	atlas: Atlas;
 	group: GroupView | null;
 	selectedLga: string | null;
 	/** A new object each time the view should move. */
@@ -60,13 +63,13 @@ function boundsOf(features: GeoJSON.Feature[]): LngLatBoundsLike | null {
 }
 
 export default function MapView(props: Props) {
-	const { lgas, base, labels, group, selectedLga, focus, padding, label, attribution, onSelectLga, onSelectCommunity } = props;
+	const { lgas, base, labels, atlas, group, selectedLga, focus, padding, label, attribution, onSelectLga, onSelectCommunity } = props;
 	const container = useRef<HTMLDivElement>(null);
 	const mapRef = useRef<MapLibre | null>(null);
 	const ready = useRef<Promise<void> | null>(null);
 	const highlightFeatures = useRef<GeoJSON.Feature[]>([]);
-	const latest = useRef({ onSelectLga, onSelectCommunity, padding });
-	latest.current = { onSelectLga, onSelectCommunity, padding };
+	const latest = useRef({ onSelectLga, onSelectCommunity, padding, atlasOn: !group });
+	latest.current = { onSelectLga, onSelectCommunity, padding, atlasOn: !group };
 
 	// Create the map once.
 	useEffect(() => {
@@ -106,6 +109,7 @@ export default function MapView(props: Props) {
 			for (const [id, image] of [
 				['hatch', hatchImage(c.highlight)],
 				['dots', dotsImage(c.highlight)],
+				['mix', mixImage(c.ink)],
 			] as const) {
 				if (map.hasImage(id)) map.updateImage(id, image);
 				else map.addImage(id, image, { pixelRatio: 2 });
@@ -168,6 +172,7 @@ export default function MapView(props: Props) {
 				}
 			}
 			addPatterns(c);
+			map.setPaintProperty('atlas-fill', 'fill-opacity', latest.current.atlasOn ? 0.88 : 0.14);
 		};
 		scheme.addEventListener('change', onScheme);
 
@@ -215,6 +220,39 @@ export default function MapView(props: Props) {
 			cancelled = true;
 		};
 	}, [group, lgas]);
+
+	// The atlas: colour every LGA by its main group, and write each group's name.
+	useEffect(() => {
+		const map = mapRef.current;
+		if (!map || !ready.current) return;
+		ready.current.then(() => {
+			const color = new Map(atlas.groups.map((g) => [g.id, g.color]));
+			const features = lgas.features
+				.filter((f) => atlas.lgas[String(f.properties?.id)])
+				.map((f) => {
+					const a = atlas.lgas[String(f.properties?.id)];
+					return { ...f, properties: { id: f.properties?.id, group: a.group, color: color.get(a.group), mixed: a.mixed } };
+				});
+			map.getSource<GeoJSONSource>('atlas')?.setData({ type: 'FeatureCollection', features });
+			map.getSource<GeoJSONSource>('atlas-labels')?.setData({
+				type: 'FeatureCollection',
+				features: atlas.groups
+					.filter((g) => g.label && g.lgas > 0)
+					.map((g) => ({ type: 'Feature', properties: { name: g.name, size: g.lgas }, geometry: { type: 'Point', coordinates: g.label! } })),
+			});
+		});
+	}, [atlas, lgas]);
+
+	useEffect(() => {
+		const map = mapRef.current;
+		if (!map || !ready.current) return;
+		const on = !group;
+		ready.current.then(() => {
+			map.setPaintProperty('atlas-fill', 'fill-opacity', on ? 0.88 : 0.14);
+			map.setLayoutProperty('atlas-mix', 'visibility', on ? 'visible' : 'none');
+			map.setLayoutProperty('atlas-label', 'visibility', on ? 'visible' : 'none');
+		});
+	}, [group]);
 
 	// Outline the tapped LGA.
 	useEffect(() => {

@@ -68,6 +68,8 @@ export function buildStyle(
 			highlight: { type: 'geojson', data: EMPTY },
 			communities: { type: 'geojson', data: EMPTY },
 			labels: { type: 'geojson', data: labels },
+			atlas: { type: 'geojson', data: EMPTY },
+			'atlas-labels': { type: 'geojson', data: EMPTY },
 		},
 		layers: [
 			{ id: 'bg', type: 'background', paint: { 'background-color': c.bg } },
@@ -78,6 +80,19 @@ export function buildStyle(
 				paint: {
 					'fill-color': ['case', ['boolean', ['feature-state', 'hover'], false], c.landHover, c.land],
 				},
+			},
+			{
+				id: 'atlas-fill',
+				type: 'fill',
+				source: 'atlas',
+				paint: { 'fill-color': ['get', 'color'], 'fill-opacity': 0.88 },
+			},
+			{
+				id: 'atlas-mix',
+				type: 'fill',
+				source: 'atlas',
+				filter: ['==', ['get', 'mixed'], true],
+				paint: { 'fill-pattern': 'mix' },
 			},
 			{
 				id: 'hl-fill',
@@ -211,6 +226,21 @@ export function buildStyle(
 				paint: { 'text-color': c.labelStrong, 'text-halo-color': c.labelHalo, 'text-halo-width': 1.6 },
 			},
 			{
+				id: 'atlas-label',
+				type: 'symbol',
+				source: 'atlas-labels',
+				maxzoom: 8.4,
+				layout: {
+					'text-field': ['get', 'name'],
+					'text-font': BOLD,
+					'text-size': ['interpolate', ['linear'], ['get', 'size'], 1, 10.5, 40, 13, 150, 16],
+					'text-max-width': 8,
+					'text-padding': 4,
+					'symbol-sort-key': ['-', 0, ['get', 'size']],
+				},
+				paint: { 'text-color': c.ink, 'text-halo-color': c.labelHalo, 'text-halo-width': 2 },
+			},
+			{
 				id: 'village',
 				type: 'circle',
 				source: 'communities',
@@ -299,6 +329,23 @@ export function hatchImage(color: string, size = 8): Pattern {
 	for (const offset of [-size, 0, size]) {
 		ctx.moveTo(offset, size);
 		ctx.lineTo(offset + size, 0);
+	}
+	ctx.stroke();
+	return { width: size, height: size, data: ctx.getImageData(0, 0, size, size).data };
+}
+
+/** Thin dark hatching laid over atlas colours where an LGA is shared by more than one group. */
+export function mixImage(color: string, size = 10): Pattern {
+	const canvas = document.createElement('canvas');
+	canvas.width = canvas.height = size;
+	const ctx = canvas.getContext('2d')!;
+	ctx.strokeStyle = color;
+	ctx.globalAlpha = 0.45;
+	ctx.lineWidth = 1.2;
+	ctx.beginPath();
+	for (const offset of [-size, 0, size]) {
+		ctx.moveTo(offset, 0);
+		ctx.lineTo(offset + size, size);
 	}
 	ctx.stroke();
 	return { width: size, height: size, data: ctx.getImageData(0, 0, size, size).data };
