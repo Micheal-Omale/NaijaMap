@@ -1,0 +1,73 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Ukwuani (Ndokwa)",
+	"searchAliases": [
+		"Ukwuani",
+		"Ndokwa",
+		"Ukwani",
+		"Kwale",
+		"Aboh",
+		"Ndoni"
+	],
+	"language": {
+		"name": "Ukwuani-Aboh-Ndoni",
+		"iso639_3": "ukw",
+		"glottocode": "ukwu1241",
+		"family": "igboid",
+		"sources": [
+			"glottolog-ukwuani"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Ukwuani (Ndokwa) of southern Delta State speak Ukwuani-Aboh-Ndoni, an Igboid language. Their origin is debated between Igbo and Benin traditions. The Ndokwa Professional Network (2025) says “Ndokwa-Ukwuani are not Igbo” but a distinct people; Wikipedia and Senator Ned Nwoko call them an Igbo subgroup.",
+		"sources": [
+			"wikipedia-ukwuani-people",
+			"vanguard-2025-npn",
+			"allafrica-2006-ndokwa",
+			"vanguard-2025-nwoko"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "delta-ndokwa-east",
+			"presence": "core",
+			"sources": [
+				"wikipedia-ukwuani-people",
+				"vanguard-2025-npn"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "delta-ndokwa-west",
+			"presence": "core",
+			"sources": [
+				"wikipedia-ukwuani-people",
+				"vanguard-2025-npn"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "delta-ukwuani",
+			"presence": "core",
+			"sources": [
+				"wikipedia-ukwuani-people",
+				"vanguard-2025-npn"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "rivers-ogba-egbema-ndoni",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-oen",
+				"glottolog-ukwuani"
+			],
+			"confidence": "medium",
+			"note": "The Ndoni of Rivers speak Ukwuani-Aboh-Ndoni."
+		}
+	]
+}

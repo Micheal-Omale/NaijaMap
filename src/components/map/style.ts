@@ -70,6 +70,7 @@ export function buildStyle(
 			labels: { type: 'geojson', data: labels },
 			atlas: { type: 'geojson', data: EMPTY },
 			'atlas-labels': { type: 'geojson', data: EMPTY },
+			'atlas-communities': { type: 'geojson', data: EMPTY },
 		},
 		layers: [
 			{ id: 'bg', type: 'background', paint: { 'background-color': c.bg } },
@@ -246,6 +247,32 @@ export function buildStyle(
 					'symbol-sort-key': ['-', 0, ['get', 'size']],
 				},
 				paint: { 'text-color': c.ink, 'text-halo-color': c.labelHalo, 'text-halo-width': 2 },
+			},
+			{
+				id: 'atlas-community',
+				type: 'circle',
+				source: 'atlas-communities',
+				paint: {
+					'circle-radius': ['interpolate', ['linear'], ['zoom'], 5, 4, 9, 7],
+					'circle-color': ['get', 'color'],
+					'circle-stroke-color': c.surface,
+					'circle-stroke-width': 1.8,
+				},
+			},
+			{
+				id: 'atlas-community-label',
+				type: 'symbol',
+				source: 'atlas-communities',
+				minzoom: 6.8,
+				layout: {
+					'text-field': ['get', 'label'],
+					'text-font': REGULAR,
+					'text-size': 11,
+					'text-anchor': 'left',
+					'text-offset': [0.8, 0],
+					'text-optional': true,
+				},
+				paint: { 'text-color': c.ink, 'text-halo-color': c.labelHalo, 'text-halo-width': 1.6 },
 			},
 			{
 				id: 'village',

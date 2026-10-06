@@ -1,0 +1,50 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Etche",
+	"searchAliases": [
+		"Etche",
+		"Echie",
+		"Ndi Echie",
+		"Omuma",
+		"Okehi"
+	],
+	"language": {
+		"name": "Etche (Eche)",
+		"glottocode": "eche1239",
+		"family": "igboid",
+		"sources": [
+			"glottolog-eche"
+		],
+		"confidence": "high",
+		"note": "Glottolog lists Eche as a dialect within Igbo."
+	},
+	"summary": {
+		"text": "The Etche (Ndi Echie) of Rivers State live in Etche and Omuma LGAs and speak an Igboid speech that Glottolog counts within Igbo. The Indigenous Igbo Council of Rivers State (2025) claims them as part of the Igbo nation; the Rivers Ijaw People’s Congress disputes that any Rivers people is Igbo. The Etche keep a strong identity of their own.",
+		"sources": [
+			"wikipedia-etche",
+			"vanguard-2025-rivers-igbo",
+			"glottolog-eche"
+		],
+		"confidence": "medium"
+	},
+	"areas": [
+		{
+			"lga": "rivers-etche",
+			"presence": "core",
+			"sources": [
+				"wikipedia-etche"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "rivers-omumma",
+			"presence": "core",
+			"sources": [
+				"wikipedia-etche"
+			],
+			"confidence": "high"
+		}
+	]
+}

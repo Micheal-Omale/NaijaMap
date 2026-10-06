@@ -1,0 +1,77 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [
+		"The Olukumi, who speak a language related to Yoruba, live among the Anioma (Aniocha North); not yet mapped.",
+		"Ebu (Oshimili North) is Igala speaking; see Igala."
+	],
+	"name": "Anioma (Enuani)",
+	"searchAliases": [
+		"Anioma",
+		"Enuani",
+		"Aniocha",
+		"Oshimili",
+		"Asaba",
+		"Ibusa",
+		"Ogwashi-Uku",
+		"Illah",
+		"Delta Igbo",
+		"Western Igbo"
+	],
+	"language": {
+		"name": "Enuani (a dialect of Igbo)",
+		"iso639_3": "ibo",
+		"family": "igboid",
+		"sources": [
+			"wikipedia-anioma-region"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Enuani speaking peoples of Aniocha and Oshimili, on the west bank of the Niger around Asaba, Ibusa, Ogwashi-Uku, Issele and Illah. Enuani is a dialect of Igbo. Their identity is debated: the Obuzor of Ibusa and Senator Ned Nwoko say the Anioma are Igbo, while the Asagba of Asaba and a 2025 communique of Aniocha and Oshimili leaders say “Anioma is Anioma; Anioma is not Igbo”, a culture area of Bini, Igala, Yoruba and Igbo origins.",
+		"sources": [
+			"wikipedia-anioma-region",
+			"vanguard-2025-anioma-communique",
+			"vanguard-2025-nwoko"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "delta-aniocha-north",
+			"presence": "core",
+			"sources": [
+				"wikipedia-anioma-region",
+				"wikipedia-oshimili-north"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "delta-aniocha-south",
+			"presence": "core",
+			"sources": [
+				"wikipedia-anioma-region",
+				"wikipedia-oshimili-north"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "delta-oshimili-north",
+			"presence": "core",
+			"sources": [
+				"wikipedia-anioma-region",
+				"wikipedia-oshimili-north"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "delta-oshimili-south",
+			"presence": "core",
+			"sources": [
+				"wikipedia-anioma-region",
+				"wikipedia-oshimili-north"
+			],
+			"confidence": "high"
+		}
+	]
+}

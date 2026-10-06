@@ -2,8 +2,8 @@
 	"status": "draft",
 	"communities": [],
 	"reviewNotes": [
-		"Enugu’s Uzo-Uwani and Anambra West have Igala speaking communities (see Igala).",
-		"The Rivers and Delta Igboid communities are marked disputed: check with local sources."
+		"Delta (Anioma, Ika, Ukwuani) and Rivers (Etche, Ogba) Igboid peoples now have their own profiles; their Igbo identity is debated (see each profile).",
+		"Enugu’s Uzo-Uwani, Igbo-Eze North and Anambra West have Igala and Idoma speaking communities."
 	],
 	"name": "Igbo",
 	"searchAliases": [
@@ -25,10 +25,13 @@
 		"confidence": "high"
 	},
 	"summary": {
-		"text": "The Igbo are one of Nigeria’s three largest peoples, native to Abia, Anambra, Ebonyi, Enugu and Imo, and to parts of Delta and Rivers. Igbo is the lingua franca of the South East; the zone’s minority communities are mostly bilingual in Igbo.",
+		"text": "The Igbo are one of Nigeria’s three largest peoples, native to Abia, Anambra, Ebonyi, Enugu and Imo. Igbo is the lingua franca of the South East. Igboid peoples west of the Niger and in Rivers (Anioma, Ika, Ukwuani, Etche, Ogba, Ikwerre) are mapped under their own names, because many of them reject the Igbo label, though others among them, and Igbo organisations, count them as Igbo.",
 		"sources": [
 			"wikipedia-igbo-people",
-			"obinaju-anyanwu-2018"
+			"obinaju-anyanwu-2018",
+			"vanguard-2025-anioma-communique",
+			"vanguard-2025-npn",
+			"vanguard-2025-rivers-igbo"
 		],
 		"confidence": "high"
 	},
@@ -892,125 +895,13 @@
 			"confidence": "high"
 		},
 		{
-			"lga": "delta-aniocha-north",
-			"presence": "core",
-			"sources": [
-				"wikipedia-igbo-people",
-				"wikipedia-oshimili-north"
-			],
-			"confidence": "high",
-			"note": "Enuani Igbo (Anioma)."
-		},
-		{
-			"lga": "delta-aniocha-south",
-			"presence": "core",
-			"sources": [
-				"wikipedia-igbo-people",
-				"wikipedia-oshimili-north"
-			],
-			"confidence": "high",
-			"note": "Enuani Igbo (Anioma)."
-		},
-		{
-			"lga": "delta-oshimili-north",
-			"presence": "core",
-			"sources": [
-				"wikipedia-igbo-people",
-				"wikipedia-oshimili-north"
-			],
-			"confidence": "high",
-			"note": "Enuani Igbo (Anioma)."
-		},
-		{
-			"lga": "delta-oshimili-south",
-			"presence": "core",
-			"sources": [
-				"wikipedia-igbo-people",
-				"wikipedia-oshimili-north"
-			],
-			"confidence": "high",
-			"note": "Enuani Igbo (Anioma)."
-		},
-		{
-			"lga": "delta-ika-north-east",
-			"presence": "significant",
-			"sources": [
-				"wikipedia-igbo-people"
-			],
-			"confidence": "disputed",
-			"note": "Ika and Ukwuani speak Igboid languages; some in these communities identify as Igbo and others as distinct peoples."
-		},
-		{
-			"lga": "delta-ika-south",
-			"presence": "significant",
-			"sources": [
-				"wikipedia-igbo-people"
-			],
-			"confidence": "disputed",
-			"note": "Ika and Ukwuani speak Igboid languages; some in these communities identify as Igbo and others as distinct peoples."
-		},
-		{
-			"lga": "delta-ndokwa-east",
-			"presence": "significant",
-			"sources": [
-				"wikipedia-igbo-people"
-			],
-			"confidence": "disputed",
-			"note": "Ika and Ukwuani speak Igboid languages; some in these communities identify as Igbo and others as distinct peoples."
-		},
-		{
-			"lga": "delta-ndokwa-west",
-			"presence": "significant",
-			"sources": [
-				"wikipedia-igbo-people"
-			],
-			"confidence": "disputed",
-			"note": "Ika and Ukwuani speak Igboid languages; some in these communities identify as Igbo and others as distinct peoples."
-		},
-		{
-			"lga": "delta-ukwuani",
-			"presence": "significant",
-			"sources": [
-				"wikipedia-igbo-people"
-			],
-			"confidence": "disputed",
-			"note": "Ika and Ukwuani speak Igboid languages; some in these communities identify as Igbo and others as distinct peoples."
-		},
-		{
-			"lga": "rivers-etche",
-			"presence": "significant",
-			"sources": [
-				"wikipedia-igbo-people"
-			],
-			"confidence": "disputed",
-			"note": "Igbo speaking communities in Rivers; identity is contested and these areas also hold other peoples."
-		},
-		{
-			"lga": "rivers-omumma",
-			"presence": "significant",
-			"sources": [
-				"wikipedia-igbo-people"
-			],
-			"confidence": "disputed",
-			"note": "Igbo speaking communities in Rivers; identity is contested and these areas also hold other peoples."
-		},
-		{
-			"lga": "rivers-ogba-egbema-ndoni",
-			"presence": "significant",
-			"sources": [
-				"wikipedia-igbo-people"
-			],
-			"confidence": "disputed",
-			"note": "Igbo speaking communities in Rivers; identity is contested and these areas also hold other peoples."
-		},
-		{
 			"lga": "rivers-oyigbo",
-			"presence": "significant",
+			"presence": "minority",
 			"sources": [
-				"wikipedia-igbo-people"
+				"vanguard-2025-rivers-igbo"
 			],
 			"confidence": "disputed",
-			"note": "Igbo speaking communities in Rivers; identity is contested and these areas also hold other peoples."
+			"note": "The Asa and Ndoki of Oyigbo are claimed as Igbo by the Indigenous Igbo Council; their own view was not found."
 		},
 		{
 			"lga": "benue-ado",

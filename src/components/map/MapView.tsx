@@ -29,6 +29,8 @@ interface Props {
 	labels: GeoJSON.FeatureCollection;
 	/** The default coloured view, shown when no group is selected. */
 	atlas: Atlas;
+	/** Every visible group, so the atlas can show each group's named communities. */
+	groups: GroupView[];
 	group: GroupView | null;
 	selectedLga: string | null;
 	/** A new object each time the view should move. */
@@ -37,7 +39,7 @@ interface Props {
 	label: string;
 	attribution: string;
 	onSelectLga: (id: string | null) => void;
-	onSelectCommunity: (name: string) => void;
+	onSelectCommunity: (name: string, group?: string) => void;
 	/** The LGA under the mouse, with its position on the map; null when the mouse leaves. */
 	onHover: (hover: { id: string; x: number; y: number } | null) => void;
 }
@@ -65,7 +67,7 @@ function boundsOf(features: GeoJSON.Feature[]): LngLatBoundsLike | null {
 }
 
 export default function MapView(props: Props) {
-	const { lgas, base, labels, atlas, group, selectedLga, focus, padding, label, attribution, onSelectLga, onSelectCommunity, onHover } = props;
+	const { lgas, base, labels, atlas, groups, group, selectedLga, focus, padding, label, attribution, onSelectLga, onSelectCommunity, onHover } = props;
 	const container = useRef<HTMLDivElement>(null);
 	const mapRef = useRef<MapLibre | null>(null);
 	const ready = useRef<Promise<void> | null>(null);
@@ -137,7 +139,7 @@ export default function MapView(props: Props) {
 			setHover(id);
 			latest.current.onHover(id === undefined ? null : { id: String(id), x: e.point.x, y: e.point.y });
 		});
-		for (const layer of ['community', 'village']) {
+		for (const layer of ['community', 'village', 'atlas-community']) {
 			map.on('mouseenter', layer, () => (map.getCanvas().style.cursor = 'pointer'));
 		}
 		map.on('mouseleave', 'land', () => {
@@ -151,15 +153,15 @@ export default function MapView(props: Props) {
 				[e.point.x - 8, e.point.y - 8],
 				[e.point.x + 8, e.point.y + 8],
 			];
-			const dots = map.queryRenderedFeatures(box, { layers: ['community', 'village'] });
+			const dots = map.queryRenderedFeatures(box, { layers: ['community', 'village', 'atlas-community'] });
 			const distance = (f: (typeof dots)[number]) => {
 				const at = map.project((f.geometry as GeoJSON.Point).coordinates as [number, number]);
 				return Math.hypot(at.x - e.point.x, at.y - e.point.y);
 			};
 			const dot = dots.sort((a, b) => distance(a) - distance(b))[0];
 			if (dot) {
-				const p = dot.properties as { kind: string; name: string; community?: string };
-				latest.current.onSelectCommunity(p.kind === 'village' && p.community ? p.community : p.name);
+				const p = dot.properties as { kind: string; name: string; community?: string; group?: string };
+				latest.current.onSelectCommunity(p.kind === 'village' && p.community ? p.community : p.name, p.group);
 				return;
 			}
 			const [hit] = map.queryRenderedFeatures(e.point, { layers: ['land'] });
@@ -250,6 +252,34 @@ export default function MapView(props: Props) {
 					};
 				});
 			map.getSource<GeoJSONSource>('atlas')?.setData({ type: 'FeatureCollection', features });
+			// Named communities of every group (Ebu, Ilushi, Ette and the rest), so small pockets
+			// that do not colour an LGA still show on the atlas.
+			map.getSource<GeoJSONSource>('atlas-communities')?.setData({
+				type: 'FeatureCollection',
+				features: (() => {
+					// One dot per place: a community shared by two groups (Ette: Idoma and Igala) is labelled with both.
+					const byPlace = new Map<string, { name: string; groups: GroupView[]; point: [number, number] }>();
+					for (const g of groups) {
+						for (const c of g.communities) {
+							const key = c.lga + '|' + c.name;
+							const entry = byPlace.get(key) ?? { name: c.name, groups: [], point: c.point };
+							entry.groups.push(g);
+							byPlace.set(key, entry);
+						}
+					}
+					return [...byPlace.values()].map((e) => ({
+						type: 'Feature' as const,
+						properties: {
+							kind: 'community',
+							name: e.name,
+							group: e.groups[0].id,
+							color: color.get(e.groups[0].id) ?? '#888888',
+							label: e.name + ' (' + e.groups.map((g) => g.name).join(', ') + ')',
+						},
+						geometry: { type: 'Point' as const, coordinates: e.point },
+					}));
+				})(),
+			});
 			map.getSource<GeoJSONSource>('atlas-labels')?.setData({
 				type: 'FeatureCollection',
 				features: atlas.groups
@@ -257,7 +287,7 @@ export default function MapView(props: Props) {
 					.map((g) => ({ type: 'Feature', properties: { name: g.name, size: g.lgas }, geometry: { type: 'Point', coordinates: g.label! } })),
 			});
 		});
-	}, [atlas, lgas]);
+	}, [atlas, lgas, groups]);
 
 	useEffect(() => {
 		const map = mapRef.current;
@@ -268,6 +298,8 @@ export default function MapView(props: Props) {
 			map.setPaintProperty('atlas-shared', 'fill-opacity', on ? 0.92 : 0.14);
 			map.setLayoutProperty('atlas-mix', 'visibility', on ? 'visible' : 'none');
 			map.setLayoutProperty('atlas-label', 'visibility', on ? 'visible' : 'none');
+			map.setLayoutProperty('atlas-community', 'visibility', on ? 'visible' : 'none');
+			map.setLayoutProperty('atlas-community-label', 'visibility', on ? 'visible' : 'none');
 		});
 	}, [group]);
 

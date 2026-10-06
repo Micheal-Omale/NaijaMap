@@ -191,14 +191,17 @@ export default function MapApp({ lang }: Props) {
 	}, []);
 
 	const tapCommunity = useCallback(
-		(name: string) => {
-			const c = group?.communities.find((x) => x.name === name);
-			if (!c) return;
+		(name: string, groupId?: string) => {
+			// From the atlas, a dot belongs to a group that is not selected yet: select it first.
+			const owner = groupId && groupId !== group?.id ? data?.groups.find((g) => g.id === groupId) : group;
+			const c = owner?.communities.find((x) => x.name === name);
+			if (!owner || !c) return;
+			if (owner !== group) selectGroup(owner);
 			setSelectedCommunity(name);
 			setSelectedLga(c.lga);
 			setSheetOpen(true);
 		},
-		[group],
+		[group, data, selectGroup],
 	);
 
 	const openGroup = useCallback(
@@ -321,6 +324,7 @@ export default function MapApp({ lang }: Props) {
 							base={data.base}
 							labels={data.labels}
 							atlas={data.atlas}
+							groups={data.groups}
 							group={group}
 							selectedLga={selectedLga}
 							focus={focus}

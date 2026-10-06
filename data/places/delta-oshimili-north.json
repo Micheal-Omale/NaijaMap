@@ -1,7 +1,7 @@
 {
 	"status": "draft",
 	"summary": {
-		"text": "An Enuani (Igbo) speaking LGA with its headquarters at Akwukwu-Igbo. Ebu, on the Niger, is an Igala speaking kingdom of eight villages whose people came from Idah.",
+		"text": "An Enuani speaking (Anioma) LGA with its headquarters at Akwukwu-Igbo. Ebu, on the Niger, is an Igala speaking kingdom of eight villages whose people came from Idah.",
 		"sources": [
 			"wikipedia-oshimili-north",
 			"oshimili-north-lga-history"
@@ -10,16 +10,18 @@
 	},
 	"peoples": [
 		{
-			"name": "Enuani (Igbo)",
+			"name": "Anioma (Enuani)",
 			"standing": "indigenous",
 			"share": "majority",
 			"languages": [
-				"Igbo (Enuani)"
+				"Enuani (Igbo dialect)"
 			],
 			"sources": [
 				"wikipedia-oshimili-north"
 			],
-			"confidence": "high"
+			"confidence": "high",
+			"group": "anioma",
+			"note": "Whether the Anioma are Igbo is debated; see the Anioma profile."
 		},
 		{
 			"name": "Ebu (Igala)",

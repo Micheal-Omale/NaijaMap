@@ -1,0 +1,49 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Ika",
+	"searchAliases": [
+		"Ika",
+		"Agbor",
+		"Owa",
+		"Umunede",
+		"Ika-Igbo"
+	],
+	"language": {
+		"name": "Ika",
+		"iso639_3": "ikk",
+		"glottocode": "ikaa1238",
+		"family": "igboid",
+		"sources": [
+			"glottolog-ika"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Ika of north-western Delta State, around Agbor, Owa, Umunede and Igbodo, speak Ika, an Igboid language. Wikipedia counts them among the Anioma and western Igbo; the Onu Ika endorsed the 2025 Anioma stand against being placed in the South East, and some Ika identify as a distinct people.",
+		"sources": [
+			"wikipedia-ika-people",
+			"vanguard-2025-anioma-communique"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "delta-ika-north-east",
+			"presence": "core",
+			"sources": [
+				"wikipedia-ika-people"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "delta-ika-south",
+			"presence": "core",
+			"sources": [
+				"wikipedia-ika-people"
+			],
+			"confidence": "high"
+		}
+	]
+}

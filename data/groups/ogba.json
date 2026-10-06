@@ -1,0 +1,57 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [
+		"The Egbema (also in Imo State) are not yet mapped separately."
+	],
+	"name": "Ogba",
+	"searchAliases": [
+		"Ogba",
+		"Ogbah",
+		"Omoku",
+		"Egi",
+		"Igburu",
+		"Egbema"
+	],
+	"language": {
+		"name": "Ogba",
+		"iso639_3": "ogc",
+		"glottocode": "ogba1241",
+		"family": "igboid",
+		"sources": [
+			"glottolog-ogba",
+			"wikipedia-ogba-people"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Ogba of north-western Rivers State, centred on Omoku, speak Ogba, an Igboid language with two dialects, Egi and Igburu. They are the largest of the three peoples of Ogba–Egbema–Ndoni LGA. Whether they are part of the Igbo nation is contested: the Indigenous Igbo Council of Rivers State says yes, the Rivers Ijaw People’s Congress says no.",
+		"sources": [
+			"wikipedia-ogba-people",
+			"wikipedia-oen",
+			"vanguard-2025-rivers-igbo"
+		],
+		"confidence": "medium"
+	},
+	"areas": [
+		{
+			"lga": "rivers-ogba-egbema-ndoni",
+			"presence": "core",
+			"sources": [
+				"wikipedia-oen",
+				"wikipedia-ogba-people"
+			],
+			"confidence": "high",
+			"note": "Ogba hold 12 of the LGA’s wards; Egbema and Ndoni the rest."
+		},
+		{
+			"lga": "rivers-ahoada-east",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-ogba-people"
+			],
+			"confidence": "medium",
+			"note": "The Ogba communities of Eligbo and Ukporomini."
+		}
+	]
+}

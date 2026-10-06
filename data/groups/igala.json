@@ -220,6 +220,15 @@
 			],
 			"confidence": "medium",
 			"note": "Igala is spoken in Ette; the rest of the LGA is Igbo."
+		},
+		{
+			"lga": "delta-ukwuani",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-anioma-region"
+			],
+			"confidence": "medium",
+			"note": "Umuebu."
 		}
 	],
 	"communities": [
@@ -746,6 +755,36 @@
 				],
 				"confidence": "medium"
 			}
+		},
+		{
+			"name": "Umuebu",
+			"lga": "delta-ukwuani",
+			"point": [
+				6.1615,
+				5.7545
+			],
+			"villages": [
+				{
+					"name": "Ogbe Ngbo",
+					"point": [
+						6.1615,
+						5.7545
+					]
+				},
+				{
+					"name": "Aman",
+					"point": [
+						6.2019,
+						5.7524
+					]
+				}
+			],
+			"sources": [
+				"wikipedia-anioma-region",
+				"grid3-settlement-names"
+			],
+			"confidence": "medium",
+			"note": "Wikipedia names an Igala minority at Umuebu in Ukwuani, alongside Ebu. Positions are GRID3 settlements in the Umuebu ward."
 		}
 	],
 	"reviewNotes": [

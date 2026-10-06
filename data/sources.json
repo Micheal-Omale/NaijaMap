@@ -2056,5 +2056,150 @@
 		"kind": "testimony",
 		"accessed": "2026-10-06",
 		"checked": true
+	},
+	{
+		"id": "wikipedia-anioma-region",
+		"title": "Anioma Region",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Anioma_people",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ika-people",
+		"title": "Ika people",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ika_people",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ukwuani-people",
+		"title": "Ukwuani people",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ukwuani_people",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-etche",
+		"title": "Etche",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Etche",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ogba-people",
+		"title": "Ogba people",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ogba_people",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-oen",
+		"title": "Ogba–Egbema–Ndoni",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ogba%E2%80%93Egbema%E2%80%93Ndoni",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-ika",
+		"title": "Glottolog: Ika (ikaa1238)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/ikaa1238",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-ukwuani",
+		"title": "Glottolog: Ukwuani-Aboh-Ndoni (ukwu1241)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/ukwu1241",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-eche",
+		"title": "Glottolog: Eche (Etche), a dialect within Igbo (eche1239)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/eche1239",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-ogba",
+		"title": "Glottolog: Ogbah (ogba1241)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/ogba1241",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "vanguard-2025-anioma-communique",
+		"title": "Aniocha, Oshimili leaders reject move to place Anioma State in South East (communique signed by Dr Okey Okonta for Njiko Aniocha-Oshimili). Vanguard",
+		"year": 2025,
+		"url": "https://www.vanguardngr.com/2025/10/aniocha-oshimili-leaders-reject-move-to-place-anioma-state-in-south-east/",
+		"kind": "news",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "vanguard-2025-nwoko",
+		"title": "Anioma faced ethnic cleansing, forced to deny Igbo identity: Ned Nwoko. Vanguard",
+		"year": 2025,
+		"url": "https://www.vanguardngr.com/2025/09/anioma-faced-ethnic-cleansing-forced-to-deny-igbo-identity-ned-nwoko/",
+		"kind": "news",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "vanguard-2025-npn",
+		"title": "NDOKWA-UKWUANI: NPN faults Ned Nwoko over Igbo claim (Ndokwa Professional Network). Vanguard",
+		"year": 2025,
+		"url": "https://www.vanguardngr.com/2025/10/ndokwa-ukwuani-npn-faults-ned-nwoko-over-igbo-claim/",
+		"kind": "news",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "allafrica-2006-ndokwa",
+		"title": "Nigeria: Ndokwa Not Igbo. allAfrica",
+		"year": 2006,
+		"url": "https://allafrica.com/stories/200609210277.html",
+		"kind": "news",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "vanguard-2025-rivers-igbo",
+		"title": "Group says indigenous Igbos in Rivers part of Ndigbo ethnic nationality (Indigenous Igbo Council, Rivers State). Vanguard",
+		"year": 2025,
+		"url": "https://www.vanguardngr.com/2025/02/group-says-indigenous-igbos-in-rivers-part-of-ndigbo-ethnic-nationality/",
+		"kind": "news",
+		"accessed": "2026-10-06",
+		"checked": true
 	}
 ]
