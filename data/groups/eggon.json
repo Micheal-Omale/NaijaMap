@@ -1,0 +1,95 @@
+{
+	"name": "Eggon",
+	"status": "draft",
+	"searchAliases": [
+		"Egon",
+		"Ero",
+		"Mo Egon",
+		"Madan Dutse",
+		"Hill Mada"
+	],
+	"language": {
+		"name": "Eggon",
+		"iso639_3": "ego",
+		"glottocode": "eggo1239",
+		"family": "plateau",
+		"sources": [
+			"glottolog-eggon"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Eggon live in Nasarawa State, south-west of the Jos Plateau, next to the Mada and Rindre. Most still speak Eggon, alongside Hausa and English. Their homeland is Nasarawa Eggon LGA.",
+		"sources": [
+			"wikipedia-eggon-people",
+			"wikipedia-nasarawa-eggon"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "nasarawa-nasarawa-egon",
+			"presence": "core",
+			"sources": [
+				"wikipedia-nasarawa-eggon",
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "nasarawa-akwanga",
+			"presence": "minority",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "medium",
+			"note": "Mostly Mada."
+		},
+		{
+			"lga": "nasarawa-lafia",
+			"presence": "minority",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "nasarawa-awe",
+			"presence": "minority",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "nasarawa-doma",
+			"presence": "minority",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "nasarawa-keffi",
+			"presence": "minority",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "nasarawa-kokona",
+			"presence": "minority",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "medium"
+		}
+	],
+	"communities": [],
+	"reviewNotes": [
+		"Wikipedia places Eggon people in Plateau State too; the LGA is not yet sourced.",
+		"The Eggon share in each LGA beyond Nasarawa Eggon is unknown.",
+		"No paramount ruler is recorded yet."
+	]
+}

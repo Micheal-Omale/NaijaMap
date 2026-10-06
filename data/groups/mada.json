@@ -1,0 +1,83 @@
+{
+	"name": "Mada",
+	"status": "draft",
+	"searchAliases": [
+		"Mada",
+		"Madda",
+		"Akwanga"
+	],
+	"language": {
+		"name": "Mada",
+		"iso639_3": "mda",
+		"glottocode": "mada1282",
+		"family": "plateau",
+		"sources": [
+			"glottolog-mada"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Mada live in northern Nasarawa State, centred on Akwanga, which is predominantly Mada speaking. Mada is a Plateau language related to Ninzo and Rukuba.",
+		"sources": [
+			"wikipedia-akwanga",
+			"glottolog-mada"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "nasarawa-akwanga",
+			"presence": "core",
+			"sources": [
+				"wikipedia-akwanga",
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "nasarawa-kokona",
+			"presence": "minority",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "nasarawa-keffi",
+			"presence": "minority",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "nasarawa-lafia",
+			"presence": "minority",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "nasarawa-doma",
+			"presence": "minority",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "nasarawa-obi",
+			"presence": "minority",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "medium"
+		}
+	],
+	"communities": [],
+	"reviewNotes": [
+		"Only Akwanga is confirmed as Mada majority; the share elsewhere is unknown.",
+		"No paramount ruler is recorded yet."
+	]
+}

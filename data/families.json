@@ -56,5 +56,49 @@
 			"glottolog-basa"
 		],
 		"confidence": "high"
+	},
+	{
+		"id": "tivoid",
+		"name": "Tivoid",
+		"lineage": [
+			"Atlantic-Congo",
+			"Volta-Congo",
+			"Benue-Congo",
+			"Bantoid",
+			"Southern Bantoid",
+			"Tivoid"
+		],
+		"sources": [
+			"glottolog-tiv"
+		],
+		"confidence": "high"
+	},
+	{
+		"id": "plateau",
+		"name": "Plateau",
+		"lineage": [
+			"Atlantic-Congo",
+			"Volta-Congo",
+			"Benue-Congo",
+			"Benue-Congo Plateau"
+		],
+		"sources": [
+			"glottolog-eggon",
+			"glottolog-mada"
+		],
+		"confidence": "high"
+	},
+	{
+		"id": "chadic",
+		"name": "Chadic",
+		"lineage": [
+			"Afro-Asiatic",
+			"Chadic",
+			"West Chadic"
+		],
+		"sources": [
+			"glottolog-gwandara"
+		],
+		"confidence": "high"
 	}
 ]

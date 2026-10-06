@@ -1,0 +1,218 @@
+{
+	"name": "Tiv",
+	"status": "draft",
+	"searchAliases": [
+		"Tiv",
+		"Munchi",
+		"Tor Tiv",
+		"Tivland"
+	],
+	"language": {
+		"name": "Tiv",
+		"iso639_3": "tiv",
+		"glottocode": "tivv1240",
+		"family": "tivoid",
+		"sources": [
+			"glottolog-tiv",
+			"wikipedia-tiv-people"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Tiv are one of Nigeria’s largest peoples, over 8 million strong, and the main people of the Benue valley. Tiv is spoken mainly in Benue, and also in Taraba, Nasarawa, Plateau and Cross River. Historically the Tiv had no single monarchy; today their supreme ruler is the Tor Tiv, whose palace is in Gboko. “Munchi”, a name others once used for them, is considered offensive.",
+		"sources": [
+			"wikipedia-tiv-people",
+			"wikipedia-tor-tiv",
+			"wikipedia-gboko"
+		],
+		"confidence": "high"
+	},
+	"ruler": {
+		"title": "Tor Tiv",
+		"seat": "benue-gboko",
+		"sources": [
+			"wikipedia-tor-tiv",
+			"wikipedia-gboko"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "benue-buruku",
+			"presence": "core",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "benue-gboko",
+			"presence": "core",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "benue-katsina-ala",
+			"presence": "core",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "benue-konshisha",
+			"presence": "core",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "benue-kwande",
+			"presence": "core",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "benue-logo",
+			"presence": "core",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "benue-guma",
+			"presence": "core",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "benue-gwer-east",
+			"presence": "core",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "benue-tarka",
+			"presence": "core",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "benue-ukum",
+			"presence": "core",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "benue-ushongo",
+			"presence": "core",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "benue-vandeikya",
+			"presence": "core",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "benue-makurdi",
+			"presence": "significant",
+			"sources": [
+				"omachonu-dalhatu-2018",
+				"dailytrust-2026-makurdi"
+			],
+			"confidence": "high",
+			"note": "The Benue State capital, shared with many peoples."
+		},
+		{
+			"lga": "benue-gwer-west",
+			"presence": "significant",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high",
+			"note": "Shared with Idoma speakers."
+		},
+		{
+			"lga": "taraba-wukari",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-wukari"
+			],
+			"confidence": "high",
+			"note": "Tiv and Wapan (Jukun) are Wukari’s main indigenous languages."
+		},
+		{
+			"lga": "taraba-takum",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-takum"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "taraba-donga",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-donga"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "nasarawa-keana",
+			"presence": "minority",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "nasarawa-awe",
+			"presence": "minority",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "nasarawa-doma",
+			"presence": "minority",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "nasarawa-lafia",
+			"presence": "minority",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "medium"
+		}
+	],
+	"communities": [],
+	"reviewNotes": [
+		"Tiv in Plateau and Cross River, and in Taraba beyond Wukari, Takum and Donga, are not yet mapped; their LGAs need sources.",
+		"The Tiv share of the Nasarawa LGAs is unknown; they are marked as a smaller presence until a source gives more."
+	]
+}

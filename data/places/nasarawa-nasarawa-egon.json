@@ -1,0 +1,27 @@
+{
+	"status": "draft",
+	"summary": {
+		"text": "The Eggon homeland, headquartered in the town of Eggon.",
+		"sources": [
+			"wikipedia-nasarawa-eggon"
+		],
+		"confidence": "high"
+	},
+	"peoples": [
+		{
+			"name": "Eggon",
+			"group": "eggon",
+			"standing": "indigenous",
+			"share": "majority",
+			"languages": [
+				"Eggon",
+				"Hausa"
+			],
+			"sources": [
+				"wikipedia-nasarawa-eggon",
+				"wikipedia-eggon-people"
+			],
+			"confidence": "high"
+		}
+	]
+}

@@ -1,0 +1,67 @@
+{
+	"status": "draft",
+	"summary": {
+		"text": "The base of the Wukari Federation, the traditional Jukun state, on the Benue. Its main indigenous languages are Tiv and Wapan (Jukun).",
+		"sources": [
+			"wikipedia-wukari"
+		],
+		"confidence": "high"
+	},
+	"peoples": [
+		{
+			"name": "Tiv",
+			"group": "tiv",
+			"standing": "indigenous",
+			"share": "large",
+			"languages": [
+				"Tiv"
+			],
+			"sources": [
+				"wikipedia-wukari"
+			],
+			"confidence": "high"
+		},
+		{
+			"name": "Jukun (Wapan)",
+			"standing": "indigenous",
+			"share": "large",
+			"languages": [
+				"Wapan"
+			],
+			"sources": [
+				"wikipedia-wukari"
+			],
+			"confidence": "high"
+		},
+		{
+			"name": "Wanu",
+			"languages": [
+				"Wanu"
+			],
+			"sources": [
+				"wikipedia-wukari"
+			],
+			"confidence": "high"
+		},
+		{
+			"name": "Jibu",
+			"languages": [
+				"Jibu"
+			],
+			"sources": [
+				"wikipedia-wukari"
+			],
+			"confidence": "high"
+		},
+		{
+			"name": "Hausa",
+			"languages": [
+				"Hausa"
+			],
+			"sources": [
+				"wikipedia-wukari"
+			],
+			"confidence": "high"
+		}
+	]
+}

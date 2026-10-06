@@ -1,0 +1,48 @@
+{
+	"status": "draft",
+	"summary": {
+		"text": "A centre of education in Nasarawa, predominantly Mada speaking, surrounded by other Plateau language groups.",
+		"sources": [
+			"wikipedia-akwanga"
+		],
+		"confidence": "high"
+	},
+	"peoples": [
+		{
+			"name": "Mada",
+			"group": "mada",
+			"standing": "indigenous",
+			"share": "majority",
+			"languages": [
+				"Mada"
+			],
+			"sources": [
+				"wikipedia-akwanga"
+			],
+			"confidence": "high"
+		},
+		{
+			"name": "Eggon",
+			"group": "eggon",
+			"share": "minority",
+			"languages": [
+				"Eggon"
+			],
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "medium"
+		},
+		{
+			"name": "Rindre",
+			"share": "minority",
+			"languages": [
+				"Rindre"
+			],
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "medium"
+		}
+	]
+}

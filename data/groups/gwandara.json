@@ -1,0 +1,128 @@
+{
+	"name": "Gwandara",
+	"status": "draft",
+	"searchAliases": [
+		"Gwandara",
+		"Koro Gwandara",
+		"Karshi"
+	],
+	"language": {
+		"name": "Gwandara",
+		"iso639_3": "gwn",
+		"glottocode": "gwan1268",
+		"family": "chadic",
+		"sources": [
+			"glottolog-gwandara",
+			"wikipedia-gwandara-language"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Gwandara speak a Chadic language close to Hausa. They are one of the indigenous peoples of the FCT and live across Nasarawa State, with communities in Niger, Kaduna and Kogi. New Karshi in Karu LGA is a Gwandara resettlement town.",
+		"sources": [
+			"wikipedia-gwandara-language",
+			"omachonu-dalhatu-2018"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "nasarawa-karu",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-karu-nasarawa",
+				"wikipedia-gwandara-language",
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high",
+			"note": "One of Karu’s six indigenous peoples; New Karshi is a Gwandara town."
+		},
+		{
+			"lga": "niger-gurara",
+			"presence": "significant",
+			"sources": [
+				"soluap-2025-niger"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "nasarawa-lafia",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-lafia",
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "medium",
+			"note": "Among Lafia’s original inhabitants."
+		},
+		{
+			"lga": "nasarawa-awe",
+			"presence": "minority",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "nasarawa-doma",
+			"presence": "minority",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "nasarawa-keana",
+			"presence": "minority",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "nasarawa-obi",
+			"presence": "minority",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "nasarawa-kokona",
+			"presence": "minority",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "fct-municipal-area-council",
+			"presence": "minority",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "fct-kuje",
+			"presence": "minority",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "fct-gwagwalada",
+			"presence": "minority",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "medium"
+		}
+	],
+	"communities": [],
+	"reviewNotes": [
+		"Gwandara communities in Kaduna and Kogi are not yet placed.",
+		"No paramount ruler is recorded yet."
+	]
+}

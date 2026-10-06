@@ -1,0 +1,26 @@
+{
+	"status": "draft",
+	"summary": {
+		"text": "An Alago LGA on the Benue, famous for its salt, founded according to tradition in the 12th century.",
+		"sources": [
+			"wikipedia-keana"
+		],
+		"confidence": "medium"
+	},
+	"peoples": [
+		{
+			"name": "Alago",
+			"group": "alago",
+			"standing": "indigenous",
+			"share": "majority",
+			"languages": [
+				"Alago"
+			],
+			"sources": [
+				"wikipedia-keana",
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high"
+		}
+	]
+}

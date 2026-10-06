@@ -143,6 +143,15 @@
 			],
 			"confidence": "medium",
 			"note": "Basa-Makurdi variety."
+		},
+		{
+			"lga": "nasarawa-doma",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-doma"
+			],
+			"confidence": "medium",
+			"note": "Found in great numbers in the south of Doma LGA."
 		}
 	],
 	"communities": [],

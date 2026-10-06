@@ -917,5 +917,205 @@
 		"licence": "CC BY-SA 4.0",
 		"accessed": "2026-10-06",
 		"checked": true
+	},
+	{
+		"id": "glottolog-tiv",
+		"title": "Glottolog: Tiv (tivv1240)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/tivv1240",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-eggon",
+		"title": "Glottolog: Eggon (eggo1239)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/eggo1239",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-mada",
+		"title": "Glottolog: Mada (Nigeria) (mada1282)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/mada1282",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-alago",
+		"title": "Glottolog: Alago (alag1242)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/alag1242",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "glottolog-gwandara",
+		"title": "Glottolog: Gwandara (gwan1268)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/gwan1268",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-tiv-people",
+		"title": "Tiv people",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Tiv_people",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-tor-tiv",
+		"title": "Tor Tiv",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Tor_Tiv",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-gboko",
+		"title": "Gboko",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Gboko",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-wukari",
+		"title": "Wukari",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Wukari",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-takum",
+		"title": "Takum",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Takum",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-donga",
+		"title": "Donga, Nigeria",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Donga,_Nigeria",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-eggon-people",
+		"title": "Eggon people",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Eggon_people",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-nasarawa-eggon",
+		"title": "Nasarawa Eggon",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Eggon,_Nigeria",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-akwanga",
+		"title": "Akwanga",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Akwanga",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-alago-language",
+		"title": "Alago language",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Alago_language",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-doma",
+		"title": "Doma, Nigeria",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Doma,_Nigeria",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-keana",
+		"title": "Keana",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Keana",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-lafia",
+		"title": "Lafia",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Lafia",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-kokona",
+		"title": "Kokona",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Kokona",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-gwandara-language",
+		"title": "Gwandara language",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Gwandara_language",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
 	}
 ]

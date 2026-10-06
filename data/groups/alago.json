@@ -1,0 +1,92 @@
+{
+	"name": "Alago",
+	"status": "draft",
+	"searchAliases": [
+		"Alago",
+		"Idoma Nokwu",
+		"Arago",
+		"Andoma",
+		"Osana"
+	],
+	"language": {
+		"name": "Alago",
+		"iso639_3": "ala",
+		"glottocode": "alag1242",
+		"family": "idomoid",
+		"sources": [
+			"glottolog-alago",
+			"wikipedia-alago-language"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Alago of southern Nasarawa State speak an Idomoid language and trace their origin, with the Idoma, to the Kwararafa confederacy. They are the main people of Doma, where the Andoma rules, and of Keana and Obi, whose rulers rank with the Andoma among the leading Alago chiefs.",
+		"sources": [
+			"wikipedia-alago-language",
+			"wikipedia-doma",
+			"wikipedia-keana"
+		],
+		"confidence": "high"
+	},
+	"ruler": {
+		"title": "Andoma of Doma",
+		"seat": "nasarawa-doma",
+		"sources": [
+			"wikipedia-doma",
+			"wikipedia-keana"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "nasarawa-doma",
+			"presence": "core",
+			"sources": [
+				"wikipedia-doma",
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high",
+			"note": "Predominant in the north of the LGA; the Bassa are numerous in the south."
+		},
+		{
+			"lga": "nasarawa-keana",
+			"presence": "core",
+			"sources": [
+				"wikipedia-keana",
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "nasarawa-obi",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-keana",
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "medium",
+			"note": "Seat of the Osuko of Obi, an Alago ruler."
+		},
+		{
+			"lga": "nasarawa-awe",
+			"presence": "significant",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "nasarawa-lafia",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-lafia"
+			],
+			"confidence": "medium",
+			"note": "Among Lafia’s original inhabitants."
+		}
+	],
+	"communities": [],
+	"reviewNotes": [
+		"Alago towns named in Wikipedia (Aloshi, Agaza, Agbashi, Agwatashi, Assakio) are not yet placed as points."
+	]
+}

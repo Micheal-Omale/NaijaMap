@@ -1,0 +1,64 @@
+{
+	"status": "draft",
+	"summary": {
+		"text": "A Taraba LGA on the Donga River, centre of a Chamba kingdom, home to several peoples.",
+		"sources": [
+			"wikipedia-donga"
+		],
+		"confidence": "high"
+	},
+	"peoples": [
+		{
+			"name": "Chamba",
+			"standing": "indigenous",
+			"languages": [
+				"Chamba"
+			],
+			"sources": [
+				"wikipedia-donga"
+			],
+			"confidence": "high"
+		},
+		{
+			"name": "Tiv",
+			"group": "tiv",
+			"languages": [
+				"Tiv"
+			],
+			"sources": [
+				"wikipedia-donga"
+			],
+			"confidence": "high"
+		},
+		{
+			"name": "Ichen",
+			"languages": [
+				"Ichen"
+			],
+			"sources": [
+				"wikipedia-donga"
+			],
+			"confidence": "high"
+		},
+		{
+			"name": "Hausa",
+			"languages": [
+				"Hausa"
+			],
+			"sources": [
+				"wikipedia-donga"
+			],
+			"confidence": "high"
+		},
+		{
+			"name": "Fulani",
+			"languages": [
+				"Fulfulde"
+			],
+			"sources": [
+				"wikipedia-donga"
+			],
+			"confidence": "high"
+		}
+	]
+}

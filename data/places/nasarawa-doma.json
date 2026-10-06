@@ -1,0 +1,39 @@
+{
+	"status": "draft",
+	"summary": {
+		"text": "The home of the Alago, led by the Andoma of Doma. The Alago live mainly in the north of the LGA; the Bassa are numerous in the south.",
+		"sources": [
+			"wikipedia-doma"
+		],
+		"confidence": "high"
+	},
+	"peoples": [
+		{
+			"name": "Alago",
+			"group": "alago",
+			"standing": "indigenous",
+			"share": "majority",
+			"languages": [
+				"Alago"
+			],
+			"sources": [
+				"wikipedia-doma",
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"name": "Bassa",
+			"group": "bassa",
+			"standing": "indigenous",
+			"share": "large",
+			"languages": [
+				"Basa"
+			],
+			"sources": [
+				"wikipedia-doma"
+			],
+			"confidence": "medium"
+		}
+	]
+}

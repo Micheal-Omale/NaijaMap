@@ -1,0 +1,81 @@
+{
+	"status": "draft",
+	"summary": {
+		"text": "The capital and largest city of Nasarawa State, once the seat of the Lafia emirate and a major market of the Benue valley.",
+		"sources": [
+			"wikipedia-lafia"
+		],
+		"confidence": "high"
+	},
+	"peoples": [
+		{
+			"name": "Kanuri",
+			"standing": "indigenous",
+			"languages": [
+				"Kanuri"
+			],
+			"sources": [
+				"wikipedia-lafia"
+			],
+			"confidence": "high"
+		},
+		{
+			"name": "Fulani",
+			"standing": "indigenous",
+			"languages": [
+				"Fulfulde"
+			],
+			"sources": [
+				"wikipedia-lafia"
+			],
+			"confidence": "high"
+		},
+		{
+			"name": "Gwandara",
+			"group": "gwandara",
+			"standing": "indigenous",
+			"languages": [
+				"Gwandara"
+			],
+			"sources": [
+				"wikipedia-lafia"
+			],
+			"confidence": "high"
+		},
+		{
+			"name": "Alago",
+			"group": "alago",
+			"standing": "indigenous",
+			"languages": [
+				"Alago"
+			],
+			"sources": [
+				"wikipedia-lafia"
+			],
+			"confidence": "high"
+		},
+		{
+			"name": "Migili (Koro)",
+			"standing": "indigenous",
+			"languages": [
+				"Migili"
+			],
+			"sources": [
+				"wikipedia-lafia",
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"name": "Hausa",
+			"share": "large",
+			"languages": [
+				"Hausa"
+			],
+			"sources": [
+				"wikipedia-lafia"
+			],
+			"confidence": "high"
+		}
+	]
+}

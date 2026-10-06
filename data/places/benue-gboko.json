@@ -1,0 +1,33 @@
+{
+	"status": "draft",
+	"summary": {
+		"text": "The largest LGA in Benue by population and the seat of the Tor Tiv, whose palace is in the heart of the town.",
+		"sources": [
+			"wikipedia-gboko"
+		],
+		"confidence": "high"
+	},
+	"peoples": [
+		{
+			"name": "Tiv",
+			"group": "tiv",
+			"standing": "indigenous",
+			"share": "majority",
+			"languages": [
+				"Tiv"
+			],
+			"sources": [
+				"wikipedia-gboko",
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high"
+		}
+	],
+	"languageUse": {
+		"text": "Tiv, Hausa and English are the most widely spoken languages in Gboko.",
+		"sources": [
+			"wikipedia-gboko"
+		],
+		"confidence": "high"
+	}
+}

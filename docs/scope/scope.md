@@ -97,6 +97,7 @@ Draft the 50 largest groups in reviewable batches (for example Hausa, Yoruba, Ig
   - [x] Igala (with every Igala speaking community found, 2026-10-05/06)
   - [x] Batch 1: Ebira, Idoma, Nupe (drafted 2026-10-06, awaiting owner review)
   - [x] Batch 2: Bassa, Bassa-Nge, Igede, Gbagyi (drafted 2026-10-06, awaiting owner review); Igala, Ebira, Idoma and Nupe strengthened with Omachonu and Dalhatu (2018)
+  - [x] Batch 3: Tiv, Eggon, Mada, Alago, Gwandara (drafted 2026-10-06, awaiting owner review)
   - [ ] Next batches: Hausa, Yoruba, Igbo, Fulani, Ijaw, Kanuri, Tiv, Ibibio, Edo, Urhobo and the rest
 
 ### 8. Atlas colours & mixed areas · needs a decision
