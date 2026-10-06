@@ -93,11 +93,167 @@
 		"name": "Chadic",
 		"lineage": [
 			"Afro-Asiatic",
-			"Chadic",
-			"West Chadic"
+			"Chadic"
 		],
 		"sources": [
-			"glottolog-gwandara"
+			"glottolog-gwandara",
+			"glottolog-hausa",
+			"glottolog-bura"
+		],
+		"confidence": "high"
+	},
+	{
+		"id": "atlantic",
+		"name": "Atlantic (Fula)",
+		"lineage": [
+			"Atlantic-Congo",
+			"North-Central Atlantic",
+			"Fula"
+		],
+		"sources": [
+			"glottolog-fulani"
+		],
+		"confidence": "high"
+	},
+	{
+		"id": "saharan",
+		"name": "Saharan",
+		"lineage": [
+			"Saharan",
+			"Western Saharan"
+		],
+		"sources": [
+			"glottolog-kanuri"
+		],
+		"confidence": "high"
+	},
+	{
+		"id": "arabic",
+		"name": "Arabic (Semitic)",
+		"lineage": [
+			"Afro-Asiatic",
+			"Semitic",
+			"Arabic"
+		],
+		"sources": [
+			"glottolog-shuwa"
+		],
+		"confidence": "high"
+	},
+	{
+		"id": "igboid",
+		"name": "Igboid",
+		"lineage": [
+			"Atlantic-Congo",
+			"Volta-Congo",
+			"Benue-Congo",
+			"Igboid"
+		],
+		"sources": [
+			"glottolog-igbo",
+			"glottolog-ikwerre"
+		],
+		"confidence": "high"
+	},
+	{
+		"id": "ijoid",
+		"name": "Ijoid",
+		"lineage": [
+			"Ijoid",
+			"Ijo"
+		],
+		"sources": [
+			"glottolog-ijaw"
+		],
+		"confidence": "high"
+	},
+	{
+		"id": "lower-cross",
+		"name": "Lower Cross",
+		"lineage": [
+			"Atlantic-Congo",
+			"Volta-Congo",
+			"Benue-Congo",
+			"Delta Cross",
+			"Lower Cross"
+		],
+		"sources": [
+			"glottolog-ibibio",
+			"glottolog-efik"
+		],
+		"confidence": "high"
+	},
+	{
+		"id": "edoid",
+		"name": "Edoid",
+		"lineage": [
+			"Atlantic-Congo",
+			"Volta-Congo",
+			"Benue-Congo",
+			"Edoid"
+		],
+		"sources": [
+			"glottolog-edo",
+			"glottolog-urhobo"
+		],
+		"confidence": "high"
+	},
+	{
+		"id": "ogonoid",
+		"name": "Ogonoid",
+		"lineage": [
+			"Atlantic-Congo",
+			"Volta-Congo",
+			"Benue-Congo",
+			"Delta Cross",
+			"Ogonoid"
+		],
+		"sources": [
+			"glottolog-ogoni"
+		],
+		"confidence": "high"
+	},
+	{
+		"id": "ekoid",
+		"name": "Ekoid",
+		"lineage": [
+			"Atlantic-Congo",
+			"Volta-Congo",
+			"Benue-Congo",
+			"Bantoid",
+			"Ekoid"
+		],
+		"sources": [
+			"glottolog-ejagham"
+		],
+		"confidence": "high"
+	},
+	{
+		"id": "jukunoid",
+		"name": "Jukunoid",
+		"lineage": [
+			"Atlantic-Congo",
+			"Volta-Congo",
+			"Benue-Congo",
+			"Jukunoid"
+		],
+		"sources": [
+			"glottolog-jukun",
+			"glottolog-kuteb"
+		],
+		"confidence": "high"
+	},
+	{
+		"id": "adamawa",
+		"name": "Adamawa",
+		"lineage": [
+			"Atlantic-Congo",
+			"Volta-Congo",
+			"North Volta-Congo",
+			"Central Adamawa"
+		],
+		"sources": [
+			"glottolog-mumuye"
 		],
 		"confidence": "high"
 	}

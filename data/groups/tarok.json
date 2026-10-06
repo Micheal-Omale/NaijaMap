@@ -1,0 +1,55 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Tarok",
+	"searchAliases": [
+		"Yergam",
+		"Tarok",
+		"Langtang"
+	],
+	"language": {
+		"name": "Tarok",
+		"iso639_3": "yer",
+		"glottocode": "taro1263",
+		"family": "plateau",
+		"sources": [
+			"glottolog-tarok"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Tarok live in southern Plateau State around Langtang. Tarok is the only Plateau State language the survey found in three LGAs.",
+		"sources": [
+			"omachonu-dalhatu-2018"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "plateau-langtang-north",
+			"presence": "core",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "plateau-langtang-south",
+			"presence": "core",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "plateau-wase",
+			"presence": "significant",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "medium",
+			"note": "Shared with Jukun, Hausa, Fulani and Kanuri speakers."
+		}
+	]
+}

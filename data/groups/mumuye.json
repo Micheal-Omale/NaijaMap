@@ -1,0 +1,96 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [
+		"Wikipedia calls the Mumuye \"predominant\" in all eight LGAs; Gassol, Bali and Gashaka are marked shared until checked."
+	],
+	"name": "Mumuye",
+	"searchAliases": [
+		"Mumuye",
+		"Zing",
+		"Yorro"
+	],
+	"language": {
+		"name": "Mumuye",
+		"iso639_3": "mzm",
+		"glottocode": "nucl1240",
+		"family": "adamawa",
+		"sources": [
+			"glottolog-mumuye"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Mumuye are the largest people of Taraba State, known for their tall wooden sculptures and rainmaking traditions.",
+		"sources": [
+			"wikipedia-mumuye"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "taraba-zing",
+			"presence": "core",
+			"sources": [
+				"wikipedia-mumuye"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "taraba-yorro",
+			"presence": "core",
+			"sources": [
+				"wikipedia-mumuye"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "taraba-jalingo",
+			"presence": "core",
+			"sources": [
+				"wikipedia-mumuye"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "taraba-ardo-kola",
+			"presence": "core",
+			"sources": [
+				"wikipedia-mumuye"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "taraba-lau",
+			"presence": "core",
+			"sources": [
+				"wikipedia-mumuye"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "taraba-gassol",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-mumuye"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "taraba-bali",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-mumuye"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "taraba-gashaka",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-mumuye"
+			],
+			"confidence": "medium"
+		}
+	]
+}

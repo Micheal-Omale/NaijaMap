@@ -1,0 +1,161 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Karai-Karai",
+	"searchAliases": [
+		"Karekare",
+		"Kerekere",
+		"Karai Karai"
+	],
+	"language": {
+		"name": "Karekare",
+		"iso639_3": "kai",
+		"glottocode": "kare1348",
+		"family": "chadic",
+		"sources": [
+			"glottolog-karekare"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Karai-Karai live in the borderlands of Yobe, Bauchi and Gombe, around Nangere, Potiskum and Fika. Estimates of their number run from about 400,000 upwards.",
+		"sources": [
+			"wikipedia-karai-karai",
+			"udosen-2018"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "yobe-nangere",
+			"presence": "core",
+			"sources": [
+				"udosen-2018",
+				"wikipedia-karai-karai"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "yobe-potiskum",
+			"presence": "significant",
+			"sources": [
+				"udosen-2018",
+				"wikipedia-karai-karai"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "yobe-damaturu",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "yobe-fune",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "yobe-fika",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "yobe-gujba",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "yobe-gulani",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "bauchi-darazo",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "bauchi-gamawa",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "bauchi-itas-gadau",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "bauchi-misau",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "bauchi-zaki",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "bauchi-dambam",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "gombe-nafada",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "gombe-funakaye",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "gombe-dukku",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		}
+	]
+}

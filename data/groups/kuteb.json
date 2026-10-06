@@ -1,0 +1,55 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Kuteb",
+	"searchAliases": [
+		"Kutep",
+		"Kuteb",
+		"Takum"
+	],
+	"language": {
+		"name": "Kutep",
+		"iso639_3": "kub",
+		"glottocode": "kute1248",
+		"family": "jukunoid",
+		"sources": [
+			"glottolog-kuteb"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Kuteb live mostly in Takum and Ussa in southern Taraba, with a few villages in Cameroon. They were ruled by a paramount priest-king, the Kwe Kukwen.",
+		"sources": [
+			"wikipedia-kuteb",
+			"wikipedia-ussa"
+		],
+		"confidence": "high"
+	},
+	"ruler": {
+		"title": "Kwe Kukwen",
+		"sources": [
+			"wikipedia-kuteb"
+		],
+		"confidence": "medium"
+	},
+	"areas": [
+		{
+			"lga": "taraba-takum",
+			"presence": "core",
+			"sources": [
+				"wikipedia-kuteb",
+				"wikipedia-takum"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "taraba-ussa",
+			"presence": "core",
+			"sources": [
+				"wikipedia-ussa"
+			],
+			"confidence": "high"
+		}
+	]
+}

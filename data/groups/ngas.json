@@ -1,0 +1,54 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Ngas",
+	"searchAliases": [
+		"Angas",
+		"Ngas",
+		"Kerang"
+	],
+	"language": {
+		"name": "Ngas",
+		"iso639_3": "anc",
+		"glottocode": "ngas1240",
+		"family": "chadic",
+		"sources": [
+			"glottolog-ngas"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Ngas (Angas) live in Pankshin and Kanke on the Plateau and speak a West Chadic language.",
+		"sources": [
+			"omachonu-dalhatu-2018"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "plateau-pankshin",
+			"presence": "core",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "plateau-kanke",
+			"presence": "core",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "bauchi-bogoro",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		}
+	]
+}

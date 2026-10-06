@@ -1,0 +1,120 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Urhobo",
+	"searchAliases": [
+		"Urhobo",
+		"Okpe",
+		"Sobo"
+	],
+	"language": {
+		"name": "Urhobo",
+		"iso639_3": "urh",
+		"glottocode": "urho1239",
+		"family": "edoid",
+		"sources": [
+			"glottolog-urhobo"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Urhobo, about 7 million people, live in 24 kingdoms in central Delta State, each with its own Ovie or equivalent ruler (the Orodje of Okpe, for example).",
+		"sources": [
+			"wikipedia-urhobo"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "delta-ethiope-east",
+			"presence": "core",
+			"sources": [
+				"wikipedia-urhobo"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "delta-ethiope-west",
+			"presence": "core",
+			"sources": [
+				"wikipedia-urhobo"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "delta-okpe",
+			"presence": "core",
+			"sources": [
+				"wikipedia-urhobo"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "delta-sapele",
+			"presence": "core",
+			"sources": [
+				"wikipedia-urhobo"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "delta-udu",
+			"presence": "core",
+			"sources": [
+				"wikipedia-urhobo"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "delta-ughelli-north",
+			"presence": "core",
+			"sources": [
+				"wikipedia-urhobo"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "delta-ughelli-south",
+			"presence": "core",
+			"sources": [
+				"wikipedia-urhobo"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "delta-uvwie",
+			"presence": "core",
+			"sources": [
+				"wikipedia-urhobo"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "delta-warri-south",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-urhobo",
+				"wikipedia-itsekiri"
+			],
+			"confidence": "high",
+			"note": "Shared with the Itsekiri and Ijaw."
+		},
+		{
+			"lga": "delta-patani",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-urhobo"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "bayelsa-sagbama",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-urhobo"
+			],
+			"confidence": "medium"
+		}
+	]
+}

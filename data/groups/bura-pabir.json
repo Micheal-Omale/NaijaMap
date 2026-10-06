@@ -1,0 +1,129 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Bura-Pabir",
+	"searchAliases": [
+		"Bura",
+		"Babur",
+		"Pabir",
+		"Babur-Bura",
+		"Biu"
+	],
+	"language": {
+		"name": "Bura-Pabir",
+		"iso639_3": "bwr",
+		"glottocode": "bura1292",
+		"family": "chadic",
+		"sources": [
+			"glottolog-bura",
+			"udosen-2018"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Bura and the Pabir (Babur) of southern Borno speak one Chadic language in two dialects, though they see themselves as distinct peoples; most Pabir are Muslim and most Bura Christian. They are the main people of Biu and Shani, and also speak Hausa, Kibaku and Marghi.",
+		"sources": [
+			"udosen-2018"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "borno-biu",
+			"presence": "core",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "borno-shani",
+			"presence": "core",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "borno-hawul",
+			"presence": "core",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "borno-kwaya-kusar",
+			"presence": "core",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "borno-bayo",
+			"presence": "core",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "borno-askira-uba",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "borno-chibok",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "borno-maiduguri",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "yobe-bade",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "yobe-jakusko",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "yobe-gujba",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "yobe-gulani",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		}
+	]
+}

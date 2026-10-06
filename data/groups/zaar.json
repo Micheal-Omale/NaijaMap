@@ -1,0 +1,55 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Zaar",
+	"searchAliases": [
+		"Sayawa",
+		"Saya",
+		"Zaar",
+		"Tafawa Balewa"
+	],
+	"language": {
+		"name": "Zaar (Saya)",
+		"iso639_3": "say",
+		"glottocode": "saya1246",
+		"family": "chadic",
+		"sources": [
+			"glottolog-zaar"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Zaar (Sayawa) live in southern Bauchi State, around Tafawa Balewa and Bogoro, and speak a West Chadic language.",
+		"sources": [
+			"udosen-2018"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "bauchi-tafawa-balewa",
+			"presence": "core",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "bauchi-bogoro",
+			"presence": "core",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "bauchi-ganjuwa",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		}
+	]
+}

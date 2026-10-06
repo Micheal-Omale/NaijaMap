@@ -1,0 +1,74 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Ogoni",
+	"searchAliases": [
+		"Ogoni",
+		"Khana",
+		"Gokana",
+		"Eleme",
+		"Tai",
+		"Ogoniland"
+	],
+	"language": {
+		"name": "Khana (Ogoni)",
+		"iso639_3": "ogo",
+		"glottocode": "khan1278",
+		"family": "ogonoid",
+		"sources": [
+			"glottolog-ogoni"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Ogoni, just over 2 million people, live in Ogoniland east of Port Harcourt, in six kingdoms. Their homeland has suffered heavily from oil spills.",
+		"sources": [
+			"wikipedia-ogoni"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "rivers-khana",
+			"presence": "core",
+			"sources": [
+				"wikipedia-ogoni"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "rivers-gokana",
+			"presence": "core",
+			"sources": [
+				"wikipedia-ogoni"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "rivers-tai",
+			"presence": "core",
+			"sources": [
+				"wikipedia-ogoni"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "rivers-eleme",
+			"presence": "core",
+			"sources": [
+				"wikipedia-ogoni"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "rivers-oyigbo",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-ogoni"
+			],
+			"confidence": "disputed",
+			"note": "Wikipedia: \"arguably, but not certain\"."
+		}
+	]
+}

@@ -1,0 +1,39 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Kilba",
+	"searchAliases": [
+		"Huba",
+		"Həba",
+		"Kilba",
+		"Hong"
+	],
+	"language": {
+		"name": "Huba",
+		"iso639_3": "hbb",
+		"glottocode": "huba1236",
+		"family": "chadic",
+		"sources": [
+			"glottolog-kilba"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Kilba (Huba) live in Hong LGA of Adamawa State. Their mountain communities were once ruled by kings called Təl.",
+		"sources": [
+			"wikipedia-kilba"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "adamawa-hong",
+			"presence": "core",
+			"sources": [
+				"wikipedia-kilba"
+			],
+			"confidence": "high"
+		}
+	]
+}

@@ -1,0 +1,96 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [
+		"Wikipedia says eight LGAs but names seven."
+	],
+	"name": "Annang",
+	"searchAliases": [
+		"Anaang",
+		"Annang",
+		"Oku Ibom",
+		"Ikot Ekpene"
+	],
+	"language": {
+		"name": "Anaang",
+		"iso639_3": "anw",
+		"glottocode": "anaa1238",
+		"family": "lower-cross",
+		"sources": [
+			"glottolog-annang"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Annang (Anaang) live in western Akwa Ibom; Ikot Ekpene is their political and cultural capital.",
+		"sources": [
+			"wikipedia-anaang"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "akwa-ibom-abak",
+			"presence": "core",
+			"sources": [
+				"wikipedia-anaang",
+				"wikipedia-akwa-ibom"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "akwa-ibom-essien-udim",
+			"presence": "core",
+			"sources": [
+				"wikipedia-anaang",
+				"wikipedia-akwa-ibom"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "akwa-ibom-etim-ekpo",
+			"presence": "core",
+			"sources": [
+				"wikipedia-anaang",
+				"wikipedia-akwa-ibom"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "akwa-ibom-ikot-ekpene",
+			"presence": "core",
+			"sources": [
+				"wikipedia-anaang",
+				"wikipedia-akwa-ibom"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "akwa-ibom-obot-akara",
+			"presence": "core",
+			"sources": [
+				"wikipedia-anaang",
+				"wikipedia-akwa-ibom"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "akwa-ibom-oruk-anam",
+			"presence": "core",
+			"sources": [
+				"wikipedia-anaang",
+				"wikipedia-akwa-ibom"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "akwa-ibom-ukanafun",
+			"presence": "core",
+			"sources": [
+				"wikipedia-anaang",
+				"wikipedia-akwa-ibom"
+			],
+			"confidence": "high"
+		}
+	]
+}

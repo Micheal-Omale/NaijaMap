@@ -1,0 +1,2127 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [
+		"Hausa is spoken as a second language almost everywhere in the north; only areas where sources name Hausa as a home language are mapped.",
+		"In Kebbi and Kaduna the share is inferred from where other peoples are sourced; check the southern Kaduna and southern Kebbi LGAs.",
+		"Adamawa and Taraba were not covered by the North East survey and are not yet mapped for Hausa."
+	],
+	"name": "Hausa",
+	"searchAliases": [
+		"Hausawa",
+		"Hausa-Fulani",
+		"Habe",
+		"Hausa Bakwai"
+	],
+	"language": {
+		"name": "Hausa",
+		"iso639_3": "hau",
+		"glottocode": "haus1257",
+		"family": "chadic",
+		"sources": [
+			"glottolog-hausa"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Hausa are Nigeria’s largest people, numbering around 86 million across West Africa, based in the savanna of northern Nigeria and southern Niger. Their historic city-states, among them Kano, Katsina, Zazzau (Zaria), Daura and Gobir, became emirates of the Sokoto Caliphate. Hausa is the main language of the north and a language of trade far beyond it.",
+		"sources": [
+			"wikipedia-hausa-people",
+			"wikipedia-hausa-kingdoms",
+			"amfani-2018"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "jigawa-auyo",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "jigawa-babura",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "jigawa-biriniwa",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "jigawa-birnin-kudu",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "jigawa-buji",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "jigawa-dutse",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "jigawa-gagarawa",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "jigawa-garki",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "jigawa-gumel",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "jigawa-guri",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "jigawa-gwaram",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "jigawa-gwiwa",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "jigawa-hadejia",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "jigawa-jahun",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "jigawa-kafin-hausa",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "jigawa-kaugama",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "jigawa-kazaure",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "jigawa-kiri-kasama",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "jigawa-kiyawa",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "jigawa-maigatari",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "jigawa-malam-madori",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "jigawa-miga",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "jigawa-ringim",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "jigawa-roni",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "jigawa-sule-tankarkar",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "jigawa-taura",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "jigawa-yankwashi",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kano-ajingi",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kano-albasu",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kano-bagwai",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kano-bebeji",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kano-bichi",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kano-bunkure",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kano-dala",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kano-dambatta",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kano-dawakin-kudu",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kano-dawakin-tofa",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kano-doguwa",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kano-fagge",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kano-gabasawa",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kano-garko",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kano-garun-malam",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kano-gaya",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kano-gezawa",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kano-gwale",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kano-gwarzo",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kano-kabo",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kano-kano-municipal",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kano-karaye",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kano-kibiya",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kano-kiru",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kano-kumbotso",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kano-kunchi",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kano-kura",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kano-madobi",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kano-makoda",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kano-minjibir",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kano-nassarawa",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kano-rano",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kano-rimin-gado",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kano-rogo",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kano-shanono",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kano-sumaila",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kano-takai",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kano-tarauni",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kano-tofa",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kano-tsanyawa",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kano-tudun-wada",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kano-ungogo",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kano-warawa",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kano-wudil",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "katsina-bakori",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "katsina-batagarawa",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "katsina-batsari",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "katsina-baure",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "katsina-bindawa",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "katsina-charanchi",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "katsina-dan-musa",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "katsina-dandume",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "katsina-danja",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "katsina-daura",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "katsina-dutsi",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "katsina-dutsin-ma",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "katsina-faskari",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "katsina-funtua",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "katsina-ingawa",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "katsina-jibia",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "katsina-kafur",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "katsina-kaita",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "katsina-kankara",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "katsina-kankia",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "katsina-katsina",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "katsina-kurfi",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "katsina-kusada",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "katsina-mai-adua",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "katsina-malumfashi",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "katsina-mani",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "katsina-mashi",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "katsina-matazu",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "katsina-musawa",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "katsina-rimi",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "katsina-sabuwa",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "katsina-safana",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "katsina-sandamu",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "katsina-zango",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "sokoto-binji",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "sokoto-bodinga",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "sokoto-dange-shuni",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "sokoto-gada",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "sokoto-goronyo",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "sokoto-gudu",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "sokoto-gwadabawa",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "sokoto-illela",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "sokoto-isa",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "sokoto-kebbe",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "sokoto-kware",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "sokoto-rabah",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "sokoto-sabon-birni",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "sokoto-shagari",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "sokoto-silame",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "sokoto-sokoto-north",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "sokoto-sokoto-south",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "sokoto-tambuwal",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "sokoto-tangaza",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "sokoto-tureta",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "sokoto-wamakko",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "sokoto-wurno",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "sokoto-yabo",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "zamfara-anka",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "zamfara-bakura",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "zamfara-birnin-magaji-kiyaw",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "zamfara-bukkuyum",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "zamfara-bungudu",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "zamfara-gummi",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "zamfara-gusau",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "zamfara-kaura-namoda",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "zamfara-maradun",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "zamfara-maru",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "zamfara-shinkafi",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "zamfara-talata-mafara",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "zamfara-tsafe",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "zamfara-zurmi",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kebbi-aleiro",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "kebbi-arewa-dandi",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "kebbi-argungu",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "kebbi-augie",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "kebbi-bagudu",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "kebbi-birnin-kebbi",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "kebbi-bunza",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "kebbi-dandi",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "kebbi-fakai",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "kebbi-gwandu",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "kebbi-jega",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "kebbi-kalgo",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "kebbi-koko-besse",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "kebbi-maiyama",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "kebbi-suru",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "kebbi-zuru",
+			"presence": "significant",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Shared with smaller peoples such as the C’lela, Kambari and Shanga."
+		},
+		{
+			"lga": "kebbi-sakaba",
+			"presence": "significant",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Shared with smaller peoples such as the C’lela, Kambari and Shanga."
+		},
+		{
+			"lga": "kebbi-wasagu-danko",
+			"presence": "significant",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Shared with smaller peoples such as the C’lela, Kambari and Shanga."
+		},
+		{
+			"lga": "kebbi-ngaski",
+			"presence": "significant",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Shared with smaller peoples such as the C’lela, Kambari and Shanga."
+		},
+		{
+			"lga": "kebbi-shanga",
+			"presence": "significant",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Shared with smaller peoples such as the C’lela, Kambari and Shanga."
+		},
+		{
+			"lga": "kebbi-yauri",
+			"presence": "significant",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Shared with smaller peoples such as the C’lela, Kambari and Shanga."
+		},
+		{
+			"lga": "kaduna-birnin-gwari",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "kaduna-giwa",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "kaduna-ikara",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "kaduna-kubau",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "kaduna-kudan",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "kaduna-makarfi",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "kaduna-sabon-gari",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "kaduna-soba",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "kaduna-zaria",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "kaduna-kaduna-north",
+			"presence": "core",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "kaduna-kaduna-south",
+			"presence": "significant",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "kaduna-lere",
+			"presence": "significant",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "kaduna-igabi",
+			"presence": "significant",
+			"sources": [
+				"amfani-2018",
+				"wikipedia-igabi"
+			],
+			"confidence": "medium",
+			"note": "Shared with the Gbagyi."
+		},
+		{
+			"lga": "kaduna-chikun",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Southern Kaduna: Hausa is spoken, but other peoples are indigenous here."
+		},
+		{
+			"lga": "kaduna-kajuru",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Southern Kaduna: Hausa is spoken, but other peoples are indigenous here."
+		},
+		{
+			"lga": "kaduna-kachia",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Southern Kaduna: Hausa is spoken, but other peoples are indigenous here."
+		},
+		{
+			"lga": "kaduna-kagarko",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Southern Kaduna: Hausa is spoken, but other peoples are indigenous here."
+		},
+		{
+			"lga": "kaduna-jaba",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Southern Kaduna: Hausa is spoken, but other peoples are indigenous here."
+		},
+		{
+			"lga": "kaduna-jema-a",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Southern Kaduna: Hausa is spoken, but other peoples are indigenous here."
+		},
+		{
+			"lga": "kaduna-kaura",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Southern Kaduna: Hausa is spoken, but other peoples are indigenous here."
+		},
+		{
+			"lga": "kaduna-kauru",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Southern Kaduna: Hausa is spoken, but other peoples are indigenous here."
+		},
+		{
+			"lga": "kaduna-sanga",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Southern Kaduna: Hausa is spoken, but other peoples are indigenous here."
+		},
+		{
+			"lga": "kaduna-zangon-kataf",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Southern Kaduna: Hausa is spoken, but other peoples are indigenous here."
+		},
+		{
+			"lga": "bauchi-alkaleri",
+			"presence": "core",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "bauchi-bauchi",
+			"presence": "core",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "bauchi-darazo",
+			"presence": "core",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "bauchi-dass",
+			"presence": "core",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "bauchi-itas-gadau",
+			"presence": "core",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "bauchi-jama-are",
+			"presence": "core",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "bauchi-katagum",
+			"presence": "core",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "bauchi-ningi",
+			"presence": "core",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "bauchi-misau",
+			"presence": "core",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "bauchi-shira",
+			"presence": "core",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "bauchi-zaki",
+			"presence": "core",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "bauchi-dambam",
+			"presence": "core",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "bauchi-kirfi",
+			"presence": "core",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "bauchi-giade",
+			"presence": "core",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "bauchi-ganjuwa",
+			"presence": "core",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "bauchi-gamawa",
+			"presence": "significant",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "bauchi-tafawa-balewa",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "bauchi-warji",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "gombe-yamaltu-deba",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high",
+			"note": "Hausa is the language of wider communication in Gombe but not a major home language."
+		},
+		{
+			"lga": "gombe-balanga",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high",
+			"note": "Hausa is the language of wider communication in Gombe but not a major home language."
+		},
+		{
+			"lga": "borno-ngala",
+			"presence": "significant",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "borno-bama",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "borno-dikwa",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "borno-gubio",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "borno-gwoza",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "borno-kaga",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "borno-kukawa",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "borno-jere",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "borno-marte",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "borno-mobbar",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "borno-abadam",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "borno-monguno",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "yobe-bade",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "yobe-bursari",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "yobe-damaturu",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "yobe-fika",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "yobe-fune",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "yobe-geidam",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "yobe-gujba",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "yobe-gulani",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "yobe-jakusko",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "yobe-karasuwa",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "yobe-machina",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "yobe-nangere",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "yobe-nguru",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "yobe-potiskum",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "yobe-tarmuwa",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "yobe-yunusari",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "yobe-yusufari",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "niger-kontagora",
+			"presence": "significant",
+			"sources": [
+				"soluap-2025-niger"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "niger-mokwa",
+			"presence": "minority",
+			"sources": [
+				"soluap-2025-niger"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "niger-bida",
+			"presence": "minority",
+			"sources": [
+				"soluap-2025-niger"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "nasarawa-akwanga",
+			"presence": "minority",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high",
+			"note": "Hausa is spoken in all 13 Nasarawa LGAs."
+		},
+		{
+			"lga": "nasarawa-awe",
+			"presence": "minority",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high",
+			"note": "Hausa is spoken in all 13 Nasarawa LGAs."
+		},
+		{
+			"lga": "nasarawa-doma",
+			"presence": "minority",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high",
+			"note": "Hausa is spoken in all 13 Nasarawa LGAs."
+		},
+		{
+			"lga": "nasarawa-karu",
+			"presence": "minority",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high",
+			"note": "Hausa is spoken in all 13 Nasarawa LGAs."
+		},
+		{
+			"lga": "nasarawa-keana",
+			"presence": "minority",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high",
+			"note": "Hausa is spoken in all 13 Nasarawa LGAs."
+		},
+		{
+			"lga": "nasarawa-keffi",
+			"presence": "minority",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high",
+			"note": "Hausa is spoken in all 13 Nasarawa LGAs."
+		},
+		{
+			"lga": "nasarawa-kokona",
+			"presence": "minority",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high",
+			"note": "Hausa is spoken in all 13 Nasarawa LGAs."
+		},
+		{
+			"lga": "nasarawa-lafia",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-lafia",
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high",
+			"note": "Lafia has a large Hausa population."
+		},
+		{
+			"lga": "nasarawa-nasarawa",
+			"presence": "minority",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high",
+			"note": "Hausa is spoken in all 13 Nasarawa LGAs."
+		},
+		{
+			"lga": "nasarawa-nasarawa-egon",
+			"presence": "minority",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high",
+			"note": "Hausa is spoken in all 13 Nasarawa LGAs."
+		},
+		{
+			"lga": "nasarawa-obi",
+			"presence": "minority",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high",
+			"note": "Hausa is spoken in all 13 Nasarawa LGAs."
+		},
+		{
+			"lga": "nasarawa-toto",
+			"presence": "minority",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high",
+			"note": "Hausa is spoken in all 13 Nasarawa LGAs."
+		},
+		{
+			"lga": "nasarawa-wamba",
+			"presence": "minority",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high",
+			"note": "Hausa is spoken in all 13 Nasarawa LGAs."
+		},
+		{
+			"lga": "plateau-wase",
+			"presence": "minority",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "fct-bwari",
+			"presence": "minority",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "fct-municipal-area-council",
+			"presence": "minority",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "fct-gwagwalada",
+			"presence": "minority",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "fct-kwali",
+			"presence": "minority",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "fct-kuje",
+			"presence": "minority",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high"
+		}
+	]
+}

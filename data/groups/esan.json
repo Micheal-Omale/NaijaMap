@@ -1,0 +1,69 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Esan",
+	"searchAliases": [
+		"Ishan",
+		"Esan"
+	],
+	"language": {
+		"name": "Esan",
+		"iso639_3": "ish",
+		"glottocode": "esan1238",
+		"family": "edoid",
+		"sources": [
+			"glottolog-esan"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Esan of central Edo State were a loose confederation of about 35 kingdoms, each under its own Onojie, rather than a single state.",
+		"sources": [
+			"wikipedia-esan"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "edo-esan-north-east",
+			"presence": "core",
+			"sources": [
+				"wikipedia-esan"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "edo-esan-central",
+			"presence": "core",
+			"sources": [
+				"wikipedia-esan"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "edo-esan-west",
+			"presence": "core",
+			"sources": [
+				"wikipedia-esan"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "edo-esan-south-east",
+			"presence": "core",
+			"sources": [
+				"wikipedia-esan"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "edo-iguegben",
+			"presence": "core",
+			"sources": [
+				"wikipedia-esan"
+			],
+			"confidence": "high"
+		}
+	]
+}

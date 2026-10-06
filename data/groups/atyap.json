@@ -1,0 +1,55 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Atyap",
+	"searchAliases": [
+		"Kataf",
+		"Katab",
+		"Tyap",
+		"Zangon Kataf"
+	],
+	"language": {
+		"name": "Tyap",
+		"iso639_3": "kcg",
+		"glottocode": "tyap1238",
+		"family": "plateau",
+		"sources": [
+			"glottolog-atyap"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Atyap (Kataf) of southern Kaduna live mainly in Zangon Kataf, Kaura and Jema’a. Their language, Tyap, is closely related to Jju.",
+		"sources": [
+			"wikipedia-atyap"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "kaduna-zangon-kataf",
+			"presence": "core",
+			"sources": [
+				"wikipedia-atyap"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kaduna-kaura",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-atyap"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "kaduna-jema-a",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-atyap"
+			],
+			"confidence": "medium"
+		}
+	]
+}

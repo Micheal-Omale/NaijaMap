@@ -1,0 +1,129 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [
+		"Ibesikpo Asutan and Ibiono Ibom are not named in the sources found; check them."
+	],
+	"name": "Ibibio",
+	"searchAliases": [
+		"Ibibio",
+		"Ibom",
+		"Uyo"
+	],
+	"language": {
+		"name": "Ibibio",
+		"iso639_3": "ibb",
+		"glottocode": "ibib1240",
+		"family": "lower-cross",
+		"sources": [
+			"glottolog-ibibio"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Ibibio are the largest people of Akwa Ibom State, centred on Uyo. Tradition traces them to the Ibom Kingdom near Arochukwu. Ibibio is mutually intelligible with Annang, Efik, Oron and Ekid.",
+		"sources": [
+			"wikipedia-ibibio",
+			"wikipedia-akwa-ibom"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "akwa-ibom-etinan",
+			"presence": "core",
+			"sources": [
+				"wikipedia-akwa-ibom"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "akwa-ibom-ikono",
+			"presence": "core",
+			"sources": [
+				"wikipedia-akwa-ibom"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "akwa-ibom-ini",
+			"presence": "core",
+			"sources": [
+				"wikipedia-akwa-ibom"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "akwa-ibom-ikot-abasi",
+			"presence": "core",
+			"sources": [
+				"wikipedia-akwa-ibom"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "akwa-ibom-itu",
+			"presence": "core",
+			"sources": [
+				"wikipedia-akwa-ibom"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "akwa-ibom-mkpat-enin",
+			"presence": "core",
+			"sources": [
+				"wikipedia-akwa-ibom"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "akwa-ibom-nsit-atai",
+			"presence": "core",
+			"sources": [
+				"wikipedia-akwa-ibom"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "akwa-ibom-nsit-ubium",
+			"presence": "core",
+			"sources": [
+				"wikipedia-akwa-ibom"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "akwa-ibom-onna",
+			"presence": "core",
+			"sources": [
+				"wikipedia-akwa-ibom"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "akwa-ibom-uruan",
+			"presence": "core",
+			"sources": [
+				"wikipedia-akwa-ibom"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "akwa-ibom-uyo",
+			"presence": "core",
+			"sources": [
+				"wikipedia-akwa-ibom"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "akwa-ibom-nsit-ibom",
+			"presence": "core",
+			"sources": [
+				"wikipedia-ibibio"
+			],
+			"confidence": "medium"
+		}
+	]
+}

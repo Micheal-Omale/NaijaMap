@@ -98,7 +98,8 @@ Draft the 50 largest groups in reviewable batches (for example Hausa, Yoruba, Ig
   - [x] Batch 1: Ebira, Idoma, Nupe (drafted 2026-10-06, awaiting owner review)
   - [x] Batch 2: Bassa, Bassa-Nge, Igede, Gbagyi (drafted 2026-10-06, awaiting owner review); Igala, Ebira, Idoma and Nupe strengthened with Omachonu and Dalhatu (2018)
   - [x] Batch 3: Tiv, Eggon, Mada, Alago, Gwandara (drafted 2026-10-06, awaiting owner review)
-  - [ ] Next batches: Hausa, Yoruba, Igbo, Fulani, Ijaw, Kanuri, Tiv, Ibibio, Edo, Urhobo and the rest
+  - [x] Batch 4: the remaining 37 (Hausa, Fulani, Kanuri, Shuwa Arab, Bura-Pabir, Marghi, Karai-Karai, Bolewa, Bade, Tangale, Zaar, Berom, Ngas, Tarok, Mwaghavul, Jukun, Mumuye, Bachama, Kuteb, Atyap, Bajju, Kilba, Yoruba, Igbo, Ijaw, Ibibio, Annang, Efik, Edo, Esan, Afemai, Urhobo, Isoko, Itsekiri, Ikwerre, Ogoni, Ejagham), drafted 2026-10-06
+  - [ ] Owner review of all 50 drafts (then set status to published)
 
 ### 8. Atlas colours & mixed areas · needs a decision
 The whole country coloured at once. Each language family gets a hue and each group gets a shade, so related groups (like Igala, Yoruba and Itsekiri) look related. Mixed LGAs show their dominant colour with hatching for other groups. A legend explains it all.

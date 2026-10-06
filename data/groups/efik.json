@@ -1,0 +1,106 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Efik",
+	"searchAliases": [
+		"Efik",
+		"Calabar",
+		"Obong",
+		"Akwa Akpa"
+	],
+	"language": {
+		"name": "Efik",
+		"iso639_3": "efi",
+		"glottocode": "efik1245",
+		"family": "lower-cross",
+		"sources": [
+			"glottolog-efik"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Efik built the trading kingdom of Old Calabar (Akwa Akpa). They are centred in Calabar under the Obong of Calabar, and Efik became the written language of much of the region.",
+		"sources": [
+			"wikipedia-obong",
+			"wikipedia-calabar"
+		],
+		"confidence": "high"
+	},
+	"ruler": {
+		"title": "Obong of Calabar",
+		"seat": "cross-river-calabar-municipal",
+		"sources": [
+			"wikipedia-obong"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "cross-river-calabar-municipal",
+			"presence": "core",
+			"sources": [
+				"wikipedia-calabar",
+				"wikipedia-obong"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "cross-river-calabar-south",
+			"presence": "core",
+			"sources": [
+				"wikipedia-calabar",
+				"wikipedia-obong"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "cross-river-akpabuyo",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-calabar"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "cross-river-bakassi",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-calabar"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "cross-river-odukpani",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-calabar"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "akwa-ibom-itu",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-akwa-ibom"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "akwa-ibom-oron",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-akwa-ibom"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "akwa-ibom-uruan",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-akwa-ibom"
+			],
+			"confidence": "high"
+		}
+	]
+}

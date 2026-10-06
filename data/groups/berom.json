@@ -1,0 +1,47 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [
+		"The Berom are widely described as indigenous to Jos North and Jos South too; find an LGA level source."
+	],
+	"name": "Berom",
+	"searchAliases": [
+		"Birom",
+		"Berom"
+	],
+	"language": {
+		"name": "Berom",
+		"iso639_3": "bom",
+		"glottocode": "bero1242",
+		"family": "plateau",
+		"sources": [
+			"glottolog-berom"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Berom live on the Jos Plateau, in Riyom and Barkin Ladi.",
+		"sources": [
+			"omachonu-dalhatu-2018"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "plateau-riyom",
+			"presence": "core",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "plateau-barkin-ladi",
+			"presence": "core",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high"
+		}
+	]
+}

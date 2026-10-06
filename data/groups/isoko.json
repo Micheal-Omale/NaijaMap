@@ -1,0 +1,47 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Isoko",
+	"searchAliases": [
+		"Isoko",
+		"Oleh",
+		"Ozoro"
+	],
+	"language": {
+		"name": "Isoko",
+		"iso639_3": "iso",
+		"glottocode": "isok1239",
+		"family": "edoid",
+		"sources": [
+			"glottolog-isoko"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Isoko of Delta State live in Isoko North (headquarters Ozoro) and Isoko South (headquarters Oleh), in 19 clans. They trace their origins to the Benin Kingdom.",
+		"sources": [
+			"wikipedia-isoko-south",
+			"wikipedia-isoko-north"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "delta-isoko-north",
+			"presence": "core",
+			"sources": [
+				"wikipedia-isoko-north"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "delta-isoko-south",
+			"presence": "core",
+			"sources": [
+				"wikipedia-isoko-south"
+			],
+			"confidence": "high"
+		}
+	]
+}

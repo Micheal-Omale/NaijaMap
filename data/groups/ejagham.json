@@ -1,0 +1,87 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Ejagham",
+	"searchAliases": [
+		"Ekoi",
+		"Ejagham",
+		"Qua",
+		"Bakor"
+	],
+	"language": {
+		"name": "Ejagham",
+		"iso639_3": "etu",
+		"glottocode": "ejag1239",
+		"family": "ekoid",
+		"sources": [
+			"glottolog-ejagham"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Ejagham (Ekoi) live across the Nigeria–Cameroon border, from the Qua of Calabar to Etung and Ikom. Their Ekpe (leopard) society spread through the Cross River region.",
+		"sources": [
+			"wikipedia-ekoi"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "cross-river-etung",
+			"presence": "core",
+			"sources": [
+				"wikipedia-ekoi"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "cross-river-akamkpa",
+			"presence": "core",
+			"sources": [
+				"wikipedia-ekoi"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "cross-river-ikom",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-ekoi"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "cross-river-odukpani",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-ekoi"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "cross-river-calabar-municipal",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-ekoi"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "cross-river-bakassi",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-ekoi"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "cross-river-ogoja",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-ekoi"
+			],
+			"confidence": "medium"
+		}
+	]
+}

@@ -1,0 +1,72 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Tangale",
+	"searchAliases": [
+		"Tangle",
+		"Po Tangle",
+		"Billiri"
+	],
+	"language": {
+		"name": "Tangale",
+		"iso639_3": "tan",
+		"glottocode": "nucl1696",
+		"family": "chadic",
+		"sources": [
+			"glottolog-tangale"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Tangale of southern Gombe State take their name from Tangal, a chief of Billiri. Since 1295 the western Tangale have been led by rulers called the Mai Tangle.",
+		"sources": [
+			"wikipedia-tangale"
+		],
+		"confidence": "medium"
+	},
+	"ruler": {
+		"title": "Mai Tangale",
+		"seat": "gombe-billiri",
+		"sources": [
+			"wikipedia-tangale"
+		],
+		"confidence": "medium"
+	},
+	"areas": [
+		{
+			"lga": "gombe-akko",
+			"presence": "core",
+			"sources": [
+				"wikipedia-tangale",
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "gombe-billiri",
+			"presence": "core",
+			"sources": [
+				"wikipedia-tangale",
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "gombe-kaltungo",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-tangale"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "gombe-shomgom",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-tangale"
+			],
+			"confidence": "medium"
+		}
+	]
+}

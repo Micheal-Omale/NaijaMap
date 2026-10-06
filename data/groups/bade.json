@@ -1,0 +1,85 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Bade",
+	"searchAliases": [
+		"Bade",
+		"Gashua"
+	],
+	"language": {
+		"name": "Bade",
+		"iso639_3": "bde",
+		"glottocode": "bade1248",
+		"family": "chadic",
+		"sources": [
+			"glottolog-bade"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Bade live in north-western Yobe State, around Gashua, and speak a West Chadic language. Bade is one of the dominant languages of Yobe.",
+		"sources": [
+			"udosen-2018"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "yobe-bade",
+			"presence": "core",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "yobe-jakusko",
+			"presence": "core",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "yobe-bursari",
+			"presence": "significant",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "yobe-karasuwa",
+			"presence": "significant",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "yobe-yusufari",
+			"presence": "significant",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "yobe-machina",
+			"presence": "significant",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "yobe-nguru",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		}
+	]
+}

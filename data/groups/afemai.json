@@ -1,0 +1,84 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [
+		"The Owan speak Edoid languages distinct from Yekhee; the profile uses Yekhee for the group."
+	],
+	"name": "Afemai",
+	"searchAliases": [
+		"Afenmai",
+		"Etsako",
+		"Yekhee",
+		"Owan",
+		"Auchi"
+	],
+	"language": {
+		"name": "Yekhee (Etsako)",
+		"iso639_3": "ets",
+		"glottocode": "yekh1238",
+		"family": "edoid",
+		"sources": [
+			"glottolog-afemai"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Afemai (Afenmai) of northern Edo State, including the Etsako and Owan peoples, occupy six LGAs; Auchi is a main centre. Many of their kingdoms trace their founders to Benin.",
+		"sources": [
+			"wikipedia-afemai"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "edo-etsako-west",
+			"presence": "core",
+			"sources": [
+				"wikipedia-afemai"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "edo-etsako-central",
+			"presence": "core",
+			"sources": [
+				"wikipedia-afemai"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "edo-etsako-east",
+			"presence": "core",
+			"sources": [
+				"wikipedia-afemai"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "edo-owan-east",
+			"presence": "core",
+			"sources": [
+				"wikipedia-afemai"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "edo-owan-west",
+			"presence": "core",
+			"sources": [
+				"wikipedia-afemai"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "edo-akoko-edo",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-afemai",
+				"wikipedia-igarra"
+			],
+			"confidence": "medium",
+			"note": "Shared with the Akoko and the Etuno of Igarra."
+		}
+	]
+}

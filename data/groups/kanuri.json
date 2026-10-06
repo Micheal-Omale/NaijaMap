@@ -1,0 +1,376 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Kanuri",
+	"searchAliases": [
+		"Beriberi",
+		"Barebari",
+		"Manga",
+		"Kanembu",
+		"Yerwa"
+	],
+	"language": {
+		"name": "Kanuri",
+		"iso639_3": "knc",
+		"glottocode": "cent2050",
+		"family": "saharan",
+		"sources": [
+			"glottolog-kanuri"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Kanuri were the core people of the Kanem-Bornu Empire, one of Africa’s longest-lasting states. About 3 million Kanuri speakers live in north-eastern Nigeria, plus about 200,000 who speak the Manga dialect. The Shehu of Borno, at Maiduguri, heads their traditional state.",
+		"sources": [
+			"wikipedia-kanuri-people",
+			"udosen-2018"
+		],
+		"confidence": "high"
+	},
+	"ruler": {
+		"title": "Shehu of Borno",
+		"seat": "borno-maiduguri",
+		"sources": [
+			"wikipedia-kanuri-people"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "borno-bama",
+			"presence": "core",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "borno-dikwa",
+			"presence": "core",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "borno-kaga",
+			"presence": "core",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "borno-konduga",
+			"presence": "core",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "borno-kukawa",
+			"presence": "core",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "borno-mafa",
+			"presence": "core",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "borno-maiduguri",
+			"presence": "core",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "borno-marte",
+			"presence": "core",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "borno-mobbar",
+			"presence": "core",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "borno-monguno",
+			"presence": "core",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "borno-nganzai",
+			"presence": "core",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "borno-guzamala",
+			"presence": "core",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "borno-gubio",
+			"presence": "core",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "borno-magumeri",
+			"presence": "significant",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "borno-jere",
+			"presence": "significant",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "borno-ngala",
+			"presence": "significant",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "borno-kala-balge",
+			"presence": "significant",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "borno-abadam",
+			"presence": "significant",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "borno-chibok",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "borno-gwoza",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "yobe-damaturu",
+			"presence": "core",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high",
+			"note": "Including Manga, a Kanuri dialect."
+		},
+		{
+			"lga": "yobe-bursari",
+			"presence": "core",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high",
+			"note": "Including Manga, a Kanuri dialect."
+		},
+		{
+			"lga": "yobe-geidam",
+			"presence": "core",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high",
+			"note": "Including Manga, a Kanuri dialect."
+		},
+		{
+			"lga": "yobe-gujba",
+			"presence": "core",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high",
+			"note": "Including Manga, a Kanuri dialect."
+		},
+		{
+			"lga": "yobe-yunusari",
+			"presence": "core",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high",
+			"note": "Including Manga, a Kanuri dialect."
+		},
+		{
+			"lga": "yobe-nguru",
+			"presence": "core",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high",
+			"note": "Including Manga, a Kanuri dialect."
+		},
+		{
+			"lga": "yobe-bade",
+			"presence": "significant",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "yobe-jakusko",
+			"presence": "significant",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "yobe-karasuwa",
+			"presence": "significant",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "yobe-yusufari",
+			"presence": "significant",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "yobe-machina",
+			"presence": "significant",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "yobe-gulani",
+			"presence": "significant",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "yobe-tarmuwa",
+			"presence": "significant",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "yobe-fune",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "yobe-potiskum",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "jigawa-biriniwa",
+			"presence": "significant",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "jigawa-guri",
+			"presence": "significant",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "jigawa-kiri-kasama",
+			"presence": "significant",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "bauchi-alkaleri",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "plateau-wase",
+			"presence": "minority",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "nasarawa-lafia",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-lafia"
+			],
+			"confidence": "high",
+			"note": "Among Lafia’s original inhabitants."
+		}
+	]
+}

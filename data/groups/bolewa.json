@@ -1,0 +1,95 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Bolewa",
+	"searchAliases": [
+		"Bole",
+		"Bolanci",
+		"Fika"
+	],
+	"language": {
+		"name": "Bole",
+		"iso639_3": "bol",
+		"glottocode": "nucl1695",
+		"family": "chadic",
+		"sources": [
+			"glottolog-bolewa"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Bolewa live in northern Gombe and southern Yobe, historically along the Gongola River. Their kings were called Mai; Fika in Yobe is a Bolewa centre.",
+		"sources": [
+			"wikipedia-bolewa",
+			"udosen-2018"
+		],
+		"confidence": "medium"
+	},
+	"areas": [
+		{
+			"lga": "gombe-kwami",
+			"presence": "core",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "gombe-nafada",
+			"presence": "significant",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "gombe-funakaye",
+			"presence": "significant",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "gombe-dukku",
+			"presence": "significant",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "yobe-fika",
+			"presence": "core",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "yobe-potiskum",
+			"presence": "significant",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "yobe-nangere",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "yobe-gulani",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		}
+	]
+}

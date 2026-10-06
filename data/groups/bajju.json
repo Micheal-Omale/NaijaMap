@@ -1,0 +1,63 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Bajju",
+	"searchAliases": [
+		"Kaje",
+		"Kaje",
+		"Jju",
+		"Bajju"
+	],
+	"language": {
+		"name": "Jju",
+		"iso639_3": "kaj",
+		"glottocode": "jjuu1238",
+		"family": "plateau",
+		"sources": [
+			"glottolog-bajju"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Bajju of southern Kaduna speak Jju, a Plateau language close to Tyap, and live chiefly in Kachia, Zangon Kataf, Jema’a and Kaduna South.",
+		"sources": [
+			"wikipedia-bajju"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "kaduna-kachia",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-bajju"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "kaduna-zangon-kataf",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-bajju"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "kaduna-jema-a",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-bajju"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "kaduna-kaduna-south",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-bajju"
+			],
+			"confidence": "medium"
+		}
+	]
+}

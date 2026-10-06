@@ -1,0 +1,122 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [
+		"The Marghi article names \"Mubi\" without saying North or South; both are marked."
+	],
+	"name": "Marghi",
+	"searchAliases": [
+		"Margi",
+		"Marghi"
+	],
+	"language": {
+		"name": "Marghi",
+		"iso639_3": "mrt",
+		"glottocode": "marg1265",
+		"family": "chadic",
+		"sources": [
+			"glottolog-marghi"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Marghi, about 360,000 people, live in southern Borno and northern Adamawa and speak a Chadic language of the Biu-Mandara branch.",
+		"sources": [
+			"wikipedia-marghi"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "borno-askira-uba",
+			"presence": "core",
+			"sources": [
+				"udosen-2018",
+				"wikipedia-marghi"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "borno-damboa",
+			"presence": "significant",
+			"sources": [
+				"udosen-2018",
+				"wikipedia-marghi"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "borno-konduga",
+			"presence": "significant",
+			"sources": [
+				"udosen-2018",
+				"wikipedia-marghi"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "borno-chibok",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "borno-maiduguri",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "borno-jere",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "adamawa-madagali",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-marghi"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "adamawa-mubi-north",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-marghi"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "adamawa-mubi-south",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-marghi"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "adamawa-hong",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-marghi"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "adamawa-gombi",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-marghi"
+			],
+			"confidence": "medium"
+		}
+	]
+}

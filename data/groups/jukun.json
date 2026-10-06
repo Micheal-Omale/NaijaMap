@@ -1,0 +1,133 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Jukun",
+	"searchAliases": [
+		"Wapa",
+		"Wapan",
+		"Kwararafa",
+		"Aku Uka",
+		"Jukun Wukari"
+	],
+	"language": {
+		"name": "Jukun (Wapan)",
+		"iso639_3": "juk",
+		"glottocode": "wapa1235",
+		"family": "jukunoid",
+		"sources": [
+			"glottolog-jukun"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Jukun are the heirs of Kwararafa, the Benue valley confederacy that once rivalled Kano and Bornu. The Wukari Federation, headed by the Aku Uka, is now their main centre; the Jukun of Wukari, Ibi and Wase call themselves Wapa.",
+		"sources": [
+			"wikipedia-jukun"
+		],
+		"confidence": "high"
+	},
+	"ruler": {
+		"title": "Aku Uka of Wukari",
+		"seat": "taraba-wukari",
+		"sources": [
+			"wikipedia-jukun"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "taraba-wukari",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-jukun",
+				"wikipedia-wukari"
+			],
+			"confidence": "high",
+			"note": "Tiv and Wapan (Jukun) are Wukari’s main indigenous languages."
+		},
+		{
+			"lga": "taraba-ibi",
+			"presence": "core",
+			"sources": [
+				"wikipedia-jukun"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "taraba-takum",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-jukun",
+				"wikipedia-takum"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "taraba-donga",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-jukun",
+				"wikipedia-takum"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "plateau-wase",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-jukun",
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "gombe-akko",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "gombe-shomgom",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "nasarawa-awe",
+			"presence": "minority",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "nasarawa-obi",
+			"presence": "minority",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "benue-makurdi",
+			"presence": "minority",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "benue-guma",
+			"presence": "minority",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high"
+		}
+	]
+}

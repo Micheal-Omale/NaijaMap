@@ -1,0 +1,1313 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [
+		"Ese Odo (Ondo) is left out: it is Ijaw. Badagry and the Yewa area (Lagos, Ogun) have Egun (Gun) communities not yet mapped.",
+		"No single paramount ruler: the Ooni of Ife and the Alaafin of Oyo are among the leading kings."
+	],
+	"name": "Yoruba",
+	"searchAliases": [
+		"Yorùbá",
+		"Yariba",
+		"Okun",
+		"Oworo",
+		"Egba",
+		"Ijebu",
+		"Ekiti",
+		"Ijesa",
+		"Oyo",
+		"Ilaje"
+	],
+	"language": {
+		"name": "Yoruba",
+		"iso639_3": "yor",
+		"glottocode": "yoru1245",
+		"family": "yoruboid",
+		"sources": [
+			"glottolog-yoruba"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Yoruba are the main people of south-western Nigeria. Yorubaland in Nigeria covers Oyo, Osun, Ogun, Ondo, Ekiti and Lagos, most of Kwara and western Kogi. Ife and Oyo were their great historic centres; Yoruba is close kin to Igala and Itsekiri.",
+		"sources": [
+			"wikipedia-yorubaland",
+			"wikipedia-yoruba-people",
+			"omachonu-dalhatu-2018"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "lagos-agege",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "lagos-ajeromi-ifelodun",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "lagos-alimosho",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "lagos-amuwo-odofin",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "lagos-apapa",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "lagos-badagry",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "lagos-epe",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "lagos-eti-osa",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "lagos-ibeju-lekki",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "lagos-ifako-ijaye",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "lagos-ikeja",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "lagos-ikorodu",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "lagos-kosofe",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "lagos-lagos-island",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "lagos-lagos-mainland",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "lagos-mushin",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "lagos-ojo",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "lagos-oshodi-isolo",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "lagos-shomolu",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "lagos-surulere",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "ogun-abeokuta-north",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "ogun-abeokuta-south",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "ogun-ado-odo-ota",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "ogun-ewekoro",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "ogun-ifo",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "ogun-ijebu-east",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "ogun-ijebu-north",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "ogun-ijebu-north-east",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "ogun-ijebu-ode",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "ogun-ikenne",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "ogun-imeko-afon",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "ogun-ipokia",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "ogun-obafemi-owode",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "ogun-odeda",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "ogun-odogbolu",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "ogun-ogun-waterside",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "ogun-remo-north",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "ogun-shagamu",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "ogun-yewa-north",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "ogun-yewa-south",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "oyo-afijio",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "oyo-akinyele",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "oyo-atiba",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "oyo-atisbo",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "oyo-egbeda",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "oyo-ibadan-north",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "oyo-ibadan-north-east",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "oyo-ibadan-north-west",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "oyo-ibadan-south-east",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "oyo-ibadan-south-west",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "oyo-ibarapa-central",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "oyo-ibarapa-east",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "oyo-ibarapa-north",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "oyo-ido",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "oyo-irepo",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "oyo-iseyin",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "oyo-itesiwaju",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "oyo-iwajowa",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "oyo-kajola",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "oyo-lagelu",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "oyo-ogbomosho-north",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "oyo-ogbomosho-south",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "oyo-ogo-oluwa",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "oyo-olorunsogo",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "oyo-oluyole",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "oyo-ona-ara",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "oyo-orelope",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "oyo-ori-ire",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "oyo-oyo-east",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "oyo-oyo-west",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "oyo-saki-east",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "oyo-saki-west",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "oyo-surulere",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "osun-atakunmosa-east",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "osun-atakunmosa-west",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "osun-ayedade",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "osun-ayedire",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "osun-boluwaduro",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "osun-boripe",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "osun-ede-north",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "osun-ede-south",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "osun-egbedore",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "osun-ejigbo",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "osun-ife-central",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "osun-ife-east",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "osun-ife-north",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "osun-ife-south",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "osun-ifedayo",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "osun-ifelodun",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "osun-ila",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "osun-ilesha-east",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "osun-ilesha-west",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "osun-irepodun",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "osun-irewole",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "osun-isokan",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "osun-iwo",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "osun-obokun",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "osun-odo-otin",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "osun-ola-oluwa",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "osun-olorunda",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "osun-oriade",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "osun-orolu",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "osun-osogbo",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "ekiti-ado-ekiti",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "ekiti-efon",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "ekiti-ekiti-east",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "ekiti-ekiti-south-west",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "ekiti-ekiti-west",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "ekiti-emure",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "ekiti-gbonyin",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "ekiti-ido-osi",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "ekiti-ijero",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "ekiti-ikere",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "ekiti-ikole",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "ekiti-ilejemeje",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "ekiti-irepodun-ifelodun",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "ekiti-ise-orun",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "ekiti-moba",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "ekiti-oye",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "ondo-akoko-north-east",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "ondo-akoko-north-west",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "ondo-akoko-south-east",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "ondo-akoko-south-west",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "ondo-akure-north",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "ondo-akure-south",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "ondo-idanre",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "ondo-ifedore",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "ondo-ilaje",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "ondo-ile-oluji-okeigbo",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "ondo-irele",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "ondo-odigbo",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "ondo-okitipupa",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "ondo-ondo-east",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "ondo-ondo-west",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "ondo-ose",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "ondo-owo",
+			"presence": "core",
+			"sources": [
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kwara-ifelodun",
+			"presence": "core",
+			"sources": [
+				"omachonu-dalhatu-2018",
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kwara-moro",
+			"presence": "core",
+			"sources": [
+				"omachonu-dalhatu-2018",
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kwara-ilorin-south",
+			"presence": "core",
+			"sources": [
+				"omachonu-dalhatu-2018",
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kwara-ilorin-east",
+			"presence": "core",
+			"sources": [
+				"omachonu-dalhatu-2018",
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kwara-ilorin-west",
+			"presence": "core",
+			"sources": [
+				"omachonu-dalhatu-2018",
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kwara-asa",
+			"presence": "core",
+			"sources": [
+				"omachonu-dalhatu-2018",
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kwara-offa",
+			"presence": "core",
+			"sources": [
+				"omachonu-dalhatu-2018",
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kwara-oyun",
+			"presence": "core",
+			"sources": [
+				"omachonu-dalhatu-2018",
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kwara-irepodun",
+			"presence": "core",
+			"sources": [
+				"omachonu-dalhatu-2018",
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kwara-isin",
+			"presence": "core",
+			"sources": [
+				"omachonu-dalhatu-2018",
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kwara-oke-ero",
+			"presence": "core",
+			"sources": [
+				"omachonu-dalhatu-2018",
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kwara-ekiti",
+			"presence": "core",
+			"sources": [
+				"omachonu-dalhatu-2018",
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "kogi-yagba-east",
+			"presence": "core",
+			"sources": [
+				"omachonu-dalhatu-2018",
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high",
+			"note": "Okun Yoruba."
+		},
+		{
+			"lga": "kogi-yagba-west",
+			"presence": "core",
+			"sources": [
+				"omachonu-dalhatu-2018",
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high",
+			"note": "Okun Yoruba."
+		},
+		{
+			"lga": "kogi-mopa-muro",
+			"presence": "core",
+			"sources": [
+				"omachonu-dalhatu-2018",
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high",
+			"note": "Okun Yoruba."
+		},
+		{
+			"lga": "kogi-ijumu",
+			"presence": "core",
+			"sources": [
+				"omachonu-dalhatu-2018",
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high",
+			"note": "Okun Yoruba."
+		},
+		{
+			"lga": "kogi-kabba-bunu",
+			"presence": "core",
+			"sources": [
+				"omachonu-dalhatu-2018",
+				"wikipedia-yorubaland"
+			],
+			"confidence": "high",
+			"note": "Okun Yoruba."
+		},
+		{
+			"lga": "kogi-lokoja",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-lokoja"
+			],
+			"confidence": "high",
+			"note": "The Oworo, a Yoruba people, are among the indigenous peoples of Lokoja."
+		},
+		{
+			"lga": "kogi-kogi",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-koton-karfe"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "niger-mokwa",
+			"presence": "minority",
+			"sources": [
+				"soluap-2025-niger"
+			],
+			"confidence": "medium"
+		}
+	]
+}

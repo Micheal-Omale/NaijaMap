@@ -1,0 +1,46 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Mwaghavul",
+	"searchAliases": [
+		"Sura",
+		"Mupun",
+		"Mwaghavul"
+	],
+	"language": {
+		"name": "Mwaghavul",
+		"iso639_3": "sur",
+		"glottocode": "mwag1236",
+		"family": "chadic",
+		"sources": [
+			"glottolog-mwaghavul"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Mwaghavul live in Mangu and Pankshin on the Plateau and speak a West Chadic language.",
+		"sources": [
+			"omachonu-dalhatu-2018"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "plateau-mangu",
+			"presence": "core",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "plateau-pankshin",
+			"presence": "significant",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high"
+		}
+	]
+}

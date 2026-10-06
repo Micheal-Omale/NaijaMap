@@ -1,0 +1,2305 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [
+		"Fulani pastoralists live in almost every state; only areas named in sources are mapped.",
+		"Adamawa beyond Yola, Taraba and Niger State need LGA level sources."
+	],
+	"name": "Fulani",
+	"searchAliases": [
+		"Fula",
+		"Fulbe",
+		"Peul",
+		"Fulfulde",
+		"Filani",
+		"Bororo"
+	],
+	"language": {
+		"name": "Fulfulde",
+		"iso639_3": "fuv",
+		"glottocode": "nige1253",
+		"family": "atlantic",
+		"sources": [
+			"glottolog-fulani"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Fulani (Fulbe) live across West Africa; in Nigeria they founded the Sokoto Caliphate and its emirates, including Adamawa, Gombe and Bauchi. Fulfulde is spoken in every LGA of the North West and is the main language of most of Gombe. Many Fulani are settled townspeople and farmers; others are pastoralists who move with their herds.",
+		"sources": [
+			"wikipedia-fula-people",
+			"amfani-2018",
+			"udosen-2018"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "jigawa-auyo",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "jigawa-babura",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "jigawa-biriniwa",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "jigawa-birnin-kudu",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "jigawa-buji",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "jigawa-dutse",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "jigawa-gagarawa",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "jigawa-garki",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "jigawa-gumel",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "jigawa-guri",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "jigawa-gwaram",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "jigawa-gwiwa",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "jigawa-hadejia",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "jigawa-jahun",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "jigawa-kafin-hausa",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "jigawa-kaugama",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "jigawa-kazaure",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "jigawa-kiri-kasama",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "jigawa-kiyawa",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "jigawa-maigatari",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "jigawa-malam-madori",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "jigawa-miga",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "jigawa-ringim",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "jigawa-roni",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "jigawa-sule-tankarkar",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "jigawa-taura",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "jigawa-yankwashi",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kano-ajingi",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kano-albasu",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kano-bagwai",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kano-bebeji",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kano-bichi",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kano-bunkure",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kano-dala",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kano-dambatta",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kano-dawakin-kudu",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kano-dawakin-tofa",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kano-doguwa",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kano-fagge",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kano-gabasawa",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kano-garko",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kano-garun-malam",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kano-gaya",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kano-gezawa",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kano-gwale",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kano-gwarzo",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kano-kabo",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kano-kano-municipal",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kano-karaye",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kano-kibiya",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kano-kiru",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kano-kumbotso",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kano-kunchi",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kano-kura",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kano-madobi",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kano-makoda",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kano-minjibir",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kano-nassarawa",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kano-rano",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kano-rimin-gado",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kano-rogo",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kano-shanono",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kano-sumaila",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kano-takai",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kano-tarauni",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kano-tofa",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kano-tsanyawa",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kano-tudun-wada",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kano-ungogo",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kano-warawa",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kano-wudil",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "katsina-bakori",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "katsina-batagarawa",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "katsina-batsari",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "katsina-baure",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "katsina-bindawa",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "katsina-charanchi",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "katsina-dan-musa",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "katsina-dandume",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "katsina-danja",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "katsina-daura",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "katsina-dutsi",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "katsina-dutsin-ma",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "katsina-faskari",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "katsina-funtua",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "katsina-ingawa",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "katsina-jibia",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "katsina-kafur",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "katsina-kaita",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "katsina-kankara",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "katsina-kankia",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "katsina-katsina",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "katsina-kurfi",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "katsina-kusada",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "katsina-mai-adua",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "katsina-malumfashi",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "katsina-mani",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "katsina-mashi",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "katsina-matazu",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "katsina-musawa",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "katsina-rimi",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "katsina-sabuwa",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "katsina-safana",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "katsina-sandamu",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "katsina-zango",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kebbi-aleiro",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kebbi-arewa-dandi",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kebbi-argungu",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kebbi-augie",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kebbi-bagudu",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kebbi-birnin-kebbi",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kebbi-bunza",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kebbi-dandi",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kebbi-fakai",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kebbi-gwandu",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kebbi-jega",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kebbi-kalgo",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kebbi-koko-besse",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kebbi-maiyama",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kebbi-ngaski",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kebbi-sakaba",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kebbi-shanga",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kebbi-suru",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kebbi-wasagu-danko",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kebbi-yauri",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kebbi-zuru",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "sokoto-binji",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "sokoto-bodinga",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "sokoto-dange-shuni",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "sokoto-gada",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "sokoto-goronyo",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "sokoto-gudu",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "sokoto-gwadabawa",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "sokoto-illela",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "sokoto-isa",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "sokoto-kebbe",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "sokoto-kware",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "sokoto-rabah",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "sokoto-sabon-birni",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "sokoto-shagari",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "sokoto-silame",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "sokoto-sokoto-north",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "sokoto-sokoto-south",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "sokoto-tambuwal",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "sokoto-tangaza",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "sokoto-tureta",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "sokoto-wamakko",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "sokoto-wurno",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "sokoto-yabo",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "zamfara-anka",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "zamfara-bakura",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "zamfara-birnin-magaji-kiyaw",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "zamfara-bukkuyum",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "zamfara-bungudu",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "zamfara-gummi",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "zamfara-gusau",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "zamfara-kaura-namoda",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "zamfara-maradun",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "zamfara-maru",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "zamfara-shinkafi",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "zamfara-talata-mafara",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "zamfara-tsafe",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "zamfara-zurmi",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kaduna-birnin-gwari",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kaduna-chikun",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kaduna-giwa",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kaduna-igabi",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kaduna-ikara",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kaduna-jaba",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kaduna-jema-a",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kaduna-kachia",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kaduna-kaduna-north",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kaduna-kaduna-south",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kaduna-kagarko",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kaduna-kajuru",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kaduna-kaura",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kaduna-kauru",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kaduna-kubau",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kaduna-kudan",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kaduna-lere",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kaduna-makarfi",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kaduna-sabon-gari",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kaduna-sanga",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kaduna-soba",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kaduna-zangon-kataf",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "kaduna-zaria",
+			"presence": "minority",
+			"sources": [
+				"amfani-2018"
+			],
+			"confidence": "medium",
+			"note": "Fulfulde is spoken in every LGA of the North West; the Hausa are the majority."
+		},
+		{
+			"lga": "gombe-billiri",
+			"presence": "core",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "gombe-nafada",
+			"presence": "core",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "gombe-funakaye",
+			"presence": "core",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "gombe-dukku",
+			"presence": "core",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "gombe-kaltungo",
+			"presence": "core",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "gombe-shomgom",
+			"presence": "core",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "gombe-kwami",
+			"presence": "significant",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "gombe-yamaltu-deba",
+			"presence": "significant",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "gombe-akko",
+			"presence": "significant",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "gombe-balanga",
+			"presence": "significant",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "gombe-gombe",
+			"presence": "significant",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "bauchi-alkaleri",
+			"presence": "significant",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "medium",
+			"note": "Bauchi is described as predominantly Hausa-Fulani."
+		},
+		{
+			"lga": "bauchi-bauchi",
+			"presence": "significant",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "medium",
+			"note": "Bauchi is described as predominantly Hausa-Fulani."
+		},
+		{
+			"lga": "bauchi-darazo",
+			"presence": "significant",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "medium",
+			"note": "Bauchi is described as predominantly Hausa-Fulani."
+		},
+		{
+			"lga": "bauchi-dass",
+			"presence": "significant",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "medium",
+			"note": "Bauchi is described as predominantly Hausa-Fulani."
+		},
+		{
+			"lga": "bauchi-itas-gadau",
+			"presence": "significant",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "medium",
+			"note": "Bauchi is described as predominantly Hausa-Fulani."
+		},
+		{
+			"lga": "bauchi-jama-are",
+			"presence": "significant",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "medium",
+			"note": "Bauchi is described as predominantly Hausa-Fulani."
+		},
+		{
+			"lga": "bauchi-katagum",
+			"presence": "significant",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "medium",
+			"note": "Bauchi is described as predominantly Hausa-Fulani."
+		},
+		{
+			"lga": "bauchi-ningi",
+			"presence": "significant",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "medium",
+			"note": "Bauchi is described as predominantly Hausa-Fulani."
+		},
+		{
+			"lga": "bauchi-misau",
+			"presence": "significant",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "medium",
+			"note": "Bauchi is described as predominantly Hausa-Fulani."
+		},
+		{
+			"lga": "bauchi-shira",
+			"presence": "significant",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "medium",
+			"note": "Bauchi is described as predominantly Hausa-Fulani."
+		},
+		{
+			"lga": "bauchi-zaki",
+			"presence": "significant",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "medium",
+			"note": "Bauchi is described as predominantly Hausa-Fulani."
+		},
+		{
+			"lga": "bauchi-dambam",
+			"presence": "significant",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "medium",
+			"note": "Bauchi is described as predominantly Hausa-Fulani."
+		},
+		{
+			"lga": "bauchi-kirfi",
+			"presence": "significant",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "medium",
+			"note": "Bauchi is described as predominantly Hausa-Fulani."
+		},
+		{
+			"lga": "bauchi-giade",
+			"presence": "significant",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "medium",
+			"note": "Bauchi is described as predominantly Hausa-Fulani."
+		},
+		{
+			"lga": "bauchi-ganjuwa",
+			"presence": "significant",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "medium",
+			"note": "Bauchi is described as predominantly Hausa-Fulani."
+		},
+		{
+			"lga": "bauchi-gamawa",
+			"presence": "significant",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "medium",
+			"note": "Bauchi is described as predominantly Hausa-Fulani."
+		},
+		{
+			"lga": "bauchi-tafawa-balewa",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "borno-askira-uba",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "borno-bama",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "borno-biu",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "borno-damboa",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "borno-dikwa",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "borno-gubio",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "borno-gwoza",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "borno-hawul",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "borno-konduga",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "borno-kukawa",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "borno-kwaya-kusar",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "borno-bayo",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "borno-maiduguri",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "borno-jere",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "borno-marte",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "borno-abadam",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "borno-monguno",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "borno-shani",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "yobe-tarmuwa",
+			"presence": "significant",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "yobe-fune",
+			"presence": "significant",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "yobe-bade",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "yobe-jakusko",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "yobe-damaturu",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "yobe-bursari",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "yobe-fika",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "yobe-geidam",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "yobe-gujba",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "yobe-gulani",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "yobe-karasuwa",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "yobe-yusufari",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "yobe-machina",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "yobe-nangere",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "yobe-potiskum",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "yobe-yunusari",
+			"presence": "minority",
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "adamawa-yola-north",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-fula-people",
+				"wikipedia-adamawa-state"
+			],
+			"confidence": "medium",
+			"note": "Yola is the seat of the Lamido of Adamawa, the Fulani emir."
+		},
+		{
+			"lga": "adamawa-yola-south",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-fula-people",
+				"wikipedia-adamawa-state"
+			],
+			"confidence": "medium",
+			"note": "Yola is the seat of the Lamido of Adamawa, the Fulani emir."
+		},
+		{
+			"lga": "nasarawa-lafia",
+			"presence": "minority",
+			"sources": [
+				"omachonu-dalhatu-2018",
+				"wikipedia-lafia"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "nasarawa-keffi",
+			"presence": "minority",
+			"sources": [
+				"omachonu-dalhatu-2018",
+				"wikipedia-lafia"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "nasarawa-kokona",
+			"presence": "minority",
+			"sources": [
+				"omachonu-dalhatu-2018",
+				"wikipedia-lafia"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "nasarawa-nasarawa",
+			"presence": "minority",
+			"sources": [
+				"omachonu-dalhatu-2018",
+				"wikipedia-lafia"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "nasarawa-toto",
+			"presence": "minority",
+			"sources": [
+				"omachonu-dalhatu-2018",
+				"wikipedia-lafia"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "plateau-wase",
+			"presence": "minority",
+			"sources": [
+				"omachonu-dalhatu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "taraba-donga",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-donga"
+			],
+			"confidence": "high"
+		}
+	]
+}

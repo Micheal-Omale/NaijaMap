@@ -1,0 +1,103 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Edo",
+	"searchAliases": [
+		"Bini",
+		"Benin",
+		"Edo",
+		"Oba of Benin"
+	],
+	"language": {
+		"name": "Edo (Bini)",
+		"iso639_3": "bin",
+		"glottocode": "bini1246",
+		"family": "edoid",
+		"sources": [
+			"glottolog-edo"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Edo (Bini) are the people of the Benin Kingdom, founded by the Ogiso and later ruled by the Obas. They are native to the seven LGAs of Edo South; many Edoid peoples trace their origins to Benin.",
+		"sources": [
+			"wikipedia-edo-people"
+		],
+		"confidence": "high"
+	},
+	"ruler": {
+		"title": "Oba of Benin",
+		"seat": "edo-oredo",
+		"sources": [
+			"wikipedia-edo-people"
+		],
+		"confidence": "medium",
+		"note": "Benin City is in Oredo LGA."
+	},
+	"areas": [
+		{
+			"lga": "edo-oredo",
+			"presence": "core",
+			"sources": [
+				"wikipedia-edo-people"
+			],
+			"confidence": "medium",
+			"note": "Edo South senatorial district."
+		},
+		{
+			"lga": "edo-egor",
+			"presence": "core",
+			"sources": [
+				"wikipedia-edo-people"
+			],
+			"confidence": "medium",
+			"note": "Edo South senatorial district."
+		},
+		{
+			"lga": "edo-ikpoba-okha",
+			"presence": "core",
+			"sources": [
+				"wikipedia-edo-people"
+			],
+			"confidence": "medium",
+			"note": "Edo South senatorial district."
+		},
+		{
+			"lga": "edo-orhionmwon",
+			"presence": "core",
+			"sources": [
+				"wikipedia-edo-people"
+			],
+			"confidence": "medium",
+			"note": "Edo South senatorial district."
+		},
+		{
+			"lga": "edo-ovia-north-east",
+			"presence": "core",
+			"sources": [
+				"wikipedia-edo-people"
+			],
+			"confidence": "medium",
+			"note": "Edo South senatorial district."
+		},
+		{
+			"lga": "edo-ovia-south-west",
+			"presence": "core",
+			"sources": [
+				"wikipedia-edo-people"
+			],
+			"confidence": "medium",
+			"note": "Edo South senatorial district."
+		},
+		{
+			"lga": "edo-uhunmwonde",
+			"presence": "core",
+			"sources": [
+				"wikipedia-edo-people"
+			],
+			"confidence": "medium",
+			"note": "Edo South senatorial district."
+		}
+	]
+}

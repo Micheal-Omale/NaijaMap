@@ -1,0 +1,74 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Itsekiri",
+	"searchAliases": [
+		"Itsekiri",
+		"Iwere",
+		"Warri",
+		"Olu of Warri"
+	],
+	"language": {
+		"name": "Itsekiri",
+		"iso639_3": "its",
+		"glottocode": "isek1239",
+		"family": "yoruboid",
+		"sources": [
+			"glottolog-itsekiri"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Itsekiri of western Delta State built the Kingdom of Warri (Iwere) under the Olu of Warri, trading with the Portuguese from the 16th century. Their language is close to the Yoruba of the Ilaje.",
+		"sources": [
+			"wikipedia-itsekiri"
+		],
+		"confidence": "high"
+	},
+	"ruler": {
+		"title": "Olu of Warri",
+		"sources": [
+			"wikipedia-itsekiri"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "delta-warri-north",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-itsekiri"
+			],
+			"confidence": "high",
+			"note": "The Itsekiri homeland, shared with Ijaw and Urhobo communities."
+		},
+		{
+			"lga": "delta-warri-south",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-itsekiri"
+			],
+			"confidence": "high",
+			"note": "The Itsekiri homeland, shared with Ijaw and Urhobo communities."
+		},
+		{
+			"lga": "delta-warri-south-west",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-itsekiri"
+			],
+			"confidence": "high",
+			"note": "The Itsekiri homeland, shared with Ijaw and Urhobo communities."
+		},
+		{
+			"lga": "delta-sapele",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-itsekiri"
+			],
+			"confidence": "high",
+			"note": "Sapele has a large Itsekiri population."
+		}
+	]
+}

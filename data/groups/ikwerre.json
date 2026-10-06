@@ -1,0 +1,63 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Ikwerre",
+	"searchAliases": [
+		"Ikwere",
+		"Iwhuruohna",
+		"Port Harcourt"
+	],
+	"language": {
+		"name": "Ikwere",
+		"iso639_3": "ikw",
+		"glottocode": "ikwe1242",
+		"family": "igboid",
+		"sources": [
+			"glottolog-ikwerre"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Ikwerre (Iwhuruọhna) of Rivers State live in Ikwerre, Emohua, Obio-Akpor and Port Harcourt LGAs; Port Harcourt was built on Ikwerre land.",
+		"sources": [
+			"wikipedia-ikwerre"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "rivers-ikwerre",
+			"presence": "core",
+			"sources": [
+				"wikipedia-ikwerre"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "rivers-emuoha",
+			"presence": "core",
+			"sources": [
+				"wikipedia-ikwerre"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "rivers-obio-akpor",
+			"presence": "core",
+			"sources": [
+				"wikipedia-ikwerre"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "rivers-port-harcourt",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-ikwerre"
+			],
+			"confidence": "high",
+			"note": "The state capital, home to people from across Nigeria."
+		}
+	]
+}

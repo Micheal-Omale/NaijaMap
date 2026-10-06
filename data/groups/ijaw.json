@@ -1,0 +1,201 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [
+		"Ogbia (Bayelsa), Andoni, Opobo-Nkoro and Ogu-Bolo (Rivers) and the Ijaw of Edo State are not yet mapped.",
+		"There is no single Ijaw ruler; the eastern kingdoms (for example the Amanyanabo of Kalabari at Buguma) each have their own."
+	],
+	"name": "Ijaw",
+	"searchAliases": [
+		"Izon",
+		"Ijo",
+		"Ijaw",
+		"Kalabari",
+		"Okrika",
+		"Nembe",
+		"Bonny",
+		"Ibani",
+		"Arogbo",
+		"Apoi"
+	],
+	"language": {
+		"name": "Izon (Ijaw)",
+		"iso639_3": "ijc",
+		"glottocode": "izon1238",
+		"family": "ijoid",
+		"sources": [
+			"glottolog-ijaw",
+			"wikipedia-ijaw"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Ijaw (Izon) are the people of the Niger Delta’s creeks and coast, over 4 million strong. Western clans such as Ekeremor, Sagbama, Kolokuma-Opokuma and Arogbo had no central kings; the eastern city-states, Kalabari, Okrika, Bonny and Nembe, had powerful kings and grew rich on the Atlantic trade.",
+		"sources": [
+			"wikipedia-ijaw"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "bayelsa-ekeremor",
+			"presence": "core",
+			"sources": [
+				"wikipedia-ijaw",
+				"wikipedia-bayelsa"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "bayelsa-sagbama",
+			"presence": "core",
+			"sources": [
+				"wikipedia-ijaw",
+				"wikipedia-bayelsa"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "bayelsa-kolokuma-opokuma",
+			"presence": "core",
+			"sources": [
+				"wikipedia-ijaw",
+				"wikipedia-bayelsa"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "bayelsa-southern-ijaw",
+			"presence": "core",
+			"sources": [
+				"wikipedia-ijaw",
+				"wikipedia-bayelsa"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "bayelsa-brass",
+			"presence": "core",
+			"sources": [
+				"wikipedia-ijaw",
+				"wikipedia-bayelsa"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "bayelsa-nembe",
+			"presence": "core",
+			"sources": [
+				"wikipedia-ijaw",
+				"wikipedia-bayelsa"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "bayelsa-yenegoa",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-bayelsa"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "delta-bomadi",
+			"presence": "core",
+			"sources": [
+				"wikipedia-bomadi"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "delta-burutu",
+			"presence": "core",
+			"sources": [
+				"wikipedia-burutu"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "delta-warri-south-west",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-itsekiri"
+			],
+			"confidence": "high",
+			"note": "Shared with the Itsekiri."
+		},
+		{
+			"lga": "delta-warri-north",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-itsekiri"
+			],
+			"confidence": "high",
+			"note": "Shared with the Itsekiri."
+		},
+		{
+			"lga": "delta-patani",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-urhobo"
+			],
+			"confidence": "medium",
+			"note": "Shared with Urhobo communities."
+		},
+		{
+			"lga": "rivers-asari-toru",
+			"presence": "core",
+			"sources": [
+				"wikipedia-asari-toru",
+				"wikipedia-kalabari"
+			],
+			"confidence": "high",
+			"note": "The Kalabari kingdom."
+		},
+		{
+			"lga": "rivers-akuku-toru",
+			"presence": "core",
+			"sources": [
+				"wikipedia-asari-toru",
+				"wikipedia-kalabari"
+			],
+			"confidence": "high",
+			"note": "The Kalabari kingdom."
+		},
+		{
+			"lga": "rivers-degema",
+			"presence": "core",
+			"sources": [
+				"wikipedia-asari-toru",
+				"wikipedia-kalabari"
+			],
+			"confidence": "high",
+			"note": "The Kalabari kingdom."
+		},
+		{
+			"lga": "rivers-okrika",
+			"presence": "core",
+			"sources": [
+				"wikipedia-ijaw"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "rivers-bonny",
+			"presence": "core",
+			"sources": [
+				"wikipedia-ijaw"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "ondo-ese-odo",
+			"presence": "core",
+			"sources": [
+				"wikipedia-ese-odo"
+			],
+			"confidence": "high",
+			"note": "Apoi and Arogbo Ijaw; the only Ijaw LGA in the South West."
+		}
+	]
+}

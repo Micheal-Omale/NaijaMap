@@ -1,0 +1,71 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [],
+	"name": "Bachama",
+	"searchAliases": [
+		"Bwatiye",
+		"Bacama",
+		"Bata",
+		"Numan"
+	],
+	"language": {
+		"name": "Bacama",
+		"iso639_3": "bcy",
+		"glottocode": "baca1246",
+		"family": "chadic",
+		"sources": [
+			"glottolog-bachama"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Bwatiye, the Bachama and the closely related Bata, live along the Benue in Adamawa State, around Numan. Their rulers carry the title Hama.",
+		"sources": [
+			"wikipedia-bwatiye"
+		],
+		"confidence": "medium"
+	},
+	"areas": [
+		{
+			"lga": "adamawa-numan",
+			"presence": "core",
+			"sources": [
+				"wikipedia-bwatiye"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "adamawa-demsa",
+			"presence": "core",
+			"sources": [
+				"wikipedia-bwatiye"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "adamawa-lamurde",
+			"presence": "core",
+			"sources": [
+				"wikipedia-bwatiye"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "adamawa-girei",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-bwatiye"
+			],
+			"confidence": "medium"
+		},
+		{
+			"lga": "adamawa-fufore",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-bwatiye"
+			],
+			"confidence": "medium"
+		}
+	]
+}

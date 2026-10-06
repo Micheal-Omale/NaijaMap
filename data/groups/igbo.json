@@ -1,0 +1,1041 @@
+{
+	"status": "draft",
+	"communities": [],
+	"reviewNotes": [
+		"Enugu’s Uzo-Uwani and Anambra West have Igala speaking communities (see Igala).",
+		"The Rivers and Delta Igboid communities are marked disputed: check with local sources."
+	],
+	"name": "Igbo",
+	"searchAliases": [
+		"Ibo",
+		"Ndi Igbo",
+		"Enuani",
+		"Anioma",
+		"Ika",
+		"Ukwuani"
+	],
+	"language": {
+		"name": "Igbo",
+		"iso639_3": "ibo",
+		"glottocode": "nucl1417",
+		"family": "igboid",
+		"sources": [
+			"glottolog-igbo"
+		],
+		"confidence": "high"
+	},
+	"summary": {
+		"text": "The Igbo are one of Nigeria’s three largest peoples, native to Abia, Anambra, Ebonyi, Enugu and Imo, and to parts of Delta and Rivers. Igbo is the lingua franca of the South East; the zone’s minority communities are mostly bilingual in Igbo.",
+		"sources": [
+			"wikipedia-igbo-people",
+			"obinaju-anyanwu-2018"
+		],
+		"confidence": "high"
+	},
+	"areas": [
+		{
+			"lga": "abia-aba-north",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "abia-aba-south",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "abia-arochukwu",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "abia-bende",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "abia-ikwuano",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "abia-isiala-ngwa-north",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "abia-isiala-ngwa-south",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "abia-isuikwuato",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "abia-obi-nwga",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "abia-ohafia",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "abia-osisioma-ngwa",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "abia-ugwunagbo",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "abia-ukwa-east",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "abia-ukwa-west",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "abia-umu-nneochi",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "abia-umuahia-north",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "abia-umuahia-south",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "ebonyi-abakaliki",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "ebonyi-afikpo-north",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "ebonyi-afikpo-south",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "ebonyi-ebonyi",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "ebonyi-ezza-north",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "ebonyi-ezza-south",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "ebonyi-ikwo",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "ebonyi-ishielu",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "ebonyi-ivo",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "ebonyi-izzi",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "ebonyi-ohaozara",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "ebonyi-ohaukwu",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "ebonyi-onicha",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "imo-aboh-mbaise",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "imo-ahiazu-mbaise",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "imo-ehime-mbano",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "imo-ezinihitte",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "imo-ideato-north",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "imo-ideato-south",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "imo-ihitte-uboma",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "imo-ikeduru",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "imo-isiala-mbano",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "imo-isu",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "imo-mbatoli",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "imo-ngor-okpala",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "imo-njaba",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "imo-nkwerre",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "imo-nwangele",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "imo-obowo",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "imo-oguta",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "imo-ohaji-egbema",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "imo-okigwe",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "imo-onuimo",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "imo-orlu",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "imo-orsu",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "imo-oru-east",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "imo-oru-west",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "imo-owerri-municipal",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "imo-owerri-north",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "imo-owerri-west",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "anambra-aguata",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "anambra-anambra-east",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "anambra-anambra-west",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-igbo-people",
+				"amali-2023"
+			],
+			"confidence": "disputed",
+			"note": "Shared with the Igala speaking Olumbanasa and Nzam communities."
+		},
+		{
+			"lga": "anambra-anaocha",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "anambra-awka-north",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "anambra-awka-south",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "anambra-ayamelum",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "anambra-dunukofia",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "anambra-ekwusigo",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "anambra-idemili-north",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "anambra-idemili-south",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "anambra-ihiala",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "anambra-njikoka",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "anambra-nnewi-north",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "anambra-nnewi-south",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "anambra-ogbaru",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "anambra-onitsha-north",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "anambra-onitsha-south",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "anambra-orumba-north",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "anambra-orumba-south",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "anambra-oyi",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "enugu-aninri",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "enugu-awgu",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "enugu-enugu-east",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "enugu-enugu-north",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "enugu-enugu-south",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "enugu-ezeagu",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "enugu-igbo-etiti",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "enugu-igbo-eze-north",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "enugu-igbo-eze-south",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "enugu-isi-uzo",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "enugu-nkanu-east",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "enugu-nkanu-west",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "enugu-nsukka",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "enugu-oji-river",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "enugu-udenu",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "enugu-udi",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "enugu-uzo-uwani",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"obinaju-anyanwu-2018"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "delta-aniocha-north",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"wikipedia-oshimili-north"
+			],
+			"confidence": "high",
+			"note": "Enuani Igbo (Anioma)."
+		},
+		{
+			"lga": "delta-aniocha-south",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"wikipedia-oshimili-north"
+			],
+			"confidence": "high",
+			"note": "Enuani Igbo (Anioma)."
+		},
+		{
+			"lga": "delta-oshimili-north",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"wikipedia-oshimili-north"
+			],
+			"confidence": "high",
+			"note": "Enuani Igbo (Anioma)."
+		},
+		{
+			"lga": "delta-oshimili-south",
+			"presence": "core",
+			"sources": [
+				"wikipedia-igbo-people",
+				"wikipedia-oshimili-north"
+			],
+			"confidence": "high",
+			"note": "Enuani Igbo (Anioma)."
+		},
+		{
+			"lga": "delta-ika-north-east",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-igbo-people"
+			],
+			"confidence": "disputed",
+			"note": "Ika and Ukwuani speak Igboid languages; some in these communities identify as Igbo and others as distinct peoples."
+		},
+		{
+			"lga": "delta-ika-south",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-igbo-people"
+			],
+			"confidence": "disputed",
+			"note": "Ika and Ukwuani speak Igboid languages; some in these communities identify as Igbo and others as distinct peoples."
+		},
+		{
+			"lga": "delta-ndokwa-east",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-igbo-people"
+			],
+			"confidence": "disputed",
+			"note": "Ika and Ukwuani speak Igboid languages; some in these communities identify as Igbo and others as distinct peoples."
+		},
+		{
+			"lga": "delta-ndokwa-west",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-igbo-people"
+			],
+			"confidence": "disputed",
+			"note": "Ika and Ukwuani speak Igboid languages; some in these communities identify as Igbo and others as distinct peoples."
+		},
+		{
+			"lga": "delta-ukwuani",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-igbo-people"
+			],
+			"confidence": "disputed",
+			"note": "Ika and Ukwuani speak Igboid languages; some in these communities identify as Igbo and others as distinct peoples."
+		},
+		{
+			"lga": "rivers-etche",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-igbo-people"
+			],
+			"confidence": "disputed",
+			"note": "Igbo speaking communities in Rivers; identity is contested and these areas also hold other peoples."
+		},
+		{
+			"lga": "rivers-omumma",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-igbo-people"
+			],
+			"confidence": "disputed",
+			"note": "Igbo speaking communities in Rivers; identity is contested and these areas also hold other peoples."
+		},
+		{
+			"lga": "rivers-ogba-egbema-ndoni",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-igbo-people"
+			],
+			"confidence": "disputed",
+			"note": "Igbo speaking communities in Rivers; identity is contested and these areas also hold other peoples."
+		},
+		{
+			"lga": "rivers-oyigbo",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-igbo-people"
+			],
+			"confidence": "disputed",
+			"note": "Igbo speaking communities in Rivers; identity is contested and these areas also hold other peoples."
+		},
+		{
+			"lga": "benue-ado",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-benue-state",
+				"wikipedia-ado-benue"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "benue-obi",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-benue-state",
+				"wikipedia-ado-benue"
+			],
+			"confidence": "high"
+		},
+		{
+			"lga": "benue-oju",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-benue-state",
+				"wikipedia-ado-benue"
+			],
+			"confidence": "high"
+		}
+	]
+}
