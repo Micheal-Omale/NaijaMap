@@ -1,0 +1,26 @@
+{
+	"status": "draft",
+	"summary": {
+		"text": "Part of the Igala heartland, west of Ankpa and Dekina and running down to the Niger.",
+		"sources": [
+			"wikipedia-igala-people"
+		],
+		"confidence": "medium",
+		"note": "Only a general source so far. Needs an Ofu specific source."
+	},
+	"peoples": [
+		{
+			"name": "Igala",
+			"group": "igala",
+			"standing": "indigenous",
+			"share": "majority",
+			"languages": [
+				"Igala"
+			],
+			"sources": [
+				"wikipedia-igala-people"
+			],
+			"confidence": "medium"
+		}
+	]
+}

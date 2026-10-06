@@ -1,0 +1,69 @@
+{
+	"status": "draft",
+	"summary": {
+		"text": "A mixed LGA with its headquarters at Oguma. Its three main peoples are the Bassa-Komo (the largest), the Bassa-Nge and the Ebira Koto. Igala live here too.",
+		"sources": [
+			"wikipedia-bassa-kogi",
+			"wikipedia-igala-people"
+		],
+		"confidence": "high"
+	},
+	"peoples": [
+		{
+			"name": "Bassa-Komo",
+			"share": "majority",
+			"languages": [
+				"Bassa (Basa-Kwomu)",
+				"Igala"
+			],
+			"sources": [
+				"wikipedia-bassa-kogi",
+				"wikipedia-basa-benue"
+			],
+			"confidence": "high",
+			"note": "The largest of the three main peoples. Wikipedia dates their arrival to about the 1830s."
+		},
+		{
+			"name": "Bassa-Nge",
+			"share": "large",
+			"languages": [
+				"Bassa-Nge"
+			],
+			"sources": [
+				"wikipedia-bassa-kogi"
+			],
+			"confidence": "high",
+			"note": "Wikipedia dates their arrival to about the 1850s."
+		},
+		{
+			"name": "Ebira Koto",
+			"share": "minority",
+			"languages": [
+				"Ebira Koto"
+			],
+			"sources": [
+				"wikipedia-bassa-kogi"
+			],
+			"confidence": "high"
+		},
+		{
+			"name": "Igala",
+			"group": "igala",
+			"share": "large",
+			"languages": [
+				"Igala"
+			],
+			"sources": [
+				"wikipedia-igala-people"
+			],
+			"confidence": "medium"
+		}
+	],
+	"languageUse": {
+		"text": "Bassa speakers often also speak Igala, Ebira or Nupe.",
+		"sources": [
+			"wikipedia-basa-benue"
+		],
+		"confidence": "medium"
+	}
+}

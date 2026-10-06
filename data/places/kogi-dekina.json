@@ -1,0 +1,40 @@
+{
+	"status": "draft",
+	"summary": {
+		"text": "One of the larger Igala LGAs. Bassa communities also live here.",
+		"sources": [
+			"wikipedia-igala-people",
+			"wikipedia-bassa-people"
+		],
+		"confidence": "medium"
+	},
+	"peoples": [
+		{
+			"name": "Igala",
+			"group": "igala",
+			"standing": "indigenous",
+			"share": "majority",
+			"languages": [
+				"Igala"
+			],
+			"sources": [
+				"wikipedia-igala-people"
+			],
+			"confidence": "high"
+		},
+		{
+			"name": "Bassa",
+			"share": "minority",
+			"languages": [
+				"Bassa",
+				"Igala"
+			],
+			"sources": [
+				"wikipedia-bassa-people",
+				"wikipedia-basa-benue"
+			],
+			"confidence": "medium",
+			"note": "Bassa speakers often also speak Igala, Ebira or Nupe."
+		}
+	]
+}

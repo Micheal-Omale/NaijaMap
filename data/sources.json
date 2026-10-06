@@ -220,5 +220,152 @@
 		"kind": "testimony",
 		"accessed": "2026-10-06",
 		"checked": true
+	},
+	{
+		"id": "wikipedia-idah",
+		"title": "Idah",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Idah",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ibaji",
+		"title": "Ibaji",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ibaji",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-igalamela-odolu",
+		"title": "Igalamela-Odolu",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Igalamela-Odolu",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-omala",
+		"title": "Omala, Nigeria",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Omala,_Nigeria",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ankpa",
+		"title": "Ankpa",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ankpa",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ogugu",
+		"title": "Ogugu",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ogugu",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-bassa-kogi",
+		"title": "Bassa, Kogi State",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Bassa,_Kogi_State",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-bassa-people",
+		"title": "Bassa people (Nigeria)",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Bassa_people_(Nigeria)",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-basa-benue",
+		"title": "Basa-Benue language",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Basa-Benue_language",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-uzo-uwani",
+		"title": "Uzo-Uwani",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Uzo-Uwani",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-oshimili-north",
+		"title": "Oshimili North",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Oshimili_North",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-esan-south-east",
+		"title": "Esan South-East",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Esan_South-East",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-etsako-central",
+		"title": "Etsako Central",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Etsako_Central",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "facts-ng-ajaokuta",
+		"title": "Ajaokuta LGA, Kogi State. facts.ng",
+		"url": "https://facts.ng/nigerian-states/kogi/lgas/ajaokuta",
+		"kind": "web",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "whistler-2020-ojjor",
+		"title": "Why Igala People Speak Igbo Fluently, Enugu Traditional Ruler (interview with HRH Igwe Emmanuel Emeka Umunna of Ojjor). The Whistler",
+		"year": 2020,
+		"url": "https://thewhistler.ng/why-igala-people-speak-igbo-fluently-enugu-traditional-ruler/",
+		"kind": "news",
+		"accessed": "2026-10-06",
+		"checked": true
 	}
 ]

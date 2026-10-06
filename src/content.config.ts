@@ -98,4 +98,34 @@ const groups = defineCollection({
 		}),
 });
 
-export const collections = { sources, families, groups };
+/**
+ * A short brief about who lives in one LGA: its peoples, whether each is
+ * indigenous or settled, their rough share, and the languages they speak.
+ * The file name is the LGA id, for example data/places/kogi-lokoja.json.
+ */
+const places = defineCollection({
+	loader: glob({ pattern: '*.json', base: 'data/places' }),
+	schema: z.object({
+		status: z.enum(['draft', 'reviewed', 'published']),
+		summary: z.object({ text: z.string(), ...evidence }),
+		peoples: z
+			.array(
+				z.object({
+					name: z.string(),
+					/** Links to the group's profile when one exists. */
+					group: reference('groups').optional(),
+					/** indigenous: native to the area. settled: arrived later (traders, migrants). Leave out when sources do not say. */
+					standing: z.enum(['indigenous', 'settled']).optional(),
+					share: z.enum(['majority', 'large', 'minority']).optional(),
+					/** Mother tongue first, then other languages commonly spoken. Two or more means bilingual. */
+					languages: z.array(z.string()).min(1),
+					...evidence,
+				}),
+			)
+			.min(1),
+		/** How languages are used across the area: lingua francas, multilingualism. */
+		languageUse: z.object({ text: z.string(), ...evidence }).optional(),
+	}),
+});
+
+export const collections = { sources, families, groups, places };

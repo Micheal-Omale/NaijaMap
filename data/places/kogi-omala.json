@@ -1,0 +1,50 @@
+{
+	"status": "draft",
+	"summary": {
+		"text": "Headquarters at Abejukolo. Igala tradition remembers Omala, and the old town of Otutubatu, as the place where the Igala first entered the land from Kwararafa. Its paramount ruler is the Onu Ife.",
+		"sources": [
+			"wikipedia-omala"
+		],
+		"confidence": "medium"
+	},
+	"peoples": [
+		{
+			"name": "Igala",
+			"group": "igala",
+			"standing": "indigenous",
+			"share": "majority",
+			"languages": [
+				"Igala (Ife dialect)"
+			],
+			"sources": [
+				"wikipedia-omala"
+			],
+			"confidence": "high"
+		},
+		{
+			"name": "Akpoto speakers",
+			"share": "minority",
+			"languages": [
+				"Akpoto"
+			],
+			"sources": [
+				"wikipedia-omala"
+			],
+			"confidence": "medium",
+			"note": "Spoken on the Olla, Ojaji and Ogodu axis."
+		},
+		{
+			"name": "Bassa and Agatu",
+			"share": "minority",
+			"languages": [
+				"Bassa",
+				"Agatu"
+			],
+			"sources": [
+				"wikipedia-omala"
+			],
+			"confidence": "medium",
+			"note": "Wikipedia: \"a few being Bassa and Agatu from Benue State\"."
+		}
+	]
+}

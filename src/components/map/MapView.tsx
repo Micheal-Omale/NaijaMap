@@ -34,6 +34,7 @@ interface Props {
 	label: string;
 	attribution: string;
 	onSelectLga: (id: string | null) => void;
+	onSelectCommunity: (name: string) => void;
 }
 
 const reducedMotion = () => window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -59,13 +60,13 @@ function boundsOf(features: GeoJSON.Feature[]): LngLatBoundsLike | null {
 }
 
 export default function MapView(props: Props) {
-	const { lgas, base, labels, group, selectedLga, focus, padding, label, attribution, onSelectLga } = props;
+	const { lgas, base, labels, group, selectedLga, focus, padding, label, attribution, onSelectLga, onSelectCommunity } = props;
 	const container = useRef<HTMLDivElement>(null);
 	const mapRef = useRef<MapLibre | null>(null);
 	const ready = useRef<Promise<void> | null>(null);
 	const highlightFeatures = useRef<GeoJSON.Feature[]>([]);
-	const latest = useRef({ onSelectLga, padding });
-	latest.current = { onSelectLga, padding };
+	const latest = useRef({ onSelectLga, onSelectCommunity, padding });
+	latest.current = { onSelectLga, onSelectCommunity, padding };
 
 	// Create the map once.
 	useEffect(() => {
@@ -98,6 +99,8 @@ export default function MapView(props: Props) {
 			container.current?.querySelector('.maplibregl-ctrl-attrib')?.classList.remove('maplibregl-compact-show');
 		});
 		mapRef.current = map;
+		// Dev only: lets the screenshot checks tap exact map positions.
+		if (import.meta.env.DEV) (window as unknown as { __niajmap?: MapLibre }).__niajmap = map;
 
 		const addPatterns = (c = readColors()) => {
 			for (const [id, image] of [
@@ -126,11 +129,30 @@ export default function MapView(props: Props) {
 			map.getCanvas().style.cursor = 'pointer';
 			setHover(e.features?.[0]?.id);
 		});
+		for (const layer of ['community', 'village']) {
+			map.on('mouseenter', layer, () => (map.getCanvas().style.cursor = 'pointer'));
+		}
 		map.on('mouseleave', 'land', () => {
 			map.getCanvas().style.cursor = '';
 			setHover(undefined);
 		});
 		map.on('click', (e) => {
+			// Dots first: a small box makes them easy to hit with a finger.
+			const box: [[number, number], [number, number]] = [
+				[e.point.x - 8, e.point.y - 8],
+				[e.point.x + 8, e.point.y + 8],
+			];
+			const dots = map.queryRenderedFeatures(box, { layers: ['community', 'village'] });
+			const distance = (f: (typeof dots)[number]) => {
+				const at = map.project((f.geometry as GeoJSON.Point).coordinates as [number, number]);
+				return Math.hypot(at.x - e.point.x, at.y - e.point.y);
+			};
+			const dot = dots.sort((a, b) => distance(a) - distance(b))[0];
+			if (dot) {
+				const p = dot.properties as { kind: string; name: string; community?: string };
+				latest.current.onSelectCommunity(p.kind === 'village' && p.community ? p.community : p.name);
+				return;
+			}
 			const [hit] = map.queryRenderedFeatures(e.point, { layers: ['land'] });
 			latest.current.onSelectLga(hit ? String(hit.id) : null);
 		});

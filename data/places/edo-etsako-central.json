@@ -1,0 +1,40 @@
+{
+	"status": "draft",
+	"summary": {
+		"text": "An Afemai (Etsako) LGA with its headquarters at Fugar. The Ifeku island communities in its north, on the Niger, are of Igala speaking origin.",
+		"sources": [
+			"wikipedia-etsako-central",
+			"vanguard-2024-ifeku"
+		],
+		"confidence": "high"
+	},
+	"peoples": [
+		{
+			"name": "Etsako (Afemai)",
+			"standing": "indigenous",
+			"share": "majority",
+			"languages": [
+				"Afemai (Etsako)"
+			],
+			"sources": [
+				"wikipedia-etsako-central"
+			],
+			"confidence": "high"
+		},
+		{
+			"name": "Ifeku (Igala)",
+			"group": "igala",
+			"standing": "indigenous",
+			"share": "minority",
+			"languages": [
+				"Igala"
+			],
+			"sources": [
+				"vanguard-2024-ifeku",
+				"owner-2026-10-06"
+			],
+			"confidence": "medium",
+			"note": "Recorded on the island before 1787, according to a 1923 colonial report cited by Vanguard."
+		}
+	]
+}

@@ -61,3 +61,25 @@ export interface GroupView {
 	sources: SourceView[];
 	reviewNotes: string[];
 }
+
+export interface PeopleView extends Evidence {
+	name: string;
+	/** Group id when a profile exists. */
+	group?: string;
+	standing?: 'indigenous' | 'settled';
+	share?: 'majority' | 'large' | 'minority';
+	/** Mother tongue first. Two or more means bilingual. */
+	languages: string[];
+}
+
+/** A brief about who lives in one LGA. Built by getPlaceViews(). */
+export interface PlaceView {
+	lga: string;
+	name: string;
+	state: string;
+	status: ReviewStatus;
+	summary: Evidence & { text: string };
+	peoples: PeopleView[];
+	languageUse?: Evidence & { text: string };
+	sources: SourceView[];
+}

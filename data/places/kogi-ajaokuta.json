@@ -1,0 +1,54 @@
+{
+	"status": "draft",
+	"summary": {
+		"text": "Home of the Ajaokuta steel complex, with its headquarters at Egayin. A mix of Ebira, Igala and Bassa communities, around the industrial sites and along the river.",
+		"sources": [
+			"facts-ng-ajaokuta"
+		],
+		"confidence": "medium"
+	},
+	"peoples": [
+		{
+			"name": "Ebira",
+			"share": "large",
+			"languages": [
+				"Ebira"
+			],
+			"sources": [
+				"facts-ng-ajaokuta"
+			],
+			"confidence": "medium"
+		},
+		{
+			"name": "Igala",
+			"group": "igala",
+			"share": "large",
+			"languages": [
+				"Igala"
+			],
+			"sources": [
+				"facts-ng-ajaokuta",
+				"wikipedia-igala-people"
+			],
+			"confidence": "medium"
+		},
+		{
+			"name": "Bassa",
+			"share": "minority",
+			"languages": [
+				"Bassa"
+			],
+			"sources": [
+				"facts-ng-ajaokuta"
+			],
+			"confidence": "medium"
+		}
+	],
+	"languageUse": {
+		"text": "Several languages and traditions are used side by side.",
+		"sources": [
+			"facts-ng-ajaokuta"
+		],
+		"confidence": "medium"
+	}
+}

@@ -1,0 +1,26 @@
+{
+	"status": "draft",
+	"summary": {
+		"text": "Idah, on the east bank of the Niger, is the historic capital of the Igala Kingdom and the seat of the Attah Igala. Its people are mainly Igala.",
+		"sources": [
+			"wikipedia-idah",
+			"boston-1968"
+		],
+		"confidence": "high"
+	},
+	"peoples": [
+		{
+			"name": "Igala",
+			"group": "igala",
+			"standing": "indigenous",
+			"share": "majority",
+			"languages": [
+				"Igala"
+			],
+			"sources": [
+				"wikipedia-idah"
+			],
+			"confidence": "high"
+		}
+	]
+}

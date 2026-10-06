@@ -2,9 +2,10 @@ import { lazy, Suspense, useCallback, useEffect, useMemo, useState } from 'react
 import type { PaddingOptions } from 'maplibre-gl';
 import type { Lang } from '../../i18n/ui';
 import { useTranslations } from '../../i18n/utils';
-import type { GroupView, Presence } from '../../lib/types';
+import type { GroupView, PlaceView, Presence } from '../../lib/types';
 import type { FocusRequest } from './MapView';
-import Profile, { Swatch } from './Profile';
+import { CommunityCard, PlaceCard } from './PlaceCard';
+import Profile from './Profile';
 import Search from './Search';
 import './map-app.css';
 
@@ -16,6 +17,7 @@ interface Props {
 
 type Data = {
 	groups: GroupView[];
+	places: PlaceView[];
 	lgas: GeoJSON.FeatureCollection;
 	base: GeoJSON.FeatureCollection;
 	labels: GeoJSON.FeatureCollection;
@@ -62,6 +64,8 @@ export default function MapApp({ lang }: Props) {
 	const [load, setLoad] = useState<LoadState>({ status: 'loading' });
 	const [groupId, setGroupId] = useState<string | null>(() => groupFromUrl());
 	const [selectedLga, setSelectedLga] = useState<string | null>(null);
+	// Name of a tapped community dot of the selected group.
+	const [selectedCommunity, setSelectedCommunity] = useState<string | null>(null);
 	const [focus, setFocus] = useState<FocusRequest>({ kind: 'group' });
 	const [sheetOpen, setSheetOpen] = useState(false);
 	const [announcement, setAnnouncement] = useState('');
@@ -77,8 +81,12 @@ export default function MapApp({ lang }: Props) {
 			getJson<GeoJSON.FeatureCollection>('/geo/lgas.json'),
 			getJson<GeoJSON.FeatureCollection>('/geo/base.json'),
 			getJson<GeoJSON.FeatureCollection>('/geo/labels.json'),
+			getJson<PlaceView[]>('/data/places.json'),
 		])
-			.then(([groups, lgas, base, labels]) => !cancelled && setLoad({ status: 'ready', data: { groups, lgas, base, labels } }))
+			.then(
+				([groups, lgas, base, labels, places]) =>
+					!cancelled && setLoad({ status: 'ready', data: { groups, places, lgas, base, labels } }),
+			)
 			.catch((err) => {
 				console.error(err);
 				if (!cancelled) setLoad({ status: 'error' });
@@ -90,6 +98,8 @@ export default function MapApp({ lang }: Props) {
 
 	const data = load.status === 'ready' ? load.data : null;
 	const group = data?.groups.find((g) => g.id === groupId) ?? null;
+
+	const placeByLga = useMemo(() => new Map((data?.places ?? []).map((p) => [p.lga, p])), [data]);
 
 	// LGA id → name and state, for the tapped LGA card.
 	const lgaInfo = useMemo(() => {
@@ -124,6 +134,7 @@ export default function MapApp({ lang }: Props) {
 			if (url.href !== window.location.href) window.history.pushState(null, '', url);
 			setGroupId(next?.id ?? null);
 			setSelectedLga(null);
+			setSelectedCommunity(null);
 			setFocus({ kind: next ? 'group' : 'nigeria' });
 			setSheetOpen(false);
 			setAnnouncement(
@@ -139,6 +150,7 @@ export default function MapApp({ lang }: Props) {
 		const onPop = () => {
 			setGroupId(groupFromUrl());
 			setSelectedLga(null);
+			setSelectedCommunity(null);
 			setFocus({ kind: 'group' });
 		};
 		window.addEventListener('popstate', onPop);
@@ -151,6 +163,7 @@ export default function MapApp({ lang }: Props) {
 
 	const showLga = useCallback((id: string) => {
 		setSelectedLga(id);
+		setSelectedCommunity(null);
 		setFocus({ kind: 'lga', id });
 		setSheetOpen(false);
 	}, []);
@@ -162,7 +175,34 @@ export default function MapApp({ lang }: Props) {
 
 	const tapped = selectedLga ? lgaInfo.get(selectedLga) : undefined;
 	const tappedGroups = selectedLga ? groupsIn(selectedLga) : [];
-	const hasSheet = Boolean(group || tapped);
+	const community = group?.communities.find((c) => c.name === selectedCommunity) ?? null;
+	const hasSheet = Boolean(group || tapped || community);
+
+	const tapLga = useCallback((id: string | null) => {
+		setSelectedLga(id);
+		setSelectedCommunity(null);
+		// On phones, open the sheet so the brief is readable straight away.
+		if (id) setSheetOpen(true);
+	}, []);
+
+	const tapCommunity = useCallback(
+		(name: string) => {
+			const c = group?.communities.find((x) => x.name === name);
+			if (!c) return;
+			setSelectedCommunity(name);
+			setSelectedLga(c.lga);
+			setSheetOpen(true);
+		},
+		[group],
+	);
+
+	const openGroup = useCallback(
+		(id: string) => {
+			const g = data?.groups.find((x) => x.id === id);
+			if (g) selectGroup(g);
+		},
+		[data, selectGroup],
+	);
 
 	return (
 		<div className="app" data-sheet={hasSheet ? (sheetOpen ? 'open' : 'peek') : 'none'}>
@@ -192,42 +232,20 @@ export default function MapApp({ lang }: Props) {
 						</button>
 					)}
 
-					{tapped && (
-						<section className="lga-card" aria-live="polite">
-							<div className="lga-card__head">
-								<h2>
-									{tapped.name}
-									<span> · {tapped.state}</span>
-								</h2>
-								<button
-									type="button"
-									className="icon-button"
-									onClick={() => setSelectedLga(null)}
-									aria-label={t('profile.close')}
-								>
-									<svg viewBox="0 0 24 24" aria-hidden="true">
-										<path d="M6 6l12 12M18 6 6 18" />
-									</svg>
-								</button>
-							</div>
-							{tappedGroups.length === 0 ? (
-								<p className="muted">{t('map.lgaNoGroups')}</p>
-							) : (
-								<ul className="lga-card__groups">
-									{tappedGroups.map(({ group: g, presence }) => (
-										<li key={g.id}>
-											<button type="button" className="link-button" onClick={() => selectGroup(g)}>
-												<Swatch kind={presence} />
-												{g.name}
-											</button>
-											<span className="muted">
-												{presence === 'community' ? t('presence.community') : t(`presence.${presence}`)}
-											</span>
-										</li>
-									))}
-								</ul>
-							)}
-						</section>
+					{community && group ? (
+						<CommunityCard community={community} group={group} tr={tr} onClose={() => tapLga(null)} />
+					) : (
+						tapped &&
+						selectedLga && (
+							<PlaceCard
+								lga={{ id: selectedLga, ...tapped }}
+								place={placeByLga.get(selectedLga)}
+								groupsHere={tappedGroups}
+								tr={tr}
+								onOpenGroup={openGroup}
+								onClose={() => tapLga(null)}
+							/>
+						)
 					)}
 
 					{group ? (
@@ -277,7 +295,8 @@ export default function MapApp({ lang }: Props) {
 							padding={padding}
 							label={t('map.label')}
 							attribution={`${t('map.creditBoundaries')}: <a href='https://data.grid3.org/' target='_blank' rel='noopener'>GRID3</a> (CC BY 4.0) · ${t('map.creditRivers')}: <a href='https://www.naturalearthdata.com/' target='_blank' rel='noopener'>Natural Earth</a>`}
-							onSelectLga={setSelectedLga}
+							onSelectLga={tapLga}
+							onSelectCommunity={tapCommunity}
 						/>
 					</Suspense>
 				) : (

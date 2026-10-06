@@ -1,0 +1,27 @@
+{
+	"status": "draft",
+	"summary": {
+		"text": "An Igala area in the east of Kogi, towards Benue and Enugu. The Ogugu community here speaks its own Igala dialect, Ogwugwu.",
+		"sources": [
+			"wikipedia-ogugu",
+			"glottolog-igala"
+		],
+		"confidence": "high"
+	},
+	"peoples": [
+		{
+			"name": "Igala",
+			"group": "igala",
+			"standing": "indigenous",
+			"share": "majority",
+			"languages": [
+				"Igala (including the Ogwugwu dialect)"
+			],
+			"sources": [
+				"wikipedia-igala-people",
+				"wikipedia-ogugu"
+			],
+			"confidence": "high"
+		}
+	]
+}

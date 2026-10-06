@@ -1,6 +1,6 @@
 import { getCollection, getEntries, getEntry, type CollectionEntry } from 'astro:content';
 import lgaIndex from '../data/lgas.json';
-import type { Evidence, GroupView, SourceView } from './types';
+import type { Evidence, GroupView, PeopleView, PlaceView, SourceView } from './types';
 
 const lgaById = new Map(lgaIndex.map((lga) => [lga.id, lga]));
 
@@ -10,7 +10,7 @@ const lgaById = new Map(lgaIndex.map((lga) => [lga.id, lga]));
  */
 export const includeDrafts = import.meta.env.DEV || import.meta.env.NIAJMAP_INCLUDE_DRAFTS === 'true';
 
-export function isVisible(status: CollectionEntry<'groups'>['data']['status']): boolean {
+export function isVisible(status: 'draft' | 'reviewed' | 'published'): boolean {
 	return status === 'published' || includeDrafts;
 }
 
@@ -28,13 +28,11 @@ export async function getGroupViews(): Promise<GroupView[]> {
 	return Promise.all(entries.map(toView));
 }
 
-async function toView(entry: CollectionEntry<'groups'>): Promise<GroupView> {
-	const g = entry.data;
+/** Numbers sources in the order claims first cite them, like footnotes, for one profile or brief. */
+function makeCiter() {
 	const sources: SourceView[] = [];
 	const numbers = new Map<string, number>();
-
-	// Number sources in the order claims first cite them, like footnotes.
-	async function evidence(claim: { sources: SourceRef[]; confidence: Evidence['confidence']; note?: string }) {
+	async function evidence(claim: { sources: SourceRef[]; confidence: Evidence['confidence']; note?: string }): Promise<Evidence> {
 		const resolved = await getEntries(claim.sources as Parameters<typeof getEntries<'sources'>>[0]);
 		const refs = resolved.map((s) => {
 			let n = numbers.get(s.id);
@@ -47,6 +45,12 @@ async function toView(entry: CollectionEntry<'groups'>): Promise<GroupView> {
 		});
 		return { refs, confidence: claim.confidence, ...(claim.note ? { note: claim.note } : {}) };
 	}
+	return { sources, evidence };
+}
+
+async function toView(entry: CollectionEntry<'groups'>): Promise<GroupView> {
+	const g = entry.data;
+	const { sources, evidence } = makeCiter();
 
 	function lga(id: string) {
 		const found = lgaById.get(id);
@@ -103,4 +107,32 @@ async function toView(entry: CollectionEntry<'groups'>): Promise<GroupView> {
 		sources,
 		reviewNotes: g.reviewNotes,
 	};
+}
+
+export async function getPlaceViews(): Promise<PlaceView[]> {
+	const entries = await getCollection('places', ({ data }) => isVisible(data.status));
+	const visibleGroups = new Set((await getCollection('groups', ({ data }) => isVisible(data.status))).map((g) => g.id));
+	return Promise.all(
+		entries.map(async (entry) => {
+			const l = lgaById.get(entry.id);
+			if (!l) throw new Error(`data/places/${entry.id}.json: the file name must be an LGA id from src/data/lgas.json`);
+			const p = entry.data;
+			const { sources, evidence } = makeCiter();
+			const summary = { text: p.summary.text, ...(await evidence(p.summary)) };
+			const peoples: PeopleView[] = [];
+			for (const person of p.peoples) {
+				peoples.push({
+					name: person.name,
+					// Only link to profiles that are visible on this build.
+					group: person.group && visibleGroups.has(person.group.id) ? person.group.id : undefined,
+					standing: person.standing,
+					share: person.share,
+					languages: person.languages,
+					...(await evidence(person)),
+				});
+			}
+			const languageUse = p.languageUse ? { text: p.languageUse.text, ...(await evidence(p.languageUse)) } : undefined;
+			return { lga: l.id, name: l.name, state: l.state, status: p.status, summary, peoples, languageUse, sources };
+		}),
+	);
 }

@@ -1,0 +1,25 @@
+{
+	"status": "draft",
+	"summary": {
+		"text": "Part of the Igala heartland, with its headquarters at Ajaka. Igala is the first language of the area.",
+		"sources": [
+			"wikipedia-igalamela-odolu"
+		],
+		"confidence": "high"
+	},
+	"peoples": [
+		{
+			"name": "Igala",
+			"group": "igala",
+			"standing": "indigenous",
+			"share": "majority",
+			"languages": [
+				"Igala"
+			],
+			"sources": [
+				"wikipedia-igalamela-odolu"
+			],
+			"confidence": "high"
+		}
+	]
+}

@@ -1,0 +1,26 @@
+{
+	"status": "draft",
+	"summary": {
+		"text": "A riverine LGA on the Niger floodplain, with its headquarters at Onyedega on the river. The Ibaji people call themselves Àbó Aji.",
+		"sources": [
+			"wikipedia-ibaji"
+		],
+		"confidence": "high"
+	},
+	"peoples": [
+		{
+			"name": "Igala",
+			"group": "igala",
+			"standing": "indigenous",
+			"share": "majority",
+			"languages": [
+				"Igala (Olu dialect)"
+			],
+			"sources": [
+				"wikipedia-ibaji"
+			],
+			"confidence": "high",
+			"note": "Wikipedia: \"Olu is the predominant dialect used in Ibaji. They are all Igala.\""
+		}
+	]
+}

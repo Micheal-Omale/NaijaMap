@@ -1,0 +1,137 @@
+{
+	"status": "draft",
+	"summary": {
+		"text": "The Kogi State capital, at the confluence of the Niger and Benue. It grew into a trade centre and became one of the most mixed towns in Nigeria.",
+		"sources": [
+			"wikipedia-lokoja",
+			"ibileye-lokoja"
+		],
+		"confidence": "high"
+	},
+	"peoples": [
+		{
+			"name": "Oworo (Yoruba)",
+			"standing": "indigenous",
+			"languages": [
+				"Yoruba (Oworo)"
+			],
+			"sources": [
+				"wikipedia-lokoja"
+			],
+			"confidence": "high"
+		},
+		{
+			"name": "Bassa-Nge",
+			"standing": "indigenous",
+			"languages": [
+				"Bassa-Nge"
+			],
+			"sources": [
+				"wikipedia-lokoja"
+			],
+			"confidence": "high"
+		},
+		{
+			"name": "Nupe",
+			"standing": "indigenous",
+			"languages": [
+				"Nupe"
+			],
+			"sources": [
+				"wikipedia-lokoja"
+			],
+			"confidence": "high"
+		},
+		{
+			"name": "Igala",
+			"group": "igala",
+			"standing": "settled",
+			"share": "large",
+			"languages": [
+				"Igala",
+				"English",
+				"Pidgin"
+			],
+			"sources": [
+				"wikipedia-lokoja",
+				"ibileye-lokoja",
+				"owner-2026-10-06-lokoja"
+			],
+			"confidence": "medium",
+			"note": "Settled as traders. Igala is used at home and work across the town. The owner reports a large population; no published figures yet."
+		},
+		{
+			"name": "Ebira",
+			"standing": "settled",
+			"languages": [
+				"Ebira"
+			],
+			"sources": [
+				"wikipedia-lokoja"
+			],
+			"confidence": "high"
+		},
+		{
+			"name": "Hausa",
+			"standing": "settled",
+			"languages": [
+				"Hausa"
+			],
+			"sources": [
+				"wikipedia-lokoja"
+			],
+			"confidence": "high"
+		},
+		{
+			"name": "Kupa-Nupe",
+			"standing": "settled",
+			"languages": [
+				"Nupe (Kupa)"
+			],
+			"sources": [
+				"wikipedia-lokoja"
+			],
+			"confidence": "high"
+		},
+		{
+			"name": "Igbo",
+			"standing": "settled",
+			"languages": [
+				"Igbo"
+			],
+			"sources": [
+				"wikipedia-lokoja"
+			],
+			"confidence": "high"
+		},
+		{
+			"name": "Edo",
+			"standing": "settled",
+			"languages": [
+				"Edo"
+			],
+			"sources": [
+				"wikipedia-lokoja"
+			],
+			"confidence": "high"
+		},
+		{
+			"name": "Tiv",
+			"standing": "settled",
+			"languages": [
+				"Tiv"
+			],
+			"sources": [
+				"wikipedia-lokoja"
+			],
+			"confidence": "high"
+		}
+	],
+	"languageUse": {
+		"text": "Strongly multilingual: an average resident speaks between four and nine languages. English and Pidgin are used between people of different groups.",
+		"sources": [
+			"ibileye-lokoja"
+		],
+		"confidence": "high"
+	}
+}

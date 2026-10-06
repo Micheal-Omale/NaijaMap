@@ -23,11 +23,11 @@ export function ConfidenceBadge({ level, tr }: { level: Confidence; tr: Translat
 	);
 }
 
-function Refs({ refs, tr }: { refs: number[]; tr: Translate }) {
+function Refs({ refs, tr, prefix = 'source' }: { refs: number[]; tr: Translate; prefix?: string }) {
 	return (
 		<span className="refs">
 			{refs.map((n) => (
-				<a key={n} href={`#source-${n}`} aria-label={tr.t('profile.ref', { n })}>
+				<a key={n} href={`#${prefix}-${n}`} aria-label={tr.t('profile.ref', { n })}>
 					{n}
 				</a>
 			))}
@@ -35,10 +35,10 @@ function Refs({ refs, tr }: { refs: number[]; tr: Translate }) {
 	);
 }
 
-function Claim({ e, tr }: { e: Evidence; tr: Translate }) {
+export function Claim({ e, tr, prefix }: { e: Evidence; tr: Translate; prefix?: string }) {
 	return (
 		<span className="claim">
-			<Refs refs={e.refs} tr={tr} />
+			<Refs refs={e.refs} tr={tr} prefix={prefix} />
 			<ConfidenceBadge level={e.confidence} tr={tr} />
 		</span>
 	);

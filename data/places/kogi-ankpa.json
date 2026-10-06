@@ -1,0 +1,41 @@
+{
+	"status": "draft",
+	"summary": {
+		"text": "Tradition holds that Ankpa was founded by Atiyele, grandson of Abutu Ejeh, founder of the Igala Kingdom. The Bassa-Komo dialect is also spoken in the LGA.",
+		"sources": [
+			"wikipedia-ankpa",
+			"wikipedia-basa-benue"
+		],
+		"confidence": "medium"
+	},
+	"peoples": [
+		{
+			"name": "Igala",
+			"group": "igala",
+			"standing": "indigenous",
+			"share": "majority",
+			"languages": [
+				"Igala"
+			],
+			"sources": [
+				"wikipedia-igala-people",
+				"wikipedia-ankpa"
+			],
+			"confidence": "high"
+		},
+		{
+			"name": "Bassa-Komo",
+			"share": "minority",
+			"languages": [
+				"Bassa (Basa-Kwomu)",
+				"Igala"
+			],
+			"sources": [
+				"wikipedia-basa-benue",
+				"wikipedia-bassa-people"
+			],
+			"confidence": "medium",
+			"note": "Bassa speakers often also speak Igala, Ebira or Nupe."
+		}
+	]
+}

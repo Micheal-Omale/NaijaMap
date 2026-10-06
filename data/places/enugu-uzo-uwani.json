@@ -1,0 +1,42 @@
+{
+	"status": "draft",
+	"summary": {
+		"text": "A riverine LGA in the Nsukka area, with its headquarters at Umulokpa. It is mostly Igbo, with Igala speaking communities in three of its sixteen wards: Igga/Asaba, Ojjor and Ogurugu.",
+		"sources": [
+			"wikipedia-uzo-uwani",
+			"vanguard-2026-uzo-uwani"
+		],
+		"confidence": "high"
+	},
+	"peoples": [
+		{
+			"name": "Igbo",
+			"standing": "indigenous",
+			"share": "majority",
+			"languages": [
+				"Igbo"
+			],
+			"sources": [
+				"vanguard-2026-uzo-uwani"
+			],
+			"confidence": "high"
+		},
+		{
+			"name": "Igala",
+			"group": "igala",
+			"standing": "indigenous",
+			"share": "minority",
+			"languages": [
+				"Igala",
+				"Igbo"
+			],
+			"sources": [
+				"vanguard-2026-uzo-uwani",
+				"whistler-2020-ojjor",
+				"dailytrust-2022-enugu"
+			],
+			"confidence": "high",
+			"note": "About 20 percent of the LGA. The Igwe of Ojjor: \"Igala is our mother tongue, but we are from Enugu State. We simply learn Igbo in school.\""
+		}
+	]
+}
