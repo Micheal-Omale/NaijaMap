@@ -429,12 +429,52 @@
 				6.472
 			],
 			"sources": [
+				"tribune-2021-nzam",
 				"owner-2026-10-06-nzam",
 				"x-middlebeltabi-2024",
+				"nnewicity-2025-nzam",
 				"wikipedia-nzam"
 			],
-			"confidence": "medium",
-			"note": "The LGA headquarters, home to indigenous Igala speakers (owner testimony and a 2024 list of Igala towns). Wikipedia instead describes its people as Igbo, so a published source naming Nzam as Igala would raise this to high."
+			"confidence": "high",
+			"note": "The LGA headquarters. The Nigerian Tribune (2021) calls Nzam an Igala speaking community, whose people protested marginalisation \"in their ancestral land\". Residents speak Igala and Igbo. One local history site (Nnewi City, 2025) describes Nzam as Igbo by identity with strong Igala ties.",
+			"villages": [
+				{
+					"name": "Etakolo"
+				},
+				{
+					"name": "Odobo"
+				},
+				{
+					"name": "Enekpa"
+				},
+				{
+					"name": "Echa"
+				},
+				{
+					"name": "Okpoliba",
+					"point": [
+						6.724,
+						6.452
+					]
+				},
+				{
+					"name": "Urubi",
+					"point": [
+						6.725,
+						6.447
+					]
+				},
+				{
+					"name": "Igeja",
+					"point": [
+						6.729,
+						6.45
+					]
+				},
+				{
+					"name": "Uda"
+				}
+			]
 		},
 		{
 			"name": "Ogurugu",

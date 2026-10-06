@@ -3,12 +3,12 @@
 	"summary": {
 		"text": "A riverine LGA on the Niger and Anambra rivers. Its headquarters, Nzam, is home to indigenous Igala speakers, as are the Olumbanasa communities; the Igbo speaking Anam clan lives here too.",
 		"sources": [
+			"tribune-2021-nzam",
 			"owner-2026-10-06-nzam",
 			"vanguard-2015-igbokaenyi",
-			"amali-2023",
-			"wikipedia-nzam"
+			"amali-2023"
 		],
-		"confidence": "medium"
+		"confidence": "high"
 	},
 	"peoples": [
 		{
@@ -33,6 +33,7 @@
 				"Igbo"
 			],
 			"sources": [
+				"tribune-2021-nzam",
 				"vanguard-2015-igbokaenyi",
 				"obinaju-anyanwu-2018",
 				"amali-2023",

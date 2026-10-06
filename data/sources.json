@@ -99,7 +99,7 @@
 	},
 	{
 		"id": "wikipedia-nzam",
-		"title": "Nzam",
+		"title": "Nzam (Wikipedia; its People and language section was rewritten on 2026-10-06 without a citation, so it is used only for the village list and location)",
 		"author": "Wikipedia contributors",
 		"url": "https://en.wikipedia.org/wiki/Nzam",
 		"kind": "web",
@@ -402,6 +402,25 @@
 		"author": "NiajMap owner",
 		"year": 2026,
 		"kind": "testimony",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "tribune-2021-nzam",
+		"title": "Igala-speaking community protests marginalisation in Anambra. Nigerian Tribune",
+		"author": "Adeoye, Faith",
+		"year": 2021,
+		"url": "https://tribuneonlineng.com/igala-speaking-community-protests-marginalisation-in-anambra/",
+		"kind": "news",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "nnewicity-2025-nzam",
+		"title": "Nzam Town: history, culture, festival and lifestyle in Anambra State. Nnewi City",
+		"year": 2025,
+		"url": "https://nnewicity.com/nzam-town-history-culture-festival-and-lifestyle-in-anambra-state/",
+		"kind": "web",
 		"accessed": "2026-10-06",
 		"checked": true
 	}
