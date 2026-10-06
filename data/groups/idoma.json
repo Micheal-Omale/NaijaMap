@@ -150,9 +150,73 @@
 			],
 			"confidence": "medium",
 			"note": "Idoma (Agatu) speakers."
+		},
+		{
+			"lga": "enugu-igbo-eze-north",
+			"presence": "minority",
+			"sources": [
+				"obinaju-anyanwu-2018",
+				"egenti-2015-ette"
+			],
+			"confidence": "high",
+			"note": "The Eteh (Ette) of the north of the LGA, on the Benue border."
 		}
 	],
-	"communities": [],
+	"communities": [
+		{
+			"name": "Ette (Etteh)",
+			"lga": "enugu-igbo-eze-north",
+			"point": [
+				7.4691,
+				7.0775
+			],
+			"villages": [
+				{
+					"name": "Ebiega Ette",
+					"point": [
+						7.4691,
+						7.0775
+					]
+				},
+				{
+					"name": "Umuogbu Agu",
+					"point": [
+						7.4251,
+						7.0605
+					]
+				},
+				{
+					"name": "Umuagama",
+					"point": [
+						7.4379,
+						7.0146
+					]
+				},
+				{
+					"name": "Imufu",
+					"point": [
+						7.444,
+						6.9949
+					]
+				}
+			],
+			"sources": [
+				"obinaju-anyanwu-2018",
+				"egenti-2015-ette",
+				"wikipedia-igbo-eze-north"
+			],
+			"confidence": "high",
+			"note": "The South East survey describes the Eteh as an Idoma speaking minority who also speak Igbo well; Egenti (2015) finds Idoma their strongest language, followed by Igala and Igbo.",
+			"history": {
+				"text": "One of the two towns that make up Igbo-Eze North (with Enugu-Ezike), on the border with Benue. The Igala of the Nsukka area trace their arrival from Idah to the 17th century.",
+				"sources": [
+					"wikipedia-igbo-eze-north",
+					"dailytrust-2017-enugu"
+				],
+				"confidence": "medium"
+			}
+		}
+	],
 	"reviewNotes": [
 		"Wikipedia says the Idoma occupy nine LGAs; the Benue source names seven. Obi and Oju (mostly Igede) are not mapped yet.",
 		"Idomoid peoples outside Benue (Alago in Doma and Keana, Yala in Cross River) speak related but separate languages and are not counted as Idoma here."

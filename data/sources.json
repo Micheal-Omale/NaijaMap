@@ -2027,5 +2027,34 @@
 		"licence": "CC BY-SA 4.0",
 		"accessed": "2026-10-06",
 		"checked": true
+	},
+	{
+		"id": "egenti-2015-ette",
+		"title": "Multilingualism and the Ethnic Identity of the Ette People. Mgbakoigba: Journal of African Studies 4 (abstract read)",
+		"author": "Egenti, Martha Chidimma",
+		"year": 2015,
+		"url": "https://www.ajol.info/index.php/mjas/article/view/118497",
+		"kind": "article",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-igbo-eze-north",
+		"title": "Igbo Eze North",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Igbo_Eze_North",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "owner-2026-10-06-ette",
+		"title": "Local knowledge from the NiajMap owner: Ette (Etteh) in Igbo-Eze North speaks Igala, and some of its people speak Idoma",
+		"author": "NiajMap owner",
+		"year": 2026,
+		"kind": "testimony",
+		"accessed": "2026-10-06",
+		"checked": true
 	}
 ]

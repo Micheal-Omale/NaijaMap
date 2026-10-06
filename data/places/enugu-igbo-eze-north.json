@@ -1,0 +1,50 @@
+{
+	"status": "draft",
+	"summary": {
+		"text": "An Nsukka-area LGA on the border with Benue, made up of two towns: Enugu-Ezike, the headquarters, and Ette. Igbo is the main language; Ette is multilingual.",
+		"sources": [
+			"wikipedia-igbo-eze-north"
+		],
+		"confidence": "high"
+	},
+	"peoples": [
+		{
+			"name": "Igbo",
+			"group": "igbo",
+			"standing": "indigenous",
+			"share": "majority",
+			"languages": [
+				"Igbo"
+			],
+			"sources": [
+				"wikipedia-igbo-eze-north"
+			],
+			"confidence": "high"
+		},
+		{
+			"name": "Ette (Etteh)",
+			"standing": "indigenous",
+			"share": "minority",
+			"languages": [
+				"Idoma (Eteh)",
+				"Igala",
+				"Igbo"
+			],
+			"sources": [
+				"egenti-2015-ette",
+				"obinaju-anyanwu-2018",
+				"owner-2026-10-06-ette"
+			],
+			"confidence": "high",
+			"note": "Egenti (2015) finds Idoma their strongest language, then Igala, then Igbo. See the Idoma and Igala profiles."
+		}
+	],
+	"languageUse": {
+		"text": "The Ette speak three languages: Idoma, Igala and Igbo, with Idoma used most. Elsewhere in the LGA Igbo is the main language.",
+		"sources": [
+			"egenti-2015-ette",
+			"wikipedia-igbo-eze-north"
+		],
+		"confidence": "high"
+	}
+}

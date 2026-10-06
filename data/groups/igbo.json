@@ -804,9 +804,11 @@
 			"presence": "core",
 			"sources": [
 				"wikipedia-igbo-people",
-				"obinaju-anyanwu-2018"
+				"obinaju-anyanwu-2018",
+				"wikipedia-igbo-eze-north"
 			],
-			"confidence": "high"
+			"confidence": "high",
+			"note": "Igbo is the main language; Ette in the north of the LGA also speaks Idoma and Igala."
 		},
 		{
 			"lga": "enugu-igbo-eze-south",

@@ -209,6 +209,17 @@
 			],
 			"confidence": "medium",
 			"note": "Wikipedia: the people of Apa are \"predominantly Idoma and a few Igalas\". Apa borders the Igala LGAs of Kogi. The Igala villages here are not yet named."
+		},
+		{
+			"lga": "enugu-igbo-eze-north",
+			"presence": "minority",
+			"sources": [
+				"egenti-2015-ette",
+				"wikipedia-igbo-eze-north",
+				"owner-2026-10-06-ette"
+			],
+			"confidence": "medium",
+			"note": "Igala is spoken in Ette; the rest of the LGA is Igbo."
 		}
 	],
 	"communities": [
@@ -679,6 +690,59 @@
 				"text": "Fishing and trade across the river with Kogi.",
 				"sources": [
 					"dailytrust-2022-enugu"
+				],
+				"confidence": "medium"
+			}
+		},
+		{
+			"name": "Ette (Etteh)",
+			"lga": "enugu-igbo-eze-north",
+			"point": [
+				7.4691,
+				7.0775
+			],
+			"villages": [
+				{
+					"name": "Ebiega Ette",
+					"point": [
+						7.4691,
+						7.0775
+					]
+				},
+				{
+					"name": "Umuogbu Agu",
+					"point": [
+						7.4251,
+						7.0605
+					]
+				},
+				{
+					"name": "Umuagama",
+					"point": [
+						7.4379,
+						7.0146
+					]
+				},
+				{
+					"name": "Imufu",
+					"point": [
+						7.444,
+						6.9949
+					]
+				}
+			],
+			"sources": [
+				"egenti-2015-ette",
+				"wikipedia-igbo-eze-north",
+				"owner-2026-10-06-ette"
+			],
+			"confidence": "high",
+			"note": "The Ette speak Idoma, Igala and Igbo. Egenti (2015) finds Idoma the strongest, then Igala, then Igbo; the owner reports Igala as a main language of Ette.",
+			"history": {
+				"text": "One of the two towns that make up Igbo-Eze North (with Enugu-Ezike), on the border with Benue. The Igala of the Nsukka area trace their arrival from Idah to the 17th century.",
+				"sources": [
+					"wikipedia-igbo-eze-north",
+					"dailytrust-2017-enugu"
 				],
 				"confidence": "medium"
 			}
