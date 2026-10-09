@@ -1,0 +1,48 @@
+{
+	"name": "Ejagham",
+	"status": "draft",
+	"groups": [
+		"ejagham"
+	],
+	"rule": "assemblies",
+	"span": {
+		"from": 1000,
+		"to": 1904,
+		"fromLabel": "before written records",
+		"toLabel": "c. 1900",
+		"sources": [
+			"wikipedia-ekoi"
+		],
+		"confidence": "medium",
+		"note": "The start of the timeline, not a founding date. The end is approximate."
+	},
+	"summary": {
+		"text": "Ejagham villages, from the Qua of Calabar to Akamkpa, Etung and Ikom and into today's Cameroon, were bound together by Ekpe, the leopard society, which spread from them across the Cross River region. The Nsibidi signs used by such societies are generally traced to the Ejagham, and the carved Ikom monoliths stand in their country. Ibibio tradition traces its own Afaha lineage to an Ejagham land, Usak Edet. Ejagham fighters from Akpa, led by Osim and Akuma Nnubi, were hired by the Igbo settlers in the Aro–Ibibio wars, and Akuma Nnubi founded the Arochukwu kingship.",
+		"sources": [
+			"wikipedia-ekoi",
+			"wikipedia-ibibio"
+		],
+		"confidence": "medium"
+	},
+	"end": {
+		"text": "Their land was split between British Nigeria and German Kamerun. On the German side, after a Captain von Weiss was killed, they fought the German–Ekoi war of 1899–1904, in which some villages fled rather than fight; the Ejagham on the British side did not join in.",
+		"sources": [
+			"wikipedia-ekoi"
+		],
+		"confidence": "high"
+	},
+	"lands": [
+		{
+			"from": 1000,
+			"lgas": [
+				"cross-river-etung",
+				"cross-river-ikom",
+				"cross-river-akamkpa"
+			]
+		}
+	],
+	"reviewNotes": [
+		"How Ekpe governed Ejagham villages needs a written source beyond Wikipedia (for example Talbot, In the Shadow of the Bush, 1912).",
+		"Needs a written source for the date British rule reached this people."
+	]
+}

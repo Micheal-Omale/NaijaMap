@@ -1,0 +1,63 @@
+{
+	"status": "draft",
+	"of": "polity",
+	"terrain": "delta",
+	"summary": {
+		"text": "Nembe (Brass) was a canoe city-state. In 1895 its war canoes raided the Royal Niger Company’s depot at Akassa; British reprisals followed.",
+		"sources": [
+			"wikipedia-nembe-kingdom",
+			"alagoa-1964",
+			"wikipedia-akassa-raid"
+		],
+		"confidence": "medium"
+	},
+	"arms": [
+		{
+			"kind": "canoes",
+			"level": 3,
+			"text": "War canoes; over a thousand men went to Akassa.",
+			"sources": [
+				"wikipedia-akassa-raid",
+				"alagoa-1964"
+			],
+			"confidence": "medium"
+		},
+		{
+			"kind": "firearms",
+			"level": 2,
+			"from": 1600,
+			"text": "Guns and cannon from the Atlantic trade.",
+			"sources": [
+				"alagoa-1964"
+			],
+			"confidence": "medium"
+		}
+	],
+	"record": [
+		{
+			"year": 1895,
+			"event": "akassa-1895",
+			"against": "Royal Niger Company",
+			"result": "won",
+			"text": "Nembe’s canoes took and burned the Company’s depot at Akassa.",
+			"sources": [
+				"wikipedia-akassa-raid"
+			],
+			"confidence": "high"
+		},
+		{
+			"year": 1895,
+			"event": "akassa-1895",
+			"against": "British",
+			"result": "lost",
+			"text": "A British naval reprisal burned Nembe.",
+			"sources": [
+				"wikipedia-akassa-raid"
+			],
+			"confidence": "high"
+		}
+	],
+	"reviewNotes": [
+		"Arms levels (1 some, 2 a real strength, 3 famous for it) are the compiler’s judgement from the sources, for the Versus page’s guess; please check them."
+	]
+}

@@ -1,0 +1,38 @@
+{
+	"name": "The conquest of the Sokoto Caliphate",
+	"status": "draft",
+	"kind": "colonial",
+	"year": 1903,
+	"yearLabel": "February–July 1903",
+	"until": 1910,
+	"actors": [{ "name": "British forces", "side": "colonial" }, { "name": "Sokoto Caliphate", "polity": "sokoto", "side": "defender" }],
+	"summary": {
+		"text": "Frederick Lugard’s West African Frontier Force marched north from Zungeru and Zaria, took Kano in February 1903 and defeated the Caliph’s army outside Sokoto in March. Caliph Attahiru I led a hijra of thousands eastward and was killed at Burmi in July; many of his followers went on to the Sudan.",
+		"sources": ["wikipedia-battle-of-sokoto", "wikipedia-battle-of-burmi", "last-1967"],
+		"confidence": "high"
+	},
+	"routes": [
+		{ "kind": "advance", "by": "British forces", "path": [[6.15, 9.8], [7.7, 11.07], [8.52, 12]], "label": "The Frontier Force marches on Kano" },
+		{ "kind": "advance", "by": "British forces", "path": [[8.52, 12], [7, 12.6], [5.24, 13.06]], "label": "Then on to Sokoto" },
+		{ "kind": "retreat", "by": "Sokoto Caliphate", "path": [[5.24, 13.06], [7.5, 12.2], [9.6, 11.2], [11, 10.4]], "label": "Attahiru I’s hijra to the east" }
+	],
+	"moments": [
+		{ "when": "February 1903", "title": "Kano taken", "text": "Kano falls after its walls are breached.", "at": { "name": "Kano", "point": [8.52, 12] }, "mark": "captured" },
+		{
+			"when": "March 1903",
+			"title": "Sokoto",
+			"text": "The Caliph’s army is defeated outside the city, which is occupied.",
+			"at": { "name": "Sokoto", "point": [5.24, 13.06] },
+			"mark": "battle"
+		},
+		{
+			"when": "July 1903",
+			"title": "Burmi",
+			"text": "Attahiru I is killed with many of his followers.",
+			"at": { "name": "Burmi (approximate)", "point": [11, 10.4] },
+			"mark": "massacre"
+		}
+	],
+	"sources": ["wikipedia-battle-of-sokoto", "wikipedia-battle-of-burmi", "last-1967"],
+	"confidence": "high"
+}

@@ -1,6 +1,295 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Kano",
+			"lga": "kano-kano-municipal",
+			"point": [
+				8.5167,
+				12
+			],
+			"villages": [
+				{
+					"name": "Dala Hill"
+				}
+			],
+			"alsoIn": [
+				"kano-dala",
+				"kano-fagge"
+			],
+			"sources": [
+				"wikipedia-kano-city",
+				"palmer-1908-kano-chronicle"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Dala Hill was home to an iron-working community by the 7th century; the Kano Chronicle names Barbushe, priest of Dala, before the Bagauda dynasty. One of the seven Hausa kingdoms and long the commercial centre of the north, with settled Arab, Tuareg and Kanuri communities before colonial rule.",
+				"sources": [
+					"wikipedia-kano-city",
+					"palmer-1908-kano-chronicle"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Rano",
+			"lga": "kano-rano",
+			"point": [
+				8.5833,
+				11.5572
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-rano"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "One of the seven Hausa Bakwai, founded by tradition by Zamna Kogi, a descendant of Bayajidda. Yaji I of Kano conquered it and held it for two years; it never regained its sovereignty.",
+				"sources": [
+					"wikipedia-rano"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Bebeji",
+			"lga": "kano-bebeji",
+			"point": [
+				8.2667,
+				11.6667
+			],
+			"villages": [
+				{
+					"name": "Kofa"
+				},
+				{
+					"name": "Gargai"
+				},
+				{
+					"name": "Baguda"
+				},
+				{
+					"name": "Duramawa"
+				},
+				{
+					"name": "Kuki"
+				},
+				{
+					"name": "Yakun"
+				},
+				{
+					"name": "Yanshere"
+				},
+				{
+					"name": "Damau"
+				}
+			],
+			"sources": [
+				"wikipedia-bebeji",
+				"owner-2026-10-09-bebeji"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Mostly Hausa and Fulani, with an old Habe mosque. By the owner's account Igala of the Kwararafa host stayed here after the invasions of Kano; no written source yet confirms it.",
+				"sources": [
+					"wikipedia-bebeji",
+					"owner-2026-10-09-bebeji"
+				],
+				"confidence": "disputed"
+			}
+		},
+		{
+			"name": "Katsina",
+			"lga": "katsina-katsina",
+			"point": [
+				7.6008,
+				12.9889
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-katsina-city"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Founded around 1100 within a 21 km wall. Its pre-Islamic Sarki could be put to death if he ruled badly. In the 17th and 18th centuries it was the commercial heart of Hausaland; the Fulani took it in 1807.",
+				"sources": [
+					"wikipedia-katsina-city"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Daura",
+			"lga": "katsina-daura",
+			"point": [
+				8.3178,
+				13.0364
+			],
+			"villages": [
+				{
+					"name": "Kusugu Well"
+				}
+			],
+			"sources": [
+				"wikipedia-daura"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "The spiritual home of the Hausa: here, by legend, Bayajidda killed the snake Sarki at the Kusugu well and married Queen Daurama. Taken by the Fulani under Malam Ishaku in 1805; the British restored the old line in 1904.",
+				"sources": [
+					"wikipedia-daura"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Zaria (Zazzau)",
+			"lga": "kaduna-zaria",
+			"point": [
+				7.7,
+				11.0667
+			],
+			"villages": [],
+			"alsoIn": [
+				"kaduna-sabon-gari"
+			],
+			"sources": [
+				"wikipedia-zaria"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Capital of Zazzau, the southernmost Hausa state, renamed in the late 16th century after Queen Amina's sister. Islam reached it from Kano and Katsina in the 1450s.",
+				"sources": [
+					"wikipedia-zaria"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Suleja (old Abuja)",
+			"lga": "niger-suleja",
+			"point": [
+				7.1803,
+				9.1758
+			],
+			"villages": [
+				{
+					"name": "Zuba"
+				}
+			],
+			"sources": [
+				"wikipedia-suleja"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "After the Fulani took Zaria about 1804, Muhamman Makau, Sarkin Zazzau, led the Hausa nobility south to the Koro town of Zuba; his brother Abu Ja built the new capital that bore his name, Abuja. Renamed Suleja when the federal capital took the name in 1976.",
+				"sources": [
+					"wikipedia-suleja"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Hadejia (Biram)",
+			"lga": "jigawa-hadejia",
+			"point": [
+				10.04,
+				12.45
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-hadejia"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Once called Biram, one of the Hausa Bakwai, ruled by the line of Bayajidda; overcome in the Fulani war by 1810.",
+				"sources": [
+					"wikipedia-hadejia"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Kazaure",
+			"lga": "jigawa-kazaure",
+			"point": [
+				8.4119,
+				12.6528
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-kazaure"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "First settled about 1300 by Habe hunters under Kutumbi, from the smiths' settlement on Dala Hill; the name comes from “kamar zaure”, “like an inner room”, for its sheltered valley.",
+				"sources": [
+					"wikipedia-kazaure"
+				],
+				"confidence": "medium"
+			}
+		},
+		{
+			"name": "Gumel",
+			"lga": "jigawa-gumel",
+			"point": [
+				9.3897,
+				12.6283
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-gumel"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Founded about 1750 by Dan Juma and his Mangawa followers; tributary to Bornu, it never fell to the Sokoto jihad. Moved from Tumbi, now in Niger, in 1845, it fought Hadejia until 1872.",
+				"sources": [
+					"wikipedia-gumel"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Birnin Kebbi",
+			"lga": "kebbi-birnin-kebbi",
+			"point": [
+				4.2003,
+				12.4536
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-birnin-kebbi"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Capital of Kebbi until Abdullahi dan Fodio burned it in 1805; from 1906 headquarters of the Gwandu Emirate.",
+				"sources": [
+					"wikipedia-birnin-kebbi"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Argungu",
+			"lga": "kebbi-argungu",
+			"point": [
+				4.5167,
+				12.7333
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-argungu"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Where the kings of Kebbi fled after the Fulani conquest of 1808; Gwandu could never fully hold it, and by 1900 it was independent again until the British came in 1902. Home of the Argungu fishing festival.",
+				"sources": [
+					"wikipedia-argungu"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [
 		"Hausa is spoken as a second language almost everywhere in the north; only areas where sources name Hausa as a home language are mapped.",
 		"In Kebbi and Kaduna the share is inferred from where other peoples are sourced; check the southern Kaduna and southern Kebbi LGAs.",

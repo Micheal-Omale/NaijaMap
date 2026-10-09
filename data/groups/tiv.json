@@ -243,7 +243,127 @@
 			"confidence": "medium"
 		}
 	],
-	"communities": [],
+	"communities": [
+		{
+			"name": "Gboko",
+			"lga": "benue-gboko",
+			"point": [
+				9,
+				7.32
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-gboko",
+				"wikipedia-tor-tiv"
+			],
+			"confidence": "high",
+			"note": "Point is the town centre, approximate.",
+			"history": {
+				"text": "The largest LGA of Benue by population, created in 1970, and seat of the Tor Tiv, whose office the British created in 1946.",
+				"sources": [
+					"wikipedia-gboko",
+					"wikipedia-tor-tiv"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Katsina-Ala",
+			"lga": "benue-katsina-ala",
+			"point": [
+				9.28,
+				7.17
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-katsina-ala"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "An important archaeological site where Nok-culture artefacts have been found.",
+				"sources": [
+					"wikipedia-katsina-ala"
+				],
+				"confidence": "high"
+			},
+			"livelihoods": {
+				"text": "Farming and trade at rotating markets: Tomanyiin on Thursdays, Tor Donga on Mondays, Gbor Tongov on Fridays, Abaji on Wednesdays and Amaafu on Tuesdays.",
+				"sources": [
+					"wikipedia-katsina-ala"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Zaki Biam",
+			"lga": "benue-ukum",
+			"villages": [],
+			"sources": [
+				"wikipedia-zaki-biam-massacre"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "In October 2001 Nigerian soldiers killed hundreds of unarmed Tiv civilians in Zaki Biam, Vaase, Anyiin, Ugba, Sankera and other villages, in revenge for 19 soldiers found dead; the army apologised in 2007.",
+				"sources": [
+					"wikipedia-zaki-biam-massacre"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Adikpo",
+			"lga": "benue-kwande",
+			"point": [
+				9.232,
+				6.889
+			],
+			"villages": [],
+			"sources": [
+				"grid3-settlement-names"
+			],
+			"confidence": "high"
+		},
+		{
+			"name": "Ugba",
+			"lga": "benue-logo",
+			"point": [
+				9.347,
+				7.506
+			],
+			"villages": [],
+			"sources": [
+				"grid3-settlement-names",
+				"wikipedia-zaki-biam-massacre"
+			],
+			"confidence": "high"
+		},
+		{
+			"name": "Aliade",
+			"lga": "benue-gwer-east",
+			"point": [
+				8.515,
+				7.33
+			],
+			"villages": [],
+			"sources": [
+				"grid3-settlement-names"
+			],
+			"confidence": "high"
+		},
+		{
+			"name": "Naka",
+			"lga": "benue-gwer-west",
+			"point": [
+				8.193,
+				7.575
+			],
+			"villages": [],
+			"sources": [
+				"grid3-settlement-names"
+			],
+			"confidence": "high"
+		}
+	],
 	"reviewNotes": [
 		"Tiv in Plateau and Cross River, and in Taraba beyond Wukari, Takum and Donga, are not yet mapped; their LGAs need sources.",
 		"The Tiv share of the Nasarawa LGAs is unknown; they are marked as a smaller presence until a source gives more."

@@ -1,0 +1,77 @@
+{
+	"status": "draft",
+	"of": "polity",
+	"terrain": "savanna",
+	"summary": {
+		"text": "Zazzau, the southern Hausa state, raided the lands to its south for captives. Tradition credits Queen Amina with wars that made Kwararafa pay tribute, and with the earthen walls named after her.",
+		"sources": [
+			"wikipedia-zaria",
+			"smith-1960",
+			"wikipedia-kwararafa"
+		],
+		"confidence": "medium"
+	},
+	"arms": [
+		{
+			"kind": "cavalry",
+			"level": 2,
+			"text": "Horsemen led Zazzau’s raids to the south.",
+			"sources": [
+				"smith-1960",
+				"law-1980-horse"
+			],
+			"confidence": "medium"
+		},
+		{
+			"kind": "walls",
+			"level": 2,
+			"text": "Walled towns, the ganuwar Amina of tradition.",
+			"sources": [
+				"wikipedia-zaria"
+			],
+			"confidence": "disputed"
+		}
+	],
+	"record": [
+		{
+			"year": 1576,
+			"yearLabel": "16th century",
+			"polity": "kwararafa",
+			"against": "Kwararafa",
+			"result": "won",
+			"text": "Tradition says Amina beat Kwararafa and made it pay tribute.",
+			"sources": [
+				"wikipedia-kwararafa",
+				"wikipedia-zaria"
+			],
+			"confidence": "disputed"
+		},
+		{
+			"year": 1680,
+			"polity": "kwararafa",
+			"against": "Kwararafa",
+			"result": "lost",
+			"text": "Kwararafa assaulted Zazzau.",
+			"sources": [
+				"wikipedia-kwararafa"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1808,
+			"polity": "sokoto",
+			"event": "fulani-jihad",
+			"against": "The Sokoto jihad",
+			"result": "lost",
+			"text": "Zaria fell to the jihad.",
+			"sources": [
+				"wikipedia-zaria",
+				"smith-1960"
+			],
+			"confidence": "high"
+		}
+	],
+	"reviewNotes": [
+		"Arms levels (1 some, 2 a real strength, 3 famous for it) are the compiler’s judgement from the sources, for the Versus page’s guess; please check them."
+	]
+}

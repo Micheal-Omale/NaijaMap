@@ -1,0 +1,56 @@
+{
+	"name": "The Old Calabar massacre",
+	"status": "draft",
+	"kind": "war",
+	"year": 1767,
+	"yearLabel": "1767",
+	"until": 1775,
+	"actors": [
+		{
+			"name": "Duke Town (Atakpa)",
+			"polity": "old-calabar",
+			"side": "attacker"
+		},
+		{
+			"name": "Old Town (Obutong)",
+			"side": "defender",
+			"ink": "#5a6a8a"
+		},
+		{
+			"name": "British slave ships",
+			"side": "european",
+			"ink": "#3a4a6a"
+		}
+	],
+	"summary": {
+		"text": "In 1767 six British slave ships reached Calabar while Duke Town and Old Town were feuding. Duke Town's leaders secretly arranged with the captains that Old Town's leaders would be invited aboard to settle the dispute, under guarantees of safety. When they came, they were seized: some were kept and carried off as slaves, others handed to Duke Town's leaders and executed. Duke Town's grip on the river trade tightened, and exports of captives soared in the years that followed.",
+		"sources": [
+			"wikipedia-duke-town"
+		],
+		"confidence": "high"
+	},
+	"moments": [
+		{
+			"when": "1767",
+			"title": "Seized under a flag of truce",
+			"text": "Old Town's leaders are taken aboard the ships.",
+			"at": {
+				"name": "Calabar river",
+				"point": [
+					8.31,
+					4.93
+				]
+			},
+			"mark": "massacre",
+			"sources": [
+				"wikipedia-duke-town"
+			],
+			"confidence": "high"
+		}
+	],
+	"sources": [
+		"wikipedia-duke-town"
+	],
+	"confidence": "high",
+	"reviewNotes": []
+}

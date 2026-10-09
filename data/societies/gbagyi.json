@@ -1,0 +1,65 @@
+{
+	"name": "Gbagyi",
+	"status": "draft",
+	"groups": [
+		"gbagyi"
+	],
+	"rule": "chiefdoms",
+	"span": {
+		"from": 1000,
+		"to": 1905,
+		"fromLabel": "before written records",
+		"toLabel": "early 1900s",
+		"sources": [
+			"wikipedia-gbagyi-people"
+		],
+		"confidence": "medium",
+		"note": "The start of the timeline, not a founding date. The end is approximate: British rule reached these lands in the first years of the 1900s."
+	},
+	"summary": {
+		"text": "Each Gbagyi settlement was headed by its own chief, the osu, helped by elders charged with keeping the peace, and families were led by their oldest men; no single ruler stood over all the Gbagyi. Tradition says they came from Bornu after quarrels with the Kanuri, settled in Zazzau and were driven out again, scattering along the Kaduna river towards the Niger–Benue confluence and onto the hills of Kuta. Zazzau, Nupe and later Kontagora raided them for slaves: in the 1880s Zaria's agent Yawa raided the Gbagyi, Koro and their neighbours from Chikun, Kachia and Kajuru, and the Hausa king Abu Ja lived three years among them at Izom before founding Abuja in 1828.",
+		"sources": [
+			"wikipedia-gbagyi-people",
+			"wikipedia-southern-kaduna",
+			"wikipedia-suleja-emirate"
+		],
+		"confidence": "medium"
+	},
+	"end": {
+		"text": "The British occupied Abuja in 1902 and put a garrison at Zaria, ending Zaria's raids on the peoples to its south. Gbagyi villages came under the emirates of Zaria, Abuja (Suleja) and Bida in the colonial administration.",
+		"sources": [
+			"wikipedia-southern-kaduna",
+			"wikipedia-suleja-emirate"
+		],
+		"confidence": "medium"
+	},
+	"lands": [
+		{
+			"from": 1000,
+			"lgas": [
+				"fct-kuje",
+				"fct-kwali",
+				"fct-municipal-area-council",
+				"fct-bwari",
+				"fct-gwagwalada",
+				"niger-shiroro"
+			]
+		},
+		{
+			"from": 1700,
+			"lgas": [
+				"kaduna-chikun",
+				"kaduna-kajuru",
+				"niger-paikoro",
+				"niger-bosso",
+				"niger-tafa"
+			],
+			"label": "Gbagyi (Kaduna valley)",
+			"confidence": "medium",
+			"note": "Gbagyi along the Kaduna river and towards the confluence, raided by Zazzau and Nupe."
+		}
+	],
+	"reviewNotes": [
+		"The Bornu origin is tradition (Kwekudee and Wikipedia); no academic source checked yet."
+	]
+}

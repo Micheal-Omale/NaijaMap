@@ -1,6 +1,27 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Mambilla Plateau (Gembu)",
+			"lga": "taraba-sardauna",
+			"villages": [
+				{
+					"name": "Gembu"
+				}
+			],
+			"sources": [
+				"wikipedia-mambilla-plateau"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "The highest plateau in Nigeria, about 1,600 m, with peaks over 2,000 m such as Chappal Waddi; the Mambila are its original and main people, with Fulani and Kaka minorities. Gembu is its largest town.",
+				"sources": [
+					"wikipedia-mambilla-plateau"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Mambila",
 	"searchAliases": [

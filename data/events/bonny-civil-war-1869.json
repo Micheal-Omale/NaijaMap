@@ -1,0 +1,92 @@
+{
+	"name": "Bonny's civil war and the founding of Opobo",
+	"status": "draft",
+	"kind": "war",
+	"year": 1869,
+	"yearLabel": "1869",
+	"until": 1873,
+	"actors": [
+		{
+			"name": "Manilla Pepple house (Oko Jumbo)",
+			"polity": "bonny",
+			"side": "attacker"
+		},
+		{
+			"name": "Anna Pepple house (Jaja)",
+			"polity": "opobo",
+			"side": "migrant"
+		}
+	],
+	"summary": {
+		"text": "The rivalry between Bonny's two great trading houses, Oko Jumbo's Manilla Pepple and Jaja's Anna Pepple, revived after King George Pepple's accession. In 1869 they fought a major battle. Jaja led his house and followers 26 miles east to the mouth of the Imo river and founded Opobo, cutting Bonny off from the palm-oil markets of the Imo. Bonny turned on Kalabari's rivers to make up the loss.",
+		"sources": [
+			"wikipedia-bonny-kingdom",
+			"wikipedia-jaja-of-opobo"
+		],
+		"confidence": "high"
+	},
+	"routes": [
+		{
+			"kind": "migration",
+			"by": "Anna Pepple house (Jaja)",
+			"path": [
+				[
+					7.17,
+					4.43
+				],
+				[
+					7.54,
+					4.51
+				]
+			],
+			"label": "Jaja's people to Opobo",
+			"sources": [
+				"wikipedia-bonny-kingdom",
+				"wikipedia-jaja-of-opobo"
+			],
+			"confidence": "high"
+		}
+	],
+	"moments": [
+		{
+			"when": "1869",
+			"title": "Battle of the houses",
+			"text": "The Anna Pepple house loses the battle in Bonny.",
+			"at": {
+				"name": "Grand Bonny",
+				"point": [
+					7.17,
+					4.43
+				]
+			},
+			"mark": "battle",
+			"sources": [
+				"wikipedia-bonny-kingdom"
+			],
+			"confidence": "high"
+		},
+		{
+			"when": "1869",
+			"title": "Opobo founded",
+			"text": "Jaja founds his new town astride the Imo trade.",
+			"at": {
+				"name": "Opobo",
+				"point": [
+					7.54,
+					4.51
+				]
+			},
+			"mark": "founded",
+			"sources": [
+				"wikipedia-jaja-of-opobo"
+			],
+			"confidence": "high"
+		}
+	],
+	"sources": [
+		"wikipedia-bonny-kingdom",
+		"wikipedia-jaja-of-opobo"
+	],
+	"confidence": "high",
+	"reviewNotes": []
+}

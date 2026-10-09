@@ -1,6 +1,197 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Asaba (Ahaba)",
+			"lga": "delta-oshimili-south",
+			"point": [
+				6.7193,
+				6.2056
+			],
+			"villages": [],
+			"sources": [
+				"esogbue-2023-enuani",
+				"wikipedia-asaba",
+				"wikipedia-asaba-massacre"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Founded by Nnebisi, son of the Igala prince and trader Onojobo and of Diaba of Agbakoba village in Nteje, east of the Niger. Raised among his mother's people, he crossed the river; where his pot fell he said “Ahabam”, “I have chosen well”. In October 1967 Nigerian troops massacred hundreds of Asaba men and boys during the civil war.",
+				"sources": [
+					"esogbue-2023-enuani",
+					"wikipedia-asaba",
+					"wikipedia-asaba-massacre"
+				],
+				"confidence": "medium"
+			}
+		},
+		{
+			"name": "Ibusa (Igbuzo)",
+			"lga": "delta-oshimili-north",
+			"point": [
+				6.6282,
+				6.1777
+			],
+			"villages": [
+				{
+					"name": "Ogboli"
+				}
+			],
+			"sources": [
+				"wikipedia-igbuzo"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "A federation of two settlements: that of Umejei, a prince of Isu exiled after killing a rival in a wrestling bout, and Ogboli, founded by Edini, who left Nri with his exiled brother Odaigbo. Some historians think followers of Ezechima from Benin also settled here.",
+				"sources": [
+					"wikipedia-igbuzo"
+				],
+				"confidence": "medium"
+			}
+		},
+		{
+			"name": "Illah",
+			"lga": "delta-oshimili-north",
+			"point": [
+				6.649,
+				6.4246
+			],
+			"villages": [
+				{
+					"name": "Umutei-Edem"
+				},
+				{
+					"name": "Umutei"
+				},
+				{
+					"name": "Ajaji"
+				},
+				{
+					"name": "Umuagwu"
+				}
+			],
+			"sources": [
+				"wikipedia-illah",
+				"owner-2026-10-08-anioma"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Founded by more than one people: its first four quarters by the sons of Illah, whose father came from Agukwu Nri and whose mother was Igala; two more by Igbo settlers; two by Igala princes from Idah; and one by a prince of Benin who came to defend the town. It is governed by the Ogbelani-in-Council, and the eldest man of the Benin quarter is always its Iyase.",
+				"sources": [
+					"wikipedia-illah",
+					"owner-2026-10-08-anioma"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Ogwashi-Uku",
+			"lga": "delta-aniocha-south",
+			"point": [
+				6.5157,
+				6.1775
+			],
+			"villages": [
+				{
+					"name": "Ikelike"
+				}
+			],
+			"sources": [
+				"esogbue-2023-enuani",
+				"neusroom-ekumeku"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Its original settlers, the Ikelike, came from Benin. In 1909 the town twice drove British troops out during the Ekumeku war.",
+				"sources": [
+					"esogbue-2023-enuani",
+					"neusroom-ekumeku"
+				],
+				"confidence": "medium"
+			}
+		},
+		{
+			"name": "Issele-Uku",
+			"lga": "delta-aniocha-north",
+			"point": [
+				6.4629,
+				6.2982
+			],
+			"villages": [],
+			"sources": [
+				"esogbue-2023-enuani",
+				"wikipedia-ekumeku"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Its first settlers came from Nri. Its leader Idabor was among the Ekumeku chiefs who fought the British.",
+				"sources": [
+					"esogbue-2023-enuani",
+					"wikipedia-ekumeku"
+				],
+				"confidence": "medium"
+			}
+		},
+		{
+			"name": "Onicha-Olona and Onicha-Ugbo",
+			"lga": "delta-aniocha-north",
+			"villages": [
+				{
+					"name": "Onicha-Olona"
+				},
+				{
+					"name": "Onicha-Ugbo"
+				}
+			],
+			"sources": [
+				"wikipedia-onitsha"
+			],
+			"confidence": "medium",
+			"history": {
+				"text": "Founded by branches of the same Ado N'Idu migration under Eze Chima that founded Onitsha across the Niger.",
+				"sources": [
+					"wikipedia-onitsha"
+				],
+				"confidence": "medium"
+			}
+		},
+		{
+			"name": "Olukumi towns: Ugbodu and Ukwu Nzu",
+			"lga": "delta-aniocha-north",
+			"point": [
+				6.462,
+				6.3771
+			],
+			"villages": [
+				{
+					"name": "Ugbodu",
+					"point": [
+						6.462,
+						6.3771
+					]
+				},
+				{
+					"name": "Ukwu Nzu (Eko Efun)",
+					"point": [
+						6.4774,
+						6.3874
+					]
+				}
+			],
+			"sources": [
+				"wikipedia-olukumi",
+				"owner-2026-10-08-anioma"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "The Olukumi speak a language related to Yoruba. Ugbodu, “the forest has saved us”, was founded by Yoruba from the Akure kingdom and joined by the Ologun Uja from Owo; its king is the Oloza. Ukwu Nzu, the largest Olukumi town, says its founders came with Orunmiha, sent from Ife, and it became a centre of the Ekumeku resistance.",
+				"sources": [
+					"wikipedia-olukumi"
+				],
+				"confidence": "medium"
+			}
+		}
+	],
 	"reviewNotes": [
 		"The Olukumi, who speak a language related to Yoruba, live among the Anioma (Aniocha North); not yet mapped.",
 		"Ebu (Oshimili North) is Igala speaking; see Igala."
@@ -28,9 +219,13 @@
 		"confidence": "high"
 	},
 	"summary": {
-		"text": "The Enuani speaking peoples of Aniocha and Oshimili, on the west bank of the Niger around Asaba, Ibusa, Ogwashi-Uku, Issele and Illah. Enuani is a dialect of Igbo. Their identity is debated: the Obuzor of Ibusa and Senator Ned Nwoko say the Anioma are Igbo, while the Asagba of Asaba and a 2025 communique of Aniocha and Oshimili leaders say “Anioma is Anioma; Anioma is not Igbo”, a culture area of Bini, Igala, Yoruba and Igbo origins.",
+		"text": "The Enuani speaking peoples of Aniocha and Oshimili, on the west bank of the Niger around Asaba, Ibusa, Ogwashi-Uku, Issele and Illah. The Anioma are a fusion of peoples: their towns trace their founders to the Igbo east of the Niger (Ibusa to Isu and Nri), to Benin (Agbor, Otolokpo, Aboh), to the Igala (Ebu, which still speaks Igala) and to the Yoruba of Owo and Akure (the Olukumi of Ugbodu and Ukwu Nzu). Illah alone has Igbo, Igala and Benin quarters. Together they fought the British in the Ekumeku war of 1883–1914. Enuani is a dialect of Igbo. Their identity is debated: the Obuzor of Ibusa and Senator Ned Nwoko say the Anioma are Igbo, while the Asagba of Asaba and a 2025 communique of Aniocha and Oshimili leaders say “Anioma is Anioma; Anioma is not Igbo”, a culture area of Bini, Igala, Yoruba and Igbo origins.",
 		"sources": [
 			"wikipedia-anioma-region",
+			"esogbue-2018-anioma-origins",
+			"wikipedia-illah",
+			"wikipedia-olukumi",
+			"owner-2026-10-08-anioma",
 			"vanguard-2025-anioma-communique",
 			"vanguard-2025-nwoko"
 		],

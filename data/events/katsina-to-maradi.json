@@ -1,0 +1,104 @@
+{
+	"name": "Katsina's kings go to Maradi",
+	"status": "draft",
+	"kind": "migration",
+	"year": 1806,
+	"yearLabel": "1805–1807",
+	"until": 1830,
+	"actors": [
+		{
+			"name": "Hausa court of Katsina",
+			"polity": "katsina",
+			"side": "migrant"
+		},
+		{
+			"name": "Umaru Dallaji's jihadists",
+			"polity": "sokoto",
+			"side": "attacker"
+		}
+	],
+	"summary": {
+		"text": "Three Sullubawa Fulani leaders received flags from Usman dan Fodio for Katsina. Umaru Dallaji marched from Radda to Banye and Sabon Birni, where he killed Sarkin Katsina Mahmudu. About 30,000 Katsinawa withdrew north to Dankama and failed to retake the city; their king Halidu killed himself in a well. The rest went on into today's Niger and founded Maradi, whose Hausa kings warred on Fulani Katsina for the rest of the century.",
+		"sources": [
+			"wikipedia-history-of-katsina"
+		],
+		"confidence": "high"
+	},
+	"routes": [
+		{
+			"kind": "exile",
+			"by": "Hausa court of Katsina",
+			"path": [
+				[
+					7.6,
+					12.99
+				],
+				[
+					7.798,
+					13.305
+				],
+				[
+					7.1,
+					13.5
+				]
+			],
+			"label": "To Dankama, then Maradi",
+			"sources": [
+				"wikipedia-history-of-katsina"
+			],
+			"confidence": "high"
+		}
+	],
+	"moments": [
+		{
+			"when": "1805–1806",
+			"title": "Mahmudu killed at Sabon Birni",
+			"text": "Umaru Dallaji kills the Sarkin Katsina.",
+			"mark": "battle",
+			"sources": [
+				"wikipedia-history-of-katsina"
+			],
+			"confidence": "high"
+		},
+		{
+			"when": "1806",
+			"title": "The stand at Dankama",
+			"text": "30,000 Katsinawa gather at Dankama and fail to retake the city; Halidu throws himself down a well.",
+			"at": {
+				"name": "Dankama",
+				"point": [
+					7.798,
+					13.305
+				]
+			},
+			"mark": "flight",
+			"sources": [
+				"wikipedia-history-of-katsina"
+			],
+			"confidence": "high"
+		},
+		{
+			"when": "c. 1807",
+			"title": "Maradi founded",
+			"text": "The exiles found Maradi.",
+			"at": {
+				"name": "Maradi",
+				"point": [
+					7.1,
+					13.5
+				]
+			},
+			"mark": "founded",
+			"sources": [
+				"wikipedia-history-of-katsina"
+			],
+			"confidence": "high"
+		}
+	],
+	"sources": [
+		"wikipedia-history-of-katsina"
+	],
+	"confidence": "high",
+	"note": "Sabon Birni in Kaura is not placed.",
+	"reviewNotes": []
+}

@@ -1,0 +1,162 @@
+{
+	"name": "Soba of Gobir raids to Ilorin",
+	"status": "draft",
+	"kind": "raid",
+	"year": 1720,
+	"yearLabel": "c. 1715–1742",
+	"until": 1745,
+	"actors": [
+		{
+			"name": "Gobir",
+			"polity": "gobir",
+			"side": "attacker"
+		},
+		{
+			"name": "Agadez",
+			"side": "defender",
+			"ink": "#8a6d3b"
+		},
+		{
+			"name": "Katsina",
+			"polity": "katsina",
+			"side": "defender"
+		}
+	],
+	"summary": {
+		"text": "Sarki Soba made Gobir feared across the western Sudan. He besieged Zabarma for three years, crossed the Niger to ravage Gurma, and raided south into Yorubaland as far as Ilorin; some of his men stayed, and the Gobirawa of Ilorin still have their Sarkin Gobir on the emirate council. He then besieged Katsina's Maradi for seven years without taking it. While he was away Agadez attacked his capital, Goran Rami, and Zamfara saved it. Soba took revenge on the Agadez towns of Manni and Adrar, but his exhausted army deserted him, and he was killed by Agadez with his son Gofe and his daughter, the Magajiya, beside him.",
+		"sources": [
+			"wikipedia-gobir",
+			"wikipedia-zamfara-kingdom"
+		],
+		"confidence": "medium"
+	},
+	"routes": [
+		{
+			"kind": "raid",
+			"by": "Gobir",
+			"path": [
+				[
+					6.48,
+					13.62
+				],
+				[
+					3.19,
+					13.05
+				],
+				[
+					1.5,
+					12.2
+				]
+			],
+			"label": "Zabarma and across the Niger to Gurma",
+			"sources": [
+				"wikipedia-gobir"
+			]
+		},
+		{
+			"kind": "raid",
+			"by": "Gobir",
+			"path": [
+				[
+					6.48,
+					13.62
+				],
+				[
+					4.2,
+					10.5
+				],
+				[
+					4.55,
+					8.5
+				]
+			],
+			"label": "South as far as Ilorin",
+			"sources": [
+				"wikipedia-gobir"
+			]
+		},
+		{
+			"kind": "advance",
+			"by": "Gobir",
+			"path": [
+				[
+					6.48,
+					13.62
+				],
+				[
+					7.1,
+					13.5
+				]
+			],
+			"label": "Seven-year siege of Maradi",
+			"sources": [
+				"wikipedia-gobir",
+				"wikipedia-zamfara-kingdom"
+			]
+		},
+		{
+			"kind": "advance",
+			"by": "Agadez",
+			"path": [
+				[
+					7.99,
+					16.97
+				],
+				[
+					6.48,
+					13.62
+				]
+			],
+			"label": "Agadez strikes Goran Rami",
+			"sources": [
+				"wikipedia-gobir",
+				"wikipedia-zamfara-kingdom"
+			]
+		}
+	],
+	"moments": [
+		{
+			"when": "c. 1730s",
+			"title": "Gobirawa stay at Ilorin",
+			"text": "Some of Soba's men settle at Ilorin for good.",
+			"at": {
+				"name": "Ilorin",
+				"point": [
+					4.55,
+					8.5
+				]
+			},
+			"mark": "founded",
+			"sources": [
+				"wikipedia-gobir"
+			],
+			"confidence": "medium"
+		},
+		{
+			"when": "c. 1740",
+			"title": "The thorn fence",
+			"text": "Zamfara's men fence in the Agadez army at night and save Gobir's capital.",
+			"at": {
+				"name": "Goran Rami (approximate)",
+				"point": [
+					6.48,
+					13.62
+				]
+			},
+			"mark": "battle",
+			"sources": [
+				"wikipedia-gobir",
+				"wikipedia-zamfara-kingdom"
+			],
+			"confidence": "medium"
+		}
+	],
+	"sources": [
+		"wikipedia-gobir",
+		"wikipedia-zamfara-kingdom"
+	],
+	"confidence": "medium",
+	"reviewNotes": [
+		"Soba's dates are approximate; Gobir's king list gives no fixed years before Babari (1742)."
+	]
+}

@@ -1,6 +1,92 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Riyom",
+			"lga": "plateau-riyom",
+			"point": [
+				8.6667,
+				9.5667
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-riyom",
+				"wikipedia-berom-people"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Called the birthplace of all Berom; predominantly Berom, with Aten and Takad. Cut from Barkin Ladi in 1996.",
+				"sources": [
+					"wikipedia-riyom"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Gwol (Barkin Ladi)",
+			"lga": "plateau-barkin-ladi",
+			"point": [
+				8.9167,
+				9.5667
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-berom-people",
+				"wikipedia-barkin-ladi"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "One of the four Berom LGAs, with Riyom, Jos North and Jos South. The Berom celebrate Nzem Berom each March or April.",
+				"sources": [
+					"wikipedia-berom-people"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Berom of Jos",
+			"lga": "plateau-jos-south",
+			"villages": [
+				{
+					"name": "Za'ang"
+				}
+			],
+			"alsoIn": [
+				"plateau-jos-north"
+			],
+			"sources": [
+				"wikipedia-berom-people",
+				"hrw-2006-indigenes"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "The Berom are one of the peoples recognised as indigenes of Jos. Za'ang is a Berom district on the plateau.",
+				"sources": [
+					"wikipedia-berom-people",
+					"hrw-2006-indigenes"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Fadan Karshe",
+			"lga": "kaduna-sanga",
+			"villages": [],
+			"sources": [
+				"wikipedia-berom-people",
+				"grid3-settlement-names"
+			],
+			"confidence": "medium",
+			"note": "The source does not name the LGA. GRID3 has a Karshi ward in Sanga LGA, so it is placed there; check.",
+			"history": {
+				"text": "Berom settlers from Za'ang who moved here under British rule.",
+				"sources": [
+					"wikipedia-berom-people"
+				],
+				"confidence": "medium"
+			}
+		}
+	],
 	"reviewNotes": [
 		"The Berom are widely described as indigenous to Jos North and Jos South too; find an LGA level source."
 	],

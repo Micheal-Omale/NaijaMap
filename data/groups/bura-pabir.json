@@ -1,6 +1,53 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Biu",
+			"lga": "borno-biu",
+			"point": [
+				12.19,
+				10.61
+			],
+			"villages": [
+				{
+					"name": "Kogu"
+				},
+				{
+					"name": "Mandaragirau"
+				},
+				{
+					"name": "Dlimbur"
+				}
+			],
+			"sources": [
+				"wikipedia-biu-emirate"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Seat of the Mai Biu since Mari Biya moved there in 1878; the kingdom counts its rulers from Yamta-ra-Wala about 1535, whose first capital at Dlimbur is now an archaeological site, and whose heirs split between Kogu and Mandaragirau.",
+				"sources": [
+					"wikipedia-biu-emirate"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Shani",
+			"lga": "borno-shani",
+			"villages": [],
+			"sources": [
+				"wikipedia-shani"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Part of Biu Division from 1918 and of the Biu federation from 1957.",
+				"sources": [
+					"wikipedia-shani"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Bura-Pabir",
 	"searchAliases": [

@@ -1,0 +1,515 @@
+{
+	"name": "Military rule: Buhari to Abubakar",
+	"status": "draft",
+	"from": 1983,
+	"to": 1999,
+	"label": "1983–1999",
+	"summary": {
+		"text": "Sixteen years of military rule followed, almost all of it under Northern Muslim generals. Babangida annulled the election of 12 June 1993, which the Yoruba businessman M. K. O. Abiola had won. After a short interim government under the Yoruba Ernest Shonekan, Abacha seized power. Abubakar handed over to an elected government in 1999. In the 1990s the six geopolitical zones came into use for sharing out offices.",
+		"sources": [
+			"wikipedia-muhammadu-buhari",
+			"wikipedia-ibrahim-babangida",
+			"wikipedia-sani-abacha",
+			"wikipedia-abdulsalami-abubakar",
+			"wikipedia-ernest-shonekan",
+			"wikipedia-geopolitical-zones-of-nigeria"
+		],
+		"confidence": "high"
+	},
+	"federal": {
+		"text": "Northern generals of several peoples (Fulani, Hausa and Kanuri) held power. In the South-West, the annulment of June 12 was felt as the denial of power to a Yoruba winner.",
+		"sources": [
+			"wikipedia-ibrahim-babangida",
+			"wikipedia-sani-abacha"
+		],
+		"confidence": "high",
+		"leaders": [
+			{
+				"name": "Muhammadu Buhari",
+				"title": "Head of State",
+				"from": 1983,
+				"to": 1985,
+				"group": "fulani",
+				"groupNote": "Son of a Fulani chieftain; Hausa and Kanuri ancestry on his mother’s side.",
+				"home": {
+					"name": "Daura",
+					"point": [
+						8.32,
+						13.03
+					]
+				},
+				"sources": [
+					"wikipedia-muhammadu-buhari",
+					"kperogi-2020",
+					"owner-2026-10-07-leaders"
+				],
+				"confidence": "high"
+			},
+			{
+				"name": "Ibrahim Babangida",
+				"title": "Military President",
+				"from": 1985,
+				"to": 1993,
+				"group": "hausa",
+				"groupNote": "Born in Minna. He told journalists and biographers that his immediate ancestors were Hausa from Kano (Kperogi). The owner’s list, and others, call him Gbagyi (Gwari); some say Nupe.",
+				"home": {
+					"name": "Minna",
+					"point": [
+						6.55,
+						9.61
+					]
+				},
+				"sources": [
+					"wikipedia-ibrahim-babangida",
+					"kperogi-2020",
+					"owner-2026-10-07-leaders"
+				],
+				"confidence": "disputed"
+			},
+			{
+				"name": "Ernest Shonekan",
+				"title": "Head of the Interim Government",
+				"from": 1993,
+				"to": 1993,
+				"group": "yoruba",
+				"groupNote": "Egba Yoruba.",
+				"home": {
+					"name": "Abeokuta",
+					"point": [
+						3.35,
+						7.15
+					]
+				},
+				"sources": [
+					"wikipedia-ernest-shonekan",
+					"kperogi-2020",
+					"owner-2026-10-07-leaders"
+				],
+				"confidence": "high"
+			},
+			{
+				"name": "Sani Abacha",
+				"title": "Head of State",
+				"from": 1993,
+				"to": 1998,
+				"group": "kanuri",
+				"groupNote": "A Kanuri family from Borno, raised in Kano.",
+				"home": {
+					"name": "Kano",
+					"point": [
+						8.52,
+						12
+					]
+				},
+				"sources": [
+					"wikipedia-sani-abacha",
+					"kperogi-2020",
+					"owner-2026-10-07-leaders"
+				],
+				"confidence": "high"
+			},
+			{
+				"name": "Abdulsalami Abubakar",
+				"title": "Head of State",
+				"from": 1998,
+				"to": 1999,
+				"group": "hausa",
+				"home": {
+					"name": "Minna",
+					"point": [
+						6.55,
+						9.61
+					]
+				},
+				"sources": [
+					"wikipedia-abdulsalami-abubakar",
+					"kperogi-2020",
+					"owner-2026-10-07-leaders"
+				],
+				"confidence": "disputed",
+				"groupNote": "Born in Minna, a city founded by the Gbagyi. He told a biographer he was born to Hausa parents (Kperogi); the owner’s list calls him Gbagyi and Hausa-speaking."
+			}
+		]
+	},
+	"units": [],
+	"reviewNotes": [
+		"Ethnic attributions follow the cited biographies. Where sources disagree, the leader is marked disputed and the alternatives are given."
+	],
+	"parties": [
+		{
+			"id": "sdp",
+			"name": "Social Democratic Party",
+			"short": "SDP",
+			"slot": 1,
+			"peoples": [
+				"yoruba",
+				"kanuri"
+			],
+			"leader": "M. K. O. Abiola",
+			"text": "One of two parties the military created for the Third Republic. Its 1993 ticket paired Abiola, a Yoruba Muslim, with Baba Gana Kingibe, a Kanuri Muslim.",
+			"sources": [
+				"wikipedia-social-democratic-party-nigeria",
+				"wikipedia-moshood-abiola",
+				"wikipedia-1993-nigerian-presidential-election"
+			],
+			"confidence": "medium"
+		},
+		{
+			"id": "nrc",
+			"name": "National Republican Convention",
+			"short": "NRC",
+			"slot": 2,
+			"peoples": [],
+			"leader": "Bashir Tofa",
+			"text": "The other government-made party. Its 1993 candidate, Bashir Tofa of Kano, was little known outside his home state.",
+			"sources": [
+				"wikipedia-national-republican-convention",
+				"wikipedia-1993-nigerian-presidential-election"
+			],
+			"confidence": "medium"
+		}
+	],
+	"results": [
+		{
+			"title": "Presidential election, 12 June 1993",
+			"year": 1993,
+			"measure": "votes",
+			"parts": [
+				{
+					"party": "sdp",
+					"label": "SDP",
+					"value": 8341309,
+					"candidate": "M. K. O. Abiola"
+				},
+				{
+					"party": "nrc",
+					"label": "NRC",
+					"value": 5952087,
+					"candidate": "Bashir Tofa"
+				}
+			],
+			"note": "Annulled by Babangida before the results were declared in full. Abiola, a Yoruba, was later jailed and died in detention in 1998.",
+			"sources": [
+				"wikipedia-1993-nigerian-presidential-election",
+				"wikipedia-moshood-abiola"
+			],
+			"confidence": "high"
+		}
+	],
+	"coalitions": [],
+	"coups": [
+		{
+			"id": "dec-1983",
+			"name": "The New Year’s Eve coup",
+			"date": "31 December 1983",
+			"year": 1983,
+			"outcome": "seized",
+			"fell": {
+				"name": "Shehu Shagari",
+				"role": "President, elected in 1979 and 1983",
+				"group": "fulani"
+			},
+			"rose": {
+				"name": "Muhammadu Buhari",
+				"role": "Head of State",
+				"group": "fulani"
+			},
+			"plotters": [
+				{
+					"name": "Muhammadu Buhari",
+					"role": "GOC 3rd Armoured Division, Jos; he denies taking part",
+					"group": "fulani"
+				},
+				{
+					"name": "Ibrahim Babangida",
+					"role": "Director of Army Staff Duties",
+					"group": "hausa"
+				},
+				{
+					"name": "Sani Abacha",
+					"role": "Commander, 9th Mechanised Brigade",
+					"group": "kanuri"
+				},
+				{
+					"name": "Tunde Idiagbon",
+					"role": "Military Secretary",
+					"group": "yoruba"
+				},
+				{
+					"name": "Ibrahim Bako",
+					"role": "sent to arrest the President"
+				}
+			],
+			"killed": [
+				{
+					"name": "Ibrahim Bako",
+					"role": "Brigadier, killed by the President’s guards"
+				}
+			],
+			"text": "Officers ended the Second Republic on the last night of 1983. Shagari’s guards had been warned and fought back; Brigadier Bako, sent to arrest him, was killed. Buhari, like Shagari a Fulani from the North, became head of state.",
+			"moments": [
+				{
+					"when": "December 1983",
+					"title": "The plot reaches Jos",
+					"text": "According to Sambo Dasuki, plotters travel to Jos to brief Buhari, then commanding the 3rd Armoured Division. Buhari has denied any part in it.",
+					"at": {
+						"name": "Jos",
+						"point": [
+							8.89,
+							9.92
+						]
+					},
+					"mark": "camp"
+				},
+				{
+					"when": "31 December 1983",
+					"title": "Firefight at the President’s villa",
+					"text": "Brigadier Bako arrives to arrest Shagari, but the Brigade of Guards had been warned. In the firefight Bako is killed.",
+					"mark": "battle"
+				},
+				{
+					"when": "31 December 1983",
+					"title": "Buhari in power",
+					"text": "The Supreme Military Council returns, with Buhari as head of state and Idiagbon as his deputy.",
+					"at": {
+						"name": "Lagos",
+						"point": [
+							3.39,
+							6.45
+						]
+					},
+					"mark": "founded"
+				}
+			],
+			"sources": [
+				"wikipedia-1983-nigerian-coup-detat",
+				"wikipedia-muhammadu-buhari",
+				"wikipedia-shehu-shagari"
+			],
+			"confidence": "high"
+		},
+		{
+			"id": "aug-1985",
+			"name": "Babangida’s palace coup",
+			"date": "27 August 1985",
+			"year": 1985,
+			"outcome": "seized",
+			"fell": {
+				"name": "Muhammadu Buhari",
+				"role": "Head of State",
+				"group": "fulani"
+			},
+			"rose": {
+				"name": "Ibrahim Babangida",
+				"role": "Military President",
+				"group": "hausa",
+				"groupNote": "His people are disputed: Hausa by his own account, Gbagyi by others."
+			},
+			"plotters": [
+				{
+					"name": "Ibrahim Babangida",
+					"role": "Chief of Army Staff",
+					"group": "hausa"
+				}
+			],
+			"killed": [],
+			"text": "Babangida, Buhari’s own army chief, overthrew him from inside the regime, promising to fix the economy. Buhari was held in Benin City until 1988. Babangida called himself President and ruled through an Armed Forces Ruling Council, surviving coup attempts in 1986 and 1990.",
+			"moments": [
+				{
+					"when": "27 August 1985",
+					"title": "Babangida takes over",
+					"text": "Mid-level officers led by the Chief of Army Staff remove Buhari; the Supreme Military Council becomes the Armed Forces Ruling Council.",
+					"at": {
+						"name": "Lagos",
+						"point": [
+							3.39,
+							6.45
+						]
+					},
+					"mark": "founded"
+				},
+				{
+					"when": "1985–1988",
+					"title": "Buhari detained",
+					"text": "The fallen head of state is held in Benin City until 1988.",
+					"at": {
+						"name": "Benin City",
+						"point": [
+							5.63,
+							6.34
+						]
+					},
+					"mark": "captured"
+				}
+			],
+			"sources": [
+				"wikipedia-1985-nigerian-coup-detat",
+				"wikipedia-ibrahim-babangida"
+			],
+			"confidence": "high"
+		},
+		{
+			"id": "apr-1990",
+			"name": "The Orkar coup attempt",
+			"date": "22 April 1990",
+			"year": 1990,
+			"outcome": "failed",
+			"fell": {
+				"name": "Ibrahim Babangida",
+				"role": "Military President, the target, who escaped",
+				"group": "hausa"
+			},
+			"plotters": [
+				{
+					"name": "Gideon Orkar",
+					"role": "Major, who read the broadcast",
+					"group": "tiv",
+					"groupNote": "Of Tiv heritage, from Apir near Makurdi."
+				},
+				{
+					"name": "Anthony Nyiam",
+					"role": "one of the plot’s real leaders, by the trial evidence"
+				},
+				{
+					"name": "Saliba Mukoro",
+					"role": "one of the plot’s real leaders"
+				},
+				{
+					"name": "Cyril Obahor",
+					"role": "one of the plot’s real leaders"
+				},
+				{
+					"name": "Great Ogboru",
+					"role": "businessman, the main financier"
+				}
+			],
+			"killed": [
+				{
+					"name": "Gideon Orkar and 41 others",
+					"role": "executed by firing squad, 27 July 1990"
+				}
+			],
+			"text": "Officers speaking for the Niger Delta and the South attacked Dodan Barracks while Babangida was inside; he escaped by a back route. Their broadcast did more than end the regime: it announced the “excision” of five far-Northern states from Nigeria. Northern officers rallied to the government, the coup failed, and with the shoot-outs and executions it was the bloodiest in Nigeria’s history.",
+			"moments": [
+				{
+					"when": "22 April, before dawn",
+					"title": "Dodan Barracks attacked",
+					"text": "Rebels seize army headquarters and storm the presidential residence. Babangida escapes by a back route.",
+					"at": {
+						"name": "Dodan Barracks, Lagos",
+						"point": [
+							3.415,
+							6.44
+						]
+					},
+					"mark": "battle"
+				},
+				{
+					"when": "22 April, about 4 a.m.",
+					"title": "The broadcast",
+					"text": "On Radio Nigeria Orkar accuses Babangida of planning to rule for life and the North of marginalising the Delta, and declares Bauchi, Borno, Katsina, Kano and Sokoto cut off from Nigeria.",
+					"at": {
+						"name": "Radio Nigeria, Lagos",
+						"point": [
+							3.43,
+							6.465
+						]
+					},
+					"mark": "garrison"
+				},
+				{
+					"when": "27 July 1990",
+					"title": "The executions",
+					"text": "Orkar and 41 others are executed by firing squad.",
+					"at": {
+						"name": "Lagos",
+						"point": [
+							3.39,
+							6.45
+						]
+					},
+					"mark": "massacre"
+				}
+			],
+			"area": {
+				"states": [
+					"bauchi",
+					"gombe",
+					"borno",
+					"yobe",
+					"kano",
+					"jigawa",
+					"sokoto",
+					"kebbi",
+					"zamfara",
+					"katsina"
+				]
+			},
+			"areaLabel": "The five states the broadcast “excised” (as drawn in 1990, now ten)",
+			"sources": [
+				"wikipedia-1990-nigerian-coup-attempt",
+				"wikipedia-gideon-orkar"
+			],
+			"confidence": "high"
+		},
+		{
+			"id": "nov-1993",
+			"name": "Abacha takes over",
+			"date": "17 November 1993",
+			"year": 1993,
+			"outcome": "bloodless",
+			"fell": {
+				"name": "Ernest Shonekan",
+				"role": "Interim President, forced to resign",
+				"group": "yoruba"
+			},
+			"rose": {
+				"name": "Sani Abacha",
+				"role": "Head of State",
+				"group": "kanuri"
+			},
+			"plotters": [
+				{
+					"name": "Sani Abacha",
+					"role": "Defence Minister",
+					"group": "kanuri"
+				}
+			],
+			"killed": [],
+			"text": "After Babangida annulled the June 1993 election, which Abiola, a Yoruba, had won, he left an interim government under Shonekan, another Yoruba. Within three months Abacha forced Shonekan out. He placed his rule above the courts and held power until his death in Abuja in June 1998.",
+			"moments": [
+				{
+					"when": "17 November 1993",
+					"title": "Shonekan out",
+					"text": "The Defence Minister, Abacha, forces the Interim President to resign and takes power.",
+					"at": {
+						"name": "Abuja",
+						"point": [
+							7.49,
+							9.06
+						]
+					},
+					"mark": "founded"
+				},
+				{
+					"when": "8 June 1998",
+					"title": "Abacha dies in office",
+					"text": "Abacha dies at the presidential villa; Abdulsalami Abubakar succeeds him and hands power to an elected government in 1999.",
+					"at": {
+						"name": "Aso Villa, Abuja",
+						"point": [
+							7.53,
+							9.08
+						]
+					},
+					"mark": "shrine"
+				}
+			],
+			"sources": [
+				"wikipedia-1993-nigerian-coup-detat",
+				"wikipedia-sani-abacha"
+			],
+			"confidence": "high"
+		}
+	]
+}

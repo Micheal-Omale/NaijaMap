@@ -1,0 +1,54 @@
+{
+	"name": "The Ijaye war",
+	"status": "draft",
+	"kind": "war",
+	"year": 1860,
+	"yearLabel": "1860–1862",
+	"until": 1870,
+	"actors": [
+		{ "name": "Ibadan (Balogun Ibikunle, Otun Ogunmola)", "polity": "ibadan", "side": "attacker" },
+		{ "name": "Alaafin Adelu of Oyo", "side": "ally" },
+		{ "name": "Ijaye (Are Kurunmi)", "side": "defender" },
+		{ "name": "Egba of Abeokuta", "polity": "egba", "side": "ally" }
+	],
+	"summary": {
+		"text": "After Old Oyo fell, refugee warlords built new military towns. At Ijaye, Kurunmi, the Are-Ona-Kakanfo (field marshal) of the Yoruba, ruled as a near-dictator. Ibadan, the other rising power, wanted to be the only one. The spark was the estate of a rich woman named Abu, who died without a will at Ijanna, a town under Ijaye. Her property was due to the new Alaafin, Adelu, but Kurunmi’s men seized his messengers, and Adelu asked Ibadan to make war. On 10 April 1860 Ibadan’s Balogun Ibikunle declared it. Egba, Ijebu and Ilorin sided with Ijaye against Ibadan. Ogunmola cut Ijaye’s food supply, five of Kurunmi’s sons were killed, and Kurunmi himself died in June 1861. Ijaye fell on 17 March 1862 and was destroyed. Its people scattered to Abeokuta, Ibadan, Oyo and Lagos, and the town was only resettled in 1895.",
+		"sources": ["wikipedia-ijaye", "wikipedia-yoruba-wars", "johnson-1921"],
+		"confidence": "high"
+	},
+	"routes": [
+		{ "kind": "advance", "by": "Ibadan (Balogun Ibikunle, Otun Ogunmola)", "path": [[3.9, 7.38], [3.86, 7.5], [3.852, 7.628]], "label": "Ibadan marches on Ijaye", "when": "April 1860", "sources": ["wikipedia-ijaye"], "confidence": "high" },
+		{ "kind": "alliance", "by": "Egba of Abeokuta", "path": [[3.35, 7.15], [3.6, 7.45], [3.852, 7.628]], "label": "The Egba come to Ijaye’s aid", "sources": ["wikipedia-ijaye"], "confidence": "high" },
+		{ "kind": "exile", "by": "Ijaye (Are Kurunmi)", "path": [[3.852, 7.628], [3.6, 7.4], [3.35, 7.15]], "label": "Abogunrin and the Ijaye chiefs flee to Abeokuta, to Ago Ijaye", "when": "March 1862", "sources": ["wikipedia-ijaye"], "confidence": "high" }
+	],
+	"moments": [
+		{
+			"when": "10 April 1860",
+			"title": "Ibadan raises the standard of war",
+			"text": "At the Ibadan council, Balogun Ibikunle declares war on Kurunmi at the Alaafin’s request.",
+			"at": { "name": "Ibadan", "point": [3.9, 7.38] },
+			"mark": "treaty",
+			"sources": ["wikipedia-ijaye"]
+		},
+		{
+			"when": "June 1861",
+			"title": "Kurunmi dies",
+			"text": "With his food cut off by Ogunmola and five of his sons killed, Kurunmi dies and is buried in secret. His slave chief Abogunrin takes command.",
+			"at": { "name": "Ijaye", "point": [3.852, 7.628] },
+			"mark": "camp",
+			"sources": ["wikipedia-ijaye"]
+		},
+		{
+			"when": "17 March 1862",
+			"title": "Ijaye falls",
+			"text": "Ibadan takes and destroys Ijaye. In revenge the Egba and Ijebu seize Remo towns (Ijebu takes Iperu and the Egba take Makun) and close Ibadan’s roads to the coast.",
+			"at": { "name": "Ijaye", "point": [3.852, 7.628] },
+			"mark": "burned",
+			"sources": ["wikipedia-ijaye"]
+		}
+	],
+	"area": { "lgas": ["oyo-akinyele", "oyo-ido", "ogun-odeda"] },
+	"sources": ["wikipedia-ijaye", "wikipedia-yoruba-wars", "johnson-1921"],
+	"confidence": "high",
+	"note": "Ijaye is drawn at Orile Ijaye, the town resettled in 1895 on the old site."
+}

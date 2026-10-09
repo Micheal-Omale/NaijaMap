@@ -186,8 +186,8 @@
 	},
 	{
 		"id": "owner-2026-10-06",
-		"title": "Local knowledge from the NiajMap owner: Anambra West, Ifeku and Ilushi are Igala speaking, and most people in those communities are Igala",
-		"author": "NiajMap owner",
+		"title": "Local knowledge from the HistoNaija owner: Anambra West, Ifeku and Ilushi are Igala speaking, and most people in those communities are Igala",
+		"author": "HistoNaija owner",
 		"year": 2026,
 		"kind": "testimony",
 		"accessed": "2026-10-06",
@@ -214,8 +214,8 @@
 	},
 	{
 		"id": "owner-2026-10-06-lokoja",
-		"title": "Local knowledge from the NiajMap owner: the Igala population in Lokoja is large; the Igala are historical traders and the largest group in Kogi State",
-		"author": "NiajMap owner",
+		"title": "Local knowledge from the HistoNaija owner: the Igala population in Lokoja is large; the Igala are historical traders and the largest group in Kogi State",
+		"author": "HistoNaija owner",
 		"year": 2026,
 		"kind": "testimony",
 		"accessed": "2026-10-06",
@@ -389,8 +389,8 @@
 	},
 	{
 		"id": "owner-2026-10-06-lokoja-fishermen",
-		"title": "Local knowledge from the NiajMap owner: indigenous Igala fishermen lived at Lokoja when the Attah leased the land to the British; no one in Lokoja should be described as settled",
-		"author": "NiajMap owner",
+		"title": "Local knowledge from the HistoNaija owner: indigenous Igala fishermen lived at Lokoja when the Attah leased the land to the British; no one in Lokoja should be described as settled",
+		"author": "HistoNaija owner",
 		"year": 2026,
 		"kind": "testimony",
 		"accessed": "2026-10-06",
@@ -398,8 +398,8 @@
 	},
 	{
 		"id": "owner-2026-10-06-nzam",
-		"title": "Local knowledge from the NiajMap owner: Nzam, headquarters of Anambra West, is home to indigenous Igala speakers",
-		"author": "NiajMap owner",
+		"title": "Local knowledge from the HistoNaija owner: Nzam, headquarters of Anambra West, is home to indigenous Igala speakers",
+		"author": "HistoNaija owner",
 		"year": 2026,
 		"kind": "testimony",
 		"accessed": "2026-10-06",
@@ -456,8 +456,8 @@
 	},
 	{
 		"id": "owner-2026-10-06-benue",
-		"title": "Local knowledge from the NiajMap owner: there are Igala in Benue State, as a minority",
-		"author": "NiajMap owner",
+		"title": "Local knowledge from the HistoNaija owner: there are Igala in Benue State, as a minority",
+		"author": "HistoNaija owner",
 		"year": 2026,
 		"kind": "testimony",
 		"accessed": "2026-10-06",
@@ -2050,11 +2050,30 @@
 	},
 	{
 		"id": "owner-2026-10-06-ette",
-		"title": "Local knowledge from the NiajMap owner: Ette (Etteh) in Igbo-Eze North speaks Igala, and some of its people speak Idoma",
-		"author": "NiajMap owner",
+		"title": "Local knowledge from the HistoNaija owner: Ette (Etteh) in Igbo-Eze North speaks Igala, and some of its people speak Idoma",
+		"author": "HistoNaija owner",
 		"year": 2026,
 		"kind": "testimony",
 		"accessed": "2026-10-06",
+		"checked": true
+	},
+	{
+		"id": "owner-2026-10-07-ette",
+		"title": "Local knowledge from the HistoNaija owner: Etteh is ruled by an Igala king, its people are mostly Igala and Idoma, and Igbo settlement there is small",
+		"author": "HistoNaija owner",
+		"year": 2026,
+		"kind": "testimony",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "chukwudi-opone-2024-eteh",
+		"title": "Eteh in Pre-Colonial Nigeria: Origin and Social History. Abraka Journal of Humanities, Law & Social Sciences 1 (1): 21-30",
+		"author": "Chukwudi, Usman; Opone, Paul Oshagwu",
+		"year": 2024,
+		"url": "https://gagdm.com/index.php/AJHLSSFOADELSU/article/download/20/17",
+		"kind": "article",
+		"accessed": "2026-10-07",
 		"checked": true
 	},
 	{
@@ -2204,8 +2223,8 @@
 	},
 	{
 		"id": "owner-2026-10-06-ifeku",
-		"title": "Local knowledge from the NiajMap owner: the Ifeku communities are located in Etsako East and Etsako Central",
-		"author": "NiajMap owner",
+		"title": "Local knowledge from the HistoNaija owner: the Ifeku communities are located in Etsako East and Etsako Central",
+		"author": "HistoNaija owner",
 		"year": 2026,
 		"kind": "testimony",
 		"accessed": "2026-10-06",
@@ -2213,8 +2232,8 @@
 	},
 	{
 		"id": "owner-2026-10-06-umuebu",
-		"title": "Local knowledge from the NiajMap owner: Umuebu (Ukwuani) no longer speaks Igala",
-		"author": "NiajMap owner",
+		"title": "Local knowledge from the HistoNaija owner: Umuebu (Ukwuani) no longer speaks Igala",
+		"author": "HistoNaija owner",
 		"year": 2026,
 		"kind": "testimony",
 		"accessed": "2026-10-06",
@@ -2261,8 +2280,8 @@
 	},
 	{
 		"id": "owner-2026-10-06-egbema",
-		"title": "Local knowledge from the NiajMap owner: the Egbema of Rivers and of Imo are the same people",
-		"author": "NiajMap owner",
+		"title": "Local knowledge from the HistoNaija owner: the Egbema of Rivers and of Imo are the same people",
+		"author": "HistoNaija owner",
 		"year": 2026,
 		"kind": "testimony",
 		"accessed": "2026-10-06",
@@ -4258,5 +4277,5711 @@
 		"publisher": "Cambridge University Press",
 		"kind": "book",
 		"checked": false
+	},
+	{
+		"id": "yusufu-2020",
+		"title": "Historicizing the Myriad of Traditions on the Origin of Igala of Central Nigeria. FUWukari Journal of Politics and Development 4(2): 87–99",
+		"author": "Yusufu, Abdullahi Musa",
+		"year": 2020,
+		"url": "https://www.fuwjpd.com.ng/download-pdf-article/82",
+		"kind": "article",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "sargent-1999",
+		"title": "Politics and Economy in the Benue Basin c. 1300–1700 (cited in Yusufu 2020 for the two Idah dynasties and the Abutu-Eje date of c. 1630)",
+		"author": "Sargent, R. A.",
+		"year": 1999,
+		"kind": "book",
+		"checked": false
+	},
+	{
+		"id": "clifford-1936",
+		"title": "A Nigerian Chiefdom: Some Notes on the Igala Tribe in Southern Nigeria and Their \"Divine King\". Journal of the Royal African Society 35 (cited in Yusufu 2020 for the Jukun tradition of Abutu-Eje)",
+		"author": "Clifford, Miles",
+		"year": 1936,
+		"kind": "article",
+		"checked": false
+	},
+	{
+		"id": "wikipedia-igala-benin-war",
+		"title": "Igala–Benin War",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Igala%E2%80%93Benin_War",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "dailytrust-2022-igala-enugu",
+		"title": "Igala footprints in Enugu",
+		"author": "Daily Trust",
+		"year": 2022,
+		"url": "https://dailytrust.com/igala-footprints-in-enugu/",
+		"kind": "news",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "dailytrust-2017-igala-enugu",
+		"title": "500 years of Igalas in Enugu",
+		"author": "Daily Trust",
+		"year": 2017,
+		"url": "https://dailytrust.com/500-years-of-igalas-in-enugu/",
+		"kind": "news",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "igala-colonisation-northern-igbo",
+		"title": "Igala Colonisation of Northern Igbo States (1450–18th century)",
+		"author": "Igala Project (author not named in the copy seen)",
+		"year": 2017,
+		"url": "https://www.researchgate.net/publication/319687582_IGALA_COLONISATION_OF_NORTHERN_IGBO_STATES_1450-18th_century",
+		"kind": "article",
+		"accessed": "2026-10-07",
+		"checked": false
+	},
+	{
+		"id": "lasttribes-igala",
+		"title": "Igala (tribal profile: extent at its height, vassals at Panda, Igu and Kakanda, the Tsoede tradition)",
+		"author": "101 Last Tribes",
+		"url": "https://www.101lasttribes.com/tribes/igala.html",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": false
+	},
+	{
+		"id": "wikipedia-illah",
+		"title": "Illah",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Illah",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-princess-inikpi",
+		"title": "Princess Inikpi",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Princess_Inikpi",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": false
+	},
+	{
+		"id": "owner-2026-10-07-igala-history",
+		"title": "Local knowledge from the HistoNaija owner: the Igala-Mela and the Igala Ogba group lived at Idah before Abutu-Eje consolidated the kingdom; Asaba and some Benin groups trace Igala ancestry",
+		"author": "HistoNaija owner",
+		"year": 2026,
+		"kind": "testimony",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "owner-2026-10-07-doc1",
+		"title": "Owner's notes on the reach of Igala, Benin, Oyo and Aro, the British conquests, and migrations (hintsPrompts/doc1.md)",
+		"author": "HistoNaija owner",
+		"year": 2026,
+		"kind": "testimony",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "shaibu-2024",
+		"title": "Warfares and Weaponry of Pre-Colonial Igala Land 1500–1900: A Historical Analysis",
+		"author": "Shaibu, Margaret Aladi",
+		"year": 2024,
+		"publisher": "NIU Journal of Humanities 9(3): 49–63",
+		"url": "https://www.kampalajournals.ac.ug/ojs/index.php/niuhums/article/download/1951/2730",
+		"kind": "article",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "abdullahi-2016",
+		"title": "Colonial Administration and the Re-organization of Igala Pre-colonial Political System",
+		"author": "Abdullahi, Musa Yusufu",
+		"year": 2016,
+		"publisher": "Journal of Sustainable Development in Africa 18(3)",
+		"url": "https://www.jsd-africa.com/Jsda/Vol18No3-Summer%2016/PDFs/COLONIAL%20ADMINISTRATION%20AND%20THE%20RE.pdf",
+		"kind": "article",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "shelton-1971",
+		"title": "The Igbo-Igala Borderland: Religion and Social Control in Indigenous African Colonialism",
+		"author": "Shelton, Austin J.",
+		"year": 1971,
+		"publisher": "State University of New York Press, Albany",
+		"kind": "book",
+		"checked": false
+	},
+	{
+		"id": "meek-1930",
+		"title": "An Ethnographical Report on the Peoples of Nsukka Division, Onitsha Province",
+		"author": "Meek, C. K.",
+		"year": 1930,
+		"publisher": "Government of Nigeria, Lagos",
+		"kind": "book",
+		"checked": false
+	},
+	{
+		"id": "ukwedeh-2003",
+		"title": "History of the Igala Kingdom c. 1534–1854: A Study of Political and Cultural Integration in the Niger–Benue Confluence Area of Nigeria",
+		"author": "Ukwedeh, J. N.",
+		"year": 2003,
+		"publisher": "Arewa House, Ahmadu Bello University, Kaduna",
+		"kind": "book",
+		"checked": false
+	},
+	{
+		"id": "james-2017-igala",
+		"title": "A brief history of the Igala kingdom, part 3",
+		"author": "James, Favor Ojochegbe",
+		"year": 2017,
+		"publisher": "Nigeria Tribal Languages (blog)",
+		"url": "https://nigeriatriballanguages.blogspot.com/2017/06/a-brief-history-of-igala-kingdom-part-3.html",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "okopi-idoma-timeline",
+		"title": "Timeline of Idoma History (from pre-history to 1960)",
+		"author": "Okopi, Jonathan",
+		"publisher": "Opinion Nigeria",
+		"url": "https://www.opinionnigeria.com/timeline-of-idoma-history-from-pre-history-to-1960-by-okopi-jonathan/",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "kogireports-igalaland",
+		"title": "Igalaland: past, present and future",
+		"publisher": "Kogi Reports",
+		"url": "https://kogireports.com/igalaland-past-present-and-future/",
+		"kind": "news",
+		"accessed": "2026-10-07",
+		"checked": false
+	},
+	{
+		"id": "hansard-1880-onitsha",
+		"title": "Africa (West Coast): bombardment of Onitsha. House of Commons debate, 12 February 1880",
+		"author": "UK Parliament (Hansard)",
+		"year": 1880,
+		"url": "https://api.parliament.uk/historic-hansard/commons/1880/feb/12/africa-west-coast-bombardment-of-onitsha",
+		"kind": "reference",
+		"accessed": "2026-10-07",
+		"checked": false
+	},
+	{
+		"id": "hansard-1897-benin",
+		"title": "Benin Expedition. House of Commons debate, 22 February 1897",
+		"author": "UK Parliament (Hansard)",
+		"year": 1897,
+		"url": "https://hansard.parliament.uk/Commons/1897-02-22/debates/81c51e85-4bce-4a1d-975e-5194845ea04a/BeninExpedition",
+		"kind": "reference",
+		"accessed": "2026-10-07",
+		"checked": false
+	},
+	{
+		"id": "artic-benin-conquest",
+		"title": "The British conquest of Benin and the Oba's return",
+		"author": "Art Institute of Chicago",
+		"url": "https://archive.artic.edu/benin/conquest/",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": false
+	},
+	{
+		"id": "wikipedia-benin-expedition-1897",
+		"title": "Benin Expedition of 1897",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Benin_Expedition_of_1897",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-general-ologbosere",
+		"title": "General Ologbosere",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/General_Ologbosere",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": false
+	},
+	{
+		"id": "wikipedia-eweka-ii",
+		"title": "Eweka II",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Eweka_II",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": false
+	},
+	{
+		"id": "wikipedia-ovonramwen",
+		"title": "Ovonramwen",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ovonramwen",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": false
+	},
+	{
+		"id": "wikipedia-arochukwu",
+		"title": "Arochukwu",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Arochukwu",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-anglo-aro-war",
+		"title": "Anglo-Aro war",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Anglo-Aro_war",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-onitsha",
+		"title": "Onitsha",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Onitsha",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-orhogbua",
+		"title": "Orhogbua",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Orhogbua",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": false
+	},
+	{
+		"id": "wikipedia-history-of-lagos",
+		"title": "History of Lagos",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/History_of_Lagos",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": false
+	},
+	{
+		"id": "wikipedia-agaja",
+		"title": "Agaja",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Agaja",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": false
+	},
+	{
+		"id": "wikipedia-reduction-of-lagos",
+		"title": "Reduction of Lagos",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Reduction_of_Lagos",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": false
+	},
+	{
+		"id": "wikipedia-jaja-of-opobo",
+		"title": "Jaja of Opobo",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Jaja_of_Opobo",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": false
+	},
+	{
+		"id": "wikipedia-nana-olomu",
+		"title": "Nana Olomu",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Nana_Olomu",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": false
+	},
+	{
+		"id": "wikipedia-akassa-raid",
+		"title": "Akassa raid",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Akassa_raid",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": false
+	},
+	{
+		"id": "wikipedia-anglo-ijebu-war",
+		"title": "Anglo-Ijebu War",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Anglo-Ijebu_War",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": false
+	},
+	{
+		"id": "wikipedia-royal-niger-company",
+		"title": "Royal Niger Company",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Royal_Niger_Company",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": false
+	},
+	{
+		"id": "wikipedia-battle-of-sokoto",
+		"title": "Battle of Sokoto",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Battle_of_Sokoto",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": false
+	},
+	{
+		"id": "wikipedia-battle-of-burmi",
+		"title": "Battle of Burmi",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Battle_of_Burmi",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": false
+	},
+	{
+		"id": "wikipedia-afonja",
+		"title": "Afonja",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Afonja",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": false
+	},
+	{
+		"id": "wikipedia-tsoede",
+		"title": "Tsoede",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Tsoede",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": false
+	},
+	{
+		"id": "wikipedia-aro-people",
+		"title": "Aro people (table of Aro settlements)",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Aro_people",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-arondizuogu",
+		"title": "Arondizuogu",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Arondizuogu",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "aronews-kindreds",
+		"title": "Unity in Diversity: A Great Gain for Arochukwu Kingdom (quoting J. K. Oji, The Kingdom of Arochukwu, on the three kindreds and nineteen villages)",
+		"publisher": "Aro News Online",
+		"url": "https://www.aronewsonline.com/unity-in-diversity-a-great-gain-for-arochukwu-kingdom/",
+		"kind": "news",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "aronews-ndiokolo",
+		"title": "Brief history of Ndiokolo community",
+		"publisher": "Aro News Online",
+		"url": "https://new.aronewsonline.com/brief-history-of-ndiokolo-community/",
+		"kind": "news",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "aronews-ajalli",
+		"title": "A Brief Profile of Ndieni Asa Communities: Ajalli",
+		"publisher": "Aro News Online",
+		"url": "https://www.aronewsonline.com/a-brief-profile-of-ndieni-asa-communities-ajalli/",
+		"kind": "news",
+		"accessed": "2026-10-07",
+		"checked": false
+	},
+	{
+		"id": "nwokeji-2010",
+		"title": "The Slave Trade and Culture in the Bight of Biafra: An African Society in the Atlantic World",
+		"author": "G. Ugo Nwokeji",
+		"year": 2010,
+		"publisher": "Cambridge University Press",
+		"kind": "book",
+		"checked": false
+	},
+	{
+		"id": "wikipedia-bussa-nigeria",
+		"title": "Bussa, Nigeria",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Bussa,_Nigeria",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-borgu-emirate",
+		"title": "Borgu Emirate",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Borgu_Emirate",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": false
+	},
+	{
+		"id": "britannica-borgu",
+		"title": "Borgu (emirate, Nigeria)",
+		"publisher": "Encyclopaedia Britannica",
+		"url": "https://www.britannica.com/place/Borgu-emirate-Nigeria",
+		"kind": "reference",
+		"accessed": "2026-10-07",
+		"checked": false
+	},
+	{
+		"id": "wikipedia-benin-nigeria-border",
+		"title": "Benin–Nigeria border",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Benin%E2%80%93Nigeria_border",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-anglo-french-convention-1889",
+		"title": "Anglo-French Convention of 1889",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Anglo-French_Convention_of_1889",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-dahomey-conquest-of-ketou",
+		"title": "Dahomey conquest of Ketou",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Dahomey_conquest_of_Ketou",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "asiwaju-1976",
+		"title": "Western Yorubaland under European Rule, 1889–1945: A Comparative Analysis of French and British Colonialism",
+		"author": "A. I. Asiwaju",
+		"year": 1976,
+		"publisher": "Longman",
+		"kind": "book",
+		"checked": false
+	},
+	{
+		"id": "wikipedia-niger-nigeria-border",
+		"title": "Niger–Nigeria border",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Niger%E2%80%93Nigeria_border",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "ibs-93",
+		"title": "International Boundary Study No. 93: Niger – Nigeria Boundary",
+		"author": "US Department of State, Office of the Geographer",
+		"year": 1969,
+		"url": "https://library.law.fsu.edu/Digital-Collections/LimitsinSeas/pdf/ibs093.pdf",
+		"kind": "reference",
+		"checked": false
+	},
+	{
+		"id": "wikipedia-konni",
+		"title": "Konni (Hausa state)",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Konni_(Hausa_state)",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-damagaram",
+		"title": "Sultanate of Damagaram",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Sultanate_of_Damagaram",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-maradi",
+		"title": "Maradi, Niger",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Maradi,_Niger",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "paideuma-sokoto-powers",
+		"title": "The Sokoto Caliphate and the European Powers, 1890–1907",
+		"publisher": "Paideuma",
+		"url": "https://journals.ub.uni-frankfurt.de/paideuma/index.php/paideuma/article/download/1061/1203/1578",
+		"kind": "article",
+		"accessed": "2026-10-07",
+		"checked": false
+	},
+	{
+		"id": "idigo-1955",
+		"title": "The History of Aguleri",
+		"author": "M. C. M. Idigo",
+		"year": 1955,
+		"publisher": "Nicholas Printing and Publishing Co., Yaba",
+		"kind": "book",
+		"checked": false
+	},
+	{
+		"id": "meek-1937",
+		"title": "Law and Authority in a Nigerian Tribe: A Study in Indirect Rule",
+		"author": "C. K. Meek",
+		"year": 1937,
+		"publisher": "Oxford University Press",
+		"kind": "book",
+		"checked": false
+	},
+	{
+		"id": "boston-1960",
+		"title": "Notes on contact between the Igala and the Ibo",
+		"author": "J. S. Boston",
+		"year": 1960,
+		"publisher": "Journal of the Historical Society of Nigeria 2 (1)",
+		"kind": "article",
+		"checked": false
+	},
+	{
+		"id": "adojoh-2024",
+		"title": "Examining the Interwoven Relationship Between Igala, Benin, Ika, Urhobo, Isoko and Ijaw (quotes Idigo 1955, Meek 1937 and Boston 1960 on Eri)",
+		"author": "Ayegba Abdullahi Adojoh, Izoduwa Amowie Imasuen, Omede Abdul Solomon and Onucheyo Sunday",
+		"year": 2024,
+		"publisher": "International Journal of Trend in Research and Development 11 (1)",
+		"url": "https://www.ijtrd.com/papers/IJTRD28300.pdf",
+		"kind": "article",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "adojoh-2020",
+		"title": "A Study of Igala Origin: An Evidence-Based Approach",
+		"author": "Ayegba Abdullahi Adojoh",
+		"year": 2020,
+		"publisher": "International Journal of Trend in Research and Development 7 (4)",
+		"url": "https://www.ijtrd.com/papers/IJTRD22272.pdf",
+		"kind": "article",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-eri-king",
+		"title": "Eri (king)",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Eri_(king)",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-aguleri",
+		"title": "Aguleri",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Aguleri",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "owner-2026-10-07-eri",
+		"title": "Local knowledge from the HistoNaija owner: Eri is of Igala origin, according to Prince Michael Idigo of the Aguleri royal family",
+		"kind": "testimony",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-borno-emirate",
+		"title": "Borno Emirate",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Borno_Emirate",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-dikwa-emirate",
+		"title": "Dikwa Emirate",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Dikwa_Emirate",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-rabih",
+		"title": "Rabih az-Zubayr",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Rabih_az-Zubayr",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-fulani-war",
+		"title": "Jihad of Usman dan Fodio (Fulani War)",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Fulani_War",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-usman-dan-fodio",
+		"title": "Usman dan Fodio",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Usman_dan_Fodio",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ijaye",
+		"title": "Ijaye",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ijaye",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-yoruba-wars",
+		"title": "Yoruba Wars",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Yoruba_Wars",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-kiriji-war",
+		"title": "Kiriji War",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Kiriji_War",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ekumeku",
+		"title": "Ekumeku Movement",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ekumeku_Movement",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "igbafe-1971",
+		"title": "Western Ibo Society and its Resistance to British Rule: The Ekumeku Movement 1898–1911",
+		"author": "Philip A. Igbafe",
+		"year": 1971,
+		"publisher": "The Journal of African History 12 (3)",
+		"kind": "article",
+		"checked": false
+	},
+	{
+		"id": "ohadike-1991",
+		"title": "The Ekumeku Movement: Western Igbo Resistance to the British Conquest of Nigeria, 1883–1914",
+		"author": "Don C. Ohadike",
+		"year": 1991,
+		"publisher": "Ohio University Press",
+		"kind": "book",
+		"checked": false
+	},
+	{
+		"id": "neusroom-ekumeku",
+		"title": "This is the story of the Ekumeku Movement",
+		"publisher": "Neusroom",
+		"url": "https://neusroom.com/this-is-the-story-of-the-ekumeku-movement-described-by-chinua-achebe-as-western-igbolands-earliest-and-fiercest-military-clash/",
+		"kind": "news",
+		"accessed": "2026-10-07",
+		"checked": false
+	},
+	{
+		"id": "ozikoro-ahiara",
+		"title": "The Killing of Dr. Stewart and the Brutal Ahiara Expedition of 1905",
+		"publisher": "Ozi Ikòrò",
+		"url": "https://ozikoro.com/the-killing-of-dr-stewart-and-the-brutal-ahiara-expedition-of-1905/",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": false
+	},
+	{
+		"id": "wikipedia-trenchard-nigeria",
+		"title": "Hugh Trenchard in Nigeria",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Hugh_Trenchard_in_Nigeria",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": false
+	},
+	{
+		"id": "lovejoy-hogendorn-1990",
+		"title": "Revolutionary Mahdism and Resistance to Colonial Rule in the Sokoto Caliphate, 1905–6",
+		"author": "Paul E. Lovejoy and J. S. Hogendorn",
+		"year": 1990,
+		"publisher": "The Journal of African History 31 (2)",
+		"url": "https://zenodo.org/records/12574422",
+		"kind": "article",
+		"checked": false
+	},
+	{
+		"id": "smallwars-satiru",
+		"title": "The Satiru Uprising, Nigeria, 1906",
+		"publisher": "Britain’s Small Forgotten Wars",
+		"url": "http://www.britainssmallwars.co.uk/the-satiru-uprising-nigeria-1906.html",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": false
+	},
+	{
+		"id": "humangle-satiru",
+		"title": "Still, There Is Nothing Where Satiru Was (1906–2026)",
+		"publisher": "HumAngle",
+		"url": "https://humanglemedia.com/still-there-is-nothing-where-satiru-was-1906-2026/",
+		"kind": "news",
+		"accessed": "2026-10-07",
+		"checked": false
+	},
+	{
+		"id": "wikipedia-womens-war",
+		"title": "Women’s War",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Women%27s_War",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-abeokuta-womens-revolt",
+		"title": "Abeokuta Women’s Revolt",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Abeokuta_Women%27s_Revolt",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-funmilayo-ransome-kuti",
+		"title": "Funmilayo Ransome-Kuti",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Funmilayo_Ransome-Kuti",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-adubi-war",
+		"title": "Adubi War",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Adubi_War",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-nigerian-civil-war",
+		"title": "Nigerian Civil War",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Nigerian_Civil_War",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-anti-igbo-pogrom-1966",
+		"title": "1966 anti-Igbo pogrom",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/1966_anti-Igbo_pogrom",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-asaba-massacre",
+		"title": "Asaba massacre",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Asaba_massacre",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-midwest-invasion-1967",
+		"title": "Midwest Invasion of 1967",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Midwest_Invasion_of_1967",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-republic-of-benin-1967",
+		"title": "Republic of Benin (1967)",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Republic_of_Benin_(1967)",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-first-invasion-of-onitsha",
+		"title": "First Invasion of Onitsha",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/First_Invasion_of_Onitsha",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-abagana-ambush",
+		"title": "Abagana ambush",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Abagana_ambush",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-invasion-of-port-harcourt",
+		"title": "Invasion of Port Harcourt",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Invasion_of_Port_Harcourt",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-siege-of-owerri",
+		"title": "Siege of Owerri",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Siege_of_Owerri",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-invasion-of-umuahia",
+		"title": "Invasion of Umuahia",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Invasion_of_Umuahia",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-operation-tail-wind",
+		"title": "Operation Tail-Wind",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Operation_Tail-Wind",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-uga-uli",
+		"title": "Uga, Anambra State (the Uli and Uga airstrips)",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Uga,_Anambra_State",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-muhammadu-attahiru-ii",
+		"title": "Muhammadu Attahiru II",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Muhammadu_Attahiru_II",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "vanguard-ekumeku-2019",
+		"title": "Ekumeku war: Why Britain balkanised Anioma land",
+		"author": "Tony Eluemunor",
+		"year": 2019,
+		"publisher": "Vanguard",
+		"url": "https://www.vanguardngr.com/2019/04/ekumeku-war-why-britain-balkanised-anioma-land/",
+		"kind": "news",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "owner-2026-10-07-ekumeku",
+		"title": "Local knowledge from the HistoNaija owner: the Ekumeku was a joint effort of the Igala (Ebu), the Igbo, the Ika and others",
+		"kind": "testimony",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "abbah-2018-igala-fulani",
+		"title": "Igala–Hausa/Fulani Relations (1818–2018): Past, Present and What Future?",
+		"publisher": "Igala Project",
+		"url": "https://www.researchgate.net/publication/323295840_IGALA-HAUSAFULANI_RELATIONS_PAST_PRESENT_AND_WHAT_FUTURE_1818-2018",
+		"kind": "article",
+		"year": 2018,
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "ayegba-2020-summit",
+		"title": "Many kings fell during Usman Danfodio struggle but Attah Igala sat firmly on his throne",
+		"author": "Ayegba A. A.",
+		"year": 2020,
+		"publisher": "Summit Post News",
+		"url": "https://summitnewspaper.wordpress.com/2020/05/05/many-kings-fell-during-usman-danfodio-struggle-but-attah-igala-sat-firmly-on-his-throne/",
+		"kind": "news",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "ntl-igala-part3",
+		"title": "A Brief History of the Igala Kingdom, Part 3",
+		"publisher": "Nigeria Tribal Languages",
+		"url": "https://nigeriatriballanguages.blogspot.com/2017/06/a-brief-history-of-igala-kingdom-part-3.html",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "denwi-2024-bassa",
+		"title": "A Brief History of Bassa Local Government, Kogi State",
+		"author": "Joshua Adunga Denwi",
+		"year": 2024,
+		"url": "https://jeffzeep.wordpress.com/2024/02/17/a-brief-history-of-bassa-local-government-kogi-state/",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "owner-2026-10-07-igu",
+		"title": "Local knowledge from the HistoNaija owner: Igala forces fought and defeated invading jihadist forces at Igu (Koton Karfe)",
+		"kind": "testimony",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "owner-2026-10-07-ife",
+		"title": "Local knowledge from the HistoNaija owner: Ife in Omala should be shown as part of Igala land",
+		"kind": "testimony",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "kperogi-2020",
+		"title": "True Ethnic Origins of Nigeria’s Past Presidents and Heads of State",
+		"author": "Farooq A. Kperogi",
+		"year": 2020,
+		"publisher": "Notes From Atlanta",
+		"url": "https://www.farooqkperogi.com/2020/02/true-ethnic-origins-of-nigerias-past.html",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-abubakar-tafawa-balewa",
+		"title": "Abubakar Tafawa Balewa",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Abubakar_Tafawa_Balewa",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ahmadu-bello",
+		"title": "Ahmadu Bello",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ahmadu_Bello",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-obafemi-awolowo",
+		"title": "Obafemi Awolowo",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Obafemi_Awolowo",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-samuel-akintola",
+		"title": "Samuel Akintola",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Samuel_Akintola",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-nnamdi-azikiwe",
+		"title": "Nnamdi Azikiwe",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Nnamdi_Azikiwe",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-michael-okpara",
+		"title": "Michael Okpara",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Michael_Okpara",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-dennis-osadebay",
+		"title": "Dennis Osadebay",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Dennis_Osadebay",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-johnson-aguiyi-ironsi",
+		"title": "Johnson Aguiyi-Ironsi",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Johnson_Aguiyi-Ironsi",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-yakubu-gowon",
+		"title": "Yakubu Gowon",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Yakubu_Gowon",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-hassan-katsina",
+		"title": "Hassan Katsina",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Hassan_Katsina",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-adekunle-fajuyi",
+		"title": "Adekunle Fajuyi",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Adekunle_Fajuyi",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-robert-adeyinka-adebayo",
+		"title": "Robert Adeyinka Adebayo",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Robert_Adeyinka_Adebayo",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-odumegwu-ojukwu",
+		"title": "Odumegwu Ojukwu",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Odumegwu_Ojukwu",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-david-ejoor",
+		"title": "David Ejoor",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/David_Ejoor",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-samuel-ogbemudia",
+		"title": "Samuel Ogbemudia",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Samuel_Ogbemudia",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-murtala-muhammed",
+		"title": "Murtala Muhammed",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Murtala_Muhammed",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-olusegun-obasanjo",
+		"title": "Olusegun Obasanjo",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Olusegun_Obasanjo",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-shehu-shagari",
+		"title": "Shehu Shagari",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Shehu_Shagari",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-alex-ekwueme",
+		"title": "Alex Ekwueme",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Alex_Ekwueme",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-muhammadu-buhari",
+		"title": "Muhammadu Buhari",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Muhammadu_Buhari",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ibrahim-babangida",
+		"title": "Ibrahim Babangida",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ibrahim_Babangida",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ernest-shonekan",
+		"title": "Ernest Shonekan",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ernest_Shonekan",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-sani-abacha",
+		"title": "Sani Abacha",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Sani_Abacha",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-abdulsalami-abubakar",
+		"title": "Abdulsalami Abubakar",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Abdulsalami_Abubakar",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-umaru-musa-yar-adua",
+		"title": "Umaru Musa Yar’Adua",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Umaru_Musa_Yar%27Adua",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-goodluck-jonathan",
+		"title": "Goodluck Jonathan",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Goodluck_Jonathan",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-bola-tinubu",
+		"title": "Bola Tinubu",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Bola_Tinubu",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-northern-region-nigeria",
+		"title": "Northern Region, Nigeria",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Northern_Region,_Nigeria",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-western-region-nigeria",
+		"title": "Western Region, Nigeria",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Western_Region,_Nigeria",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-eastern-region-nigeria",
+		"title": "Eastern Region, Nigeria",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Eastern_Region,_Nigeria",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-mid-western-region-nigeria",
+		"title": "Mid-Western Region, Nigeria",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Mid-Western_Region,_Nigeria",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-nigerian-first-republic",
+		"title": "Nigerian First Republic",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Nigerian_First_Republic",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-northern-people-s-congress",
+		"title": "Northern People’s Congress",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Northern_People%27s_Congress",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-action-group-nigeria",
+		"title": "Action Group (Nigeria)",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Action_Group_(Nigeria)",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-national-council-of-nigeria-and-the-cameroons",
+		"title": "National Council of Nigeria and the Cameroons",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/National_Council_of_Nigeria_and_the_Cameroons",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-geopolitical-zones-of-nigeria",
+		"title": "Geopolitical zones of Nigeria",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Geopolitical_zones_of_Nigeria",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "worldstatesmen-nigeria-states",
+		"title": "Nigerian States (list of governors and administrators since 1967)",
+		"author": "Cahoon, Ben",
+		"url": "https://www.worldstatesmen.org/Nigeria_federal_states.htm",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "idomavoice-2017-ochefu",
+		"title": "Meet Idoma-born Colonel Anthony Ochefu whose wife founded military's 'Mammy' market",
+		"author": "Idoma Voice",
+		"year": 2017,
+		"url": "https://www.idomavoice.com/2017/01/met-idoma-born-colonel-anthony-ochefu.html",
+		"kind": "web",
+		"accessed": "2026-10-07",
+		"checked": false
+	},
+	{
+		"id": "wikipedia-usman-faruk",
+		"title": "Usman Faruk",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Usman_Faruk",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-north-western-state",
+		"title": "North-Western State",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/North-Western_State",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-abba-kyari-military-officer",
+		"title": "Abba Kyari (military officer)",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Abba_Kyari_(military_officer)",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-audu-bako",
+		"title": "Audu Bako",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Audu_Bako",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-musa-usman",
+		"title": "Musa Usman",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Musa_Usman",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-north-eastern-state",
+		"title": "North-Eastern State",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/North-Eastern_State",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-joseph-gomwalk",
+		"title": "Joseph Gomwalk",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Joseph_Gomwalk",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-benue-plateau-state",
+		"title": "Benue-Plateau State",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Benue-Plateau_State",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-david-bamigboye",
+		"title": "David Bamigboye",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/David_Bamigboye",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-mobolaji-johnson",
+		"title": "Mobolaji Johnson",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Mobolaji_Johnson",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-christopher-oluwole-rotimi",
+		"title": "Christopher Oluwole Rotimi",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Christopher_Oluwole_Rotimi",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-western-state-nigeria",
+		"title": "Western State (Nigeria)",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Western_State_(Nigeria)",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ukpabi-asika",
+		"title": "Ukpabi Asika",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ukpabi_Asika",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-east-central-state",
+		"title": "East Central State",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/East_Central_State",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-udokaha-esuene",
+		"title": "Udokaha Esuene",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Udokaha_Esuene",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-alfred-diete-spiff",
+		"title": "Alfred Diete-Spiff",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Alfred_Diete-Spiff",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-umaru-mohammed",
+		"title": "Umaru Mohammed",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Umaru_Mohammed",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-gado-nasko",
+		"title": "Gado Nasko",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Gado_Nasko",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-murtala-nyako",
+		"title": "Murtala Nyako",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Murtala_Nyako",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ebitu-ukiwe",
+		"title": "Ebitu Ukiwe",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ebitu_Ukiwe",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-joseph-oni",
+		"title": "Joseph Oni",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Joseph_Oni",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-niger-state",
+		"title": "Niger State",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Niger_State",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": false
+	},
+	{
+		"id": "wikipedia-usman-jibrin",
+		"title": "Usman Jibrin",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Usman_Jibrin",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-muktar-muhammed",
+		"title": "Muktar Muhammed",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Muktar_Muhammed",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ibrahim-mahmud-alfa",
+		"title": "Ibrahim Mahmud Alfa",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ibrahim_Mahmud_Alfa",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-sani-bello",
+		"title": "Sani Bello",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Sani_Bello",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ishaya-shekari",
+		"title": "Ishaya Shekari",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ishaya_Shekari",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-mohammed-kaliel",
+		"title": "Mohammed Kaliel",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Mohammed_Kaliel",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-garba-duba",
+		"title": "Garba Duba",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Garba_Duba",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-mustapha-amin",
+		"title": "Mustapha Amin",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Mustapha_Amin",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-tunde-idiagbon",
+		"title": "Tunde Idiagbon",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Tunde_Idiagbon",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-mohammed-jega",
+		"title": "Mohammed Jega",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Mohammed_Jega",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-abdul-rahman-mamudu",
+		"title": "Abdul Rahman Mamudu",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Abdul_Rahman_Mamudu",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-gongola-state",
+		"title": "Gongola State",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Gongola_State",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-abdullahi-mohammed",
+		"title": "Abdullahi Mohammed",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Abdullahi_Mohammed",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-dan-suleiman",
+		"title": "Dan Suleiman",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Dan_Suleiman",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-joshua-anaja",
+		"title": "Joshua Anaja",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Joshua_Anaja",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-abdullahi-shelleng",
+		"title": "Abdullahi Shelleng",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Abdullahi_Shelleng",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-adebayo-lawal",
+		"title": "Adebayo Lawal",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Adebayo_Lawal",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ibrahim-taiwo",
+		"title": "Ibrahim Taiwo",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ibrahim_Taiwo",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-george-agbazika-innih",
+		"title": "George Agbazika Innih",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/George_Agbazika_Innih",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-sunday-ifere",
+		"title": "Sunday Ifere",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Sunday_Ifere",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-adekunle-lawal",
+		"title": "Adekunle Lawal",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Adekunle_Lawal",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ndubuisi-kanu",
+		"title": "Ndubuisi Kanu",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ndubuisi_Kanu",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-saidu-ayodele-balogun",
+		"title": "Saidu Ayodele Balogun",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Saidu_Ayodele_Balogun",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-harris-eghagha",
+		"title": "Harris Eghagha",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Harris_Eghagha",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-akintunde-aduwo",
+		"title": "Akintunde Aduwo",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Akintunde_Aduwo",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-david-jemibewon",
+		"title": "David Jemibewon",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/David_Jemibewon",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-paul-tarfa",
+		"title": "Paul Tarfa",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Paul_Tarfa",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ita-david-ikpeme",
+		"title": "Ita David Ikpeme",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ita_David_Ikpeme",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-sunday-tuoyo",
+		"title": "Sunday Tuoyo",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Sunday_Tuoyo",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-husaini-abdullahi",
+		"title": "Husaini Abdullahi",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Husaini_Abdullahi",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-abubakar-waziri",
+		"title": "Abubakar Waziri",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Abubakar_Waziri",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-bendel-state",
+		"title": "Bendel State",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Bendel_State",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": false
+	},
+	{
+		"id": "wikipedia-anthony-ochefu",
+		"title": "Anthony Ochefu",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Anthony_Ochefu",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-john-kpera",
+		"title": "John Kpera",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/John_Kpera",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-datti-abubakar",
+		"title": "Datti Abubakar",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Datti_Abubakar",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-anambra-state",
+		"title": "Anambra State",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Anambra_State",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": false
+	},
+	{
+		"id": "wikipedia-sunday-ajibade-adenihun",
+		"title": "Sunday Ajibade Adenihun",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Sunday_Ajibade_Adenihun",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-imo-state",
+		"title": "Imo State",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Imo_State",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": false
+	},
+	{
+		"id": "wikipedia-paul-omu",
+		"title": "Paul Omu",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Paul_Omu",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-babatunde-elegbede",
+		"title": "Babatunde Elegbede",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Babatunde_Elegbede",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-zamani-lekwot",
+		"title": "Zamani Lekwot",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Zamani_Lekwot",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-suleiman-saidu",
+		"title": "Suleiman Saidu",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Suleiman_Saidu",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-federal-capital-territory-nigeria",
+		"title": "Federal Capital Territory, Nigeria",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Federal_Capital_Territory,_Nigeria",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": false
+	},
+	{
+		"id": "wikipedia-shehu-kangiwa",
+		"title": "Shehu Kangiwa",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Shehu_Kangiwa",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-garba-nadama",
+		"title": "Garba Nadama",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Garba_Nadama",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-awwal-ibrahim",
+		"title": "Awwal Ibrahim",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Awwal_Ibrahim",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-abdulkadir-balarabe-musa",
+		"title": "Abdulkadir Balarabe Musa",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Abdulkadir_Balarabe_Musa",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-abba-musa-rimi",
+		"title": "Abba Musa Rimi",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Abba_Musa_Rimi",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-lawal-kaita",
+		"title": "Lawal Kaita",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Lawal_Kaita",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-abubakar-rimi",
+		"title": "Abubakar Rimi",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Abubakar_Rimi",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-abdu-dawakin-tofa",
+		"title": "Abdu Dawakin Tofa",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Abdu_Dawakin_Tofa",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-sabo-bakin-zuwo",
+		"title": "Sabo Bakin Zuwo",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Sabo_Bakin_Zuwo",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-tatari-ali",
+		"title": "Tatari Ali",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Tatari_Ali",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-mohammed-goni",
+		"title": "Mohammed Goni",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Mohammed_Goni",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-asheik-jarma",
+		"title": "Asheik Jarma",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Asheik_Jarma",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-abubakar-barde",
+		"title": "Abubakar Barde",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Abubakar_Barde",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-wilberforce-juta",
+		"title": "Wilberforce Juta",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Wilberforce_Juta",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-bamanga-tukur",
+		"title": "Bamanga Tukur",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Bamanga_Tukur",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-solomon-lar",
+		"title": "Solomon Lar",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Solomon_Lar",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-aper-aku",
+		"title": "Aper Aku",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Aper_Aku",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-adamu-atta",
+		"title": "Adamu Atta",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Adamu_Atta",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-cornelius-adebayo",
+		"title": "Cornelius Adebayo",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Cornelius_Adebayo",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-lateef-jakande",
+		"title": "Lateef Jakande",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Lateef_Jakande",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-olabisi-onabanjo",
+		"title": "Olabisi Onabanjo",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Olabisi_Onabanjo",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-bola-ige",
+		"title": "Bola Ige",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Bola_Ige",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-victor-omololu-olunloyo",
+		"title": "Victor Omololu Olunloyo",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Victor_Omololu_Olunloyo",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-michael-adekunle-ajasin",
+		"title": "Michael Adekunle Ajasin",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Michael_Adekunle_Ajasin",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-akin-omoboriowo",
+		"title": "Akin Omoboriowo",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Akin_Omoboriowo",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ambrose-folorunsho-alli",
+		"title": "Ambrose Folorunsho Alli",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ambrose_Folorunsho_Alli",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-jim-nwobodo",
+		"title": "Jim Nwobodo",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Jim_Nwobodo",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-christian-onoh",
+		"title": "Christian Onoh",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Christian_Onoh",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-sam-mbakwe",
+		"title": "Sam Mbakwe",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Sam_Mbakwe",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-clement-isong",
+		"title": "Clement Isong",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Clement_Isong",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-donald-etiebet",
+		"title": "Donald Etiebet",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Donald_Etiebet",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-melford-okilo",
+		"title": "Melford Okilo",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Melford_Okilo",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "owner-2026-10-07-leaders",
+		"title": "Table of the ethnic groups and states of origin of Nigeria’s past leaders, shared by the HistoNaija owner",
+		"author": "HistoNaija owner",
+		"year": 2026,
+		"kind": "testimony",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-1954-nigerian-general-election",
+		"title": "1954 Nigerian general election",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/1954_Nigerian_general_election",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-1959-nigerian-general-election",
+		"title": "1959 Nigerian general election",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/1959_Nigerian_general_election",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-1964-nigerian-general-election",
+		"title": "1964 Nigerian general election",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/1964_Nigerian_general_election",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-1979-nigerian-presidential-election",
+		"title": "1979 Nigerian presidential election",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/1979_Nigerian_presidential_election",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-1983-nigerian-presidential-election",
+		"title": "1983 Nigerian presidential election",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/1983_Nigerian_presidential_election",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-1993-nigerian-presidential-election",
+		"title": "1993 Nigerian presidential election",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/1993_Nigerian_presidential_election",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-1999-nigerian-presidential-election",
+		"title": "1999 Nigerian presidential election",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/1999_Nigerian_presidential_election",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-2015-nigerian-general-election",
+		"title": "2015 Nigerian general election",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/2015_Nigerian_general_election",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-2023-nigerian-presidential-election",
+		"title": "2023 Nigerian presidential election",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/2023_Nigerian_presidential_election",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-national-party-of-nigeria",
+		"title": "National Party of Nigeria",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/National_Party_of_Nigeria",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-nigerian-peoples-party",
+		"title": "Nigerian People's Party",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Nigerian_People's_Party",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-nigerian-national-democratic-party",
+		"title": "Nigerian National Democratic Party",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Nigerian_National_Democratic_Party",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-all-progressives-congress",
+		"title": "All Progressives Congress",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/All_Progressives_Congress",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-moshood-abiola",
+		"title": "Moshood Abiola",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Moshood_Abiola",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-peoples-democratic-party-nigeria",
+		"title": "Peoples Democratic Party (Nigeria)",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Peoples_Democratic_Party_(Nigeria)",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-alliance-for-democracy-nigeria",
+		"title": "Alliance for Democracy (Nigeria)",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Alliance_for_Democracy_(Nigeria)",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-congress-for-progressive-change",
+		"title": "Congress for Progressive Change",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Congress_for_Progressive_Change",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-action-congress-of-nigeria",
+		"title": "Action Congress of Nigeria",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Action_Congress_of_Nigeria",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-all-nigeria-peoples-party",
+		"title": "All Nigeria Peoples Party",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/All_Nigeria_Peoples_Party",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-unity-party-of-nigeria",
+		"title": "Unity Party of Nigeria",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Unity_Party_of_Nigeria",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": false
+	},
+	{
+		"id": "wikipedia-peoples-redemption-party",
+		"title": "People's Redemption Party",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/People's_Redemption_Party",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": false
+	},
+	{
+		"id": "wikipedia-great-nigeria-peoples-party",
+		"title": "Great Nigeria People's Party",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Great_Nigeria_People's_Party",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": false
+	},
+	{
+		"id": "wikipedia-northern-elements-progressive-union",
+		"title": "Northern Elements Progressive Union",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Northern_Elements_Progressive_Union",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": false
+	},
+	{
+		"id": "wikipedia-labour-party-nigeria",
+		"title": "Labour Party (Nigeria)",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Labour_Party_(Nigeria)",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": false
+	},
+	{
+		"id": "wikipedia-new-nigeria-peoples-party",
+		"title": "New Nigeria People's Party",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/New_Nigeria_People's_Party",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": false
+	},
+	{
+		"id": "wikipedia-social-democratic-party-nigeria",
+		"title": "Social Democratic Party (Nigeria)",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Social_Democratic_Party_(Nigeria)",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": false
+	},
+	{
+		"id": "wikipedia-national-republican-convention",
+		"title": "National Republican Convention",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/National_Republican_Convention",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": false
+	},
+	{
+		"id": "wikipedia-1966-nigerian-coup-detat",
+		"title": "1966 Nigerian coup d'état",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/1966_Nigerian_coup_d%27%C3%A9tat",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-1966-nigerian-counter-coup",
+		"title": "1966 Nigerian counter-coup",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/1966_Nigerian_counter-coup",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-1975-nigerian-coup-detat",
+		"title": "1975 Nigerian coup d'état",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/1975_Nigerian_coup_d%27%C3%A9tat",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-1976-nigerian-coup-attempt",
+		"title": "1976 Nigerian coup attempt",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/1976_Nigerian_coup_attempt",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-1983-nigerian-coup-detat",
+		"title": "1983 Nigerian coup d'état",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/1983_Nigerian_coup_d%27%C3%A9tat",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-1985-nigerian-coup-detat",
+		"title": "1985 Nigerian coup d'état",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/1985_Nigerian_coup_d%27%C3%A9tat",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-1990-nigerian-coup-attempt",
+		"title": "1990 Nigerian coup attempt",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/1990_Nigerian_coup_attempt",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-1993-nigerian-coup-detat",
+		"title": "1993 Nigerian coup d'état",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/1993_Nigerian_coup_d%27%C3%A9tat",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-chukwuma-nzeogwu",
+		"title": "Chukwuma Nzeogwu",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Chukwuma_Nzeogwu",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-emmanuel-ifeajuna",
+		"title": "Emmanuel Ifeajuna",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Emmanuel_Ifeajuna",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-bukar-suka-dimka",
+		"title": "Bukar Suka Dimka",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Bukar_Suka_Dimka",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-gideon-orkar",
+		"title": "Gideon Orkar",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Gideon_Orkar",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-unuedegor",
+		"title": "Unuedegor (sections, founding from Egor, Igala settlers from Idah at Ojuwo)",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Unuedegor",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-agenebode",
+		"title": "Agenebode (name from Edo Ago-ni-ba-ode, “camp of the guard”; Uwanno people tracing descent to Benin)",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Agenebode",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "owner-2026-10-07-ojuwo",
+		"title": "Local knowledge from the HistoNaija owner: Unuedegor, and its Ojuwo section in particular, has a historical and resident population of Igala origin",
+		"author": "HistoNaija owner",
+		"year": 2026,
+		"kind": "testimony",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "owner-2026-10-07-agenebode",
+		"title": "Local knowledge from the HistoNaija owner: Agenebode was Igala land before the Igala–Benin war, after which Benin took it",
+		"author": "HistoNaija owner",
+		"year": 2026,
+		"kind": "testimony",
+		"accessed": "2026-10-07",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-berom",
+		"title": "Berom people",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Berom_people",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-08",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-angas",
+		"title": "Angas people",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Angas_people",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-08",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-tarok",
+		"title": "Tarok people",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Tarok_people",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-08",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-afizere",
+		"title": "Afizere",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Afizere",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-08",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ekiti-people",
+		"title": "Ekiti people",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ekiti_people",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-08",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ijesha",
+		"title": "Ijesha",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ijesha",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-08",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ondo-kingdom",
+		"title": "Ondo Kingdom",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ondo_Kingdom",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-08",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-okun-people",
+		"title": "Okun people",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Okun_people",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-08",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-chamba-people",
+		"title": "Chamba people",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Chamba_people",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-08",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-kamwe",
+		"title": "Kamwe people",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Kamwe_people",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-08",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-biu-emirate",
+		"title": "Biu Emirate",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Biu_Emirate",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-08",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-adamawa-emirate",
+		"title": "Adamawa Emirate",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Adamawa_Emirate",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-08",
+		"checked": true
+	},
+	{
+		"id": "kigala-2020-abutu-eje",
+		"title": "Igala History: Àbùtù Ẹ̀jẹ̀ (drawing on R. A. Sargent, Politics, Economics and Social Change in the Benue Basin, 1300–1700, PhD thesis, 1984)",
+		"author": "Kigala",
+		"year": 2020,
+		"url": "https://ki-gala.com/igala-kingship-history",
+		"kind": "web",
+		"accessed": "2026-10-08",
+		"checked": true
+	},
+	{
+		"id": "ochoga-imanah-2022",
+		"title": "A History of the Agila in Ado Local Government Area of Benue State. WuKari International Studies 6 (1)",
+		"author": "Ochoga Edwin Ochoga and Imanah Sunday Omoafena",
+		"year": 2022,
+		"url": "https://wissjournals.com.ng/index.php/wiss/article/download/25/21/21",
+		"kind": "article",
+		"accessed": "2026-10-08",
+		"checked": true
+	},
+	{
+		"id": "owner-2026-10-08-abutu-eje",
+		"title": "Local knowledge from the HistoNaija owner: Abutu-Eje was not a Jukun but the Igala representative at the Wukari court; after a dispute over who would next rule the confederacy he came back to his fellow Igala of the Igala-Ogba and the Igala-Mela",
+		"author": "HistoNaija owner",
+		"year": 2026,
+		"kind": "testimony",
+		"accessed": "2026-10-08",
+		"checked": true
+	},
+	{
+		"id": "owner-2026-10-08-agenebode",
+		"title": "Local knowledge from the HistoNaija owner: before and during the Igala–Benin war Agenebode was Igala land; it was lost when the Igala forces were pushed back after two years of pushing into northern Benin territory",
+		"author": "HistoNaija owner",
+		"year": 2026,
+		"kind": "testimony",
+		"accessed": "2026-10-08",
+		"checked": true
+	},
+	{
+		"id": "owner-2026-10-08-anioma",
+		"title": "Local knowledge from the HistoNaija owner: the Anioma are a fusion of Igala, Igbo, Benin and Olukumi peoples, and together they fought the Ekumeku war; Illah was not founded by the Igala alone",
+		"author": "HistoNaija owner",
+		"year": 2026,
+		"kind": "testimony",
+		"accessed": "2026-10-08",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-olukumi",
+		"title": "Olukumi people",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Olukumi_people",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-08",
+		"checked": true
+	},
+	{
+		"id": "esogbue-2018-anioma-origins",
+		"title": "Anioma Evolved from Different Histories of Origin (interview)",
+		"author": "Emeka Esogbue",
+		"year": 2018,
+		"url": "http://emekaesogbue.blogspot.com/2018/01/anioma-evolved-from-different-histories.html",
+		"kind": "web",
+		"accessed": "2026-10-08",
+		"checked": true
+	},
+	{
+		"id": "esogbue-2023-enuani",
+		"title": "The Enuani: Who Are They?",
+		"author": "Emeka Esogbue",
+		"year": 2023,
+		"url": "http://emekaesogbue.blogspot.com/2023/08/the-enuani-who-are-they.html",
+		"kind": "web",
+		"accessed": "2026-10-08",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-igbuzo",
+		"title": "Igbuzo",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Igbuzo",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-08",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ilorin-emirate",
+		"title": "Ilorin Emirate",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ilorin_Emirate",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-08",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-akure",
+		"title": "Akure",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Akure",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-08",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-asaba",
+		"title": "Asaba",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Asaba",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-08",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-colonial-nigeria",
+		"title": "Colonial Nigeria",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Colonial_Nigeria",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-08",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-gbong-gwom-jos",
+		"title": "Gbong Gwom Jos",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Gbong_Gwom_Jos",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-08",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ginuwa-ii",
+		"title": "Ginuwa II",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ginuwa_II",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-08",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ahebi-ugbabe",
+		"title": "Ahebi Ugbabe",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ahebi_Ugbabe",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-08",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-waawa",
+		"title": "Waawa",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Waawa",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-08",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ojiako-ezenne",
+		"title": "Ojiako Ezenne",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ojiako_Ezenne",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-08",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-nnama",
+		"title": "Nnama",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Nnama",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-08",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-igwegbe-odum",
+		"title": "Igwegbe Odum",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Igwegbe_Odum",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-08",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-iwuchukwu-ezeifekaibeya",
+		"title": "Iwuchukwu Ezeifekaibeya",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Iwuchukwu_Ezeifekaibeya",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-08",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ibanga-akpabio",
+		"title": "Ibanga Akpabio",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ibanga_Akpabio",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-08",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-agho-obaseki",
+		"title": "Agho Obaseki",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Agho_Obaseki",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-08",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-makir-zakpe",
+		"title": "Makir Zakpe",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Makir_Zakpe",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-08",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-eze",
+		"title": "Eze",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Eze",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-08",
+		"checked": true
+	},
+	{
+		"id": "dashu-ahebi",
+		"title": "Ahebi Ugbabe, the Female Leopard of Igboland",
+		"author": "Max Dashu",
+		"url": "https://oldwitch.substack.com/p/ahebi-ugbabe-the-female-leopard-of",
+		"kind": "web",
+		"accessed": "2026-10-08",
+		"checked": true
+	},
+	{
+		"id": "achebe-2011-ahebi",
+		"title": "The Female King of Colonial Nigeria: Ahebi Ugbabe",
+		"author": "Nwando Achebe",
+		"year": 2011,
+		"publisher": "Indiana University Press",
+		"kind": "book",
+		"checked": false
+	},
+	{
+		"id": "obiomah-dore-numa",
+		"title": "Who Was Chief Dore Numa? (from Warri: Land, Overlords & Land Rights)",
+		"author": "D. A. Obiomah",
+		"url": "https://urhobodigitallibrarymuseum.com/who-was-chief-dore-numa/",
+		"kind": "web",
+		"accessed": "2026-10-08",
+		"checked": true
+	},
+	{
+		"id": "itodo-2021-idoma-timeline",
+		"title": "Timeline of important dates and events in Idoma colonial history",
+		"author": "Sunny Green Itodo (Idoma Voice)",
+		"year": 2021,
+		"url": "https://idomavoice.com/timeline-of-important-dates-and-events-in-idoma-colonial-history/",
+		"kind": "news",
+		"accessed": "2026-10-08",
+		"checked": true
+	},
+	{
+		"id": "lasttribes-ebira",
+		"title": "Ebira",
+		"author": "101 Last Tribes",
+		"url": "https://www.101lasttribes.com/tribes/ebira.html",
+		"kind": "web",
+		"accessed": "2026-10-08",
+		"checked": true
+	},
+	{
+		"id": "owner-2026-10-08-ochidoma",
+		"title": "Notes passed on by the HistoNaija owner: the first Och’Idoma, Agabaidu Ogiri Oko, of a lineage claiming Igala descent, went to Idah and was crowned and given his staff by the Attah Igala, who beaded only rulers of Igala royal blood",
+		"author": "HistoNaija owner",
+		"year": 2026,
+		"kind": "testimony",
+		"accessed": "2026-10-08",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-bight-of-biafra",
+		"title": "Bight of Biafra",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Bight_of_Biafra",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-08",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-william-balfour-baikie",
+		"title": "William Balfour Baikie",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/William_Balfour_Baikie",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-08",
+		"checked": true
+	},
+	{
+		"id": "encyclopedia-baikie",
+		"title": "William Balfour Baikie. Encyclopedia of World Biography",
+		"url": "https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/william-balfour-baikie",
+		"kind": "reference",
+		"accessed": "2026-10-08",
+		"checked": true
+	},
+	{
+		"id": "ebsco-portuguese-foothold",
+		"title": "Portuguese Establish a Foothold in Africa. EBSCO Research Starters",
+		"url": "https://www.ebsco.com/research-starters/history/portuguese-establish-foothold-africa/",
+		"kind": "reference",
+		"accessed": "2026-10-08",
+		"checked": true
+	},
+	{
+		"id": "baikie-1856",
+		"title": "Narrative of an Exploring Voyage up the Rivers Kwora and Binue, commonly known as the Niger and Tsadda, in 1854",
+		"author": "William Balfour Baikie",
+		"year": 1856,
+		"publisher": "John Murray, London",
+		"kind": "book",
+		"checked": false
+	},
+	{
+		"id": "apata-2003-ogidi",
+		"title": "The Nupe Imperialism and the Ogidi Grand Alliance 1894–1897: Reflections of Ekitiparapo War. In Adeagbo Akinjogbin (ed.), War and Peace in Yorubaland 1793–1893, pp. 431–437",
+		"author": "Apata, Z. O.",
+		"year": 2003,
+		"publisher": "Heinemann Educational Books Nigeria, Ibadan",
+		"kind": "book",
+		"checked": false
+	},
+	{
+		"id": "nupe-akokoland-2018",
+		"title": "Nupe Hegemony in Akokoland in the Nineteenth Century. Research in Social Sciences 1 (1), pp. 1–8",
+		"year": 2018,
+		"publisher": "Academic Publishing Group",
+		"url": "https://pdfs.semanticscholar.org/bae8/83fabfaaa7e0ac0e58e3a69d0be67df01e2a.pdf",
+		"kind": "article",
+		"accessed": "2026-10-08",
+		"checked": true
+	},
+	{
+		"id": "cjhi-nupe-okun",
+		"title": "Indigenous Colonialism in North-Central Nigeria: A Focus on Nupe Over-Rule in Okun Land, c. 1847–1897",
+		"url": "https://cjhiafulokoja.com/indigenous-colonialism-in-north-central-nigeria-a-focus-on-nupe-over-rule-in-okun-land-c-1847-1897/",
+		"kind": "article",
+		"accessed": "2026-10-08",
+		"checked": true
+	},
+	{
+		"id": "smith-1989-warfare",
+		"title": "Warfare and Diplomacy in Pre-colonial West Africa (2nd edition)",
+		"author": "Smith, Robert S.",
+		"year": 1989,
+		"publisher": "University of Wisconsin Press",
+		"kind": "book",
+		"checked": false
+	},
+	{
+		"id": "law-1980-horse",
+		"title": "The Horse in West African History: The Role of the Horse in the Societies of Pre-colonial West Africa",
+		"author": "Law, Robin",
+		"year": 1980,
+		"publisher": "Oxford University Press for the International African Institute",
+		"kind": "book",
+		"checked": false
+	},
+	{
+		"id": "thornton-1999",
+		"title": "Warfare in Atlantic Africa, 1500–1800",
+		"author": "Thornton, John K.",
+		"year": 1999,
+		"publisher": "UCL Press",
+		"kind": "book",
+		"checked": false
+	},
+	{
+		"id": "palmer-1908-kano-chronicle",
+		"title": "The Kano Chronicle",
+		"author": "Palmer, H. R. (translator)",
+		"year": 1908,
+		"publisher": "Journal of the Royal Anthropological Institute 38: 58–98",
+		"kind": "article",
+		"checked": false
+	},
+	{
+		"id": "wikipedia-muhammad-zaki",
+		"title": "Muhammad Zaki (quotes Palmer’s Kano Chronicle)",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Muhammad_Zaki",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-muhammad-kukuna",
+		"title": "Muhammad Kukuna (quotes Palmer’s Kano Chronicle)",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Muhammad_Kukuna",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-dadi-kano",
+		"title": "Dadi (sultan) (quotes Palmer’s Kano Chronicle)",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Dadi_(sultan)",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "oduntan-2022-igala",
+		"title": "Igala the Mini Nigeria: True Nigerians",
+		"author": "Oduntan, Olalekan",
+		"year": 2022,
+		"url": "http://www.olaleone.org/2022/04/igala-mini-nigeria-true-nigerians.html",
+		"kind": "web",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "owner-2026-10-09-bebeji",
+		"title": "Local knowledge from the HistoNaija owner: Kwararafa forces invaded Kano, and some of their peoples, such as the Igala and Jukun, settled in Kano quarters like Bebeji",
+		"author": "HistoNaija owner",
+		"year": 2026,
+		"kind": "testimony",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "owner-2026-10-09-angwa",
+		"title": "Local knowledge from the HistoNaija owner: the founders of Angwa at Idah were Igala left behind in Kano after the Kwararafa invasion, who came back to rejoin their homeland",
+		"author": "HistoNaija owner",
+		"year": 2026,
+		"kind": "testimony",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-wukari-federation",
+		"title": "Wukari Federation",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Wukari_Federation",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-yaji-i",
+		"title": "Yaji I (quotes Palmer’s Kano Chronicle)",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Yaji_I",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-kanajeji",
+		"title": "Kanajeji (quotes Palmer’s Kano Chronicle)",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Kanajeji",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-amina-zazzau",
+		"title": "Amina of Zazzau",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Amina_of_Zazzau",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ali-iii-bornu",
+		"title": "Ali III Walamma",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ali_III_Walamma",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-pindiga",
+		"title": "Pindiga",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Pindiga_Town",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-gombe-emirate",
+		"title": "Gombe Emirate",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Gombe_Emirate",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-buba-yero",
+		"title": "Buba Yero",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Buba_Yero",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-muri",
+		"title": "Muri, Taraba State",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Muri,_Taraba_State",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-wase",
+		"title": "Wase, Nigeria",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Wase,_Nigeria",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ibi",
+		"title": "Ibi, Taraba State",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ibi,_Taraba_State",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-kuvyon-ii",
+		"title": "Kuvyon II",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Kuvyon_II",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "rulers-org-nigeria-traditional",
+		"title": "Nigerian traditional polities (ruler lists)",
+		"author": "Cahoon, Ben",
+		"url": "https://www.rulers.org/nigatrad.html",
+		"kind": "reference",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-lapai-emirate",
+		"title": "Lapai Emirate",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Lapai_Emirate",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-agaie-emirate",
+		"title": "Agaie Emirate",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Agaie_Emirate",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-muhammadu-bangana",
+		"title": "Muhammadu Bangana (Mallam Dendo)",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Muhammadu_Bangana",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "sidi-2023-nupe",
+		"title": "Political Crisis in Nupe Kingdom of Nigeria, 1800–1857: The Rise and Fall of Mayaki Umaru Bahaushe, the Etsu Nupe That Never Was",
+		"author": "Sidi, Sheshi T.",
+		"year": 2023,
+		"publisher": "African Journal of History and Archaeology 7(1): 8–20",
+		"url": "https://www.iiardjournals.org/get/AJHA/VOL.%207%20NO.%201%202023/Political%20Crisis%20in%20Nupe.pdf",
+		"kind": "article",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "idrees-1989-bida",
+		"title": "Collaboration and the British Conquest of Bida in 1897: The Role and Achievement of the Indigenous Interest Groups",
+		"author": "Idrees, Aliyu A.",
+		"year": 1989,
+		"publisher": "African Study Monographs 10(2): 69–82",
+		"url": "https://jambo.africa.kyoto-u.ac.jp/kiroku/asm_normal/abstracts/pdf/ASM%20%20Vol.10%20No.2%201989/Aliyu%20A.%20IDREES.pdf",
+		"kind": "article",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "oriire-2025-esan-nupe",
+		"title": "The Esan-Nupe War",
+		"author": "Osalumhense, Stacey",
+		"year": 2025,
+		"publisher": "Oriire",
+		"url": "https://oriire.com/article/the-esan-nupe-war",
+		"kind": "web",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-sultanate-of-kano",
+		"title": "Kingdom of Kano",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Sultanate_of_Kano",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-abdullahi-burja",
+		"title": "Abdullahi Burja (quotes Palmer’s Kano Chronicle)",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Abdullahi_Burja",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-muhammad-rumfa",
+		"title": "Muhammad Rumfa",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Muhammad_Rumfa",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-muhammad-kisoki",
+		"title": "Muhammad Kisoki",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Muhammad_Kisoki",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-babba-zaki",
+		"title": "Babban Zaki (quotes Palmer’s Kano Chronicle)",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Babba_Zaki",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-muhammad-sharefa",
+		"title": "Muhammad Sharefa (quotes Palmer’s Kano Chronicle)",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Muhammad_Sharefa",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-muhammad-alwali-ii",
+		"title": "Muhammad Alwali II",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Muhammad_Alwali_II",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ibrahim-dabo",
+		"title": "Ibrahim Dabo",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ibrahim_Dabo",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-kingdom-of-zazzau",
+		"title": "Kingdom of Zazzau",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Kingdom_of_Zazzau",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-suleja-emirate",
+		"title": "Suleja Emirate",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Suleja_Emirate",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-history-of-katsina",
+		"title": "Kingdom of Katsina",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/History_of_Katsina",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-gobarau-minaret",
+		"title": "Gobarau Minaret",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Gobarau_Minaret",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-zamfara-kingdom",
+		"title": "Kingdom of Zamfara",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Zamfara_Kingdom",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-kebbi-kingdom",
+		"title": "Kingdom of Kebbi",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Kebbi_Kingdom",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-kanta-kotal",
+		"title": "Kanta Kotal",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Kanta_Kotal",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-daura-emirate",
+		"title": "Daura Emirate",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Daura_Emirate",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-bayajidda",
+		"title": "Bayajidda",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Bayajidda",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-idris-alooma",
+		"title": "Idris Alooma",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Idris_Alooma",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-al-kanemi",
+		"title": "Muhammad al-Amin al-Kanemi",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Muhammad_al-Amin_al-Kanemi",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-battle-of-kousseri",
+		"title": "Battle of Kousséri",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Battle_of_Kousséri",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-bilala",
+		"title": "Bilala people",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Bilala",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-kukawa",
+		"title": "Kukawa",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Kukawa",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-mandara",
+		"title": "Mandara Kingdom",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Mandara_kingdom",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-bauchi-emirate",
+		"title": "Bauchi Emirate",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Bauchi_Emirate",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-kisra-legend",
+		"title": "Kisra legend",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Kisra_legend",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-battle-of-ilorin",
+		"title": "Battle of Ilorin",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Eleduwe_War",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ife-empire",
+		"title": "Ife Empire",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ife_Empire",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-modakeke",
+		"title": "Modakeke",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Modakeke",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ijebu-kingdom",
+		"title": "Ijebu Kingdom",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ijebu_Kingdom",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-owu-kingdom",
+		"title": "Owu Kingdom",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Owu_Kingdom",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-egba-alake",
+		"title": "Egba Ake",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Egba_Alake",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-abeokuta",
+		"title": "Abeokuta",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Abeokuta",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-egba-united-government",
+		"title": "Egba United Government",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Egba_United_Government",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-jalumi-war",
+		"title": "Jalumi War",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Jalumi_War",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ogedengbe",
+		"title": "Ogedengbe of Ilesa",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ogedengbe_of_Ilesa",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-kosoko",
+		"title": "Kosoko",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Kosoko",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-warri-kingdom",
+		"title": "Kingdom of Warri",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Warri_Kingdom",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-bonny-kingdom",
+		"title": "Kingdom of Bonny",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Bonny_Kingdom",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-duke-town",
+		"title": "Duke Town (Akwa Akpa)",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Akwa_Akpa",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-southern-kaduna",
+		"title": "Southern Kaduna",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Southern_Kaduna",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-hugh-trenchard-in-nigeria",
+		"title": "Hugh Trenchard in Nigeria",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Hugh_Trenchard_in_Nigeria",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-tarok-people",
+		"title": "Tarok people",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Tarok_people",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ngas-people",
+		"title": "Ngas people",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ngas_people",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-modibo-adama",
+		"title": "Modibo Adama",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Modibo_Adama",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ilesa",
+		"title": "Ilesa",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ilesa",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ado-ekiti",
+		"title": "Ado Ekiti",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ado_Ekiti",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-isoko-people",
+		"title": "Isoko people",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Isoko_people",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-edumoga",
+		"title": "Edumoga",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Edumoga",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-apa-benue",
+		"title": "Apa, Benue State",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Apa,_Benue",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-okpokwu",
+		"title": "Okpokwu",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Okpokwu",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-obi-nasarawa",
+		"title": "Obi, Nasarawa State",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Obi,_Nasarawa_State",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-katsina-ala",
+		"title": "Katsina-Ala",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Katsina-Ala",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-zaki-biam-massacre",
+		"title": "Zaki Biam massacre",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Zaki_Biam_massacre",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-auchi",
+		"title": "Auchi",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Auchi",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-okpella",
+		"title": "Okpella",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Okpella",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-jattu",
+		"title": "Jattu",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Jattu",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-afuze",
+		"title": "Afuze",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Afuze",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-weppa-wanno",
+		"title": "Weppa Wanno",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Weppa_Wanno",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-yakurr-lga",
+		"title": "Yakurr (LGA)",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Yakurr",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-boki-lga",
+		"title": "Boki, Nigeria",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Boki,_Nigeria",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-yala-lga",
+		"title": "Yala, Nigeria",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Yala,_Nigeria",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-obubra",
+		"title": "Obubra",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Obubra",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-abi-cross-river",
+		"title": "Abi, Cross River State",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Abi,_Cross_River_State",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-obudu",
+		"title": "Obudu",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Obudu",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-odukpani",
+		"title": "Odukpani",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Odukpani",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ogoja",
+		"title": "Ogoja",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ogoja",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ikom",
+		"title": "Ikom",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ikom",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-biase",
+		"title": "Biase",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Biase",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-etung",
+		"title": "Etung",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Etung",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ubaghara-language",
+		"title": "Ubaghara language",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ubaghara_language",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-gwune-language",
+		"title": "Gwune language",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Gwune_language",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-obanliku-language",
+		"title": "Obanliku language",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Obanliku_language",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-obong-of-calabar",
+		"title": "Obong of Calabar",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Obong_of_Calabar",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-abak",
+		"title": "Abak",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Abak",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-essien-udim",
+		"title": "Essien Udim",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Essien_Udim",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-oruk-anam",
+		"title": "Oruk Anam",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Oruk_Anam",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-obot-akara",
+		"title": "Obot-Akara",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Obot-Akara",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ibeno",
+		"title": "Ibeno",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ibeno",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-etinan",
+		"title": "Etinan",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Etinan",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ikono",
+		"title": "Ikono",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ikono",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ikot-abasi",
+		"title": "Ikot-Abasi",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ikot_Abasi",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-mkpat-enin",
+		"title": "Mkpat-Enin",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Mkpat-Enin",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-okobo",
+		"title": "Okobo, Nigeria",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Okobo,_Akwa_Ibom",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-oron-lga",
+		"title": "Oron, Nigeria",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Oron,_Nigeria",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-mbo",
+		"title": "Mbo, Nigeria",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Mbo,_Akwa_Ibom",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-udung-uko",
+		"title": "Udung-Uko",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Udung-Uko",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ahoada-east",
+		"title": "Ahoada East",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ahoada_East",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ahoada-west",
+		"title": "Ahoada West",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ahoada_West",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ikwerre-lga",
+		"title": "Ikwerre, Nigeria",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ikwerre,_Rivers",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-port-harcourt",
+		"title": "Port Harcourt",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Port_Harcourt",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-oyigbo",
+		"title": "Oyigbo",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Oyigbo",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-abua-odual",
+		"title": "Abua–Odual",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Abua–Odual",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-khana",
+		"title": "Khana, Nigeria",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Khana,_Rivers",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-gokana",
+		"title": "Gokana, Nigeria",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Gokana",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-tai-lga",
+		"title": "Tai, Nigeria",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Tai,_Nigeria",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-eleme",
+		"title": "Eleme, Nigeria",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Eleme,_Rivers",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ekeremor",
+		"title": "Ekeremor",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ekeremor",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-southern-ijaw",
+		"title": "Southern Ijaw",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Southern_Ijaw",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-brass",
+		"title": "Brass, Nigeria",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Brass,_Nigeria",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ika-north-east",
+		"title": "Ika North East",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ika_North_East",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ika-south",
+		"title": "Ika South",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ika_South",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-warri-north",
+		"title": "Warri North",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Warri_North",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ndokwa-east",
+		"title": "Ndokwa East",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ndokwa_East",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ndokwa-west",
+		"title": "Ndokwa West",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ndokwa_West",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ukwuani-lga",
+		"title": "Ukwuani, Delta State",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ukwuani",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ethiope-west",
+		"title": "Ethiope West",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ethiope_West",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-okpe-lga",
+		"title": "Okpe",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Okpe,_Delta",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-sapele",
+		"title": "Sapele, Nigeria",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Sapele,_Nigeria",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-udu",
+		"title": "Udu, Nigeria",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Udu,_Nigeria",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ughelli-north",
+		"title": "Ughelli North",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ughelli_North",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-egor",
+		"title": "Egor",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Egor",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ikpoba-okha",
+		"title": "Ikpoba Okha",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ikpoba_Okha",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ovia-south-west",
+		"title": "Ovia South-West",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ovia_South-West",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-esan-north-east",
+		"title": "Esan North-East",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Esan_North-East",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-esan-west",
+		"title": "Esan West",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Esan_West",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-igueben",
+		"title": "Igueben",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Igueben",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-esit-eket",
+		"title": "Esit Eket",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Esit_Eket",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-eastern-obolo",
+		"title": "Eastern Obolo",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Eastern_Obolo",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-andoni",
+		"title": "Andoni",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Andoni",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ogba-egbema-ndoni",
+		"title": "Ogba–Egbema–Ndoni",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ogba–Egbema–Ndoni",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-mangu",
+		"title": "Mangu, Nigeria",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Mangu,_Nigeria",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-miango",
+		"title": "Miango",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Miango",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-guta-people",
+		"title": "Guta people",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Guta_people",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-pankshin",
+		"title": "Pankshin",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Pankshin",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-quaan-pan",
+		"title": "Qua'an Pan",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Qua'an_Pan",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-adara-people",
+		"title": "Adara people",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Adara_people",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-bajju-people",
+		"title": "Bajju people",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Bajju_people",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ham-people",
+		"title": "Ham people",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ham_people",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ninzo-people",
+		"title": "Ninzo people",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ninzo_people",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-kajuru",
+		"title": "Kajuru",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Kajuru",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-jaba",
+		"title": "Jaba, Nigeria",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Jaba,_Nigeria",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-zangon-kataf",
+		"title": "Zangon Kataf",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Zangon_Kataf",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-kaura",
+		"title": "Kaura, Nigeria",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Kaura,_Nigeria",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-new-bussa",
+		"title": "New Bussa",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/New_Bussa",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-kainji-lake",
+		"title": "Kainji Lake",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Kainji_Lake",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-kontagora",
+		"title": "Kontagora",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Kontagora",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-yauri-emirate",
+		"title": "Yauri Emirate",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Yauri_Emirate",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-dakarkari-people",
+		"title": "Dakarkari people",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Dakarkari_people",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-zuru",
+		"title": "Zuru",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Zuru",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-lopa-language",
+		"title": "Lopa language",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Lopa_language",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-bariba-people",
+		"title": "Bariba people",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Bariba_people",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-maiduguri",
+		"title": "Maiduguri",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Maiduguri",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-bade-emirate",
+		"title": "Bade Emirate",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Bade_Emirate",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-potiskum",
+		"title": "Potiskum",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Potiskum",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-fika-emirate",
+		"title": "Fika Emirate",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Fika_Emirate",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-askira-uba",
+		"title": "Askira/Uba",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Askira/Uba",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-numan",
+		"title": "Numan, Nigeria",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Numan,_Nigeria",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-lamurde",
+		"title": "Lamurde",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Lamurde",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-zing",
+		"title": "Zing, Taraba State",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Zing,_Nigeria",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-billiri",
+		"title": "Billiri",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Billiri",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-kaltungo",
+		"title": "Kaltungo",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Kaltungo",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-shani",
+		"title": "Shani, Nigeria",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Shani,_Nigeria",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-song",
+		"title": "Song, Nigeria",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Song,_Nigeria",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-abakaliki",
+		"title": "Abakaliki",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Abakaliki",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-abiriba",
+		"title": "Abiriba",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Abiriba",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-afikpo-north",
+		"title": "Afikpo North",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Afikpo_North",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-argungu",
+		"title": "Argungu",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Argungu",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-awka",
+		"title": "Awka",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Awka",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-azare",
+		"title": "Azare",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Azare",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-bebeji",
+		"title": "Bebeji",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Bebeji",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-birnin-kebbi",
+		"title": "Birnin Kebbi",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Birnin_Kebbi",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-bwari",
+		"title": "Bwari",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Bwari",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-daura",
+		"title": "Daura",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Daura",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ede",
+		"title": "Ede, Osun State",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ede,_Osun_State",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-enugu-state",
+		"title": "Enugu State",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Enugu_State",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-gombe-city",
+		"title": "Gombe, Nigeria",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Gombe,_Nigeria",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-gumel",
+		"title": "Gumel",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Gumel",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-gwandu",
+		"title": "Gwandu",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Gwandu",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-hadejia",
+		"title": "Hadejia",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Hadejia",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ife",
+		"title": "Ife",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ife",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-igbo-ukwu",
+		"title": "Igbo-Ukwu",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Igbo-Ukwu",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ijebu-ode",
+		"title": "Ijebu Ode",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ijebu_Ode",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ikirun",
+		"title": "Ikirun",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ikirun",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ila-orangun",
+		"title": "Ila Orangun",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ila_Orangun",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ilaro",
+		"title": "Ilaro",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ilaro",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-iseyin",
+		"title": "Iseyin",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Iseyin",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-iwo",
+		"title": "Iwo, Osun State",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Iwo,_Osun_State",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-jalingo",
+		"title": "Jalingo",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Jalingo",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-jamaare",
+		"title": "Jama'are",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Jama%27are",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-kano-city",
+		"title": "Kano (city)",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Kano_(city)",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-katsina-city",
+		"title": "Katsina (city)",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Katsina_(city)",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-kazaure",
+		"title": "Kazaure",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Kazaure",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-mbaise",
+		"title": "Mbaise",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Mbaise",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-minna",
+		"title": "Minna",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Minna",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-misau",
+		"title": "Misau",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Misau",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ngwa-people",
+		"title": "Ngwa people",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ngwa_people",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-nnewi",
+		"title": "Nnewi",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Nnewi",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-nsukka",
+		"title": "Nsukka",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Nsukka",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ogbomosho",
+		"title": "Ogbomosho",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ogbomosho",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-oguta",
+		"title": "Oguta",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Oguta",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ohafia",
+		"title": "Ohafia",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ohafia",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-okigwe",
+		"title": "Okigwe",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Okigwe",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ondo-city",
+		"title": "Ondo City",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ondo_City",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-orlu",
+		"title": "Orlu, Imo State",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Orlu,_Imo_State",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-osogbo",
+		"title": "Osogbo",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Osogbo",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-owerri",
+		"title": "Owerri",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Owerri",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-owo",
+		"title": "Owo",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Owo",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-oyo-town",
+		"title": "Oyo, Oyo State",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Oyo,_Oyo_State",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-rano",
+		"title": "Rano",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Rano",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-sabon-gari",
+		"title": "Sabon Gari",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Sabon_Gari",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-shaki",
+		"title": "Shaki, Oyo State",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Shaki,_Oyo_State",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-shiroro",
+		"title": "Shiroro",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Shiroro",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-suleja",
+		"title": "Suleja",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Suleja",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-umuahia",
+		"title": "Umuahia",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Umuahia",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-wurno",
+		"title": "Wurno",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Wurno",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-yola",
+		"title": "Yola, Nigeria",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Yola,_Nigeria",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-kuje",
+		"title": "Kuje",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Kuje",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-berom-people",
+		"title": "Berom people",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Berom_people",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-bekwarra",
+		"title": "Bekwarra",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Bekwarra",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-riyom",
+		"title": "Riyom",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Riyom",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-mariga",
+		"title": "Mariga, Nigeria",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Mariga,_Nigeria",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-bagudo",
+		"title": "Bagudo",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Bagudo",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-rafi",
+		"title": "Rafi, Nigeria",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Rafi,_Nigeria",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-barkin-ladi",
+		"title": "Barkin Ladi",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Barkin_Ladi",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-09",
+		"checked": true
 	}
 ]

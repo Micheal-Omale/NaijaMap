@@ -1,0 +1,23 @@
+{
+	"status": "draft",
+	"title": "Emir of Biu",
+	"kind": "retitled",
+	"year": 1920,
+	"seat": {
+		"name": "Biu",
+		"point": [
+			12.19,
+			10.61
+		]
+	},
+	"by": "the British administration of Northern Nigeria",
+	"groups": [
+		"bura-pabir"
+	],
+	"text": "Biu was a kingdom of its own for nearly four centuries. Until 1920 it was called the Biu Kingdom; under British rule it became the Biu Emirate.",
+	"sources": [
+		"wikipedia-biu-emirate"
+	],
+	"confidence": "medium",
+	"reviewNotes": []
+}

@@ -1,0 +1,76 @@
+{
+	"status": "draft",
+	"of": "polity",
+	"terrain": "forest",
+	"summary": {
+		"text": "The Aro did not rule by army. Their strength was the oracle at Arochukwu, Ibini Ukpabi, and alliances with the warrior towns of Abam, Ohafia, Edda, Abiriba and Afikpo, whose fighters they could call on.",
+		"sources": [
+			"wikipedia-aro-confederacy",
+			"dike-ekejiuba-1990"
+		],
+		"confidence": "high"
+	},
+	"arms": [
+		{
+			"kind": "allies",
+			"level": 3,
+			"text": "The militarised Igbo and Cross River towns of Ohafia, Edda, Abam, Abiriba, Afikpo and Ekoi fought for the Aro.",
+			"sources": [
+				"wikipedia-aro-confederacy",
+				"dike-ekejiuba-1990"
+			],
+			"confidence": "high"
+		},
+		{
+			"kind": "ritual",
+			"level": 3,
+			"text": "The ‘Long Juju’ oracle at Arochukwu, the centre of Aro authority.",
+			"sources": [
+				"wikipedia-aro-confederacy"
+			],
+			"confidence": "high"
+		},
+		{
+			"kind": "firearms",
+			"level": 1,
+			"from": 1750,
+			"text": "Guns from the Atlantic trade.",
+			"sources": [
+				"dike-ekejiuba-1990",
+				"wikipedia-anglo-aro-war"
+			],
+			"confidence": "medium"
+		}
+	],
+	"record": [
+		{
+			"year": 1690,
+			"yearLabel": "c. 1650–1700",
+			"event": "aro-founding",
+			"against": "The Ibibio of the Arochukwu area",
+			"result": "won",
+			"text": "With Akpa allies, the founders of Arochukwu won the land.",
+			"sources": [
+				"wikipedia-arochukwu",
+				"dike-ekejiuba-1990"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1901,
+			"yearLabel": "1901–1902",
+			"event": "anglo-aro-war",
+			"against": "British",
+			"result": "lost",
+			"text": "After strong resistance Arochukwu fell on 28 December 1901, and the confederacy collapsed.",
+			"sources": [
+				"wikipedia-aro-confederacy",
+				"wikipedia-anglo-aro-war"
+			],
+			"confidence": "high"
+		}
+	],
+	"reviewNotes": [
+		"Arms levels (1 some, 2 a real strength, 3 famous for it) are the compiler’s judgement from the sources, for the Versus page’s guess; please check them."
+	]
+}

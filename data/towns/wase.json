@@ -1,0 +1,37 @@
+{
+	"name": "Wase",
+	"status": "draft",
+	"otherNames": ["Wase Tofa"],
+	"point": [9.951, 9.081],
+	"founded": { "year": 1813, "sources": ["wikipedia-wase"], "confidence": "medium" },
+	"summary": {
+		"text": "Below Wase Rock the Jukun of Wase Tofa, who call themselves Wapa, were already living when Giwa, a Fulani from Wuro Mayo in Bauchi, came in about 1813 and made friends with them. His sons Hasan, Abdu and Umaru founded the three ruling houses, and Wase became Bauchi emirate's fortified outpost on the jihad's south-eastern flank.",
+		"sources": ["wikipedia-wase", "wikipedia-jukun", "rulers-org-nigeria-traditional"],
+		"confidence": "medium"
+	},
+	"founders": [
+		{
+			"people": "Jukun (Wapa)",
+			"group": "jukun",
+			"polity": "kwararafa",
+			"quarters": ["Wase Tofa"],
+			"text": "The Jukun living near Wase when Giwa arrived; Wase Tofa is one of the Jukun dialects Meek recorded.",
+			"sources": ["wikipedia-wase", "wikipedia-jukun"],
+			"confidence": "medium"
+		},
+		{
+			"people": "Fulani",
+			"group": "fulani",
+			"polity": "sokoto",
+			"from": { "name": "Wuro Mayo, Bauchi", "point": [9.84, 10.31] },
+			"text": "Giwa and his sons, founders of the Wase dynasty.",
+			"sources": ["wikipedia-wase", "rulers-org-nigeria-traditional"],
+			"confidence": "high"
+		}
+	],
+	"under": [
+		{ "polity": "kwararafa", "from": 1650, "to": 1812, "kind": "ruled", "text": "Wase lay inside Kwararafa's core at its height.", "sources": ["wikipedia-kwararafa"], "confidence": "disputed" },
+		{ "polity": "sokoto", "from": 1820, "to": 1902, "kind": "ruled", "text": "A sub-emirate of Bauchi under the Sokoto Caliphate, its rulers titled Madakin and then Sarkin Dutse.", "sources": ["wikipedia-wase", "rulers-org-nigeria-traditional"], "confidence": "high" }
+	],
+	"reviewNotes": ["Wuro Mayo is placed at Bauchi city; its own site is not located."]
+}

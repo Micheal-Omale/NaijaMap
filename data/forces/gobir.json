@@ -1,0 +1,77 @@
+{
+	"status": "draft",
+	"of": "polity",
+	"terrain": "sahel",
+	"summary": {
+		"text": "Gobir was the most warlike of the Hausa states in the 18th century: its horsemen destroyed Zamfara’s capital and made Alkalawa the power of the north, until the jihad began within its own borders.",
+		"sources": [
+			"wikipedia-gobir",
+			"wikipedia-alkalawa",
+			"last-1967"
+		],
+		"confidence": "medium"
+	},
+	"arms": [
+		{
+			"kind": "cavalry",
+			"level": 2,
+			"text": "Gobir’s horsemen.",
+			"sources": [
+				"wikipedia-gobir",
+				"law-1980-horse"
+			],
+			"confidence": "medium"
+		},
+		{
+			"kind": "walls",
+			"level": 1,
+			"from": 1764,
+			"text": "The walled capital Alkalawa.",
+			"sources": [
+				"wikipedia-alkalawa"
+			],
+			"confidence": "medium"
+		}
+	],
+	"record": [
+		{
+			"year": 1764,
+			"polity": "zamfara",
+			"against": "Zamfara",
+			"result": "won",
+			"text": "Gobir took Zamfara’s lands and built Alkalawa.",
+			"sources": [
+				"wikipedia-gobir"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1804,
+			"polity": "sokoto",
+			"event": "fulani-jihad",
+			"against": "The jihad",
+			"result": "won",
+			"text": "Gobir beat the jihad army at Tsuntua.",
+			"sources": [
+				"wikipedia-fulani-war"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1808,
+			"polity": "sokoto",
+			"event": "fulani-jihad",
+			"against": "The Sokoto jihad",
+			"result": "lost",
+			"text": "Alkalawa fell and Yunfa was killed.",
+			"sources": [
+				"wikipedia-fulani-war",
+				"wikipedia-alkalawa"
+			],
+			"confidence": "high"
+		}
+	],
+	"reviewNotes": [
+		"Arms levels (1 some, 2 a real strength, 3 famous for it) are the compiler’s judgement from the sources, for the Versus page’s guess; please check them."
+	]
+}

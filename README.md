@@ -1,4 +1,4 @@
-# NiajMap
+# HistoNaija
 
 An interactive map of Nigeria. It shows where each ethnic group lives today, and how the precolonial states grew and shrank from about 1000 AD to the 36 states of 1996. Every claim on the map carries a source and a confidence level. The map is not a statement of land ownership.
 

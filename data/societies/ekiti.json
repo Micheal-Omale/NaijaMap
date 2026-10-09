@@ -1,0 +1,62 @@
+{
+	"name": "Ekiti kingdoms",
+	"status": "draft",
+	"groups": [
+		"yoruba"
+	],
+	"rule": "kingdoms",
+	"span": {
+		"from": 1000,
+		"to": 1877,
+		"fromLabel": "before written records",
+		"toLabel": "1877",
+		"sources": [
+			"wikipedia-ekiti-people"
+		],
+		"confidence": "medium",
+		"note": "The start of the timeline, not a founding date. From 1878 the Ekiti kingdoms are on this map as the Ekitiparapo."
+	},
+	"summary": {
+		"text": "Ekiti, from okiti, “hilly”, was a country of sixteen principal kingdoms, each with its own Oba and none ruling the rest, linked by trade and royal marriages. The Deji of Akure, the Ewi of Ado and the Ogoga of Ikere ruled the largest towns, and Akure was closest to Benin; the Oore of Otun was later counted the most senior. Ado's founders, by its tradition, left Ile-Ife with Oranmiyan's party and settled in turn at Ita Orogun, Utamodi, Ido Ani and Agbado before Ewi Awamaro reached Ulesun, today's Ado-Ekiti. Benin conquered Ado and other Ekiti states and made Akure its base in the 16th century, and Oyo's cavalry stalled in Ekiti's hills. When the British later tried to set one paramount ruler over them, the Ekiti Obas refused.",
+		"sources": [
+			"wikipedia-ekiti-people",
+			"wikipedia-ado-ekiti",
+			"wikipedia-kingdom-of-benin",
+			"wikipedia-oyo-empire"
+		],
+		"confidence": "medium"
+	},
+	"end": {
+		"text": "Ibadan ruled Akure and other Ekiti towns through its ajele from 1854 and destroyed many settlements. The Ekiti rose in 1876–1878 and, with the Ijesha and Akoko, fought Ibadan for sixteen years as the Ekitiparapo; the Oore of Otun signed the British-brokered peace of 1886. The British made the area a protectorate, and in 1909 split it between Southern Nigeria and the Ilorin and Kabba divisions of the north.",
+		"sources": [
+			"wikipedia-ekiti-people",
+			"wikipedia-kiriji-war"
+		],
+		"confidence": "high"
+	},
+	"lands": [
+		{
+			"from": 1000,
+			"label": "Ekiti",
+			"lgas": [
+				"ekiti-ado-ekiti",
+				"ekiti-ikere",
+				"ekiti-ijero",
+				"ekiti-ekiti-west",
+				"ekiti-irepodun-ifelodun",
+				"ekiti-ido-osi",
+				"ekiti-oye",
+				"ekiti-ikole",
+				"ekiti-ekiti-east",
+				"ekiti-ise-orun",
+				"ekiti-emure",
+				"ekiti-ekiti-south-west",
+				"ekiti-efon",
+				"ekiti-moba",
+				"ekiti-ilejemeje",
+				"ekiti-gbonyin"
+			]
+		}
+	],
+	"reviewNotes": []
+}

@@ -1,0 +1,46 @@
+{
+	"name": "Bachama and Bata",
+	"status": "draft",
+	"groups": [
+		"bachama"
+	],
+	"rule": "kingdoms",
+	"span": {
+		"from": 1000,
+		"to": 1901,
+		"fromLabel": "before written records",
+		"toLabel": "1901",
+		"sources": [
+			"wikipedia-bwatiye",
+			"wikipedia-adamawa-emirate"
+		],
+		"confidence": "medium",
+		"note": "The start of the timeline, not a founding date: Bwatiye traditions of coming from Gobir are undated."
+	},
+	"summary": {
+		"text": "The Bachama and Bata (Bwatiye) of the Benue valley around Numan and Demsa were ruled by kings titled Hama, and were numerous, well organised and feared for their poisoned arrows; they had driven the Verre into their hills. Fulani herders who settled among them had to obey Bata custom, and around 1803 a quarrel over it, when Ardo Njobbo had a Bata prince killed, set off a war in which Modibbo Adama's father died. When Adama led the jihad in Adamawa, Uthman dan Fodio himself told him not to conquer the Batta and Verre or enslave their children; some Bata of Zummo, Malabu and Holma joined the Muslim force at Gurin.",
+		"sources": [
+			"wikipedia-bwatiye",
+			"wikipedia-adamawa-emirate"
+		],
+		"confidence": "medium"
+	},
+	"end": {
+		"text": "The British occupied Yola, capital of the Adamawa emirate, on 2 September 1901.",
+		"sources": [
+			"wikipedia-adamawa-emirate"
+		],
+		"confidence": "high"
+	},
+	"lands": [
+		{
+			"from": 1000,
+			"lgas": [
+				"adamawa-numan",
+				"adamawa-demsa",
+				"adamawa-lamurde"
+			]
+		}
+	],
+	"reviewNotes": []
+}

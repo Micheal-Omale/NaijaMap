@@ -1,6 +1,23 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Bokkos",
+			"lga": "plateau-bokkos",
+			"villages": [],
+			"sources": [
+				"wikipedia-bokkos"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "The Ron are the indigenous people of Bokkos LGA; their paramount ruler is the Saf Ron/Kulere.",
+				"sources": [
+					"wikipedia-bokkos"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Ron",
 	"searchAliases": [

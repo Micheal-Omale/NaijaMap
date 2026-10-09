@@ -1,6 +1,37 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Tunkus and Lalin",
+			"lga": "plateau-mikang",
+			"point": [
+				9.616,
+				9.022
+			],
+			"villages": [
+				{
+					"name": "Lalin",
+					"point": [
+						9.679,
+						9.071
+					]
+				}
+			],
+			"sources": [
+				"sil-2021-mikang",
+				"wikipedia-mikang",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "The Tehl (Montol) are the major people of Mikang LGA, living in Lalin and in Tunkus, its headquarters, beside the Koenoem, Piapung and Youm.",
+				"sources": [
+					"sil-2021-mikang"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Tehl (Montol)",
 	"searchAliases": [

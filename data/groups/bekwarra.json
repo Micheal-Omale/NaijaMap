@@ -1,6 +1,81 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Abuochiche",
+			"lga": "cross-river-bekwarra",
+			"point": [
+				8.9102,
+				6.701
+			],
+			"villages": [
+				{
+					"name": "Abuagbor-Iye"
+				},
+				{
+					"name": "Nyanya-Ulim"
+				},
+				{
+					"name": "Nyanya-Idigwe"
+				},
+				{
+					"name": "Gakem"
+				},
+				{
+					"name": "Itekpa"
+				},
+				{
+					"name": "Ugboro"
+				},
+				{
+					"name": "Ibiragidi"
+				},
+				{
+					"name": "Utukwe"
+				},
+				{
+					"name": "Afrike"
+				},
+				{
+					"name": "Ukpah"
+				},
+				{
+					"name": "Beten"
+				},
+				{
+					"name": "Anyikang"
+				},
+				{
+					"name": "Ebegang"
+				},
+				{
+					"name": "Utukpuru"
+				},
+				{
+					"name": "Ebewo"
+				}
+			],
+			"sources": [
+				"wikipedia-bekwarra",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Headquarters of Bekwarra LGA on the A4 highway, a few miles east of Ogoja.",
+				"sources": [
+					"wikipedia-bekwarra"
+				],
+				"confidence": "high"
+			},
+			"livelihoods": {
+				"text": "Farming, above all groundnuts, with rice, maize, yam and cassava; trading, hunting and palm-wine tapping.",
+				"sources": [
+					"wikipedia-bekwarra"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Bekwarra",
 	"searchAliases": [

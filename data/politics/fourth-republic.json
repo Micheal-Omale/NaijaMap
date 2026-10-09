@@ -1,0 +1,610 @@
+{
+	"name": "The Fourth Republic",
+	"status": "draft",
+	"from": 1999,
+	"label": "1999–today",
+	"summary": {
+		"text": "Since 1999 the presidency has rotated between North and South, by party custom rather than law. The six geopolitical zones are used to share out offices and are drawn round peoples with a shared history. Each zone’s politics is led by its largest peoples, shown here, while dozens of smaller peoples live in every zone, above all in the North Central and the South South.",
+		"sources": [
+			"wikipedia-geopolitical-zones-of-nigeria",
+			"wikipedia-olusegun-obasanjo",
+			"wikipedia-goodluck-jonathan",
+			"wikipedia-bola-tinubu"
+		],
+		"confidence": "medium"
+	},
+	"federal": {
+		"text": "The presidency has alternated between South and North: a Yoruba, a Fulani, an Ijaw, a Fulani again and a Yoruba.",
+		"sources": [
+			"wikipedia-olusegun-obasanjo",
+			"wikipedia-umaru-musa-yar-adua",
+			"wikipedia-goodluck-jonathan",
+			"wikipedia-muhammadu-buhari",
+			"wikipedia-bola-tinubu"
+		],
+		"confidence": "high",
+		"leaders": [
+			{
+				"name": "Olusegun Obasanjo",
+				"title": "President (PDP)",
+				"from": 1999,
+				"to": 2007,
+				"group": "yoruba",
+				"home": {
+					"name": "Abeokuta (Ibogun-Olaogun)",
+					"point": [
+						3.3,
+						6.95
+					]
+				},
+				"sources": [
+					"wikipedia-olusegun-obasanjo",
+					"owner-2026-10-07-leaders"
+				],
+				"confidence": "high",
+				"party": "pdp"
+			},
+			{
+				"name": "Umaru Musa Yar’Adua",
+				"title": "President (PDP)",
+				"from": 2007,
+				"to": 2010,
+				"group": "fulani",
+				"groupNote": "Of an aristocratic Katsina family of Fulani heritage (Sullubawa); Kperogi traces the paternal line to the Tuareg.",
+				"home": {
+					"name": "Katsina",
+					"point": [
+						7.6,
+						12.99
+					]
+				},
+				"sources": [
+					"wikipedia-umaru-musa-yar-adua",
+					"kperogi-2020",
+					"owner-2026-10-07-leaders"
+				],
+				"confidence": "disputed",
+				"party": "pdp"
+			},
+			{
+				"name": "Goodluck Jonathan",
+				"title": "President (PDP)",
+				"from": 2010,
+				"to": 2015,
+				"group": "ijaw",
+				"groupNote": "An Ijaw from Otuoke in the Ogbia country; Kperogi counts the Ogbia as a people of their own.",
+				"home": {
+					"name": "Otuoke",
+					"point": [
+						6.32,
+						4.8
+					]
+				},
+				"sources": [
+					"wikipedia-goodluck-jonathan",
+					"kperogi-2020",
+					"owner-2026-10-07-leaders"
+				],
+				"confidence": "medium",
+				"party": "pdp"
+			},
+			{
+				"name": "Muhammadu Buhari",
+				"title": "President (APC)",
+				"from": 2015,
+				"to": 2023,
+				"group": "fulani",
+				"home": {
+					"name": "Daura",
+					"point": [
+						8.32,
+						13.03
+					]
+				},
+				"sources": [
+					"wikipedia-muhammadu-buhari",
+					"owner-2026-10-07-leaders"
+				],
+				"confidence": "high",
+				"party": "apc"
+			},
+			{
+				"name": "Bola Tinubu",
+				"title": "President (APC)",
+				"from": 2023,
+				"group": "yoruba",
+				"home": {
+					"name": "Lagos",
+					"point": [
+						3.39,
+						6.45
+					]
+				},
+				"sources": [
+					"wikipedia-bola-tinubu",
+					"owner-2026-10-07-leaders"
+				],
+				"confidence": "high",
+				"party": "apc"
+			}
+		]
+	},
+	"units": [
+		{
+			"id": "north-west",
+			"name": "North West",
+			"kind": "zone",
+			"extent": {
+				"states": [
+					"sokoto",
+					"kebbi",
+					"zamfara",
+					"katsina",
+					"kano",
+					"jigawa",
+					"kaduna"
+				]
+			},
+			"seat": {
+				"name": "Kano",
+				"point": [
+					8.52,
+					12
+				]
+			},
+			"groups": [
+				"hausa",
+				"fulani"
+			],
+			"text": "The heart of Hausaland and the old Sokoto Caliphate. Hausa are the great majority, and Fulani families hold many emirate thrones and much political leadership. The peoples of southern Kaduna (Atyap, Bajju, Adara and others) are the main minorities.",
+			"leaders": [],
+			"sources": [
+				"wikipedia-geopolitical-zones-of-nigeria",
+				"wikipedia-northern-region-nigeria"
+			],
+			"confidence": "medium"
+		},
+		{
+			"id": "north-east",
+			"name": "North East",
+			"kind": "zone",
+			"extent": {
+				"states": [
+					"bauchi",
+					"gombe",
+					"borno",
+					"yobe",
+					"adamawa",
+					"taraba"
+				]
+			},
+			"seat": {
+				"name": "Maiduguri",
+				"point": [
+					13.16,
+					11.85
+				]
+			},
+			"groups": [
+				"kanuri",
+				"fulani"
+			],
+			"text": "The Kanuri of Borno and Yobe and the Fulani of Adamawa, Gombe and Bauchi lead its politics, among many smaller peoples: the Bura, Marghi, Tangale, Bachama, Jukun, Mumuye and more.",
+			"leaders": [],
+			"sources": [
+				"wikipedia-geopolitical-zones-of-nigeria",
+				"wikipedia-northern-region-nigeria"
+			],
+			"confidence": "medium"
+		},
+		{
+			"id": "north-central",
+			"name": "North Central (Middle Belt)",
+			"kind": "zone",
+			"extent": {
+				"states": [
+					"niger",
+					"kwara",
+					"kogi",
+					"benue",
+					"plateau",
+					"nasarawa",
+					"fct"
+				]
+			},
+			"seat": {
+				"name": "Lafia",
+				"point": [
+					8.52,
+					8.49
+				]
+			},
+			"groups": [
+				"tiv",
+				"nupe",
+				"igala",
+				"yoruba"
+			],
+			"text": "No single people dominates. The Tiv of Benue, the Nupe of Niger, the Igala of Kogi and the Yoruba of Kwara are the largest, with the Idoma, Ebira, Gbagyi, Berom and dozens more.",
+			"leaders": [],
+			"sources": [
+				"wikipedia-geopolitical-zones-of-nigeria",
+				"wikipedia-northern-region-nigeria"
+			],
+			"confidence": "medium"
+		},
+		{
+			"id": "south-west",
+			"name": "South West",
+			"kind": "zone",
+			"extent": {
+				"states": [
+					"lagos",
+					"ogun",
+					"oyo",
+					"osun",
+					"ondo",
+					"ekiti"
+				]
+			},
+			"seat": {
+				"name": "Ibadan",
+				"point": [
+					3.9,
+					7.38
+				]
+			},
+			"groups": [
+				"yoruba"
+			],
+			"text": "Almost wholly Yoruba.",
+			"leaders": [],
+			"sources": [
+				"wikipedia-geopolitical-zones-of-nigeria",
+				"wikipedia-western-region-nigeria"
+			],
+			"confidence": "high"
+		},
+		{
+			"id": "south-east",
+			"name": "South East",
+			"kind": "zone",
+			"extent": {
+				"states": [
+					"abia",
+					"anambra",
+					"ebonyi",
+					"enugu",
+					"imo"
+				]
+			},
+			"seat": {
+				"name": "Enugu",
+				"point": [
+					7.49,
+					6.45
+				]
+			},
+			"groups": [
+				"igbo"
+			],
+			"text": "The Igbo heartland.",
+			"leaders": [],
+			"sources": [
+				"wikipedia-geopolitical-zones-of-nigeria",
+				"wikipedia-eastern-region-nigeria"
+			],
+			"confidence": "high"
+		},
+		{
+			"id": "south-south",
+			"name": "South South (Niger Delta)",
+			"kind": "zone",
+			"extent": {
+				"states": [
+					"akwa-ibom",
+					"bayelsa",
+					"cross-river",
+					"delta",
+					"edo",
+					"rivers"
+				]
+			},
+			"seat": {
+				"name": "Uyo",
+				"point": [
+					7.93,
+					5.04
+				]
+			},
+			"groups": [
+				"ijaw",
+				"ibibio",
+				"edo",
+				"urhobo"
+			],
+			"text": "Many peoples, none dominant. The Ijaw, Ibibio, Edo and Urhobo are the largest, with the Efik, Annang, Itsekiri, Isoko, Ikwerre, Ogoni, Esan and others.",
+			"leaders": [],
+			"sources": [
+				"wikipedia-geopolitical-zones-of-nigeria",
+				"wikipedia-eastern-region-nigeria",
+				"wikipedia-mid-western-region-nigeria"
+			],
+			"confidence": "medium"
+		}
+	],
+	"reviewNotes": [
+		"Ethnic attributions follow the cited biographies. Where sources disagree, the leader is marked disputed and the alternatives are given."
+	],
+	"parties": [
+		{
+			"id": "pdp",
+			"name": "Peoples Democratic Party",
+			"short": "PDP",
+			"slot": 2,
+			"peoples": [],
+			"leader": "Olusegun Obasanjo (1999)",
+			"text": "Founded in 1998 by politicians from every zone. It held the presidency for sixteen years, rotating its candidates between North and South.",
+			"sources": [
+				"wikipedia-peoples-democratic-party-nigeria",
+				"wikipedia-1999-nigerian-presidential-election"
+			],
+			"confidence": "high"
+		},
+		{
+			"id": "apc",
+			"name": "All Progressives Congress",
+			"short": "APC",
+			"slot": 1,
+			"peoples": [
+				"yoruba",
+				"fulani",
+				"hausa"
+			],
+			"leader": "Muhammadu Buhari (2015), Bola Tinubu (2023)",
+			"text": "Formed in 2013 by merging the South-West’s ACN with the North’s CPC and ANPP. It was the first opposition to unseat a sitting president.",
+			"sources": [
+				"wikipedia-all-progressives-congress",
+				"wikipedia-2015-nigerian-general-election"
+			],
+			"confidence": "high"
+		},
+		{
+			"id": "lp",
+			"name": "Labour Party",
+			"short": "LP",
+			"slot": 3,
+			"peoples": [
+				"igbo"
+			],
+			"leader": "Peter Obi (2023)",
+			"text": "A small party until Peter Obi, an Igbo, ran on its ticket in 2023 and won 11 states and the FCT.",
+			"sources": [
+				"wikipedia-labour-party-nigeria",
+				"wikipedia-2023-nigerian-presidential-election"
+			],
+			"confidence": "medium"
+		},
+		{
+			"id": "nnpp",
+			"name": "New Nigeria People’s Party",
+			"short": "NNPP",
+			"slot": 4,
+			"peoples": [
+				"hausa"
+			],
+			"leader": "Rabiu Kwankwaso (2023)",
+			"text": "Kwankwaso’s party in 2023; it won his home state, Kano.",
+			"sources": [
+				"wikipedia-new-nigeria-peoples-party",
+				"wikipedia-2023-nigerian-presidential-election"
+			],
+			"confidence": "medium"
+		},
+		{
+			"id": "ad",
+			"name": "Alliance for Democracy",
+			"short": "AD",
+			"slot": 7,
+			"peoples": [
+				"yoruba"
+			],
+			"leader": "Olu Falae (1999)",
+			"text": "The Yoruba-based party of the South-West in 1999, heir to Awolowo’s politics.",
+			"sources": [
+				"wikipedia-alliance-for-democracy-nigeria",
+				"wikipedia-1999-nigerian-presidential-election"
+			],
+			"confidence": "medium"
+		},
+		{
+			"id": "anpp",
+			"name": "All Nigeria Peoples Party (APP until 2003)",
+			"short": "ANPP",
+			"slot": 6,
+			"peoples": [
+				"hausa",
+				"kanuri"
+			],
+			"text": "The Northern opposition party, strongest in the North-West and North-East; it joined the APC in 2013.",
+			"sources": [
+				"wikipedia-all-nigeria-peoples-party",
+				"wikipedia-1999-nigerian-presidential-election"
+			],
+			"confidence": "medium"
+		},
+		{
+			"id": "acn",
+			"name": "Action Congress of Nigeria",
+			"short": "ACN",
+			"slot": 5,
+			"peoples": [
+				"yoruba"
+			],
+			"leader": "Bola Tinubu",
+			"text": "The South-West’s party under Tinubu, the AD’s heir; it joined the APC in 2013.",
+			"sources": [
+				"wikipedia-action-congress-of-nigeria",
+				"wikipedia-all-progressives-congress"
+			],
+			"confidence": "medium"
+		},
+		{
+			"id": "cpc",
+			"name": "Congress for Progressive Change",
+			"short": "CPC",
+			"slot": 8,
+			"peoples": [
+				"fulani",
+				"hausa"
+			],
+			"leader": "Muhammadu Buhari",
+			"text": "Buhari’s party, strongest in the North-West; it joined the APC in 2013.",
+			"sources": [
+				"wikipedia-congress-for-progressive-change",
+				"wikipedia-all-progressives-congress"
+			],
+			"confidence": "medium"
+		}
+	],
+	"results": [
+		{
+			"title": "Presidential election, 1999",
+			"year": 1999,
+			"measure": "votes",
+			"parts": [
+				{
+					"party": "pdp",
+					"label": "PDP",
+					"value": 18738154,
+					"candidate": "Olusegun Obasanjo"
+				},
+				{
+					"party": "ad",
+					"label": "AD–APP",
+					"value": 11110287,
+					"candidate": "Olu Falae"
+				}
+			],
+			"note": "Both candidates were Yoruba.",
+			"sources": [
+				"wikipedia-1999-nigerian-presidential-election"
+			],
+			"confidence": "high"
+		},
+		{
+			"title": "Presidential election, 2015",
+			"year": 2015,
+			"measure": "votes",
+			"parts": [
+				{
+					"party": "apc",
+					"label": "APC",
+					"value": 15424921,
+					"candidate": "Muhammadu Buhari"
+				},
+				{
+					"party": "pdp",
+					"label": "PDP",
+					"value": 12853162,
+					"candidate": "Goodluck Jonathan"
+				},
+				{
+					"label": "Others",
+					"value": 309481
+				}
+			],
+			"note": "The first time an opposition party unseated a sitting president. Others: twelve smaller candidates.",
+			"sources": [
+				"wikipedia-2015-nigerian-general-election"
+			],
+			"confidence": "high"
+		},
+		{
+			"title": "Presidential election, 2023",
+			"year": 2023,
+			"measure": "percent",
+			"parts": [
+				{
+					"party": "apc",
+					"label": "APC",
+					"value": 36.61,
+					"candidate": "Bola Tinubu"
+				},
+				{
+					"party": "pdp",
+					"label": "PDP",
+					"value": 29.07,
+					"candidate": "Atiku Abubakar"
+				},
+				{
+					"party": "lp",
+					"label": "LP",
+					"value": 25.4,
+					"candidate": "Peter Obi"
+				},
+				{
+					"party": "nnpp",
+					"label": "NNPP",
+					"value": 6.4,
+					"candidate": "Rabiu Kwankwaso"
+				},
+				{
+					"label": "Others",
+					"value": 2.52
+				}
+			],
+			"note": "Four candidates from four of the old blocs: a Yoruba (Tinubu), a Fulani from Adamawa (Atiku), an Igbo (Obi) and a Kano Hausa populist (Kwankwaso).",
+			"sources": [
+				"wikipedia-2023-nigerian-presidential-election"
+			],
+			"confidence": "medium"
+		}
+	],
+	"coalitions": [
+		{
+			"id": "ad-app",
+			"name": "AD–APP joint ticket",
+			"kind": "alliance",
+			"from": 1999,
+			"to": 1999,
+			"parties": [
+				"ad",
+				"anpp"
+			],
+			"between": [
+				"south-west",
+				"north-west",
+				"north-east"
+			],
+			"text": "The South-West’s AD and the Northern APP backed one candidate, Olu Falae, against Obasanjo of the PDP.",
+			"sources": [
+				"wikipedia-1999-nigerian-presidential-election",
+				"wikipedia-alliance-for-democracy-nigeria"
+			],
+			"confidence": "high"
+		},
+		{
+			"id": "apc-merger",
+			"name": "The APC merger",
+			"kind": "merger",
+			"from": 2013,
+			"parties": [
+				"acn",
+				"cpc",
+				"anpp"
+			],
+			"between": [
+				"south-west",
+				"north-west",
+				"north-east"
+			],
+			"text": "In February 2013 the South-West’s ACN (Tinubu), the North-West’s CPC (Buhari) and the ANPP merged, with a faction of APGA. PDP governors and nearly 50 legislators then crossed over. The Yoruba–North coalition won in 2015, with Buhari as President and Osinbajo, a Yoruba, as Vice-President, and again in 2023 with Tinubu.",
+			"sources": [
+				"wikipedia-all-progressives-congress",
+				"wikipedia-2015-nigerian-general-election"
+			],
+			"confidence": "high"
+		}
+	]
+}

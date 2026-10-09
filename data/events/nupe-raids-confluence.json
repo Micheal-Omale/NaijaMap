@@ -1,0 +1,42 @@
+{
+	"name": "Nupe raids on the confluence",
+	"status": "draft",
+	"kind": "raid",
+	"year": 1853,
+	"yearLabel": "1853–1854",
+	"until": 1870,
+	"actors": [{ "name": "Nupe (Bida emirate)", "polity": "nupe", "side": "attacker" }, { "name": "Igala Kingdom", "polity": "igala", "side": "defender" }],
+	"summary": {
+		"text": "As the jihad reached the Niger–Benue confluence, Etsu Masaba of Nupe took Koton Karfe and Lokoja, both within the Igala sphere, in 1853. Raids grew worse the next year and refugees crossed to the south bank of the Benue. Nupe raiding also reached south into the Okun Yoruba and Etsako country.",
+		"sources": ["james-2017-igala", "lasttribes-igala"],
+		"confidence": "medium"
+	},
+	"routes": [
+		{ "kind": "raid", "by": "Nupe (Bida emirate)", "path": [[6.01, 9.08], [6.55, 8.55], [6.7981, 8.0891], [6.74, 7.8]], "label": "Etsu Masaba takes Koton Karfe and Lokoja" },
+		{
+			"kind": "raid",
+			"by": "Nupe (Bida emirate)",
+			"path": [[6.01, 9.08], [6.2, 8.4], [6.07, 7.83], [6.4, 7.35], [6.69, 7.1]],
+			"label": "Raids south into Okun and Etsako country"
+		}
+	],
+	"moments": [
+		{
+			"when": "1853",
+			"title": "Koton Karfe and Lokoja taken",
+			"text": "Igu (Koton Karfe), long a vassal of the Attah, falls to the Nupe.",
+			"at": { "name": "Igu (Koton Karfe)", "point": [6.7981, 8.0891] },
+			"mark": "captured"
+		},
+		{
+			"when": "1854",
+			"title": "Refugees on the south bank",
+			"text": "Raids intensify; people flee across the Benue into Igala land.",
+			"at": { "name": "South bank of the Benue, opposite Lokoja (approximate)", "point": [6.86, 7.74] },
+			"mark": "flight"
+		}
+	],
+	"sources": ["james-2017-igala", "lasttribes-igala"],
+	"confidence": "medium",
+	"note": "Another account dates the first sack of Igu to 1833; it may have changed hands more than once."
+}

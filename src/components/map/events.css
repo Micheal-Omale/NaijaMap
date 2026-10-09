@@ -1,0 +1,754 @@
+/* Events on the history map: the signs (marks and line samples), the cards that
+ * explain them, the event panel, and the event marks on the timeline.
+ * Colonial forces always read in scarlet and in squares, the region's own states
+ * in sepia and in rounds, so the difference never rests on colour alone. */
+
+:root {
+	--colonial: #c8102e;
+}
+
+/* ---- Signs */
+
+.mark-icon,
+.line-sample,
+.ship-icon {
+	flex: none;
+	display: inline-block;
+	vertical-align: middle;
+	overflow: visible;
+}
+
+/* ---- The key */
+
+.then-key__hint {
+	margin: -4px 0 12px;
+	padding: 8px 10px;
+	border-radius: var(--radius-sm);
+	background: var(--surface-2);
+	font-size: 0.8125rem;
+	color: var(--ink-muted);
+}
+
+.then-key__group {
+	margin: 14px 0 8px;
+	font-size: 0.6875rem;
+	font-weight: 700;
+	letter-spacing: 0.14em;
+	text-transform: uppercase;
+	color: var(--ink-muted);
+}
+
+.then-key .line-sample {
+	margin-top: 1px;
+}
+
+/* Both ships, sail and steam, stand in for the voyage line in the key. */
+.then-key__ships {
+	flex: none;
+	display: inline-flex;
+	gap: 2px;
+	width: 34px;
+	overflow: visible;
+}
+
+.then-key__ships .ship-icon {
+	width: 16px;
+	height: 12px;
+}
+
+.legend ul.then-key__marks {
+	grid-template-columns: 1fr 1fr;
+	gap: 8px 10px;
+	font-size: 0.8125rem;
+}
+
+.then-key__marks li {
+	align-items: center;
+	gap: 8px;
+}
+
+.then-key__note {
+	margin: 10px 0 0;
+	font-size: 0.8125rem;
+	color: var(--ink-muted);
+}
+
+.then-swatch--pieces {
+	background:
+		repeating-linear-gradient(45deg, color-mix(in srgb, #8a3b2a 75%, transparent) 0 1.4px, transparent 1.4px 5px) left / 50% 100% no-repeat,
+		repeating-linear-gradient(-45deg, color-mix(in srgb, #2f5a85 75%, transparent) 0 1.4px, transparent 1.4px 5px) right / 50% 100% no-repeat,
+		var(--surface);
+	outline: 1.5px dashed var(--colonial);
+	outline-offset: -1px;
+}
+
+/* ---- Events in the year panel */
+
+.then-intro__events {
+	margin: 20px 0 6px;
+	font-size: 0.6875rem;
+	font-weight: 700;
+	letter-spacing: 0.14em;
+	text-transform: uppercase;
+	color: var(--ink-muted);
+}
+
+.event-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: grid;
+	gap: 2px;
+}
+
+.event-row {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	width: 100%;
+	min-height: 44px;
+	padding: 7px 10px;
+	border: 0;
+	border-radius: var(--radius-sm);
+	background: none;
+	text-align: left;
+	color: inherit;
+	cursor: pointer;
+}
+
+.event-row:hover,
+.event-row:focus-visible {
+	background: var(--surface-2);
+}
+
+.event-row.is-new {
+	box-shadow: inset 3px 0 0 var(--accent);
+}
+
+.event-row__text {
+	display: grid;
+	gap: 1px;
+	min-width: 0;
+}
+
+.event-row__text strong {
+	font-family: var(--font-display);
+	font-size: 0.9375rem;
+	line-height: 1.25;
+}
+
+.event-row__text span {
+	color: var(--ink-muted);
+	font-size: 0.8125rem;
+}
+
+/* ---- Explanations: following the mouse, or pinned where tapped */
+
+.explain {
+	--explain-ink: var(--map-label-strong);
+	font-size: 0.8125rem;
+	line-height: 1.45;
+}
+
+.hover-card.explain--hover {
+	max-width: 300px;
+	padding: 12px 14px 10px;
+	border-top: 3px solid var(--explain-ink);
+}
+
+.explain--pinned {
+	position: absolute;
+	z-index: 6;
+	width: 320px;
+	max-height: min(70vh, 480px);
+	overflow-y: auto;
+	padding: 14px 16px 14px;
+	border-radius: var(--radius);
+	border: 1px solid var(--rule);
+	border-top: 3px solid var(--explain-ink);
+	background: var(--surface);
+	box-shadow: var(--shadow);
+	animation: explain-in 0.38s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+}
+
+.explain--pinned:focus {
+	outline: none;
+}
+
+.explain--pinned:focus-visible {
+	outline: 2px solid var(--accent);
+	outline-offset: 2px;
+}
+
+/* On a phone the explanation rises from the bottom like a sheet. */
+.explain--sheet {
+	position: fixed;
+	left: 10px;
+	right: 10px;
+	bottom: max(10px, env(safe-area-inset-bottom));
+	top: auto;
+	width: auto;
+	max-height: 58dvh;
+	z-index: 30;
+	animation-name: explain-up;
+}
+
+@keyframes explain-in {
+	from {
+		opacity: 0;
+		transform: translateY(6px) scale(0.98);
+	}
+}
+
+@keyframes explain-up {
+	from {
+		opacity: 0;
+		transform: translateY(24px);
+	}
+}
+
+.explain__close {
+	position: absolute;
+	top: 6px;
+	right: 6px;
+	display: grid;
+	place-items: center;
+	width: 36px;
+	height: 36px;
+	padding: 0;
+	border: 0;
+	border-radius: 50%;
+	background: none;
+	color: var(--ink-muted);
+	cursor: pointer;
+}
+
+.explain__close:hover {
+	background: var(--surface-2);
+	color: var(--ink);
+}
+
+.explain__close svg {
+	width: 18px;
+	height: 18px;
+	fill: none;
+	stroke: currentColor;
+	stroke-width: 2;
+	stroke-linecap: round;
+}
+
+.explain__kicker {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	margin: 0 30px 6px 0;
+	font-size: 0.6875rem;
+	font-weight: 700;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	color: var(--ink-muted);
+}
+
+.explain__swatch {
+	flex: none;
+	width: 14px;
+	height: 14px;
+	border-radius: 3px;
+	box-shadow: inset 0 0 0 1.5px rgb(0 0 0 / 18%);
+}
+
+.explain__title {
+	margin: 0;
+	font-family: var(--font-display);
+	font-size: 1.0625rem;
+	font-weight: 700;
+	line-height: 1.25;
+	color: var(--ink);
+}
+
+.explain__when {
+	margin: 3px 0 0;
+	color: var(--ink-muted);
+	font-variant-numeric: tabular-nums;
+}
+
+.explain__text {
+	margin: 8px 0 0;
+	color: var(--ink);
+}
+
+/* What this kind of line or mark means, set apart like a key entry. */
+.explain__meaning {
+	margin: 10px 0 0;
+	padding: 2px 0 2px 10px;
+	border-left: 3px solid var(--explain-ink);
+	color: var(--ink-muted);
+}
+
+.explain__note {
+	margin: 8px 0 0;
+	font-style: italic;
+	color: var(--ink-muted);
+}
+
+.explain__conf {
+	margin: 8px 0 0;
+}
+
+.explain__also {
+	margin: 8px 0 0;
+	padding-top: 8px;
+	border-top: 1px solid var(--rule);
+	color: var(--ink-muted);
+}
+
+.explain__actions {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+	margin-top: 12px;
+}
+
+.explain__action {
+	min-height: 40px;
+	padding: 8px 14px;
+	border: 1px solid var(--rule);
+	border-radius: 999px;
+	background: var(--surface);
+	color: var(--ink);
+	font: inherit;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.explain__action:hover {
+	background: var(--surface-2);
+}
+
+.explain__action--primary {
+	border-color: var(--accent);
+	background: var(--accent);
+	color: var(--accent-ink);
+}
+
+.explain__action--primary:hover {
+	background: var(--accent);
+	filter: brightness(1.08);
+}
+
+/* ---- The event panel */
+
+.event-panel__eyebrow {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	margin: 0 0 6px;
+	font-size: 0.75rem;
+	font-weight: 700;
+	letter-spacing: 0.12em;
+	text-transform: uppercase;
+	color: var(--ink-muted);
+}
+
+.event-panel__eyebrow span {
+	margin-left: auto;
+	letter-spacing: 0.02em;
+	text-transform: none;
+	font-variant-numeric: tabular-nums;
+}
+
+.event-panel__name {
+	display: inline-block;
+	padding-bottom: 6px;
+	border-bottom: 3px solid var(--map-label-strong);
+}
+
+.event-panel--colonial .event-panel__name {
+	border-bottom-color: var(--colonial);
+}
+
+.event-panel--colonial .event-panel__eyebrow {
+	color: var(--colonial);
+}
+
+.event-panel__show {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	margin: 4px 0 6px;
+}
+
+.event-panel__show svg {
+	width: 18px;
+	height: 18px;
+	fill: none;
+	stroke: currentColor;
+	stroke-width: 1.8;
+}
+
+.event-actors {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: grid;
+	gap: 4px;
+}
+
+.event-actor {
+	display: flex;
+	align-items: center;
+	gap: 9px;
+	width: 100%;
+	min-height: 40px;
+	padding: 6px 10px;
+	border: 0;
+	border-radius: var(--radius-sm);
+	background: none;
+	font: inherit;
+	text-align: left;
+	color: inherit;
+}
+
+button.event-actor {
+	cursor: pointer;
+}
+
+button.event-actor:hover {
+	background: var(--surface-2);
+}
+
+.event-actor span:last-child {
+	margin-left: auto;
+	color: var(--ink-muted);
+	font-size: 0.8125rem;
+	white-space: nowrap;
+}
+
+/* The chronology: a rule down the side, a mark for each moment. */
+.event-moments {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+.event-moments::before {
+	content: '';
+	position: absolute;
+	left: 12px;
+	top: 14px;
+	bottom: 14px;
+	width: 2px;
+	background: var(--rule);
+}
+
+.event-moments li {
+	position: relative;
+	display: grid;
+	grid-template-columns: 26px 1fr;
+	gap: 12px;
+	padding: 8px 0;
+}
+
+.event-moments li > .mark-icon {
+	position: relative;
+	margin-top: 2px;
+	background: var(--surface);
+	border-radius: 50%;
+}
+
+.event-moments__when {
+	margin: 0;
+	font-size: 0.8125rem;
+	font-weight: 700;
+	color: var(--ink-muted);
+	font-variant-numeric: tabular-nums;
+}
+
+.event-moments__when span {
+	font-weight: 400;
+}
+
+.event-moments__title {
+	margin: 2px 0 0;
+	font-family: var(--font-display);
+	font-weight: 700;
+	font-size: 1rem;
+}
+
+.event-moments__text {
+	margin: 4px 0 0;
+	font-size: 0.875rem;
+}
+
+.event-moments__go {
+	margin-top: 6px;
+	padding: 4px 0;
+	border: 0;
+	background: none;
+	color: var(--accent);
+	font: inherit;
+	font-size: 0.8125rem;
+	font-weight: 600;
+	text-align: left;
+	text-decoration: underline;
+	text-underline-offset: 3px;
+	cursor: pointer;
+}
+
+.event-moments__none {
+	margin: 6px 0 0;
+	font-size: 0.75rem;
+	color: var(--ink-faint);
+}
+
+.event-routes,
+.event-pieces {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: grid;
+	gap: 10px;
+	font-size: 0.875rem;
+}
+
+.event-routes li,
+.event-pieces li {
+	display: flex;
+	gap: 10px;
+	align-items: flex-start;
+}
+
+.event-routes .line-sample,
+.event-routes .ship-icon {
+	margin-top: 3px;
+}
+
+.event-routes__note {
+	display: block;
+	margin-top: 2px;
+	font-size: 0.8125rem;
+	font-style: italic;
+	color: var(--ink-muted);
+}
+
+.event-pieces__swatch {
+	--piece: #8a3b2a;
+	flex: none;
+	width: 26px;
+	height: 18px;
+	border-radius: 3px;
+	outline: 1.5px dashed var(--colonial);
+	outline-offset: -1px;
+	background: repeating-linear-gradient(45deg, var(--piece) 0 1.5px, transparent 1.5px 5px), color-mix(in srgb, var(--piece) 18%, var(--surface));
+}
+
+.event-pieces__swatch--1 {
+	background: repeating-linear-gradient(-45deg, var(--piece) 0 1.5px, transparent 1.5px 5px), color-mix(in srgb, var(--piece) 18%, var(--surface));
+}
+
+.event-pieces__swatch--2 {
+	background: repeating-linear-gradient(0deg, var(--piece) 0 1.5px, transparent 1.5px 5px), color-mix(in srgb, var(--piece) 18%, var(--surface));
+}
+
+.event-pieces__swatch--3 {
+	background: repeating-linear-gradient(90deg, var(--piece) 0 1.5px, transparent 1.5px 5px), color-mix(in srgb, var(--piece) 18%, var(--surface));
+}
+
+/* ---- Event marks on the timeline track */
+
+.timeline__events {
+	position: absolute;
+	left: 10px;
+	right: 10px;
+	top: -4px;
+	height: 12px;
+	z-index: 2;
+	pointer-events: none;
+}
+
+.timeline__event {
+	position: absolute;
+	top: 0;
+	width: 12px;
+	height: 12px;
+	margin-left: -6px;
+	padding: 0;
+	border: 0;
+	background: none;
+	pointer-events: auto;
+	cursor: pointer;
+}
+
+.timeline__event::before {
+	content: '';
+	position: absolute;
+	inset: 2px;
+	border-radius: 50%;
+	background: var(--map-label-strong);
+	box-shadow: 0 0 0 1.5px var(--surface);
+	transition: transform 0.2s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.timeline__event--war::before,
+.timeline__event--raid::before {
+	border-radius: 1px;
+	transform: rotate(45deg) scale(0.9);
+}
+
+.timeline__event--alliance::before {
+	background: var(--surface);
+	box-shadow: inset 0 0 0 2px var(--map-label-strong), 0 0 0 1.5px var(--surface);
+}
+
+.timeline__event--colonial::before {
+	inset: 1.5px;
+	border-radius: 2px;
+	background: var(--colonial);
+}
+
+.timeline__event:hover::before,
+.timeline__event:focus-visible::before,
+.timeline__event.on::before {
+	transform: scale(1.35);
+}
+
+.timeline__event--war:hover::before,
+.timeline__event--war:focus-visible::before,
+.timeline__event--war.on::before,
+.timeline__event--raid:hover::before,
+.timeline__event--raid.on::before {
+	transform: rotate(45deg) scale(1.25);
+}
+
+.timeline__event:focus-visible {
+	outline: 2px solid var(--accent);
+	outline-offset: 2px;
+	border-radius: 3px;
+}
+
+/* The event's name, above the track. */
+.timeline__event::after {
+	content: attr(data-tip);
+	position: absolute;
+	bottom: calc(100% + 8px);
+	left: 50%;
+	transform: translate(-50%, 4px);
+	width: max-content;
+	max-width: 260px;
+	padding: 6px 10px;
+	border-radius: var(--radius-sm);
+	background: var(--ink);
+	color: var(--surface);
+	font-size: 0.75rem;
+	font-weight: 600;
+	line-height: 1.35;
+	text-align: left;
+	white-space: normal;
+	opacity: 0;
+	pointer-events: none;
+	transition:
+		opacity 0.18s,
+		transform 0.18s;
+}
+
+.timeline__event:hover::after,
+.timeline__event:focus-visible::after {
+	opacity: 1;
+	transform: translate(-50%, 0);
+}
+
+/* Near the ends of the track, the name opens inward. */
+.timeline__event.is-end::after {
+	left: auto;
+	right: -4px;
+	transform: translateY(4px);
+}
+
+.timeline__event.is-start::after {
+	left: -4px;
+	transform: translateY(4px);
+}
+
+.timeline__event.is-end:hover::after,
+.timeline__event.is-end:focus-visible::after,
+.timeline__event.is-start:hover::after,
+.timeline__event.is-start:focus-visible::after {
+	transform: none;
+}
+
+.app[data-playing] .timeline__event::before {
+	box-shadow: 0 0 0 1.5px rgb(16 11 7);
+}
+
+/* ---- Captions and the lower third for events */
+
+.timeline__caption-event {
+	padding: 0 !important;
+}
+
+.timeline__caption-event button {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	padding: 6px 14px 6px 8px;
+	border: 0;
+	border-radius: 999px;
+	background: none;
+	color: inherit;
+	font: inherit;
+	cursor: pointer;
+	pointer-events: auto;
+}
+
+.timeline__caption-event button:hover strong {
+	text-decoration: underline;
+	text-underline-offset: 3px;
+}
+
+.lower-third--event .lower-third__year {
+	max-width: 6.5em;
+	font-size: 1.75rem;
+	line-height: 1.05;
+}
+
+.lower-third--colonial {
+	border-left-color: var(--colonial);
+}
+
+.lower-third--event .lower-third__kicker .mark-icon {
+	width: 18px;
+	height: 18px;
+}
+
+@media (max-width: 899px) {
+	.timeline__event::after {
+		display: none;
+	}
+
+	/* Long event names wrap on a phone rather than run off the screen. */
+	.timeline__caption-event button {
+		align-items: flex-start;
+		text-align: left;
+	}
+
+	.timeline__caption-event strong {
+		white-space: normal;
+	}
+
+	.legend ul.then-key__marks {
+		grid-template-columns: 1fr;
+	}
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.explain--pinned,
+	.explain--sheet {
+		animation: none;
+	}
+
+	.timeline__event::before,
+	.timeline__event::after {
+		transition: none;
+	}
+}

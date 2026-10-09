@@ -1,6 +1,26 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Zonkwa (Azunkwa)",
+			"lga": "kaduna-zangon-kataf",
+			"villages": [],
+			"sources": [
+				"wikipedia-bajju-people",
+				"wikipedia-zangon-kataf"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Headquarters of the Bajju chiefdom and its ruler, the Agwam Bajju, and of Zangon Kataf LGA. Jju is the largest of the five related Tyap languages of the LGA. In 1903 the British advanced from Atyap into Bajju land, where some 45 Bajju men died and their villages were burned.",
+				"sources": [
+					"wikipedia-bajju-people",
+					"wikipedia-zangon-kataf",
+					"wikipedia-southern-kaduna"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Bajju",
 	"searchAliases": [

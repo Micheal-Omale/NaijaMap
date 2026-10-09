@@ -84,7 +84,29 @@
 			"confidence": "medium"
 		}
 	],
-	"communities": [],
+	"communities": [
+		{
+			"name": "Gboloko",
+			"lga": "kogi-bassa",
+			"point": [
+				6.893,
+				7.73
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-bassa-nge",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Seat of the Etsu Bassa-Nge. The Bassa-Nge trace their origin to Gbara, the old Nupe capital.",
+				"sources": [
+					"wikipedia-bassa-nge"
+				],
+				"confidence": "medium"
+			}
+		}
+	],
 	"reviewNotes": [
 		"The Bassa-Nge page says they are the majority in Lokoja; this conflicts with other accounts of Lokoja and is not used."
 	]

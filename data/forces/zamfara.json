@@ -1,0 +1,41 @@
+{
+	"status": "draft",
+	"of": "polity",
+	"terrain": "savanna",
+	"summary": {
+		"text": "Zamfara was a Hausa kingdom of horsemen, conquered by Gobir in the 18th century.",
+		"sources": [
+			"wikipedia-hausa-kingdoms",
+			"wikipedia-gobir"
+		],
+		"confidence": "medium"
+	},
+	"arms": [
+		{
+			"kind": "cavalry",
+			"level": 1,
+			"text": "Hausa horsemen.",
+			"sources": [
+				"law-1980-horse",
+				"wikipedia-hausa-kingdoms"
+			],
+			"confidence": "medium"
+		}
+	],
+	"record": [
+		{
+			"year": 1764,
+			"polity": "gobir",
+			"against": "Gobir",
+			"result": "lost",
+			"text": "Gobir took Zamfara’s lands.",
+			"sources": [
+				"wikipedia-gobir"
+			],
+			"confidence": "medium"
+		}
+	],
+	"reviewNotes": [
+		"Arms levels (1 some, 2 a real strength, 3 famous for it) are the compiler’s judgement from the sources, for the Versus page’s guess; please check them."
+	]
+}

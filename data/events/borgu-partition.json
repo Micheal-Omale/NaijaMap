@@ -1,0 +1,84 @@
+{
+	"name": "Borgu divided",
+	"status": "draft",
+	"kind": "partition",
+	"year": 1898,
+	"yearLabel": "1894–1898",
+	"until": 1920,
+	"actors": [
+		{ "name": "British forces", "side": "colonial" },
+		{ "name": "French forces", "side": "colonial" },
+		{ "name": "Borgu kingdoms (Bussa, Nikki, Illo)", "polity": "borgu", "side": "defender" }
+	],
+	"summary": {
+		"text": "Borgu was a family of Wasangari kingdoms, with Bussa honoured as the senior seat and Nikki as the most powerful. In 1894 Britain and France raced to sign treaties with Nikki, and the Anglo-French Convention of 14 June 1898 cut Borgu in two. The eastern kingdoms, Bussa, Kaiama and Illo, went to Britain and became Borgu Province of Northern Nigeria in 1900. Nikki, Kandi, Parakou and the western kingdoms were joined to French Dahomey, now the Republic of Benin. In 1968 the waters of Kainji Lake covered old Bussa itself, and its people were moved to New Bussa.",
+		"sources": ["wikipedia-borgu", "britannica-borgu", "wikipedia-bussa-nigeria", "wikipedia-benin-nigeria-border"],
+		"confidence": "high"
+	},
+	"moments": [
+		{
+			"when": "1894",
+			"title": "The race for Nikki",
+			"text": "Frederick Lugard, for the Royal Niger Company, hurries to Nikki to sign a treaty before the French can. A French mission follows, and both sides claim Borgu.",
+			"at": { "name": "Nikki", "point": [3.21, 9.94] },
+			"mark": "treaty",
+			"sources": ["wikipedia-borgu", "britannica-borgu"],
+			"confidence": "high"
+		},
+		{
+			"when": "14 June 1898",
+			"title": "The line is drawn",
+			"text": "The Anglo-French Convention fixes the frontier from the coast north to the Niger, through the middle of Borgu. Nikki’s king goes to France and Bussa’s to Britain.",
+			"mark": "treaty",
+			"sources": ["wikipedia-benin-nigeria-border", "wikipedia-borgu"],
+			"confidence": "high"
+		},
+		{
+			"when": "1915",
+			"title": "Bussa rises",
+			"text": "Bussa rises against the British system of indirect rule.",
+			"at": { "name": "Bussa (old town)", "point": [4.5, 10.2] },
+			"mark": "battle",
+			"sources": ["wikipedia-bussa-nigeria"],
+			"confidence": "medium"
+		},
+		{
+			"when": "1954",
+			"title": "One emirate of Borgu",
+			"text": "Kaiama and Bussa are joined, and the emir of Bussa becomes the first emir of Borgu.",
+			"at": { "name": "Kaiama", "point": [3.94, 9.6] },
+			"mark": "treaty",
+			"sources": ["britannica-borgu", "wikipedia-borgu-emirate"],
+			"confidence": "medium"
+		},
+		{
+			"when": "1968",
+			"title": "Bussa under the lake",
+			"text": "Kainji Lake floods old Bussa, the spiritual seat of Borgu, and other towns along the Niger. The emir’s seat moves to New Bussa.",
+			"at": { "name": "New Bussa", "point": [4.513, 9.883] },
+			"mark": "flight",
+			"sources": ["wikipedia-bussa-nigeria", "britannica-borgu"],
+			"confidence": "high"
+		}
+	],
+	"pieces": [
+		{
+			"name": "Borgu Province, Northern Nigeria: Bussa and Kaiama",
+			"note": "Borgu Province from 1900; part of Kontagora Province from 1907 and Ilorin Province from 1923. Today Borgu and Agwara (Niger State) and Baruten and Kaiama (Kwara State).",
+			"extent": { "lgas": ["niger-borgu", "niger-agwara", "kwara-baruten", "kwara-kaiama"] }
+		},
+		{
+			"name": "Illo, moved to Sokoto Province (1905)",
+			"note": "Illo lies on the Niger in today’s Bagudo LGA, Kebbi State.",
+			"extent": { "lgas": ["kebbi-bagudu"], "confidence": "medium" }
+		},
+		{
+			"name": "French Dahomey: Nikki, Kandi, Parakou and Kouandé",
+			"note": "Today the Borgou and Alibori departments of the Republic of Benin.",
+			"extent": { "beyond": [[[1.5, 9], [2.9, 8.9], [3.85, 9.6], [3.85, 10.6], [3.7, 12], [2.7, 11.9], [1.4, 10.7]]] }
+		}
+	],
+	"sources": ["wikipedia-borgu", "britannica-borgu", "wikipedia-bussa-nigeria", "wikipedia-borgu-emirate", "wikipedia-benin-nigeria-border", "stewart-1993"],
+	"confidence": "high",
+	"note": "The Dahomey piece reuses the rough ring of the Borgu polity, clipped at the border. The pieces show where the kingdoms went, simplified to today’s LGAs."
+}

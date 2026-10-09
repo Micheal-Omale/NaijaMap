@@ -72,7 +72,25 @@
 			"note": "The Igede ward of Yala."
 		}
 	],
-	"communities": [],
+	"communities": [
+		{
+			"name": "Oju",
+			"lga": "benue-oju",
+			"villages": [],
+			"sources": [
+				"wikipedia-oju",
+				"itodo-2021-idoma-timeline"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "On the southern edge of Benue State. Igede was only brought under British control in 1922, and Ogbuloko Inawo led an Igede rising against the British from 1926 to 1929.",
+				"sources": [
+					"itodo-2021-idoma-timeline"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [
 		"Igede is also spoken in Cross River State (probably next to Oju); the LGA is not yet sourced.",
 		"No paramount ruler is recorded yet."

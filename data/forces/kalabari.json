@@ -1,0 +1,39 @@
+{
+	"status": "draft",
+	"of": "polity",
+	"terrain": "delta",
+	"summary": {
+		"text": "Kalabari (Elem Kalabari) was a canoe-house city-state of the eastern Delta, a rival of Bonny.",
+		"sources": [
+			"wikipedia-kalabari-kingdom",
+			"jones-1963"
+		],
+		"confidence": "medium"
+	},
+	"arms": [
+		{
+			"kind": "canoes",
+			"level": 3,
+			"text": "War canoes of the canoe houses.",
+			"sources": [
+				"jones-1963"
+			],
+			"confidence": "medium"
+		},
+		{
+			"kind": "firearms",
+			"level": 2,
+			"from": 1600,
+			"text": "Guns and cannon from the Atlantic trade.",
+			"sources": [
+				"jones-1963",
+				"thornton-1999"
+			],
+			"confidence": "medium"
+		}
+	],
+	"record": [],
+	"reviewNotes": [
+		"Arms levels (1 some, 2 a real strength, 3 famous for it) are the compiler’s judgement from the sources, for the Versus page’s guess; please check them."
+	]
+}

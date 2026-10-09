@@ -1,0 +1,36 @@
+{
+	"name": "Jaja of Opobo deported",
+	"status": "draft",
+	"kind": "colonial",
+	"year": 1887,
+	"yearLabel": "September 1887",
+	"until": 1891,
+	"actors": [{ "name": "British forces", "side": "colonial" }, { "name": "King Jaja of Opobo", "polity": "opobo", "side": "defender" }],
+	"summary": {
+		"text": "Jaja of Opobo controlled the palm-oil trade of the Imo river and dealt directly with buyers in Britain, cutting out the coastal firms. In September 1887 the consul, Harry Johnston, invited him aboard a gunboat under a promise of safe conduct and seized him. Jaja was tried at Accra and exiled to St Vincent in the West Indies; allowed home in 1891, he died on the way.",
+		"sources": ["wikipedia-jaja-of-opobo", "wikipedia-opobo", "dike-1956"],
+		"confidence": "high"
+	},
+	"routes": [
+		{ "kind": "exile", "by": "British forces", "path": [[7.54, 4.51], [4, 3.7], [-0.19, 5.6]], "label": "Jaja taken to Accra for trial" },
+		{ "kind": "exile", "by": "British forces", "path": [[-0.19, 5.6], [-2.9, 3.4]], "label": "Exiled to St Vincent, in the West Indies" }
+	],
+	"moments": [
+		{
+			"when": "September 1887",
+			"title": "Seized under safe conduct",
+			"text": "Jaja goes aboard to meet the consul and is not allowed to leave.",
+			"at": { "name": "Opobo", "point": [7.54, 4.51] },
+			"mark": "captured"
+		},
+		{
+			"when": "Late 1887",
+			"title": "Tried and exiled",
+			"text": "A tribunal at Accra sentences him to exile in the West Indies. He died in 1891 on the voyage home.",
+			"at": { "name": "Accra (Gold Coast)", "point": [-0.19, 5.6] },
+			"mark": "exile"
+		}
+	],
+	"sources": ["wikipedia-jaja-of-opobo", "wikipedia-opobo", "dike-1956"],
+	"confidence": "high"
+}

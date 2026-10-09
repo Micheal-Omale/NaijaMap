@@ -1,0 +1,33 @@
+{
+	"name": "Masaba, Umaru Bahaushe and the founding of Bida",
+	"status": "draft",
+	"kind": "war",
+	"year": 1835,
+	"yearLabel": "1835–1857",
+	"until": 1860,
+	"actors": [
+		{ "name": "Usman Zaki and Umaru Majigi", "polity": "nupe", "side": "attacker" },
+		{ "name": "Masaba", "side": "resister", "ink": "#8a6a2a" },
+		{ "name": "Mayaki Umaru Bahaushe", "side": "defender", "ink": "#6a3a3a" },
+		{ "name": "Gwandu", "polity": "sokoto", "side": "ally" }
+	],
+	"summary": {
+		"text": "Mallam Dendo's sons fought over Nupe for twenty years. Masaba, the half-Nupe son, rebelled against Usman Zaki, fled from Raba to Lade in 1835, allied with the old-line Etsus at Zugurma and Eggan, raided the Ebira and Bunu, and was beaten at Takuma. Then the war-chief Umaru Bahaushe, a soldier from Bornu, defeated Masaba at Lade and sent him to Ilorin, crushed the old Tsoede line at Yeti, and ruled Nupe himself. Umaru Majigi rallied the Fulani, the Bini towns and the old-line Etsu Ma'azu Isa; Usman Zaki came back with a Gwandu army; and in 1857 they ran Umaru Bahaushe down at the walled Bini war-camp of Bida. He drowned crossing the Gbako river near Badeggi, and Bida became the capital of Nupe.",
+		"sources": ["sidi-2023-nupe", "rulers-org-nigeria-traditional", "idrees-1989-bida"],
+		"confidence": "medium"
+	},
+	"routes": [
+		{ "kind": "exile", "by": "Masaba", "path": [[5.03, 9.211], [5.617, 8.758]], "label": "Masaba from Raba to Lade (1835)", "sources": ["sidi-2023-nupe"], "confidence": "medium" },
+		{ "kind": "exile", "by": "Masaba", "path": [[5.617, 8.758], [4.55, 8.5]], "label": "Masaba to Ilorin", "sources": ["sidi-2023-nupe"], "confidence": "medium" },
+		{ "kind": "advance", "by": "Gwandu", "path": [[4.64, 12.5], [5.03, 9.211]], "label": "Usman Zaki returns with a Gwandu army", "sources": ["sidi-2023-nupe"], "confidence": "medium" }
+	],
+	"moments": [
+		{ "when": "1835–1841", "title": "Masaba beaten at Takuma", "text": "Usman Zaki's commander Andi Boshi defeats Masaba and his allies.", "at": { "name": "Takuma", "point": [5.231, 9.336] }, "mark": "battle", "sources": ["sidi-2023-nupe"], "confidence": "medium" },
+		{ "when": "c. 1847", "title": "Umaru Bahaushe takes Lade", "text": "The war-chief defeats Masaba at his capital; many of Masaba's men go over to him.", "at": { "name": "Lade", "point": [5.617, 8.758] }, "mark": "captured", "sources": ["sidi-2023-nupe", "rulers-org-nigeria-traditional"], "confidence": "medium" },
+		{ "when": "c. 1848", "title": "The old line crushed at Yeti", "text": "Umaru Bahaushe defeats the Tsoede claimants; Etsu Maza is killed and Ma'azu Isa escapes.", "at": { "name": "Yeti", "point": [5.463, 9.403] }, "mark": "battle", "sources": ["sidi-2023-nupe"], "confidence": "medium" },
+		{ "when": "1857", "title": "Bida: the usurper falls", "text": "After years of fighting around the Bini war-camp of Bida, Umaru Bahaushe is beaten and drowns in the Gbako river near Badeggi. Bida becomes the capital.", "at": { "name": "Bida", "point": [6.01, 9.085] }, "mark": "founded", "sources": ["sidi-2023-nupe", "idrees-1989-bida"], "confidence": "high" }
+	],
+	"sources": ["sidi-2023-nupe", "rulers-org-nigeria-traditional"],
+	"confidence": "medium",
+	"note": "rulers.org gives Umaru Bahaushe 1848–1856; Sidi has his fall in 1857."
+}

@@ -1,0 +1,53 @@
+{
+	"name": "Kabba",
+	"status": "draft",
+	"otherNames": [
+		"Owe"
+	],
+	"point": [
+		6.074,
+		7.824
+	],
+	"founded": {
+		"year": 1500,
+		"yearLabel": "before written records",
+		"sources": [
+			"idrees-1989-bida"
+		],
+		"confidence": "medium"
+	},
+	"summary": {
+		"text": "Kabba is the town of the Owe, one of the Okun Yoruba peoples. When Bida subdued north-east Yorubaland it made the Obaro of Kabba paramount over all its towns, to collect tribute under Bida’s delegate at Lokoja. The other Okun towns, and some Owe clans, hated it. In January 1897 the Royal Niger Company declared the north-east Yoruba free of Bida at Kabba, and the Owe gave the Company porters and guides.",
+		"sources": [
+			"idrees-1989-bida"
+		],
+		"confidence": "high"
+	},
+	"founders": [
+		{
+			"people": "Owe (Okun Yoruba)",
+			"group": "yoruba",
+			"text": "The Owe clans, whose leading chief is the Obaro.",
+			"sources": [
+				"idrees-1989-bida"
+			],
+			"confidence": "medium"
+		}
+	],
+	"under": [
+		{
+			"polity": "nupe",
+			"from": 1857,
+			"to": 1897,
+			"kind": "tribute",
+			"text": "Bida raised the Obaro to paramount chief of north-east Yorubaland, as its tribute collector.",
+			"sources": [
+				"idrees-1989-bida"
+			],
+			"confidence": "high"
+		}
+	],
+	"reviewNotes": [
+		"The founding year is a placeholder: no source dates Kabba’s founding."
+	]
+}

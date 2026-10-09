@@ -1,0 +1,92 @@
+{
+	"name": "The battle of Osogbo",
+	"status": "draft",
+	"kind": "war",
+	"year": 1840,
+	"yearLabel": "1840",
+	"until": 1845,
+	"actors": [
+		{
+			"name": "Ibadan",
+			"polity": "ibadan",
+			"side": "defender"
+		},
+		{
+			"name": "Ilorin",
+			"polity": "sokoto",
+			"side": "attacker"
+		}
+	],
+	"summary": {
+		"text": "After destroying Oyo-Ile, Ilorin's armies pushed south towards the forest. In 1840 Ibadan's army met them at Osogbo and defeated them decisively, halting the jihad's advance into southern Yorubaland. The victory made Ibadan the guardian of the Yoruba against the north, and Oyo refugees poured into the city.",
+		"sources": [
+			"wikipedia-ibadan",
+			"wikipedia-kiriji-war"
+		],
+		"confidence": "high"
+	},
+	"routes": [
+		{
+			"kind": "advance",
+			"by": "Ilorin",
+			"path": [
+				[
+					4.55,
+					8.5
+				],
+				[
+					4.56,
+					7.77
+				]
+			],
+			"label": "Ilorin's army south",
+			"sources": [
+				"wikipedia-ibadan"
+			]
+		},
+		{
+			"kind": "advance",
+			"by": "Ibadan",
+			"path": [
+				[
+					3.9,
+					7.39
+				],
+				[
+					4.56,
+					7.77
+				]
+			],
+			"label": "Ibadan's army to Osogbo",
+			"sources": [
+				"wikipedia-ibadan"
+			]
+		}
+	],
+	"moments": [
+		{
+			"when": "1840",
+			"title": "Ilorin beaten",
+			"text": "The jihad's advance into the forest is stopped.",
+			"at": {
+				"name": "Osogbo",
+				"point": [
+					4.56,
+					7.77
+				]
+			},
+			"mark": "battle",
+			"sources": [
+				"wikipedia-ibadan",
+				"wikipedia-kiriji-war"
+			],
+			"confidence": "high"
+		}
+	],
+	"sources": [
+		"wikipedia-ibadan",
+		"wikipedia-kiriji-war"
+	],
+	"confidence": "high",
+	"reviewNotes": []
+}

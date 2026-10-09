@@ -1,6 +1,33 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Askira and Uba",
+			"lga": "borno-askira-uba",
+			"villages": [
+				{
+					"name": "Askira"
+				},
+				{
+					"name": "Uba"
+				},
+				{
+					"name": "Lassa"
+				}
+			],
+			"sources": [
+				"wikipedia-askira-uba"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Predominantly Marghi-speaking (45% in a 2023 survey); Askira, the headquarters, was founded by Muhammadu Mai Maina in 1921, and the LGA has two emirates, Askira and Uba. Lassa, one of its villages, gave its name to the Lassa virus.",
+				"sources": [
+					"wikipedia-askira-uba"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [
 		"The Marghi article names \"Mubi\" without saying North or South; both are marked."
 	],

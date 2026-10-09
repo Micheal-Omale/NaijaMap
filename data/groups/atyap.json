@@ -1,6 +1,83 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Zangon Katab and Atyekum",
+			"lga": "kaduna-zangon-kataf",
+			"point": [
+				8.39,
+				9.77
+			],
+			"villages": [
+				{
+					"name": "Atyekum (Mabatado)"
+				},
+				{
+					"name": "Batadon"
+				},
+				{
+					"name": "Agut Ntswuo"
+				},
+				{
+					"name": "Kamantan"
+				},
+				{
+					"name": "Anchuna"
+				},
+				{
+					"name": "Kamuru"
+				},
+				{
+					"name": "Magata",
+					"point": [
+						8.41,
+						9.805
+					]
+				}
+			],
+			"sources": [
+				"wikipedia-atyap",
+				"wikipedia-zangon-kataf",
+				"wikipedia-southern-kaduna",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "The Atyap elders met at Mabatado near Atyekum. Around 1650 they let Hausa and Bornu traders settle at Zangon Katab under a protection pact; the town grew into the key market of the region. Kwassau's war of 1897–1902 killed over a thousand Atyap, and Marok Gandu of Magata was impaled.",
+				"sources": [
+					"wikipedia-atyap",
+					"wikipedia-southern-kaduna"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Kaura (Watyap)",
+			"lga": "kaduna-kaura",
+			"villages": [
+				{
+					"name": "Takad"
+				},
+				{
+					"name": "Manchok"
+				},
+				{
+					"name": "Kagoro"
+				}
+			],
+			"sources": [
+				"wikipedia-kaura"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Kaura LGA, Watyap in Tyap, with the towns of Takad, Manchok and Kagoro.",
+				"sources": [
+					"wikipedia-kaura"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Atyap",
 	"searchAliases": [

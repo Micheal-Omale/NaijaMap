@@ -1,0 +1,24 @@
+{
+	"status": "draft",
+	"title": "Outsiders made district heads over the Idoma",
+	"kind": "imposed",
+	"year": 1907,
+	"yearLabel": "1907–1911",
+	"seat": {
+		"name": "Ugboju",
+		"point": [
+			8.0531,
+			7.3515
+		]
+	},
+	"by": "the British administration",
+	"groups": [
+		"idoma"
+	],
+	"text": "Before the Idoma had a paramount ruler, the British set district heads over their clans, several of them strangers: in 1907 Alabi, a Hausa-speaking Yoruba man from Ilorin, over Ugboju; in 1910 Momoh, a Nupe man, over Agatu at Obagaji; in 1911 Mallam Auta, a Hausa man, over Adoka. Awudu Elachi became district head of Otukpa in 1908. Customary courts followed in 1920 and the Idoma Native Authority in 1923.",
+	"sources": [
+		"itodo-2021-idoma-timeline"
+	],
+	"confidence": "high",
+	"reviewNotes": []
+}

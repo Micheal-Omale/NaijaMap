@@ -1,6 +1,67 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Ahoada (Ekpeye)",
+			"lga": "rivers-ahoada-east",
+			"point": [
+				6.655,
+				5.074
+			],
+			"villages": [
+				{
+					"name": "Odiabidi"
+				},
+				{
+					"name": "Edeoha"
+				},
+				{
+					"name": "Idoke"
+				},
+				{
+					"name": "Ogbo"
+				},
+				{
+					"name": "Abarikpo"
+				},
+				{
+					"name": "Ihugbogo"
+				}
+			],
+			"sources": [
+				"wikipedia-ahoada-east",
+				"grid3-settlement-names"
+			],
+			"confidence": "medium"
+		},
+		{
+			"name": "Ubie and Ibuduya clans",
+			"lga": "rivers-ahoada-west",
+			"villages": [
+				{
+					"name": "Akinima"
+				}
+			],
+			"sources": [
+				"wikipedia-ahoada-west"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Ahoada West, seated at Akinima, holds Ekpeye-speaking communities, mostly of the Ubie and Ibuduya clans.",
+				"sources": [
+					"wikipedia-ahoada-west"
+				],
+				"confidence": "high"
+			},
+			"livelihoods": {
+				"text": "Farming, fishing and hunting.",
+				"sources": [
+					"wikipedia-ahoada-west"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Ekpeye",
 	"searchAliases": [

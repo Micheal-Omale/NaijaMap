@@ -1,0 +1,1025 @@
+/*
+ * Documentary styling for the history view: letterbox bars, the polity story
+ * (title sequence, chapters, its own timeline) and the playback lower-third.
+ * The film bars stay dark in both colour schemes, like a cinema.
+ */
+
+:root {
+	--film: rgb(16 11 7 / 97%);
+	--film-ink: #f4e8d0;
+	--film-muted: #bba98b;
+	--film-rule: rgb(244 232 208 / 16%);
+	--story-width: 470px;
+	--story-top: 60px;
+	--story-bottom: 116px;
+	--ease-out: cubic-bezier(0.215, 0.61, 0.355, 1); /* power3.out */
+	--ease-in-out: cubic-bezier(0.77, 0, 0.175, 1); /* power4.inOut */
+}
+
+/* Controls never select as text under a thumb. */
+.timeline,
+.story-bar,
+.mode-switch,
+.story-grab {
+	-webkit-user-select: none;
+	user-select: none;
+}
+
+/* ---- Playback: the map becomes a film */
+
+.letterbox {
+	position: absolute;
+	inset: 0;
+	z-index: 2;
+	pointer-events: none;
+}
+
+.letterbox::before,
+.letterbox::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	right: 0;
+	background: var(--film);
+	transform: scaleY(0);
+	transition: transform 1.1s var(--ease-in-out);
+}
+
+.letterbox::before {
+	top: 0;
+	height: 64px;
+	transform-origin: top;
+}
+
+.letterbox::after {
+	bottom: 0;
+	height: 132px;
+	transform-origin: bottom;
+	background: linear-gradient(transparent, var(--film) 55%);
+}
+
+.app[data-playing] .letterbox::before,
+.app[data-playing] .letterbox::after {
+	transform: scaleY(1);
+}
+
+/* The control bar recedes into the film while it plays. */
+.app[data-playing] .timeline__bar {
+	background: rgb(16 11 7 / 70%);
+	border-color: var(--film-rule);
+	color: var(--film-ink);
+	box-shadow: none;
+}
+
+.app[data-playing] .timeline__bar .timeline__btn:not(.timeline__btn--play),
+.app[data-playing] .timeline__year,
+.app[data-playing] .timeline__eras,
+.app[data-playing] .timeline__eras .timeline__eras-today {
+	color: var(--film-ink);
+}
+
+.app[data-playing] .timeline__track input::-webkit-slider-runnable-track {
+	background: var(--film-rule);
+}
+
+.app[data-playing] .timeline__track input::-moz-range-track {
+	background: var(--film-rule);
+}
+
+/* The side panel steps back while the film plays. */
+.app[data-playing] .panel {
+	opacity: 0.5;
+	transition: opacity 0.8s var(--ease-out);
+}
+
+.app[data-playing] .maplibregl-ctrl-top-right {
+	opacity: 0;
+	transition: opacity 0.6s;
+}
+
+/* The lower third: year, polity, title and one line of narration. */
+.lower-third {
+	display: grid;
+	grid-template-columns: auto 1fr;
+	align-items: start;
+	gap: 6px 22px;
+	max-width: 680px;
+	padding: 16px 28px 18px 22px;
+	border-left: 3px solid var(--accent);
+	background: linear-gradient(90deg, rgb(16 11 7 / 92%), rgb(16 11 7 / 74%) 70%, rgb(16 11 7 / 30%));
+	color: var(--film-ink);
+	pointer-events: none;
+	animation: lt-wipe 1.1s var(--ease-in-out) both;
+}
+
+.lower-third__year {
+	margin: 0;
+	font-family: var(--font-display);
+	font-size: 3.25rem;
+	font-weight: 600;
+	line-height: 0.95;
+	font-variant-numeric: lining-nums tabular-nums;
+	animation: lt-rise 0.9s var(--ease-out) 0.35s both;
+}
+
+.lower-third__body > * {
+	animation: lt-rise 0.9s var(--ease-out) both;
+}
+
+.lower-third__body > :nth-child(1) {
+	animation-delay: 0.45s;
+}
+.lower-third__body > :nth-child(2) {
+	animation-delay: 0.55s;
+}
+.lower-third__body > :nth-child(3) {
+	animation-delay: 0.68s;
+}
+.lower-third__body > :nth-child(4) {
+	animation-delay: 0.8s;
+}
+
+.lower-third__kicker {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	margin: 2px 0 0;
+	font-size: 0.75rem;
+	font-weight: 700;
+	letter-spacing: 0.16em;
+	text-transform: uppercase;
+	color: var(--film-muted);
+}
+
+.lower-third__kicker span {
+	width: 9px;
+	height: 9px;
+	border-radius: 50%;
+	box-shadow: 0 0 0 2px rgb(255 255 255 / 15%);
+}
+
+.lower-third__title {
+	margin: 4px 0 0;
+	font-family: var(--font-display);
+	font-size: 1.375rem;
+	font-weight: 600;
+	line-height: 1.2;
+}
+
+.lower-third__text {
+	margin: 6px 0 0;
+	font-size: 0.9375rem;
+	line-height: 1.5;
+	color: #e6d7bb;
+}
+
+.lower-third__also {
+	margin: 8px 0 0;
+	font-size: 0.8125rem;
+	color: var(--film-muted);
+}
+
+@keyframes lt-wipe {
+	from {
+		clip-path: inset(0 100% 0 0);
+	}
+	to {
+		clip-path: inset(0 0 0 0);
+	}
+}
+
+@keyframes lt-rise {
+	from {
+		opacity: 0;
+		transform: translateY(14px);
+	}
+}
+
+/* ---- The story */
+
+.story {
+	position: fixed;
+	inset: 0;
+	z-index: 20;
+	pointer-events: none;
+}
+
+/* Shown only if the story's code fails to load. */
+.story--failed {
+	display: grid;
+	place-content: center;
+	justify-items: center;
+	gap: 16px;
+	padding: 24px;
+	background: rgb(17 12 8 / 86%);
+	color: var(--film-ink, #f3e9d6);
+	text-align: center;
+	pointer-events: auto;
+}
+
+.story--failed p {
+	margin: 0;
+	max-width: 32ch;
+}
+
+.story-bar {
+	position: absolute;
+	left: 0;
+	right: 0;
+	background: #110c08;
+	color: var(--film-ink);
+	pointer-events: auto;
+}
+
+.story-bar--top {
+	top: 0;
+	height: var(--story-top);
+	display: grid;
+	grid-template-columns: 1fr auto 1fr;
+	align-items: center;
+	padding: 0 20px;
+}
+
+.story-close {
+	justify-self: start;
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	min-height: 40px;
+	padding: 6px 14px 6px 8px;
+	border: 1px solid var(--film-rule);
+	border-radius: 999px;
+	background: none;
+	color: var(--film-ink);
+	font-size: 0.875rem;
+	font-weight: 600;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+.story-close:hover {
+	background: rgb(255 255 255 / 8%);
+}
+
+.story-close svg {
+	width: 18px;
+	height: 18px;
+	fill: none;
+	stroke: currentColor;
+	stroke-width: 2;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+}
+
+.story-bar__title {
+	margin: 0;
+	font-family: var(--font-display);
+	font-size: 1.0625rem;
+	font-weight: 600;
+	letter-spacing: 0.02em;
+	white-space: nowrap;
+}
+
+.story-bar__title span {
+	margin-right: 8px;
+	font-family: var(--font-body);
+	font-size: 0.6875rem;
+	font-weight: 700;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	color: color-mix(in srgb, var(--ink-polity) 45%, var(--film-ink));
+}
+
+.story-bar__end {
+	justify-self: end;
+	display: flex;
+	align-items: center;
+	gap: 14px;
+}
+
+.story-bar__count {
+	margin: 0;
+	font-size: 0.75rem;
+	font-weight: 700;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	color: var(--film-muted);
+}
+
+/* The story column sits over the side panel, so the map keeps its size. */
+.story-column {
+	position: absolute;
+	top: var(--story-top);
+	bottom: var(--story-bottom);
+	left: 0;
+	width: var(--story-width);
+	overflow-y: auto;
+	overscroll-behavior: contain;
+	padding: 0 40px;
+	background:
+		radial-gradient(ellipse at top left, color-mix(in srgb, var(--ink-polity) 10%, transparent), transparent 60%),
+		var(--surface);
+	border-right: 1px solid var(--rule);
+	box-shadow: 12px 0 40px rgb(30 18 8 / 18%);
+	pointer-events: auto;
+	scrollbar-width: thin;
+}
+
+.story-column:focus {
+	outline: none;
+}
+
+.story-chapter {
+	min-height: calc(100dvh - var(--story-top) - var(--story-bottom) - 120px);
+	padding: 64px 0 56px;
+	border-bottom: 1px solid var(--rule);
+	transition: opacity 0.7s var(--ease-out);
+}
+
+.story-chapter:not(.is-active) {
+	opacity: 0.4;
+}
+
+.story-chapter--cover {
+	padding-top: 56px;
+}
+
+/* Until a chapter is reached its words wait off-stage (only when motion is welcome). */
+@media (prefers-reduced-motion: no-preference) {
+	.story-chapter:not([data-revealed]) > * {
+		opacity: 0;
+	}
+}
+
+.story-eyebrow,
+.story-chapter__num {
+	margin: 0 0 14px;
+	font-size: 0.75rem;
+	font-weight: 700;
+	letter-spacing: 0.22em;
+	text-transform: uppercase;
+	color: var(--ink-polity);
+}
+
+.story-title {
+	margin: 0;
+	font-family: var(--font-display);
+	font-size: 1.875rem;
+	font-weight: 600;
+	line-height: 1.12;
+	letter-spacing: -0.01em;
+	color: var(--ink);
+	text-wrap: balance;
+}
+
+.story-title--cover {
+	font-size: clamp(2.75rem, 4.6vw, 4.25rem);
+	line-height: 0.98;
+	letter-spacing: -0.025em;
+}
+
+.story-aka {
+	margin: 14px 0 0;
+	font-style: italic;
+	color: var(--ink-muted);
+}
+
+.story-chapter .profile__draft {
+	margin-top: 18px;
+}
+
+.story-lead,
+.story-text {
+	margin: 22px 0 0;
+	font-size: 1.0625rem;
+	line-height: 1.72;
+	color: var(--ink);
+}
+
+.story-lead {
+	font-size: 1.1875rem;
+	line-height: 1.6;
+}
+
+/* Lines are split for the reveal; a block keeps the layout the same before and after. */
+.story-lines {
+	display: block;
+	margin-bottom: 8px;
+}
+
+.story-year {
+	position: relative;
+	display: inline-block;
+	margin: 0 0 14px;
+	font-family: var(--font-display);
+	font-size: 3.5rem;
+	font-weight: 600;
+	line-height: 1;
+	font-variant-numeric: lining-nums;
+	color: var(--ink-polity);
+}
+
+.story-year__block {
+	position: absolute;
+	inset: -2px -8px;
+	background: var(--ink-polity);
+	transform: scaleX(0);
+}
+
+.story-facts {
+	display: flex;
+	gap: 28px;
+	margin: 26px 0 0;
+	padding: 14px 0;
+	border-top: 1px solid var(--rule);
+	border-bottom: 1px solid var(--rule);
+}
+
+.story-facts div {
+	display: grid;
+	gap: 2px;
+}
+
+.story-facts dt {
+	font-size: 0.6875rem;
+	font-weight: 700;
+	letter-spacing: 0.16em;
+	text-transform: uppercase;
+	color: var(--ink-faint);
+}
+
+.story-facts dd {
+	margin: 0;
+	font-family: var(--font-display);
+	font-size: 1.0625rem;
+}
+
+.story-start {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 14px 22px;
+	margin-top: 30px;
+}
+
+.story-watch {
+	display: inline-flex;
+	align-items: center;
+	gap: 10px;
+	min-height: 50px;
+	padding: 10px 24px 10px 18px;
+	border: 0;
+	border-radius: 999px;
+	background: var(--ink-polity);
+	color: #fff8ec;
+	font-size: 1rem;
+	font-weight: 700;
+	cursor: pointer;
+	box-shadow: 0 8px 24px color-mix(in srgb, var(--ink-polity) 40%, transparent);
+	transition:
+		transform 0.35s var(--ease-out),
+		box-shadow 0.35s var(--ease-out);
+}
+
+.story-watch:hover {
+	transform: translateY(-2px);
+	box-shadow: 0 12px 30px color-mix(in srgb, var(--ink-polity) 50%, transparent);
+}
+
+.story-watch svg {
+	width: 18px;
+	height: 18px;
+	fill: currentColor;
+}
+
+.story-begin {
+	display: inline-flex;
+	align-items: center;
+	gap: 10px;
+	padding: 8px 0;
+	border: 0;
+	background: none;
+	color: var(--ink-muted);
+	font-size: 0.9375rem;
+	cursor: pointer;
+}
+
+/* A thin line that keeps falling, inviting the scroll. */
+.story-begin__line {
+	position: relative;
+	width: 1px;
+	height: 26px;
+	overflow: hidden;
+	background: var(--rule);
+}
+
+.story-begin__line::after {
+	content: '';
+	position: absolute;
+	inset: 0;
+	background: var(--ink-polity);
+	animation: fall 1.8s var(--ease-in-out) infinite;
+}
+
+@keyframes fall {
+	from {
+		transform: translateY(-100%);
+	}
+	to {
+		transform: translateY(100%);
+	}
+}
+
+.story-note {
+	margin: 14px 0 0;
+	padding-left: 14px;
+	border-left: 2px solid var(--rule);
+	font-size: 0.875rem;
+	font-style: italic;
+	color: var(--ink-muted);
+}
+
+.story-marks {
+	list-style: none;
+	margin: 24px 0 0;
+	padding: 0;
+	display: grid;
+	gap: 10px;
+	font-size: 0.875rem;
+	color: var(--ink-muted);
+}
+
+.story-marks li {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+}
+
+.story-marks strong {
+	color: var(--ink);
+	font-weight: 600;
+	margin-right: 4px;
+}
+
+.story-links {
+	margin-top: 20px;
+}
+
+.story-links h4 {
+	margin: 0 0 10px;
+	font-size: 0.75rem;
+	font-weight: 700;
+	letter-spacing: 0.16em;
+	text-transform: uppercase;
+	color: var(--ink-faint);
+}
+
+.story-links .story-marks {
+	margin-top: 0;
+}
+
+.story-links .story-marks li {
+	align-items: flex-start;
+}
+
+.story-links .then-line {
+	margin-top: 9px;
+}
+
+.story-links__note {
+	display: block;
+	margin-top: 2px;
+	font-size: 0.8125rem;
+	font-style: italic;
+	color: var(--ink-faint);
+}
+
+.story-people {
+	margin-top: 28px;
+}
+
+.story-people h4 {
+	margin: 0;
+	font-family: var(--font-display);
+	font-size: 1.125rem;
+}
+
+.story-people .muted {
+	margin: 4px 0 12px;
+	font-size: 0.8125rem;
+}
+
+.story-next {
+	display: grid;
+	grid-template-columns: 1fr auto;
+	align-items: center;
+	gap: 2px 12px;
+	width: 100%;
+	margin-top: 30px;
+	padding: 18px 20px;
+	border: 1px solid var(--rule);
+	border-radius: var(--radius);
+	background: var(--surface-2);
+	text-align: left;
+	cursor: pointer;
+	transition:
+		transform 0.35s var(--ease-out),
+		border-color 0.35s;
+}
+
+.story-next:hover {
+	transform: translateY(-2px);
+	border-color: var(--ink-faint);
+}
+
+.story-next span {
+	grid-column: 1;
+	font-size: 0.75rem;
+	font-weight: 700;
+	letter-spacing: 0.16em;
+	text-transform: uppercase;
+	color: var(--ink-faint);
+}
+
+.story-next strong {
+	grid-column: 1;
+	font-family: var(--font-display);
+	font-size: 1.5rem;
+}
+
+.story-next svg {
+	grid-column: 2;
+	grid-row: 1 / span 2;
+	width: 24px;
+	height: 24px;
+	fill: none;
+	stroke: var(--ink);
+	stroke-width: 1.8;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+}
+
+.story-sources {
+	margin-top: 28px;
+	font-size: 0.875rem;
+}
+
+.story-sources summary {
+	cursor: pointer;
+	font-weight: 600;
+	color: var(--ink-muted);
+}
+
+.story-sources .sources {
+	margin-top: 12px;
+}
+
+.story-sources .review-notes h4 {
+	margin: 0 0 6px;
+}
+
+.story-tail {
+	height: 45vh;
+}
+
+/* ---- The story's own timeline, in the lower bar */
+
+.story-bar--bottom {
+	bottom: 0;
+	height: var(--story-bottom);
+	display: grid;
+	grid-template-columns: minmax(200px, 300px) 1fr auto;
+	align-items: center;
+	gap: 28px;
+	padding: 0 24px 0 28px;
+}
+
+.story-now {
+	display: grid;
+	gap: 4px;
+	min-width: 0;
+}
+
+.story-now__year {
+	font-family: var(--font-display);
+	font-size: 2.75rem;
+	font-weight: 600;
+	line-height: 1;
+	font-variant-numeric: lining-nums tabular-nums;
+	color: color-mix(in srgb, var(--ink-polity) 35%, var(--film-ink));
+}
+
+.story-now__label {
+	overflow: hidden;
+	font-size: 0.875rem;
+	color: var(--film-muted);
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.story-track {
+	position: relative;
+	height: 56px;
+	margin: 0 14px;
+}
+
+.story-track__rail {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 20px;
+	height: 2px;
+	background: var(--film-rule);
+}
+
+.story-track__fill {
+	position: absolute;
+	inset: 0 auto 0 0;
+	background: color-mix(in srgb, var(--ink-polity) 55%, var(--film-ink));
+	transition: width 1.4s var(--ease-in-out);
+}
+
+.story-stop {
+	position: absolute;
+	top: 0;
+	display: grid;
+	justify-items: center;
+	width: 40px;
+	height: 56px;
+	margin-left: -20px;
+	padding: 13px 0 0;
+	border: 0;
+	background: none;
+	color: var(--film-muted);
+	cursor: pointer;
+}
+
+.story-stop__dot {
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background: var(--film);
+	border: 2px solid var(--film-muted);
+	transition:
+		transform 0.5s var(--ease-out),
+		background-color 0.5s,
+		border-color 0.5s;
+}
+
+.story-stop:hover .story-stop__dot {
+	transform: scale(1.25);
+}
+
+.story-stop.is-past .story-stop__dot {
+	background: color-mix(in srgb, var(--ink-polity) 55%, var(--film-ink));
+	border-color: transparent;
+}
+
+.story-stop.is-now .story-stop__dot {
+	transform: scale(1.5);
+	background: var(--film-ink);
+	border-color: var(--ink-polity);
+	box-shadow: 0 0 0 5px color-mix(in srgb, var(--ink-polity) 35%, transparent);
+}
+
+.story-stop__label {
+	margin-top: 8px;
+	font-size: 0.75rem;
+	font-variant-numeric: tabular-nums;
+	white-space: nowrap;
+}
+
+.story-stop.is-now .story-stop__label {
+	color: var(--film-ink);
+	font-weight: 700;
+}
+
+/* While the story plays, a ring fills around the current station: the time left on this chapter. */
+@property --clock {
+	syntax: '<percentage>';
+	inherits: false;
+	initial-value: 0%;
+}
+
+.story-track__clock {
+	position: absolute;
+	top: 9px;
+	width: 26px;
+	height: 26px;
+	margin-left: -13px;
+	border-radius: 50%;
+	background: conic-gradient(var(--film-ink) var(--clock), transparent 0);
+	mask: radial-gradient(circle, transparent 10px, #000 10.5px);
+	animation: clock linear both;
+	pointer-events: none;
+}
+
+@keyframes clock {
+	to {
+		--clock: 100%;
+	}
+}
+
+.story-controls {
+	display: flex;
+	align-items: center;
+	gap: 4px;
+}
+
+.story-bar .timeline__btn {
+	color: var(--film-ink);
+}
+
+.story-bar .timeline__btn:hover {
+	background: rgb(255 255 255 / 8%);
+}
+
+.story-bar .timeline__btn:disabled {
+	opacity: 0.3;
+	cursor: default;
+}
+
+.story-bar .timeline__btn--play {
+	background: var(--ink-polity);
+	color: #fff8ec;
+}
+
+/* The page behind a story: the panel stays put under the story column. */
+.app[data-story] .timeline,
+.app[data-story] .hover-card {
+	display: none;
+}
+
+/* The drag handle exists only on phones, where the story is a sheet. */
+.story-grab {
+	display: none;
+}
+
+/* ---- Phones */
+
+@media (max-width: 899px) {
+	:root {
+		--story-top: 52px;
+		--story-bottom: 46dvh;
+	}
+
+	.lower-third {
+		grid-template-columns: 1fr;
+		gap: 2px;
+		padding: 10px 16px 12px 14px;
+	}
+
+	.lower-third__year {
+		font-size: 2rem;
+	}
+
+	.lower-third__title {
+		font-size: 1.0625rem;
+	}
+
+	.lower-third__text,
+	.lower-third__also {
+		display: none;
+	}
+
+	.letterbox::before {
+		height: 0;
+	}
+
+	.letterbox::after {
+		top: auto;
+		height: 30dvh;
+	}
+
+	.story-bar--top {
+		grid-template-columns: auto 1fr auto;
+		gap: 10px;
+		height: calc(var(--story-top) + env(safe-area-inset-top));
+		padding: env(safe-area-inset-top) 10px 0;
+	}
+
+	.story-close span,
+	.story-bar__count {
+		display: none;
+	}
+
+	.story-bar__title {
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+
+	/* The story reads in a sheet at the bottom, with its timeline docked on top of it. */
+	.story-column {
+		top: auto;
+		bottom: 0;
+		width: auto;
+		right: 0;
+		height: var(--story-bottom);
+		padding: 0 20px;
+		border-right: 0;
+		border-radius: 20px 20px 0 0;
+		box-shadow: 0 -10px 30px rgb(30 18 8 / 22%);
+	}
+
+	/* The story's own bar replaces the app's top bar while it is open. */
+	.app[data-story] .topbar {
+		visibility: hidden;
+	}
+
+	.story-grab {
+		position: sticky;
+		top: 0;
+		z-index: 2;
+		display: grid;
+		place-items: center;
+		height: 26px;
+		margin: 0 -20px;
+		background: linear-gradient(var(--surface) 70%, transparent);
+		touch-action: none;
+		cursor: grab;
+	}
+
+	.story-grab span {
+		width: 42px;
+		height: 5px;
+		border-radius: 3px;
+		background: var(--rule);
+	}
+
+	/* After a drag, the sheet and its timeline settle together on the nearest height. */
+	.story.is-snapping .story-column,
+	.story.is-snapping .story-bar--bottom {
+		transition:
+			height 0.42s cubic-bezier(0.2, 0.9, 0.25, 1),
+			bottom 0.42s cubic-bezier(0.2, 0.9, 0.25, 1);
+	}
+
+	.story-chapter {
+		min-height: calc(var(--story-bottom) - 40px);
+		padding: 30px 0 32px;
+	}
+
+	.story-title--cover {
+		font-size: 2.5rem;
+	}
+
+	.story-title {
+		font-size: 1.5rem;
+	}
+
+	.story-year {
+		font-size: 2.5rem;
+	}
+
+	.story-lead {
+		font-size: 1.0625rem;
+	}
+
+	.story-bar--bottom {
+		bottom: var(--story-bottom);
+		height: auto;
+		grid-template-columns: 1fr auto;
+		gap: 0 8px;
+		padding: 8px 10px 4px 16px;
+		background: linear-gradient(transparent, var(--film) 40%);
+	}
+
+	.story-now {
+		grid-row: 1;
+	}
+
+	.story-now__year {
+		font-size: 1.75rem;
+	}
+
+	.story-now__label {
+		font-size: 0.75rem;
+	}
+
+	.story-track {
+		grid-column: 1 / -1;
+		grid-row: 2;
+		height: 44px;
+	}
+
+	.story-stop__label {
+		font-size: 0.6875rem;
+	}
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.story-begin__line::after {
+		animation: none;
+	}
+}
+
+/* Versus: set this state against another, from the story's cover. */
+.story-versus {
+	text-decoration: none;
+	color: var(--ink-muted);
+}
+
+.story-versus:hover {
+	color: var(--film-ink, var(--ink));
+	text-decoration: underline;
+}

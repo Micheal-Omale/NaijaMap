@@ -1,6 +1,21 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Rindre (Nungu) of Wamba",
+			"lga": "nasarawa-wamba",
+			"villages": [],
+			"alsoIn": [
+				"nasarawa-akwanga",
+				"nasarawa-lafia"
+			],
+			"sources": [
+				"omachonu-dalhatu-2018",
+				"wikipedia-wamba"
+			],
+			"confidence": "medium"
+		}
+	],
 	"reviewNotes": [],
 	"name": "Rindre",
 	"searchAliases": [

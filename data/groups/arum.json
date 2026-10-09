@@ -1,6 +1,17 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Arum of Wamba",
+			"lga": "nasarawa-wamba",
+			"villages": [],
+			"sources": [
+				"omachonu-dalhatu-2018",
+				"wikipedia-wamba"
+			],
+			"confidence": "medium"
+		}
+	],
 	"reviewNotes": [],
 	"name": "Arum",
 	"searchAliases": [

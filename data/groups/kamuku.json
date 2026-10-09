@@ -1,6 +1,61 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Mariga",
+			"lga": "niger-mariga",
+			"point": [
+				5.8333,
+				10.7
+			],
+			"villages": [
+				{
+					"name": "Bangi"
+				},
+				{
+					"name": "Igwama"
+				},
+				{
+					"name": "Inkwai"
+				}
+			],
+			"sources": [
+				"wikipedia-mariga"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "The Kamuku are its principal people, and several endangered Kamuku languages are spoken here; Bangi is the headquarters.",
+				"sources": [
+					"wikipedia-mariga"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Rafi",
+			"lga": "niger-rafi",
+			"point": [
+				6.2533,
+				10.1844
+			],
+			"villages": [
+				{
+					"name": "Kagara"
+				},
+				{
+					"name": "Tegina"
+				},
+				{
+					"name": "Pandogari"
+				}
+			],
+			"sources": [
+				"wikipedia-kamuku-languages",
+				"wikipedia-rafi"
+			],
+			"confidence": "medium"
+		}
+	],
 	"reviewNotes": [
 		"Amfani (2018) lists Kamuku among Kebbi's languages and Wikipedia lists it for Sokoto, without LGAs."
 	],

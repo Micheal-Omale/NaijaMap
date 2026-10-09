@@ -1,6 +1,151 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Bori (Khana)",
+			"lga": "rivers-khana",
+			"point": [
+				7.357,
+				4.702
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-khana",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"livelihoods": {
+				"text": "Fishing, hunting and farming.",
+				"sources": [
+					"wikipedia-khana"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Gokana kingdom",
+			"lga": "rivers-gokana",
+			"villages": [
+				{
+					"name": "Giokoo"
+				},
+				{
+					"name": "Kpor"
+				},
+				{
+					"name": "Bodo"
+				},
+				{
+					"name": "Bomu"
+				},
+				{
+					"name": "Kegbara Dere"
+				},
+				{
+					"name": "Biara"
+				},
+				{
+					"name": "Deeyor"
+				},
+				{
+					"name": "Lewe"
+				},
+				{
+					"name": "Mogho"
+				},
+				{
+					"name": "Bera"
+				},
+				{
+					"name": "Barako"
+				}
+			],
+			"sources": [
+				"wikipedia-gokana"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Seventeen towns of one common ancestry, each under its own king, under the Gbere Mene of Gokana, whose stool is at the traditional headquarters, Giokoo.",
+				"sources": [
+					"wikipedia-gokana"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Tai kingdom",
+			"lga": "rivers-tai",
+			"point": [
+				7.306,
+				4.734
+			],
+			"villages": [
+				{
+					"name": "Korokoro",
+					"point": [
+						7.306,
+						4.734
+					]
+				},
+				{
+					"name": "Sakpenwa"
+				},
+				{
+					"name": "Borobara"
+				},
+				{
+					"name": "Botem"
+				},
+				{
+					"name": "Kpite"
+				},
+				{
+					"name": "Gio"
+				},
+				{
+					"name": "Nonwa"
+				}
+			],
+			"sources": [
+				"wikipedia-tai-lga",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Tai has two sections, the Tua Tua kingdom and the Barasi Nonwa kingdom, both under the Gbene Mene Tai, whose seat is Korokoro; most people speak the Tee and Baan languages.",
+				"sources": [
+					"wikipedia-tai-lga"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Eleme",
+			"lga": "rivers-eleme",
+			"villages": [
+				{
+					"name": "Ogale"
+				},
+				{
+					"name": "Nchia"
+				},
+				{
+					"name": "Odido"
+				}
+			],
+			"sources": [
+				"wikipedia-eleme"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Eleme's two districts, Nchia and Odido, are under one crown, the Oneh Eh Eleme; the Eleme language is of the Cross River branch.",
+				"sources": [
+					"wikipedia-eleme"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Ogoni",
 	"searchAliases": [

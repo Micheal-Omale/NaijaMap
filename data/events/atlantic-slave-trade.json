@@ -1,0 +1,120 @@
+{
+	"name": "The Atlantic slave trade at the coast",
+	"status": "draft",
+	"kind": "contact",
+	"year": 1650,
+	"yearLabel": "c. 1650–1807",
+	"until": 1807,
+	"actors": [
+		{ "name": "European slave ships", "side": "european" },
+		{ "name": "Bonny", "polity": "bonny", "side": "trader" },
+		{ "name": "Kalabari (New Calabar)", "polity": "kalabari", "side": "trader" },
+		{ "name": "Old Calabar", "polity": "old-calabar", "side": "trader" },
+		{ "name": "Lagos", "polity": "lagos", "side": "trader" }
+	],
+	"summary": {
+		"text": "For more than two centuries European ships came to the coast to buy people. From the Bight of Biafra alone, about one in ten of all the Africans carried to the Americas before 1700 left from this coast, and about one in seven in the 18th century; British ships carried more than two thirds of them. Three ports, Bonny, Elem Kalabari (New Calabar) and Old Calabar, handled over 90 per cent of that trade, and Bonny led by the middle of the 1700s. Further west, English slavers made the first recorded purchase at Lagos in 1652, and from the 1760s Lagos became a major slave port. Among the captives were Igbo, Efik and Ibibio people and many others from the interior. In 1807 Britain made the trade illegal and sent the Royal Navy to stop the slave ships, though it went on at Lagos for decades more.",
+		"sources": ["wikipedia-bight-of-biafra", "wikipedia-history-of-lagos", "mann-2007", "latham-1973"],
+		"confidence": "high"
+	},
+	"routes": [
+		{
+			"kind": "voyage",
+			"vessel": "sail",
+			"by": "European slave ships",
+			"path": [[4.4, 2.4], [6.4, 3.6], [7.1, 4.25], [7.16, 4.43]],
+			"label": "Slave ships come in to Bonny",
+			"sources": ["wikipedia-bight-of-biafra", "wikipedia-kingdom-of-bonny"],
+			"confidence": "high"
+		},
+		{
+			"kind": "voyage",
+			"vessel": "sail",
+			"by": "European slave ships",
+			"path": [[3.6, 2.9], [6.1, 3.95], [6.75, 4.4], [6.86, 4.7]],
+			"label": "Slave ships come in to Elem Kalabari (New Calabar)",
+			"sources": ["wikipedia-bight-of-biafra", "wikipedia-kalabari-kingdom"],
+			"confidence": "high"
+		},
+		{
+			"kind": "voyage",
+			"vessel": "sail",
+			"by": "European slave ships",
+			"path": [[6.4, 2.2], [8.3, 3.9], [8.34, 4.55], [8.32, 4.95]],
+			"label": "Slave ships come up the Cross River estuary to Old Calabar",
+			"sources": ["wikipedia-bight-of-biafra", "latham-1973"],
+			"confidence": "high"
+		},
+		{
+			"kind": "voyage",
+			"vessel": "sail",
+			"by": "European slave ships",
+			"path": [[0.8, 4.2], [2.8, 5.7], [3.39, 6.3], [3.394, 6.44]],
+			"label": "Slave ships cross the Lagos bar",
+			"sources": ["wikipedia-history-of-lagos", "mann-2007"],
+			"confidence": "high"
+		},
+		{
+			"kind": "voyage",
+			"vessel": "sail",
+			"by": "European slave ships",
+			"path": [[7.16, 4.43], [6.6, 3.4], [4.2, 1.8], [0.2, 1.2]],
+			"label": "Captives carried across the Atlantic to the Americas",
+			"sources": ["wikipedia-bight-of-biafra"],
+			"confidence": "high"
+		}
+	],
+	"moments": [
+		{
+			"when": "1652",
+			"title": "The first recorded sale at Lagos",
+			"text": "English slavers make the first recorded purchase of captives at Lagos.",
+			"at": { "name": "Eko (Lagos)", "point": [3.394, 6.455] },
+			"mark": "anchor",
+			"sources": ["wikipedia-history-of-lagos"],
+			"confidence": "high"
+		},
+		{
+			"when": "17th–18th centuries",
+			"title": "Old Calabar",
+			"text": "Efik traders at Old Calabar deal with European captains, selling captives brought down from the interior.",
+			"at": { "name": "Old Calabar (Duke Town)", "point": [8.32, 4.95] },
+			"mark": "anchor",
+			"sources": ["latham-1973", "wikipedia-bight-of-biafra"],
+			"confidence": "medium"
+		},
+		{
+			"when": "By the mid-1700s",
+			"title": "Bonny, the leading port",
+			"text": "Bonny becomes the busiest slave port of the Bight of Biafra. With Elem Kalabari and Old Calabar it handles over 90 per cent of the trade from this coast.",
+			"at": { "name": "Bonny", "point": [7.17, 4.45] },
+			"mark": "anchor",
+			"sources": ["wikipedia-bight-of-biafra", "wikipedia-kingdom-of-bonny"],
+			"confidence": "high"
+		},
+		{
+			"when": "1760s",
+			"title": "Lagos opens to the trade",
+			"text": "Akinsemoyin, who had met European slave traders while in exile at Badagry, takes power at Lagos and opens it to the slave trade.",
+			"at": { "name": "Eko (Lagos)", "point": [3.394, 6.455] },
+			"mark": "anchor",
+			"sources": ["wikipedia-history-of-lagos", "mann-2007"],
+			"confidence": "high"
+		},
+		{
+			"when": "1807",
+			"title": "Britain bans the trade",
+			"text": "The United Kingdom makes the international slave trade illegal and sends the Royal Navy to stop slave ships. The trade goes on at Lagos until the British bombardment of 1851.",
+			"mark": "treaty",
+			"sources": ["wikipedia-bight-of-biafra", "wikipedia-history-of-lagos"],
+			"confidence": "high"
+		}
+	],
+	"sources": ["wikipedia-bight-of-biafra", "wikipedia-history-of-lagos", "mann-2007", "latham-1973"],
+	"confidence": "high",
+	"reviewNotes": [
+		"The shares (10.7 per cent of all captives before 1700, 14.97 per cent in 1701–1800) are of all enslaved people carried to the Americas, for the Bight of Biafra only; the Bight of Benin (Lagos, Badagry) is not counted in them.",
+		"The Aro network supplied many of the captives sold at Bonny and Calabar; the Aro are on the timeline but no source for that link has been checked yet, so they are left out of this event.",
+		"Sea lanes are drawn, not traced: ships came from many directions, and the lane out across the Atlantic stands for every voyage."
+	]
+}

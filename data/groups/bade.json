@@ -1,6 +1,23 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Gashua",
+			"lga": "yobe-bade",
+			"villages": [],
+			"sources": [
+				"wikipedia-bade-emirate"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Headquarters of the Bade Emirate, under the Mai Bade, on the Yobe river; the Bade fishing festival is held here.",
+				"sources": [
+					"wikipedia-bade-emirate"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Bade",
 	"searchAliases": [

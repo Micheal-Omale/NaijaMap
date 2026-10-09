@@ -1,6 +1,88 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Eastern Obolo",
+			"lga": "akwa-ibom-eastern-obolo",
+			"villages": [
+				{
+					"name": "Okoroete"
+				},
+				{
+					"name": "Iko"
+				},
+				{
+					"name": "Educwink"
+				},
+				{
+					"name": "Elek-Okpoon"
+				},
+				{
+					"name": "Agan-asa"
+				}
+			],
+			"sources": [
+				"wikipedia-eastern-obolo"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Obolo agan Mbum-ura: sixteen villages in two clans, Okoroete and Iko.",
+				"sources": [
+					"wikipedia-eastern-obolo"
+				],
+				"confidence": "high"
+			},
+			"livelihoods": {
+				"text": "Fishing: over 65 per cent of the people fish.",
+				"sources": [
+					"wikipedia-eastern-obolo"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Andoni",
+			"lga": "rivers-andoni",
+			"villages": [
+				{
+					"name": "Ngo"
+				},
+				{
+					"name": "Oyorokoto"
+				},
+				{
+					"name": "Okoroboile"
+				},
+				{
+					"name": "Asarama"
+				},
+				{
+					"name": "Ataba"
+				},
+				{
+					"name": "Unyeada"
+				}
+			],
+			"sources": [
+				"wikipedia-andoni"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "The Andoni are of Cross River ancestry and belong to the Obolo; Oyorokoto is said to be the biggest fishing port in West Africa.",
+				"sources": [
+					"wikipedia-andoni"
+				],
+				"confidence": "medium"
+			},
+			"livelihoods": {
+				"text": "Fishing and sea food harvesting.",
+				"sources": [
+					"wikipedia-andoni"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Obolo (Andoni)",
 	"searchAliases": [

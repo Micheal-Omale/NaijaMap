@@ -1,0 +1,26 @@
+{
+	"status": "draft",
+	"title": "Agho Obaseki, paramount chief of Benin",
+	"kind": "warrant",
+	"year": 1898,
+	"until": 1914,
+	"seat": {
+		"name": "Benin City",
+		"point": [
+			5.627,
+			6.335
+		]
+	},
+	"by": "the British, after the 1897 expedition",
+	"first": "Chief Agho Obaseki",
+	"groups": [
+		"edo"
+	],
+	"polity": "benin",
+	"text": "With Oba Ovonramwen exiled, the British ruled Benin through Agho Obaseki, a chief who had fought beside the Oba in 1897. He was paramount chief from 1898 until the throne was restored in 1914, then Iyase until his death in 1920.",
+	"sources": [
+		"wikipedia-agho-obaseki"
+	],
+	"confidence": "high",
+	"reviewNotes": []
+}

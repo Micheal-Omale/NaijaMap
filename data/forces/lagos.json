@@ -1,0 +1,50 @@
+{
+	"status": "draft",
+	"of": "polity",
+	"terrain": "delta",
+	"summary": {
+		"text": "Lagos was a lagoon port, founded as a Benin war camp, whose power was trade. Its war canoes ruled the lagoon, but it fell to a British naval attack in 1851.",
+		"sources": [
+			"mann-2007",
+			"wikipedia-reduction-of-lagos"
+		],
+		"confidence": "medium"
+	},
+	"arms": [
+		{
+			"kind": "canoes",
+			"level": 2,
+			"text": "War canoes on the lagoon.",
+			"sources": [
+				"mann-2007"
+			],
+			"confidence": "medium"
+		},
+		{
+			"kind": "firearms",
+			"level": 1,
+			"from": 1700,
+			"text": "Guns from the Atlantic trade.",
+			"sources": [
+				"mann-2007"
+			],
+			"confidence": "medium"
+		}
+	],
+	"record": [
+		{
+			"year": 1851,
+			"event": "lagos-1851",
+			"against": "British",
+			"result": "lost",
+			"text": "A British naval force bombarded Lagos and put Akitoye on the throne.",
+			"sources": [
+				"wikipedia-reduction-of-lagos"
+			],
+			"confidence": "high"
+		}
+	],
+	"reviewNotes": [
+		"Arms levels (1 some, 2 a real strength, 3 famous for it) are the compiler’s judgement from the sources, for the Versus page’s guess; please check them."
+	]
+}

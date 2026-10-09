@@ -1,6 +1,33 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Odual and Abua communities",
+			"lga": "rivers-abua-odual",
+			"villages": [
+				{
+					"name": "Abada"
+				},
+				{
+					"name": "Abual"
+				},
+				{
+					"name": "Agada"
+				}
+			],
+			"sources": [
+				"wikipedia-abua-odual"
+			],
+			"confidence": "medium",
+			"history": {
+				"text": "Abua–Odual LGA, headquartered at Abua Central, is made of kingdoms each with its ruler and at least seven villages.",
+				"sources": [
+					"wikipedia-abua-odual"
+				],
+				"confidence": "medium"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Odual",
 	"searchAliases": [

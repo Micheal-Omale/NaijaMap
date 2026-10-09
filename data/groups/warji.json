@@ -1,6 +1,23 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Warji",
+			"lga": "bauchi-warji",
+			"villages": [],
+			"sources": [
+				"wikipedia-warji-language"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Formerly a district of Ningi, now its own LGA; home of most Sirna (Warji) speakers.",
+				"sources": [
+					"wikipedia-warji-language"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Warji (Sirna)",
 	"searchAliases": [

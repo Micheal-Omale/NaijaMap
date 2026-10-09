@@ -1,6 +1,28 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Ba'ap",
+			"lga": "plateau-qua-an-pan",
+			"point": [
+				9.261,
+				8.957
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-quaan-pan",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Headquarters of Qua'an Pan. The Long Pan, a first-class chief, is the paramount ruler of the Pan people, chief custodian of Pan culture and president of the Qua'an Pan traditional council.",
+				"sources": [
+					"wikipedia-quaan-pan"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Pan (Kofyar)",
 	"searchAliases": [

@@ -1,0 +1,57 @@
+{
+	"name": "The Idoma from Apa, through Igala land",
+	"status": "draft",
+	"kind": "migration",
+	"year": 1500,
+	"yearLabel": "c. 1500–1650",
+	"until": 1680,
+	"actors": [
+		{ "name": "Idoma clans", "side": "migrant" },
+		{ "name": "Apa (Kwararafa)", "polity": "kwararafa", "side": "origin" },
+		{ "name": "Igala Kingdom", "polity": "igala", "side": "origin" }
+	],
+	"summary": {
+		"text": "Idoma tradition traces the clans to Apa, the Kwararafa country of the Jukun. Around 1500 they dispersed: the Agatu settled near the Benue, and others moved on to Idah. After a power struggle at Idah, about 1625, groups left north (the Alago) and south, and the western Idoma kingdoms, Igumale, Agila, Ugboju and Adoka among them, took shape around 1650.",
+		"sources": ["okopi-idoma-timeline", "owner-2026-10-07-doc1"],
+		"confidence": "disputed"
+	},
+	"routes": [
+		{ "kind": "migration", "by": "Idoma clans", "when": "c. 1500", "path": [[9.78, 7.87], [8.9, 7.95], [8.09, 7.84]], "label": "From Apa: the Agatu settle near the Benue" },
+		{ "kind": "migration", "by": "Idoma clans", "when": "c. 1500", "path": [[9.78, 7.87], [8.6, 7.55], [7.6, 7.35], [6.737, 7.117]], "label": "From Apa to Idah" },
+		{
+			"kind": "migration",
+			"by": "Idoma clans",
+			"when": "c. 1625",
+			"path": [[6.737, 7.117], [7.3, 7.9], [8.355, 8.393]],
+			"label": "After a power struggle at Idah, the Alago ancestors go north to Doma"
+		}
+	],
+	"moments": [
+		{
+			"when": "c. 1650",
+			"title": "Igumale",
+			"text": "Igumale is among the western Idoma kingdoms founded around 1650. It later took its ruler’s staff from the Attah.",
+			"at": { "name": "Igumale", "point": [7.9641, 6.7784] },
+			"mark": "founded"
+		},
+		{
+			"when": "c. 1650",
+			"title": "Agila",
+			"text": "Agila, in today’s Ado, is founded in the same wave.",
+			"at": { "name": "Agila", "point": [7.9207, 6.7619] },
+			"mark": "founded"
+		},
+		{
+			"when": "c. 1650",
+			"title": "Ugboju",
+			"text": "Ugboju, led by Edor the great, became the nucleus for later groups such as Okpiko and Onyagede.",
+			"at": { "name": "Ugboju", "point": [8.0531, 7.3515] },
+			"mark": "founded"
+		},
+		{ "when": "c. 1650", "title": "Adoka", "text": "Adoka is founded in the same wave.", "at": { "name": "Adoka", "point": [7.9439, 7.4768] }, "mark": "founded" }
+	],
+	"sources": ["okopi-idoma-timeline", "owner-2026-10-07-doc1"],
+	"confidence": "disputed",
+	"note": "Dates and routes follow one published timeline of Idoma history; Idoma clans tell their migrations in many versions.",
+	"reviewNotes": ["Find an academic source for the Idoma migrations (for example Erim, Idoma Nationality 1600–1900, 1981) before publishing."]
+}

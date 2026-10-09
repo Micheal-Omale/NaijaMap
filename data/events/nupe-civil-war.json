@@ -1,0 +1,32 @@
+{
+	"name": "The Nupe civil war and Mallam Dendo",
+	"status": "draft",
+	"kind": "war",
+	"year": 1796,
+	"yearLabel": "1796–1833",
+	"until": 1833,
+	"actors": [
+		{ "name": "Majiya II (Gwagbazhi)", "polity": "nupe", "side": "attacker" },
+		{ "name": "Jimada and Idrisu Gana (Yissazhi)", "side": "defender", "ink": "#6a5a8a" },
+		{ "name": "Mallam Dendo's Fulani", "polity": "sokoto", "side": "ally" }
+	],
+	"summary": {
+		"text": "After Etsu Ma'azu the Tsoede dynasty split. Jimada, Ma'azu's son, ruled the east from Gbara; his cousin Majiya II, whose claim came through his mother, ruled the west from Raba; and the general Yikanko held Mokwa. Both cousins sought the help of the Fulani clerics living in Nupe. They killed Yikanko at Mokwa in about 1810, and then Majiya, with the Fulani preacher Mallam Dendo, killed Jimada at Ragada. When Majiya turned on him, Dendo fled to the jihadists at Ilorin, won over Jimada's son Idrisu Gana, and came back. By the time Dendo died at Raba in 1833 the Tsoede kings had lost Nupe to his family, under the emir of Gwandu.",
+		"sources": ["sidi-2023-nupe", "rulers-org-nigeria-traditional", "wikipedia-bida-emirate"],
+		"confidence": "medium"
+	},
+	"routes": [
+		{ "kind": "exile", "by": "Mallam Dendo's Fulani", "path": [[5.03, 9.211], [4.55, 8.5]], "label": "Dendo flees Raba for Ilorin", "sources": ["sidi-2023-nupe"], "confidence": "medium" },
+		{ "kind": "advance", "by": "Mallam Dendo's Fulani", "path": [[4.55, 8.5], [5.03, 9.211]], "label": "Dendo returns with Idrisu Gana and Makolo", "sources": ["sidi-2023-nupe"], "confidence": "medium" }
+	],
+	"moments": [
+		{ "when": "1796", "title": "The kingdom splits", "text": "Jimada holds the east from Gbara, Majiya II the west from Raba.", "at": { "name": "Raba", "point": [5.03, 9.211] }, "mark": "camp", "sources": ["sidi-2023-nupe", "rulers-org-nigeria-traditional"], "confidence": "medium" },
+		{ "when": "c. 1810", "title": "Yikanko killed at Mokwa", "text": "Jimada and Majiya, with the jihadists, kill the general who had seized Mokwa after Etsu Muhammadu Kolo.", "at": { "name": "Mokwa", "point": [5.054, 9.295] }, "mark": "battle", "sources": ["sidi-2023-nupe"], "confidence": "medium" },
+		{ "when": "c. 1810", "title": "Jimada killed at Ragada", "text": "Majiya and Dendo destroy Jimada's party at Ragada, a small town near Pategi; his son Idrisu Gana survives.", "mark": "massacre", "sources": ["sidi-2023-nupe"], "confidence": "medium" },
+		{ "when": "1833", "title": "Dendo dies at Raba", "text": "His son Usman Zaki becomes the first Fulani Etsu.", "at": { "name": "Raba", "point": [5.03, 9.211] }, "mark": "founded", "sources": ["sidi-2023-nupe"], "confidence": "high" }
+	],
+	"sources": ["sidi-2023-nupe", "rulers-org-nigeria-traditional"],
+	"confidence": "medium",
+	"note": "rulers.org dates Jimada's death to 1805; Sidi puts the Ragada battle at about 1810.",
+	"reviewNotes": ["Ragada has not been located."]
+}

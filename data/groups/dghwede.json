@@ -1,6 +1,23 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Gwoza Central hills",
+			"lga": "borno-gwoza",
+			"villages": [],
+			"sources": [
+				"mandaras-dghwede"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "The Dghwede occupy the central part of the southern Gwoza hills, Gwoza Central District.",
+				"sources": [
+					"mandaras-dghwede"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Dghwede",
 	"searchAliases": [

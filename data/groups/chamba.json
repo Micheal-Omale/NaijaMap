@@ -1,6 +1,28 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Donga",
+			"lga": "taraba-donga",
+			"point": [
+				10.045,
+				7.722
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-donga",
+				"grid3-settlement-names"
+			],
+			"confidence": "medium",
+			"history": {
+				"text": "Founded around 1830 by the Chamba Leko leader Nubunga Dozinga, whose people had been driven west from today's Cameroon by Fulani attacks; he chose the fertile plain by the Donga river, defended by the river and hills, as the old Kwararafa fragmented. Donga became a centralized Chamba kingdom.",
+				"sources": [
+					"wikipedia-donga"
+				],
+				"confidence": "medium"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Chamba (Sama)",
 	"searchAliases": [

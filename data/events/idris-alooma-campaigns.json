@@ -1,0 +1,141 @@
+{
+	"name": "Idris Alooma's campaigns",
+	"status": "draft",
+	"kind": "war",
+	"year": 1570,
+	"yearLabel": "c. 1570–1603",
+	"until": 1614,
+	"actors": [
+		{
+			"name": "Bornu",
+			"polity": "kanem-bornu",
+			"side": "attacker"
+		},
+		{
+			"name": "Bilala of Kanem",
+			"side": "defender",
+			"ink": "#7a5a3a"
+		},
+		{
+			"name": "Tuareg of Aïr",
+			"side": "defender",
+			"ink": "#8a6d3b"
+		}
+	],
+	"summary": {
+		"text": "Idris Alooma inherited a Bornu worn by famine, raided on every side and still at war with the Bilala of Kanem. With Turkish musketeers and a reformed army he ended the Bilala war, secured the east of Lake Chad, subdued the Sao and Ngizim at home, and brought the Tuareg of Aïr and the Tubu of Bilma and Tibesti under Bornu, so that Bornu held the central Saharan road. He sent envoys to Istanbul and Morocco over the Fezzan, where the Ottoman garrison was massacred in the 1580s. His imam Ahmad ibn Fartuwa wrote the history of his first twelve years. In 1614 Bornu installed Aldawa Nanda as king of Mandara.",
+		"sources": [
+			"wikipedia-idris-alooma",
+			"wikipedia-mandara"
+		],
+		"confidence": "high"
+	},
+	"routes": [
+		{
+			"kind": "advance",
+			"by": "Bornu",
+			"path": [
+				[
+					12.367,
+					13.083
+				],
+				[
+					15.4,
+					14.15
+				],
+				[
+					17.5,
+					12.83
+				]
+			],
+			"label": "East against the Bilala of Kanem",
+			"sources": [
+				"wikipedia-idris-alooma"
+			]
+		},
+		{
+			"kind": "advance",
+			"by": "Bornu",
+			"path": [
+				[
+					12.367,
+					13.083
+				],
+				[
+					7.99,
+					16.97
+				]
+			],
+			"label": "North to Aïr",
+			"sources": [
+				"wikipedia-idris-alooma"
+			]
+		},
+		{
+			"kind": "advance",
+			"by": "Bornu",
+			"path": [
+				[
+					12.367,
+					13.083
+				],
+				[
+					12.92,
+					18.69
+				],
+				[
+					17.5,
+					21
+				]
+			],
+			"label": "To Bilma and Tibesti",
+			"sources": [
+				"wikipedia-idris-alooma"
+			]
+		}
+	],
+	"moments": [
+		{
+			"when": "1580s",
+			"title": "The Fezzan regained",
+			"text": "The Ottoman garrison in the Fezzan is massacred and the Awlad Muhammad return, perhaps with Bornu's encouragement.",
+			"at": {
+				"name": "Fezzan (Murzuq)",
+				"point": [
+					13.92,
+					25.92
+				]
+			},
+			"mark": "massacre",
+			"sources": [
+				"wikipedia-idris-alooma"
+			],
+			"confidence": "medium"
+		},
+		{
+			"when": "1614",
+			"title": "A king for Mandara",
+			"text": "Bornu installs Aldawa Nanda at Dulo.",
+			"at": {
+				"name": "Dulo (Mandara)",
+				"point": [
+					14.07,
+					11.02
+				]
+			},
+			"mark": "treaty",
+			"sources": [
+				"wikipedia-mandara"
+			],
+			"confidence": "high"
+		}
+	],
+	"sources": [
+		"wikipedia-idris-alooma",
+		"wikipedia-mandara"
+	],
+	"confidence": "high",
+	"reviewNotes": [
+		"Mandara's account says Idris personally installed Nanda in 1614, after Idris's usual death date of 1603; the dates conflict."
+	]
+}

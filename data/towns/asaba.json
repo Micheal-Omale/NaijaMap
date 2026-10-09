@@ -1,0 +1,66 @@
+{
+	"name": "Asaba",
+	"status": "draft",
+	"otherNames": [
+		"Ahaba"
+	],
+	"point": [
+		6.7193,
+		6.2056
+	],
+	"founded": {
+		"year": 1600,
+		"yearLabel": "by tradition",
+		"sources": [
+			"wikipedia-asaba",
+			"esogbue-2023-enuani"
+		],
+		"confidence": "disputed",
+		"note": "Asaba’s founding is not dated in these sources; it is shown from about 1600."
+	},
+	"summary": {
+		"text": "Asaba’s founder Nnebisi was born of two peoples: his father Onojobo was an Igala prince and trader, his mother Diaba was from Agbakoba village in Nteje, east of the Niger. Raised among his mother’s people, he crossed the river to find a home of his own; where his pot fell he said “Ahabam”, “I have chosen well”, and so Asaba was named.",
+		"sources": [
+			"esogbue-2023-enuani",
+			"wikipedia-asaba"
+		],
+		"confidence": "medium"
+	},
+	"founders": [
+		{
+			"people": "Igala",
+			"group": "igala",
+			"polity": "igala",
+			"from": {
+				"name": "Idah",
+				"point": [
+					6.737,
+					7.117
+				]
+			},
+			"text": "His father: Onojobo, an Igala prince and trader.",
+			"sources": [
+				"esogbue-2023-enuani"
+			],
+			"confidence": "medium"
+		},
+		{
+			"people": "Igbo",
+			"group": "igbo",
+			"from": {
+				"name": "Nteje",
+				"point": [
+					6.9209,
+					6.2722
+				]
+			},
+			"text": "His mother: Diaba, of Agbakoba village in Nteje.",
+			"sources": [
+				"esogbue-2023-enuani"
+			],
+			"confidence": "medium"
+		}
+	],
+	"under": [],
+	"reviewNotes": []
+}

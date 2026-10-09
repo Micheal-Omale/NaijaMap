@@ -1,6 +1,85 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Isiokpo",
+			"lga": "rivers-ikwerre",
+			"point": [
+				6.879,
+				4.977
+			],
+			"villages": [
+				{
+					"name": "Elele"
+				},
+				{
+					"name": "Omagwa"
+				},
+				{
+					"name": "Ipo"
+				},
+				{
+					"name": "Aluu"
+				},
+				{
+					"name": "Omuanwa"
+				},
+				{
+					"name": "Omademe"
+				},
+				{
+					"name": "Ozuaha"
+				},
+				{
+					"name": "Ubima"
+				}
+			],
+			"sources": [
+				"wikipedia-ikwerre-lga",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Headquarters of Ikwerre LGA, known as the ancient kingdom of Ikwerre land.",
+				"sources": [
+					"wikipedia-ikwerre-lga"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Diobu and the Port Harcourt villages",
+			"lga": "rivers-port-harcourt",
+			"villages": [
+				{
+					"name": "Diobu"
+				},
+				{
+					"name": "Oroworukwo"
+				},
+				{
+					"name": "Oromeruezimgbu"
+				},
+				{
+					"name": "Nkpogu"
+				},
+				{
+					"name": "Rumuomasi"
+				}
+			],
+			"sources": [
+				"wikipedia-port-harcourt"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "The Ikwerre name for the area is Rebisi. In 1912 the colonial government made the people of Diobu cede their land for Lugard's new port; Oroworukwo, Oromeruezimgbu, Nkpogu and Rumuomasi were later absorbed into the city, and the creeks to the south were Rebisi-Ikwerre fishing grounds.",
+				"sources": [
+					"wikipedia-port-harcourt"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Ikwerre",
 	"searchAliases": [

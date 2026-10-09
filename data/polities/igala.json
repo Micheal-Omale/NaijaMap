@@ -2,217 +2,393 @@
 	"name": "Igala Kingdom",
 	"status": "draft",
 	"kind": "kingdom",
-	"otherNames": [],
+	"otherNames": ["Igala", "Idah", "Ata Igala"],
+	"shortName": "Igala",
 	"span": {
-		"from": 1450,
+		"from": 1000,
 		"to": 1900,
-		"fromLabel": "c. 15th century",
-		"sources": [
-			"wikipedia-igala-kingdom",
-			"boston-1968"
-		],
+		"fromLabel": "the Igala-Mela, before kingship",
+		"toLabel": "1900",
+		"sources": ["boston-1968", "yusufu-2020"],
 		"confidence": "medium",
-		"note": "Igala was a strong state by the Benin war of 1515–1516; its founding date is not known."
+		"note": "The Igala lived at Idah long before there was a king. Dates before about 1500 are not known; the early stages show where the clans lived, not dated events."
 	},
-	"peak": 1700,
+	"peak": 1750,
 	"summary": {
-		"text": "From Idah, near the meeting of the Niger and Benue, the Attah ruled a kingdom that fought Benin in 1515–1516 and later held sway over the northern Igbo states, the old Nsukka division and, at times, Idoma country. The Attah granted titles to northern Igbo rulers. Nupe and Fulani pressure and the British cut it back in the 19th century.",
-		"sources": [
-			"wikipedia-igala-kingdom",
-			"boston-1968",
-			"wikipedia-igbo-igala-wars"
-		],
+		"text": "The Igala were at Idah before any king: the nine clans of the Igala-Mela governed the land together. Kingship came later, first through a line linked to Benin, then through Abutu-Eje's line: Abutu-Eje led the Igala within the Kwararafa confederacy and came home to the Igala-Mela after losing the contest for its throne (colonial writers called him a Jukun noble). In 1515 Igala armies invaded Benin and nearly overran it before Benin, with Portuguese musketeers, drove them back across the Niger. Attah Ayegba Oma-Idoko threw off Jukun overlordship, and at its height the Attah crowned the rulers of the northern Igbo states from Nsukka to Okpanam, while towns from Asaba to the Nupe court traced their founders to Idah.",
+		"sources": ["boston-1968", "yusufu-2020", "igala-colonisation-northern-igbo", "wikipedia-igala-benin-war"],
 		"confidence": "medium"
 	},
-	"ruler": {
-		"title": "Attah Igala",
-		"sources": [
-			"wikipedia-igala-kingdom"
-		],
-		"confidence": "high"
-	},
-	"peoples": [
-		"igala"
-	],
+	"ruler": { "title": "Attah Igala, crowned with the Igala-Mela as kingmakers", "sources": ["wikipedia-igala-kingdom", "boston-1968"], "confidence": "high" },
+	"peoples": ["igala"],
 	"snapshots": [
 		{
-			"year": 1450,
-			"yearLabel": "c. 1450",
-			"title": "The Attah at Idah",
-			"text": "The Igala kingdom takes shape around Idah on the Niger.",
-			"capital": {
-				"name": "Idah",
-				"point": [
-					6.74,
-					7.11
-				]
-			},
+			"year": 1000,
+			"yearLabel": "before kingship",
+			"title": "Idah: where the Igala began",
+			"text": "The Igala begin at Idah, on the high east bank of the Niger. Before any king, the heads of nine founding clans, the Igala-Mela, govern together and keep the shrines of the land; their head, the Achadu, will one day lead the kingmakers. The owner’s account adds the Igala Ogba group among these first settlers, here before Abutu-Eje’s consolidation. Everything that follows grows out from this one town.",
+			"capital": { "name": "Idah", "point": [6.74, 7.11] },
+			"core": { "lgas": ["kogi-idah"] },
+			"sources": ["boston-1968", "yusufu-2020", "owner-2026-10-07-igala-history", "owner-2026-10-07-doc1"],
+			"confidence": "medium",
+			"note": "Boston (1968) found no dynasty before the kingship at Idah, only clan government by the Igala-Mela. The Igala Ogba group comes from the owner's account and is not yet found in a written source."
+		},
+		{
+			"year": 1300,
+			"yearLabel": "c. 13th–15th century",
+			"title": "The clans spread across the Niger–Benue angle",
+			"text": "Igala settlements spread east and north from Idah into the wedge of land between the Niger and the Benue, the country early travellers called Akpoto. Farming villages, fishing camps on the rivers and hunting grounds in the bush are tied together by clan and shrine, not yet by a crown.",
+			"capital": { "name": "Idah", "point": [6.74, 7.11] },
 			"core": {
-				"lgas": [
-					"kogi-idah",
-					"kogi-ibaji",
-					"kogi-igalamela-odolu",
-					"kogi-ofu"
-				]
+				"lgas": ["kogi-idah", "kogi-igalamela-odolu", "kogi-ibaji", "kogi-ofu", "kogi-dekina", "kogi-omala", "kogi-olamaboro", "kogi-ankpa"],
+				"confidence": "disputed"
 			},
-			"sources": [
-				"wikipedia-igala-kingdom",
-				"boston-1968"
+			"sources": ["yusufu-2020", "boston-1968"],
+			"confidence": "medium",
+			"note": "How fast the Igala settled the whole angle is not dated; this stage is an estimate drawn from the extent of Igala-speaking land and the Akpoto traditions."
+		},
+		{
+			"year": 1500,
+			"yearLabel": "c. 1500–1540",
+			"title": "The first kings at Idah",
+			"text": "Kingship comes to Idah. One reading of the king lists places a first royal line here with ties to Benin, its best-remembered ruler Aji-Atta, said to be a younger brother of the Oba. The Igala-Mela do not disappear: they become the kingmakers, and no Attah can reign without them. Across the Niger, the riverbank opposite Idah where Agenebode now stands is remembered as Igala land.",
+			"capital": { "name": "Idah", "point": [6.74, 7.11] },
+			"core": { "lgas": ["kogi-idah", "kogi-igalamela-odolu", "kogi-ibaji", "kogi-ofu", "kogi-dekina", "kogi-omala", "kogi-olamaboro", "kogi-ankpa"] },
+			"influence": { "lgas": ["edo-etsako-east"], "confidence": "disputed" },
+			"links": [
+				{
+					"kind": "ritual",
+					"to": { "name": "Benin City", "point": [5.627, 6.335] },
+					"label": "Early royal ties with Benin (one tradition)",
+					"confidence": "disputed",
+					"sources": ["yusufu-2020", "sargent-1999"]
+				}
 			],
-			"confidence": "medium"
+			"sources": ["yusufu-2020", "sargent-1999", "boston-1968", "owner-2026-10-07-agenebode", "lasttribes-igala"],
+			"confidence": "disputed",
+			"note": "Boston argued for a Benin origin of the kingship, Clifford for a Jukun one; Sargent proposed both, one after the other. Igala tradition itself is silent on this first line. The west bank (Etsako East) is drawn as Igala on the owner’s account that Agenebode was Igala land before the war, and on 101 Last Tribes, which puts “parts of Etsakor in the west” inside the kingdom at its 16th-century height; Benin tradition instead founds Agenebode as its own garrison after the war."
 		},
 		{
 			"year": 1515,
-			"yearLabel": "1515–1516",
-			"title": "War with Benin",
-			"text": "An Igala army attacks Benin and is defeated by Oba Esigie. The war is remembered in both kingdoms' traditions.",
-			"capital": {
-				"name": "Idah",
-				"point": [
-					6.74,
-					7.11
-				]
-			},
-			"core": {
+			"yearLabel": "1515",
+			"title": "The invasion of Benin",
+			"text": "An Igala army crosses the Niger and marches on Benin. The danger is so great that Benin's whole war council takes the field, Queen Mother Idia raises her own troops, and Oba Esigie hires Portuguese musketeers. Benin tradition remembers a bird crying doom over the army as it set out; Esigie had it shot down, and the Ugie Oro festival still recalls it. Behind the army the riverbank opposite Idah, where Agenebode stands, stays Igala land while the Igala push into northern Benin territory for two years.",
+			"capital": { "name": "Idah", "point": [6.74, 7.11] },
+			"core": { "lgas": ["kogi-idah", "kogi-igalamela-odolu", "kogi-ibaji", "kogi-ofu", "kogi-dekina", "kogi-omala", "kogi-olamaboro", "kogi-ankpa"] },
+			"influence": { "lgas": ["edo-etsako-east"], "confidence": "disputed" },
+			"campaign": {
 				"lgas": [
-					"kogi-idah",
-					"kogi-ibaji",
-					"kogi-igalamela-odolu",
-					"kogi-ofu",
-					"kogi-dekina",
-					"kogi-ankpa",
-					"kogi-omala",
-					"kogi-olamaboro"
-				]
+					"delta-oshimili-north", "delta-oshimili-south", "delta-aniocha-north", "delta-aniocha-south", "delta-ika-north-east", "delta-ika-south", "edo-esan-south-east",
+					"edo-esan-north-east", "edo-uhunmwonde"
+				],
+				"confidence": "disputed"
 			},
-			"links": [
-				{
-					"kind": "war",
-					"to": {
-						"name": "Benin City",
-						"point": [
-							5.627,
-							6.335
-						]
-					},
-					"label": "Benin–Igala war"
-				}
-			],
-			"sources": [
-				"wikipedia-kingdom-of-benin",
-				"boston-1968"
-			],
-			"confidence": "medium"
+			"links": [],
+			"sources": ["wikipedia-igala-benin-war", "ryder-1969", "egharevba-1968", "yusufu-2020", "owner-2026-10-07-agenebode", "owner-2026-10-08-agenebode"],
+			"confidence": "medium",
+			"note": "The sources agree the invasion threatened Benin itself but do not record the army's route. The cross-hatched zone is the land between the Niger crossing and Benin City that an army would have crossed, not a mapped campaign. The riverbank opposite Idah stays Igala until the war is lost, on the owner’s account (disputed)."
+		},
+		{
+			"year": 1517,
+			"yearLabel": "1516–1517",
+			"title": "Driven back across the Niger",
+			"text": "A servant of Queen Idia kills the Igala general, and Benin's archers and Portuguese guns break the advance. After about two years of war the Igala withdraw across the Niger, and Benin gains sway over trade on the river. Benin takes the riverbank opposite Idah and posts a guard at Agenebode, “the camp of the guard”, to watch Idah across the water. Igala memory keeps Princess Inikpi, buried alive at Idah so that the kingdom would survive; some place her sacrifice in this war, others in the later Jukun war.",
+			"capital": { "name": "Idah", "point": [6.74, 7.11] },
+			"core": { "lgas": ["kogi-idah", "kogi-igalamela-odolu", "kogi-ibaji", "kogi-ofu", "kogi-dekina", "kogi-omala", "kogi-olamaboro", "kogi-ankpa"] },
+			"links": [],
+			"sources": ["wikipedia-igala-benin-war", "wikipedia-princess-inikpi", "yusufu-2020", "wikipedia-agenebode", "shaibu-2024", "owner-2026-10-07-agenebode"],
+			"confidence": "medium",
+			"note": "A letter of Duarte Pacheco Pereira to King Manuel I of Portugal is the contemporary source for the war's length and Portuguese part, as cited in the Wikipedia article."
+		},
+		{
+			"year": 1630,
+			"yearLabel": "c. 1630",
+			"title": "Abutu-Eje's line comes home from Kwararafa",
+			"text": "A new royal line takes the throne. Abutu-Eje, the Igala representative at the Kwararafa court, lost the contest for the confederacy's throne to his Jukun rival and led his people home down the Benue. At Agatu he consolidated them, Igala, Idoma and Alago, into one kingship under the Igala title Àtá, and fell there when Kwararafa attacked. His line came on to the Igala-Ogba and the Igala-Mela at Idah, where his daughter Ebulejonu became the first Attah of his line, followed by her brother Agenapoje and then Idoko. The Igala-Mela keep their place as kingmakers and keepers of the land. Wukari still claims Idah: in one reading Idah pays tribute to the Aku Uka until Ayegba ends it.",
+			"capital": { "name": "Idah", "point": [6.74, 7.11] },
+			"core": { "lgas": ["kogi-idah", "kogi-igalamela-odolu", "kogi-ibaji", "kogi-ofu", "kogi-dekina", "kogi-omala", "kogi-olamaboro", "kogi-ankpa", "kogi-bassa"] },
+			"links": [{ "kind": "tribute", "to": { "name": "Wukari", "point": [9.78, 7.87] }, "label": "Tribute to the Aku Uka of Wukari (one reading)", "note": "Clifford and Yusufu have Idah paying tribute to Wukari until Ayegba; on the owner's account Abutu-Eje had already broken with Kwararafa.", "confidence": "disputed", "sources": ["clifford-1936", "yusufu-2020"] }],
+			"sources": ["owner-2026-10-08-abutu-eje", "kigala-2020-abutu-eje", "yusufu-2020", "clifford-1936", "sargent-1999", "boston-1968", "owner-2026-10-07-igala-history", "wikipedia-omala"],
+			"confidence": "disputed",
+			"note": "The date c. 1630 is Sargent's, as cited by Yusufu (2020). The owner and Kigala make Abutu-Eje Igala; Clifford (1936) called him a Jukun noble and treated his line as the start of Igala history, while Boston (1968) shows the Igala-Mela were there long before. The tribute to Wukari is Clifford's and Yusufu's reading; on the owner's account Abutu-Eje had broken with Kwararafa.",
+			"nodes": [{ "name": "Ife (seat of the Onu Ife), Omala", "point": [7.523, 7.81] }, { "name": "Otutubatu (Omagede), Omala", "point": [7.636, 8.015] }]
 		},
 		{
 			"year": 1700,
-			"yearLabel": "c. 1700",
-			"title": "Overlord of the northern Igbo",
-			"text": "Igala holds sway over the northern Igbo states: the whole old Nsukka division and as far as Adamugu, north of Onitsha. Across the Niger it includes Lokoja, Koton Karfe and the Kakanda. Igbo rulers seek titles from the Attah.",
-			"capital": {
-				"name": "Idah",
-				"point": [
-					6.74,
-					7.11
-				]
-			},
+			"yearLabel": "c. late 17th century",
+			"title": "Ayegba Oma-Idoko breaks free",
+			"text": "Attah Ayegba, son of Idoko, refuses the Jukun tribute and defeats the army sent to punish him, helped by the Igala-Mela and the people of the land. Tradition says the victory cost the life of his daughter Inikpi. Igala is now a sovereign kingdom, and the royal clans that rule it to this day descend from Ayegba.",
+			"capital": { "name": "Idah", "point": [6.74, 7.11] },
 			"core": {
 				"lgas": [
-					"kogi-idah",
-					"kogi-ibaji",
-					"kogi-igalamela-odolu",
-					"kogi-ofu",
-					"kogi-dekina",
-					"kogi-ankpa",
-					"kogi-omala",
-					"kogi-olamaboro",
-					"kogi-bassa",
-					"kogi-lokoja",
-					"kogi-kogi",
-					"anambra-anambra-west"
+					"kogi-idah", "kogi-igalamela-odolu", "kogi-ibaji", "kogi-ofu", "kogi-dekina", "kogi-omala", "kogi-olamaboro", "kogi-ankpa", "kogi-bassa", "kogi-lokoja",
+					"kogi-kogi", "anambra-anambra-west"
+				]
+			},
+			"links": [],
+			"sources": ["yusufu-2020", "wikipedia-princess-inikpi", "boston-1968", "wikipedia-omala"],
+			"confidence": "medium",
+			"nodes": [{ "name": "Ife (seat of the Onu Ife), Omala", "point": [7.523, 7.81] }]
+		},
+		{
+			"year": 1750,
+			"yearLabel": "c. 1750",
+			"title": "The height: from Nsukka to Koton Karfe",
+			"text": "The Attah's power reaches far beyond Igala-speaking land. The rulers of the northern Igbo states (Enugu-Ezike, Akpugo, Nkpologu, Ibagwa and Opi) and the Onu-Oda of Ette must travel to Idah for their staff of office, beads and horse, and return to pay tribute; Igala priests, the Attama, keep the shrines in their towns. North of the Benue confluence, Igu (Koton Karfe), the Kakanda and the first Ebira chiefdom at Panda hold their staffs from the Attah, as does Igumale in western Idoma. Igala sway runs down the Niger through Okpanam to Asaba, and towns well beyond the kingdom trace their founders to Idah. To the east, the western Idoma kingdoms (Otukpa, Ugboju, Onyagede, Adoka, Agila, Igumale, Ugbokolo and their neighbours) send tribute, and their rulers need the Idah court’s confirmation. Inside the kingdom, Ankpa, Anyigba and Dekina are its great towns, and districts from Ofu to Ibaji are ruled by Onu answerable to the Attah.",
+			"capital": { "name": "Idah", "point": [6.74, 7.11] },
+			"core": {
+				"lgas": [
+					"kogi-idah", "kogi-igalamela-odolu", "kogi-ibaji", "kogi-ofu", "kogi-dekina", "kogi-omala", "kogi-olamaboro", "kogi-ankpa", "kogi-bassa", "kogi-lokoja",
+					"kogi-kogi", "anambra-anambra-west"
 				]
 			},
 			"influence": {
 				"lgas": [
-					"enugu-nsukka",
-					"enugu-igbo-eze-north",
-					"enugu-igbo-eze-south",
-					"enugu-udenu",
-					"enugu-igbo-etiti",
-					"enugu-uzo-uwani",
-					"enugu-isi-uzo",
-					"anambra-ayamelum",
-					"anambra-anambra-east",
-					"benue-agatu",
-					"benue-apa",
-					"benue-oturkpo",
-					"benue-ohimini",
-					"benue-ogbadibo",
-					"benue-okpokwu"
+					"enugu-nsukka", "enugu-igbo-eze-north", "enugu-igbo-eze-south", "enugu-udenu", "enugu-igbo-etiti", "enugu-uzo-uwani", "enugu-isi-uzo", "anambra-ayamelum",
+					"anambra-anambra-east", "delta-oshimili-north", "delta-oshimili-south", "benue-ado", "edo-etsako-east", "benue-ogbadibo", "benue-okpokwu", "benue-ohimini",
+					"benue-oturkpo", "benue-apa", "benue-agatu"
 				],
 				"confidence": "disputed"
 			},
+			"links": [
+				{
+					"kind": "tribute",
+					"to": { "name": "Enugu-Ezike", "point": [7.4306, 6.9543] },
+					"label": "Enugu-Ezike: its Eze crowned at Idah",
+					"sources": ["igala-colonisation-northern-igbo"]
+				},
+				{
+					"kind": "tribute",
+					"to": { "name": "Ette", "point": [7.4691, 7.0775] },
+					"label": "Ette: ruled by an Igala king, the Onu-Oda, confirmed by the Attah",
+					"sources": ["chukwudi-opone-2024-eteh", "owner-2026-10-07-ette"]
+				},
+				{
+					"kind": "tribute",
+					"to": { "name": "Ibagwa-Aka", "point": [7.403, 6.9496] },
+					"label": "Ibagwa: its Igwe takes his staff from the Attah",
+					"sources": ["dailytrust-2017-igala-enugu", "igala-colonisation-northern-igbo"]
+				},
+				{ "kind": "tribute", "to": { "name": "Opi", "point": [7.4443, 6.7563] }, "label": "Opi: its Eze crowned at Idah", "sources": ["igala-colonisation-northern-igbo"] },
+				{
+					"kind": "tribute",
+					"to": { "name": "Akpugo", "point": [7.2816, 6.7028] },
+					"label": "Akpugo: its Eze crowned at Idah",
+					"sources": ["igala-colonisation-northern-igbo"],
+					"note": "Located at Akpugo in Uzo-Uwani; other Akpugos exist in Enugu State."
+				},
+				{
+					"kind": "tribute",
+					"to": { "name": "Nkpologu", "point": [7.2538, 6.7685] },
+					"label": "Nkpologu: settled from Idah, its rulers staffed by the Attah",
+					"sources": ["dailytrust-2022-igala-enugu", "igala-colonisation-northern-igbo"]
+				},
+				{
+					"kind": "tribute",
+					"to": { "name": "Ogurugu", "point": [6.9505, 6.7871] },
+					"label": "Ogurugu: founded by Onoja Oboni of Idah",
+					"sources": ["dailytrust-2022-igala-enugu"]
+				},
+				{
+					"kind": "tribute",
+					"to": { "name": "Okpanam", "point": [6.6484, 6.2396] },
+					"label": "Okpanam: under Igala sway",
+					"confidence": "disputed",
+					"sources": ["igala-colonisation-northern-igbo"]
+				},
+				{
+					"kind": "tribute",
+					"to": { "name": "Igu (Koton Karfe)", "point": [6.7981, 8.0891] },
+					"label": "Igu (Koton Karfe): vassal of the Attah",
+					"sources": ["lasttribes-igala"],
+					"confidence": "medium"
+				},
+				{
+					"kind": "tribute",
+					"to": { "name": "Panda", "point": [7.5628, 8.7037] },
+					"label": "Panda: first Ebira chiefdom, staff from the Attah",
+					"sources": ["lasttribes-igala"],
+					"confidence": "disputed",
+					"note": "Placed at Panda in Nasarawa LGA; the old Ebira Panda town was destroyed in the 19th century and its exact site is uncertain."
+				},
+				{
+					"kind": "tribute",
+					"to": { "name": "Igumale", "point": [7.9641, 6.7784] },
+					"label": "Igumale: western Idoma under the Attah",
+					"sources": ["lasttribes-igala"],
+					"confidence": "disputed"
+				},
+				{
+					"kind": "descent",
+					"to": { "name": "Asaba", "point": [6.7193, 6.2056] },
+					"label": "Asaba: Igala descent in one founding tradition",
+					"confidence": "disputed",
+					"sources": ["owner-2026-10-07-igala-history", "igala-colonisation-northern-igbo"],
+					"note": "Asaba's own tradition names Nnebisi, from Nteje, as founder. An Igala tradition makes his father, or his mother (a daughter of Attah Ayegba), Igala."
+				},
+				{
+					"kind": "descent",
+					"to": { "name": "Illah", "point": [6.649, 6.4246] },
+					"label": "Illah: Igala one of its three founding lines",
+					"sources": ["wikipedia-illah"],
+					"confidence": "medium"
+				},
+				{
+					"kind": "descent",
+					"to": { "name": "Ebu", "point": [6.6061, 6.4786] },
+					"label": "Ebu: an Igala-speaking town west of the Niger",
+					"sources": ["wikipedia-igala-people"],
+					"confidence": "high"
+				},
+				{
+					"kind": "descent",
+					"to": { "name": "Ilushi (Uloshi)", "point": [6.6292, 6.6697] },
+					"label": "Ilushi, Edo: an Igala-speaking town",
+					"sources": ["owner-2026-10-06"],
+					"confidence": "medium"
+				},
+				{
+					"kind": "descent",
+					"to": { "name": "Ifeku", "point": [6.6037, 6.8314] },
+					"label": "Ifeku, Edo: an Igala-speaking town",
+					"sources": ["owner-2026-10-06"],
+					"confidence": "medium"
+				},
+				{
+					"kind": "descent",
+					"to": { "name": "Aguleri", "point": [6.8765, 6.3258] },
+					"label": "Aguleri, Nri and the Umueri towns: founded by Eri, an Igala warrior from Idah",
+					"confidence": "disputed",
+					"sources": ["idigo-1955", "meek-1937", "boston-1960", "adojoh-2024", "owner-2026-10-07-eri", "dailytrust-2022-igala-enugu"],
+					"note": "Prince M. C. M. Idigo of the Aguleri royal family wrote in 1955 that Eri was an Igala warrior who came to Aguleri with his followers on a military expedition and made his war camp at Eri-aka. Meek (1937) and Boston (1960) recorded the same Igala origin among the northern Umueri towns. Nri, Igbariam and Amanuke tell instead that Eri came down from the sky, and some Aguleri writers say the reverse: that Eri's son founded Igala."
+				},
+				{
+					"kind": "descent",
+					"to": { "name": "Gbara (Nupe court)", "point": [6.05, 8.9] },
+					"label": "Nupe: Tsoede, founder of the kingdom, a son of an Attah",
+					"confidence": "medium",
+					"sources": ["lasttribes-igala", "nadel-1942"]
+				},
+				{
+					"kind": "tribute",
+					"to": { "name": "Otukpa", "point": [7.66, 7.09] },
+					"label": "Otukpa: western Idoma, tributary to the Attah",
+					"confidence": "disputed",
+					"sources": ["okopi-idoma-timeline", "owner-2026-10-07-doc1"]
+				},
+				{
+					"kind": "tribute",
+					"to": { "name": "Ugboju", "point": [8.0531, 7.3515] },
+					"label": "Ugboju: western Idoma, tributary to the Attah",
+					"confidence": "disputed",
+					"sources": ["okopi-idoma-timeline", "owner-2026-10-07-doc1"]
+				},
+				{
+					"kind": "tribute",
+					"to": { "name": "Onyagede", "point": [8.2065, 6.9325] },
+					"label": "Onyagede: western Idoma, tributary to the Attah",
+					"confidence": "disputed",
+					"sources": ["okopi-idoma-timeline", "owner-2026-10-07-doc1"],
+					"note": "GRID3 places two Onyagede settlements in Obi LGA; the western one is shown."
+				},
+				{
+					"kind": "tribute",
+					"to": { "name": "Adoka", "point": [7.9439, 7.4768] },
+					"label": "Adoka: western Idoma, tributary to the Attah",
+					"confidence": "disputed",
+					"sources": ["okopi-idoma-timeline", "owner-2026-10-07-doc1"]
+				},
+				{
+					"kind": "tribute",
+					"to": { "name": "Agila", "point": [7.9207, 6.7619] },
+					"label": "Agila: western Idoma, tributary to the Attah",
+					"confidence": "disputed",
+					"sources": ["okopi-idoma-timeline", "owner-2026-10-07-doc1"]
+				},
+				{
+					"kind": "tribute",
+					"to": { "name": "Ugbokolo", "point": [7.7969, 7.1613] },
+					"label": "Ugbokolo: western Idoma, tributary to the Attah",
+					"confidence": "disputed",
+					"sources": ["okopi-idoma-timeline", "owner-2026-10-07-doc1"]
+				},
+				{
+					"kind": "tribute",
+					"to": { "name": "Okokolo", "point": [8.0888, 7.8682] },
+					"label": "Okokolo: western Idoma, tributary to the Attah",
+					"confidence": "disputed",
+					"sources": ["okopi-idoma-timeline", "owner-2026-10-07-doc1"]
+				},
+				{
+					"kind": "tribute",
+					"to": { "name": "Aila", "point": [8.0047, 7.872] },
+					"label": "Aila: western Idoma, tributary to the Attah",
+					"confidence": "disputed",
+					"sources": ["okopi-idoma-timeline", "owner-2026-10-07-doc1"],
+					"note": "Placed at Olege Aila in Agatu."
+				},
+				{
+					"kind": "tribute",
+					"to": { "name": "Igah (Okpaya)", "point": [7.8834, 7.5359] },
+					"label": "Igah (Okpaya): western Idoma, tributary to the Attah",
+					"confidence": "disputed",
+					"sources": ["okopi-idoma-timeline", "owner-2026-10-07-doc1"]
+				},
+				{
+					"kind": "tribute",
+					"to": { "name": "Nsugbe", "point": [6.805, 6.2185] },
+					"label": "Nsugbe: Anambra river towns under Igala sway",
+					"confidence": "disputed",
+					"sources": ["owner-2026-10-07-doc1"]
+				}
+			],
 			"sources": [
-				"boston-1968",
-				"wikipedia-igbo-igala-wars"
+				"igala-colonisation-northern-igbo", "boston-1968", "dailytrust-2017-igala-enugu", "dailytrust-2022-igala-enugu", "lasttribes-igala", "okopi-idoma-timeline",
+				"owner-2026-10-07-doc1", "wikipedia-omala"
 			],
 			"confidence": "medium",
-			"note": "Igala overlordship of Idoma country is claimed in Igala tradition and not accepted by all historians."
+			"note": "Investiture and tribute are attested for the northern Igbo states; the outer zone (Okpanam, Asaba, Etsako, western Idoma) rests on fewer and weaker sources and is marked disputed. The western Idoma tributaries follow an Idoma timeline (tribute to Idah from about 1740) and the owner’s notes; whole Idoma LGAs are drawn as disputed reach, not rule.",
+			"nodes": [
+				{ "name": "Ankpa", "point": [7.625, 7.37] },
+				{ "name": "Anyigba", "point": [7.1726, 7.4993] },
+				{ "name": "Dekina", "point": [7.044, 7.689] },
+				{ "name": "Ugwolawo (Ofu)", "point": [6.9205, 7.2356] },
+				{ "name": "Ejule", "point": [7.1011, 7.3598] },
+				{ "name": "Egume", "point": [7.2336, 7.4675] },
+				{ "name": "Abejukolo (Omala)", "point": [7.5137, 7.8825] },
+				{ "name": "Okpo (Olamaboro)", "point": [7.5598, 7.213] },
+				{ "name": "Ife (seat of the Onu Ife), Omala", "point": [7.523, 7.81] }
+			]
 		},
 		{
 			"year": 1841,
 			"title": "Lokoja ceded; pressure from the north",
-			"text": "The Attah cedes land at Lokoja to the British Niger Expedition. Nupe and Fulani raids press on the north of the kingdom. British rule comes in 1900.",
-			"capital": {
-				"name": "Idah",
-				"point": [
-					6.74,
-					7.11
-				]
-			},
-			"core": {
-				"lgas": [
-					"kogi-idah",
-					"kogi-ibaji",
-					"kogi-igalamela-odolu",
-					"kogi-ofu",
-					"kogi-dekina",
-					"kogi-ankpa",
-					"kogi-omala",
-					"kogi-olamaboro"
-				]
-			},
-			"influence": {
-				"lgas": [
-					"enugu-uzo-uwani",
-					"enugu-igbo-eze-north",
-					"anambra-anambra-west"
-				],
-				"confidence": "medium"
-			},
-			"sources": [
-				"boston-1968",
-				"wikipedia-niger-expedition-1841"
-			],
-			"confidence": "medium"
+			"text": "The Attah cedes land at Lokoja to the British Niger Expedition. In the north, Nupe and Fulani armies press on the kingdom's edge: Igu (Koton Karfe), an Igala vassal, is sacked in 1833 and lost by 1860. British rule comes in 1900.",
+			"capital": { "name": "Idah", "point": [6.74, 7.11] },
+			"core": { "lgas": ["kogi-idah", "kogi-igalamela-odolu", "kogi-ibaji", "kogi-ofu", "kogi-dekina", "kogi-omala", "kogi-olamaboro", "kogi-ankpa", "anambra-anambra-west"] },
+			"influence": { "lgas": ["enugu-uzo-uwani", "enugu-igbo-eze-north", "enugu-nsukka", "kogi-bassa"], "confidence": "medium" },
+			"links": [{ "kind": "war", "to": { "name": "Igu (Koton Karfe)", "point": [6.7981, 8.0891] }, "label": "Igu sacked (1833), lost by 1860" }],
+			"sources": ["boston-1968", "wikipedia-niger-expedition-1841", "lasttribes-igala", "wikipedia-omala"],
+			"confidence": "medium",
+			"nodes": [{ "name": "Ife (seat of the Onu Ife), Omala", "point": [7.523, 7.81] }]
 		}
 	],
 	"today": {
-		"text": "The Attah Igala reigns at Idah, Kogi State, over nine traditional councils.",
+		"text": "The Attah Igala reigns at Idah, Kogi State, over nine traditional councils, still crowned with the Igala-Mela as kingmakers. Igala is spoken from Idah to Ebu and Ilushi west of the Niger, and to Ogurugu and Ette in Enugu.",
 		"title": "Attah Igala",
-		"seat": {
-			"name": "Idah",
-			"point": [
-				6.74,
-				7.11
-			]
-		},
-		"sources": [
-			"wikipedia-igala-kingdom"
-		],
+		"seat": { "name": "Idah", "point": [6.74, 7.11] },
+		"sources": ["wikipedia-igala-kingdom", "boston-1968"],
 		"confidence": "high"
 	},
 	"reviewNotes": [
-		"The 1841 snapshot reuses the Lokoja cession source already cited on the Igala people profile."
+		"The Igala Ogba group comes from the owner's account; no written source found yet. A name, spelling or reference would let it be cited.",
+		"No written source was found for Benin (Bini) groups of Igala descent beyond the Igala-speaking towns of Ilushi and Ifeku in Edo State. The owner mentioned Bini groups: please name them so they can be researched and added.",
+		"Dates before 1500 are estimates. Sargent's two-dynasty chronology (a Benin-linked line c. 1510–1540, Abutu-Eje's from c. 1630) is one reading of the king lists, cited through Yusufu (2020).",
+		"The 1515 campaign zone is the land an army from Idah would have crossed to reach Benin; the route itself is not recorded.",
+		"Asaba's descent from Igala is a contested tradition (Asaba's own tradition gives Nnebisi from Nteje); kept disputed.",
+		"The Igala Colonisation of Northern Igbo States article was read only in search summaries; check the full text and author before publishing.",
+		"Ajaka, Onyedega (Ibaji) and Okenyi, named in the owner’s notes, could not be located in the GRID3 settlement names; please give their LGAs.",
+		"The owner’s notes date the height of Igala reach to about the 16th century; the snapshots here follow Boston and Shelton, who put the northern Igbo conquests in the 18th century.",
+		"Ife (Onu Ife’s town) and Otutubatu in Omala are placed from GRID3 (Igah Onu Ife; Omagede Otutubatu). The Omala article is the only source so far."
 	]
 }

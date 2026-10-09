@@ -1,0 +1,45 @@
+{
+	"name": "The Satiru rising",
+	"status": "draft",
+	"kind": "colonial",
+	"year": 1906,
+	"yearLabel": "February–March 1906",
+	"until": 1912,
+	"actors": [
+		{ "name": "British forces", "side": "colonial" },
+		{ "name": "Sultan Muhammadu Attahiru II and the Sokoto levies", "side": "ally" },
+		{ "name": "The Mahdists of Satiru (Isa, Dan Makafo)", "side": "resister" }
+	],
+	"summary": {
+		"text": "Satiru, a village of poor clerics and their followers near Sokoto, believed the Mahdi’s coming was near. A rising that began in French Niger late in 1905 spread to it, and early in 1906 the preacher Dan Makafo arrived. The villagers hailed their leader Isa as the prophet Jesus, attacked Tsomo when it refused to follow him, and declared jihad on the British. In February they routed a British mounted infantry company sent against them. On 10 March 1906 the West African Frontier Force and the levies of the British-appointed Sultan, Muhammadu Attahiru II, destroyed the village and killed most of its people. ‘No wall or tree left standing,’ the Resident reported, and the Sultan laid a curse on anyone who builds or farms there. The site is still empty.",
+		"sources": ["lovejoy-hogendorn-1990", "smallwars-satiru", "humangle-satiru", "wikipedia-muhammadu-attahiru-ii"],
+		"confidence": "medium"
+	},
+	"routes": [
+		{ "kind": "advance", "by": "British forces", "path": [[5.24, 13.06], [5.8, 13.2], [6.433, 13.294]], "label": "WAFF troops and Sokoto levies march on Satiru", "when": "10 March 1906", "sources": ["lovejoy-hogendorn-1990"], "confidence": "medium" }
+	],
+	"moments": [
+		{
+			"when": "February 1906",
+			"title": "A company routed",
+			"text": "After the attack on Tsomo, a British mounted infantry company advances on Satiru and is overwhelmed.",
+			"at": { "name": "Satiru", "point": [6.433, 13.294] },
+			"mark": "battle",
+			"sources": ["smallwars-satiru", "lovejoy-hogendorn-1990"],
+			"confidence": "medium"
+		},
+		{
+			"when": "10–11 March 1906",
+			"title": "Satiru razed",
+			"text": "Satiru is destroyed and its people killed. The Sultan forbids anyone ever to build or farm on the site.",
+			"at": { "name": "Satiru", "point": [6.433, 13.294] },
+			"mark": "massacre",
+			"sources": ["lovejoy-hogendorn-1990", "humangle-satiru"],
+			"confidence": "high"
+		}
+	],
+	"sources": ["lovejoy-hogendorn-1990", "smallwars-satiru", "humangle-satiru"],
+	"confidence": "medium",
+	"note": "Satiru is drawn at the present village of that name in Isa LGA; the old site lies nearby.",
+	"reviewNotes": ["The rout of the British company (officers’ names, numbers killed) needs checking in Lovejoy and Hogendorn (1990)."]
+}

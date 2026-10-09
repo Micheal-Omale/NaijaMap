@@ -18,10 +18,9 @@
 	},
 	"peak": 1750,
 	"summary": {
-		"text": "An Ijaw trading state known to Europeans as New Calabar. From Elem Kalabari its canoe houses traded up the New Calabar and Sombreiro rivers with Ikwerre, Engenni and Igbo markets. Under the Amachree dynasty it became a major port. Civil war in the 1880s split it into Buguma, Abonnema and Bakana.",
+		"text": "Elem Kalabari, “new shipping port”, was the island state of the Kalabari Ijaw at the mouth of the New Calabar river. Its people traded fish and salt up the New Calabar and Imo rivers for the food and goods of the hinterland, and early European traders noted that they alone refused to trade on credit. King Owerri Daba brought the slave trade and founded the Duke Monmouth and Duke Africa houses before 1699; under Amachree I the great trading houses grew. In the 19th century Kalabari fought Nembe, Bonny and Okrika over the trade rivers, then tore itself apart in a civil war, and in 1881–1884 its people left the old island for Bakana, Abonnema and Buguma.",
 		"sources": [
-			"wikipedia-kalabari-kingdom",
-			"jones-1963"
+			"wikipedia-kalabari-kingdom"
 		],
 		"confidence": "high"
 	},
@@ -40,7 +39,7 @@
 			"year": 1500,
 			"yearLabel": "c. 1500",
 			"title": "Elem Kalabari",
-			"text": "The Kalabari settle at Elem Kalabari in the mangrove creeks; early European traders note that they refuse to trade on credit.",
+			"text": "One tradition says the Kalabari came from the east, from Calabar; others that Ijo settlers from Amafo, on the west bank of the New Calabar river, founded the town and were joined by others. They live on islands among the mangroves, worship Awoamenakaso, mother of the Kalabari gods, who opposes war, and carry delta produce up the New Calabar and Imo rivers.",
 			"capital": {
 				"name": "Elem Kalabari (approximate)",
 				"point": [
@@ -54,6 +53,47 @@
 					"rivers-akuku-toru"
 				]
 			},
+			"sources": [
+				"wikipedia-kalabari-kingdom",
+				"wikipedia-kalabari-kingdom"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1690,
+			"yearLabel": "c. 1690–1750",
+			"title": "Owerri Daba and the slave trade",
+			"text": "King Owerri Daba, says tradition, brings the slave trade to Kalabari and Bonny and founds the houses of Duke Monmouth and Duke Africa; James Barbot gives presents to Duke Monmouth of Kalabari in 1699. Kalabari becomes an entrepôt for captives bought in Igboland. Alagoa dates the reign of Amachree I, founder of the modern kingdom, from 1669, and traces him to Emakalakala in Ogbia.",
+			"capital": {
+				"name": "Elem Kalabari (approximate)",
+				"point": [
+					6.83,
+					4.65
+				]
+			},
+			"core": {
+				"lgas": [
+					"rivers-asari-toru",
+					"rivers-akuku-toru"
+				]
+			},
+			"links": [
+				{
+					"kind": "descent",
+					"to": {
+						"name": "Ogbia (Emakalakala)",
+						"point": [
+							6.32,
+							4.69
+						]
+					},
+					"label": "Amachree I from Emakalakala in Ogbia (Alagoa)",
+					"sources": [
+						"wikipedia-kalabari-kingdom"
+					],
+					"confidence": "medium"
+				}
+			],
 			"sources": [
 				"wikipedia-kalabari-kingdom"
 			],
@@ -119,10 +159,147 @@
 			"confidence": "medium"
 		},
 		{
+			"year": 1800,
+			"yearLabel": "1800–1862",
+			"title": "Amachree's houses",
+			"text": "By Amachree I's death around 1800 the great trading houses have grown under him. The Kalabari bring slaves, ivory and palm oil down to Elem Ifoko at the river's mouth for cotton cloth, hardware, guns and powder, and make salt for the inland markets, but will not carry their goods the last seven miles to Bonny for the Europeans' convenience. Their neighbours call them “Englishmen” for their peaceable ways.",
+			"capital": {
+				"name": "Elem Kalabari (approximate)",
+				"point": [
+					6.83,
+					4.65
+				]
+			},
+			"core": {
+				"lgas": [
+					"rivers-asari-toru",
+					"rivers-akuku-toru"
+				]
+			},
+			"nodes": [
+				{
+					"name": "Elem Ifoko (approximate)",
+					"point": [
+						6.98,
+						4.48
+					]
+				}
+			],
+			"links": [
+				{
+					"kind": "trade",
+					"to": {
+						"name": "Grand Bonny",
+						"point": [
+							7.17,
+							4.43
+						]
+					},
+					"label": "Goods to Ifoko, not Bonny",
+					"sources": [
+						"wikipedia-kalabari-kingdom"
+					],
+					"confidence": "high"
+				}
+			],
+			"sources": [
+				"wikipedia-kalabari-kingdom"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1863,
+			"yearLabel": "1863–1879",
+			"title": "Wars on the trade rivers",
+			"text": "In July 1863 an old feud with Nembe flares and Nembe wins decisively. From 1865 Okrika ambushes Kalabari trade canoes and Bonny threatens to join in; the consul steps in. After Jaja founds Opobo in 1869 he becomes Kalabari's ally, and Bonny pushes harder into Kalabari waters. A perpetual peace with Bonny and a treaty between Kalabari's own factions are signed on the same day in 1873; neither holds.",
+			"capital": {
+				"name": "Elem Kalabari (approximate)",
+				"point": [
+					6.83,
+					4.65
+				]
+			},
+			"core": {
+				"lgas": [
+					"rivers-asari-toru",
+					"rivers-akuku-toru"
+				]
+			},
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Nembe",
+						"point": [
+							6.4,
+							4.53
+						]
+					},
+					"label": "Defeat by Nembe (1863)",
+					"sources": [
+						"wikipedia-kalabari-kingdom"
+					],
+					"confidence": "high"
+				},
+				{
+					"kind": "war",
+					"to": {
+						"name": "Okrika",
+						"point": [
+							7.08,
+							4.73
+						]
+					},
+					"label": "Okrika's ambushes (1865)",
+					"sources": [
+						"wikipedia-kalabari-kingdom"
+					],
+					"confidence": "high"
+				},
+				{
+					"kind": "war",
+					"to": {
+						"name": "Grand Bonny",
+						"point": [
+							7.17,
+							4.43
+						]
+					},
+					"label": "Bonny's push into Kalabari rivers",
+					"sources": [
+						"wikipedia-kalabari-kingdom",
+						"wikipedia-bonny-kingdom"
+					],
+					"confidence": "high"
+				},
+				{
+					"kind": "ritual",
+					"to": {
+						"name": "Opobo",
+						"point": [
+							7.54,
+							4.51
+						]
+					},
+					"label": "Jaja's alliance",
+					"sources": [
+						"wikipedia-kalabari-kingdom",
+						"wikipedia-bonny-kingdom"
+					],
+					"confidence": "medium"
+				}
+			],
+			"sources": [
+				"wikipedia-kalabari-kingdom",
+				"wikipedia-bonny-kingdom"
+			],
+			"confidence": "high"
+		},
+		{
 			"year": 1884,
 			"yearLabel": "1879–1884",
 			"title": "Civil war and three towns",
-			"text": "War between the houses leads to Elem Kalabari being abandoned. The Amachree house founds Buguma, others found Abonnema and Bakana. A British protection treaty follows in 1884.",
+			"text": "From 1879 to 1884 two royal factions fight for control. The Barboy or Will Braide group leaves for the new town of Bakana in 1881; the Amachree group, the victors, abandon the old island too, moving to Abonnema in 1882 and Buguma in 1884, and the European traders follow them up the Sombreiro river. Kalabari is now governed by a council of chiefs and princes under the king.",
 			"capital": {
 				"name": "Buguma",
 				"point": [
@@ -155,7 +332,8 @@
 			],
 			"sources": [
 				"wikipedia-kalabari-kingdom",
-				"jones-1963"
+				"jones-1963",
+				"wikipedia-kalabari-kingdom"
 			],
 			"confidence": "medium"
 		}

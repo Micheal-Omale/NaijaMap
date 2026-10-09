@@ -1,6 +1,23 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Koro chiefdom",
+			"lga": "kaduna-kagarko",
+			"villages": [],
+			"sources": [
+				"kagarko-lga"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "One of the dominant peoples of Kagarko LGA, with the Gbagyi, Hausa and Fulani, under its own chiefdom.",
+				"sources": [
+					"kagarko-lga"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Koro",
 	"searchAliases": [
@@ -21,7 +38,7 @@
 		"confidence": "high"
 	},
 	"summary": {
-		"text": "The Koro are, with the Gbagyi and Hausa-Fulani, one of the three dominant peoples of Kagarko LGA in southern Kaduna, under the Koro chiefdom.",
+		"text": "The Koro are, with the Gbagyi, Hausa and Fulani, one of the dominant peoples of Kagarko LGA in southern Kaduna, under the Koro chiefdom.",
 		"sources": [
 			"kagarko-lga",
 			"wikipedia-kaduna-state",

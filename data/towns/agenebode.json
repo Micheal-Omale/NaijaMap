@@ -1,0 +1,93 @@
+{
+	"name": "Agenebode",
+	"status": "draft",
+	"otherNames": [],
+	"point": [
+		6.6908,
+		7.1155
+	],
+	"founded": {
+		"year": 1500,
+		"yearLabel": "Igala land before the war",
+		"sources": [
+			"owner-2026-10-07-agenebode",
+			"owner-2026-10-08-agenebode"
+		],
+		"confidence": "disputed"
+	},
+	"summary": {
+		"text": "Agenebode, on the Niger opposite Idah, was Igala land before and during the Igala–Benin war, on the owner’s account. When the Igala army was driven back after two years of pushing into northern Benin territory, Benin took the bank and posted a guard here, Ago-ni-ba-ode, “the camp of the guard”, to watch Idah.",
+		"sources": [
+			"owner-2026-10-08-agenebode",
+			"wikipedia-agenebode",
+			"shaibu-2024"
+		],
+		"confidence": "disputed"
+	},
+	"founders": [
+		{
+			"people": "Igala",
+			"group": "igala",
+			"polity": "igala",
+			"from": {
+				"name": "Idah",
+				"point": [
+					6.737,
+					7.117
+				]
+			},
+			"text": "Igala land opposite Idah before the war, on the owner’s account.",
+			"sources": [
+				"owner-2026-10-08-agenebode",
+				"owner-2026-10-07-agenebode"
+			],
+			"confidence": "disputed"
+		},
+		{
+			"people": "Benin",
+			"group": "edo",
+			"polity": "benin",
+			"from": {
+				"name": "Benin City",
+				"point": [
+					5.627,
+					6.335
+				]
+			},
+			"text": "Benin tradition founds Agenebode as its garrison after the war.",
+			"sources": [
+				"wikipedia-agenebode",
+				"shaibu-2024"
+			],
+			"confidence": "medium"
+		}
+	],
+	"under": [
+		{
+			"polity": "igala",
+			"from": 1500,
+			"to": 1516,
+			"kind": "ruled",
+			"text": "Igala land until the war was lost.",
+			"sources": [
+				"owner-2026-10-08-agenebode"
+			],
+			"confidence": "disputed"
+		},
+		{
+			"polity": "benin",
+			"from": 1517,
+			"to": 1897,
+			"kind": "garrison",
+			"text": "Benin’s guard post facing Idah across the Niger.",
+			"sources": [
+				"wikipedia-agenebode",
+				"shaibu-2024"
+			],
+			"confidence": "medium"
+		}
+	],
+	"reviewNotes": [
+		"Contrary source (2026-10-09): the Wikipedia Weppa Wanno article says Agenebode emerged as a Weppa-Wanno settlement in the second half of the 19th century, because of its nearness to the Niger. This conflicts with the owner's account of Agenebode as Igala land before 1515; the owner's account stays the headline, marked disputed."
+	]
+}

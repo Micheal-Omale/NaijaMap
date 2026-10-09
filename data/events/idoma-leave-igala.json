@@ -1,0 +1,36 @@
+{
+	"name": "The last Idoma leave Igala land",
+	"status": "draft",
+	"kind": "migration",
+	"year": 1700,
+	"yearLabel": "c. 1700–1780",
+	"until": 1780,
+	"actors": [{ "name": "Idoma clans", "side": "migrant" }, { "name": "Igala Kingdom", "polity": "igala", "side": "origin" }],
+	"summary": {
+		"text": "Between about 1700 and 1740 the last Idoma living in Igala land moved east and founded most of present-day Ogbadibo and Okpokwu. From about 1740 the Idoma paid tribute to Idah, the seat of the Attah and the spiritual capital of the Igala.",
+		"sources": ["okopi-idoma-timeline", "owner-2026-10-07-doc1"],
+		"confidence": "disputed"
+	},
+	"routes": [
+		{
+			"kind": "migration",
+			"by": "Idoma clans",
+			"when": "1700–1740",
+			"path": [[6.737, 7.117], [7.25, 7.15], [7.66, 7.09], [7.7969, 7.1613]],
+			"label": "The last Idoma leave Igala land for Ogbadibo and Okpokwu"
+		}
+	],
+	"moments": [
+		{
+			"when": "c. 1740–1780",
+			"title": "Idah, spiritual capital of the Igala",
+			"text": "Idah, the seat of the Attah and the spiritual capital of the Igala, receives tribute from the Idoma.",
+			"at": { "name": "Idah", "point": [6.737, 7.117] },
+			"mark": "shrine"
+		}
+	],
+	"sources": ["okopi-idoma-timeline", "owner-2026-10-07-doc1"],
+	"confidence": "disputed",
+	"note": "Dates and routes follow one published timeline of Idoma history; Idoma clans tell their migrations in many versions.",
+	"reviewNotes": ["Owner correction (2026-10-08): Idah is the spiritual capital of the Igala, not of the Idoma. The earlier draft followed one reading of the Idoma timeline."]
+}

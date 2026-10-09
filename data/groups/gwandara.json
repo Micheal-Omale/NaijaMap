@@ -128,7 +128,24 @@
 			"confidence": "medium"
 		}
 	],
-	"communities": [],
+	"communities": [
+		{
+			"name": "New Karshi",
+			"lga": "nasarawa-karu",
+			"villages": [],
+			"sources": [
+				"wikipedia-gwandara-language"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "A resettlement town with a first-class Gwandara emir. Gwandara, Hausa's closest relative, is spoken in Abuja, Niger, Kaduna, Kogi and Nasarawa; the Gwandara are among the indigenous peoples of the FCT. The isolated Nimbia dialect counts in base twelve.",
+				"sources": [
+					"wikipedia-gwandara-language"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [
 		"Gwandara communities in Kaduna and Kogi are not yet placed.",
 		"No paramount ruler is recorded yet."

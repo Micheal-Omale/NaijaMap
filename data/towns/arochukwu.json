@@ -1,0 +1,66 @@
+{
+	"name": "Arochukwu",
+	"status": "draft",
+	"otherNames": [],
+	"point": [
+		7.9085,
+		5.3889
+	],
+	"founded": {
+		"year": 1650,
+		"yearLabel": "c. 1650",
+		"sources": [
+			"wikipedia-arochukwu",
+			"dike-ekejiuba-1990"
+		],
+		"confidence": "medium"
+	},
+	"summary": {
+		"text": "Arochukwu grew out of a war and an alliance. Proto-Ibibio settlers had founded the Ibom kingdom there; the Igbo Eze Agwu group came from Abiriba, called in the priest Nnachi from Edda, and joined Prince Akakpokpo Okon of Ibom, the son of an Eze Agwu woman. Nnachi brought the Akpa from east of the Cross River, whose guns won the war, and the three peoples together became the Aro.",
+		"sources": [
+			"wikipedia-arochukwu"
+		],
+		"confidence": "medium"
+	},
+	"founders": [
+		{
+			"people": "Ibibio",
+			"group": "ibibio",
+			"text": "The Ibom kingdom, founded by proto-Ibibio settlers.",
+			"sources": [
+				"wikipedia-arochukwu"
+			],
+			"confidence": "medium"
+		},
+		{
+			"people": "Igbo",
+			"group": "igbo",
+			"from": {
+				"name": "Abiriba",
+				"point": [
+					7.7354,
+					5.724
+				]
+			},
+			"quarters": [
+				"Eze Agwu",
+				"Nnachi’s line"
+			],
+			"text": "The Eze Agwu group from Abiriba, and the priest Nnachi from Edda, whose descendants hold the throne.",
+			"sources": [
+				"wikipedia-arochukwu"
+			],
+			"confidence": "medium"
+		},
+		{
+			"people": "Akpa",
+			"text": "The Akpa, from east of the Cross River, invited by Nnachi.",
+			"sources": [
+				"wikipedia-arochukwu"
+			],
+			"confidence": "medium"
+		}
+	],
+	"under": [],
+	"reviewNotes": []
+}

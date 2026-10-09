@@ -1,6 +1,45 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Numan",
+			"lga": "adamawa-numan",
+			"point": [
+				12.03,
+				9.47
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-numan"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Nomweh, “hilltop”, a river port where the Gongola meets the Benue; the Bwatiye, remembered as warriors never conquered, are the main people. The Hama Bachama's administrative palace (Voti) is here.",
+				"sources": [
+					"wikipedia-numan"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Lamurde",
+			"lga": "adamawa-lamurde",
+			"villages": [],
+			"sources": [
+				"wikipedia-lamurde",
+				"wikipedia-numan"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "The spiritual and ancestral home of the Bwatiye, with a second palace of the Hama Bachama; inhabited mainly by Bwatiye and Tsobo.",
+				"sources": [
+					"wikipedia-numan",
+					"wikipedia-lamurde"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Bachama",
 	"searchAliases": [

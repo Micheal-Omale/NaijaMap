@@ -1,6 +1,23 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Erei",
+			"lga": "cross-river-biase",
+			"villages": [],
+			"sources": [
+				"wikipedia-gwune-language"
+			],
+			"confidence": "medium",
+			"history": {
+				"text": "Erei is counted as a dialect of the Gwune (Agwagune) cluster of Biase.",
+				"sources": [
+					"wikipedia-gwune-language"
+				],
+				"confidence": "medium"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Erei",
 	"searchAliases": [

@@ -18,10 +18,9 @@
 	},
 	"peak": 1850,
 	"summary": {
-		"text": "An Ijaw city-state of the eastern Niger Delta, trading through the port of Twon-Brass at the mouth of the Brass river. Shut out of the Niger trade by the Royal Niger Company, King Koko's Nembe warriors attacked the company at Akassa in 1895 and were punished by a British force.",
+		"text": "The Ijaw kingdom of Nembe, 30 miles up the Brass river, was poorer than Bonny and Calabar until the British blockade of those ports in the 19th century sent the slave ships to its creeks. Its line goes back to King Ogio, around 1639. A civil war split the city early in the 19th century into Ogbolomabiri and Bassambiri; trade moved to Twon-Brass on the coast as palm oil replaced slaves. In January 1895 King William Koko led over a thousand warriors against the Royal Niger Company's headquarters at Akassa, and the British sacked Nembe in reprisal amid a smallpox epidemic.",
 		"sources": [
-			"wikipedia-nembe-kingdom",
-			"alagoa-1964"
+			"wikipedia-nembe-kingdom"
 		],
 		"confidence": "high"
 	},
@@ -60,10 +59,63 @@
 			"confidence": "medium"
 		},
 		{
+			"year": 1639,
+			"yearLabel": "c. 1639–1800",
+			"title": "King Ogio's line",
+			"text": "Tradition names Ogio, the tenth king, around 1639, as the ancestor of all later kings. Nembe becomes a trading state once Europeans reach the coast, but stays poorer than Bonny and Calabar.",
+			"capital": {
+				"name": "Nembe",
+				"point": [
+					6.4,
+					4.53
+				]
+			},
+			"core": {
+				"lgas": [
+					"bayelsa-nembe"
+				]
+			},
+			"sources": [
+				"wikipedia-nembe-kingdom"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1800,
+			"yearLabel": "c. 1800–1849",
+			"title": "Two towns, and the slave ships come",
+			"text": "A civil war splits Nembe: early in the 19th century King Ogbodo and his followers move to a new town at Bassambiri, while King Mingi stays at Nembe city (Ogbolomabiri). From the 1820s, as the British navy blockades Bonny and Calabar, slavers turn to the Brass river, and Nembe's position 30 miles upstream becomes an advantage.",
+			"capital": {
+				"name": "Nembe",
+				"point": [
+					6.4,
+					4.53
+				]
+			},
+			"core": {
+				"lgas": [
+					"bayelsa-nembe"
+				]
+			},
+			"nodes": [
+				{
+					"name": "Bassambiri",
+					"point": [
+						6.42,
+						4.545
+					]
+				}
+			],
+			"sources": [
+				"wikipedia-nembe-kingdom"
+			],
+			"confidence": "high"
+		},
+		{
 			"year": 1850,
 			"yearLabel": "c. 1830–1860",
 			"title": "Two towns and a port",
-			"text": "Civil war splits Nembe into Ogbolomabiri and Bassambiri. Through Twon-Brass it trades enslaved people and then, by 1856, mostly palm oil.",
+			"text": "By 1856 palm oil has overtaken slaves and the trade moves down to Twon-Brass on the coast. In 1863 Nembe decisively beats Kalabari, and it sometimes sides with Bonny against Kalabari. Ogbolomabiri takes a Christian mission in 1867 while Bassambiri does not, deepening the split.",
 			"capital": {
 				"name": "Nembe",
 				"point": [
@@ -97,18 +149,35 @@
 						]
 					},
 					"label": "Trade up the Niger"
+				},
+				{
+					"kind": "war",
+					"to": {
+						"name": "Elem Kalabari (approximate)",
+						"point": [
+							6.83,
+							4.65
+						]
+					},
+					"label": "Victory over Kalabari (1863)",
+					"sources": [
+						"wikipedia-kalabari-kingdom"
+					],
+					"confidence": "high"
 				}
 			],
 			"sources": [
 				"wikipedia-nembe-kingdom",
-				"alagoa-1964"
+				"alagoa-1964",
+				"wikipedia-nembe-kingdom",
+				"wikipedia-kalabari-kingdom"
 			],
 			"confidence": "medium"
 		},
 		{
 			"year": 1895,
 			"title": "The Akassa raid",
-			"text": "Cut off from its markets by the Royal Niger Company's monopoly, Nembe under King Koko attacks the company depot at Akassa. A British naval force burns Nembe in reprisal.",
+			"text": "After 1884 Britain claims Nembe within the Oil Rivers Protectorate. Nembe, which now controls the palm-oil trade, refuses a treaty and resists the Royal Niger Company's monopoly. In January 1895 King William Koko leads more than a thousand warriors in a dawn attack on the Company's headquarters at Akassa. Sir Frederick Bedford's force captures and sacks Nembe in reprisal, while smallpox ravages the kingdom. The British rule from a consulate at Twon-Brass.",
 			"capital": {
 				"name": "Nembe",
 				"point": [
@@ -138,17 +207,23 @@
 						"name": "Akassa",
 						"point": [
 							6.07,
-							4.33
+							4.32
 						]
 					},
-					"label": "Akassa raid"
+					"label": "King Koko's raid on Akassa (1895)",
+					"sources": [
+						"wikipedia-nembe-kingdom"
+					],
+					"confidence": "high"
 				}
 			],
 			"sources": [
 				"wikipedia-nembe-kingdom",
-				"alagoa-1964"
+				"alagoa-1964",
+				"wikipedia-nembe-kingdom"
 			],
-			"confidence": "high"
+			"confidence": "high",
+			"note": "Told in full as an event on the timeline."
 		}
 	],
 	"today": {

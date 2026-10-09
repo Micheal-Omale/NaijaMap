@@ -1,0 +1,43 @@
+{
+	"name": "Tarok",
+	"status": "draft",
+	"groups": [
+		"tarok"
+	],
+	"rule": "elders",
+	"span": {
+		"from": 1000,
+		"to": 1904,
+		"fromLabel": "before written records",
+		"toLabel": "1904",
+		"sources": [
+			"wikipedia-tarok"
+		],
+		"confidence": "medium",
+		"note": "The start of the timeline, not a founding date."
+	},
+	"summary": {
+		"text": "The Tarok have no king; their clans and villages ran their own affairs, led by elders. The Tarok are an amalgamation: the first clans, the Timwat and Funyallang, were joined over time by people of Pe, Ngas, Jukun, Boghom, Montol and Tal origin, many of whom came to work and were given land, and several Chadic-speaking groups shifted to the Tarok language. The Jukun called them Appa, a friendship name. Colonial rule and missions reached Tarok country by 1904.",
+		"sources": [
+			"wikipedia-tarok-people"
+		],
+		"confidence": "medium"
+	},
+	"end": {
+		"text": "Colonial rule and Christian missions reached Tarok land by 1904.",
+		"sources": [
+			"wikipedia-tarok"
+		],
+		"confidence": "medium"
+	},
+	"lands": [
+		{
+			"from": 1000,
+			"lgas": [
+				"plateau-langtang-north",
+				"plateau-langtang-south"
+			]
+		}
+	],
+	"reviewNotes": []
+}

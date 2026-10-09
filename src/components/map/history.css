@@ -20,8 +20,10 @@
 	flex: 1 1 100%;
 }
 
-.mode-switch button {
+.mode-switch button,
+.mode-switch__link {
 	flex: 1;
+	text-decoration: none;
 	justify-content: center;
 	display: inline-flex;
 	align-items: center;
@@ -42,7 +44,8 @@
 		color 0.25s;
 }
 
-.mode-switch button span {
+.mode-switch button span,
+.mode-switch__link span {
 	overflow: hidden;
 	text-overflow: ellipsis;
 }
@@ -62,6 +65,97 @@
 	stroke-width: 1.8;
 	stroke-linecap: round;
 	stroke-linejoin: round;
+}
+
+.mode-switch__link:hover {
+	color: var(--ink);
+}
+
+/* Four views share the panel's width: Versus takes only what its name needs. */
+@media (min-width: 900px) {
+	.mode-switch button,
+	.mode-switch__link {
+		gap: 5px;
+		padding: 4px 8px;
+	}
+
+	.mode-switch__link {
+		flex: 0 0 auto;
+	}
+}
+
+/* The sound switch and the share button sit together at the right of the name. */
+.topbar__row > .sound-toggle {
+	margin-left: auto;
+}
+
+.topbar__row > .share {
+	margin-left: -6px;
+}
+
+/* Sound on or off: a round switch beside the name, and in a story's letterbox. */
+.sound-toggle {
+	flex: none;
+	display: inline-grid;
+	place-items: center;
+	width: 36px;
+	height: 36px;
+	padding: 0;
+	border: 1px solid var(--rule);
+	border-radius: 50%;
+	background: var(--surface-2);
+	color: var(--ink-muted);
+	cursor: pointer;
+	transition:
+		color 0.3s,
+		background-color 0.3s;
+}
+
+.sound-toggle:hover {
+	color: var(--ink);
+}
+
+.sound-toggle[aria-pressed='true'] {
+	background: var(--surface);
+	color: var(--accent);
+}
+
+.sound-toggle svg {
+	width: 18px;
+	height: 18px;
+	fill: none;
+	stroke: currentColor;
+	stroke-width: 1.8;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+}
+
+.sound-toggle--film {
+	border-color: var(--film-rule);
+	background: none;
+	color: var(--film-muted);
+}
+
+.sound-toggle--film:hover,
+.sound-toggle--film[aria-pressed='true'] {
+	background: rgb(255 255 255 / 8%);
+	color: var(--film-ink);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.sound-toggle__wave {
+		animation: sound-wave 1.4s ease-in-out infinite;
+	}
+
+	.sound-toggle__wave--2 {
+		animation-delay: 0.2s;
+	}
+}
+
+@keyframes sound-wave {
+	50% {
+		opacity: 0.3;
+	}
 }
 
 /* The page's colours ease between the two moods. */
@@ -493,6 +587,30 @@
 	outline-offset: -1.5px;
 }
 
+/* A people's name in the open land: plain sepia letters, no fill. */
+.then-swatch--people,
+.explain__people {
+	display: inline-grid;
+	place-items: center;
+	flex: none;
+	font-size: 0.6875rem;
+	font-weight: 400;
+	letter-spacing: 0.12em;
+	text-transform: none;
+	color: var(--map-label);
+	background: none;
+}
+
+.then-intro__peoples {
+	margin: 16px 0 0;
+	font-size: 0.875rem;
+	color: var(--ink-muted);
+}
+
+.then-intro__peoples strong {
+	color: var(--ink);
+}
+
 .then-swatch--capital {
 	width: 14px;
 	height: 14px;
@@ -517,6 +635,19 @@
 .then-line--trade {
 	border-top-style: dotted;
 	border-top-width: 3px;
+}
+
+.then-line--descent {
+	border-top: 2px dotted var(--ink-polity, #8a5a2c);
+	opacity: 0.8;
+}
+
+.then-swatch--campaign {
+	background:
+		repeating-linear-gradient(45deg, rgb(155 44 31 / 70%) 0 1.2px, transparent 1.2px 5px),
+		repeating-linear-gradient(-45deg, rgb(155 44 31 / 70%) 0 1.2px, transparent 1.2px 5px);
+	outline: 1.5px dashed var(--ink-polity, #8a5a2c);
+	outline-offset: -1.5px;
 }
 
 .then-line--ritual {
@@ -702,58 +833,9 @@
 	stroke-linejoin: round;
 }
 
-/* ---- Phones */
+/* ---- Phones: the shell (top bar, tab bar, sheet, timeline dock) is in mobile.css. */
 
 @media (max-width: 899px) {
-	.topbar {
-		flex-direction: column;
-		align-items: stretch;
-		gap: 8px;
-	}
-
-	.topbar__row {
-		gap: 8px;
-	}
-
-	.topbar__row {
-		flex-wrap: nowrap;
-	}
-
-	.mode-switch {
-		flex: 1;
-		background: var(--surface);
-		box-shadow: var(--shadow);
-	}
-
-	.mode-switch button {
-		flex: 1;
-		justify-content: center;
-		padding: 4px 8px;
-		font-size: 0.75rem;
-	}
-
-	.timeline {
-		top: calc(max(12px, env(safe-area-inset-top)) + 64px);
-		bottom: auto;
-		left: 10px;
-		right: 10px;
-		flex-direction: column;
-		gap: 8px;
-	}
-
-	.timeline__bar {
-		flex-wrap: wrap;
-		gap: 2px 8px;
-		padding: 6px 12px 2px 6px;
-	}
-
-	.timeline__year {
-		margin-left: auto;
-		margin-right: 6px;
-		min-width: 0;
-		font-size: 1.75rem;
-	}
-
 	.timeline__track {
 		flex-basis: 100%;
 		padding: 0 4px 18px;
@@ -763,22 +845,196 @@
 		top: 20px;
 	}
 
-	.timeline__caption {
-		position: static;
-	}
-
-	.timeline__caption li {
-		padding: 5px 12px;
-		font-size: 0.8125rem;
-	}
-
-	.timeline__caption li:nth-child(n + 3) {
+	/* Too tight for every era label on a phone. */
+	.timeline__eras span:nth-child(2) {
 		display: none;
 	}
+}
 
-	/* The timeline takes the top of the screen; credits go above the sheet. */
-	.app[data-mode='then'] .map-region .maplibregl-ctrl-bottom-right {
-		top: auto;
-		bottom: calc(32dvh + 8px);
+/* A town: a dot split among its founding peoples. */
+.explain__town,
+.then-swatch--town {
+	flex: none;
+	width: 14px;
+	height: 14px;
+	border-radius: 50%;
+	box-shadow: 0 0 0 2px var(--surface), 0 0 0 3.5px var(--map-label);
+}
+
+.then-swatch--town {
+	margin: 0 4px;
+	background: conic-gradient(#4f7a3a 0 120deg, #c9822a 120deg 240deg, #8e2f3c 240deg 360deg);
+}
+
+.explain__founders,
+.explain__under {
+	margin: 10px 0 0;
+	padding: 0;
+	list-style: none;
+	display: grid;
+	gap: 6px;
+}
+
+.explain__founders li,
+.explain__under li {
+	display: block;
+	padding-left: 10px;
+	border-left: 3px solid var(--founder);
+	font-size: 0.875rem;
+	line-height: 1.4;
+}
+
+.explain__under li.is-now strong {
+	color: var(--founder);
+}
+
+.explain__from,
+.explain__quarters {
+	color: var(--ink-muted);
+}
+
+.explain__founder-text {
+	display: block;
+	color: var(--ink);
+}
+
+/* A throne made, restored or filled under colonial rule: a scarlet crown. */
+.explain__crown,
+.then-swatch--crown {
+	flex: none;
+	width: 18px;
+	height: 18px;
+	fill: var(--colonial);
+	color: var(--colonial);
+}
+
+.then-swatch--crown {
+	color: var(--colonial);
+}
+
+/* Who crowned or installed a ruler: set apart, in the colonial ink. */
+.explain__crowned {
+	margin: 10px 0 0;
+	padding: 6px 10px;
+	border-radius: 6px;
+	background: color-mix(in srgb, var(--colonial) 8%, transparent);
+	font-size: 0.875rem;
+}
+
+.explain__crowned strong {
+	color: var(--colonial);
+}
+
+/* ---- The first-visit hint: the map's dots and lines can be opened */
+
+.explain-hint {
+	align-self: center;
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	max-width: 560px;
+	padding: 9px 10px 9px 14px;
+	border-radius: 999px;
+	background: color-mix(in srgb, var(--surface) 94%, transparent);
+	border: 1px solid color-mix(in srgb, var(--highlight) 45%, var(--rule));
+	box-shadow: var(--shadow);
+	backdrop-filter: blur(6px);
+	color: var(--ink);
+	font-size: 0.8125rem;
+	line-height: 1.35;
+	pointer-events: auto;
+	opacity: 0;
+	transform: translateY(10px);
+	transition:
+		opacity 0.6s var(--ease-out),
+		transform 0.6s var(--ease-out);
+}
+
+.explain-hint[data-shown] {
+	opacity: 1;
+	transform: none;
+}
+
+.explain-hint p {
+	margin: 0;
+}
+
+.explain-hint__icon {
+	flex: none;
+	width: 26px;
+	height: 26px;
+	color: var(--highlight);
+}
+
+.explain-hint__icon svg {
+	width: 100%;
+	height: 100%;
+	overflow: visible;
+	fill: none;
+	stroke: currentColor;
+	stroke-width: 1.7;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+}
+
+/* The same ring the map beckons with, so the two read as one invitation. */
+.explain-hint__ping {
+	transform-box: fill-box;
+	transform-origin: center;
+	animation: hint-ping 2s var(--ease-out) infinite;
+}
+
+@keyframes hint-ping {
+	0% {
+		transform: scale(0.4);
+		opacity: 0.9;
+	}
+	75%,
+	100% {
+		transform: scale(2.2);
+		opacity: 0;
+	}
+}
+
+.explain-hint button {
+	flex: none;
+	padding: 6px 12px;
+	border: 0;
+	border-radius: 999px;
+	background: var(--highlight);
+	color: #fff;
+	font: inherit;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.explain-hint button:focus-visible {
+	outline: 2px solid var(--ink);
+	outline-offset: 2px;
+}
+
+.explain-hint[data-used] {
+	border-color: var(--highlight);
+}
+
+.explain-hint[data-used] .explain-hint__ping {
+	animation: none;
+	opacity: 0;
+}
+
+@media (max-width: 899px) {
+	.explain-hint {
+		border-radius: var(--radius);
+		font-size: 0.75rem;
+	}
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.explain-hint {
+		transition: none;
+	}
+
+	.explain-hint__ping {
+		animation: none;
 	}
 }

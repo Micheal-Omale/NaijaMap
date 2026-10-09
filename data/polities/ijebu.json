@@ -3,6 +3,7 @@
 	"status": "draft",
 	"kind": "kingdom",
 	"otherNames": [],
+	"shortName": "Ijebu",
 	"span": {
 		"from": 1400,
 		"to": 1892,
@@ -15,10 +16,10 @@
 	},
 	"peak": 1820,
 	"summary": {
-		"text": "A Yoruba kingdom of the forest and lagoon, ruled by the Awujale from Ijebu-Ode and surrounded by a great earthwork, Sungbo's Eredo. The Ijebu grew rich as middlemen between the coast and the interior and guarded their trade routes jealously, until a British force defeated them at Imagbon in 1892.",
+		"text": "Ijebu, the Yoruba kingdom of the Awujale at Ijebu-Ode, was ringed by Sungbo's Eredo, a ditch and bank some 160 km long and among the largest earthworks in Africa. Portuguese sailors knew it in 1508 as Geebu, “a great city surrounded by a great ditch”, and in 1620 as “a kingdom small but very warlike”. Its Osugbo council balanced the king. Sitting on the road between Lagos and the interior, Ijebu grew rich by letting only its own merchants carry the trade, joined Ife in destroying Owu in the 1820s, and kept the road closed until a British force with Maxim guns broke it at Imagbon in 1892.",
 		"sources": [
-			"ayandele-1992",
-			"smith-1988"
+			"wikipedia-ijebu-kingdom",
+			"wikipedia-owu-kingdom"
 		],
 		"confidence": "medium"
 	},
@@ -37,7 +38,7 @@
 			"year": 1400,
 			"yearLabel": "c. 1400",
 			"title": "The Awujale at Ijebu-Ode",
-			"text": "The Ijebu kingdom forms around Ijebu-Ode. The vast earthwork of Sungbo's Eredo encircles its heartland.",
+			"text": "Tradition gives Ijebu's founding to Obanta of Ile-Ife. The Ijebu dig and pile Sungbo's Eredo, earthworks that enclose the whole kingdom and moved more earth than the Great Pyramid; the palace floors at Ijebu-Ode are paved and aligned to the sun. In 1508 the Portuguese describe Geebu as a great city surrounded by a great ditch, ruled by the “Agusale”.",
 			"capital": {
 				"name": "Ijebu-Ode",
 				"point": [
@@ -57,7 +58,80 @@
 			},
 			"sources": [
 				"smith-1988",
-				"ogundiran-2020"
+				"ogundiran-2020",
+				"wikipedia-ijebu-kingdom"
+			],
+			"confidence": "medium",
+			"nodes": [
+				{
+					"name": "Sungbo's Eredo (approximate)",
+					"point": [
+						4,
+						6.78
+					]
+				}
+			],
+			"links": [
+				{
+					"kind": "descent",
+					"to": {
+						"name": "Ile-Ife",
+						"point": [
+							4.56,
+							7.48
+						]
+					},
+					"label": "Obanta from Ife",
+					"sources": [
+						"wikipedia-ijebu-kingdom"
+					],
+					"confidence": "medium"
+				}
+			]
+		},
+		{
+			"year": 1620,
+			"yearLabel": "1620–1800",
+			"title": "Small but very warlike",
+			"text": "A Portuguese trader in 1620 calls Ijebu “a kingdom small but very warlike”. The Awujale rules with the Osugbo, the council of titled freeborn men that serves as the kingdom's court, whose head the Oliwa is the second power in the land. The Ijebu trade across the lagoon to Lagos, where they arrive in the 15th century.",
+			"capital": {
+				"name": "Ijebu-Ode",
+				"point": [
+					3.92,
+					6.82
+				]
+			},
+			"core": {
+				"lgas": [
+					"ogun-ijebu-ode",
+					"ogun-ijebu-north",
+					"ogun-ijebu-north-east",
+					"ogun-ijebu-east",
+					"ogun-odogbolu",
+					"ogun-ogun-waterside"
+				]
+			},
+			"links": [
+				{
+					"kind": "trade",
+					"to": {
+						"name": "Eko (Lagos Island)",
+						"point": [
+							3.39,
+							6.45
+						]
+					},
+					"label": "Across the lagoon to Lagos",
+					"sources": [
+						"wikipedia-history-of-lagos",
+						"wikipedia-ijebu-kingdom"
+					],
+					"confidence": "medium"
+				}
+			],
+			"sources": [
+				"wikipedia-ijebu-kingdom",
+				"wikipedia-history-of-lagos"
 			],
 			"confidence": "medium"
 		},
@@ -121,9 +195,69 @@
 			"confidence": "medium"
 		},
 		{
+			"year": 1840,
+			"yearLabel": "1840–1891",
+			"title": "Masters of the road",
+			"text": "As the wars push trade south, Ijebu insists that every load between Lagos and Ibadan pass through Ijebu hands, and grows rich on the monopoly. It harbours Kosoko after the British drive him from Lagos in 1851 and lets him settle at Epe, and sides against Ibadan in the long wars.",
+			"capital": {
+				"name": "Ijebu-Ode",
+				"point": [
+					3.92,
+					6.82
+				]
+			},
+			"core": {
+				"lgas": [
+					"ogun-ijebu-ode",
+					"ogun-ijebu-north",
+					"ogun-ijebu-north-east",
+					"ogun-ijebu-east",
+					"ogun-odogbolu",
+					"ogun-ogun-waterside"
+				]
+			},
+			"links": [
+				{
+					"kind": "trade",
+					"to": {
+						"name": "Ibadan",
+						"point": [
+							3.9,
+							7.39
+						]
+					},
+					"label": "The road to Ibadan, closed to all but Ijebu traders",
+					"sources": [
+						"wikipedia-ijebu-kingdom"
+					],
+					"confidence": "high"
+				},
+				{
+					"kind": "ritual",
+					"to": {
+						"name": "Epe",
+						"point": [
+							3.98,
+							6.58
+						]
+					},
+					"label": "Kosoko's refuge at Epe",
+					"sources": [
+						"wikipedia-kosoko"
+					],
+					"confidence": "high"
+				}
+			],
+			"sources": [
+				"wikipedia-ijebu-kingdom",
+				"wikipedia-kosoko"
+			],
+			"confidence": "high"
+		},
+		{
 			"year": 1892,
 			"title": "Defeat at Imagbon",
-			"text": "After the Ijebu close the trade routes, a British force from Lagos defeats them at Imagbon and occupies Ijebu-Ode.",
+			"text": "In May 1892 a Lagos Colony force with Maxim guns defeats the Ijebu army at Imagbon, occupies Ijebu-Ode and burns the Osugbo meeting hall; Lugard later boasted that thousands were mown down. Ijebu becomes part of the British colony.",
 			"capital": {
 				"name": "Ijebu-Ode",
 				"point": [
@@ -146,23 +280,13 @@
 					"lagos-ibeju-lekki"
 				]
 			},
-			"links": [
-				{
-					"kind": "war",
-					"to": {
-						"name": "Imagbon (approximate)",
-						"point": [
-							3.98,
-							6.9
-						]
-					},
-					"label": "Battle of Imagbon"
-				}
-			],
+			"links": [],
 			"sources": [
-				"ayandele-1992"
+				"ayandele-1992",
+				"wikipedia-ijebu-kingdom"
 			],
-			"confidence": "high"
+			"confidence": "high",
+			"note": "Told in full as an event on the timeline."
 		}
 	],
 	"today": {

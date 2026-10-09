@@ -3,32 +3,41 @@
 	"status": "draft",
 	"kind": "kingdom",
 	"otherNames": [
+		"Nupe",
+		"Kin Nupe",
+		"Tapa",
+		"Nufawa",
 		"Bida Emirate"
 	],
+	"shortName": "Nupe",
 	"span": {
 		"from": 1450,
-		"to": 1897,
-		"fromLabel": "mid 15th century",
+		"to": 1901,
+		"fromLabel": "the Bini city-states, before Tsoede",
+		"toLabel": "British rule, 1901",
 		"sources": [
 			"wikipedia-bida-emirate",
+			"sidi-2023-nupe",
 			"nadel-1942"
 		],
 		"confidence": "medium"
 	},
-	"peak": 1860,
+	"peak": 1857,
 	"summary": {
-		"text": "Founded by Tsoede in the basin between the Niger and Kaduna rivers, Nupe was strong enough in the 16th century to sack Oyo-Ile. In the 19th century Fulani rulers took over and, from their new capital at Bida, built a powerful emirate that raided far south of the Niger. Company troops took Bida in 1897.",
+		"text": "Between the Niger and the Kaduna rivers, a dozen Bini city-states and the river-going Kyadya were united in the early 16th century by Tsoede (Edegi), whom tradition makes the son of an Attah of Igala. His Nupe sacked Oyo-Ile around 1535 and drove its kings into exile. In the late 18th century the kingdom was at its strongest under Ma'azu, then tore itself apart in a civil war that let the Fulani preacher Mallam Dendo and his sons take over. From Bida, its capital from 1857, the Fulani Etsu built the strongest emirate of the middle Niger, ruling the Okun Yoruba, Ebira and northern Edo through resident agents, until the Royal Niger Company took Bida in 1897.",
 		"sources": [
 			"wikipedia-bida-emirate",
-			"nadel-1942",
-			"mason-1981"
+			"sidi-2023-nupe",
+			"wikipedia-oyo-empire",
+			"nadel-1942"
 		],
 		"confidence": "medium"
 	},
 	"ruler": {
 		"title": "Etsu Nupe",
 		"sources": [
-			"wikipedia-bida-emirate"
+			"wikipedia-bida-emirate",
+			"rulers-org-nigeria-traditional"
 		],
 		"confidence": "high"
 	},
@@ -38,14 +47,58 @@
 	"snapshots": [
 		{
 			"year": 1450,
-			"yearLabel": "c. 1450–1530",
-			"title": "Tsoede founds Nupe",
-			"text": "Tradition says Tsoede, son of an Attah of Igala, came up the Niger with brass regalia and united the Nupe chiefdoms.",
+			"yearLabel": "before c. 1530",
+			"title": "The Bini city-states and the river people",
+			"text": "Before there was one Nupe kingdom there were several Nupe peoples. The Bini formed a confederacy of at least twelve city-states, among them Nku, Nupeko, Tafyan, Doko, Jima and Bida, each under its own Etsu; they paid yearly tribute to a leading town, first Tuwa and later Tafyan, and joined their armies in war. The Kyadya held the Niger and Kaduna rivers, living by fishing, ferrying and rice under a leader called the Kuta. The Kusopa, Gbede, Ebe and others ruled themselves.",
+			"core": {
+				"lgas": [
+					"niger-lavun",
+					"niger-bida",
+					"niger-katcha",
+					"niger-mokwa"
+				],
+				"confidence": "medium"
+			},
+			"nodes": [
+				{
+					"name": "Nku",
+					"point": [
+						5.81,
+						8.828
+					]
+				},
+				{
+					"name": "Nupeko",
+					"point": [
+						5.801,
+						8.776
+					]
+				},
+				{
+					"name": "Tafyan (leading Bini town)",
+					"point": [
+						5.852,
+						8.938
+					]
+				}
+			],
+			"sources": [
+				"sidi-2023-nupe",
+				"nadel-1942"
+			],
+			"confidence": "medium",
+			"note": "Tafyan is placed at GRID3's Manbe Tafyan ward in Lavun."
+		},
+		{
+			"year": 1531,
+			"yearLabel": "c. 1531",
+			"title": "Tsoede unites Nupe",
+			"text": "Tsoede (Edegi), born at Nku to a Nupe mother and an Igala prince who became Attah, grows up at the court of Idah and comes up the Niger with brass and bronze regalia. He overthrows his maternal uncle, the Etsu of Nku, rules first from Nupeko and then from the larger Gbara, and by war and diplomacy brings the Bini city-states and the other Nupe peoples under one Etsu.",
 			"capital": {
 				"name": "Gbara (approximate)",
 				"point": [
-					6.05,
-					8.9
+					5.852,
+					8.938
 				]
 			},
 			"core": {
@@ -60,6 +113,15 @@
 					"kwara-pategi"
 				]
 			},
+			"nodes": [
+				{
+					"name": "Nupeko (Tsoede's first capital)",
+					"point": [
+						5.801,
+						8.776
+					]
+				}
+			],
 			"links": [
 				{
 					"kind": "ritual",
@@ -70,26 +132,33 @@
 							7.11
 						]
 					},
-					"label": "Founding tradition from Idah"
+					"label": "Tsoede's father was Attah of Igala",
+					"sources": [
+						"sidi-2023-nupe",
+						"wikipedia-nupe-people"
+					],
+					"confidence": "medium"
 				}
 			],
 			"sources": [
+				"sidi-2023-nupe",
 				"wikipedia-bida-emirate",
+				"rulers-org-nigeria-traditional",
 				"nadel-1942"
 			],
-			"confidence": "disputed",
-			"note": "Tsoede's dates are given as 15th or 16th century."
+			"confidence": "medium",
+			"note": "rulers.org dates the founding to 1531; Wikipedia gives Tsoede c. 1496–1591, and other traditions start him in 1465."
 		},
 		{
 			"year": 1535,
 			"yearLabel": "c. 1535",
 			"title": "Nupe sacks Oyo-Ile",
-			"text": "Nupe armies take the Oyo capital and drive its court into exile.",
+			"text": "Nupe armies, already the victors over Alaafin Onigbogi, occupy Oyo-Ile and drive its dynasty into exile in Borgu and then Igboho for some eighty years. The Yoruba remember the Nupe as the Tapa, and learn from them to fight in armour on horseback.",
 			"capital": {
 				"name": "Gbara (approximate)",
 				"point": [
-					6.05,
-					8.9
+					5.852,
+					8.938
 				]
 			},
 			"core": {
@@ -116,7 +185,12 @@
 							8.9747
 						]
 					},
-					"label": "Oyo-Ile sacked"
+					"label": "Oyo-Ile taken; the Alaafin flees",
+					"sources": [
+						"wikipedia-oyo-empire",
+						"law-1977"
+					],
+					"confidence": "high"
 				}
 			],
 			"sources": [
@@ -126,15 +200,64 @@
 			"confidence": "medium"
 		},
 		{
-			"year": 1770,
-			"yearLabel": "c. 1770–1818",
-			"title": "Islam and Etsu Ma'azu",
-			"text": "Etsu Jibrilu (around 1770) is the first Muslim king. Under Ma'azu, who dies in 1818, Nupe is at its strongest as a Nupe-ruled kingdom.",
+			"year": 1591,
+			"yearLabel": "c. 1591–1700",
+			"title": "Tsoede dies; Oyo strikes back",
+			"text": "Tsoede dies on campaign in 1591, by tradition aged over 120. Oyo, rearmed with cavalry, recovers its land under Alaafin Ofinran, and Orompoto carries the war into Nupe. Nupe holds its heartland, and its traders carry cloth, beads and glass along the river and the caravan roads.",
 			"capital": {
 				"name": "Gbara (approximate)",
 				"point": [
-					6.05,
-					8.9
+					5.852,
+					8.938
+				]
+			},
+			"core": {
+				"lgas": [
+					"niger-lavun",
+					"niger-mokwa",
+					"niger-bida",
+					"niger-gbako",
+					"niger-katcha",
+					"niger-edati",
+					"niger-agaie",
+					"kwara-edu",
+					"kwara-pategi"
+				]
+			},
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Oyo-Ile (Old Oyo)",
+						"point": [
+							4.3075,
+							8.9747
+						]
+					},
+					"label": "Ofinran and Orompoto take the war back to Nupe",
+					"sources": [
+						"wikipedia-oyo-empire"
+					],
+					"confidence": "medium"
+				}
+			],
+			"sources": [
+				"wikipedia-tsoede",
+				"wikipedia-oyo-empire",
+				"sidi-2023-nupe"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1759,
+			"yearLabel": "1759–1795",
+			"title": "Islam and Etsu Ma'azu",
+			"text": "Etsu Jibrilu (1746–1759) is remembered as the first Muslim king. His successor Ma'azu, who reigns twice (1759–1767, 1778–1795), brings the kingdom to its greatest strength: in 1789 an Oyo army sent by Alaafin Abiodun is destroyed, losing thirteen generals, and in the 1790s Nupe takes Lapai in the Gbari country.",
+			"capital": {
+				"name": "Gbara (approximate)",
+				"point": [
+					5.852,
+					8.938
 				]
 			},
 			"core": {
@@ -160,21 +283,283 @@
 				],
 				"confidence": "medium"
 			},
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Oyo-Ile (Old Oyo)",
+						"point": [
+							4.3075,
+							8.9747
+						]
+					},
+					"label": "Abiodun's army destroyed (1789)",
+					"sources": [
+						"wikipedia-oyo-empire"
+					],
+					"confidence": "high"
+				},
+				{
+					"kind": "war",
+					"to": {
+						"name": "Lapai",
+						"point": [
+							6.575,
+							9.038
+						]
+					},
+					"label": "Lapai taken (1790s)",
+					"sources": [
+						"wikipedia-lapai-emirate"
+					],
+					"confidence": "medium"
+				}
+			],
 			"sources": [
 				"wikipedia-bida-emirate",
+				"rulers-org-nigeria-traditional",
+				"wikipedia-oyo-empire",
 				"nadel-1942"
 			],
 			"confidence": "medium"
 		},
 		{
+			"year": 1796,
+			"yearLabel": "1796–1810",
+			"title": "Civil war: Jimada against Majiya",
+			"text": "After Ma'azu the succession splits the kingdom. Jimada, Ma'azu's son, holds the east from Gbara and later Ragada; Majiya II, his cousin through the female line, holds the west from Raba on the Niger; the general Yikanko seizes Mokwa. Both cousins court the Fulani clerics settled in Nupe. Together they kill Yikanko at Mokwa in about 1810, and then Majiya, with the help of the Fulani preacher Mallam Dendo, kills Jimada at Ragada. Jimada's followers become the Yissazhi faction, Majiya's the Gwagbazhi.",
+			"capital": {
+				"name": "Raba (Majiya II)",
+				"point": [
+					5.03,
+					9.211
+				]
+			},
+			"core": {
+				"lgas": [
+					"niger-lavun",
+					"niger-mokwa",
+					"niger-bida",
+					"niger-gbako",
+					"niger-katcha",
+					"niger-edati",
+					"niger-agaie",
+					"kwara-edu",
+					"kwara-pategi"
+				]
+			},
+			"nodes": [
+				{
+					"name": "Gbara (Jimada)",
+					"point": [
+						5.852,
+						8.938
+					]
+				},
+				{
+					"name": "Mokwa (Yikanko)",
+					"point": [
+						5.054,
+						9.295
+					]
+				}
+			],
+			"sources": [
+				"sidi-2023-nupe",
+				"rulers-org-nigeria-traditional"
+			],
+			"confidence": "medium",
+			"note": "rulers.org has Jimada dying in 1805 and Majiya's rival line continuing under Jimada's son Idirisu II; Sidi puts the Ragada battle at about 1810. Ragada, near Pategi, has not been located."
+		},
+		{
+			"year": 1810,
+			"yearLabel": "1810–1833",
+			"title": "Mallam Dendo at Raba",
+			"text": "Majiya turns on Dendo, whose following is growing, and Dendo flees to the jihadists at Ilorin. There he wins over Jimada's son Idrisu Gana and his war-chief Makolo, and returns. By the 1830s the Tsoede dynasty has lost the kingdom: Nupe is under the emir of Gwandu, and Dendo is its master at Raba until he dies in 1833.",
+			"capital": {
+				"name": "Raba",
+				"point": [
+					5.03,
+					9.211
+				]
+			},
+			"core": {
+				"lgas": [
+					"niger-lavun",
+					"niger-mokwa",
+					"niger-bida",
+					"niger-gbako",
+					"niger-katcha",
+					"niger-edati",
+					"kwara-edu",
+					"kwara-pategi"
+				]
+			},
+			"links": [
+				{
+					"kind": "tribute",
+					"to": {
+						"name": "Gwandu",
+						"point": [
+							4.64,
+							12.5
+						]
+					},
+					"label": "Under the emir of Gwandu",
+					"sources": [
+						"wikipedia-bida-emirate",
+						"sidi-2023-nupe"
+					],
+					"confidence": "high"
+				}
+			],
+			"sources": [
+				"sidi-2023-nupe",
+				"wikipedia-bida-emirate",
+				"wikipedia-muhammadu-bangana"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1833,
+			"yearLabel": "1833–1857",
+			"title": "Four emirates and a usurper",
+			"text": "Dendo's son Usman Zaki becomes the first Fulani Etsu at Raba in 1833. Other jihad leaders carve out emirates from old Nupe: Agaie, Lapai, Lafiagi and Shonga. Masaba, Dendo's half-Nupe son, revolts, flees to Lade in 1835, allies with the shadow Etsus of the old line at Zugurma and Eggan, raids the Ebira and Bunu, and is beaten at Takuma. Then the war-chief Umaru Bahaushe turns on Masaba, drives him to Ilorin, crushes the old line at Yeti and rules Nupe himself.",
+			"capital": {
+				"name": "Raba",
+				"point": [
+					5.03,
+					9.211
+				]
+			},
+			"core": {
+				"lgas": [
+					"niger-lavun",
+					"niger-mokwa",
+					"niger-bida",
+					"niger-gbako",
+					"niger-katcha",
+					"niger-edati",
+					"kwara-edu",
+					"kwara-pategi"
+				]
+			},
+			"nodes": [
+				{
+					"name": "Lade (Masaba)",
+					"point": [
+						5.617,
+						8.758
+					]
+				},
+				{
+					"name": "Zugurma (old line)",
+					"point": [
+						4.967,
+						9.459
+					]
+				},
+				{
+					"name": "Eggan (old line)",
+					"point": [
+						6.246,
+						8.562
+					]
+				},
+				{
+					"name": "Agaie (emirate, 1832)",
+					"point": [
+						6.32,
+						9.01
+					]
+				},
+				{
+					"name": "Lapai (emirate, 1825)",
+					"point": [
+						6.575,
+						9.038
+					]
+				},
+				{
+					"name": "Lafiagi (emirate)",
+					"point": [
+						5.418,
+						8.854
+					]
+				},
+				{
+					"name": "Shonga (emirate)",
+					"point": [
+						5.151,
+						9.021
+					]
+				}
+			],
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Takuma",
+						"point": [
+							5.231,
+							9.336
+						]
+					},
+					"label": "Masaba beaten at Takuma",
+					"sources": [
+						"sidi-2023-nupe"
+					],
+					"confidence": "medium"
+				},
+				{
+					"kind": "war",
+					"to": {
+						"name": "Yeti",
+						"point": [
+							5.463,
+							9.403
+						]
+					},
+					"label": "Umaru Bahaushe crushes the old line",
+					"sources": [
+						"sidi-2023-nupe"
+					],
+					"confidence": "medium"
+				},
+				{
+					"kind": "tribute",
+					"to": {
+						"name": "Gwandu",
+						"point": [
+							4.64,
+							12.5
+						]
+					},
+					"label": "Under Gwandu",
+					"sources": [
+						"sidi-2023-nupe"
+					],
+					"confidence": "high"
+				}
+			],
+			"sources": [
+				"sidi-2023-nupe",
+				"wikipedia-agaie-emirate",
+				"wikipedia-lapai-emirate",
+				"rulers-org-nigeria-traditional"
+			],
+			"confidence": "medium"
+		},
+		{
 			"year": 1857,
-			"title": "Bida and the Fulani emirate",
-			"text": "Mallam Dendo's sons take power after civil wars, and Bida becomes the capital in 1857. Under Masaba and Umaru Majigi, Nupe armies take tribute from the Ebira, the Okun Yoruba and the northern Edo.",
+			"yearLabel": "1857–1873",
+			"title": "Bida and Masaba's empire",
+			"text": "Dendo’s heirs unite against the usurper: Umaru Majigi, with the old-line Etsu Ma’azu Isa and the Bini towns, and Usman Zaki with a Gwandu army, hunt Umaru Bahaushe to the Bini war-camp of Bida, and he drowns crossing the Gbako river in 1857. Bida becomes the capital. Under Masaba (1859–1873) it becomes the great military power of the middle Niger, the largest and richest of the five Nupe emirates, which send their own tribute to Gwandu through it. Its armies raid across the Niger for slaves and tribute into the Okun Yoruba country, Ebira, Akoko and Afenmai, and Bida makes the Obaro of Kabba paramount over the north-east Yoruba, to collect for it under a royal delegate at Lokoja.",
 			"capital": {
 				"name": "Bida",
 				"point": [
 					6.01,
-					9.08
+					9.085
 				]
 			},
 			"core": {
@@ -220,30 +605,186 @@
 				{
 					"kind": "tribute",
 					"to": {
-						"name": "Sokoto",
+						"name": "Kabba (the Obaro)",
 						"point": [
-							5.24,
-							13.06
+							6.074,
+							7.824
 						]
 					},
-					"label": "Part of the Sokoto Caliphate (via Gwandu)"
+					"label": "North-east Yoruba tribute through the Obaro of Kabba",
+					"sources": [
+						"idrees-1989-bida"
+					],
+					"confidence": "high"
+				},
+				{
+					"kind": "tribute",
+					"to": {
+						"name": "Okene",
+						"point": [
+							6.23,
+							7.55
+						]
+					},
+					"label": "Ebira tribute",
+					"sources": [
+						"idrees-1989-bida"
+					],
+					"confidence": "medium"
+				},
+				{
+					"kind": "tribute",
+					"to": {
+						"name": "Agbede",
+						"point": [
+							6.264,
+							6.864
+						]
+					},
+					"label": "Afenmai (northern Edo) tribute",
+					"sources": [
+						"idrees-1989-bida"
+					],
+					"confidence": "medium"
+				},
+				{
+					"kind": "war",
+					"to": {
+						"name": "Lokoja",
+						"point": [
+							6.74,
+							7.8
+						]
+					},
+					"label": "Lokoja and Oworo taken; Bida’s delegate sits at Lokoja",
+					"sources": [
+						"idrees-1989-bida",
+						"james-2017-igala"
+					],
+					"confidence": "medium"
+				},
+				{
+					"kind": "tribute",
+					"to": {
+						"name": "Gwandu",
+						"point": [
+							4.64,
+							12.5
+						]
+					},
+					"label": "Under Gwandu",
+					"sources": [
+						"sidi-2023-nupe"
+					],
+					"confidence": "high"
 				}
 			],
 			"sources": [
+				"sidi-2023-nupe",
+				"idrees-1989-bida",
 				"wikipedia-bida-emirate",
 				"mason-1981"
 			],
 			"confidence": "medium"
 		},
 		{
-			"year": 1897,
-			"title": "Company troops take Bida",
-			"text": "The Royal Niger Company captures Bida and installs a ruler of its choosing; Northern Nigeria takes over in 1901.",
+			"year": 1868,
+			"yearLabel": "1868–1893",
+			"title": "Three rebellions at home",
+			"text": "Bida’s own Nupe rise against it three times. In 1868 the people of Lavun district on the Kaduna fight Masaba in the Kwenti war. In 1876 Prince Baba, of the ousted Majiya line, leads the Fogbagba war. In 1881–82 the Kyadya river people, whose canoes and ferries Bida wants to control, rebel under their Kuta, Usman; after the Ganigan war he and his general Kologba are executed at Bida, and Kyadya exiles gather at Lokoja. Umaru Majigi (1873–1884) and Maliki (1884–1895) still campaign south every year, and Nadel later calls Bida’s court a “Black Byzantium”.",
 			"capital": {
 				"name": "Bida",
 				"point": [
 					6.01,
-					9.08
+					9.085
+				]
+			},
+			"core": {
+				"lgas": [
+					"niger-lavun",
+					"niger-mokwa",
+					"niger-bida",
+					"niger-gbako",
+					"niger-katcha",
+					"niger-edati",
+					"niger-agaie",
+					"niger-lapai",
+					"niger-wushishi",
+					"kwara-edu",
+					"kwara-pategi"
+				]
+			},
+			"influence": {
+				"lgas": [
+					"kogi-yagba-east",
+					"kogi-yagba-west",
+					"kogi-mopa-muro",
+					"kogi-kabba-bunu",
+					"kogi-ijumu",
+					"kogi-lokoja",
+					"kogi-kogi",
+					"kogi-okene",
+					"kogi-adavi",
+					"kogi-okehi",
+					"edo-akoko-edo",
+					"edo-etsako-west",
+					"edo-etsako-central",
+					"edo-etsako-east",
+					"kwara-oke-ero",
+					"kwara-ekiti",
+					"kwara-isin"
+				],
+				"confidence": "medium"
+			},
+			"sources": [
+				"idrees-1989-bida",
+				"rulers-org-nigeria-traditional",
+				"nadel-1942"
+			],
+			"confidence": "medium",
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Lavun (Kwenti war, 1868)",
+						"point": [
+							5.85,
+							8.95
+						]
+					},
+					"label": "Kwenti war",
+					"sources": [
+						"idrees-1989-bida"
+					],
+					"confidence": "high"
+				},
+				{
+					"kind": "war",
+					"to": {
+						"name": "Lokoja (Kyadya exiles)",
+						"point": [
+							6.74,
+							7.8
+						]
+					},
+					"label": "Kyadya rising and the Ganigan war (1881–82)",
+					"sources": [
+						"idrees-1989-bida"
+					],
+					"confidence": "high"
+				}
+			]
+		},
+		{
+			"year": 1894,
+			"yearLabel": "1894–1896",
+			"title": "The south rises",
+			"text": "The subject peoples turn on Bida. Made to pay tribute in boys and girls, the north-east Yoruba protest in 1895 and appeal to the British at Ibadan; Bida sends its cavalry under the heir, Muhammad Makun, to camp at Ogidi. The Ijumu, Akoko and other towns form the Ogidi grand alliance and hold the hill at Ogidi. In Esanland the Akota alliance of Ubiaja, Uromi, Emu, Ewohimi, Okhuesan and others fights the Nupe and, by its own tradition, drives them back to Agbede.",
+			"capital": {
+				"name": "Bida",
+				"point": [
+					6.01,
+					9.085
 				]
 			},
 			"core": {
@@ -260,28 +801,120 @@
 					"kwara-pategi"
 				]
 			},
+			"influence": {
+				"lgas": [
+					"kogi-kabba-bunu",
+					"kogi-lokoja",
+					"kogi-kogi",
+					"edo-etsako-west",
+					"edo-etsako-central",
+					"edo-akoko-edo"
+				],
+				"confidence": "disputed"
+			},
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Ogidi",
+						"point": [
+							6.024,
+							7.76
+						]
+					},
+					"label": "Bida cavalry camp; the Ogidi grand alliance",
+					"sources": [
+						"idrees-1989-bida",
+						"apata-2003-ogidi"
+					],
+					"confidence": "high"
+				},
+				{
+					"kind": "war",
+					"to": {
+						"name": "Ewohimi",
+						"point": [
+							6.323,
+							6.481
+						]
+					},
+					"label": "Esan Akota alliance against the Nupe",
+					"sources": [
+						"oriire-2025-esan-nupe"
+					],
+					"confidence": "disputed"
+				}
+			],
 			"sources": [
-				"wikipedia-bida-emirate"
+				"idrees-1989-bida",
+				"apata-2003-ogidi",
+				"oriire-2025-esan-nupe"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1897,
+			"yearLabel": "1897–1901",
+			"title": "Company troops take Bida",
+			"text": "On 6 January 1897 a Royal Niger Company force of 30 European officers and 513 African soldiers marches from Lokoja via Kabba to Ogidi; the Bida camp has gone, so the Company declares the north-east Yoruba free of Bida. Kabba supplies porters and guides, the Kyadya under Marike ferry the Company across the Niger and refuse to ferry Bida’s retreating army, and the Yissazhi, Jimada’s old faction under Idrisu Gana, will not fight for the Fulani Etsu. Bida falls; the Company installs Muhammadu, son of Umaru Majigi, and the Yissazhi get their own emirate at Pategi. Abubakar returns in 1899, but in 1901 Northern Nigeria restores Muhammadu.",
+			"capital": {
+				"name": "Bida",
+				"point": [
+					6.01,
+					9.085
+				]
+			},
+			"core": {
+				"lgas": [
+					"niger-lavun",
+					"niger-mokwa",
+					"niger-bida",
+					"niger-gbako",
+					"niger-katcha",
+					"niger-edati",
+					"niger-agaie",
+					"niger-lapai",
+					"kwara-edu"
+				]
+			},
+			"nodes": [
+				{
+					"name": "Pategi (Yissazhi emirate)",
+					"point": [
+						5.756,
+						8.733
+					]
+				}
+			],
+			"sources": [
+				"idrees-1989-bida",
+				"wikipedia-bida-emirate",
+				"wikipedia-pategi",
+				"rulers-org-nigeria-traditional"
 			],
 			"confidence": "high"
 		}
 	],
 	"today": {
-		"text": "The Etsu Nupe reigns at Bida in Niger State, as Emir of Bida.",
+		"text": "The Etsu Nupe reigns at Bida in Niger State, as Emir of Bida. The Tsoede line survives at Pategi, and Nupe emirs also sit at Agaie, Lapai, Lafiagi and Shonga.",
 		"title": "Etsu Nupe",
 		"seat": {
 			"name": "Bida",
 			"point": [
 				6.01,
-				9.08
+				9.085
 			]
 		},
 		"sources": [
-			"wikipedia-bida-emirate"
+			"wikipedia-bida-emirate",
+			"wikipedia-pategi",
+			"rulers-org-nigeria-traditional"
 		],
 		"confidence": "high"
 	},
 	"reviewNotes": [
-		"Gbara's point is approximate; Nupe capitals moved often (Nupeko, Gbara, Raba, Bida)."
+		"Gbara is placed at GRID3's Gbara Village in Lavun (Manbe Tafyan ward); another Gbara lies in Katcha. Which is the old capital should be checked.",
+		"Raba is placed at GRID3's Rabba Ndeshi (Jebba ward, Mokwa).",
+		"The Esan–Nupe war rests on one popular article (Oriire 2025), which cites fieldwork interviews; it is marked disputed."
 	]
 }

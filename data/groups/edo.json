@@ -1,6 +1,143 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Uselu and Egor",
+			"lga": "edo-egor",
+			"point": [
+				5.617,
+				6.368
+			],
+			"villages": [
+				{
+					"name": "Okhoro"
+				},
+				{
+					"name": "Use"
+				},
+				{
+					"name": "Uwelu"
+				},
+				{
+					"name": "Iguikpe"
+				},
+				{
+					"name": "Ugbighoko"
+				},
+				{
+					"name": "Iguediaye"
+				},
+				{
+					"name": "Evbougide"
+				}
+			],
+			"sources": [
+				"wikipedia-egor",
+				"grid3-settlement-names"
+			],
+			"confidence": "high"
+		},
+		{
+			"name": "Ikpoba Okha villages",
+			"lga": "edo-ikpoba-okha",
+			"point": [
+				5.715,
+				6.266
+			],
+			"villages": [
+				{
+					"name": "Idogbo",
+					"point": [
+						5.715,
+						6.266
+					]
+				},
+				{
+					"name": "Evbuomodu"
+				},
+				{
+					"name": "Obazagbon"
+				},
+				{
+					"name": "Agedo"
+				},
+				{
+					"name": "Okha"
+				},
+				{
+					"name": "Ekae"
+				},
+				{
+					"name": "Utezi"
+				},
+				{
+					"name": "Ogheghe"
+				},
+				{
+					"name": "Obagie"
+				}
+			],
+			"sources": [
+				"wikipedia-ikpoba-okha",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"livelihoods": {
+				"text": "Mostly rural farming and fishing communities.",
+				"sources": [
+					"wikipedia-ikpoba-okha"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Iguobazuwa and the Ovia country",
+			"lga": "edo-ovia-south-west",
+			"point": [
+				5.359,
+				6.563
+			],
+			"villages": [
+				{
+					"name": "Aghobahi"
+				},
+				{
+					"name": "Igueze"
+				},
+				{
+					"name": "Usen"
+				},
+				{
+					"name": "Ugbogui"
+				},
+				{
+					"name": "Ora"
+				},
+				{
+					"name": "Udo"
+				}
+			],
+			"sources": [
+				"wikipedia-ovia-south-west",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Edo-speaking country on the Ovia river, historically part of the Benin kingdom; the Ovia cult is traced to a woman from Uhen.",
+				"sources": [
+					"wikipedia-ovia-south-west"
+				],
+				"confidence": "medium"
+			},
+			"livelihoods": {
+				"text": "Timber and farming.",
+				"sources": [
+					"wikipedia-ovia-south-west"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Edo",
 	"searchAliases": [

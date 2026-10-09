@@ -1,0 +1,76 @@
+{
+	"status": "draft",
+	"of": "polity",
+	"terrain": "forest",
+	"summary": {
+		"text": "The Egba rebuilt themselves at Abeokuta behind walls, and beat Dahomey there twice. They bought guns through Lagos and sided with Ijaye and the Ekitiparapo against Ibadan.",
+		"sources": [
+			"biobaku-1957",
+			"johnson-1921",
+			"smith-1988"
+		],
+		"confidence": "medium"
+	},
+	"arms": [
+		{
+			"kind": "walls",
+			"level": 2,
+			"from": 1830,
+			"text": "The walls of Abeokuta.",
+			"sources": [
+				"biobaku-1957"
+			],
+			"confidence": "medium"
+		},
+		{
+			"kind": "firearms",
+			"level": 2,
+			"from": 1840,
+			"text": "Guns bought through Lagos.",
+			"sources": [
+				"biobaku-1957",
+				"smith-1989-warfare"
+			],
+			"confidence": "medium"
+		}
+	],
+	"record": [
+		{
+			"year": 1851,
+			"against": "Dahomey",
+			"result": "held",
+			"text": "Dahomey’s army, its women soldiers among it, was beaten at the walls of Abeokuta.",
+			"sources": [
+				"biobaku-1957",
+				"johnson-1921"
+			],
+			"confidence": "high"
+		},
+		{
+			"year": 1864,
+			"against": "Dahomey",
+			"result": "held",
+			"text": "A second Dahomean attack on Abeokuta failed.",
+			"sources": [
+				"biobaku-1957"
+			],
+			"confidence": "high"
+		},
+		{
+			"year": 1862,
+			"polity": "ibadan",
+			"event": "ijaye-war",
+			"against": "Ibadan",
+			"result": "lost",
+			"text": "The Egba fought for Ijaye, which Ibadan destroyed.",
+			"sources": [
+				"johnson-1921",
+				"wikipedia-ijaye"
+			],
+			"confidence": "medium"
+		}
+	],
+	"reviewNotes": [
+		"Arms levels (1 some, 2 a real strength, 3 famous for it) are the compiler’s judgement from the sources, for the Versus page’s guess; please check them."
+	]
+}

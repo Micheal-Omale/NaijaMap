@@ -1,0 +1,26 @@
+{
+	"name": "Nupe risings against Bida",
+	"status": "draft",
+	"kind": "war",
+	"year": 1868,
+	"yearLabel": "1868–1882",
+	"until": 1885,
+	"actors": [
+		{ "name": "Bida emirate", "polity": "nupe", "side": "defender" },
+		{ "name": "Nupe rebels (Lavun, Majiya line, Kyadya)", "side": "resister", "ink": "#4a6a8a" }
+	],
+	"summary": {
+		"text": "Bida's own Nupe rose against it three times. In 1868 the people of Lavun district, on the Kaduna river, fought Etsu Masaba in the Kwenti war. In 1876 Prince Baba, a descendant of the ousted Etsu Majiya, led the Fogbagba war. In 1881–82 the Kyadya, the river people who ran Nupe's canoes and ferries and had always governed themselves, rebelled when Bida tried to take over the rivers. After the Ganigan war their Kuta, Usman, and his general Kologba were executed at Bida; Bida's men took over the ferries, and Kyadya exiles gathered at Lokoja. Fifteen years later they helped the Royal Niger Company cross the Niger.",
+		"sources": ["idrees-1989-bida"],
+		"confidence": "high"
+	},
+	"moments": [
+		{ "when": "1868", "title": "The Kwenti war", "text": "Lavun district rises against Etsu Masaba.", "at": { "name": "Lavun district", "point": [5.85, 8.95] }, "mark": "battle", "sources": ["idrees-1989-bida"], "confidence": "high" },
+		{ "when": "1876", "title": "The Fogbagba war", "text": "Prince Baba of the Majiya line fights to restore the old dynasty.", "mark": "battle", "sources": ["idrees-1989-bida"], "confidence": "high" },
+		{ "when": "1881–1882", "title": "The Kyadya rising and the Ganigan war", "text": "The river people fight Bida; their Kuta Usman and general Kologba are executed, and many Kyadya cross the Niger, some to Lokoja and some as the Ganigan highway robbers.", "at": { "name": "Lokoja (Kyadya exiles)", "point": [6.74, 7.8] }, "mark": "exile", "sources": ["idrees-1989-bida"], "confidence": "high" }
+	],
+	"area": { "lgas": ["niger-lavun", "niger-mokwa", "niger-katcha"], "confidence": "medium" },
+	"sources": ["idrees-1989-bida"],
+	"confidence": "high",
+	"reviewNotes": ["Where the Fogbagba war was fought is not recorded in Idrees; the Kyadya area is drawn as the river LGAs."]
+}

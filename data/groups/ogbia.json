@@ -1,6 +1,49 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Oloibiri",
+			"lga": "bayelsa-ogbia",
+			"point": [
+				6.315,
+				4.678
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-ogbia",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Where Nigeria first struck oil, in 1956.",
+				"sources": [
+					"wikipedia-ogbia"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Otuoke",
+			"lga": "bayelsa-ogbia",
+			"point": [
+				6.317,
+				4.796
+			],
+			"villages": [
+				{
+					"name": "Kolo"
+				},
+				{
+					"name": "Emeyal"
+				}
+			],
+			"sources": [
+				"wikipedia-ogbia",
+				"grid3-settlement-names"
+			],
+			"confidence": "high"
+		}
+	],
 	"reviewNotes": [
 		"Identity: Ogbia are widely counted as Ijaw politically, while their language is Central Delta, not Ijoid. Both are recorded."
 	],

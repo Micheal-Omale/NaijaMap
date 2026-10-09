@@ -18,12 +18,21 @@ const { title = t('site.name'), description = t('site.description'), noindex = f
 <html lang={lang}>
 	<head>
 		<meta charset="utf-8" />
+		<!-- Marks the page as scripted before it paints, so the loading screen shows instead of the text-only fallback. -->
+		<script is:inline>document.documentElement.classList.add('js');</script>
 		<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 		<meta name="description" content={description} />
 		<meta name="theme-color" content="#f4f2ed" media="(prefers-color-scheme: light)" />
 		<meta name="theme-color" content="#0f1115" media="(prefers-color-scheme: dark)" />
 		{noindex && <meta name="robots" content="noindex" />}
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<!-- Installable as an app: full screen from the home screen, with its own icon. -->
+		<link rel="manifest" href="/manifest.webmanifest" />
+		<link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
+		<meta name="mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+		<meta name="apple-mobile-web-app-title" content="HistoNaija" />
 		<link rel="icon" href="/favicon.ico" />
 		<slot name="head" />
 		<meta name="generator" content={Astro.generator} />

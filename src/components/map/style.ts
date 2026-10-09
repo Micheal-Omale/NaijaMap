@@ -1,5 +1,5 @@
 import type { StyleSpecification } from 'maplibre-gl';
-import { historyFillLayers, historyTopLayers, regionLayers } from './history-style';
+import { eventFillLayers, eventTopLayers, historyFillLayers, historyTopLayers, regionLayers } from './history-style';
 
 /** Map colours, read from the CSS tokens in src/styles/global.css. */
 export interface MapColors {
@@ -83,6 +83,34 @@ export function buildStyle(
 			'hist-shapes': { type: 'geojson', data: EMPTY },
 			'hist-lines': { type: 'geojson', data: EMPTY },
 			'hist-points': { type: 'geojson', data: EMPTY },
+			'hist-towns': { type: 'geojson', data: EMPTY },
+			'town-threads': { type: 'geojson', data: EMPTY },
+			// lineMetrics lets the story frontier be drawn progressively with a line gradient.
+			'story-edge': { type: 'geojson', data: EMPTY, lineMetrics: true },
+			// Events: routes grow as they are drawn, pieces drift apart, travellers walk the migrations.
+			'ev-routes': { type: 'geojson', data: EMPTY },
+			'ev-heads': { type: 'geojson', data: EMPTY },
+			'ev-sites': { type: 'geojson', data: EMPTY },
+			'ev-pieces': { type: 'geojson', data: EMPTY },
+			'ev-labels': { type: 'geojson', data: EMPTY },
+			'ev-movers': { type: 'geojson', data: EMPTY },
+			// Ships from Europe sailing their voyages.
+			'ev-ships': { type: 'geojson', data: EMPTY },
+			// Rings that call attention to what can be opened, until a visitor has tried it.
+			beckon: { type: 'geojson', data: EMPTY },
+			// The Power view: regions coloured by the peoples who dominated their politics, and leaders' hometowns.
+			power: { type: 'geojson', data: EMPTY },
+			'power-labels': { type: 'geojson', data: EMPTY },
+			'power-pins': { type: 'geojson', data: EMPTY },
+			'power-roads': { type: 'geojson', data: EMPTY },
+			'power-coalitions': { type: 'geojson', data: EMPTY },
+			'power-coalition-labels': { type: 'geojson', data: EMPTY },
+			'power-capitals': { type: 'geojson', data: EMPTY },
+			'power-ripples': { type: 'geojson', data: EMPTY },
+			'power-coup-area': { type: 'geojson', data: EMPTY },
+			'power-coup-area-label': { type: 'geojson', data: EMPTY },
+			'power-coup-routes': { type: 'geojson', data: EMPTY },
+			'power-coup-marks': { type: 'geojson', data: EMPTY },
 		},
 		layers: [
 			{ id: 'bg', type: 'background', paint: { 'background-color': c.bg } },
@@ -116,6 +144,21 @@ export function buildStyle(
 				paint: { 'fill-pattern': 'mix' },
 			},
 			{
+				id: 'power-fill',
+				type: 'fill',
+				source: 'power',
+				layout: { visibility: 'none' },
+				paint: { 'fill-color': ['get', 'color'], 'fill-opacity': ['case', ['boolean', ['get', 'dim'], false], 0.25, 0.85] },
+			},
+			{
+				id: 'power-stripes',
+				type: 'fill',
+				source: 'power',
+				filter: ['has', 'pattern'],
+				layout: { visibility: 'none' },
+				paint: { 'fill-pattern': ['get', 'pattern'], 'fill-opacity': ['case', ['boolean', ['get', 'dim'], false], 0.25, 0.9] },
+			},
+			{
 				id: 'hl-fill',
 				type: 'fill',
 				source: 'highlight',
@@ -132,6 +175,7 @@ export function buildStyle(
 				paint: { 'fill-pattern': ['match', ['get', 'presence'], 'significant', 'hatch', 'dots'] },
 			},
 			...historyFillLayers(),
+			...eventFillLayers(),
 			{
 				id: 'lga-line',
 				type: 'line',
@@ -199,6 +243,7 @@ export function buildStyle(
 				paint: { 'line-color': c.outline, 'line-width': 1, 'line-opacity': 0.55, 'line-dasharray': [4, 3] },
 			},
 			...historyTopLayers(c),
+			...eventTopLayers(c),
 			{
 				id: 'lga-selected',
 				type: 'line',
@@ -368,9 +413,288 @@ export function buildStyle(
 				},
 				paint: { 'text-color': c.ink, 'text-halo-color': c.labelHalo, 'text-halo-width': 1.5 },
 			},
+			// The land a coup named (Orkar's "excised" North), cross-hatched like a battle map.
+			{
+				id: 'power-coup-area',
+				type: 'fill',
+				source: 'power-coup-area',
+				layout: { visibility: 'none' },
+				paint: { 'fill-pattern': 'hist-war', 'fill-opacity': 0.9 },
+			},
+			{
+				id: 'power-coup-area-edge',
+				type: 'line',
+				source: 'power-coup-area',
+				layout: { visibility: 'none', 'line-join': 'round' },
+				paint: { 'line-color': '#9b2c1f', 'line-width': 0.6, 'line-opacity': 0.6 },
+			},
+			// Each leader's road home to the seat of power: a fine dashed line in the leader's people's colour.
+			{
+				id: 'power-road-casing',
+				type: 'line',
+				source: 'power-roads',
+				layout: { visibility: 'none', 'line-cap': 'round', 'line-join': 'round' },
+				paint: { 'line-color': c.labelHalo, 'line-width': ['interpolate', ['linear'], ['zoom'], 5, 4, 9, 6], 'line-opacity': 0.8 },
+			},
+			{
+				id: 'power-road',
+				type: 'line',
+				source: 'power-roads',
+				layout: { visibility: 'none', 'line-cap': 'round', 'line-join': 'round' },
+				paint: { 'line-color': ['get', 'color'], 'line-width': ['interpolate', ['linear'], ['zoom'], 5, 1.4, 9, 2.4], 'line-dasharray': [1.6, 1.8], 'line-opacity': 0.9 },
+			},
+			// A coalition is a rail, as alliances are in the Then view: two lines of ink with paper between.
+			{
+				id: 'power-coalition-casing',
+				type: 'line',
+				source: 'power-coalitions',
+				layout: { visibility: 'none', 'line-cap': 'round', 'line-join': 'round' },
+				paint: {
+					'line-color': c.labelHalo,
+					'line-width': ['interpolate', ['linear'], ['zoom'], 5, 7.5, 9, 11],
+					'line-opacity': ['case', ['boolean', ['get', 'dim'], false], 0.15, 0.85],
+				},
+			},
+			{
+				id: 'power-coalition',
+				type: 'line',
+				source: 'power-coalitions',
+				layout: { visibility: 'none', 'line-cap': 'round', 'line-join': 'round' },
+				paint: {
+					'line-color': c.labelStrong,
+					'line-width': ['interpolate', ['linear'], ['zoom'], 5, ['case', ['boolean', ['get', 'selected'], false], 6, 4.6], 9, ['case', ['boolean', ['get', 'selected'], false], 9, 7]],
+					'line-opacity': ['case', ['boolean', ['get', 'dim'], false], 0.18, 1],
+				},
+			},
+			{
+				id: 'power-coalition-core',
+				type: 'line',
+				source: 'power-coalitions',
+				layout: { visibility: 'none', 'line-cap': 'round', 'line-join': 'round' },
+				paint: {
+					'line-color': c.labelHalo,
+					'line-width': ['interpolate', ['linear'], ['zoom'], 5, 1.6, 9, 2.6],
+					'line-opacity': ['case', ['boolean', ['get', 'dim'], false], 0.18, 1],
+				},
+			},
+			{
+				id: 'power-coalition-label',
+				type: 'symbol',
+				source: 'power-coalitions',
+				filter: ['==', ['get', 'first'], true],
+				layout: {
+					visibility: 'none',
+					'symbol-placement': 'line-center',
+					'text-field': ['get', 'name'],
+					'text-font': BOLD,
+					'text-size': ['interpolate', ['linear'], ['zoom'], 5, 10.5, 9, 13],
+					'text-offset': [0, -1.05],
+					'text-letter-spacing': 0.03,
+					'text-keep-upright': true,
+					'text-optional': true,
+				},
+				paint: {
+					'text-color': c.labelStrong,
+					'text-halo-color': c.labelHalo,
+					'text-halo-width': 2.4,
+					'text-opacity': ['case', ['boolean', ['get', 'dim'], false], 0.25, 1],
+				},
+			},
+			// A coup's routes (a plotter's flight): a pale casing, then a dashed ink line.
+			{
+				id: 'power-coup-route-casing',
+				type: 'line',
+				source: 'power-coup-routes',
+				layout: { visibility: 'none', 'line-cap': 'round', 'line-join': 'round' },
+				paint: { 'line-color': c.labelHalo, 'line-width': ['interpolate', ['linear'], ['zoom'], 5, 5, 9, 8], 'line-opacity': 0.85 },
+			},
+			{
+				id: 'power-coup-route',
+				type: 'line',
+				source: 'power-coup-routes',
+				layout: { visibility: 'none', 'line-cap': 'round', 'line-join': 'round' },
+				paint: { 'line-color': c.labelStrong, 'line-width': ['interpolate', ['linear'], ['zoom'], 5, 2, 9, 3.4], 'line-dasharray': [1.2, 1.6] },
+			},
+			{
+				id: 'power-coup-route-label',
+				type: 'symbol',
+				source: 'power-coup-routes',
+				filter: ['==', ['get', 'done'], true],
+				layout: {
+					visibility: 'none',
+					'symbol-placement': 'line-center',
+					'text-field': ['get', 'label'],
+					'text-font': BOLD,
+					'text-size': 11,
+					'text-offset': [0, -1],
+					'text-optional': true,
+				},
+				paint: { 'text-color': c.labelStrong, 'text-halo-color': c.labelHalo, 'text-halo-width': 2.2 },
+			},
+			{
+				id: 'power-coup-area-label',
+				type: 'symbol',
+				source: 'power-coup-area-label',
+				layout: {
+					visibility: 'none',
+					'text-field': 'EXCISED',
+					'text-font': BOLD,
+					'text-size': ['interpolate', ['linear'], ['zoom'], 5, 15, 8, 22],
+					'text-letter-spacing': 0.35,
+					'text-allow-overlap': true,
+				},
+				paint: { 'text-color': '#9b2c1f', 'text-halo-color': c.labelHalo, 'text-halo-width': 2.6 },
+			},
+			// The seat of power: a ring and dot, like a capital in the Then view.
+			{
+				id: 'power-capital',
+				type: 'circle',
+				source: 'power-capitals',
+				layout: { visibility: 'none' },
+				paint: {
+					'circle-radius': ['interpolate', ['linear'], ['zoom'], 5, 6, 9, 9],
+					'circle-color': c.surface,
+					'circle-stroke-color': c.labelStrong,
+					'circle-stroke-width': 2.4,
+				},
+			},
+			{
+				id: 'power-capital-dot',
+				type: 'circle',
+				source: 'power-capitals',
+				layout: { visibility: 'none' },
+				paint: { 'circle-radius': ['interpolate', ['linear'], ['zoom'], 5, 2.2, 9, 3.4], 'circle-color': c.labelStrong },
+			},
+			{
+				id: 'power-capital-label',
+				type: 'symbol',
+				source: 'power-capitals',
+				layout: {
+					visibility: 'none',
+					'text-field': ['format', ['upcase', ['get', 'name']], { 'text-font': ['literal', BOLD] }, '\n', {}, 'seat of power', { 'font-scale': 0.82, 'text-font': ['literal', REGULAR] }],
+					'text-font': BOLD,
+					'text-size': 11,
+					'text-anchor': 'top',
+					'text-offset': [0, 0.9],
+					'text-letter-spacing': 0.05,
+					'text-optional': true,
+				},
+				paint: { 'text-color': c.labelStrong, 'text-halo-color': c.labelHalo, 'text-halo-width': 2 },
+			},
+			// A leader's home stamped as the period opens: one ring spreading out.
+			{
+				id: 'power-ripple',
+				type: 'circle',
+				source: 'power-ripples',
+				layout: { visibility: 'none' },
+				paint: {
+					'circle-radius': ['get', 'r'],
+					'circle-color': 'rgba(0,0,0,0)',
+					'circle-stroke-color': ['get', 'color'],
+					'circle-stroke-width': 2.2,
+					'circle-stroke-opacity': ['get', 'o'],
+				},
+			},
+			{
+				id: 'power-pin',
+				type: 'circle',
+				source: 'power-pins',
+				layout: { visibility: 'none' },
+				paint: {
+					'circle-radius': ['interpolate', ['linear'], ['zoom'], 5, 5, 9, 8],
+					'circle-color': ['get', 'color'],
+					'circle-stroke-color': c.surface,
+					'circle-stroke-width': 2.2,
+				},
+			},
+			{
+				id: 'power-pin-label',
+				type: 'symbol',
+				source: 'power-pins',
+				layout: {
+					visibility: 'none',
+					'text-field': ['get', 'label'],
+					'text-font': BOLD,
+					'text-size': 11.5,
+					'text-variable-anchor': ['left', 'right', 'top', 'bottom'],
+					'text-radial-offset': 0.9,
+					'text-justify': 'auto',
+					'text-max-width': 12,
+					'text-optional': true,
+				},
+				paint: { 'text-color': c.ink, 'text-halo-color': c.labelHalo, 'text-halo-width': 2 },
+			},
+			{
+				id: 'power-label',
+				type: 'symbol',
+				source: 'power-labels',
+				layout: {
+					visibility: 'none',
+					'text-field': [
+						'case',
+						['has', 'badge'],
+						['format', ['upcase', ['get', 'name']], { 'font-scale': 1, 'text-font': ['literal', BOLD] }, '\n', {}, ['get', 'groups'], { 'font-scale': 0.85, 'text-font': ['literal', REGULAR] }, '\n', {}, ['image', ['get', 'badge']], {}],
+						['format', ['upcase', ['get', 'name']], { 'font-scale': 1, 'text-font': ['literal', BOLD] }, '\n', {}, ['get', 'groups'], { 'font-scale': 0.85, 'text-font': ['literal', REGULAR] }],
+					],
+					'text-font': BOLD,
+					'text-size': ['interpolate', ['linear'], ['zoom'], 5, 11, 8, 15],
+					'text-letter-spacing': 0.06,
+					'text-max-width': 10,
+				},
+				paint: { 'text-color': c.ink, 'text-halo-color': c.labelHalo, 'text-halo-width': 2.2 },
+			},
+			// A coup's moments: the Then view's marks, stamped in order, each with its title and date.
+			{
+				id: 'power-coup-mark',
+				type: 'symbol',
+				source: 'power-coup-marks',
+				layout: {
+					visibility: 'none',
+					'icon-image': ['get', 'mark'],
+					'icon-size': ['interpolate', ['linear'], ['zoom'], 4, ['*', ['get', 's'], 0.85], 7, ['*', ['get', 's'], 1.05], 10, ['*', ['get', 's'], 1.25]],
+					'icon-allow-overlap': true,
+					'icon-ignore-placement': true,
+					'symbol-sort-key': ['get', 'order'],
+					'text-field': ['get', 'label'],
+					'text-font': BOLD,
+					'text-size': 11.5,
+					'text-max-width': 12,
+					'text-variable-anchor': ['top', 'bottom', 'left', 'right'],
+					'text-radial-offset': 1.5,
+					'text-justify': 'auto',
+					'text-optional': true,
+				},
+				paint: { 'icon-opacity': ['get', 'o'], 'text-opacity': ['get', 'o'], 'text-color': c.labelStrong, 'text-halo-color': c.labelHalo, 'text-halo-width': 2.2 },
+			},
 		],
 	};
 }
+
+/** Layers shown only in the Power view. */
+export const POWER_ONLY = [
+	'power-fill',
+	'power-stripes',
+	'power-coup-area',
+	'power-coup-area-edge',
+	'power-road-casing',
+	'power-road',
+	'power-coalition-casing',
+	'power-coalition',
+	'power-coalition-core',
+	'power-label',
+	'power-coalition-label',
+	'power-coup-route-casing',
+	'power-coup-route',
+	'power-coup-route-label',
+	'power-coup-area-label',
+	'power-capital',
+	'power-capital-dot',
+	'power-capital-label',
+	'power-coup-mark',
+	'power-ripple',
+	'power-pin',
+	'power-pin-label',
+];
 
 type Pattern = { width: number; height: number; data: Uint8ClampedArray };
 
@@ -447,5 +771,24 @@ export function dotsImage(color: string, size = 8): Pattern {
 		ctx.arc(at, at, 1.3, 0, Math.PI * 2);
 	}
 	ctx.fill();
+	return { width: size, height: size, data: ctx.getImageData(0, 0, size, size).data };
+}
+
+/** Red cross-hatching for land an army marched into: the battle-map convention. */
+export function crossImage(color: string, size = 9): Pattern {
+	const canvas = document.createElement('canvas');
+	canvas.width = canvas.height = size;
+	const ctx = canvas.getContext('2d')!;
+	ctx.strokeStyle = color;
+	ctx.globalAlpha = 0.7;
+	ctx.lineWidth = 1.3;
+	ctx.beginPath();
+	for (const offset of [-size, 0, size]) {
+		ctx.moveTo(offset, size);
+		ctx.lineTo(offset + size, 0);
+		ctx.moveTo(offset, 0);
+		ctx.lineTo(offset + size, size);
+	}
+	ctx.stroke();
 	return { width: size, height: size, data: ctx.getImageData(0, 0, size, size).data };
 }

@@ -1,0 +1,80 @@
+{
+	"name": "Wadai sacks Kuka; the Sayfawa fall",
+	"status": "draft",
+	"kind": "war",
+	"year": 1846,
+	"yearLabel": "1846",
+	"until": 1850,
+	"actors": [
+		{
+			"name": "Wadai and Mai Ibrahim",
+			"side": "attacker",
+			"ink": "#6a4a7a"
+		},
+		{
+			"name": "Shehu Umar Kura",
+			"polity": "kanem-bornu",
+			"side": "defender"
+		}
+	],
+	"summary": {
+		"text": "In 1846 Mai Ibrahim IV tried to take back the power the al-Kanemi shehus had taken from his line. The Sultanate of Wadai backed him, and its army captured and destroyed Kuka. But Ibrahim and his son Ali Minargema were beaten, the mai's capital Kafela was destroyed, and Umar Kura took sole power, ending the Sayfawa dynasty after a thousand years. He rebuilt his seat as Kukawa.",
+		"sources": [
+			"wikipedia-kukawa",
+			"wikipedia-al-kanemi"
+		],
+		"confidence": "high"
+	},
+	"routes": [
+		{
+			"kind": "advance",
+			"by": "Wadai and Mai Ibrahim",
+			"path": [
+				[
+					20.83,
+					13.83
+				],
+				[
+					16.17,
+					11.4
+				],
+				[
+					13.57,
+					12.93
+				]
+			],
+			"label": "Wadai's army to Kuka",
+			"note": "Start and end only.",
+			"sources": [
+				"wikipedia-kukawa"
+			],
+			"confidence": "medium"
+		}
+	],
+	"moments": [
+		{
+			"when": "1846",
+			"title": "Kuka destroyed",
+			"text": "Wadai's army takes and razes the shehu's town.",
+			"at": {
+				"name": "Kukawa",
+				"point": [
+					13.57,
+					12.93
+				]
+			},
+			"mark": "burned",
+			"sources": [
+				"wikipedia-kukawa"
+			],
+			"confidence": "high"
+		}
+	],
+	"sources": [
+		"wikipedia-kukawa"
+	],
+	"confidence": "high",
+	"reviewNotes": [
+		"Kafela, the last capital of the mais, is not located."
+	]
+}

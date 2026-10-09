@@ -3,26 +3,32 @@
 	"status": "draft",
 	"kind": "kingdom",
 	"otherNames": [
-		"Zaria"
+		"Zazzau",
+		"Zegzeg",
+		"Zaria",
+		"Abuja (in exile)"
 	],
 	"span": {
-		"from": 1536,
-		"to": 1808,
-		"fromLabel": "1536 (older founding traditions)",
+		"from": 1010,
+		"to": 1902,
+		"fromLabel": "c. 1010 (Zazzau king list)",
+		"toLabel": "the British occupy Abuja, 1902",
 		"sources": [
-			"wikipedia-zaria",
-			"smith-1960"
+			"wikipedia-kingdom-of-zazzau",
+			"wikipedia-zaria"
 		],
-		"confidence": "medium"
+		"confidence": "medium",
+		"note": "The regnal list dates Gunguma to 1010; Abdullahi Smith thought the Hausa city-states much older than any single state."
 	},
 	"peak": 1576,
 	"summary": {
-		"text": "The southernmost of the seven Hausa states, Zazzau raided south for slaves and traded kola from the forest. Its warrior queen Amina is remembered for campaigns and for the walls (ganuwar Amina) around Hausa towns. The jihad took Zaria in 1808; the old dynasty moved south and founded Abuja, today's Suleja.",
+		"text": "The southernmost of the seven Hausa states grew from rival city-states, Turunku and Kufena chief among them. In the 1530s Bakwa of Turunku took Kufena and built a new capital, Zaria, named after her daughter. Her other daughter Amina became the most famous general in Hausa history, campaigning for decades as far as Nupe and Kwararafa and walling the towns she took. Zazzau gathered captives from the south for the markets of Kano and Katsina, and was at times subject to Songhai, Bornu and Kwararafa. The jihad took Zaria in 1808; its Hausa kings held out at Abuja, today's Suleja, until the British came in 1902.",
 		"sources": [
-			"wikipedia-zaria",
-			"smith-1960"
+			"wikipedia-kingdom-of-zazzau",
+			"wikipedia-amina-zazzau",
+			"wikipedia-suleja-emirate"
 		],
-		"confidence": "high"
+		"confidence": "medium"
 	},
 	"ruler": {
 		"title": "Sarkin Zazzau",
@@ -36,14 +42,118 @@
 	],
 	"snapshots": [
 		{
-			"year": 1536,
-			"title": "Bakwa Turunku",
-			"text": "Bakwa Turunku rules from Turunku. Her daughter Amina will lead Zazzau's armies.",
+			"year": 1010,
+			"yearLabel": "c. 1010–1390",
+			"title": "Turunku and Kufena",
+			"text": "Tradition makes Gunguma, a descendant of Bayajidda, the first king of Zazzau. Historians see instead a cluster of Hausa city-states, of which Turunku and Kufena were the strongest and held authority over the rest. The capital moved between Turunku, Wuciciri, Rikoci and Kawar.",
 			"capital": {
 				"name": "Turunku (approximate)",
 				"point": [
-					7.5,
-					10.83
+					7.684,
+					10.805
+				]
+			},
+			"core": {
+				"lgas": [
+					"kaduna-zaria",
+					"kaduna-igabi",
+					"kaduna-giwa",
+					"kaduna-sabon-gari"
+				],
+				"confidence": "disputed"
+			},
+			"nodes": [
+				{
+					"name": "Kufena hill",
+					"point": [
+						7.665,
+						11.076
+					]
+				}
+			],
+			"links": [
+				{
+					"kind": "descent",
+					"to": {
+						"name": "Daura",
+						"point": [
+							8.32,
+							13.04
+						]
+					},
+					"label": "Gunguma, a descendant of Bayajidda",
+					"sources": [
+						"wikipedia-kingdom-of-zazzau"
+					],
+					"confidence": "disputed"
+				}
+			],
+			"sources": [
+				"wikipedia-kingdom-of-zazzau",
+				"wikipedia-zaria"
+			],
+			"confidence": "disputed"
+		},
+		{
+			"year": 1390,
+			"yearLabel": "1390–1456",
+			"title": "Wars with Kano",
+			"text": "Kano's Kanajeji besieges the capital and is beaten, then returns the next year, kills the king of Zazzau and routs his army. Sarki Dauda of Kano campaigns against Zazzau again in the 1420s and 30s. The Kano Chronicle places Amina in Dauda's time; Zazzau's own tradition puts her a century and a half later.",
+			"capital": {
+				"name": "Turunku (approximate)",
+				"point": [
+					7.684,
+					10.805
+				]
+			},
+			"core": {
+				"lgas": [
+					"kaduna-zaria",
+					"kaduna-sabon-gari",
+					"kaduna-giwa",
+					"kaduna-igabi",
+					"kaduna-kudan",
+					"kaduna-makarfi",
+					"kaduna-soba",
+					"kaduna-ikara"
+				],
+				"confidence": "medium"
+			},
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Kano",
+						"point": [
+							8.52,
+							12
+						]
+					},
+					"label": "Kanajeji's siege and victory",
+					"sources": [
+						"wikipedia-kanajeji",
+						"wikipedia-sultanate-of-kano"
+					],
+					"confidence": "high"
+				}
+			],
+			"sources": [
+				"wikipedia-sultanate-of-kano",
+				"wikipedia-kanajeji",
+				"wikipedia-amina-zazzau"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1456,
+			"yearLabel": "1456–1536",
+			"title": "Islam arrives slowly",
+			"text": "The Zaria chronicle dates the coming of Islam to about 1456, but it spreads slowly and the old rites continue at court until the Fulani conquest. Zazzau falls at times under the overlordship of Songhai and Bornu.",
+			"capital": {
+				"name": "Turunku (approximate)",
+				"point": [
+					7.684,
+					10.805
 				]
 			},
 			"core": {
@@ -59,16 +169,55 @@
 				]
 			},
 			"sources": [
-				"wikipedia-zaria",
-				"smith-1960"
+				"wikipedia-kingdom-of-zazzau",
+				"wikipedia-zaria"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1536,
+			"yearLabel": "1536–1576",
+			"title": "Bakwa Turunku builds Zaria",
+			"text": "Bakwa, ruler of Turunku, takes power at Kufena and builds a new capital just east of it, named Zaria after her daughter. Her son Ibrahim (1539–1566) and her younger brother Karama (1566–1576) begin the expansion, with Bakwa's daughter Amina rising as Karama's leading general.",
+			"capital": {
+				"name": "Zaria",
+				"point": [
+					7.7,
+					11.07
+				]
+			},
+			"core": {
+				"lgas": [
+					"kaduna-zaria",
+					"kaduna-sabon-gari",
+					"kaduna-giwa",
+					"kaduna-igabi",
+					"kaduna-kudan",
+					"kaduna-makarfi",
+					"kaduna-soba",
+					"kaduna-ikara"
+				]
+			},
+			"nodes": [
+				{
+					"name": "Turunku",
+					"point": [
+						7.684,
+						10.805
+					]
+				}
+			],
+			"sources": [
+				"wikipedia-kingdom-of-zazzau",
+				"wikipedia-amina-zazzau"
 			],
 			"confidence": "medium"
 		},
 		{
 			"year": 1576,
-			"yearLabel": "c. 1576",
-			"title": "Queen Amina",
-			"text": "Amina's campaigns spread Zazzau's power south toward Nupe and Kwararafa. Tradition credits her with making Kano and Katsina pay tribute, a claim historians treat with caution.",
+			"yearLabel": "1576–1610",
+			"title": "Amina's wars",
+			"text": "Some traditions make Amina queen after Karama; others say she was a princess who ruled the lands she conquered. For 34 years her army, said to be 20,000 foot and 1,000 horse, campaigns south-east and south-west, since Kano, Katsina and the Jos Plateau block the other ways. She reaches Kwararafa and Nupe and takes Bauchi and Yauri; the Nupe king sends her 40 eunuchs and 10,000 kola nuts. Earthen walls, ganuwar Amina, ring her camps and towns. Sultan Bello later claimed Kano and Katsina paid her tribute. She is said to have died in battle at Attaagar, perhaps near Idah.",
 			"capital": {
 				"name": "Zaria",
 				"point": [
@@ -96,30 +245,115 @@
 			},
 			"influence": {
 				"lgas": [
+					"bauchi-bauchi",
+					"bauchi-toro",
+					"kebbi-yauri",
+					"kaduna-kauru",
 					"kaduna-kachia",
 					"kaduna-kagarko",
-					"kaduna-jema-a",
-					"kaduna-kauru",
-					"niger-suleja",
-					"niger-tafa",
-					"niger-gurara",
-					"fct-bwari",
+					"kaduna-jaba",
+					"kaduna-zangon-kataf",
+					"kaduna-kajuru",
 					"nasarawa-karu",
-					"nasarawa-keffi"
+					"nasarawa-keffi",
+					"niger-suleja",
+					"fct-municipal-area-council"
 				],
 				"confidence": "disputed"
 			},
-			"sources": [
-				"wikipedia-zaria",
-				"smith-1960"
+			"links": [
+				{
+					"kind": "tribute",
+					"to": {
+						"name": "Gbara (Nupe)",
+						"point": [
+							5.852,
+							8.938
+						]
+					},
+					"label": "40 eunuchs and 10,000 kola nuts from Nupe",
+					"sources": [
+						"wikipedia-amina-zazzau",
+						"wikipedia-kingdom-of-zazzau"
+					],
+					"confidence": "medium"
+				},
+				{
+					"kind": "war",
+					"to": {
+						"name": "Kwararafa (Biepi, near Ibi)",
+						"point": [
+							9.75,
+							8.18
+						]
+					},
+					"label": "Campaigns as far as Kwararafa",
+					"sources": [
+						"wikipedia-amina-zazzau",
+						"wikipedia-kwararafa"
+					],
+					"confidence": "medium"
+				},
+				{
+					"kind": "war",
+					"to": {
+						"name": "Yauri",
+						"point": [
+							4.77,
+							10.8
+						]
+					},
+					"label": "Yauri taken",
+					"sources": [
+						"wikipedia-amina-zazzau"
+					],
+					"confidence": "medium"
+				},
+				{
+					"kind": "war",
+					"to": {
+						"name": "Attaagar (perhaps near Idah)",
+						"point": [
+							6.74,
+							7.11
+						]
+					},
+					"label": "Amina dies in battle at Attaagar",
+					"sources": [
+						"wikipedia-amina-zazzau"
+					],
+					"confidence": "disputed",
+					"note": "Dan Tafa names Attaagar; Hogben places it near Idah, others at Vom near Jos."
+				},
+				{
+					"kind": "tribute",
+					"to": {
+						"name": "Kano",
+						"point": [
+							8.52,
+							12
+						]
+					},
+					"label": "Tribute from Kano and Katsina (Sultan Bello's claim)",
+					"sources": [
+						"wikipedia-amina-zazzau"
+					],
+					"confidence": "disputed",
+					"note": "Historians doubt the claim."
+				}
 			],
-			"confidence": "disputed",
-			"note": "Amina's dates range from the 15th to the 16th century, and the extent of her conquests is uncertain."
+			"sources": [
+				"wikipedia-amina-zazzau",
+				"wikipedia-kingdom-of-zazzau",
+				"wikipedia-history-of-katsina"
+			],
+			"confidence": "medium"
 		},
 		{
-			"year": 1808,
-			"title": "Fulani take Zaria",
-			"text": "Malam Musa takes Zaria for the jihad. The Hausa ruler Muhammadu Makau flees south; his successors found Abuja (now Suleja) in 1828.",
+			"year": 1610,
+			"yearLabel": "1610–1800",
+			"title": "Slaves for the northern markets",
+			"text": "After Amina, Zazzau is the great collecting point for captives taken from the southern peoples and sold in Kano and Katsina for Saharan salt. Kwararafa attacks it around 1680, and like its neighbours it falls at times under Kwararafa and Bornu. Amina's sister Zaria is said to succeed her.",
 			"capital": {
 				"name": "Zaria",
 				"point": [
@@ -137,32 +371,176 @@
 					"kaduna-makarfi",
 					"kaduna-soba",
 					"kaduna-ikara",
-					"kaduna-kubau"
+					"kaduna-kubau",
+					"kaduna-kaduna-north",
+					"kaduna-kaduna-south",
+					"kaduna-chikun",
+					"kaduna-kajuru",
+					"kaduna-lere"
 				]
+			},
+			"links": [
+				{
+					"kind": "trade",
+					"to": {
+						"name": "Kano",
+						"point": [
+							8.52,
+							12
+						]
+					},
+					"label": "Captives to the Kano market",
+					"sources": [
+						"wikipedia-kingdom-of-zazzau",
+						"wikipedia-amina-zazzau"
+					],
+					"confidence": "high"
+				},
+				{
+					"kind": "trade",
+					"to": {
+						"name": "Katsina",
+						"point": [
+							7.6,
+							12.99
+						]
+					},
+					"label": "Captives to the Katsina market",
+					"sources": [
+						"wikipedia-kingdom-of-zazzau",
+						"wikipedia-amina-zazzau"
+					],
+					"confidence": "high"
+				},
+				{
+					"kind": "war",
+					"to": {
+						"name": "Kwararafa (Biepi, near Ibi)",
+						"point": [
+							9.75,
+							8.18
+						]
+					},
+					"label": "Kwararafa attacks Zazzau (c. 1680)",
+					"sources": [
+						"wikipedia-kwararafa"
+					],
+					"confidence": "medium"
+				}
+			],
+			"sources": [
+				"wikipedia-kingdom-of-zazzau",
+				"wikipedia-amina-zazzau",
+				"wikipedia-kwararafa"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1808,
+			"yearLabel": "1808–1828",
+			"title": "The jihad takes Zaria",
+			"text": "In December 1808 jihad forces under Malam Musa take Zaria. The Hausa king Muhammadu Makau leads much of the nobility south to the Koro town of Zuba, among chiefdoms that had paid Zazzau tribute, and goes on calling himself Sarkin Zazzau.",
+			"capital": {
+				"name": "Zuba (in exile)",
+				"point": [
+					7.216,
+					9.091
+				]
+			},
+			"core": {
+				"lgas": [
+					"fct-gwagwalada",
+					"niger-suleja",
+					"niger-tafa"
+				],
+				"confidence": "medium"
 			},
 			"links": [
 				{
 					"kind": "war",
 					"to": {
-						"name": "Abuja (now Suleja)",
+						"name": "Zaria",
 						"point": [
-							7.18,
-							9.18
+							7.7,
+							11.07
 						]
 					},
-					"label": "Old dynasty to Abuja (Suleja)"
+					"label": "Zaria lost to the jihad",
+					"sources": [
+						"wikipedia-suleja-emirate",
+						"wikipedia-kingdom-of-zazzau"
+					],
+					"confidence": "high"
 				}
 			],
 			"sources": [
-				"wikipedia-zaria",
-				"smith-1960"
+				"wikipedia-suleja-emirate",
+				"wikipedia-kingdom-of-zazzau"
+			],
+			"confidence": "high"
+		},
+		{
+			"year": 1828,
+			"yearLabel": "1828–1902",
+			"title": "The Hausa kingdom at Abuja",
+			"text": "Makau's brother Abu Ja (Jatau) founds Abuja in 1828 and walls it the next year, ruling as Sarkin Zazzau. The little kingdom beats off Fulani Zaria's attacks and stays an independent Hausa refuge; under Abu Kwaka (1851–1877) it opens trade with Bida and Zaria. In 1902, when Abuja's men cut the road from Lokoja to Zaria, the British occupy the town.",
+			"capital": {
+				"name": "Abuja (now Suleja)",
+				"point": [
+					7.18,
+					9.18
+				]
+			},
+			"core": {
+				"lgas": [
+					"niger-suleja",
+					"niger-tafa",
+					"fct-gwagwalada",
+					"fct-bwari"
+				],
+				"confidence": "medium"
+			},
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Zaria",
+						"point": [
+							7.7,
+							11.07
+						]
+					},
+					"label": "Holds off Fulani Zaria",
+					"sources": [
+						"wikipedia-suleja-emirate"
+					],
+					"confidence": "high"
+				},
+				{
+					"kind": "trade",
+					"to": {
+						"name": "Bida",
+						"point": [
+							6.01,
+							9.085
+						]
+					},
+					"label": "Trade with Bida from the 1850s",
+					"sources": [
+						"wikipedia-suleja-emirate"
+					],
+					"confidence": "high"
+				}
+			],
+			"sources": [
+				"wikipedia-suleja-emirate"
 			],
 			"confidence": "high"
 		}
 	],
 	"today": {
-		"text": "The Emir of Zazzau reigns at Zaria. The old Hausa line survives as the Emir of Suleja, whose town was called Abuja until 1976.",
-		"title": "Emir of Zazzau",
+		"text": "Two thrones carry Zazzau's name: the Emir of Zazzau at Zaria, of the Fulani dynasty, and the Emir of Suleja, heir of the Hausa kings who fled in 1808 and still styled Sarkin Zazzau.",
+		"title": "Emir of Zazzau; Emir of Suleja",
 		"seat": {
 			"name": "Zaria",
 			"point": [
@@ -171,12 +549,14 @@
 			]
 		},
 		"sources": [
-			"wikipedia-zaria",
-			"smith-1960"
+			"wikipedia-kingdom-of-zazzau",
+			"wikipedia-suleja-emirate"
 		],
 		"confidence": "high"
 	},
 	"reviewNotes": [
-		"Turunku's point is approximate."
+		"Amina's dates follow Abdullahi Smith (after 1576); the Kano Chronicle places her in the 1420s–30s.",
+		"Amina's southern influence is drawn loosely and marked disputed; it rests on traditions written down centuries later.",
+		"Turunku's point is GRID3's Turunku ward in Igabi."
 	]
 }

@@ -1,6 +1,75 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Okpoma",
+			"lga": "cross-river-yala",
+			"point": [
+				8.634,
+				6.593
+			],
+			"villages": [
+				{
+					"name": "Okuku",
+					"point": [
+						8.765,
+						6.701
+					]
+				},
+				{
+					"name": "Yahe"
+				},
+				{
+					"name": "Ugaga"
+				},
+				{
+					"name": "Ijegu"
+				},
+				{
+					"name": "Oloko-Ogwope"
+				},
+				{
+					"name": "Imaje"
+				},
+				{
+					"name": "Echumoga"
+				},
+				{
+					"name": "Woda"
+				},
+				{
+					"name": "Itekpa"
+				},
+				{
+					"name": "Wonye"
+				},
+				{
+					"name": "Uchu"
+				},
+				{
+					"name": "Osina"
+				}
+			],
+			"sources": [
+				"wikipedia-yala-lga"
+			],
+			"confidence": "medium",
+			"history": {
+				"text": "Headquarters of Yala LGA. The Yala are close kin of the Idoma and can understand their speech; tradition says they left Benue in search of salt and stayed when they found it in abundance here. Okpoma's salt ponds are still worked and of great historical importance.",
+				"sources": [
+					"wikipedia-yala-lga"
+				],
+				"confidence": "medium"
+			},
+			"livelihoods": {
+				"text": "Salt making from the Okpoma ponds, and farming.",
+				"sources": [
+					"wikipedia-yala-lga"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Yala",
 	"searchAliases": [

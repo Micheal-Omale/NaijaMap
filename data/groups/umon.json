@@ -1,6 +1,30 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Umon clan",
+			"lga": "cross-river-biase",
+			"villages": [],
+			"sources": [
+				"opencommons-biase"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "One of the five clans of Biase LGA on the Cross River.",
+				"sources": [
+					"opencommons-biase"
+				],
+				"confidence": "high"
+			},
+			"livelihoods": {
+				"text": "Fishing and farming.",
+				"sources": [
+					"opencommons-biase"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Umon",
 	"searchAliases": [

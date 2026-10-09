@@ -1,0 +1,70 @@
+{
+	"name": "Akure",
+	"status": "draft",
+	"otherNames": [],
+	"point": [
+		5.1888,
+		7.2552
+	],
+	"founded": {
+		"year": 1150,
+		"yearLabel": "by tradition, its palace from 1150",
+		"sources": [
+			"wikipedia-akure"
+		],
+		"confidence": "disputed"
+	},
+	"summary": {
+		"text": "Akure was founded by Alakure, but its kings descend from Omoremilekun Asodeboyede, a prince from Ile-Ife who conquered Alakure’s people; one tradition says its ruling houses also descend from the Owa of Ijesha through Princess Owawejokun. War with Benin later drew its communities closer together.",
+		"sources": [
+			"wikipedia-akure",
+			"wikipedia-ijesha"
+		],
+		"confidence": "medium"
+	},
+	"founders": [
+		{
+			"people": "Yoruba (Alakure)",
+			"group": "yoruba",
+			"text": "Alakure, the town’s first founder.",
+			"sources": [
+				"wikipedia-akure"
+			],
+			"confidence": "medium"
+		},
+		{
+			"people": "Yoruba (Ife)",
+			"group": "yoruba",
+			"from": {
+				"name": "Ile-Ife",
+				"point": [
+					4.56,
+					7.48
+				]
+			},
+			"text": "Asodeboyede, a descendant of Oduduwa from Ile-Ife, who founded the present dynasty.",
+			"sources": [
+				"wikipedia-akure"
+			],
+			"confidence": "medium"
+		},
+		{
+			"people": "Yoruba (Ijesha)",
+			"group": "yoruba",
+			"from": {
+				"name": "Ilesa",
+				"point": [
+					4.73,
+					7.63
+				]
+			},
+			"text": "The ruling houses claim descent from the Owas of Ijesha through Princess Owawejokun.",
+			"sources": [
+				"wikipedia-ijesha"
+			],
+			"confidence": "disputed"
+		}
+	],
+	"under": [],
+	"reviewNotes": []
+}

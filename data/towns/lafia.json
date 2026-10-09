@@ -1,0 +1,28 @@
+{
+	"name": "Lafia",
+	"status": "draft",
+	"otherNames": ["Lafian Bare-Bari"],
+	"point": [8.517, 8.494],
+	"founded": { "year": 1780, "yearLabel": "late 18th century", "sources": ["wikipedia-lafia", "wikipedia-wukari-federation"], "confidence": "medium" },
+	"summary": {
+		"text": "Lafia was founded in the late 18th century by Muhammadu Dunama, leader of Kanuri (Bare-Bari) migrants from Bornu, south of the village of Shabu. Although Muslim newcomers, they asked the Aku Uka, the Jukun sacred king, to confirm Dunama's rule, and he made him Sarkin Lafia Bare-Bari. The Kanuri houses of Ari and Dallah Dunama still provide its emirs.",
+		"sources": ["wikipedia-lafia", "wikipedia-wukari-federation"],
+		"confidence": "medium"
+	},
+	"founders": [
+		{
+			"people": "Kanuri (Bare-Bari)",
+			"group": "kanuri",
+			"polity": "kanem-bornu",
+			"from": { "name": "Bornu", "point": [12.367, 13.083] },
+			"quarters": ["Ari house", "Dallah Dunama house"],
+			"text": "Migrants from Bornu under Muhammadu Dunama.",
+			"sources": ["wikipedia-lafia"],
+			"confidence": "high"
+		}
+	],
+	"under": [
+		{ "polity": "kwararafa", "from": 1780, "to": 1810, "kind": "crowned", "text": "The Aku Uka endorsed Dunama and gave him the title Sarkin Lafia Bare-Bari.", "sources": ["wikipedia-wukari-federation"], "confidence": "medium" }
+	],
+	"reviewNotes": ["How long Lafia looked to the Aku Uka is not recorded; 1810 is the end of the old Kwararafa, not a known break."]
+}

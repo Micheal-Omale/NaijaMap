@@ -1,0 +1,44 @@
+{
+	"name": "The fall of Ebrohimi",
+	"status": "draft",
+	"kind": "colonial",
+	"year": 1894,
+	"yearLabel": "August–September 1894",
+	"until": 1906,
+	"actors": [{ "name": "British forces", "side": "colonial" }, { "name": "Nana Olomu, Governor of the Benin River", "polity": "warri", "side": "defender" }],
+	"summary": {
+		"text": "Nana Olomu, the Itsekiri merchant prince who governed the Benin River trade, stood in the way of the Niger Coast Protectorate. A first attack on his stronghold at Ebrohimi failed; a naval force took it in September 1894. Nana escaped to Lagos and gave himself up, was tried at Old Calabar and exiled to the Gold Coast. He was allowed home in 1906.",
+		"sources": ["wikipedia-nana-olomu", "ikime-1969"],
+		"confidence": "high"
+	},
+	"routes": [
+		{ "kind": "advance", "by": "British forces", "path": [[5.08, 5.75], [5.27, 5.73]], "label": "The protectorate’s gunboats and marines move on Ebrohimi" },
+		{ "kind": "retreat", "by": "Nana Olomu, Governor of the Benin River", "path": [[5.27, 5.73], [4.3, 6.1], [3.394, 6.455]], "label": "Nana escapes to Lagos and surrenders" },
+		{ "kind": "exile", "by": "British forces", "path": [[3.394, 6.455], [1.9, 5.5], [-0.19, 5.6]], "label": "Exiled to the Gold Coast" }
+	],
+	"moments": [
+		{
+			"when": "August 1894",
+			"title": "The first assault repulsed",
+			"text": "Ebrohimi’s defences hold against the first attack.",
+			"at": { "name": "Ebrohimi (approximate)", "point": [5.27, 5.73] },
+			"mark": "battle"
+		},
+		{
+			"when": "September 1894",
+			"title": "Ebrohimi taken",
+			"text": "A larger naval force takes the town.",
+			"at": { "name": "Ebrohimi (approximate)", "point": [5.27, 5.73] },
+			"mark": "bombarded"
+		},
+		{
+			"when": "1894–1906",
+			"title": "Exile",
+			"text": "Tried at Old Calabar, Nana is exiled to Accra and allowed home only in 1906.",
+			"at": { "name": "Accra (Gold Coast)", "point": [-0.19, 5.6] },
+			"mark": "exile"
+		}
+	],
+	"sources": ["wikipedia-nana-olomu", "ikime-1969"],
+	"confidence": "high"
+}

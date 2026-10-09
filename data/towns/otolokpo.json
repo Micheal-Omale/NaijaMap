@@ -1,0 +1,46 @@
+{
+	"name": "Otolokpo",
+	"status": "draft",
+	"otherNames": [],
+	"point": [
+		6.2982,
+		6.2145
+	],
+	"founded": {
+		"year": 1550,
+		"yearLabel": "by tradition",
+		"sources": [
+			"esogbue-2018-anioma-origins"
+		],
+		"confidence": "disputed",
+		"note": "Undated."
+	},
+	"summary": {
+		"text": "Otolokpo, of seven villages, was founded by migrants from Ute-Ogbeje in the Benin country.",
+		"sources": [
+			"esogbue-2018-anioma-origins"
+		],
+		"confidence": "medium"
+	},
+	"founders": [
+		{
+			"people": "Benin",
+			"group": "edo",
+			"polity": "benin",
+			"from": {
+				"name": "Benin City",
+				"point": [
+					5.627,
+					6.335
+				]
+			},
+			"text": "Migrants from Ute-Ogbeje, in the Benin country.",
+			"sources": [
+				"esogbue-2018-anioma-origins"
+			],
+			"confidence": "medium"
+		}
+	],
+	"under": [],
+	"reviewNotes": []
+}

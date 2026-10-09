@@ -1,0 +1,64 @@
+{
+	"name": "Ebira",
+	"status": "draft",
+	"groups": [
+		"ebira"
+	],
+	"rule": "elders",
+	"span": {
+		"from": 1521,
+		"to": 1903,
+		"fromLabel": "c. 1520",
+		"toLabel": "1903",
+		"sources": [
+			"wikipedia-ebira-people"
+		],
+		"confidence": "disputed",
+		"note": "By tradition the Ebira left Idah after the Igala–Benin war of about 1519–1521."
+	},
+	"summary": {
+		"text": "Ebira communities were autonomous, without a central king or royal families: each was run by the leaders of its lineages, a rule of elders. Tradition brings the Ebira from Kwararafa with the Opete stool, now the title emblem of Okene's ruler, to live beside the Igala for about 300 years; after the Igala–Benin war of about 1519–1521 they left Idah, stopped at Itobe, and divided: the Ebira Tao under Itaazi crossed to the land around Ajaokuta, Ebira Opete, and his son Ohizi's five sons founded the Adavi clans, while other branches settled at Igu (Koton Karfe), Panda, among the Bassa, and at Uno in Edo. From 1865 to 1880, under the warlord Achigidi Okino, they held off jihadist armies from Bida and Ilorin, the Ajinomoh, helped by their hills.",
+		"sources": [
+			"wikipedia-ebira-people"
+		],
+		"confidence": "medium"
+	},
+	"end": {
+		"text": "After much resistance Ebira land came under British control in 1903. The British then set one head over the villages, beginning with Ouda Adidi of Eika.",
+		"sources": [
+			"wikipedia-ebira-people"
+		],
+		"confidence": "high"
+	},
+	"lands": [
+		{
+			"from": 1521,
+			"to": 1599,
+			"lgas": [
+				"kogi-ajaokuta"
+			],
+			"confidence": "disputed",
+			"note": "Ebira Opete, around Ajaokuta, after the stop at Itobe."
+		},
+		{
+			"from": 1600,
+			"lgas": [
+				"kogi-okene",
+				"kogi-okehi",
+				"kogi-adavi",
+				"kogi-ajaokuta"
+			],
+			"note": "The Adavi clans spread to Okengwe, Okehi, Eika, Ihiara and Osisi."
+		},
+		{
+			"from": 1600,
+			"lgas": [
+				"kogi-kogi",
+				"nasarawa-toto"
+			],
+			"label": "Ebira Koto and Panda",
+			"confidence": "medium"
+		}
+	],
+	"reviewNotes": []
+}

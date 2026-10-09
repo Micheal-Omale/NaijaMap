@@ -1,6 +1,44 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Omoku",
+			"lga": "rivers-ogba-egbema-ndoni",
+			"point": [
+				6.655,
+				5.336
+			],
+			"villages": [
+				{
+					"name": "Obagi"
+				},
+				{
+					"name": "Idu"
+				},
+				{
+					"name": "Obosiukwu"
+				},
+				{
+					"name": "Aggah"
+				},
+				{
+					"name": "Egi"
+				}
+			],
+			"sources": [
+				"wikipedia-ogba-egbema-ndoni",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Headquarters of Ogba–Egbema–Ndoni; seat of the Oba of Ogbaland, beside the Nze-Obi of Egbema and the Awor of Ndoni. The Eze Egi of Egi kingdom in Ogbaland has also been raised to first class.",
+				"sources": [
+					"wikipedia-ogba-egbema-ndoni"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Ogba",
 	"searchAliases": [

@@ -1,6 +1,28 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Potiskum (Fika Emirate)",
+			"lga": "yobe-potiskum",
+			"point": [
+				11.067,
+				11.717
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-fika-emirate",
+				"wikipedia-potiskum"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Seat of the Fika Emirate, whose Emir, the Moi, is head of the Bole (Bolewa) people.",
+				"sources": [
+					"wikipedia-fika-emirate"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Bolewa",
 	"searchAliases": [

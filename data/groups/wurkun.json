@@ -1,6 +1,24 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Wurkun of the Muri Mountains",
+			"lga": "taraba-karim-lamido",
+			"villages": [],
+			"sources": [
+				"wikipedia-karim-lamido",
+				"dailytrust-2023-karim-lamido"
+			],
+			"confidence": "medium",
+			"history": {
+				"text": "Rivals of the Karimjo for the Karim Lamido chieftaincy; 16 people died in clashes in May 2023.",
+				"sources": [
+					"dailytrust-2023-karim-lamido"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Wurkun",
 	"searchAliases": [

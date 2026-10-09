@@ -1,0 +1,47 @@
+{
+	"name": "Ukwu Nzu",
+	"status": "draft",
+	"otherNames": [
+		"Eko Efun"
+	],
+	"point": [
+		6.4774,
+		6.3874
+	],
+	"founded": {
+		"year": 1300,
+		"yearLabel": "one of the two oldest Olukumi towns",
+		"sources": [
+			"wikipedia-olukumi"
+		],
+		"confidence": "disputed",
+		"note": "Dated with Ugbodu, its twin."
+	},
+	"summary": {
+		"text": "Ukwu Nzu (Eko Efun), the largest Olukumi town, says its founders came in the retinue of Orunmiha, sent from Ife. It became a centre of the Ekumeku resistance.",
+		"sources": [
+			"wikipedia-olukumi"
+		],
+		"confidence": "medium"
+	},
+	"founders": [
+		{
+			"people": "Olukumi",
+			"group": "yoruba",
+			"from": {
+				"name": "Ile-Ife",
+				"point": [
+					4.56,
+					7.48
+				]
+			},
+			"text": "Its founders came with Orunmiha, sent from Ife to rule Benin.",
+			"sources": [
+				"wikipedia-olukumi"
+			],
+			"confidence": "disputed"
+		}
+	],
+	"under": [],
+	"reviewNotes": []
+}

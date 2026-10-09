@@ -1,0 +1,23 @@
+{
+	"status": "draft",
+	"title": "Tor Tiv",
+	"kind": "created",
+	"year": 1946,
+	"seat": {
+		"name": "Gboko",
+		"point": [
+			9,
+			7.32
+		]
+	},
+	"by": "the British colonial administration",
+	"groups": [
+		"tiv"
+	],
+	"text": "The Tiv had no king. The British, who found Tivland as large as the northern emirates and hard to rule, first made a Tiv Division and a Tiv Central Council (Ijir Tamen) with its headquarters at Gboko, then in 1946 created the stool of Tor Tiv. It met a need of the colonial government, and the Tiv’s own wish for a voice in it.",
+	"sources": [
+		"wikipedia-tor-tiv"
+	],
+	"confidence": "high",
+	"reviewNotes": []
+}

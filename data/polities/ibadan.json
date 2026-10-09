@@ -14,10 +14,10 @@
 	},
 	"peak": 1870,
 	"summary": {
-		"text": "Ibadan began around 1829 as a war camp of soldiers from Oyo, Ife and Ijebu. Run by its war chiefs rather than a king, it stopped the Ilorin advance at Osogbo in 1840 and built an empire over much of northern and eastern Yorubaland, until the Ekitiparapo alliance fought it to a standstill.",
+		"text": "Ibadan was born in 1829 as a war camp of Oyo, Ife and Ijebu warriors on the edge of the forest, and became a military republic where any freeborn man could rise to the highest titles by success in war. It stopped the jihad at Osogbo in 1840, destroyed its rival Ijaye in 1862, and by the 1870s ruled an empire over much of northern and eastern Yorubaland through resident agents, the ajele. Their abuses raised the Ekitiparapo against it in the sixteen-year Kiriji war, which ended in a British-brokered peace; in 1893 Ibadan signed a treaty making it a British protectorate.",
 		"sources": [
 			"wikipedia-ibadan",
-			"akintoye-1971"
+			"wikipedia-kiriji-war"
 		],
 		"confidence": "high"
 	},
@@ -36,7 +36,7 @@
 			"year": 1829,
 			"yearLabel": "c. 1829",
 			"title": "A war camp becomes a city",
-			"text": "Soldiers of the allied armies that destroyed Owu settle at Ibadan.",
+			"text": "Lagelu's old site at the edge of the forest becomes the camp of the armies that destroyed Owu: warriors from Oyo, Ife and Ijebu. After the Egba leave, Oyo warriors take over, and refugees from the Fulani raids pour in. Ibadan is run by its war chiefs rather than a king, with titles open to every freeborn man and one reserved for a woman.",
 			"capital": {
 				"name": "Ibadan",
 				"point": [
@@ -54,14 +54,16 @@
 				]
 			},
 			"sources": [
-				"wikipedia-ibadan"
+				"wikipedia-ibadan",
+				"wikipedia-ibadan",
+				"wikipedia-abeokuta"
 			],
 			"confidence": "high"
 		},
 		{
 			"year": 1840,
 			"title": "Victory at Osogbo",
-			"text": "Ibadan's army defeats the Ilorin forces at Osogbo, stopping the Sokoto Caliphate's advance into the Yoruba forest.",
+			"text": "In 1840 Ibadan's army decisively defeats Ilorin at Osogbo, halting the jihad's advance into the forest. Alaafin Atiba charges Ibadan with guarding New Oyo from the north.",
 			"capital": {
 				"name": "Ibadan",
 				"point": [
@@ -99,7 +101,59 @@
 			],
 			"sources": [
 				"wikipedia-ibadan",
-				"akintoye-1971"
+				"akintoye-1971",
+				"wikipedia-ibadan",
+				"wikipedia-oyo-empire"
+			],
+			"confidence": "high"
+		},
+		{
+			"year": 1860,
+			"yearLabel": "1860–1869",
+			"title": "Ijaye destroyed",
+			"text": "Ibadan goes to war with Ijaye, its rival war-town under the Kakanfo Kurunmi, in 1860. Kurunmi dies in 1861 and Ijaye falls in 1862; its people scatter, many to Abeokuta. Ibadan is now the strongest power in Yorubaland.",
+			"capital": {
+				"name": "Ibadan",
+				"point": [
+					3.9,
+					7.38
+				]
+			},
+			"core": {
+				"lgas": [
+					"oyo-ibadan-north",
+					"oyo-ibadan-north-east",
+					"oyo-ibadan-north-west",
+					"oyo-ibadan-south-east",
+					"oyo-ibadan-south-west",
+					"oyo-akinyele",
+					"oyo-lagelu",
+					"oyo-egbeda",
+					"oyo-ona-ara",
+					"oyo-oluyole",
+					"oyo-ido"
+				]
+			},
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Ijaye",
+						"point": [
+							3.84,
+							7.6
+						]
+					},
+					"label": "Ijaye destroyed (1862)",
+					"sources": [
+						"wikipedia-ijaye",
+						"wikipedia-kiriji-war"
+					],
+					"confidence": "high"
+				}
+			],
+			"sources": [
+				"wikipedia-kiriji-war"
 			],
 			"confidence": "high"
 		},
@@ -107,7 +161,7 @@
 			"year": 1870,
 			"yearLabel": "c. 1860–1877",
 			"title": "The Ibadan empire",
-			"text": "Ibadan rules Ijesha, Ekiti, Igbomina and Osun towns through resident agents, the ajele, and takes tribute across eastern Yorubaland.",
+			"text": "Ibadan rules Ibarapa, Osun, Ife, Ijesa, Ekiti, Igbomina, Yagba and Akoko through its ajele, resident agents who seize goods and people. It cannot master the Egba or the Ijebu, who hold the roads to the coast.",
 			"capital": {
 				"name": "Ibadan",
 				"point": [
@@ -170,9 +224,60 @@
 			},
 			"sources": [
 				"akintoye-1971",
-				"wikipedia-ibadan"
+				"wikipedia-ibadan",
+				"wikipedia-kiriji-war"
 			],
 			"confidence": "medium"
+		},
+		{
+			"year": 1878,
+			"yearLabel": "1878–1885",
+			"title": "Jalumi",
+			"text": "The Ekiti, Ila and Ijesa, joined by Ilorin, besiege Ikirun. On 1 November 1878 the Balogun Ogboriefon relieves it, crushes the Ijesa at Iba and drives the Ilorin army into the flooded Otin river, where thousands of men, women and horses drown: the Jalumi war. But the eastern alliance holds, and the war settles at Kiriji.",
+			"capital": {
+				"name": "Ibadan",
+				"point": [
+					3.9,
+					7.38
+				]
+			},
+			"core": {
+				"lgas": [
+					"oyo-ibadan-north",
+					"oyo-ibadan-north-east",
+					"oyo-ibadan-north-west",
+					"oyo-ibadan-south-east",
+					"oyo-ibadan-south-west",
+					"oyo-akinyele",
+					"oyo-lagelu",
+					"oyo-egbeda",
+					"oyo-ona-ara",
+					"oyo-oluyole",
+					"oyo-ido"
+				]
+			},
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Ikirun",
+						"point": [
+							4.67,
+							7.91
+						]
+					},
+					"label": "Jalumi: Ikirun relieved (1878)",
+					"sources": [
+						"wikipedia-jalumi-war"
+					],
+					"confidence": "high"
+				}
+			],
+			"sources": [
+				"wikipedia-jalumi-war",
+				"wikipedia-kiriji-war"
+			],
+			"confidence": "high"
 		},
 		{
 			"year": 1886,
@@ -229,6 +334,39 @@
 			"sources": [
 				"wikipedia-ibadan",
 				"akintoye-1971"
+			],
+			"confidence": "high"
+		},
+		{
+			"year": 1893,
+			"yearLabel": "1893",
+			"title": "A British protectorate",
+			"text": "On 15 August 1893 Baale Fijabi of Ibadan signs a treaty with Acting Governor Denton of Lagos; Ibadan becomes a British protectorate, and a British Resident, Captain Bower, is posted there.",
+			"capital": {
+				"name": "Ibadan",
+				"point": [
+					3.9,
+					7.38
+				]
+			},
+			"core": {
+				"lgas": [
+					"oyo-ibadan-north",
+					"oyo-ibadan-north-east",
+					"oyo-ibadan-north-west",
+					"oyo-ibadan-south-east",
+					"oyo-ibadan-south-west",
+					"oyo-akinyele",
+					"oyo-lagelu",
+					"oyo-egbeda",
+					"oyo-ona-ara",
+					"oyo-oluyole",
+					"oyo-ido"
+				]
+			},
+			"sources": [
+				"wikipedia-ibadan",
+				"wikipedia-ogedengbe"
 			],
 			"confidence": "high"
 		}

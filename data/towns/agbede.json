@@ -1,0 +1,53 @@
+{
+	"name": "Agbede",
+	"status": "draft",
+	"otherNames": [],
+	"point": [
+		6.264,
+		6.864
+	],
+	"founded": {
+		"year": 1600,
+		"yearLabel": "before the Nupe wars",
+		"sources": [
+			"oriire-2025-esan-nupe"
+		],
+		"confidence": "disputed"
+	},
+	"summary": {
+		"text": "Agbede in Etsako West was the Nupe army’s base in Afenmai. Esan tradition says the Nupe raided Esanland from here in the 1890s and were driven back to it by the Akota alliance. Agbede became and stayed Muslim.",
+		"sources": [
+			"oriire-2025-esan-nupe",
+			"idrees-1989-bida"
+		],
+		"confidence": "medium"
+	},
+	"founders": [
+		{
+			"people": "Etsako (Afenmai)",
+			"group": "afemai",
+			"text": "An Etsako town.",
+			"sources": [
+				"oriire-2025-esan-nupe"
+			],
+			"confidence": "medium"
+		}
+	],
+	"under": [
+		{
+			"polity": "nupe",
+			"from": 1860,
+			"to": 1897,
+			"kind": "garrison",
+			"text": "A Nupe base in Afenmai.",
+			"sources": [
+				"oriire-2025-esan-nupe",
+				"idrees-1989-bida"
+			],
+			"confidence": "medium"
+		}
+	],
+	"reviewNotes": [
+		"When the Nupe first held Agbede is not recorded; 1860 is the start of Masaba’s southern campaigns."
+	]
+}

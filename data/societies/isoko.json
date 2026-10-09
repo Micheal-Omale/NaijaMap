@@ -1,0 +1,46 @@
+{
+	"name": "Isoko",
+	"status": "draft",
+	"groups": [
+		"isoko"
+	],
+	"rule": "elders",
+	"span": {
+		"from": 1000,
+		"to": 1900,
+		"fromLabel": "before written records",
+		"toLabel": "c. 1900",
+		"sources": [
+			"wikipedia-urhobo"
+		],
+		"confidence": "medium",
+		"note": "The start of the timeline, not a founding date. The end is approximate."
+	},
+	"summary": {
+		"text": "Isoko clans were led by their eldest man, the Okpako Ewo, who held office by age: when he died, the next most senior elder took his place. There are nineteen clans: Uzere, Ozoro, Erowha, Owhe, Iyede, Okpe, Emede, Igbide, Emevor, Ofagbe, Ellu, Oyede, Umeh, Irri, Aviara, Olomoro, Enwhe, Okpolo and Oleh. Close to the Urhobo in speech and custom, they and the Urhobo were lumped together by Europeans as “Sobo”, a name both rejected.",
+		"sources": [
+			"wikipedia-urhobo",
+			"wikipedia-isoko-people"
+		],
+		"confidence": "medium"
+	},
+	"lands": [
+		{
+			"from": 1000,
+			"lgas": [
+				"delta-isoko-north",
+				"delta-isoko-south"
+			]
+		}
+	],
+	"reviewNotes": [
+		"Needs a written source for the date British rule reached this people."
+	],
+	"end": {
+		"text": "Like the Urhobo, the Isoko came under the British vice-consulates of the Niger Coast Protectorate in the 1890s.",
+		"sources": [
+			"wikipedia-nana-olomu"
+		],
+		"confidence": "medium"
+	}
+}

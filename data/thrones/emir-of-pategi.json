@@ -1,0 +1,26 @@
+{
+	"status": "draft",
+	"title": "Emir of Pategi",
+	"kind": "created",
+	"year": 1898,
+	"seat": {
+		"name": "Pategi",
+		"point": [
+			5.7524,
+			8.7262
+		]
+	},
+	"by": "the British, after their conquest of Bida",
+	"first": "Idrissu Gana",
+	"groups": [
+		"nupe"
+	],
+	"polity": "nupe",
+	"text": "The Yissazhi, a Nupe faction that had fought the Fulani emirs of Bida, refused to join Bida against the British. After the British conquered Bida they gave the Yissazhi, under Idrissu Gana, an emirate of their own at Pategi.",
+	"sources": [
+		"wikipedia-pategi"
+	],
+	"confidence": "high",
+	"note": "The emirate followed the conquest of Bida in 1897; it is shown from 1898.",
+	"reviewNotes": []
+}

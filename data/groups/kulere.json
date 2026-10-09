@@ -1,6 +1,23 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Kulere of Bokkos",
+			"lga": "plateau-bokkos",
+			"villages": [],
+			"sources": [
+				"wikipedia-bokkos"
+			],
+			"confidence": "medium",
+			"history": {
+				"text": "Under the Saf Ron/Kulere, paramount ruler of Bokkos.",
+				"sources": [
+					"wikipedia-bokkos"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Kulere",
 	"searchAliases": [

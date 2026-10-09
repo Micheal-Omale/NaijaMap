@@ -5,10 +5,11 @@
 	"otherNames": [
 		"Eko"
 	],
+	"shortName": "Eko",
 	"span": {
-		"from": 1600,
+		"from": 1450,
 		"to": 1861,
-		"fromLabel": "c. 1600 (Awori settlement earlier)",
+		"fromLabel": "the Awori at Isheri, 15th century",
 		"sources": [
 			"mann-2007",
 			"wikipedia-kingdom-of-benin"
@@ -17,12 +18,12 @@
 	},
 	"peak": 1800,
 	"summary": {
-		"text": "Eko, an Awori Yoruba settlement on Lagos Island, came under a Benin-backed dynasty around 1600 and paid tribute to the Oba of Benin. In the 18th and 19th centuries it became a busy port of the Atlantic slave trade. Britain bombarded it in 1851 and annexed it in 1861, the start of colonial Nigeria.",
+		"text": "The Awori, a Yoruba people, came down the Ogun in the 15th century; Ogunfunminire of Ife became king at Isheri, and farmers spread to Iddo and Lagos Island, which they called Oko. Around 1600 Benin made the island a war camp, Eko, and the Awori prince Ashipa became its first Benin-backed king, founding the dynasty that rules today. From the 1760s Oba Akinsemoyin opened Lagos to the slave trade; by the early 19th century it was the biggest slave port north of the equator, with embassies to Brazil. Royal feuds brought the British in: they bombarded Lagos in 1851, put Akitoye on the throne, and in 1861 forced Dosunmu to cede it.",
 		"sources": [
-			"mann-2007",
-			"wikipedia-kingdom-of-benin"
+			"wikipedia-history-of-lagos",
+			"wikipedia-kosoko"
 		],
-		"confidence": "medium"
+		"confidence": "high"
 	},
 	"ruler": {
 		"title": "Oba (Eleko)",
@@ -35,6 +36,57 @@
 		"yoruba"
 	],
 	"snapshots": [
+		{
+			"year": 1450,
+			"yearLabel": "15th–16th century",
+			"title": "The Awori at Isheri and Iddo",
+			"text": "Awori tradition says Oduduwa gave their ruler Olofin a plate to set on the river; where it sank, in Lagos lagoon, they settled. Coming down the Ogun to escape a war, they first make Ogunfunminire of Ife king at Isheri, then move to Ebute-Metta and Iddo. Aromire farms pepper on the island, where the palace, Iga Idunganran, the “pepper-farm palace”, will stand. Ijebu traders come in the 15th century; the Portuguese pass by in 1472, naming the lagoon Lago de Curamo.",
+			"capital": {
+				"name": "Iddo",
+				"point": [
+					3.38,
+					6.465
+				]
+			},
+			"core": {
+				"lgas": [
+					"lagos-lagos-island",
+					"lagos-eti-osa",
+					"lagos-lagos-mainland",
+					"lagos-apapa"
+				]
+			},
+			"nodes": [
+				{
+					"name": "Isheri",
+					"point": [
+						3.39,
+						6.67
+					]
+				}
+			],
+			"links": [
+				{
+					"kind": "descent",
+					"to": {
+						"name": "Ile-Ife",
+						"point": [
+							4.56,
+							7.48
+						]
+					},
+					"label": "Ogunfunminire of Ife, first king at Isheri",
+					"sources": [
+						"wikipedia-history-of-lagos"
+					],
+					"confidence": "medium"
+				}
+			],
+			"sources": [
+				"wikipedia-history-of-lagos"
+			],
+			"confidence": "medium"
+		},
 		{
 			"year": 1600,
 			"yearLabel": "c. 1600",
@@ -73,6 +125,83 @@
 				"wikipedia-kingdom-of-benin"
 			],
 			"confidence": "medium"
+		},
+		{
+			"year": 1760,
+			"yearLabel": "1760s–1820",
+			"title": "The slave port",
+			"text": "Prince Akinsemoyin, exiled to Badagry after quarrelling with his brother, makes friends among the European slavers there, and when he takes the throne in the 1760s opens Lagos to their trade. The trade booms in the 1780s and again with Dahomey's wars and Oyo's collapse; by the early 19th century Eko is the largest slave exporter north of the equator, sends embassies to Brazil and is one of the first states to recognise Brazil's independence in 1823. Lagos still sends Benin tribute until about 1830, though its obedience is mostly nominal.",
+			"capital": {
+				"name": "Eko (Lagos Island)",
+				"point": [
+					3.39,
+					6.45
+				]
+			},
+			"core": {
+				"lgas": [
+					"lagos-lagos-island",
+					"lagos-eti-osa",
+					"lagos-lagos-mainland",
+					"lagos-apapa",
+					"lagos-surulere",
+					"lagos-ajeromi-ifelodun",
+					"lagos-amuwo-odofin"
+				]
+			},
+			"links": [
+				{
+					"kind": "trade",
+					"to": {
+						"name": "Brazil (across the Atlantic)",
+						"point": [
+							-3,
+							6
+						]
+					},
+					"label": "Slaves to Brazil; embassies to Bahia",
+					"sources": [
+						"wikipedia-history-of-lagos"
+					],
+					"confidence": "high",
+					"note": "The point marks the Atlantic edge of the map."
+				},
+				{
+					"kind": "tribute",
+					"to": {
+						"name": "Benin City",
+						"point": [
+							5.627,
+							6.335
+						]
+					},
+					"label": "Tribute to Benin until c. 1830",
+					"sources": [
+						"wikipedia-history-of-lagos"
+					],
+					"confidence": "high"
+				},
+				{
+					"kind": "war",
+					"to": {
+						"name": "Badagry",
+						"point": [
+							2.88,
+							6.42
+						]
+					},
+					"label": "Badagry blockaded with Oyo and Dahomey (1784)",
+					"sources": [
+						"wikipedia-oyo-empire"
+					],
+					"confidence": "medium"
+				}
+			],
+			"sources": [
+				"wikipedia-history-of-lagos",
+				"wikipedia-oyo-empire"
+			],
+			"confidence": "high"
 		},
 		{
 			"year": 1800,
@@ -127,9 +256,72 @@
 			"confidence": "medium"
 		},
 		{
+			"year": 1821,
+			"yearLabel": "1821–1851",
+			"title": "Royal feuds",
+			"text": "Two sons of Oba Ologun Kutere fight for the throne: Adele is driven to Badagry and raids Lagos from 1821 to 1835. Oba Idewu Ojulari, unpopular, receives from the Oba of Benin a skull and a sword and takes poison. The kingmaker Eletu Odibo blocks his brother Kosoko twice; in July 1845 Kosoko's men besiege the palace for three weeks, the Salt Water War, Akitoye flees to Abeokuta and Badagry, and the Eletu is sealed in a barrel and burned on the lagoon. Kosoko rules, a friend of the slave traders and of Dahomey; Akitoye courts the British consul Beecroft.",
+			"capital": {
+				"name": "Eko (Lagos Island)",
+				"point": [
+					3.39,
+					6.45
+				]
+			},
+			"core": {
+				"lgas": [
+					"lagos-lagos-island",
+					"lagos-eti-osa",
+					"lagos-lagos-mainland",
+					"lagos-apapa",
+					"lagos-surulere",
+					"lagos-ajeromi-ifelodun",
+					"lagos-amuwo-odofin"
+				]
+			},
+			"links": [
+				{
+					"kind": "ritual",
+					"to": {
+						"name": "Benin City",
+						"point": [
+							5.627,
+							6.335
+						]
+					},
+					"label": "Benin's skull and sword for Idewu Ojulari",
+					"sources": [
+						"wikipedia-history-of-lagos",
+						"wikipedia-kosoko"
+					],
+					"confidence": "high"
+				},
+				{
+					"kind": "war",
+					"to": {
+						"name": "Badagry",
+						"point": [
+							2.88,
+							6.42
+						]
+					},
+					"label": "Adele's raids from Badagry; Akitoye's refuge",
+					"sources": [
+						"wikipedia-history-of-lagos",
+						"wikipedia-kosoko"
+					],
+					"confidence": "high"
+				}
+			],
+			"sources": [
+				"wikipedia-history-of-lagos",
+				"wikipedia-kosoko"
+			],
+			"confidence": "high"
+		},
+		{
 			"year": 1851,
 			"title": "The British bombard Lagos",
-			"text": "Britain shells Lagos, drives out Oba Kosoko and installs Akitoye, opening a decade of consular rule. In 1861 Oba Dosunmu is forced to cede Lagos; it becomes a British colony.",
+			"text": "In November 1851 Kosoko rejects a British demand to end the slave trade, saying only the Oba of Benin can deal with foreign powers over Lagos. On 26–28 December the Royal Navy shells and storms the town; Kosoko flees to Ijebu and settles at Epe, from which he twice attacks Lagos in August 1853. Akitoye, installed by the British, signs the anti-slavery treaty on 1 January 1852 and stops paying tribute to Benin. On 6 August 1861 Oba Dosunmu, under threat of bombardment, cedes Lagos to Britain.",
 			"capital": {
 				"name": "Eko (Lagos Island)",
 				"point": [
@@ -146,9 +338,27 @@
 				]
 			},
 			"sources": [
-				"mann-2007"
+				"mann-2007",
+				"wikipedia-kosoko"
 			],
-			"confidence": "high"
+			"confidence": "high",
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Epe",
+						"point": [
+							3.98,
+							6.58
+						]
+					},
+					"label": "Kosoko's attacks from Epe (1853)",
+					"sources": [
+						"wikipedia-kosoko"
+					],
+					"confidence": "high"
+				}
+			]
 		}
 	],
 	"today": {

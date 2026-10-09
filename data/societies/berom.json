@@ -1,0 +1,46 @@
+{
+	"name": "Berom",
+	"status": "draft",
+	"groups": [
+		"berom"
+	],
+	"rule": "chiefdoms",
+	"span": {
+		"from": 1000,
+		"to": 1905,
+		"fromLabel": "before written records",
+		"toLabel": "early 1900s",
+		"sources": [
+			"wikipedia-berom",
+			"wikipedia-plateau-state"
+		],
+		"confidence": "medium",
+		"note": "The start of the timeline, not a founding date. The end is approximate: British rule reached these lands in the first years of the 1900s."
+	},
+	"summary": {
+		"text": "Before colonial rule the Berom of the Jos Plateau were divided into autonomous political groups, region by region, each under its own chief and elders, with no paramount ruler. Like their Plateau neighbours they defended their hill country against slave raids from the jihad emirates. They celebrate Nzem Berom each spring. The British created the paramount stool of Gbong Gwom Jos in 1935 and merged the groups under it in 1952.",
+		"sources": [
+			"wikipedia-berom",
+			"wikipedia-southern-kaduna"
+		],
+		"confidence": "medium"
+	},
+	"end": {
+		"text": "The British took control of the Plateau in the early 20th century, and began mining its tin in 1902.",
+		"sources": [
+			"wikipedia-plateau-state"
+		],
+		"confidence": "medium"
+	},
+	"lands": [
+		{
+			"from": 1000,
+			"lgas": [
+				"plateau-riyom",
+				"plateau-barkin-ladi",
+				"plateau-jos-south"
+			]
+		}
+	],
+	"reviewNotes": []
+}

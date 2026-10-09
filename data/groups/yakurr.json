@@ -1,6 +1,65 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Ugep",
+			"lga": "cross-river-yakurr",
+			"point": [
+				8.086,
+				5.795
+			],
+			"villages": [
+				{
+					"name": "Idomi",
+					"point": [
+						8.085,
+						5.761
+					]
+				},
+				{
+					"name": "Ekori",
+					"point": [
+						8.12,
+						5.876
+					]
+				},
+				{
+					"name": "Mkpani"
+				},
+				{
+					"name": "Inyima"
+				},
+				{
+					"name": "Nko"
+				},
+				{
+					"name": "Assiga"
+				},
+				{
+					"name": "Agoi Ibami"
+				},
+				{
+					"name": "Agoi Ekpo"
+				},
+				{
+					"name": "Agoi Efreke"
+				}
+			],
+			"sources": [
+				"wikipedia-yakurr-lga",
+				"grid3-settlement-names"
+			],
+			"confidence": "medium",
+			"note": "Settlements listed in the Yakurr LGA article; Yakurr LGA is the Yakö homeland.",
+			"livelihoods": {
+				"text": "Farming, fishing, trade, lumbering, wood carving and food processing.",
+				"sources": [
+					"wikipedia-yakurr-lga"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Yakurr (Lokaa)",
 	"searchAliases": [

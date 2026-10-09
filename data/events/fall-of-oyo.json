@@ -1,0 +1,54 @@
+{
+	"name": "Afonja, Alimi and the fall of Oyo",
+	"status": "draft",
+	"kind": "alliance",
+	"year": 1817,
+	"yearLabel": "1817–1837",
+	"until": 1840,
+	"actors": [
+		{ "name": "Afonja, Are-Ona-Kakanfo at Ilorin", "side": "resister" },
+		{ "name": "Shehu Alimi and the jama’a", "polity": "sokoto", "side": "ally" },
+		{ "name": "Oyo Empire", "polity": "oyo", "side": "defender" }
+	],
+	"summary": {
+		"text": "In 1817 Afonja, Oyo’s own commander-in-chief, rose against the Alaafin at Ilorin and called in Shehu Alimi, a Fulani Muslim teacher, and his following of Hausa and Fulani fighters. The alliance cut Oyo off from its north. About 1824 Alimi’s son Abdulsalami turned on Afonja, who was killed, and Ilorin became an emirate of the Sokoto Caliphate under Gwandu. Ilorin’s armies ended Oyo-Ile in the 1830s, and the court moved south to Ago-Oja, today’s Oyo.",
+		"sources": ["johnson-1921", "law-1977", "wikipedia-afonja", "wikipedia-ilorin"],
+		"confidence": "high"
+	},
+	"routes": [
+		{ "kind": "alliance", "by": "Shehu Alimi and the jama’a", "path": [[4.64, 12.5], [4.4, 10.5], [4.55, 8.5]], "label": "Ilorin joins the Caliphate, under Gwandu" },
+		{ "kind": "advance", "by": "Afonja, Are-Ona-Kakanfo at Ilorin", "path": [[4.55, 8.5], [4.3075, 8.9747]], "label": "Ilorin’s wars cut Oyo off from its north" },
+		{
+			"kind": "migration",
+			"by": "Oyo Empire",
+			"when": "c. 1837",
+			"path": [[4.3075, 8.9747], [4.2, 8.3], [3.93, 7.85]],
+			"label": "Oyo-Ile abandoned: the court moves south to Ago-Oja"
+		}
+	],
+	"moments": [
+		{
+			"when": "1817",
+			"title": "Afonja’s revolt",
+			"text": "The Are-Ona-Kakanfo declares Ilorin independent of the Alaafin and invites Shehu Alimi to fight beside him.",
+			"at": { "name": "Ilorin", "point": [4.55, 8.5] },
+			"mark": "camp"
+		},
+		{
+			"when": "c. 1824",
+			"title": "The allies fall out",
+			"text": "Abdulsalami, Alimi’s son, turns on Afonja, who is killed. Ilorin becomes an emirate.",
+			"at": { "name": "Ilorin", "point": [4.55, 8.5] },
+			"mark": "captured"
+		},
+		{
+			"when": "c. 1835–1837",
+			"title": "Oyo-Ile abandoned",
+			"text": "After defeat by Ilorin, the capital of the old empire is left empty; Oyo is rebuilt far to the south.",
+			"at": { "name": "Oyo-Ile (Old Oyo)", "point": [4.3075, 8.9747] },
+			"mark": "flight"
+		}
+	],
+	"sources": ["johnson-1921", "law-1977", "wikipedia-afonja", "wikipedia-ilorin"],
+	"confidence": "high"
+}

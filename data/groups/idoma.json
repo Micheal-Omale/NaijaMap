@@ -153,18 +153,20 @@
 		},
 		{
 			"lga": "enugu-igbo-eze-north",
-			"presence": "minority",
+			"presence": "core",
 			"sources": [
 				"obinaju-anyanwu-2018",
-				"egenti-2015-ette"
+				"egenti-2015-ette",
+				"chukwudi-opone-2024-eteh",
+				"owner-2026-10-07-ette"
 			],
 			"confidence": "high",
-			"note": "The Eteh (Ette) of the north of the LGA, on the Benue border."
+			"note": "A homeland: Ette, one of the LGA’s two towns, is ruled by an Igala king and is mostly Igala and Idoma, with little Igbo settlement. Enugu-Ezike, the other town, is Igbo, so the LGA is drawn in stripes."
 		}
 	],
 	"communities": [
 		{
-			"name": "Ette (Etteh)",
+			"name": "Ette (Etteh, Eteh)",
 			"lga": "enugu-igbo-eze-north",
 			"point": [
 				7.4691,
@@ -177,48 +179,427 @@
 						7.4691,
 						7.0775
 					]
-				},
-				{
-					"name": "Umuogbu Agu",
-					"point": [
-						7.4251,
-						7.0605
-					]
-				},
-				{
-					"name": "Umuagama",
-					"point": [
-						7.4379,
-						7.0146
-					]
-				},
-				{
-					"name": "Imufu",
-					"point": [
-						7.444,
-						6.9949
-					]
 				}
 			],
 			"sources": [
 				"obinaju-anyanwu-2018",
 				"egenti-2015-ette",
-				"wikipedia-igbo-eze-north"
+				"wikipedia-igbo-eze-north",
+				"chukwudi-opone-2024-eteh",
+				"owner-2026-10-07-ette"
 			],
 			"confidence": "high",
-			"note": "The South East survey describes the Eteh as an Idoma speaking minority who also speak Igbo well; Egenti (2015) finds Idoma their strongest language, followed by Igala and Igbo.",
+			"note": "Ette is ruled by an Igala king, the Onu-Oda, who is confirmed by the Attah at Idah. Its people are mostly Igala and Idoma; Igbo settlement there is small. Egenti (2015) finds Idoma their strongest language, followed by Igala and Igbo.",
 			"history": {
-				"text": "One of the two towns that make up Igbo-Eze North (with Enugu-Ezike), on the border with Benue. The Igala of the Nsukka area trace their arrival from Idah to the 17th century.",
+				"text": "Eteh is a border clan of nine villages (Achanya, Ochigide, Aishi, Ebe, Emenebe or Ayinebe, Ijekpe, Ogilliama, Ogodo and Onodaba) on both sides of the Enugu and Kogi line, in Igbo-Eze North and Olamaboro. Its ruler, the Onu-Oda Adogo, is an Igala king. Tradition says Enwenwowo, a descendant of a son of the Attah, went to Idah and received the staff and title of Onu-Oda, and every Onu-Oda since has gone to Idah to be confirmed by the Attah. Most of the people claim Igala origin; Idoma and later Igbo settlers joined them.",
 				"sources": [
-					"wikipedia-igbo-eze-north",
-					"dailytrust-2017-enugu"
+					"chukwudi-opone-2024-eteh",
+					"owner-2026-10-07-ette"
 				],
 				"confidence": "medium"
+			}
+		},
+		{
+			"name": "Otukpo",
+			"lga": "benue-oturkpo",
+			"point": [
+				8.13,
+				7.19
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-otukpo",
+				"itodo-2021-idoma-timeline"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Headquarters of Idomaland and seat of the Och'Idoma. The railway reached Otukpo in 1923, and in 1924 the British moved the divisional headquarters here from Okpoga; the Idoma Native Authority was formed here.",
+				"sources": [
+					"wikipedia-otukpo",
+					"itodo-2021-idoma-timeline"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Ugboju",
+			"lga": "benue-oturkpo",
+			"point": [
+				8.053,
+				7.352
+			],
+			"villages": [
+				{
+					"name": "Ombi",
+					"point": [
+						7.892,
+						7.374
+					]
+				}
+			],
+			"sources": [
+				"itodo-2021-idoma-timeline",
+				"okopi-idoma-timeline",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "One of the Idoma kingdoms Idoma tradition dates to about 1650. Chief Amanyi led a rebellion against the British in 1910–1912 and was deported to Keffi; after an attack on the Hausa traders' quarter at Ombi in 1914 the British staged a bloody reprisal.",
+				"sources": [
+					"itodo-2021-idoma-timeline",
+					"okopi-idoma-timeline"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Adoka",
+			"lga": "benue-oturkpo",
+			"villages": [],
+			"sources": [
+				"itodo-2021-idoma-timeline",
+				"okopi-idoma-timeline"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Founded, by Idoma tradition, around 1650. In 1907, after seven Hausa traders were killed in a fracas at Obena-Adoka, the British destroyed twenty-three Adoka villages.",
+				"sources": [
+					"itodo-2021-idoma-timeline",
+					"okopi-idoma-timeline"
+				],
+				"confidence": "high"
+			},
+			"note": "Adoka's exact position is not checked; GRID3's Adoka lies in Konshisha and is a different place."
+		},
+		{
+			"name": "Agatu",
+			"lga": "benue-agatu",
+			"point": [
+				7.911,
+				7.891
+			],
+			"villages": [
+				{
+					"name": "Obagaji",
+					"point": [
+						7.911,
+						7.891
+					]
+				},
+				{
+					"name": "Odugbeho",
+					"point": [
+						8.034,
+						7.801
+					]
+				}
+			],
+			"sources": [
+				"wikipedia-agatu",
+				"itodo-2021-idoma-timeline",
+				"okopi-idoma-timeline",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Idoma groups leaving Apa settled near the Benue here around 1500, by Idoma tradition. The Anglo-Idoma wars began here in 1899, when Major Maclintock's force burned Odugbeho; in 1901 the British set Madakin Amajo over Enugba, Enogaje and Ogbangede. Headquarters at Obagaji.",
+				"sources": [
+					"itodo-2021-idoma-timeline",
+					"okopi-idoma-timeline",
+					"wikipedia-agatu"
+				],
+				"confidence": "high"
+			},
+			"livelihoods": {
+				"text": "Farming: yams, cassava, rice, beans, sorghum and melon.",
+				"sources": [
+					"wikipedia-agatu"
+				],
+				"confidence": "medium"
+			}
+		},
+		{
+			"name": "Edikwu",
+			"lga": "benue-apa",
+			"point": [
+				7.93,
+				7.62
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-apa-benue",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Part of Apa, the name Idoma kindreds give to their ancestral home in old Kwararafa.",
+				"sources": [
+					"wikipedia-apa-benue",
+					"okopi-idoma-timeline"
+				],
+				"confidence": "medium"
+			}
+		},
+		{
+			"name": "Ugbokpo",
+			"lga": "benue-apa",
+			"point": [
+				7.882,
+				7.669
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-apa-benue",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Headquarters of Apa LGA.",
+				"sources": [
+					"wikipedia-apa-benue"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Onyagede",
+			"lga": "benue-ohimini",
+			"villages": [
+				{
+					"name": "Idekpa",
+					"point": [
+						7.941,
+						7.333
+					]
+				},
+				{
+					"name": "Oglewu"
+				},
+				{
+					"name": "Okpikwu"
+				},
+				{
+					"name": "Amoke"
+				}
+			],
+			"sources": [
+				"wikipedia-ohimini",
+				"itodo-2021-idoma-timeline"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "The main district of Ohimini, on the Kogi border, with villages such as Amoke, Enumona, Ogodu, Awume, Ikpoke, Ogoli, Ugofu, Okpikwu, Oglewu and Idekpa. In 1912 Onyagede rebels killed Hausa traders and scribes and the British attacked in reprisal.",
+				"sources": [
+					"wikipedia-ohimini",
+					"itodo-2021-idoma-timeline"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Otukpa",
+			"lga": "benue-ogbadibo",
+			"point": [
+				7.67,
+				6.879
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-ogbadibo",
+				"itodo-2021-idoma-timeline",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Headquarters of Ogbadibo. In 1904 the Adoga clan here rose against British tax under Iyalla Atungwu; Trenchard's expedition annexed Otukpa in 1908 and the British made Awudu Elachi its district head.",
+				"sources": [
+					"itodo-2021-idoma-timeline",
+					"wikipedia-ogbadibo"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Owukpa",
+			"lga": "benue-ogbadibo",
+			"villages": [],
+			"sources": [
+				"wikipedia-ogbadibo"
+			],
+			"confidence": "high"
+		},
+		{
+			"name": "Orokam",
+			"lga": "benue-ogbadibo",
+			"villages": [],
+			"sources": [
+				"wikipedia-ogbadibo"
+			],
+			"confidence": "high"
+		},
+		{
+			"name": "Edumoga",
+			"lga": "benue-okpokwu",
+			"point": [
+				7.871,
+				6.99
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-edumoga"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Edumoga's people say they came from Gwamaja in Kano country during the Kwararafa wars of 1600–1671, joined the confederacy at Apa, stayed at Abinsi, and lived at Idah until mistreatment by the Igala drove them on through Eguma near Ankpa and Ikobi to Okokolo. The name means “Ede begot Oga”. A chiefdom was created in 1923 with Ikwumonu Okpotu as the first Ede; the stool rotates among six clans, the Eke clan most senior.",
+				"sources": [
+					"wikipedia-edumoga"
+				],
+				"confidence": "medium"
+			},
+			"note": "Point from Wikipedia's coordinates; GRID3's Edumoga lies in Oju and is a different place."
+		},
+		{
+			"name": "Ichama",
+			"lga": "benue-okpokwu",
+			"point": [
+				7.798,
+				6.897
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-okpokwu",
+				"grid3-settlement-names"
+			],
+			"confidence": "high"
+		},
+		{
+			"name": "Ojigo",
+			"lga": "benue-okpokwu",
+			"point": [
+				7.942,
+				7.053
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-okpokwu",
+				"grid3-settlement-names"
+			],
+			"confidence": "high"
+		},
+		{
+			"name": "Okpoga",
+			"lga": "benue-okpokwu",
+			"villages": [
+				{
+					"name": "Ugbokolo",
+					"point": [
+						7.797,
+						7.161
+					]
+				}
+			],
+			"sources": [
+				"wikipedia-okpokwu",
+				"itodo-2021-idoma-timeline"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Headquarters of Okpokwu. The British made Okpoga the headquarters of the southern Idoma districts in 1910; Idoma Division was run from here until 1924.",
+				"sources": [
+					"itodo-2021-idoma-timeline",
+					"wikipedia-okpokwu"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Igumale",
+			"lga": "benue-ado",
+			"point": [
+				7.964,
+				6.778
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-ado-benue",
+				"okopi-idoma-timeline",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "One of the Idoma kingdoms founded around 1650, by tradition. It had the first missionary school in Idomaland, Methodist High School, Igumale.",
+				"sources": [
+					"wikipedia-ado-benue",
+					"okopi-idoma-timeline"
+				],
+				"confidence": "medium"
+			}
+		},
+		{
+			"name": "Agila",
+			"lga": "benue-ado",
+			"villages": [],
+			"sources": [
+				"wikipedia-ado-benue",
+				"itodo-2021-idoma-timeline",
+				"okopi-idoma-timeline"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Founded around 1650 by Idoma tradition. Under colonial rule Agila was first in Abakaliki Province and was transferred to Okpoga (Idoma) Division in 1922.",
+				"sources": [
+					"itodo-2021-idoma-timeline",
+					"okopi-idoma-timeline"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Ulayi",
+			"lga": "benue-ado",
+			"point": [
+				8.038,
+				6.779
+			],
+			"villages": [],
+			"sources": [
+				"grid3-settlement-names"
+			],
+			"confidence": "high"
+		},
+		{
+			"name": "Ijigban",
+			"lga": "benue-ado",
+			"point": [
+				8.085,
+				6.775
+			],
+			"villages": [],
+			"sources": [
+				"grid3-settlement-names"
+			],
+			"confidence": "high"
+		},
+		{
+			"name": "Utonkon",
+			"lga": "benue-ado",
+			"villages": [],
+			"sources": [
+				"wikipedia-ado-benue"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Catholic missionaries reached Utonkon in 1922 and founded St Paul's parish.",
+				"sources": [
+					"wikipedia-ado-benue"
+				],
+				"confidence": "high"
 			}
 		}
 	],
 	"reviewNotes": [
 		"Wikipedia says the Idoma occupy nine LGAs; the Benue source names seven. Obi and Oju (mostly Igede) are not mapped yet.",
-		"Idomoid peoples outside Benue (Alago in Doma and Keana, Yala in Cross River) speak related but separate languages and are not counted as Idoma here."
+		"Idomoid peoples outside Benue (Alago in Doma and Keana, Yala in Cross River) speak related but separate languages and are not counted as Idoma here.",
+		"Idoma districts added 2026-10-09 from the Idoma timelines and LGA articles; Owukpa, Orokam, Ichama, Ojigo, Ulayi and Ijigban still need histories. The full list of 22 districts should be checked against an Idoma Traditional Council source."
 	]
 }

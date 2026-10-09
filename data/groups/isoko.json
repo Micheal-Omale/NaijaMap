@@ -1,6 +1,87 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Isoko South clans",
+			"lga": "delta-isoko-south",
+			"point": [
+				6.195,
+				5.447
+			],
+			"villages": [
+				{
+					"name": "Oleh",
+					"point": [
+						6.195,
+						5.447
+					]
+				},
+				{
+					"name": "Aviara"
+				},
+				{
+					"name": "Olomoro"
+				},
+				{
+					"name": "Emede"
+				},
+				{
+					"name": "Enhwe"
+				},
+				{
+					"name": "Erowha"
+				},
+				{
+					"name": "Igbide"
+				},
+				{
+					"name": "Irri"
+				},
+				{
+					"name": "Okpolo"
+				},
+				{
+					"name": "Umeh"
+				},
+				{
+					"name": "Uzere"
+				}
+			],
+			"sources": [
+				"wikipedia-isoko-south",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Eleven communities, each divided into clans, with headquarters at Oleh. The Isoko trace a migration from the Benin kingdom.",
+				"sources": [
+					"wikipedia-isoko-south"
+				],
+				"confidence": "medium"
+			}
+		},
+		{
+			"name": "Ozoro",
+			"lga": "delta-isoko-north",
+			"point": [
+				6.227,
+				5.542
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-isoko-south",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Headquarters of Isoko North.",
+				"sources": [
+					"wikipedia-isoko-south"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Isoko",
 	"searchAliases": [

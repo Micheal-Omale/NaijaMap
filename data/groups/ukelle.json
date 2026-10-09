@@ -1,6 +1,43 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Ukelle communities",
+			"lga": "cross-river-yala",
+			"villages": [
+				{
+					"name": "Wanihem"
+				},
+				{
+					"name": "Wanikade"
+				},
+				{
+					"name": "Wanokom"
+				},
+				{
+					"name": "Ijiraga"
+				},
+				{
+					"name": "Mfuma"
+				},
+				{
+					"name": "Ntrigom"
+				}
+			],
+			"sources": [
+				"wikipedia-yala-lga"
+			],
+			"confidence": "medium",
+			"note": "Village names from the Yala LGA list whose Wa- and N- forms are Ukelle; which villages are Ukelle should be checked.",
+			"history": {
+				"text": "The Ukelle of Yala LGA are kin to the Orring of Benue and Ebonyi: the Ufia (Utonkon), Ntezi, Effium, Okpoto, Amuda and Okpolo.",
+				"sources": [
+					"wikipedia-yala-lga"
+				],
+				"confidence": "medium"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Ukelle",
 	"searchAliases": [

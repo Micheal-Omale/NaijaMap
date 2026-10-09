@@ -1,0 +1,47 @@
+{
+	"name": "Issele-Uku",
+	"status": "draft",
+	"otherNames": [],
+	"point": [
+		6.4629,
+		6.2982
+	],
+	"founded": {
+		"year": 1550,
+		"yearLabel": "by tradition",
+		"sources": [
+			"esogbue-2023-enuani"
+		],
+		"confidence": "disputed",
+		"note": "Undated."
+	},
+	"summary": {
+		"text": "The original settlers of Issele-Uku came from Nri. Its leader Idabor was among the Ekumeku chiefs who fought the British.",
+		"sources": [
+			"esogbue-2023-enuani",
+			"wikipedia-ekumeku"
+		],
+		"confidence": "medium"
+	},
+	"founders": [
+		{
+			"people": "Igbo",
+			"group": "igbo",
+			"polity": "nri",
+			"from": {
+				"name": "Agukwu Nri",
+				"point": [
+					6.98,
+					6.15
+				]
+			},
+			"text": "Its first settlers were Nri people.",
+			"sources": [
+				"esogbue-2023-enuani"
+			],
+			"confidence": "medium"
+		}
+	],
+	"under": [],
+	"reviewNotes": []
+}

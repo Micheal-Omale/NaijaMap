@@ -1,0 +1,62 @@
+{
+	"name": "The Igala kingdom divided",
+	"status": "draft",
+	"kind": "partition",
+	"year": 1900,
+	"yearLabel": "1900–1918",
+	"until": 1918,
+	"actors": [{ "name": "British forces", "side": "colonial" }, { "name": "Igala Kingdom", "polity": "igala", "side": "defender" }],
+	"summary": {
+		"text": "When Britain took over from the Royal Niger Company in 1900, it cut the Igala kingdom in two along the line between its new protectorates. Idah and the southern districts went to Southern Nigeria’s Onitsha Province; the rest went to Northern Nigeria, where the district chiefs were cut off from their king. The vassal lands were scattered further: the northern Igbo towns to the Nsukka Division, western Idoma to Munshi Province, and Lokoja, the first capital of Northern Nigeria, to Kabba Province. At the Attah’s request the two halves were rejoined under Northern Nigeria in 1918.",
+		"sources": ["abdullahi-2016", "clifford-1936", "kogireports-igalaland"],
+		"confidence": "medium"
+	},
+	"moments": [
+		{
+			"when": "1 January 1900",
+			"title": "Northern Nigeria proclaimed at Lokoja",
+			"text": "The Protectorate of Northern Nigeria is proclaimed at Lokoja, on land the Attah had ceded in 1841.",
+			"at": { "name": "Lokoja", "point": [6.74, 7.8] },
+			"mark": "founded"
+		},
+		{
+			"when": "1900",
+			"title": "A king without his chiefs",
+			"text": "Clifford, Resident in the 1930s, wrote that the district chiefs were “effectually cut off from contact with their suzerain, whilst he himself was given no part in the administration of the moiety which had been left to him.”",
+			"at": { "name": "Idah", "point": [6.737, 7.117] },
+			"mark": "captured",
+			"sources": ["abdullahi-2016", "clifford-1936"]
+		},
+		{
+			"when": "1918",
+			"title": "Rejoined",
+			"text": "The Attah and the Igala-Mela ask to be joined to their kin in the north. Under Lieutenant Governor Richard Palmer the halves are reunited, but the Attah never regains his old powers.",
+			"mark": "treaty",
+			"sources": ["abdullahi-2016"]
+		}
+	],
+	"pieces": [
+		{
+			"name": "Onitsha Province, Southern Nigeria",
+			"note": "Idah with the Ibaji, Adoru and Ojoko districts and part of Omala, in Clifford’s account.",
+			"extent": { "lgas": ["kogi-idah", "kogi-ibaji", "kogi-igalamela-odolu", "kogi-ofu"] }
+		},
+		{
+			"name": "Bassa Province, Northern Nigeria",
+			"note": "The northern districts, later part of Kabba Province.",
+			"extent": { "lgas": ["kogi-bassa", "kogi-dekina", "kogi-omala", "kogi-ankpa", "kogi-olamaboro"] }
+		},
+		{
+			"name": "Nsukka Division: the northern Igbo vassals",
+			"extent": {
+				"lgas": ["enugu-nsukka", "enugu-igbo-eze-north", "enugu-igbo-eze-south", "enugu-udenu", "enugu-igbo-etiti", "enugu-uzo-uwani", "enugu-isi-uzo"],
+				"confidence": "disputed"
+			}
+		},
+		{ "name": "Munshi Province: western Idoma", "extent": { "lgas": ["benue-ado", "benue-ogbadibo", "benue-okpokwu", "benue-ohimini"], "confidence": "disputed" } },
+		{ "name": "Kabba Province: Lokoja and Koton Karfe", "extent": { "lgas": ["kogi-lokoja", "kogi-kogi"], "confidence": "disputed" } }
+	],
+	"sources": ["abdullahi-2016", "clifford-1936", "kogireports-igalaland", "owner-2026-10-07-doc1"],
+	"confidence": "medium",
+	"note": "The two halves follow Clifford (1936) as quoted by Abdullahi (2016) and the LGA list given by later Igala writers. The vassal pieces show where those lands went, simplified to today’s LGAs; colonial boundaries moved several times."
+}

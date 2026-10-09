@@ -1,0 +1,33 @@
+{
+	"name": "Ginuwa founds the Itsekiri kingdom",
+	"status": "draft",
+	"kind": "migration",
+	"year": 1480,
+	"yearLabel": "c. 1480",
+	"until": 1510,
+	"actors": [{ "name": "Prince Ginuwa’s party", "polity": "warri", "side": "migrant" }, { "name": "Kingdom of Benin", "polity": "benin", "side": "origin" }],
+	"summary": {
+		"text": "Itsekiri tradition remembers Ginuwa, a prince of Benin, leading a party down the creeks to found the kingdom of Warri among the Itsekiri. Its Olus trace their line to him.",
+		"sources": ["wikipedia-kingdom-of-warri"],
+		"confidence": "medium"
+	},
+	"routes": [
+		{
+			"kind": "migration",
+			"by": "Prince Ginuwa’s party",
+			"path": [[5.627, 6.335], [5.43, 6.24], [5.32, 5.85], [5.3, 5.55]],
+			"label": "Ginuwa’s party goes down the creeks from Benin"
+		}
+	],
+	"moments": [
+		{
+			"when": "c. 1480",
+			"title": "Ode-Itsekiri",
+			"text": "The new kingdom’s seat, Ode-Itsekiri (Big Warri), is founded.",
+			"at": { "name": "Ode-Itsekiri (Big Warri) (approximate)", "point": [5.3, 5.55] },
+			"mark": "founded"
+		}
+	],
+	"sources": ["wikipedia-kingdom-of-warri", "owner-2026-10-07-doc1"],
+	"confidence": "medium"
+}

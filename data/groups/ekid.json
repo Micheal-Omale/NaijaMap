@@ -1,6 +1,44 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Uquo and Esit Eket",
+			"lga": "akwa-ibom-esit-eket",
+			"villages": [
+				{
+					"name": "Uquo"
+				},
+				{
+					"name": "Etebi"
+				},
+				{
+					"name": "Akoiyak"
+				},
+				{
+					"name": "Atia"
+				},
+				{
+					"name": "Ekpene Obo"
+				},
+				{
+					"name": "Ikpa"
+				},
+				{
+					"name": "Edo"
+				},
+				{
+					"name": "Ntak Iyang"
+				},
+				{
+					"name": "Ebe Ekpi"
+				}
+			],
+			"sources": [
+				"wikipedia-esit-eket"
+			],
+			"confidence": "medium"
+		}
+	],
 	"reviewNotes": [],
 	"name": "Ekid (Eket)",
 	"searchAliases": [

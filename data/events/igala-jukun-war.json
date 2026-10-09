@@ -1,0 +1,63 @@
+{
+	"name": "Ayegba’s war against the Jukun",
+	"status": "draft",
+	"kind": "war",
+	"year": 1700,
+	"yearLabel": "c. late 17th century",
+	"until": 1720,
+	"actors": [{ "name": "Jukun (Apa) army", "polity": "kwararafa", "side": "attacker" }, { "name": "Igala Kingdom", "polity": "igala", "side": "defender" }],
+	"summary": {
+		"text": "When Attah Ayegba Oma-Idoko refused the yearly tribute owed to the Aku Uka of Wukari, a Jukun army marched to bring Idah back to order. It camped by the Nachalo river and was destroyed there, and the survivors were chased toward Otukpo. Igala became sovereign, the Ogbadu festival still marks the victory, and Jukun sway west of the Benue confluence gave way to Igala.",
+		"sources": ["shaibu-2024", "yusufu-2020", "boston-1968"],
+		"confidence": "medium"
+	},
+	"routes": [
+		{
+			"kind": "advance",
+			"by": "Jukun (Apa) army",
+			"path": [[9.78, 7.87], [8.6, 7.6], [7.6, 7.3], [6.775, 7.135]],
+			"label": "The Jukun army marches to punish Idah",
+			"confidence": "disputed",
+			"note": "The route is not recorded."
+		},
+		{ "kind": "advance", "by": "Igala Kingdom", "path": [[6.775, 7.135], [7.4, 7.25], [8.02, 7.2]], "label": "Ayegba’s warriors pursue the Jukun to the outskirts of Otukpo" }
+	],
+	"moments": [
+		{
+			"when": "Before the war",
+			"title": "The tribute refused",
+			"text": "Ayegba stops the tribute to Wukari. Igala tradition says he sent the Aku Uka human waste in its place, an insult that made war certain.",
+			"at": { "name": "Wukari", "point": [9.78, 7.87] },
+			"mark": "camp",
+			"sources": ["shaibu-2024"]
+		},
+		{
+			"when": "Before the battle",
+			"title": "Princess Inikpi",
+			"text": "On the advice of the Ifa oracle and a Nupe mallam, Ayegba’s daughter Inikpi is buried alive by the Niger so that the kingdom will survive. Her shrine stands at Idah. Some traditions, including the late Attah Aliyu Obaje, place her sacrifice in the Benin war instead.",
+			"at": { "name": "Idah", "point": [6.737, 7.117] },
+			"mark": "shrine",
+			"confidence": "disputed",
+			"sources": ["shaibu-2024", "wikipedia-princess-inikpi"]
+		},
+		{
+			"when": "The battle",
+			"title": "The Nachalo camp",
+			"text": "The Jukun camp on the Nachalo river, the natural line of their advance. Tradition says its waters were charmed and the soldiers who ate its fish sickened; Ayegba’s warriors fell on the rest. The dead were buried in nine pits, the Ogbudu mela, near the river.",
+			"at": { "name": "The Nachalo river camp, near Idah (approximate)", "point": [6.775, 7.135] },
+			"mark": "battle",
+			"sources": ["shaibu-2024"]
+		},
+		{
+			"when": "After the battle",
+			"title": "Pursued to Otukpo",
+			"text": "Those who fled were pursued as far as the outskirts of present-day Otukpo. The road east of the confluence now lay open to Igala tribute collectors.",
+			"at": { "name": "Outskirts of Otukpo", "point": [8.02, 7.2] },
+			"mark": "flight",
+			"sources": ["shaibu-2024"]
+		}
+	],
+	"sources": ["shaibu-2024", "yusufu-2020", "boston-1968", "wikipedia-princess-inikpi"],
+	"confidence": "medium",
+	"note": "Known from Igala tradition. The date follows Ayegba’s reign, late 17th century in most readings; the Jukun line of march is not recorded."
+}

@@ -1,0 +1,63 @@
+{
+	"status": "draft",
+	"of": "polity",
+	"terrain": "savanna",
+	"summary": {
+		"text": "Katsina, a great trading city, fought with Hausa horsemen from inside its walls.",
+		"sources": [
+			"wikipedia-hausa-kingdoms",
+			"usman-1981"
+		],
+		"confidence": "medium"
+	},
+	"arms": [
+		{
+			"kind": "cavalry",
+			"level": 2,
+			"text": "Hausa horsemen.",
+			"sources": [
+				"usman-1981",
+				"law-1980-horse"
+			],
+			"confidence": "medium"
+		},
+		{
+			"kind": "walls",
+			"level": 2,
+			"text": "A walled city.",
+			"sources": [
+				"wikipedia-hausa-kingdoms",
+				"usman-1981"
+			],
+			"confidence": "medium"
+		}
+	],
+	"record": [
+		{
+			"year": 1680,
+			"polity": "kwararafa",
+			"against": "Kwararafa",
+			"result": "lost",
+			"text": "Kwararafa assaulted Katsina.",
+			"sources": [
+				"wikipedia-kwararafa"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1807,
+			"polity": "sokoto",
+			"event": "fulani-jihad",
+			"against": "The Sokoto jihad",
+			"result": "lost",
+			"text": "Katsina fell to the jihad.",
+			"sources": [
+				"wikipedia-fulani-war"
+			],
+			"confidence": "high"
+		}
+	],
+	"reviewNotes": [
+		"Arms levels (1 some, 2 a real strength, 3 famous for it) are the compiler’s judgement from the sources, for the Versus page’s guess; please check them."
+	]
+}

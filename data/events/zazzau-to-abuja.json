@@ -1,0 +1,117 @@
+{
+	"name": "The Hausa kings of Zazzau go into exile",
+	"status": "draft",
+	"kind": "migration",
+	"year": 1808,
+	"yearLabel": "1808–1828",
+	"until": 1835,
+	"actors": [
+		{
+			"name": "Hausa court of Zazzau",
+			"polity": "zazzau",
+			"side": "migrant"
+		},
+		{
+			"name": "Jihad forces under Malam Musa",
+			"polity": "sokoto",
+			"side": "attacker"
+		}
+	],
+	"summary": {
+		"text": "When the jihad took Zaria in December 1808, Sarkin Zazzau Muhammadu Makau led much of the Hausa nobility south to Zuba, one of four Koro chiefdoms that paid Zazzau tribute. In 1828 his brother and successor Abu Ja (Jatau) founded a new town, Abuja, walled it the next year, and reigned there as Sarkin Zazzau. Fulani Zaria attacked it repeatedly and failed; the kingdom stayed free until the British occupied it in 1902.",
+		"sources": [
+			"wikipedia-suleja-emirate",
+			"wikipedia-kingdom-of-zazzau"
+		],
+		"confidence": "high"
+	},
+	"routes": [
+		{
+			"kind": "exile",
+			"by": "Hausa court of Zazzau",
+			"path": [
+				[
+					7.7,
+					11.07
+				],
+				[
+					7.45,
+					10
+				],
+				[
+					7.216,
+					9.091
+				],
+				[
+					7.18,
+					9.18
+				]
+			],
+			"label": "From Zaria to Zuba, then Abuja",
+			"sources": [
+				"wikipedia-suleja-emirate"
+			],
+			"confidence": "medium"
+		}
+	],
+	"moments": [
+		{
+			"when": "December 1808",
+			"title": "Zaria falls",
+			"text": "Malam Musa takes Zaria for the jihad.",
+			"at": {
+				"name": "Zaria",
+				"point": [
+					7.7,
+					11.07
+				]
+			},
+			"mark": "captured",
+			"sources": [
+				"wikipedia-suleja-emirate",
+				"wikipedia-kingdom-of-zazzau"
+			],
+			"confidence": "high"
+		},
+		{
+			"when": "1808",
+			"title": "Refuge at Zuba",
+			"text": "Makau settles among the Koro at Zuba.",
+			"at": {
+				"name": "Zuba",
+				"point": [
+					7.216,
+					9.091
+				]
+			},
+			"mark": "exile",
+			"sources": [
+				"wikipedia-suleja-emirate"
+			],
+			"confidence": "high"
+		},
+		{
+			"when": "1828",
+			"title": "Abuja founded",
+			"text": "Abu Ja founds Abuja, today's Suleja, and walls it in 1829.",
+			"at": {
+				"name": "Abuja (now Suleja)",
+				"point": [
+					7.18,
+					9.18
+				]
+			},
+			"mark": "founded",
+			"sources": [
+				"wikipedia-suleja-emirate"
+			],
+			"confidence": "high"
+		}
+	],
+	"sources": [
+		"wikipedia-suleja-emirate",
+		"wikipedia-kingdom-of-zazzau"
+	],
+	"confidence": "high",
+	"reviewNotes": []
+}

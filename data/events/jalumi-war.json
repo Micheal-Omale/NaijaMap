@@ -1,0 +1,114 @@
+{
+	"name": "The Jalumi war (battle of Ikirun)",
+	"status": "draft",
+	"kind": "war",
+	"year": 1878,
+	"yearLabel": "1 November 1878",
+	"until": 1880,
+	"actors": [
+		{
+			"name": "Ibadan",
+			"polity": "ibadan",
+			"side": "attacker"
+		},
+		{
+			"name": "Ekitiparapo, Ijesa and Ila",
+			"polity": "ekitiparapo",
+			"side": "defender"
+		},
+		{
+			"name": "Ilorin",
+			"polity": "sokoto",
+			"side": "ally"
+		}
+	],
+	"summary": {
+		"text": "In 1878 the Ekiti under Fabunmi, the Ila under Prince Adeyale and the Ijesa, with an Ilorin army under the Ajia, besieged Ikirun, an Ibadan ally. Ibadan's army, back on 14 October from a campaign at Meko, marched in the height of the rains; many drowned crossing the Otin and the Osun. On 1 November Balogun Ogboriefon left his rival the Osi Ilori to hold Ikirun, destroyed the Ijesa at Iba, then came back, routed the Ilorin camp and the Ekiti and Ila. The people of Ofa cut the bridge over the Otin behind the retreating Ilorin army, and thousands of men, women and horses drowned in the flood: “Jalumi”.",
+		"sources": [
+			"wikipedia-jalumi-war"
+		],
+		"confidence": "high"
+	},
+	"routes": [
+		{
+			"kind": "advance",
+			"by": "Ibadan",
+			"path": [
+				[
+					3.9,
+					7.39
+				],
+				[
+					4.56,
+					7.77
+				],
+				[
+					4.67,
+					7.91
+				]
+			],
+			"label": "Ibadan's relief march through the floods",
+			"sources": [
+				"wikipedia-jalumi-war"
+			]
+		},
+		{
+			"kind": "retreat",
+			"by": "Ilorin",
+			"path": [
+				[
+					4.67,
+					7.91
+				],
+				[
+					4.75,
+					7.97
+				],
+				[
+					4.65,
+					8.1
+				]
+			],
+			"label": "Ilorin's army driven into the Otin",
+			"sources": [
+				"wikipedia-jalumi-war"
+			],
+			"confidence": "medium"
+		}
+	],
+	"moments": [
+		{
+			"when": "1 November 1878",
+			"title": "Iba and Ikirun",
+			"text": "Ogboriefon destroys the Ijesa, then the Ilorin, Ekiti and Ila.",
+			"at": {
+				"name": "Ikirun",
+				"point": [
+					4.67,
+					7.91
+				]
+			},
+			"mark": "battle",
+			"sources": [
+				"wikipedia-jalumi-war"
+			],
+			"confidence": "high"
+		},
+		{
+			"when": "1 November 1878",
+			"title": "Drowned in the Otin",
+			"text": "With the bridge cut, thousands drown in the flooded river.",
+			"mark": "massacre",
+			"sources": [
+				"wikipedia-jalumi-war"
+			],
+			"confidence": "high"
+		}
+	],
+	"sources": [
+		"wikipedia-jalumi-war"
+	],
+	"confidence": "high",
+	"note": "The drowning is told but not placed; the Otin crossing is not located.",
+	"reviewNotes": []
+}

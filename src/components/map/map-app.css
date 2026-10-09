@@ -247,6 +247,107 @@
 	font-size: 0.9375rem;
 }
 
+/* The empty bar suggests what to type: "Try Igbo", then Igala, Hausa, a language family. */
+.search__hint {
+	position: absolute;
+	left: 47px;
+	top: 50%;
+	transform: translateY(-50%);
+	display: flex;
+	gap: 0.3em;
+	overflow: hidden;
+	max-width: calc(100% - 60px);
+	color: var(--ink-faint);
+	font-size: 1rem;
+	white-space: nowrap;
+	pointer-events: none;
+}
+
+.search__example {
+	display: inline-block;
+	color: var(--ink-muted);
+	animation: search-example-in 0.5s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+}
+
+@keyframes search-example-in {
+	from {
+		opacity: 0;
+		transform: translateY(70%);
+	}
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.search__example {
+		animation: none;
+	}
+}
+
+/* A language family in the results: a small family tree before its name. */
+.search__kind {
+	flex: none;
+	align-self: center;
+	width: 18px;
+	height: 18px;
+	fill: none;
+	stroke: var(--accent);
+	stroke-width: 1.6;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+}
+
+.search__option--family .search__family {
+	color: var(--accent);
+}
+
+/* The family a people's language belongs to opens that family. */
+.profile__family-link {
+	padding: 0;
+	border: 0;
+	background: none;
+	color: inherit;
+	font: inherit;
+	letter-spacing: inherit;
+	text-transform: inherit;
+	text-decoration: underline;
+	text-decoration-color: color-mix(in srgb, currentColor 40%, transparent);
+	text-underline-offset: 3px;
+	cursor: pointer;
+}
+
+.profile__family-link:hover {
+	color: var(--accent);
+}
+
+.facts .link-button {
+	min-height: 0;
+	font-weight: 500;
+}
+
+/* A language family's page. */
+.family__lineage {
+	margin: 0 0 18px;
+	color: var(--ink-muted);
+	font-size: 0.875rem;
+	line-height: 1.7;
+}
+
+.family__lineage .link-button {
+	min-height: 0;
+	font-weight: 500;
+}
+
+.family__lineage strong {
+	color: var(--ink);
+}
+
+.family__h {
+	margin: 18px 0 8px;
+	font-family: var(--font-body);
+	font-size: 0.875rem;
+	font-weight: 600;
+	color: var(--ink-muted);
+}
+
 /* Intro, shown before anything is chosen */
 
 .intro__tagline {
@@ -675,139 +776,7 @@
 	font-size: 11px;
 }
 
-/* Phones and small tablets */
-
-@media (max-width: 899px) {
-	.app {
-		display: block;
-	}
-
-	.map-region {
-		position: absolute;
-		inset: 0;
-	}
-
-	.panel {
-		position: absolute;
-		inset: 0;
-		background: none;
-		border: 0;
-		pointer-events: none;
-	}
-
-	.topbar {
-		flex-direction: row;
-		align-items: center;
-		gap: 10px;
-		padding: max(12px, env(safe-area-inset-top)) 12px 12px;
-		border: 0;
-		background: linear-gradient(var(--bg) 40%, transparent);
-		pointer-events: auto;
-	}
-
-	.brand__name {
-		display: none;
-	}
-
-	.brand {
-		align-self: center;
-		padding: 13px;
-		border-radius: 50%;
-		background: var(--surface);
-		box-shadow: var(--shadow);
-	}
-
-	.search {
-		flex: 1;
-	}
-
-	.search__input {
-		background: var(--surface);
-		box-shadow: var(--shadow);
-	}
-
-	.sheet {
-		position: absolute;
-		left: 0;
-		right: 0;
-		bottom: 0;
-		flex: none;
-		max-height: 72dvh;
-		padding: 8px 16px max(16px, env(safe-area-inset-bottom));
-		background: var(--surface);
-		border-radius: 20px 20px 0 0;
-		box-shadow: 0 -4px 24px rgb(0 0 0 / 14%);
-		pointer-events: auto;
-		transition: max-height 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
-	}
-
-	.app[data-sheet='none'] .sheet {
-		padding-top: 16px;
-		/* With 50 groups the intro list is long: keep most of the map visible and let the list scroll. */
-		max-height: 32dvh;
-		overflow-y: auto;
-	}
-
-	.app[data-sheet='peek'] .sheet {
-		max-height: 30dvh;
-		overflow: hidden;
-	}
-
-	.app[data-sheet='peek'] .sheet::after {
-		content: '';
-		position: absolute;
-		left: 0;
-		right: 0;
-		bottom: 0;
-		height: 48px;
-		background: linear-gradient(transparent, var(--surface));
-		pointer-events: none;
-	}
-
-	.sheet__handle {
-		display: grid;
-		place-items: center;
-		width: 100%;
-		height: 28px;
-		margin-bottom: 4px;
-		padding: 0;
-		border: 0;
-		background: none;
-		cursor: pointer;
-	}
-
-	.sheet__grip {
-		width: 40px;
-		height: 5px;
-		border-radius: 3px;
-		background: var(--rule);
-	}
-
-	.intro__tagline {
-		font-size: 1.125rem;
-		margin-bottom: 12px;
-	}
-
-	.intro__note {
-		margin-top: 12px;
-		padding-top: 10px;
-	}
-
-	.profile__name {
-		font-size: 1.75rem;
-	}
-
-	/* Pinch zooms on phones; the buttons would sit under the search bar. */
-	.map-region .maplibregl-ctrl-top-right {
-		display: none;
-	}
-
-	/* Credits move to the top right, clear of the bottom sheet. */
-	.map-region .maplibregl-ctrl-bottom-right {
-		top: calc(max(12px, env(safe-area-inset-top)) + 56px);
-		bottom: auto;
-	}
-}
+/* Phone layout: see mobile.css. */
 
 /* Place brief and community card (tapped LGA or dot) */
 

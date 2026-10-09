@@ -264,7 +264,7 @@
 			"year": 1380,
 			"yearLabel": "c. 1380",
 			"title": "Driven out of Kanem",
-			"text": "The Bilala drive the Sayfawa out of Kanem. The court moves west into Bornu and wanders for about a century without a fixed capital.",
+			"text": "The Bilala drive the Sayfawa out of Kanem. The court moves west into Bornu and wanders for about a century without a fixed capital. The royal chronicle says the Bilala, allied with the Tubu, killed Mai Dawud; al-Maqrizi, writing around 1400, says Kanem's people had “renounced the faith” while Bornu stayed Muslim.",
 			"core": {
 				"lgas": [
 					"borno-kukawa",
@@ -283,10 +283,29 @@
 			},
 			"sources": [
 				"wikipedia-kanem-bornu",
-				"barkindo-1980"
+				"barkindo-1980",
+				"wikipedia-bilala"
 			],
 			"confidence": "medium",
-			"note": "Extent during the era of instability is poorly known."
+			"note": "Extent during the era of instability is poorly known.",
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Lake Fitri (the Bilala)",
+						"point": [
+							17.5,
+							12.83
+						]
+					},
+					"label": "Driven out by the Bilala",
+					"sources": [
+						"wikipedia-bilala",
+						"wikipedia-kanem-bornu"
+					],
+					"confidence": "high"
+				}
+			]
 		},
 		{
 			"year": 1472,
@@ -364,13 +383,31 @@
 				"wikipedia-kanem-bornu",
 				"wikipedia-ngazargamu"
 			],
-			"confidence": "high"
+			"confidence": "high",
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Lake Fitri (the Bilala)",
+						"point": [
+							17.5,
+							12.83
+						]
+					},
+					"label": "Idris Katagarmabe retakes Kanem from the Bilala",
+					"sources": [
+						"wikipedia-kanem-bornu",
+						"wikipedia-bilala"
+					],
+					"confidence": "medium"
+				}
+			]
 		},
 		{
 			"year": 1580,
 			"yearLabel": "c. 1580",
 			"title": "Idris Alooma: the imperial height",
-			"text": "Mai Idris Alooma (c. 1564–1596) arms his army with Turkish musketeers and an Ottoman alliance. Bornu's sphere reaches from Hausaland to the Bahr el Ghazal, and from south of Lake Chad to the Fezzan. Kano pays tribute.",
+			"text": "Mai Idris Alooma (c. 1570–1603) ends the long war with the Bilala, brings the Tuareg of Aïr and the Tubu of Bilma and Tibesti under Bornu, and so commands the central Saharan routes. He sets up qadi courts independent of the court, arms his army with Turkish musketeers, and plays the Ottomans against Morocco over the Fezzan, whose Ottoman garrison is massacred in the 1580s. His chief imam, Ahmad ibn Fartuwa, records his first twelve years. Kano pays tribute; in 1614 Bornu installs a king of Mandara.",
 			"capital": {
 				"name": "Ngazargamu",
 				"point": [
@@ -587,19 +624,425 @@
 						]
 					},
 					"label": "Fezzan and Tripoli (Ottoman alliance)"
+				},
+				{
+					"kind": "war",
+					"to": {
+						"name": "Lake Fitri (the Bilala)",
+						"point": [
+							17.5,
+							12.83
+						]
+					},
+					"label": "The Bilala wars ended",
+					"sources": [
+						"wikipedia-idris-alooma"
+					],
+					"confidence": "high"
+				},
+				{
+					"kind": "tribute",
+					"to": {
+						"name": "Agadez",
+						"point": [
+							7.99,
+							16.97
+						]
+					},
+					"label": "Tuareg of Aïr brought under Bornu",
+					"sources": [
+						"wikipedia-idris-alooma"
+					],
+					"confidence": "high"
+				},
+				{
+					"kind": "tribute",
+					"to": {
+						"name": "Bilma (Kawar oases)",
+						"point": [
+							12.92,
+							18.69
+						]
+					},
+					"label": "Tubu of Bilma and the salt road",
+					"sources": [
+						"wikipedia-idris-alooma"
+					],
+					"confidence": "high"
+				},
+				{
+					"kind": "trade",
+					"to": {
+						"name": "Fezzan (Murzuq)",
+						"point": [
+							13.92,
+							25.92
+						]
+					},
+					"label": "Envoys to Istanbul and Morocco over the Fezzan",
+					"sources": [
+						"wikipedia-idris-alooma"
+					],
+					"confidence": "high"
+				},
+				{
+					"kind": "tribute",
+					"to": {
+						"name": "Katsina",
+						"point": [
+							7.6,
+							12.99
+						]
+					},
+					"label": "Hausaland under Bornu's influence",
+					"sources": [
+						"wikipedia-idris-alooma",
+						"wikipedia-history-of-katsina"
+					],
+					"confidence": "medium"
 				}
 			],
 			"sources": [
-				"wikipedia-kanem-bornu",
-				"barkindo-1980",
-				"ajayi-crowder-1985"
+				"wikipedia-idris-alooma",
+				"wikipedia-kanem-bornu"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1650,
+			"yearLabel": "c. 1650–1780",
+			"title": "Kwararafa at the gates; Katsina's patron",
+			"text": "Mai Ali ibn Umar (c. 1645–1680), who makes the pilgrimage three times, finds Ngazargamu besieged by Kwararafa and the Tuareg together, sets the two armies against each other and beats both. Katsina sends every new king's tribute of a hundred slaves, and by the late 18th century even Kwararafa pays Bornu tribute. Famines, remembered by names such as Dala Dama, strike the long reign.",
+			"capital": {
+				"name": "Ngazargamu",
+				"point": [
+					12.367,
+					13.083
+				]
+			},
+			"core": {
+				"states": [
+					"yobe"
+				],
+				"lgas": [
+					"borno-kukawa",
+					"borno-monguno",
+					"borno-marte",
+					"borno-ngala",
+					"borno-kala-balge",
+					"borno-dikwa",
+					"borno-mafa",
+					"borno-nganzai",
+					"borno-abadam",
+					"borno-mobbar",
+					"borno-guzamala",
+					"borno-gubio",
+					"borno-magumeri",
+					"borno-kaga",
+					"borno-konduga",
+					"borno-jere",
+					"borno-maiduguri",
+					"borno-bama",
+					"borno-damboa",
+					"borno-gwoza",
+					"jigawa-hadejia",
+					"jigawa-kiri-kasama",
+					"jigawa-guri",
+					"jigawa-biriniwa",
+					"jigawa-malam-madori",
+					"jigawa-kafin-hausa",
+					"jigawa-auyo",
+					"jigawa-kaugama"
+				],
+				"beyond": [
+					[
+						[
+							13.6,
+							13.4
+						],
+						[
+							15,
+							12.9
+						],
+						[
+							16.6,
+							13.3
+						],
+						[
+							17.6,
+							14.6
+						],
+						[
+							17,
+							15.9
+						],
+						[
+							15.4,
+							16
+						],
+						[
+							14,
+							15.1
+						]
+					],
+					[
+						[
+							12.6,
+							12.6
+						],
+						[
+							14.6,
+							11.9
+						],
+						[
+							15.2,
+							12.6
+						],
+						[
+							15,
+							13.6
+						],
+						[
+							14,
+							14.4
+						],
+						[
+							12.6,
+							14.1
+						]
+					],
+					[
+						[
+							13.6,
+							10.6
+						],
+						[
+							14.6,
+							10.8
+						],
+						[
+							15.1,
+							11.9
+						],
+						[
+							14.4,
+							12.6
+						],
+						[
+							13.6,
+							12.2
+						]
+					]
+				]
+			},
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Kwararafa (Biepi, near Ibi)",
+						"point": [
+							9.75,
+							8.18
+						]
+					},
+					"label": "Kwararafa's siege broken",
+					"sources": [
+						"wikipedia-ali-iii-bornu"
+					],
+					"confidence": "high"
+				},
+				{
+					"kind": "tribute",
+					"to": {
+						"name": "Katsina",
+						"point": [
+							7.6,
+							12.99
+						]
+					},
+					"label": "100 slaves from each new Sarkin Katsina",
+					"sources": [
+						"wikipedia-history-of-katsina"
+					],
+					"confidence": "high"
+				},
+				{
+					"kind": "tribute",
+					"to": {
+						"name": "Kwararafa (Biepi, near Ibi)",
+						"point": [
+							9.75,
+							8.18
+						]
+					},
+					"label": "Kwararafa's tribute (late 18th century)",
+					"sources": [
+						"wikipedia-kwararafa"
+					],
+					"confidence": "medium"
+				}
+			],
+			"sources": [
+				"wikipedia-ali-iii-bornu",
+				"wikipedia-history-of-katsina",
+				"wikipedia-kanem-bornu"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1781,
+			"yearLabel": "c. 1781–1808",
+			"title": "Beaten by Mandara",
+			"text": "Around 1781 the Mandara kingdom, once installed by Bornu, defeats a Bornu army in a major battle and takes tribute from some 15 chiefdoms of its own. Bornu's grip on its edges loosens just as the Fulani of its western provinces begin to stir.",
+			"capital": {
+				"name": "Ngazargamu",
+				"point": [
+					12.367,
+					13.083
+				]
+			},
+			"core": {
+				"states": [
+					"yobe"
+				],
+				"lgas": [
+					"borno-kukawa",
+					"borno-monguno",
+					"borno-marte",
+					"borno-ngala",
+					"borno-kala-balge",
+					"borno-dikwa",
+					"borno-mafa",
+					"borno-nganzai",
+					"borno-abadam",
+					"borno-mobbar",
+					"borno-guzamala",
+					"borno-gubio",
+					"borno-magumeri",
+					"borno-kaga",
+					"borno-konduga",
+					"borno-jere",
+					"borno-maiduguri",
+					"borno-bama",
+					"borno-damboa",
+					"borno-gwoza",
+					"jigawa-hadejia",
+					"jigawa-kiri-kasama",
+					"jigawa-guri",
+					"jigawa-biriniwa",
+					"jigawa-malam-madori",
+					"jigawa-kafin-hausa",
+					"jigawa-auyo",
+					"jigawa-kaugama"
+				],
+				"beyond": [
+					[
+						[
+							13.6,
+							13.4
+						],
+						[
+							15,
+							12.9
+						],
+						[
+							16.6,
+							13.3
+						],
+						[
+							17.6,
+							14.6
+						],
+						[
+							17,
+							15.9
+						],
+						[
+							15.4,
+							16
+						],
+						[
+							14,
+							15.1
+						]
+					],
+					[
+						[
+							12.6,
+							12.6
+						],
+						[
+							14.6,
+							11.9
+						],
+						[
+							15.2,
+							12.6
+						],
+						[
+							15,
+							13.6
+						],
+						[
+							14,
+							14.4
+						],
+						[
+							12.6,
+							14.1
+						]
+					],
+					[
+						[
+							13.6,
+							10.6
+						],
+						[
+							14.6,
+							10.8
+						],
+						[
+							15.1,
+							11.9
+						],
+						[
+							14.4,
+							12.6
+						],
+						[
+							13.6,
+							12.2
+						]
+					]
+				]
+			},
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Dulo (Mandara)",
+						"point": [
+							14.07,
+							11.02
+						]
+					},
+					"label": "Defeated by Mandara (c. 1781)",
+					"sources": [
+						"wikipedia-mandara"
+					],
+					"confidence": "high"
+				}
+			],
+			"sources": [
+				"wikipedia-mandara",
+				"wikipedia-kanem-bornu"
 			],
 			"confidence": "medium"
 		},
 		{
 			"year": 1808,
 			"title": "The jihad takes Ngazargamu",
-			"text": "Fulani forces of the Sokoto jihad sack Ngazargamu in 1808. The western provinces (Hadejia, Katagum, Misau) are lost to Sokoto. Muhammad al-Kanemi, a scholar from Kanem, rallies the defence and becomes the real power in Bornu.",
+			"text": "Fulani in Daura and Bornu's western provinces rise for the jihad. Mai Ahmad sends help to Daura and writes to Usman dan Fodio that his people are Muslims; dan Fodio's side replies with war. In 1808 the Fulani take Ngazargamu and the blind mai abdicates. At Ngala a scholar from Kanem, Muhammad al-Amin al-Kanemi, beats off the jihadists with his students and Kanembu and Shuwa Arab soldiers, then helps Mai Dunama win back the capital. Hadejia, Katagum and Misau are lost to Sokoto for good.",
 			"core": {
 				"lgas": [
 					"borno-kukawa",
@@ -669,12 +1112,26 @@
 						]
 					},
 					"label": "War with the Sokoto jihad"
+				},
+				{
+					"kind": "war",
+					"to": {
+						"name": "Ngala",
+						"point": [
+							14.18,
+							12.34
+						]
+					},
+					"label": "Al-Kanemi holds Ngala",
+					"sources": [
+						"wikipedia-al-kanemi"
+					],
+					"confidence": "high"
 				}
 			],
 			"sources": [
-				"wikipedia-kanem-bornu",
-				"brenner-1973",
-				"last-1967"
+				"wikipedia-al-kanemi",
+				"wikipedia-kanem-bornu"
 			],
 			"confidence": "high"
 		},
@@ -787,12 +1244,180 @@
 				"wikipedia-kanem-bornu",
 				"brenner-1973"
 			],
+			"confidence": "high",
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Sokoto",
+						"point": [
+							5.24,
+							13.06
+						]
+					},
+					"label": "Al-Kanemi's war of letters and arms with Sokoto",
+					"sources": [
+						"wikipedia-al-kanemi",
+						"wikipedia-ibrahim-dabo"
+					],
+					"confidence": "medium"
+				},
+				{
+					"kind": "war",
+					"to": {
+						"name": "Kano",
+						"point": [
+							8.52,
+							12
+						]
+					},
+					"label": "Al-Kanemi's army fails before the walls of Kano",
+					"sources": [
+						"wikipedia-ibrahim-dabo"
+					],
+					"confidence": "medium"
+				}
+			]
+		},
+		{
+			"year": 1846,
+			"yearLabel": "1846–1893",
+			"title": "The end of the Sayfawa",
+			"text": "Mai Ibrahim tries to win back power from Shehu Umar Kura with an army from Wadai, which captures and destroys Kuka. Ibrahim and his son are defeated, the old mai's capital Kafela is razed, and the thousand-year Sayfawa line ends. Umar Kura rebuilds his seat as Kukawa, twin towns inside a six-metre wall, home to 60,000 or more people at the end of the trade road to Tripoli; Barth visits in 1851.",
+			"capital": {
+				"name": "Kukawa",
+				"point": [
+					13.57,
+					12.93
+				]
+			},
+			"core": {
+				"lgas": [
+					"borno-kukawa",
+					"borno-monguno",
+					"borno-marte",
+					"borno-ngala",
+					"borno-kala-balge",
+					"borno-dikwa",
+					"borno-mafa",
+					"borno-nganzai",
+					"borno-abadam",
+					"borno-mobbar",
+					"borno-guzamala",
+					"borno-gubio",
+					"borno-magumeri",
+					"borno-kaga",
+					"borno-konduga",
+					"borno-jere",
+					"borno-maiduguri",
+					"borno-bama",
+					"borno-damboa",
+					"yobe-yunusari",
+					"yobe-yusufari",
+					"yobe-geidam",
+					"yobe-bursari",
+					"yobe-machina",
+					"yobe-karasuwa",
+					"yobe-nguru",
+					"yobe-bade",
+					"yobe-damaturu",
+					"yobe-tarmuwa",
+					"yobe-gujba"
+				],
+				"beyond": [
+					[
+						[
+							12.6,
+							12.6
+						],
+						[
+							14.6,
+							11.9
+						],
+						[
+							15.2,
+							12.6
+						],
+						[
+							15,
+							13.6
+						],
+						[
+							14,
+							14.4
+						],
+						[
+							12.6,
+							14.1
+						]
+					],
+					[
+						[
+							13.6,
+							10.6
+						],
+						[
+							14.6,
+							10.8
+						],
+						[
+							15.1,
+							11.9
+						],
+						[
+							14.4,
+							12.6
+						],
+						[
+							13.6,
+							12.2
+						]
+					]
+				]
+			},
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Abeche (Wadai)",
+						"point": [
+							20.83,
+							13.83
+						]
+					},
+					"label": "Wadai's army sacks Kuka",
+					"sources": [
+						"wikipedia-kukawa"
+					],
+					"confidence": "high"
+				},
+				{
+					"kind": "trade",
+					"to": {
+						"name": "Fezzan (Murzuq)",
+						"point": [
+							13.92,
+							25.92
+						]
+					},
+					"label": "The caravan road to Tripoli",
+					"sources": [
+						"wikipedia-kukawa"
+					],
+					"confidence": "high"
+				}
+			],
+			"sources": [
+				"wikipedia-kukawa",
+				"wikipedia-al-kanemi",
+				"wikipedia-kanem-bornu"
+			],
 			"confidence": "high"
 		},
 		{
 			"year": 1893,
 			"title": "Rabih az-Zubayr conquers Bornu",
-			"text": "The Sudanese warlord Rabih takes Kukawa and rules Bornu from Dikwa until French forces kill him at Kousséri in 1900. The Shehus return under colonial rule, and in 1902 Bornu is split between Britain, Germany and France.",
+			"text": "Rabih az-Zubayr, a Sudanese warlord whose army of rifles had grown from 400 men to thousands, destroys Kukawa in May 1893 and rules Bornu from Dikwa with a brutal tax system. He kills a French column at Togbao in 1899, and on 22 April 1900 a French army with Bagirmi allies kills him at Kousséri. The al-Kanemi shehus return under French, then British and German rule, and in 1902 Bornu is split: British Borno at Kukawa and later Maiduguri, German Borno at Dikwa.",
 			"capital": {
 				"name": "Dikwa",
 				"point": [
@@ -859,9 +1484,30 @@
 				]
 			},
 			"sources": [
-				"wikipedia-kanem-bornu"
+				"wikipedia-rabih",
+				"wikipedia-battle-of-kousseri",
+				"wikipedia-kukawa",
+				"wikipedia-dikwa-emirate"
 			],
-			"confidence": "high"
+			"confidence": "high",
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Kousseri",
+						"point": [
+							15.03,
+							12.08
+						]
+					},
+					"label": "Rabih killed by the French (1900)",
+					"sources": [
+						"wikipedia-battle-of-kousseri",
+						"wikipedia-rabih"
+					],
+					"confidence": "high"
+				}
+			]
 		}
 	],
 	"today": {
@@ -881,6 +1527,7 @@
 	},
 	"reviewNotes": [
 		"Njimi has never been located; the capital point is a placeholder in Kanem.",
-		"Outside Nigeria the rings are rough, drawn from text descriptions (Kanem, Kawar, Fezzan). Check them against Ajayi and Crowder's Historical Atlas of Africa before publishing."
+		"Outside Nigeria the rings are rough, drawn from text descriptions (Kanem, Kawar, Fezzan). Check them against Ajayi and Crowder's Historical Atlas of Africa before publishing.",
+		"Lake Fitri, Bilma, Murzuq, Abeche and Dulo are placed at modern towns or lakes outside Nigeria; Tripoli is beyond the map, so Murzuq stands for the road north."
 	]
 }

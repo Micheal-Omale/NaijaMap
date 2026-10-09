@@ -205,9 +205,373 @@
 			"confidence": "medium"
 		}
 	],
-	"communities": [],
+	"communities": [
+		{
+			"name": "Bida",
+			"lga": "niger-bida",
+			"point": [
+				6.01,
+				9.085
+			],
+			"villages": [],
+			"sources": [
+				"sidi-2023-nupe",
+				"wikipedia-bida-emirate"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "A Bini city-state that became the Nupe capital in 1857, when Dendo's heirs defeated the usurper Umaru Bahaushe there; seat of the Etsu Nupe.",
+				"sources": [
+					"sidi-2023-nupe"
+				],
+				"confidence": "high"
+			},
+			"livelihoods": {
+				"text": "Famed for brass, glass beads, weaving and smithing; Nadel called its court a “Black Byzantium”.",
+				"sources": [
+					"nadel-1942",
+					"wikipedia-nupe-people"
+				],
+				"confidence": "medium"
+			}
+		},
+		{
+			"name": "Nku and Nupeko",
+			"lga": "niger-lavun",
+			"point": [
+				5.81,
+				8.828
+			],
+			"villages": [
+				{
+					"name": "Nku",
+					"point": [
+						5.81,
+						8.828
+					]
+				},
+				{
+					"name": "Nupeko",
+					"point": [
+						5.801,
+						8.776
+					]
+				},
+				{
+					"name": "Gbara Village",
+					"point": [
+						5.852,
+						8.938
+					]
+				},
+				{
+					"name": "Kutigi",
+					"point": [
+						5.595,
+						9.202
+					]
+				}
+			],
+			"sources": [
+				"sidi-2023-nupe",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Tsoede was born at Nku to a Nupe mother and an Igala prince; he ruled first from Nupeko and then from Gbara, among the Bini city-states of the heartland.",
+				"sources": [
+					"sidi-2023-nupe"
+				],
+				"confidence": "medium"
+			}
+		},
+		{
+			"name": "Raba and Mokwa",
+			"lga": "niger-mokwa",
+			"point": [
+				5.03,
+				9.211
+			],
+			"villages": [
+				{
+					"name": "Mokwa",
+					"point": [
+						5.054,
+						9.295
+					]
+				},
+				{
+					"name": "Jebba",
+					"point": [
+						4.807,
+						9.145
+					]
+				}
+			],
+			"sources": [
+				"sidi-2023-nupe",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Raba was the capital of Majiya II from 1796 and of Mallam Dendo until 1833; the general Yikanko held Mokwa until about 1810.",
+				"sources": [
+					"sidi-2023-nupe"
+				],
+				"confidence": "medium"
+			}
+		},
+		{
+			"name": "Agaie",
+			"lga": "niger-agaie",
+			"point": [
+				6.32,
+				9.01
+			],
+			"villages": [
+				{
+					"name": "Baro",
+					"point": [
+						6.423,
+						8.611
+					]
+				}
+			],
+			"sources": [
+				"wikipedia-agaie-emirate",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Seat of a Nupe emirate founded by the Fulani scholar Malam Baba, who conquered the area in 1822; his son Abdullahi became the first emir in 1832. Baro on the Niger later became a railway port.",
+				"sources": [
+					"wikipedia-agaie-emirate"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Lapai",
+			"lga": "niger-lapai",
+			"point": [
+				6.575,
+				9.038
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-lapai-emirate",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "A Gbari land that Nupe took in the 1790s; Daudu Maza founded the Lapai emirate around 1825–1828.",
+				"sources": [
+					"wikipedia-lapai-emirate"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Pategi",
+			"lga": "kwara-pategi",
+			"point": [
+				5.756,
+				8.733
+			],
+			"villages": [
+				{
+					"name": "Lade",
+					"point": [
+						5.617,
+						8.758
+					]
+				}
+			],
+			"sources": [
+				"wikipedia-pategi",
+				"sidi-2023-nupe",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "The Yissazhi, heirs of the old Tsoede line, were given their own emirate at Pategi after 1897; Masaba had his capital at nearby Lade from 1835. The Pategi Regatta on the Niger has been held since 1953.",
+				"sources": [
+					"wikipedia-pategi",
+					"sidi-2023-nupe"
+				],
+				"confidence": "high"
+			},
+			"livelihoods": {
+				"text": "Farming on the Niger floodplain (cassava, rice, millet, guinea corn), fishing and trade.",
+				"sources": [
+					"wikipedia-pategi"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Lafiagi and Shonga",
+			"lga": "kwara-edu",
+			"point": [
+				5.418,
+				8.854
+			],
+			"villages": [
+				{
+					"name": "Shonga",
+					"point": [
+						5.151,
+						9.021
+					]
+				}
+			],
+			"sources": [
+				"sidi-2023-nupe",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Seats of two of the Fulani-founded Nupe emirates, alongside Bida, Agaie and Lapai.",
+				"sources": [
+					"sidi-2023-nupe",
+					"idrees-1989-bida"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Nupe of Lokoja",
+			"lga": "kogi-lokoja",
+			"villages": [],
+			"sources": [
+				"sidi-2023-nupe"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Nupe-speaking people live in Lokoja; Kyadya exiles gathered here after the Ganigan war of 1881–82.",
+				"sources": [
+					"sidi-2023-nupe",
+					"idrees-1989-bida"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Eggan",
+			"lga": "kogi-lokoja",
+			"point": [
+				6.246,
+				8.562
+			],
+			"villages": [],
+			"sources": [
+				"sidi-2023-nupe",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "A Nupe-speaking town on the Niger; in the 1830s it was the seat of Idrisu, one of the shadow Etsus of the old line.",
+				"sources": [
+					"sidi-2023-nupe"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Shintaku",
+			"lga": "kogi-bassa",
+			"point": [
+				6.762,
+				7.722
+			],
+			"villages": [],
+			"sources": [
+				"sidi-2023-nupe",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Named by Sidi among the Nupe-speaking towns of Kogi State.",
+				"sources": [
+					"sidi-2023-nupe"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Nupe of Koton Karfe",
+			"lga": "kogi-kogi",
+			"villages": [],
+			"sources": [
+				"sidi-2023-nupe"
+			],
+			"confidence": "high"
+		},
+		{
+			"name": "Nupe of Ajaokuta",
+			"lga": "kogi-ajaokuta",
+			"villages": [],
+			"sources": [
+				"sidi-2023-nupe"
+			],
+			"confidence": "high"
+		},
+		{
+			"name": "Umaisha and Toto",
+			"lga": "nasarawa-toto",
+			"point": [
+				7.188,
+				8.007
+			],
+			"villages": [
+				{
+					"name": "Shamenge"
+				},
+				{
+					"name": "Gadabuke"
+				}
+			],
+			"sources": [
+				"sidi-2023-nupe",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Nupe-speaking communities north of the Benue in Nasarawa State.",
+				"sources": [
+					"sidi-2023-nupe"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Zuba and Gwagwalada",
+			"lga": "fct-gwagwalada",
+			"point": [
+				7.216,
+				9.091
+			],
+			"villages": [],
+			"sources": [
+				"sidi-2023-nupe",
+				"grid3-settlement-names"
+			],
+			"confidence": "high"
+		},
+		{
+			"name": "Nupe of Abaji",
+			"lga": "fct-abaji",
+			"villages": [],
+			"sources": [
+				"sidi-2023-nupe"
+			],
+			"confidence": "high"
+		}
+	],
 	"reviewNotes": [
 		"The Bassa-Nge speak Nupe Tako but are mapped as their own people later; the Kakanda and Kupa are related but separate.",
-		"Nupe in the FCT and in Kwara beyond Edu and Pategi (for example Lafiagi’s surroundings, Moro) are not yet mapped."
+		"Nupe in the FCT and in Kwara beyond Edu and Pategi (for example Lafiagi’s surroundings, Moro) are not yet mapped.",
+		"Nupe communities outside Niger and Kwara follow Sidi (2023), who lists Lokoja, Ajaokuta, Shintaku, Koton Karfe, Abaji, Eggan, Budam, Umaisha, Toto, Shamenge, Gadabuke, Gwagwalada and Zuba as Nupe-speaking. Budam, Shamenge and Gadabuke are not located in GRID3.",
+		"Nupe communities outside Niger and Kwara follow Sidi (2023), who lists Lokoja, Ajaokuta, Shintaku, Koton Karfe, Abaji, Eggan, Budam, Umaisha, Toto, Shamenge, Gadabuke, Gwagwalada and Zuba as Nupe-speaking. Budam, Shamenge and Gadabuke are not located in GRID3."
 	]
 }

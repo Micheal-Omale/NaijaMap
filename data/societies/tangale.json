@@ -1,0 +1,56 @@
+{
+	"name": "Tangale",
+	"status": "draft",
+	"groups": [
+		"tangale"
+	],
+	"rule": "chiefdoms",
+	"span": {
+		"from": 1295,
+		"to": 1903,
+		"fromLabel": "1295, by tradition",
+		"toLabel": "early 1900s",
+		"sources": [
+			"wikipedia-tangale"
+		],
+		"confidence": "disputed",
+		"note": "Fifteen rulers since 1295 is a long reign each; the date is tradition."
+	},
+	"summary": {
+		"text": "The western Tangale were led by rulers called the Mai Tangle, from Billiri; their name comes from Tangal, a chief of Billiri who organised the clans, and by their tradition the line began in 1295. They say they came from the east by way of Bornu, settling in at least seven places, among them Sanum Kude near Ngazargamu and Kupto, where they lived beside the Lunguda, Kare-Kare, Tera, Waja, Bolewa and others, before moving into the hills of Billiri, Kaltungo and Shongom for safety from raiders. Young men proved their courage in war and gave enemies' heads to a priest to place under the family's holy tree.",
+		"sources": [
+			"wikipedia-tangale"
+		],
+		"confidence": "medium"
+	},
+	"lands": [
+		{
+			"from": 1295,
+			"to": 1599,
+			"lgas": [
+				"gombe-akko",
+				"gombe-billiri"
+			],
+			"confidence": "disputed",
+			"note": "Kupto and the earlier stopping places, before the move into the hills; approximate."
+		},
+		{
+			"from": 1600,
+			"lgas": [
+				"gombe-billiri",
+				"gombe-kaltungo",
+				"gombe-shomgom"
+			]
+		}
+	],
+	"reviewNotes": [
+		"Needs a written source for the date British rule reached this people."
+	],
+	"end": {
+		"text": "The British conquered Gombe at the Battle of Tongo in 1902, and the Tangale hills came under colonial rule in the following years.",
+		"sources": [
+			"wikipedia-gombe-emirate"
+		],
+		"confidence": "medium"
+	}
+}

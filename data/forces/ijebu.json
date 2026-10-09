@@ -1,0 +1,75 @@
+{
+	"status": "draft",
+	"of": "polity",
+	"terrain": "forest",
+	"summary": {
+		"text": "Ijebu sat between Lagos and the interior and controlled the trade in guns. Its musketeers were among the first Yoruba armies to fight with firearms, and the Eredo earthwork ringed its heartland.",
+		"sources": [
+			"ayandele-1992",
+			"smith-1988",
+			"smith-1989-warfare"
+		],
+		"confidence": "medium"
+	},
+	"arms": [
+		{
+			"kind": "firearms",
+			"level": 2,
+			"from": 1800,
+			"text": "Ijebu bought guns from the coast early and fought with musketeers.",
+			"sources": [
+				"smith-1988",
+				"smith-1989-warfare"
+			],
+			"confidence": "medium"
+		},
+		{
+			"kind": "firearms",
+			"level": 3,
+			"from": 1880,
+			"text": "Ijebu armies were well armed with guns by the 1890s.",
+			"sources": [
+				"wikipedia-anglo-ijebu-war",
+				"ayandele-1992"
+			],
+			"confidence": "medium"
+		},
+		{
+			"kind": "walls",
+			"level": 2,
+			"text": "Sungbo’s Eredo, an earthwork round the Ijebu heartland.",
+			"sources": [
+				"ogundiran-2020"
+			],
+			"confidence": "medium"
+		}
+	],
+	"record": [
+		{
+			"year": 1820,
+			"yearLabel": "c. 1817–1822",
+			"against": "Owu",
+			"result": "won",
+			"text": "Ijebu, with Ife, destroyed Owu.",
+			"sources": [
+				"smith-1988",
+				"johnson-1921"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1892,
+			"event": "ijebu-1892",
+			"against": "British",
+			"result": "lost",
+			"text": "A Lagos Colony force with Maxim guns beat the Ijebu army at Yemoji.",
+			"sources": [
+				"wikipedia-anglo-ijebu-war"
+			],
+			"confidence": "high"
+		}
+	],
+	"reviewNotes": [
+		"Arms levels (1 some, 2 a real strength, 3 famous for it) are the compiler’s judgement from the sources, for the Versus page’s guess; please check them."
+	]
+}

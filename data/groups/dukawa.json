@@ -1,6 +1,30 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Dukku and Rijau",
+			"lga": "niger-rijau",
+			"villages": [
+				{
+					"name": "Dukku"
+				},
+				{
+					"name": "Rijau"
+				}
+			],
+			"sources": [
+				"ross-jones-borgu"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "The Hausa call the Hunne “Dukawa” after their town of Dukku; their two dialects are centred on Dukku and Rijau.",
+				"sources": [
+					"ross-jones-borgu"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Dukawa (Hun-Saare)",
 	"searchAliases": [

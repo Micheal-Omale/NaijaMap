@@ -1,0 +1,139 @@
+{
+	"status": "draft",
+	"of": "polity",
+	"terrain": "river",
+	"summary": {
+		"text": "Nupe was a river power with horses. Its Kede canoemen ruled the middle Niger, and its cavalry raided the Yoruba and the confluence; under the emirs of Bida (from 1857) it became one of the strongest raiding states of the caliphate.",
+		"sources": [
+			"wikipedia-bida-emirate",
+			"nadel-1942",
+			"mason-1981"
+		],
+		"confidence": "medium"
+	},
+	"arms": [
+		{
+			"kind": "canoes",
+			"level": 3,
+			"text": "The Kede canoemen controlled traffic on the middle Niger.",
+			"sources": [
+				"nadel-1942",
+				"mason-1981"
+			],
+			"confidence": "medium"
+		},
+		{
+			"kind": "cavalry",
+			"level": 2,
+			"text": "Horsemen carried Nupe’s raids south and west.",
+			"sources": [
+				"nadel-1942",
+				"law-1980-horse"
+			],
+			"confidence": "medium"
+		},
+		{
+			"kind": "cavalry",
+			"level": 3,
+			"from": 1857,
+			"text": "The Bida emirate raised large cavalry armies for its raids on Okun and the confluence.",
+			"sources": [
+				"wikipedia-bida-emirate",
+				"mason-1981",
+				"cjhi-nupe-okun"
+			],
+			"confidence": "medium"
+		},
+		{
+			"kind": "firearms",
+			"level": 1,
+			"from": 1857,
+			"text": "Guns came with the river trade in the late 19th century.",
+			"sources": [
+				"mason-1981"
+			],
+			"confidence": "medium"
+		}
+	],
+	"record": [
+		{
+			"year": 1535,
+			"yearLabel": "c. 1535",
+			"polity": "oyo",
+			"event": "oyo-exile-igboho",
+			"against": "Oyo",
+			"result": "won",
+			"text": "Nupe armies sacked Oyo-Ile and drove its court into exile.",
+			"sources": [
+				"wikipedia-oyo-empire",
+				"law-1977"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1789,
+			"polity": "oyo",
+			"against": "Oyo",
+			"result": "won",
+			"text": "Alaafin Abiodun’s army was destroyed in Nupe, losing the equivalent of thirteen generals.",
+			"sources": [
+				"wikipedia-oyo-empire"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1860,
+			"yearLabel": "mid 19th century",
+			"polity": "igala",
+			"event": "nupe-raids-confluence",
+			"against": "Igala",
+			"result": "won",
+			"text": "Nupe raids took the confluence lands from Igala rule.",
+			"sources": [
+				"james-2017-igala",
+				"lasttribes-igala"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1894,
+			"yearLabel": "c. 1894–1897",
+			"event": "esan-nupe-war",
+			"against": "The Esan Akota alliance",
+			"result": "lost",
+			"text": "Esan tradition says the Akota alliance drove the Nupe back to Agbede after three years.",
+			"sources": [
+				"oriire-2025-esan-nupe"
+			],
+			"confidence": "disputed"
+		},
+		{
+			"year": 1896,
+			"yearLabel": "1894–1897",
+			"event": "ogidi-grand-alliance",
+			"against": "The Ogidi grand alliance (Okun Yoruba)",
+			"result": "held",
+			"text": "Bida’s cavalry camped at Ogidi and the allies held their hill; the war was still open when the Company came.",
+			"sources": [
+				"idrees-1989-bida",
+				"apata-2003-ogidi"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1897,
+			"event": "bida-ilorin-1897",
+			"against": "Royal Niger Company",
+			"result": "lost",
+			"text": "The Company’s force with Maxim guns took Bida.",
+			"sources": [
+				"wikipedia-bida-emirate",
+				"wikipedia-royal-niger-company"
+			],
+			"confidence": "high"
+		}
+	],
+	"reviewNotes": [
+		"Arms levels (1 some, 2 a real strength, 3 famous for it) are the compiler’s judgement from the sources, for the Versus page’s guess; please check them."
+	]
+}

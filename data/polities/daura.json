@@ -5,21 +5,24 @@
 	"otherNames": [],
 	"span": {
 		"from": 1000,
-		"to": 1806,
+		"to": 1904,
 		"fromLabel": "legendary origins",
 		"sources": [
 			"wikipedia-hausa-kingdoms"
 		],
 		"confidence": "disputed",
-		"note": "The Bayajidda legend has no firm date."
+		"note": "The Bayajidda legend has no firm date.",
+		"toLabel": "the British restore the Hausa line, 1904"
 	},
 	"peak": 1000,
 	"summary": {
-		"text": "Daura is the \"mother\" of the Hausa states in the Bayajidda legend: a stranger kills the snake in the town well and marries Queen Daurama, and their descendants found the seven Hausa kingdoms. It became a Fulani emirate in the jihad, while the old line moved to Zango.",
+		"text": "Daura is the “mother” of the Hausa states. In the Bayajidda legend a stranger from the east kills the snake that guards the Kusugu well, marries Queen Daurama, and their grandsons found Kano, Katsina, Zazzau, Gobir and Rano, the Hausa Bakwai. Its early rulers were queens. Too small to be a great power, it was a refuge: Kano's people fled there from Kwararafa in the 17th century. The jihad put a Fulani emir in Daura in 1805; the Hausa line held out at Zango and Baure until the British made Musa of Zango emir of Daura in 1904.",
 		"sources": [
+			"wikipedia-daura-emirate",
+			"wikipedia-bayajidda",
 			"wikipedia-hausa-kingdoms"
 		],
-		"confidence": "high"
+		"confidence": "medium"
 	},
 	"ruler": {
 		"title": "Sarkin Daura (in legend, a line of queens)",
@@ -36,7 +39,7 @@
 			"year": 1000,
 			"yearLabel": "legend",
 			"title": "Queen Daurama and Bayajidda",
-			"text": "The founding legend of the Hausa states is set in Daura. The well where Bayajidda killed the snake, Kusugu, is still shown in the town.",
+			"text": "The founding legend of the Hausa states is set in Daura. Bayajidda, a prince said to have come from Baghdad by way of Bornu, kills the snake Sarki in the Kusugu well, which the people could use only once a week, and marries Queen Daurama. Their son Bawo has six sons who rule Daura, Katsina, Zazzau, Gobir, Kano and Rano; with Biram, son of Bayajidda's Bornu wife, these are the seven true Hausa states. Daura's king list begins with a line of queens. The well is still shown in the town.",
 			"capital": {
 				"name": "Daura",
 				"point": [
@@ -56,15 +59,83 @@
 				]
 			},
 			"sources": [
-				"wikipedia-hausa-kingdoms"
+				"wikipedia-daura-emirate",
+				"wikipedia-bayajidda"
 			],
-			"confidence": "disputed",
-			"note": "Legend, not dated history."
+			"confidence": "medium",
+			"note": "Legend, not dated history.",
+			"links": [
+				{
+					"kind": "descent",
+					"to": {
+						"name": "Kano",
+						"point": [
+							8.52,
+							12
+						]
+					},
+					"label": "Bagauda of Kano, from Daura",
+					"sources": [
+						"wikipedia-sultanate-of-kano",
+						"wikipedia-bayajidda"
+					],
+					"confidence": "medium"
+				},
+				{
+					"kind": "descent",
+					"to": {
+						"name": "Katsina",
+						"point": [
+							7.6,
+							12.99
+						]
+					},
+					"label": "Kumayo of Katsina, Bayajidda's grandson",
+					"sources": [
+						"wikipedia-history-of-katsina",
+						"wikipedia-bayajidda"
+					],
+					"confidence": "medium"
+				},
+				{
+					"kind": "descent",
+					"to": {
+						"name": "Zaria",
+						"point": [
+							7.7,
+							11.07
+						]
+					},
+					"label": "Gunguma of Zazzau",
+					"sources": [
+						"wikipedia-kingdom-of-zazzau",
+						"wikipedia-bayajidda"
+					],
+					"confidence": "disputed"
+				},
+				{
+					"kind": "descent",
+					"to": {
+						"name": "Alkalawa (Gobir)",
+						"point": [
+							6.25,
+							13.57
+						]
+					},
+					"label": "Gobir, through Bawo (one tradition)",
+					"sources": [
+						"wikipedia-gobir",
+						"wikipedia-bayajidda"
+					],
+					"confidence": "disputed"
+				}
+			]
 		},
 		{
-			"year": 1806,
-			"title": "The jihad reaches Daura",
-			"text": "A Fulani emir takes Daura. The Hausa dynasty withdraws east and rules from Zango; after colonial rule the line returned to Daura.",
+			"year": 1600,
+			"yearLabel": "c. 1600–1700",
+			"title": "A refuge from Kwararafa",
+			"text": "When Kwararafa invades Kano under Muhammad Zaki, and again under Dadi around 1671, the people of Kano and their Sarki take refuge at Daura.",
 			"capital": {
 				"name": "Daura",
 				"point": [
@@ -83,9 +154,86 @@
 					"katsina-dutsi"
 				]
 			},
+			"links": [
+				{
+					"kind": "ritual",
+					"to": {
+						"name": "Kano",
+						"point": [
+							8.52,
+							12
+						]
+					},
+					"label": "Kano's people shelter at Daura",
+					"sources": [
+						"wikipedia-muhammad-zaki",
+						"wikipedia-dadi-kano",
+						"wikipedia-kwararafa"
+					],
+					"confidence": "high"
+				}
+			],
 			"sources": [
-				"wikipedia-hausa-kingdoms",
-				"hogben-kirk-greene-1966"
+				"wikipedia-muhammad-zaki",
+				"wikipedia-dadi-kano",
+				"wikipedia-daura-emirate"
+			],
+			"confidence": "high"
+		},
+		{
+			"year": 1805,
+			"yearLabel": "1805–1904",
+			"title": "The jihad, and the Hausa line at Zango",
+			"text": "In 1805 the Fulani leader Malam Ishaku takes Daura and becomes its first emir. The Hausa kings set up rival states close by, at Zango and at Baure, and keep their claim alive for a century. In 1904 the British make Musa of the Zango line the emir of Daura, and the Hausa dynasty returns.",
+			"capital": {
+				"name": "Zango (Hausa line)",
+				"point": [
+					8.53,
+					12.97
+				]
+			},
+			"core": {
+				"lgas": [
+					"katsina-zango",
+					"katsina-baure"
+				],
+				"confidence": "medium"
+			},
+			"nodes": [
+				{
+					"name": "Daura (Fulani emir)",
+					"point": [
+						8.32,
+						13.04
+					]
+				},
+				{
+					"name": "Baure",
+					"point": [
+						8.75,
+						12.83
+					]
+				}
+			],
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Daura",
+						"point": [
+							8.32,
+							13.04
+						]
+					},
+					"label": "Daura lost to Malam Ishaku",
+					"sources": [
+						"wikipedia-daura-emirate"
+					],
+					"confidence": "high"
+				}
+			],
+			"sources": [
+				"wikipedia-daura-emirate"
 			],
 			"confidence": "medium"
 		}
@@ -106,6 +254,7 @@
 		"confidence": "high"
 	},
 	"reviewNotes": [
-		"Check the dynastic history after 1806 (Zango, restoration in 1906) against Hogben and Kirk-Greene."
+		"Daura's history between the legend and 1600 is not covered by any source checked so far.",
+		"Zango and Baure are placed at their LGA headquarters."
 	]
 }

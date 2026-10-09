@@ -1,0 +1,56 @@
+{
+	"name": "Agbor",
+	"status": "draft",
+	"otherNames": [],
+	"point": [
+		6.207,
+		6.2684
+	],
+	"founded": {
+		"year": 1500,
+		"yearLabel": "by tradition",
+		"sources": [
+			"esogbue-2018-anioma-origins"
+		],
+		"confidence": "disputed",
+		"note": "Undated."
+	},
+	"summary": {
+		"text": "Agbor, the largest Ika town, traces its origin to Benin, and its people also tell of roots in Igboland. Agbor fought the British in the Ekumeku war.",
+		"sources": [
+			"esogbue-2018-anioma-origins",
+			"wikipedia-ika-people"
+		],
+		"confidence": "medium"
+	},
+	"founders": [
+		{
+			"people": "Benin",
+			"group": "edo",
+			"polity": "benin",
+			"from": {
+				"name": "Benin City",
+				"point": [
+					5.627,
+					6.335
+				]
+			},
+			"text": "Agbor’s best-known tradition traces it to Benin.",
+			"sources": [
+				"esogbue-2018-anioma-origins"
+			],
+			"confidence": "medium"
+		},
+		{
+			"people": "Igbo",
+			"group": "igbo",
+			"text": "Another tradition traces Agbor to Igboland.",
+			"sources": [
+				"esogbue-2018-anioma-origins"
+			],
+			"confidence": "disputed"
+		}
+	],
+	"under": [],
+	"reviewNotes": []
+}

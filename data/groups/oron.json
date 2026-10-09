@@ -1,6 +1,105 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Oron Town",
+			"lga": "akwa-ibom-oron",
+			"point": [
+				8.23,
+				4.82
+			],
+			"villages": [
+				{
+					"name": "Esuk Oro"
+				},
+				{
+					"name": "Uya Oro"
+				},
+				{
+					"name": "Eyo Abasi"
+				},
+				{
+					"name": "Eyotong"
+				}
+			],
+			"sources": [
+				"wikipedia-oron-lga"
+			],
+			"confidence": "high",
+			"note": "Point approximate.",
+			"history": {
+				"text": "Oron Town is made of four of the nine Oron clans (Afaha): Afaha Okpo, Ibighi (Uya Oro), Afaha Ukwong (Eyo Abasi) and Afaha Ubodung (Eyotong).",
+				"sources": [
+					"wikipedia-oron-lga"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Mbo",
+			"lga": "akwa-ibom-mbo",
+			"villages": [
+				{
+					"name": "Effiat"
+				},
+				{
+					"name": "Ibiaku"
+				},
+				{
+					"name": "Ikpo Ikono"
+				},
+				{
+					"name": "Ikpa Ibom"
+				},
+				{
+					"name": "Atanuk"
+				},
+				{
+					"name": "Ekpuk"
+				}
+			],
+			"sources": [
+				"wikipedia-mbo"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "One of the five Oron LGAs, in six districts; Oro is the main language, beside Efik, Ebughu, Efai and Enwang-Uda.",
+				"sources": [
+					"wikipedia-mbo"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Udung Uko",
+			"lga": "akwa-ibom-udung-uko",
+			"villages": [
+				{
+					"name": "Eyofin"
+				},
+				{
+					"name": "Eyo Ating"
+				},
+				{
+					"name": "Eyokponung"
+				},
+				{
+					"name": "Edikor"
+				}
+			],
+			"sources": [
+				"wikipedia-udung-uko"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Two of the nine Oron clans, 42 villages, with Eyofin as capital.",
+				"sources": [
+					"wikipedia-udung-uko"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Oron (Oro)",
 	"searchAliases": [

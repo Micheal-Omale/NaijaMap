@@ -6,6 +6,7 @@
 		"Arochukwu",
 		"Aro"
 	],
+	"shortName": "Aro",
 	"span": {
 		"from": 1650,
 		"to": 1902,
@@ -40,7 +41,7 @@
 			"year": 1650,
 			"yearLabel": "c. 1650–1700",
 			"title": "Arochukwu formed",
-			"text": "Igbo, Ibibio and Akpa groups combine at Arochukwu after wars over the area. The oracle of Ibini Ukpabi becomes a court of appeal for a wide region.",
+			"text": "Arochukwu is born of the Aro-Ibibio wars: Igbo settlers of the Eze Agwu clan, the Edda priest Nnachi and the Akpa from across the Cross River drive out the Ibibio of Ibom and unite nineteen villages into one state. The oracle of Ibini Ukpabi becomes a court of appeal for a wide region.",
 			"capital": {
 				"name": "Arochukwu",
 				"point": [
@@ -55,7 +56,9 @@
 			},
 			"sources": [
 				"wikipedia-aro-confederacy",
-				"dike-ekejiuba-1990"
+				"dike-ekejiuba-1990",
+				"wikipedia-arochukwu",
+				"owner-2026-10-07-doc1"
 			],
 			"confidence": "medium"
 		},
@@ -63,7 +66,7 @@
 			"year": 1750,
 			"yearLabel": "c. 1750",
 			"title": "The network spreads",
-			"text": "Aro families settle along the trade routes and run fairs at Bende and Uburu. Enslaved people pass to the coast at Bonny and Old Calabar.",
+			"text": "Aro families settle along the trade routes and run fairs at Bende and Uburu. Enslaved people pass to the coast at Bonny and Old Calabar. Aro fighters and allies from Ohafia, Edda, Abam, Abiriba and Afikpo give the network its teeth. Pilgrims from the Ijaw, Ibibio and Efik come to consult the oracle, which by then is sought more than Benin's ritual authority.",
 			"capital": {
 				"name": "Arochukwu",
 				"point": [
@@ -101,17 +104,17 @@
 					]
 				},
 				{
-					"name": "Ndikelionwu (approximate)",
+					"name": "Ndikelionwu",
 					"point": [
-						7.06,
-						6.1
+						7.139,
+						6.125
 					]
 				},
 				{
-					"name": "Ajalli (approximate)",
+					"name": "Ajalli",
 					"point": [
-						7.18,
-						6.07
+						7.205,
+						6.056
 					]
 				}
 			],
@@ -137,11 +140,58 @@
 						]
 					},
 					"label": "To Old Calabar via Itu"
+				},
+				{
+					"kind": "trade",
+					"to": {
+						"name": "Oguta",
+						"point": [
+							6.8,
+							5.71
+						]
+					},
+					"label": "Captives to Oguta's lake market",
+					"sources": [
+						"wikipedia-aro-confederacy"
+					],
+					"confidence": "high"
+				},
+				{
+					"kind": "trade",
+					"to": {
+						"name": "Onitsha",
+						"point": [
+							6.785,
+							6.145
+						]
+					},
+					"label": "Captives to Onitsha",
+					"sources": [
+						"wikipedia-aro-confederacy"
+					],
+					"confidence": "high"
+				},
+				{
+					"kind": "trade",
+					"to": {
+						"name": "Elem Kalabari",
+						"point": [
+							6.77,
+							4.75
+						]
+					},
+					"label": "Captives to the Kalabari",
+					"sources": [
+						"wikipedia-aro-confederacy"
+					],
+					"confidence": "high"
 				}
 			],
 			"sources": [
 				"wikipedia-aro-confederacy",
-				"dike-ekejiuba-1990"
+				"dike-ekejiuba-1990",
+				"wikipedia-aro-people",
+				"wikipedia-aro-confederacy"
 			],
 			"confidence": "medium"
 		},
@@ -149,7 +199,7 @@
 			"year": 1800,
 			"yearLabel": "c. 1800–1850",
 			"title": "The height of the Aro network",
-			"text": "Aro settlements such as Ndikelionwu, Ajalli and Arondizuogu become small states of their own. Aro traders reach north toward the Igala and Idoma country. After Britain bans the slave trade in 1807, palm oil grows alongside it.",
+			"text": "Aro settlements such as Ndikelionwu, Ajalli and Arondizuogu become small states of their own. Aro traders reach north toward the Igala and Idoma country. After Britain bans the slave trade in 1807, palm oil grows alongside it. Commanders such as Izuogu Mgbokpo and Iheme lead Aro and Abam forces to conquer Ikpa Ora and found Arondizuogu; Okoro Idozuka widens it by war early in the 19th century. Aro soldiers found villages in Ozizza and help build Afikpo, Amasiri and Izombe. Baikie hears in the 1850s that Arochukwu is nearly three times the size of Aboh, its smiths famous for swords and spears, and that people say “God lives there.”",
 			"capital": {
 				"name": "Arochukwu",
 				"point": [
@@ -197,24 +247,31 @@
 					]
 				},
 				{
-					"name": "Ndikelionwu (approximate)",
+					"name": "Ndikelionwu",
 					"point": [
-						7.06,
-						6.1
+						7.139,
+						6.125
 					]
 				},
 				{
-					"name": "Ajalli (approximate)",
+					"name": "Ajalli",
 					"point": [
-						7.18,
-						6.07
+						7.205,
+						6.056
 					]
 				},
 				{
-					"name": "Arondizuogu (approximate)",
+					"name": "Ndiokolo",
 					"point": [
-						7.17,
-						5.92
+						7.157,
+						6.15
+					]
+				},
+				{
+					"name": "Arondizuogu",
+					"point": [
+						7.161,
+						5.895
 					]
 				},
 				{
@@ -222,6 +279,13 @@
 					"point": [
 						7.98,
 						5.2
+					]
+				},
+				{
+					"name": "Ozizza",
+					"point": [
+						7.976,
+						5.886
 					]
 				}
 			],
@@ -262,7 +326,10 @@
 			],
 			"sources": [
 				"wikipedia-aro-confederacy",
-				"dike-ekejiuba-1990"
+				"dike-ekejiuba-1990",
+				"wikipedia-aro-people",
+				"wikipedia-aro-confederacy",
+				"baikie-1856"
 			],
 			"confidence": "medium"
 		},
@@ -270,7 +337,7 @@
 			"year": 1901,
 			"yearLabel": "1901–1902",
 			"title": "The Anglo-Aro war",
-			"text": "British columns converge on Arochukwu, capture it on 28 December 1901 and blow up the oracle. Resistance ends in early 1902.",
+			"text": "From the 1890s the Royal Niger Company and the Niger Coast Protectorate collide with Aro trade. Sir Ralph Moor plans the attack from 1899. In November 1901 Aro forces under Okoro Toti sack Obegu, a British ally, and some 400 people die. On 28 November Lt-Col Montanaro marches with 87 officers, 1,550 soldiers and 2,100 carriers on four lines from Oguta, Akwete, Unwana and Itu; Arochukwu falls on 28 December after four days' fighting, and the oracle is said to be blown up. The last big battle is at Bende in spring 1902. Okoro Toti is hanged; Aro fighters keep up the war at Afikpo (1902–1903) and Ezza (1905).",
 			"capital": {
 				"name": "Arochukwu",
 				"point": [
@@ -292,31 +359,116 @@
 					]
 				},
 				{
-					"name": "Ndikelionwu (approximate)",
+					"name": "Ndikelionwu",
 					"point": [
-						7.06,
-						6.1
+						7.139,
+						6.125
 					]
 				},
 				{
-					"name": "Ajalli (approximate)",
+					"name": "Ajalli",
 					"point": [
-						7.18,
-						6.07
+						7.205,
+						6.056
 					]
 				},
 				{
-					"name": "Arondizuogu (approximate)",
+					"name": "Ndiokolo",
 					"point": [
-						7.17,
-						5.92
+						7.157,
+						6.15
+					]
+				},
+				{
+					"name": "Arondizuogu",
+					"point": [
+						7.161,
+						5.895
 					]
 				}
 			],
 			"sources": [
-				"wikipedia-aro-confederacy"
+				"wikipedia-aro-confederacy",
+				"wikipedia-anglo-aro-war"
 			],
-			"confidence": "high"
+			"confidence": "high",
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Obegu",
+						"point": [
+							7.325,
+							4.985
+						]
+					},
+					"label": "Obegu sacked by Okoro Toti (1901)",
+					"sources": [
+						"wikipedia-anglo-aro-war"
+					],
+					"confidence": "high"
+				},
+				{
+					"kind": "war",
+					"to": {
+						"name": "Oguta",
+						"point": [
+							6.8,
+							5.71
+						]
+					},
+					"label": "British column from Oguta",
+					"sources": [
+						"wikipedia-anglo-aro-war"
+					],
+					"confidence": "high"
+				},
+				{
+					"kind": "war",
+					"to": {
+						"name": "Akwete",
+						"point": [
+							7.362,
+							4.89
+						]
+					},
+					"label": "British column from Akwete",
+					"sources": [
+						"wikipedia-anglo-aro-war"
+					],
+					"confidence": "high"
+				},
+				{
+					"kind": "war",
+					"to": {
+						"name": "Unwana",
+						"point": [
+							7.93,
+							5.8
+						]
+					},
+					"label": "British column from Unwana",
+					"sources": [
+						"wikipedia-anglo-aro-war"
+					],
+					"confidence": "high"
+				},
+				{
+					"kind": "war",
+					"to": {
+						"name": "Itu",
+						"point": [
+							7.98,
+							5.2
+						]
+					},
+					"label": "British column from Itu",
+					"sources": [
+						"wikipedia-anglo-aro-war"
+					],
+					"confidence": "high"
+				}
+			]
 		}
 	],
 	"today": {
@@ -335,7 +487,7 @@
 		"confidence": "high"
 	},
 	"reviewNotes": [
-		"Aro settlement points (Ndikelionwu, Ajalli, Arondizuogu) are approximate.",
+		"Aro settlement points (Ndikelionwu, Ajalli, Ndiokolo, Arondizuogu, Ozizza) come from GRID3 settlement names; who founded each, and when, is told in the event \"The Aro go out\".",
 		"The influence zone shows the allied Abam, Ohafia, Edda and Abiriba country; the network itself is shown by points and lines."
 	]
 }

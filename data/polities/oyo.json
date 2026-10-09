@@ -6,24 +6,24 @@
 		"Ọ̀yọ́",
 		"Old Oyo"
 	],
+	"shortName": "Oyo",
 	"span": {
-		"from": 1400,
-		"to": 1836,
-		"fromLabel": "c. 1400 (14th century)",
+		"from": 1300,
+		"to": 1893,
+		"fromLabel": "c. 1300 (reckoned back from the king list)",
+		"toLabel": "the British treaty of 1893",
 		"sources": [
 			"wikipedia-oyo-empire",
 			"law-1977"
 		],
-		"confidence": "medium",
-		"note": "Oyo-Ile was settled in the 14th century; dates before 1600 rest on king lists."
+		"confidence": "medium"
 	},
 	"peak": 1750,
 	"summary": {
-		"text": "The largest Yoruba state, built on cavalry in the open savanna north of the forest. From Oyo-Ile its Alaafin ruled a metropolitan core and a ring of tributaries reaching the coast at Ajase (Porto-Novo), and Dahomey paid it tribute for almost a century. Revolt at Ilorin and the Fulani jihad brought it down in the 1830s.",
+		"text": "Founded, by tradition, by Oranmiyan, a prince of Ife, Oyo grew on the northern savanna into the largest of the Yoruba kingdoms. Nupe drove its kings into exile around 1535; they came back on horseback, rebuilt Oyo-Ile under Abipa, and over the next two centuries made Oyo an empire whose cavalry took tribute from Dahomey and the Aja and Ewe states to the coast. From 1754 the Basorun Gaha made and unmade kings, and Abiodun's later defeats by Borgu and Nupe, Afonja's revolt at Ilorin and the jihad broke the empire. Oyo-Ile was abandoned in the 1830s, and Alaafin Atiba rebuilt the kingdom at New Oyo, leaning on Ibadan and Ijaye to guard it.",
 		"sources": [
 			"wikipedia-oyo-empire",
-			"law-1977",
-			"smith-1988"
+			"law-1977"
 		],
 		"confidence": "high"
 	},
@@ -38,6 +38,81 @@
 		"yoruba"
 	],
 	"snapshots": [
+		{
+			"year": 1300,
+			"yearLabel": "c. 1300–1400",
+			"title": "Oranmiyan follows the snake",
+			"text": "Oranmiyan, last prince of Ife, sets out to avenge an insult to Oduduwa, quarrels with his brother and wanders north along the Niger to Bussa. Its chief gives him a snake with a charm at its throat; where it stops for seven days and vanishes, he founds Oyo. His sons are Ajaka and Sango, born to a Nupe princess; Sango is later worshipped as the god of thunder. Ajaka's successor Kori conquers the rest of metropolitan Oyo.",
+			"capital": {
+				"name": "Oyo-Ile (Old Oyo)",
+				"point": [
+					4.3075,
+					8.9747
+				]
+			},
+			"core": {
+				"lgas": [
+					"oyo-olorunsogo",
+					"oyo-irepo",
+					"oyo-orelope",
+					"oyo-ori-ire",
+					"oyo-atiba",
+					"oyo-ogbomosho-north"
+				],
+				"confidence": "medium"
+			},
+			"links": [
+				{
+					"kind": "descent",
+					"to": {
+						"name": "Ile-Ife",
+						"point": [
+							4.56,
+							7.48
+						]
+					},
+					"label": "Oranmiyan, prince of Ife",
+					"sources": [
+						"wikipedia-oyo-empire"
+					],
+					"confidence": "high"
+				},
+				{
+					"kind": "ritual",
+					"to": {
+						"name": "Bussa",
+						"point": [
+							4.5,
+							10.2
+						]
+					},
+					"label": "The chief of Bussa's snake",
+					"sources": [
+						"wikipedia-oyo-empire"
+					],
+					"confidence": "medium"
+				},
+				{
+					"kind": "war",
+					"to": {
+						"name": "Bussa",
+						"point": [
+							4.5,
+							10.2
+						]
+					},
+					"label": "War with the Bariba; Orangun of Ila comes to help",
+					"sources": [
+						"wikipedia-oyo-empire"
+					],
+					"confidence": "medium"
+				}
+			],
+			"sources": [
+				"wikipedia-oyo-empire"
+			],
+			"confidence": "disputed"
+		},
 		{
 			"year": 1400,
 			"yearLabel": "c. 1400",
@@ -92,19 +167,7 @@
 					"oyo-atisbo"
 				]
 			},
-			"links": [
-				{
-					"kind": "war",
-					"to": {
-						"name": "Gbara (approximate)",
-						"point": [
-							6.05,
-							8.9
-						]
-					},
-					"label": "Defeated by Nupe"
-				}
-			],
+			"links": [],
 			"sources": [
 				"wikipedia-oyo-empire",
 				"law-1977"
@@ -113,10 +176,72 @@
 			"note": "Date of the sack is estimated from king lists."
 		},
 		{
+			"year": 1560,
+			"yearLabel": "c. 1560–1610",
+			"title": "From Igboho, the reconquest",
+			"text": "Learning from the Nupe, whom they call Tapa, the Oyo rearm with armour and cavalry. Alaafin Ofinran wins back Oyo's old land and builds the capital in exile at Igboho; Egungunoju conquers nearly all of Yorubaland; Orompoto carries the war into Nupe; Ajiboyede holds the first Bere festival of peace.",
+			"capital": {
+				"name": "Igboho",
+				"point": [
+					3.75,
+					8.83
+				]
+			},
+			"core": {
+				"lgas": [
+					"oyo-olorunsogo",
+					"oyo-irepo",
+					"oyo-orelope",
+					"oyo-ori-ire",
+					"oyo-atiba",
+					"oyo-ogbomosho-north",
+					"oyo-ogbomosho-south",
+					"oyo-surulere",
+					"oyo-saki-east",
+					"oyo-saki-west",
+					"oyo-atisbo",
+					"oyo-iseyin",
+					"oyo-itesiwaju",
+					"oyo-kajola",
+					"oyo-oyo-east",
+					"oyo-oyo-west",
+					"oyo-afijio",
+					"oyo-ogo-oluwa",
+					"kwara-moro",
+					"kwara-asa",
+					"kwara-ilorin-west",
+					"kwara-ilorin-east",
+					"kwara-ilorin-south"
+				]
+			},
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Gbara (Nupe)",
+						"point": [
+							5.852,
+							8.938
+						]
+					},
+					"label": "Orompoto's war on Nupe",
+					"sources": [
+						"wikipedia-oyo-empire"
+					],
+					"confidence": "high"
+				}
+			],
+			"sources": [
+				"wikipedia-oyo-empire",
+				"law-1977"
+			],
+			"confidence": "medium"
+		},
+		{
 			"year": 1610,
 			"yearLabel": "c. 1610",
 			"title": "Return to Oyo-Ile",
-			"text": "Alaafin Abipa brings the court back to Oyo-Ile. A cavalry army rebuilds Oyo's power over the savanna Yoruba.",
+			"text": "Under Alaafin Abipa the court comes home and repopulates Oyo-Ile. Some time between 1578 and 1608 Oyo tries to conquer Benin, but its cavalry cannot cross the Ekiti hills; a few Ekiti kingdoms fall under Oyo, and Otun Ekiti is left as a free town between the two powers. By the end of the 16th century the Aja and Ewe states to the south-west pay Oyo tribute.",
 			"capital": {
 				"name": "Oyo-Ile (Old Oyo)",
 				"point": [
@@ -153,6 +278,176 @@
 			},
 			"sources": [
 				"wikipedia-oyo-empire",
+				"law-1977",
+				"wikipedia-oyo-empire"
+			],
+			"confidence": "medium",
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Benin City",
+						"point": [
+							5.627,
+							6.335
+						]
+					},
+					"label": "Failed attack on Benin (1578–1608)",
+					"sources": [
+						"wikipedia-oyo-empire"
+					],
+					"confidence": "medium"
+				},
+				{
+					"kind": "ritual",
+					"to": {
+						"name": "Otun Ekiti",
+						"point": [
+							5.13,
+							7.99
+						]
+					},
+					"label": "Otun, buffer town between Oyo and Benin",
+					"sources": [
+						"wikipedia-oyo-empire"
+					],
+					"confidence": "medium"
+				}
+			]
+		},
+		{
+			"year": 1682,
+			"yearLabel": "1682–1726",
+			"title": "South to the coast",
+			"text": "Oyo's horsemen begin raiding south in 1682. Kings and princes of Allada and Weme appeal to the Alaafin against their rulers or against Dahomey, and Oyo's cavalry answers so fiercely that its neighbours learn to fear it. By 1680 the empire spans some 150,000 square kilometres.",
+			"capital": {
+				"name": "Oyo-Ile (Old Oyo)",
+				"point": [
+					4.3075,
+					8.9747
+				]
+			},
+			"core": {
+				"states": [
+					"oyo"
+				],
+				"lgas": [
+					"kwara-moro",
+					"kwara-asa",
+					"kwara-ilorin-west",
+					"kwara-ilorin-east",
+					"kwara-ilorin-south",
+					"kwara-offa",
+					"kwara-oyun",
+					"osun-ejigbo",
+					"osun-ede-north",
+					"osun-ede-south",
+					"osun-iwo",
+					"osun-ola-oluwa",
+					"osun-ayedire",
+					"osun-ayedade",
+					"osun-irewole",
+					"osun-isokan",
+					"osun-egbedore",
+					"osun-olorunda",
+					"osun-osogbo",
+					"osun-irepodun",
+					"osun-ifelodun",
+					"osun-boripe",
+					"osun-odo-otin",
+					"osun-ila",
+					"osun-ifedayo",
+					"osun-boluwaduro",
+					"osun-orolu",
+					"ogun-yewa-north",
+					"ogun-yewa-south",
+					"ogun-ipokia",
+					"ogun-imeko-afon"
+				]
+			},
+			"influence": {
+				"lgas": [
+					"ogun-abeokuta-north",
+					"ogun-abeokuta-south",
+					"ogun-odeda",
+					"ogun-obafemi-owode",
+					"ogun-ewekoro",
+					"ogun-ifo",
+					"ogun-ado-odo-ota",
+					"kwara-irepodun",
+					"kwara-ifelodun",
+					"kwara-isin",
+					"kwara-oke-ero",
+					"kwara-ekiti",
+					"lagos-badagry"
+				],
+				"beyond": [
+					[
+						[
+							1.4,
+							6.2
+						],
+						[
+							2.8,
+							6.3
+						],
+						[
+							2.8,
+							8
+						],
+						[
+							2.4,
+							9.4
+						],
+						[
+							1.5,
+							9.2
+						],
+						[
+							1.3,
+							7.6
+						]
+					],
+					[
+						[
+							2.3,
+							6.9
+						],
+						[
+							2.85,
+							6.9
+						],
+						[
+							2.85,
+							8.4
+						],
+						[
+							2.3,
+							8.4
+						]
+					]
+				],
+				"confidence": "medium"
+			},
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Allada",
+						"point": [
+							2.15,
+							6.67
+						]
+					},
+					"label": "Oyo's cavalry answers Allada's appeal",
+					"sources": [
+						"wikipedia-oyo-empire"
+					],
+					"confidence": "medium"
+				}
+			],
+			"sources": [
+				"wikipedia-oyo-empire",
 				"law-1977"
 			],
 			"confidence": "medium"
@@ -161,7 +456,7 @@
 			"year": 1750,
 			"yearLabel": "c. 1750",
 			"title": "The height of Oyo",
-			"text": "Oyo rules a metropolitan core and the Egbado corridor to the sea, where Ajase (Porto-Novo) ships enslaved people to European traders. Dahomey has paid tribute since 1730. The Egba and Igbomina towns are tributaries.",
+			"text": "Oyo rules a metropolitan core and the Egbado corridor to the sea, where Ajase (Porto-Novo) ships enslaved people to European traders. Dahomey has paid tribute since 1730. The Egba and Igbomina towns are tributaries. Oyo settled colonists along the Egbado corridor, at Ilaro and Imeko, to hold the road to Badagry and Porto-Novo; Sabe and Ketu in the west, and at times the Borgu and Nupe borderlands, paid tribute. Oyo's cavalry has defeated Dahomey in 1728 and forced it to pay yearly tribute; it took eleven invasions before Dahomey was fully subjected in 1748.",
 			"capital": {
 				"name": "Oyo-Ile (Old Oyo)",
 				"point": [
@@ -293,15 +588,549 @@
 						]
 					},
 					"label": "Egbado corridor to the coast"
+				},
+				{
+					"kind": "tribute",
+					"to": {
+						"name": "Ilaro",
+						"point": [
+							3.01,
+							6.89
+						]
+					},
+					"label": "Ilaro: an Oyo colony guarding the road to the coast",
+					"confidence": "medium",
+					"sources": [
+						"owner-2026-10-07-doc1",
+						"law-1977"
+					]
+				},
+				{
+					"kind": "tribute",
+					"to": {
+						"name": "Imeko",
+						"point": [
+							2.87,
+							7.46
+						]
+					},
+					"label": "Imeko: Egbado town on the Oyo trade road",
+					"confidence": "medium",
+					"sources": [
+						"owner-2026-10-07-doc1",
+						"law-1977"
+					]
+				},
+				{
+					"kind": "tribute",
+					"to": {
+						"name": "Badagry",
+						"point": [
+							2.88,
+							6.42
+						]
+					},
+					"label": "Badagry: a coastal port in Oyo’s network",
+					"confidence": "medium",
+					"sources": [
+						"owner-2026-10-07-doc1",
+						"law-1977"
+					]
+				},
+				{
+					"kind": "tribute",
+					"to": {
+						"name": "Sabe (Savè)",
+						"point": [
+							2.48,
+							8.03
+						]
+					},
+					"label": "Sabe: western Yoruba kingdom under Oyo",
+					"confidence": "medium",
+					"sources": [
+						"owner-2026-10-07-doc1",
+						"law-1977"
+					]
+				},
+				{
+					"kind": "tribute",
+					"to": {
+						"name": "Ketu",
+						"point": [
+							2.6,
+							7.36
+						]
+					},
+					"label": "Ketu: western Yoruba kingdom under Oyo",
+					"confidence": "medium",
+					"sources": [
+						"owner-2026-10-07-doc1",
+						"law-1977"
+					]
+				},
+				{
+					"kind": "tribute",
+					"to": {
+						"name": "Nikki (Borgu)",
+						"point": [
+							3.21,
+							9.94
+						]
+					},
+					"label": "Borgu borderlands: tribute at times",
+					"confidence": "disputed",
+					"sources": [
+						"owner-2026-10-07-doc1",
+						"law-1977"
+					]
 				}
 			],
 			"sources": [
 				"wikipedia-oyo-empire",
 				"law-1977",
 				"akinjogbin-1967",
-				"ajayi-crowder-1985"
+				"ajayi-crowder-1985",
+				"owner-2026-10-07-doc1"
 			],
 			"confidence": "medium"
+		},
+		{
+			"year": 1754,
+			"yearLabel": "1754–1774",
+			"title": "Gaha makes and unmakes kings",
+			"text": "The Basorun Gaha, head of the Oyo Mesi council, seizes power for twenty years. He forces four Alaafins to take their own lives by sending them the parrot's eggs; two die between June and October 1754 alone, one after 130 days and one after 17. Alaafin Abiodun outlasts him and has him executed in 1774. In 1764 an Akyem, Dahomey and Oyo army beats an invading Ashanti force.",
+			"capital": {
+				"name": "Oyo-Ile (Old Oyo)",
+				"point": [
+					4.3075,
+					8.9747
+				]
+			},
+			"core": {
+				"states": [
+					"oyo"
+				],
+				"lgas": [
+					"kwara-moro",
+					"kwara-asa",
+					"kwara-ilorin-west",
+					"kwara-ilorin-east",
+					"kwara-ilorin-south",
+					"kwara-offa",
+					"kwara-oyun",
+					"osun-ejigbo",
+					"osun-ede-north",
+					"osun-ede-south",
+					"osun-iwo",
+					"osun-ola-oluwa",
+					"osun-ayedire",
+					"osun-ayedade",
+					"osun-irewole",
+					"osun-isokan",
+					"osun-egbedore",
+					"osun-olorunda",
+					"osun-osogbo",
+					"osun-irepodun",
+					"osun-ifelodun",
+					"osun-boripe",
+					"osun-odo-otin",
+					"osun-ila",
+					"osun-ifedayo",
+					"osun-boluwaduro",
+					"osun-orolu",
+					"ogun-yewa-north",
+					"ogun-yewa-south",
+					"ogun-ipokia",
+					"ogun-imeko-afon"
+				]
+			},
+			"influence": {
+				"lgas": [
+					"ogun-abeokuta-north",
+					"ogun-abeokuta-south",
+					"ogun-odeda",
+					"ogun-obafemi-owode",
+					"ogun-ewekoro",
+					"ogun-ifo",
+					"ogun-ado-odo-ota",
+					"kwara-irepodun",
+					"kwara-ifelodun",
+					"kwara-isin",
+					"kwara-oke-ero",
+					"kwara-ekiti",
+					"lagos-badagry"
+				],
+				"beyond": [
+					[
+						[
+							1.4,
+							6.2
+						],
+						[
+							2.8,
+							6.3
+						],
+						[
+							2.8,
+							8
+						],
+						[
+							2.4,
+							9.4
+						],
+						[
+							1.5,
+							9.2
+						],
+						[
+							1.3,
+							7.6
+						]
+					],
+					[
+						[
+							2.3,
+							6.9
+						],
+						[
+							2.85,
+							6.9
+						],
+						[
+							2.85,
+							8.4
+						],
+						[
+							2.3,
+							8.4
+						]
+					]
+				],
+				"confidence": "medium"
+			},
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Kumasi (Ashanti)",
+						"point": [
+							-1.62,
+							6.69
+						]
+					},
+					"label": "Ashanti beaten by Akyem, Dahomey and Oyo (1764)",
+					"sources": [
+						"wikipedia-oyo-empire"
+					],
+					"confidence": "medium"
+				}
+			],
+			"sources": [
+				"wikipedia-oyo-empire",
+				"law-1977"
+			],
+			"confidence": "high"
+		},
+		{
+			"year": 1774,
+			"yearLabel": "1774–1793",
+			"title": "Abiodun's reign",
+			"text": "With Gaha gone, Abiodun rules a rich but overstretched empire. In 1784 Oyo, Dahomey and Lagos together blockade Badagry by water; Oyo campaigns into the Mahi country north of Dahomey. But Borgu beats Abiodun's army at Gberegburu in 1783 and Nupe destroys another in 1789, losses equal to 11 and 13 generals with their men. Abiodun is murdered by his own son Awole.",
+			"capital": {
+				"name": "Oyo-Ile (Old Oyo)",
+				"point": [
+					4.3075,
+					8.9747
+				]
+			},
+			"core": {
+				"states": [
+					"oyo"
+				],
+				"lgas": [
+					"kwara-moro",
+					"kwara-asa",
+					"kwara-ilorin-west",
+					"kwara-ilorin-east",
+					"kwara-ilorin-south",
+					"kwara-offa",
+					"kwara-oyun",
+					"osun-ejigbo",
+					"osun-ede-north",
+					"osun-ede-south",
+					"osun-iwo",
+					"osun-ola-oluwa",
+					"osun-ayedire",
+					"osun-ayedade",
+					"osun-irewole",
+					"osun-isokan",
+					"osun-egbedore",
+					"osun-olorunda",
+					"osun-osogbo",
+					"osun-irepodun",
+					"osun-ifelodun",
+					"osun-boripe",
+					"osun-odo-otin",
+					"osun-ila",
+					"osun-ifedayo",
+					"osun-boluwaduro",
+					"osun-orolu",
+					"ogun-yewa-north",
+					"ogun-yewa-south",
+					"ogun-ipokia",
+					"ogun-imeko-afon"
+				]
+			},
+			"influence": {
+				"lgas": [
+					"ogun-abeokuta-north",
+					"ogun-abeokuta-south",
+					"ogun-odeda",
+					"ogun-obafemi-owode",
+					"ogun-ewekoro",
+					"ogun-ifo",
+					"ogun-ado-odo-ota",
+					"kwara-irepodun",
+					"kwara-ifelodun",
+					"kwara-isin",
+					"kwara-oke-ero",
+					"kwara-ekiti",
+					"lagos-badagry"
+				],
+				"beyond": [
+					[
+						[
+							1.4,
+							6.2
+						],
+						[
+							2.8,
+							6.3
+						],
+						[
+							2.8,
+							8
+						],
+						[
+							2.4,
+							9.4
+						],
+						[
+							1.5,
+							9.2
+						],
+						[
+							1.3,
+							7.6
+						]
+					],
+					[
+						[
+							2.3,
+							6.9
+						],
+						[
+							2.85,
+							6.9
+						],
+						[
+							2.85,
+							8.4
+						],
+						[
+							2.3,
+							8.4
+						]
+					]
+				],
+				"confidence": "medium"
+			},
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Badagry",
+						"point": [
+							2.88,
+							6.42
+						]
+					},
+					"label": "Naval blockade of Badagry (1784)",
+					"sources": [
+						"wikipedia-oyo-empire"
+					],
+					"confidence": "high"
+				},
+				{
+					"kind": "war",
+					"to": {
+						"name": "Savalou (Mahi)",
+						"point": [
+							1.98,
+							7.93
+						]
+					},
+					"label": "Campaign into Mahi country",
+					"sources": [
+						"wikipedia-oyo-empire"
+					],
+					"confidence": "medium"
+				},
+				{
+					"kind": "war",
+					"to": {
+						"name": "Nikki (Borgu)",
+						"point": [
+							3.21,
+							9.94
+						]
+					},
+					"label": "Defeat by Borgu (1783)",
+					"sources": [
+						"wikipedia-oyo-empire",
+						"wikipedia-borgu"
+					],
+					"confidence": "high"
+				},
+				{
+					"kind": "war",
+					"to": {
+						"name": "Gbara (Nupe)",
+						"point": [
+							5.852,
+							8.938
+						]
+					},
+					"label": "Defeat by Nupe (1789)",
+					"sources": [
+						"wikipedia-oyo-empire"
+					],
+					"confidence": "high"
+				}
+			],
+			"sources": [
+				"wikipedia-oyo-empire"
+			],
+			"confidence": "high"
+		},
+		{
+			"year": 1793,
+			"yearLabel": "1793–1817",
+			"title": "Afonja and the broken oath",
+			"text": "Awole orders his field marshal, the Aare-Ona-Kakanfo Afonja, to attack Iwere-Ile, Abiodun's mother's town; Afonja refuses. In 1795 Awole sends him against Apomu, a market town of Ife, breaking the oath every Alaafin swears never to attack the holy city. Afonja sacks Apomu, then marches on Oyo-Ile itself and demands Awole's abdication; Awole takes his own life. Twenty years of rival claimants follow, warlords such as the Onikoyi and Solagberu rise, and in the south the Egba under Lisabi kill Oyo's resident agents and drive off its army.",
+			"capital": {
+				"name": "Oyo-Ile (Old Oyo)",
+				"point": [
+					4.3075,
+					8.9747
+				]
+			},
+			"core": {
+				"lgas": [
+					"oyo-olorunsogo",
+					"oyo-irepo",
+					"oyo-orelope",
+					"oyo-ori-ire",
+					"oyo-atiba",
+					"oyo-ogbomosho-north",
+					"oyo-ogbomosho-south",
+					"oyo-surulere",
+					"oyo-saki-east",
+					"oyo-saki-west",
+					"oyo-atisbo",
+					"oyo-iseyin",
+					"oyo-itesiwaju",
+					"oyo-kajola",
+					"oyo-oyo-east",
+					"oyo-oyo-west",
+					"oyo-afijio",
+					"oyo-ogo-oluwa",
+					"oyo-iwajowa",
+					"osun-ejigbo",
+					"osun-iwo",
+					"osun-ede-north",
+					"osun-ede-south",
+					"osun-ola-oluwa",
+					"osun-ayedire",
+					"osun-irewole",
+					"osun-isokan",
+					"osun-ayedade"
+				]
+			},
+			"influence": {
+				"lgas": [
+					"ogun-yewa-north",
+					"ogun-yewa-south",
+					"ogun-ipokia",
+					"ogun-imeko-afon"
+				],
+				"beyond": [
+					[
+						[
+							1.4,
+							6.2
+						],
+						[
+							2.8,
+							6.3
+						],
+						[
+							2.8,
+							8
+						],
+						[
+							2.4,
+							9.4
+						],
+						[
+							1.5,
+							9.2
+						],
+						[
+							1.3,
+							7.6
+						]
+					]
+				],
+				"confidence": "medium"
+			},
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Apomu",
+						"point": [
+							4.17,
+							7.36
+						]
+					},
+					"label": "Afonja sacks Apomu (1795)",
+					"sources": [
+						"wikipedia-oyo-empire"
+					],
+					"confidence": "high"
+				},
+				{
+					"kind": "war",
+					"to": {
+						"name": "Abeokuta (Egba)",
+						"point": [
+							3.35,
+							7.15
+						]
+					},
+					"label": "Lisabi's Egba revolt",
+					"sources": [
+						"wikipedia-oyo-empire"
+					],
+					"confidence": "high"
+				}
+			],
+			"sources": [
+				"wikipedia-oyo-empire"
+			],
+			"confidence": "high"
 		},
 		{
 			"year": 1817,
@@ -383,7 +1212,53 @@
 				],
 				"confidence": "medium"
 			},
+			"links": [],
+			"sources": [
+				"wikipedia-oyo-empire",
+				"law-1977"
+			],
+			"confidence": "high"
+		},
+		{
+			"year": 1823,
+			"yearLabel": "1823–1835",
+			"title": "Dahomey breaks free; Ilorin raids",
+			"text": "In 1823 Dahomey raids villages under Oyo's protection. King Gezo sends his Brazilian viceroy, Francisco Félix de Sousa, to make peace, but talks fail and Oyo's army is crushed; Dahomey's tribute ends. Ilorin, now an emirate of Sokoto, besieges Offa and burns Oyo's villages; when Clapperton passes in 1825 he sees the ashes, and few horses. Alaafin Majotu asks the English king and the Oba of Benin for help.",
+			"capital": {
+				"name": "Oyo-Ile (Old Oyo)",
+				"point": [
+					4.3075,
+					8.9747
+				]
+			},
+			"core": {
+				"lgas": [
+					"oyo-oyo-east",
+					"oyo-oyo-west",
+					"oyo-afijio",
+					"oyo-atiba",
+					"oyo-ogbomosho-north",
+					"oyo-ogbomosho-south",
+					"oyo-iseyin",
+					"oyo-saki-west"
+				]
+			},
 			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Abomey (Dahomey)",
+						"point": [
+							1.98,
+							7.18
+						]
+					},
+					"label": "Oyo's army crushed; tribute ends (1823)",
+					"sources": [
+						"wikipedia-oyo-empire"
+					],
+					"confidence": "high"
+				},
 				{
 					"kind": "war",
 					"to": {
@@ -393,12 +1268,45 @@
 							8.5
 						]
 					},
-					"label": "Ilorin breaks away"
+					"label": "Ilorin raids and burns Oyo's villages",
+					"sources": [
+						"wikipedia-oyo-empire"
+					],
+					"confidence": "high"
+				},
+				{
+					"kind": "war",
+					"to": {
+						"name": "Offa",
+						"point": [
+							4.72,
+							8.15
+						]
+					},
+					"label": "Offa besieged",
+					"sources": [
+						"wikipedia-oyo-empire"
+					],
+					"confidence": "high"
+				},
+				{
+					"kind": "ritual",
+					"to": {
+						"name": "Benin City",
+						"point": [
+							5.627,
+							6.335
+						]
+					},
+					"label": "Majotu asks the Oba of Benin for help",
+					"sources": [
+						"wikipedia-oyo-empire"
+					],
+					"confidence": "medium"
 				}
 			],
 			"sources": [
-				"wikipedia-oyo-empire",
-				"law-1977"
+				"wikipedia-oyo-empire"
 			],
 			"confidence": "high"
 		},
@@ -425,23 +1333,71 @@
 					"oyo-saki-west"
 				]
 			},
-			"links": [
-				{
-					"kind": "war",
-					"to": {
-						"name": "Ilorin",
-						"point": [
-							4.55,
-							8.5
-						]
-					},
-					"label": "Defeat by Ilorin"
-				}
-			],
+			"links": [],
 			"sources": [
 				"wikipedia-oyo-empire",
 				"wikipedia-old-oyo",
 				"law-1977"
+			],
+			"confidence": "high"
+		},
+		{
+			"year": 1837,
+			"yearLabel": "1837–1893",
+			"title": "New Oyo under Atiba",
+			"text": "After the Eleduwe war Oyo-Ile is abandoned and Alaafin Atiba rebuilds the kingdom further south at Ago d'Oyo, today's Oyo. He charges Ibadan with guarding the capital against Ilorin and Ijaye with guarding it against Dahomey. The gamble fails: the two war towns fight each other, and power passes to Ibadan. Atiba dies in 1859; his sons Adelu (1859–1876) and Adeyemi I (1876–1905) reign over a kingdom that is honoured but no longer feared.",
+			"capital": {
+				"name": "Oyo (Ago d'Oyo)",
+				"point": [
+					3.93,
+					7.85
+				]
+			},
+			"core": {
+				"lgas": [
+					"oyo-oyo-east",
+					"oyo-oyo-west",
+					"oyo-afijio",
+					"oyo-atiba",
+					"oyo-iseyin",
+					"oyo-itesiwaju",
+					"oyo-kajola"
+				]
+			},
+			"links": [
+				{
+					"kind": "ritual",
+					"to": {
+						"name": "Ibadan",
+						"point": [
+							3.9,
+							7.39
+						]
+					},
+					"label": "Ibadan charged with guarding against Ilorin",
+					"sources": [
+						"wikipedia-oyo-empire"
+					],
+					"confidence": "high"
+				},
+				{
+					"kind": "ritual",
+					"to": {
+						"name": "Ijaye",
+						"point": [
+							3.84,
+							7.6
+						]
+					},
+					"label": "Ijaye charged with guarding against Dahomey",
+					"sources": [
+						"wikipedia-oyo-empire"
+					],
+					"confidence": "high"
+				}
+			],
+			"sources": [
+				"wikipedia-oyo-empire"
 			],
 			"confidence": "high"
 		}

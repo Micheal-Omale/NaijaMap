@@ -1,0 +1,98 @@
+{
+	"name": "Igala settlement down the Niger",
+	"status": "draft",
+	"kind": "migration",
+	"year": 1650,
+	"yearLabel": "c. 17th–18th century",
+	"until": 1720,
+	"actors": [{ "name": "Igala settlers, traders and royals", "polity": "igala", "side": "migrant" }],
+	"summary": {
+		"text": "Over centuries of trade and expansion down the Niger, Igala people settled on the west bank. Igala settlers from Idah founded Ojuwo in Unuedegor, opposite Idah; Ebu, Ilushi and Ifeku still speak Igala, and Illah counts an Igala line among its founders. The owner’s notes add towns deeper in Delta State, Oko, Amai, Ossissa, Onu-Aboh and Obiaruku, with founding or political ties traced to Idah.",
+		"sources": ["wikipedia-igala-people", "wikipedia-illah", "wikipedia-unuedegor", "owner-2026-10-06", "owner-2026-10-07-doc1"],
+		"confidence": "medium"
+	},
+	"routes": [
+		{
+			"kind": "migration",
+			"by": "Igala settlers, traders and royals",
+			"path": [[6.737, 7.117], [6.6037, 6.8314], [6.6292, 6.6697]],
+			"label": "Up the west bank: Ifeku and Ilushi, Igala-speaking today",
+			"sources": ["owner-2026-10-06"]
+		},
+		{
+			"kind": "migration",
+			"by": "Igala settlers, traders and royals",
+			"path": [[6.737, 7.117], [6.69, 6.8], [6.6061, 6.4786], [6.649, 6.4246]],
+			"label": "Down the river: Ebu, Igala-speaking today, and the Igala quarters of Illah",
+			"sources": ["wikipedia-igala-people", "wikipedia-illah"]
+		},
+		{
+			"kind": "migration",
+			"by": "Igala settlers, traders and royals",
+			"path": [[6.649, 6.4246], [6.72, 6.1], [6.62, 5.8], [6.5263, 5.5475], [6.3, 5.75], [6.208, 5.7502]],
+			"label": "Ties claimed deeper in the Delta: Onu-Aboh, Amai, Obiaruku",
+			"confidence": "disputed",
+			"sources": ["owner-2026-10-07-doc1"],
+			"note": "From the owner’s notes only; Aboh and Ukwuani traditions mostly name Benin or Igbo origins."
+		}
+	],
+	"moments": [
+		{
+			"when": "Today",
+			"title": "Ebu",
+			"text": "Ebu, on the west bank, still speaks Igala.",
+			"at": { "name": "Ebu", "point": [6.6061, 6.4786] },
+			"mark": "founded",
+			"confidence": "high",
+			"sources": ["wikipedia-igala-people"]
+		},
+		{
+			"when": "Founding",
+			"title": "Illah: two Igala quarters",
+			"text": "Igala princes from Idah founded two of Illah’s quarters, Ukpologwu and Ogbe-Olu. Illah was not an Igala foundation alone: its first quarters were founded by the sons of an Igbo father from Nri and an Igala mother, and its Ukwumege quarter by a prince of Benin.",
+			"at": { "name": "Illah", "point": [6.649, 6.4246] },
+			"mark": "founded",
+			"sources": ["wikipedia-illah", "esogbue-2023-enuani", "owner-2026-10-08-anioma"]
+		},
+		{
+			"when": "Today",
+			"title": "Ilushi and Ifeku",
+			"text": "Ilushi and Ifeku, in Edo State, speak Igala.",
+			"at": { "name": "Ilushi (Uloshi)", "point": [6.6292, 6.6697] },
+			"mark": "founded",
+			"sources": ["owner-2026-10-06"]
+		},
+		{
+			"when": "After the founding",
+			"title": "Ojuwo, in Unuedegor",
+			"text": "Igala people from Idah crossed the Niger and settled a section of Unuedegor, in today’s Etsako East, naming it Ojuwo. The owner says an Igala population still lives there.",
+			"at": { "name": "Unuedegor", "point": [6.7061, 7.1471] },
+			"mark": "founded",
+			"confidence": "medium",
+			"sources": ["wikipedia-unuedegor", "owner-2026-10-07-ojuwo"]
+		},
+		{
+			"when": "Tradition",
+			"title": "Onu-Aboh",
+			"text": "The owner’s notes record ties between Aboh and Idah. Not yet found in a written source.",
+			"at": { "name": "Aboh (Onu-Aboh)", "point": [6.5263, 5.5475] },
+			"mark": "founded",
+			"confidence": "disputed",
+			"sources": ["owner-2026-10-07-doc1"]
+		},
+		{
+			"when": "Tradition",
+			"title": "Amai and Obiaruku",
+			"text": "The owner’s notes record Igala ties for Amai and Obiaruku in Ukwuani. Not yet found in a written source.",
+			"at": { "name": "Obiaruku", "point": [6.1567, 5.8245] },
+			"mark": "founded",
+			"confidence": "disputed",
+			"sources": ["owner-2026-10-07-doc1"]
+		}
+	],
+	"sources": ["wikipedia-igala-people", "wikipedia-illah", "wikipedia-unuedegor", "owner-2026-10-06", "owner-2026-10-07-doc1"],
+	"confidence": "medium",
+	"reviewNotes": [
+		"Oko, Ossissa, Onu-Aboh, Amai and Obiaruku come only from the owner’s notes. Which tradition links each to Idah, and who tells it? They are drawn as disputed history only, never on the peoples atlas."
+	]
+}

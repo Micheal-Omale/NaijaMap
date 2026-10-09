@@ -1,0 +1,29 @@
+{
+	"name": "The Royal Niger Company on the Benue",
+	"status": "draft",
+	"kind": "colonial",
+	"year": 1883,
+	"yearLabel": "1883–1901",
+	"until": 1901,
+	"actors": [
+		{ "name": "Royal Niger Company", "side": "colonial", "ink": "#b23a3a" },
+		{ "name": "Jukun of Jibu and Kona", "polity": "kwararafa", "side": "resister" },
+		{ "name": "Muri emirate", "polity": "sokoto", "side": "resister" }
+	],
+	"summary": {
+		"text": "In 1883 the Royal Niger Company set up a station at Ibi, on the Benue inside Muri emirate. From there it burned the Jukun town of Jibu three times (1884, 1888, 1891) and, with the French officer Louis Mizon, took Kona in 1892. Muri forced the Company back at Kunini and Lau in 1889, but the Company sacked Wurio and Suntai in 1897 and 1899. Muri submitted in 1901, and Wukari passed under British rule at about the same time.",
+		"sources": ["wikipedia-muri", "wikipedia-ibi", "wikipedia-wukari-federation"],
+		"confidence": "high"
+	},
+	"moments": [
+		{ "when": "1883", "title": "Company station at Ibi", "text": "The Royal Niger Company settles at Ibi, where the land route from the south crosses the Benue.", "at": { "name": "Ibi", "point": [9.745, 8.18] }, "mark": "garrison", "sources": ["wikipedia-muri", "wikipedia-ibi"], "confidence": "high" },
+		{ "when": "1884, 1888, 1891", "title": "Jibu burned three times", "text": "The Company sacks and burns the Jukun town of Jibu.", "at": { "name": "Jibu", "point": [9.98, 7.255] }, "mark": "burned", "sources": ["wikipedia-muri"], "confidence": "high" },
+		{ "when": "1889", "title": "Muri strikes back", "text": "Muri's forces push the Company back at Kunini and Lau.", "at": { "name": "Kunini", "point": [11.401, 9.241] }, "mark": "battle", "sources": ["wikipedia-muri"], "confidence": "high" },
+		{ "when": "1892", "title": "Kona taken", "text": "With help from Lieutenant Louis Mizon the Company conquers the Jukun chiefdom of Kona.", "at": { "name": "Kona", "point": [11.329, 8.981] }, "mark": "captured", "sources": ["wikipedia-muri"], "confidence": "high" },
+		{ "when": "1901", "title": "Muri submits", "text": "Emir Hassan of Muri submits to the British without a fight; Ibi becomes the headquarters of western Muri.", "at": { "name": "Ibi", "point": [9.745, 8.18] }, "mark": "treaty", "sources": ["wikipedia-muri", "wikipedia-ibi"], "confidence": "high" }
+	],
+	"sources": ["wikipedia-muri", "wikipedia-ibi", "wikipedia-wukari-federation"],
+	"confidence": "high",
+	"note": "Wikipedia says Muri was a de facto French protectorate under Mizon in 1892–1893, yet also that Mizon helped the Company take Kona. Both are given as written.",
+	"reviewNotes": ["Wurio and Suntai have not been located."]
+}

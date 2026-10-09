@@ -1,6 +1,128 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Ekeremor clan",
+			"lga": "bayelsa-ekeremor",
+			"point": [
+				5.78,
+				5.057
+			],
+			"villages": [
+				{
+					"name": "Aleibiri"
+				},
+				{
+					"name": "Azagbene"
+				},
+				{
+					"name": "Ayamassa"
+				},
+				{
+					"name": "Isampou"
+				},
+				{
+					"name": "Ndoro"
+				},
+				{
+					"name": "Ogbosuwar"
+				},
+				{
+					"name": "Tamogbene"
+				},
+				{
+					"name": "Lalagbene"
+				}
+			],
+			"sources": [
+				"wikipedia-ekeremor",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Home of the Ekeremor clan of the Ijaw, in thirty-one towns and villages.",
+				"sources": [
+					"wikipedia-ekeremor"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Southern Ijaw (Izon)",
+			"lga": "bayelsa-southern-ijaw",
+			"point": [
+				6.08,
+				4.805
+			],
+			"villages": [
+				{
+					"name": "Oporoma",
+					"point": [
+						6.08,
+						4.805
+					]
+				},
+				{
+					"name": "Igbomotoro"
+				},
+				{
+					"name": "Peremabiri"
+				},
+				{
+					"name": "Opuama"
+				},
+				{
+					"name": "Eniwari"
+				},
+				{
+					"name": "Angiama"
+				},
+				{
+					"name": "Diebu"
+				},
+				{
+					"name": "Ondewari"
+				},
+				{
+					"name": "Aziama"
+				}
+			],
+			"sources": [
+				"wikipedia-southern-ijaw",
+				"grid3-settlement-names"
+			],
+			"confidence": "high"
+		},
+		{
+			"name": "Twon-Brass",
+			"lga": "bayelsa-brass",
+			"point": [
+				6.24,
+				4.31
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-brass",
+				"wikipedia-nembe-kingdom"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "A traditional fishing town of the Nembe Ijaw on Brass Island. Brass and Nembe sent war canoes into the interior to capture slaves, and the palm-oil trade moved here by 1856.",
+				"sources": [
+					"wikipedia-brass",
+					"wikipedia-nembe-kingdom"
+				],
+				"confidence": "high"
+			},
+			"livelihoods": {
+				"text": "Fishing, net-making, canoe building, and farming oil palm, plantain and sugarcane.",
+				"sources": [
+					"wikipedia-brass"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [
 		"Ogbia (Bayelsa), Andoni, Opobo-Nkoro and Ogu-Bolo (Rivers) and the Ijaw of Edo State are not yet mapped.",
 		"There is no single Ijaw ruler; the eastern kingdoms (for example the Amanyanabo of Kalabari at Buguma) each have their own."

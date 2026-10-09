@@ -1,0 +1,170 @@
+{
+	"name": "The Anglo-Idoma wars",
+	"status": "draft",
+	"kind": "colonial",
+	"year": 1899,
+	"yearLabel": "1899–1929",
+	"until": 1929,
+	"actors": [
+		{
+			"name": "British forces",
+			"side": "colonial",
+			"ink": "#b23a3a"
+		},
+		{
+			"name": "Idoma clans",
+			"side": "resister",
+			"ink": "#6a5a3a"
+		}
+	],
+	"summary": {
+		"text": "Idoma historians call the long British conquest of their land the Anglo-Idoma wars. It began in 1899, when Major Maclintock's force burned Odugbeho in Agatu, and went on clan by clan: a tax revolt at Otukpa led by Iyalla Atungwu in 1904, the killing of British agents at Aku in 1906, the destruction of 23 Adoka villages in 1907 after Hausa traders were killed, Trenchard's expedition to Oglewu and Otukpa in 1908, Amanyi's rebellion at Ugboju in 1910–1912, reprisals at Onyagede in 1912 and Ombi in 1914. Igede was only brought under control in 1922, and Ogbuloko led a last Igede rising from 1926 to 1929.",
+		"sources": [
+			"itodo-2021-idoma-timeline",
+			"okopi-idoma-timeline"
+		],
+		"confidence": "high"
+	},
+	"moments": [
+		{
+			"when": "1899",
+			"title": "Odugbeho burned",
+			"text": "Major Maclintock's forces burn Odugbeho in Agatu.",
+			"at": {
+				"name": "Odugbeho",
+				"point": [
+					8.034,
+					7.801
+				]
+			},
+			"mark": "burned",
+			"sources": [
+				"itodo-2021-idoma-timeline"
+			],
+			"confidence": "high"
+		},
+		{
+			"when": "1904",
+			"title": "The Otukpa tax revolt",
+			"text": "Adoga fighters under Iyalla Atungwu clash with British forces.",
+			"at": {
+				"name": "Otukpa",
+				"point": [
+					7.67,
+					6.879
+				]
+			},
+			"mark": "battle",
+			"sources": [
+				"itodo-2021-idoma-timeline"
+			],
+			"confidence": "high"
+		},
+		{
+			"when": "1907",
+			"title": "Adoka's villages destroyed",
+			"text": "After seven Hausa traders are killed, the British destroy 23 villages.",
+			"at": {
+				"name": "Adoka (approximate)",
+				"point": [
+					8.03,
+					7.37
+				]
+			},
+			"mark": "burned",
+			"sources": [
+				"itodo-2021-idoma-timeline"
+			],
+			"confidence": "high"
+		},
+		{
+			"when": "1908",
+			"title": "Trenchard at Oglewu",
+			"text": "Trenchard's Niger–Cross River expedition reaches Oglewu and annexes Otukpa.",
+			"at": {
+				"name": "Oglewu (approximate)",
+				"point": [
+					7.88,
+					7.6
+				]
+			},
+			"mark": "camp",
+			"sources": [
+				"itodo-2021-idoma-timeline"
+			],
+			"confidence": "medium"
+		},
+		{
+			"when": "1910–1912",
+			"title": "Amanyi's rebellion",
+			"text": "Chief Amanyi leads Ugboju against the British; he is captured and deported to Keffi.",
+			"at": {
+				"name": "Ugboju",
+				"point": [
+					8.053,
+					7.352
+				]
+			},
+			"mark": "battle",
+			"sources": [
+				"itodo-2021-idoma-timeline"
+			],
+			"confidence": "high"
+		},
+		{
+			"when": "1914",
+			"title": "Ombi",
+			"text": "After an attack on the Hausa traders' quarter, a bloody reprisal.",
+			"at": {
+				"name": "Ombi",
+				"point": [
+					7.892,
+					7.374
+				]
+			},
+			"mark": "massacre",
+			"sources": [
+				"itodo-2021-idoma-timeline"
+			],
+			"confidence": "high"
+		},
+		{
+			"when": "1922–1929",
+			"title": "Igede",
+			"text": "Igede is brought under control in 1922; Ogbuloko Inawo's rising lasts from 1926 to 1929.",
+			"at": {
+				"name": "Igede (Oju)",
+				"point": [
+					8.42,
+					6.85
+				]
+			},
+			"mark": "battle",
+			"sources": [
+				"itodo-2021-idoma-timeline",
+				"okopi-idoma-timeline"
+			],
+			"confidence": "high"
+		}
+	],
+	"area": {
+		"lgas": [
+			"benue-agatu",
+			"benue-apa",
+			"benue-oturkpo",
+			"benue-ohimini",
+			"benue-okpokwu",
+			"benue-ogbadibo",
+			"benue-ado",
+			"benue-oju"
+		],
+		"confidence": "medium"
+	},
+	"sources": [
+		"itodo-2021-idoma-timeline",
+		"okopi-idoma-timeline"
+	],
+	"confidence": "high",
+	"note": "Adoka, Oglewu and Onyagede are placed approximately.",
+	"reviewNotes": []
+}

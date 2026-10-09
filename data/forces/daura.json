@@ -1,0 +1,41 @@
+{
+	"status": "draft",
+	"of": "polity",
+	"terrain": "sahel",
+	"summary": {
+		"text": "Daura was honoured as the oldest Hausa state but was small, and was taken in the jihad.",
+		"sources": [
+			"wikipedia-hausa-kingdoms",
+			"hogben-kirk-greene-1966"
+		],
+		"confidence": "medium"
+	},
+	"arms": [
+		{
+			"kind": "cavalry",
+			"level": 1,
+			"text": "Hausa horsemen.",
+			"sources": [
+				"law-1980-horse",
+				"wikipedia-hausa-kingdoms"
+			],
+			"confidence": "medium"
+		}
+	],
+	"record": [
+		{
+			"year": 1806,
+			"polity": "sokoto",
+			"against": "The Sokoto jihad",
+			"result": "lost",
+			"text": "Daura fell to the jihad.",
+			"sources": [
+				"hogben-kirk-greene-1966"
+			],
+			"confidence": "medium"
+		}
+	],
+	"reviewNotes": [
+		"Arms levels (1 some, 2 a real strength, 3 famous for it) are the compiler’s judgement from the sources, for the Versus page’s guess; please check them."
+	]
+}

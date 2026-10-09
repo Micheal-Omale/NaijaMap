@@ -1,0 +1,119 @@
+{
+	"name": "Illah",
+	"status": "draft",
+	"otherNames": [],
+	"point": [
+		6.649,
+		6.4246
+	],
+	"founded": {
+		"year": 1550,
+		"yearLabel": "by tradition, before the 1600s",
+		"sources": [
+			"wikipedia-illah"
+		],
+		"confidence": "disputed",
+		"note": "The founding is not dated; Illah’s Igala quarters came from Idah and its Benin quarter after a prince of Benin, so the town is shown from the century of the Igala–Benin war."
+	},
+	"summary": {
+		"text": "Illah was not founded by one people. Its first four quarters were founded by the sons of Illah, whose father came from Agukwu Nri and whose mother was Igala; Igbo settlers from Osamele and from the east founded two more. Two quarters were founded by Igala princes from Idah, and one by a prince of Benin who came to defend the town. Illah is governed by its elders, the Ogbelani-in-Council, and the eldest man of the Benin quarter is always its Iyase.",
+		"sources": [
+			"wikipedia-illah",
+			"esogbue-2023-enuani",
+			"owner-2026-10-08-anioma"
+		],
+		"confidence": "high"
+	},
+	"founders": [
+		{
+			"people": "Igbo",
+			"group": "igbo",
+			"polity": "nri",
+			"from": {
+				"name": "Agukwu Nri",
+				"point": [
+					6.98,
+					6.15
+				]
+			},
+			"quarters": [
+				"Umutei-Edem",
+				"Umutei",
+				"Ajaji",
+				"Umuagwu"
+			],
+			"text": "The first settlers: the sons of Illah, a son of Eri, whose wives bore Edem, Utei, Nwabukwu (Ajaji), Iyagbo and Agwu. By the town’s tradition their father was Igbo from Agukwu Nri and their mother Igala. Driven from the riverbank by raiders from across the Niger, they moved inland and named the place Ala amaka, “this land is good”.",
+			"sources": [
+				"wikipedia-illah"
+			],
+			"confidence": "medium"
+		},
+		{
+			"people": "Igbo",
+			"group": "igbo",
+			"from": {
+				"name": "Osamele (Ossomala)",
+				"point": [
+					6.7124,
+					5.8923
+				]
+			},
+			"quarters": [
+				"Onya",
+				"Ogbe-Orji"
+			],
+			"text": "Onya was founded by Prince Ogwu of Osamele (Ogbaru), who settled at the Illah waterside by agreement with the town; Ogbe-Orji by Chika, an Igbo man from the east, who planted an iroko (orji) to guide his kin to him.",
+			"sources": [
+				"wikipedia-illah"
+			],
+			"confidence": "medium"
+		},
+		{
+			"people": "Igala",
+			"group": "igala",
+			"polity": "igala",
+			"from": {
+				"name": "Ode-Ukpologwu, Igala land",
+				"point": [
+					6.748,
+					7.1899
+				]
+			},
+			"quarters": [
+				"Ukpologwu",
+				"Ogbe-Olu"
+			],
+			"text": "Ukpologwu was founded by Ogwu, a crown prince of Igala land passed over for the throne, who left Ode-Ukpologwu and came down the Niger; Ogbe-Olu by another Igala prince, Akinjogula.",
+			"sources": [
+				"wikipedia-illah",
+				"esogbue-2023-enuani"
+			],
+			"confidence": "medium"
+		},
+		{
+			"people": "Benin",
+			"group": "edo",
+			"polity": "benin",
+			"from": {
+				"name": "Benin City",
+				"point": [
+					5.627,
+					6.335
+				]
+			},
+			"quarters": [
+				"Ukwumege"
+			],
+			"text": "Founded by Edaiken, a prince of Benin, whom the founders asked to defend them against their enemies across the river, and who was given land to stay.",
+			"sources": [
+				"wikipedia-illah",
+				"esogbue-2023-enuani"
+			],
+			"confidence": "medium"
+		}
+	],
+	"under": [],
+	"reviewNotes": [
+		"Illah’s founding is undated; 1550 is a placeholder from the Igala and Benin traditions."
+	]
+}

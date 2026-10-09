@@ -1,6 +1,57 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Akunakuna (Agwagune) towns",
+			"lga": "cross-river-biase",
+			"point": [
+				8.101,
+				5.624
+			],
+			"villages": [
+				{
+					"name": "Akpet Central",
+					"point": [
+						8.101,
+						5.624
+					]
+				},
+				{
+					"name": "Adim",
+					"point": [
+						8.037,
+						5.741
+					]
+				},
+				{
+					"name": "Abayongo"
+				},
+				{
+					"name": "Abini"
+				},
+				{
+					"name": "Orum"
+				},
+				{
+					"name": "Etono"
+				}
+			],
+			"sources": [
+				"wikipedia-gwune-language",
+				"wikipedia-biase",
+				"grid3-settlement-names"
+			],
+			"confidence": "medium",
+			"history": {
+				"text": "Gwune (Agwagune) is the language of the Akunakuna; its dialects are named after their towns: Abayongo, Abini, Dim (Adim), Orum, Erei and Etono. Akpet Central is the headquarters of Biase LGA.",
+				"sources": [
+					"wikipedia-gwune-language",
+					"wikipedia-biase"
+				],
+				"confidence": "medium"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Agwagune",
 	"searchAliases": [

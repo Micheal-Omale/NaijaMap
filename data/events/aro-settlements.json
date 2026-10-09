@@ -1,0 +1,170 @@
+{
+	"name": "The Aro go out: settlements across Igboland",
+	"status": "draft",
+	"kind": "migration",
+	"year": 1700,
+	"yearLabel": "c. 1700–1850",
+	"until": 1902,
+	"actors": [
+		{ "name": "Aro merchant families", "polity": "aro", "side": "migrant" },
+		{ "name": "Abam, Ohafia and Edda fighters", "side": "ally" }
+	],
+	"summary": {
+		"text": "Arochukwu is three kindreds living across nineteen villages: Oke Nnachi, Ibom Isii, and Eze Agwu na Okwara Agwu. From the early 1700s, families and single traders from these villages went out along the trade routes and founded more than 150 Aro towns, wards and compounds across the old Eastern Region. Some settlements were won by force with Abam and Ohafia fighters, like Arondizuogu. Others were wards granted inside older towns, or merchant compounds beside a market. Each remembers the Arochukwu village its founder came from, and each was tied into the trade, much of it in enslaved people, that the Ibini Ukpabi oracle protected.",
+		"sources": ["aronews-kindreds", "wikipedia-aro-confederacy", "wikipedia-aro-people", "nwokeji-2010", "dike-ekejiuba-1990"],
+		"confidence": "medium"
+	},
+	"routes": [
+		{
+			"kind": "migration",
+			"by": "Aro merchant families",
+			"path": [[7.91, 5.39], [7.55, 5.82], [7.139, 6.125]],
+			"label": "Ikelionwu Ufere, from Ibom village, to Ndikelionwu",
+			"when": "1701–1750",
+			"sources": ["aronews-ndiokolo"],
+			"confidence": "medium"
+		},
+		{
+			"kind": "migration",
+			"by": "Aro merchant families",
+			"path": [[7.91, 5.39], [7.58, 5.76], [7.205, 6.056]],
+			"label": "Oji Oti Eni Mgboro, from Ujari village, to Ajalli",
+			"when": "c. 1750",
+			"sources": ["aronews-ajalli"],
+			"confidence": "medium"
+		},
+		{
+			"kind": "migration",
+			"by": "Aro merchant families",
+			"path": [[7.91, 5.39], [7.163, 6.011], [7.08, 6.03], [7.157, 6.15]],
+			"label": "Okoromesi, from Atani village, by Ogboji and Aguluezechukwu to Ndiokolo",
+			"when": "First half of the 18th century",
+			"note": "He settled first at Ezeanuna Ugbaja in Ogboji, then at Aguluezechukwu, before the present site. Aguluezechukwu is placed approximately.",
+			"sources": ["aronews-ndiokolo"],
+			"confidence": "medium"
+		},
+		{
+			"kind": "advance",
+			"by": "Abam, Ohafia and Edda fighters",
+			"path": [[7.91, 5.39], [7.5, 5.7], [7.161, 5.895]],
+			"label": "Izuogu Mgbokpo and Iheme lead Aro and Abam forces to Ikpa Ora: Arondizuogu",
+			"when": "Mid-18th century",
+			"sources": ["wikipedia-arondizuogu", "wikipedia-aro-confederacy"],
+			"confidence": "medium"
+		},
+		{
+			"kind": "migration",
+			"by": "Aro merchant families",
+			"path": [[7.91, 5.39], [7.63, 5.56]],
+			"label": "To Bende, the great fair",
+			"sources": ["wikipedia-aro-confederacy"],
+			"confidence": "high"
+		},
+		{
+			"kind": "migration",
+			"by": "Aro merchant families",
+			"path": [[7.63, 5.56], [7.56, 5.62]],
+			"label": "On to Uzuakoli, the rival fair of the 19th century",
+			"when": "19th century",
+			"sources": ["wikipedia-aro-confederacy"],
+			"confidence": "medium"
+		},
+		{
+			"kind": "migration",
+			"by": "Aro merchant families",
+			"path": [[7.91, 5.39], [7.86, 5.75], [7.75, 6.05]],
+			"label": "North to the Uburu market",
+			"sources": ["wikipedia-aro-confederacy"],
+			"confidence": "high"
+		},
+		{
+			"kind": "migration",
+			"by": "Aro merchant families",
+			"path": [[7.91, 5.39], [7.7, 5.38], [7.521, 5.395]],
+			"label": "West to Ikwuano: Aro Ajatakiri, Aro Okporoenyi and Aro Ayama",
+			"sources": ["wikipedia-aro-people"],
+			"confidence": "medium"
+		},
+		{
+			"kind": "advance",
+			"by": "Abam, Ohafia and Edda fighters",
+			"path": [[7.91, 5.39], [7.95, 5.65], [7.976, 5.886]],
+			"label": "Aro soldiers found villages at Ozizza",
+			"sources": ["wikipedia-aro-confederacy"],
+			"confidence": "medium"
+		}
+	],
+	"moments": [
+		{
+			"when": "From about 1700",
+			"title": "Out from the nineteen villages",
+			"text": "Each diaspora town was founded by a person or a group from one of the nineteen villages, and each was sited on a trade route or a farm. Nwokeji counts about 150 such communities. Some were large towns won by conquest, like Arondizuogu and part of the Ndi-eni cluster. Others were wards founded peacefully inside older towns, or small merchant compounds in a host community.",
+			"at": { "name": "Arochukwu", "point": [7.91, 5.39] },
+			"mark": "shrine",
+			"sources": ["aronews-kindreds", "wikipedia-aro-people", "nwokeji-2010"]
+		},
+		{
+			"when": "1701–1750",
+			"title": "Ndikelionwu",
+			"text": "Ikelionwu Ufere comes from Ibom village in Arochukwu to set up a trading base outside the homeland, and later wins autonomy from Amaokpala and Omogho. In the 19th century Ndikelionwu is a kingdom whose kings’ influence reaches from the Ndi-eni towns to the Niger at Onitsha.",
+			"at": { "name": "Ndikelionwu", "point": [7.139, 6.125] },
+			"mark": "founded",
+			"sources": ["aronews-ndiokolo"],
+			"confidence": "medium"
+		},
+		{
+			"when": "First half of the 18th century",
+			"title": "Okoromesi, later Ndiokolo",
+			"text": "Mazi Okoromesi, a merchant from Atani village, founds the town that bears his name. About 1895 it is renamed Aro Ndiokolo. Its four villages are Uhuana, Anumkpu, Obinetiti and Obinikpa.",
+			"at": { "name": "Ndiokolo", "point": [7.157, 6.15] },
+			"mark": "founded",
+			"sources": ["aronews-ndiokolo"],
+			"confidence": "medium"
+		},
+		{
+			"when": "c. 1750",
+			"title": "Ajalli (Ujari)",
+			"text": "Oji Oti Eni Mgboro and his companions come from Ujari village and name the new town after it. Its four villages are Obinikpa, Umueve, Umuabiama and Amagu. With Arondizuogu and Bende, Ajalli becomes one of the strongest Aro states after Arochukwu. Nearby, Ndiowu, Ndiokpalaeke, Ndiokpalaeze and Ndiukwuenu make Orumba North an Aro country.",
+			"at": { "name": "Ajalli", "point": [7.205, 6.056] },
+			"mark": "founded",
+			"sources": ["aronews-ajalli", "wikipedia-aro-confederacy", "wikipedia-aro-people"],
+			"confidence": "medium"
+		},
+		{
+			"when": "Mid-18th century",
+			"title": "Arondizuogu, the largest Aro settlement",
+			"text": "Mazi Izuogu Mgbokpo and his brothers take the land of Ikpa Ora by force, with Iheme, Izuogu’s chief servant. The town grows to twenty villages in two communities, the Izuogu and the Iheme. Early in the 19th century the warrior-trader Okoro Idozuka pushes its borders further. Today it spans Ideato North, Okigwe and Onuimo.",
+			"at": { "name": "Arondizuogu", "point": [7.161, 5.895] },
+			"mark": "founded",
+			"sources": ["wikipedia-arondizuogu", "wikipedia-aro-confederacy"],
+			"confidence": "medium"
+		},
+		{
+			"when": "18th–19th century",
+			"title": "Bende and Uzuakoli",
+			"text": "Bende is the great fair of the Aro trade and one of the strongest Aro states. In the 19th century Uzuakoli rises as a rival fair and the last stop for Aro traders heading west.",
+			"at": { "name": "Bende", "point": [7.63, 5.56] },
+			"mark": "founded",
+			"sources": ["wikipedia-aro-confederacy"],
+			"confidence": "medium"
+		},
+		{
+			"when": "18th century",
+			"title": "Ozizza",
+			"text": "Aro soldiers found at least three villages at Ozizza. Afikpo and Amasiri also take in many Aro migrants.",
+			"at": { "name": "Ozizza", "point": [7.976, 5.886] },
+			"mark": "founded",
+			"sources": ["wikipedia-aro-confederacy"],
+			"confidence": "medium"
+		}
+	],
+	"sources": ["aronews-kindreds", "wikipedia-aro-confederacy", "wikipedia-aro-people", "wikipedia-arondizuogu", "aronews-ndiokolo", "aronews-ajalli", "nwokeji-2010"],
+	"confidence": "medium",
+	"note": "Only settlements with a named founder, a date or a known role are drawn. The list of Aro towns on Wikipedia names about seventy more, in Abia, Imo, Anambra, Enugu, Ebonyi, Akwa Ibom and Benue. Points come from GRID3 settlement names.",
+	"reviewNotes": [
+		"The Ajalli founder and date come from an Aro News Online profile that blocked direct reading. They were seen only through a search summary and need checking.",
+		"One local source says the Aro of Ndiowu outwitted the Mgbom people who were there before them and renamed the town. It is not drawn until a readable source confirms it.",
+		"Aro Idoma (Benue), with Ukpabi of Ochu, is listed on Wikipedia without a location. Where is it?",
+		"Owner: which Aro village founded your community, if you know it? Founders and dates for Aro Ngwa, Aro Okigwe, Aro Isuochi and the Ebonyi settlements (Onueke, Ikwo, Effium) are not yet sourced."
+	]
+}

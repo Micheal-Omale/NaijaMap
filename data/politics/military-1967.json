@@ -1,0 +1,692 @@
+{
+	"name": "Military rule: Gowon’s twelve states",
+	"status": "draft",
+	"from": 1967,
+	"to": 1975,
+	"label": "1967–1975",
+	"summary": {
+		"text": "On 27 May 1967, days before Biafra seceded, Gowon replaced the four regions with twelve states. The North became six states and the East three, giving the Middle Belt, Ibibio, Efik and Ijaw minorities states of their own and breaking the old regional blocs. Each state was run by a military governor answering to the Supreme Military Council.",
+		"sources": [
+			"wikipedia-yakubu-gowon",
+			"wikipedia-nigerian-civil-war",
+			"worldstatesmen-nigeria-states"
+		],
+		"confidence": "high"
+	},
+	"federal": {
+		"text": "Gowon, a Christian from the small Ngas people of the Middle Belt, ruled through the civil war and the oil boom that followed.",
+		"sources": [
+			"wikipedia-yakubu-gowon"
+		],
+		"confidence": "high",
+		"leaders": [
+			{
+				"name": "Yakubu Gowon",
+				"title": "Head of State",
+				"from": 1966,
+				"to": 1975,
+				"group": "ngas",
+				"home": {
+					"name": "Lur, Kanke",
+					"point": [
+						9.6,
+						9.45
+					]
+				},
+				"sources": [
+					"wikipedia-yakubu-gowon",
+					"kperogi-2020"
+				],
+				"confidence": "high"
+			}
+		]
+	},
+	"units": [
+		{
+			"id": "north-western-state",
+			"name": "North-Western State",
+			"kind": "state",
+			"extent": {
+				"states": [
+					"sokoto",
+					"kebbi",
+					"zamfara",
+					"niger"
+				],
+				"lgas": [
+					"fct-abaji",
+					"fct-bwari",
+					"fct-gwagwalada",
+					"fct-kuje",
+					"fct-kwali",
+					"fct-municipal-area-council"
+				]
+			},
+			"seat": {
+				"name": "Sokoto",
+				"point": [
+					5.229,
+					13.0665
+				]
+			},
+			"groups": [
+				"fulani",
+				"hausa"
+			],
+			"text": "The old heart of the Sokoto Caliphate, with Niger Province to the south. The Fulani aristocracy of the emirates and the Hausa majority set its politics.",
+			"leaders": [
+				{
+					"name": "Usman Faruk",
+					"title": "Military Governor",
+					"from": 1967,
+					"to": 1975,
+					"groupLabel": "Not recorded",
+					"groupNote": "His biography gives his birthplace, Pindiga in Akko, Gombe but does not name his people.",
+					"home": {
+						"name": "Pindiga",
+						"point": [
+							11.0375,
+							10.1085
+						]
+					},
+					"sources": [
+						"wikipedia-usman-faruk"
+					],
+					"confidence": "medium"
+				}
+			],
+			"sources": [
+				"worldstatesmen-nigeria-states",
+				"wikipedia-north-western-state"
+			],
+			"confidence": "high"
+		},
+		{
+			"id": "north-central-state",
+			"name": "North-Central State",
+			"kind": "state",
+			"extent": {
+				"states": [
+					"kaduna",
+					"katsina"
+				]
+			},
+			"seat": {
+				"name": "Kaduna",
+				"point": [
+					7.446,
+					10.5555
+				]
+			},
+			"groups": [
+				"hausa",
+				"fulani"
+			],
+			"text": "Zaria and Katsina emirates with the old regional capital, Kaduna. Renamed Kaduna State in 1976. Its southern peoples (Atyap, Bajju, Ham and others) had no state of their own.",
+			"leaders": [
+				{
+					"name": "Abba Kyari",
+					"title": "Military Governor",
+					"from": 1967,
+					"to": 1975,
+					"group": "kanuri",
+					"groupNote": "His biography gives his birthplace (Dewa, in Borno) but not his people; the people shown is inferred from it.",
+					"sources": [
+						"wikipedia-abba-kyari-military-officer"
+					],
+					"confidence": "medium"
+				}
+			],
+			"sources": [
+				"worldstatesmen-nigeria-states"
+			],
+			"confidence": "high"
+		},
+		{
+			"id": "kano-state",
+			"name": "Kano State",
+			"kind": "state",
+			"extent": {
+				"states": [
+					"kano",
+					"jigawa"
+				]
+			},
+			"seat": {
+				"name": "Kano",
+				"point": [
+					8.5205,
+					11.985
+				]
+			},
+			"groups": [
+				"hausa",
+				"fulani"
+			],
+			"text": "The old Kano Province, the most populous emirate, Hausa-speaking under a Fulani emir.",
+			"leaders": [
+				{
+					"name": "Audu Bako",
+					"title": "Military Governor",
+					"from": 1967,
+					"to": 1975,
+					"group": "hausa",
+					"groupNote": "Born in the Kaduna police barracks; his father came from Argungu, a Hausa (Kebbawa) town in Kebbi. His people are inferred from his father’s town.",
+					"home": {
+						"name": "Argungu",
+						"point": [
+							4.426,
+							12.7145
+						]
+					},
+					"sources": [
+						"wikipedia-audu-bako"
+					],
+					"confidence": "medium"
+				}
+			],
+			"sources": [
+				"worldstatesmen-nigeria-states"
+			],
+			"confidence": "high"
+		},
+		{
+			"id": "north-eastern-state",
+			"name": "North-Eastern State",
+			"kind": "state",
+			"extent": {
+				"states": [
+					"borno",
+					"yobe",
+					"bauchi",
+					"gombe",
+					"adamawa",
+					"taraba"
+				]
+			},
+			"seat": {
+				"name": "Maiduguri",
+				"point": [
+					13.132,
+					11.8335
+				]
+			},
+			"groups": [
+				"kanuri",
+				"fulani",
+				"hausa"
+			],
+			"text": "The largest state: the Kanuri of Borno, the Fulani emirates of Adamawa and Bauchi, and dozens of smaller peoples from Gombe to the Mambila Plateau.",
+			"leaders": [
+				{
+					"name": "Musa Usman",
+					"title": "Military Governor",
+					"from": 1967,
+					"to": 1975,
+					"groupLabel": "Not recorded",
+					"groupNote": "Sources give his birthplace as Enugu but do not name his people.",
+					"sources": [
+						"wikipedia-musa-usman"
+					],
+					"confidence": "medium"
+				}
+			],
+			"sources": [
+				"worldstatesmen-nigeria-states",
+				"wikipedia-north-eastern-state"
+			],
+			"confidence": "high"
+		},
+		{
+			"id": "benue-plateau-state",
+			"name": "Benue-Plateau State",
+			"kind": "state",
+			"extent": {
+				"states": [
+					"benue",
+					"plateau",
+					"nasarawa"
+				],
+				"lgas": [
+					"kogi-ankpa",
+					"kogi-bassa",
+					"kogi-dekina",
+					"kogi-ibaji",
+					"kogi-idah",
+					"kogi-igalamela-odolu",
+					"kogi-ofu",
+					"kogi-olamaboro",
+					"kogi-omala"
+				]
+			},
+			"seat": {
+				"name": "Jos",
+				"point": [
+					8.911,
+					9.951
+				]
+			},
+			"groups": [
+				"tiv",
+				"idoma",
+				"ngas"
+			],
+			"text": "The first state for the Middle Belt minorities: the Tiv and Idoma of Benue, the Igala of Idah and Ankpa, and the many peoples of the Plateau. It was governed by an Ngas police officer.",
+			"leaders": [
+				{
+					"name": "Joseph Gomwalk",
+					"title": "Military Governor",
+					"from": 1967,
+					"to": 1975,
+					"group": "ngas",
+					"home": {
+						"name": "Ampang",
+						"point": [
+							9.6385,
+							9.3805
+						]
+					},
+					"sources": [
+						"wikipedia-joseph-gomwalk"
+					],
+					"confidence": "high"
+				}
+			],
+			"sources": [
+				"worldstatesmen-nigeria-states",
+				"wikipedia-benue-plateau-state"
+			],
+			"confidence": "medium"
+		},
+		{
+			"id": "kwara-state",
+			"name": "Kwara State",
+			"kind": "state",
+			"extent": {
+				"states": [
+					"kwara"
+				],
+				"lgas": [
+					"kogi-adavi",
+					"kogi-ajaokuta",
+					"kogi-ijumu",
+					"kogi-kabba-bunu",
+					"kogi-kogi",
+					"kogi-lokoja",
+					"kogi-mopa-muro",
+					"kogi-ogori-magongo",
+					"kogi-okehi",
+					"kogi-okene",
+					"kogi-yagba-east",
+					"kogi-yagba-west"
+				]
+			},
+			"seat": {
+				"name": "Ilorin",
+				"point": [
+					4.5145,
+					8.4565
+				]
+			},
+			"groups": [
+				"yoruba",
+				"nupe",
+				"ebira"
+			],
+			"text": "Created as West Central State and renamed Kwara in 1968: the Ilorin emirate and the Igbomina, Ekiti and Okun Yoruba, the Nupe south of the Niger, and the Ebira of Okene.",
+			"leaders": [
+				{
+					"name": "David Bamigboye",
+					"title": "Military Governor",
+					"from": 1967,
+					"to": 1975,
+					"group": "yoruba",
+					"groupNote": "Igbomina Yoruba.",
+					"home": {
+						"name": "Omu-Aran",
+						"point": [
+							4.9,
+							8.1555
+						]
+					},
+					"sources": [
+						"wikipedia-david-bamigboye"
+					],
+					"confidence": "high"
+				}
+			],
+			"sources": [
+				"worldstatesmen-nigeria-states"
+			],
+			"confidence": "high"
+		},
+		{
+			"id": "lagos-state",
+			"name": "Lagos State",
+			"kind": "state",
+			"extent": {
+				"states": [
+					"lagos"
+				]
+			},
+			"seat": {
+				"name": "Lagos",
+				"point": [
+					3.3965,
+					6.4545
+				]
+			},
+			"groups": [
+				"yoruba"
+			],
+			"text": "The federal territory joined with Ikeja, Badagry, Epe and Ikorodu from the Western Region.",
+			"leaders": [
+				{
+					"name": "Mobolaji Johnson",
+					"title": "Military Governor",
+					"from": 1967,
+					"to": 1975,
+					"group": "yoruba",
+					"groupNote": "A Saro (Sierra Leonean-descended) Lagosian; his father was of Lagos (Eko) origin.",
+					"home": {
+						"name": "Lagos",
+						"point": [
+							3.3965,
+							6.4545
+						]
+					},
+					"sources": [
+						"wikipedia-mobolaji-johnson"
+					],
+					"confidence": "high"
+				}
+			],
+			"sources": [
+				"worldstatesmen-nigeria-states"
+			],
+			"confidence": "high"
+		},
+		{
+			"id": "western-state",
+			"name": "Western State",
+			"kind": "state",
+			"extent": {
+				"states": [
+					"oyo",
+					"osun",
+					"ogun",
+					"ondo",
+					"ekiti"
+				]
+			},
+			"seat": {
+				"name": "Ibadan",
+				"point": [
+					3.902,
+					7.422
+				]
+			},
+			"groups": [
+				"yoruba"
+			],
+			"text": "The Yoruba heartland of the old Western Region, split into Ogun, Ondo and Oyo in 1976.",
+			"leaders": [
+				{
+					"name": "Robert Adeyinka Adebayo",
+					"title": "Military Governor",
+					"from": 1967,
+					"to": 1971,
+					"group": "yoruba",
+					"home": {
+						"name": "Iyin-Ekiti",
+						"point": [
+							5.188,
+							7.713
+						]
+					},
+					"sources": [
+						"wikipedia-robert-adeyinka-adebayo"
+					],
+					"confidence": "medium"
+				},
+				{
+					"name": "Christopher Oluwole Rotimi",
+					"title": "Military Governor",
+					"from": 1971,
+					"to": 1975,
+					"group": "yoruba",
+					"home": {
+						"name": "Abeokuta",
+						"point": [
+							3.374,
+							7.1705
+						]
+					},
+					"sources": [
+						"wikipedia-christopher-oluwole-rotimi"
+					],
+					"confidence": "high"
+				}
+			],
+			"sources": [
+				"worldstatesmen-nigeria-states",
+				"wikipedia-western-state-nigeria"
+			],
+			"confidence": "high"
+		},
+		{
+			"id": "mid-western-state",
+			"name": "Mid-Western State",
+			"kind": "state",
+			"extent": {
+				"states": [
+					"edo",
+					"delta"
+				]
+			},
+			"seat": {
+				"name": "Benin City",
+				"point": [
+					5.5565,
+					6.245
+				]
+			},
+			"groups": [
+				"edo",
+				"urhobo",
+				"anioma"
+			],
+			"text": "The old Mid-West region kept its borders. Biafran forces held it from August to September 1967 and declared a short-lived “Republic of Benin”.",
+			"leaders": [
+				{
+					"name": "David Ejoor",
+					"title": "Military Governor",
+					"from": 1967,
+					"to": 1967,
+					"group": "urhobo",
+					"home": {
+						"name": "Ovu",
+						"point": [
+							5.979,
+							5.6855
+						]
+					},
+					"sources": [
+						"wikipedia-david-ejoor"
+					],
+					"confidence": "medium"
+				},
+				{
+					"name": "Samuel Ogbemudia",
+					"title": "Military Governor",
+					"from": 1967,
+					"to": 1975,
+					"group": "edo",
+					"home": {
+						"name": "Benin City",
+						"point": [
+							5.5565,
+							6.245
+						]
+					},
+					"sources": [
+						"wikipedia-samuel-ogbemudia"
+					],
+					"confidence": "high"
+				}
+			],
+			"sources": [
+				"worldstatesmen-nigeria-states"
+			],
+			"confidence": "high"
+		},
+		{
+			"id": "east-central-state",
+			"name": "East Central State",
+			"kind": "state",
+			"extent": {
+				"states": [
+					"anambra",
+					"enugu",
+					"imo",
+					"abia",
+					"ebonyi"
+				]
+			},
+			"seat": {
+				"name": "Enugu",
+				"point": [
+					7.489,
+					6.445
+				]
+			},
+			"groups": [
+				"igbo"
+			],
+			"text": "The Igbo heartland. It was Biafra’s core until January 1970; a civilian Igbo administrator ran it for the federal side and then through the reconstruction.",
+			"leaders": [
+				{
+					"name": "Ukpabi Asika",
+					"title": "Administrator",
+					"from": 1967,
+					"to": 1975,
+					"group": "igbo",
+					"home": {
+						"name": "Onitsha",
+						"point": [
+							6.7975,
+							6.164
+						]
+					},
+					"sources": [
+						"wikipedia-ukpabi-asika"
+					],
+					"confidence": "high"
+				}
+			],
+			"sources": [
+				"worldstatesmen-nigeria-states",
+				"wikipedia-east-central-state"
+			],
+			"confidence": "high"
+		},
+		{
+			"id": "south-eastern-state",
+			"name": "South-Eastern State",
+			"kind": "state",
+			"extent": {
+				"states": [
+					"cross-river",
+					"akwa-ibom"
+				]
+			},
+			"seat": {
+				"name": "Calabar",
+				"point": [
+					8.328,
+					5.004
+				]
+			},
+			"groups": [
+				"ibibio",
+				"efik",
+				"annang"
+			],
+			"text": "The first state of the Ibibio, Efik, Annang and Ejagham minorities of the old East. Renamed Cross River in 1976.",
+			"leaders": [
+				{
+					"name": "Udokaha Esuene",
+					"title": "Military Governor",
+					"from": 1967,
+					"to": 1975,
+					"group": "ibibio",
+					"sources": [
+						"wikipedia-udokaha-esuene"
+					],
+					"confidence": "high"
+				}
+			],
+			"sources": [
+				"worldstatesmen-nigeria-states"
+			],
+			"confidence": "high"
+		},
+		{
+			"id": "rivers-state",
+			"name": "Rivers State",
+			"kind": "state",
+			"extent": {
+				"states": [
+					"rivers",
+					"bayelsa"
+				]
+			},
+			"seat": {
+				"name": "Port Harcourt",
+				"point": [
+					7.018,
+					4.7875
+				]
+			},
+			"groups": [
+				"ijaw",
+				"ikwerre",
+				"ogoni"
+			],
+			"text": "The Niger Delta minorities of the old East (Ijaw, Ikwerre, Ogoni and others) won a state of their own, governed by a 25-year-old Ijaw naval officer.",
+			"leaders": [
+				{
+					"name": "Alfred Diete-Spiff",
+					"title": "Military Governor",
+					"from": 1967,
+					"to": 1975,
+					"group": "ijaw",
+					"groupNote": "Later Amanyanabo (king) of Twon-Brass.",
+					"home": {
+						"name": "Twon-Brass",
+						"point": [
+							6.471,
+							4.3715
+						]
+					},
+					"sources": [
+						"wikipedia-alfred-diete-spiff"
+					],
+					"confidence": "high"
+				}
+			],
+			"sources": [
+				"worldstatesmen-nigeria-states"
+			],
+			"confidence": "high"
+		}
+	],
+	"reviewNotes": [
+		"Ethnic attributions follow the cited biographies. Where a biography gives only a birthplace, the people is inferred from it and marked medium; where even that is unclear, the people is shown as “Not recorded”.",
+		"The 1967 borders are drawn from today’s LGAs. Kogi is split: its Igala LGAs (Idah, Dekina, Ankpa and the rest) are shown in Benue-Plateau, the old Kabba Province in Kwara. The Federal Capital Territory, carved out in 1976 from Niger, Plateau and Kwara, is shown whole in North-Western State.",
+		"In the Mid-West, Biafra’s Albert Okonkwo ran the state from August to September 1967; he is not listed as a governor."
+	],
+	"parties": [],
+	"coalitions": [],
+	"results": []
+}

@@ -1,0 +1,50 @@
+{
+	"name": "The jihadists turned back at Igu",
+	"status": "draft",
+	"kind": "war",
+	"year": 1820,
+	"yearLabel": "Early 19th century (undated)",
+	"until": 1835,
+	"actors": [
+		{ "name": "Igala forces of the Attah", "polity": "igala", "side": "defender" },
+		{ "name": "Igu (Koton Karfe)", "side": "ally" },
+		{ "name": "Jihadist forces from the north", "polity": "sokoto", "side": "attacker" }
+	],
+	"summary": {
+		"text": "As the jihad of Usman dan Fodio spread south, Igala tradition and Igala writers say a jihadist force came against Igu, the Attah’s vassal town on the Niger above the confluence. The Attah’s soldiers met it there and destroyed it, and the war never came near Idah. After the battle, the Hausa are said to have called the town Koton Karfe, ‘powerful Koto’. Mainland Igala was never conquered, and no emirate was ever set up in the confluence lands the Attah protected. Igu itself was sacked later, in 1833, and lost to the Nupe of Bida by 1853–1860.",
+		"sources": ["ayegba-2020-summit", "abbah-2018-igala-fulani", "owner-2026-10-07-igu"],
+		"confidence": "disputed"
+	},
+	"routes": [
+		{ "kind": "advance", "by": "Jihadist forces from the north", "path": [[6.3, 8.9], [6.6, 8.45], [6.7981, 8.0891]], "label": "A jihadist force comes down on Igu", "sources": ["ayegba-2020-summit"], "confidence": "disputed" },
+		{ "kind": "advance", "by": "Igala forces of the Attah", "path": [[6.737, 7.117], [6.85, 7.6], [6.7981, 8.0891]], "label": "The Attah’s army goes up to defend Igu", "sources": ["ayegba-2020-summit", "owner-2026-10-07-igu"], "confidence": "disputed" },
+		{ "kind": "retreat", "by": "Jihadist forces from the north", "path": [[6.7981, 8.0891], [6.55, 8.5]], "label": "The invaders are destroyed", "sources": ["ayegba-2020-summit"], "confidence": "disputed" }
+	],
+	"moments": [
+		{
+			"when": "Early 19th century",
+			"title": "Victory at Igu",
+			"text": "The Igala soldiers bring down the invading force at Koto. The war ends there, far from Idah and the Attah’s palace, and the town takes the name Koton Karfe, ‘powerful Koto’.",
+			"at": { "name": "Igu (Koton Karfe)", "point": [6.7981, 8.0891] },
+			"mark": "battle",
+			"sources": ["ayegba-2020-summit", "owner-2026-10-07-igu"],
+			"confidence": "disputed"
+		},
+		{
+			"when": "1833 and after",
+			"title": "Igu falls later",
+			"text": "Igu is sacked and burned in 1833 and finally lost to the Nupe by 1860, but mainland Igala is never conquered.",
+			"at": { "name": "Igu (Koton Karfe)", "point": [6.7981, 8.0891] },
+			"mark": "burned",
+			"sources": ["abbah-2018-igala-fulani"],
+			"confidence": "medium"
+		}
+	],
+	"sources": ["ayegba-2020-summit", "abbah-2018-igala-fulani", "owner-2026-10-07-igu"],
+	"confidence": "disputed",
+	"note": "No date or commander is recorded. It is placed before the sack of 1833.",
+	"reviewNotes": [
+		"The battle rests on the owner’s account and one Igala writer (Ayegba, 2020), who cites ‘reliable sources’ but gives no date or names. A written source naming the Attah or commander would let this become ‘medium’.",
+		"The Koton Karfe name story is a tradition; other explanations of the name may exist."
+	]
+}

@@ -1,6 +1,23 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Bagudo",
+			"lga": "kebbi-bagudu",
+			"villages": [],
+			"sources": [
+				"wikipedia-bagudo"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Founded, as its name tells, by a Fulani herder called Wabudo; its people are mainly Fulani, Hausa and Zabarmawa (Zarma), on the borders of Niger and Benin.",
+				"sources": [
+					"wikipedia-bagudo"
+				],
+				"confidence": "medium"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Zarma (Zabarmawa)",
 	"searchAliases": [

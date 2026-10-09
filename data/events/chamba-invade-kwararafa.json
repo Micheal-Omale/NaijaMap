@@ -1,0 +1,39 @@
+{
+	"name": "The Chamba invade Kwararafa",
+	"status": "draft",
+	"kind": "war",
+	"year": 1780,
+	"yearLabel": "c. 1780–1810",
+	"until": 1820,
+	"actors": [{ "name": "Chamba warbands", "side": "attacker", "ink": "#7a4a2a" }, { "name": "Kwararafa", "polity": "kwararafa", "side": "defender" }],
+	"summary": {
+		"text": "Late in the 18th century Chamba warbands from the uplands of today's Adamawa pushed west down the Benue, themselves driven by Fulani raids. They invaded the Kwararafa heartland and drove the last king of the old confederacy, Adi Matswen, into exile. The Jukun who regrouped at Wukari after him ruled a smaller kingdom of Jukun alone.",
+		"sources": ["wikipedia-kwararafa", "wikipedia-wukari-federation", "wikipedia-chamba-people"],
+		"confidence": "medium"
+	},
+	"routes": [
+		{
+			"kind": "advance",
+			"by": "Chamba warbands",
+			"path": [[12.05, 8.45], [10.9, 8.1], [9.78, 7.87]],
+			"label": "West down the Benue into the Jukun heartland",
+			"note": "Drawn from the Chamba homeland around Ganye to Wukari; the bands' real paths are not recorded.",
+			"sources": ["wikipedia-wukari-federation", "wikipedia-chamba-people"],
+			"confidence": "medium"
+		}
+	],
+	"moments": [
+		{
+			"when": "Reign of Adi Matswen (c. 1780–1810)",
+			"title": "The last Aku of Kwararafa in exile",
+			"text": "The Chamba invasion forces Adi Matswen from his capital.",
+			"at": { "name": "Puje (near Wukari)", "point": [9.783, 7.869] },
+			"mark": "exile",
+			"sources": ["wikipedia-kwararafa"],
+			"confidence": "medium"
+		}
+	],
+	"sources": ["wikipedia-kwararafa", "wikipedia-wukari-federation", "wikipedia-chamba-people"],
+	"confidence": "medium",
+	"reviewNotes": ["The Chamba of Donga and Takum, who settled among the Jukun, may date from this movement; not yet checked."]
+}

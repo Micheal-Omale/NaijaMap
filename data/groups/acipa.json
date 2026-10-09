@@ -1,6 +1,21 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Acipa of Sakaba",
+			"lga": "kebbi-sakaba",
+			"villages": [],
+			"alsoIn": [
+				"niger-mariga",
+				"niger-rafi"
+			],
+			"sources": [
+				"wikipedia-kainji-languages",
+				"wikipedia-kebbi-state"
+			],
+			"confidence": "medium"
+		}
+	],
 	"reviewNotes": [],
 	"name": "Acipa (Cicipu)",
 	"searchAliases": [

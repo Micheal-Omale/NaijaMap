@@ -1,6 +1,48 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Bahumono villages (Abi)",
+			"lga": "cross-river-abi",
+			"villages": [
+				{
+					"name": "Ediba"
+				},
+				{
+					"name": "Anong"
+				},
+				{
+					"name": "Usumutong"
+				},
+				{
+					"name": "Abeugo"
+				},
+				{
+					"name": "Afafanyi"
+				},
+				{
+					"name": "Igonigoni"
+				},
+				{
+					"name": "Ebom"
+				},
+				{
+					"name": "Ebijakara"
+				}
+			],
+			"sources": [
+				"wikipedia-abi-cross-river"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "The eight Bahumono villages trace their origin to Hotumusa, the “old town” in the Ruhura hills between today's Ediba, Usumutong and Ebijakara. Hunters from Hotumusa found the riverside site of Ediba, and Ogbudene led the people to drive its earlier inhabitants across the river.",
+				"sources": [
+					"wikipedia-abi-cross-river"
+				],
+				"confidence": "medium"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Bahumono",
 	"searchAliases": [

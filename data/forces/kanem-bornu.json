@@ -1,0 +1,108 @@
+{
+	"status": "draft",
+	"of": "polity",
+	"terrain": "sahel",
+	"summary": {
+		"text": "Borno fought with heavy cavalry on the open plains of the Sahel: riders in quilted armour and mail, from a walled capital at Ngazargamu. In the 1570s Idris Alooma added Turkish muskets and Turkish instructors, among the first guns in the Central Sudan.",
+		"sources": [
+			"wikipedia-kanem-bornu",
+			"barkindo-1980"
+		],
+		"confidence": "high"
+	},
+	"arms": [
+		{
+			"kind": "cavalry",
+			"level": 3,
+			"text": "Mounted armies were Borno’s strength; Dunama II is said to have commanded 40,000 horsemen.",
+			"sources": [
+				"wikipedia-kanem-bornu",
+				"law-1980-horse"
+			],
+			"confidence": "high"
+		},
+		{
+			"kind": "firearms",
+			"level": 2,
+			"from": 1570,
+			"to": 1800,
+			"text": "Idris Alooma got Turkish muskets and Turkish instructors from the Ottoman Sultan in the 1570s.",
+			"sources": [
+				"wikipedia-kanem-bornu"
+			],
+			"confidence": "high"
+		},
+		{
+			"kind": "walls",
+			"level": 2,
+			"from": 1472,
+			"to": 1808,
+			"text": "Ngazargamu, the walled capital, from about 1472.",
+			"sources": [
+				"wikipedia-kanem-bornu",
+				"wikipedia-ngazargamu"
+			],
+			"confidence": "high"
+		},
+		{
+			"kind": "allies",
+			"level": 2,
+			"text": "Vassal states and nomad allies supplied men.",
+			"sources": [
+				"wikipedia-kanem-bornu",
+				"barkindo-1980"
+			],
+			"confidence": "medium"
+		}
+	],
+	"record": [
+		{
+			"year": 1490,
+			"yearLabel": "late 15th century",
+			"polity": "kwararafa",
+			"against": "Kwararafa",
+			"result": "won",
+			"text": "Borno inflicted a crushing defeat on Kwararafa in the late 15th century.",
+			"sources": [
+				"wikipedia-kwararafa"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1680,
+			"polity": "kwararafa",
+			"against": "Kwararafa",
+			"result": "lost",
+			"text": "Kwararafa invaded Borno and sacked Ngazargamu.",
+			"sources": [
+				"wikipedia-kwararafa"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1808,
+			"polity": "sokoto",
+			"against": "The Sokoto jihad",
+			"result": "lost",
+			"text": "Fulani jihadists took and destroyed Ngazargamu; al-Kanemi then drove them back.",
+			"sources": [
+				"wikipedia-kanem-bornu"
+			],
+			"confidence": "high"
+		},
+		{
+			"year": 1893,
+			"event": "kanem-bornu-partition",
+			"against": "Rabih az-Zubayr",
+			"result": "lost",
+			"text": "Rabih beat Borno’s armies and ruled from Dikwa.",
+			"sources": [
+				"wikipedia-kanem-bornu"
+			],
+			"confidence": "high"
+		}
+	],
+	"reviewNotes": [
+		"Arms levels (1 some, 2 a real strength, 3 famous for it) are the compiler’s judgement from the sources, for the Versus page’s guess; please check them."
+	]
+}

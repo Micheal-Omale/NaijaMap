@@ -1,0 +1,39 @@
+{
+	"status": "draft",
+	"of": "polity",
+	"terrain": "delta",
+	"summary": {
+		"text": "Old Calabar’s Efik towns on the Cross River were ruled through the Ekpe society; their power was trade, guarded by war canoes.",
+		"sources": [
+			"wikipedia-calabar",
+			"latham-1973"
+		],
+		"confidence": "medium"
+	},
+	"arms": [
+		{
+			"kind": "canoes",
+			"level": 2,
+			"text": "War canoes on the Cross River.",
+			"sources": [
+				"latham-1973"
+			],
+			"confidence": "medium"
+		},
+		{
+			"kind": "firearms",
+			"level": 1,
+			"from": 1700,
+			"text": "Guns from the Atlantic trade.",
+			"sources": [
+				"latham-1973",
+				"thornton-1999"
+			],
+			"confidence": "medium"
+		}
+	],
+	"record": [],
+	"reviewNotes": [
+		"Arms levels (1 some, 2 a real strength, 3 famous for it) are the compiler’s judgement from the sources, for the Versus page’s guess; please check them."
+	]
+}

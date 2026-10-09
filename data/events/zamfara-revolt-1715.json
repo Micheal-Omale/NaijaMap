@@ -1,0 +1,80 @@
+{
+	"name": "Zamfara, Gobir and Agadez throw off Kebbi",
+	"status": "draft",
+	"kind": "war",
+	"year": 1715,
+	"yearLabel": "c. 1715",
+	"until": 1725,
+	"actors": [
+		{
+			"name": "Zamfara",
+			"polity": "zamfara",
+			"side": "attacker"
+		},
+		{
+			"name": "Gobir",
+			"polity": "gobir",
+			"side": "ally"
+		},
+		{
+			"name": "Agadez",
+			"side": "ally",
+			"ink": "#8a6d3b"
+		},
+		{
+			"name": "Kebbi",
+			"polity": "kebbi",
+			"side": "defender"
+		}
+	],
+	"summary": {
+		"text": "Around 1715 Kebbi's tributaries rose. Sarkin Zamfara Babba, with Gobir and Agadez, drove Kebbi's army back to the Gulbin Ka river. His son Yakubu beat the Kebbawa at Tsamiya Maibaura and captured their king, Muhammadu dan Giwa. Zamfara's soothsayers had demanded a human sacrifice; the slave Acali offered himself, and his brother Kare was made the first Sarkin Burmin Bakura in his honour. Zamfara and Gobir were free, and Kebbi's days as an empire were over.",
+		"sources": [
+			"wikipedia-zamfara-kingdom",
+			"wikipedia-gobir",
+			"wikipedia-kebbi-kingdom"
+		],
+		"confidence": "medium"
+	},
+	"routes": [
+		{
+			"kind": "advance",
+			"by": "Zamfara",
+			"path": [
+				[
+					6.45,
+					13.18
+				],
+				[
+					4.2,
+					12.45
+				]
+			],
+			"label": "Zamfara and its allies against Kebbi",
+			"sources": [
+				"wikipedia-zamfara-kingdom"
+			],
+			"confidence": "medium"
+		}
+	],
+	"moments": [
+		{
+			"when": "c. 1715",
+			"title": "Tsamiya Maibaura",
+			"text": "Kebbi is beaten and its king Muhammadu dan Giwa captured.",
+			"mark": "battle",
+			"sources": [
+				"wikipedia-zamfara-kingdom"
+			],
+			"confidence": "medium"
+		}
+	],
+	"sources": [
+		"wikipedia-zamfara-kingdom",
+		"wikipedia-gobir",
+		"wikipedia-kebbi-kingdom"
+	],
+	"confidence": "medium",
+	"note": "Tsamiya Maibaura is not located.",
+	"reviewNotes": []
+}

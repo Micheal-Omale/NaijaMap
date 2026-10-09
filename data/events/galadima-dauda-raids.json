@@ -1,0 +1,29 @@
+{
+	"name": "Galadima Dauda's seven-year raid",
+	"status": "draft",
+	"kind": "raid",
+	"year": 1438,
+	"yearLabel": "reign of Abdullahi Burja (1438–1452)",
+	"until": 1460,
+	"actors": [
+		{ "name": "Kano", "polity": "kano", "side": "attacker" },
+		{ "name": "Warjawa and other peoples south of Kano", "side": "defender", "ink": "#7a6a4a" }
+	],
+	"summary": {
+		"text": "Once Kano paid tribute to Bornu and the kola road to Gonja opened, Kano needed captives to trade. From Dutse, Abdullahi Burja's Galadima, Dauda, led the army south against the Warjawa and other peoples towards today's Bauchi. For seven years he sent the Sarki a thousand captives a month; the Chronicle says no one was left in Kano but the Sarki and the very old. Called home, he stopped every three miles and founded a town, leaving 500 men and 500 women in each: 21 towns of slaves, the Ibdabu, which he ruled as their lord. M. G. Smith called it unprecedented in scale and in its systematic devastation.",
+		"sources": ["wikipedia-sultanate-of-kano", "wikipedia-abdullahi-burja", "palmer-1908-kano-chronicle"],
+		"confidence": "high"
+	},
+	"routes": [
+		{ "kind": "raid", "by": "Kano", "path": [[9.34, 11.76], [9.75, 11.2]], "label": "South from Dutse against the Warjawa", "note": "The Warjawa are placed around Warji in Bauchi State; the raids' extent is not recorded.", "sources": ["wikipedia-sultanate-of-kano"], "confidence": "medium" },
+		{ "kind": "loot", "by": "Kano", "path": [[9.75, 11.2], [9.1, 11.6], [8.52, 12]], "label": "Home to Kano, founding 21 slave towns on the way", "sources": ["wikipedia-abdullahi-burja", "palmer-1908-kano-chronicle"], "confidence": "medium" }
+	],
+	"moments": [
+		{ "when": "Seven years", "title": "A thousand captives a month", "text": "The Galadima sends 1,000 captives a month to Kano; the Sarki sends horses and clothes in return.", "mark": "loot", "sources": ["wikipedia-abdullahi-burja", "palmer-1908-kano-chronicle"], "confidence": "high" },
+		{ "when": "On the way home", "title": "The 21 towns", "text": "A town every three miles, with 1,000 slaves in each; he gives the Sarki 3,000 more on arrival.", "mark": "founded", "sources": ["wikipedia-abdullahi-burja", "palmer-1908-kano-chronicle"], "confidence": "high" }
+	],
+	"sources": ["wikipedia-sultanate-of-kano", "wikipedia-abdullahi-burja", "palmer-1908-kano-chronicle"],
+	"confidence": "high",
+	"note": "The 21 towns are not named in the Chronicle and are not drawn.",
+	"reviewNotes": []
+}

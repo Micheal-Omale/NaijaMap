@@ -1,6 +1,87 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Maiduguri",
+			"lga": "borno-maiduguri",
+			"point": [
+				13.16,
+				11.85
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-maiduguri"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Founded in 1907 as a British military outpost on the seasonal Ngadda river. Its people are mostly Kanuri, with Hausa, Shuwa, Bura, Marghi and Fulani.",
+				"sources": [
+					"wikipedia-maiduguri"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Kukawa",
+			"lga": "borno-kukawa",
+			"point": [
+				13.57,
+				12.93
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-kukawa"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Founded as Kuka by al-Kanemi in 1814, capital of Bornu from 1846, a twin town of 60,000 or more at the end of the road to Tripoli; Rabih burned it in 1893.",
+				"sources": [
+					"wikipedia-kukawa"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Dikwa",
+			"lga": "borno-dikwa",
+			"point": [
+				13.92,
+				12.03
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-dikwa-emirate"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Rabih's capital from 1893, then seat of German Borno and today of the Dikwa Emirate of the al-Kanemi line.",
+				"sources": [
+					"wikipedia-dikwa-emirate"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Birni Ngazargamu",
+			"lga": "yobe-geidam",
+			"point": [
+				12.367,
+				13.083
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-ngazargamu"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Capital of Kanem–Bornu from its founding by Mai Ali Gaji in the 15th century until the Fulani took it in 1808; its rampart and red-brick remains are still visible near Geidam.",
+				"sources": [
+					"wikipedia-ngazargamu"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Kanuri",
 	"searchAliases": [

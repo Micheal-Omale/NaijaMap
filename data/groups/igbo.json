@@ -1,6 +1,581 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Agukwu Nri",
+			"lga": "anambra-anaocha",
+			"point": [
+				6.98,
+				6.15
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-kingdom-of-nri"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Seat of the Eze Nri, the priest-king whose ritual authority reached across much of Igboland.",
+				"sources": [
+					"wikipedia-kingdom-of-nri"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Igbo-Ukwu",
+			"lga": "anambra-aguata",
+			"point": [
+				7.0167,
+				6.0167
+			],
+			"villages": [
+				{
+					"name": "Obiuno"
+				},
+				{
+					"name": "Ngo"
+				},
+				{
+					"name": "Ihite"
+				}
+			],
+			"sources": [
+				"wikipedia-igbo-ukwu"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Originally called Igbo, a centre of the Nri kingdom from the 8th or 9th century, linked by trade to Gao on the Niger bend and through it to North Africa, and one of the earliest centres of lost-wax bronze casting in Africa.",
+				"sources": [
+					"wikipedia-igbo-ukwu"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Aguleri",
+			"lga": "anambra-anambra-east",
+			"villages": [],
+			"sources": [
+				"wikipedia-aguleri"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "By its tradition the home of Eri, who set an altar at the meeting of the Ezu and Omabala rivers. His sons are said to have dispersed from here: Agulu stayed, Attah to found Igala, Oba Benin and Menri Nri. Its ruling family is the Idigo.",
+				"sources": [
+					"wikipedia-aguleri"
+				],
+				"confidence": "disputed"
+			}
+		},
+		{
+			"name": "Awka",
+			"lga": "anambra-awka-south",
+			"point": [
+				7.0678,
+				6.2069
+			],
+			"villages": [],
+			"alsoIn": [
+				"anambra-awka-north"
+			],
+			"sources": [
+				"wikipedia-awka"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "One of the oldest settlements in Igboland, at the centre of the Nri civilisation, famous for its blacksmiths. Its earliest settlers were the Ifiteana. Capital of Anambra State since 1991.",
+				"sources": [
+					"wikipedia-awka"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Onitsha",
+			"lga": "anambra-onitsha-north",
+			"point": [
+				6.7889,
+				6.1452
+			],
+			"villages": [],
+			"alsoIn": [
+				"anambra-onitsha-south"
+			],
+			"sources": [
+				"wikipedia-onitsha"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Founded by the people of Ado N'Idu under Eze Chima, who crossed the Niger after war with Benin and drove out the Oze; Chima's son Oraeze became the first Obi.",
+				"sources": [
+					"wikipedia-onitsha"
+				],
+				"confidence": "medium"
+			}
+		},
+		{
+			"name": "Nnewi",
+			"lga": "anambra-nnewi-north",
+			"point": [
+				6.9172,
+				6.0192
+			],
+			"villages": [
+				{
+					"name": "Otolo"
+				},
+				{
+					"name": "Uruagu"
+				},
+				{
+					"name": "Umudim"
+				},
+				{
+					"name": "Nnewichi"
+				}
+			],
+			"alsoIn": [
+				"anambra-nnewi-south"
+			],
+			"sources": [
+				"wikipedia-nnewi"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Four villages, Otolo, Uruagu, Umudim and Nnewichi. In Nnewi tradition the rabbit (ewi) saved the founders in war. In 1953 it was the largest inland town of the Eastern states; today an industrial city.",
+				"sources": [
+					"wikipedia-nnewi"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Owerri",
+			"lga": "imo-owerri-municipal",
+			"point": [
+				7.035,
+				5.485
+			],
+			"villages": [],
+			"alsoIn": [
+				"imo-owerri-north",
+				"imo-owerri-west"
+			],
+			"sources": [
+				"wikipedia-owerri"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Founded in the 14th century by Ekwem Oha. In 1969 it was the last of Biafra's three capitals, after Enugu and Umuahia.",
+				"sources": [
+					"wikipedia-owerri"
+				],
+				"confidence": "medium"
+			}
+		},
+		{
+			"name": "Mbaise",
+			"lga": "imo-aboh-mbaise",
+			"villages": [
+				{
+					"name": "Agbaja"
+				},
+				{
+					"name": "Ahiara"
+				},
+				{
+					"name": "Ekwereazu"
+				},
+				{
+					"name": "Ezi na Ihite"
+				},
+				{
+					"name": "Oke Uvuru"
+				}
+			],
+			"alsoIn": [
+				"imo-ahiazu-mbaise",
+				"imo-ezinihitte"
+			],
+			"sources": [
+				"wikipedia-mbaise"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Named from its five clans, Agbaja, Ahiara, Ekwereazu, Ezi na Ihite and Oke Uvuru; one of West Africa's most densely settled areas. The British arrived in 1902; after a British traveller was killed by mistake, the 1906 Ahiara Punitive Expedition was sent against the clans.",
+				"sources": [
+					"wikipedia-mbaise"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Orlu",
+			"lga": "imo-orlu",
+			"point": [
+				7.0389,
+				5.7964
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-orlu"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Regarded as a homeland of the Igbo, speaking the Isuama dialect. During the civil war it was the base of relief agencies.",
+				"sources": [
+					"wikipedia-orlu"
+				],
+				"confidence": "medium"
+			}
+		},
+		{
+			"name": "Oguta",
+			"lga": "imo-oguta",
+			"point": [
+				6.8094,
+				5.7117
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-oguta"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Oguta-Ameshi, 27 villages on the eastern shore of Oguta Lake; one of the oldest trading and administrative posts of the Royal Niger Company and the colonial government.",
+				"sources": [
+					"wikipedia-oguta"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Okigwe",
+			"lga": "imo-okigwe",
+			"point": [
+				7.55,
+				5.483
+			],
+			"villages": [
+				{
+					"name": "Ezinachi"
+				},
+				{
+					"name": "Ikigwu"
+				},
+				{
+					"name": "Otanzu"
+				},
+				{
+					"name": "Umulolo"
+				},
+				{
+					"name": "Ihube"
+				},
+				{
+					"name": "Otan-Chara"
+				}
+			],
+			"sources": [
+				"wikipedia-okigwe"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Six autonomous communities; several villages carry the name Aro, such as Aro-Okigwe and Aro-Umulolo.",
+				"sources": [
+					"wikipedia-okigwe"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Umuahia",
+			"lga": "abia-umuahia-north",
+			"point": [
+				7.4833,
+				5.5333
+			],
+			"villages": [
+				{
+					"name": "Umuopara"
+				},
+				{
+					"name": "Ibeku"
+				},
+				{
+					"name": "Olokoro"
+				},
+				{
+					"name": "Ubakala"
+				},
+				{
+					"name": "Ohuhu"
+				}
+			],
+			"alsoIn": [
+				"abia-umuahia-south"
+			],
+			"sources": [
+				"wikipedia-umuahia"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "From Ama Ahia, “market place”: a central market of the region before colonial rule, later a railway town and Biafra's second capital.",
+				"sources": [
+					"wikipedia-umuahia",
+					"wikipedia-owerri"
+				],
+				"confidence": "medium"
+			}
+		},
+		{
+			"name": "Ngwa",
+			"lga": "abia-isiala-ngwa-north",
+			"villages": [],
+			"alsoIn": [
+				"abia-isiala-ngwa-south",
+				"abia-osisioma-ngwa"
+			],
+			"sources": [
+				"wikipedia-ngwa-people"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "The largest Igbo subgroup, between the Imo River and the Annang and Ibibio. Part of the Isuama of the Orlu area, their founders migrated south through Ezinihitte to the Imo River. The Okonko and Ekpe societies kept the law.",
+				"sources": [
+					"wikipedia-ngwa-people"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Ohafia",
+			"lga": "abia-ohafia",
+			"point": [
+				7.8333,
+				5.6167
+			],
+			"villages": [
+				{
+					"name": "Elu"
+				},
+				{
+					"name": "Ebem"
+				},
+				{
+					"name": "Amaekpu"
+				},
+				{
+					"name": "Asaga"
+				},
+				{
+					"name": "Akanu"
+				},
+				{
+					"name": "Isiugwu"
+				}
+			],
+			"sources": [
+				"wikipedia-ohafia"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "26 villages around Elu, the ancestral capital. Its ancestors were famed warriors; the leopard cap (okpu agu) and the iri agha war dance keep that tradition.",
+				"sources": [
+					"wikipedia-ohafia"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Abiriba",
+			"lga": "abia-ohafia",
+			"point": [
+				7.7333,
+				5.7
+			],
+			"villages": [
+				{
+					"name": "Ameke"
+				},
+				{
+					"name": "Amogudu"
+				},
+				{
+					"name": "Agboji"
+				}
+			],
+			"sources": [
+				"wikipedia-abiriba"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Founded in the 14th century by migrants from the Cross River basin who share ancestry with Arochukwu; famous for blacksmithing and iron smelting. Its three villages each have an Eze, and the Eze Ameke is the Enachioken, first among equals.",
+				"sources": [
+					"wikipedia-abiriba"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Arochukwu",
+			"lga": "abia-arochukwu",
+			"point": [
+				7.9085,
+				5.3889
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-arochukwu"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Formed when the Eze Agwu group from Abiriba, the priest Nnachi from Edda and the Akpa from beyond the Cross River joined the Ibom kingdom's prince against his rivals; the three peoples became the Aro.",
+				"sources": [
+					"wikipedia-arochukwu"
+				],
+				"confidence": "medium"
+			}
+		},
+		{
+			"name": "Afikpo (Ehugbo)",
+			"lga": "ebonyi-afikpo-north",
+			"point": [
+				7.95,
+				5.8667
+			],
+			"villages": [
+				{
+					"name": "Itim Ukwu"
+				},
+				{
+					"name": "Ohaisu"
+				},
+				{
+					"name": "Nkpoghoro"
+				},
+				{
+					"name": "Ugwuegu"
+				},
+				{
+					"name": "Ozizza"
+				},
+				{
+					"name": "Unwana"
+				},
+				{
+					"name": "Amasiri"
+				}
+			],
+			"sources": [
+				"wikipedia-afikpo-north"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "A centre of old Igbo tradition: its boys are initiated into the Ogo society, and archaeology points to settlement since the Neolithic.",
+				"sources": [
+					"wikipedia-afikpo-north"
+				],
+				"confidence": "medium"
+			}
+		},
+		{
+			"name": "Abakaliki",
+			"lga": "ebonyi-abakaliki",
+			"point": [
+				8.1,
+				6.3333
+			],
+			"villages": [
+				{
+					"name": "Izzi"
+				},
+				{
+					"name": "Ezza"
+				},
+				{
+					"name": "Ikwo"
+				}
+			],
+			"sources": [
+				"wikipedia-abakaliki"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "A slave-trade centre in the 17th century, raided by the Aro in the 18th. The name also covers the old Abakaliki block of Ohaukwu, Ishielu, Izzi, Ezza and Ikwo.",
+				"sources": [
+					"wikipedia-abakaliki"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Enugu",
+			"lga": "enugu-enugu-north",
+			"villages": [],
+			"alsoIn": [
+				"enugu-enugu-east",
+				"enugu-enugu-south"
+			],
+			"sources": [
+				"wikipedia-enugu-state"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "A township from 1917 as Enugwu-Ngwo, renamed Enugu in 1928. After striking coal miners were massacred in the Iva Valley in 1949, Enugu became a symbol of resistance to colonial rule.",
+				"sources": [
+					"wikipedia-enugu-state"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Nsukka",
+			"lga": "enugu-nsukka",
+			"point": [
+				7.3958,
+				6.8567
+			],
+			"villages": [
+				{
+					"name": "Nkpunano"
+				},
+				{
+					"name": "Nru"
+				},
+				{
+					"name": "Ihe-n-Owerre"
+				}
+			],
+			"sources": [
+				"wikipedia-nsukka"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "By tradition Nsukka, Obukpa and Okpuje were the three sons of Asadu Ideke Arumona, and Nsukka's own sons founded its three quarters, Nkpunano, Nru and Ihe-n-Owerre. Opi, its neighbour, is an archaeological site.",
+				"sources": [
+					"wikipedia-nsukka"
+				],
+				"confidence": "medium"
+			}
+		},
+		{
+			"name": "Igbo of Sabon Gari, Kano",
+			"lga": "kano-fagge",
+			"villages": [],
+			"sources": [
+				"wikipedia-sabon-gari"
+			],
+			"confidence": "medium",
+			"history": {
+				"text": "With the railway, British rule brought many traders and workers from the south, mostly Igbo and Yoruba, who settled in the new towns the Hausa called Sabon Gari. The Cantonments Proclamation of 1914 made them separate reservations.",
+				"sources": [
+					"wikipedia-sabon-gari"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [
 		"Delta (Anioma, Ika, Ukwuani) and Rivers (Etche, Ogba) Igboid peoples now have their own profiles; their Igbo identity is debated (see each profile).",
 		"Enugu’s Uzo-Uwani, Igbo-Eze North and Anambra West have Igala and Idoma speaking communities."
@@ -809,10 +1384,12 @@
 			"sources": [
 				"wikipedia-igbo-people",
 				"obinaju-anyanwu-2018",
-				"wikipedia-igbo-eze-north"
+				"wikipedia-igbo-eze-north",
+				"chukwudi-opone-2024-eteh",
+				"owner-2026-10-07-ette"
 			],
 			"confidence": "high",
-			"note": "Igbo is the main language; Ette in the north of the LGA also speaks Idoma and Igala."
+			"note": "A homeland shared with the Igala and Idoma: Enugu-Ezike is Igbo, while Ette, the LGA’s other town, is ruled by an Igala king and is mostly Igala and Idoma. Drawn in stripes."
 		},
 		{
 			"lga": "enugu-igbo-eze-south",

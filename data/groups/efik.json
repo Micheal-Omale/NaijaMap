@@ -1,6 +1,96 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Calabar (Akwa Akpa)",
+			"lga": "cross-river-calabar-municipal",
+			"point": [
+				8.32,
+				4.95
+			],
+			"villages": [
+				{
+					"name": "Duke Town (Atakpa)",
+					"point": [
+						8.32,
+						4.95
+					]
+				},
+				{
+					"name": "Old Town (Obutong)",
+					"point": [
+						8.305,
+						4.965
+					]
+				}
+			],
+			"alsoIn": [
+				"cross-river-calabar-south"
+			],
+			"sources": [
+				"wikipedia-calabar",
+				"wikipedia-duke-town",
+				"wikipedia-obong-of-calabar"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Akwa Akpa, the Efik city-state on the Calabar river, founded about 1650 by families from Creek Town. Seat of the Obong of Calabar, crowned first at the sacred Efe Asabo lodge and then in Duke Town Presbyterian church; the Ekpe society is the stool on which the Obong sits. The Qua (Ejagham) and Efut kingdoms share the city.",
+				"sources": [
+					"wikipedia-calabar",
+					"wikipedia-obong-of-calabar",
+					"wikipedia-duke-town"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Creek Town (Ikot Itunko)",
+			"lga": "cross-river-odukpani",
+			"point": [
+				8.25,
+				5.04
+			],
+			"villages": [
+				{
+					"name": "Akpap Okoyong"
+				},
+				{
+					"name": "Eki"
+				},
+				{
+					"name": "Eniong Abatim"
+				},
+				{
+					"name": "Ito"
+				},
+				{
+					"name": "Idere"
+				},
+				{
+					"name": "Ukwa Ibom"
+				},
+				{
+					"name": "Inuakpa Okoyong"
+				},
+				{
+					"name": "Okurikang"
+				}
+			],
+			"sources": [
+				"wikipedia-odukpani",
+				"wikipedia-duke-town"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "The older Efik town up the Calabar river, from which Duke Town's founders came. Odukpani, around it, is largely Efik.",
+				"sources": [
+					"wikipedia-duke-town",
+					"wikipedia-odukpani"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Efik",
 	"searchAliases": [

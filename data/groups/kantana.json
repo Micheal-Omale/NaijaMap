@@ -1,6 +1,21 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Kantana of Wamba",
+			"lga": "nasarawa-wamba",
+			"point": [
+				8.603,
+				8.942
+			],
+			"villages": [],
+			"sources": [
+				"omachonu-dalhatu-2018",
+				"wikipedia-wamba"
+			],
+			"confidence": "medium"
+		}
+	],
 	"reviewNotes": [],
 	"name": "Kantana (Mama)",
 	"searchAliases": [

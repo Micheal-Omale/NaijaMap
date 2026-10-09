@@ -1,0 +1,101 @@
+{
+	"name": "The Ebira hold off the jihad",
+	"status": "draft",
+	"kind": "war",
+	"year": 1865,
+	"yearLabel": "1865–1880",
+	"until": 1885,
+	"actors": [
+		{
+			"name": "Ebira clans under Achigidi Okino",
+			"side": "resister",
+			"ink": "#5a6a3a"
+		},
+		{
+			"name": "Bida and Ilorin (the Ajinomoh)",
+			"polity": "nupe",
+			"side": "attacker"
+		}
+	],
+	"summary": {
+		"text": "As the jihad emirates pushed south of the Niger, Ebira land came under attack from the Nupe of Bida and from Ilorin, whose raiders the Ebira called the Ajinomoh. Between 1865 and 1880 the warlord Achigidi Okino led the Ebira against them, and helped by their hills they were never conquered. Igu (Koton Karfe), whose Hausa name the Ebira say means “strong land”, also held out.",
+		"sources": [
+			"wikipedia-ebira-people"
+		],
+		"confidence": "medium"
+	},
+	"routes": [
+		{
+			"kind": "raid",
+			"by": "Bida and Ilorin (the Ajinomoh)",
+			"path": [
+				[
+					6.01,
+					9.085
+				],
+				[
+					6.4,
+					8.2
+				],
+				[
+					6.23,
+					7.55
+				]
+			],
+			"label": "Raids from Bida",
+			"sources": [
+				"wikipedia-ebira-people"
+			],
+			"confidence": "medium"
+		},
+		{
+			"kind": "raid",
+			"by": "Bida and Ilorin (the Ajinomoh)",
+			"path": [
+				[
+					4.55,
+					8.5
+				],
+				[
+					6.074,
+					7.824
+				],
+				[
+					6.23,
+					7.55
+				]
+			],
+			"label": "Raids from Ilorin",
+			"sources": [
+				"wikipedia-ebira-people"
+			],
+			"confidence": "medium"
+		}
+	],
+	"moments": [
+		{
+			"when": "1865–1880",
+			"title": "Achigidi Okino's war",
+			"text": "The Ebira hold their hills against the Ajinomoh.",
+			"at": {
+				"name": "Ebira hills (Okene)",
+				"point": [
+					6.23,
+					7.55
+				]
+			},
+			"mark": "battle",
+			"sources": [
+				"wikipedia-ebira-people"
+			],
+			"confidence": "medium"
+		}
+	],
+	"sources": [
+		"wikipedia-ebira-people"
+	],
+	"confidence": "medium",
+	"reviewNotes": [
+		"Nupe sources (Idrees 1989) record Ebira as a Bida tributary; the two accounts disagree on how far Ebira land was subdued."
+	]
+}

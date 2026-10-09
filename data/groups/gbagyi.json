@@ -250,7 +250,197 @@
 			"confidence": "medium"
 		}
 	],
-	"communities": [],
+	"communities": [
+		{
+			"name": "Bwari",
+			"lga": "fct-bwari",
+			"villages": [
+				{
+					"name": "Ushafa (Wushapa)"
+				}
+			],
+			"sources": [
+				"wikipedia-bwari",
+				"wikipedia-gbagyi-people"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Its original people are Gbagyi, under the Esu (Sa-bwaya). Since 1976 a Koro Sarki appointed under the FCT has also ruled; the rivalry between the two stools led to a Hausa–Gbagyi clash on Christmas Day 2017.",
+				"sources": [
+					"wikipedia-bwari"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Gbagyi of Abuja",
+			"lga": "fct-municipal-area-council",
+			"villages": [
+				{
+					"name": "Kwali"
+				},
+				{
+					"name": "Gawu"
+				},
+				{
+					"name": "Abaji"
+				},
+				{
+					"name": "Gwagwalada"
+				}
+			],
+			"alsoIn": [
+				"fct-kuje",
+				"fct-kwali",
+				"fct-gwagwalada",
+				"fct-abaji"
+			],
+			"sources": [
+				"wikipedia-gbagyi-people",
+				"wikipedia-abaji"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "The Gbagyi are among the original owners of the land on which Abuja was built. At Abaji they were first settlers with the Bassa and Egbura before the jihad.",
+				"sources": [
+					"wikipedia-gbagyi-people",
+					"wikipedia-abaji"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Minna",
+			"lga": "niger-chanchaga",
+			"point": [
+				6.5569,
+				9.6139
+			],
+			"villages": [
+				{
+					"name": "Maikunkele"
+				},
+				{
+					"name": "Paiko"
+				}
+			],
+			"alsoIn": [
+				"niger-bosso"
+			],
+			"sources": [
+				"wikipedia-minna",
+				"wikipedia-gbagyi-people"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Its original peoples are the Gbagyi, Nupe and Hausa.",
+				"sources": [
+					"wikipedia-minna"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Kuta and Shiroro",
+			"lga": "niger-shiroro",
+			"point": [
+				6.8319,
+				9.9569
+			],
+			"villages": [
+				{
+					"name": "Kuta"
+				},
+				{
+					"name": "Gussoro"
+				},
+				{
+					"name": "Gwada"
+				},
+				{
+					"name": "Galkogo"
+				},
+				{
+					"name": "Manta"
+				},
+				{
+					"name": "Erena"
+				},
+				{
+					"name": "Alawa"
+				}
+			],
+			"sources": [
+				"wikipedia-shiroro",
+				"wikipedia-gbagyi-people"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Gbagyi is the main language of Shiroro, whose headquarters is Kuta.",
+				"sources": [
+					"wikipedia-shiroro",
+					"wikipedia-gbagyi-people"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Chikun (Kujama)",
+			"lga": "kaduna-chikun",
+			"point": [
+				7.1103,
+				10.285
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-chikun"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Named after the Gbagyi village of Chikun near Kujama; the indigenous people are Gbagyi, now absorbed into greater Kaduna.",
+				"sources": [
+					"wikipedia-chikun"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Karu and Toto",
+			"lga": "nasarawa-karu",
+			"villages": [],
+			"alsoIn": [
+				"nasarawa-toto"
+			],
+			"sources": [
+				"wikipedia-gbagyi-people"
+			],
+			"confidence": "medium",
+			"history": {
+				"text": "Karu and Toto are among the significant Gbagyi towns of Nasarawa.",
+				"sources": [
+					"wikipedia-gbagyi-people"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Suleja and Diko",
+			"lga": "niger-suleja",
+			"villages": [
+				{
+					"name": "Diko"
+				}
+			],
+			"alsoIn": [
+				"niger-tafa",
+				"niger-gurara"
+			],
+			"sources": [
+				"wikipedia-gbagyi-people"
+			],
+			"confidence": "medium"
+		}
+	],
 	"reviewNotes": [
 		"Wikipedia says the Gbagyi live in about thirty LGAs; the Kaduna LGAs beyond Chikun and Igabi (for example Kajuru, Kachia, Kagarko) are not yet sourced.",
 		"No paramount ruler is recorded yet."

@@ -18,10 +18,10 @@
 	},
 	"peak": 1783,
 	"summary": {
-		"text": "A loose union of Bariba and Busa kingdoms, led by Bussa (the senior, sacred seat), Nikki and Illo, whose rulers claimed descent from the legendary Kisra. Its horsemen fought Songhay and Nupe, and at times served or resisted Oyo. In 1898 Britain and France split Borgu along today's Nigeria–Benin border.",
+		"text": "A loose confederacy of Bariba and Busa kingdoms led by Bussa, its sacred seat, Nikki, its centre of power, and Illo, its market, with Kaiama, Parakou, Kandi, Kouande and others beside them. Its ruling warrior class, the Wasangari, traced their kings to the hero Kisra, a legend that probably remembers horsemen who conquered the country in the 15th century and that set Borgu apart from its Muslim neighbours. Borgu withstood Songhai and Nupe, sheltered Oyo's exiled kings, then spent two centuries as Oyo's vassal before winning its freedom in 1783. Its army died with Oyo's at Ilorin in 1837, and in 1898 Britain and France split it along today's Nigeria–Benin border.",
 		"sources": [
 			"wikipedia-borgu",
-			"stewart-1993"
+			"wikipedia-kisra-legend"
 		],
 		"confidence": "medium"
 	},
@@ -39,9 +39,9 @@
 	"snapshots": [
 		{
 			"year": 1450,
-			"yearLabel": "15th century",
+			"yearLabel": "c. 1450",
 			"title": "The Kisra kingdoms",
-			"text": "Horse-riding warriors remembered as followers of Kisra found kingdoms at Bussa, Nikki and Illo, on both sides of today's border.",
+			"text": "Borgu tradition says Kisra, a rival of the Prophet driven from Arabia, led his people to the Niger; his sons founded Bussa (Woru), Nikki (Shabi) and Illo (Bio), parting at Gunji. Before them Borgu's villages lived by lineage and rarely fought. Historians read the legend as the memory of mounted invaders of the 15th century, whose descendants, the Wasangari, ruled as a warrior class bound by mutual defence.",
 			"capital": {
 				"name": "Bussa (old town, now under Kainji Lake)",
 				"point": [
@@ -128,14 +128,285 @@
 			],
 			"sources": [
 				"wikipedia-borgu",
-				"stewart-1993"
+				"wikipedia-kisra-legend"
 			],
-			"confidence": "medium"
+			"confidence": "medium",
+			"links": [
+				{
+					"kind": "descent",
+					"to": {
+						"name": "Nikki",
+						"point": [
+							3.21,
+							9.94
+						]
+					},
+					"label": "Shabi, son of Kisra, founds Nikki",
+					"sources": [
+						"wikipedia-kisra-legend"
+					],
+					"confidence": "medium"
+				},
+				{
+					"kind": "descent",
+					"to": {
+						"name": "Illo",
+						"point": [
+							3.67,
+							11.55
+						]
+					},
+					"label": "Bio, son of Kisra, founds Illo",
+					"sources": [
+						"wikipedia-kisra-legend"
+					],
+					"confidence": "medium"
+				}
+			]
+		},
+		{
+			"year": 1490,
+			"yearLabel": "1490s–1563",
+			"title": "Songhai's wars",
+			"text": "Sunni Ali of Songhai wins a crushing victory over Borgu at Gwangwarake in the 1490s. Askia Muhammad returns in 1505, perhaps to convert the pagan Wasangari or to control the Wangara trade roads; the campaign is hard, his army suffers serious defeats, but it briefly holds Bussa and takes high-ranking captives to Gao. Askia Daud ravages Bussa again in 1558 and 1563.",
+			"capital": {
+				"name": "Bussa (old town, now under Kainji Lake)",
+				"point": [
+					4.5,
+					10.2
+				]
+			},
+			"core": {
+				"lgas": [
+					"niger-borgu",
+					"niger-agwara",
+					"kwara-baruten",
+					"kwara-kaiama"
+				],
+				"beyond": [
+					[
+						[
+							1.5,
+							9
+						],
+						[
+							2.9,
+							8.9
+						],
+						[
+							3.85,
+							9.6
+						],
+						[
+							3.85,
+							10.6
+						],
+						[
+							3.7,
+							12
+						],
+						[
+							2.7,
+							11.9
+						],
+						[
+							1.4,
+							10.7
+						]
+					]
+				]
+			},
+			"nodes": [
+				{
+					"name": "Nikki",
+					"point": [
+						3.21,
+						9.94
+					]
+				},
+				{
+					"name": "Illo",
+					"point": [
+						3.67,
+						11.55
+					]
+				},
+				{
+					"name": "Kaiama",
+					"point": [
+						3.94,
+						9.6
+					]
+				},
+				{
+					"name": "Parakou",
+					"point": [
+						2.63,
+						9.34
+					]
+				},
+				{
+					"name": "Kandi",
+					"point": [
+						2.94,
+						11.13
+					]
+				}
+			],
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Gao (Songhai)",
+						"point": [
+							-0.04,
+							16.27
+						]
+					},
+					"label": "Sunni Ali, Askia Muhammad (1505) and Askia Daud (1558, 1563)",
+					"sources": [
+						"wikipedia-borgu"
+					],
+					"confidence": "high"
+				}
+			],
+			"sources": [
+				"wikipedia-borgu"
+			],
+			"confidence": "high"
+		},
+		{
+			"year": 1535,
+			"yearLabel": "c. 1535–1591",
+			"title": "Refuge for Oyo",
+			"text": "When Nupe crushes Oyo, Alaafin Onigbogi takes refuge in Borgu. His successor Ofinran builds a new capital at Igboho, and the two peoples form an alliance against Nupe that teaches Oyo to fight on horseback.",
+			"capital": {
+				"name": "Bussa (old town, now under Kainji Lake)",
+				"point": [
+					4.5,
+					10.2
+				]
+			},
+			"core": {
+				"lgas": [
+					"niger-borgu",
+					"niger-agwara",
+					"kwara-baruten",
+					"kwara-kaiama"
+				],
+				"beyond": [
+					[
+						[
+							1.5,
+							9
+						],
+						[
+							2.9,
+							8.9
+						],
+						[
+							3.85,
+							9.6
+						],
+						[
+							3.85,
+							10.6
+						],
+						[
+							3.7,
+							12
+						],
+						[
+							2.7,
+							11.9
+						],
+						[
+							1.4,
+							10.7
+						]
+					]
+				]
+			},
+			"nodes": [
+				{
+					"name": "Nikki",
+					"point": [
+						3.21,
+						9.94
+					]
+				},
+				{
+					"name": "Illo",
+					"point": [
+						3.67,
+						11.55
+					]
+				},
+				{
+					"name": "Kaiama",
+					"point": [
+						3.94,
+						9.6
+					]
+				},
+				{
+					"name": "Parakou",
+					"point": [
+						2.63,
+						9.34
+					]
+				},
+				{
+					"name": "Kandi",
+					"point": [
+						2.94,
+						11.13
+					]
+				}
+			],
+			"links": [
+				{
+					"kind": "ritual",
+					"to": {
+						"name": "Igboho",
+						"point": [
+							3.75,
+							8.83
+						]
+					},
+					"label": "Oyo's kings in exile; the anti-Nupe alliance",
+					"sources": [
+						"wikipedia-borgu",
+						"wikipedia-oyo-empire"
+					],
+					"confidence": "high"
+				},
+				{
+					"kind": "war",
+					"to": {
+						"name": "Gbara (Nupe)",
+						"point": [
+							5.852,
+							8.938
+						]
+					},
+					"label": "Allied against Nupe",
+					"sources": [
+						"wikipedia-borgu"
+					],
+					"confidence": "medium"
+				}
+			],
+			"sources": [
+				"wikipedia-borgu",
+				"wikipedia-oyo-empire"
+			],
+			"confidence": "high"
 		},
 		{
 			"year": 1591,
-			"title": "Between Songhay and Oyo",
-			"text": "After surviving Songhay and Nupe attacks (1490s, 1558–1563), Borgu faces Oyo, which reduces much of it to vassal status until 1783.",
+			"title": "Oyo's vassal",
+			"text": "Once Songhai falls in 1591, Oyo turns on its old ally and makes much of Borgu its vassal. In the mid-18th century Dahomey attacks Borgu and is driven off.",
 			"capital": {
 				"name": "Bussa (old town, now under Kainji Lake)",
 				"point": [
@@ -231,18 +502,34 @@
 						]
 					},
 					"label": "Vassal of Oyo (until 1783)"
+				},
+				{
+					"kind": "war",
+					"to": {
+						"name": "Abomey (Dahomey)",
+						"point": [
+							1.98,
+							7.18
+						]
+					},
+					"label": "Dahomey's attack repulsed",
+					"sources": [
+						"wikipedia-borgu"
+					],
+					"confidence": "medium"
 				}
 			],
 			"sources": [
 				"wikipedia-borgu"
 			],
 			"confidence": "medium",
-			"note": "The degree of Oyo control is debated."
+			"note": "The degree of Oyo control is debated.",
+			"yearLabel": "1591–1783"
 		},
 		{
 			"year": 1783,
-			"title": "Independence from Oyo",
-			"text": "Borgu defeats Oyo and throws off its overlordship.",
+			"title": "Gberegburu: free of Oyo",
+			"text": "In 1783 Borgu defeats Alaafin Abiodun's army at Gberegburu; Oyo loses the equivalent of eleven generals and their men. Borgu is free, though it keeps sending tribute to Oyo until 1818. Fulani raids begin to reach it as the jihad takes Ilorin.",
 			"capital": {
 				"name": "Bussa (old town, now under Kainji Lake)",
 				"point": [
@@ -328,14 +615,49 @@
 				}
 			],
 			"sources": [
-				"wikipedia-borgu"
+				"wikipedia-borgu",
+				"wikipedia-oyo-empire"
 			],
-			"confidence": "medium"
+			"confidence": "high",
+			"yearLabel": "1783–1835",
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Oyo-Ile (Old Oyo)",
+						"point": [
+							4.3075,
+							8.9747
+						]
+					},
+					"label": "Oyo beaten at Gberegburu (1783)",
+					"sources": [
+						"wikipedia-borgu",
+						"wikipedia-oyo-empire"
+					],
+					"confidence": "high"
+				},
+				{
+					"kind": "tribute",
+					"to": {
+						"name": "Oyo-Ile (Old Oyo)",
+						"point": [
+							4.3075,
+							8.9747
+						]
+					},
+					"label": "Tribute paid until 1818",
+					"sources": [
+						"wikipedia-borgu"
+					],
+					"confidence": "high"
+				}
+			]
 		},
 		{
 			"year": 1837,
-			"title": "Defeat at Ilorin",
-			"text": "Borgu joins Oyo against the Ilorin emirate in the Eleduwe war and loses many of its leaders.",
+			"title": "Death at Ilorin, and division",
+			"text": "Alaafin Oluewu calls on Borgu to help him drive the Muslims from Ilorin. Sero Kpera of Nikki leads the Bariba with the kings of Kaiama and Wawa and a prince for Bussa. On the first day they drive Ilorin's army back to its walls; on the second, Ilorin's horse turns their flank, and Sero Kpera, the Alaafin and the leaders of Wawa and Kaiama all fall. Borgu stays free of the Fulani, but its princes drift apart, outlying chiefs seize the trade, and caravans are raided.",
 			"capital": {
 				"name": "Bussa (old town, now under Kainji Lake)",
 				"point": [
@@ -430,13 +752,131 @@
 							8.5
 						]
 					},
-					"label": "Battle of Ilorin"
+					"label": "The Eleduwe war: Sero Kpera killed",
+					"sources": [
+						"wikipedia-battle-of-ilorin",
+						"wikipedia-borgu"
+					],
+					"confidence": "high"
+				}
+			],
+			"sources": [
+				"wikipedia-battle-of-ilorin",
+				"wikipedia-borgu"
+			],
+			"confidence": "high",
+			"yearLabel": "1835–1894"
+		},
+		{
+			"year": 1894,
+			"yearLabel": "1894–1898",
+			"title": "The race for Nikki",
+			"text": "Britain and France race to sign treaties with the king of Nikki in 1894. The French occupy Illo; the British West African Frontier Force posts men at Yashikera. In 1898 the Anglo-French Convention splits Borgu: the east goes to Northern Nigeria, the west to French Dahomey.",
+			"capital": {
+				"name": "Bussa (old town, now under Kainji Lake)",
+				"point": [
+					4.5,
+					10.2
+				]
+			},
+			"core": {
+				"lgas": [
+					"niger-borgu",
+					"niger-agwara",
+					"kwara-baruten",
+					"kwara-kaiama"
+				],
+				"beyond": [
+					[
+						[
+							1.5,
+							9
+						],
+						[
+							2.9,
+							8.9
+						],
+						[
+							3.85,
+							9.6
+						],
+						[
+							3.85,
+							10.6
+						],
+						[
+							3.7,
+							12
+						],
+						[
+							2.7,
+							11.9
+						],
+						[
+							1.4,
+							10.7
+						]
+					]
+				]
+			},
+			"nodes": [
+				{
+					"name": "Nikki",
+					"point": [
+						3.21,
+						9.94
+					]
+				},
+				{
+					"name": "Illo",
+					"point": [
+						3.67,
+						11.55
+					]
+				},
+				{
+					"name": "Kaiama",
+					"point": [
+						3.94,
+						9.6
+					]
+				},
+				{
+					"name": "Parakou",
+					"point": [
+						2.63,
+						9.34
+					]
+				},
+				{
+					"name": "Kandi",
+					"point": [
+						2.94,
+						11.13
+					]
+				}
+			],
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Nikki",
+						"point": [
+							3.21,
+							9.94
+						]
+					},
+					"label": "Rival British and French treaties (1894)",
+					"sources": [
+						"wikipedia-borgu"
+					],
+					"confidence": "high"
 				}
 			],
 			"sources": [
 				"wikipedia-borgu"
 			],
-			"confidence": "medium"
+			"confidence": "high"
 		}
 	],
 	"today": {
@@ -455,6 +895,7 @@
 		"confidence": "high"
 	},
 	"reviewNotes": [
-		"Old Bussa's point is approximate (the town is under the lake)."
+		"Old Bussa's point is approximate (the town is under the lake).",
+		"Gwangwarake, Gberegburu and Yashikera are not located."
 	]
 }

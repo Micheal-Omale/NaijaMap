@@ -1,6 +1,16 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Lamang of the western Gwoza foothills",
+			"lga": "borno-gwoza",
+			"villages": [],
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "medium"
+		}
+	],
 	"reviewNotes": [
 		"Gwoza's other peoples (Mafa, Guduf, Waha, Wandala, Marghi and more) are not yet mapped separately."
 	],

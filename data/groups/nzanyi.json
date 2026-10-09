@@ -1,6 +1,21 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Maiha",
+			"lga": "adamawa-maiha",
+			"point": [
+				13.2181,
+				9.9956
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-maiha",
+				"wikipedia-adamawa-state"
+			],
+			"confidence": "medium"
+		}
+	],
 	"reviewNotes": [],
 	"name": "Nzanyi",
 	"searchAliases": [

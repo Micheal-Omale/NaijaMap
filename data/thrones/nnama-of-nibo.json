@@ -1,0 +1,25 @@
+{
+	"status": "draft",
+	"title": "Nnama Orjiakor, warrant chief of Nibo",
+	"kind": "warrant",
+	"year": 1896,
+	"until": 1945,
+	"seat": {
+		"name": "Nibo (approximate)",
+		"point": [
+			7.06,
+			6.18
+		]
+	},
+	"by": "the British, after Nibo surrendered",
+	"first": "Nnama Orjiakor",
+	"groups": [
+		"igbo"
+	],
+	"text": "Nnama already ruled Nibo, the first town to capitulate to the British army. The British made him warrant chief and paramount ruler in 1896, and chief judge of the customary court of appeal for Awka; he served until his death in 1945. The British often recognised ruling families that signed the “instrument of surrender” rather than imposing new ones.",
+	"sources": [
+		"wikipedia-nnama"
+	],
+	"confidence": "medium",
+	"reviewNotes": []
+}

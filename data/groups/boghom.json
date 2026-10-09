@@ -1,6 +1,23 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Kanam (Dengi)",
+			"lga": "plateau-kanam",
+			"villages": [],
+			"sources": [
+				"wikipedia-kanam"
+			],
+			"confidence": "medium",
+			"history": {
+				"text": "Boghom and Jarawa are the languages of Kanam LGA, whose headquarters is Dengi.",
+				"sources": [
+					"wikipedia-kanam"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Boghom",
 	"searchAliases": [

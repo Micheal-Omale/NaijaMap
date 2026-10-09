@@ -1,0 +1,78 @@
+{
+	"name": "The British enter Tivland",
+	"status": "draft",
+	"kind": "colonial",
+	"year": 1906,
+	"yearLabel": "1906–1911",
+	"until": 1912,
+	"actors": [
+		{
+			"name": "British forces",
+			"side": "colonial",
+			"ink": "#b23a3a"
+		},
+		{
+			"name": "Tiv",
+			"side": "resister",
+			"ink": "#5a7a3a"
+		}
+	],
+	"summary": {
+		"text": "British forces entered Tivland from the east in 1906, when tension ran high between the Tiv and other peoples of the Benue valley. Between November 1907 and spring 1908 Lieutenant-Colonel Hugh Trenchard's Southern Nigeria Regiment came into the Tiv country from the south, bringing gifts for clan heads. In 1950 the Tiv said they had defeated this force and then invited the British to negotiate. The southern Tiv date the British “eruption” among them to 1911.",
+		"sources": [
+			"wikipedia-tiv-people",
+			"wikipedia-hugh-trenchard-in-nigeria"
+		],
+		"confidence": "high"
+	},
+	"routes": [
+		{
+			"kind": "advance",
+			"by": "British forces",
+			"path": [
+				[
+					9.6,
+					6.9
+				],
+				[
+					9.28,
+					7.17
+				]
+			],
+			"label": "Trenchard's column (1907–1908)",
+			"note": "Direction only.",
+			"sources": [
+				"wikipedia-hugh-trenchard-in-nigeria"
+			],
+			"confidence": "medium"
+		}
+	],
+	"moments": [
+		{
+			"when": "1906",
+			"title": "From the east",
+			"text": "British forces enter Tivland.",
+			"mark": "camp",
+			"sources": [
+				"wikipedia-tiv-people"
+			],
+			"confidence": "high"
+		},
+		{
+			"when": "1911",
+			"title": "The eruption",
+			"text": "The British reach the southern Tiv.",
+			"mark": "camp",
+			"sources": [
+				"wikipedia-tiv-people"
+			],
+			"confidence": "high"
+		}
+	],
+	"sources": [
+		"wikipedia-tiv-people",
+		"wikipedia-hugh-trenchard-in-nigeria"
+	],
+	"confidence": "high",
+	"reviewNotes": []
+}

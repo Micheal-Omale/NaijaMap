@@ -1,9 +1,11 @@
 {
 	"status": "draft",
 	"summary": {
-		"text": "An Nsukka-area LGA on the border with Benue, made up of two towns: Enugu-Ezike, the headquarters, and Ette. Igbo is the main language; Ette is multilingual.",
+		"text": "An Nsukka-area LGA on the border with Benue and Kogi, made up of two towns: Enugu-Ezike, the headquarters, which is Igbo, and Ette, which is ruled by an Igala king and is mostly Igala and Idoma, with little Igbo settlement.",
 		"sources": [
-			"wikipedia-igbo-eze-north"
+			"wikipedia-igbo-eze-north",
+			"chukwudi-opone-2024-eteh",
+			"owner-2026-10-07-ette"
 		],
 		"confidence": "high"
 	},
@@ -17,14 +19,37 @@
 				"Igbo"
 			],
 			"sources": [
-				"wikipedia-igbo-eze-north"
+				"wikipedia-igbo-eze-north",
+				"owner-2026-10-07-ette",
+				"chukwudi-opone-2024-eteh"
 			],
-			"confidence": "high"
+			"confidence": "high",
+			"note": "The people of Enugu-Ezike. Igbo settlement in Ette is small."
 		},
 		{
-			"name": "Ette (Etteh)",
+			"name": "Igala",
+			"group": "igala",
 			"standing": "indigenous",
-			"share": "minority",
+			"share": "large",
+			"languages": [
+				"Igala",
+				"Idoma",
+				"Igbo"
+			],
+			"sources": [
+				"egenti-2015-ette",
+				"chukwudi-opone-2024-eteh",
+				"owner-2026-10-06-ette",
+				"owner-2026-10-07-ette"
+			],
+			"confidence": "high",
+			"note": "With the Idoma, the majority in Ette, one of the LGA’s two towns. Ette’s king, the Onu-Oda, is Igala and holds his staff from the Attah at Idah."
+		},
+		{
+			"name": "Idoma",
+			"group": "idoma",
+			"standing": "indigenous",
+			"share": "large",
 			"languages": [
 				"Idoma (Eteh)",
 				"Igala",
@@ -33,17 +58,20 @@
 			"sources": [
 				"egenti-2015-ette",
 				"obinaju-anyanwu-2018",
-				"owner-2026-10-06-ette"
+				"chukwudi-opone-2024-eteh",
+				"owner-2026-10-07-ette"
 			],
 			"confidence": "high",
-			"note": "Egenti (2015) finds Idoma their strongest language, then Igala, then Igbo. See the Idoma and Igala profiles."
+			"note": "With the Igala, the majority in Ette. Egenti (2015) finds Idoma the language Ette people use most."
 		}
 	],
 	"languageUse": {
-		"text": "The Ette speak three languages: Idoma, Igala and Igbo, with Idoma used most. Elsewhere in the LGA Igbo is the main language.",
+		"text": "Ette speaks Igala, Idoma and Igbo; Egenti (2015) finds Idoma used most. Enugu-Ezike speaks Igbo.",
 		"sources": [
 			"egenti-2015-ette",
-			"wikipedia-igbo-eze-north"
+			"wikipedia-igbo-eze-north",
+			"chukwudi-opone-2024-eteh",
+			"owner-2026-10-07-ette"
 		],
 		"confidence": "high"
 	}

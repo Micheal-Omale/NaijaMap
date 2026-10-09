@@ -1,0 +1,78 @@
+{
+	"name": "Idoma",
+	"status": "draft",
+	"groups": [
+		"idoma"
+	],
+	"rule": "chiefdoms",
+	"span": {
+		"from": 1500,
+		"to": 1922,
+		"fromLabel": "c. 1500",
+		"toLabel": "1899–1922 (British conquest)",
+		"sources": [
+			"okopi-idoma-timeline",
+			"wikipedia-idoma-people"
+		],
+		"confidence": "disputed",
+		"note": "Idoma tradition traces the clans to Apa, in Kwararafa, and their dispersal to about 1500 (see the event “The Idoma from Apa, through Igala land”)."
+	},
+	"summary": {
+		"text": "Each Idoma community had its own government of elders, with titled councils (the igabo) and a chief (the oche); there was never one ruler over them all until the British created the Och'Idoma. Idoma tradition names Idu as the father of the clans, and many kindreds trace their dispersal to Apa, in old Kwararafa; the historian E. O. Erim shows that the Idoma in fact grew from several peoples of different origin. Idoma timelines tell of groups leaving Apa from about 1500, some living at Idah with the Igala until a power struggle around 1625, of small kingdoms such as Igumale, Agila, Ugboju and Adoka founded around 1650, of tribute paid to the Attah in the 18th century, and of a breakup into independent clans after about 1780, when slave raiding and later the Fulani jihad ravaged the land.",
+		"sources": [
+			"wikipedia-idoma-people",
+			"okopi-idoma-timeline"
+		],
+		"confidence": "medium"
+	},
+	"end": {
+		"text": "The British annexed Idoma land from 1899, but conquest took a generation of what Idoma historians call the Anglo-Idoma wars: Odugbeho in Agatu was burned in 1899, Otukpa rose against tax in 1904, 23 Adoka villages were destroyed in 1907, Ugboju rebelled under Amanyi in 1910–1912, and Igede was only brought under control in 1922. The Idoma Native Authority was set up in 1923–1924 at Otukpo, and Ogbuloko's Igede rising was put down in 1929.",
+		"sources": [
+			"itodo-2021-idoma-timeline",
+			"okopi-idoma-timeline"
+		],
+		"confidence": "high"
+	},
+	"lands": [
+		{
+			"from": 1500,
+			"to": 1649,
+			"lgas": [
+				"benue-agatu",
+				"benue-apa"
+			],
+			"confidence": "disputed",
+			"note": "Groups leaving Apa settle along the Benue near today's Agatu; others go to Idah."
+		},
+		{
+			"from": 1650,
+			"to": 1699,
+			"lgas": [
+				"benue-oturkpo",
+				"benue-ohimini",
+				"benue-apa",
+				"benue-agatu",
+				"benue-ado"
+			],
+			"confidence": "medium",
+			"note": "Kingdoms of Igumale, Agila, Ugboju and Adoka founded around 1650 (Idoma timeline)."
+		},
+		{
+			"from": 1700,
+			"lgas": [
+				"benue-oturkpo",
+				"benue-okpokwu",
+				"benue-ogbadibo",
+				"benue-apa",
+				"benue-agatu",
+				"benue-ohimini",
+				"benue-ado"
+			],
+			"note": "Idoma who had stayed near Idah move east in 1700–1740 and form today's Ogbadibo and Okpokwu."
+		}
+	],
+	"reviewNotes": [
+		"Dates before 1800 come from an Idoma history timeline (Okopi) built on oral tradition; Erim's Idoma Nationality 1600–1900 should be checked.",
+		"The Okopi timeline calls Idah the Idoma's spiritual capital; per the owner's correction this is not used. The Idoma paid Idah tribute; Idah is the Igala's spiritual capital."
+	]
+}

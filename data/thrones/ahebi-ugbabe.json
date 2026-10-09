@@ -1,0 +1,45 @@
+{
+	"status": "draft",
+	"title": "Ahebi Ugbabe, warrant chief and king of Enugu-Ezike",
+	"kind": "warrant",
+	"year": 1915,
+	"yearLabel": "1910s (headman, then warrant chief); died 1948",
+	"until": 1948,
+	"seat": {
+		"name": "Enugu-Ezike (approximate)",
+		"point": [
+			7.45,
+			6.98
+		]
+	},
+	"by": "the British divisional officer",
+	"first": "Ahebi Ugbabe, the only female warrant chief and king in colonial Nigeria",
+	"groups": [
+		"igbo"
+	],
+	"text": "Exiled from Enugu-Ezike as a girl, Ahebi lived in Igala land, learned Igala, Nupe and Pidgin, and won the favour of the Attah Igala and the British divisional officer. They brought her home; the British made her headman in place of an old headman who could not speak with them, then warrant chief, against their own policy of keeping women out of office. She later became eze, king, of Enugu-Ezike, the only female king in colonial Nigeria.",
+	"sources": [
+		"wikipedia-ahebi-ugbabe",
+		"dashu-ahebi",
+		"achebe-2011-ahebi"
+	],
+	"confidence": "high",
+	"note": "The years of each office are in Achebe (2011); the sources consulted give only her death in 1948 and a Native Court seat in 1930.",
+	"crowned": {
+		"by": "the Attah Igala",
+		"at": {
+			"name": "Idah, the Attah’s palace",
+			"point": [
+				6.737,
+				7.117
+			]
+		},
+		"text": "She became king of Enugu-Ezike with the aid of the Attah Igala, whose power reached into northern Igbo land. The British made her headman and warrant chief.",
+		"sources": [
+			"wikipedia-ahebi-ugbabe",
+			"dashu-ahebi"
+		],
+		"confidence": "medium"
+	},
+	"reviewNotes": []
+}

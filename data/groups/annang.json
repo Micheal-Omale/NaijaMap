@@ -1,6 +1,151 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Abak",
+			"lga": "akwa-ibom-abak",
+			"villages": [
+				{
+					"name": "Abak Urban"
+				},
+				{
+					"name": "Afaha Obong"
+				},
+				{
+					"name": "Ediene"
+				},
+				{
+					"name": "Midim"
+				},
+				{
+					"name": "Otoro"
+				}
+			],
+			"sources": [
+				"wikipedia-abak"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Abak has five clans: Abak Urban, Afaha Obong, Ediene, Midim and Otoro. It became a seat of British government in 1902, after British forces invaded the valley between the Ediene and Abak clans.",
+				"sources": [
+					"wikipedia-abak"
+				],
+				"confidence": "high"
+			},
+			"livelihoods": {
+				"text": "Palm produce, once shipped through the river port at Ekpene Okpo, Ntak Ibesit.",
+				"sources": [
+					"wikipedia-abak"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Essien Udim clans",
+			"lga": "akwa-ibom-essien-udim",
+			"point": [
+				7.663,
+				5.122
+			],
+			"villages": [
+				{
+					"name": "Afaha Ikot Ebak",
+					"point": [
+						7.663,
+						5.122
+					]
+				},
+				{
+					"name": "Mbiabet"
+				},
+				{
+					"name": "Ikpe Ekoi"
+				},
+				{
+					"name": "Ikot Idem Udo"
+				},
+				{
+					"name": "Nto Okpo"
+				}
+			],
+			"sources": [
+				"wikipedia-essien-udim",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Once the most populous part of Annang land, cut from Ikot Ekpene in 1989. Its clans are Afaha, Adiasim, Odoro Ikot, Ekpeyong Atai, Ikpe Annang, Okon, Ukana and Ukana East; Ikpe Annang has fourteen villages and Okon eighteen.",
+				"sources": [
+					"wikipedia-essien-udim"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Ikot Ekpene",
+			"lga": "akwa-ibom-ikot-ekpene",
+			"point": [
+				7.718,
+				5.173
+			],
+			"villages": [],
+			"sources": [
+				"grid3-settlement-names",
+				"wikipedia-anaang"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "The centre of the former Ikot Ekpene Division of Annang Province; the British set up a military post here in 1904.",
+				"sources": [
+					"wikipedia-anaang"
+				],
+				"confidence": "medium"
+			}
+		},
+		{
+			"name": "Oruk Anam",
+			"lga": "akwa-ibom-oruk-anam",
+			"villages": [
+				{
+					"name": "Ikot Ibritam"
+				},
+				{
+					"name": "Urua Anwa"
+				},
+				{
+					"name": "Ikot Akpan Essien"
+				},
+				{
+					"name": "Ekparakwa"
+				}
+			],
+			"sources": [
+				"wikipedia-oruk-anam"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Largely Annang; made of the old Oruk and Anam areas, with nine clans including Inen, Obio Akpa, Ibesit, Nung Ikot, Nung Ita, Ndot and Ekparakwa.",
+				"sources": [
+					"wikipedia-oruk-anam"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Nto Edino",
+			"lga": "akwa-ibom-obot-akara",
+			"point": [
+				7.593,
+				5.257
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-obot-akara",
+				"grid3-settlement-names"
+			],
+			"confidence": "high"
+		}
+	],
 	"reviewNotes": [
 		"Wikipedia says eight LGAs but names seven."
 	],

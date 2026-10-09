@@ -1,0 +1,91 @@
+{
+	"name": "Abutu-Eje leads the Igala home from Kwararafa",
+	"status": "draft",
+	"kind": "migration",
+	"year": 1630,
+	"yearLabel": "c. 1630 (tradition)",
+	"until": 1660,
+	"actors": [
+		{ "name": "Abutu-Eje and the Igala of the confederacy", "polity": "igala", "side": "migrant" },
+		{ "name": "Kwararafa court at Wukari", "polity": "kwararafa", "side": "origin" },
+		{ "name": "Idoma, Alago, Etulo and Ebira companions", "side": "ally", "ink": "#6b5a45" }
+	],
+	"summary": {
+		"text": "Abutu-Eje was the Igala representative at the Kwararafa court, leader of its Igala people. When the confederacy chose its next ruler he claimed the throne by right, but it went to his Jukun rival, Adi Agbu Kenjo, against what he held to be the confederacy’s own rule of succession. He broke with Kwararafa and led his people away down the south bank of the Benue, Idoma, Alago, Etulo and Ebira going with him, back to his fellow Igala of the Igala-Ogba and the Igala-Mela, who held Idah long before any king. At Agatu, on the Benue, he consolidated the migrants: the leaders of the Igala, Idoma and Alago came together under one rotating kingship carrying the old Igala royal title, Àtá. Kwararafa attacked them there and Abutu-Eje was killed, remembered as the ‘Martyr of Agatu’; Adoga Oje of the Idoma house succeeded him. His line carried the kingship on to Idah, where his daughter Ebulejonu became the first Attah of his line. Colonial writers told it differently, calling Abutu-Eje a Jukun noble, and the Attahship a Jukun import.",
+		"sources": ["owner-2026-10-08-abutu-eje", "kigala-2020-abutu-eje", "owner-2026-10-07-igala-history", "ochoga-imanah-2022", "clifford-1936", "yusufu-2020"],
+		"confidence": "disputed"
+	},
+	"routes": [
+		{
+			"kind": "migration",
+			"by": "Abutu-Eje and the Igala of the confederacy",
+			"path": [[9.78, 7.87], [8.7, 7.85], [7.857, 7.888], [7.636, 8.015], [7.523, 7.81], [6.737, 7.117]],
+			"label": "Abutu-Eje leads the Igala home, from Kwararafa to Idah",
+			"note": "Tradition gives the start, Agatu and the end. Omala remembers Otutubatu as the Igala’s way in from the Kwararafa country, and Ife as an early seat; the way between is drawn through them.",
+			"sources": ["kigala-2020-abutu-eje", "wikipedia-omala"],
+			"confidence": "disputed"
+		}
+	],
+	"moments": [
+		{
+			"when": "c. 1610–1640",
+			"title": "The contest for the Kwararafa throne",
+			"text": "At Biepi, the Kwararafa capital of the day, Abutu-Eje stands for the throne as the Igala leader and a rightful contender, and loses to the Jukun Adi Agbu Kenjo. Holding that the choice broke the confederacy’s rule of succession, he cuts his ties with Kwararafa and leaves.",
+			"at": { "name": "Kwararafa court (Wukari)", "point": [9.78, 7.87] },
+			"mark": "exile",
+			"sources": ["kigala-2020-abutu-eje", "owner-2026-10-08-abutu-eje"],
+			"confidence": "disputed"
+		},
+		{
+			"when": "c. 1620s",
+			"title": "Agatu: the migrants made one kingdom",
+			"text": "Abutu-Eje settles the migrants at Agatu and consolidates them: the leaders of the Igala (the leopard), the Idoma and the Alago found one kingship there, rotating between their houses, under the title Àtá, long the title of the Igala king at Idah. When Kwararafa attacks Agatu, Abutu-Eje is killed and is honoured as the ‘Martyr of Agatu’. Adoga Oje of the Idoma ruling house succeeds him.",
+			"at": { "name": "Agatu", "point": [7.857, 7.888] },
+			"mark": "founded",
+			"sources": ["kigala-2020-abutu-eje", "owner-2026-10-07-igala-history", "owner-2026-10-08-abutu-eje"],
+			"confidence": "disputed"
+		},
+		{
+			"when": "Tradition",
+			"title": "Otutubatu, the way in",
+			"text": "Omala tradition says the Igala came in from the Kwararafa country by way of Omala, through the ancient spiritual town of Otutubatu. Abutu-Eje never reached Idah: he fell at Agatu, and tradition buries him at Amagede, where the Otutubatu shrine of his line still stands.",
+			"at": { "name": "Otutubatu (Omagede), Omala", "point": [7.636, 8.015] },
+			"mark": "shrine",
+			"sources": ["wikipedia-omala", "kigala-2020-abutu-eje", "ochoga-imanah-2022"],
+			"confidence": "disputed"
+		},
+		{
+			"when": "Tradition",
+			"title": "Ife, ‘he almost became the Attah’",
+			"text": "The Ife kingdom of Omala is remembered as one of the earliest and most influential Igala kingdoms, tied to Abutu-Eje. Its ruler, the Onu Ife, carries the praise name Ojogba ki ma ch’Ata, ‘but for God, we would have been the Attah’. The Igala of Omala speak the Ife dialect.",
+			"at": { "name": "Ife (seat of the Onu Ife), Omala", "point": [7.523, 7.81] },
+			"mark": "founded",
+			"sources": ["wikipedia-omala", "owner-2026-10-07-ife"],
+			"confidence": "medium"
+		},
+		{
+			"when": "c. 1630",
+			"title": "Home to the Igala-Mela: Ebulejonu, the first Attah of the line",
+			"text": "Ebulejonu brings her father’s people to Idah, where the Igala-Ogba and the nine clans of the Igala-Mela receive them, and she is installed as Attah. Her brother Agenapoje follows her, then Idoko, father of Ayegba. The Igala-Mela remain the kingmakers.",
+			"at": { "name": "Idah", "point": [6.737, 7.117] },
+			"mark": "founded",
+			"sources": ["owner-2026-10-08-abutu-eje", "owner-2026-10-07-igala-history", "ochoga-imanah-2022", "wikipedia-igala-kingdom"],
+			"confidence": "medium"
+		}
+	],
+	"sources": [
+		"owner-2026-10-08-abutu-eje",
+		"kigala-2020-abutu-eje",
+		"owner-2026-10-07-igala-history",
+		"ochoga-imanah-2022",
+		"clifford-1936",
+		"yusufu-2020",
+		"sargent-1999",
+		"boston-1968",
+		"wikipedia-omala",
+		"owner-2026-10-07-ife"
+	],
+	"confidence": "disputed",
+	"note": "Two accounts. The owner and Kigala (drawing on Sargent’s 1984 thesis) make Abutu-Eje the Igala leader within Kwararafa who came home after losing the succession. The colonial officer Clifford (Miles) wrote in 1936 that he was a noble of the Jukun court, and that the Attahship began with him; Boston (1968) showed the Igala-Mela held Idah long before. The date c. 1630 is Sargent’s, cited by Yusufu (2020); Kigala dates the contest to c. 1610–1640 and Abutu-Eje’s life to c. 1597–1627. The owner’s account that Abutu-Eje consolidated the kingdom is borne out by Kigala, after Sargent, for Agatu, where he united the Igala, Idoma and Alago under the Àtá; he did not live to reach Idah, and how the kingship passed from Agatu to Idah is not told there.",
+	"reviewNotes": ["Biepi, the Kwararafa capital of Abutu-Eje’s day, is not located; the contest is marked at Wukari.", "Agatu is marked at the Agatu LGA centre; the place of the Agatu monarchy is not given.", "Ask the owner: does Igala tradition say how the Àtá kingship passed from Agatu, under Adoga Oje of the Idoma house, to Ebulejonu at Idah?", "Find Sargent (1984/1999) or another written Igala history that states Abutu-Eje’s Igala identity directly."]
+}

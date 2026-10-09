@@ -85,7 +85,24 @@
 			"note": "Mada are 'the predominant inhabitants', with the Gwandara."
 		}
 	],
-	"communities": [],
+	"communities": [
+		{
+			"name": "Akwanga",
+			"lga": "nasarawa-akwanga",
+			"villages": [],
+			"sources": [
+				"wikipedia-akwanga"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "The Mada centre, predominantly Mada-speaking.",
+				"sources": [
+					"wikipedia-akwanga"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [
 		"Only Akwanga is confirmed as Mada majority; the share elsewhere is unknown.",
 		"No paramount ruler is recorded yet."

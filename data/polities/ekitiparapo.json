@@ -16,9 +16,10 @@
 	},
 	"peak": 1880,
 	"summary": {
-		"text": "An alliance of the Ekiti, Ijesha and Igbomina kingdoms, formed to throw off Ibadan's rule. Armed with rifles bought through Lagos and led by the Ijesha general Ogedengbe, it held Ibadan to a long stalemate at Kiriji until British mediation in 1886.",
+		"text": "The Ekitiparapo (“Ekiti united”) was the alliance of the Ekiti, Ijesa, Akoko, Igbomina and Yagba kingdoms, formed in 1878 to throw off Ibadan's ajele. Its army, armed with breech-loading rifles bought through Lagos and led by the Ijesa warrior Ogedengbe, held Ibadan to a standstill at Kiriji for eight years, until a British-brokered treaty in 1886. Where Ibadan wanted one Yoruba state, the confederacy stood for a league of free kingdoms, and it preserved them to this day.",
 		"sources": [
-			"akintoye-1971"
+			"wikipedia-kiriji-war",
+			"wikipedia-ogedengbe"
 		],
 		"confidence": "high"
 	},
@@ -36,7 +37,7 @@
 		{
 			"year": 1878,
 			"title": "The alliance forms",
-			"text": "Ekiti, Ijesha and Igbomina towns join forces against Ibadan's agents and garrisons.",
+			"text": "Insulted by an Ibadan ajele, Prince Fabunmi of Okemesi kills him and calls the east to rise. The Ekiti, Ijesa, Akoko, Igbomina and Yagba form the Ekitiparapo; with Ilorin and Ila they besiege Ikirun, but Ibadan breaks the siege at Jalumi in November 1878.",
 			"core": {
 				"states": [
 					"ekiti"
@@ -73,15 +74,34 @@
 				}
 			],
 			"sources": [
-				"akintoye-1971"
+				"akintoye-1971",
+				"wikipedia-jalumi-war",
+				"wikipedia-kiriji-war"
 			],
-			"confidence": "high"
+			"confidence": "high",
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Ikirun",
+						"point": [
+							4.67,
+							7.91
+						]
+					},
+					"label": "Siege of Ikirun; defeat at Jalumi",
+					"sources": [
+						"wikipedia-jalumi-war"
+					],
+					"confidence": "high"
+				}
+			]
 		},
 		{
 			"year": 1880,
 			"yearLabel": "1878–1886",
 			"title": "The Kiriji war",
-			"text": "Both armies dig in on the hills near Imesi-Ile for years. It is one of the first wars in the region fought largely with breech-loading rifles.",
+			"text": "Ogedengbe of Ilesa, twice captured by Ibadan and twice escaped, gives up a journey to Benin to command; Fabunmi stands aside for him. He had attacked Idoani in 1878. The two armies dig in facing each other at Kiriji, near Imesi-Ile, where the crack of the Ekitiparapo's breech-loaders gives the war its name.",
 			"core": {
 				"states": [
 					"ekiti"
@@ -124,6 +144,20 @@
 						5.22,
 						7.62
 					]
+				},
+				{
+					"name": "Ilesa",
+					"point": [
+						4.73,
+						7.62
+					]
+				},
+				{
+					"name": "Okemesi",
+					"point": [
+						4.92,
+						7.82
+					]
 				}
 			],
 			"links": [
@@ -137,17 +171,34 @@
 						]
 					},
 					"label": "War with Ibadan"
+				},
+				{
+					"kind": "war",
+					"to": {
+						"name": "Idoani",
+						"point": [
+							5.6,
+							7.38
+						]
+					},
+					"label": "Ogedengbe's attack on Idoani (1878–79)",
+					"sources": [
+						"wikipedia-ogedengbe"
+					],
+					"confidence": "medium"
 				}
 			],
 			"sources": [
-				"akintoye-1971"
+				"akintoye-1971",
+				"wikipedia-ogedengbe",
+				"wikipedia-kiriji-war"
 			],
 			"confidence": "high"
 		},
 		{
 			"year": 1886,
 			"title": "Peace treaty",
-			"text": "British officials from Lagos broker a peace; the camps break up in 1893 as British rule extends over Yorubaland.",
+			"text": "On 23 September 1886 the British broker peace and both camps are to break up. Ogedengbe withdraws to Imesi; when his men raid farms in 1894 Captain Bower arrests him, and the Owa of Ilesa pays £6,000 for his release. In 1898 he becomes the Obanla of Ilesa, refusing the crown itself.",
 			"core": {
 				"states": [
 					"ekiti"
@@ -171,7 +222,8 @@
 				}
 			],
 			"sources": [
-				"akintoye-1971"
+				"akintoye-1971",
+				"wikipedia-ogedengbe"
 			],
 			"confidence": "high"
 		}

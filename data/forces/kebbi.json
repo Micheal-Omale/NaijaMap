@@ -1,0 +1,73 @@
+{
+	"status": "draft",
+	"of": "polity",
+	"terrain": "savanna",
+	"summary": {
+		"text": "Kebbi was born in war: Kanta Kotal broke from Songhai in 1516 and built the fortress capital Surame. After the jihad its rulers held out at Argungu.",
+		"sources": [
+			"wikipedia-surame",
+			"wikipedia-argungu-emirate"
+		],
+		"confidence": "medium"
+	},
+	"arms": [
+		{
+			"kind": "archers",
+			"level": 2,
+			"text": "Kebbi’s armies were bowmen and horsemen.",
+			"sources": [
+				"wikipedia-surame",
+				"smith-1989-warfare"
+			],
+			"confidence": "medium"
+		},
+		{
+			"kind": "cavalry",
+			"level": 2,
+			"text": "Horsemen.",
+			"sources": [
+				"law-1980-horse",
+				"wikipedia-surame"
+			],
+			"confidence": "medium"
+		},
+		{
+			"kind": "walls",
+			"level": 2,
+			"text": "The walled fortress of Surame, later Argungu.",
+			"sources": [
+				"wikipedia-surame",
+				"wikipedia-argungu-emirate"
+			],
+			"confidence": "medium"
+		}
+	],
+	"record": [
+		{
+			"year": 1516,
+			"against": "Songhai",
+			"result": "won",
+			"text": "Kanta Kotal threw off Songhai rule.",
+			"sources": [
+				"wikipedia-surame"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1805,
+			"polity": "sokoto",
+			"event": "fulani-jihad",
+			"against": "The Sokoto jihad",
+			"result": "lost",
+			"text": "The jihad drove Kebbi’s rulers out; they fought on from Argungu.",
+			"sources": [
+				"wikipedia-argungu-emirate",
+				"wikipedia-fulani-war"
+			],
+			"confidence": "medium"
+		}
+	],
+	"reviewNotes": [
+		"Arms levels (1 some, 2 a real strength, 3 famous for it) are the compiler’s judgement from the sources, for the Versus page’s guess; please check them."
+	]
+}

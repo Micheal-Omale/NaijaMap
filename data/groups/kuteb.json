@@ -1,6 +1,50 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Takum",
+			"lga": "taraba-takum",
+			"point": [
+				10.054,
+				7.259
+			],
+			"villages": [
+				{
+					"name": "Tikari"
+				},
+				{
+					"name": "Fadama"
+				},
+				{
+					"name": "Kashimbila"
+				},
+				{
+					"name": "Likam"
+				},
+				{
+					"name": "Lufu"
+				},
+				{
+					"name": "Shibong"
+				},
+				{
+					"name": "Yukuben"
+				}
+			],
+			"sources": [
+				"wikipedia-takum",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Takum, cut from Wukari in 1976 and bordering Cameroon; its major peoples are the Kuteb, Ichen, Kpanzon, Tiv, Chamba and Hausa.",
+				"sources": [
+					"wikipedia-takum"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Kuteb",
 	"searchAliases": [

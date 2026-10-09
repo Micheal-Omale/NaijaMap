@@ -1,0 +1,68 @@
+{
+	"name": "The jihad reaches the Benue",
+	"status": "draft",
+	"kind": "war",
+	"year": 1812,
+	"yearLabel": "1812–1854",
+	"until": 1860,
+	"actors": [
+		{ "name": "Jihad emirates (Gombe, Muri, Bauchi)", "polity": "sokoto", "side": "attacker" },
+		{ "name": "Jukun", "polity": "kwararafa", "side": "defender" },
+		{ "name": "Tiv", "side": "ally", "ink": "#5a7a3a" }
+	],
+	"summary": {
+		"text": "Usman dan Fodio's jihad reached the Jukun from three sides. Buba Yero of Gombe, from his base at Gombe Abba, made war on the Jukun towns of Pindiga and Kalam from 1815; the fighting outlived him. Hamman Ruwa campaigned from 1812 through the Jukun lands of Kona and Lau and founded the emirate of Muri on them in 1817; Muri fought the Kona Jukun for the rest of the century. Giwa's Fulani settled beside the Jukun at Wase in 1813 and made it Bauchi's outpost on the south-east. Wukari held out, and the Tiv fought on the Jukun side.",
+		"sources": ["wikipedia-gombe-emirate", "wikipedia-buba-yero", "wikipedia-muri", "wikipedia-wase", "wikipedia-wukari-federation"],
+		"confidence": "medium"
+	},
+	"routes": [
+		{ "kind": "advance", "by": "Jihad emirates (Gombe, Muri, Bauchi)", "path": [[10.6045, 10.8225], [10.778, 10.949], [10.953, 9.982]], "label": "Buba Yero from Gombe Abba against Kalam and Pindiga", "sources": ["wikipedia-gombe-emirate"], "confidence": "medium" },
+		{ "kind": "advance", "by": "Jihad emirates (Gombe, Muri, Bauchi)", "path": [[11.276, 9.21], [11.329, 8.981]], "label": "Hamman Ruwa through Lau to Kona", "sources": ["wikipedia-muri"], "confidence": "medium" },
+		{ "kind": "migration", "by": "Jihad emirates (Gombe, Muri, Bauchi)", "path": [[9.84, 10.31], [9.951, 9.081]], "label": "Giwa's Fulani settle Wase", "sources": ["wikipedia-wase"], "confidence": "medium" }
+	],
+	"moments": [
+		{
+			"when": "1813",
+			"title": "Wase founded",
+			"text": "Giwa, a Fulani of Wuro Mayo in Bauchi, settles beside the Jukun of Wase and befriends them. Under his son Hasan (1820–1828) Wase becomes a jihad outpost.",
+			"at": { "name": "Wase", "point": [9.951, 9.081] },
+			"mark": "founded",
+			"sources": ["wikipedia-wase", "rulers-org-nigeria-traditional"],
+			"confidence": "medium"
+		},
+		{
+			"when": "From 1815",
+			"title": "War on Pindiga",
+			"text": "Buba Yero attacks the Jukun of Pindiga and fails to subdue them before his death in 1841. Pindiga tradition remembers a war of extermination under his successors, and survivors sheltering on the rocks above the town until the British came in 1903.",
+			"at": { "name": "Pindiga", "point": [10.953, 9.982] },
+			"mark": "battle",
+			"sources": ["wikipedia-pindiga", "wikipedia-gombe-emirate"],
+			"confidence": "disputed"
+		},
+		{
+			"when": "1817",
+			"title": "Muri founded on Jukun land",
+			"text": "Hamman Ruwa founds Muri. The Jukun of Muri move south up the Taraba valley to escape him.",
+			"mark": "founded",
+			"sources": ["wikipedia-muri", "rulers-org-nigeria-traditional"],
+			"confidence": "high"
+		},
+		{
+			"when": "1817–1890s",
+			"title": "Kona holds out",
+			"text": "Muri fights constant wars with the Jukun chiefdom of Kona.",
+			"at": { "name": "Kona", "point": [11.329, 8.981] },
+			"mark": "battle",
+			"sources": ["wikipedia-muri"],
+			"confidence": "high"
+		}
+	],
+	"area": {
+		"lgas": ["gombe-akko", "gombe-dukku", "taraba-lau", "taraba-jalingo", "taraba-karim-lamido", "plateau-wase"],
+		"confidence": "medium"
+	},
+	"sources": ["wikipedia-gombe-emirate", "wikipedia-buba-yero", "wikipedia-muri", "wikipedia-wase", "wikipedia-pindiga"],
+	"confidence": "medium",
+	"note": "Old Muri town has not been located; its founding is told but not drawn.",
+	"reviewNotes": ["The Pindiga article's account of a war of extermination is unsourced on Wikipedia; it is kept as tradition and marked disputed."]
+}

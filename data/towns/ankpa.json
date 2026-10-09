@@ -1,0 +1,62 @@
+{
+	"name": "Ankpa",
+	"status": "draft",
+	"otherNames": [],
+	"point": [
+		7.62,
+		7.37
+	],
+	"founded": {
+		"year": 1680,
+		"yearLabel": "c. late 17th century",
+		"sources": [
+			"wikipedia-ankpa",
+			"wikipedia-igala-kingdom"
+		],
+		"confidence": "disputed",
+		"note": "Dated by Atiyele’s generation, the brother of Ayegba."
+	},
+	"summary": {
+		"text": "Ankpa was founded by Atiyele, eldest son of Attah Idoko and brother of Ayegba, who went east while Ayegba took the throne. The Ankpa kingdom reached from today’s Ankpa and Olamaboro into Idoma land, as far as Igumale and Enugu-Ezike, under the Attah at Idah.",
+		"sources": [
+			"wikipedia-ankpa",
+			"wikipedia-igala-kingdom"
+		],
+		"confidence": "medium"
+	},
+	"founders": [
+		{
+			"people": "Igala",
+			"group": "igala",
+			"polity": "igala",
+			"from": {
+				"name": "Idah",
+				"point": [
+					6.737,
+					7.117
+				]
+			},
+			"text": "Atiyele, son of Attah Idoko, of Abutu-Eje’s line.",
+			"sources": [
+				"wikipedia-igala-kingdom"
+			],
+			"confidence": "medium"
+		}
+	],
+	"under": [
+		{
+			"polity": "igala",
+			"from": 1680,
+			"to": 1900,
+			"kind": "ruled",
+			"text": "Part of the Igala kingdom, under the Attah at Idah.",
+			"sources": [
+				"wikipedia-ankpa"
+			],
+			"confidence": "medium"
+		}
+	],
+	"reviewNotes": [
+		"The Ankpa Wikipedia article calls Abutu-Eje “of Jukun descent”, against the owner’s account."
+	]
+}

@@ -1,6 +1,150 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Uromi",
+			"lga": "edo-esan-north-east",
+			"point": [
+				6.327,
+				6.717
+			],
+			"villages": [
+				{
+					"name": "Obeidu"
+				},
+				{
+					"name": "Ivue"
+				},
+				{
+					"name": "Uzea"
+				},
+				{
+					"name": "Ewoyi"
+				},
+				{
+					"name": "Eguare"
+				},
+				{
+					"name": "Atani"
+				},
+				{
+					"name": "Amendokhian"
+				},
+				{
+					"name": "Arue"
+				},
+				{
+					"name": "Ebue"
+				}
+			],
+			"sources": [
+				"wikipedia-esan-north-east",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Uromi, headquarters of Esan North-East, is made of villages such as Obeidu, Ivue, Uzea and Ewoyi, which have grown into suburbs; by the Oriire account Uromi joined the Akota alliance against the Nupe in the 1890s.",
+				"sources": [
+					"wikipedia-esan-north-east",
+					"oriire-2025-esan-nupe"
+				],
+				"confidence": "medium"
+			}
+		},
+		{
+			"name": "Ekpoma",
+			"lga": "edo-esan-west",
+			"villages": [
+				{
+					"name": "Iruekpen"
+				},
+				{
+					"name": "Ujemen"
+				},
+				{
+					"name": "Emaudo"
+				},
+				{
+					"name": "Ukhun"
+				},
+				{
+					"name": "Idoa"
+				},
+				{
+					"name": "Urohi"
+				},
+				{
+					"name": "Ujiogba"
+				},
+				{
+					"name": "Ogwa"
+				}
+			],
+			"sources": [
+				"wikipedia-esan-west"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Headquarters of Esan West. Ukhun has the Ekhuan shrine and the Orosun falls.",
+				"sources": [
+					"wikipedia-esan-west"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Ubiaja",
+			"lga": "edo-esan-south-east",
+			"point": [
+				6.378,
+				6.659
+			],
+			"villages": [
+				{
+					"name": "Ewohimi"
+				},
+				{
+					"name": "Ohordua"
+				},
+				{
+					"name": "Emu"
+				}
+			],
+			"sources": [
+				"wikipedia-esan-south-east",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Headquarters of Esan South-East. The Esan are thought to have been savanna people who kept to the higher land between rivers when they settled Esanland.",
+				"sources": [
+					"wikipedia-esan-south-east"
+				],
+				"confidence": "medium"
+			}
+		},
+		{
+			"name": "Igueben",
+			"lga": "edo-iguegben",
+			"point": [
+				6.236,
+				6.603
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-igueben",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Founded around 1516, by Christopher Okojie's account, around a camp set up during Benin's war with the Attah of Igala in 1515–1516. It is ruled by an Onogie.",
+				"sources": [
+					"wikipedia-igueben"
+				],
+				"confidence": "medium"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Esan",
 	"searchAliases": [

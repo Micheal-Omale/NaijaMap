@@ -1,0 +1,25 @@
+{
+	"status": "draft",
+	"title": "Gbong Gwom Jos",
+	"kind": "created",
+	"year": 1935,
+	"seat": {
+		"name": "Jos (first at Riyom)",
+		"point": [
+			8.89,
+			9.93
+		]
+	},
+	"by": "the British administration of Plateau Province",
+	"first": "Dachung Gyang of Riyom (1935–1941)",
+	"groups": [
+		"berom"
+	],
+	"text": "Before colonial rule the Berom were autonomous groups with no paramount ruler. The British made a Berom royal court at Riyom, ratified in 1936, and its head became the paramount stool; in 1947 it moved to Jos, and from 1952 the Berom groups were merged under it as the Gbong Gwom Jos.",
+	"sources": [
+		"wikipedia-gbong-gwom-jos",
+		"wikipedia-berom"
+	],
+	"confidence": "high",
+	"reviewNotes": []
+}

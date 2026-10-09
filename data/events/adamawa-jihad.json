@@ -1,0 +1,175 @@
+{
+	"name": "Modibbo Adama's jihad in Fombina",
+	"status": "draft",
+	"kind": "war",
+	"year": 1809,
+	"yearLabel": "1809–1847",
+	"until": 1850,
+	"actors": [
+		{
+			"name": "Adamawa (Fombina)",
+			"polity": "sokoto",
+			"side": "attacker"
+		},
+		{
+			"name": "Mandara",
+			"side": "defender",
+			"ink": "#7a5a3a"
+		},
+		{
+			"name": "Bata, Verre and hill peoples",
+			"side": "resister",
+			"ink": "#5a7a6a"
+		}
+	],
+	"summary": {
+		"text": "Fulani herders had lived peacefully among the peoples of the upper Benue since the 15th century, but around 1803 a quarrel with the Bata over their customs, in which Ardo Njobbo had a Bata prince killed, turned to war. In 1809 the Ardos met at Gurin, and Modibbo Adama, a scholar who had studied in Bagirmi and Bornu, came back from Usman dan Fodio with a flag as Lamido Fombina, “ruler of the south-lands”. Mounted Fulbe, armed and trained from Hausaland, overcame the scattered, decentralised peoples one by one; Bata of Zummo, Malabu and Holma joined them, while dan Fodio forbade war on the Bata and Verre. Adama took Dulo, capital of Mandara, but could not hold it; Mandara allied with Bornu against him. Fulani sub-emirates rose at Mubi, Michika, Madagali, Moda, Uba and many more, and in 1841 Adama made Yola his capital. At his death in 1847 Fombina stretched deep into today's Cameroon.",
+		"sources": [
+			"wikipedia-adamawa-emirate",
+			"wikipedia-modibo-adama"
+		],
+		"confidence": "high"
+	},
+	"routes": [
+		{
+			"kind": "advance",
+			"by": "Adamawa (Fombina)",
+			"path": [
+				[
+					12.86,
+					9.13
+				],
+				[
+					13.26,
+					10.27
+				],
+				[
+					14.07,
+					11.02
+				]
+			],
+			"label": "North against Mandara",
+			"sources": [
+				"wikipedia-adamawa-emirate"
+			],
+			"confidence": "medium"
+		},
+		{
+			"kind": "advance",
+			"by": "Adamawa (Fombina)",
+			"path": [
+				[
+					12.86,
+					9.13
+				],
+				[
+					13.39,
+					10.62
+				],
+				[
+					13.64,
+					10.89
+				]
+			],
+			"label": "Sub-emirates in the Mandara hills",
+			"sources": [
+				"wikipedia-adamawa-emirate"
+			],
+			"confidence": "medium"
+		}
+	],
+	"moments": [
+		{
+			"when": "c. 1803",
+			"title": "Ardo Njobbo's quarrel",
+			"text": "A Bata prince is killed over the Bata's customs; war with the Fulbe follows, and Adama's father dies.",
+			"at": {
+				"name": "Numan (Bata country)",
+				"point": [
+					12.03,
+					9.47
+				]
+			},
+			"mark": "battle",
+			"sources": [
+				"wikipedia-adamawa-emirate"
+			],
+			"confidence": "medium"
+		},
+		{
+			"when": "1809",
+			"title": "The flag at Gurin",
+			"text": "Adama returns as Lamido Fombina; the jihad begins.",
+			"at": {
+				"name": "Gurin",
+				"point": [
+					12.86,
+					9.13
+				]
+			},
+			"mark": "founded",
+			"sources": [
+				"wikipedia-adamawa-emirate",
+				"wikipedia-modibo-adama"
+			],
+			"confidence": "high"
+		},
+		{
+			"when": "1820s",
+			"title": "Dulo taken",
+			"text": "Adama takes Mandara's capital, which falls with little resistance, but cannot govern it.",
+			"at": {
+				"name": "Dulo (Mandara)",
+				"point": [
+					14.07,
+					11.02
+				]
+			},
+			"mark": "captured",
+			"sources": [
+				"wikipedia-adamawa-emirate"
+			],
+			"confidence": "high"
+		},
+		{
+			"when": "1841",
+			"title": "Yola",
+			"text": "Adama makes Yola his capital.",
+			"at": {
+				"name": "Yola",
+				"point": [
+					12.47,
+					9.21
+				]
+			},
+			"mark": "founded",
+			"sources": [
+				"wikipedia-adamawa-emirate"
+			],
+			"confidence": "high"
+		},
+		{
+			"when": "2 September 1901",
+			"title": "The British take Yola",
+			"text": "Colonel Morland's force takes Yola; Lamido Zubairu escapes to Gurin.",
+			"at": {
+				"name": "Yola",
+				"point": [
+					12.48,
+					9.22
+				]
+			},
+			"mark": "captured",
+			"sources": [
+				"wikipedia-adamawa-emirate"
+			],
+			"confidence": "high"
+		}
+	],
+	"sources": [
+		"wikipedia-adamawa-emirate",
+		"wikipedia-modibo-adama"
+	],
+	"confidence": "high",
+	"reviewNotes": []
+}

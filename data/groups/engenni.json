@@ -1,6 +1,23 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Engenni and Ogbogolo communities",
+			"lga": "rivers-ahoada-west",
+			"villages": [],
+			"sources": [
+				"wikipedia-ahoada-west"
+			],
+			"confidence": "medium",
+			"history": {
+				"text": "Ahoada West includes Engenni and Ogbogolo communities beside the Ekpeye.",
+				"sources": [
+					"wikipedia-ahoada-west"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Engenni",
 	"searchAliases": [

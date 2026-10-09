@@ -1,6 +1,44 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Biakpan (Biakpan Eburutu)",
+			"lga": "cross-river-biase",
+			"point": [
+				7.933,
+				5.589
+			],
+			"villages": [
+				{
+					"name": "Ikun"
+				},
+				{
+					"name": "Ugbem"
+				},
+				{
+					"name": "Etono Central"
+				},
+				{
+					"name": "Etono II"
+				},
+				{
+					"name": "Utuma"
+				}
+			],
+			"sources": [
+				"wikipedia-ubaghara-language",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "The main Ubaghara village, said to come from the Obutong (Old Town) section of the Efik who spread from Itu across the lower Cross River. The Ubaghara language mixes Efik and Qua (Ejagham), and many in Biakpan speak Efik too.",
+				"sources": [
+					"wikipedia-ubaghara-language"
+				],
+				"confidence": "medium"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Ubaghara",
 	"searchAliases": [

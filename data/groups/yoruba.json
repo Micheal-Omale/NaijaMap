@@ -1,6 +1,462 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Ile-Ife",
+			"lga": "osun-ife-central",
+			"point": [
+				4.5592,
+				7.4833
+			],
+			"villages": [],
+			"alsoIn": [
+				"osun-ife-east",
+				"osun-ife-north",
+				"osun-ife-south"
+			],
+			"sources": [
+				"wikipedia-ife"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "In Yoruba belief the place where Obatala founded the world at Olodumare's order, later held by Oduduwa, whose sons and daughters founded the kingdoms of Yorubaland. An important emporium by 900 CE, famous for naturalistic bronze, stone and terracotta heads of about 1200–1400. Its king is the Ooni.",
+				"sources": [
+					"wikipedia-ife"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Oyo (Oyo Atiba)",
+			"lga": "oyo-atiba",
+			"point": [
+				3.9306,
+				7.8417
+			],
+			"villages": [],
+			"alsoIn": [
+				"oyo-oyo-east",
+				"oyo-oyo-west"
+			],
+			"sources": [
+				"wikipedia-oyo-town"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "New Oyo, founded in the 1830s as the capital of what remained of the Oyo Empire after Old Oyo was abandoned. Seat of the Alaafin. Soyinka's Death and the King's Horseman is based on an event here in 1946.",
+				"sources": [
+					"wikipedia-oyo-town"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Ibadan",
+			"lga": "oyo-ibadan-north",
+			"point": [
+				3.9167,
+				7.3964
+			],
+			"villages": [],
+			"alsoIn": [
+				"oyo-ibadan-north-east",
+				"oyo-ibadan-north-west",
+				"oyo-ibadan-south-east",
+				"oyo-ibadan-south-west"
+			],
+			"sources": [
+				"wikipedia-ibadan"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Eba-Odan, “by the edge of the meadow”. Founded by Lagelu, it came into its present existence in 1829 as a war camp, in the turmoil that destroyed Old Oyo, Ijaye and Owu.",
+				"sources": [
+					"wikipedia-ibadan"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Abeokuta",
+			"lga": "ogun-abeokuta-south",
+			"point": [
+				3.3483,
+				7.1608
+			],
+			"villages": [],
+			"alsoIn": [
+				"ogun-abeokuta-north"
+			],
+			"sources": [
+				"wikipedia-abeokuta"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Founded around 1830 by the Egba, refugees from the collapse of Oyo, on a strong defensive site against slave raiders from Dahomey. It replaced Orile Egba, their earlier confederacy of forest towns.",
+				"sources": [
+					"wikipedia-abeokuta"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Lagos (Eko)",
+			"lga": "lagos-lagos-island",
+			"villages": [],
+			"alsoIn": [
+				"lagos-lagos-mainland"
+			],
+			"sources": [
+				"wikipedia-history-of-lagos"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Lagos Island was Oko to the Awori, who came down the Ogun river by the 15th century; under Benin it became Eko, from the Edo for “war camp”. British rule began in 1851 and it became a colony in 1861.",
+				"sources": [
+					"wikipedia-history-of-lagos"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Ijebu-Ode",
+			"lga": "ogun-ijebu-ode",
+			"point": [
+				3.9208,
+				6.8208
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-ijebu-ode"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Capital of the Ijebu kingdom by the 16th century, named for its founders Ajebu and Olode. Near it lies Sungbo's Eredo, one of the largest ramparts in West Africa.",
+				"sources": [
+					"wikipedia-ijebu-ode"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Ilaro (Yewa)",
+			"lga": "ogun-yewa-south",
+			"point": [
+				3.017,
+				6.89
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-ilaro"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Seat of the Olu of Ilaro, paramount ruler of Yewaland (the old Egbado division).",
+				"sources": [
+					"wikipedia-ilaro"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Ogbomosho",
+			"lga": "oyo-ogbomosho-north",
+			"point": [
+				4.25,
+				8.1333
+			],
+			"villages": [],
+			"alsoIn": [
+				"oyo-ogbomosho-south"
+			],
+			"sources": [
+				"wikipedia-ogbomosho"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Founded in the mid-17th century by the hunter Ogunlola. In 1891 it was a walled city with a moat, allied to Ibadan.",
+				"sources": [
+					"wikipedia-ogbomosho"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Iseyin",
+			"lga": "oyo-iseyin",
+			"point": [
+				3.6,
+				7.9667
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-iseyin"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "An Oke-Ogun town under the Aseyin, home of aso oke (aso ofi) weaving.",
+				"sources": [
+					"wikipedia-iseyin"
+				],
+				"confidence": "high"
+			},
+			"livelihoods": {
+				"text": "Cotton weaving, tobacco and food farming.",
+				"sources": [
+					"wikipedia-iseyin"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Shaki",
+			"lga": "oyo-saki-west",
+			"point": [
+				3.4,
+				8.6667
+			],
+			"villages": [],
+			"alsoIn": [
+				"oyo-saki-east"
+			],
+			"sources": [
+				"wikipedia-shaki"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Part of the Oyo Empire; became a refugee town after Old Oyo was destroyed in 1835. Its ruler is the Okere.",
+				"sources": [
+					"wikipedia-shaki"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Osogbo",
+			"lga": "osun-osogbo",
+			"point": [
+				4.5667,
+				7.7667
+			],
+			"villages": [],
+			"alsoIn": [
+				"osun-olorunda"
+			],
+			"sources": [
+				"wikipedia-osogbo"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Capital of Osun State since 1991, on the Lagos–Kano railway; home of the Osogbo school of art.",
+				"sources": [
+					"wikipedia-osogbo"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Ede",
+			"lga": "osun-ede-north",
+			"point": [
+				4.4361,
+				7.7389
+			],
+			"villages": [],
+			"alsoIn": [
+				"osun-ede-south"
+			],
+			"sources": [
+				"wikipedia-ede"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "On the Osun river. Its Timi, Abibu Lagunju, was on the throne by 1857 as a Muslim, the first Muslim Oba in Yorubaland.",
+				"sources": [
+					"wikipedia-ede"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Iwo",
+			"lga": "osun-iwo",
+			"point": [
+				4.1833,
+				7.6333
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-iwo"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Its people trace their migration from Ile-Ife to the 11th century. The Oluwo has over 30 kings under him.",
+				"sources": [
+					"wikipedia-iwo"
+				],
+				"confidence": "medium"
+			}
+		},
+		{
+			"name": "Ikirun",
+			"lga": "osun-ifelodun",
+			"villages": [],
+			"sources": [
+				"wikipedia-ikirun"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Founded by Akinorun, from whom it takes its name.",
+				"sources": [
+					"wikipedia-ikirun"
+				],
+				"confidence": "medium"
+			}
+		},
+		{
+			"name": "Ila Orangun (Igbomina)",
+			"lga": "osun-ila",
+			"point": [
+				4.9,
+				8.0167
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-ila-orangun"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Capital of an old Igbomina city-state under the Orangun of Ila, with more than 200 compounds.",
+				"sources": [
+					"wikipedia-ila-orangun"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Ilesa (Ijeshaland)",
+			"lga": "osun-ilesha-east",
+			"point": [
+				4.7167,
+				7.6167
+			],
+			"villages": [
+				{
+					"name": "Ibokun"
+				},
+				{
+					"name": "Esa-Oke"
+				},
+				{
+					"name": "Ipetu-Ijesa"
+				},
+				{
+					"name": "Ijebu-Jesa"
+				},
+				{
+					"name": "Iwoye-Ijesa"
+				}
+			],
+			"alsoIn": [
+				"osun-ilesha-west"
+			],
+			"sources": [
+				"wikipedia-ilesa",
+				"wikipedia-ijesha"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Capital of the Ijesha kingdom under the Owa Obokun.",
+				"sources": [
+					"wikipedia-ilesa"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Ado-Ekiti",
+			"lga": "ekiti-ado-ekiti",
+			"point": [
+				5.2214,
+				7.6211
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-ado-ekiti"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Founded by Ewi Awamaro, son of Biritikolu, who left Ile-Ife with his father and his uncle Oranmiyan; Awamaro settled at Ulesun after resting at Ido Ani and Agbado. Its ruler is the Ewi.",
+				"sources": [
+					"wikipedia-ado-ekiti"
+				],
+				"confidence": "medium"
+			}
+		},
+		{
+			"name": "Ondo",
+			"lga": "ondo-ondo-west",
+			"villages": [],
+			"alsoIn": [
+				"ondo-ondo-east"
+			],
+			"sources": [
+				"wikipedia-ondo-city",
+				"wikipedia-ondo-kingdom"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Its king, the Osemawe, descends from Oduduwa; the title is said to come from “ese omo re”, the first king's cry when his favourite wife bore twins.",
+				"sources": [
+					"wikipedia-ondo-city"
+				],
+				"confidence": "medium"
+			}
+		},
+		{
+			"name": "Owo",
+			"lga": "ondo-owo",
+			"point": [
+				5.5864,
+				7.1961
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-owo"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Capital of a Yoruba city-state from about 1400 to 1600, tracing its founders to Ile-Ife. It kept near independence from Benin, sometimes paying tribute, and Benin's kings recruited Owo's ivory carvers. British rule came in 1893; the Action Group was launched at the Olowo's palace in 1951.",
+				"sources": [
+					"wikipedia-owo"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Akure",
+			"lga": "ondo-akure-south",
+			"point": [
+				5.1888,
+				7.2552
+			],
+			"villages": [],
+			"alsoIn": [
+				"ondo-akure-north"
+			],
+			"sources": [
+				"wikipedia-akure"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Founded by Alakure; its kings descend from Asodeboyede, a prince from Ile-Ife who conquered Alakure's people.",
+				"sources": [
+					"wikipedia-akure"
+				],
+				"confidence": "medium"
+			}
+		}
+	],
 	"reviewNotes": [
 		"Ese Odo (Ondo) is left out: it is Ijaw. Badagry and the Yewa area (Lagos, Ogun) have Egun (Gun) communities not yet mapped.",
 		"No single paramount ruler: the Ooni of Ife and the Alaafin of Oyo are among the leading kings."

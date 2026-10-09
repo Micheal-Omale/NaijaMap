@@ -1,0 +1,63 @@
+{
+	"name": "Ibibio",
+	"status": "draft",
+	"groups": [
+		"ibibio"
+	],
+	"rule": "assemblies",
+	"span": {
+		"from": 1000,
+		"to": 1904,
+		"fromLabel": "before written records",
+		"toLabel": "1901–1904",
+		"sources": [
+			"wikipedia-ibibio",
+			"wikipedia-anaang"
+		],
+		"confidence": "medium",
+		"note": "The start of the timeline, not a founding date: the Ibibio are counted among the oldest peoples of southern Nigeria."
+	},
+	"summary": {
+		"text": "No king ruled the Ibibio. Their clans and villages were run by lineage heads and elders, who kept law and order through societies such as Ekpo, Ekong and Ibaan Isong, using masks to enforce discipline. Ibibio tradition traces the core Afaha lineage to Usak Edet, an Ejagham country in today's Cameroon, and the first settlement to Uruan. A northern branch lived at Ibom, in today's Arochukwu, worshipping Abasi Ibom and the oracle later called Ibini Ukpabi; driven out by Igbo settlers and their Akpa allies in the Aro–Ibibio wars of the 17th century, they moved south and spread out from Ikono to found the clans of Ikono Ibom, Iman Ibom and Nsit Ibom, who call one another brothers.",
+		"sources": [
+			"wikipedia-ibibio",
+			"wikipedia-ekoi"
+		],
+		"confidence": "medium"
+	},
+	"end": {
+		"text": "British columns crossed Ibibio and Annang country in the Aro Expedition of 1901–1902, one of them marching from Itu, and set up a military post at Ikot Ekpene in 1904.",
+		"sources": [
+			"wikipedia-anglo-aro-war",
+			"wikipedia-anaang"
+		],
+		"confidence": "high"
+	},
+	"lands": [
+		{
+			"from": 1000,
+			"to": 1649,
+			"lgas": [
+				"abia-arochukwu"
+			],
+			"label": "Ibom",
+			"confidence": "disputed",
+			"note": "The Ibom kingdom, before the Aro–Ibibio wars."
+		},
+		{
+			"from": 1000,
+			"lgas": [
+				"akwa-ibom-uyo",
+				"akwa-ibom-etinan",
+				"akwa-ibom-nsit-ibom",
+				"akwa-ibom-ibesikpo-asutan",
+				"akwa-ibom-uruan",
+				"akwa-ibom-ibiono-ibom",
+				"akwa-ibom-ikono",
+				"akwa-ibom-nsit-atai",
+				"akwa-ibom-nsit-ubium"
+			]
+		}
+	],
+	"reviewNotes": []
+}

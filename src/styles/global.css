@@ -1,6 +1,6 @@
 /*
- * Design tokens. Today mood (clean, modern). The Then mood (old map) will
- * override these under [data-mood="then"] when the timeline lands.
+ * Design tokens. Today mood (clean, modern); the Then mood (old map) is below.
+ * It overrides these under [data-mood="then"].
  * The map reads its colours from these tokens too (src/components/map/style.ts).
  */
 :root {
@@ -89,6 +89,57 @@
 		--map-region-land: #1a1d23;
 		--map-region-border: #444a55;
 		--map-ink-halo: #14171c;
+	}
+}
+
+/*
+ * Party colours for the Politics view: the reference eight-hue categorical
+ * palette, validated (adjacent pairs, light and dark) for the result bars as
+ * the periods order them. A party keeps its slot; heirs keep their forerunner's
+ * (NPC to NPN, AG to UPN and AD, NCNC to NPP, NEPU to PRP). -ink is the text on
+ * a badge of that colour, whichever of white or near-black reads better.
+ */
+:root {
+	--party-1: #2a78d6;
+	--party-1-ink: #ffffff;
+	--party-2: #eb6834;
+	--party-2-ink: #17191e;
+	--party-3: #1baf7a;
+	--party-3-ink: #17191e;
+	--party-4: #eda100;
+	--party-4-ink: #17191e;
+	--party-5: #e87ba4;
+	--party-5-ink: #17191e;
+	--party-6: #008300;
+	--party-6-ink: #ffffff;
+	--party-7: #4a3aa7;
+	--party-7-ink: #ffffff;
+	--party-8: #e34948;
+	--party-8-ink: #17191e;
+	--party-other: #a59d91;
+	--party-other-ink: #17191e;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root:not([data-theme='light']) {
+		--party-1: #3987e5;
+		--party-1-ink: #17191e;
+		--party-2: #d95926;
+		--party-2-ink: #17191e;
+		--party-3: #199e70;
+		--party-3-ink: #17191e;
+		--party-4: #c98500;
+		--party-4-ink: #17191e;
+		--party-5: #d55181;
+		--party-5-ink: #17191e;
+		--party-6: #008300;
+		--party-6-ink: #ffffff;
+		--party-7: #9085e9;
+		--party-7-ink: #17191e;
+		--party-8: #e66767;
+		--party-8-ink: #17191e;
+		--party-other: #6f6a62;
+		--party-other-ink: #17191e;
 	}
 }
 
@@ -197,6 +248,29 @@ input {
 	color: inherit;
 }
 
+/* App feel on touch screens: no grey tap flash, no pull-to-refresh or bounce behind the map,
+   no double-tap zoom delay on controls, and a small press-in on buttons. */
+html {
+	-webkit-tap-highlight-color: transparent;
+}
+
+body {
+	overscroll-behavior: none;
+}
+
+button,
+a,
+input[type='range'] {
+	touch-action: manipulation;
+}
+
+@media (hover: none) {
+	button:not(:disabled):active {
+		transform: scale(0.96);
+		transition: transform 0.1s;
+	}
+}
+
 :focus-visible {
 	outline: 3px solid var(--focus);
 	outline-offset: 2px;
@@ -221,4 +295,36 @@ input {
 		animation-duration: 0.01ms !important;
 		transition-duration: 0.01ms !important;
 	}
+}
+
+/* Share a link to the view: a short note under the button says the link was copied. */
+.share {
+	position: relative;
+	display: inline-flex;
+	flex: none;
+}
+
+.share__note {
+	position: absolute;
+	top: calc(100% + 8px);
+	right: 0;
+	z-index: 40;
+	padding: 6px 10px;
+	border-radius: 8px;
+	background: var(--ink);
+	color: var(--bg);
+	font-size: 0.8125rem;
+	font-weight: 600;
+	white-space: nowrap;
+	pointer-events: none;
+	opacity: 0;
+	transform: translateY(-4px);
+	transition:
+		opacity 0.2s,
+		transform 0.2s;
+}
+
+.share__note[data-show] {
+	opacity: 1;
+	transform: none;
 }

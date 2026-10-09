@@ -4,21 +4,23 @@
 	"kind": "kingdom",
 	"otherNames": [],
 	"span": {
-		"from": 1400,
-		"to": 1808,
-		"fromLabel": "c. 12th–15th century, in Aïr",
+		"from": 1150,
+		"to": 1900,
+		"fromLabel": "12th century, in Asben",
+		"toLabel": "the Hausa line at Tibiri, to colonial rule",
 		"sources": [
 			"wikipedia-gobir"
 		],
 		"confidence": "medium"
 	},
-	"peak": 1790,
+	"peak": 1764,
 	"summary": {
-		"text": "The northernmost Hausa state, Gobir was pushed south from the Aïr borderlands by Tuareg pressure. In the 18th century it destroyed Zamfara and became the strongest Hausa power, until its quarrel with Usman dan Fodio set off the jihad that ended it in 1808.",
+		"text": "The northernmost Hausa state was Hausaland's shield against the Tuareg. Its kings traced their line through Bana Turmi to the Copts, and they first ruled in Asben, perhaps at Marandet. Tuareg pressure and the rise of Agadez drove them south, to Goran Rami and Birnin Lalle. In the 18th century Gobir became the terror of its neighbours: Soba raided as far as Ilorin, and Babari destroyed Birnin Zamfara and built Alkalawa. It was in Gobir that Usman dan Fodio preached, and Gobir's war on him in 1804 began the jihad. Alkalawa fell in 1808; the Hausa line fought on from Tibiri in today's Niger.",
 		"sources": [
-			"wikipedia-gobir"
+			"wikipedia-gobir",
+			"wikipedia-zamfara-kingdom"
 		],
-		"confidence": "high"
+		"confidence": "medium"
 	},
 	"ruler": {
 		"title": "Sarkin Gobir",
@@ -32,10 +34,10 @@
 	],
 	"snapshots": [
 		{
-			"year": 1400,
-			"yearLabel": "c. 1400",
-			"title": "Gobir on the desert edge",
-			"text": "Gobir guards the northern frontier of Hausaland, on the southern edge of Aïr, in today's Niger.",
+			"year": 1150,
+			"yearLabel": "12th–15th century",
+			"title": "Gobir in Asben",
+			"text": "The Gobir ruling house traces its migration from Arabia by way of Bilma, where its first king Bana Turmi died, to Asben (Aïr), where it allied with the Hausa of the Adrar against the Tuareg. The kingdom may have centred on the trading town of Marandet. Leo Africanus later describes Gobir's herders, weavers and its shoes “made like those of the ancient Romans”, sold as far as Timbuktu and Gao.",
 			"core": {
 				"beyond": [
 					[
@@ -64,19 +66,43 @@
 							15
 						]
 					]
-				]
+				],
+				"confidence": "medium"
 			},
+			"links": [
+				{
+					"kind": "trade",
+					"to": {
+						"name": "Gao (Songhai)",
+						"point": [
+							-0.04,
+							16.27
+						]
+					},
+					"label": "Cloth and shoes to Timbuktu and Gao",
+					"sources": [
+						"wikipedia-gobir"
+					],
+					"confidence": "medium"
+				}
+			],
 			"sources": [
 				"wikipedia-gobir"
 			],
-			"confidence": "disputed",
-			"note": "The early homeland is known only from tradition."
+			"confidence": "medium"
 		},
 		{
-			"year": 1700,
-			"yearLabel": "c. 1700",
-			"title": "Moving south",
-			"text": "Under Tuareg pressure Gobir moves south into the valleys around Birnin Lalle and the upper Rima.",
+			"year": 1450,
+			"yearLabel": "15th–17th century",
+			"title": "Driven south by Agadez",
+			"text": "The Tuareg found the Sultanate of Agadez early in the 15th century and replace Gobir in Aïr. The Gobirawa move south, first to Maigali and then to Goran Rami near today's Sabon Birni; some stay behind as the Adarawa. Gobir is held to guard its sister states from the desert raiders.",
+			"capital": {
+				"name": "Goran Rami (approximate)",
+				"point": [
+					6.48,
+					13.62
+				]
+			},
 			"core": {
 				"lgas": [
 					"sokoto-sabon-birni",
@@ -103,21 +129,161 @@
 					]
 				]
 			},
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Agadez",
+						"point": [
+							7.99,
+							16.97
+						]
+					},
+					"label": "Pushed out of Aïr by Agadez",
+					"sources": [
+						"wikipedia-gobir"
+					],
+					"confidence": "high"
+				}
+			],
 			"sources": [
 				"wikipedia-gobir"
 			],
 			"confidence": "medium"
 		},
 		{
-			"year": 1764,
-			"yearLabel": "c. 1756–1764",
-			"title": "Zamfara destroyed; Alkalawa founded",
-			"text": "Gobir destroys Birnin Zamfara and builds a new capital at Alkalawa.",
+			"year": 1715,
+			"yearLabel": "c. 1715–1742",
+			"title": "Soba's wars",
+			"text": "With Zamfara and Agadez, Gobir helps throw off Kebbi's overlordship around 1715. Gobirawa settle in Zamfara's farmlands. Then Sarki Soba besieges Zabarma for three years, crosses the Niger to ravage Gurma and raids south as far as Ilorin, where Gobirawa stay and still have their Sarkin Gobir. He besieges Katsina's Maradi for seven years; Agadez attacks Goran Rami in his absence, and Zamfara saves it by fencing the Agadez army in with thorns at night. Soba's men at last desert him and he dies fighting Agadez.",
+			"capital": {
+				"name": "Goran Rami (approximate)",
+				"point": [
+					6.48,
+					13.62
+				]
+			},
+			"core": {
+				"lgas": [
+					"sokoto-sabon-birni",
+					"sokoto-isa"
+				],
+				"beyond": [
+					[
+						[
+							5.4,
+							13.3
+						],
+						[
+							7.3,
+							13.3
+						],
+						[
+							7.4,
+							14.4
+						],
+						[
+							5.4,
+							14.5
+						]
+					]
+				]
+			},
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Surame (Kebbi)",
+						"point": [
+							4.899,
+							13.088
+						]
+					},
+					"label": "Revolt against Kebbi (c. 1715)",
+					"sources": [
+						"wikipedia-gobir",
+						"wikipedia-zamfara-kingdom"
+					],
+					"confidence": "high"
+				},
+				{
+					"kind": "war",
+					"to": {
+						"name": "Zabarma",
+						"point": [
+							3.19,
+							13.05
+						]
+					},
+					"label": "Three-year siege of Zabarma",
+					"sources": [
+						"wikipedia-gobir"
+					],
+					"confidence": "medium"
+				},
+				{
+					"kind": "war",
+					"to": {
+						"name": "Ilorin",
+						"point": [
+							4.55,
+							8.5
+						]
+					},
+					"label": "Raids to Ilorin; Gobirawa settle there",
+					"sources": [
+						"wikipedia-gobir"
+					],
+					"confidence": "medium"
+				},
+				{
+					"kind": "war",
+					"to": {
+						"name": "Maradi",
+						"point": [
+							7.1,
+							13.5
+						]
+					},
+					"label": "Seven-year siege of Maradi",
+					"sources": [
+						"wikipedia-gobir",
+						"wikipedia-zamfara-kingdom"
+					],
+					"confidence": "medium"
+				},
+				{
+					"kind": "war",
+					"to": {
+						"name": "Agadez",
+						"point": [
+							7.99,
+							16.97
+						]
+					},
+					"label": "Soba killed fighting Agadez",
+					"sources": [
+						"wikipedia-gobir"
+					],
+					"confidence": "medium"
+				}
+			],
+			"sources": [
+				"wikipedia-gobir",
+				"wikipedia-zamfara-kingdom"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1742,
+			"yearLabel": "1742–1777",
+			"title": "Babari: Birnin Zamfara destroyed, Alkalawa built",
+			"text": "Babari murders his father to take the throne and raids Katsina, Kano and Shirra. After fifteen years he turns on his ally Zamfara, though his sister is its queen; Zamfara's captains abandon their king, and Gobir sacks Birnin Zamfara around 1756–1762. Babari builds his new walled capital, Alkalawa, on the Rima, on farmland Zamfara had once given Gobir's settlers. In the same years Katsina's Agwaragi beats Sarki Yakubu and takes his sword.",
 			"capital": {
 				"name": "Alkalawa",
 				"point": [
-					6.26,
-					13.613
+					6.25,
+					13.57
 				]
 			},
 			"core": {
@@ -157,31 +323,67 @@
 				{
 					"kind": "war",
 					"to": {
-						"name": "Birnin Zamfara (approximate)",
+						"name": "Birnin Zamfara",
 						"point": [
-							6.4,
-							12.45
+							6.45,
+							13.18
 						]
 					},
-					"label": "Birnin Zamfara destroyed"
+					"label": "Birnin Zamfara sacked",
+					"sources": [
+						"wikipedia-gobir",
+						"wikipedia-zamfara-kingdom"
+					],
+					"confidence": "high"
+				},
+				{
+					"kind": "war",
+					"to": {
+						"name": "Katsina",
+						"point": [
+							7.6,
+							12.99
+						]
+					},
+					"label": "Raids on Katsina",
+					"sources": [
+						"wikipedia-gobir"
+					],
+					"confidence": "medium"
+				},
+				{
+					"kind": "war",
+					"to": {
+						"name": "Kano",
+						"point": [
+							8.52,
+							12
+						]
+					},
+					"label": "Raids on Kano",
+					"sources": [
+						"wikipedia-gobir"
+					],
+					"confidence": "medium"
 				}
 			],
 			"sources": [
 				"wikipedia-gobir",
-				"wikipedia-alkalawa"
+				"wikipedia-zamfara-kingdom",
+				"wikipedia-history-of-katsina"
 			],
 			"confidence": "medium"
 		},
 		{
-			"year": 1790,
-			"yearLabel": "c. 1777–1795",
+			"year": 1777,
+			"yearLabel": "1777–1797",
 			"title": "Bawa Jan Gwarzo",
-			"text": "Sarki Bawa Jan Gwarzo campaigns across Hausaland. He tolerates the young preacher Usman dan Fodio, who teaches in Gobir.",
+			"text": "Bawa Jan Gwarzo besieges Zamfara's last king in his hill fortress of Kiawa for fifteen years, takes him and hangs his head on a fig tree. Bawa invites the young Fulani scholar Usman dan Fodio to Gobir; dan Fodio settles at Degel, preaches, and teaches Bawa's nephew Yunfa. The Coptic origin of the dynasty may be Bawa's invention, to stop paying tribute to Bornu.",
 			"capital": {
 				"name": "Alkalawa",
 				"point": [
-					6.26,
-					13.613
+					6.25,
+					13.57
 				]
 			},
 			"core": {
@@ -223,32 +425,39 @@
 					]
 				]
 			},
-			"influence": {
-				"lgas": [
-					"zamfara-maradun",
-					"zamfara-talata-mafara",
-					"zamfara-bakura",
-					"zamfara-gusau",
-					"zamfara-tsafe",
-					"zamfara-bungudu",
-					"zamfara-anka"
-				],
-				"confidence": "medium"
-			},
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Kiawa",
+						"point": [
+							6.88,
+							12.6
+						]
+					},
+					"label": "Fifteen-year siege of Kiawa",
+					"sources": [
+						"wikipedia-zamfara-kingdom"
+					],
+					"confidence": "medium"
+				}
+			],
 			"sources": [
-				"wikipedia-gobir"
+				"wikipedia-gobir",
+				"wikipedia-zamfara-kingdom"
 			],
 			"confidence": "medium"
 		},
 		{
-			"year": 1804,
+			"year": 1797,
+			"yearLabel": "1797–1808",
 			"title": "Yunfa and the jihad",
-			"text": "Sarki Yunfa turns on dan Fodio's community at Degel, and the jihad begins. Alkalawa falls on 3 October 1808 and Yunfa is killed.",
+			"text": "Nafata (1797–1798) reverses Bawa's tolerance and fears the arms of dan Fodio's community. Yunfa, once dan Fodio's pupil, tries to kill him and drives him from Degel in 1804. Dan Fodio's Fulani and Hausa followers rise; Gobir wins at Tsuntua, but the jihad spreads across Hausaland, and on 3 October 1808 Alkalawa falls and Yunfa is killed.",
 			"capital": {
 				"name": "Alkalawa",
 				"point": [
-					6.26,
-					13.613
+					6.25,
+					13.57
 				]
 			},
 			"core": {
@@ -290,37 +499,113 @@
 					"to": {
 						"name": "Gudu (approximate)",
 						"point": [
-							4.85,
-							13.4
+							4.9,
+							13.65
 						]
 					},
-					"label": "War with the jihad"
+					"label": "Dan Fodio's hijra and the war",
+					"sources": [
+						"wikipedia-sokoto-caliphate",
+						"wikipedia-gobir"
+					],
+					"confidence": "high"
 				}
 			],
 			"sources": [
 				"wikipedia-gobir",
-				"wikipedia-alkalawa",
-				"last-1967"
+				"wikipedia-sokoto-caliphate"
 			],
 			"confidence": "high"
+		},
+		{
+			"year": 1808,
+			"yearLabel": "1808–1900",
+			"title": "Fighting on from Tibiri",
+			"text": "Sarki Ali dan Yakubu and then Mayaki keep up the fight in the north-east. With the Hausa king of Katsina at Maradi, Mayaki builds a new capital at Tibiri in 1836; the same year Sultan Bello crushes a Gobir rising at Gawakuke. The Gobirawa scatter to Birnin Kadaye, Gawon Bazau and Tibiri, and in 1853 a party under Dan Halima founds Sabon Birnin Dan Halima on the Bunsuru.",
+			"capital": {
+				"name": "Tibiri",
+				"point": [
+					7.06,
+					13.56
+				]
+			},
+			"core": {
+				"beyond": [
+					[
+						[
+							6.6,
+							13.2
+						],
+						[
+							7.6,
+							13.2
+						],
+						[
+							7.6,
+							13.9
+						],
+						[
+							6.6,
+							13.9
+						]
+					]
+				]
+			},
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Gawakuke",
+						"point": [
+							6.39,
+							13.28
+						]
+					},
+					"label": "Bello crushes Gobir at Gawakuke (1836)",
+					"sources": [
+						"wikipedia-gobir"
+					],
+					"confidence": "high"
+				},
+				{
+					"kind": "war",
+					"to": {
+						"name": "Sokoto",
+						"point": [
+							5.24,
+							13.06
+						]
+					},
+					"label": "Wars with the Caliphate",
+					"sources": [
+						"wikipedia-gobir"
+					],
+					"confidence": "high"
+				}
+			],
+			"sources": [
+				"wikipedia-gobir"
+			],
+			"confidence": "medium"
 		}
 	],
 	"today": {
-		"text": "Gobir titles survive on both sides of the border: a Sarkin Gobir at Sabon Birni in Sokoto State and another at Tsibiri in Niger.",
+		"text": "Several Sarkin Gobir reign today: at Sabon Birni, Isa and Gatawa in Sokoto State, in Kebbi, Katsina and Kwara (Ilorin) States, and at Tibiri in Niger.",
 		"title": "Sarkin Gobir",
 		"seat": {
 			"name": "Sabon Birni",
 			"point": [
-				6.2,
-				13.57
+				6.48,
+				13.62
 			]
 		},
 		"sources": [
 			"wikipedia-gobir"
 		],
-		"confidence": "medium"
+		"confidence": "high"
 	},
 	"reviewNotes": [
-		"Birnin Lalle is not placed; its site is uncertain."
+		"Marandet, Maigali and Birnin Lalle are not placed; Goran Rami is placed at Sabon Birni.",
+		"The Asben ring before 1450 is rough and lies in Niger."
 	]
 }

@@ -1,0 +1,45 @@
+{
+	"name": "Atyap",
+	"status": "draft",
+	"groups": [
+		"atyap"
+	],
+	"rule": "elders",
+	"span": {
+		"from": 1650,
+		"to": 1912,
+		"fromLabel": "c. 1650 (the Zangon Katab trading settlement)",
+		"toLabel": "1912",
+		"sources": [
+			"wikipedia-atyap"
+		],
+		"confidence": "medium",
+		"note": "Written traces begin with the Zangon Katab market in the 1700s; the Atyap were there long before."
+	},
+	"summary": {
+		"text": "The Atyap had no king. Each clan had its head, and the elders met at Mabatado, near Atyekum, to deliberate on the land and its people. Iron was smelted in their hills, part of the old Nok country. Around 1650 they let Hausa and Bornu traders settle at Zangon Katab under a pact, the akabe: the traders paid for protection and land, and an Atyap prince sent armed youths to escort caravans on the routes from Kano and Zaria to Keffi, Lokoja and the Plateau. The Hausa called their country “the land of horses”. After the jihad the traders sided with Zaria, which by the 1840s forced each Atyap clan to pay tribute of 15 slaves, mats and honey to avoid attack.",
+		"sources": [
+			"wikipedia-atyap",
+			"wikipedia-southern-kaduna"
+		],
+		"confidence": "medium"
+	},
+	"end": {
+		"text": "Emir Kwassau of Zazzau made war on the Atyap from 1897 to 1902; over a thousand were killed, the fighter Marok Gandu of Magata was impaled, and many Atyap fled south. The British arrested Kwassau in 1902 and marched through Atyap land in 1903, put it under Kauru district in 1907 and created a Zangon Katab district under Hausa rulers from Zaria in 1912. The Atyap rose against forced labour in 1910 and against taxes in 1922.",
+		"sources": [
+			"wikipedia-southern-kaduna",
+			"wikipedia-atyap"
+		],
+		"confidence": "high"
+	},
+	"lands": [
+		{
+			"from": 1650,
+			"lgas": [
+				"kaduna-zangon-kataf",
+				"kaduna-kaura"
+			]
+		}
+	],
+	"reviewNotes": []
+}

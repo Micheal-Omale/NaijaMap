@@ -97,9 +97,11 @@ interface Props {
 	onBack: () => void;
 	/** Opens the history view on a polity at its height. */
 	onOpenKingdom: (id: string, peak: number) => void;
+	/** Opens a language family or branch (Yoruboid, Defoid…) with all its peoples. */
+	onOpenFamily?: (name: string) => void;
 }
 
-export default function Profile({ group, tr, onShowLga, onBack, onOpenKingdom }: Props) {
+export default function Profile({ group, tr, onShowLga, onBack, onOpenKingdom, onOpenFamily }: Props) {
 	const { t, plural } = tr;
 	const states = byState(group.areas);
 	const allStates = new Set([...group.areas.map((a) => a.state), ...group.communities.map((c) => c.state)]);
@@ -114,7 +116,13 @@ export default function Profile({ group, tr, onShowLga, onBack, onOpenKingdom }:
 					{t('profile.back')}
 				</button>
 				<p className="profile__eyebrow">
-					{t('profile.familyEyebrow', { name: group.language.family.name })}
+					{onOpenFamily ? (
+						<button type="button" className="profile__family-link" onClick={() => onOpenFamily(group.language.family.name)}>
+							{t('profile.familyEyebrow', { name: group.language.family.name })}
+						</button>
+					) : (
+						t('profile.familyEyebrow', { name: group.language.family.name })
+					)}
 				</p>
 				<h2 id="profile-name" className="profile__name">
 					{group.name}
@@ -141,7 +149,18 @@ export default function Profile({ group, tr, onShowLga, onBack, onOpenKingdom }:
 				</div>
 				<div>
 					<dt>{t('profile.family')}</dt>
-					<dd>{group.language.family.lineage.join(' › ')}</dd>
+					<dd>
+						{onOpenFamily
+							? group.language.family.lineage.map((name, i) => (
+									<span key={name}>
+										{i > 0 && ' › '}
+										<button type="button" className="link-button" onClick={() => onOpenFamily(name)}>
+											{name}
+										</button>
+									</span>
+								))
+							: group.language.family.lineage.join(' › ')}
+					</dd>
 				</div>
 				{group.ruler && (
 					<div>

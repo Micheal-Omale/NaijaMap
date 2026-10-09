@@ -7,9 +7,9 @@
 		"Grand Bonny"
 	],
 	"span": {
-		"from": 1450,
+		"from": 1000,
 		"to": 1886,
-		"fromLabel": "by the 15th century",
+		"fromLabel": "c. 1000 (Ibani tradition)",
 		"sources": [
 			"wikipedia-kingdom-of-bonny",
 			"jones-1963"
@@ -18,11 +18,9 @@
 	},
 	"peak": 1830,
 	"summary": {
-		"text": "An Ijaw (Ibani) trading state at the mouth of the Bonny river. Organised into canoe houses that could each field war canoes, Bonny bought enslaved people and later palm oil from the Igbo hinterland up the Imo river. It was one of the largest slave-trading ports in Africa in the 18th century. The house of Jaja broke away to found Opobo in 1869.",
+		"text": "Grand Bonny (Ibani), on its island at the mouth of the Bonny river, was founded, by Ibani tradition, by Ijaw from Kolokuma in the central Delta, first at Orupiri and then at Okoloama, “curlew town”. Its first kings were the four founders Ndoli, Opuamakuba, Alagbariya and Asimini. With the Portuguese and then the Dutch and British it became one of the greatest slave ports on the Bight of Biafra, its trading houses fielding war canoes that carried 140 men and bow cannon. Perekule founded the Pepple dynasty in the 18th century. After 1807 Bonny turned to palm oil; British consuls deposed one king in 1854, a civil war between the Manilla Pepple and Anna Pepple houses drove Jaja out to found Opobo in 1869, and in 1886 Bonny accepted a British protectorate.",
 		"sources": [
-			"wikipedia-kingdom-of-bonny",
-			"jones-1963",
-			"dike-1956"
+			"wikipedia-bonny-kingdom"
 		],
 		"confidence": "high"
 	},
@@ -37,6 +35,46 @@
 		"ijaw"
 	],
 	"snapshots": [
+		{
+			"year": 1000,
+			"yearLabel": "c. 1000–1450",
+			"title": "Okoloama, curlew town",
+			"text": "Ibani tradition says the founders came from the Kolokuma area of the central Delta, settled first at Orupiri and then on an island full of curlews, Okoloama. Four founders are remembered as the first kings: Ndoli, Opuamakuba, Alagbariya, the Okoloamakoromabo or founder of Bonny, and Asimini. Their descendants rule through twelve reigns.",
+			"capital": {
+				"name": "Grand Bonny",
+				"point": [
+					7.17,
+					4.43
+				]
+			},
+			"core": {
+				"lgas": [
+					"rivers-bonny"
+				],
+				"confidence": "disputed"
+			},
+			"links": [
+				{
+					"kind": "descent",
+					"to": {
+						"name": "Kolokuma",
+						"point": [
+							6.17,
+							5.08
+						]
+					},
+					"label": "Founders from the Kolokuma (Ebeni-toru) country",
+					"sources": [
+						"wikipedia-bonny-kingdom"
+					],
+					"confidence": "medium"
+				}
+			],
+			"sources": [
+				"wikipedia-bonny-kingdom"
+			],
+			"confidence": "disputed"
+		},
 		{
 			"year": 1450,
 			"yearLabel": "c. 15th century",
@@ -63,7 +101,7 @@
 			"year": 1750,
 			"yearLabel": "c. 1700–1807",
 			"title": "A great slave port",
-			"text": "Bonny is among the busiest slave ports in Africa. Its canoe houses buy captives at hinterland markets reached by the Imo river.",
+			"text": "Bonny is among the busiest slave ports in Africa. Its canoe houses buy captives at hinterland markets reached by the Imo river. King Perekule, crowned by Chief Adapa Alagbariya, founds the Pepple dynasty and a new class of house chiefs beginning with Allison; Bonny's canoe houses keep war canoes carrying up to 140 men with bow cannon.",
 			"capital": {
 				"name": "Grand Bonny",
 				"point": [
@@ -111,7 +149,8 @@
 			],
 			"sources": [
 				"wikipedia-kingdom-of-bonny",
-				"jones-1963"
+				"jones-1963",
+				"wikipedia-bonny-kingdom"
 			],
 			"confidence": "medium"
 		},
@@ -186,6 +225,46 @@
 			"confidence": "medium"
 		},
 		{
+			"year": 1854,
+			"yearLabel": "1854–1869",
+			"title": "A king deposed; two houses at war",
+			"text": "King William Dappa Pepple, on the throne since 1830 and weakened by a stroke, is deported by the British in 1854. When his successor Dappo dies in 1855 the acting consul names a regency of chiefs. Oko Jumbo of the Manilla Pepple house becomes the real ruler, locked in rivalry with the Anna Pepple house under Jubo Jubogha, Jaja. William Dappa is restored in 1861 and dies in 1866; his English-educated son George, a Christian, declares in 1867 that the monitor lizard is no longer sacred. In 1869 the two houses fight a major battle and Jaja leaves to found Opobo.",
+			"capital": {
+				"name": "Grand Bonny",
+				"point": [
+					7.17,
+					4.43
+				]
+			},
+			"core": {
+				"lgas": [
+					"rivers-bonny"
+				]
+			},
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Opobo",
+						"point": [
+							7.54,
+							4.51
+						]
+					},
+					"label": "Jaja breaks away (1869)",
+					"sources": [
+						"wikipedia-bonny-kingdom",
+						"wikipedia-jaja-of-opobo"
+					],
+					"confidence": "high"
+				}
+			],
+			"sources": [
+				"wikipedia-bonny-kingdom"
+			],
+			"confidence": "high"
+		},
+		{
 			"year": 1869,
 			"title": "Jaja leaves for Opobo",
 			"text": "After a civil war between houses, Jaja of the Anna Pepple house leaves with most of the trade and founds Opobo, cutting Bonny off from the Imo markets. Bonny signs a British protection treaty in 1886.",
@@ -217,6 +296,62 @@
 			"sources": [
 				"wikipedia-kingdom-of-bonny",
 				"wikipedia-opobo"
+			],
+			"confidence": "high"
+		},
+		{
+			"year": 1873,
+			"yearLabel": "1873–1886",
+			"title": "Wars with Kalabari; a protectorate",
+			"text": "Losing trade to Opobo, Bonny pushes up rivers that Kalabari has always held, sometimes with Nembe and Okrika at its side, while Opobo backs Kalabari. British consuls impose treaties in 1873 and 1882. King George is deposed in December 1883 and Oko Jumbo plots for his own sons. In February 1886 Bonny signs a protectorate treaty; George is restored with a ruling council, and Oko Jumbo is publicly degraded.",
+			"capital": {
+				"name": "Grand Bonny",
+				"point": [
+					7.17,
+					4.43
+				]
+			},
+			"core": {
+				"lgas": [
+					"rivers-bonny"
+				]
+			},
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Elem Kalabari (approximate)",
+						"point": [
+							6.83,
+							4.65
+						]
+					},
+					"label": "Wars with Kalabari (1873, 1882 treaties)",
+					"sources": [
+						"wikipedia-bonny-kingdom",
+						"wikipedia-kalabari-kingdom"
+					],
+					"confidence": "high"
+				},
+				{
+					"kind": "war",
+					"to": {
+						"name": "Okrika",
+						"point": [
+							7.08,
+							4.73
+						]
+					},
+					"label": "Okrika at times Bonny's ally",
+					"sources": [
+						"wikipedia-bonny-kingdom"
+					],
+					"confidence": "medium"
+				}
+			],
+			"sources": [
+				"wikipedia-bonny-kingdom",
+				"wikipedia-kalabari-kingdom"
 			],
 			"confidence": "high"
 		}

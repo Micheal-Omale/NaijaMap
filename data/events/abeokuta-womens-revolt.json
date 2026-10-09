@@ -1,0 +1,45 @@
+{
+	"name": "The Abeokuta women’s revolt",
+	"status": "draft",
+	"kind": "colonial",
+	"year": 1946,
+	"yearLabel": "1946–1949",
+	"until": 1952,
+	"actors": [
+		{ "name": "Abeokuta Women’s Union (Funmilayo Ransome-Kuti, Grace Eniola Soyinka)", "side": "resister" },
+		{ "name": "Alake Ademola II and the colonial administration", "side": "colonial" }
+	],
+	"summary": {
+		"text": "Egba market women had paid a flat tax of their own since 1918, without any seat on the all-male council that set it. In the 1940s the headteacher Funmilayo Ransome-Kuti and her niece-in-law Grace Eniola Soyinka organised them as the Abeokuta Women’s Union. They petitioned the Alake from 1946. When he raised the women’s tax with the British Resident’s support, about a thousand women marched on the palace in October 1946 and were met with tear gas and beatings. Over ten thousand camped outside it for two days in 1947, and protests went on until the arrested women were freed. On 3 January 1949 the Alake, Ademola II, abdicated, the tax on women was ended, and four women took seats on the new council.",
+		"sources": ["wikipedia-abeokuta-womens-revolt", "wikipedia-funmilayo-ransome-kuti"],
+		"confidence": "high"
+	},
+	"moments": [
+		{
+			"when": "October 1946",
+			"title": "The march on the palace",
+			"text": "Funmilayo Ransome-Kuti leads nearly a thousand women to the Alake’s palace against the tax increase. They are tear-gassed and beaten.",
+			"at": { "name": "Ake, Abeokuta", "point": [3.35, 7.16] },
+			"mark": "camp",
+			"sources": ["wikipedia-abeokuta-womens-revolt"]
+		},
+		{
+			"when": "1947",
+			"title": "Ten thousand at the palace",
+			"text": "After publishing their grievances, more than ten thousand women hold the palace grounds for two days, and stay until the women arrested are released.",
+			"at": { "name": "Ake, Abeokuta", "point": [3.35, 7.16] },
+			"mark": "camp",
+			"sources": ["wikipedia-abeokuta-womens-revolt"]
+		},
+		{
+			"when": "3 January 1949",
+			"title": "The Alake abdicates",
+			"text": "Ademola II leaves the throne, the council is reformed, and four women take seats in it. He later returns, but the tax on women is not restored.",
+			"at": { "name": "Ake, Abeokuta", "point": [3.35, 7.16] },
+			"mark": "treaty",
+			"sources": ["wikipedia-abeokuta-womens-revolt"]
+		}
+	],
+	"sources": ["wikipedia-abeokuta-womens-revolt", "wikipedia-funmilayo-ransome-kuti"],
+	"confidence": "high"
+}

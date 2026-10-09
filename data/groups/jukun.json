@@ -1,6 +1,202 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Wukari",
+			"lga": "taraba-wukari",
+			"point": [
+				9.768,
+				7.866
+			],
+			"villages": [
+				{
+					"name": "Puje (Kwararafa Area)",
+					"point": [
+						9.783,
+						7.869
+					]
+				}
+			],
+			"sources": [
+				"wikipedia-wukari-federation",
+				"rulers-org-nigeria-traditional",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Seat of the Aku Uka, king of the Jukun, since the court settled here in 1855; heir of Kwararafa. In 1780 the Aku Uka confirmed the Kanuri founder of Lafia as Sarkin Lafia Bare-Bari. The crocodiles of the Marmara pond, said to have guided the Jukun on their migration, are still protected.",
+				"sources": [
+					"wikipedia-wukari-federation",
+					"rulers-org-nigeria-traditional"
+				],
+				"confidence": "medium"
+			}
+		},
+		{
+			"name": "Biepi (Byepi)",
+			"lga": "taraba-ibi",
+			"point": [
+				9.75,
+				8.18
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-jukun",
+				"wikipedia-kuvyon-ii"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Api or Biepi, the old capital of Kwararafa near Ibi; the Aku Uka is still crowned here.",
+				"sources": [
+					"wikipedia-jukun",
+					"wikipedia-kuvyon-ii"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Ibi (Jukun Wanu)",
+			"lga": "taraba-ibi",
+			"point": [
+				9.745,
+				8.18
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-ibi",
+				"wikipedia-jukun"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Home of the Jukun Wanu and Wurbo, mostly fishermen, where the land route from eastern Igboland crossed the Benue. The Royal Niger Company set up a station here in 1883.",
+				"sources": [
+					"wikipedia-ibi",
+					"wikipedia-muri"
+				],
+				"confidence": "high"
+			},
+			"livelihoods": {
+				"text": "Fishing on the Benue; cotton was ginned here from the 1920s.",
+				"sources": [
+					"wikipedia-ibi"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Wase Tofa",
+			"lga": "plateau-wase",
+			"point": [
+				9.919,
+				9.133
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-jukun",
+				"wikipedia-wase",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "The Jukun (Wapa) living near Wase befriended the Fulani Giwa when he came in about 1813; Wase Tofa is one of the six Jukun dialects Meek recorded.",
+				"sources": [
+					"wikipedia-wase",
+					"wikipedia-jukun"
+				],
+				"confidence": "medium"
+			}
+		},
+		{
+			"name": "Pindiga",
+			"lga": "gombe-akko",
+			"point": [
+				10.953,
+				9.982
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-pindiga",
+				"wikipedia-jukun",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "A Jukun town founded, by Kwararafa tradition, by the hunter Gidi-Gidi; it held out against Gombe from 1815 until British rule. Meek counted its speech with Kona and Gwana as one Jukun dialect.",
+				"sources": [
+					"wikipedia-pindiga",
+					"wikipedia-jukun"
+				],
+				"confidence": "medium"
+			}
+		},
+		{
+			"name": "Kona",
+			"lga": "taraba-jalingo",
+			"point": [
+				11.329,
+				8.981
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-jukun",
+				"wikipedia-muri",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "The Jukun of Kona call themselves Jiba; their neighbours call them Kwana. Kona fought Muri emirate through the 19th century and was taken by the Royal Niger Company in 1892.",
+				"sources": [
+					"wikipedia-jukun",
+					"wikipedia-muri"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Jibu",
+			"lga": "taraba-takum",
+			"point": [
+				9.98,
+				7.255
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-muri",
+				"wikipedia-jukun",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "A Jukun town burned by the Royal Niger Company in 1884, 1888 and 1891; Jibu is one of the Jukun dialects.",
+				"sources": [
+					"wikipedia-muri",
+					"wikipedia-jukun"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Abinsi",
+			"lga": "benue-guma",
+			"point": [
+				8.751,
+				7.754
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-jukun",
+				"grid3-settlement-names"
+			],
+			"confidence": "medium",
+			"history": {
+				"text": "Meek put the western limit of Jukun settlement at Abinsi; its Jukun Wanu stayed politically separate from Wukari in the 1920s.",
+				"sources": [
+					"wikipedia-jukun"
+				],
+				"confidence": "medium"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Jukun",
 	"searchAliases": [

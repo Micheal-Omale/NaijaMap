@@ -1,6 +1,27 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Eloyi hills",
+			"lga": "nasarawa-awe",
+			"villages": [],
+			"alsoIn": [
+				"nasarawa-nasarawa",
+				"nasarawa-kokona"
+			],
+			"sources": [
+				"wikipedia-eloyi-people"
+			],
+			"confidence": "medium",
+			"history": {
+				"text": "Most Eloyi (Afo) lived in a 24 km range of rocky hills in today's Nasarawa State. After revolting against the British in 1918 they were forced from their homeland and scattered across Nasarawa and Benue; some have gone back to the hills. In 1932 the British split them into ten village areas under heads the Eloyi did not recognise.",
+				"sources": [
+					"wikipedia-eloyi-people"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Afo (Eloyi)",
 	"searchAliases": [

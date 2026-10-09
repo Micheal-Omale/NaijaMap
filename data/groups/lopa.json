@@ -1,6 +1,46 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Lopa villages",
+			"lga": "niger-borgu",
+			"villages": [
+				{
+					"name": "Lopa town (arop)"
+				},
+				{
+					"name": "Gafara"
+				},
+				{
+					"name": "Raishe"
+				},
+				{
+					"name": "Tungan Masu"
+				},
+				{
+					"name": "Bakin Ruwa"
+				},
+				{
+					"name": "Lapar"
+				},
+				{
+					"name": "Ana"
+				}
+			],
+			"sources": [
+				"wikipedia-lopa-language"
+			],
+			"confidence": "medium",
+			"note": "The LGA of each village is not given; placed in Borgu LGA by the group's areas.",
+			"history": {
+				"text": "Ollop is spoken in the main villages of Lopa town, Gafara and Raishe and the smaller villages of Tungan Masu, Bakin Ruwa, Lapar and Ana; Lopa near the Busa have shifted to the Busa language.",
+				"sources": [
+					"wikipedia-lopa-language"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [
 		"Amboshidi and Tungan Bori are not yet located in GRID3."
 	],

@@ -15,8 +15,13 @@ export default defineConfig({
 		},
 	},
 	integrations: [react()],
+	// The dev toolbar floats over the bottom of the screen, where the phone's tab bar is.
+	devToolbar: { enabled: false },
 	vite: {
 		// MapLibre 6 runs its worker as an ES module.
 		worker: { format: 'es' },
+		// The story view loads GSAP lazily. Prebundle it up front, or the dev server
+		// discovers it on the first click, re-optimises and fails that import (504).
+		optimizeDeps: { include: ['gsap', 'gsap/SplitText', 'maplibre-gl'] },
 	},
 });

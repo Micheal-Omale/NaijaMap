@@ -1,0 +1,99 @@
+{
+	"name": "Dahomey against Abeokuta",
+	"status": "draft",
+	"kind": "war",
+	"year": 1851,
+	"yearLabel": "1843–1864",
+	"until": 1870,
+	"actors": [
+		{
+			"name": "Dahomey",
+			"side": "attacker",
+			"ink": "#7a2a2a"
+		},
+		{
+			"name": "Egba of Abeokuta",
+			"polity": "egba",
+			"side": "defender"
+		}
+	],
+	"summary": {
+		"text": "Free of Oyo after 1823, Dahomey under King Gezo raided its Yoruba neighbours every year for captives, some sold to European and American slavers and some sacrificed in its royal rites. Egba towns were taken from 1843. In 1851 Gezo's army, with its famous women soldiers, attacked Abeokuta itself and was beaten in a decisive battle; Dahomey tried again in 1864 and was beaten again. The Egba leaders, among them the merchant Efunroye Tinubu, built the confederacy that became the Egba United Government.",
+		"sources": [
+			"wikipedia-abeokuta",
+			"wikipedia-egba-united-government",
+			"wikipedia-oyo-empire"
+		],
+		"confidence": "high"
+	},
+	"routes": [
+		{
+			"kind": "advance",
+			"by": "Dahomey",
+			"path": [
+				[
+					1.98,
+					7.18
+				],
+				[
+					2.8,
+					7.47
+				],
+				[
+					3.35,
+					7.15
+				]
+			],
+			"label": "Dahomey's army to Abeokuta (1851, 1864)",
+			"sources": [
+				"wikipedia-abeokuta"
+			],
+			"confidence": "medium"
+		}
+	],
+	"moments": [
+		{
+			"when": "March 1851",
+			"title": "Abeokuta holds",
+			"text": "The Egba defeat Gezo's army under the town walls.",
+			"at": {
+				"name": "Abeokuta",
+				"point": [
+					3.35,
+					7.15
+				]
+			},
+			"mark": "battle",
+			"sources": [
+				"wikipedia-abeokuta",
+				"wikipedia-egba-united-government"
+			],
+			"confidence": "high"
+		},
+		{
+			"when": "1864",
+			"title": "Dahomey beaten again",
+			"text": "A second Dahomey assault on Abeokuta fails.",
+			"at": {
+				"name": "Abeokuta",
+				"point": [
+					3.36,
+					7.16
+				]
+			},
+			"mark": "battle",
+			"sources": [
+				"wikipedia-abeokuta"
+			],
+			"confidence": "high"
+		}
+	],
+	"sources": [
+		"wikipedia-abeokuta",
+		"wikipedia-egba-united-government"
+	],
+	"confidence": "high",
+	"reviewNotes": [
+		"The EUG article credits Sodeke with the 1851 command, but Sodeke is usually said to have died in the 1840s, before the battle; the commander's name is left out until checked."
+	]
+}

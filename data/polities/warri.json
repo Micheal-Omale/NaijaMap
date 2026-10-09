@@ -6,6 +6,7 @@
 		"Itsekiri kingdom",
 		"Iwere"
 	],
+	"shortName": "Warri",
 	"span": {
 		"from": 1480,
 		"to": 1894,
@@ -17,10 +18,10 @@
 	},
 	"peak": 1600,
 	"summary": {
-		"text": "The Itsekiri kingdom of the western Delta creeks, founded by Ginuwa, a prince of Benin. Its Olu adopted Christianity through Portuguese missionaries in the 16th century and grew rich as a middleman in the river trade. After 1848 no Olu was crowned for 88 years and merchant governors ran the rivers; the British crushed Nana Olomu at Ebrohimi in 1894.",
+		"text": "The Itsekiri kingdom of the western Delta creeks traces its kings to Ginuwa, a prince of Benin who left with a royal following around 1480 and died at Ijala; his successors ruled from the island capital Ode-Itsekiri, drawing older delta communities into one people. Benin gave it coral regalia, titles and court form, but by the 17th century Warri was its own monarchy. Portuguese Augustinians baptised a prince as Sebastião; his son Domingos studied in Coimbra and Lisbon and married a Portuguese noblewoman, and the court kept a Catholic strand for two centuries. Itsekiri merchants stood between European ships and the inland trade in cloth, salt, palm products and enslaved people. After Olu Akengbuwa died in 1848 no Olu was crowned for 88 years; merchant governors ruled the rivers until Britain broke Nana Olomu at Ebrohimi in 1894.",
 		"sources": [
-			"wikipedia-kingdom-of-warri",
-			"ikime-1969"
+			"wikipedia-warri-kingdom",
+			"wikipedia-nana-olomu"
 		],
 		"confidence": "high"
 	},
@@ -39,7 +40,7 @@
 			"year": 1480,
 			"yearLabel": "c. 1480",
 			"title": "Ginuwa founds the kingdom",
-			"text": "Ginuwa, a prince of Benin, settles among the Itsekiri and founds the royal seat at Ode-Itsekiri.",
+			"text": "In Itsekiri and Benin tradition Ginuwa, son of Oba Olua and intended heir, leaves Benin with descendants of Benin chiefs, moves through Amatu and Oruselemo to Ijala, and dies there; his successors set up the royal seat at Ode-Itsekiri. They gather in older settlements such as Okotomu, Inorin, Ugborodo, Omadino and Ureju. A force Benin sends after them cannot cross the Warri river; its men, under Ekpen, found Okere and later submit to the Olu.",
 			"capital": {
 				"name": "Ode-Itsekiri (Big Warri) (approximate)",
 				"point": [
@@ -67,15 +68,32 @@
 				}
 			],
 			"sources": [
-				"wikipedia-kingdom-of-warri"
+				"wikipedia-kingdom-of-warri",
+				"wikipedia-warri-kingdom"
 			],
-			"confidence": "medium"
+			"confidence": "medium",
+			"nodes": [
+				{
+					"name": "Ijala (Ginuwa's grave)",
+					"point": [
+						5.693,
+						5.538
+					]
+				},
+				{
+					"name": "Okere",
+					"point": [
+						5.74,
+						5.52
+					]
+				}
+			]
 		},
 		{
 			"year": 1600,
 			"yearLabel": "c. 1570–1650",
 			"title": "A Christian kingdom in the Delta",
-			"text": "An Olu is baptised Sebastião by 1597; his son Domingos studies in Portugal and marries a Portuguese noblewoman. Warri trades cloth, palm products and enslaved people.",
+			"text": "Augustinian missionaries working at the capital, which they call Santo Agostinho, probably in 1571–1574, baptise the Olu's son as Sebastião; he is Olu by 1597. His son Domingos sails for Portugal in 1600, studies at Coimbra and Lisbon, wins in 1607 a decree opening Warri's ports to Portuguese merchants, joins the Order of Christ in 1609 and marries a granddaughter of the Count of Feira. Warri, once called a “port of Benin”, is now a separate monarchy whose Olus are crowned without Benin's confirmation. Its merchants sell enslaved people, cotton cloth, leopard skins and palm oil at the Forcados.",
 			"capital": {
 				"name": "Ode-Itsekiri (Big Warri) (approximate)",
 				"point": [
@@ -104,14 +122,137 @@
 				}
 			],
 			"sources": [
-				"wikipedia-kingdom-of-warri"
+				"wikipedia-kingdom-of-warri",
+				"wikipedia-warri-kingdom"
+			],
+			"confidence": "high"
+		},
+		{
+			"year": 1644,
+			"yearLabel": "1644–1780",
+			"title": "A Catholic court in the creeks",
+			"text": "Dapper's account of 1644 describes Ode-Itsekiri's palm-roofed houses, a palace modelled on Benin's but smaller, and a furnished church; some townspeople read and write and want Portuguese books. In 1652 the Olu writes in Portuguese to Pope Innocent X asking for priests; Capuchins come and go, and in the 1680s three Itsekiri youths are sent to São Tomé to be taught. Warri's traders run the western end of a delta network: salt and pottery inland, cassava meal east to Kalabari and Nembe, and a route west towards Ijebu and Lagos.",
+			"capital": {
+				"name": "Ode-Itsekiri (Big Warri) (approximate)",
+				"point": [
+					5.3,
+					5.55
+				]
+			},
+			"core": {
+				"lgas": [
+					"delta-warri-south-west",
+					"delta-warri-south",
+					"delta-warri-north"
+				]
+			},
+			"links": [
+				{
+					"kind": "trade",
+					"to": {
+						"name": "Elem Kalabari",
+						"point": [
+							6.77,
+							4.75
+						]
+					},
+					"label": "Cassava meal east to Kalabari and Nembe",
+					"sources": [
+						"wikipedia-warri-kingdom"
+					],
+					"confidence": "medium"
+				},
+				{
+					"kind": "trade",
+					"to": {
+						"name": "Eko (Lagos Island)",
+						"point": [
+							3.39,
+							6.45
+						]
+					},
+					"label": "The western route towards Ijebu and Lagos",
+					"sources": [
+						"wikipedia-warri-kingdom"
+					],
+					"confidence": "medium"
+				},
+				{
+					"kind": "ritual",
+					"to": {
+						"name": "São Tomé",
+						"point": [
+							6.73,
+							0.34
+						]
+					},
+					"label": "Itsekiri youths sent to São Tomé for instruction (1680s)",
+					"sources": [
+						"wikipedia-warri-kingdom"
+					],
+					"confidence": "high"
+				}
+			],
+			"sources": [
+				"wikipedia-warri-kingdom"
+			],
+			"confidence": "high"
+		},
+		{
+			"year": 1786,
+			"yearLabel": "1786–1848",
+			"title": "Landolphe's fort and the move to the Benin River",
+			"text": "In 1786 Olu Erejuwa goes into partnership with the French trader Landolphe, who builds a fortified slaving station on the coast; British rivals destroy it in 1792. Around 1800 visitors find Ode-Itsekiri small but prosperous, with broad straight streets and a palace of many courtyards. Ships now anchor at Eghoro on the Benin River, where the Olu's men collect comey dues, and Itsekiri settlement spreads along the lower Benin River.",
+			"capital": {
+				"name": "Ode-Itsekiri (Big Warri) (approximate)",
+				"point": [
+					5.3,
+					5.55
+				]
+			},
+			"core": {
+				"lgas": [
+					"delta-warri-south-west",
+					"delta-warri-south",
+					"delta-warri-north",
+					"delta-warri-north"
+				]
+			},
+			"nodes": [
+				{
+					"name": "Eghoro (anchorage, approximate)",
+					"point": [
+						5.2,
+						5.88
+					]
+				}
+			],
+			"links": [
+				{
+					"kind": "trade",
+					"to": {
+						"name": "Forcados and Escravos river mouths",
+						"point": [
+							5.36,
+							5.36
+						]
+					},
+					"label": "Landolphe's fortified station (1786–1792)",
+					"sources": [
+						"wikipedia-warri-kingdom"
+					],
+					"confidence": "high"
+				}
+			],
+			"sources": [
+				"wikipedia-warri-kingdom"
 			],
 			"confidence": "high"
 		},
 		{
 			"year": 1848,
 			"title": "The interregnum",
-			"text": "Olu Akengbuwa dies and no successor is agreed. For 88 years governors of the river, chosen from merchant houses, control the Itsekiri trade.",
+			"text": "Olu Akengbuwa dies in 1848 and no successor is agreed for 88 years. The Governor of the Benin River, once the Olu's collector of comey, becomes the real ruler: in 1851 the British consul Beecroft helps elect Idiare, and the office passes between the royal Emaye house and the Ologbotsere house. Olomu, governor from 1879, founds Ebrohimi and becomes the leading merchant on the river; in 1884 the elders choose his son Nana, who signs a treaty of British protection that July, reserving the free-trade article.",
 			"core": {
 				"lgas": [
 					"delta-warri-south-west",
@@ -129,14 +270,33 @@
 				}
 			],
 			"sources": [
-				"wikipedia-kingdom-of-warri"
+				"wikipedia-kingdom-of-warri",
+				"wikipedia-nana-olomu",
+				"wikipedia-warri-kingdom"
 			],
-			"confidence": "high"
+			"confidence": "high",
+			"links": [
+				{
+					"kind": "trade",
+					"to": {
+						"name": "Eku",
+						"point": [
+							5.998,
+							5.751
+						]
+					},
+					"label": "Palm oil from the Urhobo markets on the Ethiope",
+					"sources": [
+						"wikipedia-nana-olomu"
+					],
+					"confidence": "high"
+				}
+			]
 		},
 		{
 			"year": 1894,
 			"title": "Ebrohimi falls",
-			"text": "Nana Olomu, Governor of the Benin River, resists British control of the palm-oil trade; British forces take his stronghold at Ebrohimi.",
+			"text": "Nana controls the palm-oil trade between the Urhobo producers and the European firms through credit, armed canoes and enslaved workers. From 1891 British vice-consuls challenge him; in 1894 Ralph Moor blockades his trade, and after his men fire on a steam cutter British forces shell Ebrohimi and take it on 25 September. Nana escapes to Lagos and surrenders; a consular court at Old Calabar deports him for life. Allowed home in 1906, he settles near Koko and dies in 1916. The Olu's throne is restored under colonial rule in 1936.",
 			"core": {
 				"lgas": [
 					"delta-warri-south-west",
@@ -144,24 +304,30 @@
 					"delta-warri-north"
 				]
 			},
-			"links": [
-				{
-					"kind": "war",
-					"to": {
-						"name": "Ebrohimi (approximate)",
-						"point": [
-							5.27,
-							5.73
-						]
-					},
-					"label": "Siege of Ebrohimi"
-				}
-			],
+			"links": [],
 			"sources": [
 				"wikipedia-kingdom-of-warri",
-				"ikime-1969"
+				"ikime-1969",
+				"wikipedia-nana-olomu"
 			],
-			"confidence": "high"
+			"confidence": "high",
+			"note": "Told in full as an event on the timeline.",
+			"nodes": [
+				{
+					"name": "Ebrohimi (approximate)",
+					"point": [
+						5.27,
+						5.73
+					]
+				},
+				{
+					"name": "Koko (Nana Town)",
+					"point": [
+						5.467,
+						6.004
+					]
+				}
+			]
 		}
 	],
 	"today": {

@@ -1,0 +1,79 @@
+{
+	"name": "The Salt Water War (Ogun Olomiro)",
+	"status": "draft",
+	"kind": "war",
+	"year": 1845,
+	"yearLabel": "July 1845",
+	"until": 1851,
+	"actors": [
+		{
+			"name": "Kosoko's faction",
+			"side": "attacker",
+			"ink": "#5a4a7a"
+		},
+		{
+			"name": "Oba Akitoye",
+			"polity": "lagos",
+			"side": "defender"
+		}
+	],
+	"summary": {
+		"text": "Kosoko, twice kept off the Lagos throne by the kingmaker Eletu Odibo, was recalled by his uncle Oba Akitoye in a bid for peace. He built a following among the war chiefs and the Muslims, and when Akitoye brought back the Eletu, Kosoko vowed to make himself king. In July 1845 his men besieged the palace for three weeks; its defenders had to drink salt water. Akitoye fled up the lagoon, let through by Kosoko's captain Oshodi Tapa, to Abeokuta and then Badagry, where he allied with the missionaries and the British consul. The captured Eletu Odibo was sealed in an oil barrel, set alight and thrown in the lagoon, in revenge for his throwing Kosoko's mother's bones there.",
+		"sources": [
+			"wikipedia-kosoko",
+			"wikipedia-history-of-lagos"
+		],
+		"confidence": "high"
+	},
+	"routes": [
+		{
+			"kind": "exile",
+			"by": "Oba Akitoye",
+			"path": [
+				[
+					3.39,
+					6.45
+				],
+				[
+					3.35,
+					7.15
+				],
+				[
+					2.88,
+					6.42
+				]
+			],
+			"label": "Akitoye's flight to Abeokuta and Badagry",
+			"sources": [
+				"wikipedia-kosoko"
+			],
+			"confidence": "high"
+		}
+	],
+	"moments": [
+		{
+			"when": "July 1845",
+			"title": "Three weeks' siege",
+			"text": "The palace defenders are reduced to drinking salt water.",
+			"at": {
+				"name": "Eko (Lagos Island)",
+				"point": [
+					3.39,
+					6.45
+				]
+			},
+			"mark": "battle",
+			"sources": [
+				"wikipedia-kosoko",
+				"wikipedia-history-of-lagos"
+			],
+			"confidence": "high"
+		}
+	],
+	"sources": [
+		"wikipedia-kosoko",
+		"wikipedia-history-of-lagos"
+	],
+	"confidence": "high",
+	"reviewNotes": []
+}

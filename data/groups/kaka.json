@@ -1,6 +1,23 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Kaka of the Mambilla Plateau",
+			"lga": "taraba-sardauna",
+			"villages": [],
+			"sources": [
+				"wikipedia-mambilla-plateau"
+			],
+			"confidence": "medium",
+			"history": {
+				"text": "The Kaka are one of the largest minorities of the Mambilla Plateau.",
+				"sources": [
+					"wikipedia-mambilla-plateau"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Kaka (Yamba)",
 	"searchAliases": [

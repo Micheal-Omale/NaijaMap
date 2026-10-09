@@ -4,20 +4,21 @@
 	"kind": "kingdom",
 	"otherNames": [],
 	"span": {
-		"from": 1350,
-		"to": 1807,
-		"fromLabel": "c. 1350 (Korau)",
+		"from": 1015,
+		"to": 1900,
+		"fromLabel": "c. 1015 (Katsina king list)",
+		"toLabel": "the Maradi kingdom in exile, to colonial rule",
 		"sources": [
-			"wikipedia-hausa-kingdoms",
+			"wikipedia-history-of-katsina",
 			"usman-1981"
 		],
 		"confidence": "medium"
 	},
 	"peak": 1700,
 	"summary": {
-		"text": "A Hausa kingdom at the southern end of trans-Saharan routes, famed for scholarship and trade. It was briefly subdued by Songhay in the early 1500s and reached its commercial height in the 17th and 18th centuries. The Fulani took it in 1807; its old rulers carried on at Maradi in today's Niger.",
+		"text": "Katsina began with the Durbawa priest-kings at Durbi ta Kusheyi. In the mid-15th century the scholar-wrestler Muhammadu Korau killed the last of them and founded the walled city at a crossroads of trade, making it a Muslim kingdom whose Gobarau mosque drew scholars from Timbuktu. Songhai ruled it from 1512 to 1554; then it turned to Bornu, sending each new king's tribute of a hundred slaves to Ngazargamu. It outlasted Kano's wars and Kwararafa's raids to become, in the 18th century, the leading market and seat of learning in Hausaland. The jihad took it in 1806–7, and its Hausa kings carried on at Maradi, in today's Niger.",
 		"sources": [
-			"wikipedia-hausa-kingdoms",
+			"wikipedia-history-of-katsina",
 			"usman-1981"
 		],
 		"confidence": "high"
@@ -34,10 +35,72 @@
 	],
 	"snapshots": [
 		{
-			"year": 1350,
-			"yearLabel": "c. 1350",
-			"title": "Korau founds a new line",
-			"text": "Tradition says Korau overthrew the older Durbawa rulers and founded the dynasty that made Katsina a Muslim kingdom.",
+			"year": 1015,
+			"yearLabel": "c. 1015–1445",
+			"title": "The Durbawa at Durbi ta Kusheyi",
+			"text": "Tradition makes Kumayo, a grandson of Bayajidda, the first king, ruling from Durbi ta Kusheyi near Mani, 18 miles south-east of today's city. The Durbawa, its first people, married into the line, and seven burial mounds there are said to hold early kings such as Kumayo, Ramba-Ramba and Sanau. A Katsina account has its king fighting Kwararafa in 1260.",
+			"capital": {
+				"name": "Durbi ta Kusheyi (approximate)",
+				"point": [
+					7.83,
+					12.83
+				]
+			},
+			"core": {
+				"lgas": [
+					"katsina-mani",
+					"katsina-katsina",
+					"katsina-batagarawa",
+					"katsina-dutsin-ma",
+					"katsina-charanchi",
+					"katsina-rimi"
+				],
+				"confidence": "medium"
+			},
+			"links": [
+				{
+					"kind": "descent",
+					"to": {
+						"name": "Daura",
+						"point": [
+							8.32,
+							13.04
+						]
+					},
+					"label": "Kumayo, grandson of Bayajidda",
+					"sources": [
+						"wikipedia-history-of-katsina"
+					],
+					"confidence": "medium"
+				},
+				{
+					"kind": "war",
+					"to": {
+						"name": "Kwararafa",
+						"point": [
+							10.953,
+							9.982
+						]
+					},
+					"label": "War with Kwararafa (1260)",
+					"sources": [
+						"wikipedia-kwararafa",
+						"wikipedia-jukun"
+					],
+					"confidence": "disputed",
+					"note": "Pindiga stands for Kwararafa's early, unlocated seat."
+				}
+			],
+			"sources": [
+				"wikipedia-history-of-katsina"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1445,
+			"yearLabel": "c. 1445–1493",
+			"title": "Korau founds the walled city",
+			"text": "Muhammadu Korau, a scholar from Yandoto, challenges King Sanau to a wrestling match at a feast, wins once Sanau's wife has stolen his charm, and stabs him. Korau builds the walled city of Katsina at a crossroads of trade near an iron mine and a shrine, is its first Muslim king, and takes tribute in iron bars from the chiefs around, the start of the haraji tax. He campaigns against Nupe and Kwararafa, founds the Gobarau mosque, and hosts al-Maghili in 1493.",
 			"capital": {
 				"name": "Katsina",
 				"point": [
@@ -59,16 +122,58 @@
 					"katsina-batsari"
 				]
 			},
+			"nodes": [
+				{
+					"name": "Gobarau mosque",
+					"point": [
+						7.601,
+						12.989
+					]
+				}
+			],
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Gbara (Nupe)",
+						"point": [
+							5.852,
+							8.938
+						]
+					},
+					"label": "Campaigns against Nupe",
+					"sources": [
+						"wikipedia-history-of-katsina"
+					],
+					"confidence": "medium"
+				},
+				{
+					"kind": "war",
+					"to": {
+						"name": "Kwararafa (Biepi, near Ibi)",
+						"point": [
+							9.75,
+							8.18
+						]
+					},
+					"label": "Campaigns against Kwararafa",
+					"sources": [
+						"wikipedia-history-of-katsina"
+					],
+					"confidence": "medium"
+				}
+			],
 			"sources": [
-				"wikipedia-hausa-kingdoms",
-				"usman-1981"
+				"wikipedia-history-of-katsina",
+				"wikipedia-gobarau-minaret"
 			],
 			"confidence": "medium"
 		},
 		{
-			"year": 1513,
-			"title": "Songhay invades",
-			"text": "Askia Muhammad of Songhay subdues Katsina for a time. The Gobarau minaret marks the city's Islamic learning.",
+			"year": 1493,
+			"yearLabel": "1493–1512",
+			"title": "Prayer or prison",
+			"text": "Ibrahim Sura takes Kwiambana and Koton Koro and orders his subjects to pray or go to prison; here, unlike in Kano, the common people take up Islam. Ali Murabus builds the city's outer walls. Kano's Rumfa fights an eleven-year war with Katsina.",
 			"capital": {
 				"name": "Katsina",
 				"point": [
@@ -101,26 +206,243 @@
 				{
 					"kind": "war",
 					"to": {
-						"name": "Gao (Songhay)",
+						"name": "Kano",
+						"point": [
+							8.52,
+							12
+						]
+					},
+					"label": "Eleven years of war with Kano",
+					"sources": [
+						"wikipedia-sultanate-of-kano",
+						"wikipedia-history-of-katsina"
+					],
+					"confidence": "high"
+				}
+			],
+			"sources": [
+				"wikipedia-history-of-katsina",
+				"wikipedia-sultanate-of-kano"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1512,
+			"yearLabel": "1512–1554",
+			"title": "Under Songhai",
+			"text": "Askia Muhammad of Songhai conquers Katsina, which becomes a vassal of Gao. Timbuktu scholars come to teach, and one, Muhammad bin Ahmed, stays as judge. In 1554 400 Katsina horsemen meet 24 Songhai riders under the Hi-Koi Ali Dudo at Karfata; the Songhai fight so bravely that the victors send the wounded survivors home with honour. Katsina is free again.",
+			"capital": {
+				"name": "Katsina",
+				"point": [
+					7.6,
+					12.99
+				]
+			},
+			"core": {
+				"lgas": [
+					"katsina-katsina",
+					"katsina-batagarawa",
+					"katsina-kaita",
+					"katsina-jibia",
+					"katsina-rimi",
+					"katsina-charanchi",
+					"katsina-kurfi",
+					"katsina-dutsin-ma",
+					"katsina-mani",
+					"katsina-batsari",
+					"katsina-safana",
+					"katsina-kankia",
+					"katsina-ingawa",
+					"katsina-kusada",
+					"katsina-bindawa",
+					"katsina-mashi",
+					"katsina-dutsi"
+				]
+			},
+			"links": [
+				{
+					"kind": "tribute",
+					"to": {
+						"name": "Gao (Songhai)",
 						"point": [
 							-0.04,
 							16.27
 						]
 					},
-					"label": "Songhay campaign"
+					"label": "Vassal of Songhai",
+					"sources": [
+						"wikipedia-history-of-katsina"
+					],
+					"confidence": "high"
+				},
+				{
+					"kind": "war",
+					"to": {
+						"name": "Gao (Songhai)",
+						"point": [
+							-0.04,
+							16.27
+						]
+					},
+					"label": "Battle of Karfata (1554)",
+					"sources": [
+						"wikipedia-history-of-katsina"
+					],
+					"confidence": "high"
 				}
 			],
 			"sources": [
-				"wikipedia-hausa-kingdoms",
-				"usman-1981"
+				"wikipedia-history-of-katsina"
 			],
-			"confidence": "medium"
+			"confidence": "high"
+		},
+		{
+			"year": 1554,
+			"yearLabel": "1554–1650",
+			"title": "Free, then Bornu's client",
+			"text": "In the 1570s Katsina strikes Kano and reaches its gates; Kano raids back at the end of the century. As Songhai falls, Katsina turns to Bornu: every new Sarki sends the mai a hundred slaves, and Bornu in return protects it. The city grows to a circuit of seven or eight miles, with quarters for people from Bornu, Gobir, Mali, Songhai and Agadez, and the leather craft of Agadez takes root.",
+			"capital": {
+				"name": "Katsina",
+				"point": [
+					7.6,
+					12.99
+				]
+			},
+			"core": {
+				"lgas": [
+					"katsina-katsina",
+					"katsina-batagarawa",
+					"katsina-kaita",
+					"katsina-jibia",
+					"katsina-rimi",
+					"katsina-charanchi",
+					"katsina-kurfi",
+					"katsina-dutsin-ma",
+					"katsina-mani",
+					"katsina-batsari",
+					"katsina-safana",
+					"katsina-kankia",
+					"katsina-ingawa",
+					"katsina-kusada",
+					"katsina-bindawa",
+					"katsina-mashi",
+					"katsina-dutsi"
+				]
+			},
+			"links": [
+				{
+					"kind": "tribute",
+					"to": {
+						"name": "Ngazargamu",
+						"point": [
+							12.367,
+							13.083
+						]
+					},
+					"label": "100 slaves from each new Sarki",
+					"sources": [
+						"wikipedia-history-of-katsina"
+					],
+					"confidence": "high"
+				},
+				{
+					"kind": "war",
+					"to": {
+						"name": "Kano",
+						"point": [
+							8.52,
+							12
+						]
+					},
+					"label": "To the gates of Kano (1570s)",
+					"sources": [
+						"wikipedia-history-of-katsina"
+					],
+					"confidence": "high"
+				}
+			],
+			"sources": [
+				"wikipedia-history-of-katsina"
+			],
+			"confidence": "high"
+		},
+		{
+			"year": 1650,
+			"yearLabel": "c. 1650–1690",
+			"title": "Kwararafa in the city",
+			"text": "Under Uban-Yari Katsina beats Kano repeatedly, killing several of its kings, then makes alliance with Kano against Kwararafa. Kwararafa still breaches Katsina's walls and holds the western city, throwing many people into a pit remembered as Giwa-Rano, but withdraws when its general falls dead; tradition credits the prayers of Dan Masani. Bornu's Mai Ali later drives Kwararafa out of Hausaland, and Katsina's poet Dan Marina celebrates it.",
+			"capital": {
+				"name": "Katsina",
+				"point": [
+					7.6,
+					12.99
+				]
+			},
+			"core": {
+				"lgas": [
+					"katsina-katsina",
+					"katsina-batagarawa",
+					"katsina-kaita",
+					"katsina-jibia",
+					"katsina-rimi",
+					"katsina-charanchi",
+					"katsina-kurfi",
+					"katsina-dutsin-ma",
+					"katsina-mani",
+					"katsina-batsari",
+					"katsina-safana",
+					"katsina-kankia",
+					"katsina-ingawa",
+					"katsina-kusada",
+					"katsina-bindawa",
+					"katsina-mashi",
+					"katsina-dutsi"
+				]
+			},
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Kwararafa (Biepi, near Ibi)",
+						"point": [
+							9.75,
+							8.18
+						]
+					},
+					"label": "Kwararafa breaches the walls",
+					"sources": [
+						"wikipedia-history-of-katsina",
+						"wikipedia-jukun"
+					],
+					"confidence": "high"
+				},
+				{
+					"kind": "tribute",
+					"to": {
+						"name": "Ngazargamu",
+						"point": [
+							12.367,
+							13.083
+						]
+					},
+					"label": "Bornu's client",
+					"sources": [
+						"wikipedia-history-of-katsina"
+					],
+					"confidence": "high"
+				}
+			],
+			"sources": [
+				"wikipedia-history-of-katsina",
+				"wikipedia-kwararafa"
+			],
+			"confidence": "high"
 		},
 		{
 			"year": 1700,
-			"yearLabel": "c. 1700",
+			"yearLabel": "c. 1700–1750",
 			"title": "Commercial height",
-			"text": "Katsina is the leading Hausa market for the Saharan caravans, with lands reaching north to Maradi.",
+			"text": "Katsina is the leading market of Hausaland for the Saharan caravans, taking the place Kano once held. Scholars prefer it to Timbuktu; Muhammad al-Kishwani teaches at Gobarau, and Yandoto and Birnin Katsina are known for mathematics and the science of magic squares. Barth later judged the city must once have held a hundred thousand people, and its Hausa the purest and its manners the finest. Its influence runs north to Maradi, west to Zamfara and south to Birnin Gwari.",
 			"capital": {
 				"name": "Katsina",
 				"point": [
@@ -181,16 +503,49 @@
 					]
 				]
 			},
+			"links": [
+				{
+					"kind": "tribute",
+					"to": {
+						"name": "Ngazargamu",
+						"point": [
+							12.367,
+							13.083
+						]
+					},
+					"label": "Still Bornu's client",
+					"sources": [
+						"wikipedia-history-of-katsina"
+					],
+					"confidence": "high"
+				},
+				{
+					"kind": "trade",
+					"to": {
+						"name": "Agadez",
+						"point": [
+							7.99,
+							16.97
+						]
+					},
+					"label": "Saharan caravans",
+					"sources": [
+						"wikipedia-history-of-katsina"
+					],
+					"confidence": "high"
+				}
+			],
 			"sources": [
-				"wikipedia-hausa-kingdoms",
+				"wikipedia-history-of-katsina",
 				"usman-1981"
 			],
 			"confidence": "medium"
 		},
 		{
-			"year": 1807,
-			"title": "Fulani take Katsina",
-			"text": "Umaru Dallaji takes the city for the jihad in 1807. The Hausa rulers withdraw north and found a kingdom in exile at Maradi.",
+			"year": 1750,
+			"yearLabel": "c. 1750–1805",
+			"title": "Agwaragi beats Gobir",
+			"text": "In the mid-18th century Sarkin Katsina Agwaragi defeats Yakubu of Gobir and takes his sword, Bebe, “the deaf one”, still among Katsina's regalia. The tribute of slaves to Bornu goes on until Agwaragi's reign (1784/5–1801/2).",
 			"capital": {
 				"name": "Katsina",
 				"point": [
@@ -209,31 +564,119 @@
 					"katsina-kurfi",
 					"katsina-dutsin-ma",
 					"katsina-mani",
-					"katsina-batsari"
+					"katsina-batsari",
+					"katsina-safana",
+					"katsina-kankia",
+					"katsina-ingawa",
+					"katsina-kusada",
+					"katsina-bindawa",
+					"katsina-mashi",
+					"katsina-dutsi",
+					"katsina-dan-musa",
+					"katsina-matazu",
+					"katsina-musawa",
+					"katsina-kankara",
+					"katsina-malumfashi",
+					"katsina-kafur",
+					"katsina-bakori",
+					"katsina-funtua",
+					"katsina-dandume",
+					"katsina-faskari",
+					"katsina-sabuwa",
+					"katsina-danja"
 				]
 			},
 			"links": [
 				{
 					"kind": "war",
 					"to": {
-						"name": "Maradi",
+						"name": "Alkalawa (Gobir)",
 						"point": [
-							7.1,
-							13.5
+							6.26,
+							13.613
 						]
 					},
-					"label": "Old dynasty to Maradi"
+					"label": "Yakubu of Gobir defeated",
+					"sources": [
+						"wikipedia-history-of-katsina"
+					],
+					"confidence": "medium"
 				}
 			],
 			"sources": [
-				"wikipedia-hausa-kingdoms",
+				"wikipedia-history-of-katsina"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1806,
+			"yearLabel": "1806–1900",
+			"title": "The jihad, and a kingdom at Maradi",
+			"text": "Sullubawa Fulani take up the jihad. Umaru Dallaji marches from Radda to Sabon Birni and kills Sarkin Katsina Mahmudu; some 30,000 Katsinawa withdraw to Dankama and fail to win the city back, and Sarki Halidu throws himself into a well. The rest go north and found Maradi, in today's Niger, from which the Hausa kings of Katsina raid the new emirate for the rest of the century.",
+			"capital": {
+				"name": "Maradi",
+				"point": [
+					7.1,
+					13.5
+				]
+			},
+			"core": {
+				"beyond": [
+					[
+						[
+							6.6,
+							13.1
+						],
+						[
+							7.7,
+							13.1
+						],
+						[
+							7.8,
+							13.9
+						],
+						[
+							6.7,
+							13.9
+						]
+					]
+				]
+			},
+			"nodes": [
+				{
+					"name": "Dankama",
+					"point": [
+						7.798,
+						13.305
+					]
+				}
+			],
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Katsina",
+						"point": [
+							7.6,
+							12.99
+						]
+					},
+					"label": "Katsina lost to Umaru Dallaji",
+					"sources": [
+						"wikipedia-history-of-katsina"
+					],
+					"confidence": "high"
+				}
+			],
+			"sources": [
+				"wikipedia-history-of-katsina",
 				"usman-1981"
 			],
-			"confidence": "high"
+			"confidence": "medium"
 		}
 	],
 	"today": {
-		"text": "The Emir of Katsina reigns at Katsina, and a Sarkin Katsina of the old line still sits at Maradi in Niger.",
+		"text": "The Emir of Katsina, of the Fulani Dallazawa dynasty, reigns at Katsina; the Hausa line rules as Sarkin Katsina Maradi in the Republic of Niger. Korau's short sword, Gajere, is still the emblem of Katsina.",
 		"title": "Emir of Katsina",
 		"seat": {
 			"name": "Katsina",
@@ -243,9 +686,13 @@
 			]
 		},
 		"sources": [
-			"wikipedia-hausa-kingdoms"
+			"wikipedia-history-of-katsina"
 		],
-		"confidence": "medium"
+		"confidence": "high"
 	},
-	"reviewNotes": []
+	"reviewNotes": [
+		"Durbi ta Kusheyi is placed roughly near Mani. Kwiambana, Koton Koro and Karfata are not located.",
+		"The 1260 war with Kwararafa conflicts with Korau's 15th-century dates; it is marked disputed.",
+		"The Maradi ring after 1806 is rough and lies wholly in Niger."
+	]
 }

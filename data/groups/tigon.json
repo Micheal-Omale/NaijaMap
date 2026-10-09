@@ -1,6 +1,23 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Tigon of Kurmi",
+			"lga": "taraba-kurmi",
+			"villages": [],
+			"sources": [
+				"wikipedia-kurmi"
+			],
+			"confidence": "medium",
+			"history": {
+				"text": "With the Ndoro, the native people of the Kurmi woodlands.",
+				"sources": [
+					"wikipedia-kurmi"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Tigon",
 	"searchAliases": [

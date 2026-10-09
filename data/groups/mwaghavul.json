@@ -1,6 +1,54 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Mwaghavul districts (Mangu)",
+			"lga": "plateau-mangu",
+			"point": [
+				9.215,
+				9.408
+			],
+			"villages": [
+				{
+					"name": "Panyam",
+					"point": [
+						9.215,
+						9.408
+					]
+				},
+				{
+					"name": "Pushit"
+				},
+				{
+					"name": "Kerang"
+				},
+				{
+					"name": "Mangun"
+				},
+				{
+					"name": "Kombun"
+				},
+				{
+					"name": "Ampang West"
+				},
+				{
+					"name": "Mangu"
+				}
+			],
+			"sources": [
+				"wikipedia-mangu",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "The Mwaghavul are the main people of Mangu LGA, in the districts of Panyam, Pushit, Kerang, Mangun, Kombun and Ampang West and the headquarters town, Mangu.",
+				"sources": [
+					"wikipedia-mangu"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Mwaghavul",
 	"searchAliases": [

@@ -1,0 +1,121 @@
+{
+	"status": "draft",
+	"of": "polity",
+	"terrain": "river",
+	"summary": {
+		"text": "Kwararafa, the Jukun-led confederacy of the Benue, was a raiding power in the 17th century: its cavalry emptied Kano three times and attacked Katsina and Zazzau, but its siege of Ngazargamu failed.",
+		"sources": [
+			"wikipedia-kwararafa",
+			"meek-1931"
+		],
+		"confidence": "medium"
+	},
+	"arms": [
+		{
+			"kind": "cavalry",
+			"level": 2,
+			"text": "Kwararafa built up its army with cavalry.",
+			"sources": [
+				"wikipedia-kwararafa"
+			],
+			"confidence": "medium"
+		},
+		{
+			"kind": "allies",
+			"level": 2,
+			"to": 1700,
+			"text": "A confederacy: Jukun, Igala, Idoma, Alago and others marched under its banner.",
+			"sources": [
+				"wikipedia-kwararafa",
+				"kigala-2020-abutu-eje"
+			],
+			"confidence": "medium"
+		},
+		{
+			"kind": "ritual",
+			"level": 1,
+			"text": "The Aku Uka’s sacred kingship at Wukari.",
+			"sources": [
+				"wikipedia-wukari",
+				"meek-1931"
+			],
+			"confidence": "medium"
+		}
+	],
+	"record": [
+		{
+			"year": 1653,
+			"polity": "kano",
+			"event": "kwararafa-raids-kano",
+			"against": "Kano",
+			"result": "won",
+			"text": "Kwararafa invaded Kano three times. Under Muhammad Zaki and again under Dadi its people fled to Daura, and in the 1650s Adashu broke down the Kofan Kawayi gate.",
+			"sources": [
+				"wikipedia-kwararafa",
+				"wikipedia-muhammad-zaki",
+				"wikipedia-muhammad-kukuna",
+				"wikipedia-dadi-kano"
+			],
+			"confidence": "high"
+		},
+		{
+			"year": 1675,
+			"polity": "kanem-bornu",
+			"against": "Kanem-Bornu",
+			"result": "lost",
+			"text": "With Tuareg allies Kwararafa besieged Ngazargamu, but Mai Ali set the two armies against each other and beat both.",
+			"sources": [
+				"wikipedia-ali-iii-bornu",
+				"wikipedia-jukun",
+				"wikipedia-kwararafa"
+			],
+			"confidence": "disputed",
+			"yearLabel": "c. 1670–1680",
+			"event": "kwararafa-northern-wars"
+		},
+		{
+			"year": 1700,
+			"yearLabel": "c. 1700",
+			"polity": "igala",
+			"event": "igala-jukun-war",
+			"against": "Igala",
+			"result": "lost",
+			"text": "The army sent to make Idah pay tribute was beaten by Attah Ayegba.",
+			"sources": [
+				"shaibu-2024",
+				"yusufu-2020"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1790,
+			"yearLabel": "c. 1780–1810",
+			"against": "The Chamba",
+			"result": "lost",
+			"text": "A Chamba invasion drove the last king of Kwararafa into exile.",
+			"sources": [
+				"wikipedia-kwararafa"
+			],
+			"confidence": "medium",
+			"event": "chamba-invade-kwararafa"
+		},
+		{
+			"year": 1815,
+			"yearLabel": "1815–1890s",
+			"polity": "sokoto",
+			"event": "jihad-on-the-benue",
+			"against": "The jihad emirates (Gombe, Muri)",
+			"result": "lost",
+			"text": "Gombe and Muri took Pindiga, Kalam and the Kona country from the Jukun; Wukari itself held out.",
+			"sources": [
+				"wikipedia-gombe-emirate",
+				"wikipedia-muri",
+				"wikipedia-wukari-federation"
+			],
+			"confidence": "medium"
+		}
+	],
+	"reviewNotes": [
+		"Arms levels (1 some, 2 a real strength, 3 famous for it) are the compiler’s judgement from the sources, for the Versus page’s guess; please check them."
+	]
+}

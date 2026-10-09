@@ -1,0 +1,63 @@
+{
+	"status": "draft",
+	"of": "polity",
+	"terrain": "delta",
+	"summary": {
+		"text": "Jaja founded Opobo in 1869 and held the oil markets of the interior with his war canoes and guns, until the British seized him by a trick in 1887.",
+		"sources": [
+			"wikipedia-opobo",
+			"dike-1956",
+			"wikipedia-jaja-of-opobo"
+		],
+		"confidence": "medium"
+	},
+	"arms": [
+		{
+			"kind": "canoes",
+			"level": 3,
+			"text": "War canoes controlling the creeks to the oil markets.",
+			"sources": [
+				"dike-1956",
+				"wikipedia-opobo"
+			],
+			"confidence": "medium"
+		},
+		{
+			"kind": "firearms",
+			"level": 2,
+			"text": "Guns and cannon bought in trade.",
+			"sources": [
+				"dike-1956"
+			],
+			"confidence": "medium"
+		}
+	],
+	"record": [
+		{
+			"year": 1869,
+			"polity": "bonny",
+			"against": "Bonny",
+			"result": "won",
+			"text": "Jaja broke from Bonny and took much of its trade.",
+			"sources": [
+				"wikipedia-opobo",
+				"dike-1956"
+			],
+			"confidence": "high"
+		},
+		{
+			"year": 1887,
+			"event": "opobo-1887",
+			"against": "British",
+			"result": "lost",
+			"text": "The consul lured Jaja aboard a ship and deported him.",
+			"sources": [
+				"wikipedia-jaja-of-opobo"
+			],
+			"confidence": "high"
+		}
+	],
+	"reviewNotes": [
+		"Arms levels (1 some, 2 a real strength, 3 famous for it) are the compiler’s judgement from the sources, for the Versus page’s guess; please check them."
+	]
+}

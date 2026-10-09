@@ -1,0 +1,24 @@
+{
+	"name": "Kisoki throws off Bornu",
+	"status": "draft",
+	"kind": "war",
+	"year": 1509,
+	"yearLabel": "reign of Muhammad Kisoki (1509–1565)",
+	"until": 1565,
+	"actors": [{ "name": "Kano", "polity": "kano", "side": "attacker" }, { "name": "Bornu", "polity": "kanem-bornu", "side": "defender" }],
+	"summary": {
+		"text": "Kano had paid tribute to Bornu since Abdullahi Burja. While Songhai and Bornu were torn by internal strife, Muhammad Kisoki marched into Bornu, then beat off the mai's counter-attack, ending Bornu's overlordship. The Kano Chronicle credits him with ruling “all Hausaland, east and west, north and south”.",
+		"sources": ["wikipedia-muhammad-kisoki", "palmer-1908-kano-chronicle"],
+		"confidence": "medium"
+	},
+	"routes": [
+		{ "kind": "advance", "by": "Kano", "path": [[8.52, 12], [12.367, 13.083]], "label": "Kisoki's expedition into Bornu", "note": "Start and Bornu's capital only; how far he went is not recorded.", "sources": ["wikipedia-muhammad-kisoki"], "confidence": "medium" },
+		{ "kind": "advance", "by": "Bornu", "path": [[12.367, 13.083], [8.52, 12]], "label": "The mai's reprisal, beaten off", "sources": ["wikipedia-muhammad-kisoki"], "confidence": "medium" }
+	],
+	"moments": [
+		{ "when": "1509–1565", "title": "Bornu's reprisal fails", "text": "The mai marches on Kano and is decisively repelled.", "at": { "name": "Kano", "point": [8.52, 12] }, "mark": "battle", "sources": ["wikipedia-muhammad-kisoki"], "confidence": "medium" }
+	],
+	"sources": ["wikipedia-muhammad-kisoki", "palmer-1908-kano-chronicle"],
+	"confidence": "medium",
+	"reviewNotes": ["Bornu's chronicles have not been checked for this war; the Kano account may flatter Kisoki."]
+}

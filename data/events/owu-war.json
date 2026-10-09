@@ -1,0 +1,161 @@
+{
+	"name": "The Owu war",
+	"status": "draft",
+	"kind": "war",
+	"year": 1821,
+	"yearLabel": "1821–1826",
+	"until": 1834,
+	"actors": [
+		{
+			"name": "Ife",
+			"polity": "ife",
+			"side": "attacker"
+		},
+		{
+			"name": "Ijebu",
+			"polity": "ijebu",
+			"side": "attacker"
+		},
+		{
+			"name": "Owu",
+			"side": "defender",
+			"ink": "#6a4a6a"
+		}
+	],
+	"summary": {
+		"text": "Between 1821 and 1826 the armies of Ife and Ijebu, joined by Oyo refugees from the collapsing empire, besieged and destroyed Owu Ipole, a heavily fortified Yoruba kingdom. The Olowu escaped carried on a man's back to Erunmu, which fell in turn; the Owu crown was smuggled out with the refugees. The victors' camp at Ipara and then Ibadan went on to destroy the Egba forest towns, and Ibadan grew from it. The Owu wandered south-west and around 1834 Sodeke persuaded them to settle in Abeokuta, where they crowned an Olowu again only in 1855.",
+		"sources": [
+			"wikipedia-owu-kingdom",
+			"wikipedia-abeokuta"
+		],
+		"confidence": "high"
+	},
+	"routes": [
+		{
+			"kind": "advance",
+			"by": "Ijebu",
+			"path": [
+				[
+					3.92,
+					6.82
+				],
+				[
+					3.79,
+					6.87
+				],
+				[
+					4.25,
+					7.46
+				]
+			],
+			"label": "Ijebu armies against Owu",
+			"sources": [
+				"wikipedia-owu-kingdom",
+				"wikipedia-abeokuta"
+			]
+		},
+		{
+			"kind": "advance",
+			"by": "Ife",
+			"path": [
+				[
+					4.56,
+					7.48
+				],
+				[
+					4.25,
+					7.46
+				]
+			],
+			"label": "Ife against Owu",
+			"sources": [
+				"wikipedia-owu-kingdom"
+			]
+		},
+		{
+			"kind": "migration",
+			"by": "Owu",
+			"path": [
+				[
+					4.25,
+					7.46
+				],
+				[
+					3.9,
+					7.39
+				],
+				[
+					3.35,
+					7.15
+				]
+			],
+			"label": "Owu refugees to Abeokuta (c. 1834)",
+			"sources": [
+				"wikipedia-owu-kingdom"
+			],
+			"confidence": "high"
+		}
+	],
+	"moments": [
+		{
+			"when": "c. 1822–1826",
+			"title": "Owu Ipole destroyed",
+			"text": "The fortified city is abandoned; Erunmu falls next.",
+			"at": {
+				"name": "Owu Ipole (approximate)",
+				"point": [
+					4.25,
+					7.46
+				]
+			},
+			"mark": "burned",
+			"sources": [
+				"wikipedia-owu-kingdom",
+				"wikipedia-abeokuta"
+			],
+			"confidence": "high"
+		},
+		{
+			"when": "c. 1829",
+			"title": "The camp at Ibadan",
+			"text": "The victorious armies make Ibadan their headquarters.",
+			"at": {
+				"name": "Ibadan",
+				"point": [
+					3.9,
+					7.39
+				]
+			},
+			"mark": "camp",
+			"sources": [
+				"wikipedia-abeokuta",
+				"wikipedia-ibadan"
+			],
+			"confidence": "high"
+		},
+		{
+			"when": "c. 1834",
+			"title": "Owu at Abeokuta",
+			"text": "Sodeke invites the Owu into Abeokuta.",
+			"at": {
+				"name": "Abeokuta",
+				"point": [
+					3.35,
+					7.15
+				]
+			},
+			"mark": "founded",
+			"sources": [
+				"wikipedia-owu-kingdom"
+			],
+			"confidence": "high"
+		}
+	],
+	"sources": [
+		"wikipedia-owu-kingdom",
+		"wikipedia-abeokuta"
+	],
+	"confidence": "high",
+	"note": "Owu Ipole (Orile Owu) is placed approximately.",
+	"reviewNotes": []
+}

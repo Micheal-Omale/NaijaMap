@@ -1,0 +1,62 @@
+{
+	"name": "The Company’s guns at Idah",
+	"status": "draft",
+	"kind": "colonial",
+	"year": 1896,
+	"yearLabel": "1896–1903",
+	"until": 1906,
+	"actors": [
+		{ "name": "British forces", "side": "colonial" },
+		{ "name": "Igala Kingdom", "polity": "igala", "side": "defender" },
+		{ "name": "Prince Akwu and his followers", "side": "resister" }
+	],
+	"summary": {
+		"text": "The Royal Niger Company, chartered in 1886, set up trading posts at Idah and along the river. Prince Akwu led a guerrilla war against the Company, raiding its stores at Idah several times, and the Company answered by bombarding Idah, twice between 1896 and 1900 by one account. Attah Amaga died in February 1900 and with him Igala’s independence. The British installed Attah Ocheje Onokpa in 1901, then deposed him in 1903 and banished him to Asaba, where he died.",
+		"sources": ["james-2017-igala", "owner-2026-10-07-doc1"],
+		"confidence": "disputed"
+	},
+	"routes": [
+		{ "kind": "advance", "by": "British forces", "path": [[6.7193, 6.2056], [6.75, 6.6], [6.737, 7.117]], "label": "Company gunboats on the Niger" },
+		{ "kind": "exile", "by": "British forces", "path": [[6.737, 7.117], [6.69, 6.6], [6.7193, 6.2056]], "label": "1903: Attah Ocheje Onokpa banished to Asaba" },
+		{ "kind": "exile", "by": "British forces", "path": [[6.737, 7.117], [7.3, 6], [8.32, 4.95]], "label": "1903: Adukwu Okekwu exiled to Old Calabar" }
+	],
+	"moments": [
+		{
+			"when": "1896–1900",
+			"title": "Prince Akwu’s raids",
+			"text": "Akwu and his followers raid the Company’s stores at Idah several times and attack European traders on the river.",
+			"at": { "name": "Idah", "point": [6.737, 7.117] },
+			"mark": "battle"
+		},
+		{
+			"when": "1896–1900",
+			"title": "Idah bombarded",
+			"text": "The Company shells Idah from a vessel on the Niger. Igala memory recalls the palace as the target and the town emptied as people fled inland.",
+			"at": { "name": "Idah", "point": [6.737, 7.117] },
+			"mark": "bombarded",
+			"confidence": "disputed",
+			"sources": ["james-2017-igala", "owner-2026-10-07-doc1"]
+		},
+		{
+			"when": "February 1900",
+			"title": "The end of independence",
+			"text": "Attah Amaga dies. Britain has proclaimed its protectorates the month before, and Igala’s independence ends with him.",
+			"at": { "name": "Idah", "point": [6.737, 7.117] },
+			"mark": "captured"
+		},
+		{
+			"when": "March 1903",
+			"title": "Adukwu Okekwu’s attack",
+			"text": "Adukwu Okekwu attacks the assistant district commissioner, Boyle, and his escort near Alade. He is captured, tried and exiled to Old Calabar, where he dies.",
+			"at": { "name": "Old Calabar (Duke Town)", "point": [8.32, 4.95] },
+			"mark": "exile"
+		}
+	],
+	"sources": ["james-2017-igala", "owner-2026-10-07-doc1"],
+	"confidence": "disputed",
+	"note": "Rests on one Igala history blog and the owner’s notes. The number, dates and targets of the bombardments need a stronger source.",
+	"reviewNotes": [
+		"The owner asked to show when Idah was attacked by the British. Written sources found give only “twice between 1896 and 1900” (James 2017). One web summary lists bombardments in 1822, 1879, 1882, 1896 and 1900, with no source. Which attacks does the owner know of, and from which book, archive or elders?",
+		"The Prince is called Akwu Amaga in one version and Akwu Agahiu in another."
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"name": "The Esan–Nupe war (Egbalukpon Nell)",
+	"status": "draft",
+	"kind": "war",
+	"year": 1894,
+	"yearLabel": "c. 1894–1897",
+	"until": 1897,
+	"actors": [
+		{ "name": "Nupe (Bida emirate)", "polity": "nupe", "side": "attacker" },
+		{ "name": "Akota alliance of Esan kingdoms", "side": "defender", "ink": "#3a6a4a" }
+	],
+	"summary": {
+		"text": "Esan memory calls it Egbalukpon Nell, “the war of the robed ones”. From their base at Agbede in Afenmai, Nupe armies raided into Esanland for slaves and tribute, striking Ewu, Idoa, Uzea and Ukhun. The Esan kingdoms, which usually fought each other, formed the Akota alliance: Ubiaja, Emu, Uromi, Ewohimi, Okhuesan and others. Lying in wait in the forests around Ewohimi and Ehor, they fought the Nupe for three years and drove them back to Agbede, which stayed Muslim.",
+		"sources": ["oriire-2025-esan-nupe"],
+		"confidence": "disputed"
+	},
+	"routes": [
+		{ "kind": "raid", "by": "Nupe (Bida emirate)", "path": [[6.264, 6.864], [6.18, 6.75], [6.323, 6.481]], "label": "From Agbede into Esanland", "note": "Start and end only.", "sources": ["oriire-2025-esan-nupe"], "confidence": "disputed" },
+		{ "kind": "retreat", "by": "Nupe (Bida emirate)", "path": [[6.323, 6.481], [6.264, 6.864]], "label": "Driven back to Agbede", "sources": ["oriire-2025-esan-nupe"], "confidence": "disputed" }
+	],
+	"moments": [
+		{ "when": "c. 1894–1897", "title": "Ambush in the Ewohimi forests", "text": "The Akota alliance fights from the forests around Ewohimi and Ehor.", "at": { "name": "Ewohimi", "point": [6.323, 6.481] }, "mark": "battle", "sources": ["oriire-2025-esan-nupe"], "confidence": "disputed" },
+		{ "when": "c. 1897", "title": "Back to Agbede", "text": "The Nupe withdraw to their base at Agbede.", "at": { "name": "Agbede", "point": [6.264, 6.864] }, "mark": "garrison", "sources": ["oriire-2025-esan-nupe", "idrees-1989-bida"], "confidence": "medium" }
+	],
+	"area": { "lgas": ["edo-esan-south-east", "edo-esan-central", "edo-esan-north-east"], "confidence": "disputed" },
+	"sources": ["oriire-2025-esan-nupe"],
+	"confidence": "disputed",
+	"reviewNotes": ["One popular article, citing 2003 fieldwork and esanland.org, is the only source; an academic account of the Esan–Nupe war is needed. The article's intro speaks of the 16th century but dates the main war to 1894–1897."]
+}

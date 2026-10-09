@@ -1,0 +1,33 @@
+{
+	"name": "The British invade Ijebu",
+	"status": "draft",
+	"kind": "colonial",
+	"year": 1892,
+	"yearLabel": "May 1892",
+	"until": 1900,
+	"actors": [{ "name": "British forces", "side": "colonial" }, { "name": "Ijebu Kingdom", "polity": "ijebu", "side": "defender" }],
+	"summary": {
+		"text": "Ijebu kept the roads from Lagos to the interior closed to free trade and missionaries. In May 1892 a Lagos Colony force with Maxim guns marched in, defeated the Ijebu army at Imagbon and occupied Ijebu-Ode.",
+		"sources": ["wikipedia-anglo-ijebu-war", "ayandele-1992"],
+		"confidence": "high"
+	},
+	"routes": [{ "kind": "advance", "by": "British forces", "path": [[3.394, 6.455], [3.98, 6.58], [3.98, 6.9], [3.92, 6.82]], "label": "The Lagos force marches inland" }],
+	"moments": [
+		{
+			"when": "May 1892",
+			"title": "Imagbon",
+			"text": "The Ijebu army is defeated at the crossing of the Yemoji river.",
+			"at": { "name": "Imagbon (approximate)", "point": [3.98, 6.9] },
+			"mark": "battle"
+		},
+		{
+			"when": "May 1892",
+			"title": "Ijebu-Ode occupied",
+			"text": "The capital is occupied and the roads opened to Lagos trade.",
+			"at": { "name": "Ijebu-Ode", "point": [3.92, 6.82] },
+			"mark": "captured"
+		}
+	],
+	"sources": ["wikipedia-anglo-ijebu-war", "ayandele-1992"],
+	"confidence": "high"
+}

@@ -1,0 +1,161 @@
+{
+	"name": "Amina's campaigns",
+	"status": "draft",
+	"kind": "war",
+	"year": 1576,
+	"yearLabel": "c. 1576–1610 (Zazzau tradition)",
+	"until": 1610,
+	"actors": [
+		{
+			"name": "Zazzau",
+			"polity": "zazzau",
+			"side": "attacker"
+		},
+		{
+			"name": "Nupe",
+			"polity": "nupe",
+			"side": "defender"
+		},
+		{
+			"name": "Kwararafa",
+			"polity": "kwararafa",
+			"side": "defender"
+		}
+	],
+	"summary": {
+		"text": "Amina, daughter of Bakwa Turunku, led Zazzau's army for 34 years. Blocked to the north by Kano and Katsina and to the east by the Jos Plateau, she struck south-east and south-west, through Bauchi to Kwararafa and west to Yauri and Nupe. The king of Nupe sent her 40 eunuchs and 10,000 kola nuts, which tradition says first brought both to Hausaland. Wherever she camped she raised earthen walls, the ganuwar Amina. Sultan Bello, writing around 1812, said her lands reached the Niger and that Kano and Katsina paid her tribute; historians doubt the second claim. She is said to have died in battle at Attaagar, perhaps near Idah, her body never found.",
+		"sources": [
+			"wikipedia-amina-zazzau",
+			"wikipedia-kingdom-of-zazzau"
+		],
+		"confidence": "medium"
+	},
+	"routes": [
+		{
+			"kind": "advance",
+			"by": "Zazzau",
+			"path": [
+				[
+					7.7,
+					11.07
+				],
+				[
+					9.84,
+					10.31
+				],
+				[
+					9.75,
+					8.18
+				]
+			],
+			"label": "South-east through Bauchi to Kwararafa",
+			"note": "Direction only; her routes are not recorded.",
+			"sources": [
+				"wikipedia-amina-zazzau"
+			],
+			"confidence": "disputed"
+		},
+		{
+			"kind": "advance",
+			"by": "Zazzau",
+			"path": [
+				[
+					7.7,
+					11.07
+				],
+				[
+					4.77,
+					10.8
+				]
+			],
+			"label": "West to Yauri",
+			"sources": [
+				"wikipedia-amina-zazzau"
+			],
+			"confidence": "disputed"
+		},
+		{
+			"kind": "advance",
+			"by": "Zazzau",
+			"path": [
+				[
+					7.7,
+					11.07
+				],
+				[
+					5.852,
+					8.938
+				]
+			],
+			"label": "South-west to Nupe",
+			"sources": [
+				"wikipedia-amina-zazzau",
+				"wikipedia-kingdom-of-zazzau"
+			],
+			"confidence": "disputed"
+		},
+		{
+			"kind": "loot",
+			"by": "Nupe",
+			"path": [
+				[
+					5.852,
+					8.938
+				],
+				[
+					7.7,
+					11.07
+				]
+			],
+			"label": "40 eunuchs and 10,000 kola nuts from the Nupe king",
+			"sources": [
+				"wikipedia-amina-zazzau",
+				"wikipedia-kingdom-of-zazzau"
+			],
+			"confidence": "medium"
+		}
+	],
+	"moments": [
+		{
+			"when": "c. 1576",
+			"title": "Three months after her accession",
+			"text": "Amina calls her people to “resharpen their weapons” and sets out.",
+			"at": {
+				"name": "Zaria",
+				"point": [
+					7.7,
+					11.07
+				]
+			},
+			"mark": "camp",
+			"sources": [
+				"wikipedia-amina-zazzau"
+			],
+			"confidence": "disputed"
+		},
+		{
+			"when": "c. 1610",
+			"title": "Death at Attaagar",
+			"text": "By tradition she dies in battle at Attaagar, which Hogben places near Idah; others say Vom near Jos.",
+			"at": {
+				"name": "Attaagar (perhaps near Idah)",
+				"point": [
+					6.74,
+					7.11
+				]
+			},
+			"mark": "battle",
+			"sources": [
+				"wikipedia-amina-zazzau"
+			],
+			"confidence": "disputed"
+		}
+	],
+	"sources": [
+		"wikipedia-amina-zazzau",
+		"wikipedia-kingdom-of-zazzau"
+	],
+	"confidence": "disputed",
+	"note": "Amina is not on the Zaria king lists, and her dates are argued: the Kano Chronicle puts her in the 1420s–30s, Abdullahi Smith after 1576.",
+	"reviewNotes": []
+}

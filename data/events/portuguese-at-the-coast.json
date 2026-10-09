@@ -1,0 +1,94 @@
+{
+	"name": "The Portuguese reach the coast",
+	"status": "draft",
+	"kind": "contact",
+	"year": 1472,
+	"yearLabel": "1472 – early 16th century",
+	"until": 1530,
+	"actors": [
+		{ "name": "Portuguese ships", "side": "european" },
+		{ "name": "Kingdom of Benin", "polity": "benin", "side": "trader" }
+	],
+	"summary": {
+		"text": "The first Europeans to reach the coast of what is now Nigeria were Portuguese sailors. Rui de Sequeira sailed into the Bight of Benin in 1472 and named the lagoon at Eko Lago de Curamo, from which Lagos takes its name. In about 1485 João Afonso de Aveiro came up the creeks to Ughoton, Benin's port, and on to Benin City. Benin and Portugal built a strong trade: the Edo sold ivory, pepper, palm oil and captives for manillas and guns, and in the early 16th century the Oba sent an ambassador to Lisbon while Portugal sent missionaries to Benin City.",
+		"sources": ["wikipedia-kingdom-of-benin", "wikipedia-history-of-lagos", "ebsco-portuguese-foothold", "ryder-1969"],
+		"confidence": "medium",
+		"note": "It is not certain how far the 1472 voyage went; Aveiro's visit of about 1485 (or 1486) is the first documented Portuguese visit to Benin."
+	},
+	"routes": [
+		{
+			"kind": "voyage",
+			"vessel": "sail",
+			"by": "Portuguese ships",
+			"when": "1472",
+			"path": [[0.6, 4.6], [2.2, 5.6], [3.2, 6.15], [3.39, 6.38]],
+			"label": "Rui de Sequeira sails into the Bight of Benin",
+			"sources": ["wikipedia-history-of-lagos", "ebsco-portuguese-foothold"],
+			"confidence": "medium"
+		},
+		{
+			"kind": "voyage",
+			"vessel": "sail",
+			"by": "Portuguese ships",
+			"when": "c. 1485",
+			"path": [[0.4, 4.2], [2.6, 5.3], [4.5, 5.45], [5.08, 5.75], [5.25, 6.05], [5.43, 6.24]],
+			"label": "Aveiro comes up the creeks to Ughoton, Benin's port",
+			"sources": ["wikipedia-kingdom-of-benin", "ryder-1969"],
+			"confidence": "medium"
+		},
+		{
+			"kind": "voyage",
+			"vessel": "sail",
+			"by": "Kingdom of Benin",
+			"when": "Early 16th century",
+			"path": [[5.43, 6.24], [5.08, 5.75], [3.6, 5.2], [0.4, 4.0]],
+			"label": "Benin's ambassador sails for Lisbon",
+			"sources": ["wikipedia-kingdom-of-benin"],
+			"confidence": "medium"
+		}
+	],
+	"moments": [
+		{
+			"when": "1472",
+			"title": "Lago de Curamo",
+			"text": "Rui de Sequeira sails into the Bight of Benin and names the lagoon around Eko Lago de Curamo. The name Lagos is Portuguese for lakes.",
+			"at": { "name": "Eko (Lagos)", "point": [3.394, 6.455] },
+			"mark": "anchor",
+			"sources": ["wikipedia-history-of-lagos", "ebsco-portuguese-foothold"],
+			"confidence": "medium"
+		},
+		{
+			"when": "c. 1485",
+			"title": "Portuguese ships at Ughoton",
+			"text": "João Afonso de Aveiro reaches Ughoton, the port of Benin, and goes on to the Oba's court: the first documented Portuguese visit to Benin.",
+			"at": { "name": "Ughoton (Gwato)", "point": [5.43, 6.24] },
+			"mark": "anchor",
+			"sources": ["wikipedia-kingdom-of-benin", "ebsco-portuguese-foothold", "ryder-1969"],
+			"confidence": "medium"
+		},
+		{
+			"when": "From c. 1485",
+			"title": "Trade with Benin",
+			"text": "The Edo trade ivory, pepper, palm oil and captives for European manillas and guns. Some people in Benin City still spoke a pidgin Portuguese in the late 19th century.",
+			"at": { "name": "Benin City", "point": [5.627, 6.335] },
+			"mark": "treaty",
+			"sources": ["wikipedia-kingdom-of-benin", "ryder-1969"],
+			"confidence": "medium"
+		},
+		{
+			"when": "Early 16th century",
+			"title": "An ambassador to Lisbon",
+			"text": "The Oba sends an ambassador to Lisbon, and the king of Portugal sends Christian missionaries to Benin City.",
+			"at": { "name": "Benin City", "point": [5.627, 6.335] },
+			"mark": "treaty",
+			"sources": ["wikipedia-kingdom-of-benin"],
+			"confidence": "medium"
+		}
+	],
+	"sources": ["wikipedia-kingdom-of-benin", "wikipedia-history-of-lagos", "ebsco-portuguese-foothold", "ryder-1969"],
+	"confidence": "medium",
+	"reviewNotes": [
+		"Sea lanes are drawn, not traced: the ships come in from the west, along the coast from the Portuguese fort at Elmina, but the exact courses are not recorded.",
+		"Ryder (1969) is the standard history of Benin and the Portuguese; the dates here come from the web sources and should be checked against it."
+	]
+}

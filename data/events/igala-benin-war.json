@@ -1,0 +1,214 @@
+{
+	"name": "The Igala–Benin war",
+	"status": "draft",
+	"kind": "war",
+	"year": 1515,
+	"yearLabel": "1515–1516",
+	"until": 1530,
+	"actors": [
+		{
+			"name": "Igala Kingdom",
+			"polity": "igala",
+			"side": "attacker"
+		},
+		{
+			"name": "Kingdom of Benin",
+			"polity": "benin",
+			"side": "defender"
+		},
+		{
+			"name": "Portuguese musketeers",
+			"side": "ally"
+		}
+	],
+	"summary": {
+		"text": "An Igala army crossed the Niger and marched on Benin. Oba Esigie’s whole war council took the field, Queen Mother Idia raised her own troops, and Portuguese musketeers fought on Benin’s side. After about two years the Igala were broken and driven back across the Niger. Benin’s victory checked Igala expansion west of the river for good.",
+		"sources": [
+			"wikipedia-igala-benin-war",
+			"ryder-1969",
+			"egharevba-1968",
+			"shaibu-2024"
+		],
+		"confidence": "medium"
+	},
+	"routes": [
+		{
+			"kind": "advance",
+			"by": "Igala Kingdom",
+			"path": [
+				[
+					6.737,
+					7.117
+				],
+				[
+					6.66,
+					7.08
+				],
+				[
+					6.3,
+					6.75
+				],
+				[
+					5.95,
+					6.45
+				],
+				[
+					5.627,
+					6.335
+				]
+			],
+			"label": "The Igala army crosses the Niger and marches on Benin",
+			"confidence": "disputed",
+			"note": "The route is not recorded; the line joins the crossing opposite Idah to Benin City."
+		},
+		{
+			"kind": "alliance",
+			"by": "Portuguese musketeers",
+			"path": [
+				[
+					5.43,
+					6.24
+				],
+				[
+					5.627,
+					6.335
+				]
+			],
+			"label": "Portuguese musketeers join Oba Esigie’s army"
+		},
+		{
+			"kind": "retreat",
+			"by": "Igala Kingdom",
+			"path": [
+				[
+					5.95,
+					6.5
+				],
+				[
+					6.35,
+					6.85
+				],
+				[
+					6.66,
+					7.08
+				],
+				[
+					6.737,
+					7.117
+				]
+			],
+			"label": "Driven back across the Niger"
+		}
+	],
+	"moments": [
+		{
+			"when": "1515",
+			"title": "The Attah musters the kingdom",
+			"text": "Every part of the kingdom sends fighters and food; women sworn to the army cook for the warriors. Igala tradition remembers the cause as an insult at court; Benin’s historian Egharevba tells of a noble, the Oliha, who set the two kings against each other.",
+			"at": {
+				"name": "Idah",
+				"point": [
+					6.737,
+					7.117
+				]
+			},
+			"mark": "camp",
+			"sources": [
+				"shaibu-2024",
+				"egharevba-1968"
+			]
+		},
+		{
+			"when": "1515",
+			"title": "Benin takes the field",
+			"text": "The danger is so great that Benin’s war council goes out together. Queen Mother Idia raises troops of her own, and Oba Esigie hires Portuguese musketeers.",
+			"at": {
+				"name": "Benin City",
+				"point": [
+					5.627,
+					6.335
+				]
+			},
+			"mark": "camp",
+			"sources": [
+				"wikipedia-igala-benin-war",
+				"ryder-1969"
+			]
+		},
+		{
+			"when": "1516",
+			"title": "The Igala broken",
+			"text": "A servant of Idia kills the Igala general, and Benin’s archers and Portuguese guns break the advance. The war drums the Igala left behind are, the Attah says, still kept in Benin. The battlefield itself is not recorded.",
+			"mark": "battle",
+			"sources": [
+				"wikipedia-igala-benin-war",
+				"shaibu-2024"
+			]
+		},
+		{
+			"when": "After the war",
+			"title": "Survivors in the marshes",
+			"text": "Tradition says survivors who dared not face the Attah settled the marshy riverbanks south of Idah, and that their descendants are the Ibaji, the people of the riverside.",
+			"at": {
+				"name": "Ibaji marshes, south of Idah (approximate)",
+				"point": [
+					6.78,
+					6.93
+				]
+			},
+			"mark": "flight",
+			"confidence": "disputed",
+			"sources": [
+				"shaibu-2024"
+			]
+		},
+		{
+			"when": "After the war",
+			"title": "Benin takes the bank opposite Idah",
+			"text": "Agenebode, across the Niger from Idah, was Igala land before the war and through it, on the owner’s account: it was lost only when the Igala army, after two years of pushing into northern Benin territory, was driven back across the river. Benin tradition remembers founding it as a garrison: its name is read as Edo Ago-ni-ba-ode, “camp of the guard”, and Okwoli and Omachi (cited by Shaibu) say towns such as Agenebode grew up under Benin to check further Igala crossings. The owner’s notes also record Agenebode paying allegiance to Igala at other times; the frontier changed hands.",
+			"at": {
+				"name": "Agenebode",
+				"point": [
+					6.6908,
+					7.1155
+				]
+			},
+			"mark": "garrison",
+			"confidence": "disputed",
+			"sources": [
+				"owner-2026-10-08-agenebode",
+				"owner-2026-10-07-agenebode",
+				"wikipedia-agenebode",
+				"shaibu-2024",
+				"owner-2026-10-07-doc1"
+			]
+		},
+		{
+			"when": "1515–1516",
+			"title": "A war camp at Igueben",
+			"text": "By Christopher Okojie's account, Igueben in Esanland grew around a camp set up during the war.",
+			"at": {
+				"name": "Igueben",
+				"point": [
+					6.236,
+					6.603
+				]
+			},
+			"mark": "camp",
+			"sources": [
+				"wikipedia-igueben"
+			],
+			"confidence": "medium"
+		}
+	],
+	"sources": [
+		"wikipedia-igala-benin-war",
+		"ryder-1969",
+		"egharevba-1968",
+		"shaibu-2024",
+		"yusufu-2020",
+		"wikipedia-igueben"
+	],
+	"confidence": "medium",
+	"note": "The war’s length and the Portuguese part rest on a letter of Duarte Pacheco Pereira, as cited by Wikipedia. Shaibu dates the conflict 1515–1556 in a heading but 1515–1516 in the text."
+}

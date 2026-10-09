@@ -1,6 +1,44 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Yauri",
+			"lga": "kebbi-yauri",
+			"villages": [],
+			"sources": [
+				"wikipedia-yauri-emirate"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Yauri was first settled around 1000–1200 by an eastern group, mainly the Kambari, who drew later migrants with the fertile river land; Songhai briefly invaded it.",
+				"sources": [
+					"wikipedia-yauri-emirate"
+				],
+				"confidence": "medium"
+			}
+		},
+		{
+			"name": "Kontagora",
+			"lga": "niger-kontagora",
+			"point": [
+				5.463,
+				10.375
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-kontagora",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Umaru Nagwamatse founded Kontagora in 1864 on land conquered from the Kambari; under his son Ibrahim (from 1880) the emirate's slave raids left the country badly under-populated and dotted with abandoned villages.",
+				"sources": [
+					"wikipedia-kontagora"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [
 		"Wikipedia says some Kambari also live in Zamfara State; no LGA named yet.",
 		"The Mashegu LGA page of the Niger State Local Government Service Commission lists Kambari first among its peoples; the page was offline when checked."

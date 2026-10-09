@@ -5,7 +5,7 @@
 	"otherNames": [],
 	"span": {
 		"from": 1869,
-		"to": 1887,
+		"to": 1891,
 		"sources": [
 			"wikipedia-opobo",
 			"dike-1956"
@@ -14,10 +14,9 @@
 	},
 	"peak": 1880,
 	"summary": {
-		"text": "Founded by Jaja, a former slave who rose to head a Bonny trading house, after he broke with Bonny in 1869. Sitting at the mouth of the Imo river, Opobo took over the palm-oil markets of the hinterland, and Jaja dealt with European firms on his own terms until the British consul deported him in 1887.",
+		"text": "Opobo was founded in 1869 by Jaja (Jubo Jubogha), an Igbo-born former slave who had risen to head Bonny's Anna Pepple house, after his house lost a war with Oko Jumbo's Manilla Pepple house. Settling 26 miles east of Bonny, astride the Imo river trade, he shut out European and African middlemen and by 1870 sold 8,000 tons of palm oil a year directly to the British, shipping some straight to Liverpool. He schooled his children in Glasgow and kept missionaries out. When he refused to stop taxing British traders, Vice-Consul Harry Johnston lured him aboard a ship in 1887, and he died in 1891 on his way home from exile.",
 		"sources": [
-			"wikipedia-opobo",
-			"dike-1956"
+			"wikipedia-jaja-of-opobo"
 		],
 		"confidence": "high"
 	},
@@ -35,7 +34,7 @@
 		{
 			"year": 1869,
 			"title": "Jaja founds Opobo",
-			"text": "Jaja leads fourteen Bonny houses to a new site at the mouth of the Imo river and names it Opobo.",
+			"text": "Kidnapped as a boy in Igboland, perhaps by Aro traders, and sold in Bonny, Jaja buys his way to freedom, takes over his late master's trade and makes the Anna Pepple house the strongest in Bonny. After the 1869 battle with Oko Jumbo's house he leads his followers 26 miles east and founds Opobo, ritually adopted as an Ijaw king.",
 			"capital": {
 				"name": "Opobo",
 				"point": [
@@ -59,11 +58,27 @@
 						]
 					},
 					"label": "Break with Bonny"
+				},
+				{
+					"kind": "descent",
+					"to": {
+						"name": "Arochukwu",
+						"point": [
+							7.91,
+							5.39
+						]
+					},
+					"label": "Jaja, kidnapped from Igboland, perhaps by the Aro",
+					"sources": [
+						"wikipedia-jaja-of-opobo"
+					],
+					"confidence": "disputed"
 				}
 			],
 			"sources": [
 				"wikipedia-opobo",
-				"dike-1956"
+				"dike-1956",
+				"wikipedia-jaja-of-opobo"
 			],
 			"confidence": "high"
 		},
@@ -71,7 +86,7 @@
 			"year": 1880,
 			"yearLabel": "1873–1887",
 			"title": "Master of the Imo river",
-			"text": "Recognised by Britain in 1873, Opobo controls the palm-oil markets up the Imo river at Essene, Azumini and Akwete, and Jaja ships oil directly to Britain.",
+			"text": "Jaja bars European and African middlemen from the Imo markets and by 1870 sells 8,000 tons of palm oil a year directly to the British; some goes straight to Liverpool. He sends his children to school in Glasgow, staffs a secular school with whites, and keeps missionaries out. His son Prince Waribo dies at school in Frodsham, Cheshire, in 1882.",
 			"capital": {
 				"name": "Opobo",
 				"point": [
@@ -128,18 +143,35 @@
 						]
 					},
 					"label": "Akwete"
+				},
+				{
+					"kind": "trade",
+					"to": {
+						"name": "Liverpool (across the sea)",
+						"point": [
+							-3,
+							8
+						]
+					},
+					"label": "Palm oil shipped direct to Liverpool",
+					"sources": [
+						"wikipedia-jaja-of-opobo"
+					],
+					"confidence": "high",
+					"note": "The point marks the edge of the map."
 				}
 			],
 			"sources": [
 				"wikipedia-opobo",
-				"dike-1956"
+				"dike-1956",
+				"wikipedia-jaja-of-opobo"
 			],
 			"confidence": "medium"
 		},
 		{
 			"year": 1887,
 			"title": "Jaja deported",
-			"text": "Consul Harry Johnston lures Jaja onto a ship and deports him for trying to keep his monopoly. He dies in exile in 1891.",
+			"text": "The 1884 Berlin conference counts Opobo as British. When Jaja will not stop taxing British traders, Vice-Consul Harry Johnston invites him to talks in 1887 and seizes him on board ship. He is tried in Accra and exiled to London, Saint Vincent and Barbados, where his treatment stirs unrest. Allowed home in 1891, he dies on the way, and Opobo's power fades.",
 			"capital": {
 				"name": "Opobo",
 				"point": [
@@ -153,9 +185,27 @@
 				]
 			},
 			"sources": [
-				"wikipedia-opobo"
+				"wikipedia-opobo",
+				"wikipedia-jaja-of-opobo"
 			],
-			"confidence": "high"
+			"confidence": "high",
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Accra",
+						"point": [
+							-0.19,
+							5.6
+						]
+					},
+					"label": "Jaja tried in Accra and exiled",
+					"sources": [
+						"wikipedia-jaja-of-opobo"
+					],
+					"confidence": "high"
+				}
+			]
 		}
 	],
 	"today": {

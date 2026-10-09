@@ -1,0 +1,92 @@
+{
+	"name": "Igbo village groups",
+	"status": "draft",
+	"groups": [
+		"igbo"
+	],
+	"rule": "assemblies",
+	"span": {
+		"from": 1000,
+		"to": 1902,
+		"fromLabel": "before written records",
+		"toLabel": "1901–1902",
+		"sources": [
+			"wikipedia-igbo-people",
+			"wikipedia-anglo-aro-war"
+		],
+		"confidence": "high",
+		"note": "The start of the timeline, not a founding date: royal burials at Igbo-Ukwu go back to at least the 10th century."
+	},
+	"summary": {
+		"text": "Most Igbo towns had no king. Each village group was governed by an assembly of its people and a council of elders, with the heads of each lineage (umunna) and title holders such as the Ozo, who were respected but not obeyed as kings. Onitsha had its Obi, and Nri and Arochukwu their priest-kings, but they were exceptions; the Eze Nri’s ritual authority was honoured far beyond Nri itself.",
+		"sources": [
+			"wikipedia-igbo-people"
+		],
+		"confidence": "high"
+	},
+	"end": {
+		"text": "The British Aro Expedition of 1901–1902 broke the Aro network and opened the interior. Igbo towns went on resisting for years: Afikpo in 1902–1903, Ezza in 1905, Nri until 1911, and the Ekumeku west of the Niger until 1914.",
+		"sources": [
+			"wikipedia-anglo-aro-war"
+		],
+		"confidence": "high"
+	},
+	"lands": [
+		{
+			"from": 1000,
+			"label": "Igbo",
+			"lgas": [
+				"imo-owerri-north",
+				"imo-owerri-west",
+				"imo-owerri-municipal",
+				"imo-mbatoli",
+				"imo-ikeduru",
+				"imo-aboh-mbaise",
+				"imo-ahiazu-mbaise",
+				"imo-ezinihitte",
+				"imo-ngor-okpala",
+				"imo-obowo",
+				"imo-ihitte-uboma"
+			]
+		},
+		{
+			"from": 1000,
+			"label": "Igbo",
+			"lgas": [
+				"abia-isiala-ngwa-north",
+				"abia-isiala-ngwa-south",
+				"abia-osisioma-ngwa",
+				"abia-obi-nwga",
+				"abia-ugwunagbo",
+				"abia-umuahia-south",
+				"abia-ikwuano"
+			]
+		},
+		{
+			"from": 1000,
+			"label": "Igbo",
+			"lgas": [
+				"enugu-nsukka",
+				"enugu-igbo-eze-south",
+				"enugu-udenu",
+				"enugu-isi-uzo",
+				"enugu-uzo-uwani",
+				"enugu-igbo-etiti"
+			]
+		},
+		{
+			"from": 1000,
+			"label": "Igbo",
+			"lgas": [
+				"ebonyi-abakaliki",
+				"ebonyi-ezza-north",
+				"ebonyi-ezza-south",
+				"ebonyi-ikwo",
+				"ebonyi-izzi",
+				"ebonyi-ohaukwu",
+				"ebonyi-ebonyi"
+			]
+		}
+	],
+	"reviewNotes": []
+}

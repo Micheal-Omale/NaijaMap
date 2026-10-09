@@ -1,6 +1,29 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Karim Lamido",
+			"lga": "taraba-karim-lamido",
+			"point": [
+				11.198,
+				9.315
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-karim-lamido",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "The Karimjo (Kiyu) live in and around Karim Lamido town. They and the Wurkun are rivals for the chieftaincy; 16 people died in clashes between them in May 2023.",
+				"sources": [
+					"wikipedia-karim-lamido",
+					"dailytrust-2023-karim-lamido"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Karimjo (Kiyu)",
 	"searchAliases": [

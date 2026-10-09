@@ -1,0 +1,27 @@
+{
+	"name": "Keana",
+	"status": "draft",
+	"otherNames": [],
+	"point": [8.834, 8.217],
+	"founded": { "year": 1200, "yearLabel": "12th century (tradition)", "sources": ["wikipedia-keana"], "confidence": "disputed" },
+	"summary": {
+		"text": "Keana, home of the Benue valley's salt, is one of the main Alago towns. Tradition says Akyana Adi founded it in the 12th century, and the Alago trace their migration to Kwararafa. Its brine flats, with those of Awe and Arufu, were the salt that made Kwararafa rich. The Osana of Keana is one of the three great Alago kings, with the Andoma of Doma and the Osuko of Obi.",
+		"sources": ["wikipedia-keana", "wikipedia-doma", "wikipedia-kwararafa"],
+		"confidence": "medium"
+	},
+	"founders": [
+		{
+			"people": "Alago",
+			"group": "alago",
+			"polity": "kwararafa",
+			"from": { "name": "Kwararafa (Biepi)", "point": [9.75, 8.18] },
+			"text": "Akyana Adi and the Alago, who trace their origin to Kwararafa.",
+			"sources": ["wikipedia-keana", "wikipedia-doma"],
+			"confidence": "medium"
+		}
+	],
+	"under": [
+		{ "polity": "kwararafa", "from": 1500, "to": 1780, "kind": "ruled", "text": "The salt of Keana was part of Kwararafa's core wealth.", "sources": ["wikipedia-kwararafa"], "confidence": "medium" }
+	],
+	"reviewNotes": ["A 12th-century founding by people from Kwararafa sits uneasily with Kwararafa's own dates; the founding year is the town's tradition."]
+}

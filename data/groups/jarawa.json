@@ -1,6 +1,23 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Jarawa of Kanam",
+			"lga": "plateau-kanam",
+			"villages": [],
+			"sources": [
+				"wikipedia-kanam"
+			],
+			"confidence": "medium",
+			"history": {
+				"text": "Jarawa is spoken in Kanam LGA beside Boghom.",
+				"sources": [
+					"wikipedia-kanam"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Jarawa (Jhar)",
 	"searchAliases": [

@@ -1,6 +1,42 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Pankshin",
+			"lga": "plateau-pankshin",
+			"villages": [
+				{
+					"name": "Ampang"
+				},
+				{
+					"name": "Amper"
+				},
+				{
+					"name": "Kabwir"
+				}
+			],
+			"sources": [
+				"wikipedia-pankshin",
+				"wikipedia-ngas-people"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Predominantly Ngas and Mupun, with Miship, Fier, Tal, Kadung, Pal and Bijim; the Ngas groups settled at Pankshin, Ampang, Amper and Kabwir. Many Pankshin people migrated over a century ago to Shendam, Gindiri, Mangu, Bokkos and further afield for farmland. The Ngas festival Pusdung is held here.",
+				"sources": [
+					"wikipedia-pankshin",
+					"wikipedia-ngas-people"
+				],
+				"confidence": "high"
+			},
+			"livelihoods": {
+				"text": "Farming (millet, guinea corn, maize, tomatoes, rice, onions, vegetables) and the Monday market.",
+				"sources": [
+					"wikipedia-pankshin"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Ngas",
 	"searchAliases": [

@@ -1,0 +1,163 @@
+{
+	"status": "draft",
+	"of": "polity",
+	"terrain": "savanna",
+	"summary": {
+		"text": "The caliphate was a federation of emirates, each with its own army, joined by allegiance to the Sultan. Fulani and Hausa horsemen and infantry fought the jihad, and walled ribats held its frontiers. Its cavalry stopped where the forest began: Ibadan beat it at Osogbo in 1840.",
+		"sources": [
+			"wikipedia-sokoto-caliphate",
+			"last-1967",
+			"wikipedia-ibadan"
+		],
+		"confidence": "high"
+	},
+	"arms": [
+		{
+			"kind": "cavalry",
+			"level": 3,
+			"from": 1808,
+			"text": "Mounted armies, more of them as the emirates grew.",
+			"sources": [
+				"last-1967",
+				"law-1980-horse",
+				"wikipedia-sokoto-caliphate"
+			],
+			"confidence": "high"
+		},
+		{
+			"kind": "cavalry",
+			"level": 1,
+			"from": 1804,
+			"to": 1807,
+			"text": "The first jihad armies were mostly foot soldiers and archers.",
+			"sources": [
+				"wikipedia-fulani-war",
+				"last-1967"
+			],
+			"confidence": "medium"
+		},
+		{
+			"kind": "archers",
+			"level": 2,
+			"from": 1804,
+			"to": 1830,
+			"text": "Fulani bowmen were a main arm of the early jihad.",
+			"sources": [
+				"wikipedia-fulani-war",
+				"smith-1989-warfare"
+			],
+			"confidence": "medium"
+		},
+		{
+			"kind": "allies",
+			"level": 3,
+			"from": 1812,
+			"text": "Some thirty emirates owed the Sultan men and tribute.",
+			"sources": [
+				"wikipedia-sokoto-caliphate",
+				"last-1967"
+			],
+			"confidence": "high"
+		},
+		{
+			"kind": "walls",
+			"level": 2,
+			"from": 1812,
+			"text": "Walled towns and frontier ribats held the borders.",
+			"sources": [
+				"last-1967",
+				"wikipedia-sokoto-caliphate"
+			],
+			"confidence": "medium"
+		},
+		{
+			"kind": "firearms",
+			"level": 1,
+			"from": 1850,
+			"text": "A few guns and gunmen late in the century.",
+			"sources": [
+				"smith-1989-warfare",
+				"adeleye-1971"
+			],
+			"confidence": "medium"
+		}
+	],
+	"record": [
+		{
+			"year": 1804,
+			"polity": "gobir",
+			"event": "fulani-jihad",
+			"against": "Gobir",
+			"result": "won",
+			"text": "At Tabkin Kwotto a small jihad army routed Gobir’s.",
+			"sources": [
+				"wikipedia-fulani-war"
+			],
+			"confidence": "high"
+		},
+		{
+			"year": 1808,
+			"polity": "gobir",
+			"event": "fulani-jihad",
+			"against": "Gobir",
+			"result": "won",
+			"text": "The jihad took Alkalawa, Gobir’s capital, and killed its king.",
+			"sources": [
+				"wikipedia-fulani-war",
+				"wikipedia-alkalawa"
+			],
+			"confidence": "high"
+		},
+		{
+			"year": 1808,
+			"polity": "kanem-bornu",
+			"against": "Kanem-Bornu",
+			"result": "won",
+			"text": "Jihadists captured and destroyed Ngazargamu, though al-Kanemi saved Borno itself.",
+			"sources": [
+				"wikipedia-kanem-bornu"
+			],
+			"confidence": "high"
+		},
+		{
+			"year": 1836,
+			"yearLabel": "c. 1836",
+			"polity": "oyo",
+			"event": "fall-of-oyo",
+			"against": "Oyo",
+			"result": "won",
+			"text": "Ilorin, an emirate of the caliphate, destroyed Oyo-Ile.",
+			"sources": [
+				"law-1977",
+				"johnson-1921"
+			],
+			"confidence": "high"
+		},
+		{
+			"year": 1840,
+			"polity": "ibadan",
+			"against": "Ibadan",
+			"result": "lost",
+			"text": "At Osogbo Ibadan’s army decisively beat the jihad’s push into the Yoruba forest.",
+			"sources": [
+				"wikipedia-ibadan"
+			],
+			"confidence": "high"
+		},
+		{
+			"year": 1903,
+			"event": "sokoto-1903",
+			"against": "British",
+			"result": "lost",
+			"text": "British forces took Kano and Sokoto.",
+			"sources": [
+				"wikipedia-battle-of-sokoto",
+				"last-1967"
+			],
+			"confidence": "high"
+		}
+	],
+	"reviewNotes": [
+		"Arms levels (1 some, 2 a real strength, 3 famous for it) are the compiler’s judgement from the sources, for the Versus page’s guess; please check them."
+	]
+}

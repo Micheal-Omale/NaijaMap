@@ -1,0 +1,130 @@
+{
+	"status": "draft",
+	"of": "polity",
+	"terrain": "river",
+	"summary": {
+		"text": "The Igala held the Niger–Benue confluence and the crossings of the lower Niger. Their armies fought on foot with spears, swords and bows, and crossed the Niger to invade Benin in 1515. The Attah also ruled through awe: he crowned rulers from Nsukka to the Niger.",
+		"sources": [
+			"shaibu-2024",
+			"wikipedia-igala-kingdom",
+			"wikipedia-igala-benin-war"
+		],
+		"confidence": "medium"
+	},
+	"arms": [
+		{
+			"kind": "archers",
+			"level": 2,
+			"text": "Spears, swords and bows were the arms of Igala armies before guns.",
+			"sources": [
+				"shaibu-2024"
+			],
+			"confidence": "medium"
+		},
+		{
+			"kind": "canoes",
+			"level": 2,
+			"text": "The Igala held the Niger crossings below the confluence; an army crossed the river to invade Benin.",
+			"sources": [
+				"wikipedia-igala-benin-war",
+				"shaibu-2024"
+			],
+			"confidence": "medium"
+		},
+		{
+			"kind": "allies",
+			"level": 2,
+			"from": 1700,
+			"text": "Vassals and crowned rulers from Panda and Igu to the northern Igbo towns.",
+			"sources": [
+				"lasttribes-igala",
+				"igala-colonisation-northern-igbo"
+			],
+			"confidence": "medium"
+		},
+		{
+			"kind": "ritual",
+			"level": 2,
+			"from": 1630,
+			"text": "The Attah’s sacred kingship: rulers far beyond Idah sought his crown.",
+			"sources": [
+				"igala-colonisation-northern-igbo",
+				"wikipedia-igala-kingdom"
+			],
+			"confidence": "medium"
+		},
+		{
+			"kind": "firearms",
+			"level": 1,
+			"from": 1800,
+			"text": "Guns came late, through the river trade of the 19th century.",
+			"sources": [
+				"shaibu-2024"
+			],
+			"confidence": "medium"
+		}
+	],
+	"record": [
+		{
+			"year": 1517,
+			"yearLabel": "1515–1517",
+			"polity": "benin",
+			"event": "igala-benin-war",
+			"against": "Benin",
+			"result": "lost",
+			"text": "The invasion of Benin came close to the city but was driven back across the Niger.",
+			"sources": [
+				"wikipedia-igala-benin-war",
+				"shaibu-2024"
+			],
+			"confidence": "high"
+		},
+		{
+			"year": 1700,
+			"yearLabel": "c. 1700",
+			"polity": "kwararafa",
+			"event": "igala-jukun-war",
+			"against": "Kwararafa (the Jukun)",
+			"result": "won",
+			"text": "Attah Ayegba refused the tribute; the Jukun army that came to enforce it was beaten, and Idah was free of Wukari.",
+			"sources": [
+				"shaibu-2024",
+				"yusufu-2020",
+				"boston-1968"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1834,
+			"yearLabel": "1830s",
+			"polity": "sokoto",
+			"event": "igu-victory",
+			"against": "Fulani forces of the caliphate",
+			"result": "held",
+			"text": "Igala tradition and one Igala writer tell of a victory at Igu (Koton Karfe) that stopped the jihad’s advance.",
+			"sources": [
+				"ayegba-2020-summit",
+				"abbah-2018-igala-fulani",
+				"owner-2026-10-07-igu"
+			],
+			"confidence": "disputed"
+		},
+		{
+			"year": 1860,
+			"yearLabel": "mid 19th century",
+			"polity": "nupe",
+			"event": "nupe-raids-confluence",
+			"against": "Nupe",
+			"result": "lost",
+			"text": "Nupe raids took the confluence lands from Igala rule in the mid 19th century.",
+			"sources": [
+				"james-2017-igala",
+				"lasttribes-igala"
+			],
+			"confidence": "medium"
+		}
+	],
+	"reviewNotes": [
+		"Arms levels (1 some, 2 a real strength, 3 famous for it) are the compiler’s judgement from the sources, for the Versus page’s guess; please check them."
+	]
+}

@@ -1,0 +1,109 @@
+{
+	"name": "Kebbi against Gwandu",
+	"status": "draft",
+	"kind": "war",
+	"year": 1849,
+	"yearLabel": "1849–1903",
+	"until": 1903,
+	"actors": [
+		{
+			"name": "Kebbi (Argungu)",
+			"polity": "kebbi",
+			"side": "resister"
+		},
+		{
+			"name": "Gwandu and Sokoto",
+			"polity": "sokoto",
+			"side": "attacker"
+		}
+	],
+	"summary": {
+		"text": "In 1849 Yakubu Nabame, allowed home to Argungu as a vassal after sixteen years' exile in Sokoto, renounced his allegiance and proclaimed himself Sarkin Kebbi. Sokoto besieged Argungu and failed. The war ran on for half a century as Kebbi lay like a wedge between Sokoto and Gwandu: Yakubu's brother Yusufu Mainasara died in battle in the dry Rima floodplain in 1859, and Gwandu's emir Haliru was killed at Karakara in 1860. The Fulani recognised Kebbi's independence by treaty in 1867; war broke out again in 1875 when Fanna went over to Gwandu, and Sama'ila of Kebbi won a string of victories from 1883 until the British ended the fighting.",
+		"sources": [
+			"wikipedia-kebbi-kingdom"
+		],
+		"confidence": "high"
+	},
+	"routes": [
+		{
+			"kind": "advance",
+			"by": "Gwandu and Sokoto",
+			"path": [
+				[
+					5.24,
+					13.06
+				],
+				[
+					4.53,
+					12.74
+				]
+			],
+			"label": "Sokoto besieges Argungu",
+			"sources": [
+				"wikipedia-kebbi-kingdom"
+			]
+		}
+	],
+	"moments": [
+		{
+			"when": "1849",
+			"title": "Kebbi independent again",
+			"text": "Yakubu Nabame proclaims himself Sarkin Kebbi at Argungu.",
+			"at": {
+				"name": "Argungu",
+				"point": [
+					4.53,
+					12.74
+				]
+			},
+			"mark": "founded",
+			"sources": [
+				"wikipedia-kebbi-kingdom"
+			],
+			"confidence": "high"
+		},
+		{
+			"when": "1859",
+			"title": "Mainasara falls",
+			"text": "Sarkin Kebbi Yusufu Mainasara is killed in the Rima floodplain.",
+			"mark": "battle",
+			"sources": [
+				"wikipedia-kebbi-kingdom"
+			],
+			"confidence": "high"
+		},
+		{
+			"when": "1860",
+			"title": "Karakara",
+			"text": "Haliru, emir of Gwandu, is killed in battle.",
+			"mark": "battle",
+			"sources": [
+				"wikipedia-kebbi-kingdom"
+			],
+			"confidence": "high"
+		},
+		{
+			"when": "1867",
+			"title": "Treaty",
+			"text": "The Fulani recognise Kebbi's independence.",
+			"at": {
+				"name": "Argungu",
+				"point": [
+					4.53,
+					12.74
+				]
+			},
+			"mark": "treaty",
+			"sources": [
+				"wikipedia-kebbi-kingdom"
+			],
+			"confidence": "high"
+		}
+	],
+	"sources": [
+		"wikipedia-kebbi-kingdom"
+	],
+	"confidence": "high",
+	"note": "Karakara and Fanna are not located.",
+	"reviewNotes": []
+}

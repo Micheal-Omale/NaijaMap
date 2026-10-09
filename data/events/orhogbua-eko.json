@@ -1,0 +1,40 @@
+{
+	"name": "Benin’s war camp at Eko",
+	"status": "draft",
+	"kind": "war",
+	"year": 1550,
+	"yearLabel": "c. 1550–1578",
+	"until": 1600,
+	"actors": [{ "name": "Kingdom of Benin", "polity": "benin", "side": "attacker" }, { "name": "Awori of the island", "side": "defender" }],
+	"summary": {
+		"text": "Oba Orhogbua carried Benin’s wars west along the lagoons and made the Awori island a Benin war camp, Eko. Ashipa, remembered in Benin as Orhogbua’s son or grandson, became its first ruler, founding the dynasty whose Obas still reign in Lagos. Lagos paid tribute to Benin until about 1830.",
+		"sources": ["wikipedia-orhogbua", "wikipedia-history-of-lagos", "ryder-1969"],
+		"confidence": "medium"
+	},
+	"routes": [
+		{
+			"kind": "advance",
+			"by": "Kingdom of Benin",
+			"path": [[5.627, 6.335], [5.43, 6.24], [4.8, 6.15], [4.1, 6.38], [3.394, 6.455]],
+			"label": "Orhogbua’s war canoes go west along the lagoons"
+		}
+	],
+	"moments": [
+		{
+			"when": "c. 1550s",
+			"title": "The war camp",
+			"text": "The Benin army camps on the island. Benin tradition takes the name Eko from the Edo for a war camp.",
+			"at": { "name": "Eko (Lagos Island)", "point": [3.394, 6.455] },
+			"mark": "camp"
+		},
+		{
+			"when": "Late 16th century",
+			"title": "Ashipa, first ruler of Lagos",
+			"text": "Ashipa is installed, and Edo chiefs found the lineages that serve the new court. The tribute to Benin lasts until about 1830.",
+			"at": { "name": "Eko (Lagos Island)", "point": [3.394, 6.455] },
+			"mark": "founded"
+		}
+	],
+	"sources": ["wikipedia-orhogbua", "wikipedia-history-of-lagos", "ryder-1969", "owner-2026-10-07-doc1"],
+	"confidence": "medium"
+}

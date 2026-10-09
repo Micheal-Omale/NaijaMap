@@ -1,0 +1,44 @@
+{
+	"name": "Tsoede goes up the Niger",
+	"status": "draft",
+	"kind": "migration",
+	"year": 1531,
+	"yearLabel": "c. 1531 (tradition)",
+	"until": 1560,
+	"actors": [{ "name": "Tsoede (Edegi)", "polity": "nupe", "side": "migrant" }, { "name": "Igala Kingdom", "polity": "igala", "side": "origin" }],
+	"summary": {
+		"text": "Nupe tradition makes Tsoede (Edegi) a son of an Attah of Idah and a Nupe mother. Threatened at the Igala court, he escaped up the Niger with regalia from Idah, bronze figures, chains and drums, and united the Nupe chiefdoms into one kingdom with its capital at Gbara.",
+		"sources": ["nadel-1942", "wikipedia-tsoede", "lasttribes-igala"],
+		"confidence": "medium"
+	},
+	"routes": [
+		{
+			"kind": "migration",
+			"by": "Tsoede (Edegi)",
+			"path": [[6.737, 7.117], [6.71, 7.45], [6.74, 7.8], [6.45, 8.45], [6.05, 8.9]],
+			"label": "Tsoede’s flight up the Niger, in tradition by bronze canoe"
+		}
+	],
+	"moments": [
+		{
+			"when": "c. 1531",
+			"title": "Tsoede leaves Idah",
+			"text": "Raised at the Attah’s court, Tsoede flees upriver when his half-brothers turn against him, taking regalia that the Nupe still treat as sacred.",
+			"at": { "name": "Idah", "point": [6.737, 7.117] },
+			"mark": "flight"
+		},
+		{
+			"when": "c. 1531",
+			"title": "The Nupe kingdom founded",
+			"text": "At Gbara (Nupeko) he unites the Nupe chiefdoms under one king, the Etsu. Tradition credits him with bringing kingship and bronze casting from Idah.",
+			"at": { "name": "Gbara (Nupe court)", "point": [6.05, 8.9] },
+			"mark": "founded"
+		}
+	],
+	"sources": ["nadel-1942", "wikipedia-tsoede", "lasttribes-igala", "owner-2026-10-07-doc1"],
+	"confidence": "medium",
+	"note": "A founding tradition. Nupe king lists give 1531 for Tsoede; other writers place him in the 15th century.",
+	"reviewNotes": [
+		"The Nupe polity file starts its story with Tsoede in 1450, while this event follows the king-list date of 1531. One of the two should change once the owner chooses a chronology."
+	]
+}

@@ -1,6 +1,47 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Billiri (Tangle)",
+			"lga": "gombe-billiri",
+			"point": [
+				11.22,
+				9.87
+			],
+			"villages": [
+				{
+					"name": "Bare"
+				},
+				{
+					"name": "Kantali"
+				}
+			],
+			"sources": [
+				"wikipedia-billiri"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "The main settlement of the Tangale, who say they came here through Borno, leaving Sanum Kede and Kupto because of wars; Billiri, Bare and Kantali belong to Tangaltong, one of the seven Tangale clans.",
+				"sources": [
+					"wikipedia-billiri"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Kaltungo",
+			"lga": "gombe-kaltungo",
+			"point": [
+				11.309,
+				9.814
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-kaltungo"
+			],
+			"confidence": "medium"
+		}
+	],
 	"reviewNotes": [],
 	"name": "Tangale",
 	"searchAliases": [

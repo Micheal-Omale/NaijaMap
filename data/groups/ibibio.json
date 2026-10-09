@@ -1,6 +1,119 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Ikono (Ntippe Ibibio)",
+			"lga": "akwa-ibom-ikono",
+			"villages": [],
+			"sources": [
+				"wikipedia-ikono"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Known as the cradle of the Ibibio people, Ntippe Ibibio; Ibibio tradition says the dispersal after the move south began from Ikono.",
+				"sources": [
+					"wikipedia-ikono",
+					"wikipedia-ibibio"
+				],
+				"confidence": "medium"
+			},
+			"livelihoods": {
+				"text": "Farming, fishing, cottage crafts at Mbiabong Ikon and Mbiabong Ukan, lumbering, and the Fiongaran market.",
+				"sources": [
+					"wikipedia-ikono"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Etinan (Iman Ibom)",
+			"lga": "akwa-ibom-etinan",
+			"point": [
+				7.853,
+				4.836
+			],
+			"villages": [
+				{
+					"name": "Mbioto"
+				},
+				{
+					"name": "Ikot Udo Abia"
+				},
+				{
+					"name": "Ekpene Obom"
+				}
+			],
+			"sources": [
+				"wikipedia-etinan",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Home of the Iman Ibom, one of the three Ibom clans; Ikot Udo Abia lay on a route of the slave trade. Etinan LGA was created from Uyo Division in 1976.",
+				"sources": [
+					"wikipedia-etinan"
+				],
+				"confidence": "high"
+			},
+			"livelihoods": {
+				"text": "Farming and petty trading.",
+				"sources": [
+					"wikipedia-etinan"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Ikot Abasi",
+			"lga": "akwa-ibom-ikot-abasi",
+			"point": [
+				7.561,
+				4.571
+			],
+			"villages": [
+				{
+					"name": "Essene"
+				},
+				{
+					"name": "Ete"
+				},
+				{
+					"name": "Uta Ewa"
+				},
+				{
+					"name": "Edem Aya"
+				}
+			],
+			"sources": [
+				"wikipedia-ikot-abasi",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "A boatyard and seat of a British consulate, and a centre of the 1929 women's uprising against colonial rule.",
+				"sources": [
+					"wikipedia-ikot-abasi"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Mkpat-Enin",
+			"lga": "akwa-ibom-mkpat-enin",
+			"villages": [],
+			"sources": [
+				"wikipedia-mkpat-enin"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Traditionally Ibibio-speaking, with four clans and 87 villages.",
+				"sources": [
+					"wikipedia-mkpat-enin"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [
 		"Ibesikpo Asutan and Ibiono Ibom are not named in the sources found; check them."
 	],

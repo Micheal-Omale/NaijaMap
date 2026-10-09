@@ -1,0 +1,83 @@
+{
+	"name": "The British steamers come up the Niger",
+	"status": "draft",
+	"kind": "contact",
+	"year": 1841,
+	"yearLabel": "1841–1842",
+	"until": 1850,
+	"actors": [
+		{ "name": "British Niger Expedition", "side": "european" },
+		{ "name": "Obi Ossai of Aboh", "side": "trader" },
+		{ "name": "The Attah Igala", "polity": "igala", "side": "trader" }
+	],
+	"summary": {
+		"text": "In 1841 three iron steamers built by Macgregor Laird, the Albert, the Wilberforce and the Soudan, under Captain Henry Dundas Trotter, steamed up the Niger. They signed treaties against the slave trade with Obi Ossai at Aboh and at Idah, and at the confluence of the Niger and the Benue the Attah granted land at Lokoja for a model farm and a mission. Fever then struck: of about 150 Europeans, 42 died quickly, though none of the Africans on board died of illness. The ships fell back to Fernando Po, and the expedition returned to England in 1842.",
+		"sources": ["wikipedia-niger-expedition-1841", "kogireports-2020-deed"],
+		"confidence": "high"
+	},
+	"routes": [
+		{
+			"kind": "voyage",
+			"vessel": "steam",
+			"by": "British Niger Expedition",
+			"when": "1841",
+			"path": [[4.6, 2.6], [5.9, 3.9], [6.07, 4.3], [6.25, 4.95], [6.52, 5.55], [6.77, 6.15], [6.74, 7.11], [6.75, 7.8]],
+			"label": "The Albert, the Wilberforce and the Soudan steam up the Niger to the confluence",
+			"sources": ["wikipedia-niger-expedition-1841"],
+			"confidence": "high"
+		},
+		{
+			"kind": "voyage",
+			"vessel": "steam",
+			"by": "British Niger Expedition",
+			"when": "Late 1841",
+			"path": [[6.75, 7.8], [6.74, 7.11], [6.52, 5.55], [6.07, 4.3], [7.6, 3.7], [8.78, 3.75]],
+			"label": "Struck by fever, the ships fall back to Fernando Po",
+			"sources": ["wikipedia-niger-expedition-1841"],
+			"confidence": "high"
+		}
+	],
+	"moments": [
+		{
+			"when": "1841",
+			"title": "Treaty at Aboh",
+			"text": "Obi Ossai of Aboh signs a treaty against the slave trade.",
+			"at": { "name": "Aboh", "point": [6.524, 5.546] },
+			"mark": "treaty",
+			"sources": ["wikipedia-niger-expedition-1841"],
+			"confidence": "high"
+		},
+		{
+			"when": "1841",
+			"title": "Treaty at Idah",
+			"text": "At Idah, the seat of the Attah Igala, the expedition signs a second treaty against the slave trade.",
+			"at": { "name": "Idah", "point": [6.74, 7.11] },
+			"mark": "treaty",
+			"sources": ["wikipedia-niger-expedition-1841"],
+			"confidence": "high"
+		},
+		{
+			"when": "14 September 1841",
+			"title": "Land at Lokoja",
+			"text": "By a deed of 14 September, the Attah grants land at the confluence, at Lokoja, for a model farm and a mission. Igala fishermen already live there.",
+			"at": { "name": "Lokoja", "point": [6.74, 7.8] },
+			"mark": "founded",
+			"sources": ["kogireports-2020-deed", "wikipedia-niger-expedition-1841", "owner-2026-10-06-lokoja-fishermen"],
+			"confidence": "medium"
+		},
+		{
+			"when": "Late 1841 – 1842",
+			"title": "Fever",
+			"text": "Of about 150 Europeans, 42 die quickly and there are 130 cases of fever; none of the Africans on board die of illness. The ships withdraw to Fernando Po, and the expedition is home in England in 1842.",
+			"mark": "flight",
+			"sources": ["wikipedia-niger-expedition-1841"],
+			"confidence": "high"
+		}
+	],
+	"sources": ["wikipedia-niger-expedition-1841", "kogireports-2020-deed"],
+	"confidence": "high",
+	"reviewNotes": [
+		"How the Lokoja land passed is told differently: Wikipedia says the expedition bought it, Kogi Reports calls the deed a sale for 700,000 cowries, and the owner describes a lease to the British with Igala fishermen already living there. The text says only that the Attah granted the land.",
+		"The river course is drawn through Aboh, Onitsha and Idah from waypoints, not traced on the river."
+	]
+}

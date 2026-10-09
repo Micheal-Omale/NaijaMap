@@ -1,6 +1,33 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Okobo clans",
+			"lga": "akwa-ibom-okobo",
+			"villages": [
+				{
+					"name": "Odu"
+				},
+				{
+					"name": "Eta"
+				},
+				{
+					"name": "Atabong"
+				}
+			],
+			"sources": [
+				"wikipedia-okobo"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "The Okobo Mbawa are the Odu, Eta and Atabong clans; the LGA also holds four of the nine Oron clans. Okobo tradition says Abikot Atipa led their migration from Usak Edet, now Isangele in Cameroon.",
+				"sources": [
+					"wikipedia-okobo"
+				],
+				"confidence": "medium"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Okobo",
 	"searchAliases": [

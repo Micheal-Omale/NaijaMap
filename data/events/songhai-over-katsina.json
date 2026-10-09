@@ -1,0 +1,84 @@
+{
+	"name": "Songhai rules Katsina",
+	"status": "draft",
+	"kind": "war",
+	"year": 1512,
+	"yearLabel": "1512–1554",
+	"until": 1554,
+	"actors": [
+		{
+			"name": "Songhai",
+			"side": "attacker",
+			"ink": "#9a6a2a"
+		},
+		{
+			"name": "Katsina",
+			"polity": "katsina",
+			"side": "defender"
+		}
+	],
+	"summary": {
+		"text": "Askia Muhammad, the first Askia of Songhai, conquered Katsina in 1512, and it became a vassal of Gao. Scholars from Timbuktu came with the conquest. Katsina won its freedom in 1554 at Karfata, where 400 horsemen of the Lipti country met a Songhai detachment of 24 riders under the Hi-Koi Ali Dudo, sent by Askia Daud. After a long and bloody fight the Katsinawa killed 15, including the Hi-Koi, and so admired the nine wounded survivors that they nursed them and sent them home, saying such men did not deserve to die.",
+		"sources": [
+			"wikipedia-history-of-katsina"
+		],
+		"confidence": "high"
+	},
+	"routes": [
+		{
+			"kind": "advance",
+			"by": "Songhai",
+			"path": [
+				[
+					-0.04,
+					16.27
+				],
+				[
+					7.6,
+					12.99
+				]
+			],
+			"label": "Askia Muhammad's conquest (1512)",
+			"note": "From Gao; the route is not recorded.",
+			"sources": [
+				"wikipedia-history-of-katsina"
+			],
+			"confidence": "medium"
+		}
+	],
+	"moments": [
+		{
+			"when": "1512",
+			"title": "Katsina conquered",
+			"text": "Katsina becomes a vassal of Gao.",
+			"at": {
+				"name": "Katsina",
+				"point": [
+					7.6,
+					12.99
+				]
+			},
+			"mark": "captured",
+			"sources": [
+				"wikipedia-history-of-katsina"
+			],
+			"confidence": "high"
+		},
+		{
+			"when": "1554",
+			"title": "The battle of Karfata",
+			"text": "400 Katsina horsemen beat 24 Songhai riders and win back the kingdom's freedom.",
+			"mark": "battle",
+			"sources": [
+				"wikipedia-history-of-katsina"
+			],
+			"confidence": "high"
+		}
+	],
+	"sources": [
+		"wikipedia-history-of-katsina"
+	],
+	"confidence": "high",
+	"note": "Karfata has not been located, so the battle is told but not drawn.",
+	"reviewNotes": []
+}

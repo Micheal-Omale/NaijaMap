@@ -1,0 +1,54 @@
+{
+	"status": "draft",
+	"of": "society",
+	"terrain": "forest",
+	"summary": {
+		"text": "The Igbo village groups had no king and no standing army: every grown man defended his town, age grades fought together, and some towns were famous warriors who fought for the Aro. Their many independent towns made the British conquest slow, from 1901 until 1914 west of the Niger.",
+		"sources": [
+			"wikipedia-igbo-people",
+			"wikipedia-aro-confederacy",
+			"wikipedia-anglo-aro-war"
+		],
+		"confidence": "medium"
+	},
+	"arms": [
+		{
+			"kind": "militia",
+			"level": 2,
+			"text": "Every town defended itself with its men and age grades.",
+			"sources": [
+				"wikipedia-igbo-people",
+				"smith-1989-warfare"
+			],
+			"confidence": "medium"
+		},
+		{
+			"kind": "firearms",
+			"level": 1,
+			"from": 1750,
+			"text": "Dane guns from the Atlantic trade.",
+			"sources": [
+				"dike-ekejiuba-1990"
+			],
+			"confidence": "medium"
+		}
+	],
+	"record": [
+		{
+			"year": 1914,
+			"yearLabel": "1901–1914",
+			"event": "ekumeku",
+			"against": "British",
+			"result": "lost",
+			"text": "Towns resisted one by one, at Afikpo, Ezza, Ahiara and Nri, and the Ekumeku west of the Niger, until 1914.",
+			"sources": [
+				"wikipedia-anglo-aro-war",
+				"ohadike-1991"
+			],
+			"confidence": "high"
+		}
+	],
+	"reviewNotes": [
+		"Arms levels (1 some, 2 a real strength, 3 famous for it) are the compiler’s judgement from the sources, for the Versus page’s guess; please check them."
+	]
+}

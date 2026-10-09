@@ -1,0 +1,25 @@
+{
+	"name": "The Kano–Katsina wars",
+	"status": "draft",
+	"kind": "war",
+	"year": 1463,
+	"yearLabel": "c. 1463–1565",
+	"until": 1570,
+	"actors": [{ "name": "Kano", "polity": "kano", "side": "attacker" }, { "name": "Katsina", "polity": "katsina", "side": "defender" }],
+	"summary": {
+		"text": "Kano and Katsina, the two great market cities of Hausaland, fought over the trade routes for a century. Muhammad Rumfa's war with Katsina lasted eleven years and ended with neither side winning; Rumfa was the first Sarki to use the Dawakin Zaggi in it. His son Abdullahi and grandson Muhammad Kisoki fought a second war, again inconclusive, even as Kano conquered Zazzau. The rivalry outlived the wars: under Muhammad Zaki, Katsina harried a Kano weakened by Kwararafa, and the two only made peace around 1650, against Kwararafa.",
+		"sources": ["wikipedia-sultanate-of-kano", "wikipedia-muhammad-rumfa", "wikipedia-muhammad-zaki", "wikipedia-kwararafa"],
+		"confidence": "high"
+	},
+	"routes": [
+		{ "kind": "advance", "by": "Kano", "path": [[8.52, 12], [7.6, 12.99]], "label": "Kano against Katsina", "note": "Start and target only.", "sources": ["wikipedia-sultanate-of-kano"], "confidence": "medium" }
+	],
+	"moments": [
+		{ "when": "1463–1499", "title": "Rumfa's eleven-year war", "text": "Kano's first war with Katsina lasts eleven years and ends inconclusively.", "mark": "battle", "sources": ["wikipedia-sultanate-of-kano", "wikipedia-muhammad-rumfa"], "confidence": "high" },
+		{ "when": "1499–1565", "title": "Abdullahi and Kisoki's war", "text": "A second war, fought by Rumfa's son and grandson, is also inconclusive.", "mark": "battle", "sources": ["wikipedia-sultanate-of-kano"], "confidence": "high" },
+		{ "when": "c. 1650", "title": "Peace against Kwararafa", "text": "Kano and Katsina sign a treaty to face Kwararafa together.", "at": { "name": "Katsina", "point": [7.6, 12.99] }, "mark": "treaty", "sources": ["wikipedia-kwararafa"], "confidence": "medium" }
+	],
+	"sources": ["wikipedia-sultanate-of-kano", "wikipedia-muhammad-rumfa", "wikipedia-kwararafa"],
+	"confidence": "high",
+	"reviewNotes": ["Katsina's own account of these wars (Usman 1981) has not been checked."]
+}

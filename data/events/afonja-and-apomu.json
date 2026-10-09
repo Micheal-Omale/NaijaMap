@@ -1,0 +1,112 @@
+{
+	"name": "Afonja sacks Apomu and topples Awole",
+	"status": "draft",
+	"kind": "war",
+	"year": 1795,
+	"yearLabel": "1793–1796",
+	"until": 1817,
+	"actors": [
+		{
+			"name": "Afonja, Aare-Ona-Kakanfo",
+			"side": "attacker",
+			"ink": "#7a3a2a"
+		},
+		{
+			"name": "Oyo (Alaafin Awole)",
+			"polity": "oyo",
+			"side": "defender"
+		},
+		{
+			"name": "Ife",
+			"polity": "ife",
+			"side": "defender"
+		}
+	],
+	"summary": {
+		"text": "Alaafin Awole, who had come to the throne by murdering his father Abiodun, quarrelled with his field marshal Afonja, whose war camp was at Ilorin. In 1793 Afonja refused to attack Iwere-Ile, Abiodun's mother's town, fearing an old curse. In 1795 Awole ordered him against Apomu, a market town of Ife, though every Alaafin swore never to attack Ife. Afonja obeyed, sacked Apomu, then turned his army on Oyo-Ile, which no Kakanfo might enter, and demanded that Awole abdicate. Awole took his own life, and the empire fell into twenty years without a settled king.",
+		"sources": [
+			"wikipedia-oyo-empire"
+		],
+		"confidence": "high"
+	},
+	"routes": [
+		{
+			"kind": "raid",
+			"by": "Afonja, Aare-Ona-Kakanfo",
+			"path": [
+				[
+					4.55,
+					8.5
+				],
+				[
+					4.17,
+					7.36
+				]
+			],
+			"label": "Afonja against Apomu (1795)",
+			"sources": [
+				"wikipedia-oyo-empire"
+			]
+		},
+		{
+			"kind": "advance",
+			"by": "Afonja, Aare-Ona-Kakanfo",
+			"path": [
+				[
+					4.17,
+					7.36
+				],
+				[
+					4.3075,
+					8.9747
+				]
+			],
+			"label": "Afonja marches on Oyo-Ile",
+			"sources": [
+				"wikipedia-oyo-empire"
+			]
+		}
+	],
+	"moments": [
+		{
+			"when": "1795",
+			"title": "Apomu sacked",
+			"text": "An Oyo army attacks a town of holy Ife.",
+			"at": {
+				"name": "Apomu",
+				"point": [
+					4.17,
+					7.36
+				]
+			},
+			"mark": "burned",
+			"sources": [
+				"wikipedia-oyo-empire"
+			],
+			"confidence": "high"
+		},
+		{
+			"when": "1796",
+			"title": "Awole's death",
+			"text": "Faced with Afonja's army, the Alaafin takes his own life.",
+			"at": {
+				"name": "Oyo-Ile (Old Oyo)",
+				"point": [
+					4.3075,
+					8.9747
+				]
+			},
+			"mark": "exile",
+			"sources": [
+				"wikipedia-oyo-empire"
+			],
+			"confidence": "high"
+		}
+	],
+	"sources": [
+		"wikipedia-oyo-empire"
+	],
+	"confidence": "high",
+	"note": "Apomu's point is approximate.",
+	"reviewNotes": []
+}

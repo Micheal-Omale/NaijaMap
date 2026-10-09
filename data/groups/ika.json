@@ -1,6 +1,112 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Agbor",
+			"lga": "delta-ika-south",
+			"point": [
+				6.207,
+				6.268
+			],
+			"villages": [
+				{
+					"name": "Agbor-Obi"
+				},
+				{
+					"name": "Agbor-Alidima"
+				},
+				{
+					"name": "Orogodo"
+				},
+				{
+					"name": "Agbor-Nta"
+				},
+				{
+					"name": "Abavo"
+				},
+				{
+					"name": "Ekuku-Agbor"
+				},
+				{
+					"name": "Idumuoza"
+				},
+				{
+					"name": "Ekwuoma"
+				},
+				{
+					"name": "Oki"
+				},
+				{
+					"name": "Omumu"
+				}
+			],
+			"sources": [
+				"wikipedia-ika-south",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Headquarters of Ika South.",
+				"sources": [
+					"wikipedia-ika-south"
+				],
+				"confidence": "medium"
+			}
+		},
+		{
+			"name": "Owa and Ekwuoma",
+			"lga": "delta-ika-north-east",
+			"point": [
+				6.198,
+				6.188
+			],
+			"villages": [
+				{
+					"name": "Owa-Oyibu",
+					"point": [
+						6.198,
+						6.188
+					]
+				},
+				{
+					"name": "Owa-Alero"
+				},
+				{
+					"name": "Owa-Ekei"
+				},
+				{
+					"name": "Ekwuoma"
+				},
+				{
+					"name": "Mbiri"
+				},
+				{
+					"name": "Umunede"
+				},
+				{
+					"name": "Otolokpo"
+				},
+				{
+					"name": "Ute-Enugu"
+				},
+				{
+					"name": "Ute-Erumu"
+				}
+			],
+			"sources": [
+				"wikipedia-ika-north-east",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Owa-Oyibu is the headquarters of Ika North East; Ekwuoma is a kingdom under its Ajeh, and Mbiri's ruler is titled Obi.",
+				"sources": [
+					"wikipedia-ika-north-east"
+				],
+				"confidence": "medium"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Ika",
 	"searchAliases": [

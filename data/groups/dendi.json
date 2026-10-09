@@ -1,6 +1,20 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Dendi of Bagudo",
+			"lga": "kebbi-bagudu",
+			"villages": [],
+			"alsoIn": [
+				"kebbi-argungu"
+			],
+			"sources": [
+				"wikipedia-kebbi-state",
+				"ross-jones-borgu"
+			],
+			"confidence": "medium"
+		}
+	],
 	"reviewNotes": [],
 	"name": "Dendi",
 	"searchAliases": [

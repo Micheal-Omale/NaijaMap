@@ -1,0 +1,44 @@
+{
+	"name": "Dr Stewart and the Ahiara expedition",
+	"status": "draft",
+	"kind": "colonial",
+	"year": 1905,
+	"yearLabel": "1905–1906",
+	"until": 1910,
+	"actors": [
+		{ "name": "British forces", "side": "colonial" },
+		{ "name": "The Mbaise and Mbano towns", "side": "resister" }
+	],
+	"summary": {
+		"text": "In 1905 the Bende–Onitsha Hinterland Expedition was pushing British control through the Igbo country between Bende and Owerri. Dr Stewart, a British medical officer, cycled into Mbaise, was seized, and was killed. The people took him for Harold Douglas, the District Commissioner of Owerri, whose brutality they hated. Captain Fox’s columns searched for Ahiara in December 1905, and the punitive Ahiara expedition of 1906 burned towns across Mbaise and Mbano. Villages that took up arms with machetes and charms against Maxim guns suffered heavy losses.",
+		"sources": ["ozikoro-ahiara", "wikipedia-trenchard-nigeria"],
+		"confidence": "medium"
+	},
+	"routes": [
+		{ "kind": "advance", "by": "British forces", "path": [[7.63, 5.56], [7.45, 5.5], [7.249, 5.536]], "label": "The Bende–Onitsha Hinterland Expedition searches for Ahiara", "when": "December 1905", "sources": ["ozikoro-ahiara"], "confidence": "medium" },
+		{ "kind": "advance", "by": "British forces", "path": [[7.03, 5.48], [7.2, 5.5], [7.35, 5.45]], "label": "The punitive expedition through Mbaise", "when": "1906", "sources": ["ozikoro-ahiara"], "confidence": "medium" }
+	],
+	"moments": [
+		{
+			"when": "November 1905",
+			"title": "Dr Stewart killed",
+			"text": "Dr Stewart is captured and killed in Mbaise, at Onicha in Ezinihitte by some accounts and at Obizi by others, mistaken for the District Commissioner Harold Douglas.",
+			"at": { "name": "Ezinihitte, Mbaise (approximate)", "point": [7.35, 5.45] },
+			"mark": "massacre",
+			"sources": ["ozikoro-ahiara"],
+			"confidence": "disputed"
+		},
+		{
+			"when": "1906",
+			"title": "Ahiara burned",
+			"text": "The punitive expedition burns Ahiara and neighbouring towns and forces their submission.",
+			"at": { "name": "Ahiara", "point": [7.249, 5.536] },
+			"mark": "burned",
+			"sources": ["ozikoro-ahiara"],
+			"confidence": "medium"
+		}
+	],
+	"sources": ["ozikoro-ahiara", "wikipedia-trenchard-nigeria"],
+	"confidence": "medium",
+	"reviewNotes": ["Sources disagree on where Dr Stewart was killed (Onicha Ezinihitte or Obizi) and on the dates. A colonial or academic source is needed."]
+}

@@ -1,0 +1,46 @@
+{
+	"name": "Mumuye",
+	"status": "draft",
+	"groups": [
+		"mumuye"
+	],
+	"rule": "elders",
+	"span": {
+		"from": 1000,
+		"to": 1905,
+		"fromLabel": "before written records",
+		"toLabel": "early 1900s",
+		"sources": [
+			"wikipedia-mumuye"
+		],
+		"confidence": "medium",
+		"note": "The start of the timeline, not a founding date. The end is approximate: British rule reached these lands in the first years of the 1900s."
+	},
+	"summary": {
+		"text": "Mumuye communities, the dola, were independent of one another, though they shared a language and customs; each extended-family village was governed by a council of elders and an elected leader, and their rainmakers were held to be the most powerful in keeping a community alive. They are today the largest people of Taraba State, from Zing and Yorro to Jalingo, Lau and Gassol, the country where Hamman Ruwa founded Muri emirate in 1817.",
+		"sources": [
+			"wikipedia-mumuye",
+			"wikipedia-muri"
+		],
+		"confidence": "medium"
+	},
+	"lands": [
+		{
+			"from": 1000,
+			"lgas": [
+				"taraba-zing",
+				"taraba-yorro"
+			]
+		}
+	],
+	"reviewNotes": [
+		"Needs a written source for the date British rule reached this people."
+	],
+	"end": {
+		"text": "Muri emirate, founded in 1817 on the plains around them, raided the hill peoples for captives; the Royal Niger Company and then the British took Muri's country between 1883 and 1901.",
+		"sources": [
+			"wikipedia-muri"
+		],
+		"confidence": "medium"
+	}
+}

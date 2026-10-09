@@ -1,6 +1,48 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Song",
+			"lga": "adamawa-song",
+			"villages": [
+				{
+					"name": "Mboi"
+				},
+				{
+					"name": "Dumme"
+				},
+				{
+					"name": "Dirma"
+				},
+				{
+					"name": "Kilange"
+				},
+				{
+					"name": "Funa"
+				},
+				{
+					"name": "Gudu"
+				},
+				{
+					"name": "Hirna"
+				},
+				{
+					"name": "Zumo"
+				}
+			],
+			"sources": [
+				"wikipedia-song"
+			],
+			"confidence": "medium",
+			"history": {
+				"text": "Song area council includes a district called Mboi among Song, Dumme, Dirma, Kilange, Funa, Gudu, Hirna, Gari, Waje, Suktu, Zumo, Waltandi and Ditera.",
+				"sources": [
+					"wikipedia-song"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Mboi",
 	"searchAliases": [

@@ -1,0 +1,65 @@
+{
+	"name": "The Kano Igala come home: Angwa at Idah",
+	"status": "draft",
+	"kind": "migration",
+	"year": 1620,
+	"yearLabel": "17th century, after the Kwararafa invasions of Kano",
+	"until": 1700,
+	"actors": [
+		{ "name": "Igala returning from Kano, led by Aliyu", "polity": "igala", "side": "migrant" },
+		{ "name": "Kano", "polity": "kano", "side": "origin" }
+	],
+	"summary": {
+		"text": "Igala who had marched north with the Kwararafa armies did not all go home. Some stayed on around Bebeji, south-west of Kano, and lived among the Hausa for a generation or more. Later a party of them, led by a man named Aliyu, came back to Idah to rejoin their homeland and founded the Angwa quarter (Hausa unguwa, “quarter”). They came home Muslim and Hausa in name, which may be why Idah remembers them as Hausa from Bebeji. They brought Islam to Igala land, became fully Igala again in speech, and their descendants keep the Oganyi festival.",
+		"sources": ["owner-2026-10-09-angwa", "owner-2026-10-09-bebeji", "oduntan-2022-igala"],
+		"confidence": "disputed"
+	},
+	"routes": [
+		{
+			"kind": "migration",
+			"by": "Igala returning from Kano, led by Aliyu",
+			"path": [[8.265, 11.663], [6.7476, 7.1178]],
+			"label": "Home from Bebeji to Idah",
+			"note": "Only the start and the end are known. The road they took is not recorded.",
+			"sources": ["owner-2026-10-09-angwa", "oduntan-2022-igala"],
+			"confidence": "disputed"
+		}
+	],
+	"moments": [
+		{
+			"when": "During the Kwararafa invasions",
+			"title": "Left behind in Kano",
+			"text": "Igala in the Kwararafa host stay behind and settle around Bebeji. Over the years they take up Islam and live as Hausa.",
+			"at": { "name": "Bebeji", "point": [8.265, 11.663] },
+			"mark": "camp",
+			"sources": ["owner-2026-10-09-bebeji"],
+			"confidence": "disputed"
+		},
+		{
+			"when": "Setting out",
+			"title": "Aliyu leads them home",
+			"text": "Aliyu leads a party south from Bebeji towards Idah.",
+			"at": { "name": "Bebeji (departure, offset so both marks show)", "point": [8.235, 11.64] },
+			"mark": "flight",
+			"sources": ["owner-2026-10-09-angwa", "oduntan-2022-igala"],
+			"confidence": "medium"
+		},
+		{
+			"when": "Arrival",
+			"title": "Angwa founded at Idah",
+			"text": "The returnees settle at Angwa, the first Hausa-named quarter in Igala land and the first home of Islam there. Today it is Angwa Ategune in Ukwaja ward, Idah.",
+			"at": { "name": "Angwa, Idah", "point": [6.7476, 7.1178] },
+			"mark": "founded",
+			"sources": ["oduntan-2022-igala"],
+			"confidence": "medium"
+		}
+	],
+	"sources": ["owner-2026-10-09-angwa", "oduntan-2022-igala"],
+	"confidence": "disputed",
+	"note": "The written tradition (Oduntan 2022) says Aliyu’s people were Hausa, not returning Igala, and dates them 400–600 years before 2022 (c. 1420–1620). That window overlaps only the first Kwararafa invasion, under Muhammad Zaki (1582–1618). The homecoming account is the owner’s.",
+	"reviewNotes": [
+		"Headline account is owner testimony (2026-10-09): Angwa’s founders were Igala left in Kano after the Kwararafa invasion who came back to their homeland. No written source yet says they were Igala; the only written account calls them Hausa. Owner: is there an Idah or Angwa family history that says so?",
+		"“Took up Islam and lived as Hausa” is the compiler’s reading, joining the owner’s account to the written one (why else would returning Igala be remembered as Hausa?). Please confirm or correct.",
+		"Angwa is placed at GRID3’s “Angwa Ategune” (Ukwaja ward, Idah). Please confirm this is the old quarter."
+	]
+}

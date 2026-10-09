@@ -1,0 +1,639 @@
+{
+	"name": "Military rule: the coups of 1966",
+	"status": "draft",
+	"from": 1966,
+	"to": 1967,
+	"label": "1966–1967",
+	"summary": {
+		"text": "The coup of January 1966 killed the Prime Minister and the Northern and Western premiers. Ironsi, an Igbo, took power and was killed in the Northern counter-coup of July. Gowon, a Christian from the small Ngas people of the Middle Belt, took over. The regions lasted until May 1967, when he replaced them with twelve states.",
+		"sources": [
+			"wikipedia-nigerian-civil-war",
+			"wikipedia-johnson-aguiyi-ironsi",
+			"wikipedia-yakubu-gowon"
+		],
+		"confidence": "high"
+	},
+	"federal": {
+		"text": "Power passed to soldiers. After July 1966 the army was led by Northern officers, but Gowon came from a Middle Belt minority rather than from the Hausa or Fulani establishment.",
+		"sources": [
+			"wikipedia-yakubu-gowon",
+			"wikipedia-nigerian-civil-war"
+		],
+		"confidence": "high",
+		"leaders": [
+			{
+				"name": "Johnson Aguiyi-Ironsi",
+				"title": "Head of State",
+				"from": 1966,
+				"to": 1966,
+				"group": "igbo",
+				"home": {
+					"name": "Umuahia (Ibeku)",
+					"point": [
+						7.49,
+						5.53
+					]
+				},
+				"sources": [
+					"wikipedia-johnson-aguiyi-ironsi"
+				],
+				"confidence": "high"
+			},
+			{
+				"name": "Yakubu Gowon",
+				"title": "Head of State",
+				"from": 1966,
+				"to": 1975,
+				"group": "ngas",
+				"home": {
+					"name": "Lur, Kanke",
+					"point": [
+						9.6,
+						9.45
+					]
+				},
+				"sources": [
+					"wikipedia-yakubu-gowon",
+					"kperogi-2020"
+				],
+				"confidence": "high"
+			}
+		]
+	},
+	"units": [
+		{
+			"id": "northern-region",
+			"name": "Northern Region",
+			"kind": "region",
+			"extent": {
+				"states": [
+					"kano",
+					"jigawa",
+					"katsina",
+					"kaduna",
+					"kebbi",
+					"sokoto",
+					"zamfara",
+					"niger",
+					"kwara",
+					"kogi",
+					"benue",
+					"plateau",
+					"nasarawa",
+					"bauchi",
+					"gombe",
+					"borno",
+					"yobe",
+					"adamawa",
+					"taraba",
+					"fct"
+				]
+			},
+			"seat": {
+				"name": "Kaduna",
+				"point": [
+					7.44,
+					10.52
+				]
+			},
+			"groups": [
+				"fulani",
+				"hausa",
+				"kanuri"
+			],
+			"text": "Military governors replaced the politicians, but the Fulani and Hausa emirate establishment kept its weight. In 1967 the North was split into six states, giving the Middle Belt peoples their own.",
+			"leaders": [
+				{
+					"name": "Hassan Usman Katsina",
+					"title": "Military Governor of the North",
+					"from": 1966,
+					"to": 1967,
+					"group": "fulani",
+					"groupNote": "Fulani royal family of the Sullubawa clan; son of the Emir of Katsina.",
+					"home": {
+						"name": "Katsina",
+						"point": [
+							7.6,
+							12.99
+						]
+					},
+					"sources": [
+						"wikipedia-hassan-katsina"
+					],
+					"confidence": "high"
+				}
+			],
+			"sources": [
+				"wikipedia-northern-region-nigeria",
+				"wikipedia-northern-people-s-congress",
+				"wikipedia-ahmadu-bello"
+			],
+			"confidence": "high"
+		},
+		{
+			"id": "western-region",
+			"name": "Western Region",
+			"kind": "region",
+			"extent": {
+				"states": [
+					"ogun",
+					"oyo",
+					"osun",
+					"ondo",
+					"ekiti",
+					"lagos"
+				],
+				"except": [
+					"lagos-lagos-island",
+					"lagos-lagos-mainland",
+					"lagos-surulere",
+					"lagos-apapa",
+					"lagos-eti-osa"
+				]
+			},
+			"seat": {
+				"name": "Ibadan",
+				"point": [
+					3.9,
+					7.38
+				]
+			},
+			"groups": [
+				"yoruba"
+			],
+			"text": "Yoruba officers governed the West. Fajuyi was killed with Ironsi in the July counter-coup.",
+			"leaders": [
+				{
+					"name": "Adekunle Fajuyi",
+					"title": "Military Governor of the West",
+					"from": 1966,
+					"to": 1966,
+					"group": "yoruba",
+					"home": {
+						"name": "Ado-Ekiti",
+						"point": [
+							5.22,
+							7.62
+						]
+					},
+					"sources": [
+						"wikipedia-adekunle-fajuyi"
+					],
+					"confidence": "high"
+				},
+				{
+					"name": "Robert Adeyinka Adebayo",
+					"title": "Military Governor of the West",
+					"from": 1966,
+					"to": 1971,
+					"group": "yoruba",
+					"home": {
+						"name": "Iyin-Ekiti",
+						"point": [
+							5.17,
+							7.68
+						]
+					},
+					"sources": [
+						"wikipedia-robert-adeyinka-adebayo"
+					],
+					"confidence": "medium"
+				}
+			],
+			"sources": [
+				"wikipedia-western-region-nigeria",
+				"wikipedia-action-group-nigeria"
+			],
+			"confidence": "high"
+		},
+		{
+			"id": "eastern-region",
+			"name": "Eastern Region",
+			"kind": "region",
+			"extent": {
+				"states": [
+					"abia",
+					"anambra",
+					"ebonyi",
+					"enugu",
+					"imo",
+					"rivers",
+					"bayelsa",
+					"cross-river",
+					"akwa-ibom"
+				]
+			},
+			"seat": {
+				"name": "Enugu",
+				"point": [
+					7.49,
+					6.45
+				]
+			},
+			"groups": [
+				"igbo"
+			],
+			"text": "The Igbo-majority East seceded as Biafra on 30 May 1967, three days after the twelve states were declared.",
+			"leaders": [
+				{
+					"name": "Odumegwu Ojukwu",
+					"title": "Military Governor of the East, then Head of State of Biafra",
+					"from": 1966,
+					"to": 1970,
+					"group": "igbo",
+					"home": {
+						"name": "Nnewi",
+						"point": [
+							6.92,
+							6.02
+						]
+					},
+					"sources": [
+						"wikipedia-odumegwu-ojukwu"
+					],
+					"confidence": "high"
+				}
+			],
+			"sources": [
+				"wikipedia-eastern-region-nigeria",
+				"wikipedia-national-council-of-nigeria-and-the-cameroons"
+			],
+			"confidence": "high"
+		},
+		{
+			"id": "mid-western-region",
+			"name": "Mid-Western Region",
+			"kind": "region",
+			"extent": {
+				"states": [
+					"edo",
+					"delta"
+				]
+			},
+			"seat": {
+				"name": "Benin City",
+				"point": [
+					5.63,
+					6.34
+				]
+			},
+			"groups": [
+				"edo",
+				"urhobo",
+				"anioma"
+			],
+			"text": "An Urhobo officer governed the Mid-West, the one region not dominated by a single people.",
+			"leaders": [
+				{
+					"name": "David Ejoor",
+					"title": "Military Governor of the Mid-West",
+					"from": 1966,
+					"to": 1967,
+					"group": "urhobo",
+					"home": {
+						"name": "Ovu",
+						"point": [
+							6.05,
+							5.55
+						]
+					},
+					"sources": [
+						"wikipedia-david-ejoor"
+					],
+					"confidence": "medium"
+				}
+			],
+			"sources": [
+				"wikipedia-mid-western-region-nigeria",
+				"wikipedia-western-region-nigeria"
+			],
+			"confidence": "medium"
+		},
+		{
+			"id": "lagos",
+			"name": "Federal Territory of Lagos",
+			"kind": "territory",
+			"extent": {
+				"lgas": [
+					"lagos-lagos-island",
+					"lagos-lagos-mainland",
+					"lagos-surulere",
+					"lagos-apapa",
+					"lagos-eti-osa"
+				]
+			},
+			"seat": {
+				"name": "Lagos",
+				"point": [
+					3.39,
+					6.45
+				]
+			},
+			"groups": [
+				"yoruba"
+			],
+			"text": "In 1967 Lagos became a state of its own.",
+			"leaders": [],
+			"sources": [
+				"wikipedia-western-region-nigeria"
+			],
+			"confidence": "medium"
+		}
+	],
+	"reviewNotes": [
+		"Ethnic attributions follow the cited biographies. Where sources disagree, the leader is marked disputed and the alternatives are given."
+	],
+	"parties": [],
+	"coalitions": [],
+	"results": [],
+	"coups": [
+		{
+			"id": "jan-1966",
+			"name": "The coup of the majors",
+			"date": "15 January 1966",
+			"year": 1966,
+			"outcome": "failed",
+			"fell": {
+				"name": "Abubakar Tafawa Balewa",
+				"role": "Prime Minister, killed",
+				"groupLabel": "Gere"
+			},
+			"rose": {
+				"name": "Johnson Aguiyi-Ironsi",
+				"role": "Army commander, who crushed the coup and took power",
+				"group": "igbo"
+			},
+			"plotters": [
+				{
+					"name": "Chukwuma Nzeogwu",
+					"role": "led the coup in the North",
+					"group": "anioma",
+					"groupNote": "Born in Kaduna into an Anioma (western Igbo) family."
+				},
+				{
+					"name": "Emmanuel Ifeajuna",
+					"role": "led the coup in Lagos",
+					"group": "igbo",
+					"groupNote": "An Igbo from Onitsha."
+				},
+				{
+					"name": "Timothy Onwuatuegwu"
+				},
+				{
+					"name": "Emmanuel Nwobosi",
+					"role": "led the coup in Ibadan"
+				},
+				{
+					"name": "Chris Anuforo"
+				},
+				{
+					"name": "Don Okafor"
+				},
+				{
+					"name": "Humphrey Chukwuka"
+				},
+				{
+					"name": "Ben Gbulie"
+				},
+				{
+					"name": "Adewale Ademoyega"
+				}
+			],
+			"killed": [
+				{
+					"name": "Abubakar Tafawa Balewa",
+					"role": "Prime Minister",
+					"groupLabel": "Gere"
+				},
+				{
+					"name": "Ahmadu Bello",
+					"role": "Premier of the North",
+					"group": "fulani"
+				},
+				{
+					"name": "Samuel Akintola",
+					"role": "Premier of the West",
+					"group": "yoruba"
+				},
+				{
+					"name": "Festus Okotie-Eboh",
+					"role": "Finance Minister"
+				},
+				{
+					"name": "Zakariya Maimalari",
+					"role": "Brigadier"
+				},
+				{
+					"name": "Samuel Ademulegun",
+					"role": "Brigadier"
+				},
+				{
+					"name": "Ralph Shodeinde",
+					"role": "Colonel"
+				},
+				{
+					"name": "Kur Mohammed",
+					"role": "Colonel"
+				},
+				{
+					"name": "James Pam",
+					"role": "Lieutenant-Colonel"
+				},
+				{
+					"name": "Arthur Unegbe",
+					"role": "Lieutenant-Colonel; the only Igbo officer the plotters killed",
+					"group": "igbo"
+				}
+			],
+			"text": "Young majors, most of them Igbo, struck at Kaduna, Ibadan and Lagos and killed 22 people: the Prime Minister, the Premiers of the North and the West, senior officers, wives and guards. The leaders who survived, the President, the Eastern Premier and the army commander Ironsi, were all Igbo. The coup failed in Lagos, and Ironsi took power. The North saw an “Igbo coup”.",
+			"moments": [
+				{
+					"when": "15 January, before dawn",
+					"title": "The Sardauna killed",
+					"text": "Nzeogwu’s men, out on a night exercise they called Operation Damisa, attack the Northern Premier’s residence and kill Ahmadu Bello and his wife, Brigadier Ademulegun and Colonel Shodeinde.",
+					"at": {
+						"name": "Kaduna",
+						"point": [
+							7.44,
+							10.52
+						]
+					},
+					"mark": "massacre"
+				},
+				{
+					"when": "15 January, night",
+					"title": "The Prime Minister taken",
+					"text": "Ifeajuna arrests Balewa at his home; Okotie-Eboh, Maimalari, Kur Mohammed, Pam and Unegbe are shot. Balewa is killed. But Ironsi is not at home when the plotters come for him.",
+					"at": {
+						"name": "Ikoyi, Lagos",
+						"point": [
+							3.44,
+							6.455
+						]
+					},
+					"mark": "captured"
+				},
+				{
+					"when": "15 January, night",
+					"title": "Akintola killed",
+					"text": "Nwobosi’s men kill the Western Premier, Samuel Akintola, and arrest his deputy.",
+					"at": {
+						"name": "Ibadan",
+						"point": [
+							3.9,
+							7.38
+						]
+					},
+					"mark": "massacre"
+				},
+				{
+					"when": "15 January, afternoon",
+					"title": "Martial law in the North",
+					"text": "Hearing no broadcast from Lagos, where the coup has failed, Nzeogwu declares martial law over the North on Radio Kaduna.",
+					"at": {
+						"name": "Kaduna radio",
+						"point": [
+							7.48,
+							10.55
+						]
+					},
+					"mark": "garrison"
+				},
+				{
+					"when": "16–17 January",
+					"title": "Ironsi takes power",
+					"text": "The rump cabinet hands power to the army. Ironsi accepts, sets up a Supreme Military Council and suspends the constitution.",
+					"at": {
+						"name": "Lagos",
+						"point": [
+							3.39,
+							6.45
+						]
+					},
+					"mark": "founded"
+				}
+			],
+			"sources": [
+				"wikipedia-1966-nigerian-coup-detat",
+				"wikipedia-chukwuma-nzeogwu",
+				"wikipedia-emmanuel-ifeajuna",
+				"wikipedia-nigerian-civil-war"
+			],
+			"confidence": "high"
+		},
+		{
+			"id": "jul-1966",
+			"name": "The July counter-coup",
+			"date": "28–29 July 1966",
+			"year": 1966,
+			"outcome": "seized",
+			"fell": {
+				"name": "Johnson Aguiyi-Ironsi",
+				"role": "Head of State, killed",
+				"group": "igbo"
+			},
+			"rose": {
+				"name": "Yakubu Gowon",
+				"role": "Head of State",
+				"group": "ngas"
+			},
+			"plotters": [
+				{
+					"name": "Murtala Muhammed",
+					"role": "the mastermind",
+					"group": "fulani",
+					"groupNote": "Born in Kano; his origins are disputed (see his card)."
+				},
+				{
+					"name": "Theophilus Danjuma"
+				},
+				{
+					"name": "Joseph Akahan"
+				},
+				{
+					"name": "Martin Adamu"
+				},
+				{
+					"name": "Muhammadu Buhari",
+					"role": "then a lieutenant",
+					"group": "fulani"
+				},
+				{
+					"name": "Ibrahim Babangida",
+					"role": "then a lieutenant",
+					"group": "hausa"
+				},
+				{
+					"name": "Sani Abacha",
+					"role": "then a second lieutenant",
+					"group": "kanuri"
+				},
+				{
+					"name": "Bukar Suka Dimka",
+					"role": "then a lieutenant"
+				}
+			],
+			"killed": [
+				{
+					"name": "Johnson Aguiyi-Ironsi",
+					"role": "Head of State",
+					"group": "igbo"
+				},
+				{
+					"name": "Adekunle Fajuyi",
+					"role": "Military Governor of the West, Ironsi’s host",
+					"group": "yoruba"
+				}
+			],
+			"text": "Northern officers and soldiers struck back for the killings of January, angry that the majors had not been tried and fearing an “Igbo coup” to finish them. They killed Ironsi and his host, Fajuyi, at Ibadan and made Gowon head of state. The killings of Easterners in the North that followed drove the East toward secession. Four of the plotters, Murtala, Buhari, Babangida and Abacha, later ruled Nigeria.",
+			"moments": [
+				{
+					"when": "28 July, midnight",
+					"title": "Mutiny at Abeokuta",
+					"text": "Northern soldiers mutiny in the Abeokuta garrison; the revolt spreads to Lagos and Ibadan.",
+					"at": {
+						"name": "Abeokuta",
+						"point": [
+							3.35,
+							7.15
+						]
+					},
+					"mark": "battle"
+				},
+				{
+					"when": "29 July",
+					"title": "Ironsi and Fajuyi killed",
+					"text": "Northern NCOs seize Ironsi at Government House, Ibadan, with his host, the Western governor Fajuyi, and kill them both.",
+					"at": {
+						"name": "Ibadan",
+						"point": [
+							3.9,
+							7.38
+						]
+					},
+					"mark": "massacre"
+				},
+				{
+					"when": "1 August",
+					"title": "Gowon in command",
+					"text": "The plotters name Lieutenant-Colonel Yakubu Gowon, a Christian from the small Ngas people, head of state.",
+					"at": {
+						"name": "Lagos",
+						"point": [
+							3.39,
+							6.45
+						]
+					},
+					"mark": "founded"
+				}
+			],
+			"sources": [
+				"wikipedia-1966-nigerian-counter-coup",
+				"wikipedia-yakubu-gowon",
+				"wikipedia-johnson-aguiyi-ironsi",
+				"wikipedia-nigerian-civil-war"
+			],
+			"confidence": "high"
+		}
+	]
+}

@@ -1,6 +1,23 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Agbo villages (Abi)",
+			"lga": "cross-river-abi",
+			"villages": [],
+			"sources": [
+				"wikipedia-abi-cross-river"
+			],
+			"confidence": "medium",
+			"history": {
+				"text": "Abi LGA's people are mostly Bahumono or Agbo, with Imabana villages.",
+				"sources": [
+					"wikipedia-abi-cross-river"
+				],
+				"confidence": "medium"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Agbo",
 	"searchAliases": [

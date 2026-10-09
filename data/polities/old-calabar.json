@@ -6,6 +6,7 @@
 		"Akwa Akpa",
 		"Efik city-states"
 	],
+	"shortName": "Calabar",
 	"span": {
 		"from": 1650,
 		"to": 1884,
@@ -18,10 +19,9 @@
 	},
 	"peak": 1780,
 	"summary": {
-		"text": "The Efik towns on the Calabar river (Creek Town, Old Town and Duke Town) traded with Europeans from the 17th century. Their Ekpe society bound merchants, enforced debts and governed the towns. Calabar shipped tens of thousands of enslaved people in the 18th century, then palm oil, and became the first capital of British rule in the east.",
+		"text": "The Efik of the Calabar river lived in fortified towns with no paramount king: Ikot Itunko (Creek Town), Obutong (Old Town) and Atakpa (Duke Town), founded about 1650 by families from Creek Town who settled where European ships anchored. Led by the Duke and Eyamba families and bound by the Ekpe society, they became the masters of the Cross River slave trade: about 17,000 captives left Calabar in 1725–1750 and over 62,000 in 1772–1775, most of them Igbo. In 1767 Duke Town and British slavers lured Old Town's leaders aboard ship and seized or killed them. After 1841 the kings turned to palm oil, admitted missionaries in 1846, and in 1884 accepted British protection; Calabar was the protectorate's capital until 1906.",
 		"sources": [
-			"wikipedia-calabar",
-			"latham-1973"
+			"wikipedia-duke-town"
 		],
 		"confidence": "high"
 	},
@@ -41,7 +41,7 @@
 			"year": 1650,
 			"yearLabel": "c. 1650",
 			"title": "The Efik towns",
-			"text": "Efik settlers found Creek Town and then Obutong (Old Town) and Atakpa (Duke Town) on the Calabar river.",
+			"text": "Efik families leave Ikot Itunko (Creek Town) and settle on the east bank of the river at Atakpa, where European ships anchor, about 1650. With Obutong (Old Town) they form a loose federation of fortified waterside towns without a paramount ruler, living by fishing, farming and trade. The Portuguese had named the coast Calabar.",
 			"capital": {
 				"name": "Creek Town (Ikot Itunko) (approximate)",
 				"point": [
@@ -67,9 +67,102 @@
 			],
 			"sources": [
 				"wikipedia-calabar",
-				"latham-1973"
+				"latham-1973",
+				"wikipedia-duke-town"
 			],
 			"confidence": "medium"
+		},
+		{
+			"year": 1725,
+			"yearLabel": "1725–1767",
+			"title": "The slave trade grows",
+			"text": "By the early 18th century the Duke and Eyamba families lead the Efik. About 17,000 enslaved people are sold from Calabar to European ships between 1725 and 1750; most are Igbo, brought down the Cross River by Aro and other traders. The Ekpe society governs trade, debts and law among the towns.",
+			"capital": {
+				"name": "Creek Town (Ikot Itunko) (approximate)",
+				"point": [
+					8.25,
+					5.04
+				]
+			},
+			"core": {
+				"lgas": [
+					"cross-river-calabar-municipal",
+					"cross-river-calabar-south",
+					"cross-river-odukpani"
+				]
+			},
+			"nodes": [
+				{
+					"name": "Old Town (Obutong)",
+					"point": [
+						8.305,
+						4.965
+					]
+				}
+			],
+			"links": [
+				{
+					"kind": "trade",
+					"to": {
+						"name": "Arochukwu",
+						"point": [
+							7.91,
+							5.39
+						]
+					},
+					"label": "Captives from the Aro network",
+					"sources": [
+						"wikipedia-aro-confederacy",
+						"wikipedia-duke-town"
+					],
+					"confidence": "medium"
+				}
+			],
+			"sources": [
+				"wikipedia-duke-town"
+			],
+			"confidence": "high"
+		},
+		{
+			"year": 1767,
+			"yearLabel": "1767–1841",
+			"title": "The massacre of 1767 and the trade at its height",
+			"text": "In 1767, during a feud between Duke Town and Old Town, Duke Town's leaders arrange with six British slave ships to invite Old Town's leaders aboard under guarantee of safety; they are seized, some kept as slaves and others handed to Duke Town and executed. The trade climbs to over 62,000 captives in 1772–1775. Britain outlaws its own slave trade in 1807, but Spanish and other ships keep buying at Calabar until 1841.",
+			"capital": {
+				"name": "Creek Town (Ikot Itunko) (approximate)",
+				"point": [
+					8.25,
+					5.04
+				]
+			},
+			"core": {
+				"lgas": [
+					"cross-river-calabar-municipal",
+					"cross-river-calabar-south",
+					"cross-river-odukpani"
+				]
+			},
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Old Town (Obutong)",
+						"point": [
+							8.305,
+							4.965
+						]
+					},
+					"label": "Old Town's leaders betrayed (1767)",
+					"sources": [
+						"wikipedia-duke-town"
+					],
+					"confidence": "high"
+				}
+			],
+			"sources": [
+				"wikipedia-duke-town"
+			],
+			"confidence": "high"
 		},
 		{
 			"year": 1780,
@@ -153,7 +246,7 @@
 		{
 			"year": 1884,
 			"title": "British protection",
-			"text": "The Efik rulers sign a treaty of protection. Calabar becomes the seat of the Oil Rivers and then Niger Coast Protectorate until 1906.",
+			"text": "In 1841 King Eyamba V of Duke Town and King Eyo of Creek Town sign a treaty to end the slave trade, and palm oil and kernels take over. In 1846 a Presbyterian mission under Hope Waddell opens with King Eyo's help; Palmerston refuses the chiefs' request for protection. The kings agree to stop human sacrifice in 1850. Archibong III is crowned in 1878 with regalia sent by Queen Victoria. In 1884 the chiefs accept British protection, and Calabar is the headquarters of the Niger Coast Protectorate until 1906; from 1903 its rulers are styled Obong.",
 			"capital": {
 				"name": "Duke Town (Atakpa)",
 				"point": [
@@ -179,7 +272,8 @@
 				}
 			],
 			"sources": [
-				"wikipedia-calabar"
+				"wikipedia-calabar",
+				"wikipedia-duke-town"
 			],
 			"confidence": "high"
 		}

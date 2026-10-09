@@ -1,6 +1,23 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Baissa",
+			"lga": "taraba-kurmi",
+			"villages": [],
+			"sources": [
+				"wikipedia-kurmi"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Headquarters of Kurmi LGA, whose woodlands are the homeland of the Ndoro and Tigon.",
+				"sources": [
+					"wikipedia-kurmi"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Ndoro (Ndola)",
 	"searchAliases": [

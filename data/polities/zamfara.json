@@ -4,20 +4,19 @@
 	"kind": "kingdom",
 	"otherNames": [],
 	"span": {
-		"from": 1500,
+		"from": 1300,
 		"to": 1805,
-		"fromLabel": "c. 15th–16th century",
+		"fromLabel": "the Dutsi chiefdoms",
 		"sources": [
-			"wikipedia-hausa-kingdoms",
-			"hogben-kirk-greene-1966"
+			"wikipedia-zamfara-kingdom"
 		],
 		"confidence": "medium"
 	},
-	"peak": 1650,
+	"peak": 1715,
 	"summary": {
-		"text": "A Hausa kingdom in the Gusau plains, counted among the \"Banza Bakwai\", the outer Hausa states. Gobir destroyed its capital, Birnin Zamfara, in the 18th century, and the remnant at Anka fell to the jihad.",
+		"text": "Zamfara grew from the chiefdoms of Dutsi, Togai, Kiyawa and Jata; its people say they descend from the Maguzawa hunters of old Kano. In the early 16th century it built Birnin Zamfara near today's Isa, its walls said to run eleven miles with fifty gates. Kanta made it a tributary of Kebbi; around 1715 it rose with Gobir and Agadez, captured Kebbi's king and became a first-rate power, its fertile plains “almost the most flourishing country of Negroland”. Then Gobir, whose settlers it had welcomed, turned on it: Birnin Zamfara fell around 1756–1762, its last king died at Kiawa after a fifteen-year siege, and the dynasty carried on at Anka.",
 		"sources": [
-			"wikipedia-hausa-kingdoms",
+			"wikipedia-zamfara-kingdom",
 			"wikipedia-gobir"
 		],
 		"confidence": "medium"
@@ -34,15 +33,40 @@
 	],
 	"snapshots": [
 		{
-			"year": 1500,
-			"yearLabel": "c. 1500",
-			"title": "Kingdom of the Zamfara plains",
-			"text": "Zamfara is ruled from Birnin Zamfara and at times owes allegiance to Kebbi.",
+			"year": 1300,
+			"yearLabel": "before c. 1500",
+			"title": "The giants of Dutsi",
+			"text": "The first Zamfarawa settle at Dutsi, now a town in Zurmi, and after seven years without a chief choose Dakka as the first Sarkin Zamfara. Legend makes the early chiefs giants who could eat a whole ox at a meal; six great mounds at Dutsi are said to hold 23 of them. One of the first six was a woman, Algoje.",
 			"capital": {
-				"name": "Birnin Zamfara (approximate)",
+				"name": "Dutsi (approximate)",
 				"point": [
-					6.4,
-					12.45
+					6.8,
+					12.94
+				]
+			},
+			"core": {
+				"lgas": [
+					"zamfara-zurmi",
+					"zamfara-kaura-namoda",
+					"zamfara-shinkafi"
+				],
+				"confidence": "medium"
+			},
+			"sources": [
+				"wikipedia-zamfara-kingdom"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1500,
+			"yearLabel": "early 16th century",
+			"title": "Birnin Zamfara",
+			"text": "The Zamfarawa move north to the Gagare river near Isa and build Birnin Zamfara, whose walls are said to be eleven miles long with fifty gates; remains stand east of Isa. In the mid-16th century Zamfara campaigns south as far as Yauri but cannot hold it.",
+			"capital": {
+				"name": "Birnin Zamfara (near Isa)",
+				"point": [
+					6.45,
+					13.18
 				]
 			},
 			"core": {
@@ -56,20 +80,161 @@
 					"zamfara-maradun",
 					"zamfara-bakura",
 					"zamfara-anka",
-					"zamfara-maru"
+					"zamfara-maru",
+					"sokoto-isa"
 				]
 			},
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Yauri",
+						"point": [
+							4.77,
+							10.8
+						]
+					},
+					"label": "Campaign to Yauri",
+					"sources": [
+						"wikipedia-zamfara-kingdom"
+					],
+					"confidence": "medium"
+				}
+			],
 			"sources": [
-				"wikipedia-hausa-kingdoms",
-				"hogben-kirk-greene-1966"
+				"wikipedia-zamfara-kingdom"
 			],
 			"confidence": "medium"
 		},
 		{
-			"year": 1764,
-			"yearLabel": "c. 1756–1764",
-			"title": "Gobir destroys Birnin Zamfara",
-			"text": "Gobir sacks the capital. Zamfara's rulers regroup at Anka, in the south-west.",
+			"year": 1516,
+			"yearLabel": "c. 1516–1715",
+			"title": "Under Kebbi",
+			"text": "Kanta of Kebbi conquers Zamfara in his campaigns east, and Zamfara pays Kebbi tribute for two centuries.",
+			"capital": {
+				"name": "Birnin Zamfara (near Isa)",
+				"point": [
+					6.45,
+					13.18
+				]
+			},
+			"core": {
+				"lgas": [
+					"zamfara-bungudu",
+					"zamfara-gusau",
+					"zamfara-tsafe",
+					"zamfara-kaura-namoda",
+					"zamfara-birnin-magaji-kiyaw",
+					"zamfara-talata-mafara",
+					"zamfara-maradun",
+					"zamfara-bakura",
+					"zamfara-anka",
+					"zamfara-maru",
+					"sokoto-isa"
+				]
+			},
+			"links": [
+				{
+					"kind": "tribute",
+					"to": {
+						"name": "Surame (Kebbi)",
+						"point": [
+							4.899,
+							13.088
+						]
+					},
+					"label": "Tributary of Kebbi",
+					"sources": [
+						"wikipedia-kanta-kotal",
+						"wikipedia-zamfara-kingdom"
+					],
+					"confidence": "high"
+				}
+			],
+			"sources": [
+				"wikipedia-kanta-kotal",
+				"wikipedia-zamfara-kingdom",
+				"wikipedia-kebbi-kingdom"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1715,
+			"yearLabel": "c. 1715–1756",
+			"title": "Revolt and height",
+			"text": "Under Babba, Zamfara rises with Gobir and Agadez and drives Kebbi's army back to the Gulbin Ka. Babba's son Yakubu defeats the Kebbawa at Tsamiya Maibaura and captures their king, Muhammadu dan Giwa; the slave Acali, who offered his life as the soothsayers' sacrifice, is honoured through his brother, made the first Sarkin Burmin Bakura. Zamfara now stretches from Sabon Birni in the north to Kwiambana in the south. Sarkin Zamfara Maliki gives land to Gobir settlers, and Zamfara's men save Gobir's capital from Agadez.",
+			"capital": {
+				"name": "Birnin Zamfara (near Isa)",
+				"point": [
+					6.45,
+					13.18
+				]
+			},
+			"core": {
+				"lgas": [
+					"zamfara-bungudu",
+					"zamfara-gusau",
+					"zamfara-tsafe",
+					"zamfara-kaura-namoda",
+					"zamfara-birnin-magaji-kiyaw",
+					"zamfara-talata-mafara",
+					"zamfara-maradun",
+					"zamfara-bakura",
+					"zamfara-anka",
+					"zamfara-maru",
+					"sokoto-isa",
+					"sokoto-sabon-birni",
+					"zamfara-zurmi",
+					"zamfara-shinkafi",
+					"zamfara-gummi",
+					"zamfara-bukkuyum"
+				]
+			},
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Surame (Kebbi)",
+						"point": [
+							4.899,
+							13.088
+						]
+					},
+					"label": "Kebbi beaten; its king captured",
+					"sources": [
+						"wikipedia-zamfara-kingdom",
+						"wikipedia-kebbi-kingdom"
+					],
+					"confidence": "high"
+				},
+				{
+					"kind": "war",
+					"to": {
+						"name": "Kwiambana",
+						"point": [
+							6.6,
+							11.3
+						]
+					},
+					"label": "Southern frontier at Kwiambana",
+					"sources": [
+						"wikipedia-zamfara-kingdom"
+					],
+					"confidence": "medium",
+					"note": "Kwiambana is placed approximately."
+				}
+			],
+			"sources": [
+				"wikipedia-zamfara-kingdom",
+				"wikipedia-gobir"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1756,
+			"yearLabel": "c. 1756–1805",
+			"title": "Gobir takes Birnin Zamfara",
+			"text": "Gobir's Babari attacks his ally. Zamfara's captains, tired of King Mairoki's taunts, give the capital up; Barth was told it fell in about 1756, others say 1762. Mairoki flees to the hill fortress of Kiawa, where Bawa Jan Gwarzo of Gobir besieges him for fifteen years before taking and beheading him. The Zamfara dynasty regroups at Anka in the south-west.",
 			"capital": {
 				"name": "Anka",
 				"point": [
@@ -86,29 +251,43 @@
 					"zamfara-talata-mafara"
 				]
 			},
+			"nodes": [
+				{
+					"name": "Kiawa",
+					"point": [
+						6.88,
+						12.6
+					]
+				}
+			],
 			"links": [
 				{
 					"kind": "war",
 					"to": {
-						"name": "Alkalawa",
+						"name": "Alkalawa (Gobir)",
 						"point": [
-							6.26,
-							13.613
+							6.25,
+							13.57
 						]
 					},
-					"label": "Defeated by Gobir"
+					"label": "Birnin Zamfara lost to Gobir",
+					"sources": [
+						"wikipedia-zamfara-kingdom",
+						"wikipedia-gobir"
+					],
+					"confidence": "high"
 				}
 			],
 			"sources": [
-				"wikipedia-gobir",
-				"hogben-kirk-greene-1966"
+				"wikipedia-zamfara-kingdom",
+				"wikipedia-gobir"
 			],
 			"confidence": "medium"
 		}
 	],
 	"today": {
-		"text": "The Emir of Anka holds the title Sarkin Zamfara, in Zamfara State.",
-		"title": "Emir of Anka (Sarkin Zamfara)",
+		"text": "The Sarkin Zamfara reigns at Anka in Zamfara State.",
+		"title": "Sarkin Zamfara of Anka",
 		"seat": {
 			"name": "Anka",
 			"point": [
@@ -117,12 +296,11 @@
 			]
 		},
 		"sources": [
-			"hogben-kirk-greene-1966"
+			"wikipedia-zamfara-kingdom"
 		],
-		"confidence": "medium"
+		"confidence": "high"
 	},
 	"reviewNotes": [
-		"Site of Birnin Zamfara is approximate.",
-		"Check the Anka title against a current source."
+		"Birnin Zamfara is placed east of Isa, where its walls survive; Kiawa about twenty miles east of Kaura Namoda. Both are approximate."
 	]
 }

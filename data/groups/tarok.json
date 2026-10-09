@@ -1,6 +1,23 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Langtang",
+			"lga": "plateau-langtang-north",
+			"villages": [],
+			"sources": [
+				"wikipedia-tarok-people"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "The main Tarok town, about 186 km south-east of Jos.",
+				"sources": [
+					"wikipedia-tarok-people"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Tarok",
 	"searchAliases": [

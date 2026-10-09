@@ -85,7 +85,124 @@
 			"note": "Among Lafia’s original inhabitants."
 		}
 	],
-	"communities": [],
+	"communities": [
+		{
+			"name": "Doma",
+			"lga": "nasarawa-doma",
+			"point": [
+				8.357,
+				8.393
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-doma",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Seat of the Andoma. Doma tradition dates its founding to about 1232 by Andoma, whose Alago, once called Idoma, came from Apa in Kwararafa by way of Idah, Apa, Otukpa, Ogyogo on the Benue and Oba'sidoma in Keana. The kingdom lasted until British rule in 1901; the Odu festival is held each year.",
+				"sources": [
+					"wikipedia-doma"
+				],
+				"confidence": "medium"
+			},
+			"livelihoods": {
+				"text": "Mostly farming.",
+				"sources": [
+					"wikipedia-doma"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Keana",
+			"lga": "nasarawa-keana",
+			"point": [
+				8.834,
+				8.217
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-keana",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Seat of the Osana, one of the three great Alago kings. Founded by Akyana Adi, by tradition in the 12th century, and home of the Benue valley's salt.",
+				"sources": [
+					"wikipedia-keana"
+				],
+				"confidence": "medium"
+			},
+			"livelihoods": {
+				"text": "Salt making from the brine flats, and farming.",
+				"sources": [
+					"wikipedia-keana",
+					"wikipedia-kwararafa"
+				],
+				"confidence": "medium"
+			}
+		},
+		{
+			"name": "Obi",
+			"lga": "nasarawa-obi",
+			"point": [
+				8.775,
+				8.368
+			],
+			"villages": [
+				{
+					"name": "Agwatashi",
+					"point": [
+						8.85,
+						8.316
+					]
+				},
+				{
+					"name": "Agyaragu"
+				},
+				{
+					"name": "Daddare"
+				}
+			],
+			"sources": [
+				"wikipedia-obi-nasarawa",
+				"wikipedia-keana",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Seat of the Osuko of Obi, the third of the leading Alago kings with the Andoma and the Osana; Agwatashi is one of the main Alago towns.",
+				"sources": [
+					"wikipedia-keana"
+				],
+				"confidence": "medium"
+			}
+		},
+		{
+			"name": "Assakio",
+			"lga": "nasarawa-lafia",
+			"point": [
+				8.86,
+				8.607
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-keana",
+				"wikipedia-doma",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "One of the Alago town centres, whose people share the Kwararafa origin of Doma and Keana.",
+				"sources": [
+					"wikipedia-doma",
+					"wikipedia-keana"
+				],
+				"confidence": "medium"
+			}
+		}
+	],
 	"reviewNotes": [
 		"Alago towns named in Wikipedia (Aloshi, Agaza, Agbashi, Agwatashi, Assakio) are not yet placed as points."
 	]

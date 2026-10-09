@@ -1,6 +1,86 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Koko",
+			"lga": "delta-warri-north",
+			"point": [
+				5.467,
+				6.004
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-warri-north",
+				"wikipedia-nana-olomu"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Headquarters of Warri North and a sea port; Nana Olomu settled near Koko on his return from exile in 1906.",
+				"sources": [
+					"wikipedia-warri-north",
+					"wikipedia-nana-olomu"
+				],
+				"confidence": "high"
+			},
+			"livelihoods": {
+				"text": "Fishing, canoe carving, net weaving, hunting, cloth dyeing, trade and farming.",
+				"sources": [
+					"wikipedia-warri-north"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Ode-Itsekiri (Big Warri)",
+			"lga": "delta-warri-south-west",
+			"point": [
+				5.3,
+				5.55
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-warri-kingdom"
+			],
+			"confidence": "medium",
+			"note": "Point approximate.",
+			"history": {
+				"text": "The island capital of the Warri kingdom and still the site of coronations and royal funerals; Ginuwa's successors set up the royal seat here.",
+				"sources": [
+					"wikipedia-warri-kingdom"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Ijala and Okere",
+			"lga": "delta-warri-south",
+			"point": [
+				5.693,
+				5.538
+			],
+			"villages": [
+				{
+					"name": "Okere",
+					"point": [
+						5.74,
+						5.52
+					]
+				}
+			],
+			"sources": [
+				"wikipedia-warri-kingdom",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Ginuwa died and was buried at Ijala, where later Olus were also buried; Okere was founded by men of a Benin force under Ekpen who could not cross the Warri river and later submitted to the Olu.",
+				"sources": [
+					"wikipedia-warri-kingdom"
+				],
+				"confidence": "medium"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Itsekiri",
 	"searchAliases": [

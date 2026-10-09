@@ -1,6 +1,27 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Michika (Mwecika)",
+			"lga": "adamawa-michika",
+			"point": [
+				13.3833,
+				10.6167
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-michika"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "By oral history founded in the late 15th century by Kwada Kwakaa, a prince and hunter; the name comes from the Kamwe for “the hills where Kwada Kwakaa goes stealthily to hunt”. Across the border lies Rhumsiki in Cameroon.",
+				"sources": [
+					"wikipedia-michika"
+				],
+				"confidence": "medium"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Kamwe (Higi)",
 	"searchAliases": [

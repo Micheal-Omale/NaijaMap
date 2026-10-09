@@ -1,0 +1,99 @@
+{
+	"name": "The Ogidi Grand Alliance",
+	"status": "draft",
+	"kind": "alliance",
+	"year": 1894,
+	"yearLabel": "1894–1897",
+	"until": 1897,
+	"actors": [
+		{ "name": "Ogidi Grand Alliance (Agahun of Esuku, Alayere Ekundina)", "side": "resister", "ink": "#3f6f5a" },
+		{ "name": "Nupe (Bida emirate)", "polity": "nupe", "side": "attacker" },
+		{ "name": "Kabba under the Obaro", "side": "ally" },
+		{ "name": "Ekiti", "side": "ally" },
+		{ "name": "Royal Niger Company", "side": "colonial" }
+	],
+	"summary": {
+		"text": "By 1882 the Nupe ruled the whole of northeast Yorubaland, Yagba, Owe, Bunu, Ijumu and Akoko, through resident agents, except Oka Akoko, which held out on its hill. The Obaro of Kabba worked with them and was given authority over Ijumu and Akoko. In about 1884 the Nupe commander Sonku killed the ritual cow of the Alayere, king of Ayere, then murdered the messenger the king sent to ask why. Ayere burned the Nupe camp and sent word to Ogidi, Aduge, Ogale, Iffe and the Akoko towns to unite like the Ekitiparapo. After years of risings, in late 1894 the Ijumu towns Ogidi, Ayere, Aduge, Ekinrin-Adde, Iffe and Ogale, with Esuku, Oji and Akoko communities, formed the Ogidi Grand Alliance against both the Nupe and the Obaro’s rule. Its army held the Ayinoro hill at Ogidi, where the Nupe horse were useless, with arms bought from Lagos and Ekiti. The siege was still going on when Royal Niger Company troops arrived in January 1897. Bida fell to the Company that month, the Nupe left Okun country, and the alliance broke up.",
+		"sources": ["apata-2003-ogidi", "nupe-akokoland-2018", "cjhi-nupe-okun"],
+		"confidence": "medium",
+		"note": "Apata dates the alliance to 1894–1897; another account gives 1891–1897. Popular retellings add the Ebira as allies and list Yagba, Owe, Oworo and Bunu as members; neither claim is in these sources, and Kabba (Owe) stood with the Nupe."
+	},
+	"routes": [
+		{
+			"kind": "advance",
+			"by": "Nupe (Bida emirate)",
+			"path": [[6.01, 9.08], [6.1, 8.4], [6.073, 7.829], [6.024, 7.76]],
+			"label": "Nupe forces from Bida, by way of Kabba, against the camp at Ogidi",
+			"note": "Line of march drawn through Kabba, the Nupe base in Okun country.",
+			"confidence": "medium",
+			"sources": ["nupe-akokoland-2018"]
+		},
+		{
+			"kind": "alliance",
+			"by": "Ogidi Grand Alliance (Agahun of Esuku, Alayere Ekundina)",
+			"path": [[5.972, 7.704], [6.0, 7.74], [6.024, 7.76]],
+			"label": "Ayere, where the revolt began, joins its forces to Ogidi",
+			"sources": ["nupe-akokoland-2018"],
+			"confidence": "high"
+		},
+		{
+			"kind": "alliance",
+			"by": "Ogidi Grand Alliance (Agahun of Esuku, Alayere Ekundina)",
+			"path": [[6.106, 7.664], [6.07, 7.72], [6.024, 7.76]],
+			"label": "Ogale joins the alliance",
+			"sources": ["nupe-akokoland-2018"],
+			"confidence": "high"
+		},
+		{
+			"kind": "alliance",
+			"by": "Ogidi Grand Alliance (Agahun of Esuku, Alayere Ekundina)",
+			"path": [[5.866, 7.832], [5.95, 7.8], [6.024, 7.76]],
+			"label": "Ekinrin-Adde joins the alliance",
+			"sources": ["nupe-akokoland-2018"],
+			"confidence": "high"
+		},
+		{
+			"kind": "alliance",
+			"by": "Ekiti",
+			"path": [[5.22, 7.62], [5.6, 7.7], [6.024, 7.76]],
+			"label": "Help and guns from Ekiti, and arms bought in Lagos",
+			"note": "Drawn from Ado-Ekiti to stand for the Ekiti country as a whole.",
+			"sources": ["nupe-akokoland-2018"],
+			"confidence": "medium"
+		}
+	],
+	"moments": [
+		{
+			"when": "Late 1894",
+			"title": "The alliance takes the field",
+			"text": "The Alayere steps aside for Agahun of Esuku, a veteran of the Ekitiparapo war, who becomes war leader, with the Alayere as his second. Olumodeji of Ayere, Ajakaiye of Ogidi and Ajamba of Oji command units. The army gathers on the Ayinoro hill at Ogidi.",
+			"at": { "name": "Ayinoro hill, Ogidi", "point": [6.024, 7.76] },
+			"mark": "camp",
+			"sources": ["nupe-akokoland-2018", "apata-2003-ogidi"]
+		},
+		{
+			"when": "1895–1896",
+			"title": "The Nupe cannot break Ogidi",
+			"text": "The hill takes away the Nupe cavalry’s advantage. The Nupe inflict heavy losses but cannot break the defences, and Nda Jiya, the Maiyaki, is relieved of command of the Nupe army.",
+			"at": { "name": "Ogidi", "point": [6.024, 7.76] },
+			"mark": "battle",
+			"confidence": "medium",
+			"sources": ["nupe-akokoland-2018", "apata-2003-ogidi"]
+		},
+		{
+			"when": "14 January 1897",
+			"title": "The Company arrives",
+			"text": "Royal Niger Company troops reach the war while the alliance and the Nupe are still fighting. The Company backs the alliance, for its own reasons: Nupe raiding was disrupting its trade on the lower Niger. Within weeks Bida falls, the Nupe leave Okun country, and the alliance disbands.",
+			"at": { "name": "Ogidi", "point": [6.024, 7.76] },
+			"mark": "battle",
+			"sources": ["nupe-akokoland-2018", "cjhi-nupe-okun"]
+		}
+	],
+	"area": { "lgas": ["kogi-ijumu"] },
+	"sources": ["apata-2003-ogidi", "nupe-akokoland-2018", "cjhi-nupe-okun"],
+	"confidence": "medium",
+	"reviewNotes": [
+		"Ebira involvement, Ogidi as a 'refugee settlement', and Yagba/Owe/Oworo/Bunu/Ikiri membership come from a popular retelling and are not supported by Apata (2003) or the 2018 Akokoland paper. Left out on purpose.",
+		"Iffe, Aduge, Esuku and Oji are members but not drawn: no reliable coordinates found yet."
+	]
+}

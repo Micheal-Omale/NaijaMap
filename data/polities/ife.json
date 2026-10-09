@@ -17,13 +17,12 @@
 	},
 	"peak": 1300,
 	"summary": {
-		"text": "Ile-Ife is the sacred city of the Yoruba, where tradition says the world was created. Between about 1000 and 1400 it produced the famous bronze and terracotta heads and paved its courtyards with potsherds. Its Ooni never ruled a large empire, but Yoruba kings, and the Obas of Benin, traced their crowns to Ife.",
+		"text": "Ile-Ife is the sacred city of the Yoruba, where Oduduwa is said to have founded the world's first kingdom. Out of a cluster of house-states a confederacy grew, and in the 10th–11th centuries Oduduwa's party walled the city after a war with the older people under Obatala. In its classical age (c. 1000–1420) Ife made its famous bronze and terracotta heads, glass beads traded as far as Mali and Mauritania, and a city of 70,000 or more; Ibn Battuta heard of it in 1352 as Yufi, one of the greatest kingdoms of the Sudan. Its princes, by tradition, founded Oyo, Benin's Oba dynasty and many other crowns. In the 19th-century wars it was sacked, rebuilt and locked in a long feud with its Oyo refugees at Modakeke.",
 		"sources": [
-			"wikipedia-yorubaland",
-			"ogundiran-2020",
-			"smith-1988"
+			"wikipedia-ife-empire",
+			"wikipedia-modakeke"
 		],
-		"confidence": "high"
+		"confidence": "medium"
 	},
 	"ruler": {
 		"title": "Ooni",
@@ -40,7 +39,7 @@
 			"year": 1000,
 			"yearLabel": "c. 1000",
 			"title": "The sacred city",
-			"text": "Ile-Ife grows into a city around its shrines, the centre from which Yoruba dynasties claim descent.",
+			"text": "Ife began as house-societies that grew into mini-states and a confederacy. In the 10th–11th centuries a group led by Oduduwa, probably from the hill town of Oke Ora, built a wall about 7 km round the city and won a war against the older people led by Obatala; both leaders were later worshipped as gods. Tradition says that after a meeting at Ita Ijero the princes went out to found kingdoms of their own.",
 			"capital": {
 				"name": "Ile-Ife",
 				"point": [
@@ -58,7 +57,8 @@
 			},
 			"sources": [
 				"ogundiran-2020",
-				"smith-1988"
+				"smith-1988",
+				"wikipedia-ife-empire"
 			],
 			"confidence": "medium"
 		},
@@ -66,7 +66,7 @@
 			"year": 1300,
 			"yearLabel": "c. 1100–1400",
 			"title": "Classical Ife",
-			"text": "Ife artists cast lifelike heads in copper alloy and terracotta. Glass beads made in the city are traded widely. Benin's royal line looks to Ife for its regalia.",
+			"text": "In its classical age Ife builds a second wall, paves its streets with potsherds and holds 70,000–105,000 people. Its smiths cast life-size heads in copper and brass; it nearly monopolises the region's glass beads, which reach Gao, Essouk, Koumbi Saleh and Senegal. Ibn Battuta hears of it in Mali in 1352 as Yufi, and the Catalan Atlas of 1375 may show it as Organa. At its height in the 14th century Ife's realm runs about 300 km, from Owu, Jebba, Tada and Oyo in the north to Ijebu in the south.",
 			"capital": {
 				"name": "Ile-Ife",
 				"point": [
@@ -117,18 +117,182 @@
 						]
 					},
 					"label": "Oyo's founder Oranmiyan came from Ife"
+				},
+				{
+					"kind": "trade",
+					"to": {
+						"name": "Gao",
+						"point": [
+							-0.04,
+							16.27
+						]
+					},
+					"label": "Glass beads and goods up the Niger to Gao",
+					"sources": [
+						"wikipedia-ife-empire"
+					],
+					"confidence": "high"
+				},
+				{
+					"kind": "tribute",
+					"to": {
+						"name": "Tada",
+						"point": [
+							4.98,
+							9.06
+						]
+					},
+					"label": "Northern reach: Tada and Jebba",
+					"sources": [
+						"wikipedia-ife-empire"
+					],
+					"confidence": "medium"
+				},
+				{
+					"kind": "tribute",
+					"to": {
+						"name": "Ijebu-Ode",
+						"point": [
+							3.92,
+							6.82
+						]
+					},
+					"label": "Southern reach: Ijebu",
+					"sources": [
+						"wikipedia-ife-empire"
+					],
+					"confidence": "medium"
 				}
 			],
 			"sources": [
 				"ogundiran-2020",
-				"wikipedia-kingdom-of-benin"
+				"wikipedia-kingdom-of-benin",
+				"wikipedia-ife-empire"
 			],
 			"confidence": "medium"
 		},
 		{
+			"year": 1420,
+			"yearLabel": "1420–1795",
+			"title": "The holy city",
+			"text": "After its classical age Ife's political reach shrinks, but it remains the spiritual home of the Yoruba: every Alaafin of Oyo swears never to attack it, and the Oba of Benin's coronation long turns on a ruler inland whom the Portuguese call Ogane. Its Ooni is honoured above the kings his ancestors' princes founded.",
+			"capital": {
+				"name": "Ile-Ife",
+				"point": [
+					4.56,
+					7.47
+				]
+			},
+			"core": {
+				"lgas": [
+					"osun-ife-central",
+					"osun-ife-east",
+					"osun-ife-north",
+					"osun-ife-south"
+				]
+			},
+			"links": [
+				{
+					"kind": "ritual",
+					"to": {
+						"name": "Benin City",
+						"point": [
+							5.627,
+							6.335
+						]
+					},
+					"label": "Benin's kings look to Ife",
+					"sources": [
+						"wikipedia-ife-empire"
+					],
+					"confidence": "medium"
+				},
+				{
+					"kind": "ritual",
+					"to": {
+						"name": "Oyo-Ile (Old Oyo)",
+						"point": [
+							4.3075,
+							8.9747
+						]
+					},
+					"label": "Oyo's oath never to attack Ife",
+					"sources": [
+						"wikipedia-oyo-empire"
+					],
+					"confidence": "high"
+				}
+			],
+			"sources": [
+				"wikipedia-ife-empire",
+				"wikipedia-oyo-empire"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1795,
+			"yearLabel": "1795–1845",
+			"title": "Apomu and the Owu war",
+			"text": "Oyo's general Afonja sacks Apomu, an Ife market town, in 1795, breaking the old oath. The quarrels over the Apomu market lead to the Owu war: from 1821 to about 1826 the armies of Ife and Ijebu, swelled by Oyo refugees, besiege and destroy Owu Ipole. The victorious camp at Ibadan grows into a new power, and an Egba chief's killing of an Ife chief there splits the allies.",
+			"capital": {
+				"name": "Ile-Ife",
+				"point": [
+					4.56,
+					7.47
+				]
+			},
+			"core": {
+				"lgas": [
+					"osun-ife-central",
+					"osun-ife-east",
+					"osun-ife-north",
+					"osun-ife-south"
+				]
+			},
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Owu Ipole",
+						"point": [
+							4.25,
+							7.46
+						]
+					},
+					"label": "Owu destroyed with Ijebu (1821–1826)",
+					"sources": [
+						"wikipedia-owu-kingdom",
+						"wikipedia-abeokuta"
+					],
+					"confidence": "high"
+				},
+				{
+					"kind": "war",
+					"to": {
+						"name": "Apomu",
+						"point": [
+							4.17,
+							7.36
+						]
+					},
+					"label": "Apomu sacked by Afonja (1795)",
+					"sources": [
+						"wikipedia-oyo-empire"
+					],
+					"confidence": "high"
+				}
+			],
+			"sources": [
+				"wikipedia-owu-kingdom",
+				"wikipedia-abeokuta",
+				"wikipedia-oyo-empire"
+			],
+			"confidence": "high"
+		},
+		{
 			"year": 1849,
 			"title": "Ife in the wars",
-			"text": "In the 19th-century wars Ife is sacked (1849) and resettled (1854), and its quarrel with the Oyo refugee town of Modakeke begins.",
+			"text": "In 1845 Ooni Abewela settles Oyo refugees in a separate town beside Ife, Modakeke, whose ruler takes the title Ogunsuwa; its fighters extend Ife's border towards Ijesa. The settlers stay apart, and the two towns' feud becomes one of the longest of the wars, while Ife is caught between Ibadan and the Ekitiparapo.",
 			"capital": {
 				"name": "Ile-Ife",
 				"point": [
@@ -146,9 +310,27 @@
 			},
 			"sources": [
 				"smith-1988",
-				"akintoye-1971"
+				"akintoye-1971",
+				"wikipedia-modakeke"
 			],
-			"confidence": "medium"
+			"confidence": "medium",
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Modakeke",
+						"point": [
+							4.58,
+							7.46
+						]
+					},
+					"label": "The Ife–Modakeke feud",
+					"sources": [
+						"wikipedia-modakeke"
+					],
+					"confidence": "high"
+				}
+			]
 		}
 	],
 	"today": {

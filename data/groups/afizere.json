@@ -1,6 +1,53 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Afizere districts (Jos East)",
+			"lga": "plateau-jos-east",
+			"point": [
+				9.037,
+				9.865
+			],
+			"villages": [
+				{
+					"name": "Fobur",
+					"point": [
+						9.037,
+						9.865
+					]
+				},
+				{
+					"name": "Shere"
+				},
+				{
+					"name": "Federe"
+				},
+				{
+					"name": "Maigemu"
+				},
+				{
+					"name": "Forsum"
+				}
+			],
+			"alsoIn": [
+				"plateau-jos-north"
+			],
+			"sources": [
+				"hrw-2006-indigenes",
+				"wikipedia-afizere",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "The Afizere are one of the three peoples recognised as indigenes of Jos. Their chiefdom, under the Agwom, is made of the districts of five royal families: Fobur, Forsum, Maigemu, Shere and Federe.",
+				"sources": [
+					"hrw-2006-indigenes",
+					"wikipedia-afizere"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Afizere (Izere)",
 	"searchAliases": [

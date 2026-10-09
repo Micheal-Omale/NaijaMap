@@ -1,0 +1,49 @@
+{
+	"name": "Biu",
+	"status": "draft",
+	"groups": [
+		"bura-pabir"
+	],
+	"rule": "kingdoms",
+	"span": {
+		"from": 1535,
+		"to": 1918,
+		"fromLabel": "c. 1535",
+		"toLabel": "Biu Division, 1918",
+		"sources": [
+			"wikipedia-biu-emirate"
+		],
+		"confidence": "medium",
+		"note": "Biu numbers its rulers from Yamta the Great, about 1535. The end is approximate."
+	},
+	"summary": {
+		"text": "The Biu kingdom of the Bura and Pabir counts its rulers from Yamta-ra-Wala, Yamta the Great, who established his rule about 1535: tradition says he came from elsewhere, captured the main town of the area and built a new capital at Dlimbur, now an archaeological site. His descendants split into two rival dynasties, at Kogu and at nearby Mandaragirau. The state was called a kingdom from about 1670, under Mari Watila Tampta. Mari Watirwa of Kogu (1793–1838) beat back Fulani invaders from Gombe, and in 1878 Mari Biya became the first Bura king to rule from Biu itself.",
+		"sources": [
+			"wikipedia-biu-emirate"
+		],
+		"confidence": "medium"
+	},
+	"lands": [
+		{
+			"from": 1535,
+			"lgas": [
+				"borno-biu",
+				"borno-hawul",
+				"borno-kwaya-kusar",
+				"borno-shani",
+				"borno-bayo"
+			]
+		}
+	],
+	"reviewNotes": [
+		"Needs a written source for the date British rule reached this people.",
+		"Biu was a kingdom for nearly four centuries; it may deserve a polity of its own on the timeline."
+	],
+	"end": {
+		"text": "Under British rule Biu Division was created in 1918, and in 1920 the Mai, Ari Dogo, was recognised as the first Emir of Biu; Shani and Askira were added in 1957 to form the Biu federation.",
+		"sources": [
+			"wikipedia-biu-emirate"
+		],
+		"confidence": "high"
+	}
+}

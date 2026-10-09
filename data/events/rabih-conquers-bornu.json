@@ -1,0 +1,140 @@
+{
+	"name": "Rabih conquers Bornu",
+	"status": "draft",
+	"kind": "war",
+	"year": 1893,
+	"yearLabel": "1892–1900",
+	"until": 1902,
+	"actors": [
+		{
+			"name": "Rabih az-Zubayr",
+			"side": "attacker",
+			"ink": "#5a3a2a"
+		},
+		{
+			"name": "Bornu",
+			"polity": "kanem-bornu",
+			"side": "defender"
+		},
+		{
+			"name": "France",
+			"side": "colonial",
+			"ink": "#3a5a9a"
+		}
+	],
+	"summary": {
+		"text": "Rabih az-Zubayr, once a soldier of Egypt and a commander of the slaver Zubayr Pasha, led 400 men west in 1879 and built an army that crushed Bagirmi. In 1892–1894 he conquered Bornu, burned Kukawa in May 1893 and ruled from Dikwa through a brutal tax system that ruined Bornu's farms. In 1899 he killed a French column at Togbao and hanged a French envoy. On 22 April 1900 a French army with Bagirmi allies stormed his camp at Kousséri; Rabih was shot crossing the Chari and his head taken as a trophy. The French restored the al-Kanemi shehus, and in 1902 Bornu was divided among Britain, Germany and France.",
+		"sources": [
+			"wikipedia-rabih",
+			"wikipedia-battle-of-kousseri",
+			"wikipedia-kukawa",
+			"wikipedia-dikwa-emirate"
+		],
+		"confidence": "high"
+	},
+	"routes": [
+		{
+			"kind": "advance",
+			"by": "Rabih az-Zubayr",
+			"path": [
+				[
+					16.17,
+					11.4
+				],
+				[
+					15.03,
+					12.08
+				],
+				[
+					13.57,
+					12.93
+				]
+			],
+			"label": "From Bagirmi into Bornu",
+			"sources": [
+				"wikipedia-rabih"
+			],
+			"confidence": "medium"
+		},
+		{
+			"kind": "advance",
+			"by": "France",
+			"path": [
+				[
+					16.5,
+					11
+				],
+				[
+					15.03,
+					12.08
+				]
+			],
+			"label": "French columns converge on Kousséri",
+			"sources": [
+				"wikipedia-battle-of-kousseri"
+			],
+			"confidence": "medium"
+		}
+	],
+	"moments": [
+		{
+			"when": "May 1893",
+			"title": "Kukawa burned",
+			"text": "Rabih plunders and burns the capital; its people are killed, enslaved or scattered.",
+			"at": {
+				"name": "Kukawa",
+				"point": [
+					13.57,
+					12.93
+				]
+			},
+			"mark": "burned",
+			"sources": [
+				"wikipedia-kukawa"
+			],
+			"confidence": "high"
+		},
+		{
+			"when": "1893–1900",
+			"title": "Rabih at Dikwa",
+			"text": "Rabih makes Dikwa his capital.",
+			"at": {
+				"name": "Dikwa",
+				"point": [
+					13.92,
+					12.03
+				]
+			},
+			"mark": "garrison",
+			"sources": [
+				"wikipedia-rabih",
+				"wikipedia-kukawa"
+			],
+			"confidence": "high"
+		},
+		{
+			"when": "22 April 1900",
+			"title": "Kousséri",
+			"text": "Rabih is killed; the French commander Lamy also dies.",
+			"at": {
+				"name": "Kousséri",
+				"point": [
+					15.03,
+					12.08
+				]
+			},
+			"mark": "battle",
+			"sources": [
+				"wikipedia-battle-of-kousseri"
+			],
+			"confidence": "high"
+		}
+	],
+	"sources": [
+		"wikipedia-rabih",
+		"wikipedia-battle-of-kousseri",
+		"wikipedia-kukawa"
+	],
+	"confidence": "high",
+	"reviewNotes": []
+}

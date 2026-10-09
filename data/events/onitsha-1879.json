@@ -1,0 +1,27 @@
+{
+	"name": "A gunboat burns Onitsha",
+	"status": "draft",
+	"kind": "colonial",
+	"year": 1879,
+	"yearLabel": "1879",
+	"until": 1890,
+	"actors": [{ "name": "British forces", "side": "colonial" }, { "name": "Onitsha", "side": "defender" }],
+	"summary": {
+		"text": "When British traders at Onitsha tried to leave with their goods after disputes with the town, the chiefs refused and stores were plundered. The gunboat HMS Pioneer was sent up the Niger; when its men were attacked while loading the goods, its commander shelled and burned the town, as the government told Parliament in February 1880.",
+		"sources": ["hansard-1880-onitsha"],
+		"confidence": "medium"
+	},
+	"routes": [{ "kind": "advance", "by": "British forces", "path": [[6.5, 5.3], [6.75, 5.85], [6.785, 6.145]], "label": "HMS Pioneer steams up the Niger" }],
+	"moments": [
+		{
+			"when": "1879",
+			"title": "Onitsha shelled and burned",
+			"text": "The gunboat bombards the town and a landing party burns it.",
+			"at": { "name": "Onitsha", "point": [6.785, 6.145] },
+			"mark": "bombarded"
+		}
+	],
+	"sources": ["hansard-1880-onitsha"],
+	"confidence": "medium",
+	"note": "The account is the British government’s own, given in Parliament."
+}

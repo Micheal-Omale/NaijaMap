@@ -6,6 +6,7 @@
 		"Sokoto Sultanate",
 		"Fulani Empire"
 	],
+	"shortName": "Sokoto Caliphate",
 	"span": {
 		"from": 1804,
 		"to": 1903,
@@ -75,6 +76,124 @@
 			],
 			"confidence": "high",
 			"note": "The core is only the area around the first camps."
+		},
+		{
+			"year": 1808,
+			"yearLabel": "1808–1815",
+			"title": "Alkalawa falls; Sokoto is built",
+			"text": "Alkalawa, Gobir's capital, falls in October 1808 and Sarki Yunfa is killed. In 1809 Muhammad Bello, dan Fodio's son, founds Sokoto as the capital. The jihad sweeps east and south: Ngazargamu is burned in 1808, though al-Kanemi saves the rest of Bornu, and flag-bearers found emirates at Bauchi, Gombe, Katagum and Hadejia and in Adamawa.",
+			"capital": {
+				"name": "Sokoto",
+				"point": [
+					5.24,
+					13.06
+				]
+			},
+			"core": {
+				"states": [
+					"sokoto",
+					"zamfara",
+					"katsina",
+					"kano"
+				],
+				"lgas": [
+					"kebbi-gwandu",
+					"kebbi-aleiro",
+					"kebbi-jega",
+					"kebbi-kalgo",
+					"kebbi-bunza",
+					"kebbi-maiyama",
+					"kebbi-koko-besse",
+					"kebbi-birnin-kebbi",
+					"jigawa-dutse",
+					"jigawa-birnin-kudu",
+					"jigawa-gwaram",
+					"jigawa-jahun",
+					"jigawa-kiyawa",
+					"jigawa-ringim",
+					"jigawa-taura",
+					"jigawa-miga",
+					"jigawa-kazaure",
+					"jigawa-roni",
+					"jigawa-gwiwa",
+					"jigawa-yankwashi",
+					"jigawa-hadejia",
+					"jigawa-auyo",
+					"jigawa-kafin-hausa",
+					"jigawa-garki",
+					"jigawa-buji",
+					"kaduna-zaria",
+					"kaduna-sabon-gari",
+					"kaduna-giwa",
+					"kaduna-ikara",
+					"kaduna-kudan",
+					"kaduna-makarfi",
+					"kaduna-soba",
+					"kaduna-kubau",
+					"kaduna-igabi",
+					"bauchi-katagum",
+					"bauchi-jama-are",
+					"bauchi-itas-gadau",
+					"bauchi-gamawa",
+					"bauchi-shira",
+					"bauchi-giade",
+					"bauchi-misau",
+					"bauchi-bauchi",
+					"bauchi-ganjuwa",
+					"bauchi-darazo",
+					"bauchi-dambam",
+					"gombe-gombe",
+					"gombe-akko",
+					"gombe-yamaltu-deba",
+					"gombe-kwami",
+					"gombe-dukku",
+					"gombe-funakaye",
+					"gombe-nafada",
+					"adamawa-yola-north",
+					"adamawa-yola-south",
+					"adamawa-girei",
+					"adamawa-fufore"
+				]
+			},
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Alkalawa (Gobir)",
+						"point": [
+							6.25,
+							13.57
+						]
+					},
+					"label": "Alkalawa taken; Yunfa killed (1808)",
+					"sources": [
+						"wikipedia-sokoto-caliphate",
+						"wikipedia-gobir"
+					],
+					"confidence": "high"
+				},
+				{
+					"kind": "war",
+					"to": {
+						"name": "Ngazargamu",
+						"point": [
+							12.367,
+							13.083
+						]
+					},
+					"label": "Ngazargamu burned (1808)",
+					"sources": [
+						"wikipedia-sokoto-caliphate",
+						"wikipedia-al-kanemi"
+					],
+					"confidence": "high"
+				}
+			],
+			"sources": [
+				"wikipedia-sokoto-caliphate",
+				"wikipedia-gobir"
+			],
+			"confidence": "high"
 		},
 		{
 			"year": 1812,
@@ -174,10 +293,258 @@
 			"confidence": "medium"
 		},
 		{
+			"year": 1815,
+			"yearLabel": "1815–1835",
+			"title": "Two halves: Sokoto and Gwandu",
+			"text": "In 1815 Usman dan Fodio withdraws from government and divides the realm: his brother Abdullahi rules the west from Gwandu, his son Muhammad Bello the east from Sokoto. Dan Fodio dies in 1817. Hausa nobles revolt in 1816–1817, and Bello ends the risings by granting them land titles. He rules for a time from his ribat at Wurno and builds a chain of walled ribats with schools and markets to settle the Fulani and guard the frontiers. Ilorin joins the caliphate in 1823.",
+			"capital": {
+				"name": "Sokoto",
+				"point": [
+					5.24,
+					13.06
+				]
+			},
+			"core": {
+				"states": [
+					"sokoto",
+					"zamfara",
+					"katsina",
+					"kano"
+				],
+				"lgas": [
+					"kebbi-gwandu",
+					"kebbi-aleiro",
+					"kebbi-jega",
+					"kebbi-kalgo",
+					"kebbi-bunza",
+					"kebbi-maiyama",
+					"kebbi-koko-besse",
+					"kebbi-birnin-kebbi",
+					"jigawa-dutse",
+					"jigawa-birnin-kudu",
+					"jigawa-gwaram",
+					"jigawa-jahun",
+					"jigawa-kiyawa",
+					"jigawa-ringim",
+					"jigawa-taura",
+					"jigawa-miga",
+					"jigawa-kazaure",
+					"jigawa-roni",
+					"jigawa-gwiwa",
+					"jigawa-yankwashi",
+					"jigawa-hadejia",
+					"jigawa-auyo",
+					"jigawa-kafin-hausa",
+					"jigawa-garki",
+					"jigawa-buji",
+					"kaduna-zaria",
+					"kaduna-sabon-gari",
+					"kaduna-giwa",
+					"kaduna-ikara",
+					"kaduna-kudan",
+					"kaduna-makarfi",
+					"kaduna-soba",
+					"kaduna-kubau",
+					"kaduna-igabi",
+					"bauchi-katagum",
+					"bauchi-jama-are",
+					"bauchi-itas-gadau",
+					"bauchi-gamawa",
+					"bauchi-shira",
+					"bauchi-giade",
+					"bauchi-misau",
+					"bauchi-bauchi",
+					"bauchi-ganjuwa",
+					"bauchi-darazo",
+					"bauchi-dambam",
+					"gombe-gombe",
+					"gombe-akko",
+					"gombe-yamaltu-deba",
+					"gombe-kwami",
+					"gombe-dukku",
+					"gombe-funakaye",
+					"gombe-nafada",
+					"adamawa-yola-north",
+					"adamawa-yola-south",
+					"adamawa-girei",
+					"adamawa-fufore"
+				]
+			},
+			"nodes": [
+				{
+					"name": "Gwandu",
+					"point": [
+						4.64,
+						12.5
+					]
+				},
+				{
+					"name": "Wurno",
+					"point": [
+						5.42,
+						13.29
+					]
+				}
+			],
+			"links": [
+				{
+					"kind": "tribute",
+					"to": {
+						"name": "Gwandu",
+						"point": [
+							4.64,
+							12.5
+						]
+					},
+					"label": "Abdullahi's western half",
+					"sources": [
+						"wikipedia-sokoto-caliphate"
+					],
+					"confidence": "high"
+				},
+				{
+					"kind": "tribute",
+					"to": {
+						"name": "Ilorin",
+						"point": [
+							4.55,
+							8.5
+						]
+					},
+					"label": "Ilorin joins (1823)",
+					"sources": [
+						"wikipedia-sokoto-caliphate"
+					],
+					"confidence": "high"
+				}
+			],
+			"sources": [
+				"wikipedia-sokoto-caliphate"
+			],
+			"confidence": "high"
+		},
+		{
+			"year": 1836,
+			"yearLabel": "1836–1849",
+			"title": "Gawakuke",
+			"text": "Gobir's exiled kings and the Hausa king of Katsina at Maradi rise together in 1836. Sultan Bello crushes them at Gawakuke, near Isa, his last great victory before his death in 1837. Kebbi, still unbowed, keeps up its war from Argungu.",
+			"capital": {
+				"name": "Sokoto",
+				"point": [
+					5.24,
+					13.06
+				]
+			},
+			"core": {
+				"states": [
+					"sokoto",
+					"zamfara",
+					"katsina",
+					"kano"
+				],
+				"lgas": [
+					"kebbi-gwandu",
+					"kebbi-aleiro",
+					"kebbi-jega",
+					"kebbi-kalgo",
+					"kebbi-bunza",
+					"kebbi-maiyama",
+					"kebbi-koko-besse",
+					"kebbi-birnin-kebbi",
+					"jigawa-dutse",
+					"jigawa-birnin-kudu",
+					"jigawa-gwaram",
+					"jigawa-jahun",
+					"jigawa-kiyawa",
+					"jigawa-ringim",
+					"jigawa-taura",
+					"jigawa-miga",
+					"jigawa-kazaure",
+					"jigawa-roni",
+					"jigawa-gwiwa",
+					"jigawa-yankwashi",
+					"jigawa-hadejia",
+					"jigawa-auyo",
+					"jigawa-kafin-hausa",
+					"jigawa-garki",
+					"jigawa-buji",
+					"kaduna-zaria",
+					"kaduna-sabon-gari",
+					"kaduna-giwa",
+					"kaduna-ikara",
+					"kaduna-kudan",
+					"kaduna-makarfi",
+					"kaduna-soba",
+					"kaduna-kubau",
+					"kaduna-igabi",
+					"bauchi-katagum",
+					"bauchi-jama-are",
+					"bauchi-itas-gadau",
+					"bauchi-gamawa",
+					"bauchi-shira",
+					"bauchi-giade",
+					"bauchi-misau",
+					"bauchi-bauchi",
+					"bauchi-ganjuwa",
+					"bauchi-darazo",
+					"bauchi-dambam",
+					"gombe-gombe",
+					"gombe-akko",
+					"gombe-yamaltu-deba",
+					"gombe-kwami",
+					"gombe-dukku",
+					"gombe-funakaye",
+					"gombe-nafada",
+					"adamawa-yola-north",
+					"adamawa-yola-south",
+					"adamawa-girei",
+					"adamawa-fufore"
+				]
+			},
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Gawakuke",
+						"point": [
+							6.39,
+							13.28
+						]
+					},
+					"label": "Gobir and Katsina crushed (1836)",
+					"sources": [
+						"wikipedia-gobir",
+						"wikipedia-sokoto-caliphate"
+					],
+					"confidence": "high"
+				},
+				{
+					"kind": "war",
+					"to": {
+						"name": "Argungu",
+						"point": [
+							4.53,
+							12.74
+						]
+					},
+					"label": "War with Kebbi",
+					"sources": [
+						"wikipedia-kebbi-kingdom"
+					],
+					"confidence": "high"
+				}
+			],
+			"sources": [
+				"wikipedia-gobir",
+				"wikipedia-sokoto-caliphate"
+			],
+			"confidence": "high"
+		},
+		{
 			"year": 1850,
 			"yearLabel": "c. 1850",
 			"title": "The largest state in West Africa",
-			"text": "Ilorin has joined (1823), Fulani rule Nupe, and Adamawa reaches deep into today's Cameroon. Gwandu oversees the western emirates as far as Liptako. Emirs send yearly gifts to Sokoto, and the caliphate's slave-worked plantations feed a booming trade.",
+			"text": "Ilorin has joined (1823), Fulani rule Nupe, and Adamawa reaches deep into today's Cameroon. Gwandu oversees the western emirates as far as Liptako. Emirs send yearly gifts to Sokoto, and the caliphate's slave-worked plantations feed a booming trade. Emirs travel to Sokoto each year to swear allegiance and bring tribute in crops, cowries and slaves; by 1900 the caliphate holds at least a million and perhaps two and a half million slaves, second only to the United States among modern slave societies.",
 			"capital": {
 				"name": "Sokoto",
 				"point": [
@@ -439,10 +806,135 @@
 				"wikipedia-sokoto-caliphate",
 				"last-1967",
 				"hogben-kirk-greene-1966",
-				"ajayi-crowder-1985"
+				"ajayi-crowder-1985",
+				"wikipedia-sokoto-caliphate"
 			],
 			"confidence": "medium",
-			"note": "Hill peoples inside the emirates (Ningi, Jos Plateau, southern Zaria, Dakarkari) often stayed independent; LGA-level drawing hides those pockets."
+			"note": "Hill peoples inside the emirates (Ningi, Jos Plateau, southern Zaria, Dakarkari) often stayed independent; LGA-level drawing hides those pockets.",
+			"links": [
+				{
+					"kind": "tribute",
+					"to": {
+						"name": "Kano",
+						"point": [
+							8.52,
+							12
+						]
+					},
+					"label": "Kano's yearly gifts to Sokoto",
+					"sources": [
+						"wikipedia-sokoto-caliphate"
+					],
+					"confidence": "high"
+				},
+				{
+					"kind": "tribute",
+					"to": {
+						"name": "Zaria",
+						"point": [
+							7.7,
+							11.07
+						]
+					},
+					"label": "Zaria",
+					"sources": [
+						"wikipedia-sokoto-caliphate"
+					],
+					"confidence": "high"
+				},
+				{
+					"kind": "tribute",
+					"to": {
+						"name": "Katsina",
+						"point": [
+							7.6,
+							12.99
+						]
+					},
+					"label": "Katsina",
+					"sources": [
+						"wikipedia-sokoto-caliphate"
+					],
+					"confidence": "high"
+				},
+				{
+					"kind": "tribute",
+					"to": {
+						"name": "Bauchi",
+						"point": [
+							9.84,
+							10.31
+						]
+					},
+					"label": "Bauchi",
+					"sources": [
+						"wikipedia-sokoto-caliphate",
+						"wikipedia-bauchi-emirate"
+					],
+					"confidence": "high"
+				},
+				{
+					"kind": "tribute",
+					"to": {
+						"name": "Gombe",
+						"point": [
+							11.17,
+							10.29
+						]
+					},
+					"label": "Gombe",
+					"sources": [
+						"wikipedia-sokoto-caliphate",
+						"wikipedia-gombe-emirate"
+					],
+					"confidence": "high"
+				},
+				{
+					"kind": "tribute",
+					"to": {
+						"name": "Hadejia",
+						"point": [
+							10.04,
+							12.45
+						]
+					},
+					"label": "Hadejia",
+					"sources": [
+						"wikipedia-sokoto-caliphate"
+					],
+					"confidence": "high"
+				},
+				{
+					"kind": "tribute",
+					"to": {
+						"name": "Yola (Adamawa)",
+						"point": [
+							12.47,
+							9.21
+						]
+					},
+					"label": "Adamawa",
+					"sources": [
+						"wikipedia-sokoto-caliphate"
+					],
+					"confidence": "high"
+				},
+				{
+					"kind": "tribute",
+					"to": {
+						"name": "Gwandu",
+						"point": [
+							4.64,
+							12.5
+						]
+					},
+					"label": "Gwandu, overseer of the western emirates",
+					"sources": [
+						"wikipedia-sokoto-caliphate"
+					],
+					"confidence": "high"
+				}
+			]
 		},
 		{
 			"year": 1880,
@@ -684,9 +1176,187 @@
 			"confidence": "medium"
 		},
 		{
+			"year": 1891,
+			"yearLabel": "1891–1896",
+			"title": "A tottering caliphate?",
+			"text": "The French explorer Monteil visits Sokoto in 1891 and finds it at war with the emir of Argungu, whom it beats the next year; he judges Fulani power shaken by the war and by the unpopular new caliph, Abdurrahman. Europeans close in: Britain's Royal Niger Company holds the river, Germany pushes into Adamawa from Cameroon, and France sends columns along the northern edge.",
+			"capital": {
+				"name": "Sokoto",
+				"point": [
+					5.24,
+					13.06
+				]
+			},
+			"core": {
+				"states": [
+					"sokoto",
+					"zamfara",
+					"katsina",
+					"kano",
+					"jigawa"
+				],
+				"lgas": [
+					"kebbi-gwandu",
+					"kebbi-aleiro",
+					"kebbi-jega",
+					"kebbi-kalgo",
+					"kebbi-bunza",
+					"kebbi-maiyama",
+					"kebbi-koko-besse",
+					"kebbi-birnin-kebbi",
+					"kebbi-yauri",
+					"kebbi-shanga",
+					"kebbi-ngaski",
+					"kaduna-zaria",
+					"kaduna-sabon-gari",
+					"kaduna-giwa",
+					"kaduna-ikara",
+					"kaduna-kudan",
+					"kaduna-makarfi",
+					"kaduna-soba",
+					"kaduna-kubau",
+					"kaduna-igabi",
+					"kaduna-kaduna-north",
+					"kaduna-kaduna-south",
+					"kaduna-lere",
+					"kaduna-jema-a",
+					"kaduna-kachia",
+					"kaduna-birnin-gwari",
+					"bauchi-katagum",
+					"bauchi-jama-are",
+					"bauchi-itas-gadau",
+					"bauchi-gamawa",
+					"bauchi-shira",
+					"bauchi-giade",
+					"bauchi-misau",
+					"bauchi-bauchi",
+					"bauchi-ganjuwa",
+					"bauchi-darazo",
+					"bauchi-dambam",
+					"bauchi-zaki",
+					"bauchi-kirfi",
+					"bauchi-alkaleri",
+					"bauchi-toro",
+					"bauchi-warji",
+					"gombe-gombe",
+					"gombe-akko",
+					"gombe-yamaltu-deba",
+					"gombe-kwami",
+					"gombe-dukku",
+					"gombe-funakaye",
+					"gombe-nafada",
+					"adamawa-yola-north",
+					"adamawa-yola-south",
+					"adamawa-girei",
+					"adamawa-fufore",
+					"adamawa-song",
+					"adamawa-mayo-belwa",
+					"adamawa-jada",
+					"adamawa-ganye",
+					"adamawa-toungo",
+					"adamawa-gombi",
+					"adamawa-hong",
+					"adamawa-mubi-north",
+					"adamawa-mubi-south",
+					"adamawa-maiha",
+					"taraba-jalingo",
+					"taraba-ardo-kola",
+					"taraba-lau",
+					"taraba-gassol",
+					"taraba-karim-lamido",
+					"taraba-gashaka",
+					"plateau-wase",
+					"nasarawa-keffi",
+					"nasarawa-nasarawa",
+					"nasarawa-lafia",
+					"nasarawa-karu",
+					"nasarawa-kokona",
+					"nasarawa-doma",
+					"niger-bida",
+					"niger-lavun",
+					"niger-gbako",
+					"niger-katcha",
+					"niger-edati",
+					"niger-agaie",
+					"niger-lapai",
+					"niger-mokwa",
+					"niger-kontagora",
+					"niger-mariga",
+					"niger-wushishi",
+					"niger-magama",
+					"niger-rijau",
+					"niger-mashegu",
+					"kwara-ilorin-west",
+					"kwara-ilorin-east",
+					"kwara-ilorin-south",
+					"kwara-asa",
+					"kwara-moro",
+					"kwara-edu",
+					"kwara-pategi"
+				],
+				"beyond": [
+					[
+						[
+							11.8,
+							10.6
+						],
+						[
+							13.6,
+							10.9
+						],
+						[
+							14.6,
+							9.6
+						],
+						[
+							15.2,
+							8
+						],
+						[
+							14.6,
+							6.4
+						],
+						[
+							12.6,
+							6
+						],
+						[
+							11.4,
+							6.8
+						],
+						[
+							11.6,
+							8.6
+						]
+					]
+				]
+			},
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Argungu",
+						"point": [
+							4.53,
+							12.74
+						]
+					},
+					"label": "Argungu beaten (1892)",
+					"sources": [
+						"wikipedia-sokoto-caliphate"
+					],
+					"confidence": "high"
+				}
+			],
+			"sources": [
+				"wikipedia-sokoto-caliphate"
+			],
+			"confidence": "medium"
+		},
+		{
 			"year": 1897,
 			"title": "The Royal Niger Company takes Bida and Ilorin",
-			"text": "British company troops capture Bida and Ilorin in 1897. Lugard's West African Frontier Force takes Kano and Sokoto in 1903; Caliph Attahiru I dies resisting at Burmi that July.",
+			"text": "British company troops capture Bida and Ilorin in 1897. Lugard turns rivalries between the southern emirs and Sokoto against the caliphate as his West African Frontier Force marches north. Kano falls in February 1903 and Sokoto in March; on 13 March the last vizier concedes to British rule in Sokoto's market square. Caliph Attahiru I leads thousands east on a hijra towards the Nile, joined by Muslims from Hausaland, Massina and Adamawa, and dies fighting at Burmi in July. The British make Attahiru II sultan and keep the title, but abolish the caliphate.",
 			"capital": {
 				"name": "Sokoto",
 				"point": [
@@ -755,31 +1425,27 @@
 				{
 					"kind": "war",
 					"to": {
-						"name": "Bida",
+						"name": "Burmi",
 						"point": [
-							6.01,
-							9.08
+							11.03,
+							10.48
 						]
 					},
-					"label": "Bida falls (1897)"
-				},
-				{
-					"kind": "war",
-					"to": {
-						"name": "Ilorin",
-						"point": [
-							4.55,
-							8.5
-						]
-					},
-					"label": "Ilorin falls (1897)"
+					"label": "Attahiru I killed at Burmi (1903)",
+					"sources": [
+						"wikipedia-sokoto-caliphate",
+						"wikipedia-muhammadu-attahiru-ii"
+					],
+					"confidence": "high"
 				}
 			],
 			"sources": [
 				"wikipedia-sokoto-caliphate",
-				"adeleye-1971"
+				"adeleye-1971",
+				"wikipedia-sokoto-caliphate"
 			],
-			"confidence": "high"
+			"confidence": "high",
+			"note": "Told in full as an event on the timeline."
 		}
 	],
 	"today": {

@@ -1,0 +1,114 @@
+{
+	"name": "Bornu besieges Surame",
+	"status": "draft",
+	"kind": "war",
+	"year": 1530,
+	"yearLabel": "Kanta's reign (c. 1530–1561)",
+	"until": 1561,
+	"actors": [
+		{
+			"name": "Bornu",
+			"polity": "kanem-bornu",
+			"side": "attacker"
+		},
+		{
+			"name": "Kebbi",
+			"polity": "kebbi",
+			"side": "defender"
+		}
+	],
+	"summary": {
+		"text": "Bornu, once overlord of Hausaland, saw Kanta's empire as a threat to its hold on the Saharan trade. A Bornu army chased Kanta's forces across Hausaland to Surame and besieged it. When the Bornu commander prepared his final assault, he saw the walls lined with defenders grinning at him. Many were dead men, propped up with their lips slit. Believing the Kebbawa far stronger than he thought, he lifted the siege: the origin of the Hausa saying “dariya ba loto”, laughter without end. In another battle Mai Muhammad is said to have fielded 100,000 men. Kanta died of a wound taken near Katsina on his own campaign against Bornu.",
+		"sources": [
+			"wikipedia-kanta-kotal"
+		],
+		"confidence": "medium"
+	},
+	"routes": [
+		{
+			"kind": "advance",
+			"by": "Bornu",
+			"path": [
+				[
+					12.367,
+					13.083
+				],
+				[
+					8.52,
+					12
+				],
+				[
+					4.899,
+					13.088
+				]
+			],
+			"label": "Bornu's army across Hausaland to Surame",
+			"sources": [
+				"wikipedia-kanta-kotal"
+			],
+			"confidence": "medium"
+		},
+		{
+			"kind": "retreat",
+			"by": "Bornu",
+			"path": [
+				[
+					4.899,
+					13.088
+				],
+				[
+					12.367,
+					13.083
+				]
+			],
+			"label": "The siege lifted",
+			"sources": [
+				"wikipedia-kanta-kotal"
+			],
+			"confidence": "medium"
+		}
+	],
+	"moments": [
+		{
+			"when": "Reign of Idris Katakarmabi or Ali II",
+			"title": "Laughter without end",
+			"text": "The Bornu commander turns back from walls lined with grinning dead.",
+			"at": {
+				"name": "Surame",
+				"point": [
+					4.899,
+					13.088
+				]
+			},
+			"mark": "battle",
+			"sources": [
+				"wikipedia-kanta-kotal"
+			],
+			"confidence": "disputed"
+		},
+		{
+			"when": "1550s",
+			"title": "Kanta's last campaign",
+			"text": "Wounded near Katsina fighting Bornu, Kanta dies on the way home; his men build false tombs to hide his grave.",
+			"at": {
+				"name": "Katsina",
+				"point": [
+					7.6,
+					12.99
+				]
+			},
+			"mark": "battle",
+			"sources": [
+				"wikipedia-kanta-kotal"
+			],
+			"confidence": "medium"
+		}
+	],
+	"sources": [
+		"wikipedia-kanta-kotal"
+	],
+	"confidence": "medium",
+	"reviewNotes": [
+		"The grinning-dead story is tradition; Bornu sources have not been checked."
+	]
+}

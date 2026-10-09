@@ -1,0 +1,85 @@
+{
+	"name": "Bida",
+	"status": "draft",
+	"otherNames": [
+		"Bida Banin"
+	],
+	"point": [
+		6.01,
+		9.085
+	],
+	"founded": {
+		"year": 1450,
+		"yearLabel": "a Bini city-state before Tsoede",
+		"sources": [
+			"sidi-2023-nupe"
+		],
+		"confidence": "medium"
+	},
+	"summary": {
+		"text": "Bida was one of the Bini city-states of the Nupe heartland, a small walled town that served as a war camp. In 1857 the Fulani princes Umaru Majigi and Usman Zaki, allied with the Bini towns, defeated the usurper Umaru Bahaushe around it, and Bida became the capital of Nupe. Under Masaba it grew into the largest and richest emirate of the middle Niger, until the Royal Niger Company took it in January 1897.",
+		"sources": [
+			"sidi-2023-nupe",
+			"idrees-1989-bida",
+			"wikipedia-bida-emirate"
+		],
+		"confidence": "high"
+	},
+	"founders": [
+		{
+			"people": "Nupe (Bini)",
+			"group": "nupe",
+			"text": "One of the Bini confederacy’s city-states, Bida Banin.",
+			"sources": [
+				"sidi-2023-nupe"
+			],
+			"confidence": "medium"
+		},
+		{
+			"people": "Fulani (Dendo’s heirs)",
+			"group": "fulani",
+			"polity": "nupe",
+			"from": {
+				"name": "Raba",
+				"point": [
+					5.03,
+					9.211
+				]
+			},
+			"quarters": [
+				"the three Fulani ruling houses"
+			],
+			"text": "Mallam Dendo’s descendants made it their capital in 1857 and founded its three ruling houses.",
+			"sources": [
+				"sidi-2023-nupe"
+			],
+			"confidence": "high"
+		}
+	],
+	"under": [
+		{
+			"polity": "nupe",
+			"from": 1531,
+			"to": 1857,
+			"kind": "ruled",
+			"text": "A Bini town of Tsoede’s kingdom.",
+			"sources": [
+				"sidi-2023-nupe"
+			],
+			"confidence": "medium"
+		},
+		{
+			"polity": "nupe",
+			"from": 1857,
+			"to": 1901,
+			"kind": "ruled",
+			"text": "Capital of the Nupe emirate.",
+			"sources": [
+				"sidi-2023-nupe",
+				"wikipedia-bida-emirate"
+			],
+			"confidence": "high"
+		}
+	],
+	"reviewNotes": []
+}

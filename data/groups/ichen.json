@@ -1,6 +1,23 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Ichen of Takum",
+			"lga": "taraba-takum",
+			"villages": [],
+			"sources": [
+				"wikipedia-takum"
+			],
+			"confidence": "medium",
+			"history": {
+				"text": "The Ichen are one of the major peoples of Takum LGA.",
+				"sources": [
+					"wikipedia-takum"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Ichen",
 	"searchAliases": [

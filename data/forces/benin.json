@@ -1,0 +1,111 @@
+{
+	"status": "draft",
+	"of": "polity",
+	"terrain": "forest",
+	"summary": {
+		"text": "Benin made war from the forest. The Oba commanded regiments in the capital and the palace, the Ezomo and the Iyase led the field armies, villages sent their levies, and canoes carried troops through the creeks and lagoons. Benin City sat inside one of the largest earthworks in the world.",
+		"sources": [
+			"wikipedia-kingdom-of-benin",
+			"ryder-1969"
+		],
+		"confidence": "high"
+	},
+	"arms": [
+		{
+			"kind": "standing",
+			"level": 3,
+			"text": "A Metropolitan Regiment, a Royal Regiment of picked warriors and the Iyoba’s own, with village regiments called up for war, under the Ezomo and Iyase.",
+			"sources": [
+				"wikipedia-kingdom-of-benin"
+			],
+			"confidence": "high"
+		},
+		{
+			"kind": "walls",
+			"level": 3,
+			"text": "About twelve kilometres of walls and moats round the city, and earthworks across the countryside.",
+			"sources": [
+				"wikipedia-kingdom-of-benin"
+			],
+			"confidence": "high"
+		},
+		{
+			"kind": "firearms",
+			"level": 2,
+			"from": 1515,
+			"text": "Portuguese musketeers fought for Esigie in 1515–1517; Benin went on buying guns and cannon, and its smiths tried making light firearms.",
+			"sources": [
+				"wikipedia-kingdom-of-benin",
+				"wikipedia-igala-benin-war",
+				"ryder-1969"
+			],
+			"confidence": "high"
+		},
+		{
+			"kind": "canoes",
+			"level": 2,
+			"from": 1440,
+			"text": "Troops moved by canoe through the lagoons and creeks; Benin’s wars ran west along the lagoons to Lagos.",
+			"sources": [
+				"wikipedia-kingdom-of-benin",
+				"ryder-1969"
+			],
+			"confidence": "medium"
+		},
+		{
+			"kind": "allies",
+			"level": 2,
+			"from": 1440,
+			"text": "Tributaries from the Niger to Lagos owed tribute and men at the height.",
+			"sources": [
+				"wikipedia-kingdom-of-benin",
+				"ryder-1969"
+			],
+			"confidence": "medium"
+		}
+	],
+	"record": [
+		{
+			"year": 1517,
+			"yearLabel": "1515–1517",
+			"polity": "igala",
+			"event": "igala-benin-war",
+			"against": "Igala",
+			"result": "held",
+			"text": "An Igala army crossed the Niger and nearly overran Benin; Esigie, with Portuguese musketeers, drove it back across the river.",
+			"sources": [
+				"wikipedia-igala-benin-war",
+				"wikipedia-kingdom-of-benin",
+				"ryder-1969"
+			],
+			"confidence": "high"
+		},
+		{
+			"year": 1550,
+			"yearLabel": "c. 1550",
+			"event": "orhogbua-eko",
+			"against": "The Awori of Lagos island",
+			"result": "won",
+			"text": "Orhogbua’s armies made Lagos island a Benin war camp, Eko.",
+			"sources": [
+				"wikipedia-orhogbua",
+				"ryder-1969"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1897,
+			"event": "benin-expedition-1897",
+			"against": "British",
+			"result": "lost",
+			"text": "A British punitive expedition took and burned Benin City and exiled Oba Ovonramwen.",
+			"sources": [
+				"wikipedia-benin-expedition-1897"
+			],
+			"confidence": "high"
+		}
+	],
+	"reviewNotes": [
+		"Arms levels (1 some, 2 a real strength, 3 famous for it) are the compiler’s judgement from the sources, for the Versus page’s guess; please check them."
+	]
+}

@@ -1,0 +1,44 @@
+{
+	"status": "draft",
+	"title": "Och’Idoma",
+	"kind": "created",
+	"year": 1947,
+	"yearLabel": "elected 10 October 1947, installed 3 February 1949",
+	"seat": {
+		"name": "Otukpo",
+		"point": [
+			8.13,
+			7.19
+		]
+	},
+	"by": "the Idoma clan heads, under British rule",
+	"first": "Agabaidu Ogiri Oko",
+	"groups": [
+		"idoma"
+	],
+	"text": "Each Idoma community had its own government of elders and no ruler stood over them all. Under British rule the twenty-two district clan heads, brought together in a traditional council, elected the first Och’Idoma, Agabaidu Ogiri Oko, on 10 October 1947. The Acting Resident of Benue Province installed him on 3 February 1949. His successor, Ajene Okpabi, received his staff of office from Queen Elizabeth II in 1960.",
+	"sources": [
+		"itodo-2021-idoma-timeline",
+		"wikipedia-idoma-people"
+	],
+	"confidence": "high",
+	"crowned": {
+		"by": "the Attah Igala at Idah (one account)",
+		"at": {
+			"name": "Idah, the Attah’s palace",
+			"point": [
+				6.737,
+				7.117
+			]
+		},
+		"text": "By the owner’s account, Ogiri Oko, whose lineage claims Igala descent, went to Idah and was crowned and given his royal staff by the Attah Igala, who beaded only rulers of Igala royal blood. The Idoma records consulted name only his installation by the Acting Resident, D. F. H. McBride, and say nothing of Idah.",
+		"sources": [
+			"owner-2026-10-08-ochidoma",
+			"itodo-2021-idoma-timeline"
+		],
+		"confidence": "disputed"
+	},
+	"reviewNotes": [
+		"A written source for the Attah crowning Ogiri Oko at Idah is needed; Idoma Voice’s colonial timeline does not mention it."
+	]
+}

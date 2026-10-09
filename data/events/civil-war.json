@@ -1,0 +1,107 @@
+{
+	"name": "The Nigerian Civil War (Biafra)",
+	"status": "draft",
+	"kind": "war",
+	"year": 1967,
+	"yearLabel": "6 July 1967 – 15 January 1970",
+	"until": 1970,
+	"actors": [
+		{ "name": "Federal Nigeria (Yakubu Gowon)", "side": "attacker", "ink": "#2e6b3f" },
+		{ "name": "Nigerian 1st Division (Mohammed Shuwa)", "side": "attacker", "ink": "#2e6b3f" },
+		{ "name": "Nigerian 3rd Marine Commando (Benjamin Adekunle, then Olusegun Obasanjo)", "side": "attacker", "ink": "#2e6b3f" },
+		{ "name": "Nigerian 2nd Division (Murtala Muhammed)", "side": "attacker", "ink": "#2e6b3f" },
+		{ "name": "Biafra (Odumegwu Ojukwu; Philip Effiong; Alexander Madiebo)", "side": "defender", "ink": "#b8860b" }
+	],
+	"summary": {
+		"text": "Nigeria called it a ‘police action’. On 6 July 1967 the 1st Division under Mohammed Shuwa invaded Biafra from the north, taking Nsukka on 14 July and the capital, Enugu, on 4 October. Ojukwu moved his government to Umuahia. From the sea, Benjamin Adekunle’s 3rd Marine Commando took Bonny in July 1967, Calabar in October and Port Harcourt in May 1968. With the coast lost, Nigeria’s blockade starved Biafra as a deliberate policy, and pictures of starving Biafran children went round the world on television. Night relief flights landed on a road at Uli. Biafra fought on and won at Abagana, where a 106-vehicle convoy of the 2nd Division was destroyed in March 1968, and at Owerri, retaken in April 1969. Britain and the Soviet Union armed Nigeria, while French arms reached Biafra through Gabon. The 3rd Marine Commando, now under Olusegun Obasanjo, cut the enclave in two in December 1969. Operation Tail-Wind took Owerri on 9 January 1970 and Uli on 11 January. Ojukwu flew to Ivory Coast, and Philip Effiong surrendered on 13–15 January. About 100,000 soldiers died, and between 500,000 and 2 million Biafran civilians died of starvation.",
+		"sources": ["wikipedia-nigerian-civil-war", "wikipedia-operation-tail-wind", "wikipedia-abagana-ambush", "wikipedia-invasion-of-port-harcourt", "wikipedia-siege-of-owerri", "wikipedia-uga-uli"],
+		"confidence": "high"
+	},
+	"routes": [
+		{ "kind": "advance", "by": "Nigerian 1st Division (Mohammed Shuwa)", "path": [[7.535, 6.921], [7.396, 6.857]], "label": "The war opens: the 1st Division takes Nsukka", "when": "6–14 July 1967", "sources": ["wikipedia-nigerian-civil-war"], "confidence": "high" },
+		{ "kind": "advance", "by": "Nigerian 1st Division (Mohammed Shuwa)", "path": [[8.9, 6.75], [8.85, 6.7], [8.798, 6.657]], "label": "Gakem, Obudu and Ogoja taken", "when": "July 1967", "sources": ["wikipedia-nigerian-civil-war"], "confidence": "high" },
+		{ "kind": "advance", "by": "Nigerian 1st Division (Mohammed Shuwa)", "path": [[7.396, 6.857], [7.45, 6.65], [7.49, 6.45]], "label": "Enugu, the Biafran capital, falls", "when": "4 October 1967", "sources": ["wikipedia-nigerian-civil-war"], "confidence": "high" },
+		{ "kind": "advance", "by": "Nigerian 3rd Marine Commando (Benjamin Adekunle, then Olusegun Obasanjo)", "path": [[6.8, 4.2], [7.17, 4.43]], "label": "Marines take Bonny and its oil terminal", "when": "July 1967", "sources": ["wikipedia-nigerian-civil-war"], "confidence": "high" },
+		{ "kind": "advance", "by": "Nigerian 3rd Marine Commando (Benjamin Adekunle, then Olusegun Obasanjo)", "path": [[8.0, 4.5], [8.32, 4.95]], "label": "Calabar invaded (Operation Tiger Claw)", "when": "17–20 October 1967", "sources": ["wikipedia-nigerian-civil-war"], "confidence": "high" },
+		{ "kind": "advance", "by": "Nigerian 3rd Marine Commando (Benjamin Adekunle, then Olusegun Obasanjo)", "path": [[7.17, 4.43], [7.05, 4.65], [7.0, 4.8]], "label": "Port Harcourt captured", "when": "19 May 1968", "sources": ["wikipedia-invasion-of-port-harcourt", "wikipedia-nigerian-civil-war"], "confidence": "high" },
+		{ "kind": "advance", "by": "Nigerian 3rd Marine Commando (Benjamin Adekunle, then Olusegun Obasanjo)", "path": [[7.0, 4.8], [7.3, 5.0], [7.37, 5.11]], "label": "Operation OAU: Aba taken", "when": "September 1968", "sources": ["wikipedia-siege-of-owerri"], "confidence": "high" },
+		{ "kind": "advance", "by": "Nigerian 3rd Marine Commando (Benjamin Adekunle, then Olusegun Obasanjo)", "path": [[7.0, 4.8], [7.0, 5.2], [7.03, 5.48]], "label": "Operation OAU: Owerri taken, then besieged", "when": "16 September 1968", "sources": ["wikipedia-siege-of-owerri"], "confidence": "high" },
+		{ "kind": "advance", "by": "Nigerian 2nd Division (Murtala Muhammed)", "path": [[6.737, 7.117], [6.9, 6.6], [6.78, 6.15]], "label": "The 2nd Division crosses the Niger at Idah and takes Onitsha overland", "when": "December 1967 – March 1968", "sources": ["wikipedia-abagana-ambush"], "confidence": "high" },
+		{ "kind": "advance", "by": "Nigerian 2nd Division (Murtala Muhammed)", "path": [[6.78, 6.15], [6.994, 6.182]], "label": "The convoy toward Enugu, ambushed at Abagana", "when": "31 March 1968", "sources": ["wikipedia-abagana-ambush"], "confidence": "high" },
+		{ "kind": "advance", "by": "Nigerian 3rd Marine Commando (Benjamin Adekunle, then Olusegun Obasanjo)", "path": [[7.0, 4.8], [7.03, 5.48], [6.85, 5.8]], "label": "Operation Tail-Wind: Owerri and Uli", "when": "7–12 January 1970", "sources": ["wikipedia-operation-tail-wind"], "confidence": "high" }
+	],
+	"moments": [
+		{
+			"when": "4 October 1967",
+			"title": "Enugu falls",
+			"text": "The 1st Division takes the Biafran capital. Ojukwu escapes disguised as a servant and moves the government to Umuahia.",
+			"at": { "name": "Enugu", "point": [7.49, 6.45] },
+			"mark": "captured",
+			"sources": ["wikipedia-nigerian-civil-war"]
+		},
+		{
+			"when": "31 March 1968",
+			"title": "The Abagana ambush",
+			"text": "Major Jonathan Uchendu’s small Biafran unit, with home-made ogbunigwe rockets, destroys a 106-vehicle convoy carrying 6,000 men of the 2nd Division. Murtala Muhammed is among the few survivors.",
+			"at": { "name": "Abagana", "point": [6.994, 6.182] },
+			"mark": "battle",
+			"sources": ["wikipedia-abagana-ambush"]
+		},
+		{
+			"when": "19 May 1968",
+			"title": "Port Harcourt lost",
+			"text": "With Port Harcourt gone, Biafra loses its last seaport and airport and is sealed in. Hunger spreads through the enclave.",
+			"at": { "name": "Port Harcourt", "point": [7.0, 4.8] },
+			"mark": "captured",
+			"sources": ["wikipedia-invasion-of-port-harcourt", "wikipedia-nigerian-civil-war"]
+		},
+		{
+			"when": "1968–1970",
+			"title": "Uli, ‘Annabelle’",
+			"text": "A stretch of the Owerri–Ihiala road becomes Biafra’s airstrip, open only at night. Relief and arms flights land under fire, and it becomes the symbol of Biafra’s survival.",
+			"at": { "name": "Uli", "point": [6.85, 5.8] },
+			"mark": "camp",
+			"sources": ["wikipedia-uga-uli"]
+		},
+		{
+			"when": "25 April 1969",
+			"title": "Owerri retaken",
+			"text": "After a six-month siege under Brigadier Alexander Madiebo, with Colonel Ogbugo Kalu’s 14th Division, Biafra recaptures Owerri.",
+			"at": { "name": "Owerri", "point": [7.03, 5.48] },
+			"mark": "battle",
+			"sources": ["wikipedia-siege-of-owerri"]
+		},
+		{
+			"when": "24 December 1969",
+			"title": "Umuahia falls",
+			"text": "After taking Oguta in October, federal forces invade Umuahia, Biafra’s capital since Enugu fell, on 24 December 1969. The government moves to Owerri for its last weeks.",
+			"at": { "name": "Umuahia", "point": [7.49, 5.53] },
+			"mark": "captured",
+			"sources": ["wikipedia-invasion-of-umuahia"]
+		},
+		{
+			"when": "8–11 January 1970",
+			"title": "Ojukwu leaves",
+			"text": "As Owerri falls, Ojukwu flies out of Uli into exile in Ivory Coast, leaving his deputy Philip Effiong to end the war.",
+			"at": { "name": "Uli", "point": [6.85, 5.8] },
+			"mark": "exile",
+			"sources": ["wikipedia-operation-tail-wind", "wikipedia-nigerian-civil-war"]
+		},
+		{
+			"when": "13–15 January 1970",
+			"title": "Surrender",
+			"text": "Philip Effiong, Ojukwu’s deputy, surrenders to Obasanjo on 13 January; the surrender is signed in Lagos on 14 January. Gowon calls for national reconciliation: ‘we are at the dawn of national reconciliation.’",
+			"at": { "name": "Amichi (approximate)", "point": [6.9, 5.95] },
+			"mark": "treaty",
+			"sources": ["wikipedia-operation-tail-wind", "wikipedia-nigerian-civil-war"]
+		}
+	],
+	"area": { "states": ["abia", "anambra", "ebonyi", "enugu", "imo", "rivers", "bayelsa", "cross-river", "akwa-ibom"] },
+	"sources": ["wikipedia-nigerian-civil-war", "wikipedia-operation-tail-wind", "wikipedia-abagana-ambush", "wikipedia-invasion-of-port-harcourt", "wikipedia-siege-of-owerri", "wikipedia-invasion-of-umuahia", "wikipedia-uga-uli"],
+	"confidence": "high",
+	"note": "The area is the Eastern Region that Biafra claimed in 1967; the land Biafra actually held shrank every year. Death tolls are estimates.",
+	"reviewNotes": [
+		"The place of Effiong’s first surrender is drawn approximately; sources name both Obasanjo’s headquarters and Lagos (Dodan Barracks).",
+		"Check troop numbers and dates against a dedicated history, for example Siollun or de St. Jorre."
+	]
+}

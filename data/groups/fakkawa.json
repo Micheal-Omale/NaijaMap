@@ -1,6 +1,21 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Fakai",
+			"lga": "kebbi-fakai",
+			"point": [
+				5.112,
+				11.508
+			],
+			"villages": [],
+			"sources": [
+				"amfani-2018",
+				"grid3-settlement-names"
+			],
+			"confidence": "medium"
+		}
+	],
 	"reviewNotes": [],
 	"name": "Fakkawa",
 	"searchAliases": [

@@ -1,0 +1,47 @@
+{
+	"name": "Ondo",
+	"status": "draft",
+	"groups": [
+		"yoruba"
+	],
+	"rule": "kingdoms",
+	"span": {
+		"from": 1500,
+		"to": 1899,
+		"fromLabel": "16th century",
+		"toLabel": "1890s",
+		"sources": [
+			"wikipedia-ondo-kingdom"
+		],
+		"confidence": "medium",
+		"note": "The end is approximate."
+	},
+	"summary": {
+		"text": "The Ondo kingdom traces itself to Princess Pupupu: in the town's tradition a wife of Oduduwa, in Samuel Johnson's account a wife of Ajaka of Oyo, exiled from Oyo or Ife because she bore twins, she journeyed south to Ile-Oluji and became the first ruler in the 16th century. A coup set her son Airo (Aiho) on the throne; he built the palace, and the Osemawe is still chosen from the houses of his sons, ruling through six high chiefs, the Lisa, Jomo, Odunwo, Sasere, Adaja and Odofin. Before the 1800s Ondo was unusual in the region for a council system that rotated leadership among houses, a council of women, and open land: all land was the king's, but any man could farm it with the nearest chief's leave.",
+		"sources": [
+			"wikipedia-ondo-kingdom"
+		],
+		"confidence": "medium"
+	},
+	"end": {
+		"text": "As Oyo's fall filled the forest with refugees and the slave trade grew, wealth came to rest on slaveholding, and Ondo fell into conflict from 1845 to 1872, with rapid changes of ruler, wars with its neighbours and three moves of the capital; from 1865 to 1885 its people fled to Oke Opa. From 1870 the Lagos administrator John Glover sought a new trade road through Ondo and in 1872 brokered peace with Ife; missions followed in 1875. The Osemawe signed a free-trade agreement with Lagos in 1889, and in 1899 Ondo came under the Lagos protectorate.",
+		"sources": [
+			"wikipedia-ondo-kingdom"
+		],
+		"confidence": "high"
+	},
+	"lands": [
+		{
+			"from": 1500,
+			"lgas": [
+				"ondo-ondo-west",
+				"ondo-ondo-east",
+				"ondo-ile-oluji-okeigbo",
+				"ondo-odigbo"
+			]
+		}
+	],
+	"reviewNotes": [
+		"Needs a written source for the date British rule reached this people."
+	]
+}

@@ -1,6 +1,239 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Auchi",
+			"lga": "edo-etsako-west",
+			"point": [
+				6.27,
+				7.07
+			],
+			"villages": [
+				{
+					"name": "Utsogu"
+				},
+				{
+					"name": "Akpekpe"
+				},
+				{
+					"name": "Aibotse"
+				},
+				{
+					"name": "Igbhei"
+				},
+				{
+					"name": "Iyekhei"
+				}
+			],
+			"sources": [
+				"wikipedia-auchi"
+			],
+			"confidence": "high",
+			"note": "Point is the town centre, approximate.",
+			"history": {
+				"text": "Headquarters of Etsako West and, under British rule, of the Kukuruku Division; the town is made up of five quarters. Home of Auchi Polytechnic.",
+				"sources": [
+					"wikipedia-auchi"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Jattu (Uzairue)",
+			"lga": "edo-etsako-west",
+			"point": [
+				6.295,
+				7.093
+			],
+			"villages": [
+				{
+					"name": "Afowa"
+				},
+				{
+					"name": "Elele"
+				},
+				{
+					"name": "Iyamho"
+				},
+				{
+					"name": "Ogbido"
+				},
+				{
+					"name": "Ayua"
+				},
+				{
+					"name": "Afashio"
+				},
+				{
+					"name": "Ikabigbo"
+				},
+				{
+					"name": "Imeke"
+				}
+			],
+			"sources": [
+				"wikipedia-jattu",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Headquarters of the Uzairue clan of twenty-one villages and seat of its ruler, the Ogieneni; Jattu's new market is reckoned the largest in Afemailand.",
+				"sources": [
+					"wikipedia-jattu"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Agbede",
+			"lga": "edo-etsako-west",
+			"point": [
+				6.264,
+				6.864
+			],
+			"villages": [],
+			"sources": [
+				"grid3-settlement-names",
+				"oriire-2025-esan-nupe",
+				"idrees-1989-bida"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "The Nupe army's base in Afemai in the late 19th century, from which, by Esan tradition, it raided Esanland; Agbede has remained Muslim.",
+				"sources": [
+					"oriire-2025-esan-nupe"
+				],
+				"confidence": "disputed"
+			}
+		},
+		{
+			"name": "Okpella",
+			"lga": "edo-etsako-east",
+			"villages": [
+				{
+					"name": "Ogute-Oke"
+				},
+				{
+					"name": "Awuyemi"
+				},
+				{
+					"name": "Imiekuri"
+				},
+				{
+					"name": "Igiase"
+				},
+				{
+					"name": "Imiegeli"
+				},
+				{
+					"name": "Okhu"
+				},
+				{
+					"name": "Komunio"
+				},
+				{
+					"name": "Iddo"
+				}
+			],
+			"sources": [
+				"wikipedia-okpella"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "A clan of two sub-clans, Ogute and Oteku, on the Benin–Abuja road, speaking Okpella, an Edoid language. Its people worship a supreme god, Eshinegba.",
+				"sources": [
+					"wikipedia-okpella"
+				],
+				"confidence": "high"
+			},
+			"livelihoods": {
+				"text": "Farming (yams, cassava, tomatoes, ogbono) and mining of its limestone, marble and granite; the Ewo market meets every fourth day.",
+				"sources": [
+					"wikipedia-okpella"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Weppa Wanno",
+			"lga": "edo-etsako-east",
+			"villages": [],
+			"sources": [
+				"wikipedia-weppa-wanno"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "The Uwano people say they left Benin in the 16th century under General Adaobi, in the exodus from Ewuare's harsh rule. Before colonial rule they were republicans, led by Ukpi drummers, village and family heads; the Okumagbe throne was created only in 1939 when the Weppa and Wanno clans were merged. Their land faces Idah across the Niger.",
+				"sources": [
+					"wikipedia-weppa-wanno"
+				],
+				"confidence": "medium"
+			}
+		},
+		{
+			"name": "Fugar",
+			"lga": "edo-etsako-central",
+			"villages": [
+				{
+					"name": "Ogbona"
+				},
+				{
+					"name": "Iraokhor"
+				},
+				{
+					"name": "Anegbete"
+				},
+				{
+					"name": "Ekperi"
+				}
+			],
+			"sources": [
+				"wikipedia-etsako-central"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Headquarters of Etsako Central.",
+				"sources": [
+					"wikipedia-etsako-central"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Afuze",
+			"lga": "edo-owan-east",
+			"point": [
+				6.043,
+				6.969
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-afuze",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Afen-su-Uze, “the clan of Uze”, a water cane: founded by Imoigan, a descendant of Imah and Uzuanbi, first as a farm camp; it grew as a market on the long-distance trade routes. Headquarters of Owan East.",
+				"sources": [
+					"wikipedia-afuze"
+				],
+				"confidence": "medium"
+			}
+		},
+		{
+			"name": "Sabongida-Ora",
+			"lga": "edo-owan-west",
+			"point": [
+				5.937,
+				6.898
+			],
+			"villages": [],
+			"sources": [
+				"grid3-settlement-names"
+			],
+			"confidence": "high"
+		}
+	],
 	"reviewNotes": [
 		"The Owan speak Edoid languages distinct from Yekhee; the profile uses Yekhee for the group."
 	],

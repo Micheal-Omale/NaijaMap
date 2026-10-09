@@ -1,6 +1,81 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Etung (Effraya)",
+			"lga": "cross-river-etung",
+			"point": [
+				8.757,
+				5.854
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-etung",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Headquarters of Etung LGA, in the Ejagham heartland.",
+				"sources": [
+					"wikipedia-etung"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Ikom and the monolith country",
+			"lga": "cross-river-ikom",
+			"point": [
+				8.73,
+				5.962
+			],
+			"villages": [
+				{
+					"name": "Nta-Nselle (Abininkomo)",
+					"point": [
+						8.558,
+						6.196
+					]
+				}
+			],
+			"sources": [
+				"wikipedia-ikom",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Ikom's languages include Ofutop Bakor, Yala, Mbembe and Ejagham. The Nta and Nselle call the carved Ikom monoliths akwanshi, “dead person on the ground”, and hold a festival in their groves at the end of each dry season.",
+				"sources": [
+					"wikipedia-ikom"
+				],
+				"confidence": "high"
+			},
+			"livelihoods": {
+				"text": "Farming, trading and lumbering.",
+				"sources": [
+					"wikipedia-ikom"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Qua (Calabar)",
+			"lga": "cross-river-calabar-municipal",
+			"villages": [],
+			"sources": [
+				"wikipedia-calabar",
+				"wikipedia-ekoi"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "The Qua Kingdom of Ejagham origin shares Calabar with the Efik and Efut; its Ndidem is the paramount ruler of Calabar Municipality and grand patriarch of the Ejagham nation.",
+				"sources": [
+					"wikipedia-calabar"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Ejagham",
 	"searchAliases": [

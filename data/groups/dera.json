@@ -1,6 +1,52 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Shelleng",
+			"lga": "adamawa-shelleng",
+			"point": [
+				12.0089,
+				9.8847
+			],
+			"villages": [
+				{
+					"name": "Kiri"
+				},
+				{
+					"name": "Bodwai"
+				},
+				{
+					"name": "Gundo"
+				},
+				{
+					"name": "Jumbul"
+				},
+				{
+					"name": "Bakta"
+				},
+				{
+					"name": "Ketembere"
+				},
+				{
+					"name": "Dumne"
+				},
+				{
+					"name": "Talum"
+				}
+			],
+			"sources": [
+				"wikipedia-shelleng"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Shelleng's peoples are the Kanakuru (Dera), Fulani, Lala, Kiri and Bura; Dera is spoken in about a third of homes.",
+				"sources": [
+					"wikipedia-shelleng"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Dera (Kanakuru)",
 	"searchAliases": [

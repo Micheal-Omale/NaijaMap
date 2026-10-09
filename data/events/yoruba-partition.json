@@ -1,0 +1,97 @@
+{
+	"name": "Yorubaland divided",
+	"status": "draft",
+	"kind": "partition",
+	"year": 1889,
+	"yearLabel": "1889–1900",
+	"until": 1914,
+	"actors": [
+		{ "name": "British forces", "side": "colonial" },
+		{ "name": "French forces", "side": "colonial" },
+		{ "name": "The Yoruba kingdoms", "side": "defender" }
+	],
+	"summary": {
+		"text": "The Anglo-French agreement of 10 August 1889 drew a line north from the coast between British Lagos and French Porto-Novo. The western Yoruba kingdoms were left on the French side: Ketu, the oldest of them, already sacked by Dahomey in 1886, along with Sabe, Ohori, Ifonyin and Idaisa. The line split Ketu’s own lands, and Imeko and Idofa stayed on the British side. Further west, the Ana Yoruba around Atakpamé fell to German Togo. Within British territory the Yoruba were divided again in 1900. Ilorin, an emirate of the Sokoto Caliphate, and the Okun Yoruba of the Kabba country went to Northern Nigeria, and the rest stayed with Lagos and Southern Nigeria. That is why Kwara and Kogi Yoruba belong to the North today.",
+		"sources": ["wikipedia-benin-nigeria-border", "wikipedia-anglo-french-convention-1889", "wikipedia-dahomey-conquest-of-ketou", "wikipedia-yorubaland", "wikipedia-ilorin", "asiwaju-1976"],
+		"confidence": "medium"
+	},
+	"moments": [
+		{
+			"when": "1886",
+			"title": "Ketu sacked by Dahomey",
+			"text": "Dahomey’s army sacks Ketu, burns its houses and shrines, executes its chiefs and carries its people to Abomey as slaves.",
+			"at": { "name": "Ketu (Kétou)", "point": [2.6, 7.36] },
+			"mark": "burned",
+			"sources": ["wikipedia-dahomey-conquest-of-ketou"],
+			"confidence": "high"
+		},
+		{
+			"when": "10 August 1889",
+			"title": "The Lagos–Dahomey line",
+			"text": "Britain and France fix a rough frontier from the coast north to the 9th parallel. Further agreements in 1896 and 1898 refine it. Near Ketu it runs just south of the road from Ketu to Idofa, which leaves Itagbe on the French side.",
+			"at": { "name": "Idofa", "point": [2.76, 7.37] },
+			"mark": "treaty",
+			"sources": ["wikipedia-benin-nigeria-border", "wikipedia-anglo-french-convention-1889"],
+			"confidence": "high"
+		},
+		{
+			"when": "1894",
+			"title": "France takes Dahomey",
+			"text": "French forces conquer Dahomey. The Ketu exiles return to a kingdom now ruled from Porto-Novo, cut off from its kin at Imeko.",
+			"at": { "name": "Ketu (Kétou)", "point": [2.6, 7.36] },
+			"mark": "captured",
+			"sources": ["wikipedia-dahomey-conquest-of-ketou"],
+			"confidence": "medium"
+		},
+		{
+			"when": "1900",
+			"title": "North and South",
+			"text": "When the protectorates are proclaimed, Ilorin goes to Northern Nigeria, three years after the Royal Niger Company took it. The Okun Yoruba of Kabba go north as well.",
+			"at": { "name": "Ilorin", "point": [4.55, 8.5] },
+			"mark": "treaty",
+			"sources": ["wikipedia-ilorin"],
+			"confidence": "medium"
+		}
+	],
+	"pieces": [
+		{
+			"name": "Lagos and Southern Nigeria",
+			"note": "Lagos Colony and Protectorate, joined to Southern Nigeria in 1906. Today Lagos, Ogun, Oyo, Osun, Ondo and Ekiti States.",
+			"extent": { "states": ["lagos", "ogun", "oyo", "osun", "ondo", "ekiti"] }
+		},
+		{
+			"name": "Ilorin Province, Northern Nigeria",
+			"note": "The Ilorin emirate and the Igbomina, Ekiti and Ibolo towns of today’s Kwara State.",
+			"extent": {
+				"lgas": [
+					"kwara-ilorin-east", "kwara-ilorin-west", "kwara-ilorin-south", "kwara-asa", "kwara-moro", "kwara-ifelodun", "kwara-irepodun", "kwara-isin", "kwara-oke-ero", "kwara-ekiti",
+					"kwara-offa", "kwara-oyun"
+				]
+			}
+		},
+		{
+			"name": "Kabba Province, Northern Nigeria: the Okun Yoruba",
+			"note": "Yagba, Ijumu, Bunu, Owe (Kabba), Oworo and the Mopa and Amuro towns.",
+			"extent": { "lgas": ["kogi-yagba-east", "kogi-yagba-west", "kogi-mopa-muro", "kogi-ijumu", "kogi-kabba-bunu"], "confidence": "medium" }
+		},
+		{
+			"name": "French Dahomey: Ketu, Sabe, Ohori, Ifonyin and Idaisa",
+			"note": "Today the Plateau and Collines departments of the Republic of Benin.",
+			"extent": {
+				"beyond": [[[2.42, 6.55], [2.72, 6.5], [2.8, 7.4], [2.8, 8.45], [2.35, 8.5], [2.0, 8.05], [2.08, 7.45], [2.32, 6.95]]],
+				"confidence": "medium"
+			}
+		},
+		{
+			"name": "German Togo: the Ana Yoruba of Atakpamé",
+			"extent": { "beyond": [[[0.95, 7.3], [1.45, 7.25], [1.65, 7.8], [1.55, 8.4], [1.1, 8.4], [0.9, 7.85]]], "confidence": "disputed" }
+		}
+	],
+	"sources": ["wikipedia-benin-nigeria-border", "wikipedia-anglo-french-convention-1889", "wikipedia-dahomey-conquest-of-ketou", "wikipedia-yorubaland", "wikipedia-ilorin", "asiwaju-1976", "owner-2026-10-07-doc1"],
+	"confidence": "medium",
+	"note": "Rings outside Nigeria are rough and clipped at the border. Inside Nigeria the pieces follow today’s LGAs.",
+	"reviewNotes": [
+		"Ilorin and Kabba going to Northern Nigeria in 1900 is general knowledge stated in many histories. It should cite Asiwaju or a provincial history directly.",
+		"The Ana Yoruba piece around Atakpamé is a rough placement and needs a source for its extent under German Togo."
+	]
+}

@@ -1,0 +1,84 @@
+{
+	"name": "Ondo's troubles and Glover's road",
+	"status": "draft",
+	"kind": "war",
+	"year": 1845,
+	"yearLabel": "1845–1885",
+	"until": 1889,
+	"actors": [
+		{
+			"name": "Ondo",
+			"side": "defender",
+			"ink": "#6a4a3a"
+		},
+		{
+			"name": "Ife",
+			"polity": "ife",
+			"side": "attacker"
+		},
+		{
+			"name": "Lagos Colony",
+			"side": "colonial",
+			"ink": "#b23a3a"
+		}
+	],
+	"summary": {
+		"text": "As refugees from Oyo's collapse crowded the forest and the slave trade grew, power in Ondo shifted from old lineages and land to the ownership of slaves. From 1845 to 1872 the kingdom went through rapid changes of ruler, wars with its neighbours and three moves of its capital; from 1865 to 1885 the townspeople took refuge at Oke Opa, where three Osemawes were installed and died. From 1870 John Glover, administrator of Lagos, looked to Ondo for a trade road to Lagos that avoided Ijebu and Egba; in 1872 he brokered peace between Ondo and Ife, missions came in 1875, and in 1889 the Osemawe signed a free-trade agreement with the colony.",
+		"sources": [
+			"wikipedia-ondo-kingdom"
+		],
+		"confidence": "high"
+	},
+	"moments": [
+		{
+			"when": "1865–1885",
+			"title": "Refuge at Oke Opa",
+			"text": "The people of Ondo flee the town; three Osemawes reign and die in exile.",
+			"mark": "flight",
+			"sources": [
+				"wikipedia-ondo-kingdom"
+			],
+			"confidence": "high"
+		},
+		{
+			"when": "1872",
+			"title": "Peace with Ife",
+			"text": "Glover brokers peace between Ondo and Ife to open the road to Lagos.",
+			"at": {
+				"name": "Ondo",
+				"point": [
+					4.84,
+					7.09
+				]
+			},
+			"mark": "treaty",
+			"sources": [
+				"wikipedia-ondo-kingdom"
+			],
+			"confidence": "high"
+		},
+		{
+			"when": "20 February 1889",
+			"title": "Free trade with Lagos",
+			"text": "The Osemawe agrees free trade and British arbitration.",
+			"at": {
+				"name": "Ondo",
+				"point": [
+					4.84,
+					7.1
+				]
+			},
+			"mark": "treaty",
+			"sources": [
+				"wikipedia-ondo-kingdom"
+			],
+			"confidence": "high"
+		}
+	],
+	"sources": [
+		"wikipedia-ondo-kingdom"
+	],
+	"confidence": "high",
+	"note": "Oke Opa is not located.",
+	"reviewNotes": []
+}

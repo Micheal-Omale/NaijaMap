@@ -1,0 +1,34 @@
+{
+	"status": "draft",
+	"title": "Chief of Ebiraland (later the Ohinoyi)",
+	"kind": "warrant",
+	"year": 1904,
+	"seat": {
+		"name": "Okene",
+		"point": [
+			6.23,
+			7.55
+		]
+	},
+	"by": "the British, after the Marsh expedition of 1903",
+	"first": "Omadivi Abonika (1904–1917), first District Head of Ebiraland",
+	"groups": [
+		"ebira"
+	],
+	"text": "The Ebira had no central king: their communities were run by the leaders of their lineages. After Major Marsh’s expedition sacked Okene in 1903, the British installed Omadivi of Abonika, who had helped them, as chief of all Ebiraland in 1904; he died in office as District Head in 1917.",
+	"sources": [
+		"lasttribes-ebira",
+		"wikipedia-ebira-people",
+		"wikipedia-ohinoyi"
+	],
+	"confidence": "high",
+	"crowned": {
+		"by": "the British administration",
+		"text": "Installed by the British after the Marsh expedition, bypassing the Ebira’s rule by lineage elders.",
+		"sources": [
+			"lasttribes-ebira"
+		],
+		"confidence": "high"
+	},
+	"reviewNotes": []
+}

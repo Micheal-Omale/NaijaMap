@@ -1,0 +1,24 @@
+{
+	"status": "draft",
+	"title": "Zaria’s rulers over the Atyap",
+	"kind": "imposed",
+	"year": 1912,
+	"seat": {
+		"name": "Zangon Kataf",
+		"point": [
+			8.38,
+			9.77
+		]
+	},
+	"by": "the British administration of Northern Nigeria",
+	"groups": [
+		"atyap"
+	],
+	"polity": "zazzau",
+	"text": "In 1912 the British made the Atyap acknowledge the emirs of Jema’a and Zaria as their paramount chiefs, and set men from the Zaria ruling circles over them. Atyap chiefs who refused were removed. The Atyap revolted for decades, demanding a chiefdom of their own.",
+	"sources": [
+		"wikipedia-atyap"
+	],
+	"confidence": "high",
+	"reviewNotes": []
+}

@@ -1,0 +1,70 @@
+{
+	"name": "The Kiriji war",
+	"status": "draft",
+	"kind": "war",
+	"year": 1877,
+	"yearLabel": "1877–1886",
+	"until": 1893,
+	"actors": [
+		{ "name": "Ibadan (Aare Latosisa)", "polity": "ibadan", "side": "attacker" },
+		{ "name": "Ekitiparapo (Prince Fabunmi, Ogedengbe)", "polity": "ekitiparapo", "side": "resister" },
+		{ "name": "Ilorin", "side": "ally" },
+		{ "name": "Egba and Ijebu", "polity": "egba", "side": "ally" }
+	],
+	"summary": {
+		"text": "For three decades Ibadan ruled the Ekiti, Ijesha, Igbomina and Akoko towns through resident agents, the ajele, whose seizures and abuses impoverished the east. In 1877, as Aare Latosisa went to war with the Egba and Ijebu over the roads to the coast, Prince Fabunmi of Okemesi, insulted by an ajele’s men, killed the ajele and his household and called the eastern warlords together. The Ekitiparapo, the Ekiti Confederacy, was born, armed with breech-loading rifles bought by the Ekitiparapo Society in Lagos. In 1879 the Ijesha general Ogedengbe took command. For seven years the two armies faced each other from fortified hilltop camps near Imesi-Ile and Igbajo; the name Kiriji comes from the boom of the new guns. Latosisa died in camp in 1885, and in 1886 British mediation broke up the camps. Peace was sealed in 1893.",
+		"sources": ["wikipedia-kiriji-war", "akintoye-1971", "johnson-1921"],
+		"confidence": "high"
+	},
+	"routes": [
+		{ "kind": "advance", "by": "Ekitiparapo (Prince Fabunmi, Ogedengbe)", "path": [[4.918, 7.833], [4.88, 7.84], [4.841, 7.836]], "label": "The Confederate army moves from Okemesi to Imesi-Ile", "when": "August 1878", "sources": ["wikipedia-kiriji-war"], "confidence": "high" },
+		{ "kind": "advance", "by": "Ibadan (Aare Latosisa)", "path": [[3.9, 7.38], [4.4, 7.7], [4.816, 7.905]], "label": "Ibadan’s army to the Igbajo camp", "sources": ["wikipedia-kiriji-war"], "confidence": "high" },
+		{ "kind": "alliance", "by": "Ilorin", "path": [[4.55, 8.5], [4.7, 8.2], [4.841, 7.836]], "label": "Ilorin sends infantry and cavalry to the Confederates", "sources": ["wikipedia-kiriji-war"], "confidence": "high" },
+		{ "kind": "advance", "by": "Ekitiparapo (Prince Fabunmi, Ogedengbe)", "path": [[4.841, 7.836], [4.7, 7.6], [4.56, 7.48]], "label": "Fabunmi and Arimoro march to defend Ife against Modakeke and Ibadan", "when": "1882", "sources": ["wikipedia-kiriji-war"], "confidence": "high" }
+	],
+	"moments": [
+		{
+			"when": "1877",
+			"title": "Fabunmi’s revolt",
+			"text": "At the Erinle shrine in Okemesi, an ajele’s men seize the palm wine for Prince Fabunmi’s feast. Fabunmi goes to the ajele’s compound and kills him and most of his household. Ibadan officials are killed across the Ekiti and Ijesha country, and Fabunmi summons the eastern war leaders to throw off Ibadan.",
+			"at": { "name": "Okemesi", "point": [4.918, 7.833] },
+			"mark": "battle",
+			"sources": ["wikipedia-kiriji-war"]
+		},
+		{
+			"when": "August 1878",
+			"title": "Igbajo burned",
+			"text": "The Confederates attack Igbajo, an Ibadan ally, burn it, and besiege Ikirun until Ibadan relieves it.",
+			"at": { "name": "Igbajo", "point": [4.816, 7.905] },
+			"mark": "burned",
+			"sources": ["wikipedia-kiriji-war"]
+		},
+		{
+			"when": "1879",
+			"title": "Ogedengbe takes command",
+			"text": "The Ijesha general Ogedengbe joins at Imesi-Ile, and Fabunmi yields the command to him. Long-range rifles from Lagos give the camp its name: Kiriji, the sound of the guns.",
+			"at": { "name": "Kiriji camp, Imesi-Ile", "point": [4.841, 7.836] },
+			"mark": "camp",
+			"sources": ["wikipedia-kiriji-war"]
+		},
+		{
+			"when": "31 August 1885",
+			"title": "Latosisa dies in camp",
+			"text": "Aare Latosisa, Ibadan’s commander, dies at the Igbajo camp. Ibadan’s morale collapses and both sides are weary of war.",
+			"at": { "name": "Igbajo camp", "point": [4.816, 7.905] },
+			"mark": "camp",
+			"sources": ["wikipedia-kiriji-war"]
+		},
+		{
+			"when": "23 September 1886",
+			"title": "Peace proclaimed",
+			"text": "With the missionaries Samuel Johnson and Charles Phillips as envoys, the Lagos commissioners Higgins and Smith proclaim peace between the camps. Ogedengbe and Ibadan’s Balogun Osungbekun swear eternal friendship. Ilorin alone fights on, at Offa, and the last troubles end in 1893.",
+			"at": { "name": "Imesi-Ile", "point": [4.841, 7.836] },
+			"mark": "treaty",
+			"sources": ["akintoye-1971", "wikipedia-kiriji-war"]
+		}
+	],
+	"area": { "lgas": ["osun-obokun", "osun-boluwaduro", "osun-ifelodun", "ekiti-ekiti-west", "osun-ife-central"] },
+	"sources": ["wikipedia-kiriji-war", "akintoye-1971", "johnson-1921"],
+	"confidence": "high"
+}

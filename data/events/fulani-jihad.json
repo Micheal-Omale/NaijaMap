@@ -1,0 +1,97 @@
+{
+	"name": "The jihad of Usman dan Fodio",
+	"status": "draft",
+	"kind": "war",
+	"year": 1804,
+	"yearLabel": "1804–1809",
+	"until": 1812,
+	"actors": [
+		{ "name": "Usman dan Fodio’s community (Abdullahi, Muhammad Bello)", "polity": "sokoto", "side": "attacker" },
+		{ "name": "Gobir, under Sarkin Yunfa", "polity": "gobir", "side": "defender" },
+		{ "name": "Katsina", "polity": "katsina", "side": "defender" },
+		{ "name": "Kano", "polity": "kano", "side": "defender" },
+		{ "name": "Kebbi", "polity": "kebbi", "side": "defender" }
+	],
+	"summary": {
+		"text": "Usman dan Fodio, a Fulani scholar who had taught Gobir’s king Yunfa, preached against unjust taxes and the rulers’ laxity in Islam. When Yunfa moved against his community at Degel, Usman led his followers out on a hijra to Gudu in February 1804. They hailed him Commander of the Faithful, and war followed. Yunfa won at Tsuntsua, where about 2,000 of the Shehu’s men died, but the jihad spread from town to town across Hausaland. Kebbi fell in 1805, Katsina and Kano in 1807, and Gobir’s capital Alkalawa in October 1808, where Yunfa was killed. In 1809 Muhammad Bello built Sokoto, the capital of a caliphate that ruled most of northern Nigeria until 1903. The Hausa dynasties survived in exile, Gobir at Tsibiri and Katsina at Maradi, and Borno held out under al-Kanemi.",
+		"sources": ["wikipedia-fulani-war", "wikipedia-usman-dan-fodio", "wikipedia-alkalawa", "last-1967"],
+		"confidence": "high"
+	},
+	"routes": [
+		{
+			"kind": "migration",
+			"by": "Usman dan Fodio’s community (Abdullahi, Muhammad Bello)",
+			"path": [[5.55, 13.3], [5.2, 13.5], [4.9, 13.65]],
+			"label": "The hijra: Degel to Gudu, February 1804",
+			"note": "About sixty miles, four or five days’ walk. Degel and Gudu are placed approximately.",
+			"sources": ["wikipedia-usman-dan-fodio", "wikipedia-fulani-war"],
+			"confidence": "medium"
+		},
+		{ "kind": "advance", "by": "Usman dan Fodio’s community (Abdullahi, Muhammad Bello)", "path": [[4.9, 13.65], [4.5, 13.0], [4.2, 12.45]], "label": "Into Kebbi, 1805", "sources": ["wikipedia-fulani-war"], "confidence": "high" },
+		{ "kind": "advance", "by": "Usman dan Fodio’s community (Abdullahi, Muhammad Bello)", "path": [[5.24, 13.06], [6.3, 13.2], [7.6, 12.99]], "label": "Katsina taken, 1807", "sources": ["wikipedia-fulani-war"], "confidence": "high" },
+		{ "kind": "advance", "by": "Usman dan Fodio’s community (Abdullahi, Muhammad Bello)", "path": [[7.6, 12.99], [8.1, 12.5], [8.52, 12.0]], "label": "Kano taken, 1807", "sources": ["wikipedia-fulani-war"], "confidence": "high" },
+		{ "kind": "advance", "by": "Usman dan Fodio’s community (Abdullahi, Muhammad Bello)", "path": [[5.24, 13.06], [5.8, 13.4], [6.25, 13.57]], "label": "On Alkalawa, Gobir’s capital, 1808", "sources": ["wikipedia-alkalawa", "wikipedia-fulani-war"], "confidence": "high" },
+		{ "kind": "retreat", "by": "Kano", "path": [[8.52, 12.0], [8.0, 11.5], [7.71, 11.07]], "label": "Kano’s king Muhammad Alwali flees toward Zazzau", "sources": ["wikipedia-fulani-war"], "confidence": "high" }
+	],
+	"moments": [
+		{
+			"when": "21 February 1804",
+			"title": "Yunfa declares war",
+			"text": "So many follow the Shehu to Gudu that Yunfa declares war on him. His followers proclaim him Amir al-Mu’minin, Commander of the Faithful.",
+			"at": { "name": "Gudu (approximate)", "point": [4.9, 13.65] },
+			"mark": "camp",
+			"sources": ["wikipedia-fulani-war"],
+			"confidence": "high"
+		},
+		{
+			"when": "1804",
+			"title": "Tabkin Kwotto",
+			"text": "After taking Matankari, the Shehu’s outnumbered army of Fulani, Hausa and some Tuareg turns back Yunfa’s advance on Gudu. The victory brings many more to his side.",
+			"at": { "name": "Tabkin Kwotto (approximate)", "point": [4.8, 13.75] },
+			"mark": "battle",
+			"sources": ["wikipedia-fulani-war", "last-1967"],
+			"confidence": "high"
+		},
+		{
+			"when": "Late 1804",
+			"title": "Tsuntsua",
+			"text": "Yunfa’s Gobir army, with Tuareg allies, defeats the Shehu. Muhammad Bello says 2,000 died, 200 of them men who knew the Qur’an by heart.",
+			"at": { "name": "Tsuntsua (approximate)", "point": [5.4, 13.45] },
+			"mark": "battle",
+			"sources": ["wikipedia-usman-dan-fodio", "last-1967"],
+			"confidence": "high"
+		},
+		{
+			"when": "1807",
+			"title": "Katsina and Kano fall",
+			"text": "Katsina’s ruler Magajin Halidu takes his own life after defeat. Kano’s Muhammad Alwali flees and is later killed at Burum-Burum.",
+			"at": { "name": "Kano", "point": [8.52, 12.0] },
+			"mark": "captured",
+			"sources": ["wikipedia-fulani-war"],
+			"confidence": "high"
+		},
+		{
+			"when": "October 1808",
+			"title": "Alkalawa",
+			"text": "The jihadists storm Gobir’s capital and kill Yunfa. Much of the city is destroyed, and the last great resistance in Hausaland ends.",
+			"at": { "name": "Alkalawa (approximate)", "point": [6.25, 13.57] },
+			"mark": "captured",
+			"sources": ["wikipedia-alkalawa", "wikipedia-fulani-war"],
+			"confidence": "high"
+		},
+		{
+			"when": "1809",
+			"title": "Sokoto built",
+			"text": "Muhammad Bello turns the camp at Sokoto into a city, the caliphate’s capital. The Shehu’s brother Abdullahi rules the western emirates from Gwandu.",
+			"at": { "name": "Sokoto", "point": [5.24, 13.06] },
+			"mark": "founded",
+			"sources": ["wikipedia-fulani-war"],
+			"confidence": "high"
+		}
+	],
+	"area": { "states": ["sokoto", "kebbi", "zamfara", "katsina", "kano"] },
+	"sources": ["wikipedia-fulani-war", "wikipedia-usman-dan-fodio", "wikipedia-alkalawa", "last-1967"],
+	"confidence": "high",
+	"note": "Degel, Gudu, Tsuntsua, Tabkin Kwotto and Alkalawa are placed approximately; the old sites are not in the settlement registers.",
+	"reviewNotes": ["Points for Degel, Gudu, Tsuntsua, Tabkin Kwotto and old Alkalawa need checking against Last (1967) or a historical atlas."]
+}

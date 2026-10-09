@@ -1,6 +1,47 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Hong and the Kilba hills",
+			"lga": "adamawa-hong",
+			"point": [
+				12.927,
+				10.233
+			],
+			"villages": [
+				{
+					"name": "Pella"
+				},
+				{
+					"name": "Gwaja"
+				},
+				{
+					"name": "Kulinyi"
+				},
+				{
+					"name": "Garaha"
+				},
+				{
+					"name": "Bangshika"
+				},
+				{
+					"name": "Gaya"
+				}
+			],
+			"sources": [
+				"wikipedia-kilba",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "The Kilba lived in clan-based mountain communities such as Pella, Gwaja, Hong, Kulinyi, Garaha, Bangshika and the Gaya hills, each under its king of the mountain top.",
+				"sources": [
+					"wikipedia-kilba"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Kilba",
 	"searchAliases": [

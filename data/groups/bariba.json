@@ -1,6 +1,40 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Bariba of Baruten",
+			"lga": "kwara-baruten",
+			"villages": [
+				{
+					"name": "Okuta",
+					"point": [
+						3.199,
+						9.218
+					]
+				},
+				{
+					"name": "Ilesha Baruba"
+				},
+				{
+					"name": "Gwanara"
+				}
+			],
+			"sources": [
+				"wikipedia-bariba-people",
+				"wikipedia-battle-of-ilorin",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "In Nigeria the Baatombu live in Baruten LGA. Their Wasangari rulers came, by tradition, by way of Bussa; the chiefs of Okuta, Ilesha and Gwanara rode with Sero Kpera of Nikki to the Eleduwe war against Ilorin in the 1830s. The Gani festival, with its horsemen, is their great feast.",
+				"sources": [
+					"wikipedia-bariba-people",
+					"wikipedia-battle-of-ilorin"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [
 		"About 60,000 in Nigeria in Ross Jones's 1997 estimate; most Baatombu (about 340,000) live in Benin.",
 		"Ilorin is said to have Bariba residents (Wikipedia, Ilorin); not mapped as a community."

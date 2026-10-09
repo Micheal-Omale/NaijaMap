@@ -1,0 +1,146 @@
+{
+	"name": "The fall of Birnin Zamfara",
+	"status": "draft",
+	"kind": "war",
+	"year": 1756,
+	"yearLabel": "c. 1756–1777",
+	"until": 1795,
+	"actors": [
+		{
+			"name": "Gobir",
+			"polity": "gobir",
+			"side": "attacker"
+		},
+		{
+			"name": "Zamfara",
+			"polity": "zamfara",
+			"side": "defender"
+		}
+	],
+	"summary": {
+		"text": "Fifteen years into his reign, Babari of Gobir turned on his Zamfara allies, though his sister Fara was married to their king, Mairoki. Zamfara held its own until its captains, stung by Mairoki's taunts (“You have not caught the tail of the monkey”), gave up the capital and led the Gobirawa to him, crying “See, here is the monkey, down to his tail!” Barth dated the fall to about 1756; others say 1762. Babari built Alkalawa on land Zamfara had once given Gobir. Mairoki held out in the hill fortress of Kiawa, where Bawa Jan Gwarzo of Gobir besieged him for fifteen years; one account says Bawa hung his head from a fig tree, still called durumin Mairoki.",
+		"sources": [
+			"wikipedia-zamfara-kingdom",
+			"wikipedia-gobir"
+		],
+		"confidence": "medium"
+	},
+	"routes": [
+		{
+			"kind": "advance",
+			"by": "Gobir",
+			"path": [
+				[
+					6.48,
+					13.62
+				],
+				[
+					6.45,
+					13.18
+				]
+			],
+			"label": "Babari against Birnin Zamfara",
+			"sources": [
+				"wikipedia-gobir",
+				"wikipedia-zamfara-kingdom"
+			]
+		},
+		{
+			"kind": "exile",
+			"by": "Zamfara",
+			"path": [
+				[
+					6.45,
+					13.18
+				],
+				[
+					6.88,
+					12.6
+				]
+			],
+			"label": "Mairoki to Kiawa",
+			"sources": [
+				"wikipedia-zamfara-kingdom"
+			]
+		},
+		{
+			"kind": "exile",
+			"by": "Zamfara",
+			"path": [
+				[
+					6.88,
+					12.6
+				],
+				[
+					5.93,
+					12.11
+				]
+			],
+			"label": "The dynasty regroups at Anka",
+			"sources": [
+				"wikipedia-zamfara-kingdom"
+			],
+			"confidence": "medium"
+		}
+	],
+	"moments": [
+		{
+			"when": "c. 1756–1762",
+			"title": "Birnin Zamfara given up",
+			"text": "The army abandons its king to Gobir.",
+			"at": {
+				"name": "Birnin Zamfara (near Isa)",
+				"point": [
+					6.45,
+					13.18
+				]
+			},
+			"mark": "captured",
+			"sources": [
+				"wikipedia-zamfara-kingdom",
+				"wikipedia-gobir"
+			],
+			"confidence": "medium"
+		},
+		{
+			"when": "after 1762",
+			"title": "Alkalawa built",
+			"text": "Babari's new walled capital on the Rima.",
+			"at": {
+				"name": "Alkalawa",
+				"point": [
+					6.25,
+					13.57
+				]
+			},
+			"mark": "founded",
+			"sources": [
+				"wikipedia-gobir"
+			],
+			"confidence": "high"
+		},
+		{
+			"when": "c. 1777–1792",
+			"title": "Fifteen years at Kiawa",
+			"text": "Bawa Jan Gwarzo besieges Mairoki until he takes him.",
+			"at": {
+				"name": "Kiawa",
+				"point": [
+					6.88,
+					12.6
+				]
+			},
+			"mark": "camp",
+			"sources": [
+				"wikipedia-zamfara-kingdom"
+			],
+			"confidence": "medium"
+		}
+	],
+	"sources": [
+		"wikipedia-zamfara-kingdom",
+		"wikipedia-gobir"
+	],
+	"confidence": "medium",
+	"reviewNotes": []
+}

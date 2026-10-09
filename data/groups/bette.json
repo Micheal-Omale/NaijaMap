@@ -1,6 +1,28 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Bette clan (Obudu)",
+			"lga": "cross-river-obudu",
+			"point": [
+				9.164,
+				6.668
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-obudu",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Obudu's headquarters lies in the Bette clan, with the Bette-Bendi in the centre and the Ukpe-Alege in the south. The Obudu area holds six clans, Bette, Obanliku, Bendi, Utuwang, Ukpe-Alege and Utanga-Becheve, each of independent villages bound by kinship; their origin is unknown, but they probably came from the east and were settled here by the 18th century.",
+				"sources": [
+					"wikipedia-obudu"
+				],
+				"confidence": "medium"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Bette (Bendi)",
 	"searchAliases": [

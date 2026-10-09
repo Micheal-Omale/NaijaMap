@@ -1,0 +1,90 @@
+{
+	"name": "Baikie and the Pleiad up the Benue",
+	"status": "draft",
+	"kind": "contact",
+	"year": 1854,
+	"yearLabel": "1854–1864",
+	"until": 1864,
+	"actors": [{ "name": "Baikie's expedition", "side": "european" }],
+	"summary": {
+		"text": "In 1854 the small steamer Pleiad, with William Balfour Baikie as surgeon and naturalist, went up the Niger and into the Benue, about 250 miles past the point earlier explorers had reached. Baikie gave everyone on board doses of quinine against malaria, and after 118 days on the rivers the Pleiad came back to the sea without losing a single man. That showed Europeans could survive in the interior. In 1857 Baikie came back as British consul; his ship was wrecked in the rapids at Jebba, and he made Lokoja, at the confluence, the base of his work until he left in 1864.",
+		"sources": ["wikipedia-william-balfour-baikie", "encyclopedia-baikie", "baikie-1856"],
+		"confidence": "high"
+	},
+	"routes": [
+		{
+			"kind": "voyage",
+			"vessel": "steam",
+			"by": "Baikie's expedition",
+			"when": "1854",
+			"path": [[4.4, 2.6], [6.07, 4.3], [6.52, 5.55], [6.74, 7.11], [6.75, 7.8], [7.6, 7.75], [8.53, 7.73], [9.2, 7.95], [9.75, 8.18], [10.4, 8.6], [10.9, 8.95]],
+			"label": "The Pleiad goes up the Niger and into the Benue",
+			"sources": ["wikipedia-william-balfour-baikie", "encyclopedia-baikie"],
+			"confidence": "medium",
+			"note": "The upper end, near Dulti, is approximate."
+		},
+		{
+			"kind": "voyage",
+			"vessel": "steam",
+			"by": "Baikie's expedition",
+			"when": "1857",
+			"path": [[6.75, 7.8], [6.42, 8.6], [5.75, 8.73], [5.2, 8.95], [4.83, 9.13]],
+			"label": "Baikie's second voyage, up the Niger to the rapids at Jebba",
+			"sources": ["wikipedia-william-balfour-baikie"],
+			"confidence": "medium"
+		}
+	],
+	"moments": [
+		{
+			"when": "August 1854",
+			"title": "Into the Benue",
+			"text": "The Pleiad turns from the Niger into the Benue at the confluence and steams on for about 250 miles of river no European had charted.",
+			"at": { "name": "The confluence, at Lokoja", "point": [6.75, 7.8] },
+			"mark": "anchor",
+			"sources": ["wikipedia-william-balfour-baikie", "encyclopedia-baikie"],
+			"confidence": "high"
+		},
+		{
+			"when": "1854",
+			"title": "Turned back at Dulti",
+			"text": "When the Pleiad can go no further, Baikie goes on by pinnace for two days, until the people at Dulti stop him.",
+			"at": { "name": "Dulti, on the upper Benue (approximate)", "point": [10.9, 8.95] },
+			"mark": "camp",
+			"sources": ["baikie-1856"],
+			"confidence": "medium"
+		},
+		{
+			"when": "1854",
+			"title": "118 days, no one lost",
+			"text": "Twelve Europeans and fifty-four Africans come back alive after 118 days on the rivers. Baikie credits doses of quinine, taken to prevent malaria.",
+			"mark": "anchor",
+			"sources": ["wikipedia-william-balfour-baikie", "encyclopedia-baikie"],
+			"confidence": "high"
+		},
+		{
+			"when": "1857",
+			"title": "Wrecked at Jebba",
+			"text": "On Baikie's second voyage, as British consul, his ship is wrecked passing through the rapids of the Niger.",
+			"at": { "name": "Jebba", "point": [4.83, 9.13] },
+			"mark": "camp",
+			"sources": ["wikipedia-william-balfour-baikie"],
+			"confidence": "medium"
+		},
+		{
+			"when": "From 1857",
+			"title": "Baikie at Lokoja",
+			"text": "Baikie makes Lokoja his base, clears ground and builds houses. Wikipedia says he bought the site and made a treaty with the Fulani emir of Nupe.",
+			"at": { "name": "Lokoja", "point": [6.74, 7.8] },
+			"mark": "founded",
+			"sources": ["wikipedia-william-balfour-baikie"],
+			"confidence": "medium"
+		}
+	],
+	"sources": ["wikipedia-william-balfour-baikie", "encyclopedia-baikie"],
+	"confidence": "high",
+	"reviewNotes": [
+		"Dulti is placed roughly on the upper Benue; Baikie's own narrative (1856) should give its position. The source for being turned back at Dulti is a search summary of that narrative, not yet checked in the book.",
+		"Wikipedia says Baikie bought Lokoja and made a treaty with the emir of Nupe, while the 1841 deed has the Attah Igala granting the land. Who held Lokoja in 1857 is a question for the owner.",
+		"The wreck at Jebba: Wikipedia says the ship was wrecked in the rapids; Jebba is the usual place given, and should be checked."
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"status": "draft",
+	"title": "Udo Akpabio, warrant chief of Ukana",
+	"kind": "warrant",
+	"year": 1910,
+	"yearLabel": "early 1900s",
+	"until": 1930,
+	"seat": {
+		"name": "Ukana Ikot Ntuen",
+		"point": [
+			7.7138,
+			5.1322
+		]
+	},
+	"by": "the British administration of Ikot Ekpene Division",
+	"first": "Udo Akpabio",
+	"groups": [
+		"annang"
+	],
+	"text": "Udo Akpabio of Ukana, Ikot Ntuen, in Ikot Ekpene Division was a warrant chief; his son Ibanga Akpabio became a leader of the independence era. The arrogance of the warrant chiefs’ tribunals, forced labour and taxes were among the grievances that gave rise to the Ibibio Union.",
+	"sources": [
+		"wikipedia-ibanga-akpabio",
+		"wikipedia-ibibio"
+	],
+	"confidence": "medium",
+	"note": "The years of his office are not in the sources consulted.",
+	"reviewNotes": []
+}

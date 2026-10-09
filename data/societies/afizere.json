@@ -1,0 +1,54 @@
+{
+	"name": "Afizere",
+	"status": "draft",
+	"groups": [
+		"afizere"
+	],
+	"rule": "chiefdoms",
+	"span": {
+		"from": 1000,
+		"to": 1905,
+		"fromLabel": "before written records",
+		"toLabel": "early 1900s",
+		"sources": [
+			"wikipedia-afizere",
+			"wikipedia-plateau-state"
+		],
+		"confidence": "medium",
+		"note": "The start of the timeline, not a founding date. The end is approximate: British rule reached these lands in the first years of the 1900s."
+	},
+	"summary": {
+		"text": "Afizere towns were led by a chief, the Agwom, who was also their chief priest, in a chieftaincy run by elders; five royal families, Fobur, Forsum, Maigemu, Shere and Federe, held the districts, each of six to twelve villages. The Afizere first lived in the Chawai country of southern Kaduna; groups moved south to the foot of the Gwash hills, near today's Jos Museum, and the Shere hills. During and after the jihad they kept to the hills around the Plateau to defend themselves against raids.",
+		"sources": [
+			"wikipedia-afizere"
+		],
+		"confidence": "medium"
+	},
+	"end": {
+		"text": "The British took control of the Plateau in the early 20th century, and began mining its tin in 1902.",
+		"sources": [
+			"wikipedia-plateau-state"
+		],
+		"confidence": "medium"
+	},
+	"lands": [
+		{
+			"from": 1000,
+			"to": 1799,
+			"lgas": [
+				"kaduna-kauru"
+			],
+			"label": "Afizere (Chawai country)",
+			"confidence": "disputed"
+		},
+		{
+			"from": 1000,
+			"lgas": [
+				"plateau-jos-east",
+				"plateau-jos-north"
+			],
+			"confidence": "medium"
+		}
+	],
+	"reviewNotes": []
+}

@@ -1,0 +1,26 @@
+{
+	"status": "draft",
+	"title": "Olu of Warri, restored",
+	"kind": "restored",
+	"year": 1936,
+	"seat": {
+		"name": "Ode-Itsekiri (Big Warri) (approximate)",
+		"point": [
+			5.3,
+			5.55
+		]
+	},
+	"by": "the Itsekiri royal family, under colonial rule",
+	"first": "Ginuwa II",
+	"groups": [
+		"itsekiri"
+	],
+	"polity": "warri",
+	"text": "After Olu Akengbuwa died in 1848 the Itsekiri had no Olu for 88 years, while merchant-governors ruled the trading rivers and the British took control. The monarchy was restored under colonial rule in 1936, when Ginuwa II, Akengbuwa’s grandson, was installed.",
+	"sources": [
+		"wikipedia-kingdom-of-warri",
+		"wikipedia-ginuwa-ii"
+	],
+	"confidence": "high",
+	"reviewNotes": []
+}

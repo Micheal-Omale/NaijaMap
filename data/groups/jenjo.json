@@ -1,6 +1,35 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Jenjo of Karim Lamido",
+			"lga": "taraba-karim-lamido",
+			"villages": [],
+			"alsoIn": [
+				"taraba-lau"
+			],
+			"sources": [
+				"wikipedia-karim-lamido"
+			],
+			"confidence": "medium"
+		},
+		{
+			"name": "Jenjo of Jalingo",
+			"lga": "taraba-jalingo",
+			"villages": [],
+			"sources": [
+				"wikipedia-jalingo"
+			],
+			"confidence": "medium",
+			"history": {
+				"text": "The Jenjo are among the peoples found in significant numbers in Jalingo.",
+				"sources": [
+					"wikipedia-jalingo"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Jenjo (Dza)",
 	"searchAliases": [

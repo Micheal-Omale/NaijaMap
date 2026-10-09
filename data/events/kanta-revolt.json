@@ -1,0 +1,110 @@
+{
+	"name": "Kanta's revolt against Songhai",
+	"status": "draft",
+	"kind": "war",
+	"year": 1516,
+	"yearLabel": "1516–1537",
+	"until": 1540,
+	"actors": [
+		{
+			"name": "Kebbi",
+			"polity": "kebbi",
+			"side": "attacker"
+		},
+		{
+			"name": "Songhai",
+			"side": "defender",
+			"ink": "#9a6a2a"
+		}
+	],
+	"summary": {
+		"text": "Kanta, a captain in Askia Muhammad's conquest of Hausaland, marched with the Songhai army against Aïr in 1515. When he asked the dendi-fari for his share of the spoils he was told he would be treated as a rebel. “Good,” said his men, “we will be treated as rebels as well as you.” The Askia's army sent in 1517 was beaten, and when Askia Muhammad Benkan (1531–1537) tried again his army was scattered and he barely escaped with his life. The Tarikh al-Sudan says no Askia tried again.",
+		"sources": [
+			"wikipedia-kanta-kotal",
+			"wikipedia-kebbi-kingdom"
+		],
+		"confidence": "high"
+	},
+	"routes": [
+		{
+			"kind": "advance",
+			"by": "Songhai",
+			"path": [
+				[
+					-0.04,
+					16.27
+				],
+				[
+					4.25,
+					12.5
+				]
+			],
+			"label": "Songhai armies against Kebbi (1517, 1530s)",
+			"sources": [
+				"wikipedia-kanta-kotal",
+				"wikipedia-kebbi-kingdom"
+			],
+			"confidence": "medium"
+		}
+	],
+	"moments": [
+		{
+			"when": "1515",
+			"title": "The spoils of Aïr",
+			"text": "Kanta's share of the plunder from Agadez is refused.",
+			"at": {
+				"name": "Agadez",
+				"point": [
+					7.99,
+					16.97
+				]
+			},
+			"mark": "loot",
+			"sources": [
+				"wikipedia-kanta-kotal"
+			],
+			"confidence": "high"
+		},
+		{
+			"when": "1517",
+			"title": "Songhai beaten",
+			"text": "The army sent to punish Kanta is defeated.",
+			"at": {
+				"name": "Leka (approximate)",
+				"point": [
+					4.25,
+					12.5
+				]
+			},
+			"mark": "battle",
+			"sources": [
+				"wikipedia-kebbi-kingdom"
+			],
+			"confidence": "high"
+		},
+		{
+			"when": "1531–1537",
+			"title": "Askia Benkan routed",
+			"text": "The Askia's army is scattered pell-mell.",
+			"at": {
+				"name": "Surame",
+				"point": [
+					4.899,
+					13.088
+				]
+			},
+			"mark": "battle",
+			"sources": [
+				"wikipedia-kebbi-kingdom",
+				"wikipedia-kanta-kotal"
+			],
+			"confidence": "high"
+		}
+	],
+	"sources": [
+		"wikipedia-kanta-kotal",
+		"wikipedia-kebbi-kingdom"
+	],
+	"confidence": "high",
+	"reviewNotes": []
+}

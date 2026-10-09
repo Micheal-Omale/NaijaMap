@@ -1,6 +1,23 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Numana chiefdom",
+			"lga": "kaduna-sanga",
+			"villages": [],
+			"sources": [
+				"wikipedia-kaduna-state"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "The Numana have their own chiefdom under the Etum Numana in Sanga LGA.",
+				"sources": [
+					"wikipedia-kaduna-state"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Numana",
 	"searchAliases": [

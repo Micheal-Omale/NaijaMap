@@ -1,0 +1,49 @@
+{
+	"name": "Ijesha",
+	"status": "draft",
+	"groups": [
+		"yoruba"
+	],
+	"rule": "kingdoms",
+	"span": {
+		"from": 1250,
+		"to": 1869,
+		"fromLabel": "c. 1250",
+		"toLabel": "1869",
+		"sources": [
+			"wikipedia-ijesha"
+		],
+		"confidence": "medium",
+		"note": "Ilesa’s founding date is its own tradition. On this map Ibadan rules Ilesa from 1870, and from 1878 the Ijesha are part of the Ekitiparapo."
+	},
+	"summary": {
+		"text": "The Ijesha kingdom was ruled from Ilesa by the Owa Obokun, who traces his line to Ajibogun Ajaka, Onida Raharaha, the warlike youngest son of Oduduwa; by tradition the kingdom was founded about 1250–1300. Its towns, from Ibokun, Ipetu, Esa-Oke and Ijebu-Jesa to Iwara and Ifewara, owed it allegiance, and its land is rich in gold. A missionary, W. H. Clark, wrote in 1854 that for its clean, broad and straight streets Ilesa far surpassed any town he had seen in Africa. Its royal house gave Akure its kings.",
+		"sources": [
+			"wikipedia-ilesa",
+			"wikipedia-ijesha"
+		],
+		"confidence": "medium"
+	},
+	"end": {
+		"text": "Ibadan ruled the Ijesha through its ajele, and the Ijesha lost much land in the wars of the 1800s. From 1878 they fought Ibadan alongside the Ekiti as the Ekitiparapo, led by Ogedengbe of Ilesa, until the peace of 1886; in 1894 the British arrested Ogedengbe, and the Owa paid £6,000 to free him.",
+		"sources": [
+			"wikipedia-ijesha",
+			"wikipedia-ogedengbe"
+		],
+		"confidence": "high"
+	},
+	"lands": [
+		{
+			"from": 1250,
+			"lgas": [
+				"osun-ilesha-east",
+				"osun-ilesha-west",
+				"osun-atakunmosa-east",
+				"osun-atakunmosa-west",
+				"osun-obokun",
+				"osun-oriade"
+			]
+		}
+	],
+	"reviewNotes": []
+}

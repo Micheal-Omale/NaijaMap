@@ -1,6 +1,23 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Guyuk",
+			"lga": "adamawa-guyuk",
+			"villages": [],
+			"sources": [
+				"wikipedia-guyuk"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "About four in five homes in Guyuk LGA speak Longuda; the town lies on the Numan–Biu road and has limestone deposits.",
+				"sources": [
+					"wikipedia-guyuk"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Longuda",
 	"searchAliases": [

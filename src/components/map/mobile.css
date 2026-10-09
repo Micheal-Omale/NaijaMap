@@ -1,0 +1,604 @@
+/*
+ * The phone shell, built like a native map app: the map runs edge to edge, one
+ * search bar floats at the top, the three views sit in a tab bar under the
+ * thumb, and everything else lives in a bottom sheet with three heights (a peek,
+ * half the screen, almost all of it). Loaded last, so it wins over the desktop rules.
+ */
+
+@media (max-width: 899px) {
+	.app {
+		--tab-h: calc(64px + env(safe-area-inset-bottom));
+		--top-h: calc(max(10px, env(safe-area-inset-top)) + 62px);
+		--sheet-peek: 148px;
+		--sheet-half: 52dvh;
+		--sheet-full: calc(100dvh - var(--tab-h) - var(--top-h) - 4px);
+		--sheet-h: var(--sheet-peek);
+		--sheet-ease: cubic-bezier(0.32, 0.72, 0, 1);
+		--elevation: 0 1px 2px rgb(0 0 0 / 12%), 0 4px 14px rgb(0 0 0 / 14%);
+		display: block;
+		overscroll-behavior: none;
+		-webkit-tap-highlight-color: transparent;
+	}
+
+	.app[data-sheet='half'] {
+		--sheet-h: var(--sheet-half);
+	}
+
+	.app[data-sheet='full'] {
+		--sheet-h: var(--sheet-full);
+	}
+
+	.map-region {
+		position: absolute;
+		inset: 0;
+	}
+
+	.panel {
+		position: absolute;
+		inset: 0;
+		background: none;
+		border: 0;
+		pointer-events: none;
+	}
+
+	/* ---- Top: one floating search bar, with the mark at its start and sound at its end. */
+
+	.topbar {
+		position: relative;
+		z-index: 12;
+		flex-direction: row;
+		align-items: center;
+		gap: 2px;
+		height: 52px;
+		margin: max(10px, env(safe-area-inset-top)) 12px 0;
+		padding: 0 4px 0 4px;
+		border: 0;
+		border-radius: 26px;
+		background: var(--surface);
+		box-shadow: var(--elevation);
+		pointer-events: auto;
+		transition:
+			box-shadow 0.2s,
+			opacity 0.3s,
+			transform 0.3s var(--sheet-ease);
+	}
+
+	.topbar:focus-within {
+		box-shadow:
+			var(--elevation),
+			0 0 0 2px var(--accent);
+	}
+
+	.topbar__row {
+		display: contents;
+	}
+
+	.brand {
+		order: 0;
+		flex: none;
+		align-self: center;
+		gap: 8px;
+		padding: 11px;
+		border-radius: 50%;
+		background: none;
+		box-shadow: none;
+	}
+
+	.brand__name {
+		display: none;
+	}
+
+	/* Away from the people search, the bar names the site instead. */
+	.app:not([data-mode='today']) .brand {
+		flex: 1;
+		border-radius: 999px;
+	}
+
+	.app:not([data-mode='today']) .brand__name {
+		display: inline;
+		font-size: 1.0625rem;
+	}
+
+	.search {
+		position: static;
+		order: 1;
+		flex: 1;
+		min-width: 0;
+	}
+
+	.search--placeholder {
+		height: 44px;
+		border: 0;
+		background: none;
+	}
+
+	.search__icon {
+		display: none;
+	}
+
+	/* The suggestion sits where typing starts, just after the mark. */
+	.search__hint {
+		left: 58px;
+		max-width: calc(100% - 120px);
+	}
+
+	.search__input {
+		height: 44px;
+		padding: 0 40px 0 2px;
+		border: 0;
+		border-radius: 0;
+		background: transparent;
+		box-shadow: none;
+	}
+
+	.search__input:focus {
+		background: transparent;
+		box-shadow: none;
+	}
+
+	.search__clear {
+		top: 8px;
+		right: 50px;
+	}
+
+	/* Results drop from the whole bar, like a native search. */
+	.search__popup {
+		top: calc(100% + 8px);
+		left: 0;
+		right: 0;
+		max-height: 60dvh;
+		overflow-y: auto;
+		border: 0;
+		border-radius: 20px;
+		box-shadow: var(--elevation);
+	}
+
+	.search__option {
+		min-height: 48px;
+		align-items: center;
+	}
+
+	.topbar .sound-toggle:not(.sound-toggle--film) {
+		order: 2;
+		width: 44px;
+		height: 44px;
+		border: 0;
+		background: none;
+	}
+
+	.topbar .share {
+		order: 3;
+		margin: 0;
+	}
+
+	.topbar .sound-toggle[aria-pressed='true'] {
+		background: color-mix(in srgb, var(--accent) 12%, transparent);
+	}
+
+	/* ---- Bottom: the three views as a tab bar. */
+
+	.mode-switch {
+		position: fixed;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		z-index: 20;
+		display: flex;
+		height: var(--tab-h);
+		padding: 6px 4px env(safe-area-inset-bottom);
+		border: 0;
+		border-top: 1px solid var(--rule);
+		border-radius: 0;
+		background: var(--surface);
+		pointer-events: auto;
+		user-select: none;
+		transition:
+			transform 0.35s var(--sheet-ease),
+			opacity 0.3s;
+	}
+
+	.mode-switch button,
+	.mode-switch__link {
+		flex: 1;
+		flex-direction: column;
+		justify-content: flex-start;
+		gap: 3px;
+		min-height: 0;
+		padding: 0;
+		border-radius: 0;
+		background: none;
+		box-shadow: none;
+		color: var(--ink-muted);
+		font-size: 0.75rem;
+		font-weight: 600;
+		letter-spacing: 0.01em;
+	}
+
+	.mode-switch button[aria-pressed='true'] {
+		background: none;
+		box-shadow: none;
+		color: var(--ink);
+	}
+
+	/* The active tab's icon sits in a soft pill. */
+	.mode-switch svg {
+		box-sizing: content-box;
+		width: 22px;
+		height: 22px;
+		padding: 4px 20px;
+		border-radius: 16px;
+		background-color: transparent;
+		transition:
+			background-color 0.25s,
+			color 0.2s;
+	}
+
+	.mode-switch button[aria-pressed='true'] svg {
+		background-color: color-mix(in srgb, var(--accent) 18%, transparent);
+		color: var(--accent);
+		stroke-width: 2.1;
+	}
+
+	.mode-switch__link:focus-visible,
+	.mode-switch button:focus-visible {
+		outline: none;
+	}
+
+	.mode-switch__link:focus-visible svg,
+	.mode-switch button:focus-visible svg {
+		outline: 2px solid var(--accent);
+		outline-offset: 1px;
+	}
+
+	/* ---- The bottom sheet. */
+
+	.sheet {
+		position: fixed;
+		left: 0;
+		right: 0;
+		bottom: var(--tab-h);
+		z-index: 10;
+		flex: none;
+		height: var(--sheet-h);
+		max-height: none;
+		padding: 0 16px 20px;
+		overflow-y: auto;
+		overscroll-behavior: contain;
+		border-radius: 22px 22px 0 0;
+		background: var(--surface);
+		box-shadow: 0 -1px 0 var(--rule), 0 -6px 22px rgb(0 0 0 / 14%);
+		pointer-events: auto;
+		transition:
+			height 0.42s var(--sheet-ease),
+			transform 0.42s var(--sheet-ease);
+	}
+
+	.sheet[data-dragging] {
+		transition: none;
+		overflow: hidden;
+	}
+
+	/* Peeking, the sheet does not scroll: a drag anywhere on it pulls it up. */
+	.app[data-sheet='peek'] .sheet {
+		overflow: hidden;
+		touch-action: none;
+	}
+
+	.app[data-sheet='peek'] .sheet::after {
+		content: '';
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		height: 36px;
+		background: linear-gradient(transparent, var(--surface));
+		pointer-events: none;
+	}
+
+	.sheet__handle {
+		position: sticky;
+		top: 0;
+		z-index: 3;
+		display: grid;
+		place-items: center;
+		width: calc(100% + 32px);
+		height: 22px;
+		margin: 0 -16px 6px;
+		padding: 0;
+		border: 0;
+		background: var(--surface);
+		cursor: grab;
+		touch-action: none;
+	}
+
+	.sheet__grip {
+		width: 36px;
+		height: 5px;
+		border-radius: 3px;
+		background: color-mix(in srgb, var(--ink) 22%, transparent);
+	}
+
+	/* What the peek shows: a title and one line, not the desktop's long introductions. */
+	.sheet-head {
+		display: block;
+		margin: 0 0 14px;
+	}
+
+	.sheet-head h2 {
+		margin: 0;
+		font-size: 1.375rem;
+		letter-spacing: -0.015em;
+	}
+
+	.sheet-head p {
+		margin: 2px 0 0;
+		color: var(--ink-muted);
+		font-size: 0.875rem;
+	}
+
+	.intro__tagline {
+		display: none;
+	}
+
+	.intro__note {
+		margin-top: 16px;
+		padding-top: 10px;
+	}
+
+	.then-intro__year {
+		margin: 0 0 12px;
+		font-size: 1.375rem;
+	}
+
+	.profile__name {
+		font-size: 1.75rem;
+	}
+
+	/* Periods of the Politics view: a row of chips to swipe through, like map categories. */
+	.power-eras {
+		display: flex;
+		gap: 8px;
+		margin: 0 -16px 16px;
+		padding: 2px 16px 4px;
+		overflow-x: auto;
+		scroll-snap-type: x proximity;
+		scroll-padding-inline: 16px;
+		scrollbar-width: none;
+	}
+
+	.power-eras::-webkit-scrollbar {
+		display: none;
+	}
+
+	.power-eras__item {
+		flex: none;
+		max-width: 220px;
+		min-height: 52px;
+		padding: 7px 14px;
+		border-radius: 14px;
+		scroll-snap-align: start;
+	}
+
+	/* ---- Floating button: back to the whole map, riding just above the sheet. */
+
+	.fab {
+		position: absolute;
+		right: 12px;
+		bottom: calc(var(--tab-h) + var(--sheet-h) + 12px);
+		z-index: 6;
+		display: grid;
+		place-items: center;
+		width: 48px;
+		height: 48px;
+		padding: 0;
+		border: 0;
+		border-radius: 50%;
+		background: var(--surface);
+		color: var(--ink);
+		box-shadow: var(--elevation);
+		cursor: pointer;
+		transition:
+			bottom 0.42s var(--sheet-ease),
+			opacity 0.25s;
+	}
+
+	.fab svg {
+		width: 22px;
+		height: 22px;
+		fill: none;
+		stroke: currentColor;
+		stroke-width: 1.9;
+		stroke-linecap: round;
+	}
+
+	.fab:active {
+		transform: scale(0.94);
+	}
+
+	/* In history the timeline and its hint take the bottom; the button waits top right, under the search bar. */
+	.app[data-mode='then'] .fab {
+		top: calc(var(--top-h) + 10px);
+		bottom: auto;
+	}
+
+	.app[data-sheet='full'] .fab,
+	.app[data-mode='then']:not([data-sheet='peek']) .fab {
+		opacity: 0;
+		pointer-events: none;
+	}
+
+	/* ---- History: the timeline docks above the sheet, out of the map's way. */
+
+	.timeline {
+		top: auto;
+		bottom: calc(var(--tab-h) + var(--sheet-peek) + 8px);
+		left: 10px;
+		right: 10px;
+		gap: 8px;
+		transition:
+			opacity 0.25s,
+			transform 0.42s var(--sheet-ease),
+			bottom 0.42s var(--sheet-ease);
+	}
+
+	.app:not([data-sheet='peek']) .timeline {
+		opacity: 0;
+		transform: translateY(16px);
+		pointer-events: none;
+	}
+
+	.app:not([data-sheet='peek']) .timeline * {
+		pointer-events: none;
+	}
+
+	.timeline__bar {
+		flex-wrap: wrap;
+		gap: 0 6px;
+		padding: 4px 12px 0 4px;
+		border-radius: 20px;
+		border: 0;
+		box-shadow: var(--elevation);
+	}
+
+	.timeline__btn {
+		width: 38px;
+		height: 38px;
+	}
+
+	.timeline__year {
+		margin-left: auto;
+		margin-right: 4px;
+		min-width: 0;
+		font-size: 1.5rem;
+	}
+
+	/* The sheet lists the year's states and events; the map keeps its view. */
+	.timeline__caption {
+		display: none;
+	}
+
+	/* While the film plays, the screen is the map's: the bars and the sheet step away. */
+	.app[data-playing] .panel {
+		opacity: 1;
+	}
+
+	.app[data-playing] .topbar {
+		opacity: 0;
+		transform: translateY(-12px);
+		pointer-events: none;
+	}
+
+	.app[data-playing] .mode-switch,
+	.app[data-story] .mode-switch {
+		transform: translateY(100%);
+		opacity: 0;
+		pointer-events: none;
+	}
+
+	.app[data-playing] .sheet,
+	.app[data-story] .sheet {
+		transform: translateY(calc(100% + var(--tab-h)));
+		pointer-events: none;
+	}
+
+	.app[data-playing] .timeline {
+		bottom: max(12px, env(safe-area-inset-bottom));
+		opacity: 1;
+		transform: none;
+	}
+
+	.app[data-playing] .timeline *,
+	.app[data-playing] .timeline {
+		pointer-events: auto;
+	}
+
+	.app[data-playing] .timeline .lower-third,
+	.app[data-playing] .timeline .lower-third * {
+		pointer-events: none;
+	}
+
+	.app[data-playing] .fab,
+	.app[data-story] .fab {
+		opacity: 0;
+		pointer-events: none;
+	}
+
+	/* A tapped sign's card opens above the tab bar. */
+	.explain--sheet {
+		bottom: calc(var(--tab-h) + 8px);
+		border-radius: 20px;
+	}
+
+	.app[data-playing] .explain--sheet {
+		bottom: max(10px, env(safe-area-inset-bottom));
+	}
+
+	/* ---- Map furniture: pinch zooms, so no zoom buttons; credits tuck under the search bar. */
+
+	.map-region .maplibregl-ctrl-top-right {
+		display: none;
+	}
+
+	/* Credits: one quiet line at the bottom left, riding above the sheet, as map apps print theirs. */
+	.map-region .maplibregl-ctrl-bottom-right {
+		display: none;
+	}
+
+	.map-credit {
+		position: absolute;
+		left: 12px;
+		bottom: calc(var(--tab-h) + var(--sheet-h) + 8px);
+		z-index: 5;
+		max-width: calc(100% - 84px);
+		margin: 0;
+		color: var(--ink-faint);
+		font-size: 0.6875rem;
+		line-height: 1.3;
+		text-shadow: 0 0 3px var(--bg), 0 0 6px var(--bg);
+		transition:
+			bottom 0.42s var(--sheet-ease),
+			opacity 0.25s;
+	}
+
+	.map-credit a {
+		color: inherit;
+	}
+
+	/* In history the timeline and its hint fill the bottom; the credit sits under the search bar. */
+	.app[data-mode='then'] .map-credit {
+		top: calc(var(--top-h) + 8px);
+		bottom: auto;
+		max-width: calc(100% - 88px);
+	}
+
+	.app:not([data-sheet='peek']) .map-credit,
+	.app[data-playing] .map-credit,
+	.app[data-story] .map-credit {
+		opacity: 0;
+		pointer-events: none;
+	}
+
+}
+
+/* On a wide screen the sheet's phone heading is not needed: the panel has room for the full introduction. */
+@media (min-width: 900px) {
+	.sheet-head {
+		display: none;
+	}
+
+	.fab,
+	.map-credit {
+		display: none;
+	}
+}
+
+@media (max-width: 899px) and (prefers-reduced-motion: reduce) {
+	.sheet,
+	.fab,
+	.timeline,
+	.mode-switch,
+	.mode-switch svg,
+	.topbar {
+		transition: none;
+	}
+}

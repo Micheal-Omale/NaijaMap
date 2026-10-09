@@ -1,6 +1,30 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Damakasuwa and Chawai",
+			"lga": "kaduna-kauru",
+			"villages": [
+				{
+					"name": "Damakasuwa"
+				},
+				{
+					"name": "Chawai"
+				}
+			],
+			"sources": [
+				"wikipedia-atsam-people"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Headquarters of the Tsam (Chawai) chiefdom, created in 2001, under the Res-Tsam. The Atsam are said to have had a kingdom before about 1350. The British fought them from 1902 to 1905 and brought them under control in 1907, placing them in the Chawai district under Zazzau, though they chose their own Sarkin Chawai.",
+				"sources": [
+					"wikipedia-atsam-people"
+				],
+				"confidence": "medium"
+			}
+		}
+	],
 	"reviewNotes": [
 		"Kauru's other peoples (Kurama of Karku, Ruruma, Kinuku and others) are not yet mapped separately."
 	],

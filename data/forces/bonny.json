@@ -1,0 +1,54 @@
+{
+	"status": "draft",
+	"of": "polity",
+	"terrain": "delta",
+	"summary": {
+		"text": "Bonny was a trading city-state of the eastern Delta. Its canoe houses each manned war canoes, some carrying cannon, and fought Kalabari for the trade.",
+		"sources": [
+			"jones-1963",
+			"dike-1956",
+			"wikipedia-kingdom-of-bonny"
+		],
+		"confidence": "medium"
+	},
+	"arms": [
+		{
+			"kind": "canoes",
+			"level": 3,
+			"text": "Canoe houses manned war canoes, some armed with cannon.",
+			"sources": [
+				"jones-1963",
+				"dike-1956"
+			],
+			"confidence": "medium"
+		},
+		{
+			"kind": "firearms",
+			"level": 2,
+			"from": 1600,
+			"text": "Guns and cannon from the Atlantic trade.",
+			"sources": [
+				"dike-1956",
+				"thornton-1999"
+			],
+			"confidence": "medium"
+		}
+	],
+	"record": [
+		{
+			"year": 1869,
+			"polity": "opobo",
+			"against": "Jaja’s Anna Pepple house",
+			"result": "lost",
+			"text": "Civil war split Bonny; Jaja left to found Opobo and took much of the oil trade.",
+			"sources": [
+				"wikipedia-opobo",
+				"dike-1956"
+			],
+			"confidence": "high"
+		}
+	],
+	"reviewNotes": [
+		"Arms levels (1 some, 2 a real strength, 3 famous for it) are the compiler’s judgement from the sources, for the Versus page’s guess; please check them."
+	]
+}

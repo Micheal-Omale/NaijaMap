@@ -1,0 +1,1491 @@
+{
+	"name": "The Second Republic",
+	"status": "draft",
+	"from": 1979,
+	"to": 1983,
+	"label": "1979–1983",
+	"summary": {
+		"text": "A presidential system replaced the parliamentary one, and parties had to win across the country. The National Party of Nigeria (NPN), strongest in the North, won with a Fulani President and an Igbo Vice-President. The Yoruba-based UPN of Awolowo and the Igbo-based NPP of Azikiwe were the main opposition, echoing the old regional blocs. The republic ended in the coup of December 1983.",
+		"sources": [
+			"wikipedia-shehu-shagari",
+			"wikipedia-alex-ekwueme",
+			"wikipedia-obafemi-awolowo"
+		],
+		"confidence": "high"
+	},
+	"federal": {
+		"text": "The NPN balanced its ticket across the old regions: a Fulani President from Sokoto and an Igbo Vice-President.",
+		"sources": [
+			"wikipedia-shehu-shagari",
+			"wikipedia-alex-ekwueme"
+		],
+		"confidence": "high",
+		"leaders": [
+			{
+				"name": "Shehu Shagari",
+				"title": "President (NPN)",
+				"from": 1979,
+				"to": 1983,
+				"group": "fulani",
+				"home": {
+					"name": "Shagari, Sokoto",
+					"point": [
+						5.1,
+						12.75
+					]
+				},
+				"sources": [
+					"wikipedia-shehu-shagari",
+					"kperogi-2020"
+				],
+				"confidence": "high",
+				"party": "npn"
+			},
+			{
+				"name": "Alex Ekwueme",
+				"title": "Vice-President (NPN)",
+				"from": 1979,
+				"to": 1983,
+				"group": "igbo",
+				"home": {
+					"name": "Oko",
+					"point": [
+						7.07,
+						6.02
+					]
+				},
+				"sources": [
+					"wikipedia-alex-ekwueme"
+				],
+				"confidence": "high",
+				"party": "npn"
+			}
+		]
+	},
+	"units": [
+		{
+			"id": "sokoto",
+			"name": "Sokoto State",
+			"kind": "state",
+			"extent": {
+				"states": [
+					"sokoto",
+					"kebbi",
+					"zamfara"
+				]
+			},
+			"seat": {
+				"name": "Sokoto",
+				"point": [
+					5.229,
+					13.0665
+				]
+			},
+			"groups": [
+				"fulani",
+				"hausa"
+			],
+			"text": "Won by the NPN, the party of the Fulani President Shagari, a Sokoto man. The Bakolori massacre of 1980, when police killed protesting farmers, happened under Kangiwa.",
+			"leaders": [
+				{
+					"name": "Shehu Kangiwa",
+					"title": "Governor (NPN)",
+					"from": 1979,
+					"to": 1981,
+					"groupLabel": "Not recorded",
+					"groupNote": "His biography does not give his birthplace or people.",
+					"sources": [
+						"wikipedia-shehu-kangiwa"
+					],
+					"confidence": "medium",
+					"party": "npn"
+				},
+				{
+					"name": "Garba Nadama",
+					"title": "Governor (NPN)",
+					"from": 1982,
+					"to": 1983,
+					"groupLabel": "Not recorded",
+					"groupNote": "His biography gives his birthplace, Gusau in Zamfara, but does not name his people.",
+					"home": {
+						"name": "Gusau",
+						"point": [
+							6.671,
+							12.049
+						]
+					},
+					"sources": [
+						"wikipedia-garba-nadama"
+					],
+					"confidence": "medium",
+					"party": "npn"
+				}
+			],
+			"sources": [
+				"worldstatesmen-nigeria-states"
+			],
+			"confidence": "high",
+			"party": "npn"
+		},
+		{
+			"id": "niger",
+			"name": "Niger State",
+			"kind": "state",
+			"extent": {
+				"states": [
+					"niger"
+				]
+			},
+			"seat": {
+				"name": "Minna",
+				"point": [
+					6.5375,
+					9.5985
+				]
+			},
+			"groups": [
+				"nupe",
+				"hausa",
+				"gbagyi"
+			],
+			"text": "Won by the NPN.",
+			"leaders": [
+				{
+					"name": "Awwal Ibrahim",
+					"title": "Governor (NPN)",
+					"from": 1979,
+					"to": 1983,
+					"groupLabel": "Not recorded",
+					"groupNote": "Born in Suleja; later Emir of Suleja, a Hausa emirate. His biography does not name his own people.",
+					"home": {
+						"name": "Suleja",
+						"point": [
+							7.161,
+							9.2205
+						]
+					},
+					"sources": [
+						"wikipedia-awwal-ibrahim"
+					],
+					"confidence": "medium",
+					"party": "npn"
+				}
+			],
+			"sources": [
+				"worldstatesmen-nigeria-states"
+			],
+			"confidence": "high",
+			"party": "npn"
+		},
+		{
+			"id": "kaduna",
+			"name": "Kaduna State",
+			"kind": "state",
+			"extent": {
+				"states": [
+					"kaduna",
+					"katsina"
+				]
+			},
+			"seat": {
+				"name": "Kaduna",
+				"point": [
+					7.446,
+					10.5555
+				]
+			},
+			"groups": [
+				"hausa",
+				"fulani"
+			],
+			"text": "Won by the radical PRP of Aminu Kano, while the NPN held the assembly. Balarabe Musa became the first governor ever impeached.",
+			"leaders": [
+				{
+					"name": "Balarabe Musa",
+					"title": "Governor (PRP)",
+					"from": 1979,
+					"to": 1981,
+					"group": "hausa",
+					"groupNote": "His biography gives his birthplace (Kaya, near Zaria) but not his people; the people shown is inferred from it.",
+					"home": {
+						"name": "Kaya",
+						"point": [
+							7.32,
+							11.127
+						]
+					},
+					"sources": [
+						"wikipedia-abdulkadir-balarabe-musa"
+					],
+					"confidence": "medium",
+					"party": "prp"
+				},
+				{
+					"name": "Abba Musa Rimi",
+					"title": "Governor (PRP)",
+					"from": 1981,
+					"to": 1983,
+					"groupLabel": "Not recorded",
+					"groupNote": "His biography gives his birthplace, Rimi in Katsina, but does not name his people.",
+					"home": {
+						"name": "Rimi",
+						"point": [
+							7.7185,
+							12.852
+						]
+					},
+					"sources": [
+						"wikipedia-abba-musa-rimi"
+					],
+					"confidence": "medium",
+					"party": "prp"
+				},
+				{
+					"name": "Lawal Kaita",
+					"title": "Governor (NPN)",
+					"from": 1983,
+					"to": 1983,
+					"groupLabel": "Not recorded",
+					"groupNote": "His biography gives his birthplace, Katsina, but does not name his people.",
+					"home": {
+						"name": "Katsina",
+						"point": [
+							7.6185,
+							13.009
+						]
+					},
+					"sources": [
+						"wikipedia-lawal-kaita"
+					],
+					"confidence": "medium",
+					"party": "npn"
+				}
+			],
+			"sources": [
+				"worldstatesmen-nigeria-states"
+			],
+			"confidence": "high",
+			"party": "prp"
+		},
+		{
+			"id": "kano",
+			"name": "Kano State",
+			"kind": "state",
+			"extent": {
+				"states": [
+					"kano",
+					"jigawa"
+				]
+			},
+			"seat": {
+				"name": "Kano",
+				"point": [
+					8.5205,
+					11.985
+				]
+			},
+			"groups": [
+				"hausa",
+				"fulani"
+			],
+			"text": "The PRP, Aminu Kano’s party of the talakawa (commoners), held Kano throughout, against the emirate establishment of the NPN.",
+			"leaders": [
+				{
+					"name": "Abubakar Rimi",
+					"title": "Governor (PRP)",
+					"from": 1979,
+					"to": 1983,
+					"group": "hausa",
+					"groupNote": "His biography gives his birthplace (Rimi village in Sumaila, Kano) but not his people; the people shown is inferred from it.",
+					"home": {
+						"name": "Rimi, Sumaila",
+						"point": [
+							8.886,
+							11.288
+						]
+					},
+					"sources": [
+						"wikipedia-abubakar-rimi"
+					],
+					"confidence": "medium",
+					"party": "prp"
+				},
+				{
+					"name": "Abdu Dawakin Tofa",
+					"title": "Governor (PRP)",
+					"from": 1983,
+					"to": 1983,
+					"group": "hausa",
+					"groupNote": "His biography gives his birthplace (Kwa, in Dawakin Tofa, Kano) but not his people; the people shown is inferred from it.",
+					"home": {
+						"name": "Kwa",
+						"point": [
+							8.396,
+							12.14
+						]
+					},
+					"sources": [
+						"wikipedia-abdu-dawakin-tofa"
+					],
+					"confidence": "medium",
+					"party": "prp"
+				},
+				{
+					"name": "Sabo Bakin Zuwo",
+					"title": "Governor (PRP)",
+					"from": 1983,
+					"to": 1983,
+					"group": "hausa",
+					"groupNote": "His biography gives his birthplace (Kano city) but not his people; the people shown is inferred from it.",
+					"home": {
+						"name": "Kano",
+						"point": [
+							8.5205,
+							11.985
+						]
+					},
+					"sources": [
+						"wikipedia-sabo-bakin-zuwo"
+					],
+					"confidence": "medium",
+					"party": "prp"
+				}
+			],
+			"sources": [
+				"worldstatesmen-nigeria-states"
+			],
+			"confidence": "high",
+			"party": "prp"
+		},
+		{
+			"id": "bauchi",
+			"name": "Bauchi State",
+			"kind": "state",
+			"extent": {
+				"states": [
+					"bauchi",
+					"gombe"
+				]
+			},
+			"seat": {
+				"name": "Bauchi",
+				"point": [
+					9.896,
+					10.178
+				]
+			},
+			"groups": [
+				"fulani",
+				"hausa"
+			],
+			"text": "Won by the NPN.",
+			"leaders": [
+				{
+					"name": "Tatari Ali",
+					"title": "Governor (NPN)",
+					"from": 1979,
+					"to": 1983,
+					"groupLabel": "Not recorded",
+					"groupNote": "His biography does not give his birthplace or people.",
+					"sources": [
+						"wikipedia-tatari-ali"
+					],
+					"confidence": "medium",
+					"party": "npn"
+				}
+			],
+			"sources": [
+				"worldstatesmen-nigeria-states"
+			],
+			"confidence": "medium",
+			"party": "npn"
+		},
+		{
+			"id": "borno",
+			"name": "Borno State",
+			"kind": "state",
+			"extent": {
+				"states": [
+					"borno",
+					"yobe"
+				]
+			},
+			"seat": {
+				"name": "Maiduguri",
+				"point": [
+					13.132,
+					11.8335
+				]
+			},
+			"groups": [
+				"kanuri"
+			],
+			"text": "Won by the GNPP of Waziri Ibrahim, a Kanuri, until the NPN took it in 1983.",
+			"leaders": [
+				{
+					"name": "Mohammed Goni",
+					"title": "Governor (GNPP)",
+					"from": 1979,
+					"to": 1983,
+					"group": "kanuri",
+					"groupNote": "His biography gives his birthplace (Kareto, in Mobbar, Borno) but not his people; the people shown is inferred from it.",
+					"home": {
+						"name": "Kareto",
+						"point": [
+							12.694,
+							13.0985
+						]
+					},
+					"sources": [
+						"wikipedia-mohammed-goni"
+					],
+					"confidence": "medium",
+					"party": "gnpp"
+				},
+				{
+					"name": "Asheik Jarma",
+					"title": "Governor (NPN)",
+					"from": 1983,
+					"to": 1983,
+					"groupLabel": "Not recorded",
+					"groupNote": "His biography does not give his birthplace or people.",
+					"sources": [
+						"wikipedia-asheik-jarma"
+					],
+					"confidence": "medium",
+					"party": "npn"
+				}
+			],
+			"sources": [
+				"worldstatesmen-nigeria-states"
+			],
+			"confidence": "high",
+			"party": "gnpp"
+		},
+		{
+			"id": "gongola",
+			"name": "Gongola State",
+			"kind": "state",
+			"extent": {
+				"states": [
+					"adamawa",
+					"taraba"
+				]
+			},
+			"seat": {
+				"name": "Yola",
+				"point": [
+					12.4495,
+					9.25
+				]
+			},
+			"groups": [
+				"fulani",
+				"jukun",
+				"mumuye"
+			],
+			"text": "Won by the GNPP behind a Mumuye governor, then by the NPN in 1983. Wikipedia notes that the Jukun voted largely for the NPP.",
+			"leaders": [
+				{
+					"name": "Abubakar Barde",
+					"title": "Governor (GNPP)",
+					"from": 1979,
+					"to": 1983,
+					"group": "mumuye",
+					"sources": [
+						"wikipedia-abubakar-barde"
+					],
+					"confidence": "high",
+					"party": "gnpp"
+				},
+				{
+					"name": "Wilberforce Juta",
+					"title": "Governor (GNPP)",
+					"from": 1983,
+					"to": 1983,
+					"group": "nzanyi",
+					"sources": [
+						"wikipedia-wilberforce-juta"
+					],
+					"confidence": "high",
+					"party": "gnpp"
+				},
+				{
+					"name": "Bamanga Tukur",
+					"title": "Governor (NPN)",
+					"from": 1983,
+					"to": 1983,
+					"groupLabel": "Not recorded",
+					"groupNote": "His biography does not give his birthplace or people.",
+					"sources": [
+						"wikipedia-bamanga-tukur"
+					],
+					"confidence": "medium",
+					"party": "npn"
+				}
+			],
+			"sources": [
+				"worldstatesmen-nigeria-states"
+			],
+			"confidence": "medium",
+			"party": "gnpp"
+		},
+		{
+			"id": "plateau",
+			"name": "Plateau State",
+			"kind": "state",
+			"extent": {
+				"states": [
+					"plateau",
+					"nasarawa"
+				]
+			},
+			"seat": {
+				"name": "Jos",
+				"point": [
+					8.911,
+					9.951
+				]
+			},
+			"groups": [
+				"berom",
+				"ngas",
+				"tarok"
+			],
+			"text": "Won by Azikiwe’s NPP. Lar spoke of freeing the Plateau peoples from Hausa domination.",
+			"leaders": [
+				{
+					"name": "Solomon Lar",
+					"title": "Governor (NPP)",
+					"from": 1979,
+					"to": 1983,
+					"group": "tarok",
+					"groupNote": "His biography gives his birthplace (Pangna, in Langtang) but not his people; the people shown is inferred from it.",
+					"home": {
+						"name": "Pangna, Langtang",
+						"point": [
+							9.8245,
+							9.128
+						]
+					},
+					"sources": [
+						"wikipedia-solomon-lar"
+					],
+					"confidence": "medium",
+					"party": "npp"
+				}
+			],
+			"sources": [
+				"worldstatesmen-nigeria-states"
+			],
+			"confidence": "medium",
+			"party": "npp"
+		},
+		{
+			"id": "benue",
+			"name": "Benue State",
+			"kind": "state",
+			"extent": {
+				"states": [
+					"benue"
+				],
+				"lgas": [
+					"kogi-ankpa",
+					"kogi-bassa",
+					"kogi-dekina",
+					"kogi-ibaji",
+					"kogi-idah",
+					"kogi-igalamela-odolu",
+					"kogi-ofu",
+					"kogi-olamaboro",
+					"kogi-omala"
+				]
+			},
+			"seat": {
+				"name": "Makurdi",
+				"point": [
+					8.543,
+					7.708
+				]
+			},
+			"groups": [
+				"tiv",
+				"idoma",
+				"igala"
+			],
+			"text": "Won by the NPN behind a Tiv governor.",
+			"leaders": [
+				{
+					"name": "Aper Aku",
+					"title": "Governor (NPN)",
+					"from": 1979,
+					"to": 1983,
+					"group": "tiv",
+					"home": {
+						"name": "Ikyobo",
+						"point": [
+							8.9545,
+							7.149
+						]
+					},
+					"sources": [
+						"wikipedia-aper-aku"
+					],
+					"confidence": "high",
+					"party": "npn"
+				}
+			],
+			"sources": [
+				"worldstatesmen-nigeria-states"
+			],
+			"confidence": "medium",
+			"party": "npn"
+		},
+		{
+			"id": "kwara",
+			"name": "Kwara State",
+			"kind": "state",
+			"extent": {
+				"states": [
+					"kwara"
+				],
+				"lgas": [
+					"kogi-adavi",
+					"kogi-ajaokuta",
+					"kogi-ijumu",
+					"kogi-kabba-bunu",
+					"kogi-kogi",
+					"kogi-lokoja",
+					"kogi-mopa-muro",
+					"kogi-ogori-magongo",
+					"kogi-okehi",
+					"kogi-okene",
+					"kogi-yagba-east",
+					"kogi-yagba-west"
+				]
+			},
+			"seat": {
+				"name": "Ilorin",
+				"point": [
+					4.5145,
+					8.4565
+				]
+			},
+			"groups": [
+				"yoruba",
+				"nupe",
+				"ebira"
+			],
+			"text": "Won by the NPN behind an Ebira governor; the UPN took it in 1983.",
+			"leaders": [
+				{
+					"name": "Adamu Atta",
+					"title": "Governor (NPN)",
+					"from": 1979,
+					"to": 1983,
+					"group": "ebira",
+					"home": {
+						"name": "Okene",
+						"point": [
+							6.2235,
+							7.5235
+						]
+					},
+					"sources": [
+						"wikipedia-adamu-atta"
+					],
+					"confidence": "high",
+					"party": "npn"
+				},
+				{
+					"name": "Cornelius Adebayo",
+					"title": "Governor (UPN)",
+					"from": 1983,
+					"to": 1983,
+					"group": "yoruba",
+					"groupNote": "Born at Igbaja, an Igbomina Yoruba town; inferred.",
+					"home": {
+						"name": "Igbaja",
+						"point": [
+							5.068,
+							8.533
+						]
+					},
+					"sources": [
+						"wikipedia-cornelius-adebayo"
+					],
+					"confidence": "medium",
+					"party": "upn"
+				}
+			],
+			"sources": [
+				"worldstatesmen-nigeria-states"
+			],
+			"confidence": "high",
+			"party": "npn"
+		},
+		{
+			"id": "lagos",
+			"name": "Lagos State",
+			"kind": "state",
+			"extent": {
+				"states": [
+					"lagos"
+				]
+			},
+			"seat": {
+				"name": "Lagos",
+				"point": [
+					3.3965,
+					6.4545
+				]
+			},
+			"groups": [
+				"yoruba"
+			],
+			"text": "Won by Awolowo’s UPN, as were all the Yoruba states.",
+			"leaders": [
+				{
+					"name": "Lateef Jakande",
+					"title": "Governor (UPN)",
+					"from": 1979,
+					"to": 1983,
+					"group": "yoruba",
+					"groupNote": "Born in Lagos to parents from Omu-Aran, an Igbomina Yoruba town.",
+					"home": {
+						"name": "Lagos Island",
+						"point": [
+							3.3965,
+							6.4545
+						]
+					},
+					"sources": [
+						"wikipedia-lateef-jakande"
+					],
+					"confidence": "high",
+					"party": "upn"
+				}
+			],
+			"sources": [
+				"worldstatesmen-nigeria-states"
+			],
+			"confidence": "high",
+			"party": "upn"
+		},
+		{
+			"id": "ogun",
+			"name": "Ogun State",
+			"kind": "state",
+			"extent": {
+				"states": [
+					"ogun"
+				]
+			},
+			"seat": {
+				"name": "Abeokuta",
+				"point": [
+					3.374,
+					7.1705
+				]
+			},
+			"groups": [
+				"yoruba"
+			],
+			"text": "Won by the UPN; Ogun was Awolowo’s home state.",
+			"leaders": [
+				{
+					"name": "Olabisi Onabanjo",
+					"title": "Governor (UPN)",
+					"from": 1979,
+					"to": 1983,
+					"group": "yoruba",
+					"groupNote": "Ijebu Yoruba.",
+					"home": {
+						"name": "Lagos",
+						"point": [
+							3.3965,
+							6.4545
+						]
+					},
+					"sources": [
+						"wikipedia-olabisi-onabanjo"
+					],
+					"confidence": "high",
+					"party": "upn"
+				}
+			],
+			"sources": [
+				"worldstatesmen-nigeria-states"
+			],
+			"confidence": "high",
+			"party": "upn"
+		},
+		{
+			"id": "oyo",
+			"name": "Oyo State",
+			"kind": "state",
+			"extent": {
+				"states": [
+					"oyo",
+					"osun"
+				]
+			},
+			"seat": {
+				"name": "Ibadan",
+				"point": [
+					3.902,
+					7.422
+				]
+			},
+			"groups": [
+				"yoruba"
+			],
+			"text": "Won by the UPN; in the disputed 1983 vote the NPN was declared winner.",
+			"leaders": [
+				{
+					"name": "Bola Ige",
+					"title": "Governor (UPN)",
+					"from": 1979,
+					"to": 1983,
+					"group": "yoruba",
+					"home": {
+						"name": "Esa-Oke",
+						"point": [
+							4.7645,
+							7.7925
+						]
+					},
+					"sources": [
+						"wikipedia-bola-ige"
+					],
+					"confidence": "high",
+					"party": "upn"
+				},
+				{
+					"name": "Omololu Olunloyo",
+					"title": "Governor (NPN)",
+					"from": 1983,
+					"to": 1983,
+					"group": "yoruba",
+					"groupNote": "His biography gives his birthplace (Ibadan) but not his people; the people shown is inferred from it.",
+					"home": {
+						"name": "Ibadan",
+						"point": [
+							3.902,
+							7.422
+						]
+					},
+					"sources": [
+						"wikipedia-victor-omololu-olunloyo"
+					],
+					"confidence": "medium",
+					"party": "npn"
+				}
+			],
+			"sources": [
+				"worldstatesmen-nigeria-states"
+			],
+			"confidence": "high",
+			"party": "upn"
+		},
+		{
+			"id": "ondo",
+			"name": "Ondo State",
+			"kind": "state",
+			"extent": {
+				"states": [
+					"ondo",
+					"ekiti"
+				]
+			},
+			"seat": {
+				"name": "Akure",
+				"point": [
+					5.202,
+					7.195
+				]
+			},
+			"groups": [
+				"yoruba"
+			],
+			"text": "Won by the UPN. In 1983 the NPN’s Akin Omoboriowo, Ajasin’s former deputy, was declared winner amid deadly riots, but the Court of Appeal reinstated Ajasin before Omoboriowo took office.",
+			"leaders": [
+				{
+					"name": "Adekunle Ajasin",
+					"title": "Governor (UPN)",
+					"from": 1979,
+					"to": 1983,
+					"group": "yoruba",
+					"groupNote": "His biography gives his birthplace (Owo) but not his people; the people shown is inferred from it.",
+					"home": {
+						"name": "Owo",
+						"point": [
+							5.584,
+							7.1645
+						]
+					},
+					"sources": [
+						"wikipedia-michael-adekunle-ajasin",
+						"wikipedia-akin-omoboriowo"
+					],
+					"confidence": "medium",
+					"party": "upn"
+				}
+			],
+			"sources": [
+				"worldstatesmen-nigeria-states"
+			],
+			"confidence": "high",
+			"party": "upn"
+		},
+		{
+			"id": "bendel",
+			"name": "Bendel State",
+			"kind": "state",
+			"extent": {
+				"states": [
+					"edo",
+					"delta"
+				]
+			},
+			"seat": {
+				"name": "Benin City",
+				"point": [
+					5.5565,
+					6.245
+				]
+			},
+			"groups": [
+				"edo",
+				"urhobo",
+				"anioma"
+			],
+			"text": "Won by the UPN. In 1983 the NPN was declared winner and Ogbemudia, the old military governor, returned.",
+			"leaders": [
+				{
+					"name": "Ambrose Alli",
+					"title": "Governor (UPN)",
+					"from": 1979,
+					"to": 1983,
+					"groupLabel": "Not recorded",
+					"groupNote": "Born at Idoani in Ondo; he grew up between Ekpoma, Owo, Benin City and Asaba. His biography does not name his people.",
+					"sources": [
+						"wikipedia-ambrose-folorunsho-alli"
+					],
+					"confidence": "medium",
+					"party": "upn"
+				},
+				{
+					"name": "Samuel Ogbemudia",
+					"title": "Governor (NPN)",
+					"from": 1983,
+					"to": 1983,
+					"group": "edo",
+					"home": {
+						"name": "Benin City",
+						"point": [
+							5.5565,
+							6.245
+						]
+					},
+					"sources": [
+						"wikipedia-samuel-ogbemudia"
+					],
+					"confidence": "high",
+					"party": "npn"
+				}
+			],
+			"sources": [
+				"worldstatesmen-nigeria-states"
+			],
+			"confidence": "high",
+			"party": "upn"
+		},
+		{
+			"id": "anambra",
+			"name": "Anambra State",
+			"kind": "state",
+			"extent": {
+				"states": [
+					"anambra",
+					"enugu"
+				],
+				"lgas": [
+					"ebonyi-abakaliki",
+					"ebonyi-ebonyi",
+					"ebonyi-ezza-north",
+					"ebonyi-ezza-south",
+					"ebonyi-ikwo",
+					"ebonyi-ishielu",
+					"ebonyi-izzi",
+					"ebonyi-ohaukwu"
+				]
+			},
+			"seat": {
+				"name": "Enugu",
+				"point": [
+					7.489,
+					6.445
+				]
+			},
+			"groups": [
+				"igbo"
+			],
+			"text": "Won by Azikiwe’s NPP, the party of the Igbo states, until the NPN was declared winner in 1983.",
+			"leaders": [
+				{
+					"name": "Jim Nwobodo",
+					"title": "Governor (NPP)",
+					"from": 1979,
+					"to": 1983,
+					"group": "igbo",
+					"groupNote": "Born at Agyaragu in Lafia, Nasarawa; his biography cites an Igbo biographical register.",
+					"sources": [
+						"wikipedia-jim-nwobodo"
+					],
+					"confidence": "medium",
+					"party": "npp"
+				},
+				{
+					"name": "C. C. Onoh",
+					"title": "Governor (NPN)",
+					"from": 1983,
+					"to": 1983,
+					"group": "igbo",
+					"groupNote": "His biography gives his birthplace (Ngwo, near Enugu) but not his people; the people shown is inferred from it.",
+					"home": {
+						"name": "Ngwo",
+						"point": [
+							7.3525,
+							6.5465
+						]
+					},
+					"sources": [
+						"wikipedia-christian-onoh"
+					],
+					"confidence": "medium",
+					"party": "npn"
+				}
+			],
+			"sources": [
+				"worldstatesmen-nigeria-states"
+			],
+			"confidence": "high",
+			"party": "npp"
+		},
+		{
+			"id": "imo",
+			"name": "Imo State",
+			"kind": "state",
+			"extent": {
+				"states": [
+					"imo",
+					"abia"
+				],
+				"lgas": [
+					"ebonyi-afikpo-north",
+					"ebonyi-afikpo-south",
+					"ebonyi-ivo",
+					"ebonyi-ohaozara",
+					"ebonyi-onicha"
+				]
+			},
+			"seat": {
+				"name": "Owerri",
+				"point": [
+					7.019,
+					5.479
+				]
+			},
+			"groups": [
+				"igbo"
+			],
+			"text": "Won by the NPP throughout.",
+			"leaders": [
+				{
+					"name": "Sam Mbakwe",
+					"title": "Governor (NPP)",
+					"from": 1979,
+					"to": 1983,
+					"group": "igbo",
+					"groupNote": "His biography gives his birthplace (Avutu, in Obowo, Imo) but not his people; the people shown is inferred from it.",
+					"home": {
+						"name": "Avutu",
+						"point": [
+							7.3655,
+							5.5615
+						]
+					},
+					"sources": [
+						"wikipedia-sam-mbakwe"
+					],
+					"confidence": "medium",
+					"party": "npp"
+				}
+			],
+			"sources": [
+				"worldstatesmen-nigeria-states"
+			],
+			"confidence": "high",
+			"party": "npp"
+		},
+		{
+			"id": "cross-river",
+			"name": "Cross River State",
+			"kind": "state",
+			"extent": {
+				"states": [
+					"cross-river",
+					"akwa-ibom"
+				]
+			},
+			"seat": {
+				"name": "Calabar",
+				"point": [
+					8.328,
+					5.004
+				]
+			},
+			"groups": [
+				"ibibio",
+				"efik",
+				"annang"
+			],
+			"text": "Won by the NPN.",
+			"leaders": [
+				{
+					"name": "Clement Isong",
+					"title": "Governor (NPN)",
+					"from": 1979,
+					"to": 1983,
+					"group": "ekid",
+					"groupNote": "Born at Eket, home of the Ekid, who are often counted as Ibibio. His biography does not name his people; inferred.",
+					"home": {
+						"name": "Eket",
+						"point": [
+							7.943,
+							4.644
+						]
+					},
+					"sources": [
+						"wikipedia-clement-isong"
+					],
+					"confidence": "medium",
+					"party": "npn"
+				},
+				{
+					"name": "Donald Etiebet",
+					"title": "Governor (NPN)",
+					"from": 1983,
+					"to": 1983,
+					"group": "annang",
+					"home": {
+						"name": "Ikot Ekpene",
+						"point": [
+							7.7135,
+							5.2035
+						]
+					},
+					"sources": [
+						"wikipedia-donald-etiebet"
+					],
+					"confidence": "high",
+					"party": "npn"
+				}
+			],
+			"sources": [
+				"worldstatesmen-nigeria-states"
+			],
+			"confidence": "high",
+			"party": "npn"
+		},
+		{
+			"id": "rivers",
+			"name": "Rivers State",
+			"kind": "state",
+			"extent": {
+				"states": [
+					"rivers",
+					"bayelsa"
+				]
+			},
+			"seat": {
+				"name": "Port Harcourt",
+				"point": [
+					7.018,
+					4.7875
+				]
+			},
+			"groups": [
+				"ijaw",
+				"ikwerre",
+				"ogoni"
+			],
+			"text": "Won by the NPN behind an Ijaw governor.",
+			"leaders": [
+				{
+					"name": "Melford Okilo",
+					"title": "Governor (NPN)",
+					"from": 1979,
+					"to": 1983,
+					"group": "ijaw",
+					"groupNote": "From Ogbia, whose people speak their own language and are often counted as Ijaw.",
+					"home": {
+						"name": "Emakalakala, Ogbia",
+						"point": [
+							6.3265,
+							4.7675
+						]
+					},
+					"sources": [
+						"wikipedia-melford-okilo"
+					],
+					"confidence": "high",
+					"party": "npn"
+				}
+			],
+			"sources": [
+				"worldstatesmen-nigeria-states"
+			],
+			"confidence": "high",
+			"party": "npn"
+		},
+		{
+			"id": "fct",
+			"name": "Federal Capital Territory",
+			"kind": "territory",
+			"extent": {
+				"states": [],
+				"lgas": [
+					"fct-abaji",
+					"fct-bwari",
+					"fct-gwagwalada",
+					"fct-kuje",
+					"fct-kwali",
+					"fct-municipal-area-council"
+				]
+			},
+			"seat": {
+				"name": "Abuja",
+				"point": [
+					7.4195,
+					9.0105
+				]
+			},
+			"groups": [
+				"gbagyi"
+			],
+			"text": "Still being built; the capital moved from Lagos only in 1991.",
+			"leaders": [],
+			"sources": [
+				"worldstatesmen-nigeria-states",
+				"wikipedia-federal-capital-territory-nigeria"
+			],
+			"confidence": "medium"
+		}
+	],
+	"reviewNotes": [
+		"Ethnic attributions follow the cited biographies. Where a biography gives only a birthplace, the people is inferred from it and marked medium; where even that is unclear, the people is shown as “Not recorded”.",
+		"Party results: the UPN won Lagos, Ogun, Oyo, Ondo and Bendel; the NPP Anambra, Imo and Plateau; the PRP Kano and Kaduna; the GNPP Borno and Gongola; the NPN the other seven. The 1983 results were widely disputed.",
+		"worldstatesmen lists Jakande and Cornelius Adebayo as NPN; their Wikipedia biographies say UPN, which is followed here. It also lists Omoboriowo as Ondo governor, but the Court of Appeal reinstated Ajasin before he took office."
+	],
+	"parties": [
+		{
+			"id": "npn",
+			"name": "National Party of Nigeria",
+			"short": "NPN",
+			"slot": 1,
+			"peoples": [
+				"fulani",
+				"hausa"
+			],
+			"leader": "Shehu Shagari",
+			"text": "The dominant party of the Second Republic. Led by the old Northern establishment, but built across regions, with an Igbo running mate and allies among the minorities.",
+			"sources": [
+				"wikipedia-national-party-of-nigeria",
+				"wikipedia-1979-nigerian-presidential-election"
+			],
+			"confidence": "high"
+		},
+		{
+			"id": "upn",
+			"name": "Unity Party of Nigeria",
+			"short": "UPN",
+			"slot": 3,
+			"peoples": [
+				"yoruba"
+			],
+			"leader": "Obafemi Awolowo",
+			"text": "Awolowo’s party, the Action Group’s heir: it swept the Yoruba states and Bendel.",
+			"sources": [
+				"wikipedia-unity-party-of-nigeria",
+				"wikipedia-1979-nigerian-presidential-election"
+			],
+			"confidence": "high"
+		},
+		{
+			"id": "npp",
+			"name": "Nigerian People’s Party",
+			"short": "NPP",
+			"slot": 2,
+			"peoples": [
+				"igbo"
+			],
+			"leader": "Nnamdi Azikiwe",
+			"text": "Azikiwe’s party, the NCNC’s heir, drawing on the Igbo states and minorities of the Plateau.",
+			"sources": [
+				"wikipedia-nigerian-peoples-party",
+				"wikipedia-1979-nigerian-presidential-election"
+			],
+			"confidence": "high"
+		},
+		{
+			"id": "prp",
+			"name": "People’s Redemption Party",
+			"short": "PRP",
+			"slot": 7,
+			"peoples": [
+				"hausa"
+			],
+			"leader": "Aminu Kano",
+			"text": "NEPU’s heir: the radical party of the Hausa commoners, holding Kano and Kaduna.",
+			"sources": [
+				"wikipedia-peoples-redemption-party",
+				"wikipedia-1979-nigerian-presidential-election"
+			],
+			"confidence": "medium"
+		},
+		{
+			"id": "gnpp",
+			"name": "Great Nigeria People’s Party",
+			"short": "GNPP",
+			"slot": 4,
+			"peoples": [
+				"kanuri"
+			],
+			"leader": "Waziri Ibrahim",
+			"text": "Waziri Ibrahim’s party, strongest in his Kanuri Borno and in Gongola.",
+			"sources": [
+				"wikipedia-great-nigeria-peoples-party",
+				"wikipedia-1979-nigerian-presidential-election"
+			],
+			"confidence": "medium"
+		}
+	],
+	"results": [
+		{
+			"title": "Presidential election, 1979",
+			"year": 1979,
+			"measure": "votes",
+			"parts": [
+				{
+					"party": "npn",
+					"label": "NPN",
+					"value": 5688857,
+					"candidate": "Shehu Shagari"
+				},
+				{
+					"party": "upn",
+					"label": "UPN",
+					"value": 4916551,
+					"candidate": "Obafemi Awolowo"
+				},
+				{
+					"party": "npp",
+					"label": "NPP",
+					"value": 2822523,
+					"candidate": "Nnamdi Azikiwe"
+				},
+				{
+					"party": "prp",
+					"label": "PRP",
+					"value": 1732113,
+					"candidate": "Aminu Kano"
+				},
+				{
+					"party": "gnpp",
+					"label": "GNPP",
+					"value": 1686489,
+					"candidate": "Waziri Ibrahim"
+				}
+			],
+			"note": "Each of the five candidates led one old bloc: the Northern establishment, the Yoruba West, the Igbo East, the Kano radicals and Kanuri Borno.",
+			"sources": [
+				"wikipedia-1979-nigerian-presidential-election"
+			],
+			"confidence": "high"
+		},
+		{
+			"title": "Presidential election, 1983",
+			"year": 1983,
+			"measure": "votes",
+			"parts": [
+				{
+					"party": "npn",
+					"label": "NPN",
+					"value": 12081471,
+					"candidate": "Shehu Shagari"
+				},
+				{
+					"party": "upn",
+					"label": "UPN",
+					"value": 7907209,
+					"candidate": "Obafemi Awolowo"
+				},
+				{
+					"party": "npp",
+					"label": "NPP",
+					"value": 3557113,
+					"candidate": "Nnamdi Azikiwe"
+				},
+				{
+					"party": "prp",
+					"label": "PRP",
+					"value": 968974,
+					"candidate": "Hassan Yusuf"
+				},
+				{
+					"party": "gnpp",
+					"label": "GNPP",
+					"value": 643806,
+					"candidate": "Waziri Ibrahim"
+				},
+				{
+					"label": "NAP",
+					"value": 271524,
+					"candidate": "Tunji Braithwaite"
+				}
+			],
+			"note": "Widely disputed; the military seized power three months later.",
+			"sources": [
+				"wikipedia-1983-nigerian-presidential-election"
+			],
+			"confidence": "high"
+		}
+	],
+	"coalitions": [
+		{
+			"id": "npn-npp",
+			"name": "NPN–NPP accord",
+			"kind": "coalition",
+			"from": 1979,
+			"to": 1981,
+			"parties": [
+				"npn",
+				"npp"
+			],
+			"between": [
+				"sokoto",
+				"anambra",
+				"imo",
+				"plateau"
+			],
+			"text": "Short of a majority in the National Assembly, Shagari’s NPN made an accord with Azikiwe’s NPP: the North and the Igbo East together again, as in 1959. It broke down in 1981, when the NPP chairman told the party’s ministers to resign.",
+			"sources": [
+				"wikipedia-national-party-of-nigeria",
+				"wikipedia-nigerian-peoples-party"
+			],
+			"confidence": "high"
+		}
+	]
+}

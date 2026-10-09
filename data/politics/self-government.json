@@ -1,0 +1,391 @@
+{
+	"name": "Regional self-government",
+	"status": "draft",
+	"from": 1954,
+	"to": 1960,
+	"label": "1954–1960",
+	"summary": {
+		"text": "Under the 1954 constitution Nigeria became a federation of three regions. Each was run by an elected premier and dominated by one party built on its largest people: the Northern People’s Congress was led by Fulani aristocrats with a Hausa base, the Action Group by Yoruba, and the NCNC by Igbo. Minorities in every region complained of domination: the Middle Belt peoples in the North, the Edo, Urhobo and Itsekiri in the West, and the Ibibio, Efik and Ijaw in the East.",
+		"sources": [
+			"wikipedia-nigerian-first-republic",
+			"wikipedia-northern-region-nigeria",
+			"wikipedia-western-region-nigeria",
+			"wikipedia-eastern-region-nigeria"
+		],
+		"confidence": "high"
+	},
+	"federal": {
+		"text": "Britain still held power at the centre through the Governor-General. Federal ministers came from all three regions. In 1957 Abubakar Tafawa Balewa of the NPC became the first Prime Minister.",
+		"sources": [
+			"wikipedia-nigerian-first-republic",
+			"wikipedia-abubakar-tafawa-balewa"
+		],
+		"confidence": "high",
+		"leaders": [
+			{
+				"name": "Abubakar Tafawa Balewa",
+				"title": "Federal Prime Minister (NPC)",
+				"from": 1957,
+				"to": 1966,
+				"groupLabel": "Gere",
+				"groupNote": "His father was Gerawa and his mother Fulani. He is often called Hausa; Kperogi notes he was neither Hausa nor Fulani by descent.",
+				"home": {
+					"name": "Tafawa Balewa",
+					"point": [
+						9.76,
+						9.77
+					]
+				},
+				"sources": [
+					"wikipedia-abubakar-tafawa-balewa",
+					"kperogi-2020"
+				],
+				"confidence": "disputed"
+			}
+		]
+	},
+	"units": [
+		{
+			"id": "northern-region",
+			"name": "Northern Region",
+			"kind": "region",
+			"extent": {
+				"states": [
+					"kano",
+					"jigawa",
+					"katsina",
+					"kaduna",
+					"kebbi",
+					"sokoto",
+					"zamfara",
+					"niger",
+					"kwara",
+					"kogi",
+					"benue",
+					"plateau",
+					"nasarawa",
+					"bauchi",
+					"gombe",
+					"borno",
+					"yobe",
+					"adamawa",
+					"taraba",
+					"fct"
+				]
+			},
+			"seat": {
+				"name": "Kaduna",
+				"point": [
+					7.44,
+					10.52
+				]
+			},
+			"groups": [
+				"fulani",
+				"hausa",
+				"kanuri"
+			],
+			"text": "The Northern People’s Congress (NPC) ruled the North. Its leaders were the Fulani aristocracy of the emirates: the Premier, the Sardauna Ahmadu Bello, was a great-grandson of Caliph Muhammad Bello. Its mass base and much of its officialdom were Hausa, and the Kanuri of Borno held their own emirate establishment. The opposition came from Hausa radicals of NEPU under Aminu Kano, and from the Middle Belt minorities of the UMBC, among them the Tiv under J. S. Tarka.",
+			"leaders": [
+				{
+					"name": "Ahmadu Bello, Sardauna of Sokoto",
+					"title": "Premier of the North (NPC)",
+					"from": 1954,
+					"to": 1966,
+					"group": "fulani",
+					"groupNote": "Fulani royal house of Sokoto; a descendant of Usman dan Fodio.",
+					"home": {
+						"name": "Rabah, Sokoto",
+						"point": [
+							5.5,
+							13.12
+						]
+					},
+					"sources": [
+						"wikipedia-ahmadu-bello"
+					],
+					"confidence": "high"
+				}
+			],
+			"sources": [
+				"wikipedia-northern-region-nigeria",
+				"wikipedia-northern-people-s-congress",
+				"wikipedia-ahmadu-bello"
+			],
+			"confidence": "high",
+			"party": "npc"
+		},
+		{
+			"id": "western-region",
+			"name": "Western Region",
+			"kind": "region",
+			"extent": {
+				"states": [
+					"ogun",
+					"oyo",
+					"osun",
+					"ondo",
+					"ekiti",
+					"lagos",
+					"edo",
+					"delta"
+				],
+				"except": [
+					"lagos-lagos-island",
+					"lagos-lagos-mainland",
+					"lagos-surulere",
+					"lagos-apapa",
+					"lagos-eti-osa"
+				]
+			},
+			"seat": {
+				"name": "Ibadan",
+				"point": [
+					3.9,
+					7.38
+				]
+			},
+			"groups": [
+				"yoruba"
+			],
+			"text": "The Action Group (AG), born of the Yoruba cultural society Egbe Omo Oduduwa, ruled the West. The region was about three-quarters Yoruba. Its minorities, the Edo, Urhobo, Itsekiri, Ijaw and western Igbo of the Benin and Warri provinces, campaigned for a Mid-West region of their own.",
+			"leaders": [
+				{
+					"name": "Obafemi Awolowo",
+					"title": "Premier of the West (AG)",
+					"from": 1954,
+					"to": 1959,
+					"group": "yoruba",
+					"home": {
+						"name": "Ikenne",
+						"point": [
+							3.71,
+							6.87
+						]
+					},
+					"sources": [
+						"wikipedia-obafemi-awolowo"
+					],
+					"confidence": "high"
+				},
+				{
+					"name": "Samuel Ladoke Akintola",
+					"title": "Premier of the West (AG, then NNDP)",
+					"from": 1959,
+					"to": 1966,
+					"group": "yoruba",
+					"home": {
+						"name": "Ogbomoso",
+						"point": [
+							4.26,
+							8.13
+						]
+					},
+					"sources": [
+						"wikipedia-samuel-akintola"
+					],
+					"confidence": "high"
+				}
+			],
+			"sources": [
+				"wikipedia-western-region-nigeria",
+				"wikipedia-action-group-nigeria"
+			],
+			"confidence": "high",
+			"party": "ag"
+		},
+		{
+			"id": "eastern-region",
+			"name": "Eastern Region",
+			"kind": "region",
+			"extent": {
+				"states": [
+					"abia",
+					"anambra",
+					"ebonyi",
+					"enugu",
+					"imo",
+					"rivers",
+					"bayelsa",
+					"cross-river",
+					"akwa-ibom"
+				]
+			},
+			"seat": {
+				"name": "Enugu",
+				"point": [
+					7.49,
+					6.45
+				]
+			},
+			"groups": [
+				"igbo"
+			],
+			"text": "The NCNC, led by Igbo politicians, governed the East. The Igbo were the largest group, but the Ibibio, Ijaw and Efik minorities of the Calabar, Ogoja and Rivers provinces pressed for a state of their own (the COR state movement).",
+			"leaders": [
+				{
+					"name": "Nnamdi Azikiwe",
+					"title": "Premier of the East (NCNC)",
+					"from": 1954,
+					"to": 1959,
+					"group": "igbo",
+					"groupNote": "Igbo of Onitsha; born at Zungeru in the North.",
+					"home": {
+						"name": "Onitsha",
+						"point": [
+							6.78,
+							6.15
+						]
+					},
+					"sources": [
+						"wikipedia-nnamdi-azikiwe"
+					],
+					"confidence": "high"
+				},
+				{
+					"name": "Michael Okpara",
+					"title": "Premier of the East (NCNC)",
+					"from": 1959,
+					"to": 1966,
+					"group": "igbo",
+					"home": {
+						"name": "Umuahia",
+						"point": [
+							7.49,
+							5.53
+						]
+					},
+					"sources": [
+						"wikipedia-michael-okpara",
+						"wikipedia-eastern-region-nigeria"
+					],
+					"confidence": "medium"
+				}
+			],
+			"sources": [
+				"wikipedia-eastern-region-nigeria",
+				"wikipedia-national-council-of-nigeria-and-the-cameroons"
+			],
+			"confidence": "high",
+			"party": "ncnc"
+		},
+		{
+			"id": "lagos",
+			"name": "Federal Territory of Lagos",
+			"kind": "territory",
+			"extent": {
+				"lgas": [
+					"lagos-lagos-island",
+					"lagos-lagos-mainland",
+					"lagos-surulere",
+					"lagos-apapa",
+					"lagos-eti-osa"
+				]
+			},
+			"seat": {
+				"name": "Lagos",
+				"point": [
+					3.39,
+					6.45
+				]
+			},
+			"groups": [
+				"yoruba"
+			],
+			"text": "Lagos was taken out of the Western Region in 1954 as the federal capital territory. Its people are mostly Yoruba, but it was home to every group.",
+			"leaders": [],
+			"sources": [
+				"wikipedia-western-region-nigeria"
+			],
+			"confidence": "medium"
+		}
+	],
+	"reviewNotes": [
+		"Ethnic attributions follow the cited biographies. Where sources disagree, the leader is marked disputed and the alternatives are given."
+	],
+	"parties": [
+		{
+			"id": "npc",
+			"name": "Northern People’s Congress",
+			"short": "NPC",
+			"slot": 1,
+			"peoples": [
+				"fulani",
+				"hausa"
+			],
+			"leader": "Ahmadu Bello, Sardauna of Sokoto",
+			"text": "The party of the Northern emirates. Its leaders were the Fulani aristocracy; its voters and much of its officialdom were Hausa, with the Kanuri establishment of Borno beside them.",
+			"sources": [
+				"wikipedia-northern-people-s-congress",
+				"wikipedia-ahmadu-bello"
+			],
+			"confidence": "high"
+		},
+		{
+			"id": "ncnc",
+			"name": "National Council of Nigeria and the Cameroons",
+			"short": "NCNC",
+			"slot": 2,
+			"peoples": [
+				"igbo"
+			],
+			"leader": "Nnamdi Azikiwe",
+			"text": "Founded as an all-Nigeria nationalist party; by the 1950s its base was the Igbo East, with allies in Lagos and the Mid-West.",
+			"sources": [
+				"wikipedia-national-council-of-nigeria-and-the-cameroons",
+				"wikipedia-nnamdi-azikiwe"
+			],
+			"confidence": "high"
+		},
+		{
+			"id": "ag",
+			"name": "Action Group",
+			"short": "AG",
+			"slot": 3,
+			"peoples": [
+				"yoruba"
+			],
+			"leader": "Obafemi Awolowo",
+			"text": "The Yoruba party of the Western Region, built by Awolowo out of the Egbe Omo Oduduwa.",
+			"sources": [
+				"wikipedia-action-group-nigeria",
+				"wikipedia-obafemi-awolowo"
+			],
+			"confidence": "high"
+		}
+	],
+	"results": [
+		{
+			"title": "Federal House of Representatives, 1954",
+			"year": 1954,
+			"measure": "seats",
+			"parts": [
+				{
+					"party": "npc",
+					"label": "NPC",
+					"value": 84
+				},
+				{
+					"party": "ncnc",
+					"label": "NCNC",
+					"value": 63
+				},
+				{
+					"party": "ag",
+					"label": "AG",
+					"value": 20
+				},
+				{
+					"label": "Others",
+					"value": 17
+				}
+			],
+			"note": "Others: the Kamerun National Congress, UNIP, the Idoma State Union, the Middle Belt People’s Party and two more.",
+			"sources": [
+				"wikipedia-1954-nigerian-general-election"
+			],
+			"confidence": "high"
+		}
+	],
+	"coalitions": []
+}

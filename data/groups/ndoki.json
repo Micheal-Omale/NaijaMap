@@ -1,6 +1,66 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Ndoki district (Oyigbo)",
+			"lga": "rivers-oyigbo",
+			"villages": [
+				{
+					"name": "Afa Uku"
+				},
+				{
+					"name": "Afam"
+				},
+				{
+					"name": "Afam Nta"
+				},
+				{
+					"name": "Azusogu"
+				},
+				{
+					"name": "Egberu"
+				},
+				{
+					"name": "Mgboji"
+				},
+				{
+					"name": "Mrihu"
+				},
+				{
+					"name": "Obeakpu"
+				},
+				{
+					"name": "Obeta"
+				},
+				{
+					"name": "Obumku"
+				},
+				{
+					"name": "Okoloma"
+				},
+				{
+					"name": "Okponta"
+				},
+				{
+					"name": "Umuagbai"
+				},
+				{
+					"name": "Umuosi"
+				}
+			],
+			"sources": [
+				"wikipedia-oyigbo"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "The Ndoki district of Oyigbo LGA; Okoloma hosts the Afam VI power station.",
+				"sources": [
+					"wikipedia-oyigbo"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Asa and Ndoki (Oyigbo)",
 	"searchAliases": [

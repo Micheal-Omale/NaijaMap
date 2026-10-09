@@ -1,0 +1,86 @@
+{
+	"status": "draft",
+	"of": "polity",
+	"terrain": "forest",
+	"summary": {
+		"text": "Ibadan was a war camp that became a city: a military republic where rank came from war, called the ‘gun base’. Its army stopped the jihad at Osogbo in 1840 and then built an empire in the east.",
+		"sources": [
+			"wikipedia-ibadan",
+			"akintoye-1971"
+		],
+		"confidence": "high"
+	},
+	"arms": [
+		{
+			"kind": "standing",
+			"level": 3,
+			"text": "A warrior class dominated the city; its chiefs rose by merit in war.",
+			"sources": [
+				"wikipedia-ibadan"
+			],
+			"confidence": "high"
+		},
+		{
+			"kind": "firearms",
+			"level": 2,
+			"text": "Ibadan was nicknamed the gun base.",
+			"sources": [
+				"wikipedia-ibadan",
+				"akintoye-1971"
+			],
+			"confidence": "high"
+		},
+		{
+			"kind": "allies",
+			"level": 2,
+			"from": 1850,
+			"text": "Subject towns in the east, ruled through resident agents (ajele).",
+			"sources": [
+				"akintoye-1971"
+			],
+			"confidence": "medium"
+		}
+	],
+	"record": [
+		{
+			"year": 1840,
+			"polity": "sokoto",
+			"against": "Ilorin and the caliphate",
+			"result": "won",
+			"text": "At Osogbo Ibadan decisively beat the jihad’s push south.",
+			"sources": [
+				"wikipedia-ibadan"
+			],
+			"confidence": "high"
+		},
+		{
+			"year": 1862,
+			"polity": "egba",
+			"event": "ijaye-war",
+			"against": "Ijaye and the Egba",
+			"result": "won",
+			"text": "Ibadan destroyed Ijaye.",
+			"sources": [
+				"johnson-1921",
+				"wikipedia-ijaye"
+			],
+			"confidence": "high"
+		},
+		{
+			"year": 1886,
+			"yearLabel": "1877–1886",
+			"polity": "ekitiparapo",
+			"event": "kiriji-war",
+			"against": "The Ekitiparapo",
+			"result": "stalemate",
+			"text": "The Kiriji war ended in a stalemate, and a peace brokered from Lagos.",
+			"sources": [
+				"wikipedia-kiriji-war"
+			],
+			"confidence": "high"
+		}
+	],
+	"reviewNotes": [
+		"Arms levels (1 some, 2 a real strength, 3 famous for it) are the compiler’s judgement from the sources, for the Versus page’s guess; please check them."
+	]
+}

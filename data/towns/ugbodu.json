@@ -1,0 +1,68 @@
+{
+	"name": "Ugbodu",
+	"status": "draft",
+	"otherNames": [
+		"Ugboduwa"
+	],
+	"point": [
+		6.462,
+		6.3771
+	],
+	"founded": {
+		"year": 1300,
+		"yearLabel": "12th–14th century",
+		"sources": [
+			"wikipedia-olukumi"
+		],
+		"confidence": "medium"
+	},
+	"summary": {
+		"text": "Ugbodu, “the forest has saved us”, was the first Olukumi town, founded by Yoruba from the Akure kingdom; a second Yoruba group from Owo, the Ologun Uja, joined them in a war with Ohordua and stayed. Its king is the Oloza.",
+		"sources": [
+			"wikipedia-olukumi"
+		],
+		"confidence": "medium"
+	},
+	"founders": [
+		{
+			"people": "Olukumi",
+			"group": "yoruba",
+			"from": {
+				"name": "Akure",
+				"point": [
+					5.1888,
+					7.2552
+				]
+			},
+			"quarters": [
+				"Ogbe Ogwa"
+			],
+			"text": "Its founders came from the Akure kingdom, led by Kokoroko (Adetola), the elder.",
+			"sources": [
+				"wikipedia-olukumi"
+			],
+			"confidence": "medium"
+		},
+		{
+			"people": "Olukumi",
+			"group": "yoruba",
+			"from": {
+				"name": "Owo",
+				"point": [
+					5.5791,
+					7.1906
+				]
+			},
+			"quarters": [
+				"Ogbe Ologoza"
+			],
+			"text": "The Ologun Uja, “warring fighters” from Owo, who joined Ugbodu in its war with Ohordua; their leader’s line holds the title Ologun.",
+			"sources": [
+				"wikipedia-olukumi"
+			],
+			"confidence": "medium"
+		}
+	],
+	"under": [],
+	"reviewNotes": []
+}

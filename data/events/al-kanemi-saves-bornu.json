@@ -1,0 +1,127 @@
+{
+	"name": "Al-Kanemi saves Bornu",
+	"status": "draft",
+	"kind": "war",
+	"year": 1807,
+	"yearLabel": "1807–1826",
+	"until": 1830,
+	"actors": [
+		{
+			"name": "Bornu (Mai and al-Kanemi)",
+			"polity": "kanem-bornu",
+			"side": "defender"
+		},
+		{
+			"name": "Bornu Fulani and Sokoto",
+			"polity": "sokoto",
+			"side": "attacker"
+		}
+	],
+	"summary": {
+		"text": "The jihad reached Bornu in 1807 when Fulani at Daura swore allegiance to Usman dan Fodio. Mai Ahmad attacked them and wrote to dan Fodio and Bello that his people were Muslims and the attacks unjust; the Fulani won anyway, killed the Galadima and in 1808 took Ngazargamu. At Ngala the scholar Muhammad al-Amin al-Kanemi, with his students and a few Kanembu and Shuwa Arab soldiers, beat off the Fulani leader Muhammad Wabi, and Mai Dunama called him to help retake the capital, a victory tradition credits to a charm al-Kanemi wrote on a calabash. Al-Kanemi argued Bornu's case against Bello in famous letters, founded Kuka in 1814 and became the real ruler as Shehu. His later invasion of Kano failed before its walls.",
+		"sources": [
+			"wikipedia-al-kanemi",
+			"wikipedia-ibrahim-dabo",
+			"wikipedia-kukawa"
+		],
+		"confidence": "high"
+	},
+	"routes": [
+		{
+			"kind": "advance",
+			"by": "Bornu Fulani and Sokoto",
+			"path": [
+				[
+					8.32,
+					13.04
+				],
+				[
+					12.367,
+					13.083
+				]
+			],
+			"label": "The jihad reaches Ngazargamu (1808)",
+			"sources": [
+				"wikipedia-al-kanemi"
+			]
+		},
+		{
+			"kind": "advance",
+			"by": "Bornu (Mai and al-Kanemi)",
+			"path": [
+				[
+					13.57,
+					12.93
+				],
+				[
+					8.52,
+					12
+				]
+			],
+			"label": "Al-Kanemi's army against Kano",
+			"sources": [
+				"wikipedia-ibrahim-dabo"
+			],
+			"confidence": "medium"
+		}
+	],
+	"moments": [
+		{
+			"when": "1808",
+			"title": "Ngazargamu falls",
+			"text": "Mai Ahmad flees and abdicates for his son Dunama.",
+			"at": {
+				"name": "Ngazargamu",
+				"point": [
+					12.367,
+					13.083
+				]
+			},
+			"mark": "captured",
+			"sources": [
+				"wikipedia-al-kanemi"
+			],
+			"confidence": "high"
+		},
+		{
+			"when": "1808",
+			"title": "The defence of Ngala",
+			"text": "Al-Kanemi defeats Muhammad Wabi.",
+			"at": {
+				"name": "Ngala",
+				"point": [
+					14.18,
+					12.34
+				]
+			},
+			"mark": "battle",
+			"sources": [
+				"wikipedia-al-kanemi"
+			],
+			"confidence": "high"
+		},
+		{
+			"when": "1814",
+			"title": "Kuka founded",
+			"text": "Al-Kanemi founds Kuka and takes the title Shehu.",
+			"at": {
+				"name": "Kukawa",
+				"point": [
+					13.57,
+					12.93
+				]
+			},
+			"mark": "founded",
+			"sources": [
+				"wikipedia-kukawa"
+			],
+			"confidence": "high"
+		}
+	],
+	"sources": [
+		"wikipedia-al-kanemi",
+		"wikipedia-kukawa"
+	],
+	"confidence": "high",
+	"reviewNotes": []
+}

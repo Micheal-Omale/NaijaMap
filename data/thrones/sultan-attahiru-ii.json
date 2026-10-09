@@ -1,0 +1,26 @@
+{
+	"status": "draft",
+	"title": "Sultan of Sokoto (Attahiru II)",
+	"kind": "installed",
+	"year": 1903,
+	"seat": {
+		"name": "Sokoto",
+		"point": [
+			5.24,
+			13.06
+		]
+	},
+	"by": "Frederick Lugard",
+	"first": "Muhammadu Attahiru II",
+	"groups": [
+		"fulani",
+		"hausa"
+	],
+	"polity": "sokoto",
+	"text": "When British forces took Sokoto in 1903, Sultan Attahiru I fled with many followers. On 21 March 1903 Lugard appointed Muhammadu Attahiru II, his rival for the throne, as Sultan, and at the same time stripped the office of much of its political power.",
+	"sources": [
+		"wikipedia-muhammadu-attahiru-ii"
+	],
+	"confidence": "high",
+	"reviewNotes": []
+}

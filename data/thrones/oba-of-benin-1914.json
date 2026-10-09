@@ -1,0 +1,26 @@
+{
+	"status": "draft",
+	"title": "Oba of Benin, restored",
+	"kind": "restored",
+	"year": 1914,
+	"yearLabel": "24 July 1914",
+	"seat": {
+		"name": "Benin City",
+		"point": [
+			5.627,
+			6.335
+		]
+	},
+	"by": "the British colonial government",
+	"first": "Eweka II",
+	"groups": [
+		"edo"
+	],
+	"polity": "benin",
+	"text": "The British deposed Oba Ovonramwen after the 1897 expedition and exiled him to Calabar, and Benin had no Oba for seventeen years. When Ovonramwen died in 1914 his son, who had worked with the colonial government as a chief since 1902, was enthroned as Eweka II. He rebuilt the palace the British had destroyed and looted.",
+	"sources": [
+		"wikipedia-eweka-ii"
+	],
+	"confidence": "high",
+	"reviewNotes": []
+}

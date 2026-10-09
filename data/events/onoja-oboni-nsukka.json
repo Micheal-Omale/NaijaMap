@@ -1,0 +1,57 @@
+{
+	"name": "Onoja Oboni’s conquest of the Nsukka towns",
+	"status": "draft",
+	"kind": "raid",
+	"year": 1740,
+	"yearLabel": "18th century",
+	"until": 1790,
+	"actors": [{ "name": "Igala Kingdom", "polity": "igala", "side": "attacker" }, { "name": "Northern Igbo (Nsukka) towns", "side": "defender" }],
+	"summary": {
+		"text": "Igala tradition and Nsukka memory agree that the Igala conquered the northern Igbo towns by war. The name of Onoja Oboni, an Igala war leader kept away from Idah because of his power, recurs in every account: after devastating the Okpoto country he set his base at Ogugu and led his armies as far south as Opi. The Igala installed chiefs and Attama shrine priests, and the towns’ rulers took their staffs from Idah.",
+		"sources": ["shaibu-2024", "shelton-1971", "meek-1930", "igala-colonisation-northern-igbo"],
+		"confidence": "medium"
+	},
+	"routes": [
+		{ "kind": "advance", "by": "Igala Kingdom", "path": [[6.737, 7.117], [7.2, 7.25], [7.4784, 7.1542]], "label": "Onoja Oboni sets his base at Ogugu" },
+		{ "kind": "raid", "by": "Igala Kingdom", "path": [[7.4784, 7.1542], [7.4306, 6.9543], [7.3966, 6.8578], [7.4443, 6.7563]], "label": "Wars of conquest as far as Opi" }
+	],
+	"moments": [
+		{
+			"when": "18th century",
+			"title": "Base at Ogugu",
+			"text": "From Ogugu, tradition says, Onoja Oboni turned a great tree upside down and built stone bridges over the Ofu single-handed: the stories of a professional soldier remembered as more than a man.",
+			"at": { "name": "Ogugu", "point": [7.4784, 7.1542] },
+			"mark": "camp"
+		},
+		{
+			"when": "18th century",
+			"title": "Enugu-Ezike",
+			"text": "Igala-appointed chiefs rule Enugu-Ezike, and its Eze is crowned at Idah.",
+			"at": { "name": "Enugu-Ezike", "point": [7.4306, 6.9543] },
+			"mark": "garrison",
+			"sources": ["shaibu-2024", "igala-colonisation-northern-igbo"]
+		},
+		{
+			"when": "Still standing",
+			"title": "Okpe gara, the “Igala wall”",
+			"text": "On the grounds of the University of Nigeria, Nsukka, an old earth wall about 200 metres across is still called Okpe gara, the Igala wall.",
+			"at": { "name": "Nsukka", "point": [7.3966, 6.8578] },
+			"mark": "garrison",
+			"sources": ["shaibu-2024", "shelton-1971"]
+		},
+		{
+			"when": "18th century",
+			"title": "Opi, the farthest reach",
+			"text": "Meek, writing in the 1930s, records that most of the Nsukka division was once overrun by Onoja Oboni, as far south as Opi.",
+			"at": { "name": "Opi", "point": [7.4443, 6.7563] },
+			"mark": "battle",
+			"sources": ["meek-1930", "shaibu-2024"]
+		}
+	],
+	"sources": ["shaibu-2024", "shelton-1971", "meek-1930", "igala-colonisation-northern-igbo", "owner-2026-10-07-doc1"],
+	"confidence": "medium",
+	"note": "Ukpabi places the conquest in Igala’s height, the 18th and early 19th century; no exact date is recorded.",
+	"reviewNotes": [
+		"The owner’s notes name an Igala warlord “Omeppa” who set up garrisons in northern Igboland. The written sources found name Onoja Oboni. Is Omeppa another name for him, or another commander? A source would let him be added."
+	]
+}

@@ -2,220 +2,376 @@
 	"name": "Kwararafa",
 	"status": "draft",
 	"kind": "confederacy",
-	"otherNames": [
-		"Kororofa",
-		"Jukun kingdom",
-		"Wukari"
-	],
+	"otherNames": ["Kororofa", "Jukun kingdom", "Apa", "Wukari Federation"],
 	"span": {
-		"from": 1500,
+		"from": 1260,
 		"to": 1900,
-		"fromLabel": "c. 13th–15th century",
-		"sources": [
-			"wikipedia-kwararafa",
-			"meek-1931"
-		],
-		"confidence": "medium"
+		"fromLabel": "c. 1250 (Bornu and Katsina traditions)",
+		"toLabel": "British rule, c. 1900",
+		"sources": ["wikipedia-kwararafa", "wikipedia-jukun", "meek-1931", "rulers-org-nigeria-traditional"],
+		"confidence": "medium",
+		"note": "A Bornu tradition puts the Kwona section of the Jukun on the Gongola by about 1250, and a Katsina account has its king fighting Kwararafa in 1260. Wikipedia dates the first capital, Santolo, to about 1000, but the Kano Chronicle places Santolo near Kano and calls it a Hausa shrine town, so the timeline starts at 1260."
 	},
 	"peak": 1650,
 	"summary": {
-		"text": "A multi-ethnic confederacy led by the Jukun in the Benue valley, rich from the salt flats of Awe and Keana. In the 17th century its cavalry raided Kano, Zaria, Katsina and even the Bornu capital. It declined in the 18th century, and the Jukun kingdom of Wukari carried on its name.",
-		"sources": [
-			"wikipedia-kwararafa",
-			"meek-1931"
-		],
-		"confidence": "medium"
+		"text": "A many-peopled confederacy of the Benue valley, rich from the salt of Keana, Awe and Arufu, whose divine king, the Aku, was held to be the son of God. It began on the Gongola, paid tribute to Kano and Zazzau, and after a defeat by Bornu moved its capital to Biepi near Ibi. In the 17th century its cavalry turned north: it emptied Kano three times and besieged Ngazargamu, the Bornu capital. Igala, Idoma, Alago and others marched in its armies or trace their kings to it. It declined in the 18th century, lost Idah, was struck by the Chamba and then hemmed in by the jihad emirates. The Jukun kingdom of Wukari carried its name to British rule.",
+		"sources": ["wikipedia-kwararafa", "wikipedia-jukun", "wikipedia-wukari-federation", "meek-1931"],
+		"confidence": "medium",
+		"note": "Almost everything about Kwararafa's wars comes from its enemies' chronicles (Kano, Katsina, Bornu). Benue valley traditions barely mention the northern raids, and a few historians doubt that one state ever stood behind the name. The link between the Kano Chronicle's 'Kororofa' and the Jukun was first drawn by H. R. Palmer."
 	},
 	"ruler": {
-		"title": "Aku Uka",
-		"sources": [
-			"wikipedia-wukari",
-			"meek-1931"
-		],
+		"title": "Aku (Aku Uka at Wukari)",
+		"sources": ["wikipedia-wukari-federation", "meek-1931"],
 		"confidence": "high"
 	},
-	"peoples": [
-		"jukun"
-	],
+	"peoples": ["jukun", "alago", "idoma", "igala"],
 	"snapshots": [
 		{
-			"year": 1500,
-			"yearLabel": "c. 1500",
-			"title": "A Benue valley power",
-			"text": "After defeats by Bornu in the late 15th century the capital moves to Biepi, near today's Ibi on the Benue. The confederacy controls the valley's salt.",
-			"capital": {
-				"name": "Kwararafa (Biepi, near Ibi)",
-				"point": [
-					9.75,
-					8.18
-				]
-			},
+			"year": 1260,
+			"yearLabel": "c. 1250–1349",
+			"title": "The Kwona on the Gongola",
+			"text": "A Bornu tradition places the Kwona, a section of the Jukun, along the Gongola river by about 1250, after a long migration from the east. Jukun tradition says hunters led them: Gidi-Gidi founded Pindiga. Kwararafa already fights its northern neighbours: a Katsina account has King Korau at war with it in 1260.",
 			"core": {
-				"lgas": [
-					"taraba-ibi",
-					"taraba-wukari",
-					"taraba-gassol",
-					"nasarawa-awe",
-					"nasarawa-keana"
-				]
+				"lgas": ["gombe-akko", "gombe-yamaltu-deba", "gombe-dukku"],
+				"confidence": "disputed"
 			},
-			"sources": [
-				"wikipedia-kwararafa",
-				"meek-1931"
+			"nodes": [{ "name": "Pindiga", "point": [10.953, 9.982] }],
+			"links": [
+				{
+					"kind": "war",
+					"to": { "name": "Katsina", "point": [7.6, 12.99] },
+					"label": "War with Korau of Katsina (1260)",
+					"sources": ["wikipedia-jukun", "wikipedia-kwararafa"],
+					"confidence": "medium"
+				}
 			],
+			"sources": ["wikipedia-jukun", "wikipedia-kwararafa", "wikipedia-pindiga", "meek-1931"],
+			"confidence": "disputed",
+			"note": "Where this early Kwararafa lay is not known. The Gongola land around Pindiga and Kalam is drawn because the Kwona tradition and Pindiga's founding point there."
+		},
+		{
+			"year": 1349,
+			"yearLabel": "1349–1410",
+			"title": "Tribute to Kano",
+			"text": "Sarki Yaji of Kano marches on Kwararafa. Its people abandon their town for the hill of Tagara, and after a seven-month siege they buy him off with a hundred slaves. His son Kanajeji demands tribute again and gets two hundred. Then a trade settles in: Kano sends horses, Kwararafa sends slaves. The horses will one day carry Kwararafa's cavalry north.",
+			"core": {
+				"lgas": ["gombe-akko", "gombe-yamaltu-deba", "gombe-dukku"],
+				"confidence": "disputed"
+			},
+			"links": [
+				{
+					"kind": "tribute",
+					"to": { "name": "Kano", "point": [8.52, 12] },
+					"label": "100 slaves to Yaji, 200 to Kanajeji",
+					"sources": ["wikipedia-yaji-i", "wikipedia-kanajeji", "palmer-1908-kano-chronicle"],
+					"confidence": "high"
+				},
+				{
+					"kind": "trade",
+					"to": { "name": "Kano", "point": [8.52, 12] },
+					"label": "Kano horses for Kwararafa slaves",
+					"sources": ["wikipedia-kanajeji"],
+					"confidence": "medium"
+				}
+			],
+			"sources": ["wikipedia-yaji-i", "wikipedia-kanajeji", "wikipedia-kwararafa", "palmer-1908-kano-chronicle"],
+			"confidence": "medium",
+			"note": "The hill of Tagara has not been located; Wikipedia says the centre moved there in about 1380."
+		},
+		{
+			"year": 1450,
+			"yearLabel": "15th century",
+			"title": "Under Zazzau, then broken by Bornu",
+			"text": "Zazzau's armies under Amina reach Kwararafa, and for much of the century it pays tribute to Zazzau. Late in the century Bornu inflicts a crushing defeat. The old dynasty, which Hausa tradition remembers as the Abakwariga Kutumbuwa, falls, and the capital moves south to Biepi on the Benue.",
+			"core": {
+				"lgas": ["gombe-akko", "gombe-yamaltu-deba", "taraba-karim-lamido", "plateau-wase"],
+				"confidence": "disputed"
+			},
+			"links": [
+				{
+					"kind": "tribute",
+					"to": { "name": "Zaria", "point": [7.7, 11.07] },
+					"label": "Tribute to Zazzau",
+					"note": "The Kano Chronicle places Amina in the 1420s–30s; Zazzau tradition puts her reign in 1576–1610.",
+					"sources": ["wikipedia-kwararafa", "wikipedia-amina-zazzau", "palmer-1908-kano-chronicle"],
+					"confidence": "disputed"
+				},
+				{
+					"kind": "war",
+					"to": { "name": "Ngazargamu", "point": [12.367, 13.083] },
+					"label": "Defeated by Bornu",
+					"sources": ["wikipedia-kwararafa"],
+					"confidence": "medium"
+				}
+			],
+			"sources": ["wikipedia-kwararafa", "wikipedia-amina-zazzau"],
+			"confidence": "disputed"
+		},
+		{
+			"year": 1500,
+			"yearLabel": "c. 1500–1600",
+			"title": "Biepi and the salt of the Benue",
+			"text": "From Biepi, near today's Ibi, the confederacy holds the Benue's salt: the brine flats of Keana, Awe and Arufu. Salt buys horses from the north, and slaves are sold on towards the coast, where Calabar is remembered as the “port of Kwararafa”. Refugees from the Muslim north swell its towns. Alago kings at Doma and Keana and Idoma lineages at Apa trace their founders to this Kwararafa.",
+			"capital": { "name": "Kwararafa (Biepi, near Ibi)", "point": [9.75, 8.18] },
+			"core": {
+				"lgas": ["taraba-ibi", "taraba-wukari", "taraba-gassol", "nasarawa-awe", "nasarawa-keana"]
+			},
+			"nodes": [
+				{ "name": "Keana (salt)", "point": [8.834, 8.217] },
+				{ "name": "Awe (salt)", "point": [9.147, 8.057] },
+				{ "name": "Arufu (salt)", "point": [9.248, 7.834] }
+			],
+			"links": [
+				{
+					"kind": "descent",
+					"to": { "name": "Doma", "point": [8.357, 8.393] },
+					"label": "Alago kings of Doma come from Kwararafa",
+					"sources": ["wikipedia-doma"],
+					"confidence": "medium"
+				},
+				{
+					"kind": "descent",
+					"to": { "name": "Keana", "point": [8.834, 8.217] },
+					"label": "Alago of Keana",
+					"sources": ["wikipedia-keana", "wikipedia-doma"],
+					"confidence": "medium"
+				},
+				{
+					"kind": "trade",
+					"to": { "name": "Duke Town (Atakpa)", "point": [8.32, 4.95] },
+					"label": "Slaves to the coast: Calabar, “port of Kwararafa”",
+					"sources": ["wikipedia-kwararafa"],
+					"confidence": "medium"
+				}
+			],
+			"sources": ["wikipedia-kwararafa", "meek-1931", "wikipedia-doma", "wikipedia-keana"],
 			"confidence": "medium"
 		},
 		{
-			"year": 1650,
-			"yearLabel": "c. 1610–1680",
-			"title": "Raids across the north",
-			"text": "Kwararafa cavalry raid Kano (1650s and 1670s), Zaria and Katsina, and in 1680 reach Ngazargamu, the Bornu capital.",
-			"capital": {
-				"name": "Kwararafa (Biepi, near Ibi)",
-				"point": [
-					9.75,
-					8.18
-				]
-			},
+			"year": 1600,
+			"yearLabel": "c. 1600–1650",
+			"title": "Kenjo's court and the first march on Kano",
+			"text": "Under Adi Agbu Kenjo the confederacy is at its richest, and new Jukun migrants arrive from the south-east. Its armies turn north: in Muhammad Zaki's reign they strip the Kano countryside and drive its people to Daura. At the court the Igala representative, Abutu-Eje, loses the succession to Kenjo and goes home to unite the Igala, Idoma and Alago migrants at Agatu.",
+			"capital": { "name": "Kwararafa (Biepi, near Ibi)", "point": [9.75, 8.18] },
 			"core": {
-				"lgas": [
-					"taraba-ibi",
-					"taraba-wukari",
-					"taraba-gassol",
-					"taraba-donga",
-					"taraba-takum",
-					"taraba-bali",
-					"taraba-karim-lamido",
-					"taraba-lau",
-					"nasarawa-awe",
-					"nasarawa-keana",
-					"nasarawa-doma",
-					"nasarawa-obi",
-					"plateau-wase"
-				]
+				"lgas": ["taraba-ibi", "taraba-wukari", "taraba-gassol", "taraba-donga", "nasarawa-awe", "nasarawa-keana", "nasarawa-doma"]
 			},
 			"influence": {
-				"lgas": [
-					"plateau-shendam",
-					"plateau-langtang-south",
-					"plateau-qua-an-pan",
-					"nasarawa-lafia",
-					"benue-agatu",
-					"benue-apa",
-					"benue-oturkpo",
-					"benue-ado"
-				],
+				"lgas": ["benue-agatu", "benue-apa", "nasarawa-obi", "nasarawa-lafia", "plateau-wase"],
 				"confidence": "disputed"
 			},
 			"links": [
 				{
 					"kind": "war",
-					"to": {
-						"name": "Kano",
-						"point": [
-							8.52,
-							12
-						]
-					},
-					"label": "Raids on Kano"
+					"to": { "name": "Kano", "point": [8.52, 12] },
+					"label": "Invasion under Muhammad Zaki (1582–1618)",
+					"sources": ["wikipedia-muhammad-zaki", "palmer-1908-kano-chronicle"],
+					"confidence": "high"
 				},
 				{
-					"kind": "war",
-					"to": {
-						"name": "Zaria",
-						"point": [
-							7.7,
-							11.07
-						]
-					},
-					"label": "Raids on Zaria"
-				},
-				{
-					"kind": "war",
-					"to": {
-						"name": "Ngazargamu",
-						"point": [
-							12.367,
-							13.083
-						]
-					},
-					"label": "Attack on Ngazargamu (1680)"
+					"kind": "tribute",
+					"to": { "name": "Agatu (Abutu-Eje's seat)", "point": [7.857, 7.888] },
+					"label": "Igala, Idoma and Alago under the Aku",
+					"note": "J. M. Fremantle says Kwararafa held sovereignty over the Idoma, Igbira and Igala at times. The owner holds that Abutu-Eje was Igala, not Jukun.",
+					"sources": ["wikipedia-jukun", "kigala-2020-abutu-eje", "owner-2026-10-08-abutu-eje"],
+					"confidence": "disputed"
 				}
 			],
-			"sources": [
-				"wikipedia-kwararafa",
-				"meek-1931"
+			"sources": ["wikipedia-kwararafa", "wikipedia-muhammad-zaki", "kigala-2020-abutu-eje", "rulers-org-nigeria-traditional"],
+			"confidence": "medium"
+		},
+		{
+			"year": 1650,
+			"yearLabel": "c. 1650–1690",
+			"title": "Raids across the north",
+			"text": "The height of Kwararafa's power. Kano and Katsina sign a treaty against it in about 1650, but in the 1650s Sarkin Kwararafa Adashu breaks the Kofan Kawayi gate of Kano, and under Dadi (c. 1671) its army fights through Kano to the Kurmi market. Katsina is invaded between 1670 and 1684. With Tuareg allies it besieges Ngazargamu, but Mai Ali of Bornu sets the two armies against each other and beats both. Sultan Bello of Sokoto later counted Kwararafa among the seven great kingdoms of the Sudan.",
+			"capital": { "name": "Kwararafa (Biepi, near Ibi)", "point": [9.75, 8.18] },
+			"core": {
+				"lgas": ["taraba-ibi", "taraba-wukari", "taraba-gassol", "taraba-donga", "taraba-takum", "taraba-bali", "taraba-karim-lamido", "taraba-lau", "nasarawa-awe", "nasarawa-keana", "nasarawa-doma", "nasarawa-obi", "plateau-wase"]
+			},
+			"influence": {
+				"lgas": ["plateau-shendam", "plateau-langtang-south", "plateau-qua-an-pan", "nasarawa-lafia", "benue-agatu", "benue-apa", "benue-oturkpo", "benue-ado"],
+				"confidence": "disputed"
+			},
+			"links": [
+				{
+					"kind": "war",
+					"to": { "name": "Kano", "point": [8.52, 12] },
+					"label": "Kano sacked (1650s, c. 1671)",
+					"sources": ["wikipedia-muhammad-kukuna", "wikipedia-dadi-kano", "wikipedia-kwararafa"],
+					"confidence": "high"
+				},
+				{
+					"kind": "war",
+					"to": { "name": "Katsina", "point": [7.6, 12.99] },
+					"label": "Katsina invaded (1670–1684)",
+					"sources": ["wikipedia-jukun", "wikipedia-kwararafa"],
+					"confidence": "medium"
+				},
+				{
+					"kind": "war",
+					"to": { "name": "Zaria", "point": [7.7, 11.07] },
+					"label": "Zazzau attacked (c. 1680)",
+					"sources": ["wikipedia-kwararafa"],
+					"confidence": "medium"
+				},
+				{
+					"kind": "war",
+					"to": { "name": "Ngazargamu", "point": [12.367, 13.083] },
+					"label": "Siege of Ngazargamu with the Tuareg",
+					"sources": ["wikipedia-ali-iii-bornu", "wikipedia-kwararafa", "wikipedia-jukun"],
+					"confidence": "medium"
+				}
 			],
+			"sources": ["wikipedia-kwararafa", "wikipedia-jukun", "meek-1931", "palmer-1908-kano-chronicle"],
 			"confidence": "medium",
 			"note": "Idoma and other Benue peoples trace origins to Kwararafa; whether it ruled them is debated."
 		},
 		{
-			"year": 1750,
-			"yearLabel": "18th century",
-			"title": "Decline; the court at Wukari",
-			"text": "Internal disputes and pressure from neighbours weaken the confederacy. The Jukun capital moves to Uka and then Wukari.",
-			"capital": {
-				"name": "Wukari",
-				"point": [
-					9.78,
-					7.87
-				]
-			},
+			"year": 1700,
+			"yearLabel": "c. 1700",
+			"title": "Idah breaks away",
+			"text": "Kwararafa sends an army to make Idah pay tribute again. Attah Ayegba Oma-Idoko defeats it, and the Igala are free of the Aku for good. The Idoma and Alago settlements to the west drift out of the confederacy's reach.",
+			"capital": { "name": "Kwararafa (Biepi, near Ibi)", "point": [9.75, 8.18] },
 			"core": {
-				"lgas": [
-					"taraba-wukari",
-					"taraba-ibi",
-					"taraba-donga",
-					"taraba-takum"
-				]
+				"lgas": ["taraba-ibi", "taraba-wukari", "taraba-gassol", "taraba-donga", "taraba-takum", "nasarawa-awe", "nasarawa-keana", "plateau-wase"]
 			},
-			"sources": [
-				"wikipedia-kwararafa",
-				"wikipedia-wukari"
+			"influence": {
+				"lgas": ["nasarawa-doma", "nasarawa-obi", "nasarawa-lafia", "plateau-shendam"],
+				"confidence": "disputed"
+			},
+			"links": [
+				{
+					"kind": "war",
+					"to": { "name": "Idah", "point": [6.74, 7.11] },
+					"label": "Beaten by Attah Ayegba",
+					"sources": ["shaibu-2024", "yusufu-2020"],
+					"confidence": "medium"
+				}
 			],
+			"sources": ["shaibu-2024", "yusufu-2020", "wikipedia-kwararafa"],
 			"confidence": "medium"
 		},
 		{
-			"year": 1850,
-			"yearLabel": "c. 1840–1900",
-			"title": "Wukari between Muri and the Tiv",
-			"text": "The Fulani emirate of Muri takes the north of the old lands, and Tiv farmers expand from the south. Wukari remains a Jukun kingdom until British rule around 1900.",
-			"capital": {
-				"name": "Wukari",
-				"point": [
-					9.78,
-					7.87
-				]
-			},
+			"year": 1750,
+			"yearLabel": "c. 1720–1780",
+			"title": "Decline: drought, quarrels and new Jukun",
+			"text": "Through the 18th century more Jukun migrants arrive, quarrels split the ruling houses, and drought hits the valley. The coast's slave trade, which fed Kwararafa's wealth, starts to give way to palm oil. The court leaves Biepi for Uka and then Puje, close to today's Wukari, and by the century's end Kwararafa itself pays tribute to Bornu.",
+			"capital": { "name": "Puje (near Wukari)", "point": [9.783, 7.869] },
 			"core": {
-				"lgas": [
-					"taraba-wukari",
-					"taraba-donga"
-				]
+				"lgas": ["taraba-wukari", "taraba-ibi", "taraba-donga", "taraba-takum", "nasarawa-awe", "nasarawa-keana"]
 			},
-			"sources": [
-				"wikipedia-kwararafa",
-				"wikipedia-wukari"
+			"links": [
+				{
+					"kind": "tribute",
+					"to": { "name": "Ngazargamu", "point": [12.367, 13.083] },
+					"label": "Tribute to Bornu (late 18th century)",
+					"sources": ["wikipedia-kwararafa"],
+					"confidence": "medium"
+				}
 			],
+			"sources": ["wikipedia-kwararafa", "wikipedia-jukun", "wikipedia-wukari"],
+			"confidence": "medium",
+			"note": "Uka has not been located. Puje is a ward of Wukari today, and GRID3 has a “Kwararafa Area” inside it."
+		},
+		{
+			"year": 1780,
+			"yearLabel": "c. 1780–1810",
+			"title": "The Aku crowns Lafia; the Chamba strike",
+			"text": "The Aku's sacred authority still reaches far: in about 1780 Dunama, leader of Kanuri migrants from Bornu, asks the Aku Uka to confirm his rule at Lafia, and is made Sarkin Lafia Bare-Bari. But Chamba warbands pushing west down the Benue invade the heartland, and the last king of the old Kwararafa, Adi Matswen, is driven into exile.",
+			"capital": { "name": "Puje (near Wukari)", "point": [9.783, 7.869] },
+			"core": {
+				"lgas": ["taraba-wukari", "taraba-ibi", "taraba-donga", "taraba-takum"]
+			},
+			"influence": {
+				"lgas": ["nasarawa-lafia", "nasarawa-awe", "nasarawa-keana"],
+				"confidence": "medium"
+			},
+			"links": [
+				{
+					"kind": "ritual",
+					"to": { "name": "Lafia", "point": [8.517, 8.494] },
+					"label": "The Aku Uka confirms Sarkin Lafia Bare-Bari",
+					"sources": ["wikipedia-wukari-federation", "wikipedia-lafia"],
+					"confidence": "medium"
+				}
+			],
+			"sources": ["wikipedia-kwararafa", "wikipedia-wukari-federation", "wikipedia-chamba-people"],
 			"confidence": "medium"
+		},
+		{
+			"year": 1812,
+			"yearLabel": "1812–1854",
+			"title": "The jihad on every side",
+			"text": "The Fulani jihad reaches the Benue. Buba Yero of Gombe makes war on the Jukun of Pindiga and Kalam from 1815. Hamman Ruwa founds Muri in 1817 on Jukun land, and Muri's armies fight the Jukun of Kona for the rest of the century. Fulani under Giwa settle Wase beside the Jukun in 1813 and make it a jihad outpost. Angyu Zikenyu (r. 1820–1854) holds the Wukari heartland, now Jukun alone, and the Tiv join the Jukun against the Fulani.",
+			"capital": { "name": "Puje (near Wukari)", "point": [9.783, 7.869] },
+			"core": {
+				"lgas": ["taraba-wukari", "taraba-ibi", "taraba-donga", "taraba-takum"]
+			},
+			"links": [
+				{
+					"kind": "war",
+					"to": { "name": "Pindiga", "point": [10.953, 9.982] },
+					"label": "Gombe makes war on the Pindiga Jukun",
+					"sources": ["wikipedia-gombe-emirate", "wikipedia-pindiga"],
+					"confidence": "medium"
+				},
+				{
+					"kind": "war",
+					"to": { "name": "Kona", "point": [11.329, 8.981] },
+					"label": "Muri against the Jukun of Kona",
+					"sources": ["wikipedia-muri"],
+					"confidence": "high"
+				},
+				{
+					"kind": "war",
+					"to": { "name": "Wase", "point": [9.951, 9.081] },
+					"label": "Wase becomes a Fulani outpost",
+					"sources": ["wikipedia-wase"],
+					"confidence": "medium"
+				}
+			],
+			"sources": ["wikipedia-gombe-emirate", "wikipedia-muri", "wikipedia-wase", "wikipedia-wukari-federation", "rulers-org-nigeria-traditional"],
+			"confidence": "medium"
+		},
+		{
+			"year": 1855,
+			"yearLabel": "1855–1900",
+			"title": "Wukari, between Muri, the Tiv and the Company",
+			"text": "The court settles at Wukari in 1855 and the kingdom takes its name. Wukari is a regional power again, on the caravan road from Bauchi to Kano and Bornu, trading slaves, salt and ivory. Tiv farmers press in from the south. In 1883 the Royal Niger Company plants a station at Ibi; it burns Jibu in 1884, 1888 and 1891 and takes Kona in 1892. Around 1900 Wukari passes under British rule.",
+			"capital": { "name": "Wukari", "point": [9.768, 7.866] },
+			"core": {
+				"lgas": ["taraba-wukari", "taraba-donga", "taraba-ibi"]
+			},
+			"nodes": [
+				{ "name": "Ibi (Company station, 1883)", "point": [9.745, 8.18] },
+				{ "name": "Jibu", "point": [9.98, 7.255] }
+			],
+			"links": [
+				{
+					"kind": "trade",
+					"to": { "name": "Bauchi", "point": [9.84, 10.31] },
+					"label": "Caravan road to Bauchi, Kano and Bornu",
+					"sources": ["wikipedia-wukari-federation"],
+					"confidence": "medium"
+				}
+			],
+			"sources": ["wikipedia-wukari-federation", "wikipedia-muri", "wikipedia-ibi", "rulers-org-nigeria-traditional"],
+			"confidence": "medium",
+			"note": "Wikipedia says a Jukun dynasty held Wukari by 1820; rulers.org dates the move of the centre to Wukari to 1855."
 		}
 	],
 	"today": {
-		"text": "The Aku Uka, king of the Jukun, reigns at Wukari in Taraba State.",
+		"text": "The Aku Uka, king of the Jukun, reigns at Wukari in Taraba State and is still crowned at Biepi (Byepi), the old capital. The Andoma of Doma and the Osana of Keana, Alago kings, remember Kwararafa as their origin.",
 		"title": "Aku Uka of Wukari",
-		"seat": {
-			"name": "Wukari",
-			"point": [
-				9.78,
-				7.87
-			]
-		},
-		"sources": [
-			"wikipedia-wukari"
-		],
+		"seat": { "name": "Wukari", "point": [9.768, 7.866] },
+		"sources": ["wikipedia-wukari", "wikipedia-kuvyon-ii", "wikipedia-keana", "wikipedia-doma"],
 		"confidence": "high"
 	},
 	"reviewNotes": [
-		"Kwararafa's early capitals (Santolo, Pindiga, Tagara) are placed in different areas by different writers and are left off the map."
+		"Kwararafa's early capitals (Santolo, Tagara, Uka) are placed in different areas by different writers and are left off the map. The Gongola core before 1500 is a guess from the Kwona tradition and Pindiga's founding, marked disputed.",
+		"The Aku Uka list before 1820 (Agbu Kenjo to Ashu Manu I) is undated in rulers.org; Kenjo's reign is put at c. 1610 by Wikipedia.",
+		
+		"Bauchi's point is the modern city."
 	]
 }

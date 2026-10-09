@@ -1,0 +1,44 @@
+{
+	"name": "Oyo’s court in exile",
+	"status": "draft",
+	"kind": "migration",
+	"year": 1535,
+	"yearLabel": "c. 1535–1610",
+	"until": 1612,
+	"actors": [{ "name": "Nupe", "polity": "nupe", "side": "attacker" }, { "name": "The Alaafin’s court", "polity": "oyo", "side": "migrant" }],
+	"summary": {
+		"text": "Around 1535 the Nupe sacked Oyo-Ile and the ruling house fled, first to Borgu and then to a capital in exile at Igboho. For some eighty years Oyo was an exiled dynasty, until Alaafin Abipa brought the court home in the early 17th century.",
+		"sources": ["wikipedia-oyo-empire", "law-1977", "smith-1988"],
+		"confidence": "medium"
+	},
+	"routes": [
+		{ "kind": "advance", "by": "Nupe", "path": [[6.05, 8.9], [5.2, 9.1], [4.3075, 8.9747]], "label": "The Nupe sack Oyo-Ile" },
+		{
+			"kind": "migration",
+			"by": "The Alaafin’s court",
+			"when": "c. 1535",
+			"path": [[4.3075, 8.9747], [3.95, 9.6], [3.7, 9.2], [3.75, 8.83]],
+			"label": "The court flees to Borgu, then settles at Igboho"
+		},
+		{ "kind": "migration", "by": "The Alaafin’s court", "when": "c. 1610", "path": [[3.75, 8.83], [4.3075, 8.9747]], "label": "Alaafin Abipa returns the court to Oyo-Ile" }
+	],
+	"moments": [
+		{
+			"when": "c. 1535",
+			"title": "Oyo-Ile sacked",
+			"text": "The Nupe take and sack the capital.",
+			"at": { "name": "Oyo-Ile (Old Oyo)", "point": [4.3075, 8.9747] },
+			"mark": "burned"
+		},
+		{
+			"when": "c. 1535–1610",
+			"title": "Igboho, the capital in exile",
+			"text": "Igboho serves as the capital for the exiled dynasty; tradition says four Alaafin are buried there.",
+			"at": { "name": "Igboho", "point": [3.75, 8.83] },
+			"mark": "camp"
+		}
+	],
+	"sources": ["wikipedia-oyo-empire", "law-1977", "smith-1988"],
+	"confidence": "medium",
+	"note": "The refuge in Borgu is placed approximately."
+}

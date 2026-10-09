@@ -7,9 +7,9 @@
 		"Egba United Government"
 	],
 	"span": {
-		"from": 1780,
+		"from": 1300,
 		"to": 1914,
-		"fromLabel": "c. 1780s",
+		"fromLabel": "Orile Egba, c. 13th century (tradition)",
 		"sources": [
 			"biobaku-1957",
 			"smith-1988"
@@ -18,12 +18,13 @@
 	},
 	"peak": 1898,
 	"summary": {
-		"text": "The Egba towns of the forest freed themselves from Oyo under the hero Lisabi in the late 18th century. Scattered by the wars, they came together at Abeokuta in 1830 as a federation of townships under the Alake. Abeokuta beat off Dahomey twice and kept a self-governing Egba United Government until 1914.",
+		"text": "The Egba lived in a confederacy of forest towns, Orile Egba, founded by tradition when the first Alake and Eso Ikoyi chiefs left early Oyo. Under Oyo's overlordship they rose under Lisabi and drove its agents out. When the 19th-century wars destroyed their towns, refugees under Sodeke founded Abeokuta beneath Olumo Rock around 1830, a federation of townships inside one wall. Abeokuta beat Dahomey's armies in 1851 and 1864, fought Ibadan, Ijebu and Ijaye, expelled the missionaries in 1867, and as the Egba United Government kept its independence until 1914.",
 		"sources": [
-			"biobaku-1957",
-			"smith-1988"
+			"wikipedia-egba-alake",
+			"wikipedia-abeokuta",
+			"wikipedia-egba-united-government"
 		],
-		"confidence": "medium"
+		"confidence": "high"
 	},
 	"ruler": {
 		"title": "Alake",
@@ -37,10 +38,64 @@
 	],
 	"snapshots": [
 		{
+			"year": 1300,
+			"yearLabel": "c. 13th century–1780",
+			"title": "Orile Egba",
+			"text": "Samuel Johnson's history says the first Alake left the young Oyo kingdom with Eso Ikoyi chiefs and founded a confederacy of towns in the Egba forest, Orile Egba, which Oyo later ruled through its Ilari agents.",
+			"core": {
+				"lgas": [
+					"ogun-odeda",
+					"ogun-abeokuta-north",
+					"ogun-obafemi-owode",
+					"ogun-ewekoro"
+				],
+				"confidence": "medium"
+			},
+			"links": [
+				{
+					"kind": "descent",
+					"to": {
+						"name": "Oyo-Ile (Old Oyo)",
+						"point": [
+							4.3075,
+							8.9747
+						]
+					},
+					"label": "The first Alake leaves early Oyo",
+					"sources": [
+						"wikipedia-egba-alake",
+						"wikipedia-abeokuta"
+					],
+					"confidence": "medium"
+				},
+				{
+					"kind": "tribute",
+					"to": {
+						"name": "Oyo-Ile (Old Oyo)",
+						"point": [
+							4.3075,
+							8.9747
+						]
+					},
+					"label": "Under Oyo's Ilari",
+					"sources": [
+						"wikipedia-oyo-empire"
+					],
+					"confidence": "medium"
+				}
+			],
+			"sources": [
+				"wikipedia-egba-alake",
+				"wikipedia-abeokuta",
+				"wikipedia-oyo-empire"
+			],
+			"confidence": "medium"
+		},
+		{
 			"year": 1780,
 			"yearLabel": "c. 1780s",
 			"title": "Lisabi frees the Egba",
-			"text": "The Egba towns of the forest rise against Oyo's agents and win their freedom.",
+			"text": "The Egba war chief Lisabi organises the farmers' mutual-help societies into a secret army; they kill the Oyo Ilari stationed among them and drive off the punitive force Oyo sends.",
 			"core": {
 				"lgas": [
 					"ogun-odeda",
@@ -52,14 +107,32 @@
 			},
 			"sources": [
 				"biobaku-1957",
-				"johnson-1921"
+				"johnson-1921",
+				"wikipedia-oyo-empire"
 			],
-			"confidence": "medium"
+			"confidence": "medium",
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Oyo-Ile (Old Oyo)",
+						"point": [
+							4.3075,
+							8.9747
+						]
+					},
+					"label": "Lisabi's revolt against Oyo",
+					"sources": [
+						"wikipedia-oyo-empire"
+					],
+					"confidence": "high"
+				}
+			]
 		},
 		{
 			"year": 1830,
 			"title": "Abeokuta founded",
-			"text": "Driven from their towns in the wars, the Egba settle together under Olumo Rock and found Abeokuta, a city of many townships.",
+			"text": "Oyo refugees and the armies of the Owu war destroy the Orile Egba towns. At the war camp of Ibadan the Egba chief Lamodi shoots the Ife chief Ege; fearing revenge, the Egba leave, choose Sodeke as leader, and around 1830 settle beneath Olumo Rock, founding Abeokuta. Owu refugees join them about 1834. Each township keeps its own chiefs inside the town wall. Abeokuta fights the Ijebu Remo (1832), Ibadan (1834), Ota (1842), Ado (1844) and Ibarapa (1849).",
 			"capital": {
 				"name": "Abeokuta",
 				"point": [
@@ -77,14 +150,78 @@
 				]
 			},
 			"sources": [
-				"biobaku-1957"
+				"biobaku-1957",
+				"wikipedia-abeokuta",
+				"wikipedia-egba-alake"
 			],
-			"confidence": "high"
+			"confidence": "high",
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Ibadan",
+						"point": [
+							3.9,
+							7.39
+						]
+					},
+					"label": "War with Ibadan (1834)",
+					"sources": [
+						"wikipedia-egba-alake"
+					],
+					"confidence": "medium"
+				},
+				{
+					"kind": "war",
+					"to": {
+						"name": "Ota",
+						"point": [
+							3.23,
+							6.69
+						]
+					},
+					"label": "Ota (1842)",
+					"sources": [
+						"wikipedia-egba-alake"
+					],
+					"confidence": "medium"
+				},
+				{
+					"kind": "war",
+					"to": {
+						"name": "Ado-Odo",
+						"point": [
+							2.94,
+							6.6
+						]
+					},
+					"label": "Ado (1844)",
+					"sources": [
+						"wikipedia-egba-alake"
+					],
+					"confidence": "medium"
+				},
+				{
+					"kind": "war",
+					"to": {
+						"name": "Igbo-Ora (Ibarapa)",
+						"point": [
+							3.29,
+							7.43
+						]
+					},
+					"label": "Ibarapa (1849)",
+					"sources": [
+						"wikipedia-egba-alake"
+					],
+					"confidence": "medium"
+				}
+			]
 		},
 		{
 			"year": 1851,
 			"title": "Dahomey repulsed",
-			"text": "Abeokuta defeats a Dahomean army at its walls in 1851, and again in 1864.",
+			"text": "King Gezo's Dahomey, raiding for slaves, attacks Abeokuta in 1851 and is beaten; the Egba beat it again in 1864. Abeokuta, a key palm-oil market, welcomes missionaries from Sierra Leone, and returned Egba such as the family of Rev. William Allen come home. It fights Ijaye (1860–62) and the Makun war (1862–64), closes the trade roads in the 1860s and in 1867 expels the missionaries and European traders.",
 			"capital": {
 				"name": "Abeokuta",
 				"point": [
@@ -123,14 +260,17 @@
 				}
 			],
 			"sources": [
-				"biobaku-1957"
+				"biobaku-1957",
+				"wikipedia-abeokuta",
+				"wikipedia-egba-alake",
+				"wikipedia-egba-united-government"
 			],
 			"confidence": "high"
 		},
 		{
 			"year": 1898,
 			"title": "The Egba United Government",
-			"text": "With British encouragement the Egba form a modern government with a council, a secretariat and their own laws, while the British run Lagos next door. It lasts until 1914.",
+			"text": "In January 1893 a treaty with Governor Carter of Lagos recognises Egbaland as independent, and in 1898 the Egba United Government is formed, with the Alake at the head of a council and Lagos-educated Egba as its officials; it leases land for the Lagos–Abeokuta railway. From 1904 Britain takes over more and more of its work, and in 1914 the kingdom is folded into Nigeria.",
 			"capital": {
 				"name": "Abeokuta",
 				"point": [
@@ -151,7 +291,9 @@
 			},
 			"sources": [
 				"biobaku-1957",
-				"falola-heaton-2008"
+				"falola-heaton-2008",
+				"wikipedia-egba-united-government",
+				"wikipedia-egba-alake"
 			],
 			"confidence": "medium"
 		}

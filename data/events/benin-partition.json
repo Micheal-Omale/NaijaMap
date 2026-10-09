@@ -1,0 +1,65 @@
+{
+	"name": "Benin’s lands divided",
+	"status": "draft",
+	"kind": "partition",
+	"year": 1898,
+	"yearLabel": "1897–1915",
+	"until": 1915,
+	"actors": [{ "name": "British forces", "side": "colonial" }, { "name": "Kingdom of Benin", "polity": "benin", "side": "defender" }],
+	"summary": {
+		"text": "With the Oba in exile, Britain governed Benin City through a Resident and a native council of chiefs, and the lands that had once answered to Benin were parcelled out among separate British units: Esan and the Asaba hinterland as divisions of their own, the Itsekiri and Urhobo country under Warri, and Akure, Owo and the Ekiti towns with the Yoruba provinces (Ondo Province from 1915). Eweka II was restored in 1914, but the old empire’s lands stayed divided.",
+		"sources": ["wikipedia-kingdom-of-benin", "wikipedia-benin-expedition-1897", "wikipedia-eweka-ii"],
+		"confidence": "medium"
+	},
+	"moments": [
+		{
+			"when": "1897–1914",
+			"title": "A city without its king",
+			"text": "A British Resident and a council of chiefs rule from Benin City while the Oba lives in exile at Calabar.",
+			"at": { "name": "Benin City", "point": [5.627, 6.335] },
+			"mark": "captured"
+		}
+	],
+	"pieces": [
+		{
+			"name": "Benin Division: under a British Resident",
+			"extent": { "lgas": ["edo-oredo", "edo-egor", "edo-ikpoba-okha", "edo-uhunmwonde", "edo-orhionmwon", "edo-ovia-north-east", "edo-ovia-south-west"] }
+		},
+		{
+			"name": "Ishan (Esan) Division",
+			"extent": { "lgas": ["edo-esan-west", "edo-esan-central", "edo-esan-north-east", "edo-esan-south-east", "edo-iguegben"], "confidence": "disputed" }
+		},
+		{
+			"name": "Asaba Division: Anioma and Agbor",
+			"extent": {
+				"lgas": ["delta-ika-north-east", "delta-ika-south", "delta-aniocha-north", "delta-aniocha-south", "delta-oshimili-north", "delta-oshimili-south"],
+				"confidence": "disputed"
+			}
+		},
+		{
+			"name": "Warri Province: Itsekiri and Urhobo country",
+			"extent": {
+				"lgas": [
+					"delta-warri-north", "delta-warri-south", "delta-warri-south-west", "delta-ethiope-east", "delta-ethiope-west", "delta-okpe", "delta-sapele", "delta-uvwie"
+				],
+				"confidence": "disputed"
+			}
+		},
+		{
+			"name": "Ondo Province (1915): Akure, Owo and Ekiti",
+			"extent": {
+				"lgas": [
+					"ondo-owo", "ondo-akure-south", "ondo-akure-north", "ondo-idanre", "ondo-ose", "ekiti-ikere", "ekiti-ise-orun", "ekiti-emure", "ekiti-ado-ekiti",
+					"ekiti-gbonyin"
+				],
+				"confidence": "disputed"
+			}
+		}
+	],
+	"sources": ["wikipedia-kingdom-of-benin", "wikipedia-benin-expedition-1897", "wikipedia-eweka-ii"],
+	"confidence": "medium",
+	"note": "Unit names follow Southern Nigeria about 1914–1915; the boundaries moved several times after 1897 and are simplified to today’s LGAs.",
+	"reviewNotes": [
+		"The names and dates of the Esan, Asaba, Warri and Ondo units are from general knowledge of the colonial administration and need a cited source, for example P. A. Igbafe, Benin under British Administration (1979)."
+	]
+}

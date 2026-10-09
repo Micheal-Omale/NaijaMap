@@ -1,0 +1,49 @@
+{
+	"name": "The Umuezechima migration to Onitsha",
+	"status": "draft",
+	"kind": "migration",
+	"year": 1550,
+	"yearLabel": "16th or 17th century",
+	"until": 1650,
+	"actors": [{ "name": "Chima’s people (Umuezechima)", "side": "migrant" }, { "name": "Kingdom of Benin", "polity": "benin", "side": "origin" }],
+	"summary": {
+		"text": "Followers of Eze Chima left Benin after a quarrel with the court, one tradition says with the Queen Mother over farmland or tribute, and fought Benin’s armies as they went. Branches founded the Umuezechima towns west of the Niger, among them Issele-Uku, Onicha-Olona, Onicha-Ugbo and Obior. Chima died before the crossing, and his son Oraeze led the rest over the river to found Onicha Mmili, Onitsha.",
+		"sources": ["wikipedia-onitsha", "owner-2026-10-07-doc1"],
+		"confidence": "disputed"
+	},
+	"routes": [
+		{
+			"kind": "migration",
+			"by": "Chima’s people (Umuezechima)",
+			"path": [[5.627, 6.335], [6, 6.32], [6.3795, 6.2695], [6.4629, 6.2982], [6.66, 6.2], [6.785, 6.145]],
+			"label": "From Benin to the Niger, then across it to Onitsha"
+		}
+	],
+	"moments": [
+		{
+			"when": "Setting out",
+			"title": "Chima leaves Benin",
+			"text": "After a quarrel with the court, Chima’s people leave Benin and fight off the Oba’s armies.",
+			"at": { "name": "Benin City", "point": [5.627, 6.335] },
+			"mark": "flight"
+		},
+		{
+			"when": "On the way",
+			"title": "The Umuezechima towns",
+			"text": "Branches of the migration found Obior, Issele-Uku, Onicha-Olona, Onicha-Ugbo and other towns that still call themselves Umuezechima, children of Chima.",
+			"at": { "name": "Issele-Uku", "point": [6.4629, 6.2982] },
+			"mark": "founded"
+		},
+		{
+			"when": "The crossing",
+			"title": "Onicha Mmili",
+			"text": "Chima dies before the crossing. His son Oraeze leads the people over the Niger and founds Onicha Mmili, “Onitsha on the water”.",
+			"at": { "name": "Onitsha", "point": [6.785, 6.145] },
+			"mark": "founded"
+		}
+	],
+	"sources": ["wikipedia-onitsha", "owner-2026-10-07-doc1"],
+	"confidence": "disputed",
+	"note": "One account dates the migration to the reign of Oba Esigie in the 16th century; another places Onitsha’s founding between 1630 and 1680.",
+	"reviewNotes": ["The owner’s notes say Igala merchants and royals shaped Onitsha’s early kingship. No written source found yet; a reference would let it be added as a link."]
+}

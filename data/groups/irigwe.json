@@ -1,6 +1,36 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Miango",
+			"lga": "plateau-bassa",
+			"point": [
+				8.681,
+				9.853
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-miango",
+				"wikipedia-irigwe-people",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "The Irigwe headquarters, west of Jos. SIM missionaries founded the Miango Rest Home here in the early 1900s. In September 2017 twenty villagers of Ancha in Miango district were killed in a reprisal attack.",
+				"sources": [
+					"wikipedia-miango"
+				],
+				"confidence": "high"
+			},
+			"livelihoods": {
+				"text": "Farming that supplies much of Nigeria with eggs, red pepper, maize, tomatoes, Irish and sweet potatoes, carrots, cabbage, wheat and beans.",
+				"sources": [
+					"wikipedia-miango"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Irigwe",
 	"searchAliases": [

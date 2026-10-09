@@ -1,0 +1,147 @@
+{
+	"name": "The Ekumeku resistance",
+	"status": "draft",
+	"kind": "colonial",
+	"year": 1898,
+	"yearLabel": "1883–1914",
+	"until": 1914,
+	"actors": [
+		{ "name": "British forces", "side": "colonial" },
+		{
+			"name": "Ekumeku of the Anioma (Enuani and Ukwuani) Igbo towns (Dunkwu Isusu, Nwabuzo Iyogolo, Idabor, Agbambu Oshue, Idegwu Otokpoike and others)",
+			"side": "resister",
+			"ink": "#7a3b2a"
+		},
+		{ "name": "Ika towns (Agbor, Owa)", "side": "resister", "ink": "#a0522d" },
+		{ "name": "Igala of Ebu", "polity": "igala", "side": "resister" },
+		{ "name": "Olukumi towns (Ukwu Nzu, Ugbodu)", "side": "resister", "ink": "#6b4f8a" }
+	],
+	"summary": {
+		"text": "Ekumeku (‘the silent ones’) was a secret society sworn to resist the Royal Niger Company, then British rule and the missions, in the land west of the lower Niger. It was a joint effort of the peoples there, the fused peoples of Anioma: towns of Igbo, Benin, Igala and Olukumi (Yoruba) descent fought side by side. The Anioma Igbo towns of the Enuani and Ukwuani country joined, among them Ibusa, Okpanam, Ogwashi-Uku, Issele-Uku, Onicha-Olona, Ubulu-Uku, Ezi, Kwale, Obiaruku and Aboh. So did the Ika towns of Agbor and Owa (Agbor traces its kings to Benin), Ebu, the Igala-speaking kingdom on the Niger founded from Idah, and the Yoruba-speaking Olukumi, whose town of Ukwu Nzu became a centre of the resistance. Its fighters struck at night and melted back into the towns. The British fought it in waves. In 1898 the Company sent Major Festing against Ibusa. Ubulu-Uku fell after a three-day siege in 1902. In February 1904 Owa had to defend itself against a British column. In 1909 the Ekumeku twice drove British troops out of Ogwashi-Uku. Its leaders included Dunkwu Isusu of Onicha-Olona, Nwabuzo Iyogolo of Ogwashi-Uku, Idabor of Issele-Uku, Agbambu Oshue of Ibusa, Idegwu Otokpoike of Ubulu-Uku and Abuzu of Idumuje-Unor. The movement was largely broken by 1911, though fighting went on until 1914. Chinua Achebe called it western Igboland’s earliest and fiercest clash with the British.",
+		"sources": ["wikipedia-ekumeku", "igbafe-1971", "ohadike-1991", "neusroom-ekumeku", "vanguard-ekumeku-2019", "wikipedia-ika-people", "owner-2026-10-07-ekumeku", "wikipedia-olukumi", "esogbue-2018-anioma-origins", "owner-2026-10-08-anioma"],
+		"confidence": "medium"
+	},
+	"routes": [
+		{
+			"kind": "advance",
+			"by": "British forces",
+			"path": [[6.73, 6.2], [6.628, 6.178]],
+			"label": "Major Festing’s column against Ibusa",
+			"when": "January 1898",
+			"sources": ["neusroom-ekumeku"],
+			"confidence": "medium"
+		},
+		{
+			"kind": "advance",
+			"by": "British forces",
+			"path": [[6.73, 6.2], [6.6, 6.2], [6.45, 6.23]],
+			"label": "Against Ubulu-Uku",
+			"when": "1902",
+			"sources": ["neusroom-ekumeku"],
+			"confidence": "medium"
+		},
+		{
+			"kind": "advance",
+			"by": "British forces",
+			"path": [[6.73, 6.2], [6.6, 6.17], [6.516, 6.177]],
+			"label": "On Ogwashi-Uku, twice repulsed",
+			"when": "1909",
+			"sources": ["neusroom-ekumeku"],
+			"confidence": "medium"
+		},
+		{
+			"kind": "alliance",
+			"by": "Igala of Ebu",
+			"path": [[6.6061, 6.4786], [6.6, 6.33], [6.565, 6.378]],
+			"label": "Ebu’s Igala join their Anioma neighbours",
+			"sources": ["vanguard-ekumeku-2019", "owner-2026-10-07-ekumeku"],
+			"confidence": "medium"
+		},
+		{
+			"kind": "alliance",
+			"by": "Ika towns (Agbor, Owa)",
+			"path": [[6.198, 6.188], [6.35, 6.18], [6.516, 6.177]],
+			"label": "The Ika towns of Agbor and Owa rise with them",
+			"sources": ["vanguard-ekumeku-2019", "wikipedia-ika-people"],
+			"confidence": "medium"
+		}
+	],
+	"moments": [
+		{
+			"when": "January 1898",
+			"title": "Ibusa attacked",
+			"text": "A Royal Niger Company constabulary of 202 African soldiers, 134 carriers and 8 European officers under Major Arthur Festing attacks Ibusa.",
+			"at": { "name": "Ibusa", "point": [6.628, 6.178] },
+			"mark": "battle",
+			"sources": ["neusroom-ekumeku", "igbafe-1971"],
+			"confidence": "medium"
+		},
+		{
+			"when": "1902",
+			"title": "The siege of Ubulu-Uku",
+			"text": "Ubulu-Uku falls after a three-day siege. Its war leader Idegwu Otokpoike is among the Ekumeku chiefs.",
+			"at": { "name": "Ubulu-Uku (approximate)", "point": [6.45, 6.23] },
+			"mark": "captured",
+			"sources": ["neusroom-ekumeku"],
+			"confidence": "medium"
+		},
+		{
+			"when": "11 February 1904",
+			"title": "Owa stands",
+			"text": "Owa, the Ika kingdom near Agbor, defends itself against a British column as the rising spreads east of Agbor.",
+			"at": { "name": "Owa", "point": [6.198, 6.188] },
+			"mark": "battle",
+			"sources": ["vanguard-ekumeku-2019", "wikipedia-ika-people"],
+			"confidence": "medium"
+		},
+		{
+			"when": "1904",
+			"title": "A new wave",
+			"text": "The Ekumeku rise again against the government and the missions across the Asaba hinterland.",
+			"at": { "name": "Onicha-Olona", "point": [6.565, 6.378] },
+			"mark": "battle",
+			"sources": ["neusroom-ekumeku"],
+			"confidence": "medium"
+		},
+		{
+			"when": "1909",
+			"title": "Ogwashi-Uku holds",
+			"text": "Mobilised at Ogwashi-Uku under Nwabuzo Iyogolo, the Ekumeku twice drive back British forces before the movement is broken in 1911.",
+			"at": { "name": "Ogwashi-Uku", "point": [6.516, 6.177] },
+			"mark": "battle",
+			"sources": ["neusroom-ekumeku", "igbafe-1971"],
+			"confidence": "medium"
+		},
+		{
+			"when": "1883–1914",
+			"title": "Ebu in the Ekumeku",
+			"text": "Ebu, the Igala-speaking kingdom on the west bank of the Niger, is among the towns that fought in the Ekumeku war, beside its Anioma Igbo and Ika neighbours.",
+			"at": { "name": "Ebu", "point": [6.6061, 6.4786] },
+			"mark": "battle",
+			"sources": ["vanguard-ekumeku-2019", "owner-2026-10-07-ekumeku"],
+			"confidence": "medium"
+		},
+		{
+			"when": "1883–1914",
+			"title": "Ukwu Nzu, an Olukumi stronghold",
+			"text": "Ukwu Nzu (Eko Efun), the largest of the Olukumi towns, whose founders came from the Yoruba country of Owo and Akure, became a centre of the Ekumeku resistance.",
+			"at": { "name": "Ukwu Nzu", "point": [6.4774, 6.3874] },
+			"mark": "battle",
+			"sources": ["wikipedia-olukumi"],
+			"confidence": "medium"
+		}
+	],
+	"area": {
+		"lgas": [
+			"delta-aniocha-north", "delta-aniocha-south", "delta-oshimili-north", "delta-ika-north-east", "delta-oshimili-south", "delta-ika-south", "delta-ndokwa-west",
+			"delta-ukwuani"
+		]
+	},
+	"sources": ["wikipedia-ekumeku", "igbafe-1971", "ohadike-1991", "neusroom-ekumeku", "vanguard-ekumeku-2019", "wikipedia-ika-people", "owner-2026-10-07-ekumeku"],
+	"confidence": "medium",
+	"reviewNotes": [
+		"Details of the campaigns come from a news feature that summarises Igbafe (1971) and Ohadike (1991). They should be checked against Ohadike’s book.",
+		"Ubulu-Uku is placed approximately.",
+		"Ebu’s part rests on Eluemunor (Vanguard, 2019) and the owner. A claim that Captain Burdon attacked Ebu in 1898 was seen only in a search summary and is not used."
+	]
+}

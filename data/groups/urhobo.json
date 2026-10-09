@@ -1,6 +1,179 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Okpe kingdom",
+			"lga": "delta-okpe",
+			"point": [
+				5.898,
+				5.658
+			],
+			"villages": [
+				{
+					"name": "Orerokpe",
+					"point": [
+						5.898,
+						5.658
+					]
+				},
+				{
+					"name": "Osubi"
+				}
+			],
+			"sources": [
+				"wikipedia-okpe-lga",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "One of the Urhobo kingdoms; its LGA article dates it to 1770, with Orodje Esezi I as the first king. The Okpe founded Sapele, and the Orodje still has authority over its land.",
+				"sources": [
+					"wikipedia-okpe-lga"
+				],
+				"confidence": "medium"
+			}
+		},
+		{
+			"name": "Sapele",
+			"lga": "delta-sapele",
+			"point": [
+				5.683,
+				5.887
+			],
+			"villages": [
+				{
+					"name": "Amukpe"
+				},
+				{
+					"name": "Oviri"
+				},
+				{
+					"name": "Okuovwori"
+				},
+				{
+					"name": "Jesse"
+				},
+				{
+					"name": "Mosogar"
+				}
+			],
+			"sources": [
+				"wikipedia-sapele",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "On the land of the Okpe Urhobo; the Okpe say the name comes from Uriapele, a local deity whose shrine still stands in the city centre.",
+				"sources": [
+					"wikipedia-sapele"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Udu",
+			"lga": "delta-udu",
+			"point": [
+				5.87,
+				5.455
+			],
+			"villages": [
+				{
+					"name": "Aladja"
+				},
+				{
+					"name": "Ovwian"
+				},
+				{
+					"name": "Emadadja"
+				},
+				{
+					"name": "Egini"
+				},
+				{
+					"name": "Orhuwhorun"
+				},
+				{
+					"name": "Igbogidi"
+				},
+				{
+					"name": "Ekete"
+				},
+				{
+					"name": "Ujevwu"
+				}
+			],
+			"sources": [
+				"wikipedia-udu",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "An Urhobo kingdom under its own ovie, in three historic sub-clans, among them Evwrirhe and Oniere; its headquarters is Otor-Udu.",
+				"sources": [
+					"wikipedia-udu"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Ughelli",
+			"lga": "delta-ughelli-north",
+			"point": [
+				6.044,
+				5.479
+			],
+			"villages": [
+				{
+					"name": "Orogun"
+				},
+				{
+					"name": "Agbarho"
+				},
+				{
+					"name": "Agbarha"
+				},
+				{
+					"name": "Ufuoma"
+				},
+				{
+					"name": "Evwreni"
+				},
+				{
+					"name": "Afiesere"
+				}
+			],
+			"sources": [
+				"wikipedia-ughelli-north",
+				"wikipedia-urhobo",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "One of the two oldest Urhobo kingdoms, traced to about the 14th century; its founder Ughene is remembered as the son of Oghwoghwa, a Benin prince.",
+				"sources": [
+					"wikipedia-urhobo"
+				],
+				"confidence": "medium"
+			}
+		},
+		{
+			"name": "Oghara",
+			"lga": "delta-ethiope-west",
+			"villages": [],
+			"sources": [
+				"wikipedia-ethiope-west"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Headquarters of Ethiope West.",
+				"sources": [
+					"wikipedia-ethiope-west"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Urhobo",
 	"searchAliases": [

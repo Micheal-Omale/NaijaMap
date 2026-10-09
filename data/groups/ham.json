@@ -1,6 +1,32 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Kwoi and Nok",
+			"lga": "kaduna-jaba",
+			"villages": [
+				{
+					"name": "Kwoi"
+				},
+				{
+					"name": "Nok"
+				}
+			],
+			"sources": [
+				"wikipedia-ham-people",
+				"wikipedia-jaba"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Jaba LGA, with its capital at Kwoi, is predominantly Ham; its rulers, the Kpop Ham, have been recognised since 1910. The Nok terracottas were first found in the Ham village of Nok, but the Ham only arrived from Kano in the 17th–18th century, long after the Nok culture.",
+				"sources": [
+					"wikipedia-ham-people",
+					"wikipedia-jaba"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Ham (Hyam)",
 	"searchAliases": [

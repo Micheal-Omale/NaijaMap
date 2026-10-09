@@ -1,0 +1,55 @@
+{
+	"name": "Raba",
+	"status": "draft",
+	"otherNames": [
+		"Rabba"
+	],
+	"point": [
+		5.03,
+		9.211
+	],
+	"founded": {
+		"year": 1796,
+		"yearLabel": "capital from 1796",
+		"sources": [
+			"sidi-2023-nupe"
+		],
+		"confidence": "medium"
+	},
+	"summary": {
+		"text": "Raba, on the Niger in the west of Nupe, was the capital of Majiya II from 1796 and then of Mallam Dendo, who died there in 1833, and his son Usman Zaki, the first Fulani Etsu. The court left it for Bida in 1857.",
+		"sources": [
+			"sidi-2023-nupe",
+			"idrees-1989-bida"
+		],
+		"confidence": "medium"
+	},
+	"founders": [
+		{
+			"people": "Nupe",
+			"group": "nupe",
+			"polity": "nupe",
+			"text": "A Nupe river town, made capital by Majiya II.",
+			"sources": [
+				"sidi-2023-nupe"
+			],
+			"confidence": "medium"
+		}
+	],
+	"under": [
+		{
+			"polity": "nupe",
+			"from": 1796,
+			"to": 1901,
+			"kind": "ruled",
+			"text": "Capital until 1857, then a town of the emirate.",
+			"sources": [
+				"sidi-2023-nupe"
+			],
+			"confidence": "medium"
+		}
+	],
+	"reviewNotes": [
+		"Placed at GRID3’s Rabba Ndeshi in Mokwa LGA."
+	]
+}

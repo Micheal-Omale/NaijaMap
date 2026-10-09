@@ -1,6 +1,37 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Kaiama",
+			"lga": "kwara-kaiama",
+			"villages": [
+				{
+					"name": "Kaozi"
+				},
+				{
+					"name": "Mose"
+				},
+				{
+					"name": "Gbete"
+				},
+				{
+					"name": "Woro"
+				}
+			],
+			"sources": [
+				"ross-jones-borgu"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Founded in the late 18th century as a royal capital by Boko nobles from Nikki among Bokobaru already living there; about 30 Bokobaru villages lie around it, between Kaozi, Mose, Gbete and Woro. Kaiama's leader died with Borgu's army at Ilorin in the 1830s.",
+				"sources": [
+					"ross-jones-borgu",
+					"wikipedia-battle-of-ilorin"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Bokobaru",
 	"searchAliases": [

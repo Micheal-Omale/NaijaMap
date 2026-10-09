@@ -1,6 +1,23 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Fadan Ninzo (Hate)",
+			"lga": "kaduna-sanga",
+			"villages": [],
+			"sources": [
+				"wikipedia-ninzo-people"
+			],
+			"confidence": "medium",
+			"history": {
+				"text": "Headquarters of the Ninzo chiefdom under the Uchu Ninzo, a second-class chief. The speakers of Sambe, a presumed-extinct language of one village, have merged with the Ninzo.",
+				"sources": [
+					"wikipedia-ninzo-people"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Ninzo",
 	"searchAliases": [

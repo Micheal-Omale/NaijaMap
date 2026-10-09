@@ -1,0 +1,91 @@
+{
+	"name": "Hausaland divided",
+	"status": "draft",
+	"kind": "partition",
+	"year": 1904,
+	"yearLabel": "1890–1910",
+	"until": 1914,
+	"actors": [
+		{ "name": "British forces", "side": "colonial" },
+		{ "name": "French forces", "side": "colonial" },
+		{ "name": "Sokoto Caliphate", "polity": "sokoto", "side": "defender" }
+	],
+	"summary": {
+		"text": "In 1890 Britain and France split the central Sudan along a line from Say on the Niger to Barruwa on Lake Chad, with Britain claiming “all that fairly belongs to the Kingdom of Sokoto”. Nobody asked the region’s rulers. The French took the northern Hausa lands by force from 1898. The convention of 8 April 1904 then set the frontier that still divides Hausaland, 20 km north of Birnin Konni and 15 km south of Maradi. It was surveyed in 1906 and marked on the ground in 1910. Most of the line followed old divides. The states left on the French side had mostly resisted Sokoto: the Katsina rulers in exile at Maradi, Gobir at Tsibiri, Konni, and the sultanate of Damagaram at Zinder. Their kin in Katsina, Sokoto and Kano stayed British, and today Hausa speakers are the majority on both sides of the border. In the east, German Kamerun took most of the caliphate’s Adamawa lands.",
+		"sources": ["wikipedia-niger-nigeria-border", "ibs-93", "paideuma-sokoto-powers", "wikipedia-sokoto-caliphate", "wikipedia-maradi", "wikipedia-damagaram", "wikipedia-konni"],
+		"confidence": "medium"
+	},
+	"moments": [
+		{
+			"when": "5 August 1890",
+			"title": "The Say–Barruwa line",
+			"text": "Britain claims Sokoto’s lands; France takes the land north of a line from Say to Barruwa, which ran further north than today’s border.",
+			"at": { "name": "Say", "point": [2.36, 13.1] },
+			"mark": "treaty",
+			"sources": ["wikipedia-niger-nigeria-border", "paideuma-sokoto-powers"],
+			"confidence": "high"
+		},
+		{
+			"when": "1898",
+			"title": "Birnin Konni sacked",
+			"text": "The French Voulet–Chanoine mission sacks Birnin Konni on its way east.",
+			"at": { "name": "Birnin Konni", "point": [5.25, 13.79] },
+			"mark": "massacre",
+			"sources": ["wikipedia-konni"],
+			"confidence": "high"
+		},
+		{
+			"when": "1899",
+			"title": "Maradi destroyed",
+			"text": "The French arrive at Maradi, seat of the Katsina rulers in exile, and destroy the town in bloody fighting.",
+			"at": { "name": "Maradi", "point": [7.1, 13.5] },
+			"mark": "burned",
+			"sources": ["wikipedia-maradi"],
+			"confidence": "high"
+		},
+		{
+			"when": "30 July 1899",
+			"title": "Zinder falls",
+			"text": "At Tirmini, 10 km from Zinder, French and Senegalese troops beat the Sultan of Damagaram and take his capital. Damagaram loses its trade partner Kano to the British side.",
+			"at": { "name": "Zinder", "point": [8.99, 13.8] },
+			"mark": "captured",
+			"sources": ["wikipedia-damagaram"],
+			"confidence": "high"
+		},
+		{
+			"when": "8 April 1904",
+			"title": "The line that holds",
+			"text": "A new convention moves the frontier south of the 1890 line, to 20 km north of Konni and 15 km south of Maradi. It is surveyed in 1906 and marked on the ground in 1910.",
+			"mark": "treaty",
+			"sources": ["ibs-93", "wikipedia-niger-nigeria-border"],
+			"confidence": "high"
+		}
+	],
+	"pieces": [
+		{
+			"name": "Northern Nigeria: the caliphate’s Hausa emirates",
+			"note": "Sokoto, Gwandu, Katsina, Kano, Zaria and their emirates, conquered by Britain in 1903.",
+			"extent": { "states": ["sokoto", "kebbi", "zamfara", "katsina", "kano", "jigawa", "kaduna"] }
+		},
+		{
+			"name": "French Niger: Konni, Maradi, Tessaoua, Tsibiri and Zinder",
+			"note": "The Katsina rulers in exile at Maradi, Gobir at Tsibiri, Konni and Damagaram, now in the Republic of Niger.",
+			"extent": {
+				"beyond": [[[3.9, 13.4], [5.5, 13.5], [7.0, 13.1], [8.5, 12.9], [10.0, 13.1], [10.2, 13.9], [8.8, 14.2], [7.0, 14.2], [5.3, 14.3], [4.0, 14.2]]],
+				"confidence": "medium"
+			}
+		},
+		{
+			"name": "German Kamerun: most of Adamawa",
+			"note": "Garoua and Ngaoundéré; Yola stayed British.",
+			"extent": { "beyond": [[[12.3, 6.7], [14.4, 7.0], [14.7, 8.6], [14.3, 10.4], [13.3, 10.6], [12.5, 9.0]]], "confidence": "medium" }
+		}
+	],
+	"sources": ["wikipedia-niger-nigeria-border", "ibs-93", "paideuma-sokoto-powers", "wikipedia-sokoto-caliphate", "wikipedia-maradi", "wikipedia-damagaram", "wikipedia-konni"],
+	"confidence": "medium",
+	"note": "The rings outside Nigeria are rough and clipped at the border. The 1904 figures (20 km north of Konni, 15 km south of Maradi) are from the US State Department’s boundary study as quoted in a search summary.",
+	"reviewNotes": [
+		"IBS No. 93 is a scanned PDF that could not be read directly. Check the 1904 wording against it.",
+		"The Adamawa piece is from general knowledge of the Anglo-German boundary (1893, 1913) and the Sokoto Caliphate article. It needs a direct source."
+	]
+}

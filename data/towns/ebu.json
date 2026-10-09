@@ -1,0 +1,49 @@
+{
+	"name": "Ebu",
+	"status": "draft",
+	"otherNames": [],
+	"point": [
+		6.6041,
+		6.4781
+	],
+	"founded": {
+		"year": 1550,
+		"yearLabel": "by tradition",
+		"sources": [
+			"esogbue-2023-enuani",
+			"wikipedia-anioma-region"
+		],
+		"confidence": "disputed",
+		"note": "Undated; shown from the century of Igala expansion down the Niger."
+	},
+	"summary": {
+		"text": "Ebu, on the west bank of the Niger north of Illah, claims Igala descent and still speaks Igala, the one Igala-speaking kingdom of Anioma. It fought beside its neighbours in the Ekumeku war.",
+		"sources": [
+			"esogbue-2023-enuani",
+			"wikipedia-anioma-region",
+			"vanguard-ekumeku-2019"
+		],
+		"confidence": "high"
+	},
+	"founders": [
+		{
+			"people": "Igala",
+			"group": "igala",
+			"polity": "igala",
+			"from": {
+				"name": "Idah",
+				"point": [
+					6.737,
+					7.117
+				]
+			},
+			"text": "Ebu, with Oko Ogbele, Oko Amakom and Oko Anala, claims Igala origin.",
+			"sources": [
+				"esogbue-2023-enuani"
+			],
+			"confidence": "medium"
+		}
+	],
+	"under": [],
+	"reviewNotes": []
+}

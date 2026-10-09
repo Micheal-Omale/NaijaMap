@@ -2,7 +2,7 @@
 _Steps derived from the feature's "Done when" in the scope (spec 0001 is a decision spec with no numbered acceptance criteria). `/check verify` runs these; `/test` locks the durable ones._
 
 ## UI / manual
-- [ ] `npm run dev`, open `http://localhost:4321` → the NiajMap title, tagline and status line show → runs locally
+- [ ] `npm run dev`, open `http://localhost:4321` → the HistoNaija title, tagline and status line show → runs locally
 - [ ] Edit a string in `src/i18n/ui.ts` and reload → the page text changes; no UI text is hard coded in `.astro` files → UI text kept apart from code
 - [ ] Push to a public GitHub repo, import it in Vercel (Hobby plan), open the live URL → the same page shows, and a later push to `main` redeploys → deploys to free hosting (not done yet)
 

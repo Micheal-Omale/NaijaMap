@@ -1,0 +1,1694 @@
+{
+	"name": "Military rule: Murtala and Obasanjo",
+	"status": "draft",
+	"from": 1975,
+	"to": 1979,
+	"label": "1975–1979",
+	"summary": {
+		"text": "Murtala Muhammed overthrew Gowon in 1975 and replaced every governor. In February 1976 he created seven more states (nineteen in all) and chose Abuja as the new capital. He was killed in a failed coup that month, and his deputy Olusegun Obasanjo handed power to an elected government in 1979. Most governors were posted to states other than their own: a Tiv officer ran Anambra, an Efik officer Ondo, and Igbo officers Lagos and Niger.",
+		"sources": [
+			"wikipedia-murtala-muhammed",
+			"wikipedia-olusegun-obasanjo",
+			"worldstatesmen-nigeria-states"
+		],
+		"confidence": "high"
+	},
+	"federal": {
+		"text": "A Kano-born Northern officer, then a Yoruba officer, led the federal military government.",
+		"sources": [
+			"wikipedia-murtala-muhammed",
+			"wikipedia-olusegun-obasanjo"
+		],
+		"confidence": "high",
+		"leaders": [
+			{
+				"name": "Murtala Muhammed",
+				"title": "Head of State",
+				"from": 1975,
+				"to": 1976,
+				"group": "fulani",
+				"groupNote": "Born in Kano. Wikipedia traces his father’s line to the Fulani Genawa clan and his mother to the Kanuri and Fulani Jobawa clan. He is often called Hausa, and Kperogi traces his father’s line to northern Edo.",
+				"home": {
+					"name": "Kano",
+					"point": [
+						8.52,
+						12
+					]
+				},
+				"sources": [
+					"wikipedia-murtala-muhammed",
+					"kperogi-2020"
+				],
+				"confidence": "disputed"
+			},
+			{
+				"name": "Olusegun Obasanjo",
+				"title": "Head of State",
+				"from": 1976,
+				"to": 1979,
+				"group": "yoruba",
+				"groupNote": "Owu branch of the Yoruba.",
+				"home": {
+					"name": "Abeokuta (Ibogun-Olaogun)",
+					"point": [
+						3.3,
+						6.95
+					]
+				},
+				"sources": [
+					"wikipedia-olusegun-obasanjo",
+					"kperogi-2020"
+				],
+				"confidence": "high"
+			}
+		]
+	},
+	"units": [
+		{
+			"id": "sokoto",
+			"name": "Sokoto State",
+			"kind": "state",
+			"extent": {
+				"states": [
+					"sokoto",
+					"kebbi",
+					"zamfara"
+				]
+			},
+			"seat": {
+				"name": "Sokoto",
+				"point": [
+					5.229,
+					13.0665
+				]
+			},
+			"groups": [
+				"fulani",
+				"hausa"
+			],
+			"text": "The caliphate’s seat, ruled by its Fulani aristocracy over a Hausa majority.",
+			"leaders": [
+				{
+					"name": "Umaru Mohammed",
+					"title": "Military Governor of North-Western, then Sokoto State",
+					"from": 1975,
+					"to": 1978,
+					"groupLabel": "Not recorded",
+					"groupNote": "His biography gives his birthplace, Hadejia in Jigawa, but does not name his people.",
+					"home": {
+						"name": "Hadejia",
+						"point": [
+							10.0585,
+							12.4545
+						]
+					},
+					"sources": [
+						"wikipedia-umaru-mohammed"
+					],
+					"confidence": "medium"
+				},
+				{
+					"name": "Gado Nasko",
+					"title": "Military Administrator",
+					"from": 1978,
+					"to": 1979,
+					"groupLabel": "Not recorded",
+					"groupNote": "His biography gives his birthplace, Nasko in Magama, Niger, but does not name his people.",
+					"home": {
+						"name": "Nasko",
+						"point": [
+							5.1075,
+							10.4985
+						]
+					},
+					"sources": [
+						"wikipedia-gado-nasko"
+					],
+					"confidence": "medium"
+				}
+			],
+			"sources": [
+				"worldstatesmen-nigeria-states"
+			],
+			"confidence": "high"
+		},
+		{
+			"id": "niger",
+			"name": "Niger State",
+			"kind": "state",
+			"extent": {
+				"states": [
+					"niger"
+				]
+			},
+			"seat": {
+				"name": "Minna",
+				"point": [
+					6.5375,
+					9.5985
+				]
+			},
+			"groups": [
+				"nupe",
+				"hausa",
+				"gbagyi"
+			],
+			"text": "The Nupe kingdom of Bida, the Hausa emirates of Kontagora and Suleja, and the Gbagyi.",
+			"leaders": [
+				{
+					"name": "Murtala Nyako",
+					"title": "Military Governor",
+					"from": 1976,
+					"to": 1977,
+					"groupLabel": "Not recorded",
+					"groupNote": "His biography gives his birthplace, Mayo-Belwa in Adamawa, but does not name his people.",
+					"home": {
+						"name": "Mayo-Belwa",
+						"point": [
+							11.9475,
+							9.0365
+						]
+					},
+					"sources": [
+						"wikipedia-murtala-nyako"
+					],
+					"confidence": "medium"
+				},
+				{
+					"name": "Ebitu Ukiwe",
+					"title": "Military Governor",
+					"from": 1977,
+					"to": 1978,
+					"group": "igbo",
+					"home": {
+						"name": "Abiriba",
+						"point": [
+							7.809,
+							5.667
+						]
+					},
+					"sources": [
+						"wikipedia-ebitu-ukiwe"
+					],
+					"confidence": "high"
+				},
+				{
+					"name": "Joseph Oni",
+					"title": "Military Administrator",
+					"from": 1978,
+					"to": 1979,
+					"groupLabel": "Not recorded",
+					"groupNote": "His biography gives his birthplace, Lagos, but does not name his people.",
+					"sources": [
+						"wikipedia-joseph-oni"
+					],
+					"confidence": "medium"
+				}
+			],
+			"sources": [
+				"worldstatesmen-nigeria-states",
+				"wikipedia-niger-state"
+			],
+			"confidence": "high"
+		},
+		{
+			"id": "kaduna",
+			"name": "Kaduna State",
+			"kind": "state",
+			"extent": {
+				"states": [
+					"kaduna",
+					"katsina"
+				]
+			},
+			"seat": {
+				"name": "Kaduna",
+				"point": [
+					7.446,
+					10.5555
+				]
+			},
+			"groups": [
+				"hausa",
+				"fulani"
+			],
+			"text": "North-Central State renamed. Its Hausa and Fulani north faced a southern Kaduna of Christian minorities.",
+			"leaders": [
+				{
+					"name": "Usman Jibrin",
+					"title": "Military Governor",
+					"from": 1975,
+					"to": 1977,
+					"groupLabel": "Not recorded",
+					"groupNote": "His biography gives his birthplace, Nasarawa in Nasarawa State, but does not name his people.",
+					"home": {
+						"name": "Nasarawa",
+						"point": [
+							7.7455,
+							8.3385
+						]
+					},
+					"sources": [
+						"wikipedia-usman-jibrin"
+					],
+					"confidence": "medium"
+				},
+				{
+					"name": "Muktar Muhammed",
+					"title": "Military Governor",
+					"from": 1977,
+					"to": 1978,
+					"groupLabel": "Not recorded",
+					"groupNote": "His biography gives his birthplace, Kano, but does not name his people.",
+					"sources": [
+						"wikipedia-muktar-muhammed"
+					],
+					"confidence": "medium"
+				},
+				{
+					"name": "Ibrahim Mahmud Alfa",
+					"title": "Military Administrator",
+					"from": 1978,
+					"to": 1979,
+					"groupLabel": "Not recorded",
+					"groupNote": "His biography gives his birthplace, Garkida in Adamawa, but does not name his people.",
+					"home": {
+						"name": "Garkida",
+						"point": [
+							12.4695,
+							10.1915
+						]
+					},
+					"sources": [
+						"wikipedia-ibrahim-mahmud-alfa"
+					],
+					"confidence": "medium"
+				}
+			],
+			"sources": [
+				"worldstatesmen-nigeria-states"
+			],
+			"confidence": "high"
+		},
+		{
+			"id": "kano",
+			"name": "Kano State",
+			"kind": "state",
+			"extent": {
+				"states": [
+					"kano",
+					"jigawa"
+				]
+			},
+			"seat": {
+				"name": "Kano",
+				"point": [
+					8.5205,
+					11.985
+				]
+			},
+			"groups": [
+				"hausa",
+				"fulani"
+			],
+			"text": "Unchanged from 1967: Hausa-speaking, under a Fulani emir.",
+			"leaders": [
+				{
+					"name": "Sani Bello",
+					"title": "Military Governor",
+					"from": 1975,
+					"to": 1978,
+					"groupLabel": "Not recorded",
+					"groupNote": "His biography gives his birthplace, Kontagora in Niger, but does not name his people.",
+					"home": {
+						"name": "Kontagora",
+						"point": [
+							5.504,
+							10.404
+						]
+					},
+					"sources": [
+						"wikipedia-sani-bello"
+					],
+					"confidence": "medium"
+				},
+				{
+					"name": "Ishaya Shekari",
+					"title": "Military Administrator",
+					"from": 1978,
+					"to": 1979,
+					"group": "atyap",
+					"home": {
+						"name": "Zangon Kataf",
+						"point": [
+							8.246,
+							9.876
+						]
+					},
+					"sources": [
+						"wikipedia-ishaya-shekari"
+					],
+					"confidence": "high"
+				}
+			],
+			"sources": [
+				"worldstatesmen-nigeria-states"
+			],
+			"confidence": "high"
+		},
+		{
+			"id": "bauchi",
+			"name": "Bauchi State",
+			"kind": "state",
+			"extent": {
+				"states": [
+					"bauchi",
+					"gombe"
+				]
+			},
+			"seat": {
+				"name": "Bauchi",
+				"point": [
+					9.896,
+					10.178
+				]
+			},
+			"groups": [
+				"fulani",
+				"hausa"
+			],
+			"text": "The Bauchi and Gombe emirates, Fulani-ruled, with many minorities (Tangale, Waja, Jarawa, Bolewa and others) in the south and east.",
+			"leaders": [
+				{
+					"name": "Mohammed Kaliel",
+					"title": "Military Governor",
+					"from": 1976,
+					"to": 1978,
+					"groupLabel": "Not recorded",
+					"groupNote": "His biography gives his birthplace in Kebbi but does not name his people.",
+					"sources": [
+						"wikipedia-mohammed-kaliel"
+					],
+					"confidence": "medium"
+				},
+				{
+					"name": "Garba Duba",
+					"title": "Military Administrator",
+					"from": 1978,
+					"to": 1979,
+					"groupLabel": "Not recorded",
+					"groupNote": "His biography does not give his birthplace or people.",
+					"sources": [
+						"wikipedia-garba-duba"
+					],
+					"confidence": "medium"
+				}
+			],
+			"sources": [
+				"worldstatesmen-nigeria-states"
+			],
+			"confidence": "medium"
+		},
+		{
+			"id": "borno",
+			"name": "Borno State",
+			"kind": "state",
+			"extent": {
+				"states": [
+					"borno",
+					"yobe"
+				]
+			},
+			"seat": {
+				"name": "Maiduguri",
+				"point": [
+					13.132,
+					11.8335
+				]
+			},
+			"groups": [
+				"kanuri"
+			],
+			"text": "The old Kanem-Bornu heartland, Kanuri-led.",
+			"leaders": [
+				{
+					"name": "Muhammadu Buhari",
+					"title": "Military Governor of North-Eastern, then Borno State",
+					"from": 1975,
+					"to": 1976,
+					"group": "fulani",
+					"groupNote": "Son of a Fulani chieftain; Hausa and Kanuri ancestry on his mother’s side.",
+					"home": {
+						"name": "Daura",
+						"point": [
+							8.286,
+							12.9715
+						]
+					},
+					"sources": [
+						"wikipedia-muhammadu-buhari"
+					],
+					"confidence": "high"
+				},
+				{
+					"name": "Mustapha Amin",
+					"title": "Military Governor",
+					"from": 1976,
+					"to": 1978,
+					"groupLabel": "Not recorded",
+					"groupNote": "His biography does not give his birthplace or people.",
+					"sources": [
+						"wikipedia-mustapha-amin"
+					],
+					"confidence": "medium"
+				},
+				{
+					"name": "Tunde Idiagbon",
+					"title": "Military Administrator",
+					"from": 1978,
+					"to": 1979,
+					"group": "yoruba",
+					"groupNote": "Born in Ilorin. His biography does not name his people; Ilorin is mostly Yoruba.",
+					"home": {
+						"name": "Ilorin",
+						"point": [
+							4.5145,
+							8.4565
+						]
+					},
+					"sources": [
+						"wikipedia-tunde-idiagbon"
+					],
+					"confidence": "medium"
+				}
+			],
+			"sources": [
+				"worldstatesmen-nigeria-states"
+			],
+			"confidence": "high"
+		},
+		{
+			"id": "gongola",
+			"name": "Gongola State",
+			"kind": "state",
+			"extent": {
+				"states": [
+					"adamawa",
+					"taraba"
+				]
+			},
+			"seat": {
+				"name": "Yola",
+				"point": [
+					12.4495,
+					9.25
+				]
+			},
+			"groups": [
+				"fulani",
+				"jukun",
+				"mumuye"
+			],
+			"text": "The Adamawa emirate of the Fulani, the old Jukun capital at Wukari, and many smaller peoples (Mumuye, Bachama, Chamba, Mambila).",
+			"leaders": [
+				{
+					"name": "Mohammed Jega",
+					"title": "Military Governor",
+					"from": 1976,
+					"to": 1978,
+					"group": "fulani",
+					"groupNote": "Later Emir of Gwandu, a Fulani throne. His biography does not name his people directly.",
+					"home": {
+						"name": "Jega",
+						"point": [
+							4.46,
+							12.107
+						]
+					},
+					"sources": [
+						"wikipedia-mohammed-jega"
+					],
+					"confidence": "medium"
+				},
+				{
+					"name": "Abdul Rahman Mamudu",
+					"title": "Military Administrator",
+					"from": 1978,
+					"to": 1979,
+					"group": "afemai",
+					"groupNote": "From Agbede in Etsako West, Edo; Wikipedia also gives Amoke in Benue as his birthplace.",
+					"home": {
+						"name": "Agbede",
+						"point": [
+							6.2925,
+							6.9235
+						]
+					},
+					"sources": [
+						"wikipedia-abdul-rahman-mamudu"
+					],
+					"confidence": "medium"
+				}
+			],
+			"sources": [
+				"worldstatesmen-nigeria-states",
+				"wikipedia-gongola-state"
+			],
+			"confidence": "medium"
+		},
+		{
+			"id": "plateau",
+			"name": "Plateau State",
+			"kind": "state",
+			"extent": {
+				"states": [
+					"plateau",
+					"nasarawa"
+				]
+			},
+			"seat": {
+				"name": "Jos",
+				"point": [
+					8.911,
+					9.951
+				]
+			},
+			"groups": [
+				"berom",
+				"ngas",
+				"tarok"
+			],
+			"text": "The Plateau peoples (Berom, Ngas, Tarok, Mwaghavul and others) and, below the escarpment, the peoples of today’s Nasarawa.",
+			"leaders": [
+				{
+					"name": "Abdullahi Mohammed",
+					"title": "Military Governor of Benue-Plateau",
+					"from": 1975,
+					"to": 1976,
+					"groupLabel": "Not recorded",
+					"groupNote": "His biography gives his birthplace, Ilorin, but does not name his people.",
+					"home": {
+						"name": "Ilorin",
+						"point": [
+							4.5145,
+							8.4565
+						]
+					},
+					"sources": [
+						"wikipedia-abdullahi-mohammed"
+					],
+					"confidence": "medium"
+				},
+				{
+					"name": "Dan Suleiman",
+					"title": "Military Governor",
+					"from": 1976,
+					"to": 1978,
+					"group": "longuda",
+					"groupNote": "His biography gives his birthplace (Guyuk, the Longuda homeland in Adamawa) but not his people; the people shown is inferred from it.",
+					"home": {
+						"name": "Guyuk",
+						"point": [
+							11.919,
+							9.848
+						]
+					},
+					"sources": [
+						"wikipedia-dan-suleiman"
+					],
+					"confidence": "medium"
+				},
+				{
+					"name": "Joshua Anaja",
+					"title": "Military Administrator",
+					"from": 1978,
+					"to": 1979,
+					"groupLabel": "Not recorded",
+					"groupNote": "His biography does not give his birthplace or people.",
+					"sources": [
+						"wikipedia-joshua-anaja"
+					],
+					"confidence": "medium"
+				}
+			],
+			"sources": [
+				"worldstatesmen-nigeria-states"
+			],
+			"confidence": "medium"
+		},
+		{
+			"id": "benue",
+			"name": "Benue State",
+			"kind": "state",
+			"extent": {
+				"states": [
+					"benue"
+				],
+				"lgas": [
+					"kogi-ankpa",
+					"kogi-bassa",
+					"kogi-dekina",
+					"kogi-ibaji",
+					"kogi-idah",
+					"kogi-igalamela-odolu",
+					"kogi-ofu",
+					"kogi-olamaboro",
+					"kogi-omala"
+				]
+			},
+			"seat": {
+				"name": "Makurdi",
+				"point": [
+					8.543,
+					7.708
+				]
+			},
+			"groups": [
+				"tiv",
+				"idoma",
+				"igala"
+			],
+			"text": "The Tiv, the Idoma and, until Kogi State was made in 1991, the Igala.",
+			"leaders": [
+				{
+					"name": "Abdullahi Shelleng",
+					"title": "Military Governor",
+					"from": 1976,
+					"to": 1978,
+					"groupLabel": "Not recorded",
+					"groupNote": "His biography gives his birthplace, Shelleng in Adamawa, but does not name his people.",
+					"home": {
+						"name": "Shelleng",
+						"point": [
+							12.105,
+							9.895
+						]
+					},
+					"sources": [
+						"wikipedia-abdullahi-shelleng"
+					],
+					"confidence": "medium"
+				},
+				{
+					"name": "Adebayo Lawal",
+					"title": "Military Administrator",
+					"from": 1978,
+					"to": 1979,
+					"group": "yoruba",
+					"groupNote": "His biography gives his birthplace (Kisi, in Oyo State) but not his people; the people shown is inferred from it.",
+					"home": {
+						"name": "Kisi",
+						"point": [
+							3.8765,
+							9.065
+						]
+					},
+					"sources": [
+						"wikipedia-adebayo-lawal"
+					],
+					"confidence": "medium"
+				}
+			],
+			"sources": [
+				"worldstatesmen-nigeria-states"
+			],
+			"confidence": "medium"
+		},
+		{
+			"id": "kwara",
+			"name": "Kwara State",
+			"kind": "state",
+			"extent": {
+				"states": [
+					"kwara"
+				],
+				"lgas": [
+					"kogi-adavi",
+					"kogi-ajaokuta",
+					"kogi-ijumu",
+					"kogi-kabba-bunu",
+					"kogi-kogi",
+					"kogi-lokoja",
+					"kogi-mopa-muro",
+					"kogi-ogori-magongo",
+					"kogi-okehi",
+					"kogi-okene",
+					"kogi-yagba-east",
+					"kogi-yagba-west"
+				]
+			},
+			"seat": {
+				"name": "Ilorin",
+				"point": [
+					4.5145,
+					8.4565
+				]
+			},
+			"groups": [
+				"yoruba",
+				"nupe",
+				"ebira"
+			],
+			"text": "Unchanged from 1967. In 1991 its Okun Yoruba and Ebira districts went to the new Kogi State.",
+			"leaders": [
+				{
+					"name": "Ibrahim Taiwo",
+					"title": "Military Governor",
+					"from": 1975,
+					"to": 1976,
+					"group": "yoruba",
+					"groupNote": "Born at Wushishi in Niger to Adeosun and Emily Taiwo. His biography does not name his people; Yoruba is inferred from his parents’ names. Killed in the coup attempt of February 1976.",
+					"home": {
+						"name": "Wushishi",
+						"point": [
+							5.977,
+							9.6645
+						]
+					},
+					"sources": [
+						"wikipedia-ibrahim-taiwo"
+					],
+					"confidence": "disputed"
+				},
+				{
+					"name": "George Innih",
+					"title": "Military Governor",
+					"from": 1976,
+					"to": 1978,
+					"group": "afemai",
+					"groupNote": "His biography gives his birthplace (Agenebode, in Etsako East, Edo) but not his people; the people shown is inferred from it.",
+					"home": {
+						"name": "Agenebode",
+						"point": [
+							6.5825,
+							7.1905
+						]
+					},
+					"sources": [
+						"wikipedia-george-agbazika-innih"
+					],
+					"confidence": "medium"
+				},
+				{
+					"name": "Sunday Ifere",
+					"title": "Military Administrator",
+					"from": 1978,
+					"to": 1979,
+					"group": "idoma",
+					"groupNote": "His biography gives his birthplace (Igumale, in Benue) but not his people; the people shown is inferred from it.",
+					"home": {
+						"name": "Igumale",
+						"point": [
+							7.9905,
+							6.8105
+						]
+					},
+					"sources": [
+						"wikipedia-sunday-ifere"
+					],
+					"confidence": "medium"
+				}
+			],
+			"sources": [
+				"worldstatesmen-nigeria-states"
+			],
+			"confidence": "high"
+		},
+		{
+			"id": "lagos",
+			"name": "Lagos State",
+			"kind": "state",
+			"extent": {
+				"states": [
+					"lagos"
+				]
+			},
+			"seat": {
+				"name": "Lagos",
+				"point": [
+					3.3965,
+					6.4545
+				]
+			},
+			"groups": [
+				"yoruba"
+			],
+			"text": "Unchanged from 1967, and the federal capital until 1991.",
+			"leaders": [
+				{
+					"name": "Adekunle Lawal",
+					"title": "Military Governor",
+					"from": 1975,
+					"to": 1977,
+					"group": "yoruba",
+					"groupNote": "His biography gives his birthplace (Lagos) but not his people; the people shown is inferred from it.",
+					"home": {
+						"name": "Lagos",
+						"point": [
+							3.3965,
+							6.4545
+						]
+					},
+					"sources": [
+						"wikipedia-adekunle-lawal"
+					],
+					"confidence": "medium"
+				},
+				{
+					"name": "Ndubuisi Kanu",
+					"title": "Military Governor",
+					"from": 1977,
+					"to": 1978,
+					"group": "igbo",
+					"home": {
+						"name": "Ovim, Isuikwuato",
+						"point": [
+							7.4705,
+							5.7855
+						]
+					},
+					"sources": [
+						"wikipedia-ndubuisi-kanu"
+					],
+					"confidence": "high"
+				},
+				{
+					"name": "Ebitu Ukiwe",
+					"title": "Military Administrator",
+					"from": 1978,
+					"to": 1979,
+					"group": "igbo",
+					"home": {
+						"name": "Abiriba",
+						"point": [
+							7.809,
+							5.667
+						]
+					},
+					"sources": [
+						"wikipedia-ebitu-ukiwe"
+					],
+					"confidence": "high"
+				}
+			],
+			"sources": [
+				"worldstatesmen-nigeria-states"
+			],
+			"confidence": "high"
+		},
+		{
+			"id": "ogun",
+			"name": "Ogun State",
+			"kind": "state",
+			"extent": {
+				"states": [
+					"ogun"
+				]
+			},
+			"seat": {
+				"name": "Abeokuta",
+				"point": [
+					3.374,
+					7.1705
+				]
+			},
+			"groups": [
+				"yoruba"
+			],
+			"text": "The Egba, Ijebu, Egbado and Remo Yoruba.",
+			"leaders": [
+				{
+					"name": "Saidu Ayodele Balogun",
+					"title": "Military Governor",
+					"from": 1976,
+					"to": 1978,
+					"groupLabel": "Not recorded",
+					"groupNote": "His biography does not give his birthplace or people.",
+					"sources": [
+						"wikipedia-saidu-ayodele-balogun"
+					],
+					"confidence": "medium"
+				},
+				{
+					"name": "Harris Eghagha",
+					"title": "Military Administrator",
+					"from": 1978,
+					"to": 1979,
+					"group": "urhobo",
+					"groupNote": "Okpe Urhobo.",
+					"home": {
+						"name": "Mereje, Okpe",
+						"point": [
+							5.7905,
+							5.686
+						]
+					},
+					"sources": [
+						"wikipedia-harris-eghagha"
+					],
+					"confidence": "high"
+				}
+			],
+			"sources": [
+				"worldstatesmen-nigeria-states"
+			],
+			"confidence": "high"
+		},
+		{
+			"id": "oyo",
+			"name": "Oyo State",
+			"kind": "state",
+			"extent": {
+				"states": [
+					"oyo",
+					"osun"
+				]
+			},
+			"seat": {
+				"name": "Ibadan",
+				"point": [
+					3.902,
+					7.422
+				]
+			},
+			"groups": [
+				"yoruba"
+			],
+			"text": "The Oyo, Ibadan, Ife and Ijesa Yoruba.",
+			"leaders": [
+				{
+					"name": "Akintunde Aduwo",
+					"title": "Military Governor of the Western State",
+					"from": 1975,
+					"to": 1975,
+					"group": "yoruba",
+					"groupNote": "His biography gives his birthplace (Ode-Aye, in Okitipupa, Ondo) but not his people; the people shown is inferred from it.",
+					"home": {
+						"name": "Ode-Aye",
+						"point": [
+							4.713,
+							6.5515
+						]
+					},
+					"sources": [
+						"wikipedia-akintunde-aduwo"
+					],
+					"confidence": "medium"
+				},
+				{
+					"name": "David Jemibewon",
+					"title": "Military Governor of the Western, then Oyo State",
+					"from": 1975,
+					"to": 1978,
+					"group": "yoruba",
+					"groupNote": "Okun Yoruba.",
+					"home": {
+						"name": "Iyah-Gbedde",
+						"point": [
+							5.929,
+							7.843
+						]
+					},
+					"sources": [
+						"wikipedia-david-jemibewon"
+					],
+					"confidence": "high"
+				},
+				{
+					"name": "Paul Tarfa",
+					"title": "Military Administrator",
+					"from": 1978,
+					"to": 1979,
+					"groupLabel": "Not recorded",
+					"groupNote": "His biography gives his birthplace, Garkida in Adamawa, but does not name his people.",
+					"home": {
+						"name": "Garkida",
+						"point": [
+							12.4695,
+							10.1915
+						]
+					},
+					"sources": [
+						"wikipedia-paul-tarfa"
+					],
+					"confidence": "medium"
+				}
+			],
+			"sources": [
+				"worldstatesmen-nigeria-states"
+			],
+			"confidence": "high"
+		},
+		{
+			"id": "ondo",
+			"name": "Ondo State",
+			"kind": "state",
+			"extent": {
+				"states": [
+					"ondo",
+					"ekiti"
+				]
+			},
+			"seat": {
+				"name": "Akure",
+				"point": [
+					5.202,
+					7.195
+				]
+			},
+			"groups": [
+				"yoruba"
+			],
+			"text": "The Ekiti, Ondo, Owo, Akoko and Ikale Yoruba, with Ijaw and Apoi on the coast.",
+			"leaders": [
+				{
+					"name": "Ita David Ikpeme",
+					"title": "Military Governor",
+					"from": 1976,
+					"to": 1978,
+					"group": "efik",
+					"groupNote": "His biography does not give his birthplace; it lists him on the finance committee of the Efik National Association.",
+					"sources": [
+						"wikipedia-ita-david-ikpeme"
+					],
+					"confidence": "medium"
+				},
+				{
+					"name": "Sunday Tuoyo",
+					"title": "Military Administrator",
+					"from": 1978,
+					"to": 1979,
+					"group": "itsekiri",
+					"sources": [
+						"wikipedia-sunday-tuoyo"
+					],
+					"confidence": "high"
+				}
+			],
+			"sources": [
+				"worldstatesmen-nigeria-states"
+			],
+			"confidence": "high"
+		},
+		{
+			"id": "bendel",
+			"name": "Bendel State",
+			"kind": "state",
+			"extent": {
+				"states": [
+					"edo",
+					"delta"
+				]
+			},
+			"seat": {
+				"name": "Benin City",
+				"point": [
+					5.5565,
+					6.245
+				]
+			},
+			"groups": [
+				"edo",
+				"urhobo",
+				"anioma"
+			],
+			"text": "The Mid-Western State renamed: Edo, Esan and Afemai, Urhobo, Isoko, Itsekiri, Ijaw and Anioma Igbo.",
+			"leaders": [
+				{
+					"name": "George Innih",
+					"title": "Military Governor of the Mid-Western State",
+					"from": 1975,
+					"to": 1976,
+					"group": "afemai",
+					"groupNote": "His biography gives his birthplace (Agenebode, in Etsako East, Edo) but not his people; the people shown is inferred from it.",
+					"home": {
+						"name": "Agenebode",
+						"point": [
+							6.5825,
+							7.1905
+						]
+					},
+					"sources": [
+						"wikipedia-george-agbazika-innih"
+					],
+					"confidence": "medium"
+				},
+				{
+					"name": "Husaini Abdullahi",
+					"title": "Military Governor",
+					"from": 1976,
+					"to": 1978,
+					"group": "alago",
+					"groupNote": "His biography gives his birthplace (Doma, the Alago homeland in Nasarawa) but not his people; the people shown is inferred from it.",
+					"home": {
+						"name": "Doma",
+						"point": [
+							8.242,
+							8.171
+						]
+					},
+					"sources": [
+						"wikipedia-husaini-abdullahi"
+					],
+					"confidence": "medium"
+				},
+				{
+					"name": "Abubakar Waziri",
+					"title": "Military Administrator",
+					"from": 1978,
+					"to": 1979,
+					"group": "bolewa",
+					"groupNote": "His biography gives his birthplace (the Fika emirate in Yobe, seat of the Bolewa) but not his people; the people shown is inferred from it.",
+					"home": {
+						"name": "Fika",
+						"point": [
+							11.189,
+							11.372
+						]
+					},
+					"sources": [
+						"wikipedia-abubakar-waziri"
+					],
+					"confidence": "medium"
+				}
+			],
+			"sources": [
+				"worldstatesmen-nigeria-states",
+				"wikipedia-bendel-state"
+			],
+			"confidence": "high"
+		},
+		{
+			"id": "anambra",
+			"name": "Anambra State",
+			"kind": "state",
+			"extent": {
+				"states": [
+					"anambra",
+					"enugu"
+				],
+				"lgas": [
+					"ebonyi-abakaliki",
+					"ebonyi-ebonyi",
+					"ebonyi-ezza-north",
+					"ebonyi-ezza-south",
+					"ebonyi-ikwo",
+					"ebonyi-ishielu",
+					"ebonyi-izzi",
+					"ebonyi-ohaukwu"
+				]
+			},
+			"seat": {
+				"name": "Enugu",
+				"point": [
+					7.489,
+					6.445
+				]
+			},
+			"groups": [
+				"igbo"
+			],
+			"text": "The northern half of East Central State, with Enugu as capital and Abakaliki in the east.",
+			"leaders": [
+				{
+					"name": "Anthony Ochefu",
+					"title": "Military Governor of East Central State",
+					"from": 1975,
+					"to": 1976,
+					"group": "idoma",
+					"home": {
+						"name": "Otukpo",
+						"point": [
+							8.1595,
+							7.1275
+						]
+					},
+					"sources": [
+						"wikipedia-anthony-ochefu",
+						"idomavoice-2017-ochefu"
+					],
+					"confidence": "high"
+				},
+				{
+					"name": "John Kpera",
+					"title": "Military Governor",
+					"from": 1976,
+					"to": 1978,
+					"group": "tiv",
+					"groupNote": "His biography gives his birthplace (Mbatierev, in Gboko, Benue) but not his people; the people shown is inferred from it.",
+					"home": {
+						"name": "Mbatierev",
+						"point": [
+							8.8095,
+							7.3565
+						]
+					},
+					"sources": [
+						"wikipedia-john-kpera"
+					],
+					"confidence": "medium"
+				},
+				{
+					"name": "Datti Abubakar",
+					"title": "Military Administrator",
+					"from": 1978,
+					"to": 1979,
+					"groupLabel": "Not recorded",
+					"groupNote": "His biography gives his birthplace, Kano, but does not name his people.",
+					"sources": [
+						"wikipedia-datti-abubakar"
+					],
+					"confidence": "medium"
+				}
+			],
+			"sources": [
+				"worldstatesmen-nigeria-states",
+				"wikipedia-anambra-state"
+			],
+			"confidence": "high"
+		},
+		{
+			"id": "imo",
+			"name": "Imo State",
+			"kind": "state",
+			"extent": {
+				"states": [
+					"imo",
+					"abia"
+				],
+				"lgas": [
+					"ebonyi-afikpo-north",
+					"ebonyi-afikpo-south",
+					"ebonyi-ivo",
+					"ebonyi-ohaozara",
+					"ebonyi-onicha"
+				]
+			},
+			"seat": {
+				"name": "Owerri",
+				"point": [
+					7.019,
+					5.479
+				]
+			},
+			"groups": [
+				"igbo"
+			],
+			"text": "The southern half of East Central State, from Owerri and Okigwe to Aba, Umuahia and Afikpo.",
+			"leaders": [
+				{
+					"name": "Ndubuisi Kanu",
+					"title": "Military Governor",
+					"from": 1976,
+					"to": 1977,
+					"group": "igbo",
+					"home": {
+						"name": "Ovim, Isuikwuato",
+						"point": [
+							7.4705,
+							5.7855
+						]
+					},
+					"sources": [
+						"wikipedia-ndubuisi-kanu"
+					],
+					"confidence": "high"
+				},
+				{
+					"name": "Adekunle Lawal",
+					"title": "Military Governor",
+					"from": 1977,
+					"to": 1978,
+					"group": "yoruba",
+					"groupNote": "His biography gives his birthplace (Lagos) but not his people; the people shown is inferred from it.",
+					"home": {
+						"name": "Lagos",
+						"point": [
+							3.3965,
+							6.4545
+						]
+					},
+					"sources": [
+						"wikipedia-adekunle-lawal"
+					],
+					"confidence": "medium"
+				},
+				{
+					"name": "Sunday Adenihun",
+					"title": "Military Administrator",
+					"from": 1978,
+					"to": 1979,
+					"groupLabel": "Not recorded",
+					"groupNote": "Born at Aduasa in Ghana; his biography does not name his people.",
+					"sources": [
+						"wikipedia-sunday-ajibade-adenihun"
+					],
+					"confidence": "medium"
+				}
+			],
+			"sources": [
+				"worldstatesmen-nigeria-states",
+				"wikipedia-imo-state"
+			],
+			"confidence": "high"
+		},
+		{
+			"id": "cross-river",
+			"name": "Cross River State",
+			"kind": "state",
+			"extent": {
+				"states": [
+					"cross-river",
+					"akwa-ibom"
+				]
+			},
+			"seat": {
+				"name": "Calabar",
+				"point": [
+					8.328,
+					5.004
+				]
+			},
+			"groups": [
+				"ibibio",
+				"efik",
+				"annang"
+			],
+			"text": "South-Eastern State renamed. Akwa Ibom was split off in 1987.",
+			"leaders": [
+				{
+					"name": "Paul Omu",
+					"title": "Military Governor",
+					"from": 1975,
+					"to": 1978,
+					"group": "isoko",
+					"groupNote": "His biography gives his birthplace (Igbide, an Isoko town in Delta) but not his people; the people shown is inferred from it.",
+					"home": {
+						"name": "Igbide",
+						"point": [
+							6.2225,
+							5.3855
+						]
+					},
+					"sources": [
+						"wikipedia-paul-omu"
+					],
+					"confidence": "medium"
+				},
+				{
+					"name": "Babatunde Elegbede",
+					"title": "Military Administrator",
+					"from": 1978,
+					"to": 1979,
+					"groupLabel": "Not recorded",
+					"groupNote": "His biography does not give his birthplace or people.",
+					"sources": [
+						"wikipedia-babatunde-elegbede"
+					],
+					"confidence": "medium"
+				}
+			],
+			"sources": [
+				"worldstatesmen-nigeria-states"
+			],
+			"confidence": "high"
+		},
+		{
+			"id": "rivers",
+			"name": "Rivers State",
+			"kind": "state",
+			"extent": {
+				"states": [
+					"rivers",
+					"bayelsa"
+				]
+			},
+			"seat": {
+				"name": "Port Harcourt",
+				"point": [
+					7.018,
+					4.7875
+				]
+			},
+			"groups": [
+				"ijaw",
+				"ikwerre",
+				"ogoni"
+			],
+			"text": "Unchanged from 1967. Bayelsa was split off in 1996.",
+			"leaders": [
+				{
+					"name": "Zamani Lekwot",
+					"title": "Military Governor",
+					"from": 1975,
+					"to": 1978,
+					"group": "atyap",
+					"home": {
+						"name": "Ashong Ashyui",
+						"point": [
+							8.246,
+							9.876
+						]
+					},
+					"sources": [
+						"wikipedia-zamani-lekwot"
+					],
+					"confidence": "high"
+				},
+				{
+					"name": "Suleiman Saidu",
+					"title": "Military Administrator",
+					"from": 1978,
+					"to": 1979,
+					"groupLabel": "Not recorded",
+					"groupNote": "His biography gives Zaria as his birthplace (uncited) but does not name his people.",
+					"sources": [
+						"wikipedia-suleiman-saidu"
+					],
+					"confidence": "medium"
+				}
+			],
+			"sources": [
+				"worldstatesmen-nigeria-states"
+			],
+			"confidence": "high"
+		},
+		{
+			"id": "fct",
+			"name": "Federal Capital Territory",
+			"kind": "territory",
+			"extent": {
+				"states": [],
+				"lgas": [
+					"fct-abaji",
+					"fct-bwari",
+					"fct-gwagwalada",
+					"fct-kuje",
+					"fct-kwali",
+					"fct-municipal-area-council"
+				]
+			},
+			"seat": {
+				"name": "Abuja",
+				"point": [
+					7.4195,
+					9.0105
+				]
+			},
+			"groups": [
+				"gbagyi"
+			],
+			"text": "Carved out in 1976 from Niger, Plateau and Kwara as the site of the new capital, in the land of the Gbagyi, Koro and Gwandara. It had no governor.",
+			"leaders": [],
+			"sources": [
+				"worldstatesmen-nigeria-states",
+				"wikipedia-federal-capital-territory-nigeria"
+			],
+			"confidence": "medium"
+		}
+	],
+	"reviewNotes": [
+		"Ethnic attributions follow the cited biographies. Where a biography gives only a birthplace, the people is inferred from it and marked medium; where even that is unclear, the people is shown as “Not recorded”.",
+		"The 1976 borders are drawn from today’s LGAs. Kogi is split between Kwara (the old Kabba Province) and Benue (the Igala LGAs). Ebonyi is split between Anambra (Abakaliki) and Imo (Afikpo).",
+		"Governors of the twelve states appointed by Murtala in July 1975 are listed under the new state that kept their capital (for example, Ochefu of East Central State under Anambra)."
+	],
+	"parties": [],
+	"coalitions": [],
+	"results": [],
+	"coups": [
+		{
+			"id": "jul-1975",
+			"name": "Gowon overthrown",
+			"date": "29 July 1975",
+			"year": 1975,
+			"outcome": "bloodless",
+			"fell": {
+				"name": "Yakubu Gowon",
+				"role": "Head of State, abroad at the OAU summit in Kampala",
+				"group": "ngas"
+			},
+			"rose": {
+				"name": "Murtala Muhammed",
+				"role": "Head of State",
+				"group": "fulani"
+			},
+			"plotters": [
+				{
+					"name": "Joseph Nanven Garba",
+					"role": "an insider, who announced the coup"
+				},
+				{
+					"name": "Olusegun Obasanjo",
+					"role": "named deputy",
+					"group": "yoruba"
+				}
+			],
+			"killed": [],
+			"text": "Junior officers tired of Gowon’s delays in returning to civilian rule overthrew him while he was at the OAU summit in Kampala. Garba, an insider, kept it bloodless. Murtala, the July 1966 mastermind, became head of state, with Obasanjo as deputy.",
+			"moments": [
+				{
+					"when": "29 July 1975",
+					"title": "The broadcast",
+					"text": "Colonel Joseph Garba announces the coup on Radio Nigeria. Gowon, in Kampala, does not return.",
+					"at": {
+						"name": "Lagos",
+						"point": [
+							3.39,
+							6.45
+						]
+					},
+					"mark": "founded"
+				}
+			],
+			"sources": [
+				"wikipedia-1975-nigerian-coup-detat"
+			],
+			"confidence": "high"
+		},
+		{
+			"id": "feb-1976",
+			"name": "Dimka’s coup attempt",
+			"date": "13 February 1976",
+			"year": 1976,
+			"outcome": "failed",
+			"fell": {
+				"name": "Murtala Muhammed",
+				"role": "Head of State, killed",
+				"group": "fulani"
+			},
+			"rose": {
+				"name": "Olusegun Obasanjo",
+				"role": "his deputy, who took over",
+				"group": "yoruba"
+			},
+			"plotters": [
+				{
+					"name": "Bukar Suka Dimka",
+					"role": "Lieutenant-Colonel",
+					"groupLabel": "Not recorded",
+					"groupNote": "His Wikipedia biography does not name his people."
+				}
+			],
+			"killed": [
+				{
+					"name": "Murtala Muhammed",
+					"role": "Head of State",
+					"group": "fulani"
+				},
+				{
+					"name": "Akintunde Akinsehinwa",
+					"role": "his aide-de-camp"
+				},
+				{
+					"name": "Bukar Suka Dimka",
+					"role": "executed with six others, 15 May 1976"
+				},
+				{
+					"name": "Joseph Gomwalk",
+					"role": "former Governor of Benue-Plateau, executed for links to the plot",
+					"group": "ngas"
+				}
+			],
+			"text": "Dimka’s men ambushed Murtala’s car in Ikoyi traffic and killed him, but the coup was crushed within hours. Dimka named the deposed Gowon in his testimony; Gowon’s fellow Ngas, the former governor Gomwalk, was among those executed. Obasanjo, a Yoruba, took over and handed power to an elected government in 1979.",
+			"moments": [
+				{
+					"when": "13 February, morning",
+					"title": "Murtala ambushed",
+					"text": "Dimka, Major Rabo, Captain Parwang and Lieutenant Seri ambush Murtala’s Mercedes in Ikoyi on its way to Dodan Barracks and kill him and his aide.",
+					"at": {
+						"name": "Ikoyi, Lagos",
+						"point": [
+							3.44,
+							6.455
+						]
+					},
+					"mark": "massacre"
+				},
+				{
+					"when": "13 February",
+					"title": "Dimka on the radio",
+					"text": "Dimka broadcasts from Radio Nigeria; loyal troops crush the coup within hours and he flees.",
+					"at": {
+						"name": "Radio Nigeria, Ikoyi",
+						"point": [
+							3.425,
+							6.47
+						]
+					},
+					"mark": "garrison"
+				},
+				{
+					"when": "6 March",
+					"title": "Dimka caught",
+					"text": "After a three-week manhunt Dimka is arrested near Abakaliki.",
+					"at": {
+						"name": "Abakaliki",
+						"point": [
+							8.11,
+							6.32
+						]
+					},
+					"mark": "captured"
+				},
+				{
+					"when": "15 May",
+					"title": "The executions",
+					"text": "Dimka and six co-conspirators are shot after a court martial; Gomwalk is among the condemned.",
+					"at": {
+						"name": "Lagos",
+						"point": [
+							3.39,
+							6.45
+						]
+					},
+					"mark": "massacre"
+				}
+			],
+			"routes": [
+				{
+					"path": [
+						[
+							3.43,
+							6.47
+						],
+						[
+							5.8,
+							6.1
+						],
+						[
+							8.11,
+							6.32
+						]
+					],
+					"label": "Dimka’s flight, three weeks"
+				}
+			],
+			"sources": [
+				"wikipedia-1976-nigerian-coup-attempt",
+				"wikipedia-bukar-suka-dimka",
+				"wikipedia-joseph-gomwalk"
+			],
+			"confidence": "high"
+		}
+	]
+}

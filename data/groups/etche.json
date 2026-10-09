@@ -1,6 +1,19 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Etche and Omuma",
+			"lga": "rivers-etche",
+			"villages": [],
+			"alsoIn": [
+				"rivers-omumma"
+			],
+			"sources": [
+				"wikipedia-etche"
+			],
+			"confidence": "medium"
+		}
+	],
 	"reviewNotes": [],
 	"name": "Etche",
 	"searchAliases": [

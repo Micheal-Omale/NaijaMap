@@ -1,6 +1,30 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Boje and the Boki communities",
+			"lga": "cross-river-boki",
+			"villages": [
+				{
+					"name": "Boje"
+				},
+				{
+					"name": "Bamba"
+				}
+			],
+			"sources": [
+				"wikipedia-boki-lga"
+			],
+			"confidence": "medium",
+			"history": {
+				"text": "Boki LGA takes its name from the Bokyi, also called Nki. In 2001 six autonomous communities protested the refusal of a separate Boki North council and threatened to join Cameroon.",
+				"sources": [
+					"wikipedia-boki-lga"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Bokyi (Boki)",
 	"searchAliases": [

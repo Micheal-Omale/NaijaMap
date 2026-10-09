@@ -1,0 +1,91 @@
+{
+	"name": "Ilorin",
+	"status": "draft",
+	"otherNames": [],
+	"point": [
+		4.5357,
+		8.4783
+	],
+	"founded": {
+		"year": 1775,
+		"yearLabel": "late 18th century",
+		"sources": [
+			"wikipedia-ilorin"
+		],
+		"confidence": "medium"
+	},
+	"summary": {
+		"text": "Ilorin was settled first by Yoruba from Oyo, and for a time by Bariba. It grew as a military post of the Oyo Empire until Afonja, Oyo’s field marshal, rebelled in 1817 with the help of the Fulani preacher Shehu Alimi; Alimi’s line took the town, and Ilorin became an emirate of the Sokoto Caliphate under Gwandu. Its four quarters are still Hausa, Yoruba, Fulani and Yoruba Muslim.",
+		"sources": [
+			"wikipedia-ilorin",
+			"wikipedia-ilorin-emirate"
+		],
+		"confidence": "high"
+	},
+	"founders": [
+		{
+			"people": "Yoruba",
+			"group": "yoruba",
+			"polity": "oyo",
+			"from": {
+				"name": "Oyo-Ile (Old Oyo)",
+				"point": [
+					4.3075,
+					8.9747
+				]
+			},
+			"text": "The first settlers came from Oyo; Afonja, the Kakanfo, made it his base.",
+			"sources": [
+				"wikipedia-ilorin-emirate",
+				"wikipedia-ilorin"
+			],
+			"confidence": "high"
+		},
+		{
+			"people": "Fulani",
+			"group": "fulani",
+			"polity": "sokoto",
+			"text": "Shehu Alimi (Salih Janta), a Fulani scholar, came from Oyo with Yoruba Muslims; his descendants are the emirs.",
+			"sources": [
+				"wikipedia-ilorin-emirate"
+			],
+			"confidence": "high"
+		},
+		{
+			"people": "Bariba",
+			"group": "bariba",
+			"text": "Bariba lived at Ilorin for many years and left, for no known reason.",
+			"sources": [
+				"wikipedia-ilorin-emirate"
+			],
+			"confidence": "medium"
+		}
+	],
+	"under": [
+		{
+			"polity": "oyo",
+			"from": 1775,
+			"to": 1816,
+			"kind": "ruled",
+			"text": "A provincial military settlement of the Oyo Empire.",
+			"sources": [
+				"wikipedia-ilorin"
+			],
+			"confidence": "high"
+		},
+		{
+			"polity": "sokoto",
+			"from": 1824,
+			"to": 1897,
+			"kind": "ruled",
+			"text": "An emirate of the Sokoto Caliphate, under Gwandu.",
+			"sources": [
+				"wikipedia-ilorin-emirate"
+			],
+			"confidence": "medium"
+		}
+	],
+	"reviewNotes": [
+		"The year the emirate began (shown as 1824) needs a written source."
+	]
+}

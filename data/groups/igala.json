@@ -214,23 +214,28 @@
 		},
 		{
 			"lga": "enugu-igbo-eze-north",
-			"presence": "minority",
+			"presence": "core",
 			"sources": [
 				"egenti-2015-ette",
 				"wikipedia-igbo-eze-north",
-				"owner-2026-10-06-ette"
+				"owner-2026-10-06-ette",
+				"chukwudi-opone-2024-eteh",
+				"owner-2026-10-07-ette"
 			],
-			"confidence": "medium",
-			"note": "Igala is spoken in Ette; the rest of the LGA is Igbo."
+			"confidence": "high",
+			"note": "A homeland: Ette, one of the LGA’s two towns, is ruled by an Igala king and is mostly Igala and Idoma, with little Igbo settlement. Enugu-Ezike, the other town, is Igbo, so the LGA is drawn in stripes."
 		},
 		{
 			"lga": "edo-etsako-east",
 			"presence": "minority",
 			"sources": [
+				"wikipedia-unuedegor",
+				"grid3-settlement-names",
+				"owner-2026-10-07-ojuwo",
 				"owner-2026-10-06-ifeku"
 			],
 			"confidence": "medium",
-			"note": "Ifeku communities, according to the owner. The boundary data does not yet place a mapped Ifeku village here; check which villages lie in Etsako East."
+			"note": "Ojuwo, the section of Unuedegor on the Niger opposite Idah that Igala settlers from Idah founded (Wikipedia; the owner says an Igala population still lives there), and Ifeku communities according to the owner, whose Etsako East villages are not yet located. The rest of the LGA is Etsako (Afemai)."
 		}
 	],
 	"communities": [
@@ -432,6 +437,42 @@
 				"edo-etsako-east",
 				"edo-esan-south-east"
 			]
+		},
+		{
+			"name": "Unuedegor (Ojuwo)",
+			"lga": "edo-etsako-east",
+			"point": [
+				6.7061,
+				7.1471
+			],
+			"villages": [
+				{
+					"name": "Ojuwo"
+				}
+			],
+			"alsoIn": [],
+			"sources": [
+				"wikipedia-unuedegor",
+				"grid3-settlement-names",
+				"owner-2026-10-07-ojuwo"
+			],
+			"confidence": "disputed",
+			"note": "Unuedegor lies on the Niger about 8 km north of Agenebode, across the river from Idah; GRID3 places it (as Unoedegor) in Egori ward, Etsako East. Ojuwo is the section Igala settlers founded. The owner describes an Igala population living there today, while Wikipedia calls Ojuwo the hilly part of town where people farm and fish, not where they live; whether Igala is still spoken there is not yet confirmed.",
+			"history": {
+				"text": "Brothers from Egor founded Unuedegor in the early 16th century. Later, Igala people from Idah crossed the Niger, settled a section of the town and named it Ojuwo. Unuedegor was also the Royal Niger Company’s first base on the western side of the Niger.",
+				"sources": [
+					"wikipedia-unuedegor",
+					"owner-2026-10-07-ojuwo"
+				],
+				"confidence": "medium"
+			},
+			"livelihoods": {
+				"text": "Fishing and farming on the Niger.",
+				"sources": [
+					"wikipedia-unuedegor"
+				],
+				"confidence": "high"
+			}
 		},
 		{
 			"name": "Olumbanasa",
@@ -721,7 +762,7 @@
 			}
 		},
 		{
-			"name": "Ette (Etteh)",
+			"name": "Ette (Etteh, Eteh)",
 			"lga": "enugu-igbo-eze-north",
 			"point": [
 				7.4691,
@@ -736,42 +777,50 @@
 					]
 				},
 				{
-					"name": "Umuogbu Agu",
+					"name": "Achanya (Emachanya Ette)",
 					"point": [
-						7.4251,
-						7.0605
-					]
+						7.3484,
+						7.1479
+					],
+					"lga": "kogi-olamaboro"
 				},
 				{
-					"name": "Umuagama",
+					"name": "Onodaba (Aionodaba Ette)",
 					"point": [
-						7.4379,
-						7.0146
-					]
+						7.3324,
+						7.1434
+					],
+					"lga": "kogi-olamaboro"
 				},
 				{
-					"name": "Imufu",
+					"name": "Ijekpe Ette",
 					"point": [
-						7.444,
-						6.9949
-					]
+						7.3933,
+						7.1156
+					],
+					"lga": "kogi-olamaboro"
 				}
 			],
 			"sources": [
 				"egenti-2015-ette",
 				"wikipedia-igbo-eze-north",
-				"owner-2026-10-06-ette"
+				"owner-2026-10-06-ette",
+				"chukwudi-opone-2024-eteh",
+				"owner-2026-10-07-ette"
 			],
 			"confidence": "high",
-			"note": "The Ette speak Idoma, Igala and Igbo. Egenti (2015) finds Idoma the strongest, then Igala, then Igbo; the owner reports Igala as a main language of Ette.",
+			"note": "Ette is ruled by an Igala king, the Onu-Oda, who is confirmed by the Attah at Idah. Its people are mostly Igala and Idoma; Igbo settlement there is small. Egenti (2015) finds Idoma the most used language, then Igala, then Igbo.",
 			"history": {
-				"text": "One of the two towns that make up Igbo-Eze North (with Enugu-Ezike), on the border with Benue. The Igala of the Nsukka area trace their arrival from Idah to the 17th century.",
+				"text": "Eteh is a border clan of nine villages (Achanya, Ochigide, Aishi, Ebe, Emenebe or Ayinebe, Ijekpe, Ogilliama, Ogodo and Onodaba) on both sides of the Enugu and Kogi line, in Igbo-Eze North and Olamaboro. Its ruler, the Onu-Oda Adogo, is an Igala king. Tradition says Enwenwowo, a descendant of a son of the Attah, went to Idah and received the staff and title of Onu-Oda, and every Onu-Oda since has gone to Idah to be confirmed by the Attah. Most of the people claim Igala origin; Idoma and later Igbo settlers joined them.",
 				"sources": [
-					"wikipedia-igbo-eze-north",
-					"dailytrust-2017-enugu"
+					"chukwudi-opone-2024-eteh",
+					"owner-2026-10-07-ette"
 				],
 				"confidence": "medium"
-			}
+			},
+			"alsoIn": [
+				"kogi-olamaboro"
+			]
 		}
 	],
 	"reviewNotes": [
@@ -783,6 +832,8 @@
 		"Igala speaking towns inside the mixed Kogi LGAs (Bassa, Ajaokuta, Lokoja) are not yet mapped as points.",
 		"Boston 1968 and Negedu 2014 are cited through Wikipedia and have not been checked directly.",
 		"Ogbadibo (Benue): asked about by the owner. Sources describe it as Idoma speaking, with Igala origin traditions (Owukpa founded from Ankpa); no source yet names an Igala speaking village there, so it is not on the Igala map. Add it if a source or the owner names such villages.",
-		"Umuebu (Ukwuani, Delta): Wikipedia’s Anioma article names an Igala minority there, but the owner reports Umuebu no longer speaks Igala; it is not mapped as an Igala speaking community."
+		"Umuebu (Ukwuani, Delta): Wikipedia’s Anioma article names an Igala minority there, but the owner reports Umuebu no longer speaks Igala; it is not mapped as an Igala speaking community.",
+		"Ette (Eteh): Chukwudi and Opone (2024) list nine villages. Achanya, Onodaba and Ijekpe were found in GRID3 in Olamaboro; Ochigide, Aishi, Ebe, Emenebe (Ayinebe), Ogilliama and Ogodo were not located. GRID3 also has \"Japan Ette\" in Olamaboro, which is not on their list. The same paper records a local Igbo account that calls Eteh wholly Igbo; it is noted but not followed, since the owner and the paper's other informants say Igala and Idoma are the majority. GRID3 also puts Umuogbu Agu, Umuagama and Imufu in the Ette wards; their names are Igbo, and since Igbo settlement in Ette is small they are not drawn as Ette villages.",
+		"Unuedegor (Ojuwo), Etsako East: Wikipedia records Igala settlers from Idah founding the Ojuwo section, and the owner says an Igala population lives there today. Wikipedia describes Ojuwo as uninhabited farmland, and no source yet says Igala is still spoken there, so it is marked disputed. Ask the owner whether Ojuwo speaks Igala today and where in Unuedegor its homes are."
 	]
 }

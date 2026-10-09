@@ -1,0 +1,50 @@
+{
+	"name": "Annang",
+	"status": "draft",
+	"groups": [
+		"annang"
+	],
+	"rule": "assemblies",
+	"span": {
+		"from": 1000,
+		"to": 1904,
+		"fromLabel": "before written records",
+		"toLabel": "1901–1904",
+		"sources": [
+			"wikipedia-anaang"
+		],
+		"confidence": "medium",
+		"note": "The start of the timeline, not a founding date."
+	},
+	"summary": {
+		"text": "Annang society was built up from families: households (ufok) made extended families (ekpuk), these made villages (ilung), and villages made clans (abie), each governing itself. Villages and clans joined forces against a common enemy, and so held their own close to Arochukwu. Their land, between the Ibibio and the Igbo, later made up the Abak and Ikot Ekpene divisions and part of Opobo division; the Ika of Akwa Ibom call themselves Ika-Annang. They share names, culture and a closely related speech with the Ibibio.",
+		"sources": [
+			"wikipedia-anaang",
+			"wikipedia-ibibio"
+		],
+		"confidence": "medium"
+	},
+	"end": {
+		"text": "British columns crossed Annang country in the Aro Expedition of 1901–1902 and set up a military post at Ikot Ekpene in 1904.",
+		"sources": [
+			"wikipedia-anglo-aro-war",
+			"wikipedia-anaang"
+		],
+		"confidence": "high"
+	},
+	"lands": [
+		{
+			"from": 1000,
+			"lgas": [
+				"akwa-ibom-abak",
+				"akwa-ibom-essien-udim",
+				"akwa-ibom-ikot-ekpene",
+				"akwa-ibom-ukanafun",
+				"akwa-ibom-oruk-anam",
+				"akwa-ibom-etim-ekpo",
+				"akwa-ibom-obot-akara"
+			]
+		}
+	],
+	"reviewNotes": []
+}

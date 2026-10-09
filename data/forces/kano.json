@@ -1,0 +1,69 @@
+{
+	"status": "draft",
+	"of": "polity",
+	"terrain": "savanna",
+	"summary": {
+		"text": "Kano fought from behind some of the longest walls in West Africa, with horsemen in quilted armour. Its wealth came from trade more than conquest, and in the 17th century Kwararafa raids twice emptied the city.",
+		"sources": [
+			"wikipedia-hausa-kingdoms",
+			"palmer-1928",
+			"wikipedia-kwararafa"
+		],
+		"confidence": "medium"
+	},
+	"arms": [
+		{
+			"kind": "walls",
+			"level": 3,
+			"text": "The city walls of Kano.",
+			"sources": [
+				"wikipedia-hausa-kingdoms",
+				"palmer-1928"
+			],
+			"confidence": "medium"
+		},
+		{
+			"kind": "cavalry",
+			"level": 2,
+			"text": "Armoured horsemen led Hausa armies.",
+			"sources": [
+				"law-1980-horse",
+				"palmer-1928"
+			],
+			"confidence": "medium"
+		}
+	],
+	"record": [
+		{
+			"year": 1653,
+			"polity": "kwararafa",
+			"event": "kwararafa-raids-kano",
+			"against": "Kwararafa",
+			"result": "lost",
+			"text": "Kwararafa invaded three times. Under Muhammad Zaki and again under Dadi the people fled to Daura, and in the 1650s Adashu broke down the Kofan Kawayi gate.",
+			"sources": [
+				"wikipedia-kwararafa",
+				"wikipedia-muhammad-zaki",
+				"wikipedia-muhammad-kukuna",
+				"wikipedia-dadi-kano"
+			],
+			"confidence": "high"
+		},
+		{
+			"year": 1807,
+			"polity": "sokoto",
+			"event": "fulani-jihad",
+			"against": "The Sokoto jihad",
+			"result": "lost",
+			"text": "Jihadists took Kano and an emir was installed.",
+			"sources": [
+				"wikipedia-fulani-war",
+				"wikipedia-sokoto-caliphate"
+			],
+			"confidence": "high"
+		}
+	],
+	"reviewNotes": [
+		"Arms levels (1 some, 2 a real strength, 3 famous for it) are the compiler’s judgement from the sources, for the Versus page’s guess; please check them."
+	]
+}

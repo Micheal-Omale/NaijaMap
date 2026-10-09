@@ -154,7 +154,24 @@
 			"note": "Found in great numbers in the south of Doma LGA."
 		}
 	],
-	"communities": [],
+	"communities": [
+		{
+			"name": "Gwagwalada (Bassa headquarters)",
+			"lga": "fct-gwagwalada",
+			"villages": [],
+			"sources": [
+				"wikipedia-gwagwalada"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "The traditional headquarters of the Bassa in the Federal Capital Territory, seat of their ruler, the Aguma.",
+				"sources": [
+					"wikipedia-gwagwalada"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [
 		"Wikipedia also places Bassa in Bwari and the Municipal Area Council (FCT), in Kwara, and in Niger State (Shiroro); not yet mapped.",
 		"Basa-Gurara (Niger State) is named as a variety but its LGA is not yet sourced.",

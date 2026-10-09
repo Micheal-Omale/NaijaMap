@@ -1,0 +1,37 @@
+{
+	"name": "Eggon",
+	"status": "draft",
+	"groups": [
+		"eggon"
+	],
+	"rule": "villages",
+	"span": {
+		"from": 1000,
+		"to": 1905,
+		"fromLabel": "before written records",
+		"toLabel": "early 1900s",
+		"sources": [
+			"wikipedia-eggon-people"
+		],
+		"confidence": "medium",
+		"note": "The start of the timeline, not a founding date. The end is approximate: British rule reached these lands in the first years of the 1900s."
+	},
+	"summary": {
+		"text": "The Eggon lived through most of their history as a decentralised and fiercely independent hill people, called Madan Dutse, “hill Mada”, by the Hausa. They had no single name for themselves: they were divided into three great clans, Anzo, Eholo and Anro, each of houses and villages that governed themselves.",
+		"sources": [
+			"wikipedia-eggon-people"
+		],
+		"confidence": "medium"
+	},
+	"lands": [
+		{
+			"from": 1000,
+			"lgas": [
+				"nasarawa-nasarawa-egon"
+			]
+		}
+	],
+	"reviewNotes": [
+		"Needs a written source for the date British rule reached this people."
+	]
+}

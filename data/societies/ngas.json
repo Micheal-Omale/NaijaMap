@@ -1,0 +1,45 @@
+{
+	"name": "Ngas",
+	"status": "draft",
+	"groups": [
+		"ngas"
+	],
+	"rule": "chiefdoms",
+	"span": {
+		"from": 1000,
+		"to": 1905,
+		"fromLabel": "before written records",
+		"toLabel": "early 1900s",
+		"sources": [
+			"wikipedia-angas",
+			"wikipedia-plateau-state"
+		],
+		"confidence": "medium",
+		"note": "The start of the timeline, not a founding date. The end is approximate: British rule reached these lands in the first years of the 1900s."
+	},
+	"summary": {
+		"text": "Ngas tradition says they migrated from Bornu, splitting into groups that settled at Pankshin, Ampang, Amper and Kabwir; Kabwir's settlers were led by a chief called Gwallam and the Amper by Kendim. Each group of villages had its own chief and no one ruled over all the Ngas. Later settlers spread across the highlands, and the hill country sheltered them from Bauchi's slave raids. Their festival, Tsafi Tar, marks the harvest by “shooting the moon”.",
+		"sources": [
+			"wikipedia-ngas-people",
+			"wikipedia-bauchi-emirate"
+		],
+		"confidence": "medium"
+	},
+	"end": {
+		"text": "The British took control of the Plateau in the early 20th century, and began mining its tin in 1902.",
+		"sources": [
+			"wikipedia-plateau-state"
+		],
+		"confidence": "medium"
+	},
+	"lands": [
+		{
+			"from": 1000,
+			"lgas": [
+				"plateau-pankshin",
+				"plateau-kanke"
+			]
+		}
+	],
+	"reviewNotes": []
+}

@@ -1,0 +1,56 @@
+{
+	"name": "Onitsha",
+	"status": "draft",
+	"otherNames": [
+		"Onicha Ado N’Idu"
+	],
+	"point": [
+		6.7889,
+		6.1452
+	],
+	"founded": {
+		"year": 1630,
+		"yearLabel": "1630–1680 (some say the 16th century)",
+		"sources": [
+			"wikipedia-onitsha"
+		],
+		"confidence": "disputed"
+	},
+	"summary": {
+		"text": "Onitsha was founded by the people of Ado N’Idu under Eze Chima, an Igbo kingdom close to Benin and once ruled by its Oba. After war with Benin they crossed the Niger, drove out the Oze people they found there, and Chima’s son Oraeze became the first Obi. Other branches of the same migration founded Onicha-Olona and Onicha-Ugbo.",
+		"sources": [
+			"wikipedia-onitsha"
+		],
+		"confidence": "medium"
+	},
+	"founders": [
+		{
+			"people": "Igbo (Ado N’Idu)",
+			"group": "igbo",
+			"polity": "benin",
+			"from": {
+				"name": "Benin City",
+				"point": [
+					5.627,
+					6.335
+				]
+			},
+			"text": "The people of Ado N’Idu, led by Eze Chima (said to descend from Eri), allied to Benin until Oba Esigie made war on them.",
+			"sources": [
+				"wikipedia-onitsha"
+			],
+			"confidence": "medium"
+		},
+		{
+			"people": "Igbo (Oze)",
+			"group": "igbo",
+			"text": "The Oze, who held the site first, were driven out; they went on to found other towns.",
+			"sources": [
+				"wikipedia-onitsha"
+			],
+			"confidence": "medium"
+		}
+	],
+	"under": [],
+	"reviewNotes": []
+}

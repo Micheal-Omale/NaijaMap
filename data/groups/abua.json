@@ -1,6 +1,24 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Abua Central",
+			"lga": "rivers-abua-odual",
+			"villages": [],
+			"sources": [
+				"wikipedia-abua-odual"
+			],
+			"confidence": "medium",
+			"history": {
+				"text": "Headquarters of Abua–Odual LGA. The LGA article says the people of Abua are of Ijaw ancestry.",
+				"sources": [
+					"wikipedia-abua-odual"
+				],
+				"confidence": "disputed"
+			},
+			"note": "The Ijaw-ancestry claim in the LGA article needs checking against the language classification used for this group."
+		}
+	],
 	"reviewNotes": [],
 	"name": "Abua",
 	"searchAliases": [

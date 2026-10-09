@@ -1,0 +1,29 @@
+{
+	"status": "draft",
+	"title": "The warrant chief system",
+	"kind": "warrant",
+	"year": 1900,
+	"yearLabel": "early 1900s",
+	"until": 1930,
+	"seat": {
+		"name": "Oloko, where the Women’s War began against the warrant chief Okugo",
+		"point": [
+			7.5237,
+			5.3731
+		]
+	},
+	"by": "the British administration of Southern Nigeria",
+	"groups": [
+		"igbo",
+		"ibibio",
+		"annang"
+	],
+	"text": "Where the Igbo and their neighbours had no kings, the British appointed local men as chiefs and gave them “warrants” to sit in the Native Courts. They had no precedent in Igbo tradition and were fiercely resisted. In 1929 thousands of women rose against them in the Women’s War, forcing many to resign and attacking sixteen Native Courts; in 1930 the colonial government abolished the system.",
+	"sources": [
+		"wikipedia-colonial-nigeria",
+		"wikipedia-womens-war"
+	],
+	"confidence": "high",
+	"note": "The start is approximate: warrants were issued from the first years of British rule in the east.",
+	"reviewNotes": []
+}

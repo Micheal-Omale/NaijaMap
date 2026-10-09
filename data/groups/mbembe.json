@@ -1,6 +1,49 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Mbembe villages of Obubra",
+			"lga": "cross-river-obubra",
+			"villages": [
+				{
+					"name": "Ochon"
+				},
+				{
+					"name": "Apiapum"
+				},
+				{
+					"name": "Isabang"
+				},
+				{
+					"name": "Ovunom"
+				},
+				{
+					"name": "Ofodua"
+				},
+				{
+					"name": "Ofat"
+				},
+				{
+					"name": "Onyedama"
+				},
+				{
+					"name": "Iko"
+				}
+			],
+			"sources": [
+				"wikipedia-obubra"
+			],
+			"confidence": "medium",
+			"note": "Which of Obubra's villages are Mbembe-speaking is not checked.",
+			"history": {
+				"text": "Obubra, from Ubibira, its main village on the Cross River, has 98 villages; many of its communities, its article says, grew from settlements founded during wars between communities.",
+				"sources": [
+					"wikipedia-obubra"
+				],
+				"confidence": "medium"
+			}
+		}
+	],
 	"reviewNotes": [
 		"Agoi, Isobo and other Obubra peoples are not yet mapped separately."
 	],

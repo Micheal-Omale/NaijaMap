@@ -1,0 +1,103 @@
+{
+	"name": "The British invasion of Benin",
+	"status": "draft",
+	"kind": "colonial",
+	"year": 1897,
+	"yearLabel": "January–February 1897",
+	"until": 1900,
+	"actors": [{ "name": "British forces", "side": "colonial" }, { "name": "Kingdom of Benin", "polity": "benin", "side": "defender" }],
+	"summary": {
+		"text": "In January 1897 a British party under James Phillips, set on deposing the Oba, marched toward Benin City during a sacred festival and was ambushed at Ugbine; only two of its officers survived. Within weeks Rear-Admiral Harry Rawson led about 1,200 marines, sailors and protectorate troops in three columns on the city, which fell on 18 February. Three days later fire destroyed the palace and much of the city. Some 2,500 works of art, the Benin Bronzes among them, were carried off and sold. Oba Ovonramwen surrendered, was tried and exiled to Calabar, and died there in 1914, the year his son Eweka II was crowned.",
+		"sources": ["wikipedia-benin-expedition-1897", "hansard-1897-benin", "artic-benin-conquest"],
+		"confidence": "high"
+	},
+	"routes": [
+		{ "kind": "advance", "by": "British forces", "when": "January 1897", "path": [[5.43, 6.24], [5.4633, 6.2213]], "label": "Phillips’ party sets out from Ughoton" },
+		{
+			"kind": "advance",
+			"by": "British forces",
+			"when": "9–18 February 1897",
+			"path": [[5.08, 5.75], [5.6, 5.88], [5.663, 6.055], [5.65, 6.2], [5.627, 6.335]],
+			"label": "The main column: up the Benin River to Warrigi, then overland via Ologbo"
+		},
+		{
+			"kind": "advance",
+			"by": "British forces",
+			"when": "February 1897",
+			"path": [[5.25, 6.05], [5.33, 6.17], [5.43, 6.24]],
+			"label": "The Gwato column takes Gilli Gilli and Ughoton"
+		},
+		{ "kind": "advance", "by": "British forces", "when": "February 1897", "path": [[5.75, 5.85], [5.9, 6.08]], "label": "The Sapoba column goes up the Jamieson river" },
+		{
+			"kind": "loot",
+			"by": "British forces",
+			"when": "From February 1897",
+			"path": [[5.627, 6.335], [5.6, 5.88], [5.08, 5.75], [3.9, 4.3]],
+			"label": "About 2,500 bronzes, ivories and carvings shipped to Britain"
+		},
+		{ "kind": "exile", "by": "British forces", "when": "September 1897", "path": [[5.627, 6.335], [6.9, 5.4], [8.32, 4.95]], "label": "Oba Ovonramwen exiled to Calabar" }
+	],
+	"moments": [
+		{
+			"when": "4 January 1897",
+			"title": "The ambush at Ugbine",
+			"text": "Phillips’ party, with some 250 men, presses on despite word that the Oba cannot receive visitors during the Ague festival. Benin warriors attack near Ugbine. Most of the officials and many porters are killed; Boisragon and Locke escape.",
+			"at": { "name": "Ugbine (approximate)", "point": [5.4633, 6.2213] },
+			"mark": "massacre"
+		},
+		{
+			"when": "9 February 1897",
+			"title": "The columns land",
+			"text": "The main column lands at Warrigi; the Gwato and Sapoba columns move up their creeks to divide Benin’s defenders.",
+			"at": { "name": "Warrigi, on the Benin River (approximate)", "point": [5.6, 5.88] },
+			"mark": "camp"
+		},
+		{
+			"when": "18 February 1897",
+			"title": "Benin City taken",
+			"text": "After days of fighting along the forest roads, the British use rockets in the final advance and the defenders withdraw.",
+			"at": { "name": "Benin City", "point": [5.627, 6.335] },
+			"mark": "captured"
+		},
+		{
+			"when": "21 February 1897",
+			"title": "The city burns",
+			"text": "Fire destroys the palace and much of the city.",
+			"at": { "name": "Benin City", "point": [5.627, 6.335] },
+			"mark": "burned"
+		},
+		{
+			"when": "From May 1897",
+			"title": "The bronzes sold",
+			"text": "About 40 per cent of the looted works go to the British Museum; the rest are auctioned to pay for the expedition, many to museums in Germany.",
+			"at": { "name": "Benin City", "point": [5.627, 6.335] },
+			"mark": "loot"
+		},
+		{
+			"when": "August–September 1897",
+			"title": "The Oba exiled",
+			"text": "Ovonramwen surrenders, is tried and deposed, and is exiled to Calabar with two of his wives. Six chiefs are hanged.",
+			"at": { "name": "Old Calabar (Duke Town)", "point": [8.32, 4.95] },
+			"mark": "exile"
+		},
+		{
+			"when": "28 June 1899",
+			"title": "Ologbosere hanged",
+			"text": "The war chief Ologbosere, who fought on from the forest, is captured and executed: the end of organised resistance.",
+			"at": { "name": "Benin City", "point": [5.627, 6.335] },
+			"mark": "massacre",
+			"sources": ["wikipedia-general-ologbosere"]
+		},
+		{
+			"when": "24 July 1914",
+			"title": "Eweka II crowned",
+			"text": "Months after Ovonramwen’s death in exile, his son is crowned Eweka II. He rebuilds the palace and the craft guilds.",
+			"at": { "name": "Benin City", "point": [5.627, 6.335] },
+			"mark": "founded",
+			"sources": ["wikipedia-eweka-ii"]
+		}
+	],
+	"sources": ["wikipedia-benin-expedition-1897", "hansard-1897-benin", "artic-benin-conquest", "wikipedia-general-ologbosere", "wikipedia-eweka-ii", "owner-2026-10-07-doc1"],
+	"confidence": "high",
+	"note": "Warrigi, Gilli Gilli, Sapoba and the creek mouths are placed approximately from period accounts."
+}

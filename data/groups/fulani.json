@@ -1,6 +1,239 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Sokoto",
+			"lga": "sokoto-sokoto-north",
+			"villages": [],
+			"alsoIn": [
+				"sokoto-sokoto-south"
+			],
+			"sources": [
+				"wikipedia-sokoto-state"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Seat of the Sokoto Caliphate. The Sultan who heads it is the spiritual leader of Nigeria's Muslims.",
+				"sources": [
+					"wikipedia-sokoto-state"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Wurno",
+			"lga": "sokoto-wurno",
+			"point": [
+				5.4275,
+				13.2842
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-wurno"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Founded in 1830 by Caliph Muhammad Bello as a ribat guarding Sokoto from the north-east, the base for dry-season campaigns against Gobir. Bello is buried here.",
+				"sources": [
+					"wikipedia-wurno"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Gwandu",
+			"lga": "kebbi-gwandu",
+			"point": [
+				4.6425,
+				12.5022
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-gwandu"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Once royal farmland (gandu) of Kanta of Kebbi; its pastures drew Fulani herders. After the Kebbi campaign it became Usman dan Fodio's base, walled by Bello in 1806, and then co-capital of the caliphate for the west.",
+				"sources": [
+					"wikipedia-gwandu"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Yola",
+			"lga": "adamawa-yola-south",
+			"point": [
+				12.46,
+				9.23
+			],
+			"villages": [],
+			"alsoIn": [
+				"adamawa-yola-north"
+			],
+			"sources": [
+				"wikipedia-yola"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Founded in 1841 as capital of the Adamawa Emirate, seat of the Lamido, until the British took it in 1901.",
+				"sources": [
+					"wikipedia-yola"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Gombe",
+			"lga": "gombe-gombe",
+			"point": [
+				11.1667,
+				10.2833
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-gombe-city",
+				"wikipedia-gombe-emirate"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Wuro Gombe; Fulfulde and Hausa are its main languages.",
+				"sources": [
+					"wikipedia-gombe-city"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Azare (Katagum)",
+			"lga": "bauchi-katagum",
+			"point": [
+				10.1911,
+				11.6742
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-azare"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Founded by Mallam Zaki, appointed by Usman dan Fodio; headquarters of Katagum.",
+				"sources": [
+					"wikipedia-azare"
+				],
+				"confidence": "medium"
+			}
+		},
+		{
+			"name": "Misau",
+			"lga": "bauchi-misau",
+			"villages": [],
+			"sources": [
+				"wikipedia-misau"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Its people are mostly Fulani and Kanuri.",
+				"sources": [
+					"wikipedia-misau"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Jama'are",
+			"lga": "bauchi-jama-are",
+			"villages": [
+				{
+					"name": "Dogon Jeji"
+				},
+				{
+					"name": "Hanafari"
+				},
+				{
+					"name": "Galdimari"
+				},
+				{
+					"name": "Jurara"
+				}
+			],
+			"sources": [
+				"wikipedia-jamaare"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Founded in 1811 by Muhammadu Wabi I, a jihad leader, by Fulani who came from Dulare in the Lake Chad basin; recognised as an emirate in 1835 for helping Sokoto against the Hausa rebels of Katsina.",
+				"sources": [
+					"wikipedia-jamaare"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Jalingo (Muri)",
+			"lga": "taraba-jalingo",
+			"point": [
+				11.3667,
+				8.9
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-jalingo"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "“Superior place” in Fulfulde, founded in the jihad era and seat of the Muri Emirate; about 60% Fulani, with Mumuye, Kuteb, Kona, Wurkun, Hausa, Jukun and Jenjo.",
+				"sources": [
+					"wikipedia-jalingo"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Kontagora",
+			"lga": "niger-kontagora",
+			"point": [
+				5.473,
+				10.403
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-kontagora"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Founded in 1864 by Umaru Nagwamatse on land taken from the Kambari. Under his son Ibrahim, from 1880, its slave raids emptied the country; the British took the town in 1901.",
+				"sources": [
+					"wikipedia-kontagora"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Ilorin (Fulani emirs)",
+			"lga": "kwara-ilorin-west",
+			"point": [
+				4.5357,
+				8.4783
+			],
+			"villages": [],
+			"alsoIn": [
+				"kwara-ilorin-east",
+				"kwara-ilorin-south"
+			],
+			"sources": [
+				"wikipedia-ilorin-emirate"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Shehu Alimi, a Fulani scholar, came to Ilorin with Yoruba Muslims and helped Afonja rebel against Oyo in 1817; his descendants took the town and are its emirs, under Gwandu.",
+				"sources": [
+					"wikipedia-ilorin-emirate"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [
 		"Fulani pastoralists live in almost every state; only areas named in sources are mapped.",
 		"Adamawa beyond Yola, Taraba and Niger State need LGA level sources.",
@@ -1804,7 +2037,7 @@
 				"udosen-2018"
 			],
 			"confidence": "medium",
-			"note": "Bauchi is described as predominantly Hausa-Fulani."
+			"note": "Bauchi is described as predominantly Hausa and Fulani."
 		},
 		{
 			"lga": "bauchi-bauchi",
@@ -1813,7 +2046,7 @@
 				"udosen-2018"
 			],
 			"confidence": "medium",
-			"note": "Bauchi is described as predominantly Hausa-Fulani."
+			"note": "Bauchi is described as predominantly Hausa and Fulani."
 		},
 		{
 			"lga": "bauchi-darazo",
@@ -1822,7 +2055,7 @@
 				"udosen-2018"
 			],
 			"confidence": "medium",
-			"note": "Bauchi is described as predominantly Hausa-Fulani."
+			"note": "Bauchi is described as predominantly Hausa and Fulani."
 		},
 		{
 			"lga": "bauchi-dass",
@@ -1831,7 +2064,7 @@
 				"udosen-2018"
 			],
 			"confidence": "medium",
-			"note": "Bauchi is described as predominantly Hausa-Fulani."
+			"note": "Bauchi is described as predominantly Hausa and Fulani."
 		},
 		{
 			"lga": "bauchi-itas-gadau",
@@ -1840,7 +2073,7 @@
 				"udosen-2018"
 			],
 			"confidence": "medium",
-			"note": "Bauchi is described as predominantly Hausa-Fulani."
+			"note": "Bauchi is described as predominantly Hausa and Fulani."
 		},
 		{
 			"lga": "bauchi-jama-are",
@@ -1849,7 +2082,7 @@
 				"udosen-2018"
 			],
 			"confidence": "medium",
-			"note": "Bauchi is described as predominantly Hausa-Fulani."
+			"note": "Bauchi is described as predominantly Hausa and Fulani."
 		},
 		{
 			"lga": "bauchi-katagum",
@@ -1858,7 +2091,7 @@
 				"udosen-2018"
 			],
 			"confidence": "medium",
-			"note": "Bauchi is described as predominantly Hausa-Fulani."
+			"note": "Bauchi is described as predominantly Hausa and Fulani."
 		},
 		{
 			"lga": "bauchi-ningi",
@@ -1867,7 +2100,7 @@
 				"udosen-2018"
 			],
 			"confidence": "medium",
-			"note": "Bauchi is described as predominantly Hausa-Fulani."
+			"note": "Bauchi is described as predominantly Hausa and Fulani."
 		},
 		{
 			"lga": "bauchi-misau",
@@ -1876,7 +2109,7 @@
 				"udosen-2018"
 			],
 			"confidence": "medium",
-			"note": "Bauchi is described as predominantly Hausa-Fulani."
+			"note": "Bauchi is described as predominantly Hausa and Fulani."
 		},
 		{
 			"lga": "bauchi-shira",
@@ -1885,7 +2118,7 @@
 				"udosen-2018"
 			],
 			"confidence": "medium",
-			"note": "Bauchi is described as predominantly Hausa-Fulani."
+			"note": "Bauchi is described as predominantly Hausa and Fulani."
 		},
 		{
 			"lga": "bauchi-zaki",
@@ -1894,7 +2127,7 @@
 				"udosen-2018"
 			],
 			"confidence": "medium",
-			"note": "Bauchi is described as predominantly Hausa-Fulani."
+			"note": "Bauchi is described as predominantly Hausa and Fulani."
 		},
 		{
 			"lga": "bauchi-dambam",
@@ -1903,7 +2136,7 @@
 				"udosen-2018"
 			],
 			"confidence": "medium",
-			"note": "Bauchi is described as predominantly Hausa-Fulani."
+			"note": "Bauchi is described as predominantly Hausa and Fulani."
 		},
 		{
 			"lga": "bauchi-kirfi",
@@ -1912,7 +2145,7 @@
 				"udosen-2018"
 			],
 			"confidence": "medium",
-			"note": "Bauchi is described as predominantly Hausa-Fulani."
+			"note": "Bauchi is described as predominantly Hausa and Fulani."
 		},
 		{
 			"lga": "bauchi-giade",
@@ -1921,7 +2154,7 @@
 				"udosen-2018"
 			],
 			"confidence": "medium",
-			"note": "Bauchi is described as predominantly Hausa-Fulani."
+			"note": "Bauchi is described as predominantly Hausa and Fulani."
 		},
 		{
 			"lga": "bauchi-ganjuwa",
@@ -1930,7 +2163,7 @@
 				"udosen-2018"
 			],
 			"confidence": "medium",
-			"note": "Bauchi is described as predominantly Hausa-Fulani."
+			"note": "Bauchi is described as predominantly Hausa and Fulani."
 		},
 		{
 			"lga": "bauchi-gamawa",
@@ -1939,7 +2172,7 @@
 				"udosen-2018"
 			],
 			"confidence": "medium",
-			"note": "Bauchi is described as predominantly Hausa-Fulani."
+			"note": "Bauchi is described as predominantly Hausa and Fulani."
 		},
 		{
 			"lga": "bauchi-tafawa-balewa",

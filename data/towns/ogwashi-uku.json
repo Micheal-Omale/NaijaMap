@@ -1,0 +1,50 @@
+{
+	"name": "Ogwashi-Uku",
+	"status": "draft",
+	"otherNames": [],
+	"point": [
+		6.5157,
+		6.1775
+	],
+	"founded": {
+		"year": 1550,
+		"yearLabel": "by tradition",
+		"sources": [
+			"esogbue-2023-enuani"
+		],
+		"confidence": "disputed",
+		"note": "Undated."
+	},
+	"summary": {
+		"text": "The original settlers of Ogwashi-Uku were the Ikelike, from Benin. In 1909 the town twice drove British troops out during the Ekumeku war.",
+		"sources": [
+			"esogbue-2023-enuani",
+			"neusroom-ekumeku"
+		],
+		"confidence": "medium"
+	},
+	"founders": [
+		{
+			"people": "Benin",
+			"group": "edo",
+			"polity": "benin",
+			"from": {
+				"name": "Benin City",
+				"point": [
+					5.627,
+					6.335
+				]
+			},
+			"quarters": [
+				"Ikelike"
+			],
+			"text": "The Ikelike, its first settlers, came from Benin.",
+			"sources": [
+				"esogbue-2023-enuani"
+			],
+			"confidence": "medium"
+		}
+	],
+	"under": [],
+	"reviewNotes": []
+}

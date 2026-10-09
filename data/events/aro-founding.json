@@ -1,0 +1,73 @@
+{
+	"name": "The founding of Arochukwu",
+	"status": "draft",
+	"kind": "alliance",
+	"year": 1650,
+	"yearLabel": "c. 1650–1700",
+	"until": 1720,
+	"actors": [
+		{ "name": "Eze Agwu clan (Igbo)", "polity": "aro", "side": "migrant" },
+		{ "name": "Nnachi of Edda", "side": "ally" },
+		{ "name": "The Akpa, under Osim and Akuma Nnubi", "side": "ally" },
+		{ "name": "Ibom, the Ibibio state of Obong Okon Ita", "side": "defender" }
+	],
+	"summary": {
+		"text": "Arochukwu was born of a war. Igbo settlers of the Eze Agwu clan came among the Ibibio of Ibom, whose state was ruled by Obong Okon Ita, and quarrels over land became a bloody stalemate. The Igbo leader Nna Uru called in Nnachi, a priest of the Edda clan, and Nnachi brought in the Akpa from east of the Cross River, who had European firearms. Led by the Akpa brothers Osim and Akuma Nnubi, the allies drove the Ibibio out. Osim fell; Akuma became the first Eze Aro, and after him the kingship passed to Nnachi’s son Oke Nnachi, whose line reigns to this day. Nineteen villages, old and new, became one state.",
+		"sources": ["wikipedia-arochukwu", "wikipedia-aro-confederacy", "dike-ekejiuba-1990", "owner-2026-10-07-doc1"],
+		"confidence": "medium"
+	},
+	"routes": [
+		{
+			"kind": "migration",
+			"by": "Eze Agwu clan (Igbo)",
+			"path": [[7.73, 5.67], [7.86, 5.52], [7.91, 5.39]],
+			"label": "The Eze Agwu clan settles among the Ibibio of Ibom",
+			"note": "Wikipedia names Agwu Inobia from Abiriba as the group’s leader."
+		},
+		{ "kind": "alliance", "by": "Nnachi of Edda", "path": [[7.79, 5.76], [7.88, 5.58], [7.91, 5.39]], "label": "Nnachi, priest of Edda, answers Nna Uru’s call" },
+		{
+			"kind": "alliance",
+			"by": "The Akpa, under Osim and Akuma Nnubi",
+			"path": [[8.36, 5.32], [8.12, 5.32], [7.91, 5.39]],
+			"label": "The Akpa bring guns from across the Cross River",
+			"note": "The Akpa homeland east of the Cross River is placed approximately."
+		},
+		{ "kind": "retreat", "by": "Ibom, the Ibibio state of Obong Okon Ita", "path": [[7.91, 5.39], [7.93, 5.14]], "label": "The Ibibio of Ibom are driven out" }
+	],
+	"moments": [
+		{
+			"when": "The war",
+			"title": "Stalemate, then the allied assault",
+			"text": "The Akpa warlords lead the allied forces against Ibom. Osim is killed in the fighting.",
+			"at": { "name": "Arochukwu", "point": [7.91, 5.39] },
+			"mark": "battle"
+		},
+		{
+			"when": "After the war",
+			"title": "Nineteen villages, one state",
+			"text": "The victors combine nineteen villages, old and new, into Arochukwu. In honour of Osim, his brother Akuma becomes the first Eze Aro; then the kingship returns to the Igbo line through Oke Nnachi. Nnachi’s lineage becomes the state’s priestly and intellectual class.",
+			"at": { "name": "Arochukwu", "point": [7.91, 5.39] },
+			"mark": "founded"
+		},
+		{
+			"when": "The kindreds",
+			"title": "Three kindreds across nineteen villages",
+			"text": "Under the Eze Aro, Arochukwu is three kindreds whose members live across the villages. Oke Nnachi: Amankwu, Amangwu, Asaga, Atani, Amuvi, Isimkpu, Obinkita (Nde Agor), Oror and Utughugwu. Ibom Isii: Agbagwu, Amasu, Amukwa, Atani, Ibom Etiti, Oror, Ugwuakuma and Ujari. Eze Agwu na Okwara Agwu: Amannagwu, Amoba, Atani, Obinkita, Ugbo and Ugwuavor. The nineteen villages are Agbagwu, Amannagwu, Amangwu, Amankwu, Amasu, Amoba, Amukwa, Amuvi, Asaga, Atani, Ibom, Isimkpu, Obinkita, Oror, Ugbo, Ugwuakuma, Ugwuavor, Ujari and Utughugwu.",
+			"at": { "name": "Arochukwu", "point": [7.91, 5.39] },
+			"mark": "founded",
+			"sources": ["aronews-kindreds"],
+			"confidence": "medium"
+		},
+		{
+			"when": "From the founding",
+			"title": "Ibini Ukpabi",
+			"text": "The oracle of Ibini Ukpabi, the “Long Juju”, becomes a court of appeal for a wide region and the heart of the Aro trading network.",
+			"at": { "name": "Arochukwu", "point": [7.91, 5.39] },
+			"mark": "shrine"
+		}
+	],
+	"area": { "lgas": ["abia-arochukwu"] },
+	"sources": ["wikipedia-arochukwu", "wikipedia-aro-confederacy", "dike-ekejiuba-1990", "aronews-kindreds", "owner-2026-10-07-doc1"],
+	"confidence": "medium",
+	"note": "Dated about 1650–1700; the owner’s notes place the war in the late 17th century."
+}

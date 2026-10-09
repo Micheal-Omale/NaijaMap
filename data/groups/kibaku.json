@@ -1,6 +1,23 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Chibok",
+			"lga": "borno-chibok",
+			"villages": [],
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "The Kibaku are often called Chibok after their town, the headquarters of Chibok LGA.",
+				"sources": [
+					"udosen-2018"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Kibaku (Chibok)",
 	"searchAliases": [

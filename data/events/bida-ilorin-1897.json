@@ -1,0 +1,136 @@
+{
+	"name": "The Company takes Bida and Ilorin",
+	"status": "draft",
+	"kind": "colonial",
+	"year": 1897,
+	"yearLabel": "January–February 1897",
+	"until": 1903,
+	"actors": [
+		{
+			"name": "British forces",
+			"side": "colonial"
+		},
+		{
+			"name": "Bida emirate (Nupe)",
+			"polity": "nupe",
+			"side": "defender"
+		},
+		{
+			"name": "Ilorin emirate",
+			"polity": "sokoto",
+			"side": "defender"
+		}
+	],
+	"summary": {
+		"text": "In early 1897 the Royal Niger Company’s army under George Goldie marched on the two southern emirates of the Caliphate. Bida fell after two days of fighting in late January and its Etsu was deposed; in February Ilorin was shelled and taken. Bida’s own subjects helped the Company: the north-east Yoruba, the Kyadya boatmen and the Yissazhi faction of the old Nupe dynasty, who were given the emirate of Pategi.",
+		"sources": [
+			"wikipedia-royal-niger-company",
+			"wikipedia-bida-emirate",
+			"wikipedia-ilorin",
+			"idrees-1989-bida"
+		],
+		"confidence": "high"
+	},
+	"routes": [
+		{
+			"kind": "advance",
+			"by": "British forces",
+			"path": [
+				[
+					6.74,
+					7.8
+				],
+				[
+					6.5,
+					8.55
+				],
+				[
+					6.01,
+					9.08
+				]
+			],
+			"label": "Company troops march on Bida"
+		},
+		{
+			"kind": "advance",
+			"by": "British forces",
+			"path": [
+				[
+					6.01,
+					9.08
+				],
+				[
+					4.83,
+					9.13
+				],
+				[
+					4.55,
+					8.5
+				]
+			],
+			"label": "Then on to Ilorin"
+		}
+	],
+	"moments": [
+		{
+			"when": "6 January 1897",
+			"title": "The march to Ogidi and the Kabba declaration",
+			"text": "A Company force of 30 European officers and 513 African soldiers leaves Lokoja for Ogidi via Kabba to strike Bida’s army there. The camp has gone, so the Company declares the north-east Yoruba free of Bida. Kabba gives porters and guides for the march to the Niger.",
+			"at": {
+				"name": "Kabba",
+				"point": [
+					6.074,
+					7.824
+				]
+			},
+			"mark": "treaty",
+			"sources": [
+				"idrees-1989-bida"
+			],
+			"confidence": "high"
+		},
+		{
+			"when": "January 1897",
+			"title": "The Kyadya change sides",
+			"text": "Kyadya boatmen under Marike, promised the title of Kuta, ferry the Company across at Kpatagbon and refuse to carry Bida’s retreating army.",
+			"mark": "camp",
+			"sources": [
+				"idrees-1989-bida"
+			],
+			"confidence": "high"
+		},
+		{
+			"when": "January 1897",
+			"title": "Bida falls",
+			"text": "After two days of fighting the town is taken and Etsu Abubakar is deposed.",
+			"at": {
+				"name": "Bida",
+				"point": [
+					6.01,
+					9.08
+				]
+			},
+			"mark": "captured"
+		},
+		{
+			"when": "February 1897",
+			"title": "Ilorin taken",
+			"text": "Ilorin is shelled and occupied.",
+			"at": {
+				"name": "Ilorin",
+				"point": [
+					4.55,
+					8.5
+				]
+			},
+			"mark": "bombarded"
+		}
+	],
+	"sources": [
+		"wikipedia-royal-niger-company",
+		"wikipedia-bida-emirate",
+		"wikipedia-ilorin",
+		"idrees-1989-bida"
+	],
+	"confidence": "high"
+}

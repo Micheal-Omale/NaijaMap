@@ -5,13 +5,13 @@
 
 ## Summary
 
-NiajMap is built as a static website: every page is prebuilt ahead of time, so it loads fast and Google can read it. The map is one interactive app inside the site. Astro builds the pages, React and MapLibre power the map, and the data lives as plain files in the code repo that are checked on every build. It is hosted free on Vercel and goes live automatically when code is pushed to GitHub. This keeps hosting at zero cost, keeps the site quick on Nigerian mobile networks, and puts every data edit in public history.
+HistoNaija is built as a static website: every page is prebuilt ahead of time, so it loads fast and Google can read it. The map is one interactive app inside the site. Astro builds the pages, React and MapLibre power the map, and the data lives as plain files in the code repo that are checked on every build. It is hosted free on Vercel and goes live automatically when code is pushed to GitHub. This keeps hosting at zero cost, keeps the site quick on Nigerian mobile networks, and puts every data edit in public history.
 
 ## Decision
 
 **Chosen option**: Option 1: Astro static site, React map island, MapLibre, data files in the repo, on Vercel.
 
-Build NiajMap as a single static first Astro project (TypeScript, strict), with the interactive map as a lazily loaded React island drawn by MapLibre GL over our own minimal base layers, data stored as validated files in a public GitHub repo, and auto deploy to Vercel's free plan.
+Build HistoNaija as a single static first Astro project (TypeScript, strict), with the interactive map as a lazily loaded React island drawn by MapLibre GL over our own minimal base layers, data stored as validated files in a public GitHub repo, and auto deploy to Vercel's free plan.
 
 ## Proposed stack
 

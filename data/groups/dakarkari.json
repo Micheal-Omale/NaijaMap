@@ -1,6 +1,78 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Zuru Emirate towns",
+			"lga": "kebbi-zuru",
+			"villages": [
+				{
+					"name": "Zuru"
+				},
+				{
+					"name": "Kebu"
+				},
+				{
+					"name": "Roma"
+				},
+				{
+					"name": "Dogo"
+				},
+				{
+					"name": "Isgogo"
+				},
+				{
+					"name": "Dabai"
+				},
+				{
+					"name": "Rikoto"
+				},
+				{
+					"name": "Peni"
+				},
+				{
+					"name": "Manga"
+				},
+				{
+					"name": "Senchi"
+				},
+				{
+					"name": "Ushe"
+				},
+				{
+					"name": "Tadurga"
+				},
+				{
+					"name": "Diri"
+				},
+				{
+					"name": "Ribah"
+				},
+				{
+					"name": "Conoko"
+				},
+				{
+					"name": "Rade"
+				}
+			],
+			"alsoIn": [
+				"kebbi-sakaba",
+				"kebbi-wasagu-danko"
+			],
+			"sources": [
+				"wikipedia-dakarkari-people",
+				"wikipedia-zuru"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "The Lelna (Dakarkari) are divided into the Bangawa, Kafawa, Kelawa and Lilawa. Zuru is the headquarters of the Zuru Emirate of Zuru, Sakaba, Wasagu/Danko and Fakai LGAs.",
+				"sources": [
+					"wikipedia-dakarkari-people",
+					"wikipedia-zuru"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [
 		"Sokoto State's government lists the Dakarkari among the state's minorities without naming an LGA."
 	],

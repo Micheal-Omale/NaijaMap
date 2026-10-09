@@ -1,0 +1,50 @@
+{
+	"name": "Kwararafa against Katsina, Zazzau and Bornu",
+	"status": "draft",
+	"kind": "war",
+	"year": 1670,
+	"yearLabel": "c. 1670–1684",
+	"until": 1690,
+	"actors": [
+		{ "name": "Kwararafa", "polity": "kwararafa", "side": "attacker" },
+		{ "name": "Katsina", "polity": "katsina", "side": "defender" },
+		{ "name": "Zazzau", "polity": "zazzau", "side": "defender" },
+		{ "name": "Bornu", "polity": "kanem-bornu", "side": "defender" },
+		{ "name": "Tuareg of Agadez", "side": "ally", "ink": "#8a6d3b" }
+	],
+	"summary": {
+		"text": "At the same time as its attacks on Kano, Kwararafa struck the other great states of the north. Katsina was invaded between 1670 and 1684 and Zazzau attacked around 1680. With a Tuareg army from the north it besieged Ngazargamu, the Bornu capital. Mai Ali ibn Umar turned the two besiegers against each other and then beat both; Bornu tradition says he sent three captives back with their severed ears hung round their necks.",
+		"sources": ["wikipedia-kwararafa", "wikipedia-jukun", "wikipedia-ali-iii-bornu"],
+		"confidence": "medium"
+	},
+	"routes": [
+		{ "kind": "raid", "by": "Kwararafa", "path": [[9.75, 8.18], [7.6, 12.99]], "label": "Into Katsina (1670–1684)", "note": "Start and target only; the road is not recorded.", "sources": ["wikipedia-jukun"], "confidence": "medium" },
+		{ "kind": "raid", "by": "Kwararafa", "path": [[9.75, 8.18], [7.7, 11.07]], "label": "Against Zazzau (c. 1680)", "note": "Start and target only.", "sources": ["wikipedia-kwararafa"], "confidence": "medium" },
+		{ "kind": "advance", "by": "Kwararafa", "path": [[9.75, 8.18], [12.367, 13.083]], "label": "To Ngazargamu", "note": "Start and target only.", "sources": ["wikipedia-ali-iii-bornu", "wikipedia-jukun"], "confidence": "medium" },
+		{ "kind": "advance", "by": "Tuareg of Agadez", "path": [[7.99, 16.97], [12.367, 13.083]], "label": "Tuareg from Agadez", "sources": ["wikipedia-ali-iii-bornu"], "confidence": "medium" }
+	],
+	"moments": [
+		{
+			"when": "1670–1684",
+			"title": "Katsina invaded",
+			"text": "Katsina documents record a Kwararafa invasion in these years.",
+			"at": { "name": "Katsina", "point": [7.6, 12.99] },
+			"mark": "battle",
+			"sources": ["wikipedia-jukun"],
+			"confidence": "medium"
+		},
+		{
+			"when": "Reign of Ali ibn Umar (c. 1645–1680)",
+			"title": "Ngazargamu besieged and saved",
+			"text": "Kwararafa and the Tuareg besiege the Bornu capital. Mai Ali sets them against each other, then defeats the survivors of both.",
+			"at": { "name": "Ngazargamu", "point": [12.367, 13.083] },
+			"mark": "battle",
+			"sources": ["wikipedia-ali-iii-bornu", "wikipedia-kwararafa"],
+			"confidence": "medium"
+		}
+	],
+	"sources": ["wikipedia-kwararafa", "wikipedia-jukun", "wikipedia-ali-iii-bornu"],
+	"confidence": "medium",
+	"note": "Wikipedia's Kwararafa article says Ngazargamu was sacked; its Jukun and Ali III articles say the attack failed. The Bornu account, that the siege was broken, is followed here.",
+	"reviewNotes": ["The Versus record in forces/kwararafa.json still says Kwararafa sacked Ngazargamu in 1680; it is changed to match this event."]
+}

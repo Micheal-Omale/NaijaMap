@@ -1,6 +1,30 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Ibeno",
+			"lga": "akwa-ibom-ibeno",
+			"villages": [],
+			"sources": [
+				"wikipedia-ibeno"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "The Ibeno are of Oron-Efik and Obolo descent; Andoni settlers coined the Ibono language to trade with the Efik. Ibeno holds the headquarters of the Qua Iboe Church and the tombs of its founder Samuel Bill and his wife Grace.",
+				"sources": [
+					"wikipedia-ibeno"
+				],
+				"confidence": "high"
+			},
+			"livelihoods": {
+				"text": "One of the largest fishing settlements on the Nigerian coast; host of the Qua Iboe oil terminal.",
+				"sources": [
+					"wikipedia-ibeno"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Ibeno (Ibuno)",
 	"searchAliases": [

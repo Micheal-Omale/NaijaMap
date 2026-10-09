@@ -4,7 +4,8 @@
 	"kind": "kingdom",
 	"otherNames": [
 		"Kano Sultanate",
-		"Kano Kingdom"
+		"Kano Kingdom",
+		"Dala"
 	],
 	"span": {
 		"from": 1000,
@@ -19,9 +20,11 @@
 	},
 	"peak": 1470,
 	"summary": {
-		"text": "One of the seven Hausa states, Kano grew around Dala hill into the greatest market city of the central Sudan. Under Muhammad Rumfa it gained walls, a palace and the Kurmi market. It paid tribute at times to Bornu and suffered Kwararafa raids, and fell to the Fulani jihad in 1807.",
+		"text": "One of the seven Hausa states, Kano grew from the iron-working community at Dala hill, where Daura immigrants under Bagauda founded a ruling line around 999. Its kings fought the old priests of Tsumburbura and Cibiri for three centuries, took Islam from Mali's Wangarawa scholars under Yaji, and grew rich on the kola road from Gonja to Bornu, to which they paid tribute from 1438. Muhammad Rumfa gave it its walls, palace and Kurmi market; his grandson Kisoki threw off Bornu and, the Kano Chronicle says, ruled all Hausaland. Kwararafa emptied the city three times in the 17th century, and the Fulani jihad ended the Hausa line in 1807.",
 		"sources": [
+			"wikipedia-sultanate-of-kano",
 			"wikipedia-hausa-kingdoms",
+			"palmer-1908-kano-chronicle",
 			"palmer-1928"
 		],
 		"confidence": "high"
@@ -39,9 +42,68 @@
 	"snapshots": [
 		{
 			"year": 1000,
-			"yearLabel": "c. 999",
+			"yearLabel": "c. 999–1095",
 			"title": "Bagauda at Dala hill",
-			"text": "According to the Kano Chronicle, Bagauda founds the ruling line around the iron-rich hill of Dala.",
+			"text": "Dala hill has been an iron-working settlement since about the 7th century, its people led by priests of the god Tsumburbura such as Barbushe. Immigrants from Daura arrive at the end of the 10th century; one band, led by Bagauda, a descendant of Bayajidda, makes him the first Sarkin Kano. He and his son Warisi die at Sheme, 65 km north-west of the hill.",
+			"capital": {
+				"name": "Dala hill",
+				"point": [
+					8.506,
+					12.01
+				]
+			},
+			"core": {
+				"lgas": [
+					"kano-kano-municipal",
+					"kano-dala",
+					"kano-gwale",
+					"kano-fagge",
+					"kano-nassarawa",
+					"kano-tarauni",
+					"kano-kumbotso",
+					"kano-ungogo"
+				]
+			},
+			"nodes": [
+				{
+					"name": "Sheme (approximate)",
+					"point": [
+						8.25,
+						12.45
+					]
+				}
+			],
+			"links": [
+				{
+					"kind": "descent",
+					"to": {
+						"name": "Daura",
+						"point": [
+							8.32,
+							13.04
+						]
+					},
+					"label": "Bagauda's people came from Daura",
+					"sources": [
+						"wikipedia-sultanate-of-kano",
+						"wikipedia-hausa-kingdoms"
+					],
+					"confidence": "medium"
+				}
+			],
+			"sources": [
+				"wikipedia-sultanate-of-kano",
+				"wikipedia-hausa-kingdoms",
+				"palmer-1908-kano-chronicle"
+			],
+			"confidence": "medium",
+			"note": "The Kano Chronicle dates Bagauda's accession to 999; early dates are traditional."
+		},
+		{
+			"year": 1095,
+			"yearLabel": "1095–1349",
+			"title": "Walls, land tax and the war with Santolo",
+			"text": "Gijimasu (1095–1134) settles at the foot of Dala and begins the city walls. The old inhabitants refuse to marry the newcomers or share their rites. His successors push west to Karaye and Farin Ruwa and south to Kura and Tsangaya, and Naguji (1194–1247) is the first to take a land tax of one-eighth of the crop. But Santolo, the great shrine town south-east of the city, beats Kano twice. Tsamiya (1307–1343) destroys the Cibiri sanctuary in the city and splits its priests into three chiefships under him.",
 			"capital": {
 				"name": "Kano",
 				"point": [
@@ -58,20 +120,64 @@
 					"kano-nassarawa",
 					"kano-tarauni",
 					"kano-kumbotso",
-					"kano-ungogo"
+					"kano-ungogo",
+					"kano-dawakin-kudu",
+					"kano-kura",
+					"kano-madobi",
+					"kano-garun-malam",
+					"kano-gezawa",
+					"kano-minjibir",
+					"kano-dawakin-tofa",
+					"kano-tofa",
+					"kano-karaye",
+					"kano-kunchi"
 				]
 			},
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Santolo (approximate)",
+						"point": [
+							8.55,
+							11.9
+						]
+					},
+					"label": "Gijimasu and Naguji beaten at Santolo",
+					"sources": [
+						"wikipedia-sultanate-of-kano",
+						"palmer-1908-kano-chronicle"
+					],
+					"confidence": "medium",
+					"note": "Santolo is said to lie 16 km south-east of Kano, near Tsakuwa; the point is approximate."
+				},
+				{
+					"kind": "war",
+					"to": {
+						"name": "Karaye",
+						"point": [
+							8.01,
+							11.78
+						]
+					},
+					"label": "Yusa attacks Karaye",
+					"sources": [
+						"wikipedia-sultanate-of-kano"
+					],
+					"confidence": "medium"
+				}
+			],
 			"sources": [
-				"wikipedia-hausa-kingdoms",
-				"palmer-1928"
+				"wikipedia-sultanate-of-kano",
+				"palmer-1908-kano-chronicle"
 			],
 			"confidence": "medium"
 		},
 		{
 			"year": 1349,
-			"yearLabel": "1349–1385",
-			"title": "Sarki Yaji: Islam and Rano",
-			"text": "Yaji I accepts Islam brought by Wangarawa scholars from Mali, and conquers the neighbouring Hausa state of Rano.",
+			"yearLabel": "1349–1390",
+			"title": "Sarki Yaji: Islam, Rano and Santolo",
+			"text": "Wangarawa scholars from Mali bring Islam, and Yaji makes them imam, muezzin and judge. He drives the king of Rano from his capital, then with Mandinka soldiers destroys Santolo, the last stronghold of the old religion, and puts its people to the sword. He conquers the Warjawa and the land from Bere to Panda and besieges Kwararafa at Tagara for seven months.",
 			"capital": {
 				"name": "Kano",
 				"point": [
@@ -102,9 +208,296 @@
 					"kano-tofa"
 				]
 			},
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Santolo (approximate)",
+						"point": [
+							8.55,
+							11.9
+						]
+					},
+					"label": "Santolo destroyed",
+					"sources": [
+						"wikipedia-yaji-i",
+						"wikipedia-sultanate-of-kano"
+					],
+					"confidence": "high"
+				},
+				{
+					"kind": "war",
+					"to": {
+						"name": "Rano",
+						"point": [
+							8.58,
+							11.55
+						]
+					},
+					"label": "Rano's king driven out",
+					"sources": [
+						"wikipedia-sultanate-of-kano"
+					],
+					"confidence": "high"
+				},
+				{
+					"kind": "war",
+					"to": {
+						"name": "Panda",
+						"point": [
+							7.563,
+							8.704
+						]
+					},
+					"label": "Conquests as far as Panda",
+					"sources": [
+						"wikipedia-yaji-i",
+						"wikipedia-sultanate-of-kano"
+					],
+					"confidence": "medium"
+				},
+				{
+					"kind": "trade",
+					"to": {
+						"name": "Mali (via the Wangarawa)",
+						"point": [
+							-3,
+							13.5
+						]
+					},
+					"label": "Wangarawa scholars and traders from Mali",
+					"sources": [
+						"wikipedia-sultanate-of-kano"
+					],
+					"confidence": "medium",
+					"note": "The point stands in for Mali at the edge of the map."
+				}
+			],
 			"sources": [
-				"wikipedia-hausa-kingdoms",
-				"palmer-1928"
+				"wikipedia-sultanate-of-kano",
+				"wikipedia-yaji-i",
+				"palmer-1908-kano-chronicle"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1390,
+			"yearLabel": "1390–1421",
+			"title": "Kanajeji: armour and the war on Zazzau",
+			"text": "Kanajeji takes tribute of 200 slaves from Kwararafa and trades horses for more. Beaten by the 'Mbutu in their rocky country, he gives his horsemen quilted armour (lifidi), iron helmets and mail, starves 'Mbutu out after two years and takes 4,000 captives. Defeated by Zazzau, he returns to the old Cibiri cult; the next year he kills Zazzau's king. His successor Umaru gives up the throne to live as a scholar in Bornu.",
+			"capital": {
+				"name": "Kano",
+				"point": [
+					8.52,
+					12
+				]
+			},
+			"core": {
+				"lgas": [
+					"kano-kano-municipal",
+					"kano-dala",
+					"kano-gwale",
+					"kano-fagge",
+					"kano-nassarawa",
+					"kano-tarauni",
+					"kano-kumbotso",
+					"kano-ungogo",
+					"kano-rano",
+					"kano-bunkure",
+					"kano-kibiya",
+					"kano-kura",
+					"kano-madobi",
+					"kano-garun-malam",
+					"kano-dawakin-kudu",
+					"kano-gezawa",
+					"kano-minjibir",
+					"kano-dawakin-tofa",
+					"kano-tofa"
+				]
+			},
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Zaria",
+						"point": [
+							7.7,
+							11.07
+						]
+					},
+					"label": "Zazzau besieged, then its king killed",
+					"sources": [
+						"wikipedia-sultanate-of-kano",
+						"wikipedia-kanajeji"
+					],
+					"confidence": "high"
+				}
+			],
+			"sources": [
+				"wikipedia-sultanate-of-kano",
+				"wikipedia-kanajeji",
+				"palmer-1908-kano-chronicle"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1421,
+			"yearLabel": "1421–1438",
+			"title": "A Bornu prince in Kano",
+			"text": "Uthman Kalnama, a deposed mai of Bornu, arrives with horses, drums, trumpets, flags, guns and scholars, and Sarki Dauda welcomes him. As the Dagachi he grows rich and governs Kano while Dauda campaigns against Zazzau. His Kanuri scholars teach Kano's people to read and write.",
+			"capital": {
+				"name": "Kano",
+				"point": [
+					8.52,
+					12
+				]
+			},
+			"core": {
+				"lgas": [
+					"kano-kano-municipal",
+					"kano-dala",
+					"kano-gwale",
+					"kano-fagge",
+					"kano-nassarawa",
+					"kano-tarauni",
+					"kano-kumbotso",
+					"kano-ungogo",
+					"kano-rano",
+					"kano-bunkure",
+					"kano-kibiya",
+					"kano-kura",
+					"kano-madobi",
+					"kano-garun-malam",
+					"kano-dawakin-kudu",
+					"kano-gezawa",
+					"kano-minjibir",
+					"kano-dawakin-tofa",
+					"kano-tofa"
+				]
+			},
+			"links": [
+				{
+					"kind": "descent",
+					"to": {
+						"name": "Bornu",
+						"point": [
+							12.367,
+							13.083
+						]
+					},
+					"label": "Uthman Kalnama and his scholars from Bornu",
+					"sources": [
+						"wikipedia-sultanate-of-kano",
+						"wikipedia-abdullahi-burja"
+					],
+					"confidence": "medium",
+					"note": "Ngazargamu stands for Bornu; it was founded later in the century."
+				}
+			],
+			"sources": [
+				"wikipedia-sultanate-of-kano",
+				"wikipedia-abdullahi-burja"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1438,
+			"yearLabel": "1438–1463",
+			"title": "Abdullahi Burja: tribute to Bornu and the kola road",
+			"text": "Burja is “the first in Hausaland to give Bornu tribute”. In return the road from Bornu to Gonja, in today's Ghana, opens, and kola nuts become Kano's great trade; camels reach Kano. He conquers Dutse and Miga. His Galadima Dauda raids the peoples to the south for seven years, sending a thousand captives a month, and on his way home founds 21 towns of slaves, a thousand people in each.",
+			"capital": {
+				"name": "Kano",
+				"point": [
+					8.52,
+					12
+				]
+			},
+			"core": {
+				"lgas": [
+					"kano-kano-municipal",
+					"kano-dala",
+					"kano-gwale",
+					"kano-fagge",
+					"kano-nassarawa",
+					"kano-tarauni",
+					"kano-kumbotso",
+					"kano-ungogo",
+					"kano-rano",
+					"kano-bunkure",
+					"kano-kibiya",
+					"kano-kura",
+					"kano-madobi",
+					"kano-garun-malam",
+					"kano-dawakin-kudu",
+					"kano-gezawa",
+					"kano-minjibir",
+					"kano-dawakin-tofa",
+					"kano-tofa",
+					"kano-wudil",
+					"kano-warawa",
+					"kano-gaya",
+					"kano-ajingi",
+					"kano-albasu",
+					"kano-takai",
+					"kano-sumaila",
+					"jigawa-dutse",
+					"jigawa-miga"
+				]
+			},
+			"links": [
+				{
+					"kind": "tribute",
+					"to": {
+						"name": "Bornu",
+						"point": [
+							12.367,
+							13.083
+						]
+					},
+					"label": "First Hausa tribute to Bornu",
+					"sources": [
+						"wikipedia-sultanate-of-kano",
+						"wikipedia-abdullahi-burja",
+						"palmer-1908-kano-chronicle"
+					],
+					"confidence": "high"
+				},
+				{
+					"kind": "trade",
+					"to": {
+						"name": "Gonja (Salaga)",
+						"point": [
+							-0.52,
+							8.55
+						]
+					},
+					"label": "The kola road to Gonja",
+					"sources": [
+						"wikipedia-sultanate-of-kano",
+						"wikipedia-abdullahi-burja"
+					],
+					"confidence": "high"
+				},
+				{
+					"kind": "war",
+					"to": {
+						"name": "Dutse",
+						"point": [
+							9.34,
+							11.76
+						]
+					},
+					"label": "Dutse conquered",
+					"sources": [
+						"wikipedia-abdullahi-burja"
+					],
+					"confidence": "high"
+				}
+			],
+			"sources": [
+				"wikipedia-sultanate-of-kano",
+				"wikipedia-abdullahi-burja",
+				"palmer-1908-kano-chronicle"
 			],
 			"confidence": "medium"
 		},
@@ -112,7 +505,7 @@
 			"year": 1463,
 			"yearLabel": "1463–1499",
 			"title": "Muhammad Rumfa",
-			"text": "Rumfa extends the city walls, builds the Gidan Rumfa palace that still stands, opens the Kurmi market and makes Kano a centre of Islamic learning. Kano pays tribute to Bornu in this era.",
+			"text": "Guided by the scholar al-Maghili, Rumfa remakes Kano as a Muslim state: he extends the walls, builds the Gidan Rumfa palace that still stands, opens the Kurmi market, sets up the council of the Nine of Kano, appoints slaves and eunuchs to office and celebrates Eid in state. He fights Kano's first war with Katsina, eleven years long and inconclusive. Kano still pays tribute to Bornu.",
 			"capital": {
 				"name": "Kano",
 				"point": [
@@ -137,7 +530,8 @@
 					"jigawa-gwiwa",
 					"jigawa-kazaure",
 					"jigawa-roni",
-					"jigawa-yankwashi"
+					"jigawa-yankwashi",
+					"jigawa-miga"
 				],
 				"confidence": "medium"
 			},
@@ -151,20 +545,190 @@
 							13.083
 						]
 					},
-					"label": "Tribute to Bornu"
+					"label": "Tribute to Bornu",
+					"sources": [
+						"wikipedia-hausa-kingdoms",
+						"wikipedia-sultanate-of-kano"
+					],
+					"confidence": "high"
+				},
+				{
+					"kind": "war",
+					"to": {
+						"name": "Katsina",
+						"point": [
+							7.6,
+							12.99
+						]
+					},
+					"label": "Eleven years of war with Katsina",
+					"sources": [
+						"wikipedia-sultanate-of-kano"
+					],
+					"confidence": "high"
 				}
 			],
 			"sources": [
-				"wikipedia-hausa-kingdoms",
+				"wikipedia-sultanate-of-kano",
+				"wikipedia-muhammad-rumfa",
 				"palmer-1928"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1509,
+			"yearLabel": "1509–1565",
+			"title": "Kisoki's Kano empire",
+			"text": "Muhammad Kisoki, Rumfa's grandson, reigns 56 years. While Songhai and Bornu are torn by strife, he marches into Bornu, beats off the mai's reprisal and ends Bornu's overlordship. The Kano Chronicle says he “ruled over all Hausaland, east and west, north and south”: the only time one Hausa state held all the others. A second war with Katsina is inconclusive. Scholars from Bornu and Songhai, among them Askia Muhammad's former vizier Ali Fulan, settle in Kano.",
+			"capital": {
+				"name": "Kano",
+				"point": [
+					8.52,
+					12
+				]
+			},
+			"core": {
+				"states": [
+					"kano"
+				]
+			},
+			"influence": {
+				"lgas": [
+					"jigawa-dutse",
+					"jigawa-birnin-kudu",
+					"jigawa-gwaram",
+					"jigawa-jahun",
+					"jigawa-kiyawa",
+					"jigawa-ringim",
+					"jigawa-taura",
+					"jigawa-gwiwa",
+					"jigawa-kazaure",
+					"jigawa-roni",
+					"jigawa-yankwashi",
+					"jigawa-miga",
+					"jigawa-hadejia",
+					"jigawa-auyo"
+				],
+				"confidence": "medium"
+			},
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Ngazargamu",
+						"point": [
+							12.367,
+							13.083
+						]
+					},
+					"label": "Expedition into Bornu; the mai's reprisal beaten",
+					"sources": [
+						"wikipedia-muhammad-kisoki"
+					],
+					"confidence": "medium"
+				},
+				{
+					"kind": "war",
+					"to": {
+						"name": "Katsina",
+						"point": [
+							7.6,
+							12.99
+						]
+					},
+					"label": "Second war with Katsina",
+					"sources": [
+						"wikipedia-sultanate-of-kano"
+					],
+					"confidence": "high"
+				},
+				{
+					"kind": "tribute",
+					"to": {
+						"name": "Zaria",
+						"point": [
+							7.7,
+							11.07
+						]
+					},
+					"label": "Hausaland under Kano (Kano Chronicle)",
+					"sources": [
+						"wikipedia-muhammad-kisoki"
+					],
+					"confidence": "disputed",
+					"note": "The Chronicle's claim; Zazzau and Katsina traditions do not confirm it."
+				}
+			],
+			"sources": [
+				"wikipedia-muhammad-kisoki",
+				"wikipedia-sultanate-of-kano",
+				"palmer-1908-kano-chronicle"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1565,
+			"yearLabel": "1565–1650",
+			"title": "Civil war and the first Kwararafa invasion",
+			"text": "Kisoki's death opens Kano's first civil war among the Rumfawa. Under Muhammad Zaki (1582–1618) Kwararafa invades; the people flee to Daura while the invaders strip the countryside, and Katsina harries the weakened state. In 1623 the Kutumbawa line replaces the Rumfawa.",
+			"capital": {
+				"name": "Kano",
+				"point": [
+					8.52,
+					12
+				]
+			},
+			"core": {
+				"states": [
+					"kano"
+				]
+			},
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Kwararafa (Biepi, near Ibi)",
+						"point": [
+							9.75,
+							8.18
+						]
+					},
+					"label": "Kwararafa invades",
+					"sources": [
+						"wikipedia-muhammad-zaki",
+						"palmer-1908-kano-chronicle"
+					],
+					"confidence": "high"
+				},
+				{
+					"kind": "war",
+					"to": {
+						"name": "Katsina",
+						"point": [
+							7.6,
+							12.99
+						]
+					},
+					"label": "Katsina harries Kano",
+					"sources": [
+						"wikipedia-muhammad-zaki"
+					],
+					"confidence": "high"
+				}
+			],
+			"sources": [
+				"wikipedia-muhammad-zaki",
+				"wikipedia-muhammad-rumfa",
+				"wikipedia-muhammad-kisoki",
+				"palmer-1908-kano-chronicle"
 			],
 			"confidence": "medium"
 		},
 		{
 			"year": 1650,
-			"yearLabel": "c. 1650–1700",
+			"yearLabel": "c. 1650–1703",
 			"title": "Kwararafa raids",
-			"text": "Jukun armies from Kwararafa raid Kano in the 1650s and 1670s. Kano's trade continues to grow regardless.",
+			"text": "Kano and Katsina make peace against Kwararafa around 1650. In the 1650s Sarkin Kwararafa Adashu batters down the Kofan Kawayi gate; under Dadi (c. 1671) the Kwararafa break in by the Kofan Gadon Kaya and fight to the Kurmi market, and the Sarki flees to Daura. A second civil war follows Kutumbi's death in 1648. Kano's trade recovers each time.",
 			"capital": {
 				"name": "Kano",
 				"point": [
@@ -177,16 +741,129 @@
 					"kano"
 				]
 			},
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Kwararafa (Biepi, near Ibi)",
+						"point": [
+							9.75,
+							8.18
+						]
+					},
+					"label": "Kwararafa sacks Kano",
+					"sources": [
+						"wikipedia-muhammad-kukuna",
+						"wikipedia-dadi-kano",
+						"wikipedia-kwararafa"
+					],
+					"confidence": "high"
+				}
+			],
 			"sources": [
 				"wikipedia-kwararafa",
-				"palmer-1928"
+				"wikipedia-muhammad-kukuna",
+				"wikipedia-dadi-kano",
+				"wikipedia-muhammad-alwali-ii",
+				"palmer-1908-kano-chronicle"
 			],
 			"confidence": "medium"
 		},
 		{
+			"year": 1703,
+			"yearLabel": "1703–1781",
+			"title": "Fulani clans, taxes and musketeers",
+			"text": "Muhammad Sharefa and Kumbari fight the Fulani clans that now press on the state; Kumbari's heavy taxes on the Kurmi market drive traders and Tuareg away, and Katsina overtakes Kano as the leading Hausa market. Babba Zaki (1768–1776) breaks the power of his own officials, crushes Auyo and Burum-Burum, and is the first Sarki with a guard of musketeers. The chief of Bebeji is one of his five war captains.",
+			"capital": {
+				"name": "Kano",
+				"point": [
+					8.52,
+					12
+				]
+			},
+			"core": {
+				"states": [
+					"kano"
+				]
+			},
+			"nodes": [
+				{
+					"name": "Bebeji",
+					"point": [
+						8.265,
+						11.663
+					]
+				}
+			],
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Auyo",
+						"point": [
+							9.98,
+							12.36
+						]
+					},
+					"label": "Babba Zaki attacks Birnin Auyo",
+					"sources": [
+						"wikipedia-babba-zaki"
+					],
+					"confidence": "high"
+				}
+			],
+			"sources": [
+				"wikipedia-sultanate-of-kano",
+				"wikipedia-babba-zaki",
+				"wikipedia-muhammad-sharefa"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1781,
+			"yearLabel": "1781–1807",
+			"title": "Alwali and the jihad",
+			"text": "Muhammad Alwali II reigns over a state worn by famine, taxes and feuds between the royal lines. He breaks open the Dirki, Kano's sacred bundle, and his people murmur. When Usman dan Fodio's jihad begins in Gobir, Alwali stands with Gobir. The Jobawa Fulani under Muhammadu Bakatsine rise, drive him from Kano in 1805 and kill him at Burum-Burum in 1807.",
+			"capital": {
+				"name": "Kano",
+				"point": [
+					8.52,
+					12
+				]
+			},
+			"core": {
+				"states": [
+					"kano"
+				]
+			},
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Alkalawa (Gobir)",
+						"point": [
+							6.26,
+							13.613
+						]
+					},
+					"label": "Alwali sides with Gobir",
+					"sources": [
+						"wikipedia-muhammad-alwali-ii"
+					],
+					"confidence": "medium"
+				}
+			],
+			"sources": [
+				"wikipedia-muhammad-alwali-ii",
+				"wikipedia-sultanate-of-kano",
+				"wikipedia-sokoto-caliphate"
+			],
+			"confidence": "high"
+		},
+		{
 			"year": 1807,
 			"title": "Fulani take Kano",
-			"text": "Jihad forces capture Kano in 1807; Suleiman becomes the first Fulani emir under Sokoto.",
+			"text": "Jihad forces hold Kano; Suleiman becomes the first Fulani emir under Sokoto. From 1819 Ibrahim Dabo rebuilds the old court and regalia, beats off an invasion from Bornu, and founds the dynasty that still reigns.",
 			"capital": {
 				"name": "Kano",
 				"point": [
@@ -201,7 +878,8 @@
 			},
 			"sources": [
 				"wikipedia-hausa-kingdoms",
-				"wikipedia-sokoto-caliphate"
+				"wikipedia-sokoto-caliphate",
+				"wikipedia-ibrahim-dabo"
 			],
 			"confidence": "high"
 		}
@@ -223,6 +901,8 @@
 		"note": "The status of the emirate council has changed several times since 2019."
 	},
 	"reviewNotes": [
-		"Using all of Kano State for the core after 1463 is a simplification."
+		"Using all of Kano State for the core after 1463 is a simplification.",
+		"Santolo is placed roughly 16 km south-east of Kano, and Sheme roughly near Kunchi; neither site has been checked.",
+		"Rano, Karaye, Dutse and Auyo are placed at their LGA headquarters."
 	]
 }

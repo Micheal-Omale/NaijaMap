@@ -1,0 +1,43 @@
+{
+	"name": "Kamwe",
+	"status": "draft",
+	"groups": [
+		"kamwe"
+	],
+	"rule": "kingdoms",
+	"span": {
+		"from": 1000,
+		"to": 1909,
+		"fromLabel": "before written records",
+		"toLabel": "1909",
+		"sources": [
+			"wikipedia-kamwe"
+		],
+		"confidence": "medium",
+		"note": "The start of the timeline, not a founding date."
+	},
+	"summary": {
+		"text": "The Kamwe of the hills around Michika, Chadic speakers, had a kingdom of their own. Their name joins Ka and Mwe: Mwe is an ornament worn only by close relatives of the dead, the mark of kinship (“tselie ra na”, you are my relative); elders also read it as “people of the hills”. More than 24 dialects are spoken, Nkafa being central. Higi, the name neighbours once gave them, they find offensive. In the jihad Michika, Mubi, Moda and Madagali became Fulani sub-emirates under Adamawa, each with its own lamido, while the Kamwe held the hills.",
+		"sources": [
+			"wikipedia-kamwe",
+			"wikipedia-adamawa-emirate"
+		],
+		"confidence": "medium"
+	},
+	"end": {
+		"text": "Their kingdom was suspended in 1909. Adamawa State restored it in 2025.",
+		"sources": [
+			"wikipedia-kamwe"
+		],
+		"confidence": "medium"
+	},
+	"lands": [
+		{
+			"from": 1000,
+			"lgas": [
+				"adamawa-michika"
+			]
+		}
+	],
+	"reviewNotes": []
+}

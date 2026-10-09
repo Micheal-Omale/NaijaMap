@@ -1,0 +1,52 @@
+{
+	"name": "Urhobo",
+	"status": "draft",
+	"groups": [
+		"urhobo"
+	],
+	"rule": "kingdoms",
+	"span": {
+		"from": 1300,
+		"to": 1900,
+		"fromLabel": "c. 14th century",
+		"toLabel": "c. 1900",
+		"sources": [
+			"wikipedia-urhobo"
+		],
+		"confidence": "medium",
+		"note": "Ughelli and Agbon, the oldest Urhobo kingdoms, trace back to about the 14th century. The end is approximate."
+	},
+	"summary": {
+		"text": "The Urhobo lived in some twenty-four small kingdoms, each under its own Ovie or similar ruler (the Orodje of Okpe, the Ohworode of Olomu) and his council; in every community the eldest man, the Okpako Orere, held authority by age. Ughelli and Agbon are the oldest, traced to about the 14th century; Ughelli's founder Ughene is remembered as the son of Oghwoghwa, a prince of Benin. Okpe existed before the Portuguese arrived but took its form in the 17th century, and its people founded Sapele. In the 19th century Urhobo villages along the Ethiope and Warri rivers sold palm oil to Itsekiri merchant houses such as Olomu's and Nana's, whose agents and debts reached deep into Urhobo country.",
+		"sources": [
+			"wikipedia-urhobo",
+			"wikipedia-nana-olomu"
+		],
+		"confidence": "medium"
+	},
+	"lands": [
+		{
+			"from": 1300,
+			"lgas": [
+				"delta-ughelli-north",
+				"delta-ughelli-south",
+				"delta-udu",
+				"delta-uvwie",
+				"delta-okpe",
+				"delta-sapele",
+				"delta-ethiope-east",
+				"delta-ethiope-west"
+			]
+		}
+	],
+	"reviewNotes": [
+		"Needs a written source for the date British rule reached this people."
+	],
+	"end": {
+		"text": "Britain claimed the western Delta after the treaty of 1884; from 1891 vice-consuls administered the rivers, and in 1894 Ralph Moor blockaded Nana's trade on the Ethiope after complaints that his men had seized Urhobo people, then destroyed Ebrohimi. Urhobo land came under the Niger Coast Protectorate in the 1890s.",
+		"sources": [
+			"wikipedia-nana-olomu"
+		],
+		"confidence": "medium"
+	}
+}

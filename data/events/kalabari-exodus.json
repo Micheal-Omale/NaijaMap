@@ -1,0 +1,127 @@
+{
+	"name": "Kalabari's civil war and exodus",
+	"status": "draft",
+	"kind": "migration",
+	"year": 1879,
+	"yearLabel": "1879–1884",
+	"until": 1890,
+	"actors": [
+		{
+			"name": "Amachree faction",
+			"polity": "kalabari",
+			"side": "migrant"
+		},
+		{
+			"name": "Barboy (Will Braide) faction",
+			"side": "migrant",
+			"ink": "#6a5a3a"
+		}
+	],
+	"summary": {
+		"text": "From 1879 two factions of Kalabari's royal family fought for control. The Barboy or Will Braide group left the old island town of Elem Kalabari for a new settlement at Bakana in 1881. The victorious Amachree group then abandoned Elem Kalabari too, moving to Abonnema in 1882 and to Buguma in 1884. The European traders followed them up the Sombreiro river to Abonnema, and Kalabari became three towns.",
+		"sources": [
+			"wikipedia-kalabari-kingdom"
+		],
+		"confidence": "high"
+	},
+	"routes": [
+		{
+			"kind": "migration",
+			"by": "Barboy (Will Braide) faction",
+			"path": [
+				[
+					6.83,
+					4.65
+				],
+				[
+					6.96,
+					4.75
+				]
+			],
+			"label": "To Bakana (1881)",
+			"sources": [
+				"wikipedia-kalabari-kingdom"
+			]
+		},
+		{
+			"kind": "migration",
+			"by": "Amachree faction",
+			"path": [
+				[
+					6.83,
+					4.65
+				],
+				[
+					6.78,
+					4.72
+				],
+				[
+					6.86,
+					4.73
+				]
+			],
+			"label": "To Abonnema (1882) and Buguma (1884)",
+			"sources": [
+				"wikipedia-kalabari-kingdom"
+			]
+		}
+	],
+	"moments": [
+		{
+			"when": "1881",
+			"title": "Bakana founded",
+			"text": "The Will Braide group settles at Bakana.",
+			"at": {
+				"name": "Bakana",
+				"point": [
+					6.96,
+					4.75
+				]
+			},
+			"mark": "founded",
+			"sources": [
+				"wikipedia-kalabari-kingdom"
+			],
+			"confidence": "high"
+		},
+		{
+			"when": "1882",
+			"title": "Abonnema",
+			"text": "The Amachree group moves to Abonnema; the traders follow.",
+			"at": {
+				"name": "Abonnema",
+				"point": [
+					6.78,
+					4.72
+				]
+			},
+			"mark": "founded",
+			"sources": [
+				"wikipedia-kalabari-kingdom"
+			],
+			"confidence": "high"
+		},
+		{
+			"when": "1884",
+			"title": "Buguma",
+			"text": "The royal seat moves on to Buguma.",
+			"at": {
+				"name": "Buguma",
+				"point": [
+					6.86,
+					4.73
+				]
+			},
+			"mark": "founded",
+			"sources": [
+				"wikipedia-kalabari-kingdom"
+			],
+			"confidence": "high"
+		}
+	],
+	"sources": [
+		"wikipedia-kalabari-kingdom"
+	],
+	"confidence": "high",
+	"reviewNotes": []
+}

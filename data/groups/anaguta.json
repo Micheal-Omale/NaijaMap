@@ -1,6 +1,39 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Anaguta chiefdom",
+			"lga": "plateau-jos-north",
+			"villages": [
+				{
+					"name": "Anabor"
+				},
+				{
+					"name": "Andoho"
+				},
+				{
+					"name": "Anagohom"
+				},
+				{
+					"name": "Andugom"
+				},
+				{
+					"name": "Andirgiza"
+				}
+			],
+			"sources": [
+				"wikipedia-guta-people"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Anaguta means “people of the bow”: the bow and their hill homes are the core of their identity, and all their ancestral lands lie on high ground on the Jos Plateau. The chiefdom of five clans is led by the Ujah Anaguta, head of the Jos North traditional council.",
+				"sources": [
+					"wikipedia-guta-people"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Anaguta",
 	"searchAliases": [

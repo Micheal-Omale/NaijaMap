@@ -86,7 +86,35 @@
 			"confidence": "medium"
 		}
 	],
-	"communities": [],
+	"communities": [
+		{
+			"name": "Nasarawa Eggon",
+			"lga": "nasarawa-nasarawa-egon",
+			"villages": [
+				{
+					"name": "Anzo"
+				},
+				{
+					"name": "Eholo"
+				},
+				{
+					"name": "Anro"
+				}
+			],
+			"sources": [
+				"wikipedia-eggon-people",
+				"wikipedia-nasarawa-eggon"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "The Eggon homeland. The three great Eggon clans are Anzo, Eholo and Anro.",
+				"sources": [
+					"wikipedia-eggon-people"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [
 		"Wikipedia places Eggon people in Plateau State too; the LGA is not yet sourced.",
 		"The Eggon share in each LGA beyond Nasarawa Eggon is unknown.",

@@ -1,0 +1,45 @@
+{
+	"name": "The Anglo-Aro war",
+	"status": "draft",
+	"kind": "colonial",
+	"year": 1901,
+	"yearLabel": "November 1901 – March 1902",
+	"until": 1910,
+	"actors": [{ "name": "British forces", "side": "colonial" }, { "name": "Aro Confederacy", "polity": "aro", "side": "defender" }],
+	"summary": {
+		"text": "To break the Aro network and its oracle, the Southern Nigeria Protectorate sent 87 officers, 1,550 soldiers and 2,100 carriers under Lieutenant Colonel Montanaro in four columns from Oguta, Akwete, Unwana and Itu. Arochukwu fell on 28 December 1901 after four days of fighting, and the Ibini Ukpabi shrine was destroyed. The last great battle was fought near Bende, and Aro leaders, among them Okoro Toti, were tried and hanged. Resistance went on for years in Afikpo and Ezza.",
+		"sources": ["wikipedia-anglo-aro-war", "wikipedia-aro-confederacy"],
+		"confidence": "high"
+	},
+	"routes": [
+		{ "kind": "advance", "by": "British forces", "path": [[6.8, 5.71], [7.3, 5.5], [7.91, 5.39]], "label": "The Oguta column" },
+		{ "kind": "advance", "by": "British forces", "path": [[7.36, 4.97], [7.65, 5.2], [7.91, 5.39]], "label": "The Akwete column" },
+		{ "kind": "advance", "by": "British forces", "path": [[7.95, 5.82], [7.95, 5.6], [7.91, 5.39]], "label": "The Unwana column" },
+		{ "kind": "advance", "by": "British forces", "path": [[7.98, 5.2], [7.91, 5.39]], "label": "The Itu column" }
+	],
+	"moments": [
+		{
+			"when": "28 December 1901",
+			"title": "Arochukwu taken",
+			"text": "After four days of fighting the town falls.",
+			"at": { "name": "Arochukwu", "point": [7.91, 5.39] },
+			"mark": "captured"
+		},
+		{
+			"when": "After the capture",
+			"title": "The Long Juju destroyed",
+			"text": "The British blow up the shrine of Ibini Ukpabi.",
+			"at": { "name": "Arochukwu", "point": [7.91, 5.39] },
+			"mark": "burned"
+		},
+		{
+			"when": "Early 1902",
+			"title": "Bende",
+			"text": "The last major battle; the war ends three weeks later.",
+			"at": { "name": "Bende", "point": [7.63, 5.56] },
+			"mark": "battle"
+		}
+	],
+	"sources": ["wikipedia-anglo-aro-war", "wikipedia-aro-confederacy"],
+	"confidence": "high"
+}

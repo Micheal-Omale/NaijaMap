@@ -10,7 +10,9 @@ import { readFile } from 'node:fs/promises';
 import { getCollection, type CollectionEntry } from 'astro:content';
 import lgaIndex from '../data/lgas.json';
 import { getGroupViews, isVisible, makeCiter } from './groups';
-import type { Confidence, History, PolityView, SnapshotView } from './types';
+import { COLONIAL_INK, isForeign } from './ink';
+import { LAST_YEAR } from './timeline';
+import type { Confidence, EventView, History, PolityView, SnapshotView, SocietyView, ThroneView, TownView } from './types';
 
 /** Each polity's ink on the old map. Neighbours that overlap in time get far apart inks. */
 const INK: Record<string, string> = {
@@ -45,13 +47,18 @@ const INK: Record<string, string> = {
 	'old-calabar': '#3f5fa0',
 };
 
+/** Peoples and powers on the map without a polity of their own (the Portuguese, the Akpa). */
+const NEUTRAL_INK = '#5c4a38';
+/** The parts of a partitioned kingdom, each hatched in its own direction and tint. */
+const PIECE_INK = ['#8a3b2a', '#2f5a85', '#5d7a2c', '#86622a', '#6a3f86', '#2f7a72'];
+
 const lgasByState = new Map<string, string[]>();
 for (const l of lgaIndex) lgasByState.set(l.stateId, [...(lgasByState.get(l.stateId) ?? []), l.id]);
 
 type Polity = CollectionEntry<'polities'>['data'];
 type Extent = NonNullable<Polity['snapshots'][number]['core']>;
 
-function lgasOf(extent: Extent): string[] {
+export function lgasOf(extent: Extent): string[] {
 	const set = new Set<string>();
 	for (const s of extent.states) for (const id of lgasByState.get(s) ?? []) set.add(id);
 	for (const id of extent.lgas) set.add(id as string);
@@ -59,7 +66,8 @@ function lgasOf(extent: Extent): string[] {
 	return [...set];
 }
 
-type Shape = { key: string; p: string; s: number; layer: 'core' | 'influence'; conf: Confidence; lgas: string[]; beyond: [number, number][][] };
+type Layer = 'core' | 'influence' | 'campaign' | 'piece';
+type Shape = { key: string; p: string; s: number; layer: Layer; conf: Confidence; lgas: string[]; beyond: [number, number][][] };
 
 /**
  * Rounds the corners of a rough ring (Chaikin's method), so outlines drawn from
@@ -79,6 +87,9 @@ function smooth(ring: [number, number][], rounds = 3): [number, number][] {
 	return pts.map(([x, y]) => [Math.round(x * 1000) / 1000, Math.round(y * 1000) / 1000]);
 }
 
+/** One dissolved shape per snapshot layer, or per piece of a partition. */
+const shapeKey = (sh: Shape) => (sh.layer === 'piece' ? `${sh.key}|piece|${sh.s}` : `${sh.key}|${sh.layer}`);
+
 /** Dissolves every snapshot layer at once with mapshaper. */
 async function dissolve(shapes: Shape[]): Promise<GeoJSON.FeatureCollection> {
 	const mapshaper = (await import('mapshaper')).default;
@@ -90,12 +101,12 @@ async function dissolve(shapes: Shape[]): Promise<GeoJSON.FeatureCollection> {
 	for (const sh of shapes) {
 		for (const id of sh.lgas) {
 			const geometry = byId.get(id);
-			if (geometry) inside.push({ type: 'Feature', properties: { key: `${sh.key}|${sh.layer}` }, geometry });
+			if (geometry) inside.push({ type: 'Feature', properties: { key: shapeKey(sh) }, geometry });
 		}
 		for (const ring of sh.beyond) {
 			const soft = smooth(ring);
 			const closed = [...soft, soft[0]];
-			outside.push({ type: 'Feature', properties: { key: `${sh.key}|${sh.layer}` }, geometry: { type: 'Polygon', coordinates: [closed] } });
+			outside.push({ type: 'Feature', properties: { key: shapeKey(sh) }, geometry: { type: 'Polygon', coordinates: [closed] } });
 		}
 	}
 
@@ -110,6 +121,8 @@ async function dissolve(shapes: Shape[]): Promise<GeoJSON.FeatureCollection> {
 			'-split key target=all ' +
 			'-dissolve2 key target=* ' +
 			'-merge-layers target=* name=all force ' +
+			// Lighter shapes for phones: frontiers are approximate anyway, and old maps drew them freehand.
+			'-simplify 45% keep-shapes target=all ' +
 			'-o target=all format=geojson geojson-type=FeatureCollection precision=0.001 all.json',
 		{
 			'lgas.json': lgas,
@@ -133,7 +146,7 @@ function extend(box: [number, number, number, number], coords: unknown): void {
 }
 
 /** A point well inside a polygon: the LGA centre nearest the middle of the others, or the ring's centre. */
-function labelPoint(lgas: string[], beyond: [number, number][][]): [number, number] | undefined {
+export function labelPoint(lgas: string[], beyond: [number, number][][]): [number, number] | undefined {
 	const pts = lgas.map((id) => lgaIndex.find((l) => l.id === id)?.point as [number, number]).filter(Boolean);
 	if (pts.length) {
 		let best = pts[0];
@@ -150,6 +163,45 @@ function labelPoint(lgas: string[], beyond: [number, number][][]): [number, numb
 	const ring = beyond[0];
 	if (!ring) return undefined;
 	return [ring.reduce((s, p) => s + p[0], 0) / ring.length, ring.reduce((s, p) => s + p[1], 0) / ring.length];
+}
+
+/** A gentle arc between two points, like a route drawn by hand on an old map. */
+function arc(a: [number, number], b: [number, number], steps = 40): [number, number][] {
+	const [dx, dy] = [b[0] - a[0], b[1] - a[1]];
+	const bend = 0.16;
+	const c: [number, number] = [(a[0] + b[0]) / 2 - dy * bend, (a[1] + b[1]) / 2 + dx * bend];
+	const out: [number, number][] = [];
+	for (let i = 0; i <= steps; i++) {
+		const t = i / steps;
+		const u = 1 - t;
+		out.push([u * u * a[0] + 2 * u * t * c[0] + t * t * b[0], u * u * a[1] + 2 * u * t * c[1] + t * t * b[1]]);
+	}
+	return out;
+}
+
+/** A route through several waypoints, rounded (Chaikin) but still starting and ending where it says. */
+function curve(points: [number, number][], rounds = 4): [number, number][] {
+	if (points.length === 2) return arc(points[0], points[1]);
+	let pts = points;
+	for (let r = 0; r < rounds; r++) {
+		const next: [number, number][] = [pts[0]];
+		for (let i = 0; i < pts.length - 1; i++) {
+			const a = pts[i];
+			const b = pts[i + 1];
+			next.push([0.75 * a[0] + 0.25 * b[0], 0.75 * a[1] + 0.25 * b[1]], [0.25 * a[0] + 0.75 * b[0], 0.25 * a[1] + 0.75 * b[1]]);
+		}
+		next.push(pts[pts.length - 1]);
+		pts = next;
+	}
+	return pts;
+}
+
+const round3 = (p: [number, number]): [number, number] => [Math.round(p[0] * 1000) / 1000, Math.round(p[1] * 1000) / 1000];
+
+/** How long an event stays on the map when its file does not say. */
+function defaultUntil(kind: EventView['kind'], year: number): number {
+	if (kind === 'partition') return LAST_YEAR;
+	return Math.min(LAST_YEAR, year + (kind === 'migration' ? 30 : 20));
 }
 
 let cached: Promise<History> | null = null;
@@ -173,11 +225,11 @@ async function build(): Promise<History> {
 		const snapshots: SnapshotView[] = [];
 		for (const [i, s] of p.snapshots.entries()) {
 			const key = `${entry.id}|${i}`;
-			const layers = { core: s.core, influence: s.influence } as const;
+			const layers = { core: s.core, influence: s.influence, campaign: s.campaign } as const;
 			let label: [number, number] | undefined;
 			const box: [number, number, number, number] = [Infinity, Infinity, -Infinity, -Infinity];
-			const conf: Partial<Record<'core' | 'influence', Confidence>> = {};
-			for (const layer of ['core', 'influence'] as const) {
+			const conf: Partial<Record<Layer, Confidence>> = {};
+			for (const layer of ['core', 'influence', 'campaign'] as const) {
 				const extent = layers[layer];
 				if (!extent) continue;
 				const lgas = lgasOf(extent);
@@ -198,7 +250,16 @@ async function build(): Promise<History> {
 				text: s.text,
 				capital: s.capital as SnapshotView['capital'],
 				nodes: s.nodes as SnapshotView['nodes'],
-				links: s.links as SnapshotView['links'],
+				links: await Promise.all(
+					s.links.map(async (l) => ({
+						kind: l.kind,
+						to: l.to as SnapshotView['links'][number]['to'],
+						label: l.label,
+						note: l.note,
+						confidence: l.confidence,
+						refs: l.sources.length ? (await evidence({ sources: l.sources, confidence: l.confidence ?? s.confidence })).refs : [],
+					})),
+				),
 				...conf,
 				label: label ?? (s.capital?.point as [number, number] | undefined),
 				bounds: Number.isFinite(box[0]) ? box : undefined,
@@ -222,6 +283,7 @@ async function build(): Promise<History> {
 			kind: p.kind,
 			status: p.status,
 			otherNames: p.otherNames,
+			shortName: p.shortName ?? p.name,
 			color: INK[entry.id] ?? '#6b5a45',
 			span: { from: p.span.from, to: p.span.to, fromLabel: p.span.fromLabel, toLabel: p.span.toLabel, ...(await evidence(p.span)) },
 			peak: p.peak,
@@ -236,19 +298,280 @@ async function build(): Promise<History> {
 		});
 	}
 
+	const events = await buildEvents(shapes);
+	const societies = await buildSocieties(entries, groupName);
+	const towns = await buildTowns(groupName);
+	const thrones = await buildThrones(groupName);
+
 	const dissolved = shapes.length ? await dissolve(shapes) : { type: 'FeatureCollection' as const, features: [] };
-	const meta = new Map(shapes.map((sh) => [`${sh.key}|${sh.layer}`, sh]));
+	const meta = new Map(shapes.map((sh) => [shapeKey(sh), sh]));
 	const network = new Set(entries.filter((e) => e.data.kind === 'network').map((e) => e.id));
-	dissolved.features = dissolved.features
-		.filter((f) => f.geometry)
+	const all = dissolved.features.filter((f) => f.geometry);
+	// The parts of a partitioned kingdom go to their own collection: they move when they appear.
+	const pieces: GeoJSON.Feature[] = all
+		.filter((f) => meta.get(String(f.properties?.key))?.layer === 'piece')
 		.map((f, i) => {
 			const sh = meta.get(String(f.properties?.key))!;
+			const e = events.find((x) => `ev|${x.id}` === sh.key)!;
+			return { ...f, id: i + 1, properties: { key: sh.key, e: e.id, i: sh.s, name: e.pieces[sh.s].name, color: PIECE_INK[sh.s % PIECE_INK.length] } };
+		});
+	dissolved.features = all
+		.filter((f) => meta.get(String(f.properties?.key))?.layer !== 'piece')
+		.map((f, i) => {
+			const sh = meta.get(String(f.properties?.key))!;
+			const color = sh.p.startsWith('ev|') ? COLONIAL_INK : (INK[sh.p] ?? '#6b5a45');
 			return {
 				...f,
 				id: i + 1,
-				properties: { key: sh.key, p: sh.p, layer: sh.layer, conf: sh.conf, color: INK[sh.p] ?? '#6b5a45', network: network.has(sh.p) },
+				properties: { key: sh.key, p: sh.p, layer: sh.layer, conf: sh.conf, color, network: network.has(sh.p) },
 			};
 		});
 
-	return { polities, shapes: dissolved };
+	return { polities, events, societies, towns, thrones, shapes: dissolved, pieces: { type: 'FeatureCollection', features: pieces } };
+}
+
+/** Thrones made, restored, filled or imposed under colonial rule. */
+async function buildThrones(groupName: Map<string, string>): Promise<ThroneView[]> {
+	const entries = (await getCollection('thrones', ({ data }) => isVisible(data.status))).sort((a, b) => a.data.year - b.data.year);
+	const out: ThroneView[] = [];
+	for (const entry of entries) {
+		const t = entry.data;
+		const { sources, evidence } = makeCiter();
+		out.push({
+			id: entry.id,
+			title: t.title,
+			status: t.status,
+			kind: t.kind,
+			year: t.year,
+			yearLabel: t.yearLabel,
+			until: t.until,
+			seat: t.seat as ThroneView['seat'],
+			by: t.by,
+			first: t.first,
+			crowned: t.crowned ? { by: t.crowned.by, at: t.crowned.at as ThroneView['seat'] | undefined, text: t.crowned.text, ...(await evidence(t.crowned)) } : undefined,
+			groups: t.groups.filter((g) => groupName.has(g.id)).map((g) => ({ id: g.id, name: groupName.get(g.id)! })),
+			polity: t.polity?.id,
+			text: t.text,
+			...(await evidence(t)),
+			sources,
+			reviewNotes: t.reviewNotes,
+		});
+	}
+	return out;
+}
+
+/** Inks for founding peoples who came from no state on the timeline. */
+const PEOPLE_INK: Record<string, string> = {
+	Igbo: '#4f7a3a',
+	Yoruba: '#2e5c8a',
+	Olukumi: '#2e5c8a',
+	Ibibio: '#8a5a7a',
+	Idoma: '#7a6a3a',
+	Fulani: '#2f6b4f',
+	Bariba: '#6a7f4f',
+};
+
+/** Towns founded by several peoples, or held by a state for a time. */
+async function buildTowns(groupName: Map<string, string>): Promise<TownView[]> {
+	const entries = (await getCollection('towns', ({ data }) => isVisible(data.status))).sort((a, b) => a.data.founded.year - b.data.founded.year);
+	const polityName = new Map((await getCollection('polities')).map((p) => [p.id, p.data.name]));
+	const out: TownView[] = [];
+	for (const entry of entries) {
+		const t = entry.data;
+		const { sources, evidence } = makeCiter();
+		const founders = [];
+		for (const f of t.founders) {
+			founders.push({
+				people: f.people,
+				group: f.group && groupName.has(f.group.id) ? { id: f.group.id, name: groupName.get(f.group.id)! } : undefined,
+				polity: f.polity?.id,
+				// One ink per people (“Igbo (Ado N’Idu)” is Igbo), so a town's wedges and threads match its founders.
+				color: PEOPLE_INK[f.people.split(' (')[0]] ?? (f.polity && INK[f.polity.id]) ?? NEUTRAL_INK,
+				from: f.from as TownView['founders'][number]['from'],
+				quarters: f.quarters,
+				text: f.text,
+				...(await evidence(f)),
+			});
+		}
+		const under = [];
+		for (const u of [...t.under].sort((a, b) => a.from - b.from)) {
+			under.push({ polity: u.polity.id, polityName: polityName.get(u.polity.id) ?? u.polity.id, color: INK[u.polity.id] ?? NEUTRAL_INK, from: u.from, to: u.to, kind: u.kind, text: u.text, ...(await evidence(u)) });
+		}
+		out.push({
+			id: entry.id,
+			name: t.name,
+			status: t.status,
+			otherNames: t.otherNames,
+			point: t.point as [number, number],
+			founded: { year: t.founded.year, yearLabel: t.founded.yearLabel, ...(await evidence(t.founded)) },
+			summary: { text: t.summary.text, ...(await evidence(t.summary)) },
+			founders,
+			under,
+			sources,
+			reviewNotes: t.reviewNotes,
+		});
+	}
+	return out;
+}
+
+/** The LGA nearest the middle of the others: where a people's name is written. */
+function centralLga(lgas: string[]): string {
+	const pts = lgas.map((id) => ({ id, p: lgaIndex.find((l) => l.id === id)!.point as [number, number] }));
+	let best = pts[0];
+	let score = Infinity;
+	for (const a of pts) {
+		const d = pts.reduce((s, b) => s + (a.p[0] - b.p[0]) ** 2 + (a.p[1] - b.p[1]) ** 2, 0);
+		if (d < score) {
+			score = d;
+			best = a;
+		}
+	}
+	return best.id;
+}
+
+/**
+ * The peoples who governed themselves in the open land. A name written inside a
+ * state's ruled land would contradict the map, so the build warns when one does.
+ */
+async function buildSocieties(polities: CollectionEntry<'polities'>[], groupName: Map<string, string>): Promise<SocietyView[]> {
+	const entries = (await getCollection('societies', ({ data }) => isVisible(data.status))).sort((a, b) => a.data.name.localeCompare(b.data.name));
+	// Ruled land by year range, to check each written name against.
+	const ruled: { polity: string; from: number; to: number; lgas: Set<string> }[] = [];
+	for (const p of polities) {
+		for (const [i, s] of p.data.snapshots.entries()) {
+			if (!s.core) continue;
+			const next = p.data.snapshots[i + 1];
+			ruled.push({ polity: p.id, from: s.year, to: next ? next.year - 1 : p.data.span.to, lgas: new Set(lgasOf(s.core)) });
+		}
+	}
+	const out: SocietyView[] = [];
+	for (const entry of entries) {
+		const s = entry.data;
+		const { sources, evidence } = makeCiter();
+		const lands = s.lands.map((l) => {
+			const at = centralLga(l.lgas as string[]);
+			const to = l.to ?? s.span.to;
+			for (const r of ruled) {
+				if (r.lgas.has(at) && r.from <= to && l.from <= r.to) {
+					console.warn(`[societies] ${entry.id}: "${l.label ?? s.name}" is written in ${at}, ruled by ${r.polity} in ${Math.max(r.from, l.from)}–${Math.min(r.to, to)}`);
+				}
+			}
+			return {
+				from: l.from,
+				to,
+				label: lgaIndex.find((x) => x.id === at)!.point as [number, number],
+				name: l.label ?? s.name,
+				confidence: l.confidence,
+				note: l.note,
+			};
+		});
+		out.push({
+			id: entry.id,
+			name: s.name,
+			status: s.status,
+			rule: s.rule,
+			groups: s.groups.filter((g) => groupName.has(g.id)).map((g) => ({ id: g.id, name: groupName.get(g.id)! })),
+			span: { from: s.span.from, to: s.span.to, fromLabel: s.span.fromLabel, toLabel: s.span.toLabel, ...(await evidence(s.span)) },
+			summary: { text: s.summary.text, ...(await evidence(s.summary)) },
+			end: s.end ? { text: s.end.text, ...(await evidence(s.end)) } : undefined,
+			lands,
+			sources,
+			reviewNotes: s.reviewNotes,
+		});
+	}
+	return out;
+}
+
+/** Wars, raids, alliances, migrations, conquests and partitions, with their land added to `shapes` for dissolving. */
+async function buildEvents(shapes: Shape[]): Promise<EventView[]> {
+	const entries = (await getCollection('events', ({ data }) => isVisible(data.status))).sort((a, b) => a.data.year - b.data.year || a.id.localeCompare(b.id));
+	const out: EventView[] = [];
+	for (const entry of entries) {
+		const e = entry.data;
+		const { sources, evidence } = makeCiter();
+		const key = `ev|${entry.id}`;
+		const actors = e.actors.map((a) => ({
+			name: a.name,
+			polity: a.polity?.id,
+			side: a.side,
+			color: a.side === 'colonial' || a.side === 'european' ? COLONIAL_INK : (a.ink ?? (a.polity ? (INK[a.polity.id] ?? NEUTRAL_INK) : NEUTRAL_INK)),
+		}));
+		const lead = actors.find((a) => a.side === 'colonial' || a.side === 'european' || a.side === 'attacker' || a.side === 'migrant') ?? actors[0];
+		const box: [number, number, number, number] = [Infinity, Infinity, -Infinity, -Infinity];
+
+		const routes = await Promise.all(
+			e.routes.map(async (r) => {
+				for (const p of r.path) extend(box, p);
+				const by = r.by ? actors.find((a) => a.name === r.by) : undefined;
+				if (r.by && !by) throw new Error(`${entry.id}: route "${r.label}" is by "${r.by}", who is not an actor`);
+				return {
+					kind: r.kind,
+					vessel: r.kind === 'voyage' ? (r.vessel ?? 'sail') : undefined,
+					path: curve(r.path as [number, number][]).map(round3),
+					label: r.label,
+					by: r.by,
+					when: r.when,
+					note: r.note,
+					confidence: r.confidence,
+					refs: r.sources.length ? (await evidence({ sources: r.sources, confidence: r.confidence ?? e.confidence })).refs : [],
+					color: (by ?? lead).color,
+				};
+			}),
+		);
+
+		const colonial = isForeign(e.kind);
+		const moments = await Promise.all(
+			e.moments.map(async (m) => {
+				if (m.at) extend(box, m.at.point);
+				return {
+					when: m.when,
+					title: m.title,
+					text: m.text,
+					at: m.at as EventView['moments'][number]['at'],
+					mark: m.mark,
+					colonial,
+					confidence: m.confidence,
+					refs: m.sources.length ? (await evidence({ sources: m.sources, confidence: m.confidence ?? e.confidence })).refs : [],
+				};
+			}),
+		);
+
+		const areaLgas = e.area ? lgasOf(e.area) : [];
+		const areaBeyond = (e.area?.beyond ?? []) as [number, number][][];
+		if (areaLgas.length || areaBeyond.length) {
+			shapes.push({ key, p: key, s: 0, layer: 'campaign', conf: e.area?.confidence ?? e.confidence, lgas: areaLgas, beyond: areaBeyond });
+			for (const id of areaLgas) extend(box, lgaIndex.find((l) => l.id === id)!.point);
+			for (const ring of areaBeyond) extend(box, ring);
+		}
+		const pieces = e.pieces.map((piece, i) => {
+			const lgas = lgasOf(piece.extent);
+			const beyond = piece.extent.beyond as [number, number][][];
+			shapes.push({ key, p: key, s: i, layer: 'piece', conf: piece.extent.confidence ?? e.confidence, lgas, beyond });
+			for (const id of lgas) extend(box, lgaIndex.find((l) => l.id === id)!.point);
+			for (const ring of beyond) extend(box, ring);
+			return { name: piece.name, note: piece.note, label: labelPoint(lgas, beyond) };
+		});
+
+		out.push({
+			id: entry.id,
+			name: e.name,
+			kind: e.kind,
+			status: e.status,
+			year: e.year,
+			yearLabel: e.yearLabel,
+			until: e.until ?? defaultUntil(e.kind, e.year),
+			actors,
+			summary: { text: e.summary.text, ...(await evidence(e.summary)) },
+			routes,
+			moments,
+			area: areaLgas.length + areaBeyond.length > 0,
+			pieces,
+			polities: [...new Set(actors.flatMap((a) => (a.polity ? [a.polity] : [])))],
+			bounds: Number.isFinite(box[0]) ? box : undefined,
+			...(await evidence(e)),
+			sources,
+			reviewNotes: e.reviewNotes,
+		});
+	}
+	return out;
 }

@@ -1,0 +1,47 @@
+{
+	"name": "The Adubi war",
+	"status": "draft",
+	"kind": "colonial",
+	"year": 1918,
+	"yearLabel": "June–July 1918",
+	"until": 1925,
+	"actors": [
+		{ "name": "British forces", "side": "colonial" },
+		{ "name": "Egba rebels", "polity": "egba", "side": "resister" }
+	],
+	"summary": {
+		"text": "In 1918 Britain brought direct taxes, on top of forced labour and fees, to Egbaland, which had kept its own government until 1914. On 7 June the British arrested 70 Egba chiefs. About 30,000 rebels rose, tore up the railway at Agbesi and derailed a train, burned the station at Wasinmi, and killed a European agent and the Osile of Oke-Ona, David Sokunbi Karunwi II. For three weeks they fought colonial troops, many of them just back from East Africa, at Otite, Tappona, Mokoloki and Lalako. By 10 July the rising was crushed. About 600 people died, Abeokuta’s independence was abolished, and the direct tax was postponed until 1925.",
+		"sources": ["wikipedia-adubi-war", "wikipedia-abeokuta-womens-revolt"],
+		"confidence": "high"
+	},
+	"moments": [
+		{
+			"when": "7 June 1918",
+			"title": "Seventy chiefs arrested",
+			"text": "The British arrest 70 Egba chiefs and order the resisters to lay down their arms and pay the tax.",
+			"at": { "name": "Abeokuta", "point": [3.35, 7.15] },
+			"mark": "captured",
+			"sources": ["wikipedia-adubi-war"]
+		},
+		{
+			"when": "13 June 1918",
+			"title": "The railway torn up",
+			"text": "Rebels pull up the line at Agbesi and derail a train, demolish Wasinmi station, and kill the Osile and a British agent.",
+			"at": { "name": "Wasinmi", "point": [3.157, 6.899] },
+			"mark": "burned",
+			"sources": ["wikipedia-adubi-war"]
+		},
+		{
+			"when": "June–10 July 1918",
+			"title": "Three weeks of fighting",
+			"text": "Colonial troops fight the rebels at Otite, Tappona, Mokoloki and Lalako. Leaders are killed or arrested; about 600 die.",
+			"at": { "name": "South of Abeokuta (approximate)", "point": [3.3, 7.0] },
+			"mark": "battle",
+			"sources": ["wikipedia-adubi-war"]
+		}
+	],
+	"area": { "lgas": ["ogun-abeokuta-north", "ogun-abeokuta-south", "ogun-odeda", "ogun-obafemi-owode", "ogun-ewekoro"] },
+	"sources": ["wikipedia-adubi-war", "wikipedia-abeokuta-womens-revolt"],
+	"confidence": "high",
+	"reviewNotes": ["Agbesi, Otite, Tappona, Mokoloki and Lalako are not located; the fighting is drawn approximately south of Abeokuta."]
+}

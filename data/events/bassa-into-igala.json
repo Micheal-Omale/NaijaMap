@@ -1,0 +1,60 @@
+{
+	"name": "The Bassa find refuge in Igala land",
+	"status": "draft",
+	"kind": "migration",
+	"year": 1830,
+	"yearLabel": "c. 1830–1870s",
+	"until": 1880,
+	"actors": [
+		{ "name": "Bassa-Komo", "side": "migrant", "ink": "#6b7a3a" },
+		{ "name": "Bassa-Nge", "side": "migrant", "ink": "#3f7a8a" },
+		{ "name": "Ebira Mozum (Egbura)", "side": "migrant", "ink": "#8a5a7a" },
+		{ "name": "Igala Kingdom (Attah Amaga, later Attah Okoliko)", "polity": "igala", "side": "origin" }
+	],
+	"summary": {
+		"text": "The jihad drove whole peoples south across the Benue. The Bassa-Komo arrived about 1830. The Bassa-Nge, Nupe-speaking people from around Bida, came about 1850, fleeing the jihadist war in their homeland. The Ebira of Mozum (Egbura) came about 1860. When the Nupe raids grew worse after 1853–54, refugees crowded onto the south bank, and Attah Amaga let them stay. In the 1870s Attah Okoliko Onuche ceded the northernmost parts of Dekina and Omala to the Bassa as towns of sanctuary. These are the lands of today’s Bassa LGA, with its headquarters at Oguma. Igala land was never conquered, so it became the asylum of the confluence. The colonial Bassa Native Authority (1902) was later joined to the Igala Native Authority, and separated again as Bassa LGA in 1976.",
+		"sources": ["abbah-2018-igala-fulani", "ntl-igala-part3", "denwi-2024-bassa"],
+		"confidence": "medium"
+	},
+	"routes": [
+		{ "kind": "migration", "by": "Bassa-Komo", "path": [[7.2, 8.6], [7.15, 8.25], [7.0365, 7.94]], "label": "The Bassa-Komo cross the Benue into Igala land", "when": "c. 1830", "note": "Their earlier home north of the Benue is placed approximately.", "sources": ["denwi-2024-bassa", "abbah-2018-igala-fulani"], "confidence": "medium" },
+		{ "kind": "migration", "by": "Bassa-Nge", "path": [[6.01, 9.08], [6.5, 8.5], [6.95, 8.0], [7.074, 7.891]], "label": "The Bassa-Nge flee the jihad around Bida", "when": "c. 1850", "sources": ["denwi-2024-bassa"], "confidence": "medium" },
+		{ "kind": "migration", "by": "Ebira Mozum (Egbura)", "path": [[6.75, 8.2], [6.9, 7.95], [6.95, 7.85]], "label": "The Ebira settle at Mozum", "when": "c. 1860", "sources": ["denwi-2024-bassa", "ntl-igala-part3"], "confidence": "medium" }
+	],
+	"moments": [
+		{
+			"when": "1854",
+			"title": "Attah Amaga gives refuge",
+			"text": "As Nupe raids reach the Ife district, refugees flood the south bank of the Benue. They beg Attah Amaga to let them stay, and he agrees. Among them are the Ebira of Mozum, the Bassa-Nge and the Bassa-Komo.",
+			"at": { "name": "Idah", "point": [6.737, 7.117] },
+			"mark": "treaty",
+			"sources": ["ntl-igala-part3"],
+			"confidence": "medium"
+		},
+		{
+			"when": "1870s",
+			"title": "Land given for sanctuary",
+			"text": "Attah Okoliko Onuche cedes the northernmost parts of Dekina and Omala to the Bassa fleeing the jihad, as towns of sanctuary.",
+			"at": { "name": "Oguma (approximate)", "point": [7.0365, 7.94] },
+			"mark": "treaty",
+			"sources": ["abbah-2018-igala-fulani"],
+			"confidence": "medium"
+		},
+		{
+			"when": "1902–1976",
+			"title": "Bassa Native Authority",
+			"text": "The colonial government creates a Bassa Native Authority, later joins it to the Igala Native Authority, and in 1976 it becomes Bassa LGA.",
+			"at": { "name": "Oguma (approximate)", "point": [7.0365, 7.94] },
+			"mark": "founded",
+			"sources": ["denwi-2024-bassa"],
+			"confidence": "medium"
+		}
+	],
+	"area": { "lgas": ["kogi-bassa"] },
+	"sources": ["abbah-2018-igala-fulani", "ntl-igala-part3", "denwi-2024-bassa"],
+	"confidence": "medium",
+	"reviewNotes": [
+		"The Bassa-Komo homeland before 1830 is not named in the sources read; the route’s start is approximate.",
+		"Bassa sources may tell the cession differently; the Bassa-Nge and Bassa-Komo accounts should be read too."
+	]
+}

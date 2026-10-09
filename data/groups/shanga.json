@@ -1,6 +1,28 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Shanga",
+			"lga": "kebbi-shanga",
+			"point": [
+				4.578,
+				11.213
+			],
+			"villages": [],
+			"sources": [
+				"ross-jones-borgu",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "The Shanga live in villages around Shanga town on the north bank of the Niger. They split from the Kyenga in the early 19th century, when Kaoje was overrun; many now speak Hausa first.",
+				"sources": [
+					"ross-jones-borgu"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Shanga",
 	"searchAliases": [

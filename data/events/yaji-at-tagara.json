@@ -1,0 +1,45 @@
+{
+	"name": "Yaji besieges Kwararafa at Tagara",
+	"status": "draft",
+	"kind": "war",
+	"year": 1349,
+	"yearLabel": "1349–1410",
+	"until": 1410,
+	"actors": [{ "name": "Kano", "polity": "kano", "side": "attacker" }, { "name": "Kwararafa", "polity": "kwararafa", "side": "defender" }],
+	"summary": {
+		"text": "Sarki Yaji, Kano's first Muslim king, destroyed the shrine town of Santolo and then marched on Kwararafa, the one people south of Kano who would not submit. They fled to the hill of Tagara. Yaji camped below for seven months until they paid him a hundred slaves; his praise song calls him “conqueror of the rocky heights”. His son Kanajeji (1390–1410) demanded tribute again and got two hundred slaves, and a trade of Kano horses for Kwararafa slaves followed.",
+		"sources": ["wikipedia-yaji-i", "wikipedia-kanajeji", "palmer-1908-kano-chronicle"],
+		"confidence": "high"
+	},
+	"moments": [
+		{
+			"when": "Reign of Yaji (1349–1385)",
+			"title": "Santolo destroyed",
+			"text": "Yaji takes Santolo, the shrine town of the old religion, south of Kano.",
+			"mark": "burned",
+			"sources": ["wikipedia-yaji-i"],
+			"confidence": "high"
+		},
+		{
+			"when": "Reign of Yaji",
+			"title": "Seven months below Tagara",
+			"text": "The Kwararafa abandon their town for the hill of Tagara. Nobody comes down for seven months; then they pay a hundred slaves. One tradition says Yaji died there.",
+			"mark": "camp",
+			"sources": ["wikipedia-yaji-i", "palmer-1908-kano-chronicle"],
+			"confidence": "high"
+		},
+		{
+			"when": "Reign of Kanajeji (1390–1410)",
+			"title": "Horses for slaves",
+			"text": "Kanajeji asks why Kwararafa has stopped paying. They send 200 slaves, and from then on Kano sends horses and Kwararafa sends slaves.",
+			"at": { "name": "Kano", "point": [8.52, 12] },
+			"mark": "treaty",
+			"sources": ["wikipedia-kanajeji", "palmer-1908-kano-chronicle"],
+			"confidence": "high"
+		}
+	],
+	"sources": ["wikipedia-yaji-i", "wikipedia-kanajeji", "palmer-1908-kano-chronicle"],
+	"confidence": "high",
+	"note": "Neither Santolo nor Tagara has been located, so the siege is told but not drawn.",
+	"reviewNotes": ["Some writers read Santolo as an early Kwararafa capital; the Kano Chronicle treats it as a Hausa shrine town. Both readings are kept apart here."]
+}

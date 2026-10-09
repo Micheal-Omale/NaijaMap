@@ -1,6 +1,27 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Potiskum",
+			"lga": "yobe-potiskum",
+			"point": [
+				11.067,
+				11.717
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-potiskum"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Home of the Karai-Karai, Ngizim and Hausa. The town was organised by the Ngizim, who had subjugated the Karai-Karai; its state was formed in 1809 by the Ngizim chief Mai Bauya.",
+				"sources": [
+					"wikipedia-potiskum"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Karai-Karai",
 	"searchAliases": [

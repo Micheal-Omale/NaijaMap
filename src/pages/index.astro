@@ -20,6 +20,19 @@ const groups = await getGroupViews();
 	<MapApp client:only="react" lang={lang}>
 		<!-- Shown until the map app loads, and to visitors without JavaScript. -->
 		<main slot="fallback" class="fallback">
+			<!-- With JavaScript on, a loading screen shows while the map's code arrives; the text below stays for screen readers. -->
+			<div class="boot" aria-hidden="true">
+				<svg class="boot__mark" viewBox="0 0 512 512">
+					<rect width="512" height="512" rx="112" fill="#0a7650" />
+					<rect x="200" y="96" width="112" height="320" rx="18" fill="#f7efdc" />
+					<circle cx="372" cy="380" r="58" fill="#e8590c" stroke="#f7efdc" stroke-width="18" />
+				</svg>
+				<p class="boot__name">{t('site.name')}</p>
+				<p class="boot__tagline">{t('site.tagline')}</p>
+				<span class="boot__bar"></span>
+				<p class="boot__status">{t('site.loading')}</p>
+				<p class="boot__slow">{t('site.loadingSlow')}</p>
+			</div>
 			<p class="fallback__brand">{t('site.name')}</p>
 			<p class="fallback__tagline">{t('site.tagline')}</p>
 			<h2>{t('site.groupsHeading')}</h2>
@@ -43,6 +56,119 @@ const groups = await getGroupViews();
 </Base>
 
 <style>
+	.boot {
+		display: none;
+	}
+
+	:global(.js) .boot {
+		position: fixed;
+		inset: 0;
+		z-index: 10;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 6px;
+		padding: 24px 16px;
+		background: var(--bg, var(--surface));
+		color: var(--ink);
+		text-align: center;
+		animation: boot-in 0.5s ease-out both;
+	}
+
+	/* The text-only page stays in the document for screen readers, out of sight. */
+	:global(.js) .fallback > :not(.boot) {
+		position: absolute;
+		width: 1px;
+		height: 1px;
+		overflow: hidden;
+		clip: rect(0 0 0 0);
+		white-space: nowrap;
+	}
+
+	.boot__mark {
+		width: 64px;
+		height: 64px;
+		margin-bottom: 10px;
+		border-radius: 14px;
+		box-shadow: var(--shadow);
+	}
+
+	.boot__name {
+		margin: 0;
+		font-family: var(--font-display);
+		font-size: 1.75rem;
+		font-weight: 700;
+	}
+
+	.boot__tagline {
+		max-width: 22rem;
+		margin: 0 0 18px;
+		color: var(--ink-muted);
+		font-size: 0.9375rem;
+	}
+
+	/* An unhurried sweep, not a percentage: the wait cannot be measured. */
+	.boot__bar {
+		position: relative;
+		width: 160px;
+		height: 3px;
+		overflow: hidden;
+		border-radius: 3px;
+		background: color-mix(in srgb, var(--ink) 12%, transparent);
+	}
+
+	.boot__bar::after {
+		content: '';
+		position: absolute;
+		inset: 0;
+		width: 40%;
+		border-radius: inherit;
+		background: var(--highlight);
+		animation: boot-sweep 1.4s cubic-bezier(0.65, 0, 0.35, 1) infinite;
+	}
+
+	.boot__status {
+		margin: 10px 0 0;
+		color: var(--ink-muted);
+		font-size: 0.8125rem;
+	}
+
+	.boot__slow {
+		max-width: 20rem;
+		margin: 4px 0 0;
+		color: var(--ink-muted);
+		font-size: 0.8125rem;
+		opacity: 0;
+		animation: boot-in 0.6s ease-out 10s both;
+	}
+
+	@keyframes boot-sweep {
+		from {
+			transform: translateX(-100%);
+		}
+		to {
+			transform: translateX(250%);
+		}
+	}
+
+	@keyframes boot-in {
+		from {
+			opacity: 0;
+		}
+		to {
+			opacity: 1;
+		}
+	}
+
+	@media (prefers-reduced-motion: reduce) {
+		.boot__bar::after {
+			animation: none;
+			width: 100%;
+			opacity: 0.6;
+		}
+	}
+
 	.fallback {
 		max-width: 40rem;
 		margin: 0 auto;

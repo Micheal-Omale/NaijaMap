@@ -1,0 +1,63 @@
+{
+	"name": "Okun",
+	"status": "draft",
+	"groups": [
+		"yoruba"
+	],
+	"rule": "chiefdoms",
+	"span": {
+		"from": 1000,
+		"to": 1898,
+		"fromLabel": "before written records",
+		"toLabel": "1898",
+		"sources": [
+			"wikipedia-okun-people",
+			"wikipedia-ebira-people"
+		],
+		"confidence": "medium",
+		"note": "The start of the timeline, not a founding date."
+	},
+	"summary": {
+		"text": "The Okun are the north-eastern Yoruba of the Niger–Benue confluence: the Owe of Kabba, the Iyagba (Yagba), Adde, Gbede, Bunu, Ikiri and Oworo. Each lived in small city-states with rulers of their own, and none had a central government. Their traditions bring them from Ile-Ife or Oyo; the Yagba name comes from a leader who, blamed for losing land to other migrants, answered “Iya agba lo je mi”. The archaeologist Ade Obayemi held that the first Okun were aboriginal to the confluence, living in rock shelters such as Itaakpa and Ogbogba hill at Iffe, Udeniwu at Ayere and Ohura hill in Bunu, and were joined later by migrants.",
+		"sources": [
+			"wikipedia-okun-people"
+		],
+		"confidence": "medium"
+	},
+	"end": {
+		"text": "From the 1850s Nupe armies from Bida overran Okun country, made the Obaro of Kabba their tribute collector, and in the 1890s demanded boys and girls as tribute. The Okun towns rose in the Ogidi grand alliance in 1894; in January 1897 the Royal Niger Company declared the north-east Yoruba free of Bida at Kabba, and in 1898 the British set up a military post there.",
+		"sources": [
+			"idrees-1989-bida",
+			"wikipedia-okun-people"
+		],
+		"confidence": "high"
+	},
+	"lands": [
+		{
+			"from": 1000,
+			"to": 1849,
+			"lgas": [
+				"kogi-ijumu",
+				"kogi-kabba-bunu",
+				"kogi-yagba-east",
+				"kogi-yagba-west",
+				"kogi-mopa-muro"
+			]
+		},
+		{
+			"from": 1850,
+			"lgas": [
+				"kogi-ijumu",
+				"kogi-kabba-bunu",
+				"kogi-yagba-east",
+				"kogi-yagba-west",
+				"kogi-mopa-muro",
+				"kogi-lokoja"
+			],
+			"label": "Okun (under Bida)",
+			"confidence": "medium",
+			"note": "Oworo towns near Lokoja included; Okun country is Bida's tributary from the 1850s."
+		}
+	],
+	"reviewNotes": []
+}

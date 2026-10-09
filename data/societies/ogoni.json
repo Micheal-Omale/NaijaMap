@@ -1,0 +1,45 @@
+{
+	"name": "Ogoni",
+	"status": "draft",
+	"groups": [
+		"ogoni"
+	],
+	"rule": "kingdoms",
+	"span": {
+		"from": 1000,
+		"to": 1914,
+		"fromLabel": "before written records",
+		"toLabel": "1901–1914",
+		"sources": [
+			"wikipedia-ogoni"
+		],
+		"confidence": "medium",
+		"note": "The start of the timeline, not a founding date."
+	},
+	"summary": {
+		"text": "Ogoniland, between Port Harcourt and the Imo river, was made up of six kingdoms: Babbe, Gokana, Ken-Khana, Nyo-Khana, Tai and Eleme, each arranging its own chiefs and affairs community by community. Their tradition brings them from far to the west along the coast; their neighbours' name for them, from the Ibani Ijaw word igoni, means “strangers”. By their own account they came through the centuries of the slave trade in relative isolation, without losing people to it, and at the start of the 20th century “the world to them did not extend beyond the next three or four villages”.",
+		"sources": [
+			"wikipedia-ogoni"
+		],
+		"confidence": "medium"
+	},
+	"end": {
+		"text": "British soldiers reached Ogoni in 1901, and resistance went on until 1914.",
+		"sources": [
+			"wikipedia-ogoni"
+		],
+		"confidence": "medium"
+	},
+	"lands": [
+		{
+			"from": 1000,
+			"lgas": [
+				"rivers-khana",
+				"rivers-gokana",
+				"rivers-tai",
+				"rivers-eleme"
+			]
+		}
+	],
+	"reviewNotes": []
+}

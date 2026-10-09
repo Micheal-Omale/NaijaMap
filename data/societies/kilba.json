@@ -1,0 +1,44 @@
+{
+	"name": "Kilba",
+	"status": "draft",
+	"groups": [
+		"kilba"
+	],
+	"rule": "chiefdoms",
+	"span": {
+		"from": 1000,
+		"to": 1849,
+		"fromLabel": "before written records",
+		"toLabel": "1800s",
+		"sources": [
+			"wikipedia-kilba"
+		],
+		"confidence": "medium",
+		"note": "The start of the timeline, not a founding date."
+	},
+	"summary": {
+		"text": "The Kilba (Həba) lived in large clan-based mountain communities, among them Pella, Gwaja, Hong, Kulinyi, Garaha, Bangshika and the Gaya hills, each of several villages and ruled by its Təl kəra ma, “king of the mountain top”, a ruler both secular and religious, with a cabinet of officers such as the Yaduma, Midala and Dzarma. They kept a formidable army. The traveller Heinrich Barth called Həba a well-organised kingdom.",
+		"sources": [
+			"wikipedia-kilba"
+		],
+		"confidence": "medium"
+	},
+	"end": {
+		"text": "The jihad never conquered them: in the end Fulani and Kilba agreed a truce on market days at Pella and Mbilla.",
+		"sources": [
+			"wikipedia-kilba"
+		],
+		"confidence": "medium"
+	},
+	"lands": [
+		{
+			"from": 1000,
+			"lgas": [
+				"adamawa-hong"
+			]
+		}
+	],
+	"reviewNotes": [
+		"The Kilba source says the jihad never conquered them, but this map’s Sokoto Caliphate rules Hong from 1850, so their name leaves the map then. One of the two needs correcting."
+	]
+}

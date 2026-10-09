@@ -1,0 +1,26 @@
+{
+	"status": "draft",
+	"title": "Onyeama N’Eke, warrant chief of Eke",
+	"kind": "warrant",
+	"year": 1908,
+	"yearLabel": "from 1908",
+	"until": 1933,
+	"seat": {
+		"name": "Eke (Udi)",
+		"point": [
+			7.3589,
+			6.4549
+		]
+	},
+	"by": "the British administration",
+	"first": "Chief Onyeama N’Eke (1870s–1933)",
+	"groups": [
+		"igbo"
+	],
+	"text": "When British rule reached Eke in 1908, Onyeama, already rich, bought his way into the Ozo title society and got the colonists to award him the warrant chiefdom of Eke. He became one of the most powerful warrant chiefs in colonial Igboland, an upstart to the older chiefs, who clashed even with the District Officer.",
+	"sources": [
+		"wikipedia-waawa"
+	],
+	"confidence": "high",
+	"reviewNotes": []
+}

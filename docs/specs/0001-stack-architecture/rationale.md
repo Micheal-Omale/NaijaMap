@@ -4,7 +4,7 @@
 
 > ⚠️ Premise note: two of the engineer's picks carry known risks that the plan has to carry forward. First, Vercel's free plan is for non commercial use and caps bandwidth, while the scope plans a donate link and counts success by sharing, which is how traffic spikes happen. Second, with Vercel logs only, a map that crashes on a particular phone is invisible to the owner. Neither blocks building. Both are recorded as follow ups with a concrete fallback, so they are checked rather than forgotten.
 
-NiajMap is a free, public, educational map of Nigeria with two modes: a present day ethnic atlas (groups mapped to LGAs and enclave towns) and a historical timeline of precolonial states from about 1000 AD to 1996. It is also the owner's portfolio piece. The team is one person working with an AI assistant. The scope is built as Tracer Bullet slices (one thin real thread end to end first, then thicken it); the first slice is "search Igala, see it on the map, open its profile, live on the internet".
+HistoNaija is a free, public, educational map of Nigeria with two modes: a present day ethnic atlas (groups mapped to LGAs and enclave towns) and a historical timeline of precolonial states from about 1000 AD to 1996. It is also the owner's portfolio piece. The team is one person working with an AI assistant. The scope is built as Tracer Bullet slices (one thin real thread end to end first, then thicken it); the first slice is "search Igala, see it on the map, open its profile, live on the internet".
 
 The forces:
 - **Cost**: hosting must be free. There is no budget for a running server or a paid database.

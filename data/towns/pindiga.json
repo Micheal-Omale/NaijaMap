@@ -1,0 +1,26 @@
+{
+	"name": "Pindiga",
+	"status": "draft",
+	"otherNames": [],
+	"point": [10.953, 9.982],
+	"founded": { "year": 1550, "yearLabel": "16th–17th century", "sources": ["wikipedia-pindiga", "wikipedia-kwararafa"], "confidence": "medium" },
+	"summary": {
+		"text": "Pindiga, in Akko LGA of Gombe State, began as a Jukun settlement on a rock. Kwararafa tradition names its founder as the hunter Gidi-Gidi, and some writers count it among Kwararafa's early capitals. From 1815 Buba Yero of Gombe made war on it, and its people held out on the rocks of Kartum and Puli behind the town until the British conquered Gombe in 1903. It is now the seat of an emirate within Gombe.",
+		"sources": ["wikipedia-pindiga", "wikipedia-kwararafa", "wikipedia-gombe-emirate"],
+		"confidence": "medium"
+	},
+	"founders": [
+		{
+			"people": "Jukun",
+			"group": "jukun",
+			"polity": "kwararafa",
+			"text": "The hunter Gidi-Gidi, by Kwararafa tradition.",
+			"sources": ["wikipedia-kwararafa", "wikipedia-pindiga"],
+			"confidence": "medium"
+		}
+	],
+	"under": [
+		{ "polity": "kwararafa", "from": 1550, "to": 1812, "kind": "ruled", "text": "A Jukun town of the confederacy; Meek counted its dialect among the Jukun dialects.", "sources": ["wikipedia-kwararafa", "wikipedia-jukun"], "confidence": "medium" }
+	],
+	"reviewNotes": ["The founding date is the Wikipedia article's “16th and 17th century”. Kwararafa tradition makes Gidi-Gidi earlier."]
+}

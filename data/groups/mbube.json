@@ -1,6 +1,75 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Mbube villages",
+			"lga": "cross-river-ogoja",
+			"point": [
+				8.851,
+				6.557
+			],
+			"villages": [
+				{
+					"name": "Igoli",
+					"point": [
+						8.851,
+						6.557
+					]
+				},
+				{
+					"name": "Odajie"
+				},
+				{
+					"name": "Ekumtak"
+				},
+				{
+					"name": "Idum"
+				},
+				{
+					"name": "Ojerim"
+				},
+				{
+					"name": "Egbe"
+				},
+				{
+					"name": "Ogberia Ogang"
+				},
+				{
+					"name": "Ogberia Ochoro"
+				},
+				{
+					"name": "Oboso"
+				},
+				{
+					"name": "Benkpe"
+				},
+				{
+					"name": "Edide"
+				},
+				{
+					"name": "Bansan"
+				},
+				{
+					"name": "Aragban"
+				},
+				{
+					"name": "Nkim"
+				}
+			],
+			"sources": [
+				"wikipedia-ogoja",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Mbube is one of the major peoples of Ogoja LGA, with Igoli as the central town.",
+				"sources": [
+					"wikipedia-ogoja"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [
 		"The Ishibori (Igoli) of Ogoja are not yet mapped separately."
 	],

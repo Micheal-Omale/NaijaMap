@@ -1,6 +1,25 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Shuwa of Maiduguri",
+			"lga": "borno-jere",
+			"villages": [],
+			"sources": [
+				"wikipedia-maiduguri",
+				"wikipedia-al-kanemi"
+			],
+			"confidence": "medium",
+			"history": {
+				"text": "The Shuwa are among the Muslim peoples of Maiduguri; Shuwa Arab soldiers fought for al-Kanemi in his defence of Bornu in 1808.",
+				"sources": [
+					"wikipedia-maiduguri",
+					"wikipedia-al-kanemi"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Shuwa Arab",
 	"searchAliases": [

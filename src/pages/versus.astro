@@ -1,0 +1,40 @@
+---
+import Base from '../layouts/Base.astro';
+import Versus from '../components/versus/Versus';
+import { getLangFromUrl, useTranslations } from '../i18n/utils';
+
+const lang = getLangFromUrl(Astro.url);
+const { t } = useTranslations(lang);
+---
+
+<Base title={`${t('versus.title')} · ${t('site.name')}`} description={t('versus.lede')}>
+	<Fragment slot="head">
+		<!-- The old-map mood, set before the first paint. -->
+		<script is:inline>document.documentElement.dataset.mood = 'then';</script>
+		<link rel="preload" href="/data/versus.json" as="fetch" crossorigin="anonymous" />
+		<link rel="preload" href="/data/history.json" as="fetch" crossorigin="anonymous" />
+	</Fragment>
+	<Versus client:only="react" lang={lang}>
+		<main slot="fallback" class="vs-fallback">
+			<h1>{t('versus.title')}</h1>
+			<p>{t('versus.lede')}</p>
+			<p><a href="/?mode=then">{t('versus.back')}</a></p>
+		</main>
+	</Versus>
+</Base>
+
+<style>
+	.vs-fallback {
+		max-width: 40rem;
+		margin: 0 auto;
+		padding: 2rem 1rem;
+	}
+
+	/* The page scrolls; the map pages fix the body to the screen. */
+	:global(html:has(.vs)),
+	:global(body:has(.vs)) {
+		height: auto;
+		min-height: 100%;
+		background: #0c0a08;
+	}
+</style>

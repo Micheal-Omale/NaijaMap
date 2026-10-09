@@ -1,0 +1,68 @@
+{
+	"name": "1966: the coups, the massacres and the flight east",
+	"status": "draft",
+	"kind": "migration",
+	"year": 1966,
+	"yearLabel": "January 1966 – May 1967",
+	"until": 1967,
+	"actors": [
+		{ "name": "The January majors (Nzeogwu, Ifeajuna)", "side": "attacker" },
+		{ "name": "Northern officers of the July counter-coup", "side": "attacker", "ink": "#2e6b3f" },
+		{ "name": "Igbo and other Easterners in the North", "side": "migrant", "ink": "#7a5a8a" }
+	],
+	"summary": {
+		"text": "On 15 January 1966 young army majors led by Chukwuma Kaduna Nzeogwu and Emmanuel Ifeajuna killed the Prime Minister, Abubakar Tafawa Balewa, the Northern Premier, Ahmadu Bello, the Western Premier, Ladoke Akintola, and senior officers. Major-General Johnson Aguiyi-Ironsi crushed the coup and took power. Most of the plotters, and Ironsi himself, were Igbo, and the North saw an ‘Igbo coup’. On 29 July Northern soldiers mutinied at Abeokuta and killed Ironsi and his host, Colonel Adekunle Fajuyi, at Ibadan. Yakubu Gowon took command. From May to October, massacres in the Northern cities, worst on 29 September (‘Black Thursday’), killed between 8,000 and 30,000 Igbo and other Easterners. More than a million fled home to the East. Talks at Aburi in Ghana in January 1967 broke down. On 27 May 1967 Gowon split the Eastern Region into three states, and on 30 May the Eastern governor, Odumegwu Ojukwu, declared the Republic of Biafra.",
+		"sources": ["wikipedia-nigerian-civil-war", "wikipedia-anti-igbo-pogrom-1966"],
+		"confidence": "high"
+	},
+	"routes": [
+		{ "kind": "retreat", "by": "Igbo and other Easterners in the North", "path": [[8.52, 12.0], [7.7, 9.5], [7.49, 6.45]], "label": "From Kano and the North, home to the East", "sources": ["wikipedia-anti-igbo-pogrom-1966"], "confidence": "high" },
+		{ "kind": "retreat", "by": "Igbo and other Easterners in the North", "path": [[7.44, 10.52], [7.6, 8.5], [7.49, 6.45]], "label": "From Kaduna and Zaria", "sources": ["wikipedia-anti-igbo-pogrom-1966"], "confidence": "high" },
+		{ "kind": "retreat", "by": "Igbo and other Easterners in the North", "path": [[8.54, 7.73], [7.9, 7.0], [7.49, 6.45]], "label": "From Makurdi", "sources": ["wikipedia-nigerian-civil-war"], "confidence": "high" }
+	],
+	"moments": [
+		{
+			"when": "15 January 1966",
+			"title": "The coup of the majors",
+			"text": "Major Nzeogwu kills Ahmadu Bello, the Sardauna, in Kaduna. In Lagos the Prime Minister, Tafawa Balewa, is murdered. Ironsi suppresses the coup in the South and takes power.",
+			"at": { "name": "Kaduna", "point": [7.44, 10.52] },
+			"mark": "massacre",
+			"sources": ["wikipedia-nigerian-civil-war"]
+		},
+		{
+			"when": "29 July 1966",
+			"title": "The counter-coup",
+			"text": "Northern soldiers mutiny at Abeokuta. Ironsi and his host Colonel Fajuyi are killed at Ibadan, and about 240 Southern soldiers are killed in the barracks. Gowon takes command.",
+			"at": { "name": "Ibadan", "point": [3.9, 7.38] },
+			"mark": "massacre",
+			"sources": ["wikipedia-nigerian-civil-war", "wikipedia-anti-igbo-pogrom-1966"]
+		},
+		{
+			"when": "29 September 1966",
+			"title": "Black Thursday",
+			"text": "The worst day of the massacres of Easterners in the Northern cities, led in many places by soldiers. The Sabon Gari quarters empty as survivors flee east.",
+			"at": { "name": "Kano", "point": [8.52, 12.0] },
+			"mark": "massacre",
+			"sources": ["wikipedia-anti-igbo-pogrom-1966", "wikipedia-nigerian-civil-war"]
+		},
+		{
+			"when": "January 1967",
+			"title": "Aburi",
+			"text": "Ojukwu and Gowon meet at Aburi in Ghana and agree on a looser federation, but each side accuses the other of breaking the accord.",
+			"at": { "name": "Aburi, Ghana", "point": [-0.18, 5.85] },
+			"mark": "treaty",
+			"sources": ["wikipedia-nigerian-civil-war"]
+		},
+		{
+			"when": "30 May 1967",
+			"title": "Biafra declared",
+			"text": "Three days after the East is split into three states, Ojukwu declares the Eastern Region the Republic of Biafra.",
+			"at": { "name": "Enugu", "point": [7.49, 6.45] },
+			"mark": "founded",
+			"sources": ["wikipedia-nigerian-civil-war"]
+		}
+	],
+	"sources": ["wikipedia-nigerian-civil-war", "wikipedia-anti-igbo-pogrom-1966"],
+	"confidence": "high",
+	"note": "Death tolls are estimates and contested; the range here is the one the cited sources give."
+}

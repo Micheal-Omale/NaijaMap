@@ -1,0 +1,51 @@
+{
+	"name": "Western Ijaw clans",
+	"status": "draft",
+	"groups": [
+		"ijaw"
+	],
+	"rule": "villages",
+	"span": {
+		"from": 1000,
+		"to": 1900,
+		"fromLabel": "before written records",
+		"toLabel": "c. 1900",
+		"sources": [
+			"wikipedia-ijaw"
+		],
+		"confidence": "medium",
+		"note": "The start of the timeline, not a founding date. The end is approximate."
+	},
+	"summary": {
+		"text": "The western Ijaw (Izon) clans, among them Tuomo, Egbema, Ekeremor, Sagbama (Mein), Bassan, Apoi, Arogbo, Boma, Kabo, Ogboin, Tarakiri and Kolokuma-Opokuma, had no central kings. Each community had its own chiefs and government, some shaped by the example of Benin, and they lived by fishing and trading on routes connected to the wider Delta as early as the 15th century. Bonny's founders came, by tradition, from Kolokuma. The eastern Ijaw, by contrast, built the trading kingdoms of Kalabari, Bonny, Okrika and Nembe.",
+		"sources": [
+			"wikipedia-ijaw",
+			"wikipedia-bonny-kingdom"
+		],
+		"confidence": "medium"
+	},
+	"lands": [
+		{
+			"from": 1000,
+			"label": "Ijaw",
+			"lgas": [
+				"bayelsa-sagbama",
+				"bayelsa-ekeremor",
+				"bayelsa-kolokuma-opokuma",
+				"bayelsa-southern-ijaw",
+				"delta-burutu",
+				"delta-bomadi"
+			]
+		}
+	],
+	"reviewNotes": [
+		"Needs a written source for the date British rule reached this people."
+	],
+	"end": {
+		"text": "In 1888 the Royal Niger Company made treaties with Ijaw communities on the Forcados river, over Itsekiri protests; the Company and then the British protectorates took control of the western Delta waterways in the 1890s.",
+		"sources": [
+			"wikipedia-nana-olomu"
+		],
+		"confidence": "medium"
+	}
+}

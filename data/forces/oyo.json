@@ -1,0 +1,144 @@
+{
+	"status": "draft",
+	"of": "polity",
+	"terrain": "savanna",
+	"summary": {
+		"text": "Oyo was a cavalry empire. Horses bought from the north could live in the open savanna around Oyo-Ile, where the tsetse fly was rarer, and its horsemen raided as far as Dahomey. The same horses died in the forest, so Oyo could raid the south but never hold it with cavalry.",
+		"sources": [
+			"wikipedia-oyo-empire",
+			"law-1977",
+			"law-1980-horse"
+		],
+		"confidence": "high"
+	},
+	"arms": [
+		{
+			"kind": "cavalry",
+			"level": 3,
+			"from": 1610,
+			"to": 1836,
+			"text": "Horsemen were the core of the army; one account puts the force sent against Dahomey at over 100,000 riders.",
+			"sources": [
+				"wikipedia-oyo-empire",
+				"law-1977",
+				"law-1980-horse"
+			],
+			"confidence": "high"
+		},
+		{
+			"kind": "cavalry",
+			"level": 1,
+			"from": 1400,
+			"to": 1609,
+			"text": "In exile at Igboho the court rebuilt slowly; the great cavalry came with the return to Oyo-Ile.",
+			"sources": [
+				"wikipedia-oyo-empire",
+				"law-1977"
+			],
+			"confidence": "medium"
+		},
+		{
+			"kind": "standing",
+			"level": 2,
+			"from": 1610,
+			"text": "Seventy war chiefs, the Eso, nominated by the Oyo Mesi, under the Are-Ona-Kakanfo, who lived on the frontier.",
+			"sources": [
+				"wikipedia-oyo-empire",
+				"law-1977"
+			],
+			"confidence": "high"
+		},
+		{
+			"kind": "allies",
+			"level": 2,
+			"from": 1730,
+			"text": "Tributaries from the Egbado corridor to Dahomey owed levies and tribute.",
+			"sources": [
+				"law-1977",
+				"wikipedia-oyo-empire"
+			],
+			"confidence": "medium"
+		},
+		{
+			"kind": "firearms",
+			"level": 1,
+			"from": 1800,
+			"text": "Oyo did not use guns in its great conquests and only took them up in the 19th century.",
+			"sources": [
+				"wikipedia-oyo-empire"
+			],
+			"confidence": "high"
+		}
+	],
+	"record": [
+		{
+			"year": 1535,
+			"yearLabel": "c. 1535",
+			"polity": "nupe",
+			"event": "oyo-exile-igboho",
+			"against": "Nupe",
+			"result": "lost",
+			"text": "Nupe sacked Oyo-Ile; the court fled into exile at Igboho for most of a century.",
+			"sources": [
+				"wikipedia-oyo-empire",
+				"law-1977"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1748,
+			"yearLabel": "1726–1748",
+			"event": "oyo-dahomey-wars",
+			"against": "Dahomey",
+			"result": "won",
+			"text": "After invasions from 1726, Dahomey was made to pay yearly tribute, finally settled in 1748.",
+			"sources": [
+				"wikipedia-oyo-empire",
+				"akinjogbin-1967",
+				"law-1977"
+			],
+			"confidence": "high"
+		},
+		{
+			"year": 1783,
+			"polity": "borgu",
+			"against": "Borgu",
+			"result": "lost",
+			"text": "Alaafin Abiodun’s army was beaten by Borgu at Gberegburu, losing some eleven generals.",
+			"sources": [
+				"wikipedia-oyo-empire",
+				"wikipedia-borgu"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1789,
+			"polity": "nupe",
+			"against": "Nupe",
+			"result": "lost",
+			"text": "A campaign against Nupe failed with the loss of some thirteen generals and their men.",
+			"sources": [
+				"wikipedia-oyo-empire"
+			],
+			"confidence": "medium"
+		},
+		{
+			"year": 1836,
+			"yearLabel": "c. 1836",
+			"polity": "sokoto",
+			"event": "fall-of-oyo",
+			"against": "Ilorin and the Sokoto Caliphate",
+			"result": "lost",
+			"text": "Ilorin, now an emirate of the caliphate, destroyed Oyo-Ile; the Alaafin and the Bariba king of Nikki fell in the war of Eleduwe.",
+			"sources": [
+				"wikipedia-borgu",
+				"law-1977",
+				"johnson-1921"
+			],
+			"confidence": "high"
+		}
+	],
+	"reviewNotes": [
+		"Arms levels (1 some, 2 a real strength, 3 famous for it) are the compiler’s judgement from the sources, for the Versus page’s guess; please check them."
+	]
+}

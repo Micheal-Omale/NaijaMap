@@ -1,0 +1,79 @@
+{
+	"name": "Oyo's failed attack on Benin",
+	"status": "draft",
+	"kind": "war",
+	"year": 1578,
+	"yearLabel": "between 1578 and 1608",
+	"until": 1610,
+	"actors": [
+		{
+			"name": "Oyo",
+			"polity": "oyo",
+			"side": "attacker"
+		},
+		{
+			"name": "Benin",
+			"polity": "benin",
+			"side": "defender"
+		}
+	],
+	"summary": {
+		"text": "After its return from exile Oyo tried to conquer the kingdom of Benin, some time between 1578 and 1608. Its cavalry could not get through the hills of Ekiti, and the campaign failed. Some Ekiti kingdoms fell under Oyo, Otun Ekiti remained a free town between the two powers, and Oyo left the non-Yoruba lands south-east of its heartland alone as a buffer with Benin.",
+		"sources": [
+			"wikipedia-oyo-empire"
+		],
+		"confidence": "medium"
+	},
+	"routes": [
+		{
+			"kind": "advance",
+			"by": "Oyo",
+			"path": [
+				[
+					4.3075,
+					8.9747
+				],
+				[
+					5.13,
+					7.99
+				],
+				[
+					5.4,
+					7.2
+				]
+			],
+			"label": "Towards Benin through Ekiti",
+			"note": "Direction only; the army stalled in the Ekiti hills.",
+			"sources": [
+				"wikipedia-oyo-empire"
+			],
+			"confidence": "medium"
+		}
+	],
+	"moments": [
+		{
+			"when": "1578–1608",
+			"title": "Stopped by the hills",
+			"text": "Oyo's horse cannot pass the Ekiti hills; Otun Ekiti is left as a buffer.",
+			"at": {
+				"name": "Otun Ekiti",
+				"point": [
+					5.13,
+					7.99
+				]
+			},
+			"mark": "camp",
+			"sources": [
+				"wikipedia-oyo-empire"
+			],
+			"confidence": "medium"
+		}
+	],
+	"sources": [
+		"wikipedia-oyo-empire"
+	],
+	"confidence": "medium",
+	"reviewNotes": [
+		"Benin's own tradition of this war has not been checked."
+	]
+}

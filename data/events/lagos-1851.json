@@ -1,0 +1,37 @@
+{
+	"name": "The British bombard Lagos",
+	"status": "draft",
+	"kind": "colonial",
+	"year": 1851,
+	"yearLabel": "26–28 December 1851",
+	"until": 1861,
+	"actors": [{ "name": "British forces", "side": "colonial" }, { "name": "Oba Kosoko of Lagos", "polity": "lagos", "side": "defender" }],
+	"summary": {
+		"text": "A Royal Navy squadron forced the Lagos bar and shelled the town for three days. Oba Kosoko fled east to Epe, and the British installed his rival Akitoye, who signed a treaty against the slave trade. A decade of consular rule followed, and in 1861 Oba Dosunmu, under threat of bombardment, ceded Lagos to the Crown.",
+		"sources": ["wikipedia-reduction-of-lagos", "mann-2007"],
+		"confidence": "high"
+	},
+	"routes": [
+		{ "kind": "voyage", "vessel": "steam", "by": "British forces", "path": [[2.2, 5.3], [3.1, 5.95], [3.39, 6.3], [3.394, 6.455]], "label": "Royal Navy ships force the bar and shell the town" },
+		{ "kind": "retreat", "by": "Oba Kosoko of Lagos", "path": [[3.394, 6.455], [3.7, 6.56], [3.98, 6.58]], "label": "Kosoko flees to Epe" }
+	],
+	"moments": [
+		{
+			"when": "26–28 December 1851",
+			"title": "Lagos bombarded",
+			"text": "Three days of shelling and fighting; much of the town burns.",
+			"at": { "name": "Eko (Lagos Island)", "point": [3.394, 6.455] },
+			"mark": "bombarded"
+		},
+		{ "when": "1 January 1852", "title": "Treaty with Akitoye", "text": "The new Oba signs a treaty abolishing the slave trade at Lagos.", "mark": "treaty" },
+		{
+			"when": "6 August 1861",
+			"title": "Lagos ceded",
+			"text": "Oba Dosunmu signs the cession: Lagos becomes a British colony, the first in what is now Nigeria.",
+			"at": { "name": "Eko (Lagos Island)", "point": [3.394, 6.455] },
+			"mark": "captured"
+		}
+	],
+	"sources": ["wikipedia-reduction-of-lagos", "mann-2007"],
+	"confidence": "high"
+}

@@ -1,6 +1,23 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Abzinawa of the Sokoto border",
+			"lga": "sokoto-tangaza",
+			"villages": [],
+			"alsoIn": [
+				"sokoto-gada",
+				"sokoto-gudu",
+				"sokoto-illela",
+				"sokoto-sabon-birni"
+			],
+			"sources": [
+				"sokoto-state-gov-people",
+				"wikipedia-sokoto-state"
+			],
+			"confidence": "medium"
+		}
+	],
 	"reviewNotes": [
 		"Wikipedia also lists Tuareg for 'Sokoto' without saying which of the city's LGAs."
 	],

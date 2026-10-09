@@ -1,0 +1,40 @@
+{
+	"name": "Oyo’s wars on Dahomey",
+	"status": "draft",
+	"kind": "war",
+	"year": 1726,
+	"yearLabel": "1726–1748",
+	"until": 1750,
+	"actors": [{ "name": "Oyo Empire", "polity": "oyo", "side": "attacker" }, { "name": "Kingdom of Dahomey", "side": "defender" }],
+	"summary": {
+		"text": "Oyo’s cavalry invaded Dahomey in 1726, defeated King Agaja and burned Abomey, then came back in 1728, 1729 and 1730 until Agaja agreed to pay a yearly tribute. When Tegbesu haggled over it, Oyo invaded again in 1748 and forced a higher tribute, which Dahomey paid until 1823.",
+		"sources": ["wikipedia-agaja", "law-1977", "akinjogbin-1967"],
+		"confidence": "high"
+	},
+	"routes": [{ "kind": "advance", "by": "Oyo Empire", "path": [[4.3075, 8.9747], [3.3, 8.6], [2.45, 7.95], [1.99, 7.18]], "label": "Oyo’s cavalry rides on Dahomey" }],
+	"moments": [
+		{
+			"when": "1726",
+			"title": "Abomey burned",
+			"text": "The first invasion defeats Agaja’s army and burns his capital.",
+			"at": { "name": "Abomey (Dahomey)", "point": [1.99, 7.18] },
+			"mark": "burned"
+		},
+		{
+			"when": "1730",
+			"title": "Tribute agreed",
+			"text": "After invasions in 1728, 1729 and 1730, Agaja agrees to a yearly tribute of people, guns, cloth and cowries.",
+			"at": { "name": "Abomey (Dahomey)", "point": [1.99, 7.18] },
+			"mark": "treaty"
+		},
+		{
+			"when": "1748",
+			"title": "A higher tribute",
+			"text": "Oyo invades again and Tegbesu flees, then agrees a higher tribute. It is paid until 1823.",
+			"at": { "name": "Abomey (Dahomey)", "point": [1.99, 7.18] },
+			"mark": "treaty"
+		}
+	],
+	"sources": ["wikipedia-agaja", "law-1977", "akinjogbin-1967", "owner-2026-10-07-doc1"],
+	"confidence": "high"
+}

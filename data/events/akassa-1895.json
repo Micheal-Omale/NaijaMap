@@ -1,0 +1,30 @@
+{
+	"name": "The Akassa raid and its reprisal",
+	"status": "draft",
+	"kind": "colonial",
+	"year": 1895,
+	"yearLabel": "January–February 1895",
+	"until": 1905,
+	"actors": [{ "name": "Nembe, under King Koko", "polity": "nembe", "side": "resister" }, { "name": "British forces", "side": "colonial" }],
+	"summary": {
+		"text": "Shut out of the river trade by the Royal Niger Company’s monopoly, the Nembe of Brass under King Koko attacked the Company’s headquarters at Akassa at dawn on 29 January 1895, killing many of its staff. In February a British naval force answered by shelling and burning Nembe.",
+		"sources": ["wikipedia-akassa-raid", "alagoa-1964"],
+		"confidence": "high"
+	},
+	"routes": [
+		{ "kind": "raid", "by": "Nembe, under King Koko", "path": [[6.4, 4.53], [6.2, 4.42], [6.07, 4.33]], "label": "Koko’s war canoes strike the Company at Akassa" },
+		{ "kind": "advance", "by": "British forces", "path": [[6.25, 4.15], [6.4, 4.53]], "label": "The naval reprisal against Nembe" }
+	],
+	"moments": [
+		{
+			"when": "29 January 1895",
+			"title": "Akassa",
+			"text": "The Company’s depot is sacked and many of its staff killed or captured.",
+			"at": { "name": "Akassa", "point": [6.07, 4.33] },
+			"mark": "battle"
+		},
+		{ "when": "February 1895", "title": "Nembe burned", "text": "A naval force shells and burns Nembe.", "at": { "name": "Nembe", "point": [6.4, 4.53] }, "mark": "burned" }
+	],
+	"sources": ["wikipedia-akassa-raid", "alagoa-1964"],
+	"confidence": "high"
+}

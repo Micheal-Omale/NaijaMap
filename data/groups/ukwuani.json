@@ -1,6 +1,92 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Obiaruku",
+			"lga": "delta-ukwuani",
+			"point": [
+				6.157,
+				5.825
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-ukwuani-lga",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Headquarters of Ukwuani LGA, mainly Ukwuani.",
+				"sources": [
+					"wikipedia-ukwuani-lga"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Kwale (Utagba-Ogbe)",
+			"lga": "delta-ndokwa-west",
+			"villages": [
+				{
+					"name": "Emu"
+				},
+				{
+					"name": "Ogume"
+				},
+				{
+					"name": "Abbi"
+				},
+				{
+					"name": "Utagba-Uno"
+				},
+				{
+					"name": "Onicha-Ukwuani"
+				},
+				{
+					"name": "Ijeze"
+				}
+			],
+			"sources": [
+				"wikipedia-ndokwa-west"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Headquarters of Ndokwa West.",
+				"sources": [
+					"wikipedia-ndokwa-west"
+				],
+				"confidence": "high"
+			}
+		},
+		{
+			"name": "Aboh and Ashaka",
+			"lga": "delta-ndokwa-east",
+			"point": [
+				6.53,
+				5.55
+			],
+			"villages": [
+				{
+					"name": "Ashaka",
+					"point": [
+						6.402,
+						5.636
+					]
+				}
+			],
+			"sources": [
+				"wikipedia-ndokwa-east",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Aboh is the headquarters of Ndokwa East; Olaudah Equiano, the writer and abolitionist, was most likely born at Ashaka.",
+				"sources": [
+					"wikipedia-ndokwa-east"
+				],
+				"confidence": "medium"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Ukwuani (Ndokwa)",
 	"searchAliases": [

@@ -1,0 +1,85 @@
+{
+	"name": "Kwararafa invades Kano",
+	"status": "draft",
+	"kind": "raid",
+	"year": 1600,
+	"yearLabel": "c. 1600–1700",
+	"until": 1710,
+	"actors": [{ "name": "Kwararafa", "polity": "kwararafa", "side": "attacker" }, { "name": "Kano", "polity": "kano", "side": "defender" }],
+	"summary": {
+		"text": "Three hundred years after Sarki Yaji of Kano had made Kwararafa pay tribute in slaves, the Benue confederacy turned on Kano. The Kano Chronicle records three invasions. Under Muhammad Zaki (1582–1618) the people of Kano fled to Daura while the invaders “ate up the whole country”. In the 1650s Sarkin Kwararafa Adashu battered down the Kofan Kawayi gate. Under Dadi (1670–1703) they broke in by the Kofan Gadon Kaya, fought as far as the Kurmi market, and the Sarki fled to Daura.",
+		"sources": ["wikipedia-muhammad-zaki", "wikipedia-muhammad-kukuna", "wikipedia-dadi-kano", "wikipedia-kwararafa", "palmer-1908-kano-chronicle"],
+		"confidence": "high"
+	},
+	"routes": [
+		{
+			"kind": "raid",
+			"by": "Kwararafa",
+			"path": [[9.75, 8.18], [8.52, 12]],
+			"label": "Kwararafa armies march on Kano",
+			"when": "c. 1600, 1650s and c. 1671",
+			"note": "Only the start and the target are known. The road the armies took is not recorded.",
+			"confidence": "medium",
+			"sources": ["wikipedia-kwararafa", "palmer-1908-kano-chronicle"]
+		},
+		{
+			"kind": "exile",
+			"by": "Kano",
+			"path": [[8.52, 12], [8.32, 13.04]],
+			"label": "The people of Kano take refuge at Daura",
+			"when": "c. 1600 and c. 1671",
+			"sources": ["wikipedia-muhammad-zaki", "wikipedia-dadi-kano", "wikipedia-kwararafa"],
+			"confidence": "high"
+		}
+	],
+	"moments": [
+		{
+			"when": "Reign of Muhammad Zaki (1582–1618)",
+			"title": "Kano empties to Daura",
+			"text": "The Sarkin Kwararafa attacks. The people of Kano leave the city for Daura, the invaders strip the countryside, and Kano is left weak while Katsina harries it.",
+			"at": { "name": "Daura", "point": [8.32, 13.04] },
+			"mark": "flight",
+			"sources": ["wikipedia-muhammad-zaki", "palmer-1908-kano-chronicle"],
+			"confidence": "high"
+		},
+		{
+			"when": "1650s (reign of Muhammad Kukuna)",
+			"title": "Adashu breaks the Kofan Kawayi",
+			"text": "Sarkin Kwararafa Adashu attacks. Muhammad Kukuna withdraws to Auyo for 40 days, and comes back to find the Kofan Kawayi gate battered down. He rebuilds it. Other writers date this attack to 1653.",
+			"at": { "name": "Kano (the gate itself is not placed)", "point": [8.51, 12.01] },
+			"mark": "captured",
+			"sources": ["wikipedia-muhammad-kukuna", "wikipedia-kwararafa", "palmer-1908-kano-chronicle"],
+			"confidence": "high"
+		},
+		{
+			"when": "Reign of Dadi (1670–1703), often dated 1671",
+			"title": "Kwararafa inside Kano",
+			"text": "Kwararafa enters by the Kofan Gadon Kaya, kills many, and reaches the Kurmi market near the palace. Dadi’s warriors and 99 malams around him are cut down, and the Sarki flees to Daura.",
+			"at": { "name": "Kano (Kofan Gadon Kaya to the Kurmi market)", "point": [8.52, 12] },
+			"mark": "battle",
+			"sources": ["wikipedia-dadi-kano", "wikipedia-kwararafa", "palmer-1908-kano-chronicle"],
+			"confidence": "high"
+		},
+		{
+			"when": "After the invasions (date unknown)",
+			"title": "Igala and Jukun settle at Bebeji",
+			"text": "The owner says Igala and Jukun from the Kwararafa forces stayed and settled in Kano quarters such as Bebeji, 45 km south-west of the city. Later some of these Igala went home and founded the Angwa quarter of Idah (see “The Kano Igala come home”). No written source for the settlement has been found yet, and the Kano Chronicle names a Fulani chief of Bebeji, Abdua, among Dadi’s war chiefs.",
+			"at": { "name": "Bebeji", "point": [8.265, 11.663] },
+			"mark": "founded",
+			"sources": ["owner-2026-10-09-bebeji"],
+			"confidence": "disputed"
+		}
+	],
+	"area": {
+		"lgas": ["kano-kano-municipal", "kano-dala", "kano-gwale", "kano-fagge", "kano-nassarawa", "kano-tarauni", "kano-kumbotso", "kano-ungogo"],
+		"confidence": "medium"
+	},
+	"sources": ["wikipedia-kwararafa", "palmer-1908-kano-chronicle", "owner-2026-10-09-bebeji"],
+	"confidence": "medium",
+	"note": "The Chronicle gives reigns, not years. The years 1653 and 1671 come from later writers.",
+	"reviewNotes": [
+		"Owner: the Igala and Jukun settlement at Bebeji has no written source yet. Which Bebeji families or ward trace their descent to Kwararafa? Is there a book, a palace history or a Bebeji elder who records it?",
+		"The Kwararafa host was a confederacy (Jukun, Igala, Idoma, Alago and others; see forces/kwararafa.json), but no written account of the Kano raids names the Igala.",
+		"The raided area is the old walled city and its fringe by today's LGAs. The Muhammad Zaki invasion stripped much more of the countryside, but how far is not recorded."
+	]
+}

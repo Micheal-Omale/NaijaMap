@@ -1,0 +1,64 @@
+{
+	"name": "Biafra’s Midwest invasion and the Asaba massacre",
+	"status": "draft",
+	"kind": "war",
+	"year": 1967,
+	"yearLabel": "August–October 1967",
+	"until": 1968,
+	"actors": [
+		{ "name": "Biafran Army (Victor Banjo)", "side": "attacker", "ink": "#b8860b" },
+		{ "name": "Nigerian 2nd Division (Murtala Muhammed)", "side": "defender", "ink": "#2e6b3f" },
+		{ "name": "Nigerian 3rd Marine Commando (Benjamin Adekunle)", "side": "defender", "ink": "#2e6b3f" }
+	],
+	"summary": {
+		"text": "On 9 August 1967, 3,000 Biafran soldiers under Victor Banjo, a Yoruba officer, crossed the Niger bridge at Onitsha into Asaba. At Agbor they split up. One battalion took Benin City and pushed west to Ore, 210 km from Lagos. Another took Warri, Sapele and Ughelli, and a third went north to Auchi and Agenebode. Gowon declared ‘total war’ and raised the 2nd Division under Murtala Muhammed. Stopped at Ore, the Biafrans fell back. On 19 September their administrator, Albert Okonkwo, declared the ‘Republic of Benin’, which ended the next day as federal troops entered Benin City. The retreat from Ore is counted the war’s turning point. When the 2nd Division entered Asaba in October, its soldiers killed hundreds of civilians, between 500 and 800, most of them men and boys taken from a crowd that had come out in white to welcome them. Murtala’s three attempts to cross the Niger to Onitsha failed with heavy losses.",
+		"sources": ["wikipedia-midwest-invasion-1967", "wikipedia-republic-of-benin-1967", "wikipedia-asaba-massacre", "wikipedia-first-invasion-of-onitsha", "wikipedia-nigerian-civil-war"],
+		"confidence": "high"
+	},
+	"routes": [
+		{ "kind": "advance", "by": "Biafran Army (Victor Banjo)", "path": [[6.78, 6.15], [6.73, 6.2], [6.19, 6.25], [5.63, 6.34]], "label": "Across the Niger bridge, through Agbor to Benin City", "when": "9 August 1967", "sources": ["wikipedia-midwest-invasion-1967"], "confidence": "high" },
+		{ "kind": "advance", "by": "Biafran Army (Victor Banjo)", "path": [[5.63, 6.34], [5.2, 6.5], [4.873, 6.753]], "label": "West to Ore, 210 km from Lagos", "when": "17–21 August 1967", "sources": ["wikipedia-midwest-invasion-1967"], "confidence": "high" },
+		{ "kind": "advance", "by": "Biafran Army (Victor Banjo)", "path": [[6.19, 6.25], [5.9, 5.8], [5.75, 5.52]], "label": "South to Sapele, Ughelli and Warri", "sources": ["wikipedia-midwest-invasion-1967"], "confidence": "high" },
+		{ "kind": "advance", "by": "Biafran Army (Victor Banjo)", "path": [[6.19, 6.25], [6.3, 6.7], [6.27, 7.07], [6.69, 7.1]], "label": "North to Auchi and Agenebode", "sources": ["wikipedia-midwest-invasion-1967"], "confidence": "high" },
+		{ "kind": "advance", "by": "Nigerian 2nd Division (Murtala Muhammed)", "path": [[4.873, 6.753], [5.63, 6.34], [6.19, 6.25], [6.73, 6.2]], "label": "The 2nd Division drives the Biafrans back to the Niger", "when": "September–October 1967", "sources": ["wikipedia-midwest-invasion-1967", "wikipedia-asaba-massacre"], "confidence": "high" },
+		{ "kind": "advance", "by": "Nigerian 3rd Marine Commando (Benjamin Adekunle)", "path": [[5.2, 5.3], [5.75, 5.52], [5.68, 5.89]], "label": "Adekunle’s marines land at Warri and take Sapele and Ughelli", "sources": ["wikipedia-midwest-invasion-1967"], "confidence": "high" },
+		{ "kind": "retreat", "by": "Biafran Army (Victor Banjo)", "path": [[6.73, 6.2], [6.78, 6.15]], "label": "The Biafrans cross back and blow the Onitsha bridge", "sources": ["wikipedia-asaba-massacre"], "confidence": "high" }
+	],
+	"moments": [
+		{
+			"when": "21 August 1967",
+			"title": "Stopped at Ore",
+			"text": "Federal troops blow the bridges and hold the Biafran 12th Brigade at Ore. The advance on Lagos and Ibadan never comes.",
+			"at": { "name": "Ore", "point": [4.873, 6.753] },
+			"mark": "battle",
+			"sources": ["wikipedia-midwest-invasion-1967"]
+		},
+		{
+			"when": "19–20 September 1967",
+			"title": "The Republic of Benin",
+			"text": "Albert Okonkwo declares a ‘Republic of Benin’ as federal forces close in. It lasts less than a day.",
+			"at": { "name": "Benin City", "point": [5.63, 6.34] },
+			"mark": "founded",
+			"sources": ["wikipedia-republic-of-benin-1967"]
+		},
+		{
+			"when": "5–7 October 1967",
+			"title": "The Asaba massacre",
+			"text": "Soldiers of the 2nd Division ransack Asaba. On 7 October townspeople parade in white akwa ocha, chanting ‘One Nigeria’; at Ogbe-Osowa the men and teenage boys are separated from the women and machine-gunned. An estimated 500–800 die; Quaker relief workers counted 759.",
+			"at": { "name": "Asaba", "point": [6.73, 6.2] },
+			"mark": "massacre",
+			"sources": ["wikipedia-asaba-massacre"]
+		},
+		{
+			"when": "4–12 October 1967",
+			"title": "Onitsha: the river crossings fail",
+			"text": "After eight days of shelling, a boat armada lands in Onitsha. The troops loot and burn the market and are cut off by the Biafran 11th and 18th Battalions under Joseph Achuzie and Assam Nsudoh. The first attempt alone costs the 2nd Division over 5,000 men.",
+			"at": { "name": "Onitsha", "point": [6.78, 6.15] },
+			"mark": "battle",
+			"sources": ["wikipedia-first-invasion-of-onitsha", "wikipedia-abagana-ambush", "wikipedia-nigerian-civil-war"]
+		}
+	],
+	"area": { "states": ["edo", "delta"] },
+	"sources": ["wikipedia-midwest-invasion-1967", "wikipedia-republic-of-benin-1967", "wikipedia-asaba-massacre", "wikipedia-first-invasion-of-onitsha", "wikipedia-nigerian-civil-war"],
+	"confidence": "high"
+}

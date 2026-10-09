@@ -1,6 +1,42 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Zing",
+			"lga": "taraba-zing",
+			"villages": [
+				{
+					"name": "Bitako"
+				},
+				{
+					"name": "Bubong"
+				},
+				{
+					"name": "Dinding"
+				},
+				{
+					"name": "Lamma"
+				},
+				{
+					"name": "Monkin"
+				},
+				{
+					"name": "Yakoko"
+				}
+			],
+			"sources": [
+				"wikipedia-zing"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Predominantly Mumuye, in 12 clans.",
+				"sources": [
+					"wikipedia-zing"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [
 		"Wikipedia calls the Mumuye \"predominant\" in all eight LGAs; Gassol, Bali and Gashaka are marked shared until checked."
 	],

@@ -1,0 +1,601 @@
+{
+	"name": "The First Republic",
+	"status": "draft",
+	"from": 1960,
+	"to": 1966,
+	"label": "1960–1966",
+	"summary": {
+		"text": "At independence the NPC of the North formed the federal government with the NCNC of the East, leaving the Yoruba-led Action Group in opposition. The West split in 1962 when Akintola broke with Awolowo, who was then jailed for treason. In 1963 the Mid-Western Region was carved out of the West for its minorities. Rigged elections in 1964–65 and violence in the West ended in the coup of January 1966.",
+		"sources": [
+			"wikipedia-nigerian-first-republic",
+			"wikipedia-obafemi-awolowo",
+			"wikipedia-samuel-akintola",
+			"wikipedia-mid-western-region-nigeria"
+		],
+		"confidence": "high"
+	},
+	"federal": {
+		"text": "The North held more than half the seats and with them the premiership, through Balewa and the NPC. The Igbo-led NCNC shared power: Azikiwe was Governor-General, then the first President.",
+		"sources": [
+			"wikipedia-nigerian-first-republic",
+			"wikipedia-abubakar-tafawa-balewa",
+			"wikipedia-nnamdi-azikiwe"
+		],
+		"confidence": "high",
+		"leaders": [
+			{
+				"name": "Abubakar Tafawa Balewa",
+				"title": "Prime Minister (NPC)",
+				"from": 1960,
+				"to": 1966,
+				"groupLabel": "Gere",
+				"groupNote": "His father was Gerawa and his mother Fulani. He is often called Hausa; Kperogi notes he was neither Hausa nor Fulani by descent.",
+				"home": {
+					"name": "Tafawa Balewa",
+					"point": [
+						9.76,
+						9.77
+					]
+				},
+				"sources": [
+					"wikipedia-abubakar-tafawa-balewa",
+					"kperogi-2020"
+				],
+				"confidence": "disputed",
+				"party": "npc"
+			},
+			{
+				"name": "Nnamdi Azikiwe",
+				"title": "Governor-General, then President",
+				"from": 1960,
+				"to": 1966,
+				"group": "igbo",
+				"groupNote": "Igbo of Onitsha; born at Zungeru in the North.",
+				"home": {
+					"name": "Onitsha",
+					"point": [
+						6.78,
+						6.15
+					]
+				},
+				"sources": [
+					"wikipedia-nnamdi-azikiwe"
+				],
+				"confidence": "high",
+				"party": "ncnc"
+			}
+		]
+	},
+	"units": [
+		{
+			"id": "northern-region",
+			"name": "Northern Region",
+			"kind": "region",
+			"extent": {
+				"states": [
+					"kano",
+					"jigawa",
+					"katsina",
+					"kaduna",
+					"kebbi",
+					"sokoto",
+					"zamfara",
+					"niger",
+					"kwara",
+					"kogi",
+					"benue",
+					"plateau",
+					"nasarawa",
+					"bauchi",
+					"gombe",
+					"borno",
+					"yobe",
+					"adamawa",
+					"taraba",
+					"fct"
+				]
+			},
+			"seat": {
+				"name": "Kaduna",
+				"point": [
+					7.44,
+					10.52
+				]
+			},
+			"groups": [
+				"fulani",
+				"hausa",
+				"kanuri"
+			],
+			"text": "The Northern People’s Congress (NPC) ruled the North. Its leaders were the Fulani aristocracy of the emirates: the Premier, the Sardauna Ahmadu Bello, was a great-grandson of Caliph Muhammad Bello. Its mass base and much of its officialdom were Hausa, and the Kanuri of Borno held their own emirate establishment. The opposition came from Hausa radicals of NEPU under Aminu Kano, and from the Middle Belt minorities of the UMBC, among them the Tiv under J. S. Tarka.",
+			"leaders": [
+				{
+					"name": "Ahmadu Bello, Sardauna of Sokoto",
+					"title": "Premier of the North (NPC)",
+					"from": 1954,
+					"to": 1966,
+					"group": "fulani",
+					"groupNote": "Fulani royal house of Sokoto; a descendant of Usman dan Fodio.",
+					"home": {
+						"name": "Rabah, Sokoto",
+						"point": [
+							5.5,
+							13.12
+						]
+					},
+					"sources": [
+						"wikipedia-ahmadu-bello"
+					],
+					"confidence": "high"
+				}
+			],
+			"sources": [
+				"wikipedia-northern-region-nigeria",
+				"wikipedia-northern-people-s-congress",
+				"wikipedia-ahmadu-bello"
+			],
+			"confidence": "high",
+			"party": "npc"
+		},
+		{
+			"id": "western-region",
+			"name": "Western Region",
+			"kind": "region",
+			"extent": {
+				"states": [
+					"ogun",
+					"oyo",
+					"osun",
+					"ondo",
+					"ekiti",
+					"lagos"
+				],
+				"except": [
+					"lagos-lagos-island",
+					"lagos-lagos-mainland",
+					"lagos-surulere",
+					"lagos-apapa",
+					"lagos-eti-osa"
+				]
+			},
+			"seat": {
+				"name": "Ibadan",
+				"point": [
+					3.9,
+					7.38
+				]
+			},
+			"groups": [
+				"yoruba"
+			],
+			"text": "The West stayed Yoruba-led, but Yoruba politics split between Awolowo’s Action Group and Akintola’s NNDP, an ally of the NPC. The 1965 election there was rigged, and the violence that followed was nicknamed ‘Wild Wild West’.",
+			"leaders": [
+				{
+					"name": "Samuel Ladoke Akintola",
+					"title": "Premier of the West (AG, then NNDP)",
+					"from": 1960,
+					"to": 1966,
+					"group": "yoruba",
+					"home": {
+						"name": "Ogbomoso",
+						"point": [
+							4.26,
+							8.13
+						]
+					},
+					"sources": [
+						"wikipedia-samuel-akintola"
+					],
+					"confidence": "high"
+				}
+			],
+			"sources": [
+				"wikipedia-western-region-nigeria",
+				"wikipedia-action-group-nigeria"
+			],
+			"confidence": "high",
+			"party": "ag"
+		},
+		{
+			"id": "eastern-region",
+			"name": "Eastern Region",
+			"kind": "region",
+			"extent": {
+				"states": [
+					"abia",
+					"anambra",
+					"ebonyi",
+					"enugu",
+					"imo",
+					"rivers",
+					"bayelsa",
+					"cross-river",
+					"akwa-ibom"
+				]
+			},
+			"seat": {
+				"name": "Enugu",
+				"point": [
+					7.49,
+					6.45
+				]
+			},
+			"groups": [
+				"igbo"
+			],
+			"text": "The NCNC, led by Igbo politicians, governed the East. The Igbo were the largest group, but the Ibibio, Ijaw and Efik minorities of the Calabar, Ogoja and Rivers provinces pressed for a state of their own (the COR state movement).",
+			"leaders": [
+				{
+					"name": "Michael Okpara",
+					"title": "Premier of the East (NCNC)",
+					"from": 1959,
+					"to": 1966,
+					"group": "igbo",
+					"home": {
+						"name": "Umuahia",
+						"point": [
+							7.49,
+							5.53
+						]
+					},
+					"sources": [
+						"wikipedia-michael-okpara",
+						"wikipedia-eastern-region-nigeria"
+					],
+					"confidence": "medium"
+				}
+			],
+			"sources": [
+				"wikipedia-eastern-region-nigeria",
+				"wikipedia-national-council-of-nigeria-and-the-cameroons"
+			],
+			"confidence": "high",
+			"party": "ncnc"
+		},
+		{
+			"id": "mid-western-region",
+			"name": "Mid-Western Region",
+			"kind": "region",
+			"extent": {
+				"states": [
+					"edo",
+					"delta"
+				]
+			},
+			"seat": {
+				"name": "Benin City",
+				"point": [
+					5.63,
+					6.34
+				]
+			},
+			"groups": [
+				"edo",
+				"urhobo",
+				"anioma"
+			],
+			"text": "Created in 1963 for the minorities of the West: the Edo, Urhobo, Itsekiri, Isoko, Ijaw and the western (Anioma) Igbo. No single people dominated, and the NCNC governed with an Anioma premier.",
+			"leaders": [
+				{
+					"name": "Dennis Osadebay",
+					"title": "Premier of the Mid-West (NCNC)",
+					"from": 1963,
+					"to": 1966,
+					"group": "anioma",
+					"groupNote": "Born in Asaba, of mixed cultural background: Anioma (western Igbo).",
+					"home": {
+						"name": "Asaba",
+						"point": [
+							6.73,
+							6.2
+						]
+					},
+					"sources": [
+						"wikipedia-dennis-osadebay"
+					],
+					"confidence": "medium"
+				}
+			],
+			"sources": [
+				"wikipedia-mid-western-region-nigeria",
+				"wikipedia-western-region-nigeria"
+			],
+			"confidence": "medium",
+			"party": "ncnc"
+		},
+		{
+			"id": "lagos",
+			"name": "Federal Territory of Lagos",
+			"kind": "territory",
+			"extent": {
+				"lgas": [
+					"lagos-lagos-island",
+					"lagos-lagos-mainland",
+					"lagos-surulere",
+					"lagos-apapa",
+					"lagos-eti-osa"
+				]
+			},
+			"seat": {
+				"name": "Lagos",
+				"point": [
+					3.39,
+					6.45
+				]
+			},
+			"groups": [
+				"yoruba"
+			],
+			"text": "The federal capital, outside any region.",
+			"leaders": [],
+			"sources": [
+				"wikipedia-western-region-nigeria"
+			],
+			"confidence": "medium"
+		}
+	],
+	"reviewNotes": [
+		"Ethnic attributions follow the cited biographies. Where sources disagree, the leader is marked disputed and the alternatives are given."
+	],
+	"parties": [
+		{
+			"id": "npc",
+			"name": "Northern People’s Congress",
+			"short": "NPC",
+			"slot": 1,
+			"peoples": [
+				"fulani",
+				"hausa"
+			],
+			"leader": "Ahmadu Bello, Sardauna of Sokoto",
+			"text": "The party of the Northern emirates. Its leaders were the Fulani aristocracy; its voters and much of its officialdom were Hausa, with the Kanuri establishment of Borno beside them.",
+			"sources": [
+				"wikipedia-northern-people-s-congress",
+				"wikipedia-ahmadu-bello"
+			],
+			"confidence": "high"
+		},
+		{
+			"id": "ncnc",
+			"name": "National Council of Nigeria and the Cameroons",
+			"short": "NCNC",
+			"slot": 2,
+			"peoples": [
+				"igbo"
+			],
+			"leader": "Nnamdi Azikiwe",
+			"text": "Founded as an all-Nigeria nationalist party; by the 1950s its base was the Igbo East, with allies in Lagos and the Mid-West.",
+			"sources": [
+				"wikipedia-national-council-of-nigeria-and-the-cameroons",
+				"wikipedia-nnamdi-azikiwe"
+			],
+			"confidence": "high"
+		},
+		{
+			"id": "ag",
+			"name": "Action Group",
+			"short": "AG",
+			"slot": 3,
+			"peoples": [
+				"yoruba"
+			],
+			"leader": "Obafemi Awolowo",
+			"text": "The Yoruba party of the Western Region, built by Awolowo out of the Egbe Omo Oduduwa.",
+			"sources": [
+				"wikipedia-action-group-nigeria",
+				"wikipedia-obafemi-awolowo"
+			],
+			"confidence": "high"
+		},
+		{
+			"id": "nepu",
+			"name": "Northern Elements Progressive Union",
+			"short": "NEPU",
+			"slot": 7,
+			"peoples": [
+				"hausa"
+			],
+			"leader": "Aminu Kano",
+			"text": "The radical party of Hausa commoners (talakawa) against the emirate establishment, allied with the NCNC.",
+			"sources": [
+				"wikipedia-northern-elements-progressive-union",
+				"wikipedia-1959-nigerian-general-election"
+			],
+			"confidence": "medium"
+		},
+		{
+			"id": "nndp",
+			"name": "Nigerian National Democratic Party",
+			"short": "NNDP",
+			"slot": 5,
+			"peoples": [
+				"yoruba"
+			],
+			"leader": "Samuel Akintola",
+			"text": "Akintola’s party, formed after his break with Awolowo, which took the Western Region away from the Action Group and allied with the NPC.",
+			"sources": [
+				"wikipedia-nigerian-national-democratic-party",
+				"wikipedia-samuel-akintola"
+			],
+			"confidence": "high"
+		},
+		{
+			"id": "npf",
+			"name": "Northern Progressive Front",
+			"short": "NPF",
+			"slot": 8,
+			"peoples": [
+				"hausa",
+				"tiv"
+			],
+			"leader": "Aminu Kano",
+			"text": "The Northern opposition in 1964: NEPU and the Tiv-based United Middle Belt Congress, allied with the NCNC and the Action Group.",
+			"sources": [
+				"wikipedia-1964-nigerian-general-election"
+			],
+			"confidence": "medium"
+		}
+	],
+	"results": [
+		{
+			"title": "Federal election, December 1959",
+			"year": 1959,
+			"measure": "seats",
+			"parts": [
+				{
+					"party": "npc",
+					"label": "NPC",
+					"value": 134,
+					"bloc": "NPC and allies"
+				},
+				{
+					"label": "NPC allies",
+					"value": 14,
+					"bloc": "NPC and allies"
+				},
+				{
+					"party": "ncnc",
+					"label": "NCNC",
+					"value": 81,
+					"bloc": "NCNC–NEPU"
+				},
+				{
+					"party": "nepu",
+					"label": "NEPU",
+					"value": 8,
+					"bloc": "NCNC–NEPU"
+				},
+				{
+					"party": "ag",
+					"label": "AG",
+					"value": 73,
+					"bloc": "AG"
+				},
+				{
+					"label": "AG independents",
+					"value": 2,
+					"bloc": "AG"
+				}
+			],
+			"note": "The NPC won the most seats although the NCNC and the AG each won more votes. Its allies were the Mabolaje Grand Alliance, the Igala Union, the Igbira Tribal Union, the Niger Delta Congress and independents.",
+			"sources": [
+				"wikipedia-1959-nigerian-general-election"
+			],
+			"confidence": "high"
+		},
+		{
+			"title": "Federal election, December 1964",
+			"year": 1964,
+			"measure": "seats",
+			"parts": [
+				{
+					"party": "nndp",
+					"label": "NNDP",
+					"value": 36,
+					"bloc": "NNA"
+				},
+				{
+					"party": "npc",
+					"label": "NPC",
+					"value": 162,
+					"bloc": "NNA"
+				},
+				{
+					"party": "ncnc",
+					"label": "NCNC",
+					"value": 84,
+					"bloc": "UPGA"
+				},
+				{
+					"party": "ag",
+					"label": "AG",
+					"value": 21,
+					"bloc": "UPGA"
+				},
+				{
+					"party": "npf",
+					"label": "NPF",
+					"value": 4,
+					"bloc": "UPGA"
+				},
+				{
+					"label": "Independents",
+					"value": 5
+				}
+			],
+			"note": "UPGA boycotted the December vote in the East, Lagos and the Mid-West, and the election was marked by manipulation and violence. The NNA held 198 seats.",
+			"sources": [
+				"wikipedia-1964-nigerian-general-election"
+			],
+			"confidence": "high"
+		}
+	],
+	"coalitions": [
+		{
+			"id": "npc-ncnc",
+			"name": "NPC–NCNC coalition",
+			"kind": "coalition",
+			"from": 1959,
+			"to": 1964,
+			"parties": [
+				"npc",
+				"ncnc"
+			],
+			"between": [
+				"northern-region",
+				"eastern-region"
+			],
+			"text": "Short of a majority after the 1959 election, the Northern NPC governed with the Eastern NCNC: Balewa of the NPC as Prime Minister, Azikiwe of the NCNC as Governor-General and then President. The Yoruba-led Action Group was left in opposition.",
+			"sources": [
+				"wikipedia-1959-nigerian-general-election",
+				"wikipedia-abubakar-tafawa-balewa",
+				"wikipedia-nnamdi-azikiwe"
+			],
+			"confidence": "high"
+		},
+		{
+			"id": "nna",
+			"name": "Nigerian National Alliance (NNA)",
+			"kind": "alliance",
+			"from": 1964,
+			"to": 1966,
+			"parties": [
+				"npc",
+				"nndp"
+			],
+			"between": [
+				"northern-region",
+				"western-region"
+			],
+			"text": "For the 1964 election the NPC allied with Akintola’s NNDP, which had taken the West from Awolowo’s Action Group, and with smaller parties of the Mid-West, the Delta and Lagos.",
+			"sources": [
+				"wikipedia-1964-nigerian-general-election",
+				"wikipedia-nigerian-national-democratic-party"
+			],
+			"confidence": "high"
+		},
+		{
+			"id": "upga",
+			"name": "United Progressive Grand Alliance (UPGA)",
+			"kind": "alliance",
+			"from": 1964,
+			"to": 1966,
+			"parties": [
+				"ncnc",
+				"ag",
+				"npf"
+			],
+			"between": [
+				"eastern-region",
+				"western-region",
+				"mid-western-region",
+				"northern-region"
+			],
+			"text": "The NCNC broke with the NPC and joined its old rival, the Action Group, with the Northern opposition of NEPU and the Tiv-based UMBC. The South’s two old rivals stood together against the NPC.",
+			"sources": [
+				"wikipedia-1964-nigerian-general-election"
+			],
+			"confidence": "high"
+		}
+	]
+}

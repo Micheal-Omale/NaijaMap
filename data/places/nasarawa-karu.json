@@ -1,7 +1,7 @@
 {
 	"status": "draft",
 	"summary": {
-		"text": "An LGA on the edge of Abuja, created in 1991 from Keffi. Its six indigenous peoples are the Gbagyi, Gwandara, Yeskwa, Gade, Hausa-Fulani and Koro.",
+		"text": "An LGA on the edge of Abuja, created in 1991 from Keffi. Its six indigenous peoples are the Gbagyi, Gwandara, Yeskwa, Gade, Hausa, Fulani and Koro.",
 		"sources": [
 			"wikipedia-karu-nasarawa"
 		],
@@ -71,7 +71,7 @@
 			"confidence": "high"
 		},
 		{
-			"name": "Hausa-Fulani",
+			"name": "Hausa",
 			"standing": "indigenous",
 			"languages": [
 				"Hausa"
@@ -79,7 +79,22 @@
 			"sources": [
 				"wikipedia-karu-nasarawa"
 			],
-			"confidence": "high"
+			"confidence": "high",
+			"group": "hausa"
+		},
+		{
+			"name": "Fulani",
+			"standing": "indigenous",
+			"languages": [
+				"Fulfulde",
+				"Hausa"
+			],
+			"sources": [
+				"wikipedia-karu-nasarawa"
+			],
+			"confidence": "high",
+			"group": "fulani",
+			"note": "The source groups the Hausa and Fulani together; they are listed separately here."
 		}
 	],
 	"history": {

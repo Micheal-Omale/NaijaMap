@@ -1,0 +1,157 @@
+{
+	"name": "The Eleduwe war (Battle of Ilorin)",
+	"status": "draft",
+	"kind": "war",
+	"year": 1835,
+	"yearLabel": "1835–1837",
+	"until": 1840,
+	"actors": [
+		{
+			"name": "Oyo",
+			"polity": "oyo",
+			"side": "attacker"
+		},
+		{
+			"name": "Borgu",
+			"polity": "borgu",
+			"side": "ally"
+		},
+		{
+			"name": "Ilorin emirate",
+			"polity": "sokoto",
+			"side": "defender"
+		}
+	],
+	"summary": {
+		"text": "Alaafin Oluewu refused the emir of Ilorin's call to pay homage, raised troops from Oyo's old vassals and allied with Borgu. Sero Kpera, king of Nikki, led the Bariba with Ki-Yaru of Kaiama, a prince of Wawa and a representative of Bussa. Ilorin's emir Abdussalami, reinforced from Gwandu and Sokoto, far outnumbered them. On the first day the allies drove Ilorin back to its city; on the second, with many Oyo chiefs distrusting the Alaafin and his Bariba allies, Ilorin's cavalry turned a flank and struck from behind. Sero Kpera, Oluewu and his eldest son, and the leaders of Wawa and Kaiama were all killed. When the news reached Oyo-Ile its people abandoned the capital.",
+		"sources": [
+			"wikipedia-battle-of-ilorin",
+			"wikipedia-borgu"
+		],
+		"confidence": "high"
+	},
+	"routes": [
+		{
+			"kind": "advance",
+			"by": "Borgu",
+			"path": [
+				[
+					3.21,
+					9.94
+				],
+				[
+					3.199,
+					9.218
+				],
+				[
+					4.55,
+					8.5
+				]
+			],
+			"label": "Sero Kpera's Bariba march on Ilorin",
+			"sources": [
+				"wikipedia-battle-of-ilorin"
+			],
+			"confidence": "medium"
+		},
+		{
+			"kind": "advance",
+			"by": "Oyo",
+			"path": [
+				[
+					4.3075,
+					8.9747
+				],
+				[
+					4.55,
+					8.5
+				]
+			],
+			"label": "Oluewu's army",
+			"sources": [
+				"wikipedia-battle-of-ilorin"
+			]
+		},
+		{
+			"kind": "exile",
+			"by": "Oyo",
+			"path": [
+				[
+					4.3075,
+					8.9747
+				],
+				[
+					3.93,
+					7.85
+				]
+			],
+			"label": "Oyo-Ile abandoned",
+			"sources": [
+				"wikipedia-battle-of-ilorin"
+			],
+			"confidence": "medium"
+		}
+	],
+	"moments": [
+		{
+			"when": "Day one",
+			"title": "Ilorin driven to its walls",
+			"text": "Only a cavalry counter-attack saves Ilorin from rout.",
+			"at": {
+				"name": "Ilorin",
+				"point": [
+					4.55,
+					8.5
+				]
+			},
+			"mark": "battle",
+			"sources": [
+				"wikipedia-battle-of-ilorin"
+			],
+			"confidence": "high"
+		},
+		{
+			"when": "Day two",
+			"title": "The kings fall",
+			"text": "Sero Kpera, Alaafin Oluewu and the chiefs of Wawa and Kaiama are killed.",
+			"at": {
+				"name": "Ilorin",
+				"point": [
+					4.6,
+					8.55
+				]
+			},
+			"mark": "massacre",
+			"sources": [
+				"wikipedia-battle-of-ilorin"
+			],
+			"confidence": "high"
+		},
+		{
+			"when": "After the battle",
+			"title": "Oyo-Ile emptied",
+			"text": "The capital's people flee south.",
+			"at": {
+				"name": "Oyo-Ile (Old Oyo)",
+				"point": [
+					4.3075,
+					8.9747
+				]
+			},
+			"mark": "flight",
+			"sources": [
+				"wikipedia-battle-of-ilorin"
+			],
+			"confidence": "high"
+		}
+	],
+	"sources": [
+		"wikipedia-battle-of-ilorin",
+		"wikipedia-borgu"
+	],
+	"confidence": "high",
+	"note": "The New Oyo point marks the direction of flight only.",
+	"reviewNotes": [
+		"The existing fall-of-oyo event may overlap; check that the two read well together."
+	]
+}

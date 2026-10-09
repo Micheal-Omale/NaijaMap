@@ -1,0 +1,133 @@
+{
+	"name": "Zazzau against the Atyap",
+	"status": "draft",
+	"kind": "war",
+	"year": 1840,
+	"yearLabel": "1840s–1902",
+	"until": 1912,
+	"actors": [
+		{
+			"name": "Zazzau (Zaria emirate)",
+			"polity": "sokoto",
+			"side": "attacker"
+		},
+		{
+			"name": "Atyap",
+			"side": "resister",
+			"ink": "#4a7a5a"
+		}
+	],
+	"summary": {
+		"text": "After the jihad the Hausa traders at Zangon Katab, who had settled under an Atyap pact, sided with Zaria. By the 1840s Zazzau forced the Atyap to pay each year, clan by clan, 15 slaves, 20 raffia mats, tins of honey and bundles of raffia to avoid attack. In the 1870s and 1880s Zaria set agents over its southern frontier; one, Yawa, raided the Gbagyi, Koro, Adara, Atyap and Bajju from Chikun, Kachia and Kajuru. From 1897 Emir Kwassau waged his own war on the Atyap: over a thousand were killed, the fighter Marok Gandu of Magata was impaled, Zinyip Katunku and Kuntai Mado were buried alive after the battle of Santswan, and the Atyap remember the flight south as Tyong Kwasau, “escape from Kwassau”. The British deposed Kwassau in 1902, but in 1912 set Zaria's men over the Atyap all the same.",
+		"sources": [
+			"wikipedia-southern-kaduna",
+			"wikipedia-atyap"
+		],
+		"confidence": "high"
+	},
+	"routes": [
+		{
+			"kind": "raid",
+			"by": "Zazzau (Zaria emirate)",
+			"path": [
+				[
+					7.7,
+					11.07
+				],
+				[
+					7.95,
+					9.87
+				],
+				[
+					8.39,
+					9.77
+				]
+			],
+			"label": "Zaria's raids south",
+			"sources": [
+				"wikipedia-southern-kaduna"
+			],
+			"confidence": "medium"
+		},
+		{
+			"kind": "migration",
+			"by": "Atyap",
+			"path": [
+				[
+					8.39,
+					9.77
+				],
+				[
+					8.45,
+					9.6
+				]
+			],
+			"label": "Tyong Kwasau: flight south",
+			"sources": [
+				"wikipedia-southern-kaduna"
+			],
+			"confidence": "medium"
+		}
+	],
+	"moments": [
+		{
+			"when": "1840s",
+			"title": "Tribute of slaves",
+			"text": "Each Atyap clan must send Zaria 15 slaves, mats and honey.",
+			"at": {
+				"name": "Zangon Katab",
+				"point": [
+					8.39,
+					9.77
+				]
+			},
+			"mark": "loot",
+			"sources": [
+				"wikipedia-southern-kaduna"
+			],
+			"confidence": "high"
+		},
+		{
+			"when": "1897–1902",
+			"title": "Kwassau's war",
+			"text": "Over a thousand Atyap are killed; Marok Gandu is impaled.",
+			"at": {
+				"name": "Magata",
+				"point": [
+					8.41,
+					9.805
+				]
+			},
+			"mark": "massacre",
+			"sources": [
+				"wikipedia-southern-kaduna"
+			],
+			"confidence": "high"
+		},
+		{
+			"when": "1910, 1922",
+			"title": "Risings against forced labour and tax",
+			"text": "The Atyap rise against the British and the Hausa district heads set over them.",
+			"at": {
+				"name": "Zangon Katab",
+				"point": [
+					8.38,
+					9.78
+				]
+			},
+			"mark": "battle",
+			"sources": [
+				"wikipedia-southern-kaduna"
+			],
+			"confidence": "high"
+		}
+	],
+	"sources": [
+		"wikipedia-southern-kaduna",
+		"wikipedia-atyap"
+	],
+	"confidence": "high",
+	"reviewNotes": [
+		"The battle of Santswan is not located."
+	]
+}

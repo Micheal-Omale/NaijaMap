@@ -1,6 +1,30 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "New Bussa",
+			"lga": "niger-borgu",
+			"point": [
+				4.513,
+				9.883
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-new-bussa",
+				"wikipedia-kainji-lake",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "The new site of Bussa, Borgu's senior and sacred seat, whose old town was drowned when the Kainji dam was finished in 1968; about a quarter of the dam's cost went to resettling the people. New Bussa is the headquarters of the Borgu Emirate and Borgu LGA.",
+				"sources": [
+					"wikipedia-new-bussa",
+					"wikipedia-kainji-lake"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [
 		"The Illo villages are not yet located in GRID3."
 	],

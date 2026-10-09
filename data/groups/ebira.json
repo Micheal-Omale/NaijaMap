@@ -172,6 +172,201 @@
 				],
 				"confidence": "medium"
 			}
+		},
+		{
+			"name": "Okene",
+			"lga": "kogi-okene",
+			"point": [
+				6.23,
+				7.55
+			],
+			"villages": [
+				{
+					"name": "Okengwe",
+					"point": [
+						6.192,
+						7.549
+					]
+				}
+			],
+			"sources": [
+				"wikipedia-ebira-people"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "The centre of the Ebira Tao and seat of the Ohinoyi of Ebiraland. The Opete stool, which tradition says the Ebira brought from Kwararafa, is now the emblem of Okene's ruler. Okengwe, Ubororo and Okehi were founded by groups moving south from Ebira Opete.",
+				"sources": [
+					"wikipedia-ebira-people"
+				],
+				"confidence": "medium"
+			}
+		},
+		{
+			"name": "Adavi clans",
+			"lga": "kogi-adavi",
+			"point": [
+				6.178,
+				7.566
+			],
+			"villages": [
+				{
+					"name": "Adavi-Eba",
+					"point": [
+						6.178,
+						7.566
+					]
+				},
+				{
+					"name": "Ogaminana",
+					"point": [
+						6.221,
+						7.587
+					]
+				},
+				{
+					"name": "Kuroko",
+					"point": [
+						6.245,
+						7.573
+					]
+				}
+			],
+			"sources": [
+				"wikipedia-ebira-people",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Ohizi (Adaviruku), eldest son of Itaazi, had five children whose descendants are the five traditional Adavi clans of the Ebira Tao.",
+				"sources": [
+					"wikipedia-ebira-people"
+				],
+				"confidence": "medium"
+			}
+		},
+		{
+			"name": "Eika",
+			"lga": "kogi-okehi",
+			"point": [
+				6.261,
+				7.609
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-ebira-people",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Ouda Adidi of Eika was the first head the British set over the Ebira villages after 1903.",
+				"sources": [
+					"wikipedia-ebira-people"
+				],
+				"confidence": "medium"
+			}
+		},
+		{
+			"name": "Ebira Opete (Ajaokuta)",
+			"lga": "kogi-ajaokuta",
+			"villages": [],
+			"sources": [
+				"wikipedia-ebira-people"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "After leaving Idah the Ebira Tao crossed the Niger to the land around Ajaokuta, which they call Ebira Opete after the stool they kept there; the Eganyi also live in Ajaokuta.",
+				"sources": [
+					"wikipedia-ebira-people"
+				],
+				"confidence": "medium"
+			}
+		},
+		{
+			"name": "Ebira Koto at Koton Karfe",
+			"lga": "kogi-kogi",
+			"point": [
+				6.798,
+				8.089
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-ebira-people",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "The Ebira Koto (Egbura) branch settled at Igu, which the Hausa called Koton Karfe, “strong land”, because, the Ebira say, the jihadists fought to take it and never succeeded.",
+				"sources": [
+					"wikipedia-ebira-people"
+				],
+				"confidence": "medium"
+			}
+		},
+		{
+			"name": "Ebira Toto (Panda)",
+			"lga": "nasarawa-toto",
+			"point": [
+				7.188,
+				8.007
+			],
+			"villages": [
+				{
+					"name": "Umaisha",
+					"point": [
+						7.188,
+						8.007
+					]
+				}
+			],
+			"sources": [
+				"wikipedia-ebira-people",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "The Panda branch left Idah with the other Ebira and settled north of the Benue; they are the Ebira of Toto LGA in Nasarawa State.",
+				"sources": [
+					"wikipedia-ebira-people"
+				],
+				"confidence": "medium"
+			}
+		},
+		{
+			"name": "Ebira of Abaji",
+			"lga": "fct-abaji",
+			"villages": [],
+			"sources": [
+				"wikipedia-ebira-people"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "Ebira Koto live in Abaji Area Council of the Federal Capital Territory.",
+				"sources": [
+					"wikipedia-ebira-people"
+				],
+				"confidence": "medium"
+			}
+		},
+		{
+			"name": "Ebira Mozum",
+			"lga": "kogi-bassa",
+			"villages": [],
+			"sources": [
+				"wikipedia-ebira-people",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "The Agatu branch, father of the Ebira Mozum, chose to settle among the Bassa.",
+				"sources": [
+					"wikipedia-ebira-people"
+				],
+				"confidence": "medium"
+			},
+			"point": [
+				6.942,
+				7.857
+			]
 		}
 	],
 	"reviewNotes": [

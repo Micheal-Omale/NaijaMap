@@ -1,6 +1,23 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Babana",
+			"lga": "niger-borgu",
+			"villages": [],
+			"sources": [
+				"ross-jones-borgu"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "The main centre of the Boko (Boo), co-rulers of old Borgu with the Baatombu; in Nigeria they come under the Emir of Borgu.",
+				"sources": [
+					"ross-jones-borgu"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [
 		"Samia, Maje and Bakinrua (Kebbi) are not yet located in GRID3."
 	],

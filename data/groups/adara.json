@@ -1,6 +1,57 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Adara communities (Kajuru)",
+			"lga": "kaduna-kajuru",
+			"villages": [
+				{
+					"name": "Magunguna"
+				},
+				{
+					"name": "Idazo"
+				},
+				{
+					"name": "Etissi"
+				},
+				{
+					"name": "Ungwan Galadima"
+				},
+				{
+					"name": "Ungwan Guza"
+				},
+				{
+					"name": "Ungwan Ma'aji"
+				},
+				{
+					"name": "Ungwan Araha"
+				},
+				{
+					"name": "Ungwan Goshi"
+				},
+				{
+					"name": "Ungwan Sako"
+				}
+			],
+			"alsoIn": [
+				"kaduna-kachia"
+			],
+			"sources": [
+				"wikipedia-adara-people",
+				"wikipedia-kajuru"
+			],
+			"confidence": "medium",
+			"history": {
+				"text": "The Adara call Kajuru Ajure and Kachia Akhwee. Kajuru LGA was cut from Chikun in 1997 with two traditional districts, Kajuru and Kufana. Zazzau's agent Yawa raided the Adara from Kajuru and Kachia in the 1880s.",
+				"sources": [
+					"wikipedia-kajuru",
+					"wikipedia-adara-people",
+					"wikipedia-southern-kaduna"
+				],
+				"confidence": "medium"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Adara (Kadara)",
 	"searchAliases": [

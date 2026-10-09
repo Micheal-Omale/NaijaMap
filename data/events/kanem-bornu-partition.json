@@ -1,0 +1,105 @@
+{
+	"name": "Borno divided four ways",
+	"status": "draft",
+	"kind": "partition",
+	"year": 1902,
+	"yearLabel": "1893–1902",
+	"until": 1961,
+	"actors": [
+		{ "name": "British forces", "side": "colonial" },
+		{ "name": "French forces", "side": "colonial" },
+		{ "name": "German forces", "side": "colonial" },
+		{ "name": "Rabih az-Zubayr", "side": "attacker" },
+		{ "name": "Kanem-Bornu (the al-Kanemi shehus)", "polity": "kanem-bornu", "side": "defender" }
+	],
+	"summary": {
+		"text": "In 1893 the Sudanese warlord Rabih az-Zubayr conquered Borno, destroyed the shehus’ capital at Kukawa and ruled from Dikwa. France killed him at Kousséri in 1900, and the three colonial powers then shared out the old empire. The British took most of Borno west of Lake Chad and made Abubakar Garbai its shehu. He ruled from Maiduguri from 1907. Germany kept Dikwa and the land south of the lake as part of Kamerun, where a cousin, Sanda Mandarama, ruled as shehu of ‘German Borno’. France took Kanem, east of the lake, for Chad, and the land north of it for Niger. That is why there are two shehus in Borno State today, of Borno and of Dikwa. Dikwa passed to Britain in 1916 and joined Nigeria after the plebiscite of 1961.",
+		"sources": ["wikipedia-kanem-bornu", "wikipedia-borno-emirate", "wikipedia-dikwa-emirate", "wikipedia-rabih"],
+		"confidence": "high"
+	},
+	"moments": [
+		{
+			"when": "1893",
+			"title": "Rabih takes Borno",
+			"text": "Rabih az-Zubayr defeats the shehu’s armies, destroys Kukawa and makes Dikwa his seat.",
+			"at": { "name": "Kukawa", "point": [13.572, 12.925] },
+			"mark": "burned",
+			"sources": ["wikipedia-borno-emirate", "wikipedia-dikwa-emirate"],
+			"confidence": "high"
+		},
+		{
+			"when": "14 January 1900",
+			"title": "A shehu under French protection",
+			"text": "The French recognise Sanda Kura of the al-Kanemi line as shehu at Dikwa, to give a legal cover for their war on Rabih.",
+			"at": { "name": "Dikwa", "point": [13.92, 12.03] },
+			"mark": "treaty",
+			"sources": ["wikipedia-kanem-bornu", "wikipedia-rabih"],
+			"confidence": "high"
+		},
+		{
+			"when": "22 April 1900",
+			"title": "Kousséri",
+			"text": "A French army under Lamy and Gentil, with Bagirmi and Bornoan allies, defeats and kills Rabih. Lamy also dies, and Rabih’s head is shown on the walls of Kousséri.",
+			"at": { "name": "Kousséri", "point": [15.03, 12.08] },
+			"mark": "battle",
+			"sources": ["wikipedia-rabih"],
+			"confidence": "high"
+		},
+		{
+			"when": "23 August 1901",
+			"title": "Fadlallah falls at Gujba",
+			"text": "Rabih’s son Fadlallah, seeking British support, is caught by French forces at Gujba and killed.",
+			"at": { "name": "Gujba (approximate)", "point": [11.93, 11.5] },
+			"mark": "battle",
+			"sources": ["wikipedia-kanem-bornu"],
+			"confidence": "high"
+		},
+		{
+			"when": "1902–1907",
+			"title": "British Borno and German Borno",
+			"text": "British forces occupy Borno in March 1902. Abubakar Garbai leaves Dikwa to be shehu of British Borno, ruling from Maiduguri from 1907. Sanda Mandarama stays at Dikwa as shehu under the Germans.",
+			"at": { "name": "Maiduguri", "point": [13.16, 11.85] },
+			"mark": "founded",
+			"sources": ["wikipedia-borno-emirate", "wikipedia-dikwa-emirate"],
+			"confidence": "high"
+		},
+		{
+			"when": "1916–1961",
+			"title": "Dikwa comes back",
+			"text": "Britain takes Kamerun in the First World War, and Dikwa is governed as part of British Cameroons. In 1961 a plebiscite joins the Northern Cameroons, Dikwa among them, to Nigeria.",
+			"at": { "name": "Dikwa", "point": [13.92, 12.03] },
+			"mark": "treaty",
+			"sources": ["wikipedia-dikwa-emirate"],
+			"confidence": "medium"
+		}
+	],
+	"pieces": [
+		{
+			"name": "British Borno (Northern Nigeria)",
+			"note": "The shehu at Maiduguri. Today the Borno Emirate and Yobe State.",
+			"extent": { "states": ["borno", "yobe"], "except": ["borno-dikwa", "borno-ngala", "borno-kala-balge", "borno-bama", "borno-gwoza"] }
+		},
+		{
+			"name": "German Borno (Kamerun): Dikwa",
+			"note": "The shehu at Dikwa. Today Dikwa, Ngala, Kala-Balge, Bama and Gwoza in Nigeria, and the Far North of Cameroon.",
+			"extent": {
+				"lgas": ["borno-dikwa", "borno-ngala", "borno-kala-balge", "borno-bama", "borno-gwoza"],
+				"beyond": [[[13.9, 10.6], [14.6, 10.5], [15.3, 11.2], [15.2, 12.6], [14.6, 13.0], [14.1, 12.4]]]
+			}
+		},
+		{
+			"name": "French Chad: Kanem",
+			"note": "The old heartland east of Lake Chad.",
+			"extent": { "beyond": [[[13.9, 13.1], [14.6, 12.6], [15.6, 12.7], [16.4, 13.6], [16.4, 14.8], [15.2, 15.2], [14.0, 14.4]]], "confidence": "medium" }
+		},
+		{
+			"name": "French Niger: Mainé-Soroa and N’guigmi",
+			"note": "Borno’s lands north and west of the lake.",
+			"extent": { "beyond": [[[10.8, 13.3], [12.4, 13.2], [13.7, 13.3], [13.6, 14.6], [12.0, 14.4], [10.8, 13.9]]], "confidence": "medium" }
+		}
+	],
+	"sources": ["wikipedia-kanem-bornu", "wikipedia-borno-emirate", "wikipedia-dikwa-emirate", "wikipedia-rabih"],
+	"confidence": "medium",
+	"note": "The rings outside Nigeria are rough and clipped at the border. Gwoza was part of the Dikwa Division of the Northern Cameroons; it is included with Dikwa here.",
+	"reviewNotes": ["Gwoza’s place in German Borno and the Niger and Chad rings need a direct source."]
+}

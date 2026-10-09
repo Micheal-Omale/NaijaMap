@@ -1,0 +1,25 @@
+{
+	"status": "draft",
+	"title": "Dore Numa, Political Agent and Paramount Chief",
+	"kind": "warrant",
+	"year": 1894,
+	"seat": {
+		"name": "Warri (Benin River to the Urhobo hinterland)",
+		"point": [
+			5.75,
+			5.52
+		]
+	},
+	"by": "the British, after the fall of Nana Olomu",
+	"first": "Chief Dore Numa (Itsekiri)",
+	"groups": [
+		"itsekiri",
+		"urhobo"
+	],
+	"text": "When Nana Olomu fell in 1894 the British made Dore Numa, an Itsekiri trader, their Political Agent for the Benin River. In 1902 his authority was stretched over Warri, Sapele, the Urhobo hinterland and Kwale, and in 1916 he was made a Paramount Chief, 2nd Class. For three decades he dominated Warri Province; Urhobo historians remember him as a chief the British made, never chosen by the Itsekiri themselves, who leased Urhobo land to the government in 1906.",
+	"sources": [
+		"obiomah-dore-numa"
+	],
+	"confidence": "medium",
+	"reviewNotes": []
+}

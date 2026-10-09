@@ -1,0 +1,29 @@
+{
+	"status": "draft",
+	"title": "The Tiv put under the Jukun, and a Sarkin Makurdi",
+	"kind": "imposed",
+	"year": 1912,
+	"yearLabel": "early colonial rule",
+	"until": 1945,
+	"seat": {
+		"name": "Makurdi",
+		"point": [
+			8.52,
+			7.73
+		]
+	},
+	"by": "the British administration",
+	"first": "Audu Dan Afoba, Sarkin Makurdi",
+	"groups": [
+		"tiv",
+		"jukun"
+	],
+	"text": "The British split the Tiv into three and kept them under outside rulers: the Jukun minority in the north-east, Cross River in the south and Lafia Division in the north-west. They went as far as appointing Audu Dan Afoba as Sarkin Makurdi, “king of Makurdi”. These arrangements failed, and in 1946 the Tiv chose their own Tor Tiv.",
+	"sources": [
+		"wikipedia-makir-zakpe",
+		"wikipedia-tiv-people"
+	],
+	"confidence": "medium",
+	"note": "The years of the arrangement are approximate; the sources give the period, not dates.",
+	"reviewNotes": []
+}

@@ -1,6 +1,21 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Yungur of Song",
+			"lga": "adamawa-song",
+			"villages": [],
+			"alsoIn": [
+				"adamawa-guyuk",
+				"adamawa-gombi"
+			],
+			"sources": [
+				"wikipedia-adamawa-state",
+				"wikipedia-bena-mboi"
+			],
+			"confidence": "medium"
+		}
+	],
 	"reviewNotes": [],
 	"name": "Yungur",
 	"searchAliases": [

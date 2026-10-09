@@ -1,6 +1,33 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Ogori and Magongo",
+			"lga": "kogi-ogori-magongo",
+			"villages": [
+				{
+					"name": "Akpafa"
+				},
+				{
+					"name": "Ogori"
+				},
+				{
+					"name": "Magongo"
+				}
+			],
+			"sources": [
+				"wikipedia-ogori-magongo"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "The LGA was created from old Okene for the Ogori and Magongo people, with its headquarters at Akpafa; their land runs from Obehira Ebeba to Lampese and on to Ososo in Edo State.",
+				"sources": [
+					"wikipedia-ogori-magongo"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Ogori and Magongo (Oko)",
 	"searchAliases": [

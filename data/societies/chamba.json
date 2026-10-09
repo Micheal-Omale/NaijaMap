@@ -1,0 +1,57 @@
+{
+	"name": "Chamba",
+	"status": "draft",
+	"groups": [
+		"chamba"
+	],
+	"rule": "chiefdoms",
+	"span": {
+		"from": 1000,
+		"to": 1849,
+		"fromLabel": "before written records",
+		"toLabel": "the jihad of the 1800s",
+		"sources": [
+			"wikipedia-chamba-people"
+		],
+		"confidence": "medium",
+		"note": "The start of the timeline, not a founding date. The end is where this map’s Sokoto Caliphate takes in the Chamba homeland."
+	},
+	"summary": {
+		"text": "The Chamba of the uplands on today's Nigeria–Cameroon border were made up of clans with differing kinds of chiefdom, speaking two distantly related languages, Chamba Daka and Chamba Leko. Their creator god Su is the sun; ancestor spirits live with him and, unlike him, act among the living. Late in the 18th century Chamba warbands, driven by Fulani raids, pushed west down the Benue, struck Kwararafa and drove its last king, Adi Matswen, into exile; other Chamba bands went south into Cameroon, where their successors founded the Bali kingdoms.",
+		"sources": [
+			"wikipedia-chamba-people",
+			"wikipedia-kwararafa",
+			"wikipedia-wukari-federation"
+		],
+		"confidence": "medium"
+	},
+	"end": {
+		"text": "In the 1700s and 1800s the Chamba were targets of the Fulani jihads. Many were enslaved; others fled south into the mountains, and some became raiding bands that attacked slave and trading caravans.",
+		"sources": [
+			"wikipedia-chamba-people"
+		],
+		"confidence": "medium"
+	},
+	"lands": [
+		{
+			"from": 1000,
+			"lgas": [
+				"adamawa-ganye",
+				"adamawa-jada",
+				"adamawa-toungo"
+			]
+		},
+		{
+			"from": 1780,
+			"to": 1849,
+			"lgas": [
+				"taraba-donga",
+				"taraba-takum"
+			],
+			"label": "Chamba (Donga and Takum)",
+			"confidence": "disputed",
+			"note": "Chamba bands moving west into the Jukun country; the dating of the Donga and Takum Chamba is not yet checked."
+		}
+	],
+	"reviewNotes": []
+}

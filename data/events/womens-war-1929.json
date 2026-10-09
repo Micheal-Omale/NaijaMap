@@ -1,0 +1,57 @@
+{
+	"name": "The Women’s War (Ogu Umunwanyi)",
+	"status": "draft",
+	"kind": "colonial",
+	"year": 1929,
+	"yearLabel": "November 1929 – January 1930",
+	"until": 1935,
+	"actors": [
+		{ "name": "British forces", "side": "colonial" },
+		{ "name": "The women of Owerri and Calabar provinces (Nwanyeruwa; the Oloko trio Ikonnia, Nwannedia and Nwugo)", "side": "resister" }
+	],
+	"summary": {
+		"text": "Men in the Eastern provinces had paid direct tax since 1928. When a new count of wives, children and livestock began at Oloko in October 1929, the women took it as the start of a tax on them. On 18 November an enumerator for the warrant chief Okugo told Nwanyeruwa to count her goats and people. ‘Was your widowed mother counted?’ she answered, and the two fought. The women sent palm fronds to summon others, and nearly 10,000 came to ‘sit on’ Okugo until he resigned. Led by the Oloko trio, Ikonnia, Nwannedia and Nwugo, the protest spread through Owerri and Calabar provinces among Igbo, Ibibio, Andoni, Ogoni, Efik and Ijaw women. Native courts were burned, prisons opened, and European factories at Aba, Imo River and Mbawsi looted. Colonial troops killed about 55 women before the last patrols withdrew in January 1930. The warrant chief system was abolished, and women were named to the native courts.",
+		"sources": ["wikipedia-womens-war"],
+		"confidence": "high"
+	},
+	"routes": [
+		{ "kind": "migration", "by": "The women of Owerri and Calabar provinces (Nwanyeruwa; the Oloko trio Ikonnia, Nwannedia and Nwugo)", "path": [[7.52, 5.43], [7.37, 5.11]], "label": "The protest spreads to Aba", "sources": ["wikipedia-womens-war"], "confidence": "high" },
+		{ "kind": "migration", "by": "The women of Owerri and Calabar provinces (Nwanyeruwa; the Oloko trio Ikonnia, Nwannedia and Nwugo)", "path": [[7.52, 5.43], [7.03, 5.48]], "label": "To Owerri", "sources": ["wikipedia-womens-war"], "confidence": "high" },
+		{ "kind": "migration", "by": "The women of Owerri and Calabar provinces (Nwanyeruwa; the Oloko trio Ikonnia, Nwannedia and Nwugo)", "path": [[7.52, 5.43], [7.7, 5.0], [7.79, 4.9]], "label": "South to the Calabar Province towns", "sources": ["wikipedia-womens-war"], "confidence": "medium" }
+	],
+	"moments": [
+		{
+			"when": "18 November 1929",
+			"title": "Nwanyeruwa and the census",
+			"text": "Mark Emereuwa, counting for the warrant chief Okugo, grabs Nwanyeruwa by the throat. The women of Oloko gather, summon others with palm fronds, and sit at Okugo’s compound until he resigns.",
+			"at": { "name": "Oloko (approximate)", "point": [7.52, 5.43] },
+			"mark": "camp",
+			"sources": ["wikipedia-womens-war"]
+		},
+		{
+			"when": "December 1929",
+			"title": "Aba",
+			"text": "Native courts are attacked and burned and European factories looted at Aba, Imo River and Mbawsi. Women free prisoners from the jails.",
+			"at": { "name": "Aba", "point": [7.37, 5.11] },
+			"mark": "burned",
+			"sources": ["wikipedia-womens-war"]
+		},
+		{
+			"when": "December 1929 – January 1930",
+			"title": "Troops fire",
+			"text": "Colonial troops put down the protests, killing about 55 women. The last soldiers leave Owerri on 27 December, and the last patrol leaves Abak Division on 9 January 1930.",
+			"at": { "name": "Abak", "point": [7.79, 4.98] },
+			"mark": "massacre",
+			"sources": ["wikipedia-womens-war"]
+		}
+	],
+	"area": {
+		"lgas": [
+			"abia-ikwuano", "abia-umuahia-north", "abia-umuahia-south", "abia-bende", "abia-aba-north", "abia-aba-south", "abia-osisioma-ngwa", "abia-isiala-ngwa-north", "abia-isiala-ngwa-south",
+			"imo-owerri-municipal", "imo-owerri-north", "imo-owerri-west", "akwa-ibom-abak", "akwa-ibom-ikot-ekpene", "akwa-ibom-ukanafun", "akwa-ibom-essien-udim"
+		]
+	},
+	"sources": ["wikipedia-womens-war"],
+	"confidence": "high",
+	"reviewNotes": ["Oloko (Ikwuano LGA) is placed approximately; GRID3 has no settlement of that name in Abia."]
+}

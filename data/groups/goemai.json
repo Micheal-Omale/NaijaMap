@@ -1,6 +1,27 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Shendam",
+			"lga": "plateau-shendam",
+			"point": [
+				9.533,
+				8.883
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-shendam"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "The second most populous town of Plateau State, where Goemai and other West Chadic languages are spoken; the Npol and Nroam lakes and the Jelbang rocks are in the LGA.",
+				"sources": [
+					"wikipedia-shendam"
+				],
+				"confidence": "high"
+			}
+		}
+	],
 	"reviewNotes": [],
 	"name": "Goemai",
 	"searchAliases": [

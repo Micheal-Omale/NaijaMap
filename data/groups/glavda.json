@@ -1,6 +1,16 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Glavda of the Gwoza hills",
+			"lga": "borno-gwoza",
+			"villages": [],
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "medium"
+		}
+	],
 	"reviewNotes": [],
 	"name": "Glavda",
 	"searchAliases": [

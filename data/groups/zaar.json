@@ -1,6 +1,19 @@
 {
 	"status": "draft",
-	"communities": [],
+	"communities": [
+		{
+			"name": "Tafawa Balewa and Bogoro",
+			"lga": "bauchi-tafawa-balewa",
+			"villages": [],
+			"alsoIn": [
+				"bauchi-bogoro"
+			],
+			"sources": [
+				"udosen-2018"
+			],
+			"confidence": "medium"
+		}
+	],
 	"reviewNotes": [],
 	"name": "Zaar",
 	"searchAliases": [

@@ -13,10 +13,10 @@
 	},
 	"peak": 1530,
 	"summary": {
-		"text": "Kebbi rose when Muhammadu Kanta rebelled against Songhay around 1516, defeated it, and built a fortified capital at Surame. For a generation Kebbi dominated western Hausaland. It resisted the jihad longer than any Hausa state, and its rulers held out at Argungu until the British arrived in 1902.",
+		"text": "The last of the Hausa states to emerge, Kebbi was founded by Muhammadu Kanta, a Katsina-born champion wrestler who became a captain in Songhai's army and rebelled in 1516 over his share of the spoils from Aïr. He beat every Songhai army sent against him, and from his walled cities of Leka, Gungu, Silame and above all Surame he took tribute from much of Hausaland, Aïr, Nupe and Borgu, and held off Bornu. After his death the empire fell away, and around 1715 Zamfara, Gobir and Agadez threw it off. The jihad took Birnin Kebbi in 1805, but the Kebbawa fought on from Argungu for nearly a century.",
 		"sources": [
-			"wikipedia-argungu-emirate",
-			"wikipedia-surame"
+			"wikipedia-kanta-kotal",
+			"wikipedia-kebbi-kingdom"
 		],
 		"confidence": "medium"
 	},
@@ -33,14 +33,14 @@
 	"snapshots": [
 		{
 			"year": 1516,
-			"yearLabel": "c. 1516",
-			"title": "Kanta rebels against Songhay",
-			"text": "Muhammadu Kanta, a Songhay commander, revolts after a campaign against Agadez and defeats the Askia's army.",
+			"yearLabel": "1516–1530",
+			"title": "Kanta rebels against Songhai",
+			"text": "Kanta, a captain in Askia Muhammad's army, returns from the Aïr campaign of 1515 to be told that claiming his share of the spoils would make him a rebel. His men say they will be rebels with him. He beats the army the Askia sends in 1517, and makes himself king of the Rima valley from Leka, nine villages walled into one.",
 			"capital": {
-				"name": "Surame",
+				"name": "Leka (approximate)",
 				"point": [
-					4.899,
-					13.088
+					4.25,
+					12.5
 				]
 			},
 			"core": {
@@ -67,19 +67,25 @@
 							16.27
 						]
 					},
-					"label": "War with Songhay"
+					"label": "Songhai's army beaten (1517)",
+					"sources": [
+						"wikipedia-kanta-kotal",
+						"wikipedia-kebbi-kingdom"
+					],
+					"confidence": "high"
 				}
 			],
 			"sources": [
-				"wikipedia-argungu-emirate"
+				"wikipedia-kanta-kotal",
+				"wikipedia-kebbi-kingdom"
 			],
-			"confidence": "medium"
+			"confidence": "high"
 		},
 		{
 			"year": 1530,
-			"yearLabel": "c. 1530–1556",
-			"title": "Kebbi at its height",
-			"text": "From the walled city of Surame, Kanta dominates western Hausaland. He dies in 1556 returning from a war with Bornu.",
+			"yearLabel": "1530–1561",
+			"title": "Kanta's empire",
+			"text": "From Surame, seven walled towns one inside another with 49 gates, Kanta takes tribute in men and wealth from Gobir, Katsina, Kano, Zazzau, Zamfara, Yauri, Nupe, Borgu and Aïr; the Nupe, late with their tribute, are made to mix the mortar of their stretch of wall with shea butter. Askia Muhammad Benkan (1531–1537) barely escapes a Kebbi rout. A Bornu army besieges Surame and withdraws when it sees the walls lined with grinning defenders, who are in fact dead men, their lips slit: “dariya ba loto”. Kanta dies in the 1550s from a wound taken near Katsina on a campaign against Bornu.",
 			"capital": {
 				"name": "Surame",
 				"point": [
@@ -155,27 +161,153 @@
 				{
 					"kind": "war",
 					"to": {
+						"name": "Gao (Songhay)",
+						"point": [
+							-0.04,
+							16.27
+						]
+					},
+					"label": "Askia Benkan routed",
+					"sources": [
+						"wikipedia-kanta-kotal",
+						"wikipedia-kebbi-kingdom"
+					],
+					"confidence": "high"
+				},
+				{
+					"kind": "war",
+					"to": {
 						"name": "Ngazargamu",
 						"point": [
 							12.367,
 							13.083
 						]
 					},
-					"label": "War with Bornu"
+					"label": "Wars with Bornu; Surame besieged",
+					"sources": [
+						"wikipedia-kanta-kotal"
+					],
+					"confidence": "high"
+				},
+				{
+					"kind": "tribute",
+					"to": {
+						"name": "Gbara (Nupe)",
+						"point": [
+							5.852,
+							8.938
+						]
+					},
+					"label": "Nupe tribute",
+					"sources": [
+						"wikipedia-kanta-kotal",
+						"wikipedia-kebbi-kingdom"
+					],
+					"confidence": "medium"
+				},
+				{
+					"kind": "tribute",
+					"to": {
+						"name": "Kano",
+						"point": [
+							8.52,
+							12
+						]
+					},
+					"label": "Hausaland under tribute (Sultan Bello)",
+					"sources": [
+						"wikipedia-kanta-kotal",
+						"wikipedia-kebbi-kingdom"
+					],
+					"confidence": "disputed",
+					"note": "Muhammad Bello's claim; the Kano Chronicle has Kano under Kisoki in the same years."
+				},
+				{
+					"kind": "tribute",
+					"to": {
+						"name": "Agadez",
+						"point": [
+							7.99,
+							16.97
+						]
+					},
+					"label": "Aïr occupied",
+					"sources": [
+						"wikipedia-kanta-kotal",
+						"wikipedia-kebbi-kingdom"
+					],
+					"confidence": "medium"
 				}
 			],
 			"sources": [
-				"wikipedia-argungu-emirate",
-				"wikipedia-surame"
+				"wikipedia-kanta-kotal",
+				"wikipedia-kebbi-kingdom"
 			],
 			"confidence": "medium",
-			"note": "Claims that Kanta ruled all Hausaland come from tradition and are disputed."
+			"note": "Claims that Kanta ruled all Hausaland come from tradition and are disputed.",
+			"nodes": [
+				{
+					"name": "Gungu",
+					"point": [
+						4.815,
+						12.986
+					]
+				},
+				{
+					"name": "Silame",
+					"point": [
+						4.846,
+						13.035
+					]
+				},
+				{
+					"name": "Leka (approximate)",
+					"point": [
+						4.25,
+						12.5
+					]
+				}
+			]
+		},
+		{
+			"year": 1561,
+			"yearLabel": "1561–1700",
+			"title": "The empire falls away",
+			"text": "After Kanta the Hausa states stop paying tribute and his successor Ahmadu does not fight for it. Kano and Katsina back a rival claimant in Agadez and Kebbi loses Aïr. By the end of the 16th century Kebbi is a small kingdom again, still ruling the Rima valley from Surame and then Birnin Kebbi.",
+			"capital": {
+				"name": "Surame",
+				"point": [
+					4.899,
+					13.088
+				]
+			},
+			"core": {
+				"lgas": [
+					"kebbi-argungu",
+					"kebbi-augie",
+					"kebbi-arewa-dandi",
+					"kebbi-birnin-kebbi",
+					"kebbi-kalgo",
+					"kebbi-bunza",
+					"kebbi-aleiro",
+					"kebbi-gwandu",
+					"kebbi-jega",
+					"kebbi-maiyama",
+					"kebbi-suru",
+					"sokoto-silame"
+				]
+			},
+			"sources": [
+				"wikipedia-kebbi-kingdom",
+				"wikipedia-kanta-kotal"
+			],
+			"confidence": "medium"
 		},
 		{
 			"year": 1700,
-			"yearLabel": "c. 1700",
-			"title": "Capital at Birnin Kebbi",
-			"text": "Surame is abandoned and Birnin Kebbi becomes the capital of a smaller kingdom.",
+			"yearLabel": "c. 1700–1805",
+			"title": "Birnin Kebbi, and the revolt of 1715",
+			"text": "Surame is abandoned and Birnin Kebbi becomes the capital. Around 1715 Zamfara, Gobir and Agadez rise together, drive Kebbi's army back to the Gulbin Ka and capture its king, Muhammadu dan Giwa. Kebbi is still one of the leading states of Hausaland in 1800.",
 			"capital": {
 				"name": "Birnin Kebbi",
 				"point": [
@@ -200,15 +332,33 @@
 				]
 			},
 			"sources": [
-				"wikipedia-surame",
-				"wikipedia-argungu-emirate"
+				"wikipedia-kebbi-kingdom",
+				"wikipedia-zamfara-kingdom"
 			],
-			"confidence": "medium"
+			"confidence": "medium",
+			"links": [
+				{
+					"kind": "war",
+					"to": {
+						"name": "Birnin Zamfara",
+						"point": [
+							6.45,
+							13.18
+						]
+					},
+					"label": "Zamfara, Gobir and Agadez revolt (c. 1715)",
+					"sources": [
+						"wikipedia-zamfara-kingdom",
+						"wikipedia-kebbi-kingdom"
+					],
+					"confidence": "high"
+				}
+			]
 		},
 		{
 			"year": 1805,
 			"title": "The jihad takes Birnin Kebbi",
-			"text": "Abdullahi dan Fodio's forces take Birnin Kebbi, but the Kebbawa fight on from the river valleys.",
+			"text": "Abdullahi dan Fodio's jihadists take Birnin Kebbi and set up the Gwandu emirate on most of the kingdom, with a puppet king. The ousted Sarki Muhammadu Hodi fights on in the Zamfara valley, and his successor Karari from Argungu and Zazzagawa. When Karari dies in 1831 his son Yakubu Nabame surrenders and spends sixteen years in exile at Sokoto.",
 			"core": {
 				"lgas": [
 					"kebbi-argungu",
@@ -231,14 +381,15 @@
 				}
 			],
 			"sources": [
-				"wikipedia-argungu-emirate"
+				"wikipedia-kebbi-kingdom"
 			],
-			"confidence": "medium"
+			"confidence": "high",
+			"yearLabel": "1805–1849"
 		},
 		{
 			"year": 1849,
 			"title": "Independent again at Argungu",
-			"text": "Yakubu Nabame declares Kebbi independent with Argungu as its capital. War with Gwandu and Sokoto goes on until the British arrive in 1902.",
+			"text": "Allowed home to Argungu as a vassal, Yakubu Nabame declares himself Sarkin Kebbi again in 1849 and survives a siege of Argungu by Sokoto. His brother Yusufu Mainasara falls in battle in 1859; Gwandu's emir Haliru is killed at Karakara in 1860. The Fulani recognise Kebbi's independence by treaty in 1867, war resumes in 1875 over the town of Fanna, and Sarkin Kebbi Sama'ila wins a string of victories over Gwandu from 1883 until the British end the fighting in 1902–1903.",
 			"capital": {
 				"name": "Argungu",
 				"point": [
@@ -264,18 +415,38 @@
 							12.5
 						]
 					},
-					"label": "War with Gwandu"
+					"label": "Fifty years of war with Gwandu",
+					"sources": [
+						"wikipedia-kebbi-kingdom"
+					],
+					"confidence": "high"
+				},
+				{
+					"kind": "war",
+					"to": {
+						"name": "Sokoto",
+						"point": [
+							5.24,
+							13.06
+						]
+					},
+					"label": "Siege of Argungu by Sokoto",
+					"sources": [
+						"wikipedia-kebbi-kingdom"
+					],
+					"confidence": "high"
 				}
 			],
 			"sources": [
-				"wikipedia-argungu-emirate"
+				"wikipedia-kebbi-kingdom"
 			],
-			"confidence": "high"
+			"confidence": "high",
+			"yearLabel": "1849–1902"
 		}
 	],
 	"today": {
-		"text": "The Emir of Argungu carries on the Kebbi line. Argungu is known for its fishing festival, held since 1934.",
-		"title": "Emir of Argungu",
+		"text": "The Emir of Argungu, heir of Kanta's line, reigns in Kebbi State; the Argungu fishing festival is held on the river every year.",
+		"title": "Emir of Argungu (Sarkin Kebbi)",
 		"seat": {
 			"name": "Argungu",
 			"point": [
@@ -284,9 +455,12 @@
 			]
 		},
 		"sources": [
-			"wikipedia-argungu-emirate"
+			"wikipedia-kebbi-kingdom"
 		],
-		"confidence": "high"
+		"confidence": "medium"
 	},
-	"reviewNotes": []
+	"reviewNotes": [
+		"Leka is placed near Birnin Kebbi, which grew from it; not checked on the ground.",
+		"Kanta's death is dated 1556 in Kebbi Kingdom and 1561 in Kanta Kotal; both are Wikipedia."
+	]
 }

@@ -1,0 +1,62 @@
+{
+	"name": "Ibusa",
+	"status": "draft",
+	"otherNames": [
+		"Igbuzo"
+	],
+	"point": [
+		6.6282,
+		6.1777
+	],
+	"founded": {
+		"year": 1450,
+		"yearLabel": "c. 1450",
+		"sources": [
+			"wikipedia-igbuzo"
+		],
+		"confidence": "medium"
+	},
+	"summary": {
+		"text": "Ibusa is a federation of two settlements with two founders: Umejei, a prince of Isu exiled after killing a rival in a wrestling bout, and Edini, who left Nri with his exiled brother Odaigbo and settled where his pot fell, founding Ogboli. Some historians think followers of Ezechima from Benin also settled here.",
+		"sources": [
+			"wikipedia-igbuzo"
+		],
+		"confidence": "medium"
+	},
+	"founders": [
+		{
+			"people": "Igbo",
+			"group": "igbo",
+			"quarters": [
+				"Umejei settlements"
+			],
+			"text": "Umejei, son of the Eze of Isu, spared from death for killing his opponent in a wrestling bout and sent away to settle.",
+			"sources": [
+				"wikipedia-igbuzo"
+			],
+			"confidence": "medium"
+		},
+		{
+			"people": "Igbo",
+			"group": "igbo",
+			"polity": "nri",
+			"from": {
+				"name": "Agukwu Nri",
+				"point": [
+					6.98,
+					6.15
+				]
+			},
+			"quarters": [
+				"Ogboli"
+			],
+			"text": "Edini of Nri, who went into exile with his brother Odaigbo and settled where his pot fell after crossing the Niger.",
+			"sources": [
+				"wikipedia-igbuzo"
+			],
+			"confidence": "medium"
+		}
+	],
+	"under": [],
+	"reviewNotes": []
+}

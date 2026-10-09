@@ -1,0 +1,83 @@
+{
+	"name": "Tiv",
+	"status": "draft",
+	"groups": [
+		"tiv"
+	],
+	"rule": "elders",
+	"span": {
+		"from": 1600,
+		"to": 1911,
+		"fromLabel": "c. 1600",
+		"toLabel": "1906–1911",
+		"sources": [
+			"wikipedia-tiv-people"
+		],
+		"confidence": "disputed",
+		"note": "The start follows Tiv tradition, which dates their settlement at Swem to about 1600."
+	},
+	"summary": {
+		"text": "The Tiv had no king and no chiefs over them. Each clan and kindred was led by its eldest man, the orya, and the whole people saw themselves as the descendants of one ancestor, Tiv. Their tradition says they came from far to the south-east and settled at Swem, by today's Cameroon border, around 1600, then spread north and west into the Benue valley, farming new land as they went. The Fulani called them Munshi. In the 19th century they fought on the Jukun side against the jihad, and their steady expansion pressed on the Jukun and Idoma. The office of Tor Tiv was created only under British rule, in 1946.",
+		"sources": [
+			"wikipedia-tiv-people",
+			"wikipedia-wukari-federation"
+		],
+		"confidence": "medium"
+	},
+	"end": {
+		"text": "British forces entered Tiv country from the east in 1906, amid tension between the Tiv and other peoples of the Benue valley. Lieutenant-Colonel Hugh Trenchard's Southern Nigeria Regiment met the Tiv between November 1907 and spring 1908; the Tiv later said they had beaten that force before inviting the British to talk. The southern Tiv remember the British “eruption” in 1911. Tivland was one of the last large areas of Nigeria to come under British control.",
+		"sources": [
+			"wikipedia-tiv-people",
+			"wikipedia-hugh-trenchard-in-nigeria"
+		],
+		"confidence": "high"
+	},
+	"lands": [
+		{
+			"from": 1600,
+			"to": 1699,
+			"lgas": [
+				"benue-kwande",
+				"benue-ushongo",
+				"benue-vandeikya"
+			],
+			"confidence": "disputed",
+			"note": "By Tiv tradition they settled first at Swem, near today’s Cameroon border, then spread down into the Benue valley between the early 1600s and the 1700s."
+		},
+		{
+			"from": 1700,
+			"to": 1799,
+			"lgas": [
+				"benue-kwande",
+				"benue-ushongo",
+				"benue-vandeikya",
+				"benue-konshisha",
+				"benue-gboko",
+				"benue-buruku",
+				"benue-katsina-ala"
+			],
+			"confidence": "medium",
+			"note": "Moving down from Swem into the Katsina-Ala and Benue lowlands."
+		},
+		{
+			"from": 1800,
+			"lgas": [
+				"benue-gboko",
+				"benue-buruku",
+				"benue-katsina-ala",
+				"benue-konshisha",
+				"benue-kwande",
+				"benue-logo",
+				"benue-guma",
+				"benue-gwer-east",
+				"benue-tarka",
+				"benue-ukum",
+				"benue-ushongo",
+				"benue-vandeikya",
+				"benue-makurdi"
+			],
+			"note": "By the 19th century Tiv farms reach the Benue at Makurdi and press on Jukun and Idoma land."
+		}
+	],
+	"reviewNotes": []
+}

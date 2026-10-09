@@ -1,4 +1,4 @@
-# Scope: NiajMap
+# Scope: HistoNaija
 
 An interactive map of Nigeria that shows where each ethnic group lives today, and how the great precolonial states grew and shrank from about 1000 AD to the 36 states of 1996. It is a free public educational site, and also a portfolio piece. It must be trustworthy, beautiful, and fast on a phone with slow data.
 
@@ -33,14 +33,14 @@ An interactive map of Nigeria that shows where each ethnic group lives today, an
 | 12 | About, sources & donate page | Slice 3 | planned |
 | 13 | Suggest a correction | Slice 3 | planned |
 | 14 | Privacy friendly analytics | Slice 3 | planned |
-| 15 | Timeline with one kingdom | Slice 4 | planned |
-| 16 | Big empires data | Slice 5 | planned |
-| 17 | Many kingdoms at once | Slice 5 | planned |
+| 15 | Timeline with one kingdom | Slice 4 | in-progress |
+| 16 | Big empires data | Slice 5 | in-progress |
+| 17 | Many kingdoms at once | Slice 5 | in-progress |
 | 18 | Colonial and modern boundaries | Slice 6 | planned |
-| 19 | Timeline playback | Slice 6 | planned |
-| 20 | Middle Belt kingdoms data | Slice 7 | planned |
-| 21 | South East and Delta polities | Slice 7 | planned |
-| 22 | Group and kingdom bridge | Slice 8 | planned |
+| 19 | Timeline playback | Slice 6 | in-progress |
+| 20 | Middle Belt kingdoms data | Slice 7 | in-progress |
+| 21 | South East and Delta polities | Slice 7 | in-progress |
+| 22 | Group and kingdom bridge | Slice 8 | in-progress |
 | 23 | Beyond 50 groups | Slice 9 | planned |
 | 24 | Domain & hosting check | Slice 3 | planned |
 
@@ -151,6 +151,8 @@ From spec 0001. Before the public launch, pick and connect a domain name, and ch
 The first thread through Then mode, built with one kingdom only. The map switches to the old map look. A year slider steps through dated snapshots, and the kingdom is drawn as a solid core with fading influence. Each snapshot shows its source and confidence.
 **Done when:** a visitor can switch to Then mode, move the slider, and watch one kingdom change across its snapshots, with sources shown, the year saved in the link, and it works on a phone.
 - [ ] Design it (spec): `/architect timeline with one kingdom`
+⚠ spec pending: built directly at the owner's request (2026-10-07), as one Then view covering features 15 to 22. Decisions to backfill: polities in `data/polities/<id>.json` (span, peak, dated snapshots with `core` and `influence` extents by state and LGA, rough `beyond` rings outside Nigeria smoothed and clipped at the border, capital, nodes, tribute/trade/war/ritual links, a `today` seat), each claim with sources and confidence; shapes dissolved at build time with mapshaper into `/data/history.json` (about 90 KB gzipped) and loaded only when the Then view opens; neighbouring land from Natural Earth in `public/geo/region.json`; web address `?mode=then&year=1600&polity=oyo`; slider weighted toward 1400 to 1914 plus a Today stop; snapshot changes fade with feature state (ink soaks in over 760 ms, lifts in 260 ms); war lines show for 25 years after their snapshot. 29 polities drafted, all awaiting owner review.
+· code in `src/lib/polities.ts`, `src/lib/timeline.ts`, `src/components/map/history-*.ts`, `Timeline.tsx`, `HistoryPanel.tsx`, `data/polities/`
 
 ## Slice 5: The big empires (Phase 2)
 
@@ -158,6 +160,8 @@ The first thread through Then mode, built with one kingdom only. The map switche
 Draft snapshots for Kanem Bornu, the Hausa states leading into the Sokoto Caliphate, Oyo, and Benin, from about 1000 AD to their end in colonial times. Each snapshot gets its source and confidence.
 **Done when:** each empire has snapshots at its key dates and events, every snapshot has a source and a confidence level, and the owner has reviewed them.
 - [ ] Build it: `/develop big empires data`
+  - [x] Drafted 2026-10-07: Kanem-Bornu, Sokoto Caliphate, Oyo, Benin, and the Hausa states (Kano, Katsina, Zazzau, Gobir, Kebbi, Zamfara, Daura); plus Ife, Ijebu, Egba, Ibadan, Ekitiparapo, Lagos
+  - [ ] Owner review
 
 ### 17. Many kingdoms at once · needs a decision
 Several kingdoms on the timeline together. It shows overlapping influence, tribute and trade links as lines, and a profile for each kingdom.
@@ -175,18 +179,25 @@ The timeline continues past the kingdoms: Lagos Colony (1861), the protectorates
 The signature moment: press play and watch the history of the region unfold like a film, with kingdoms rising, spreading and fading as they change between snapshots.
 **Done when:** playback runs smoothly on a mid range phone, can be paused and scrubbed, does not suggest precision the data does not have, and respects reduced motion settings.
 - [ ] Design it (spec): `/architect timeline playback`
+⚠ spec pending: built 2026-10-07 at the owner's request ("documentary feeling"). Playback: letterbox bars, the camera sets off for each event's area while the year runs, then a narrated lower third holds 4.2 s; eras cross-dissolve (1.3 s sine) instead of blinking. Tapping a polity opens its story (`StoryMode.tsx`, lazy loaded with GSAP and SplitText, about 33 KB gzipped): a title sequence, chapters from its snapshots driven by scroll (a reading line at 40%) or by Watch (reading time from word count), the frontier drawn by pen with a line gradient, a slow Ken Burns drift once the map is idle, its own timeline with chapter stations, and an epilogue with today's ruler, the peoples now in its lands, a "continue with" neighbour and sources. Web address `?mode=then&polity=oyo&ch=4`.
+⚠ spec pending (2026-10-08, owner's request): the Then view opens at 1000 AD (`DEFAULT_YEAR = FIRST_YEAR`), and pressing play there narrates 1000 before moving on. Captions hold for their reading time (2.2 s to settle, then 330 ms a word, 7 to 17 s), not a fixed 4.2 s; moments 5.6 to 14 s; the year counter runs at 14 ms a year (0.9 to 2.6 s). Polity and Power stories read at 330 to 340 ms a word. New event kind `contact` (Europeans by sea, drawn in the colonial scarlet like conquests) and route kind `voyage` with a `vessel` (sail or steam): a side-on ship is the pen of its own sea lane, drawing its wake as it sails in, then one ship keeps plying the lane (docking and fading in port, the next sailing in from beyond the map) while the event is on the map. Drafted with sources: the Portuguese at the coast (1472 to c. 1485), the Atlantic slave trade ports (c. 1650 to 1807), the 1841 Niger Expedition, Baikie and the Pleiad (1854 to 1864); the 1851 bombardment of Lagos now arrives by steamer.
 
 ## Slice 7: More kingdoms (Phase 3)
+
+⚠ events built 2026-10-07 from the owner's notes (`hintsPrompts/doc1.md`), spec pending: a new `events` collection (`data/events/`, 29 drafted) for wars, raids, alliances, migrations, British conquests and partitions, with routes, dated moments and partition pieces, each sourced. Drawn by `history-map.ts`: routes draw on like a pen with an arrowhead, migrations carry walking travellers, moments are stamped with a ripple (scarlet squares for colonial forces, sepia rounds for the region's states; stacked with a count below zoom 6.5, fanned above), and a partition's pieces burst apart and settle with scarlet cracks. Every line, mark and piece can be hovered (desktop) or tapped (pinned card, a sheet on phones) to see what it means; the key shows every sign as drawn. Events are timeline stops with their own marks on the track; playback tells an event with placed moments one moment at a time, the camera visiting each place. Event panel at `?mode=then&event=<id>`. Igala now begins as Idah alone and gains the western Idoma tributaries and core towns; Benin and Oyo gain the doc's places. Open questions for the owner are in each event's review notes.
 
 ### 20. Middle Belt kingdoms data
 Draft snapshots for Igala, Nupe, Kwararafa (Jukun) and Borgu, including key events such as the Benin and Igala war of 1515 to 1516.
 **Done when:** each kingdom has reviewed snapshots with sources and confidence levels, and they appear on the timeline alongside the empires.
 - [ ] Build it: `/develop middle belt kingdoms data`
+  - [x] Drafted 2026-10-07: Igala, Nupe, Kwararafa, Borgu (Benin–Igala war 1515–1516 included)
+  - [ ] Owner review
 
 ### 21. South East and Delta polities · needs a decision
 Nri and the Aro Confederacy were ritual and trade networks, not territories, so they need a different way of drawing. This feature also covers the city states: Bonny, Kalabari, Nembe, Opobo, Old Calabar (Efik) and Itsekiri (Warri).
 **Done when:** network polities are drawn as networks rather than territories, the city states and their trade reach show on the timeline, and all are reviewed with sources.
 - [ ] Design it (spec): `/architect south east and delta polities`
+  - [x] Drafted 2026-10-07: Nri and Aro as networks (dotted reach, places, trade lines); Warri, Bonny, Kalabari, Nembe, Opobo, Old Calabar as city-states. Awaiting owner review.
 
 ## Slice 8: The bridge (Phase 3)
 
@@ -194,6 +205,7 @@ Nri and the Aro Confederacy were ritual and trade networks, not territories, so 
 Join the two modes. From the Igala profile, one tap shows the Igala Kingdom at its height laid over where Igala people live today. From a kingdom, a visitor sees the groups living in its old lands now.
 **Done when:** every group with a linked kingdom can jump to it, and back, with both layers shown together and the link shareable.
 - [ ] Design it (spec): `/architect group and kingdom bridge`
+  - [x] Built 2026-10-07: a people's profile links to its kingdom at its height; a polity's profile lists its people and the peoples whose homelands lie in its lands at its height.
 
 ## Slice 9: Expansion (Phase 4)
 
