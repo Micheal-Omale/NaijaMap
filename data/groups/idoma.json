@@ -579,27 +579,12 @@
 				"grid3-settlement-names"
 			],
 			"confidence": "high"
-		},
-		{
-			"name": "Utonkon",
-			"lga": "benue-ado",
-			"villages": [],
-			"sources": [
-				"wikipedia-ado-benue"
-			],
-			"confidence": "high",
-			"history": {
-				"text": "Catholic missionaries reached Utonkon in 1922 and founded St Paul's parish.",
-				"sources": [
-					"wikipedia-ado-benue"
-				],
-				"confidence": "high"
-			}
 		}
 	],
 	"reviewNotes": [
 		"Wikipedia says the Idoma occupy nine LGAs; the Benue source names seven. Obi and Oju (mostly Igede) are not mapped yet.",
 		"Idomoid peoples outside Benue (Alago in Doma and Keana, Yala in Cross River) speak related but separate languages and are not counted as Idoma here.",
-		"Idoma districts added 2026-10-09 from the Idoma timelines and LGA articles; Owukpa, Orokam, Ichama, Ojigo, Ulayi and Ijigban still need histories. The full list of 22 districts should be checked against an Idoma Traditional Council source."
+		"Idoma districts added 2026-10-09 from the Idoma timelines and LGA articles; Owukpa, Orokam, Ichama, Ojigo, Ulayi and Ijigban still need histories. The full list of 22 districts should be checked against an Idoma Traditional Council source.",
+		"Utonkon moved to its own people, the Ufia (2026-10-10). They speak K'ufia, a Korring dialect, not Idoma, though they count themselves part of the Idoma nation and their ruler sits among the Idoma chiefs."
 	]
 }

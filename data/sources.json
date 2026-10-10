@@ -9983,5 +9983,230 @@
 		"licence": "CC BY-SA 4.0",
 		"accessed": "2026-10-09",
 		"checked": true
+	},
+	{
+		"id": "owner-2026-10-10-nri",
+		"title": "Local knowledge from the HistoNaija owner: Eri came from Igala, as Prince M. C. M. Idigo of the Aguleri royal family wrote; Nri, his son, founded his own kingdom",
+		"author": "HistoNaija owner",
+		"year": 2026,
+		"kind": "testimony",
+		"accessed": "2026-10-10",
+		"checked": true
+	},
+	{
+		"id": "owner-2026-10-10-ife-idah",
+		"title": "Local knowledge from the HistoNaija owner: there were Attahs at Ife and at Idah long before the Igala–Benin war; the Igala at Idah were the Igala-Ogba and Igala-Mela clans",
+		"author": "HistoNaija owner",
+		"year": 2026,
+		"kind": "testimony",
+		"accessed": "2026-10-10",
+		"checked": true
+	},
+	{
+		"id": "owner-2026-10-10-benin-war",
+		"title": "Local knowledge from the HistoNaija owner: the Igala–Benin war was not an Igala defeat; the Igala forces were driven back to Idah",
+		"author": "HistoNaija owner",
+		"year": 2026,
+		"kind": "testimony",
+		"accessed": "2026-10-10",
+		"checked": true
+	},
+	{
+		"id": "owner-2026-10-10-ogurugu",
+		"title": "Local knowledge from the HistoNaija owner: Onoja Oboni’s war camp was at Ogurugu",
+		"author": "HistoNaija owner",
+		"year": 2026,
+		"kind": "testimony",
+		"accessed": "2026-10-10",
+		"checked": true
+	},
+	{
+		"id": "afigbo-1981",
+		"title": "Ropes of Sand: Studies in Igbo History and Culture",
+		"author": "A. E. Afigbo",
+		"year": 1981,
+		"publisher": "University Press, Ibadan",
+		"kind": "book",
+		"checked": false
+	},
+	{
+		"id": "owner-2026-10-10-uhe",
+		"title": "Local knowledge from the HistoNaija owner: the Igala were present at Uhe (Ife) by about 600 BCE",
+		"author": "HistoNaija owner",
+		"year": 2026,
+		"kind": "testimony",
+		"accessed": "2026-10-10",
+		"checked": true
+	},
+	{
+		"id": "kigala-igala-origins",
+		"title": "Claims on Igala origin (citing Biobaku 1983, Akinkugbe 1976 and 1978)",
+		"author": "Kigala",
+		"url": "https://ki-gala.com/traditions-on-igala-origins-latest",
+		"kind": "web",
+		"accessed": "2026-10-10",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-timeline-yoruba-history",
+		"title": "Timeline of Yoruba history",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Timeline_of_Yoruba_history",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-10",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-utonkon",
+		"title": "Utonkon",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Utonkon",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-10",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-korring",
+		"title": "Korring",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Korring",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-10",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-idoma-language",
+		"title": "Idoma language",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Idoma_language",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-10",
+		"checked": true
+	},
+	{
+		"id": "glottolog-orin1239",
+		"title": "Glottolog: Oring (Korring) (orin1239)",
+		"author": "Hammarström, Harald; Forkel, Robert; Haspelmath, Martin; Bank, Sebastian",
+		"url": "https://glottolog.org/resource/languoid/id/orin1239",
+		"kind": "reference",
+		"licence": "CC BY 4.0",
+		"accessed": "2026-10-10",
+		"checked": true
+	},
+	{
+		"id": "ijogi-2021-ufia",
+		"title": "DEBATE: Ufia People are NOT Idoma",
+		"author": "Adakole Ijogi",
+		"year": 2021,
+		"publisher": "National Record",
+		"url": "https://www.nationalrecord.com.ng/debate-ufia-people-are-not-idoma/",
+		"kind": "news",
+		"accessed": "2026-10-10",
+		"checked": true
+	},
+	{
+		"id": "nigeriagalleria-benue-rulers",
+		"title": "Traditional Rulers in Benue State",
+		"publisher": "Nigeria Galleria",
+		"url": "https://www.nigeriagalleria.com/Nigeria/States_Nigeria/Benue/Traditional-Rulers-in-Benue-State.html",
+		"kind": "web",
+		"accessed": "2026-10-10",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-orring",
+		"title": "Orring",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Orring",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-10",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-effium",
+		"title": "Effium",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Effium",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-10",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-amuda-people",
+		"title": "Amuda people",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Amuda_people",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-10",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ntezi-aba",
+		"title": "Ntezi-Aba",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ntezi-Aba",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-10",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ishielu",
+		"title": "Ishielu",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ishielu",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-10",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ezza-north",
+		"title": "Ezza North",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ezza_North",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-10",
+		"checked": true
+	},
+	{
+		"id": "sun-2022-orring-day",
+		"title": "Rare unification in Ebonyi",
+		"author": "Chijioke Agwu",
+		"year": 2022,
+		"publisher": "The Sun",
+		"url": "https://thesun.ng/rare-unification-in-ebonyi/",
+		"kind": "news",
+		"accessed": "2026-10-10",
+		"checked": true
+	},
+	{
+		"id": "blueprint-2023-orring-assembly",
+		"title": "Ebonyi: Group decries exclusion from Nwifuru's appointments",
+		"author": "Amarachukwu EgwuAgha",
+		"year": 2023,
+		"publisher": "Blueprint",
+		"url": "https://blueprint.ng/ebony-group-decries-exclusion-from-governor-nwifurus-appointments/",
+		"kind": "news",
+		"accessed": "2026-10-10",
+		"checked": true
+	},
+	{
+		"id": "pax-2023-effium-ceasefire",
+		"title": "Effium and Ezza Effium Ceasefire (PA-X local agreement 2574)",
+		"author": "PA-X Peace Agreements Database, University of Edinburgh",
+		"year": 2023,
+		"url": "https://www.peaceagreements.org/agreements/2574",
+		"kind": "dataset",
+		"accessed": "2026-10-10",
+		"checked": true
 	}
 ]

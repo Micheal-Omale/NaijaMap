@@ -1,0 +1,12 @@
+import puppeteer from 'puppeteer-core';
+import { readdirSync } from 'node:fs';
+import { resolve } from 'node:path';
+const [dir, out, cols = '9'] = process.argv.slice(2);
+const url = (f) => 'file:///' + resolve(dir, f).split('\\').join('/');
+const imgs = readdirSync(dir).filter((f) => /\.(jpg|png)$/.test(f)).map((f) => `<figure><img src="${url(f)}"><figcaption>${f}</figcaption></figure>`).join('');
+const b = await puppeteer.launch({ executablePath: 'C:/Program Files/Google/Chrome/Application/chrome.exe', headless: 'new', args: ['--allow-file-access-from-files'] });
+const p = await b.newPage();
+await p.setViewport({ width: 1400, height: 800 });
+const html = resolve(dir, '_sheet.html'); (await import('node:fs')).writeFileSync(html, `<style>body{margin:0;display:grid;grid-template-columns:repeat(${cols},1fr);gap:4px;background:#222;font:11px sans-serif;color:#fff}figure{margin:0}img{width:100%;display:block}</style>${imgs}`); await p.goto(url('_sheet.html'), { waitUntil: 'load' });
+await p.screenshot({ path: out, fullPage: true, type: 'jpeg', quality: 80 });
+await b.close();

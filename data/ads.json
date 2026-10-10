@@ -1,0 +1,19 @@
+{
+	"$comment": "Sponsored banners shown inside the place, community and people cards. Copy $example into ads to run one. Targets: lgas (ids from src/data/lgas.json, e.g. kogi-dekina), states (names as shown on the cards, e.g. Kogi), groups (ids from data/groups, e.g. igala). An ad with no targets runs everywhere. The most specific match wins: lga, then group, then state, then site-wide; ties rotate by card. start/end are optional YYYY-MM-DD (end inclusive). image is optional (a path under public/ or a full URL). When nothing matches, an 'Advertise here' slot links to contact.",
+	"contact": "mailto:advertise@example.com?subject=Advertise%20on%20Nigeria%20Histomap",
+	"$example": {
+		"id": "acme-kogi",
+		"sponsor": "Acme Ltd",
+		"title": "Your business in front of people reading about Kogi",
+		"text": "One or two short sentences.",
+		"url": "https://example.com",
+		"cta": "Visit",
+		"image": "/ads/acme.jpg",
+		"states": ["Kogi"],
+		"lgas": [],
+		"groups": [],
+		"start": "2026-11-01",
+		"end": "2026-11-30"
+	},
+	"ads": []
+}

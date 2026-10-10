@@ -1,6 +1,7 @@
 import type { ReactNode } from 'react';
 import type { Translate } from '../../i18n/utils';
 import type { CommunityView, Evidence, GroupView, PeopleView, PlaceView, Presence, SourceView } from '../../lib/types';
+import { AdBanner } from './AdBanner';
 import { Claim, Swatch } from './Profile';
 
 function Sources({ sources, prefix, tr }: { sources: SourceView[]; prefix: string; tr: Translate }) {
@@ -137,6 +138,7 @@ interface PlaceProps {
 /** What a visitor sees after tapping an LGA: who lives there, and how they speak. */
 export function PlaceCard({ lga, place, groupsHere, tr, onOpenGroup, onClose, backTo }: PlaceProps) {
 	const { t } = tr;
+	const adCtx = { lgas: [lga.id], states: [lga.state] };
 	return (
 		<CardFrame title={lga.name} sub={lga.state} onClose={onClose} backTo={backTo} tr={tr}>
 			{place ? (
@@ -147,6 +149,7 @@ export function PlaceCard({ lga, place, groupsHere, tr, onOpenGroup, onClose, ba
 					</p>
 					<Section title={t('place.history')} e={place.history} prefix="place-source" tr={tr} />
 					<Section title={t('place.livelihoods')} e={place.livelihoods} prefix="place-source" tr={tr} />
+					<AdBanner ctx={adCtx} slot="place" tr={tr} />
 					<h3 className="place-card__h">{t('place.who')}</h3>
 					<ul className="peoples">
 						{place.peoples.map((p) => (
@@ -182,6 +185,7 @@ export function PlaceCard({ lga, place, groupsHere, tr, onOpenGroup, onClose, ba
 							</ul>
 						</>
 					)}
+					<AdBanner ctx={adCtx} slot="place" tr={tr} />
 				</>
 			)}
 		</CardFrame>
@@ -228,6 +232,11 @@ export function CommunityCard({ community: c, group, tr, onClose, backTo }: Comm
 			)}
 			{c.note && <p className="note note--card">{c.note}</p>}
 			{c.approximate && <p className="muted">{t('map.approximate')}</p>}
+			<AdBanner
+				ctx={{ lgas: [c.lga, ...c.alsoIn.map((o) => o.lga)], states: [c.state], group: group.id }}
+				slot="community"
+				tr={tr}
+			/>
 			<Sources sources={cited} prefix="community-source" tr={tr} />
 		</CardFrame>
 	);

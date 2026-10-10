@@ -7,21 +7,31 @@
 	"until": 1790,
 	"actors": [{ "name": "Igala Kingdom", "polity": "igala", "side": "attacker" }, { "name": "Northern Igbo (Nsukka) towns", "side": "defender" }],
 	"summary": {
-		"text": "Igala tradition and Nsukka memory agree that the Igala conquered the northern Igbo towns by war. The name of Onoja Oboni, an Igala war leader kept away from Idah because of his power, recurs in every account: after devastating the Okpoto country he set his base at Ogugu and led his armies as far south as Opi. The Igala installed chiefs and Attama shrine priests, and the towns’ rulers took their staffs from Idah.",
-		"sources": ["shaibu-2024", "shelton-1971", "meek-1930", "igala-colonisation-northern-igbo"],
+		"text": "Igala tradition and Nsukka memory agree that the Igala conquered the northern Igbo towns by war. The name of Onoja Oboni, an Igala war leader kept away from Idah because of his power, recurs in every account. His war camp was at Ogurugu, on the Anambra river, which he walled; from there he led his armies through the Nsukka country as far south as Opi. The Igala installed chiefs and Attama shrine priests, and the towns’ rulers took their staffs from Idah.",
+		"sources": ["shaibu-2024", "shelton-1971", "meek-1930", "igala-colonisation-northern-igbo", "dailytrust-2022-igala-enugu", "afigbo-1981", "owner-2026-10-10-ogurugu"],
 		"confidence": "medium"
 	},
 	"routes": [
-		{ "kind": "advance", "by": "Igala Kingdom", "path": [[6.737, 7.117], [7.2, 7.25], [7.4784, 7.1542]], "label": "Onoja Oboni sets his base at Ogugu" },
-		{ "kind": "raid", "by": "Igala Kingdom", "path": [[7.4784, 7.1542], [7.4306, 6.9543], [7.3966, 6.8578], [7.4443, 6.7563]], "label": "Wars of conquest as far as Opi" }
+		{
+			"kind": "advance",
+			"by": "Igala Kingdom",
+			"path": [[6.737, 7.117], [6.8, 6.97], [6.9505, 6.7871]],
+			"label": "Onoja Oboni makes his war camp at Ogurugu",
+			"sources": ["dailytrust-2022-igala-enugu", "owner-2026-10-10-ogurugu"],
+			"confidence": "medium"
+		},
+		{ "kind": "raid", "by": "Igala Kingdom", "path": [[6.9505, 6.7871], [7.2538, 6.7685], [7.3966, 6.8578], [7.4306, 6.9543]], "label": "Wars of conquest through Nkpologu and Nsukka to Enugu-Ezike" },
+		{ "kind": "raid", "by": "Igala Kingdom", "path": [[7.3966, 6.8578], [7.4443, 6.7563]], "label": "South as far as Opi" }
 	],
 	"moments": [
 		{
 			"when": "18th century",
-			"title": "Base at Ogugu",
-			"text": "From Ogugu, tradition says, Onoja Oboni turned a great tree upside down and built stone bridges over the Ofu single-handed: the stories of a professional soldier remembered as more than a man.",
-			"at": { "name": "Ogugu", "point": [7.4784, 7.1542] },
-			"mark": "camp"
+			"title": "The war camp at Ogurugu",
+			"text": "Onoja Oboni makes Ogurugu his war camp and, tradition says, builds its walls single-handed; their remains are still visible. Afigbo records him as the son of Abatamu of Ogurugu and an Igala princess, Obudali. Other tales make him more than a man: he turned a great tree upside down and tried to turn the Niger with his bare hands. He is buried at Ogurugu, and a festival is held at his grave every year, in a forest women may not enter.",
+			"at": { "name": "Ogurugu", "point": [6.9505, 6.7871] },
+			"mark": "camp",
+			"sources": ["dailytrust-2022-igala-enugu", "afigbo-1981", "wikipedia-igbo-igala-wars", "owner-2026-10-10-ogurugu"],
+			"confidence": "medium"
 		},
 		{
 			"when": "18th century",
@@ -48,10 +58,12 @@
 			"sources": ["meek-1930", "shaibu-2024"]
 		}
 	],
-	"sources": ["shaibu-2024", "shelton-1971", "meek-1930", "igala-colonisation-northern-igbo", "owner-2026-10-07-doc1"],
+	"sources": ["shaibu-2024", "shelton-1971", "meek-1930", "igala-colonisation-northern-igbo", "dailytrust-2022-igala-enugu", "afigbo-1981", "wikipedia-igbo-igala-wars", "owner-2026-10-07-doc1", "owner-2026-10-10-ogurugu"],
 	"confidence": "medium",
-	"note": "Ukpabi places the conquest in Igala’s height, the 18th and early 19th century; no exact date is recorded.",
+	"note": "Ukpabi places the conquest in Igala’s height, the 18th and early 19th century; no exact date is recorded. The way from Idah to Ogurugu is not recorded and is drawn straight across the Ibaji country.",
 	"reviewNotes": [
+		"The base was first drawn at Ogugu (Olamaboro, Kogi), from a summary of Shaibu (2024). The owner corrected it to Ogurugu on 2026-10-10; Daily Trust (2022, his walls, grave and festival at Ogurugu) and Afigbo (1981, his father of Ogurugu) agree. Check Shaibu’s text to see whether Ogugu was a misreading.",
+		"The route from Ogurugu through Nkpologu and Nsukka to Enugu-Ezike joins the towns the sources name; the order of the campaigns is not recorded.",
 		"The owner’s notes name an Igala warlord “Omeppa” who set up garrisons in northern Igboland. The written sources found name Onoja Oboni. Is Omeppa another name for him, or another commander? A source would let him be added."
 	]
 }

@@ -4,7 +4,7 @@
 // sets the guess beside the wars they really fought. The address holds the
 // match-up, so it can be shared.
 
-import { useCallback, useEffect, useMemo, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import '@fontsource-variable/bricolage-grotesque/opsz.css';
 import type { Lang } from '../../i18n/ui';
 import { useTranslations, type Translate } from '../../i18n/utils';
@@ -34,6 +34,8 @@ import {
 	type Terrain,
 	type VersusData,
 } from '../../lib/versus';
+import { cue, resumeOnGesture, setScene } from '../../lib/sound';
+import SoundToggle from '../map/SoundToggle';
 import ShareButton from '../ShareButton';
 import Crest from './Crest';
 import VersusMap from './VersusMap';
@@ -94,6 +96,12 @@ export default function Versus({ lang }: { lang: Lang }) {
 	const [field, setField] = useState<Terrain | null>(initial.field);
 	const [load, setLoad] = useState<Load>({ status: 'loading' });
 	const [attempt, setAttempt] = useState(0);
+
+	// The map's music follows the visitor here, with the war drums to the fore.
+	useEffect(() => {
+		setScene('versus');
+		return resumeOnGesture();
+	}, []);
 
 	useEffect(() => {
 		let cancelled = false;
@@ -166,7 +174,10 @@ function Top({ tr }: { tr: Translate }) {
 			<p className="vs-top__title" aria-hidden="true">
 				{t('versus.title')}
 			</p>
-			<ShareButton tr={tr} />
+			<div className="vs-top__tools">
+				<SoundToggle tr={tr} />
+				<ShareButton tr={tr} />
+			</div>
 		</header>
 	);
 }
@@ -225,6 +236,12 @@ function Arena({ tr, ix, history, data, a, b, field, setA, setB, setField, onPre
 	const winner = pA >= 0.5 ? ra : rb;
 	// A new match-up replays the entrance: the banners wipe in and the seal stamps down.
 	const fight = `${ra.members.join()}@${ra.year}|${rb.members.join()}@${rb.year}`;
+	useEffect(() => cue('clash'), [fight]);
+	const fieldHeard = useRef(field);
+	useEffect(() => {
+		if (field !== fieldHeard.current) cue('tap');
+		fieldHeard.current = field;
+	}, [field]);
 
 	return (
 		<main className="vs" style={{ '--ink-a': inkA, '--ink-b': inkB } as React.CSSProperties}>

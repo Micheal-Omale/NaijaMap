@@ -71,13 +71,14 @@
 			"polity": "benin",
 			"event": "igala-benin-war",
 			"against": "Benin",
-			"result": "lost",
-			"text": "The invasion of Benin came close to the city but was driven back across the Niger.",
+			"result": "stalemate",
+			"text": "The invasion of Benin came close to the city, and after two years the Igala forces were driven back across the Niger to Idah. Benin counts it a victory; in Igala memory it was no defeat, for Benin never crossed the river and Idah paid it no tribute.",
 			"sources": [
 				"wikipedia-igala-benin-war",
-				"shaibu-2024"
+				"shaibu-2024",
+				"owner-2026-10-10-benin-war"
 			],
-			"confidence": "high"
+			"confidence": "disputed"
 		},
 		{
 			"year": 1700,

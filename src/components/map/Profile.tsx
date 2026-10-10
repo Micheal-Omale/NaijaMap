@@ -1,4 +1,5 @@
 import type { Translate } from '../../i18n/utils';
+import { AdBanner } from './AdBanner';
 import type { AreaView, CommunityView, Confidence, Evidence, GroupView, Presence } from '../../lib/types';
 
 const PRESENCE_ORDER: Presence[] = ['core', 'significant', 'minority'];
@@ -105,6 +106,7 @@ export default function Profile({ group, tr, onShowLga, onBack, onOpenKingdom, o
 	const { t, plural } = tr;
 	const states = byState(group.areas);
 	const allStates = new Set([...group.areas.map((a) => a.state), ...group.communities.map((c) => c.state)]);
+	const adCtx = { lgas: group.areas.map((a) => a.lga), states: [...allStates], group: group.id };
 
 	return (
 		<article className="profile" aria-labelledby="profile-name">
@@ -174,6 +176,8 @@ export default function Profile({ group, tr, onShowLga, onBack, onOpenKingdom, o
 					</div>
 				)}
 			</dl>
+
+			<AdBanner ctx={adCtx} slot="profile-top" tr={tr} />
 
 			{group.kingdoms.length > 0 && (
 				<section className="profile__section" aria-labelledby="kingdoms-heading">
@@ -259,6 +263,8 @@ export default function Profile({ group, tr, onShowLga, onBack, onOpenKingdom, o
 					))}
 				</section>
 			)}
+
+			<AdBanner ctx={adCtx} slot="profile-end" tr={tr} house={false} />
 
 			<Legend tr={tr} />
 

@@ -10,28 +10,19 @@
 		{ "name": "Igala Kingdom", "polity": "igala", "side": "origin" }
 	],
 	"summary": {
-		"text": "Prince M. C. M. Idigo of the Aguleri royal family wrote in his History of Aguleri (1955) that the Aguleri people came from Igala. Their leader Eri was an Igala warrior who came to the Anambra valley with his followers on a military expedition and set up his war camp at Eri-aka, near the Odanduli stream. That was three or four centuries before Idigo wrote. The colonial ethnographer C. K. Meek (1937) heard the same from the northern Umueri towns: the clan was founded by a man called Eri who came from the Igala country. Meek also recorded that Aguleri’s ruling family descends from Aguve, who was given the title of Eze by the Attah at Idah. Eri’s children founded the Umueri towns: Agulu founded Aguleri, Menri founded Nri, Onugu founded Igbariam and Ogbodulu founded Amanuke, and his daughter Iguedo was the mother of Nteje, Awkuzu, Ogbunike, Umuleri, Nando and Ogboli in Onitsha. Other traditions disagree. Nri, Igbariam and Amanuke say Eri came down from the sky, sent by Chukwu, and some Aguleri writers say instead that Eri’s son founded Igala.",
-		"sources": ["idigo-1955", "meek-1937", "boston-1960", "adojoh-2024", "wikipedia-eri-king", "wikipedia-aguleri", "owner-2026-10-07-eri"],
+		"text": "Prince M. C. M. Idigo of the Aguleri royal family wrote in his History of Aguleri (1955) that the Aguleri people came from Igala. Their leader Eri was an Igala warrior who came to the Anambra valley with his followers on a military expedition and set up his war camp at Eri-aka, near the Odanduli stream. That was three or four centuries before Idigo wrote. The colonial ethnographer C. K. Meek (1937) heard the same from the northern Umueri towns: the clan was founded by a man called Eri who came from the Igala country. Meek also recorded that Aguleri’s ruling family descends from Aguve, who was given the title of Eze by the Attah at Idah. Eri’s children founded the Umueri towns: Agulu founded Aguleri, Menri founded Nri, Onugu founded Igbariam and Ogbodulu founded Amanuke, and his daughter Iguedo was the mother of Nteje, Awkuzu, Ogbunike, Umuleri, Nando and Ogboli in Onitsha. Igala elders tell it the same way from Idah: they remember an Attah Eri whose sons left Idah and founded Aguleri and the towns around it. Other traditions disagree. Nri, Igbariam and Amanuke say Eri came down from the sky, sent by Chukwu, and some Aguleri writers say instead that Eri’s son founded Igala.",
+		"sources": ["idigo-1955", "meek-1937", "boston-1960", "adojoh-2024", "dailytrust-2022-igala-enugu", "wikipedia-eri-king", "wikipedia-aguleri", "owner-2026-10-07-eri", "owner-2026-10-10-nri"],
 		"confidence": "disputed"
 	},
 	"routes": [
-		{
-			"kind": "migration",
-			"by": "Eri and his followers",
-			"path": [[6.737, 7.117], [6.82, 6.75], [6.86, 6.45], [6.8765, 6.3258]],
-			"label": "Eri, an Igala warrior, comes down to the Anambra valley",
-			"note": "Idigo (1955) gives the origin and the camp; the way between is not recorded and is drawn along the Niger and the Anambra (Omambala).",
-			"sources": ["idigo-1955", "meek-1937", "adojoh-2024"],
-			"confidence": "disputed"
-		},
-		{ "kind": "migration", "by": "Eri and his followers", "path": [[6.8765, 6.3258], [6.95, 6.2]], "label": "Menri goes out to found Nri", "sources": ["wikipedia-eri-king"], "confidence": "medium" },
+		{ "kind": "migration", "by": "Eri and his followers", "path": [[6.8765, 6.3258], [6.95, 6.2]], "label": "Nri, Eri’s son, goes out to found his own kingdom", "sources": ["wikipedia-eri-king"], "confidence": "medium" },
 		{ "kind": "migration", "by": "Eri and his followers", "path": [[6.8765, 6.3258], [6.92, 6.33]], "label": "Onugu founds Igbariam", "sources": ["wikipedia-eri-king"], "confidence": "medium" }
 	],
 	"moments": [
 		{
 			"when": "Three or four centuries before 1955",
 			"title": "The war camp at Eri-aka",
-			"text": "Eri and his followers come on a military expedition and make their camp at Eri-aka, near the Odanduli stream. His shrine, Obu Uga (Obu-Gad), stands in Enugwu Aguleri, and each new Eze Nri comes to sit on Eri’s throne there before he is crowned.",
+			"text": "Eri, an Igala warrior from Idah, comes with his followers on a military expedition and makes his camp at Eri-aka, near the Odanduli stream. Aguleri, the town his son Agulu founds here, is of Igala origin by this account. His shrine, Obu Uga (Obu-Gad), stands in Enugwu Aguleri, and each new Eze Nri comes to sit on Eri’s throne there before he is crowned.",
 			"at": { "name": "Aguleri (Eri-aka)", "point": [6.8765, 6.3258] },
 			"mark": "camp",
 			"sources": ["idigo-1955", "adojoh-2024", "wikipedia-aguleri", "wikipedia-kingdom-of-nri"],
@@ -49,16 +40,16 @@
 		{
 			"when": "In tradition",
 			"title": "Nri",
-			"text": "Menri, Eri’s son, is remembered as the founder of Nri, whose priest-kings carry Eri’s line and ritual authority across Igboland. Nri itself may be far older than this date.",
+			"text": "Nri (Menri), Eri’s son, leaves his father’s camp and founds his own kingdom at Agukwu Nri, while Agulu stays at Aguleri. Nri’s priest-kings carry Eri’s line and ritual authority across Igboland, and each new Eze Nri still comes back to sit on Eri’s throne at Aguleri. Nri itself may be far older than this date.",
 			"at": { "name": "Nri", "point": [6.95, 6.2] },
 			"mark": "founded",
 			"sources": ["wikipedia-eri-king", "wikipedia-kingdom-of-nri"],
 			"confidence": "medium"
 		}
 	],
-	"sources": ["idigo-1955", "meek-1937", "boston-1960", "adojoh-2024", "wikipedia-eri-king", "wikipedia-aguleri", "owner-2026-10-07-eri"],
+	"sources": ["idigo-1955", "meek-1937", "boston-1960", "adojoh-2024", "dailytrust-2022-igala-enugu", "wikipedia-eri-king", "wikipedia-aguleri", "owner-2026-10-07-eri", "owner-2026-10-10-nri"],
 	"confidence": "disputed",
-	"note": "Drawn as the owner asked, after Prince M. C. M. Idigo of Aguleri. Dates for Eri range from 1043 (Angulu) to the 1500s; Idigo’s ‘three or four centuries’ before 1955 is used here.",
+	"note": "Drawn as the owner asked, after Prince M. C. M. Idigo of Aguleri. On the owner’s request (2026-10-10) no migration line is drawn from Idah; the Igala origin is told on Aguleri itself (the town card and the camp mark). Dates for Eri range from 1043 (Angulu) to the 1500s; Idigo’s ‘three or four centuries’ before 1955 is used here.",
 	"reviewNotes": [
 		"Idigo (1955), Meek (1937) and Boston (1960) are quoted from Adojoh et al. (2024); the books themselves have not been read.",
 		"Nri’s own tradition (Onwuejeogwu 1981) gives Eri a sky origin and a much earlier date. If the timeline should follow the earlier date, the event moves before 1100."

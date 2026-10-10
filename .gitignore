@@ -28,3 +28,8 @@ pnpm-debug.log*
 
 # downloaded open data (see data/README.md)
 data/raw/
+
+# Promo film: footage is rebuilt by docs/promo/*.mjs; renders
+film-public/
+out/
+film-plates-2x/

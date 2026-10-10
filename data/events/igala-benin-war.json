@@ -22,14 +22,15 @@
 		}
 	],
 	"summary": {
-		"text": "An Igala army crossed the Niger and marched on Benin. Oba Esigie’s whole war council took the field, Queen Mother Idia raised her own troops, and Portuguese musketeers fought on Benin’s side. After about two years the Igala were broken and driven back across the Niger. Benin’s victory checked Igala expansion west of the river for good.",
+		"text": "An Igala army crossed the Niger and marched on Benin. Oba Esigie’s whole war council took the field, Queen Mother Idia raised her own troops, and Portuguese musketeers fought on Benin’s side. After about two years of war in northern Benin country, the Igala forces were driven back across the Niger to Idah. Igala tradition does not count it a defeat: the army came home, Benin never crossed the river, and the Attah stayed free of Benin, owing it no tribute. Benin remembers a victory, and the war did end Igala advances west of the river; Benin kept the bank opposite Idah.",
 		"sources": [
 			"wikipedia-igala-benin-war",
 			"ryder-1969",
 			"egharevba-1968",
-			"shaibu-2024"
+			"shaibu-2024",
+			"owner-2026-10-10-benin-war"
 		],
-		"confidence": "medium"
+		"confidence": "disputed"
 	},
 	"routes": [
 		{
@@ -97,7 +98,11 @@
 					7.117
 				]
 			],
-			"label": "Driven back across the Niger"
+			"label": "The Igala forces are driven back to Idah",
+			"sources": [
+				"wikipedia-igala-benin-war",
+				"owner-2026-10-10-benin-war"
+			]
 		}
 	],
 	"moments": [
@@ -137,13 +142,15 @@
 		},
 		{
 			"when": "1516",
-			"title": "The Igala broken",
-			"text": "A servant of Idia kills the Igala general, and Benin’s archers and Portuguese guns break the advance. The war drums the Igala left behind are, the Attah says, still kept in Benin. The battlefield itself is not recorded.",
+			"title": "Driven back to Idah",
+			"text": "A servant of Idia kills the Igala general, and Benin’s archers and Portuguese guns stop the advance. The Igala forces fall back across the Niger to Idah. Benin tells it as a victory, and the Attah says the war drums the Igala left behind are still kept in Benin; Igala memory tells of an army driven home, not a kingdom defeated. The battlefield itself is not recorded.",
 			"mark": "battle",
 			"sources": [
 				"wikipedia-igala-benin-war",
-				"shaibu-2024"
-			]
+				"shaibu-2024",
+				"owner-2026-10-10-benin-war"
+			],
+			"confidence": "disputed"
 		},
 		{
 			"when": "After the war",
@@ -207,8 +214,12 @@
 		"egharevba-1968",
 		"shaibu-2024",
 		"yusufu-2020",
-		"wikipedia-igueben"
+		"wikipedia-igueben",
+		"owner-2026-10-10-benin-war"
 	],
 	"confidence": "medium",
-	"note": "The war’s length and the Portuguese part rest on a letter of Duarte Pacheco Pereira, as cited by Wikipedia. Shaibu dates the conflict 1515–1556 in a heading but 1515–1516 in the text."
+	"note": "The war’s length and the Portuguese part rest on a letter of Duarte Pacheco Pereira, as cited by Wikipedia. Shaibu dates the conflict 1515–1556 in a heading but 1515–1516 in the text.",
+	"reviewNotes": [
+		"The owner asked (2026-10-10) that the war not be told as an Igala defeat: the Igala forces were driven back to Idah. Benin sources and Wikipedia call it a Benin victory. Both are told; the outcome is marked disputed."
+	]
 }

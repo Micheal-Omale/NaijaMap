@@ -31,7 +31,9 @@ export default function FamilyPanel({ family, colors, branches, lgaCount, tr, on
 					</svg>
 					{t('profile.back')}
 				</button>
-				<p className="profile__eyebrow">{t('family.eyebrow')}</p>
+				<p className="profile__eyebrow">
+					{family.lineage.length > 1 ? t('family.eyebrowBranch', { parent: family.lineage[family.lineage.length - 2] }) : t('family.eyebrow')}
+				</p>
 				<h2 id="family-name" className="profile__name">
 					{t('family.name', { name: family.name })}
 				</h2>

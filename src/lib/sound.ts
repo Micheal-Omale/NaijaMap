@@ -29,8 +29,8 @@
 // alone for two bars and the ensemble comes in on the gong. Each view sets a scene,
 // which brings instruments forward or back.
 
-export type Scene = 'today' | 'then' | 'story' | 'film' | 'power';
-export type Cue = 'open' | 'close' | 'chapter' | 'tap' | 'mode';
+export type Scene = 'today' | 'then' | 'story' | 'film' | 'power' | 'versus';
+export type Cue = 'open' | 'close' | 'chapter' | 'tap' | 'mode' | 'clash';
 
 type Layer = 'pad' | 'bell' | 'shaker' | 'bass' | 'answer' | 'lead' | 'flute' | 'balafon' | 'gong' | 'kakaki' | 'voices';
 type Layers = Record<Layer, number>;
@@ -47,6 +47,8 @@ const SCENES: Record<Scene, Layers> = {
 	film: { pad: 1, bell: 0.75, shaker: 0.9, bass: 1, answer: 0.9, lead: 1, flute: 0.85, balafon: 0.6, gong: 0.9, kakaki: 0.6, voices: 0.45 },
 	// Politics: low and watchful, the drums to the fore.
 	power: { pad: 0.9, bell: 0.45, shaker: 0.35, bass: 0.7, answer: 0.6, lead: 0.85, flute: 0.5, balafon: 0.3, gong: 0.8, kakaki: 0.5, voices: 0.15 },
+	// Versus: the war drums and the trumpets, the flute held back.
+	versus: { pad: 0.9, bell: 0.7, shaker: 0.75, bass: 1, answer: 0.95, lead: 1, flute: 0.4, balafon: 0.3, gong: 1, kakaki: 0.75, voices: 0.35 },
 };
 
 type Section = 'full' | 'drum' | 'flute' | 'light';
@@ -189,7 +191,7 @@ let echo: GainNode;
 let noise: AudioBuffer;
 let padGain: GainNode;
 let airGain: GainNode;
-let places: Record<'lead' | 'answer' | 'bass' | 'shaker' | 'bell' | 'balafon' | 'flute' | 'gong' | 'kakaki' | 'voices' | 'near', AudioNode>;
+let places: Record<'lead' | 'answer' | 'bass' | 'shaker' | 'bell' | 'balafon' | 'flute' | 'gong' | 'kakaki' | 'voices' | 'near' | 'left' | 'right', AudioNode>;
 let enabled = readPref();
 let welcomed = false;
 let scene: Scene = 'today';
@@ -365,6 +367,9 @@ function graph(c: BaseAudioContext): void {
 		kakaki: spot({ pan: -0.5, far: 0.85 }, 0.3),
 		voices: spot({ pan: 0.55, far: 0.6 }, 0.15),
 		near: spot({ pan: 0, far: 0.05 }),
+		// Close by on either side, for the two sides of a match-up.
+		left: spot({ pan: -0.6, far: 0.1 }),
+		right: spot({ pan: 0.6, far: 0.1 }),
 	};
 
 	// The pad: A and E in three octaves, soft triangles and sines a few cents apart, so they shimmer,
@@ -960,7 +965,10 @@ export function setScene(next: Scene): void {
 /** A short sound for one moment, close by. Silent while sound is off. */
 export function cue(name: Cue): void {
 	if (!enabled || !live || live.state !== 'running') return;
-	const t = live.currentTime + 0.02;
+	playCue(name, live.currentTime + 0.02);
+}
+
+function playCue(name: Cue, t: number): void {
 	const out = places.near;
 	switch (name) {
 		case 'open':
@@ -987,6 +995,16 @@ export function cue(name: Cue): void {
 			balafon(t, out, note(5), 0.55);
 			balafon(t + 0.11, out, note(7), 0.62);
 			balafon(t + 0.22, out, note(9), 0.5);
+			break;
+		case 'clash':
+			// Two sides come on: a talking drum calls from the left, another answers from the
+			// right, and as the seal lands the big drum and the gong strike together.
+			talkingDrum(t, places.left, 150, 1.3, 0.5);
+			talkingDrum(t + 0.2, places.right, 130, 1.3, 0.5);
+			talkingDrum(t + 0.42, places.left, 190, 1.2, 0.45);
+			talkingDrum(t + 0.56, places.right, 170, 1.2, 0.45);
+			skinDrum(t + 0.82, out, 52, 1);
+			iron(t + 0.82, places.gong, 110, 0.8);
 			break;
 	}
 }
@@ -1046,5 +1064,48 @@ export function renderSoundscape(c: OfflineAudioContext, view: Scene = 'then'): 
 			void c.resume();
 		});
 	}
+	return c.startRendering();
+}
+
+/**
+ * Renders one cue, or a single stroke of the big gong, into an offline context, for
+ * the promo film (docs/promo/). Not used by the map.
+ */
+/**
+ * The ensemble as a kit, so the promo film's score (src/film/score-book.ts) can be written
+ * note by note to picture with the map's own players, courtyard and mix. Not used by the map.
+ */
+export function filmKit(c: OfflineAudioContext) {
+	graph(c);
+	master.gain.setValueAtTime(MIX.level, 0);
+	return {
+		places,
+		pad: padGain,
+		air: airGain,
+		mix: MIX,
+		note,
+		TONES,
+		PULSE,
+		BELL,
+		UDU,
+		ANSWER,
+		FIGURES,
+		skinDrum,
+		udu,
+		iron,
+		talkingDrum,
+		balafon,
+		flute,
+		voices,
+		kakaki,
+		shekere,
+	};
+}
+
+export function renderCue(c: OfflineAudioContext, name: Cue | 'gong'): Promise<AudioBuffer> {
+	graph(c);
+	master.gain.setValueAtTime(MIX.level, 0);
+	if (name === 'gong') iron(0.05, places.gong, 110, MIX.gain.gong);
+	else playCue(name, 0.05);
 	return c.startRendering();
 }

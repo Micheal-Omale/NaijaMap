@@ -14,11 +14,14 @@
 			],
 			"confidence": "high",
 			"history": {
-				"text": "Seat of the Eze Nri, the priest-king whose ritual authority reached across much of Igboland.",
+				"text": "Seat of the Eze Nri, the priest-king whose ritual authority reached across much of Igboland. Nri, a son of Eri, left his father’s camp at Aguleri and founded his own kingdom here; by Idigo’s account of Aguleri, Eri was an Igala warrior from Idah.",
 				"sources": [
-					"wikipedia-kingdom-of-nri"
+					"wikipedia-kingdom-of-nri",
+					"wikipedia-eri-king",
+					"idigo-1955",
+					"owner-2026-10-10-nri"
 				],
-				"confidence": "high"
+				"confidence": "disputed"
 			}
 		},
 		{
@@ -54,15 +57,26 @@
 		{
 			"name": "Aguleri",
 			"lga": "anambra-anambra-east",
+			"point": [
+				6.8765,
+				6.3258
+			],
 			"villages": [],
 			"sources": [
 				"wikipedia-aguleri"
 			],
 			"confidence": "high",
 			"history": {
-				"text": "By its tradition the home of Eri, who set an altar at the meeting of the Ezu and Omabala rivers. His sons are said to have dispersed from here: Agulu stayed, Attah to found Igala, Oba Benin and Menri Nri. Its ruling family is the Idigo.",
+				"text": "Founded by Eri, an Igala warrior who came down from Idah, as Prince M. C. M. Idigo of the Aguleri royal family wrote in The History of Aguleri (1955): Eri came with his followers on a military expedition and made his war camp at Eri-aka, near the meeting of the Ezu and Omambala rivers. Meek (1937) heard the same from the Umueri towns, and Igala elders remember an Attah Eri whose sons left Idah and founded Aguleri. Eri’s sons spread out from here: Agulu stayed and founded Aguleri, and Nri (Menri) went on to found his own kingdom at Agukwu Nri, whose priest-kings still come to sit on Eri’s throne at Aguleri before they are crowned. Its ruling family is the Idigo. Other tellings differ: Nri says Eri came down from the sky, and some Aguleri accounts reverse the story and make Eri’s sons the founders of Igala and Benin.",
 				"sources": [
-					"wikipedia-aguleri"
+					"idigo-1955",
+					"meek-1937",
+					"adojoh-2024",
+					"dailytrust-2022-igala-enugu",
+					"wikipedia-eri-king",
+					"wikipedia-aguleri",
+					"owner-2026-10-07-eri",
+					"owner-2026-10-10-nri"
 				],
 				"confidence": "disputed"
 			}

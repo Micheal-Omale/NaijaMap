@@ -15,7 +15,7 @@ export const defaultLang: Lang = 'en';
 
 export const ui = {
 	en: {
-		'site.name': 'HistoNaija',
+		'site.name': 'Nigeria Histomap',
 		'site.tagline': 'Where Nigeria’s peoples live today, and the states they built before.',
 		'site.description':
 			'An interactive map of Nigeria’s ethnic groups and the precolonial states that came before them, with sources for every claim.',
@@ -31,8 +31,11 @@ export const ui = {
 		'search.examples': 'Igbo|Igala|Hausa|Yoruba|Igboid languages|Yoruboid languages',
 		'search.familyPeoples.one': 'Language family · {count} people',
 		'search.familyPeoples.other': 'Language family · {count} peoples',
+		'search.branchPeoples.one': 'Branch of {parent} · {count} people',
+		'search.branchPeoples.other': 'Branch of {parent} · {count} peoples',
 		'search.tryFamily': 'Try a people’s name, or a language family such as Igboid.',
 		'family.eyebrow': 'Language family',
+		'family.eyebrowBranch': 'Language branch · {parent}',
 		'family.name': '{name} languages',
 		'family.peoples.one': '{count} people',
 		'family.peoples.other': '{count} peoples',
@@ -70,7 +73,7 @@ export const ui = {
 		'profile.collapse': 'Show less',
 		'profile.language': 'Language',
 		'profile.family': 'Language family',
-		'profile.familyEyebrow': '{name} language family',
+		'profile.familyEyebrow': '{name} languages',
 		'profile.ruler': 'Traditional ruler',
 		'profile.rulerSeat': '{title}, seated at {seat}',
 		'profile.where': 'Where they live',
@@ -117,6 +120,11 @@ export const ui = {
 		'place.sources.one': '{count} source',
 		'place.sources.other': '{count} sources',
 		'place.draft': 'Draft brief, not yet reviewed.',
+		'ad.label': 'Sponsored',
+		'ad.cta': 'Learn more',
+		'ad.houseTitle': 'Advertise here',
+		'ad.houseText': 'Reach people reading about this place and its peoples.',
+		'ad.houseCta': 'Get in touch',
 		'community.kind': 'A community where {language} is spoken',
 		'community.in': '{lga} LGA, {state}',
 		'community.inAlso': '{lga} LGA, also {others}, {state}',

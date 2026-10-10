@@ -19,7 +19,7 @@
 	},
 	"peak": 1550,
 	"summary": {
-		"text": "Nri was not a kingdom of conquest. Its priest-king, the Eze Nri, and his travelling agents cleansed abominations, crowned titled men and settled disputes across a large part of Igboland, a ritual authority without an army. The bronzes of Igbo-Ukwu, from about the 9th century, are linked to its early history. Its power faded in the 18th century, and the British ended it in 1911. Nri’s royal line descends from Eri, the founder of the Umueri towns. Prince M. C. M. Idigo of Aguleri (1955), and the colonial writers Meek (1937) and Boston (1960), recorded Eri as an Igala warrior who came down from Idah. Nri’s own tradition says he came down from the sky.",
+		"text": "Nri was founded by Nri, a son of Eri, who left his father’s war camp at Aguleri and set up his own kingdom at Agukwu. Prince M. C. M. Idigo of the Aguleri royal family wrote in The History of Aguleri (1955) that Eri was an Igala warrior who came down from Idah, and the colonial writers Meek (1937) and Boston (1960) heard the same; Igala elders remember him as an Attah Eri whose sons left Idah. Nri’s own tradition says Eri came down from the sky. Nri was not a kingdom of conquest. Its priest-king, the Eze Nri, and his travelling agents cleansed abominations, crowned titled men and settled disputes, a ritual authority without an army. From the Umueri towns around Aguleri its reach grew to about a quarter of Igboland by the 16th century, then shrank in the 18th, under the slave trade, the Aro network and Igala and Benin pressure, until the British ended its power in 1911. The bronzes of Igbo-Ukwu, from about the 9th century, are linked to its early history.",
 		"sources": [
 			"wikipedia-kingdom-of-nri",
 			"onwuejeogwu-1981",
@@ -28,9 +28,12 @@
 			"meek-1937",
 			"boston-1960",
 			"adojoh-2024",
-			"wikipedia-eri-king"
+			"wikipedia-eri-king",
+			"dailytrust-2022-igala-enugu",
+			"owner-2026-10-07-eri",
+			"owner-2026-10-10-nri"
 		],
-		"confidence": "medium"
+		"confidence": "disputed"
 	},
 	"ruler": {
 		"title": "Eze Nri",
@@ -94,8 +97,8 @@
 		{
 			"year": 1225,
 			"yearLabel": "c. 1225–1550",
-			"title": "Ifikuanim and the ritual kingship",
-			"text": "After Eri, Ifikuanim becomes the first Eze Nri, perhaps around 1225. The Eze Nri is a priest-king with ritual, not military, power. He is chosen after an interregnum of at least seven years, while the dead king's signs are read, and is installed after a journey to Aguleri on the Anambra river, where he sits on Eri's throne, then returns to Nri for a symbolic burial and rising. Nri's agents, the ndi Nri, marked with ichi scars and carrying staffs of peace, travel to cleanse abominations; local men who buy the ozo and nze titles become mbùríchi, the Eze Nri's representatives.",
+			"title": "Nri founds his own kingdom",
+			"text": "Nri, a son of Eri, leaves his father’s camp at Aguleri and founds his own kingdom at Agukwu, while his brother Agulu stays to found Aguleri. Nri’s king list makes Ifikuanim the first Eze Nri, perhaps around 1225. At first its ritual reach covers the Umueri towns that trace their descent to Eri: Aguleri, Igbariam, Umuleri, Nando, Nteje, Awkuzu, Ogbunike, Amanuke and Ogboli in Onitsha. The Eze Nri is a priest-king with ritual, not military, power. He is chosen after an interregnum of at least seven years, while the dead king’s signs are read, and is installed after a journey to Aguleri on the Anambra river, where he sits on Eri’s throne, then returns to Nri for a symbolic burial and rising. Nri’s agents, the ndi Nri, marked with ichi scars and carrying staffs of peace, travel to cleanse abominations; local men who buy the ozo and nze titles become mbùríchi, the Eze Nri’s representatives.",
 			"capital": {
 				"name": "Agukwu Nri",
 				"point": [
@@ -151,9 +154,103 @@
 				}
 			],
 			"sources": [
-				"wikipedia-kingdom-of-nri"
+				"wikipedia-kingdom-of-nri",
+				"wikipedia-eri-king",
+				"idigo-1955",
+				"owner-2026-10-10-nri"
 			],
-			"confidence": "medium"
+			"confidence": "medium",
+			"influence": {
+				"lgas": [
+					"anambra-anambra-east",
+					"anambra-oyi",
+					"anambra-awka-north",
+					"anambra-dunukofia",
+					"anambra-onitsha-north"
+				],
+				"confidence": "medium"
+			},
+			"note": "The first ritual zone is drawn over the LGAs of the Umueri towns named as Eri’s descendants (Wikipedia, Eri); it is not a mapped territory."
+		},
+		{
+			"year": 1400,
+			"yearLabel": "c. 14th–15th century",
+			"title": "Nri’s agents travel further",
+			"text": "Nri’s reach grows by ritual, not war. Its agents carry the omu palm frond and the staff of peace from town to town, cleansing abominations and crowning titled men, and more towns around Awka, Nnewi and the Udi hills take the Nri oath. The Eze Nri’s representatives, the mbùríchi, now live far from Agukwu.",
+			"capital": {
+				"name": "Agukwu Nri",
+				"point": [
+					6.98,
+					6.15
+				]
+			},
+			"core": {
+				"lgas": [
+					"anambra-anaocha",
+					"anambra-aguata",
+					"anambra-njikoka"
+				]
+			},
+			"influence": {
+				"lgas": [
+					"anambra-anambra-east",
+					"anambra-oyi",
+					"anambra-awka-north",
+					"anambra-dunukofia",
+					"anambra-onitsha-north",
+					"anambra-awka-south",
+					"anambra-idemili-north",
+					"anambra-idemili-south",
+					"anambra-orumba-north",
+					"anambra-orumba-south",
+					"anambra-nnewi-north",
+					"anambra-nnewi-south",
+					"anambra-onitsha-south",
+					"enugu-udi",
+					"enugu-ezeagu",
+					"enugu-oji-river",
+					"enugu-awgu",
+					"enugu-aninri"
+				],
+				"confidence": "disputed"
+			},
+			"nodes": [
+				{
+					"name": "Igbo-Ukwu",
+					"point": [
+						7.02,
+						6.02
+					]
+				},
+				{
+					"name": "Oreri (approximate)",
+					"point": [
+						7.08,
+						6.08
+					]
+				},
+				{
+					"name": "Aguleri",
+					"point": [
+						6.88,
+						6.32
+					]
+				},
+				{
+					"name": "Awka",
+					"point": [
+						7.07,
+						6.21
+					]
+				}
+			],
+			"sources": [
+				"onwuejeogwu-1981",
+				"wikipedia-kingdom-of-nri",
+				"owner-2026-10-10-nri"
+			],
+			"confidence": "disputed",
+			"note": "A step between the founding and the height, drawn so the reach can be seen to grow. The sources describe the height and the decline, not the stages between; these edges are estimates."
 		},
 		{
 			"year": 1550,
@@ -271,7 +368,7 @@
 			"year": 1650,
 			"yearLabel": "c. 1650–1750",
 			"title": "A sanctuary for the enslaved",
-			"text": "From the reign of the tenth Eze Nri any slave who sets foot on Nri soil is free, and Nri holds no slaves itself. At the Igu Aro festival, the counting of the year, Nri's communities send tribute and receive yam medicine and blessings; violence is held to pollute the earth, and the Eze Nri's weapon is ritual exclusion. But from the tenth to the fourteenth reigns quarrels grow, probably fed by the slave trade around Nri.",
+			"text": "From the reign of the tenth Eze Nri any slave who sets foot on Nri soil is free, and Nri holds no slaves itself. At the Igu Aro festival, the counting of the year, Nri's communities send tribute and receive yam medicine and blessings; violence is held to pollute the earth, and the Eze Nri's weapon is ritual exclusion. But from the tenth to the fourteenth reigns quarrels grow, probably fed by the slave trade around Nri. Its reach begins to draw in: the towns west of the Niger look more to Benin, and the farthest Orlu towns slip away.",
 			"capital": {
 				"name": "Agukwu Nri",
 				"point": [
@@ -334,15 +431,52 @@
 				}
 			],
 			"sources": [
-				"wikipedia-kingdom-of-nri"
+				"wikipedia-kingdom-of-nri",
+				"onwuejeogwu-1981",
+				"owner-2026-10-10-nri"
 			],
-			"confidence": "medium"
+			"confidence": "medium",
+			"influence": {
+				"lgas": [
+					"anambra-awka-north",
+					"anambra-awka-south",
+					"anambra-dunukofia",
+					"anambra-idemili-north",
+					"anambra-idemili-south",
+					"anambra-nnewi-north",
+					"anambra-nnewi-south",
+					"anambra-ekwusigo",
+					"anambra-ihiala",
+					"anambra-orumba-north",
+					"anambra-orumba-south",
+					"anambra-oyi",
+					"anambra-anambra-east",
+					"anambra-onitsha-north",
+					"anambra-onitsha-south",
+					"enugu-udi",
+					"enugu-ezeagu",
+					"enugu-oji-river",
+					"enugu-awgu",
+					"enugu-aninri",
+					"enugu-igbo-etiti",
+					"enugu-enugu-north",
+					"enugu-enugu-south",
+					"enugu-enugu-east",
+					"imo-orlu",
+					"imo-ideato-north",
+					"imo-ideato-south",
+					"imo-njaba",
+					"imo-nwangele"
+				],
+				"confidence": "disputed"
+			},
+			"note": "The edges are drawn as a gradual retreat between the attested height and the 18th-century decline; the steps themselves are not recorded."
 		},
 		{
 			"year": 1750,
 			"yearLabel": "18th century",
 			"title": "Decline",
-			"text": "The slave trade, the Aro network and pressure from Igala and Benin weaken Nri's ritual authority.",
+			"text": "The slave trade, the Aro network and pressure from Igala and Benin weaken Nri’s ritual authority. In the north, Igala armies led by Onoja Oboni from his walled war camp at Ogurugu take the northern Igbo towns as far as Opi, and their rulers now take their staffs from the Attah at Idah. In the south the Aro oracle at Arochukwu draws pilgrims and tribute away. Nri’s reach shrinks to the towns around Awka and the Anambra.",
 			"capital": {
 				"name": "Agukwu Nri",
 				"point": [
@@ -394,9 +528,88 @@
 				}
 			],
 			"sources": [
-				"wikipedia-kingdom-of-nri"
+				"wikipedia-kingdom-of-nri",
+				"shaibu-2024",
+				"dailytrust-2022-igala-enugu",
+				"owner-2026-10-10-ogurugu",
+				"owner-2026-10-10-nri"
 			],
 			"confidence": "medium"
+		},
+		{
+			"year": 1850,
+			"yearLabel": "c. 1800–1900",
+			"title": "A ritual reach drawn in",
+			"text": "Nri’s agents still travel and each new Eze Nri still makes his journey to Eri’s throne at Aguleri, but fewer towns heed the ritual sanctions. The Aro now dominate the trade of most of Igboland, and Onitsha and the Niger towns deal directly with European traders. Nri’s reach is little more than Awka and the Anambra towns.",
+			"capital": {
+				"name": "Agukwu Nri",
+				"point": [
+					6.98,
+					6.15
+				]
+			},
+			"core": {
+				"lgas": [
+					"anambra-anaocha",
+					"anambra-aguata",
+					"anambra-njikoka"
+				]
+			},
+			"influence": {
+				"lgas": [
+					"anambra-awka-north",
+					"anambra-awka-south",
+					"anambra-anambra-east",
+					"anambra-dunukofia"
+				],
+				"confidence": "disputed"
+			},
+			"nodes": [
+				{
+					"name": "Igbo-Ukwu",
+					"point": [
+						7.02,
+						6.02
+					]
+				},
+				{
+					"name": "Oreri (approximate)",
+					"point": [
+						7.08,
+						6.08
+					]
+				},
+				{
+					"name": "Aguleri",
+					"point": [
+						6.88,
+						6.32
+					]
+				}
+			],
+			"links": [
+				{
+					"kind": "ritual",
+					"to": {
+						"name": "Aguleri",
+						"point": [
+							6.87,
+							6.33
+						]
+					},
+					"label": "The new Eze Nri’s coronation journey to Aguleri",
+					"sources": [
+						"wikipedia-kingdom-of-nri"
+					],
+					"confidence": "high"
+				}
+			],
+			"sources": [
+				"wikipedia-kingdom-of-nri",
+				"owner-2026-10-10-nri"
+			],
+			"confidence": "disputed",
+			"note": "Drawn as a further step in the shrinking the sources describe; the exact towns still under the oath are not recorded."
 		},
 		{
 			"year": 1911,
@@ -440,6 +653,7 @@
 	"reviewNotes": [
 		"Oreri's point is approximate.",
 		"The Nri reach is drawn as a ritual zone, not a territory.",
-		"Eri’s origin is contested. The Igala origin follows Idigo (1955), as the owner asked on 2026-10-07; the sky origin is Nri’s own tradition. Both are kept, and the event \"Eri comes down from Igala\" is marked disputed."
+		"Eri’s origin is contested. The Igala origin follows Idigo (1955), as the owner asked on 2026-10-07 and again on 2026-10-10; the sky origin is Nri’s own tradition. Both are kept, and the event \"Eri comes down from Igala\" is marked disputed.",
+		"The owner asked (2026-10-10) to show Nri’s reach growing and then shrinking. Only the height (Onwuejeogwu) and the 18th-century decline are described in sources; the 1225, 1400, 1650 and 1850 zones are estimated steps between them."
 	]
 }

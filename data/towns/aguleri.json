@@ -1,0 +1,32 @@
+{
+	"name": "Aguleri",
+	"status": "draft",
+	"otherNames": ["Eri-aka", "Aguleri Omambala"],
+	"point": [6.8765, 6.3258],
+	"founded": {
+		"year": 1000,
+		"yearLabel": "In tradition, before Nri; dates for Eri run from the 10th to the 16th century",
+		"sources": ["idigo-1955", "dailytrust-2022-igala-enugu", "wikipedia-eri-king"],
+		"confidence": "disputed"
+	},
+	"summary": {
+		"text": "Aguleri was founded by Eri, who was of Igala origin. Prince M. C. M. Idigo of the Aguleri royal family wrote in The History of Aguleri (1955) that Eri was an Igala warrior from Idah who came with his followers on a military expedition and made his war camp at Eri-aka, near the Odanduli stream on the Anambra (Omambala). Meek (1937) heard the same from the Umueri towns, and Igala elders remember an Attah Eri whose sons left Idah and founded Aguleri. Eri’s son Agulu stayed and founded Aguleri; another son, Nri, went on to found his own kingdom at Agukwu Nri. Eri’s shrine, Obu Uga, stands in Enugwu Aguleri, and each new Eze Nri comes to sit on Eri’s throne there before he is crowned. Nri’s own tradition says Eri came down from the sky, and some Aguleri accounts make Eri’s sons the founders of Igala and Benin instead.",
+		"sources": ["idigo-1955", "meek-1937", "boston-1960", "adojoh-2024", "dailytrust-2022-igala-enugu", "wikipedia-eri-king", "wikipedia-aguleri", "wikipedia-kingdom-of-nri", "owner-2026-10-07-eri", "owner-2026-10-10-nri"],
+		"confidence": "disputed"
+	},
+	"founders": [
+		{
+			"people": "Igala",
+			"group": "igala",
+			"polity": "igala",
+			"quarters": ["Eri-aka"],
+			"text": "Eri, an Igala warrior from Idah, made his war camp at Eri-aka; his son Agulu founded Aguleri. Meek also records that Aguleri’s ruling family descends from Aguve, who was given the title of Eze by the Attah at Idah.",
+			"sources": ["idigo-1955", "meek-1937", "adojoh-2024", "owner-2026-10-07-eri", "owner-2026-10-10-nri"],
+			"confidence": "disputed"
+		}
+	],
+	"reviewNotes": [
+		"The founders carry no ‘from’ point on purpose: the owner asked (2026-10-10) that the Igala origin be shown on Aguleri itself and that no migration line be drawn from Idah.",
+		"Idigo (1955) and Meek (1937) are quoted from Adojoh et al. (2024); the books themselves have not been read."
+	]
+}

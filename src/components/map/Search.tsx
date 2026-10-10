@@ -171,7 +171,11 @@ export default function Search({ groups, families, selected, selectedFamily, onS
 							<span className="search__name">{hit.item.name}</span>
 							{hit.kind === 'group' && hit.matched !== hit.item.name && <span className="search__alias">{hit.matched}</span>}
 							<span className="search__family">
-								{hit.kind === 'family' ? plural('search.familyPeoples', hit.item.groups.length) : hit.item.language.family.name}
+								{hit.kind === 'family'
+									? hit.item.lineage.length > 1
+										? plural('search.branchPeoples', hit.item.groups.length, { parent: hit.item.lineage[hit.item.lineage.length - 2] })
+										: plural('search.familyPeoples', hit.item.groups.length)
+									: hit.item.language.family.name}
 							</span>
 						</li>
 					))}

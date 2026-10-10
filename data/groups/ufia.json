@@ -1,0 +1,129 @@
+{
+	"name": "Ufia",
+	"status": "draft",
+	"searchAliases": [
+		"Ufia",
+		"Utonkon",
+		"Atonkon",
+		"K'ufia",
+		"Kufia",
+		"Wufia",
+		"Wu'fia"
+	],
+	"language": {
+		"name": "Korring (K'ufia dialect)",
+		"iso639_3": "org",
+		"glottocode": "orin1239",
+		"family": "upper-cross",
+		"sources": [
+			"wikipedia-korring",
+			"wikipedia-utonkon",
+			"ijogi-2021-ufia",
+			"glottolog-orin1239",
+			"wikipedia-idoma-language"
+		],
+		"confidence": "disputed",
+		"note": "The Korring and Utonkon articles and Ijogi (an Ufia writer) call K'ufia a dialect of Korring (Orring), an Upper Cross language shared with the Ukelle of Yala and the Orring of Ebonyi. Wikipedia's Idoma language article lists Utonkon among Idoma dialects, beside Igede and Iyala, which are separate languages. Glottolog has no separate Ufia entry; its Oring entry holds Effium (Ufiom) and Okpoto."
+	},
+	"summary": {
+		"text": "The Ufia are the people of Utonkon district in Ado LGA, southern Benue. They speak K'ufia, a dialect of Korring, the language of the Ukelle of Cross River and the Orring of Ebonyi, not Idoma. Their tradition brings them north from the Yala country through Ebonyi to Utonkon in the early 1500s. They count themselves part of the Idoma nation, and whether that makes them Idoma is argued among the Ufia themselves.",
+		"sources": [
+			"wikipedia-utonkon",
+			"wikipedia-korring",
+			"ijogi-2021-ufia"
+		],
+		"confidence": "disputed",
+		"note": "Ijogi's conclusion: if Idoma is a language, the Ufia are not Idoma; if Idoma is a people, they are. Wikipedia's Utonkon article reaches the opposite reading from shared Kwararafa ancestry."
+	},
+	"ruler": {
+		"title": "Olong Wu'fia (Ulonga Ufia)",
+		"seat": "benue-ado",
+		"sources": [
+			"ijogi-2021-ufia",
+			"nigeriagalleria-benue-rulers"
+		],
+		"confidence": "medium",
+		"note": "Ijogi says the Olong Wu'fia, king of the Ufia, was one of only two notable rulers in Idomaland before colonial rule, beside the Och'Otukpo. Nigeria Galleria lists the Ulonga Ufia of Utonkon as a second class chief."
+	},
+	"areas": [
+		{
+			"lga": "benue-ado",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-utonkon",
+				"wikipedia-ado-benue"
+			],
+			"confidence": "medium",
+			"note": "Utonkon (Atonkon) is one of the five districts of Ado LGA, and Korring speakers are its larger population. No count exists."
+		}
+	],
+	"communities": [
+		{
+			"name": "Utonkon",
+			"lga": "benue-ado",
+			"point": [
+				8.066,
+				6.905
+			],
+			"villages": [
+				{
+					"name": "Watuolo",
+					"point": [
+						8.069,
+						6.914
+					]
+				},
+				{
+					"name": "Ogedegi",
+					"point": [
+						8.069,
+						6.927
+					]
+				},
+				{
+					"name": "Amanda",
+					"point": [
+						8.07,
+						6.882
+					]
+				},
+				{
+					"name": "Ameka Rijo",
+					"point": [
+						8.071,
+						6.875
+					]
+				}
+			],
+			"sources": [
+				"wikipedia-utonkon",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"note": "Located from GRID3 settlements whose names end in \"Utonkon\" (Ogege ward). Other Utonkon district villages are not yet identified.",
+			"history": {
+				"text": "Ufia tradition, as Ijogi tells it, has them settle first in the present Yala LGA of Cross River, then move through Ebonyi, where their Orring kin still live at Ntezi, Okpoto, Amuda and Effium, and reach Utonkon in the early 1500s after wars with the Ezza and Igbo. In the order of settlement he gives, the Akweya came first, then the Igede and the Ufia, and Igumale last, on land given up by the Ufia and Agila. Catholic missionaries reached Utonkon in 1922 and founded St Paul's parish.",
+				"sources": [
+					"ijogi-2021-ufia",
+					"wikipedia-utonkon",
+					"wikipedia-ado-benue"
+				],
+				"confidence": "disputed",
+				"note": "Ijogi also gives a northern origin without reconciling the two. Wikipedia ties the Ufia to the Kwararafa confederacy. Other Ufia accounts claim Idoma ancestry or migration from Igboland."
+			},
+			"livelihoods": {
+				"text": "Farmers of yam, cassava and maize. The New Yam festival (Richi) and the Jokah masquerade festival mark the harvest.",
+				"sources": [
+					"wikipedia-utonkon"
+				],
+				"confidence": "medium"
+			}
+		}
+	],
+	"reviewNotes": [
+		"Wikipedia's Utonkon article carries a factual-accuracy warning, and Ijogi is one Ufia writer's opinion piece. A linguistic survey of K'ufia (for example in Ethnologue's Orring entry) would settle the language question.",
+		"Wikipedia says K'ufia is also spoken in Taraba State. No place was found, so nothing is mapped there.",
+		"Utonkon was listed as an Idoma district community until 2026-10-10; it now belongs to the Ufia because they speak Korring, not Idoma.",
+		"Their Orring kin of Ebonyi (Ntezi, Okpoto, Effium, Amuda, Okpolo) are mapped as the Orring."
+	]
+}

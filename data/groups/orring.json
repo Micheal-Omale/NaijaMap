@@ -1,0 +1,351 @@
+{
+	"name": "Orring",
+	"status": "draft",
+	"searchAliases": [
+		"Orring",
+		"Orri",
+		"Oring",
+		"Orry",
+		"Korring",
+		"Koring",
+		"Ntezi",
+		"Eteji",
+		"Okpoto",
+		"Lame",
+		"Effium",
+		"Uffiom",
+		"Ufiom",
+		"Amuda",
+		"Idzem",
+		"Okpolo",
+		"Okpomoro",
+		"WanOkun"
+	],
+	"language": {
+		"name": "Korring (Oring)",
+		"iso639_3": "org",
+		"glottocode": "orin1239",
+		"family": "upper-cross",
+		"sources": [
+			"glottolog-orin1239",
+			"wikipedia-korring",
+			"wikipedia-orring",
+			"sun-2022-orring-day"
+		],
+		"confidence": "high",
+		"note": "Each community has its own dialect: K'eteji (Ntezi), Ki'lame (Okpoto), K'uffium (Effium), K'idzem (Amuda) and K'okpolo (Okpolo). The Ufia of Benue speak K'ufia and the Ukelle of Cross River K'ukelle. Korring has borrowed much from Igbo, and some writers have called it a branch of Igbo; Glottolog places it in Upper Cross, and Orring leaders stress it is not Igbo. Many Orring in Ebonyi now speak Igbo as well."
+	},
+	"summary": {
+		"text": "The Orring (Orri, Orry) are a people of northern Ebonyi who speak Korring, an Upper Cross language, not Igbo. They live in five communities: Ntezi and Okpoto in Ishielu, Effium in Ohaukwu, and Amuda and Okpolo in Ezza North. Their kin are the Ufia of Benue and the Ukelle of Cross River. Abakaliki traditions, Igbo ones among them, remember the Orring as the first settlers of the land, before the Ezza, Izzi, Ikwo and Ngbo came. Mission schools taught in Igbo, and many Orring today speak both languages.",
+		"sources": [
+			"wikipedia-orring",
+			"sun-2022-orring-day",
+			"blueprint-2023-orring-assembly",
+			"wikipedia-ntezi-aba"
+		],
+		"confidence": "medium",
+		"note": "Colonial reports described the Orring as nearly absorbed by the Igbo; P. J. Ezeh (2007) argues they absorbed others instead and kept their language and rule."
+	},
+	"ruler": {
+		"title": "Ede-Olung",
+		"sources": [
+			"wikipedia-orring"
+		],
+		"confidence": "medium",
+		"note": "Wikipedia describes the Ede-Olung as a priest-king with a council of titled chiefs (Gbale-Otum), and says the Orring once called themselves WanOkun. The Sun (2022) names a Regent of Eteji (Ntezi); how the five communities are ruled today is not described."
+	},
+	"areas": [
+		{
+			"lga": "ebonyi-ishielu",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-ishielu",
+				"blueprint-2023-orring-assembly"
+			],
+			"confidence": "medium",
+			"note": "Ishielu is made of two groups, the Orring-Agba and the Igbo-Esa. Ntezi and Okpoto are Orring."
+		},
+		{
+			"lga": "ebonyi-ohaukwu",
+			"presence": "significant",
+			"sources": [
+				"wikipedia-effium",
+				"blueprint-2023-orring-assembly"
+			],
+			"confidence": "medium",
+			"note": "Effium, the largest Orring community, shares its land with Ezza Effium."
+		},
+		{
+			"lga": "ebonyi-ezza-north",
+			"presence": "minority",
+			"sources": [
+				"wikipedia-ezza-north",
+				"blueprint-2023-orring-assembly"
+			],
+			"confidence": "medium",
+			"note": "Ezza North is mostly Ezza Igbo; the Amuda and Okpolo are Orring."
+		}
+	],
+	"communities": [
+		{
+			"name": "Ntezi (Eteji)",
+			"lga": "ebonyi-ishielu",
+			"point": [
+				7.916,
+				6.402
+			],
+			"villages": [
+				{
+					"name": "Omege",
+					"point": [
+						7.916,
+						6.402
+					]
+				},
+				{
+					"name": "Igwelede",
+					"point": [
+						7.908,
+						6.4
+					]
+				},
+				{
+					"name": "Bilogu",
+					"point": [
+						7.914,
+						6.394
+					]
+				},
+				{
+					"name": "Leri",
+					"point": [
+						7.918,
+						6.387
+					]
+				}
+			],
+			"sources": [
+				"wikipedia-orring",
+				"sun-2022-orring-day",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"note": "Ntezi has five villages. The four named here are GRID3 settlements whose names carry \"Ntezi\" (Ntezi 1 / Ezekuna ward); which five are the historic villages is not yet checked.",
+			"history": {
+				"text": "Ntezi is the gathering place of the Orring. Its people hold the Oviode festival at the first new moon of February, after each of the five villages has held its own. The first Orring Day, organised by the Orring Historical Society, was held at Central School, Ntezi on 30 December 2021, to rotate among the Orring of Ebonyi, Benue and Cross River.",
+				"sources": [
+					"wikipedia-orring",
+					"sun-2022-orring-day"
+				],
+				"confidence": "high"
+			},
+			"livelihoods": {
+				"text": "Basket making: nearly every household in Ntezi has a basket-making setup, and many baskets sold in the towns around are made there. Farming and trade besides.",
+				"sources": [
+					"wikipedia-orring"
+				],
+				"confidence": "medium"
+			}
+		},
+		{
+			"name": "Okpoto (Lame)",
+			"lga": "ebonyi-ishielu",
+			"point": [
+				7.866,
+				6.369
+			],
+			"villages": [
+				{
+					"name": "Logbo Lokpo",
+					"point": [
+						7.858,
+						6.348
+					]
+				},
+				{
+					"name": "Lode",
+					"point": [
+						7.873,
+						6.361
+					]
+				},
+				{
+					"name": "Ogede",
+					"point": [
+						7.873,
+						6.375
+					]
+				}
+			],
+			"sources": [
+				"wikipedia-orring",
+				"blueprint-2023-orring-assembly",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"note": "Placed at Obodo Okpoto in GRID3 (Okpoto ward); villages from the same ward.",
+			"history": {
+				"text": "The Orring trace their descent to Lukpata Akpa and count themselves a first branch of the Akpato (Okpoto). Some say they came from the Kwararafa kingdom.",
+				"sources": [
+					"wikipedia-orring"
+				],
+				"confidence": "disputed",
+				"note": "Wikipedia calls the origin unclear. Orring leaders have also said the Orring are the Mbembe of Cross River (The Sun, 2022), which is unverified."
+			}
+		},
+		{
+			"name": "Effium (Uffiom)",
+			"lga": "ebonyi-ohaukwu",
+			"point": [
+				8.057,
+				6.633
+			],
+			"villages": [
+				{
+					"name": "Okporo",
+					"point": [
+						8.041,
+						6.614
+					]
+				},
+				{
+					"name": "Okpoduma",
+					"point": [
+						8.049,
+						6.634
+					]
+				},
+				{
+					"name": "Enwemini",
+					"point": [
+						8.058,
+						6.629
+					]
+				},
+				{
+					"name": "Ubegu",
+					"point": [
+						8.035,
+						6.655
+					]
+				},
+				{
+					"name": "Lebedegom",
+					"point": [
+						8.024,
+						6.672
+					]
+				},
+				{
+					"name": "Ikachi",
+					"point": [
+						8.033,
+						6.73
+					]
+				}
+			],
+			"sources": [
+				"wikipedia-effium",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"note": "Villages are those Wikipedia lists for Effium that GRID3 locates (Effium 1, Effium 2 and Wigbeke wards).",
+			"history": {
+				"text": "The largest Orring community. Effium tradition says its people were the first to settle, then took in the Ezza, then Aro, Amuda and others. A dispute between Effium and Ezza Effium over land and the motor park turned to war on 21 January 2021; hundreds were killed and thousands fled, some into Benue. A peace committee under Bishop Nnachi Okoro brought both sides to a ceasefire in August 2023.",
+				"sources": [
+					"wikipedia-effium",
+					"pax-2023-effium-ceasefire"
+				],
+				"confidence": "medium",
+				"note": "Both sides blame the other for the first attack, and casualty counts differ."
+			},
+			"livelihoods": {
+				"text": "Farmers of yam, cassava, rice and groundnut, with palm oil and timber. Effium main market is one of the largest in Ebonyi, sending farm produce across the country.",
+				"sources": [
+					"wikipedia-effium"
+				],
+				"confidence": "medium"
+			}
+		},
+		{
+			"name": "Amuda (Idzem)",
+			"lga": "ebonyi-ezza-north",
+			"point": [
+				7.945,
+				6.305
+			],
+			"villages": [
+				{
+					"name": "Ojolokpa",
+					"point": [
+						7.953,
+						6.297
+					]
+				},
+				{
+					"name": "Boura (Buora)",
+					"point": [
+						7.932,
+						6.327
+					]
+				},
+				{
+					"name": "Onunweke",
+					"point": [
+						7.95,
+						6.299
+					]
+				},
+				{
+					"name": "Ikwuato",
+					"point": [
+						7.938,
+						6.3
+					]
+				}
+			],
+			"sources": [
+				"wikipedia-amuda-people",
+				"wikipedia-ezza-north",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"note": "Ojolokpa and Buora are two of the four Amuda clans (with Buolung and Anmosho); placed from GRID3 in the Amawula / Amuda ward.",
+			"history": {
+				"text": "Four clans: Ojolokpa, Buolung, Buora and Anmosho. Some Amuda also live in Effium (Amuda Effium) and Ntezi (Amuda Ntezi). Their festivals are Mukpushi (marriage), Ugbuduogu at the end of planting, and Etukpa, the new yam.",
+				"sources": [
+					"wikipedia-amuda-people"
+				],
+				"confidence": "medium"
+			}
+		},
+		{
+			"name": "Okpolo (Okpomoro)",
+			"lga": "ebonyi-ezza-north",
+			"point": [
+				7.942,
+				6.33
+			],
+			"villages": [],
+			"sources": [
+				"wikipedia-orring",
+				"wikipedia-ezza-north",
+				"grid3-settlement-names"
+			],
+			"confidence": "high",
+			"history": {
+				"text": "The smallest Orring community, and still Korring speaking.",
+				"sources": [
+					"wikipedia-orring"
+				],
+				"confidence": "medium"
+			}
+		}
+	],
+	"reviewNotes": [
+		"Ntezi-Aba in Abakaliki (Ebonyi LGA) is remembered as an early Orring town, now Izzi. That is an origin claim, so it is told here and not mapped.",
+		"Wikipedia also names \"Orring-Idelle\" communities in Ado and Oju (Benue). GRID3's Idelle ward in Oju has mostly Igbo-style names (Ezza, Izzi, Umuezeoka), and no second source was found, so nothing is mapped there.",
+		"No reliable population figure. Wikipedia's 4–10 million cannot be right for five communities.",
+		"The Ufia (Benue) and Ukelle (Cross River) speak Korring too but are kept as their own peoples, as they name themselves."
+	]
+}

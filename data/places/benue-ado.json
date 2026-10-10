@@ -1,9 +1,10 @@
 {
 	"status": "draft",
 	"summary": {
-		"text": "An Idoma LGA in southern Benue, one of the first Idoma areas to receive missionaries. Its people are Idoma and Igede, with some Igbo.",
+		"text": "An Idoma LGA in southern Benue, one of the first Idoma areas to receive missionaries. Its people are Idoma and Igede, the Ufia of Utonkon district, and some Igbo.",
 		"sources": [
-			"wikipedia-ado-benue"
+			"wikipedia-ado-benue",
+			"wikipedia-utonkon"
 		],
 		"confidence": "high"
 	},
@@ -34,6 +35,20 @@
 			"group": "igede"
 		},
 		{
+			"name": "Ufia",
+			"group": "ufia",
+			"standing": "indigenous",
+			"languages": [
+				"K'ufia (Korring)"
+			],
+			"sources": [
+				"wikipedia-utonkon",
+				"ijogi-2021-ufia"
+			],
+			"confidence": "medium",
+			"note": "The people of Utonkon district."
+		},
+		{
 			"name": "Igbo",
 			"share": "minority",
 			"languages": [
@@ -46,7 +61,7 @@
 		}
 	],
 	"history": {
-		"text": "One of the first Idoma areas reached by missionaries: Catholic missionaries arrived at Utonkon in 1922.",
+		"text": "One of the first Idoma areas reached by missionaries: Catholic missionaries arrived at Utonkon, the Ufia district, in 1922.",
 		"sources": [
 			"wikipedia-ado-benue"
 		],

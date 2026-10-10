@@ -130,8 +130,48 @@
 	text-indent: 0.42em;
 }
 
-.vs-top .share {
+.vs-top__tools {
+	display: flex;
+	align-items: center;
+	gap: 8px;
 	justify-self: end;
+}
+
+.vs .sound-toggle {
+	display: inline-grid;
+	place-items: center;
+	width: 40px;
+	height: 40px;
+	padding: 0;
+	border: 1px solid var(--line-2);
+	border-radius: 50%;
+	background: transparent;
+	color: var(--muted);
+	cursor: pointer;
+	transition:
+		color 0.2s,
+		background-color 0.2s,
+		border-color 0.2s;
+}
+
+.vs .sound-toggle:hover {
+	border-color: var(--gold);
+	background: rgb(220 174 95 / 10%);
+	color: var(--text);
+}
+
+.vs .sound-toggle[aria-pressed='true'] {
+	color: var(--gold);
+}
+
+.vs .sound-toggle svg {
+	width: 18px;
+	height: 18px;
+	fill: none;
+	stroke: currentColor;
+	stroke-width: 1.8;
+	stroke-linecap: round;
+	stroke-linejoin: round;
 }
 
 .vs .share-button {
