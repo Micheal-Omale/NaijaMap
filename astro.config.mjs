@@ -4,6 +4,7 @@ import react from '@astrojs/react';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://histonaija.logfolio.pro',
 	// Static output: every page is prebuilt, no running server (spec 0001).
 	output: 'static',
 	i18n: {
