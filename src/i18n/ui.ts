@@ -15,7 +15,7 @@ export const defaultLang: Lang = 'en';
 
 export const ui = {
 	en: {
-		'site.name': 'Nigeria Histomap',
+		'site.name': 'HistoNaija',
 		'site.tagline': 'Where Nigeria’s peoples live today, and the states they built before.',
 		'site.description':
 			'An interactive map of Nigeria’s ethnic groups and the precolonial states that came before them, with sources for every claim.',

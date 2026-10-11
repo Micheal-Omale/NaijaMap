@@ -25,6 +25,7 @@ const { title = t('site.name'), description = t('site.description'), noindex = f
 		<meta name="theme-color" content="#f4f2ed" media="(prefers-color-scheme: light)" />
 		<meta name="theme-color" content="#0f1115" media="(prefers-color-scheme: dark)" />
 		{noindex && <meta name="robots" content="noindex" />}
+		<link rel="icon" href="/favicon.ico" sizes="32x32" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<!-- Installable as an app: full screen from the home screen, with its own icon. -->
 		<link rel="manifest" href="/manifest.webmanifest" />
@@ -32,10 +33,8 @@ const { title = t('site.name'), description = t('site.description'), noindex = f
 		<meta name="mobile-web-app-capable" content="yes" />
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<meta name="apple-mobile-web-app-status-bar-style" content="default" />
-		<meta name="apple-mobile-web-app-title" content="Nigeria Histomap" />
-		<link rel="icon" href="/favicon.ico" />
+		<meta name="apple-mobile-web-app-title" content="HistoNaija" />
 		<slot name="head" />
-		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
 	</head>
 	<body>
