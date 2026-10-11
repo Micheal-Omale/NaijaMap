@@ -143,7 +143,7 @@
 			"year": 1700,
 			"yearLabel": "c. late 17th century",
 			"title": "Ayegba Oma-Idoko breaks free",
-			"text": "Attah Ayegba, son of Idoko, refuses the Jukun tribute and defeats the army sent to punish him, helped by the Igala-Mela and the people of the land. Tradition says the victory cost the life of his daughter Inikpi. Igala is now a sovereign kingdom, and the royal clans that rule it to this day descend from Ayegba.",
+			"text": "Attah Ayegba, son of Idoko, refuses the Jukun tribute and defeats the army sent to punish him, helped by the Igala-Mela and the people of the land. Tradition says the victory cost the life of his daughter Inikpi. Igala is now a sovereign kingdom, and the royal clans that rule it to this day descend from Ayegba. In the Omambala tradition, the family of Ogbe, son of the Idah warrior Ajida, flees the Apa (Jukun) wars down the Niger, and his children settle Nzam, Anam, Anaku, Ilushi and Okpanam.",
 			"capital": { "name": "Idah", "point": [6.74, 7.11] },
 			"core": {
 				"lgas": [
@@ -151,8 +151,47 @@
 					"kogi-kogi", "anambra-anambra-west"
 				]
 			},
-			"links": [],
-			"sources": ["yusufu-2020", "wikipedia-princess-inikpi", "boston-1968", "wikipedia-omala"],
+			"links": [
+				{
+					"kind": "descent",
+					"to": { "name": "Anam", "point": [6.8332, 6.3336] },
+					"label": "Anam: founded by the children of Ogbe, son of the Idah warrior Ajida",
+					"confidence": "disputed",
+					"sources": ["wikipedia-anaku-town"],
+					"note": "Omambala tradition: Ogbe’s family lived near Ankpa and fled down the Niger through the Ibaji forest when the Apa (Jukun) invaded; his children Nzam, Anam, Anaku, Ulossi and Okpanam settled along the way. The Anam speak Igbo today. Placed at Umueze Anam."
+				},
+				{
+					"kind": "descent",
+					"to": { "name": "Anaku", "point": [6.931, 6.4672] },
+					"label": "Anaku: founded by a child of Ogbe, son of Ajida",
+					"confidence": "disputed",
+					"sources": ["wikipedia-anaku-town"],
+					"note": "Anaku’s own history also names settlers from Nkanu, Ossomala, Ogbosu, Ogidi, Awka and Olumbanasa."
+				},
+				{
+					"kind": "descent",
+					"to": { "name": "Nzam", "point": [6.702, 6.472] },
+					"label": "Nzam: its Igala-speaking people descend from Ajida",
+					"confidence": "disputed",
+					"sources": ["wikipedia-anaku-town", "tribune-2021-nzam"],
+					"note": "One Nzam history says Ajida invaded the town rather than his line founding it; another makes its first people aboriginal Igbo."
+				},
+				{
+					"kind": "descent",
+					"to": { "name": "Ilushi (Uloshi)", "point": [6.6292, 6.6697] },
+					"label": "Ilushi: Ogbe’s child Ulossi in the Ajida–Ogbe tradition",
+					"confidence": "disputed",
+					"sources": ["wikipedia-anaku-town", "owner-2026-10-06"]
+				},
+				{
+					"kind": "descent",
+					"to": { "name": "Okpanam", "point": [6.6484, 6.2396] },
+					"label": "Okpanam: Ogbe’s child in the Ajida–Ogbe tradition",
+					"confidence": "disputed",
+					"sources": ["wikipedia-anaku-town"]
+				}
+			],
+			"sources": ["yusufu-2020", "wikipedia-princess-inikpi", "boston-1968", "wikipedia-omala", "wikipedia-anaku-town"],
 			"confidence": "medium",
 			"nodes": [{ "name": "Ife (seat of the Onu Ife), Omala", "point": [7.523, 7.81] }]
 		},
@@ -160,7 +199,7 @@
 			"year": 1750,
 			"yearLabel": "c. 1750",
 			"title": "The height: from Nsukka to Koton Karfe",
-			"text": "The Attah's power reaches far beyond Igala-speaking land. The rulers of the northern Igbo states (Enugu-Ezike, Akpugo, Nkpologu, Ibagwa and Opi) and the Onu-Oda of Ette must travel to Idah for their staff of office, beads and horse, and return to pay tribute; Igala priests, the Attama, keep the shrines in their towns. North of the Benue confluence, Igu (Koton Karfe), the Kakanda and the first Ebira chiefdom at Panda hold their staffs from the Attah, as does Igumale in western Idoma. Igala sway runs down the Niger through Okpanam to Asaba, and towns well beyond the kingdom trace their founders to Idah. To the east, the western Idoma kingdoms (Otukpa, Ugboju, Onyagede, Adoka, Agila, Igumale, Ugbokolo and their neighbours) send tribute, and their rulers need the Idah court’s confirmation. Inside the kingdom, Ankpa, Anyigba and Dekina are its great towns, and districts from Ofu to Ibaji are ruled by Onu answerable to the Attah.",
+			"text": "The Attah's power reaches far beyond Igala-speaking land. The rulers of the northern Igbo states (Enugu-Ezike, Akpugo, Nkpologu, Ibagwa and Opi) and the Onu-Oda of Ette must travel to Idah for their staff of office, beads and horse, and return to pay tribute; Igala priests, the Attama, keep the shrines in their towns. North of the Benue confluence, Igu (Koton Karfe), the Kakanda and the first Ebira chiefdom at Panda hold their staffs from the Attah, as does Igumale in western Idoma, and the Chronicle of Abuja, as later writers cite it, carries Idah’s influence up to Umaisha, Toto and Abaji. Igala sway runs down the Niger through Okpanam to Asaba, and towns well beyond the kingdom trace their founders to Idah. To the east, the western Idoma kingdoms (Otukpa, Ugboju, Onyagede, Adoka, Agila, Igumale, Ugbokolo and their neighbours) send tribute, and their rulers need the Idah court’s confirmation. Inside the kingdom, Ankpa, Anyigba and Dekina are its great towns, and districts from Ofu to Ibaji are ruled by Onu answerable to the Attah.",
 			"capital": { "name": "Idah", "point": [6.74, 7.11] },
 			"core": {
 				"lgas": [
@@ -172,7 +211,7 @@
 				"lgas": [
 					"enugu-nsukka", "enugu-igbo-eze-north", "enugu-igbo-eze-south", "enugu-udenu", "enugu-igbo-etiti", "enugu-uzo-uwani", "enugu-isi-uzo", "anambra-ayamelum",
 					"anambra-anambra-east", "delta-oshimili-north", "delta-oshimili-south", "benue-ado", "edo-etsako-east", "benue-ogbadibo", "benue-okpokwu", "benue-ohimini",
-					"benue-oturkpo", "benue-apa", "benue-agatu"
+					"benue-oturkpo", "benue-apa", "benue-agatu", "nasarawa-toto", "fct-abaji", "nasarawa-nasarawa"
 				],
 				"confidence": "disputed"
 			},
@@ -218,24 +257,78 @@
 				{
 					"kind": "tribute",
 					"to": { "name": "Okpanam", "point": [6.6484, 6.2396] },
-					"label": "Okpanam: under Igala sway",
+					"label": "Okpanam: under Igala sway, founded by a child of Ogbe",
 					"confidence": "disputed",
-					"sources": ["igala-colonisation-northern-igbo"]
+					"sources": ["igala-colonisation-northern-igbo", "wikipedia-anaku-town"]
+				},
+				{
+					"kind": "descent",
+					"to": { "name": "Anam", "point": [6.8332, 6.3336] },
+					"label": "Anam: the children of Ogbe, son of Ajida of Idah",
+					"confidence": "disputed",
+					"sources": ["wikipedia-anaku-town"],
+					"note": "The Anam speak Igbo today. Placed at Umueze Anam."
+				},
+				{
+					"kind": "descent",
+					"to": { "name": "Anaku", "point": [6.931, 6.4672] },
+					"label": "Anaku: a child of Ogbe, son of Ajida of Idah",
+					"confidence": "disputed",
+					"sources": ["wikipedia-anaku-town"]
+				},
+				{
+					"kind": "descent",
+					"to": { "name": "Nzam", "point": [6.702, 6.472] },
+					"label": "Nzam: Igala-speaking, descended from Ajida",
+					"confidence": "disputed",
+					"sources": ["wikipedia-anaku-town", "tribune-2021-nzam"]
 				},
 				{
 					"kind": "tribute",
 					"to": { "name": "Igu (Koton Karfe)", "point": [6.7981, 8.0891] },
 					"label": "Igu (Koton Karfe): vassal of the Attah",
-					"sources": ["lasttribes-igala"],
+					"sources": ["lasttribes-igala", "allen-thomson-1848"],
 					"confidence": "medium"
 				},
 				{
 					"kind": "tribute",
 					"to": { "name": "Panda", "point": [7.5628, 8.7037] },
 					"label": "Panda: first Ebira chiefdom, staff from the Attah",
-					"sources": ["lasttribes-igala"],
+					"sources": ["lasttribes-igala", "allen-thomson-1848"],
+					"confidence": "medium",
+					"note": "Allen (1841) records the chief of Fandah paying the Attah a small tribute. Placed at Panda in Nasarawa LGA; the old Ebira Panda town was destroyed in the 19th century and its exact site is uncertain."
+				},
+				{
+					"kind": "tribute",
+					"to": { "name": "Budon (Kakanda)", "point": [6.5289, 8.3558] },
+					"label": "Budon: chief town of the Kakanda, tributary to the Attah",
+					"sources": ["allen-thomson-1848"],
+					"confidence": "medium",
+					"note": "Allen’s Buddu, on the right bank above the confluence, often burned by the Filatahs; placed at Tsho Budon in Lokoja LGA."
+				},
+				{
+					"kind": "tribute",
+					"to": { "name": "Umaisha", "point": [7.1878, 8.0067] },
+					"label": "Umaisha: under the influence of Idah",
+					"sources": ["abbah-2020-indebtedness", "owner-2026-10-11-north"],
 					"confidence": "disputed",
-					"note": "Placed at Panda in Nasarawa LGA; the old Ebira Panda town was destroyed in the 19th century and its exact site is uncertain."
+					"note": "Abbah (2020) says the Chronicle of Abuja speaks of Idah’s deep influence over Umaisha, Toto, Koton Karfi and Abaji. The Chronicle itself has not been read."
+				},
+				{
+					"kind": "tribute",
+					"to": { "name": "Toto", "point": [7.0772, 8.3901] },
+					"label": "Toto: under the influence of Idah",
+					"sources": ["abbah-2020-indebtedness", "owner-2026-10-11-north"],
+					"confidence": "disputed",
+					"note": "From the Chronicle of Abuja as cited by Abbah (2020); the Chronicle itself has not been read."
+				},
+				{
+					"kind": "tribute",
+					"to": { "name": "Abaji", "point": [6.9395, 8.4568] },
+					"label": "Abaji: the far edge of Idah’s influence",
+					"sources": ["abbah-2020-indebtedness", "owner-2026-10-11-north"],
+					"confidence": "disputed",
+					"note": "From the Chronicle of Abuja as cited by Abbah (2020); the Chronicle itself has not been read. Abaji’s own tradition, the Ona of Abaji’s kingdom, may tell it differently."
 				},
 				{
 					"kind": "tribute",
@@ -270,7 +363,8 @@
 					"kind": "descent",
 					"to": { "name": "Ilushi (Uloshi)", "point": [6.6292, 6.6697] },
 					"label": "Ilushi, Edo: an Igala-speaking town",
-					"sources": ["owner-2026-10-06"],
+					"sources": ["owner-2026-10-06", "wikipedia-anaku-town"],
+					"note": "The Ajida–Ogbe tradition counts Ulossi among Ogbe’s children.",
 					"confidence": "medium"
 				},
 				{
@@ -362,7 +456,7 @@
 			],
 			"sources": [
 				"igala-colonisation-northern-igbo", "boston-1968", "dailytrust-2017-igala-enugu", "dailytrust-2022-igala-enugu", "lasttribes-igala", "okopi-idoma-timeline",
-				"owner-2026-10-07-doc1", "wikipedia-omala"
+				"owner-2026-10-07-doc1", "wikipedia-omala", "allen-thomson-1848", "abbah-2020-indebtedness", "wikipedia-anaku-town", "owner-2026-10-11-north"
 			],
 			"confidence": "medium",
 			"note": "Investiture and tribute are attested for the northern Igbo states; the outer zone (Okpanam, Asaba, Etsako, western Idoma) rests on fewer and weaker sources and is marked disputed. The western Idoma tributaries follow an Idoma timeline (tribute to Idah from about 1740) and the owner’s notes; whole Idoma LGAs are drawn as disputed reach, not rule.",
@@ -379,17 +473,427 @@
 			]
 		},
 		{
+			"year": 1820,
+			"yearLabel": "c. 1820",
+			"title": "The north still holds",
+			"text": "The jihad has swept Hausaland and Fulani rulers are taking hold of Nupe, but the Attah’s reach is still whole. His northern tributaries, Igu (Koton Karfe), the Kakanda at Budon and the Ebira chiefdom at Panda, still hold their staffs from Idah, and his influence still runs up to Umaisha, Toto and Abaji. When a jihadist force comes down the Niger, Igala tradition says the Attah’s army destroys it at Koto, while the Koto and the Ebira defend their own land. South and east, the northern Igbo states, the western Idoma and the river towns down to Okpanam and Asaba still look to Idah. The raids from Rabbah will burn Igu and empty Adda Kuddu, but the Attah keeps his northern reach until Masaba’s raid of 1853.",
+			"capital": { "name": "Idah", "point": [6.74, 7.11] },
+			"core": {
+				"lgas": [
+					"kogi-idah", "kogi-igalamela-odolu", "kogi-ibaji", "kogi-ofu", "kogi-dekina", "kogi-omala", "kogi-olamaboro", "kogi-ankpa", "kogi-bassa", "kogi-lokoja",
+					"kogi-kogi", "anambra-anambra-west"
+				]
+			},
+			"influence": {
+				"lgas": [
+					"enugu-nsukka", "enugu-igbo-eze-north", "enugu-igbo-eze-south", "enugu-udenu", "enugu-igbo-etiti", "enugu-uzo-uwani", "enugu-isi-uzo", "anambra-ayamelum",
+					"anambra-anambra-east", "delta-oshimili-north", "delta-oshimili-south", "benue-ado", "edo-etsako-east", "benue-ogbadibo", "benue-okpokwu", "benue-ohimini",
+					"benue-oturkpo", "benue-apa", "benue-agatu", "nasarawa-toto", "fct-abaji", "nasarawa-nasarawa"
+				],
+				"confidence": "disputed"
+			},
+			"links": [
+				{
+					"kind": "war",
+					"to": { "name": "Igu (Koton Karfe)", "point": [6.7981, 8.0891] },
+					"label": "Koton Karfe holds: the jihad is turned back",
+					"confidence": "disputed",
+					"sources": ["ayegba-2020-summit", "owner-2026-10-07-igu", "owner-2026-10-11-koto"]
+				},
+				{
+					"kind": "tribute",
+					"to": { "name": "Enugu-Ezike", "point": [7.4306, 6.9543] },
+					"label": "Enugu-Ezike: its Eze crowned at Idah",
+					"sources": ["igala-colonisation-northern-igbo"]
+				},
+				{
+					"kind": "tribute",
+					"to": { "name": "Ette", "point": [7.4691, 7.0775] },
+					"label": "Ette: ruled by an Igala king, the Onu-Oda, confirmed by the Attah",
+					"sources": ["chukwudi-opone-2024-eteh", "owner-2026-10-07-ette"]
+				},
+				{
+					"kind": "tribute",
+					"to": { "name": "Ibagwa-Aka", "point": [7.403, 6.9496] },
+					"label": "Ibagwa: its Igwe takes his staff from the Attah",
+					"sources": ["dailytrust-2017-igala-enugu", "igala-colonisation-northern-igbo"]
+				},
+				{ "kind": "tribute", "to": { "name": "Opi", "point": [7.4443, 6.7563] }, "label": "Opi: its Eze crowned at Idah", "sources": ["igala-colonisation-northern-igbo"] },
+				{
+					"kind": "tribute",
+					"to": { "name": "Akpugo", "point": [7.2816, 6.7028] },
+					"label": "Akpugo: its Eze crowned at Idah",
+					"sources": ["igala-colonisation-northern-igbo"],
+					"note": "Located at Akpugo in Uzo-Uwani; other Akpugos exist in Enugu State."
+				},
+				{
+					"kind": "tribute",
+					"to": { "name": "Nkpologu", "point": [7.2538, 6.7685] },
+					"label": "Nkpologu: settled from Idah, its rulers staffed by the Attah",
+					"sources": ["dailytrust-2022-igala-enugu", "igala-colonisation-northern-igbo"]
+				},
+				{
+					"kind": "tribute",
+					"to": { "name": "Ogurugu", "point": [6.9505, 6.7871] },
+					"label": "Ogurugu: Onoja Oboni’s walled war camp",
+					"sources": ["dailytrust-2022-igala-enugu", "afigbo-1981", "owner-2026-10-10-ogurugu"]
+				},
+				{
+					"kind": "tribute",
+					"to": { "name": "Okpanam", "point": [6.6484, 6.2396] },
+					"label": "Okpanam: under Igala sway, founded by a child of Ogbe",
+					"confidence": "disputed",
+					"sources": ["igala-colonisation-northern-igbo", "wikipedia-anaku-town"]
+				},
+				{
+					"kind": "descent",
+					"to": { "name": "Anam", "point": [6.8332, 6.3336] },
+					"label": "Anam: the children of Ogbe, son of Ajida of Idah",
+					"confidence": "disputed",
+					"sources": ["wikipedia-anaku-town"],
+					"note": "The Anam speak Igbo today. Placed at Umueze Anam."
+				},
+				{
+					"kind": "descent",
+					"to": { "name": "Anaku", "point": [6.931, 6.4672] },
+					"label": "Anaku: a child of Ogbe, son of Ajida of Idah",
+					"confidence": "disputed",
+					"sources": ["wikipedia-anaku-town"]
+				},
+				{
+					"kind": "descent",
+					"to": { "name": "Nzam", "point": [6.702, 6.472] },
+					"label": "Nzam: Igala-speaking, descended from Ajida",
+					"confidence": "disputed",
+					"sources": ["wikipedia-anaku-town", "tribune-2021-nzam"]
+				},
+				{
+					"kind": "tribute",
+					"to": { "name": "Igu (Koton Karfe)", "point": [6.7981, 8.0891] },
+					"label": "Igu (Koton Karfe): vassal of the Attah",
+					"sources": ["lasttribes-igala", "allen-thomson-1848"],
+					"confidence": "medium"
+				},
+				{
+					"kind": "tribute",
+					"to": { "name": "Panda", "point": [7.5628, 8.7037] },
+					"label": "Panda: first Ebira chiefdom, staff from the Attah",
+					"sources": ["lasttribes-igala", "allen-thomson-1848"],
+					"confidence": "medium",
+					"note": "Allen (1841) records the chief of Fandah paying the Attah a small tribute. Placed at Panda in Nasarawa LGA; the old Ebira Panda town was destroyed in the 19th century and its exact site is uncertain."
+				},
+				{
+					"kind": "tribute",
+					"to": { "name": "Budon (Kakanda)", "point": [6.5289, 8.3558] },
+					"label": "Budon: chief town of the Kakanda, tributary to the Attah",
+					"sources": ["allen-thomson-1848"],
+					"confidence": "medium",
+					"note": "Allen’s Buddu, on the right bank above the confluence, often burned by the Filatahs; placed at Tsho Budon in Lokoja LGA."
+				},
+				{
+					"kind": "tribute",
+					"to": { "name": "Umaisha", "point": [7.1878, 8.0067] },
+					"label": "Umaisha: under the influence of Idah",
+					"sources": ["abbah-2020-indebtedness", "owner-2026-10-11-north"],
+					"confidence": "disputed",
+					"note": "Abbah (2020) says the Chronicle of Abuja speaks of Idah’s deep influence over Umaisha, Toto, Koton Karfi and Abaji. The Chronicle itself has not been read."
+				},
+				{
+					"kind": "tribute",
+					"to": { "name": "Toto", "point": [7.0772, 8.3901] },
+					"label": "Toto: under the influence of Idah",
+					"sources": ["abbah-2020-indebtedness", "owner-2026-10-11-north"],
+					"confidence": "disputed",
+					"note": "From the Chronicle of Abuja as cited by Abbah (2020); the Chronicle itself has not been read."
+				},
+				{
+					"kind": "tribute",
+					"to": { "name": "Abaji", "point": [6.9395, 8.4568] },
+					"label": "Abaji: the far edge of Idah’s influence",
+					"sources": ["abbah-2020-indebtedness", "owner-2026-10-11-north"],
+					"confidence": "disputed",
+					"note": "From the Chronicle of Abuja as cited by Abbah (2020); the Chronicle itself has not been read. Abaji’s own tradition, the Ona of Abaji’s kingdom, may tell it differently."
+				},
+				{
+					"kind": "tribute",
+					"to": { "name": "Igumale", "point": [7.9641, 6.7784] },
+					"label": "Igumale: western Idoma under the Attah",
+					"sources": ["lasttribes-igala"],
+					"confidence": "disputed"
+				},
+				{
+					"kind": "descent",
+					"to": { "name": "Asaba", "point": [6.7193, 6.2056] },
+					"label": "Asaba: Igala descent in one founding tradition",
+					"confidence": "disputed",
+					"sources": ["owner-2026-10-07-igala-history", "igala-colonisation-northern-igbo"],
+					"note": "Asaba's own tradition names Nnebisi, from Nteje, as founder. An Igala tradition makes his father, or his mother (a daughter of Attah Ayegba), Igala."
+				},
+				{
+					"kind": "descent",
+					"to": { "name": "Illah", "point": [6.649, 6.4246] },
+					"label": "Illah: Igala one of its three founding lines",
+					"sources": ["wikipedia-illah"],
+					"confidence": "medium"
+				},
+				{
+					"kind": "descent",
+					"to": { "name": "Ebu", "point": [6.6061, 6.4786] },
+					"label": "Ebu: an Igala-speaking town west of the Niger",
+					"sources": ["wikipedia-igala-people"],
+					"confidence": "high"
+				},
+				{
+					"kind": "descent",
+					"to": { "name": "Ilushi (Uloshi)", "point": [6.6292, 6.6697] },
+					"label": "Ilushi, Edo: an Igala-speaking town",
+					"sources": ["owner-2026-10-06", "wikipedia-anaku-town"],
+					"note": "The Ajida–Ogbe tradition counts Ulossi among Ogbe’s children.",
+					"confidence": "medium"
+				},
+				{
+					"kind": "descent",
+					"to": { "name": "Ifeku", "point": [6.6037, 6.8314] },
+					"label": "Ifeku, Edo: an Igala-speaking town",
+					"sources": ["owner-2026-10-06"],
+					"confidence": "medium"
+				},
+				{
+					"kind": "descent",
+					"to": { "name": "Gbara (Nupe court)", "point": [6.05, 8.9] },
+					"label": "Nupe: Tsoede, founder of the kingdom, a son of an Attah",
+					"confidence": "medium",
+					"sources": ["lasttribes-igala", "nadel-1942"]
+				},
+				{
+					"kind": "tribute",
+					"to": { "name": "Otukpa", "point": [7.66, 7.09] },
+					"label": "Otukpa: western Idoma, tributary to the Attah",
+					"confidence": "disputed",
+					"sources": ["okopi-idoma-timeline", "owner-2026-10-07-doc1"]
+				},
+				{
+					"kind": "tribute",
+					"to": { "name": "Ugboju", "point": [8.0531, 7.3515] },
+					"label": "Ugboju: western Idoma, tributary to the Attah",
+					"confidence": "disputed",
+					"sources": ["okopi-idoma-timeline", "owner-2026-10-07-doc1"]
+				},
+				{
+					"kind": "tribute",
+					"to": { "name": "Onyagede", "point": [8.2065, 6.9325] },
+					"label": "Onyagede: western Idoma, tributary to the Attah",
+					"confidence": "disputed",
+					"sources": ["okopi-idoma-timeline", "owner-2026-10-07-doc1"],
+					"note": "GRID3 places two Onyagede settlements in Obi LGA; the western one is shown."
+				},
+				{
+					"kind": "tribute",
+					"to": { "name": "Adoka", "point": [7.9439, 7.4768] },
+					"label": "Adoka: western Idoma, tributary to the Attah",
+					"confidence": "disputed",
+					"sources": ["okopi-idoma-timeline", "owner-2026-10-07-doc1"]
+				},
+				{
+					"kind": "tribute",
+					"to": { "name": "Agila", "point": [7.9207, 6.7619] },
+					"label": "Agila: western Idoma, tributary to the Attah",
+					"confidence": "disputed",
+					"sources": ["okopi-idoma-timeline", "owner-2026-10-07-doc1"]
+				},
+				{
+					"kind": "tribute",
+					"to": { "name": "Ugbokolo", "point": [7.7969, 7.1613] },
+					"label": "Ugbokolo: western Idoma, tributary to the Attah",
+					"confidence": "disputed",
+					"sources": ["okopi-idoma-timeline", "owner-2026-10-07-doc1"]
+				},
+				{
+					"kind": "tribute",
+					"to": { "name": "Okokolo", "point": [8.0888, 7.8682] },
+					"label": "Okokolo: western Idoma, tributary to the Attah",
+					"confidence": "disputed",
+					"sources": ["okopi-idoma-timeline", "owner-2026-10-07-doc1"]
+				},
+				{
+					"kind": "tribute",
+					"to": { "name": "Aila", "point": [8.0047, 7.872] },
+					"label": "Aila: western Idoma, tributary to the Attah",
+					"confidence": "disputed",
+					"sources": ["okopi-idoma-timeline", "owner-2026-10-07-doc1"],
+					"note": "Placed at Olege Aila in Agatu."
+				},
+				{
+					"kind": "tribute",
+					"to": { "name": "Igah (Okpaya)", "point": [7.8834, 7.5359] },
+					"label": "Igah (Okpaya): western Idoma, tributary to the Attah",
+					"confidence": "disputed",
+					"sources": ["okopi-idoma-timeline", "owner-2026-10-07-doc1"]
+				},
+				{
+					"kind": "tribute",
+					"to": { "name": "Nsugbe", "point": [6.805, 6.2185] },
+					"label": "Nsugbe: Anambra river towns under Igala sway",
+					"confidence": "disputed",
+					"sources": ["owner-2026-10-07-doc1"]
+				}
+			],
+			"sources": [
+				"igala-colonisation-northern-igbo", "boston-1968", "dailytrust-2017-igala-enugu", "dailytrust-2022-igala-enugu", "lasttribes-igala", "okopi-idoma-timeline",
+				"owner-2026-10-07-doc1", "wikipedia-omala", "allen-thomson-1848", "abbah-2020-indebtedness", "wikipedia-anaku-town", "owner-2026-10-11-north", "ayegba-2020-summit", "owner-2026-10-11-koto"
+			],
+			"confidence": "medium",
+			"note": "Drawn as the height still standing, as the owner directs (2026-10-11): the northern reach holds until the jihad-era raids of the 1830s. Investiture and tribute are attested for the northern Igbo states; the outer zone (Okpanam, Asaba, Etsako, western Idoma) rests on fewer and weaker sources and is marked disputed. The western Idoma tributaries follow an Idoma timeline (tribute to Idah from about 1740) and the owner’s notes; whole Idoma LGAs are drawn as disputed reach, not rule.",
+			"nodes": [
+				{ "name": "Ankpa", "point": [7.625, 7.37] },
+				{ "name": "Anyigba", "point": [7.1726, 7.4993] },
+				{ "name": "Dekina", "point": [7.044, 7.689] },
+				{ "name": "Ugwolawo (Ofu)", "point": [6.9205, 7.2356] },
+				{ "name": "Ejule", "point": [7.1011, 7.3598] },
+				{ "name": "Egume", "point": [7.2336, 7.4675] },
+				{ "name": "Abejukolo (Omala)", "point": [7.5137, 7.8825] },
+				{ "name": "Okpo (Olamaboro)", "point": [7.5598, 7.213] },
+				{ "name": "Ife (seat of the Onu Ife), Omala", "point": [7.523, 7.81] }
+			]
+		},
+		{
 			"year": 1841,
 			"title": "Lokoja ceded; pressure from the north",
-			"text": "The Attah cedes land at Lokoja to the British Niger Expedition. In the north, Nupe and Fulani armies press on the kingdom's edge: Igu (Koton Karfe), an Igala vassal, is sacked in 1833 and lost by 1860. British rule comes in 1900.",
+			"text": "The raids from Rabbah have reached the confluence. In 1838 the Filatahs, the Fulani-led armies of Nupe, marched down on the Attah’s district below the confluence and drove the people of Adda Kuddu across the river; in 1841 the British find the town in ruins and the enemy camped at Koto’n Kàrafi. The Attah tells them so at Idah, and grants them land around Adda Kuddu, at Lokoja, for a farm and a fort: an ally on his northern frontier. Even now the chiefs of Panda, Koton Karfe and the Kakanda pay him tribute, and his reach still runs up to Toto and Abaji. To the south nothing has changed: the rulers of the northern Igbo states still go to Idah for their staffs, and the western Idoma and the river towns still look to the Attah.",
 			"capital": { "name": "Idah", "point": [6.74, 7.11] },
 			"core": {
 				"lgas": ["kogi-idah", "kogi-igalamela-odolu", "kogi-ibaji", "kogi-ofu", "kogi-dekina", "kogi-omala", "kogi-olamaboro", "kogi-ankpa", "anambra-anambra-west"]
 			},
-			"influence": { "lgas": ["enugu-uzo-uwani", "enugu-igbo-eze-north", "enugu-nsukka", "kogi-bassa"], "confidence": "medium" },
-			"links": [{ "kind": "war", "to": { "name": "Igu (Koton Karfe)", "point": [6.7981, 8.0891] }, "label": "Igu sacked (1833), lost by 1860" }],
-			"sources": ["boston-1968", "wikipedia-niger-expedition-1841", "lasttribes-igala", "wikipedia-omala"],
+			"influence": {
+				"lgas": [
+					"kogi-bassa", "enugu-nsukka", "enugu-igbo-eze-north", "enugu-igbo-eze-south", "enugu-udenu", "enugu-igbo-etiti", "enugu-uzo-uwani", "enugu-isi-uzo",
+					"anambra-ayamelum", "anambra-anambra-east", "delta-oshimili-north", "delta-oshimili-south", "benue-ado", "edo-etsako-east", "benue-ogbadibo",
+					"benue-okpokwu", "benue-ohimini", "benue-oturkpo", "benue-apa", "benue-agatu", "kogi-kogi", "nasarawa-nasarawa", "nasarawa-toto", "fct-abaji"
+				],
+				"confidence": "disputed"
+			},
+			"links": [
+				{ "kind": "tribute", "to": { "name": "Enugu-Ezike", "point": [7.4306, 6.9543] }, "label": "Enugu-Ezike: its Eze crowned at Idah", "sources": ["igala-colonisation-northern-igbo"] },
+				{ "kind": "tribute", "to": { "name": "Ette", "point": [7.4691, 7.0775] }, "label": "Ette: ruled by an Igala king, the Onu-Oda, confirmed by the Attah", "sources": ["chukwudi-opone-2024-eteh", "owner-2026-10-07-ette"] },
+				{ "kind": "tribute", "to": { "name": "Ibagwa-Aka", "point": [7.403, 6.9496] }, "label": "Ibagwa: its Igwe takes his staff from the Attah", "sources": ["dailytrust-2017-igala-enugu", "igala-colonisation-northern-igbo"] },
+				{ "kind": "tribute", "to": { "name": "Opi", "point": [7.4443, 6.7563] }, "label": "Opi: its Eze crowned at Idah", "sources": ["igala-colonisation-northern-igbo"] },
+				{ "kind": "tribute", "to": { "name": "Akpugo", "point": [7.2816, 6.7028] }, "label": "Akpugo: its Eze crowned at Idah", "sources": ["igala-colonisation-northern-igbo"], "note": "Located at Akpugo in Uzo-Uwani; other Akpugos exist in Enugu State." },
+				{ "kind": "tribute", "to": { "name": "Nkpologu", "point": [7.2538, 6.7685] }, "label": "Nkpologu: settled from Idah, its rulers staffed by the Attah", "sources": ["dailytrust-2022-igala-enugu", "igala-colonisation-northern-igbo"] },
+				{ "kind": "tribute", "to": { "name": "Ogurugu", "point": [6.9505, 6.7871] }, "label": "Ogurugu: Onoja Oboni’s walled war camp", "sources": ["dailytrust-2022-igala-enugu", "afigbo-1981", "owner-2026-10-10-ogurugu"] },
+				{ "kind": "tribute", "to": { "name": "Okpanam", "point": [6.6484, 6.2396] }, "label": "Okpanam: under Igala sway, founded by a child of Ogbe", "confidence": "disputed", "sources": ["igala-colonisation-northern-igbo", "wikipedia-anaku-town"] },
+				{ "kind": "descent", "to": { "name": "Anam", "point": [6.8332, 6.3336] }, "label": "Anam: the children of Ogbe, son of Ajida of Idah", "confidence": "disputed", "sources": ["wikipedia-anaku-town"], "note": "The Anam speak Igbo today. Placed at Umueze Anam." },
+				{ "kind": "descent", "to": { "name": "Anaku", "point": [6.931, 6.4672] }, "label": "Anaku: a child of Ogbe, son of Ajida of Idah", "confidence": "disputed", "sources": ["wikipedia-anaku-town"] },
+				{ "kind": "descent", "to": { "name": "Nzam", "point": [6.702, 6.472] }, "label": "Nzam: Igala-speaking, descended from Ajida", "confidence": "disputed", "sources": ["wikipedia-anaku-town", "tribune-2021-nzam"] },
+				{ "kind": "tribute", "to": { "name": "Igumale", "point": [7.9641, 6.7784] }, "label": "Igumale: western Idoma under the Attah", "sources": ["lasttribes-igala"], "confidence": "disputed" },
+				{ "kind": "descent", "to": { "name": "Asaba", "point": [6.7193, 6.2056] }, "label": "Asaba: Igala descent in one founding tradition", "confidence": "disputed", "sources": ["owner-2026-10-07-igala-history", "igala-colonisation-northern-igbo"], "note": "Asaba's own tradition names Nnebisi, from Nteje, as founder. An Igala tradition makes his father, or his mother (a daughter of Attah Ayegba), Igala." },
+				{ "kind": "descent", "to": { "name": "Illah", "point": [6.649, 6.4246] }, "label": "Illah: Igala one of its three founding lines", "sources": ["wikipedia-illah"], "confidence": "medium" },
+				{ "kind": "descent", "to": { "name": "Ebu", "point": [6.6061, 6.4786] }, "label": "Ebu: an Igala-speaking town west of the Niger", "sources": ["wikipedia-igala-people"], "confidence": "high" },
+				{ "kind": "descent", "to": { "name": "Ilushi (Uloshi)", "point": [6.6292, 6.6697] }, "label": "Ilushi, Edo: an Igala-speaking town", "sources": ["owner-2026-10-06", "wikipedia-anaku-town"], "note": "The Ajida–Ogbe tradition counts Ulossi among Ogbe’s children.", "confidence": "medium" },
+				{ "kind": "descent", "to": { "name": "Ifeku", "point": [6.6037, 6.8314] }, "label": "Ifeku, Edo: an Igala-speaking town", "sources": ["owner-2026-10-06"], "confidence": "medium" },
+				{ "kind": "tribute", "to": { "name": "Otukpa", "point": [7.66, 7.09] }, "label": "Otukpa: western Idoma, tributary to the Attah", "confidence": "disputed", "sources": ["okopi-idoma-timeline", "owner-2026-10-07-doc1"] },
+				{ "kind": "tribute", "to": { "name": "Ugboju", "point": [8.0531, 7.3515] }, "label": "Ugboju: western Idoma, tributary to the Attah", "confidence": "disputed", "sources": ["okopi-idoma-timeline", "owner-2026-10-07-doc1"] },
+				{ "kind": "tribute", "to": { "name": "Onyagede", "point": [8.2065, 6.9325] }, "label": "Onyagede: western Idoma, tributary to the Attah", "confidence": "disputed", "sources": ["okopi-idoma-timeline", "owner-2026-10-07-doc1"], "note": "GRID3 places two Onyagede settlements in Obi LGA; the western one is shown." },
+				{ "kind": "tribute", "to": { "name": "Adoka", "point": [7.9439, 7.4768] }, "label": "Adoka: western Idoma, tributary to the Attah", "confidence": "disputed", "sources": ["okopi-idoma-timeline", "owner-2026-10-07-doc1"] },
+				{ "kind": "tribute", "to": { "name": "Agila", "point": [7.9207, 6.7619] }, "label": "Agila: western Idoma, tributary to the Attah", "confidence": "disputed", "sources": ["okopi-idoma-timeline", "owner-2026-10-07-doc1"] },
+				{ "kind": "tribute", "to": { "name": "Ugbokolo", "point": [7.7969, 7.1613] }, "label": "Ugbokolo: western Idoma, tributary to the Attah", "confidence": "disputed", "sources": ["okopi-idoma-timeline", "owner-2026-10-07-doc1"] },
+				{ "kind": "tribute", "to": { "name": "Okokolo", "point": [8.0888, 7.8682] }, "label": "Okokolo: western Idoma, tributary to the Attah", "confidence": "disputed", "sources": ["okopi-idoma-timeline", "owner-2026-10-07-doc1"] },
+				{ "kind": "tribute", "to": { "name": "Aila", "point": [8.0047, 7.872] }, "label": "Aila: western Idoma, tributary to the Attah", "confidence": "disputed", "sources": ["okopi-idoma-timeline", "owner-2026-10-07-doc1"], "note": "Placed at Olege Aila in Agatu." },
+				{ "kind": "tribute", "to": { "name": "Igah (Okpaya)", "point": [7.8834, 7.5359] }, "label": "Igah (Okpaya): western Idoma, tributary to the Attah", "confidence": "disputed", "sources": ["okopi-idoma-timeline", "owner-2026-10-07-doc1"] },
+				{ "kind": "tribute", "to": { "name": "Nsugbe", "point": [6.805, 6.2185] }, "label": "Nsugbe: Anambra river towns under Igala sway", "confidence": "disputed", "sources": ["owner-2026-10-07-doc1"] },
+				{
+					"kind": "war",
+					"to": { "name": "Adda Kuddu (approximate)", "point": [6.735, 7.72] },
+					"label": "Adda Kuddu: emptied by the Filatahs, 1838; in ruins in 1841",
+					"confidence": "high",
+					"sources": ["allen-thomson-1848"]
+				},
+				{
+					"kind": "tribute",
+					"to": { "name": "Igu (Koton Karfe)", "point": [6.7981, 8.0891] },
+					"label": "Koton Karfe: burned c. 1833 and threatened, but still paying tribute to the Attah",
+					"confidence": "high",
+					"sources": ["allen-thomson-1848", "abbah-2018-igala-fulani"],
+					"note": "Allen records the Filatahs “still at Egòh, or at Koto’n Kàrafi”, and the chief of Kattam-Kàrafi paying the Attah a small tribute, in the same year."
+				},
+				{
+					"kind": "tribute",
+					"to": { "name": "Panda", "point": [7.5628, 8.7037] },
+					"label": "Panda (Fandah): still paying tribute to the Attah",
+					"confidence": "high",
+					"sources": ["allen-thomson-1848"]
+				},
+				{
+					"kind": "tribute",
+					"to": { "name": "Budon (Kakanda)", "point": [6.5289, 8.3558] },
+					"label": "Budon (Buddu): often burned by the Filatahs, still paying tribute to the Attah",
+					"confidence": "high",
+					"sources": ["allen-thomson-1848"]
+				}
+			],
+			"sources": [
+				"boston-1968", "wikipedia-niger-expedition-1841", "lasttribes-igala", "wikipedia-omala", "allen-thomson-1848", "trotter-1843-report", "abbah-2020-indebtedness",
+				"owner-2026-10-11-north"
+			],
 			"confidence": "medium",
+			"note": "Allen (1841) records tribute from Panda, Koton Karfe and the Kakanda; Toto and Abaji are kept in the reach on the owner’s direction (2026-10-11) and Abbah (2020).",
+			"nodes": [{ "name": "Ife (seat of the Onu Ife), Omala", "point": [7.523, 7.81] }]
+		},
+		{
+			"year": 1854,
+			"yearLabel": "after 1853",
+			"title": "The north is lost; the heartland holds",
+			"text": "Masaba’s raid of 1853 breaks the Attah’s hold on the north. Toto, Abaji, Panda and the Kakanda no longer send tribute to Idah, and Koton Karfe, never conquered, fights on alone against Bida and Ilorin. Lokoja becomes a town between the powers: Nupe, Oworo, Bassa-Nge, Hausa and Igala, around Baikie’s settlement of 1857, looking to Masaba for protection from 1869 but never simply his. Refugees from the north, the Bassa-Nge, the Bassa-Komo and the Ebira of Mozum, cross the Benue, and Attah Amaga lets them stay. Mainland Igala is never conquered, and no emir is ever set over it. The south and east are untouched: the rulers of the northern Igbo states from Nsukka to Ette are still crowned at Idah, Ogurugu and the Anambra river towns still answer to the Attah, and the western Idoma still look to Idah; as late as the 1910s Ahebi Ugbabe of Enugu-Ezike went to the Attah to be made king. British rule comes in 1900.",
+			"capital": { "name": "Idah", "point": [6.74, 7.11] },
+			"core": {
+				"lgas": ["kogi-idah", "kogi-igalamela-odolu", "kogi-ibaji", "kogi-ofu", "kogi-dekina", "kogi-omala", "kogi-olamaboro", "kogi-ankpa", "anambra-anambra-west"]
+			},
+			"influence": {
+				"lgas": [
+					"kogi-bassa", "enugu-nsukka", "enugu-igbo-eze-north", "enugu-igbo-eze-south", "enugu-udenu", "enugu-igbo-etiti", "enugu-uzo-uwani", "enugu-isi-uzo",
+					"anambra-ayamelum", "anambra-anambra-east", "delta-oshimili-north", "delta-oshimili-south", "benue-ado", "edo-etsako-east", "benue-ogbadibo",
+					"benue-okpokwu", "benue-ohimini", "benue-oturkpo", "benue-apa", "benue-agatu"
+				],
+				"confidence": "disputed"
+			},
+			"links": [
+				{ "kind": "tribute", "to": { "name": "Enugu-Ezike", "point": [7.4306, 6.9543] }, "label": "Enugu-Ezike: its Eze crowned at Idah", "sources": ["igala-colonisation-northern-igbo"] },
+				{ "kind": "tribute", "to": { "name": "Ette", "point": [7.4691, 7.0775] }, "label": "Ette: ruled by an Igala king, the Onu-Oda, confirmed by the Attah", "sources": ["chukwudi-opone-2024-eteh", "owner-2026-10-07-ette"] },
+				{ "kind": "tribute", "to": { "name": "Ibagwa-Aka", "point": [7.403, 6.9496] }, "label": "Ibagwa: its Igwe takes his staff from the Attah", "sources": ["dailytrust-2017-igala-enugu", "igala-colonisation-northern-igbo"] },
+				{ "kind": "tribute", "to": { "name": "Opi", "point": [7.4443, 6.7563] }, "label": "Opi: its Eze crowned at Idah", "sources": ["igala-colonisation-northern-igbo"] },
+				{ "kind": "tribute", "to": { "name": "Akpugo", "point": [7.2816, 6.7028] }, "label": "Akpugo: its Eze crowned at Idah", "sources": ["igala-colonisation-northern-igbo"], "note": "Located at Akpugo in Uzo-Uwani; other Akpugos exist in Enugu State." },
+				{ "kind": "tribute", "to": { "name": "Nkpologu", "point": [7.2538, 6.7685] }, "label": "Nkpologu: settled from Idah, its rulers staffed by the Attah", "sources": ["dailytrust-2022-igala-enugu", "igala-colonisation-northern-igbo"] },
+				{ "kind": "tribute", "to": { "name": "Ogurugu", "point": [6.9505, 6.7871] }, "label": "Ogurugu: Onoja Oboni’s walled war camp", "sources": ["dailytrust-2022-igala-enugu", "afigbo-1981", "owner-2026-10-10-ogurugu"] },
+				{ "kind": "tribute", "to": { "name": "Okpanam", "point": [6.6484, 6.2396] }, "label": "Okpanam: under Igala sway, founded by a child of Ogbe", "confidence": "disputed", "sources": ["igala-colonisation-northern-igbo", "wikipedia-anaku-town"] },
+				{ "kind": "descent", "to": { "name": "Anam", "point": [6.8332, 6.3336] }, "label": "Anam: the children of Ogbe, son of Ajida of Idah", "confidence": "disputed", "sources": ["wikipedia-anaku-town"], "note": "The Anam speak Igbo today. Placed at Umueze Anam." },
+				{ "kind": "descent", "to": { "name": "Anaku", "point": [6.931, 6.4672] }, "label": "Anaku: a child of Ogbe, son of Ajida of Idah", "confidence": "disputed", "sources": ["wikipedia-anaku-town"] },
+				{ "kind": "descent", "to": { "name": "Nzam", "point": [6.702, 6.472] }, "label": "Nzam: Igala-speaking, descended from Ajida", "confidence": "disputed", "sources": ["wikipedia-anaku-town", "tribune-2021-nzam"] },
+				{ "kind": "tribute", "to": { "name": "Igumale", "point": [7.9641, 6.7784] }, "label": "Igumale: western Idoma under the Attah", "sources": ["lasttribes-igala"], "confidence": "disputed" },
+				{ "kind": "descent", "to": { "name": "Asaba", "point": [6.7193, 6.2056] }, "label": "Asaba: Igala descent in one founding tradition", "confidence": "disputed", "sources": ["owner-2026-10-07-igala-history", "igala-colonisation-northern-igbo"], "note": "Asaba's own tradition names Nnebisi, from Nteje, as founder. An Igala tradition makes his father, or his mother (a daughter of Attah Ayegba), Igala." },
+				{ "kind": "descent", "to": { "name": "Illah", "point": [6.649, 6.4246] }, "label": "Illah: Igala one of its three founding lines", "sources": ["wikipedia-illah"], "confidence": "medium" },
+				{ "kind": "descent", "to": { "name": "Ebu", "point": [6.6061, 6.4786] }, "label": "Ebu: an Igala-speaking town west of the Niger", "sources": ["wikipedia-igala-people"], "confidence": "high" },
+				{ "kind": "descent", "to": { "name": "Ilushi (Uloshi)", "point": [6.6292, 6.6697] }, "label": "Ilushi, Edo: an Igala-speaking town", "sources": ["owner-2026-10-06", "wikipedia-anaku-town"], "note": "The Ajida–Ogbe tradition counts Ulossi among Ogbe’s children.", "confidence": "medium" },
+				{ "kind": "descent", "to": { "name": "Ifeku", "point": [6.6037, 6.8314] }, "label": "Ifeku, Edo: an Igala-speaking town", "sources": ["owner-2026-10-06"], "confidence": "medium" },
+				{ "kind": "tribute", "to": { "name": "Otukpa", "point": [7.66, 7.09] }, "label": "Otukpa: western Idoma, tributary to the Attah", "confidence": "disputed", "sources": ["okopi-idoma-timeline", "owner-2026-10-07-doc1"] },
+				{ "kind": "tribute", "to": { "name": "Ugboju", "point": [8.0531, 7.3515] }, "label": "Ugboju: western Idoma, tributary to the Attah", "confidence": "disputed", "sources": ["okopi-idoma-timeline", "owner-2026-10-07-doc1"] },
+				{ "kind": "tribute", "to": { "name": "Onyagede", "point": [8.2065, 6.9325] }, "label": "Onyagede: western Idoma, tributary to the Attah", "confidence": "disputed", "sources": ["okopi-idoma-timeline", "owner-2026-10-07-doc1"], "note": "GRID3 places two Onyagede settlements in Obi LGA; the western one is shown." },
+				{ "kind": "tribute", "to": { "name": "Adoka", "point": [7.9439, 7.4768] }, "label": "Adoka: western Idoma, tributary to the Attah", "confidence": "disputed", "sources": ["okopi-idoma-timeline", "owner-2026-10-07-doc1"] },
+				{ "kind": "tribute", "to": { "name": "Agila", "point": [7.9207, 6.7619] }, "label": "Agila: western Idoma, tributary to the Attah", "confidence": "disputed", "sources": ["okopi-idoma-timeline", "owner-2026-10-07-doc1"] },
+				{ "kind": "tribute", "to": { "name": "Ugbokolo", "point": [7.7969, 7.1613] }, "label": "Ugbokolo: western Idoma, tributary to the Attah", "confidence": "disputed", "sources": ["okopi-idoma-timeline", "owner-2026-10-07-doc1"] },
+				{ "kind": "tribute", "to": { "name": "Okokolo", "point": [8.0888, 7.8682] }, "label": "Okokolo: western Idoma, tributary to the Attah", "confidence": "disputed", "sources": ["okopi-idoma-timeline", "owner-2026-10-07-doc1"] },
+				{ "kind": "tribute", "to": { "name": "Aila", "point": [8.0047, 7.872] }, "label": "Aila: western Idoma, tributary to the Attah", "confidence": "disputed", "sources": ["okopi-idoma-timeline", "owner-2026-10-07-doc1"], "note": "Placed at Olege Aila in Agatu." },
+				{ "kind": "tribute", "to": { "name": "Igah (Okpaya)", "point": [7.8834, 7.5359] }, "label": "Igah (Okpaya): western Idoma, tributary to the Attah", "confidence": "disputed", "sources": ["okopi-idoma-timeline", "owner-2026-10-07-doc1"] },
+				{ "kind": "tribute", "to": { "name": "Nsugbe", "point": [6.805, 6.2185] }, "label": "Nsugbe: Anambra river towns under Igala sway", "confidence": "disputed", "sources": ["owner-2026-10-07-doc1"] },
+				{
+					"kind": "war",
+					"to": { "name": "Igu (Koton Karfe)", "point": [6.7981, 8.0891] },
+					"label": "Koton Karfe: never conquered, holding out on its own",
+					"confidence": "medium",
+					"sources": ["wikipedia-ebira-people", "owner-2026-10-11-koto"]
+				}
+			],
+			"sources": ["james-2017-igala", "ntl-igala-part3", "abbah-2018-igala-fulani", "crowther-1872", "wikipedia-lokoja", "wikipedia-ebira-people", "owner-2026-10-11-north", "wikipedia-ahebi-ugbabe", "igala-colonisation-northern-igbo"],
+			"confidence": "medium",
+			"note": "When exactly each northern town stopped paying tribute is not recorded; the loss is placed after Masaba’s raid of 1853, as the owner directs (2026-10-11). Lokoja is left unshaded, as a multi-ethnic town between the powers (see the Lokoja town).",
 			"nodes": [{ "name": "Ife (seat of the Onu Ife), Omala", "point": [7.523, 7.81] }]
 		}
 	],
@@ -412,6 +916,10 @@
 		"The Igala-Ogba come from the owner’s account (2026-10-07 and 2026-10-10); no written source found yet. A name, spelling or reference would let them be cited.",
 		"The early Attahs at Idah and Ife before 1515 follow the owner (2026-10-10). Written support so far: the Omala article (an early Ife kingdom; the Ojogba “almost became the Attah”) and Igala elders quoted by Daily Trust (an Attah Eri at Idah, 9th–10th century). Boston (1968) traced no kingship that early. A written Igala king list naming the early Attahs of Ife would let this be firmed up.",
 		"The Igala–Benin war is told as the owner asked (2026-10-10): the Igala forces were driven back to Idah, not defeated. Benin’s and Wikipedia’s reading, a Benin victory, is kept beside it.",
+		"Umaisha, Toto and Abaji follow the owner (2026-10-11) and Abbah (2020), who cites the Chronicle of Abuja (Hassan and Na’ibi, 1952) without quoting it. Reading the Chronicle would show whether it means tribute or looser influence. They are drawn as links only, not as shaded land.",
+		"The c. 1820 snapshot repeats the height on the owner’s direction (2026-10-11) that the northern reach held until the jihad-era raids. Allen (1841) supports it: Panda, Koton Karfe and the Kakanda still paid the Attah tribute in 1841.",
+		"The Ajida–Ogbe tradition (Anam, Anaku, Nzam, Ilushi, Okpanam) comes from community histories on Wikipedia; Oguagha and Okpoko (1984) on Igbo–Igala relations in the Anambra valley is the scholarly source to check. The 1700 placement follows its Apa (Jukun) wars setting.",
+		"Clifford (1936), as quoted online, lists Igbirra Panda, Igbirra Igu (Koton Karifi) and Ishabe (Kakanda) as the Attah’s external fiefs; the quote could not be checked at its source, so Clifford is not cited for it yet.",
 		"Chapter one follows the owner (2026-10-10): the Igala at Uhe (Ife) by about 600 BCE. A written source for the date, or for Uhe as the Igala name of Ife, would let it be firmed up."
 	]
 }

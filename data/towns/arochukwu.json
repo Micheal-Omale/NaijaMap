@@ -16,9 +16,11 @@
 		"confidence": "medium"
 	},
 	"summary": {
-		"text": "Arochukwu grew out of a war and an alliance. Proto-Ibibio settlers had founded the Ibom kingdom there; the Igbo Eze Agwu group came from Abiriba, called in the priest Nnachi from Edda, and joined Prince Akakpokpo Okon of Ibom, the son of an Eze Agwu woman. Nnachi brought the Akpa from east of the Cross River, whose guns won the war, and the three peoples together became the Aro.",
+		"text": "Arochukwu grew out of a war and an alliance. Proto-Ibibio settlers had founded the Ibom kingdom there; the Igbo Eze Agwu group came from Abiriba, called in the priest Nnachi from Edda, and joined Prince Akakpokpo Okon of Ibom, the son of an Eze Agwu woman. Nnachi brought the Akpa from east of the Cross River, whose guns won the war, and the three peoples together became the Aro. Their descendants live as three kindreds across nineteen villages: Oke Nnachi, whose line holds the throne of the Eze Aro; Ibom Isii; and Eze Agwu na Okwara Agwu. The Eze Aro rules with the Okpankpo Aro, the traditional council, which also sets the date of Ikeji, the harvest festival held each September over about seventeen days, with wrestling at Ibom and Ekpo masquerades at Obinkita. Beside the town lay the oracle of Ibini Ukpabi.",
 		"sources": [
-			"wikipedia-arochukwu"
+			"wikipedia-arochukwu",
+			"aronews-kindreds",
+			"aronews-ikeji"
 		],
 		"confidence": "medium"
 	},
@@ -26,14 +28,25 @@
 		{
 			"people": "Ibibio",
 			"group": "ibibio",
-			"text": "The Ibom kingdom, founded by proto-Ibibio settlers.",
+			"text": "The Ibom kingdom, founded by proto-Ibibio settlers. Their line lives on as the Ibom Isii kindred.",
 			"sources": [
-				"wikipedia-arochukwu"
+				"wikipedia-arochukwu",
+				"aronews-kindreds"
 			],
-			"confidence": "medium"
+			"confidence": "medium",
+			"quarters": [
+				"Ibom Isii kindred: Agbagwu",
+				"Amasu",
+				"Amukwa",
+				"Atani",
+				"Ibom Etiti",
+				"Oror",
+				"Ugwuakuma",
+				"Ujari"
+			]
 		},
 		{
-			"people": "Igbo",
+			"people": "Igbo (Abiriba)",
 			"group": "igbo",
 			"from": {
 				"name": "Abiriba",
@@ -43,12 +56,45 @@
 				]
 			},
 			"quarters": [
-				"Eze Agwu",
-				"Nnachi’s line"
+				"Eze Agwu na Okwara Agwu kindred: Amannagwu",
+				"Amoba",
+				"Atani",
+				"Obinkita",
+				"Ugbo",
+				"Ugwuavor"
 			],
-			"text": "The Eze Agwu group from Abiriba, and the priest Nnachi from Edda, whose descendants hold the throne.",
+			"text": "The Eze Agwu group from Abiriba, who began the war with the Ibibio of Ibom; their line is the Eze Agwu na Okwara Agwu kindred.",
 			"sources": [
-				"wikipedia-arochukwu"
+				"wikipedia-arochukwu",
+				"aronews-kindreds"
+			],
+			"confidence": "medium"
+		},
+		{
+			"people": "Igbo (Edda)",
+			"group": "igbo",
+			"from": {
+				"name": "Edda",
+				"point": [
+					7.73,
+					5.82
+				]
+			},
+			"quarters": [
+				"Oke Nnachi kindred: Amankwu",
+				"Amangwu",
+				"Asaga",
+				"Atani",
+				"Amuvi",
+				"Isimkpu",
+				"Obinkita",
+				"Oror",
+				"Utughugwu"
+			],
+			"text": "The priest Nnachi, from Edda, who brought in the Akpa. His descendants, the Oke Nnachi, hold the throne of the Eze Aro to this day.",
+			"sources": [
+				"wikipedia-arochukwu",
+				"aronews-kindreds"
 			],
 			"confidence": "medium"
 		},
@@ -62,5 +108,7 @@
 		}
 	],
 	"under": [],
-	"reviewNotes": []
+	"reviewNotes": [
+		"The kindreds and their villages follow Aro News Online (2018), after J. K. Oji’s The Kingdom of Arochukwu. Atani, Obinkita and Oror each have quarters in more than one kindred. Edda is placed approximately."
+	]
 }

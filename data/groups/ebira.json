@@ -82,14 +82,15 @@
 		},
 		{
 			"lga": "kogi-ajaokuta",
-			"presence": "significant",
+			"presence": "core",
 			"sources": [
 				"wikipedia-ebira-people",
 				"facts-ng-ajaokuta",
-				"omachonu-dalhatu-2018"
+				"omachonu-dalhatu-2018",
+				"owner-2026-10-11-ajaokuta"
 			],
 			"confidence": "high",
-			"note": "Shared with Igala and Bassa communities. The Eganyi, an Ebira people, live here."
+			"note": "Ebira land: the Ebira Opete and the Eganyi, with Ebira towns from Adogo to Ebiya. Igala live in the riverside communities along the Niger, and there are Bassa communities too."
 		},
 		{
 			"lga": "nasarawa-toto",

@@ -1,37 +1,43 @@
 {
 	"status": "draft",
 	"summary": {
-		"text": "Home of the Ajaokuta steel complex, with its headquarters at Egayin. A mix of Ebira, Igala and Bassa communities, around the industrial sites and along the river.",
+		"text": "Home of the Ajaokuta steel complex, with its headquarters at Egayin. Ebira land, home of the Ebira Opete and the Eganyi; Igala live in the riverside communities along the Niger, and there are Bassa communities too.",
 		"sources": [
-			"facts-ng-ajaokuta"
+			"facts-ng-ajaokuta",
+			"owner-2026-10-11-ajaokuta",
+			"wikipedia-ebira-people"
 		],
 		"confidence": "medium"
 	},
 	"peoples": [
 		{
 			"name": "Ebira",
-			"share": "large",
+			"share": "majority",
 			"languages": [
 				"Ebira"
 			],
 			"sources": [
-				"facts-ng-ajaokuta"
+				"facts-ng-ajaokuta",
+				"owner-2026-10-11-ajaokuta"
 			],
 			"confidence": "medium",
-			"group": "ebira"
+			"group": "ebira",
+			"standing": "indigenous"
 		},
 		{
 			"name": "Igala",
 			"group": "igala",
-			"share": "large",
+			"share": "minority",
 			"languages": [
 				"Igala"
 			],
 			"sources": [
 				"facts-ng-ajaokuta",
-				"wikipedia-igala-people"
+				"wikipedia-igala-people",
+				"owner-2026-10-11-ajaokuta"
 			],
-			"confidence": "medium"
+			"confidence": "medium",
+			"note": "In the riverside communities along the Niger."
 		},
 		{
 			"name": "Bassa",

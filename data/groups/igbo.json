@@ -82,6 +82,63 @@
 			}
 		},
 		{
+			"name": "Anam",
+			"lga": "anambra-anambra-west",
+			"point": [
+				6.8332,
+				6.3336
+			],
+			"villages": [
+				{
+					"name": "Umueze Anam",
+					"point": [
+						6.8332,
+						6.3336
+					]
+				},
+				{
+					"name": "Umuem Anam",
+					"point": [
+						6.7439,
+						6.3704
+					]
+				},
+				{
+					"name": "Umuenwelum Anam",
+					"point": [
+						6.7256,
+						6.3889
+					]
+				},
+				{
+					"name": "Ezi Anam",
+					"point": [
+						6.775,
+						6.2119
+					]
+				},
+				{
+					"name": "Umuoba Anam"
+				},
+				{
+					"name": "Mmiata Anam"
+				}
+			],
+			"sources": [
+				"amali-2023",
+				"wikipedia-anaku-town"
+			],
+			"confidence": "high",
+			"note": "An Igbo-speaking clan on the Omambala (Anambra) river, beside the Igala-speaking Nzam and Olumbanasa. Village points from GRID3.",
+			"history": {
+				"text": "In the Omambala tradition the Anam descend from Ogbe, son of Ajida, a warrior of Idah. Ogbe’s family lived near Ankpa and fled down the Niger through the Ibaji forest when the Apa (Jukun) invaded Igala land; his children Nzam, Anam, Anaku, Ulossi (Ilushi) and Okpanam settled along the way, and the clan is called Anam Ogbe. Over the centuries the Anam took up Igbo, the language they speak today.",
+				"sources": [
+					"wikipedia-anaku-town"
+				],
+				"confidence": "disputed"
+			}
+		},
+		{
 			"name": "Awka",
 			"lga": "anambra-awka-south",
 			"point": [
@@ -438,9 +495,137 @@
 				7.9085,
 				5.3889
 			],
-			"villages": [],
+			"villages": [
+				{
+					"name": "Amannagwu",
+					"point": [
+						7.9011,
+						5.3801
+					]
+				},
+				{
+					"name": "Ugwuakuma",
+					"point": [
+						7.9122,
+						5.4135
+					]
+				},
+				{
+					"name": "Atani",
+					"point": [
+						7.8802,
+						5.39
+					]
+				},
+				{
+					"name": "Isimkpu",
+					"point": [
+						7.8851,
+						5.3918
+					]
+				},
+				{
+					"name": "Agbagwu",
+					"point": [
+						7.9138,
+						5.3964
+					]
+				},
+				{
+					"name": "Asaga",
+					"point": [
+						7.8846,
+						5.3963
+					]
+				},
+				{
+					"name": "Amuvi",
+					"point": [
+						7.8736,
+						5.4133
+					]
+				},
+				{
+					"name": "Oror",
+					"point": [
+						7.891,
+						5.3864
+					]
+				},
+				{
+					"name": "Ujari",
+					"point": [
+						7.8983,
+						5.3786
+					]
+				},
+				{
+					"name": "Amankwu",
+					"point": [
+						7.8871,
+						5.3866
+					]
+				},
+				{
+					"name": "Ugwuavor",
+					"point": [
+						7.8887,
+						5.3918
+					]
+				},
+				{
+					"name": "Amangwu",
+					"point": [
+						7.8859,
+						5.3942
+					]
+				},
+				{
+					"name": "Obinkita",
+					"point": [
+						7.8999,
+						5.3901
+					]
+				},
+				{
+					"name": "Amoba",
+					"point": [
+						7.8883,
+						5.3871
+					]
+				},
+				{
+					"name": "Ibom",
+					"point": [
+						7.8957,
+						5.3831
+					]
+				},
+				{
+					"name": "Amasu",
+					"point": [
+						7.8976,
+						5.3757
+					]
+				},
+				{
+					"name": "Utughugwu",
+					"point": [
+						7.9037,
+						5.3986
+					]
+				},
+				{
+					"name": "Ugbo"
+				},
+				{
+					"name": "Amukwa"
+				}
+			],
 			"sources": [
-				"wikipedia-arochukwu"
+				"wikipedia-arochukwu",
+				"aronews-kindreds",
+				"grid3-settlement-names"
 			],
 			"confidence": "high",
 			"history": {
@@ -449,7 +634,8 @@
 					"wikipedia-arochukwu"
 				],
 				"confidence": "medium"
-			}
+			},
+			"note": "The nineteen villages of Arochukwu (Aro News Online, 2018); points from GRID3. Ugbo and Amukwa could not be located."
 		},
 		{
 			"name": "Afikpo (Ehugbo)",
@@ -592,7 +778,8 @@
 	],
 	"reviewNotes": [
 		"Delta (Anioma, Ika, Ukwuani) and Rivers (Etche, Ogba) Igboid peoples now have their own profiles; their Igbo identity is debated (see each profile).",
-		"Enugu’s Uzo-Uwani, Igbo-Eze North and Anambra West have Igala and Idoma speaking communities."
+		"Enugu’s Uzo-Uwani, Igbo-Eze North and Anambra West have Igala and Idoma speaking communities.",
+		"Anam (Anambra West): online Anam accounts say a retiring masquerade is said to have “gone back to Idah” (Mmanwụ anavago Idah). It is a good sign of the Igala origin, but the only source found is social media; a written or recorded source would let it go into Anam’s history."
 	],
 	"name": "Igbo",
 	"searchAliases": [

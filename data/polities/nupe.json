@@ -276,13 +276,6 @@
 					"kwara-moro"
 				]
 			},
-			"influence": {
-				"lgas": [
-					"kogi-lokoja",
-					"kogi-kogi"
-				],
-				"confidence": "medium"
-			},
 			"links": [
 				{
 					"kind": "war",
@@ -460,13 +453,6 @@
 					]
 				},
 				{
-					"name": "Eggan (old line)",
-					"point": [
-						6.246,
-						8.562
-					]
-				},
-				{
 					"name": "Agaie (emirate, 1832)",
 					"point": [
 						6.32,
@@ -554,7 +540,7 @@
 			"year": 1857,
 			"yearLabel": "1857–1873",
 			"title": "Bida and Masaba's empire",
-			"text": "Dendo’s heirs unite against the usurper: Umaru Majigi, with the old-line Etsu Ma’azu Isa and the Bini towns, and Usman Zaki with a Gwandu army, hunt Umaru Bahaushe to the Bini war-camp of Bida, and he drowns crossing the Gbako river in 1857. Bida becomes the capital. Under Masaba (1859–1873) it becomes the great military power of the middle Niger, the largest and richest of the five Nupe emirates, which send their own tribute to Gwandu through it. Its armies raid across the Niger for slaves and tribute into the Okun Yoruba country, Ebira, Akoko and Afenmai, and Bida makes the Obaro of Kabba paramount over the north-east Yoruba, to collect for it under a royal delegate at Lokoja.",
+			"text": "Dendo’s heirs unite against the usurper: Umaru Majigi, with the old-line Etsu Ma’azu Isa and the Bini towns, and Usman Zaki with a Gwandu army, hunt Umaru Bahaushe to the Bini war-camp of Bida, and he drowns crossing the Gbako river in 1857. Bida becomes the capital. Under Masaba (1859–1873) it becomes the great military power of the middle Niger, the largest and richest of the five Nupe emirates, which send their own tribute to Gwandu through it. Its armies raid across the Niger for slaves and tribute into the Okun Yoruba country, Ebira, Akoko and Afenmai, and Bida makes the Obaro of Kabba paramount over the north-east Yoruba, to collect for it under a royal delegate who sat at Lokoja, a town of many peoples that Bida never ruled.",
 			"capital": {
 				"name": "Bida",
 				"point": [
@@ -584,8 +570,6 @@
 					"kogi-mopa-muro",
 					"kogi-kabba-bunu",
 					"kogi-ijumu",
-					"kogi-lokoja",
-					"kogi-kogi",
 					"kogi-okene",
 					"kogi-adavi",
 					"kogi-okehi",
@@ -648,22 +632,6 @@
 					"confidence": "medium"
 				},
 				{
-					"kind": "war",
-					"to": {
-						"name": "Lokoja",
-						"point": [
-							6.74,
-							7.8
-						]
-					},
-					"label": "Lokoja and Oworo taken; Bida’s delegate sits at Lokoja",
-					"sources": [
-						"idrees-1989-bida",
-						"james-2017-igala"
-					],
-					"confidence": "medium"
-				},
-				{
 					"kind": "tribute",
 					"to": {
 						"name": "Gwandu",
@@ -683,9 +651,11 @@
 				"sidi-2023-nupe",
 				"idrees-1989-bida",
 				"wikipedia-bida-emirate",
-				"mason-1981"
+				"mason-1981",
+				"suleiman-2023-nupe-ilorin"
 			],
-			"confidence": "medium"
+			"confidence": "medium",
+			"nodes": []
 		},
 		{
 			"year": 1868,
@@ -721,8 +691,6 @@
 					"kogi-mopa-muro",
 					"kogi-kabba-bunu",
 					"kogi-ijumu",
-					"kogi-lokoja",
-					"kogi-kogi",
 					"kogi-okene",
 					"kogi-adavi",
 					"kogi-okehi",
@@ -739,7 +707,8 @@
 			"sources": [
 				"idrees-1989-bida",
 				"rulers-org-nigeria-traditional",
-				"nadel-1942"
+				"nadel-1942",
+				"suleiman-2023-nupe-ilorin"
 			],
 			"confidence": "medium",
 			"links": [
@@ -757,23 +726,9 @@
 						"idrees-1989-bida"
 					],
 					"confidence": "high"
-				},
-				{
-					"kind": "war",
-					"to": {
-						"name": "Lokoja (Kyadya exiles)",
-						"point": [
-							6.74,
-							7.8
-						]
-					},
-					"label": "Kyadya rising and the Ganigan war (1881–82)",
-					"sources": [
-						"idrees-1989-bida"
-					],
-					"confidence": "high"
 				}
-			]
+			],
+			"nodes": []
 		},
 		{
 			"year": 1894,
@@ -804,8 +759,6 @@
 			"influence": {
 				"lgas": [
 					"kogi-kabba-bunu",
-					"kogi-lokoja",
-					"kogi-kogi",
 					"edo-etsako-west",
 					"edo-etsako-central",
 					"edo-akoko-edo"
@@ -848,9 +801,11 @@
 			"sources": [
 				"idrees-1989-bida",
 				"apata-2003-ogidi",
-				"oriire-2025-esan-nupe"
+				"oriire-2025-esan-nupe",
+				"suleiman-2023-nupe-ilorin"
 			],
-			"confidence": "medium"
+			"confidence": "medium",
+			"nodes": []
 		},
 		{
 			"year": 1897,
@@ -915,6 +870,7 @@
 	"reviewNotes": [
 		"Gbara is placed at GRID3's Gbara Village in Lavun (Manbe Tafyan ward); another Gbara lies in Katcha. Which is the old capital should be checked.",
 		"Raba is placed at GRID3's Rabba Ndeshi (Jebba ward, Mokwa).",
-		"The Esan–Nupe war rests on one popular article (Oriire 2025), which cites fieldwork interviews; it is marked disputed."
+		"The Esan–Nupe war rests on one popular article (Oriire 2025), which cites fieldwork interviews; it is marked disputed.",
+		"Lokoja is never drawn as conquered, raided or ruled, on the owner’s direction (2026-10-11): no source records it being sacked or plundered, Masaba himself sent Baikie there, and European settlement, consulate, mission and company ran on there from 1859 to 1900. Suleiman (2023) says Nupe conquered Kakanda and Oworoland; those districts of today’s Lokoja LGA are not marked separately."
 	]
 }

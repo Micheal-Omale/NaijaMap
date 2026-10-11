@@ -1,0 +1,93 @@
+{
+	"name": "Lokoja",
+	"status": "draft",
+	"kind": "city-state",
+	"otherNames": ["Lokoja settlement", "Mount Patti"],
+	"shortName": "Lokoja",
+	"span": {
+		"from": 1841,
+		"to": 1900,
+		"fromLabel": "1841, the Attah’s grant",
+		"toLabel": "1900",
+		"sources": ["allen-thomson-1848", "trotter-1843-report", "dike-1957"],
+		"confidence": "medium",
+		"note": "Lokoja stands on its own on the map from the Attah’s grant of 1841, when it left his direct rule, until it became the capital of Northern Nigeria."
+	},
+	"peak": 1869,
+	"summary": {
+		"text": "Lokoja, where the Niger meets the Benue, was never one people’s town and was never sacked or plundered. Nupe, Kupa, Kakanda and Oworo lived on and around Mount Patti; the Attah granted the land to the British in 1841; and as the jihad came down the Niger, Bassa-Nge and other refugees settled at the foot of the hill. Masaba of Nupe himself sent Baikie there in 1859, and his settlement grew into a town of freed slaves, Sierra Leone and Lagos emigrants and traders from every side, under its own Hausa rulers, the Maigari. “Lokoja,” Dike writes, “belonged to no particular tribe and was the meeting place of adventurers from all quarters.” When the British consul left in 1869 the townspeople chose their own manager and asked Masaba for protection, without becoming his. From 1886 it was the Royal Niger Company’s headquarters, and in 1900 the first capital of Northern Nigeria.",
+		"sources": ["dike-1957", "crowther-1872", "wikipedia-lokoja", "allen-thomson-1848", "bassange-community-history", "owner-2026-10-11-north"],
+		"confidence": "medium"
+	},
+	"ruler": {
+		"title": "Maigari of Lokoja, beside the British consul (to 1869), then a manager chosen by the townspeople",
+		"sources": ["wikipedia-lokoja", "crowther-1872"],
+		"confidence": "medium"
+	},
+	"peoples": [],
+	"snapshots": [
+		{
+			"year": 1841,
+			"title": "Land at the confluence",
+			"text": "The Attah grants the land around Adda Kuddu and Mount Patti to the British for a model farm and a fort. The farm is set up at Stirling Hill and soon abandoned. On and around Patti live Nupe, Kupa, Kakanda and Oworo; Igala fishermen work the river; and refugees from the raids up the Niger begin to arrive.",
+			"capital": { "name": "Stirling Hill (Lokoja)", "point": [6.74, 7.8] },
+			"core": { "lgas": ["kogi-lokoja"] },
+			"nodes": [{ "name": "Mount Patti", "point": [6.735, 7.81] }],
+			"sources": ["allen-thomson-1848", "trotter-1843-report", "wikipedia-lokoja", "owner-2026-10-06-lokoja-fishermen"],
+			"confidence": "medium",
+			"note": "Drawn over all of today’s Lokoja LGA, as the owner directs (2026-10-11); the town itself was only the hills and plain around Patti."
+		},
+		{
+			"year": 1857,
+			"yearLabel": "1857–1859",
+			"title": "Baikie’s town",
+			"text": "Baikie, who came in 1854 and again in 1857, is sent to Lokoja by Masaba of Nupe, “where he said the British could stay”. He settles emigrants from Sierra Leone and Lagos and slaves he has redeemed, and persuades the hill people and their Maigari, Muhammadu Maikarfi, to come down to the plain. Bassa-Nge refugees live at the foot of Patti. A British consul sits here.",
+			"capital": { "name": "Lokoja", "point": [6.74, 7.8] },
+			"core": { "lgas": ["kogi-lokoja"] },
+			"nodes": [{ "name": "Mount Patti", "point": [6.735, 7.81] }],
+			"sources": ["dike-1957", "wikipedia-lokoja", "bassange-community-history"],
+			"confidence": "medium"
+		},
+		{
+			"year": 1869,
+			"title": "A town of its own",
+			"text": "Britain withdraws its consul, and the townspeople, “cast upon their own resources”, elect a manager of the settlement. They ask Masaba, “whose dominions surround Lokoja”, to protect them and to recognise their manager; he sends a sub-manager to report on any wrongs by his war men. Lokoja stays the meeting place of many peoples, never Bida’s town: Kyadya exiles from Bida’s own wars find refuge here in the 1880s.",
+			"capital": { "name": "Lokoja", "point": [6.74, 7.8] },
+			"core": { "lgas": ["kogi-lokoja"] },
+			"nodes": [{ "name": "Mount Patti", "point": [6.735, 7.81] }],
+			"sources": ["crowther-1872", "dike-1957", "idrees-1989-bida"],
+			"confidence": "medium"
+		},
+		{
+			"year": 1886,
+			"title": "The Company’s headquarters",
+			"text": "The Royal Niger Company makes Lokoja its military headquarters. In January 1897 its troops march from here against Bida.",
+			"capital": { "name": "Lokoja", "point": [6.74, 7.8] },
+			"core": { "lgas": ["kogi-lokoja"] },
+			"nodes": [{ "name": "Mount Patti", "point": [6.735, 7.81] }],
+			"sources": ["wikipedia-lokoja", "idrees-1989-bida"],
+			"confidence": "medium"
+		},
+		{
+			"year": 1900,
+			"title": "Capital of Northern Nigeria",
+			"text": "On 1 January 1900 the Company’s lands pass to the Crown, and Lokoja becomes the first capital of the Protectorate of Northern Nigeria.",
+			"capital": { "name": "Lokoja", "point": [6.74, 7.8] },
+			"core": { "lgas": ["kogi-lokoja"] },
+			"sources": ["wikipedia-lokoja"],
+			"confidence": "high"
+		}
+	],
+	"today": {
+		"text": "Lokoja is the capital of Kogi State and still a town of many peoples. Its traditional ruler is the Maigari of Lokoja.",
+		"title": "Maigari of Lokoja",
+		"seat": { "name": "Lokoja", "point": [6.74, 7.8] },
+		"sources": ["wikipedia-lokoja"],
+		"confidence": "medium"
+	},
+	"reviewNotes": [
+		"Lokoja is drawn as its own town, neither Igala nor Nupe, on the owner’s direction (2026-10-11): never sacked or plundered, and the meeting place of many peoples (Dike 1957). Suleiman (2023) says Nupe conquered the Kakanda and Oworo districts of today’s Lokoja LGA; they are not drawn separately.",
+		"Dike (1957) says the consulate was “harassed by native attacks” before it closed in 1869; this is not shown as a sack.",
+		"Dates for Baikie’s settlement vary: 1857 (Wikipedia), 1859 (Dike), 1860 (Britannica)."
+	]
+}

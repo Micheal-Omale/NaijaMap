@@ -1,0 +1,155 @@
+{
+	"name": "The British end Nri’s power",
+	"status": "draft",
+	"kind": "colonial",
+	"year": 1907,
+	"yearLabel": "1907–1911",
+	"until": 1936,
+	"actors": [
+		{
+			"name": "British colonial administration",
+			"side": "colonial"
+		},
+		{
+			"name": "Christian missions",
+			"side": "european"
+		},
+		{
+			"name": "Eze Nri Òbalíke",
+			"polity": "nri",
+			"side": "defender"
+		}
+	],
+	"summary": {
+		"text": "Nri had no army; its power was ritual. Its agents cleansed abominations, crowned titled men and could isolate a town by ritual siege, and towns across Igboland were bound to Nri by codes of taboo. When the British took over the administration of the Igbo in 1907, officials and Christian missionaries saw this ritual system as a barrier to colonial rule and to the gospel, and set out to break it. They forced the Eze Nri, Òbalíke, against an ancient prohibition, to leave Nri and appear at the native court at Awka, threatening mass killing of Igbo people if he refused; he went to save innocent lives. He was made to annul the codes of taboo and abomination that still bound the towns to Nri. In 1911, with the warrant chief system, the British forced the chiefs and town leaders to denounce the Eze Nri, and he renounced the ritual power of the ìkénga. That ended Nri as a political power. Its ritual influence shrank to the nearest relations of the kingship; the title went on as a traditional throne.",
+		"sources": [
+			"wikipedia-obalike",
+			"wikipedia-kingdom-of-nri",
+			"onwuejeogwu-1981"
+		],
+		"confidence": "medium"
+	},
+	"routes": [
+		{
+			"kind": "exile",
+			"by": "Eze Nri Òbalíke",
+			"path": [
+				[
+					6.98,
+					6.15
+				],
+				[
+					7.0678,
+					6.2069
+				]
+			],
+			"label": "Òbalíke forced out of Nri to the native court at Awka",
+			"when": "c. 1910",
+			"sources": [
+				"wikipedia-obalike"
+			],
+			"confidence": "medium"
+		}
+	],
+	"moments": [
+		{
+			"when": "1907",
+			"title": "The British take over",
+			"text": "The British extend their administration over the Igbo. Officials and missionaries see Nri’s ritual rule, and its sanctions over towns far from Nri, as the obstacle to their own.",
+			"at": {
+				"name": "Agukwu Nri",
+				"point": [
+					6.98,
+					6.15
+				]
+			},
+			"mark": "garrison",
+			"sources": [
+				"wikipedia-obalike"
+			],
+			"confidence": "medium"
+		},
+		{
+			"when": "c. 1910",
+			"title": "The Eze Nri at Awka",
+			"text": "Under threat of mass killing, Òbalíke breaks the ancient rule that kept the Eze Nri at Nri and goes to the native court at Awka. The government anthropologist Northcote Thomas records that when he appeared, the whole assembly rose and prepared to flee: no one there had seen an Eze Nri in person.",
+			"at": {
+				"name": "Awka",
+				"point": [
+					7.0678,
+					6.2069
+				]
+			},
+			"mark": "captured",
+			"sources": [
+				"wikipedia-obalike"
+			],
+			"confidence": "medium"
+		},
+		{
+			"when": "Before 1911",
+			"title": "The taboo codes annulled",
+			"text": "Òbalíke is made to annul all the codes of taboo and abomination that still bind the towns to Nri: the ritual threads that held Nri’s reach together.",
+			"at": {
+				"name": "Agukwu Nri",
+				"point": [
+					6.98,
+					6.15
+				]
+			},
+			"mark": "treaty",
+			"sources": [
+				"wikipedia-obalike"
+			],
+			"confidence": "medium"
+		},
+		{
+			"when": "1911",
+			"title": "Denounced under the warrant chiefs",
+			"text": "The British bring in warrant chiefs and force the chiefs and leaders of the towns to denounce the Eze Nri. He renounces the ritual power of the ìkénga, and Nri ends as a political power.",
+			"at": {
+				"name": "Agukwu Nri",
+				"point": [
+					6.98,
+					6.15
+				]
+			},
+			"mark": "treaty",
+			"sources": [
+				"wikipedia-obalike",
+				"wikipedia-kingdom-of-nri"
+			],
+			"confidence": "medium"
+		},
+		{
+			"when": "1911–1936",
+			"title": "A throne, not a power",
+			"text": "Nri’s ritual influence shrinks to the nearest relations of the kingship. Òbalíke reigns on until 1936; Jiọfọ II follows from 1937. The Odinani Museum opens at Nri in 1972, and a cultural revival begins in 1974.",
+			"at": {
+				"name": "Agukwu Nri",
+				"point": [
+					6.98,
+					6.15
+				]
+			},
+			"mark": "shrine",
+			"sources": [
+				"wikipedia-obalike",
+				"wikipedia-kingdom-of-nri",
+				"onwuejeogwu-1981"
+			],
+			"confidence": "medium"
+		}
+	],
+	"sources": [
+		"wikipedia-obalike",
+		"wikipedia-kingdom-of-nri",
+		"onwuejeogwu-1981"
+	],
+	"confidence": "medium",
+	"reviewNotes": [
+		"The Kingdom of Nri article speaks of a 1911 expedition by colonial troops that forced the Eze Nri to renounce the ìkénga; the Òbalíke article tells it as pressure from 1907 to 1911 (the forced appearance at Awka, the annulled taboo codes, the denunciation under the warrant chiefs). Both are told; no expedition route is drawn.",
+		"The threat of genocide and Northcote Thomas’s account come from the Òbalíke article; Thomas’s own Anthropological Report on the Ibo-speaking Peoples (1913–14) should be checked for the court scene.",
+		"Sources number Òbalíke the 14th or 15th Eze Nri."
+	]
+}

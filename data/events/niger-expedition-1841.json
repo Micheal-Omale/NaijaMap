@@ -11,8 +11,8 @@
 		{ "name": "The Attah Igala", "polity": "igala", "side": "trader" }
 	],
 	"summary": {
-		"text": "In 1841 three iron steamers built by Macgregor Laird, the Albert, the Wilberforce and the Soudan, under Captain Henry Dundas Trotter, steamed up the Niger. They signed treaties against the slave trade with Obi Ossai at Aboh and at Idah, and at the confluence of the Niger and the Benue the Attah granted land at Lokoja for a model farm and a mission. Fever then struck: of about 150 Europeans, 42 died quickly, though none of the Africans on board died of illness. The ships fell back to Fernando Po, and the expedition returned to England in 1842.",
-		"sources": ["wikipedia-niger-expedition-1841", "kogireports-2020-deed"],
+		"text": "In 1841 three iron steamers built by Macgregor Laird, the Albert, the Wilberforce and the Soudan, under Captain Henry Dundas Trotter, steamed up the Niger. They signed treaties against the slave trade with Obi Ossai at Aboh and at Idah, and at the confluence of the Niger and the Benue the Attah granted land at Lokoja for a model farm and a mission. At Idah the Attah told the commissioners that the Filatahs troubled his country and had driven his people from Adda Kuddu; the land he gave lay around that ruined town, and a British settlement there promised an ally on his northern frontier. Fever then struck: of about 150 Europeans, 42 died quickly, though none of the Africans on board died of illness. The ships fell back to Fernando Po, and the expedition returned to England in 1842.",
+		"sources": ["wikipedia-niger-expedition-1841", "kogireports-2020-deed", "allen-thomson-1848"],
 		"confidence": "high"
 	},
 	"routes": [
@@ -50,19 +50,28 @@
 		{
 			"when": "1841",
 			"title": "Treaty at Idah",
-			"text": "At Idah, the seat of the Attah Igala, the expedition signs a second treaty against the slave trade.",
+			"text": "At Idah, the seat of the Attah Igala, the expedition signs a second treaty against the slave trade. In the conference before it, the commissioners ask: “Do the Filatah people trouble the Attàh’s country at Adda Kuddu, and other places?” The Attah answers yes, and yes again when asked whether they have driven his people from Adda Kuddu. Asked for Adda Kuddu and a large tract of land for a farm, he agrees to give it, and to let the British build a fort.",
 			"at": { "name": "Idah", "point": [6.74, 7.11] },
 			"mark": "treaty",
-			"sources": ["wikipedia-niger-expedition-1841"],
+			"sources": ["wikipedia-niger-expedition-1841", "allen-thomson-1848"],
 			"confidence": "high"
 		},
 		{
-			"when": "14 September 1841",
+			"when": "10–11 September 1841",
+			"title": "The ruins of Adda Kuddu",
+			"text": "The ships gather off the ruins of Adda Kuddu, “this once-thriving place”, already overgrown, its large dye pits still in good order. Its people, driven out by the Filatahs in 1838, live across the river on the left bank. The Attah’s governor of the district, the Annajah Amèh Abokko, says they will come back and rebuild if the British settle there.",
+			"at": { "name": "Adda Kuddu (approximate)", "point": [6.735, 7.72] },
+			"mark": "anchor",
+			"sources": ["allen-thomson-1848", "trotter-1843-report"],
+			"confidence": "high"
+		},
+		{
+			"when": "14–16 September 1841",
 			"title": "Land at Lokoja",
-			"text": "By a deed of 14 September, the Attah grants land at the confluence, at Lokoja, for a model farm and a mission. Igala fishermen already live there.",
+			"text": "The Attah grants land “on the right bank of the river near Adda-Kuddu”, with Beaufort Island, for 700,000 cowries. Adda Kuddu’s ground proves too rocky for cotton, so the model farm is set up a few miles upriver at Stirling Hill, at Lokoja. Igala fishermen already live there.",
 			"at": { "name": "Lokoja", "point": [6.74, 7.8] },
 			"mark": "founded",
-			"sources": ["kogireports-2020-deed", "wikipedia-niger-expedition-1841", "owner-2026-10-06-lokoja-fishermen"],
+			"sources": ["kogireports-2020-deed", "wikipedia-niger-expedition-1841", "trotter-1843-report", "allen-thomson-1848", "owner-2026-10-06-lokoja-fishermen"],
 			"confidence": "medium"
 		},
 		{
@@ -74,9 +83,10 @@
 			"confidence": "high"
 		}
 	],
-	"sources": ["wikipedia-niger-expedition-1841", "kogireports-2020-deed"],
+	"sources": ["wikipedia-niger-expedition-1841", "kogireports-2020-deed", "allen-thomson-1848", "trotter-1843-report"],
 	"confidence": "high",
 	"reviewNotes": [
+		"Adda Kuddu is placed on the right bank about ten kilometres below Lokoja; Allen and Trotter give no exact distance. The land bought lay near Adda Kuddu, and the farm moved upriver to Stirling Hill, so the Lokoja grant and Adda Kuddu are one tract.",
 		"How the Lokoja land passed is told differently: Wikipedia says the expedition bought it, Kogi Reports calls the deed a sale for 700,000 cowries, and the owner describes a lease to the British with Igala fishermen already living there. The text says only that the Attah granted the land.",
 		"The river course is drawn through Aboh, Onitsha and Idah from waypoints, not traced on the river."
 	]

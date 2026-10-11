@@ -96,17 +96,19 @@
 			"confidence": "medium"
 		},
 		{
-			"year": 1834,
-			"yearLabel": "1830s",
-			"polity": "sokoto",
+			"year": 1820,
+			"yearLabel": "c. 1810s–1880",
+			"polity": "nupe",
 			"event": "igu-victory",
-			"against": "Fulani forces of the caliphate",
+			"against": "Fulani-led Nupe armies of the jihad",
 			"result": "held",
-			"text": "Igala tradition and one Igala writer tell of a victory at Igu (Koton Karfe) that stopped the jihad’s advance.",
+			"text": "Igala tradition tells of a victory at Igu (Koton Karfe) that stopped the jihad’s advance. With the Ebira and the Koto, the town was raided and burned more than once but never conquered, and in 1841 it still paid tribute to the Attah.",
 			"sources": [
 				"ayegba-2020-summit",
 				"abbah-2018-igala-fulani",
-				"owner-2026-10-07-igu"
+				"allen-thomson-1848",
+				"owner-2026-10-07-igu",
+				"owner-2026-10-11-koto"
 			],
 			"confidence": "disputed"
 		},
@@ -117,8 +119,9 @@
 			"event": "nupe-raids-confluence",
 			"against": "Nupe",
 			"result": "lost",
-			"text": "Nupe raids took the confluence lands from Igala rule in the mid 19th century.",
+			"text": "Nupe raids emptied Adda Kuddu in 1838 and broke the Attah’s hold on the north after 1853; Koton Karfe was raided but never conquered, and the heartland held.",
 			"sources": [
+				"allen-thomson-1848",
 				"james-2017-igala",
 				"lasttribes-igala"
 			],

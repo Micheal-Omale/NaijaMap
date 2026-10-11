@@ -1,0 +1,220 @@
+{
+	"name": "Dekina and Ankpa taken; the base at Ankpa",
+	"status": "draft",
+	"kind": "colonial",
+	"year": 1903,
+	"yearLabel": "1903–1918",
+	"until": 1918,
+	"actors": [
+		{
+			"name": "British forces",
+			"side": "colonial"
+		},
+		{
+			"name": "Igala Kingdom",
+			"polity": "igala",
+			"side": "defender"
+		}
+	],
+	"summary": {
+		"text": "After the shelling of Idah, the British took the northern Igala country by force: Dekina in 1903 and Ankpa in 1906. Ankpa became a British base, and from it patrols went out to subdue northern and central Idoma land. The British set their own men over the conquered districts: Ankpa had three outsiders as district head between 1906 and 1917, Mallam Jibril from Zaria, then the Hausa Sharafu Abu, then Akanya, a Bassa-Nge from Shintaku, before an Igala was restored; and from 1914 to 1918 a soldier of the West African Frontier Force, Ahmodu, was made Onu of Dekina. The Igala resisted these imposed chiefs. The districts were also shared out among separate provinces: Idah with Onitsha in Southern Nigeria, and in the north, by the Attah’s account, Dekina with Nassarawa and Ankpa, the base for the Idoma patrols, with Munshi Province, the Idoma and Tiv country. Not until 1918 were the Igala districts brought back together.",
+		"sources": [
+			"ineke-2025",
+			"idoma-resistance-2023",
+			"abdullahi-2016",
+			"guardian-igala-monarch",
+			"owner-2026-10-11-ankpa"
+		],
+		"confidence": "medium"
+	},
+	"routes": [
+		{
+			"kind": "advance",
+			"by": "British forces",
+			"path": [
+				[
+					6.74,
+					7.8
+				],
+				[
+					6.9,
+					7.75
+				],
+				[
+					7.044,
+					7.689
+				]
+			],
+			"label": "1903: Dekina taken",
+			"sources": [
+				"ineke-2025"
+			],
+			"confidence": "medium"
+		},
+		{
+			"kind": "advance",
+			"by": "British forces",
+			"path": [
+				[
+					7.044,
+					7.689
+				],
+				[
+					7.35,
+					7.5
+				],
+				[
+					7.62,
+					7.37
+				]
+			],
+			"label": "1906: Ankpa taken and made a base",
+			"sources": [
+				"ineke-2025",
+				"idoma-resistance-2023"
+			],
+			"confidence": "medium"
+		},
+		{
+			"kind": "raid",
+			"by": "British forces",
+			"path": [
+				[
+					7.62,
+					7.37
+				],
+				[
+					7.66,
+					7.09
+				]
+			],
+			"label": "Patrols from Ankpa into Idoma land (Otukpa)",
+			"sources": [
+				"idoma-resistance-2023"
+			],
+			"confidence": "medium"
+		},
+		{
+			"kind": "raid",
+			"by": "British forces",
+			"path": [
+				[
+					7.62,
+					7.37
+				],
+				[
+					8.0531,
+					7.3515
+				]
+			],
+			"label": "Patrols from Ankpa into Idoma land (Ugboju)",
+			"sources": [
+				"idoma-resistance-2023"
+			],
+			"confidence": "medium"
+		}
+	],
+	"moments": [
+		{
+			"when": "1903",
+			"title": "Dekina taken",
+			"text": "British forces conquer Dekina, the seat of the northern Igala districts.",
+			"at": {
+				"name": "Dekina",
+				"point": [
+					7.044,
+					7.689
+				]
+			},
+			"mark": "captured",
+			"sources": [
+				"ineke-2025"
+			],
+			"confidence": "medium"
+		},
+		{
+			"when": "1906",
+			"title": "Ankpa taken; a British base",
+			"text": "Ankpa is conquered and becomes a British base. From it, patrols subdue northern and central Idoma land.",
+			"at": {
+				"name": "Ankpa",
+				"point": [
+					7.62,
+					7.37
+				]
+			},
+			"mark": "garrison",
+			"sources": [
+				"ineke-2025",
+				"idoma-resistance-2023",
+				"owner-2026-10-11-ankpa"
+			],
+			"confidence": "medium"
+		},
+		{
+			"when": "1906–1917",
+			"title": "Outsiders set over Ankpa",
+			"text": "The British make Mallam Jibril of Zaria district head of Ankpa (1906), then the Hausa Sharafu Abu (1909), then Akanya, a Bassa-Nge from Shintaku, before restoring an Igala. The Igala resist these imposed chiefs.",
+			"at": {
+				"name": "Ankpa",
+				"point": [
+					7.62,
+					7.37
+				]
+			},
+			"mark": "garrison",
+			"sources": [
+				"abdullahi-2016"
+			],
+			"confidence": "high"
+		},
+		{
+			"when": "1914–1918",
+			"title": "A soldier as Onu of Dekina",
+			"text": "Ahmodu, a Yoruba soldier of the West African Frontier Force, is made Onu of Dekina.",
+			"at": {
+				"name": "Dekina",
+				"point": [
+					7.044,
+					7.689
+				]
+			},
+			"mark": "garrison",
+			"sources": [
+				"abdullahi-2016"
+			],
+			"confidence": "high"
+		},
+		{
+			"when": "1918",
+			"title": "The districts rejoined",
+			"text": "At the Attah’s request the Igala districts are brought back together under Northern Nigeria, and the Attah regains a political role under Lieutenant Governor Palmer.",
+			"at": {
+				"name": "Idah",
+				"point": [
+					6.737,
+					7.117
+				]
+			},
+			"mark": "treaty",
+			"sources": [
+				"abdullahi-2016",
+				"guardian-igala-monarch"
+			],
+			"confidence": "high"
+		}
+	],
+	"sources": [
+		"ineke-2025",
+		"idoma-resistance-2023",
+		"abdullahi-2016",
+		"guardian-igala-monarch",
+		"owner-2026-10-11-ankpa"
+	],
+	"confidence": "medium",
+	"reviewNotes": [
+		"The owner (2026-10-11) holds that the shelling and the garrison at Ankpa are why Igala land was divided. The first cut, Idah from the north, came with the protectorate boundary on 1 January 1900, before Ankpa was taken in 1906. The later split of the north fits the owner’s reading: Ankpa, the base for the Idoma patrols, went to Munshi Province, the Idoma country. That link is the compiler’s reading of the sources, not stated in them.",
+		"The conquest dates (Dekina 1903, Ankpa 1906) and the 1896 bombardment come from Ineke (2025), and the Ankpa base from a study of Idoma resistance; both were read only in search extracts. The colonial files in Kaduna (NAK) would confirm the troops and dates.",
+		"The routes of the British columns are not recorded; they are drawn from Lokoja and between the towns."
+	]
+}

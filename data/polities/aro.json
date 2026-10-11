@@ -19,10 +19,12 @@
 	},
 	"peak": 1800,
 	"summary": {
-		"text": "From Arochukwu, the Aro built a trading network across south-eastern Nigeria, backed by the prestige of their oracle, Ibini Ukpabi (the \"Long Juju\"), and by allied fighters from Abam, Ohafia and Edda. Aro settlements and fairs channelled trade, much of it in enslaved people, to Bonny and Calabar. Britain destroyed the oracle in the Anglo-Aro war of 1901–1902.",
+		"text": "From Arochukwu, three kindreds in nineteen villages under the Eze Aro and his council, the Okpankpo, the Aro built a trading network across south-eastern Nigeria. It was backed by the prestige of their oracle, Ibini Ukpabi (the \"Long Juju\"), the high court of the east, whose losers were said to be eaten but were often sold, and by allied fighters from Abam, Ohafia and Edda. More than 150 Aro settlements and fairs at Bende and Uburu channelled trade, much of it in enslaved people, to Bonny and Calabar, and later palm oil. Britain broke the network in the Anglo-Aro war of 1901–1902; it set out to destroy the oracle, though its site survives.",
 		"sources": [
 			"wikipedia-aro-confederacy",
-			"dike-ekejiuba-1990"
+			"dike-ekejiuba-1990",
+			"aronews-kindreds",
+			"wikipedia-ibini-ukpabi"
 		],
 		"confidence": "high"
 	},
@@ -61,6 +63,56 @@
 				"owner-2026-10-07-doc1"
 			],
 			"confidence": "medium"
+		},
+		{
+			"year": 1700,
+			"yearLabel": "c. 1700",
+			"title": "Nineteen villages and an oracle",
+			"text": "At home, Arochukwu is three kindreds in nineteen villages: Oke Nnachi, the line of the priest Nnachi, which holds the throne of the Eze Aro; Ibom Isii, of the old Ibibio kingdom; and Eze Agwu na Okwara Agwu, of the Igbo from Abiriba. The Eze Aro rules with the Okpankpo, the council of the town, which also sets the September harvest festival of Ikeji. Beside the town, through a gully and past a waterfall, lies the shrine of Ibini Ukpabi. Communities east of the Niger bring it their hardest cases, murder, witchcraft, poisoning and family quarrels, as to a high court. Those it found innocent went home; the guilty were said to be eaten by the oracle, and the red stream was shown as proof, but many were in truth led to the waterside and sold, and boats took them to Calabar.",
+			"capital": {
+				"name": "Arochukwu",
+				"point": [
+					7.91,
+					5.39
+				]
+			},
+			"core": {
+				"lgas": [
+					"abia-arochukwu"
+				]
+			},
+			"nodes": [
+				{
+					"name": "Obinkita (Oke Nnachi)",
+					"point": [
+						7.8999,
+						5.3901
+					]
+				},
+				{
+					"name": "Ibom (Ibom Isii)",
+					"point": [
+						7.8957,
+						5.3831
+					]
+				},
+				{
+					"name": "Amannagwu (Eze Agwu)",
+					"point": [
+						7.9011,
+						5.3801
+					]
+				}
+			],
+			"sources": [
+				"aronews-kindreds",
+				"aronews-ikeji",
+				"wikipedia-ibini-ukpabi",
+				"wikipedia-aro-confederacy",
+				"wikipedia-arochukwu"
+			],
+			"confidence": "medium",
+			"note": "The oracle’s workings follow the Ibini Ukpabi article; the claim that its priests sold the losers rather than killing them is widely held but partly uncited there."
 		},
 		{
 			"year": 1750,
@@ -337,7 +389,7 @@
 			"year": 1901,
 			"yearLabel": "1901–1902",
 			"title": "The Anglo-Aro war",
-			"text": "From the 1890s the Royal Niger Company and the Niger Coast Protectorate collide with Aro trade. Sir Ralph Moor plans the attack from 1899. In November 1901 Aro forces under Okoro Toti sack Obegu, a British ally, and some 400 people die. On 28 November Lt-Col Montanaro marches with 87 officers, 1,550 soldiers and 2,100 carriers on four lines from Oguta, Akwete, Unwana and Itu; Arochukwu falls on 28 December after four days' fighting, and the oracle is said to be blown up. The last big battle is at Bende in spring 1902. Okoro Toti is hanged; Aro fighters keep up the war at Afikpo (1902–1903) and Ezza (1905).",
+			"text": "From the 1890s the Royal Niger Company and the Niger Coast Protectorate collide with Aro trade. Sir Ralph Moor plans the attack from 1899. In November 1901 Aro forces under Okoro Toti sack Obegu, a British ally, and some 400 people die. On 28 November Lt-Col Montanaro marches with 87 officers, 1,550 soldiers and 2,100 carriers on four lines from Oguta, Akwete, Unwana and Itu; Arochukwu falls on 28 December after four days' fighting, and the British say they blew up the oracle; its site survives and is visited today. The last big battle is at Bende in spring 1902. Okoro Toti is hanged; Aro fighters keep up the war at Afikpo (1902–1903) and Ezza (1905).",
 			"capital": {
 				"name": "Arochukwu",
 				"point": [
@@ -488,6 +540,7 @@
 	},
 	"reviewNotes": [
 		"Aro settlement points (Ndikelionwu, Ajalli, Ndiokolo, Arondizuogu, Ozizza) come from GRID3 settlement names; who founded each, and when, is told in the event \"The Aro go out\".",
-		"The influence zone shows the allied Abam, Ohafia, Edda and Abiriba country; the network itself is shown by points and lines."
+		"The influence zone shows the allied Abam, Ohafia, Edda and Abiriba country; the network itself is shown by points and lines.",
+		"Whether the Ibini Ukpabi shrine was destroyed is disputed: the Ibini Ukpabi article says the stronghold was destroyed in the Anglo-Aro war, the Aro Confederacy article that it was not and still stands as a heritage site."
 	]
 }

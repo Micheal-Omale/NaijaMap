@@ -123,14 +123,15 @@
 		},
 		{
 			"lga": "kogi-ajaokuta",
-			"presence": "significant",
+			"presence": "minority",
 			"sources": [
 				"wikipedia-igala-people",
 				"kogireports-2019",
-				"omachonu-dalhatu-2018"
+				"omachonu-dalhatu-2018",
+				"owner-2026-10-11-ajaokuta"
 			],
 			"confidence": "medium",
-			"note": "A mixed LGA, shared with Ebira communities."
+			"note": "An Ebira land; the Igala live in the riverside communities along the Niger, as they did before. The riverside villages are not yet named in the sources."
 		},
 		{
 			"lga": "kogi-lokoja",

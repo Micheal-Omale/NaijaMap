@@ -7,7 +7,7 @@
 	"until": 1910,
 	"actors": [{ "name": "British forces", "side": "colonial" }, { "name": "Aro Confederacy", "polity": "aro", "side": "defender" }],
 	"summary": {
-		"text": "To break the Aro network and its oracle, the Southern Nigeria Protectorate sent 87 officers, 1,550 soldiers and 2,100 carriers under Lieutenant Colonel Montanaro in four columns from Oguta, Akwete, Unwana and Itu. Arochukwu fell on 28 December 1901 after four days of fighting, and the Ibini Ukpabi shrine was destroyed. The last great battle was fought near Bende, and Aro leaders, among them Okoro Toti, were tried and hanged. Resistance went on for years in Afikpo and Ezza.",
+		"text": "To break the Aro network and its oracle, the Southern Nigeria Protectorate sent 87 officers, 1,550 soldiers and 2,100 carriers under Lieutenant Colonel Montanaro in four columns from Oguta, Akwete, Unwana and Itu. Arochukwu fell on 28 December 1901 after four days of fighting, and the British set out to destroy the Ibini Ukpabi shrine; accounts differ on whether they did, and its site survives as a heritage place. The last great battle was fought near Bende, and Aro leaders, among them Okoro Toti, were tried and hanged. Resistance went on for years in Afikpo and Ezza.",
 		"sources": ["wikipedia-anglo-aro-war", "wikipedia-aro-confederacy"],
 		"confidence": "high"
 	},
@@ -28,7 +28,7 @@
 		{
 			"when": "After the capture",
 			"title": "The Long Juju destroyed",
-			"text": "The British blow up the shrine of Ibini Ukpabi.",
+			"text": "The British say they blew up the shrine of Ibini Ukpabi, the high court of the east. Accounts differ: one says the stronghold was destroyed, another that the shrine still stands; its site is visited today.", "confidence": "disputed", "sources": ["wikipedia-ibini-ukpabi", "wikipedia-aro-confederacy", "wikipedia-anglo-aro-war"],
 			"at": { "name": "Arochukwu", "point": [7.91, 5.39] },
 			"mark": "burned"
 		},

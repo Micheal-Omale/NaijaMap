@@ -1,50 +1,115 @@
 {
-	"name": "The jihadists turned back at Igu",
+	"name": "Koton Karfe holds",
 	"status": "draft",
 	"kind": "war",
 	"year": 1820,
-	"yearLabel": "Early 19th century (undated)",
-	"until": 1835,
+	"yearLabel": "c. 1810s–1880",
+	"until": 1880,
 	"actors": [
 		{ "name": "Igala forces of the Attah", "polity": "igala", "side": "defender" },
-		{ "name": "Igu (Koton Karfe)", "side": "ally" },
-		{ "name": "Jihadist forces from the north", "polity": "sokoto", "side": "attacker" }
+		{ "name": "The Koto of Igu (Koton Karfe)", "side": "defender", "ink": "#7a5a2a" },
+		{ "name": "The Ebira", "side": "defender", "ink": "#5a6a3a" },
+		{ "name": "Jihad armies (Fulani-led Nupe, later Bida and Ilorin)", "polity": "nupe", "side": "attacker" }
 	],
 	"summary": {
-		"text": "As the jihad of Usman dan Fodio spread south, Igala tradition and Igala writers say a jihadist force came against Igu, the Attah’s vassal town on the Niger above the confluence. The Attah’s soldiers met it there and destroyed it, and the war never came near Idah. After the battle, the Hausa are said to have called the town Koton Karfe, ‘powerful Koto’. Mainland Igala was never conquered, and no emirate was ever set up in the confluence lands the Attah protected. Igu itself was sacked later, in 1833, and lost to the Nupe of Bida by 1853–1860.",
-		"sources": ["ayegba-2020-summit", "abbah-2018-igala-fulani", "owner-2026-10-07-igu"],
+		"text": "Igu, the Attah’s vassal town on the Niger about twenty miles above the confluence, stood in the path of the jihad for more than half a century. Igala tradition remembers the Attah’s army destroying a jihadist force there, the Ebira remember their own long defence, and both say the town was never conquered. The written record shows how hard it was pressed: Igu was burned around 1832–33, the Filatahs (Fulani-led armies from Rabbah) were camped at Koto’n Kàrafi in 1841, and Etsu Masaba of Nupe struck it again in 1853. Yet in 1841 its chief still paid tribute to the Attah, no emir was ever set up there, and from 1865 to 1880 the Igu were still fighting the armies of Bida and Ilorin. Raided and burned more than once, Koton Karfe was never conquered.",
+		"sources": [
+			"allen-thomson-1848", "wikipedia-ebira-people", "abbah-2018-igala-fulani", "ayegba-2020-summit", "james-2017-igala", "owner-2026-10-07-igu", "owner-2026-10-11-koto"
+		],
 		"confidence": "disputed"
 	},
 	"routes": [
-		{ "kind": "advance", "by": "Jihadist forces from the north", "path": [[6.3, 8.9], [6.6, 8.45], [6.7981, 8.0891]], "label": "A jihadist force comes down on Igu", "sources": ["ayegba-2020-summit"], "confidence": "disputed" },
-		{ "kind": "advance", "by": "Igala forces of the Attah", "path": [[6.737, 7.117], [6.85, 7.6], [6.7981, 8.0891]], "label": "The Attah’s army goes up to defend Igu", "sources": ["ayegba-2020-summit", "owner-2026-10-07-igu"], "confidence": "disputed" },
-		{ "kind": "retreat", "by": "Jihadist forces from the north", "path": [[6.7981, 8.0891], [6.55, 8.5]], "label": "The invaders are destroyed", "sources": ["ayegba-2020-summit"], "confidence": "disputed" }
+		{
+			"kind": "advance",
+			"by": "Jihad armies (Fulani-led Nupe, later Bida and Ilorin)",
+			"path": [[6.3, 8.9], [6.6, 8.45], [6.7981, 8.0891]],
+			"label": "The jihad comes down the Niger on Igu",
+			"sources": ["allen-thomson-1848", "ayegba-2020-summit"],
+			"confidence": "medium"
+		},
+		{
+			"kind": "advance",
+			"by": "Igala forces of the Attah",
+			"path": [[6.737, 7.117], [6.85, 7.6], [6.7981, 8.0891]],
+			"label": "The Attah’s army goes up to defend Igu",
+			"sources": ["ayegba-2020-summit", "owner-2026-10-07-igu"],
+			"confidence": "disputed"
+		},
+		{
+			"kind": "alliance",
+			"by": "The Ebira",
+			"path": [[6.23, 7.55], [6.55, 7.85], [6.7981, 8.0891]],
+			"label": "The Ebira hold the hills beside the Koto",
+			"sources": ["wikipedia-ebira-people", "owner-2026-10-11-koto"],
+			"confidence": "disputed"
+		},
+		{
+			"kind": "retreat",
+			"by": "Jihad armies (Fulani-led Nupe, later Bida and Ilorin)",
+			"path": [[6.7981, 8.0891], [6.55, 8.5]],
+			"label": "The invaders are thrown back",
+			"sources": ["ayegba-2020-summit"],
+			"confidence": "disputed"
+		}
 	],
 	"moments": [
 		{
-			"when": "Early 19th century",
-			"title": "Victory at Igu",
-			"text": "The Igala soldiers bring down the invading force at Koto. The war ends there, far from Idah and the Attah’s palace, and the town takes the name Koton Karfe, ‘powerful Koto’.",
+			"when": "c. 1810s–1820s",
+			"title": "Victory at Koto",
+			"text": "Igala tradition: the Attah’s soldiers bring down an invading jihadist force at Koto, far from Idah, and the war never reaches the Attah’s palace. The tradition gives the town’s name a meaning from the battle.",
 			"at": { "name": "Igu (Koton Karfe)", "point": [6.7981, 8.0891] },
 			"mark": "battle",
 			"sources": ["ayegba-2020-summit", "owner-2026-10-07-igu"],
 			"confidence": "disputed"
 		},
 		{
-			"when": "1833 and after",
-			"title": "Igu falls later",
-			"text": "Igu is sacked and burned in 1833 and finally lost to the Nupe by 1860, but mainland Igala is never conquered.",
+			"when": "c. 1832–1833",
+			"title": "Igu burned",
+			"text": "A raid sacks and burns Igu. Laird, passing in 1833, finds the town much smaller than it had been. Its people rebuild.",
 			"at": { "name": "Igu (Koton Karfe)", "point": [6.7981, 8.0891] },
 			"mark": "burned",
 			"sources": ["abbah-2018-igala-fulani"],
 			"confidence": "medium"
+		},
+		{
+			"when": "September 1841",
+			"title": "The enemy at the gate, tribute still to Idah",
+			"text": "The British are told the Filatahs are “still at Egòh, or at Koto’n Kàrafi, about twenty miles above the confluence”. Yet Allen records that the chiefs of Fandah (Panda), Kattam-Kàrafi and Buddu (Kakanda) still acknowledge the Attah of Idah by paying him a small tribute.",
+			"at": { "name": "Igu (Koton Karfe)", "point": [6.7981, 8.0891] },
+			"mark": "camp",
+			"sources": ["allen-thomson-1848"],
+			"confidence": "high"
+		},
+		{
+			"when": "1853",
+			"title": "Masaba’s raid",
+			"text": "Etsu Masaba of Nupe raids down to Koton Karfe. The Attah’s hold on the north is broken, but Igu fights on and is never made a Nupe town.",
+			"at": { "name": "Igu (Koton Karfe)", "point": [6.7981, 8.0891] },
+			"mark": "battle",
+			"sources": ["james-2017-igala", "wikipedia-ebira-people"],
+			"confidence": "medium"
+		},
+		{
+			"when": "1865–1880",
+			"title": "Never subdued",
+			"text": "The Igu fight the armies of Bida and Ilorin, the Ajinomoh, while the Ebira hold their hills under Achigidi Okino. No emir is ever set up at Koton Karfe.",
+			"at": { "name": "Igu (Koton Karfe)", "point": [6.7981, 8.0891] },
+			"mark": "battle",
+			"sources": ["wikipedia-ebira-people", "owner-2026-10-11-koto"],
+			"confidence": "medium"
 		}
 	],
-	"sources": ["ayegba-2020-summit", "abbah-2018-igala-fulani", "owner-2026-10-07-igu"],
+	"sources": [
+		"allen-thomson-1848", "wikipedia-ebira-people", "abbah-2018-igala-fulani", "ayegba-2020-summit", "james-2017-igala", "owner-2026-10-07-igu", "owner-2026-10-11-koto"
+	],
 	"confidence": "disputed",
-	"note": "No date or commander is recorded. It is placed before the sack of 1833.",
+	"note": "The Igala victory is undated tradition; it is placed in the 1810s–1820s, when Fulani-led Nupe first had armies near the confluence. The fighting at Igu ran on to about 1880.",
 	"reviewNotes": [
-		"The battle rests on the owner’s account and one Igala writer (Ayegba, 2020), who cites ‘reliable sources’ but gives no date or names. A written source naming the Attah or commander would let this become ‘medium’.",
-		"The Koton Karfe name story is a tradition; other explanations of the name may exist."
+		"The joint stand of the Igala, the Ebira and the Koto follows the owner (2026-10-11). Igala sources tell an Igala victory and Ebira sources an Ebira defence at the same town; no source yet says they fought side by side.",
+		"Some online Igala accounts date the victory to 1804–1808. Those are the dates of the jihad’s first phase in Hausaland; no jihad army was near the confluence until Mallam Dendo’s rise in Nupe from about 1810, so the earlier date is not used.",
+		"The battle itself rests on the owner’s account and one Igala writer (Ayegba, 2020), who names no Attah or commander. A tradition naming the reigning Attah would let it be dated from Boston’s king list.",
+		"The name has three explanations: Koton Karifi, ‘powerful Koto’ (Ayegba); Akpoto Karfe, ‘the Igala with power’ (online Igala accounts); and Hausa ƙarfe, ‘iron’, which fits the Ebira blacksmith tradition. Koto is also the name of the Ebira Koto themselves, so the name may be older than any battle.",
+		"Abbah (2018) and James (2017) say the Nupe took Koton Karfe in 1853. Allen’s 1841 tribute record and the Ebira account of fighting on to 1880 suggest raids and occupations rather than conquest; the text follows that reading.",
+		"The 1832–33 burning comes from Laird’s visit in 1833 as reported by Abbah (2018); Laird and Oldfield’s Narrative (1837) itself has not been checked."
 	]
 }

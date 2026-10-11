@@ -11,9 +11,9 @@
 		{ "name": "Prince Akwu and his followers", "side": "resister" }
 	],
 	"summary": {
-		"text": "The Royal Niger Company, chartered in 1886, set up trading posts at Idah and along the river. Prince Akwu led a guerrilla war against the Company, raiding its stores at Idah several times, and the Company answered by bombarding Idah, twice between 1896 and 1900 by one account. Attah Amaga died in February 1900 and with him Igala’s independence. The British installed Attah Ocheje Onokpa in 1901, then deposed him in 1903 and banished him to Asaba, where he died.",
-		"sources": ["james-2017-igala", "owner-2026-10-07-doc1"],
-		"confidence": "disputed"
+		"text": "The Royal Niger Company, chartered in 1886, set up trading posts at Idah and along the river. Prince Akwu led a guerrilla war against the Company, raiding its stores at Idah several times, and the Company answered by shelling Idah from the river: in 1896, the bombardment with which a recent history dates the subjugation of Igalaland, and by one account again before 1900. Attah Amaga died in February 1900 and with him Igala’s independence. The British installed Attah Ocheje Onokpa in 1901, then deposed him in 1903 and banished him to Asaba, where he died.",
+		"sources": ["ineke-2025", "james-2017-igala", "owner-2026-10-07-doc1"],
+		"confidence": "medium"
 	},
 	"routes": [
 		{ "kind": "advance", "by": "British forces", "path": [[6.7193, 6.2056], [6.75, 6.6], [6.737, 7.117]], "label": "Company gunboats on the Niger" },
@@ -29,13 +29,13 @@
 			"mark": "battle"
 		},
 		{
-			"when": "1896–1900",
+			"when": "1896 (and again before 1900, by one account)",
 			"title": "Idah bombarded",
 			"text": "The Company shells Idah from a vessel on the Niger. Igala memory recalls the palace as the target and the town emptied as people fled inland.",
 			"at": { "name": "Idah", "point": [6.737, 7.117] },
 			"mark": "bombarded",
-			"confidence": "disputed",
-			"sources": ["james-2017-igala", "owner-2026-10-07-doc1"]
+			"confidence": "medium",
+			"sources": ["ineke-2025", "james-2017-igala", "owner-2026-10-07-doc1"]
 		},
 		{
 			"when": "February 1900",
@@ -52,9 +52,9 @@
 			"mark": "exile"
 		}
 	],
-	"sources": ["james-2017-igala", "owner-2026-10-07-doc1"],
-	"confidence": "disputed",
-	"note": "Rests on one Igala history blog and the owner’s notes. The number, dates and targets of the bombardments need a stronger source.",
+	"sources": ["ineke-2025", "james-2017-igala", "owner-2026-10-07-doc1"],
+	"confidence": "medium",
+	"note": "Ineke (2025) dates the bombardment to 1896; James (2017) has two between 1896 and 1900. Ineke was read only in a search extract.",
 	"reviewNotes": [
 		"The owner asked to show when Idah was attacked by the British. Written sources found give only “twice between 1896 and 1900” (James 2017). One web summary lists bombardments in 1822, 1879, 1882, 1896 and 1900, with no source. Which attacks does the owner know of, and from which book, archive or elders?",
 		"The Prince is called Akwu Amaga in one version and Akwu Agahiu in another."

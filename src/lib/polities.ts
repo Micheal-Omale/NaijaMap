@@ -28,6 +28,7 @@ const INK: Record<string, string> = {
 	kwararafa: '#8c3d3d',
 	nupe: '#2a7a7a',
 	igala: '#c9822a',
+	lokoja: '#6d5f9e',
 	borgu: '#6a7f4f',
 	oyo: '#2e5c8a',
 	ife: '#a07c2c',

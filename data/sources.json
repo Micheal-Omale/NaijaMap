@@ -10208,5 +10208,191 @@
 		"kind": "dataset",
 		"accessed": "2026-10-10",
 		"checked": true
+	},
+	{
+		"id": "allen-thomson-1848",
+		"title": "A Narrative of the Expedition sent by Her Majesty’s Government to the River Niger in 1841, vol. I, chapters XII (the conference with the Attàh), XIV (Adda Kuddu) and XV (conquests of the Filatahs)",
+		"author": "Allen, William; Thomson, T. R. H.",
+		"year": 1848,
+		"publisher": "Richard Bentley, London (transcribed by P. Davis)",
+		"url": "https://www.pdavis.nl/Niger_Contents.htm",
+		"kind": "book",
+		"accessed": "2026-10-11",
+		"checked": true
+	},
+	{
+		"id": "trotter-1843-report",
+		"title": "Report of Proceedings from Captain Trotter, First Commissioner, to Lord Stanley (Parliamentary Papers No. 52, 1843): the land bought “on the right bank of the river near Adda-Kuddu, and embracing Baraga or Beaufort Island”",
+		"author": "Trotter, H. D.",
+		"year": 1843,
+		"publisher": "House of Commons (transcribed by P. Davis)",
+		"url": "https://www.pdavis.nl/PP_Niger_3.htm",
+		"kind": "reference",
+		"accessed": "2026-10-11",
+		"checked": true
+	},
+	{
+		"id": "abbah-2020-indebtedness",
+		"title": "Nigeria’s indebtedness to Igala Kingdom (cites the Chronicle of Abuja for Idah’s influence over Umaisha, Toto, Koton Karfi and Abaji)",
+		"author": "Abbah, Theophilus",
+		"year": 2020,
+		"publisher": "Sahara Reporters, republished by LawCare Nigeria",
+		"url": "https://lawcarenigeria.com/nigerias-indebtedness-to-igala-kingdom-by-theophilus-abbah/",
+		"kind": "news",
+		"accessed": "2026-10-11",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-anaku-town",
+		"title": "Anaku Town (the Ajida–Ogbe genealogy: Ogbe’s children Nzam, Anam, Anaku, Ulossi and Okpanam)",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Anaku_Town",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-11",
+		"checked": true
+	},
+	{
+		"id": "owner-2026-10-11-koto",
+		"title": "Direction from the HistoNaija owner: Koton Karfe was never taken, because the Igala, the Ebira and the Koto people fought the jihad’s advance",
+		"kind": "testimony",
+		"accessed": "2026-10-11",
+		"checked": true
+	},
+	{
+		"id": "owner-2026-10-11-north",
+		"title": "Direction from the HistoNaija owner: the Attah’s northern reach (Abaji, Toto, Umaisha and the rest) held until the jihad-era campaigns",
+		"kind": "testimony",
+		"accessed": "2026-10-11",
+		"checked": true
+	},
+	{
+		"id": "crowther-1872",
+		"title": "Bishop Crowther’s Report of the Overland Journey from Lokoja to Bida, on the River Niger, and thence to Lagos (introduction: Lokoja’s community asks Masaba, “whose dominions surround Lokoja”, for protection after 1869)",
+		"author": "Crowther, Samuel Adjai",
+		"year": 1872,
+		"publisher": "Church Missionary Society (Project Canterbury transcription)",
+		"url": "https://anglicanhistory.org/africa/crowther/niger1872.html",
+		"kind": "book",
+		"accessed": "2026-10-11",
+		"checked": true
+	},
+	{
+		"id": "lokoja-antecedents",
+		"title": "Lokoja: The Historical Antecedents of a Multi-Ethnic Settlement (read only in search extracts: the Oworo on Patti, raids by Masaba’s general Benu, Baikie and Chief Meneha)",
+		"url": "https://www.researchgate.net/publication/358964178_Lokoja_The_Historical_Antecedents_of_a_Multi-Ethnic_Settlement",
+		"kind": "article",
+		"accessed": "2026-10-11",
+		"checked": false
+	},
+	{
+		"id": "bassange-community-history",
+		"title": "Our History (the Bassa-Nge flight from Masaba’s raids of the early 1840s, Eku Anupe; Masaba camps where Lokoja now stands)",
+		"author": "Bassa Nge Community of North America",
+		"url": "https://www.bassangecommunityna.org/our-ministries",
+		"kind": "web",
+		"accessed": "2026-10-11",
+		"checked": false
+	},
+	{
+		"id": "owner-2026-10-11-ajaokuta",
+		"title": "Direction from the HistoNaija owner: Ajaokuta is Ebira land; the Igala live in the riverside communities along the Niger, as they still do",
+		"kind": "testimony",
+		"accessed": "2026-10-11",
+		"checked": true
+	},
+	{
+		"id": "owner-2026-10-11-lokoja-caliphate",
+		"title": "Direction from the HistoNaija owner: only named settlements of Lokoja LGA fell under the caliphate (through Bida), not Lokoja as a whole",
+		"kind": "testimony",
+		"accessed": "2026-10-11",
+		"checked": true
+	},
+	{
+		"id": "suleiman-2023-nupe-ilorin",
+		"title": "The Factor of Trade in the Diplomatic Relations between the Nupe People and the Ilorin Emirate. Sejarah 32(2): 107–120 (“Nupe rulers directly conquered … Ijumu, Kakanda, Kabba, Oworoland, Igbomina and Ekitiland”)",
+		"author": "Suleiman, AbdulRahman Adebayo",
+		"year": 2023,
+		"publisher": "Journal of the History Department, University of Malaya",
+		"url": "https://doi.org/10.22452/sejarah.vol32no2.5",
+		"kind": "article",
+		"accessed": "2026-10-11",
+		"checked": true
+	},
+	{
+		"id": "dike-1957",
+		"title": "Origins of the Niger Mission 1841–1891 (Lokoja “belonged to no particular tribe and was the meeting place of adventurers from all quarters”)",
+		"author": "Dike, K. Onwuka",
+		"year": 1957,
+		"publisher": "CMS Niger Mission, Ibadan (Project Canterbury transcription)",
+		"url": "https://anglicanhistory.org/africa/ng/dike_origins1957.html",
+		"kind": "book",
+		"accessed": "2026-10-11",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-obalike",
+		"title": "Òbalíke (15th recorded Eze Nri, 1889–1936): forced out of Nri to the Awka native court, made to annul the taboo codes, denounced under the warrant chiefs (1911)",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/%C3%92bal%C3%ADke",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-11",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ibini-ukpabi",
+		"title": "Ibini Ukpabi",
+		"author": "Wikipedia contributors",
+		"url": "https://en.wikipedia.org/wiki/Ibini_Ukpabi",
+		"kind": "web",
+		"licence": "CC BY-SA 4.0",
+		"accessed": "2026-10-11",
+		"checked": true
+	},
+	{
+		"id": "aronews-ikeji",
+		"title": "Ikeji Arochukwu in History",
+		"author": "Orji, Orji Ogbonnaya",
+		"year": 2016,
+		"publisher": "Aro News Online",
+		"url": "https://www.aronewsonline.com/ikeji-arochukwu-in-history/",
+		"kind": "news",
+		"accessed": "2026-10-11",
+		"checked": true
+	},
+	{
+		"id": "ineke-2025",
+		"title": "The food economy of colonial Igalaland, 1900–1960. Economic History of Developing Regions 40(2): 126–142 (Igalaland “subdued with the bombardment of Idah in 1896 by the Royal Niger Company and the conquering of Dekina and Ankpa in 1903 and 1906”; read in a search extract)",
+		"author": "Ineke, Ugbede Joseph",
+		"year": 2025,
+		"url": "https://doi.org/10.1080/20780389.2025.2504681",
+		"kind": "article",
+		"accessed": "2026-10-11",
+		"checked": false
+	},
+	{
+		"id": "idoma-resistance-2023",
+		"title": "Resistance and Rebellion to British Colonial Domination in Idoma Land (“Northern and Central Idoma land was subjugated by the British patrols operating from their base at Ankpa”; read in a search extract)",
+		"url": "https://www.researchgate.net/publication/370780118_RESISTANCE_AND_REBELLION_TO_BRITISH_COLONIAL_DOMINATION_IN_IDOMA_LAND",
+		"kind": "article",
+		"accessed": "2026-10-11",
+		"checked": false
+	},
+	{
+		"id": "guardian-igala-monarch",
+		"title": "Monarch laments tragedies in Igala nation (the Attah: Idah District put in Onitsha Province, Ankpa District in Munchi Province, Dekina District in Nasarawa Province, reunited in 1918; read in a search extract)",
+		"publisher": "The Guardian (Nigeria)",
+		"url": "https://guardian.ng/?p=114026",
+		"kind": "news",
+		"accessed": "2026-10-11",
+		"checked": false
+	},
+	{
+		"id": "owner-2026-10-11-ankpa",
+		"title": "Direction from the HistoNaija owner: Igala land was shelled and a garrison mounted at Ankpa, and that is why Igala land was divided",
+		"kind": "testimony",
+		"accessed": "2026-10-11",
+		"checked": true
 	}
 ]

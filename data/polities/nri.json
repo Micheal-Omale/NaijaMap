@@ -19,7 +19,7 @@
 	},
 	"peak": 1550,
 	"summary": {
-		"text": "Nri was founded by Nri, a son of Eri, who left his father’s war camp at Aguleri and set up his own kingdom at Agukwu. Prince M. C. M. Idigo of the Aguleri royal family wrote in The History of Aguleri (1955) that Eri was an Igala warrior who came down from Idah, and the colonial writers Meek (1937) and Boston (1960) heard the same; Igala elders remember him as an Attah Eri whose sons left Idah. Nri’s own tradition says Eri came down from the sky. Nri was not a kingdom of conquest. Its priest-king, the Eze Nri, and his travelling agents cleansed abominations, crowned titled men and settled disputes, a ritual authority without an army. From the Umueri towns around Aguleri its reach grew to about a quarter of Igboland by the 16th century, then shrank in the 18th, under the slave trade, the Aro network and Igala and Benin pressure, until the British ended its power in 1911. The bronzes of Igbo-Ukwu, from about the 9th century, are linked to its early history.",
+		"text": "Nri was founded by Nri, a son of Eri, who left his father’s war camp at Aguleri and set up his own kingdom at Agukwu. Prince M. C. M. Idigo of the Aguleri royal family wrote in The History of Aguleri (1955) that Eri was an Igala warrior who came down from Idah, and the colonial writers Meek (1937) and Boston (1960) heard the same; Igala elders remember him as an Attah Eri whose sons left Idah. Nri’s own tradition says Eri came down from the sky. Nri was not a kingdom of conquest. Its priest-king, the Eze Nri, and his travelling agents cleansed abominations, crowned titled men and settled disputes, a ritual authority without an army. From the Umueri towns around Aguleri its reach grew to about a quarter of Igboland by the 16th century, then shrank in the 18th, under the slave trade, the Aro network and Igala and Benin pressure, until the British broke it between 1907 and 1911: they forced the Eze Nri out to the court at Awka, made him annul the taboo codes that bound the towns to Nri, and had the warrant chiefs denounce him. The bronzes of Igbo-Ukwu, from about the 9th century, are linked to its early history.",
 		"sources": [
 			"wikipedia-kingdom-of-nri",
 			"onwuejeogwu-1981",
@@ -31,7 +31,8 @@
 			"wikipedia-eri-king",
 			"dailytrust-2022-igala-enugu",
 			"owner-2026-10-07-eri",
-			"owner-2026-10-10-nri"
+			"owner-2026-10-10-nri",
+			"wikipedia-obalike"
 		],
 		"confidence": "disputed"
 	},
@@ -614,7 +615,7 @@
 		{
 			"year": 1911,
 			"title": "The British end Nri's power",
-			"text": "From 1905 to 1911 the British clash with Nri, and in 1911 a colonial expedition forces the reigning Eze Nri to renounce the ritual power of the ikenga. Nineteen Eze Nri are recorded that year. The title survives as a traditional throne, revived since 1974.",
+			"text": "When the British take over the administration of the Igbo in 1907, officials and missionaries set out to break Nri’s ritual rule. They force Eze Nri Òbalíke, against an ancient taboo, to leave Nri for the native court at Awka under threat of mass killing, and make him annul the codes of taboo and abomination that bind the towns to Nri. In 1911, under the new warrant chiefs, the town leaders are forced to denounce him and he renounces the ritual power of the ìkénga. Nri ends as a political power; its ritual reach shrinks to the kingship’s nearest kin. The title survives as a traditional throne, revived since 1974.",
 			"capital": {
 				"name": "Agukwu Nri",
 				"point": [
@@ -628,11 +629,12 @@
 				]
 			},
 			"sources": [
+				"wikipedia-obalike",
 				"wikipedia-kingdom-of-nri",
-				"wikipedia-kingdom-of-nri",
-				"wikipedia-anglo-aro-war"
+				"onwuejeogwu-1981"
 			],
-			"confidence": "high"
+			"confidence": "medium",
+			"yearLabel": "1907–1911"
 		}
 	],
 	"today": {

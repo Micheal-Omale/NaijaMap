@@ -75,7 +75,8 @@
 				"last-1967"
 			],
 			"confidence": "high",
-			"note": "The core is only the area around the first camps."
+			"note": "The core is only the area around the first camps.",
+			"nodes": []
 		},
 		{
 			"year": 1808,
@@ -193,7 +194,8 @@
 				"wikipedia-sokoto-caliphate",
 				"wikipedia-gobir"
 			],
-			"confidence": "high"
+			"confidence": "high",
+			"nodes": []
 		},
 		{
 			"year": 1812,
@@ -290,7 +292,8 @@
 				"last-1967",
 				"hogben-kirk-greene-1966"
 			],
-			"confidence": "medium"
+			"confidence": "medium",
+			"nodes": []
 		},
 		{
 			"year": 1815,
@@ -538,7 +541,8 @@
 				"wikipedia-gobir",
 				"wikipedia-sokoto-caliphate"
 			],
-			"confidence": "high"
+			"confidence": "high",
+			"nodes": []
 		},
 		{
 			"year": 1850,
@@ -717,9 +721,7 @@
 					"kogi-yagba-east",
 					"kogi-yagba-west",
 					"kogi-mopa-muro",
-					"kogi-kabba-bunu",
-					"kogi-lokoja",
-					"kogi-kogi"
+					"kogi-kabba-bunu"
 				],
 				"beyond": [
 					[
@@ -807,7 +809,7 @@
 				"last-1967",
 				"hogben-kirk-greene-1966",
 				"ajayi-crowder-1985",
-				"wikipedia-sokoto-caliphate"
+				"suleiman-2023-nupe-ilorin"
 			],
 			"confidence": "medium",
 			"note": "Hill peoples inside the emirates (Ningi, Jos Plateau, southern Zaria, Dakarkari) often stayed independent; LGA-level drawing hides those pockets.",
@@ -1106,8 +1108,6 @@
 					"kogi-mopa-muro",
 					"kogi-kabba-bunu",
 					"kogi-ijumu",
-					"kogi-lokoja",
-					"kogi-kogi",
 					"kogi-okene",
 					"kogi-adavi",
 					"kogi-okehi",
@@ -1171,9 +1171,11 @@
 			"sources": [
 				"wikipedia-sokoto-caliphate",
 				"hogben-kirk-greene-1966",
-				"mason-1981"
+				"mason-1981",
+				"suleiman-2023-nupe-ilorin"
 			],
-			"confidence": "medium"
+			"confidence": "medium",
+			"nodes": []
 		},
 		{
 			"year": 1891,
@@ -1351,7 +1353,8 @@
 			"sources": [
 				"wikipedia-sokoto-caliphate"
 			],
-			"confidence": "medium"
+			"confidence": "medium",
+			"nodes": []
 		},
 		{
 			"year": 1897,
@@ -1445,7 +1448,8 @@
 				"wikipedia-sokoto-caliphate"
 			],
 			"confidence": "high",
-			"note": "Told in full as an event on the timeline."
+			"note": "Told in full as an event on the timeline.",
+			"nodes": []
 		}
 	],
 	"today": {
@@ -1465,6 +1469,7 @@
 	},
 	"reviewNotes": [
 		"Gudu's location is approximate.",
-		"The Adamawa ring in Cameroon and the Gwandu ring (Liptako, Say, Gurma) are rough outlines."
+		"The Adamawa ring in Cameroon and the Gwandu ring (Liptako, Say, Gurma) are rough outlines.",
+		"Lokoja is never drawn as conquered, raided or ruled, on the owner’s direction (2026-10-11): no source records it being sacked or plundered, Masaba himself sent Baikie there, and European settlement, consulate, mission and company ran on there from 1859 to 1900. Suleiman (2023) says Nupe conquered Kakanda and Oworoland; those districts of today’s Lokoja LGA are not marked separately."
 	]
 }

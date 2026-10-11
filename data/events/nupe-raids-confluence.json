@@ -2,41 +2,208 @@
 	"name": "Nupe raids on the confluence",
 	"status": "draft",
 	"kind": "raid",
-	"year": 1853,
-	"yearLabel": "1853–1854",
+	"year": 1838,
+	"yearLabel": "1838–1854",
 	"until": 1870,
-	"actors": [{ "name": "Nupe (Bida emirate)", "polity": "nupe", "side": "attacker" }, { "name": "Igala Kingdom", "polity": "igala", "side": "defender" }],
+	"actors": [
+		{
+			"name": "Nupe (Fulani-led, from Rabbah and later Bida)",
+			"polity": "nupe",
+			"side": "attacker"
+		},
+		{
+			"name": "Igala Kingdom",
+			"polity": "igala",
+			"side": "defender"
+		}
+	],
 	"summary": {
-		"text": "As the jihad reached the Niger–Benue confluence, Etsu Masaba of Nupe took Koton Karfe and Lokoja, both within the Igala sphere, in 1853. Raids grew worse the next year and refugees crossed to the south bank of the Benue. Nupe raiding also reached south into the Okun Yoruba and Etsako country.",
-		"sources": ["james-2017-igala", "lasttribes-igala"],
+		"text": "Once Fulani rulers held Nupe, its armies raided down the Niger into the Attah’s confluence lands. In 1838 the Filatahs from Rabbah marched down on the district of the Annajah Amèh Abokko, the Attah’s governor there, and drove the people of Adda Kuddu, a thriving dyeing and weaving town on the right bank below the confluence, across the river; the British found it in ruins in 1841. In the early 1840s Masaba camped at the confluence, and Nupe-speaking refugees such as the Bassa-Nge, fleeing his raids, settled at the foot of Mount Patti. In 1853 Masaba struck Koton Karfe and broke the Attah’s hold on the north; Koton Karfe was never conquered, and Lokoja, never sacked or plundered, grew into the meeting place of many peoples. Raids grew worse the next year and refugees crossed to the south bank of the Benue. Nupe raiding also reached south into the Okun Yoruba and Etsako country.",
+		"sources": [
+			"allen-thomson-1848",
+			"james-2017-igala",
+			"lasttribes-igala",
+			"wikipedia-ebira-people",
+			"wikipedia-lokoja",
+			"bassange-community-history",
+			"lokoja-antecedents"
+		],
 		"confidence": "medium"
 	},
 	"routes": [
-		{ "kind": "raid", "by": "Nupe (Bida emirate)", "path": [[6.01, 9.08], [6.55, 8.55], [6.7981, 8.0891], [6.74, 7.8]], "label": "Etsu Masaba takes Koton Karfe and Lokoja" },
 		{
 			"kind": "raid",
-			"by": "Nupe (Bida emirate)",
-			"path": [[6.01, 9.08], [6.2, 8.4], [6.07, 7.83], [6.4, 7.35], [6.69, 7.1]],
-			"label": "Raids south into Okun and Etsako country"
+			"by": "Nupe (Fulani-led, from Rabbah and later Bida)",
+			"when": "1838",
+			"path": [
+				[
+					5.03,
+					9.211
+				],
+				[
+					6.01,
+					9.08
+				],
+				[
+					6.55,
+					8.55
+				],
+				[
+					6.7981,
+					8.0891
+				],
+				[
+					6.735,
+					7.72
+				]
+			],
+			"label": "The Filatahs march down on Adda Kuddu",
+			"sources": [
+				"allen-thomson-1848"
+			],
+			"confidence": "high"
+		},
+		{
+			"kind": "raid",
+			"by": "Nupe (Fulani-led, from Rabbah and later Bida)",
+			"when": "1853",
+			"path": [
+				[
+					6.01,
+					9.08
+				],
+				[
+					6.55,
+					8.55
+				],
+				[
+					6.7981,
+					8.0891
+				]
+			],
+			"label": "Etsu Masaba raids down to Koton Karfe",
+			"sources": [
+				"james-2017-igala"
+			],
+			"confidence": "medium"
+		},
+		{
+			"kind": "raid",
+			"by": "Nupe (Fulani-led, from Rabbah and later Bida)",
+			"path": [
+				[
+					6.01,
+					9.08
+				],
+				[
+					6.05,
+					8.4
+				],
+				[
+					6.07,
+					7.83
+				],
+				[
+					6.15,
+					7.35
+				],
+				[
+					6.264,
+					6.864
+				]
+			],
+			"label": "Raids south through Kabba into Okun and Etsako country",
+			"sources": [
+				"lasttribes-igala"
+			],
+			"confidence": "medium"
 		}
 	],
 	"moments": [
 		{
+			"when": "1838",
+			"title": "Adda Kuddu emptied",
+			"text": "The Filatahs march down on the Annajah’s district. The people of Adda Kuddu flee to the sandbanks in mid-river and then to the left bank, where they rebuild their looms and markets, hoping the river will protect them. Their town, with its many large dye pits, is left to the bush.",
+			"at": {
+				"name": "Adda Kuddu (approximate)",
+				"point": [
+					6.735,
+					7.72
+				]
+			},
+			"mark": "flight",
+			"sources": [
+				"allen-thomson-1848"
+			],
+			"confidence": "high"
+		},
+		{
+			"when": "Early 1840s",
+			"title": "Refuge at the foot of Patti",
+			"text": "Masaba camps where Lokoja now stands. Nupe-speaking Bassa-Nge, fleeing his raids, settle at the foot of Mount Patti, beside the Oworo on the hill. The place is not plundered.",
+			"at": {
+				"name": "Mount Patti, Lokoja",
+				"point": [
+					6.735,
+					7.81
+				]
+			},
+			"mark": "camp",
+			"sources": [
+				"bassange-community-history",
+				"wikipedia-lokoja",
+				"lokoja-antecedents"
+			],
+			"confidence": "medium"
+		},
+		{
 			"when": "1853",
-			"title": "Koton Karfe and Lokoja taken",
-			"text": "Igu (Koton Karfe), long a vassal of the Attah, falls to the Nupe.",
-			"at": { "name": "Igu (Koton Karfe)", "point": [6.7981, 8.0891] },
-			"mark": "captured"
+			"title": "Masaba’s raid on Koton Karfe",
+			"text": "Etsu Masaba’s army strikes Igu (Koton Karfe), long a vassal of the Attah. The Attah’s hold on the north is broken, but Igu is not conquered and fights on.",
+			"at": {
+				"name": "Igu (Koton Karfe)",
+				"point": [
+					6.7981,
+					8.0891
+				]
+			},
+			"mark": "battle",
+			"sources": [
+				"james-2017-igala",
+				"wikipedia-ebira-people"
+			],
+			"confidence": "medium"
 		},
 		{
 			"when": "1854",
 			"title": "Refugees on the south bank",
 			"text": "Raids intensify; people flee across the Benue into Igala land.",
-			"at": { "name": "South bank of the Benue, opposite Lokoja (approximate)", "point": [6.86, 7.74] },
-			"mark": "flight"
+			"at": {
+				"name": "South bank of the Benue, opposite Lokoja (approximate)",
+				"point": [
+					6.86,
+					7.74
+				]
+			},
+			"mark": "flight",
+			"sources": [
+				"james-2017-igala"
+			],
+			"confidence": "medium"
 		}
 	],
-	"sources": ["james-2017-igala", "lasttribes-igala"],
+	"sources": [
+		"allen-thomson-1848",
+		"james-2017-igala",
+		"lasttribes-igala",
+		"wikipedia-ebira-people",
+		"dike-1957"
+	],
 	"confidence": "medium",
-	"note": "Another account dates the first sack of Igu to 1833; it may have changed hands more than once."
+	"note": "Allen gives 1838 for the march on the Annajah’s province and says the Filatahs drove the people from Adda Kuddu, without dating that town’s fall separately. Igu was first burned around 1832–33 (see Koton Karfe holds).",
+	"reviewNotes": [
+		"Adda Kuddu’s exact site is unknown. Allen puts it a few miles below Stirling Hill (Lokoja), where the banks are high and rocky; Trotter’s land purchase lay “on the right bank of the river near Adda-Kuddu”. It is placed on the right bank about ten kilometres below Lokoja.",
+		"“Kudu” is the Hausa word for south, and the expedition worked through Hausa interpreters, so “Adda Kuddu” may be a trade name rather than the town’s Igala name. The Igala name is not known yet.",
+		"James (2017) says Masaba took Koton Karfe and Lokoja in 1853. No other source records Lokoja being sacked or plundered (Dike 1957; Crowther 1872), and the owner directs (2026-10-11) that it is not shown as raided. For Koton Karfe, the Ebira account of fighting on to 1880 and the owner’s direction are followed in saying it was raided, not conquered."
+	]
 }

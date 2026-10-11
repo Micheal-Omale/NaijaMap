@@ -1,0 +1,113 @@
+{
+	"name": "Lokoja",
+	"status": "draft",
+	"otherNames": [
+		"Mount Patti",
+		"Okenka"
+	],
+	"point": [
+		6.74,
+		7.8
+	],
+	"founded": {
+		"year": 1800,
+		"yearLabel": "hill settlements on Patti before the 1800s; the town on the plain from 1857",
+		"sources": [
+			"wikipedia-lokoja",
+			"lokoja-antecedents"
+		],
+		"confidence": "medium",
+		"note": "The first settlements on and around Mount Patti are not dated. The town on the plain dates from Baikie’s settlement of 1857."
+	},
+	"summary": {
+		"text": "Lokoja was never one people’s town. Nupe from Gbara, Kupa and Kakanda from upriver, and Oworo Yoruba lived on and around Mount Patti, whose name is the Nupe word for hill. The land was the Attah’s: in 1841 he granted it to the British for their model farm. As the jihad came down the Niger it became a refuge, and the Bassa-Nge, fleeing Masaba’s raids, settled at the foot of Patti. It was never sacked or plundered. Masaba himself sent Baikie there, “where he said the British could stay”, and from 1859 Baikie’s settlement grew into a town of freed slaves, Sierra Leone and Lagos emigrants and traders from every side, under its own Hausa rulers, the Maigari. “Lokoja,” Dike writes, “belonged to no particular tribe and was the meeting place of adventurers from all quarters.” A British consulate and the CMS mission worked there until 1869, when the townspeople asked Masaba to protect them; from 1886 it was the Royal Niger Company’s military headquarters, and in 1900 the first capital of Northern Nigeria.",
+		"sources": [
+			"dike-1957",
+			"wikipedia-lokoja",
+			"crowther-1872",
+			"allen-thomson-1848",
+			"lokoja-antecedents",
+			"bassange-community-history",
+			"owner-2026-10-11-north"
+		],
+		"confidence": "medium"
+	},
+	"founders": [
+		{
+			"people": "Nupe",
+			"group": "nupe",
+			"from": {
+				"name": "Gbara",
+				"point": [
+					6.05,
+					8.9
+				]
+			},
+			"text": "Among the first to settle, Nupe from Gbara near Bida are believed to have lived on Mount Patti, and gave it its name.",
+			"sources": [
+				"wikipedia-lokoja"
+			],
+			"confidence": "medium"
+		},
+		{
+			"people": "Oworo (Yoruba)",
+			"group": "yoruba",
+			"text": "The Oworo held a settlement on Patti, Okenka, until the Europeans came.",
+			"sources": [
+				"lokoja-antecedents",
+				"wikipedia-lokoja"
+			],
+			"confidence": "disputed"
+		},
+		{
+			"people": "Bassa-Nge",
+			"group": "bassa-nge",
+			"polity": "nupe",
+			"from": {
+				"name": "Bida country",
+				"point": [
+					6.01,
+					9.08
+				]
+			},
+			"quarters": [
+				"the foot of Mount Patti"
+			],
+			"text": "Nupe-speaking refugees from the jihad. By their own tradition they settled at the foot of Mount Patti when they came to Lokoja, fleeing Masaba’s raids of the early 1840s, before many crossed the Benue into Igala land.",
+			"sources": [
+				"wikipedia-lokoja",
+				"bassange-community-history"
+			],
+			"confidence": "medium"
+		},
+		{
+			"people": "Hausa",
+			"group": "hausa",
+			"text": "Hausa traders and rulers: the Maigari of Lokoja (Hamza, Dauda, Musa, then Muhammadu Maikarfi, whom Baikie won over to bring the people down from the hills).",
+			"sources": [
+				"wikipedia-lokoja"
+			],
+			"confidence": "medium"
+		}
+	],
+	"under": [
+		{
+			"polity": "igala",
+			"from": 1700,
+			"to": 1841,
+			"kind": "ruled",
+			"text": "The Attah’s land; Igala fishermen lived on the river, and in 1841 the Attah granted the land to the British.",
+			"sources": [
+				"allen-thomson-1848",
+				"trotter-1843-report",
+				"owner-2026-10-06-lokoja-fishermen"
+			],
+			"confidence": "medium"
+		}
+	],
+	"reviewNotes": [
+		"Drawn as a multi-ethnic town between the powers after the Attah lost the north, on the owner’s direction (2026-10-11), not as Nupe land. Crowther (1872) has Masaba as its protector from 1869, and Bida later kept a delegate there for Okun tribute (see Kabba); neither is shown as rule.",
+		"Dike (1957) says the consulate was “harassed by native attacks” and withdrawn in 1869, and that Usman Zaki of Nupe “suppressed what was left” of the abandoned 1841 model farm; neither is a sack of the town, so neither is drawn.",
+		"The Oworo settlement on Patti (Okenka) comes from a paper read only in search extracts; check the full text."
+	]
+}
