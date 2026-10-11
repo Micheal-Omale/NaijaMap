@@ -1,6 +1,6 @@
 {
 	"name": "Keana",
-	"status": "draft",
+	"status": "published",
 	"otherNames": [],
 	"point": [8.834, 8.217],
 	"founded": { "year": 1200, "yearLabel": "12th century (tradition)", "sources": ["wikipedia-keana"], "confidence": "disputed" },

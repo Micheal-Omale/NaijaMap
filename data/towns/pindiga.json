@@ -1,6 +1,6 @@
 {
 	"name": "Pindiga",
-	"status": "draft",
+	"status": "published",
 	"otherNames": [],
 	"point": [10.953, 9.982],
 	"founded": { "year": 1550, "yearLabel": "16th–17th century", "sources": ["wikipedia-pindiga", "wikipedia-kwararafa"], "confidence": "medium" },

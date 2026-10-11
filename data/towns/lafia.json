@@ -1,6 +1,6 @@
 {
 	"name": "Lafia",
-	"status": "draft",
+	"status": "published",
 	"otherNames": ["Lafian Bare-Bari"],
 	"point": [8.517, 8.494],
 	"founded": { "year": 1780, "yearLabel": "late 18th century", "sources": ["wikipedia-lafia", "wikipedia-wukari-federation"], "confidence": "medium" },

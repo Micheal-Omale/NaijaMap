@@ -1,6 +1,6 @@
 {
 	"name": "Wase",
-	"status": "draft",
+	"status": "published",
 	"otherNames": ["Wase Tofa"],
 	"point": [9.951, 9.081],
 	"founded": { "year": 1813, "sources": ["wikipedia-wase"], "confidence": "medium" },
