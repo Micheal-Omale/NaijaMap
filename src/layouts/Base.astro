@@ -34,6 +34,8 @@ const { title = t('site.name'), description = t('site.description'), noindex = f
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<meta name="apple-mobile-web-app-status-bar-style" content="default" />
 		<meta name="apple-mobile-web-app-title" content="HistoNaija" />
+		<!-- Visitor counts (GoatCounter: no cookies, so no consent banner). Ignores localhost. -->
+		<script is:inline data-goatcounter="https://histonaija.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 		<slot name="head" />
 		<title>{title}</title>
 	</head>
