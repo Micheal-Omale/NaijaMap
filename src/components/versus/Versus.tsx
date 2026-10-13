@@ -37,6 +37,7 @@ import {
 import { cue, resumeOnGesture, setScene } from '../../lib/sound';
 import SoundToggle from '../map/SoundToggle';
 import ShareButton from '../ShareButton';
+import SiteMenu from '../SiteMenu';
 import Crest from './Crest';
 import VersusMap from './VersusMap';
 import './versus.css';
@@ -164,13 +165,16 @@ function Top({ tr }: { tr: Translate }) {
 	const { t } = tr;
 	return (
 		<header className="vs-top">
-			<a className="vs-brand" href="/?mode=then">
-				<svg viewBox="0 0 24 24" aria-hidden="true">
-					<path d="M15 6l-6 6 6 6" />
-				</svg>
-				<span>{t('site.name')}</span>
-				<span className="visually-hidden">: {t('versus.back')}</span>
-			</a>
+			<div className="vs-top__start">
+				<SiteMenu tr={tr} current="versus" />
+				<a className="vs-brand" href="/?mode=then">
+					<svg viewBox="0 0 24 24" aria-hidden="true">
+						<path d="M15 6l-6 6 6 6" />
+					</svg>
+					<span>{t('site.name')}</span>
+					<span className="visually-hidden">: {t('versus.back')}</span>
+				</a>
+			</div>
 			<p className="vs-top__title" aria-hidden="true">
 				{t('versus.title')}
 			</p>

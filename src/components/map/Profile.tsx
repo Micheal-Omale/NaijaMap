@@ -190,7 +190,10 @@ export default function Profile({ group, tr, onShowLga, onBack, onOpenKingdom, o
 										<path d="M5 4h11a3 3 0 013 3v13H8a3 3 0 01-3-3z" />
 										<path d="M5 17a3 3 0 013-3h11" />
 									</svg>
-									<span>{t('profile.seeKingdom', { name: k.name, year: k.peak })}</span>
+									<span className="kingdom-link__text">
+										{t('profile.seeKingdom', { name: k.name, year: k.peak })}
+										<span className="kingdom-link__cue">{t('profile.kingdomCue')}</span>
+									</span>
 								</button>
 							</li>
 						))}

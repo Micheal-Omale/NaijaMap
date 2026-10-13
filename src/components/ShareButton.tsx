@@ -28,6 +28,22 @@ async function copy(text: string): Promise<boolean> {
 	}
 }
 
+/** Shares the view in the address bar. Null when the share sheet did it, or was dismissed. */
+export async function shareView(text?: string): Promise<'copied' | 'failed' | null> {
+	const url = window.location.href;
+	const title = document.title;
+	// The share sheet suits touch screens; on a desktop it is a detour, so copy instead.
+	if (navigator.share && window.matchMedia('(pointer: coarse)').matches) {
+		try {
+			await navigator.share({ title, text: text ?? title, url });
+			return null;
+		} catch (err) {
+			if ((err as DOMException)?.name === 'AbortError') return null;
+		}
+	}
+	return (await copy(url)) ? 'copied' : 'failed';
+}
+
 export default function ShareButton({ tr, className = '', text }: { tr: Translate; className?: string; text?: string }) {
 	const { t } = tr;
 	const [note, setNote] = useState<'copied' | 'failed' | null>(null);
@@ -35,19 +51,9 @@ export default function ShareButton({ tr, className = '', text }: { tr: Translat
 	useEffect(() => () => clearTimeout(timer.current), []);
 
 	const share = async () => {
-		const url = window.location.href;
-		const title = document.title;
-		// The share sheet suits touch screens; on a desktop it is a detour, so copy instead.
-		if (navigator.share && window.matchMedia('(pointer: coarse)').matches) {
-			try {
-				await navigator.share({ title, text: text ?? title, url });
-				return;
-			} catch (err) {
-				if ((err as DOMException)?.name === 'AbortError') return;
-			}
-		}
-		const ok = await copy(url);
-		setNote(ok ? 'copied' : 'failed');
+		const result = await shareView(text);
+		if (!result) return;
+		setNote(result);
 		clearTimeout(timer.current);
 		timer.current = window.setTimeout(() => setNote(null), 2200);
 	};

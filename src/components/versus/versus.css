@@ -93,6 +93,41 @@
 	padding-bottom: 12px;
 }
 
+.vs-top__start {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	justify-self: start;
+	min-width: 0;
+}
+
+/* The menu, in the arena's night inks. */
+.vs .site-menu-button {
+	--surface: var(--bg);
+	width: 40px;
+	height: 40px;
+	margin-left: -8px;
+	color: var(--text);
+}
+
+.vs .site-menu-button:hover {
+	background: rgb(220 174 95 / 10%);
+}
+
+.vs .site-menu {
+	--surface: var(--bg-1);
+	--surface-2: var(--bg-2);
+	--ink: var(--text);
+	--ink-muted: var(--muted);
+	--ink-faint: var(--faint);
+	--rule: var(--line-2);
+	--accent: var(--gold);
+	--accent-ink: var(--bg);
+	box-shadow:
+		1px 0 0 var(--line-2),
+		12px 0 40px rgb(0 0 0 / 50%);
+}
+
 .vs-brand {
 	display: inline-flex;
 	align-items: center;

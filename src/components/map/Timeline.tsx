@@ -234,6 +234,7 @@ export default function Timeline({ history, year, onYear, onArrive, onMoment, on
 						type="button"
 						className="timeline__btn timeline__btn--play"
 						aria-label={playing ? t('timeline.pause') : t('timeline.play')}
+						aria-describedby={playing ? undefined : 'timeline-cue'}
 						aria-pressed={playing}
 						onClick={() => {
 							if (playing) {
@@ -268,6 +269,13 @@ export default function Timeline({ history, year, onYear, onArrive, onMoment, on
 						</svg>
 					</button>
 				</div>
+
+				{/* What Play brings, said before it is pressed. The words start it too, for a finger that lands on them. */}
+				{!playing && (
+					<span id="timeline-cue" className="timeline__cue" onClick={() => setPlaying(true)}>
+						{t('timeline.cue')}
+					</span>
+				)}
 
 				<output className="timeline__year" aria-live="off">
 					{shown >= TODAY ? t('timeline.today') : shown}

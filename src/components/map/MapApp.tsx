@@ -23,6 +23,7 @@ import { FAMILY_PREFIX, familyHighlight, familyId, languageGroups, type Language
 import { useSheetDrag, type SheetState } from './sheet-drag';
 import SoundToggle from './SoundToggle';
 import ShareButton from '../ShareButton';
+import SiteMenu, { ViewIcon } from '../SiteMenu';
 import Swap from './Swap';
 import { cue, resumeOnGesture, setScene } from '../../lib/sound';
 import Timeline from './Timeline';
@@ -861,6 +862,12 @@ export default function MapApp({ lang }: Props) {
 			<div className="panel">
 				<div className="topbar">
 					<div className="topbar__row">
+						<SiteMenu
+							tr={tr}
+							current={mode}
+							hrefs={{ versus: versusHref }}
+							onView={(v) => (v === 'today' ? selectGroup(null) : v === 'then' ? openThen() : openPower())}
+						/>
 						<a className="brand" href="/" aria-label={t('site.name')}>
 							<span className="brand__mark" aria-hidden="true" />
 							<span className="brand__name">{t('site.name')}</span>
@@ -869,33 +876,19 @@ export default function MapApp({ lang }: Props) {
 						<ShareButton tr={tr} />
 						<div className="mode-switch" role="group" aria-label={t('mode.label')}>
 							<button type="button" title={t('mode.today')} aria-pressed={mode === 'today'} onClick={() => mode !== 'today' && selectGroup(null)}>
-								<svg viewBox="0 0 24 24" aria-hidden="true">
-									<circle cx="12" cy="9" r="3.2" />
-									<path d="M12 21s-6.5-6-6.5-11.5a6.5 6.5 0 0113 0C18.5 15 12 21 12 21z" />
-								</svg>
+								<ViewIcon view="today" />
 								<span>{t('mode.today.short')}</span>
 							</button>
 							<button type="button" title={t('mode.then')} aria-pressed={mode === 'then'} onClick={() => mode !== 'then' && openThen()}>
-								<svg viewBox="0 0 24 24" aria-hidden="true">
-									<path d="M5 4h11a3 3 0 013 3v13H8a3 3 0 01-3-3z" />
-									<path d="M5 17a3 3 0 013-3h11" />
-								</svg>
+								<ViewIcon view="then" />
 								<span>{t('mode.then.short')}</span>
 							</button>
 							<button type="button" aria-pressed={mode === 'power'} onClick={() => mode !== 'power' && openPower()}>
-								<svg viewBox="0 0 24 24" aria-hidden="true">
-									<path d="M4 20h16" />
-									<path d="M6 20V10l6-5 6 5v10" />
-									<path d="M10 20v-5h4v5" />
-								</svg>
+								<ViewIcon view="power" />
 								<span>{t('mode.power')}</span>
 							</button>
 							<a className="mode-switch__link" href={versusHref} title={t('mode.versus.long')}>
-								<svg viewBox="0 0 24 24" aria-hidden="true">
-									<path d="M4 4l9 9M4 4h4M4 4v4" />
-									<path d="M20 4l-9 9M20 4h-4M20 4v4" />
-									<path d="M7 14l3 3-3 3M17 14l-3 3 3 3" />
-								</svg>
+								<ViewIcon view="versus" />
 								<span>{t('mode.versus')}</span>
 							</a>
 						</div>

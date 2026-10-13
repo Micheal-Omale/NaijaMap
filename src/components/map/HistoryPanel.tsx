@@ -1,11 +1,12 @@
 // The side panel in the history view: the states and events on the map in the
-// chosen year, the peoples who governed themselves between them, and the map key. A polity's story opens in StoryMode, an event in
-// EventPanel.
+// chosen year, then every other state in the atlas (so the list always holds them
+// all), the peoples who governed themselves between them, and the map key. A
+// polity's story opens in StoryMode, an event in EventPanel.
 
 import type { Translate } from '../../i18n/utils';
 import { COLONIAL_INK, isForeign } from '../../lib/ink';
 import { activeAt, eventsOn, eventYears, societiesAt, TODAY } from '../../lib/timeline';
-import type { History, LinkKind, MarkKind, RouteKind } from '../../lib/types';
+import type { History, LinkKind, MarkKind, PolityView, RouteKind } from '../../lib/types';
 import { EVENT_MARK, LINKS, MARKS, ROUTES } from './glyphs';
 import { LineSample, MarkIcon, ShipIcon } from './Marks';
 
@@ -122,7 +123,27 @@ interface IntroProps {
 	onStateLines: (on: boolean) => void;
 }
 
-/** The states and events on the map in this year, or at the Today stop, the seats that remain. */
+/** One state in the list, opening its story. `off`: not on the map in this year, its ink an empty square. */
+function PolityRow({ polity: p, line, off, tr, onSelect }: { polity: PolityView; line: string; off?: boolean; tr: Translate; onSelect: (id: string) => void }) {
+	return (
+		<button type="button" className="polity-row" onClick={() => onSelect(p.id)}>
+			<span className={`polity-row__ink${off ? ' polity-row__ink--off' : ''}`} style={off ? { color: p.color } : { background: p.color }} aria-hidden="true" />
+			<span className="polity-row__text">
+				<strong>{p.name}</strong>
+				<span>{line}</span>
+			</span>
+			{/* What a tap brings: its story, told like a film. */}
+			<span className="polity-row__cue">
+				<svg viewBox="0 0 24 24" aria-hidden="true">
+					<path d="M8 5.5l10 6.5-10 6.5z" />
+				</svg>
+				{tr.t('then.storyCue')}
+			</span>
+		</button>
+	);
+}
+
+/** The states and events on the map in this year, or at the Today stop, the seats that remain; then every other state. */
 export function HistoryIntro({ history, year, tr, onSelect, onOpenEvent, showStateLines, onStateLines }: IntroProps) {
 	const { t, plural } = tr;
 	const active = activeAt(history, year);
@@ -131,6 +152,9 @@ export function HistoryIntro({ history, year, tr, onSelect, onOpenEvent, showSta
 	const next = nextYear ? history.polities.find((p) => p.span.from === nextYear) : undefined;
 	// Each place a people is named once, in the order of the alphabet.
 	const peoples = [...new Set(societiesAt(history, year).flatMap((s) => s.lands.filter((l) => l.from <= year && year <= l.to).map((l) => l.name)))].sort((a, b) => a.localeCompare(b));
+	const onMap = year >= TODAY ? history.polities.filter((p) => p.today.seat) : active.map((a) => a.polity);
+	// Every state not on the map in this year, oldest first, so no kingdom is ever missing from the list.
+	const others = history.polities.filter((p) => !onMap.includes(p)).sort((a, b) => a.span.from - b.span.from);
 
 	return (
 		<div className="intro then-intro">
@@ -142,21 +166,27 @@ export function HistoryIntro({ history, year, tr, onSelect, onOpenEvent, showSta
 			)}
 			{year < TODAY && active.length === 0 && <p className="muted">{t('then.none')}</p>}
 			<ul className="polity-list">
-				{(year >= TODAY ? history.polities.filter((p) => p.today.seat) : active.map((a) => a.polity)).map((p) => {
+				{onMap.map((p) => {
 					const a = active.find((x) => x.polity === p);
 					return (
 						<li key={p.id}>
-							<button type="button" className="polity-row" onClick={() => onSelect(p.id)}>
-								<span className="polity-row__ink" style={{ background: p.color }} aria-hidden="true" />
-								<span className="polity-row__text">
-									<strong>{p.name}</strong>
-									<span>{a ? a.snapshot.title : (p.today.title ?? p.today.text)}</span>
-								</span>
-							</button>
+							<PolityRow polity={p} line={a ? a.snapshot.title : (p.today.title ?? p.today.text)} tr={tr} onSelect={onSelect} />
 						</li>
 					);
 				})}
 			</ul>
+			{others.length > 0 && (
+				<>
+					<h3 className="then-intro__others">{year >= TODAY ? plural('then.othersToday', others.length) : plural('then.others', others.length, { year })}</h3>
+					<ul className="polity-list polity-list--others">
+						{others.map((p) => (
+							<li key={p.id}>
+								<PolityRow polity={p} line={`${t(`kind.${p.kind}`)} · ${p.span.from}–${p.span.to}`} off tr={tr} onSelect={onSelect} />
+							</li>
+						))}
+					</ul>
+				</>
+			)}
 			{events.length > 0 && (
 				<>
 					<h3 className="then-intro__events">{plural('then.events', events.length)}</h3>

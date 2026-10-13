@@ -63,7 +63,8 @@
 			transform 0.3s var(--sheet-ease);
 	}
 
-	.topbar:focus-within {
+	/* The ring marks typing in the bar, not the open menu (whose drawer lives inside it). */
+	.topbar:focus-within:not(:has(.site-menu[open])) {
 		box-shadow:
 			var(--elevation),
 			0 0 0 2px var(--accent);
@@ -71,6 +72,18 @@
 
 	.topbar__row {
 		display: contents;
+	}
+
+	/* The menu opens from the start of the bar. In the people search it takes the mark's place. */
+	.topbar .site-menu-button {
+		order: -1;
+		width: 44px;
+		height: 44px;
+		margin: 0;
+	}
+
+	.app[data-mode='today'] .brand {
+		display: none;
 	}
 
 	.brand {
