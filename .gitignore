@@ -33,3 +33,5 @@ data/raw/
 film-public/
 out/
 film-plates-2x/
+
+.vercel
