@@ -12,6 +12,11 @@ const DRAG = {
 	slop: 6,
 	/** A flick faster than this (px per ms) carries the sheet past the nearest height to the next. */
 	flick: 0.45,
+	/**
+	 * A slow pull longer than this (px) still reaches the next height along: a reader scrolling a
+	 * peeking card means "show me more", and springing back made the sheet feel stuck.
+	 */
+	commit: 40,
 	/** Velocity is read over the last stretch of the gesture. */
 	sampleMs: 90,
 	/** Past the lowest or highest height the sheet resists, like a rubber band. */
@@ -34,13 +39,20 @@ function heights(sheet: HTMLElement): Record<SheetState, number> {
 	return { peek: px('--sheet-peek'), half: px('--sheet-half'), full: px('--sheet-full') };
 }
 
-/** Where a released sheet comes to rest. */
-function settle(h: number, v: number, stops: Record<SheetState, number>): SheetState {
+/** Where a sheet released at height h, after starting at `from`, comes to rest. */
+function settle(from: number, h: number, v: number, stops: Record<SheetState, number>): SheetState {
+	const nearest = (among: SheetState[]) => among.reduce((best, s) => (Math.abs(stops[s] - h) < Math.abs(stops[best] - h) ? s : best));
 	if (Math.abs(v) > DRAG.flick) {
 		const ahead = v > 0 ? ORDER.filter((s) => stops[s] > h + 1) : ORDER.filter((s) => stops[s] < h - 1).reverse();
 		return ahead[0] ?? (v > 0 ? 'full' : 'peek');
 	}
-	return ORDER.reduce((best, s) => (Math.abs(stops[s] - h) < Math.abs(stops[best] - h) ? s : best), 'peek' as SheetState);
+	// A deliberate pull never springs back: it rests at the nearest height on the side it was pulled to.
+	const moved = h - from;
+	if (Math.abs(moved) > DRAG.commit) {
+		const beyond = ORDER.filter((s) => (moved > 0 ? stops[s] > from + 1 : stops[s] < from - 1));
+		if (beyond.length > 0) return nearest(beyond);
+	}
+	return nearest(ORDER);
 }
 
 export function useSheetDrag(ref: RefObject<HTMLElement | null>, state: SheetState, onState: (s: SheetState) => void, enabled: boolean): void {
@@ -100,7 +112,7 @@ export function useSheetDrag(ref: RefObject<HTMLElement | null>, state: SheetSta
 			const v = last.t > first.t ? (first.y - last.y) / (last.t - first.t) : 0;
 			sheet.style.height = '';
 			delete sheet.dataset.dragging;
-			latest.current.onState(settle(h, v, done.stops!));
+			latest.current.onState(settle(done.h, h, v, done.stops!));
 			// The press that ended a drag is not a tap on whatever lay under the finger.
 			const swallow = (c: Event) => {
 				c.stopPropagation();
@@ -113,11 +125,32 @@ export function useSheetDrag(ref: RefObject<HTMLElement | null>, state: SheetSta
 		// Touch listeners stay passive, so the content scrolls on the compositor without waiting
 		// for script. Nothing needs stopping: a peeking sheet and its handle have touch-action: none,
 		// and a pull down from the top of open content has nothing left to scroll.
-		const touchStart = (e: TouchEvent) => {
-			if (e.touches.length === 1) begin(e.touches[0].clientY, e.target, e.timeStamp);
-		};
 		const touchMove = (e: TouchEvent) => {
 			if (e.touches.length === 1) track(e.touches[0].clientY, e.timeStamp);
+		};
+		// A touch's moves and its end go to the element it began on, even after a re-render (a
+		// tap that opens a new card) takes that element out of the page, where they no longer
+		// bubble to the sheet. So the gesture listens on that element: else a drag never ends,
+		// and the sheet stays locked with its scrolling off.
+		let touched: EventTarget | null = null;
+		const release = () => {
+			touched?.removeEventListener('touchmove', touchMove as EventListener);
+			touched?.removeEventListener('touchend', touchEnd);
+			touched?.removeEventListener('touchcancel', touchEnd);
+			touched = null;
+		};
+		const touchEnd = () => {
+			release();
+			end();
+		};
+		const touchStart = (e: TouchEvent) => {
+			if (e.touches.length !== 1 || !e.target) return;
+			release();
+			touched = e.target;
+			touched.addEventListener('touchmove', touchMove as EventListener, { passive: true });
+			touched.addEventListener('touchend', touchEnd, { passive: true });
+			touched.addEventListener('touchcancel', touchEnd, { passive: true });
+			begin(e.touches[0].clientY, e.target, e.timeStamp);
 		};
 		// Mouse (a narrow desktop window): the handle drags, as on a phone.
 		const mouseDown = (e: PointerEvent) => {
@@ -134,16 +167,14 @@ export function useSheetDrag(ref: RefObject<HTMLElement | null>, state: SheetSta
 		};
 
 		sheet.addEventListener('touchstart', touchStart, { passive: true });
-		sheet.addEventListener('touchmove', touchMove, { passive: true });
-		sheet.addEventListener('touchend', end, { passive: true });
-		sheet.addEventListener('touchcancel', end, { passive: true });
 		sheet.addEventListener('pointerdown', mouseDown);
 		return () => {
 			sheet.removeEventListener('touchstart', touchStart);
-			sheet.removeEventListener('touchmove', touchMove);
-			sheet.removeEventListener('touchend', end);
-			sheet.removeEventListener('touchcancel', end);
 			sheet.removeEventListener('pointerdown', mouseDown);
+			release();
+			// Switched off mid-drag (a story opening): leave the sheet free, not frozen at the finger.
+			sheet.style.height = '';
+			delete sheet.dataset.dragging;
 		};
 	}, [ref, enabled]);
 }
