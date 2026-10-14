@@ -1,0 +1,62 @@
+{
+	"name": "The Lagos Treaty of Cession",
+	"status": "draft",
+	"kind": "treaty",
+	"year": 1861,
+	"yearLabel": "6 August 1861",
+	"until": 1866,
+	"actors": [
+		{ "name": "Oba Dosunmu of Lagos", "polity": "lagos", "side": "defender" },
+		{ "name": "Acting Consul William McCoskry and Commander Norman Bedingfield (HMS Prometheus)", "side": "colonial" }
+	],
+	"summary": {
+		"text": "Ten years after installing Akitoye, Britain moved to take Lagos outright. With Kosoko still a threat and the French at Whydah, the Prime Minister, Lord Palmerston, noted ‘the expediency of losing no time in assuming the formal Protectorate of Lagos’. On 30 July 1861 Acting Consul William McCoskry and Commander Norman Bedingfield received Oba Dosunmu aboard HMS Prometheus, explained Britain's intent, and required his answer in August. Dosunmu resisted, but under Bedingfield's threat to bombard the town he signed on 6 August 1861. He ceded the port and island of Lagos to the Queen ‘freely, fully and entirely and absolutely’, keeping only the title of king ‘in its usual African signification’, the right to settle disputes between Lagosians with their consent and subject to appeal to British law, and his stamp as proof of title in land transfers, for a pension equal to the revenue he gave up. Lagos became the first British colony in what is now Nigeria.",
+		"sources": ["wikipedia-lagos-treaty-of-cession", "wikipedia-dosunmu", "wikipedia-kosoko"],
+		"confidence": "high"
+	},
+	"routes": [
+		{
+			"kind": "voyage",
+			"vessel": "steam",
+			"by": "Acting Consul William McCoskry and Commander Norman Bedingfield (HMS Prometheus)",
+			"path": [[3.2, 6.3], [3.37, 6.41], [3.39, 6.44]],
+			"label": "HMS Prometheus lies off Lagos while the terms are put to Dosunmu",
+			"when": "July–August 1861",
+			"sources": ["wikipedia-lagos-treaty-of-cession"],
+			"confidence": "medium",
+			"note": "The ship's exact anchorage is not given; drawn into the lagoon mouth."
+		}
+	],
+	"moments": [
+		{
+			"when": "30 July 1861",
+			"title": "Aboard HMS Prometheus",
+			"text": "McCoskry and Bedingfield meet Dosunmu on the warship, tell him Britain means to take Lagos, and give him until August to accept.",
+			"at": { "name": "Off Lagos, aboard HMS Prometheus", "point": [3.39, 6.44] },
+			"mark": "anchor",
+			"sources": ["wikipedia-lagos-treaty-of-cession", "wikipedia-dosunmu"]
+		},
+		{
+			"when": "6 August 1861",
+			"title": "Lagos ceded",
+			"text": "Under threat of bombardment Dosunmu signs, with his chiefs Telake and Obalekow, before Bedingfield and McCoskry. Article I gives the port, island and territories of Lagos to the Crown for ever; Article II leaves him the title of king; Article III keeps his stamp on land transfers. His pension was later fixed at £1,000 a year.",
+			"at": { "name": "Eko (Lagos Island)", "point": [3.394, 6.455] },
+			"mark": "treaty",
+			"sources": ["wikipedia-lagos-treaty-of-cession", "wikipedia-dosunmu"]
+		},
+		{
+			"when": "After 1861",
+			"title": "Kosoko comes home",
+			"text": "With Lagos British, Kosoko is allowed back as Oloja of Ereko with a pension of £400 a year. His trading faction, with Oshodi Tapa and Taiwo Olowo, soon outdoes the Oba's.",
+			"at": { "name": "Ereko, Lagos", "point": [3.392, 6.46] },
+			"mark": "treaty",
+			"sources": ["wikipedia-kosoko"]
+		}
+	],
+	"sources": ["wikipedia-lagos-treaty-of-cession", "wikipedia-dosunmu", "wikipedia-kosoko"],
+	"confidence": "high",
+	"reviewNotes": [
+		"The event lagos-1851 also marks the cession as one moment of the British intervention; this event tells the treaty itself.",
+		"Ereko is drawn on Lagos Island next to the Eko point; its exact place in the town was not looked up."
+	]
+}

@@ -1,0 +1,46 @@
+{
+	"name": "The Iva Valley shooting",
+	"status": "draft",
+	"kind": "colonial",
+	"year": 1949,
+	"yearLabel": "18 November 1949",
+	"until": 1952,
+	"actors": [
+		{ "name": "British forces", "side": "colonial" },
+		{ "name": "Enugu coal miners", "side": "resister" }
+	],
+	"summary": {
+		"text": "Enugu, capital of the Eastern Region from 1938, grew around the government coal mines, which employed about 6,000 men in 1948, most of them from Udi. Conditions were harsh, with beatings, humiliations and irregular pay, and in late 1949 the miners of the Iva Valley mine believed large sums of arrears were being withheld from them, a belief fed by the nationalist ‘Zikist’ press. On 18 November 1949 police under a British superintendent, F. S. Philip, fired on the unarmed strikers, killing 21 and wounding 51. The shooting fired nationalist feeling across Nigeria, above all in the East: pro-Zikist unions formed the National Emergency Committee, which spread word of the killings and organised meetings, demonstrations and riots against colonial rule.",
+		"sources": ["wikipedia-enugu-colliery-1949"],
+		"confidence": "high"
+	},
+	"moments": [
+		{
+			"when": "November 1949",
+			"title": "The strike",
+			"text": "The Iva Valley miners strike over the arrears they believe the management is withholding.",
+			"at": { "name": "Iva Valley mine, Enugu", "point": [7.457, 6.461] },
+			"mark": "camp",
+			"sources": ["wikipedia-enugu-colliery-1949"]
+		},
+		{
+			"when": "18 November 1949",
+			"title": "The shooting",
+			"text": "Superintendent F. S. Philip orders his British and Nigerian police to fire on the unarmed miners: 21 are killed and 51 wounded.",
+			"at": { "name": "Iva Valley mine, Enugu", "point": [7.457, 6.461] },
+			"mark": "massacre",
+			"sources": ["wikipedia-enugu-colliery-1949"]
+		},
+		{
+			"when": "1949–1950",
+			"title": "The National Emergency Committee",
+			"text": "Unions sympathetic to the Zikists and the NCNC form the National Emergency Committee, which carries news of the killings across Nigeria and organises protests and riots.",
+			"at": { "name": "Enugu", "point": [7.49, 6.45] },
+			"mark": "founded",
+			"sources": ["wikipedia-enugu-colliery-1949"]
+		}
+	],
+	"sources": ["wikipedia-enugu-colliery-1949"],
+	"confidence": "high",
+	"reviewNotes": ["The mine is placed from the GRID3 settlement Iva Valley (Enugu North)."]
+}

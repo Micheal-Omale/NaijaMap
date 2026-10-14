@@ -1,0 +1,93 @@
+{
+	"name": "The protection treaties and the Oil Rivers Protectorate",
+	"status": "draft",
+	"kind": "treaty",
+	"year": 1884,
+	"yearLabel": "1884–1886",
+	"until": 1893,
+	"actors": [
+		{ "name": "British consul Edward Hyde Hewett", "side": "colonial" },
+		{ "name": "Itsekiri (Nana Olomu and the leading men)", "polity": "warri", "side": "ally" },
+		{ "name": "Old Calabar (the Obong and chiefs)", "polity": "old-calabar", "side": "ally" },
+		{ "name": "Opobo (King Jaja)", "polity": "opobo", "side": "ally" },
+		{ "name": "Bonny", "polity": "bonny", "side": "ally" }
+	],
+	"summary": {
+		"text": "In mid-1884, fearing that Germany would take the coast as it had just taken the Cameroons, the Foreign Office sent Consul Edward Hewett to get treaties of protection from the rulers of the Niger Delta and the Cross River. The treaties placed each state under the Queen's protection and bound its rulers to make no agreement with any foreign power without British approval; several also opened their country to free trade and missionaries. The rulers were told that Britain had no wish to disturb their rule, and some struck out or held back the free-trade clauses. With these treaties in hand, Britain claimed the coast at the Berlin Conference and in June 1885 announced the Oil Rivers Protectorate, moving its consulate from Fernando Po to Calabar. Within a decade the clauses the rulers had refused were enforced against them: Jaja of Opobo was deported in 1887 and Nana Olomu's Ebrohimi was taken in 1894.",
+		"sources": ["wikipedia-colonial-nigeria", "wikipedia-nana-olomu", "businessday-jaja-1884", "dawodu-bakassi-story", "wikipedia-kingdom-of-bonny"],
+		"confidence": "medium"
+	},
+	"moments": [
+		{
+			"when": "16 July 1884",
+			"title": "The Itsekiri treaty",
+			"text": "Four days after the Itsekiri elders chose him Governor of the Benin River at Hewett's request, Nana Olomu and other leading Itsekiri men sign a treaty putting Itsekiriland under British protection. They hold back Article VI (free trade and residence for all comers) and Article VII (missionaries) for further talks. British officials later treated Article VI as binding all the same, and it was used against Nana at his trial in 1894.",
+			"at": { "name": "Itsekiri country on the Benin River (drawn at Nana's town, Ebrohimi)", "point": [5.174, 5.885] },
+			"mark": "treaty",
+			"confidence": "high",
+			"sources": ["wikipedia-nana-olomu"]
+		},
+		{
+			"when": "10 September 1884",
+			"title": "Old Calabar accepts protection",
+			"text": "The Obong and chiefs of Old Calabar sign a treaty under which Britain extends its protection to them, and they promise to make no agreement or treaty with any foreign nation without the British government's approval. A century later the treaty was at the heart of the Bakassi case between Nigeria and Cameroon.",
+			"at": { "name": "Duke Town (Atakpa)", "point": [8.32, 4.95] },
+			"mark": "treaty",
+			"confidence": "medium",
+			"sources": ["dawodu-bakassi-story", "icj-nigeria-rejoinder-2001"]
+		},
+		{
+			"when": "15 November 1884 – 26 February 1885",
+			"title": "The Berlin Conference",
+			"text": "Fourteen powers meet in Berlin and sign the General Act regulating colonisation and trade in Africa. Britain's protection treaties and the Company's monopoly on the lower Niger win it recognition of its sphere on the Niger and the Oil Rivers.",
+			"mark": "treaty",
+			"confidence": "high",
+			"sources": ["wikipedia-berlin-conference", "wikipedia-colonial-nigeria"]
+		},
+		{
+			"when": "19 December 1884",
+			"title": "Jaja signs, without free trade",
+			"text": "With a man-of-war offshore, Jaja of Opobo places his kingdom under British protection, but only after the clause providing for free trade in his country is struck out at his insistence. Hewett assures him the Queen has no wish to disturb his rule.",
+			"at": { "name": "Opobo", "point": [7.54, 4.51] },
+			"mark": "treaty",
+			"confidence": "medium",
+			"sources": ["businessday-jaja-1884", "wikipedia-jaja-of-opobo"]
+		},
+		{
+			"when": "5 June 1885",
+			"title": "The Oil Rivers Protectorate",
+			"text": "Britain announces its protectorate over the coast, among them Brass, Bonny, Opobo, Aboh and Old Calabar, with Hewett as consul general. The consulate moves from Fernando Po to Calabar; vice-consuls are posted to the treaty ports and consular courts take over the old traders' courts. Jaja's protest to London is ignored.",
+			"at": { "name": "Calabar, seat of the consulate", "point": [8.32, 4.96] },
+			"mark": "founded",
+			"confidence": "medium",
+			"sources": ["dcstamps-oil-rivers", "wikipedia-colonial-nigeria", "businessday-jaja-1884"]
+		},
+		{
+			"when": "February 1886",
+			"title": "Bonny's protectorate treaty",
+			"text": "Bonny signs a protectorate treaty with Britain. A ruling council is set up, King George Pepple is restored to his throne, and the strongman Oko Jumbo is publicly degraded and his bans on Christianity repealed.",
+			"at": { "name": "Bonny", "point": [7.17, 4.45] },
+			"mark": "treaty",
+			"confidence": "high",
+			"sources": ["wikipedia-kingdom-of-bonny"]
+		},
+		{
+			"when": "1893",
+			"title": "The Niger Coast Protectorate",
+			"text": "The protectorate is renamed the Niger Coast Protectorate and extended inland, from Calabar to the borders of Lagos Colony.",
+			"at": { "name": "Calabar", "point": [8.32, 4.96] },
+			"mark": "founded",
+			"confidence": "disputed",
+			"sources": ["dcstamps-oil-rivers", "wikipedia-colonial-nigeria"]
+		}
+	],
+	"sources": ["wikipedia-colonial-nigeria", "wikipedia-nana-olomu", "businessday-jaja-1884", "dawodu-bakassi-story", "icj-nigeria-rejoinder-2001", "dcstamps-oil-rivers", "wikipedia-berlin-conference", "wikipedia-kingdom-of-bonny", "wikipedia-jaja-of-opobo"],
+	"confidence": "medium",
+	"reviewNotes": [
+		"The Old Calabar date (10 September 1884) rests on one partisan web history; the ICJ record confirms only that a protectorate treaty was made in 1884. The Opobo date (19 December 1884) comes from a search extract. Both want checking against Hertslet's Map of Africa by Treaty or FO 84.",
+		"The proclamation date 5 June 1885 is from a philatelic history; Wikipedia gives only 1885 (Colonial Nigeria also says 1884).",
+		"The renaming is dated 12 May 1893 by one source and 1894 by Wikipedia's Colonial Nigeria; marked disputed.",
+		"Where the Itsekiri treaty was signed is not stated; it is drawn at Nana's town.",
+		"Brass, Aboh and other treaty states of 1884 are not given their own moments for want of dated sources."
+	]
+}

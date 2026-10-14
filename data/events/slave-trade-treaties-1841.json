@@ -1,0 +1,64 @@
+{
+	"name": "Bonny and Old Calabar sign away the slave trade",
+	"status": "draft",
+	"kind": "treaty",
+	"year": 1841,
+	"yearLabel": "1841–1846",
+	"until": 1850,
+	"actors": [
+		{ "name": "Royal Navy (Captain William Tucker; Commander Raymond)", "side": "european" },
+		{ "name": "Bonny (King William Pepple)", "polity": "bonny", "side": "ally" },
+		{ "name": "Old Calabar (Eyamba V of Duke Town; Eyo Honesty II of Creek Town)", "polity": "old-calabar", "side": "ally" }
+	],
+	"summary": {
+		"text": "Britain had banned its own slave trade in 1807, but ships of other nations kept buying captives at Bonny and Old Calabar for another generation. From 1841 Royal Navy officers on the coast pressed the kings of the two leading ports to sign treaties ending the export of slaves, in return for yearly payments in goods or dollars for five years. At Bonny, King William Pepple signed a convention with Captain William Tucker of HMS Iris in 1841 and was held to it again in 1844. At Old Calabar, Commander Raymond brought treaties that Eyamba V of Duke Town and Eyo Honesty II of Creek Town signed; the treaty of 1842 promised them compensation every year for five years. Eyamba asked in return for cotton and coffee seed and for teachers, and the kings' letters brought the Church of Scotland mission to Calabar in 1846. Palm oil and palm kernels became the ports' trade.",
+		"sources": ["victorianweb-pepple", "bonny-tucker-convention", "wikipedia-eyo-honesty-ii", "wikipedia-eyamba-v", "wikipedia-kingdom-of-bonny"],
+		"confidence": "medium",
+		"note": "The day each treaty was signed is not settled in the sources read: Bonny's convention is put in August 1841 (one Nigerian source says 1839), and Old Calabar's in 1841 or 1842."
+	},
+	"moments": [
+		{
+			"when": "August 1841",
+			"title": "Bonny's convention with HMS Iris",
+			"text": "King Pepple and the chiefs of Bonny agree with Captain William Tucker, senior officer of the Royal Navy on the coast, to end all trade in slaves and their passage through Bonny's territory. Britain promises goods worth 10,000 dollars a year for five years.",
+			"at": { "name": "Bonny", "point": [7.17, 4.45] },
+			"mark": "treaty",
+			"confidence": "medium",
+			"sources": ["victorianweb-pepple", "bonny-tucker-convention"]
+		},
+		{
+			"when": "1841–1842",
+			"title": "Old Calabar gives up the export of slaves",
+			"text": "Commander Raymond brings anti–slave trade treaties to the Efik towns. Eyamba V of Duke Town and Eyo Honesty II of Creek Town sign. The treaty of 1842 outlaws the sale and export of slaves and promises Eyamba compensation every year for five years. On 4 December 1842 Eyamba writes to Raymond: ‘Now we settle treaty for not sell slave’, asking for seed for cotton and coffee and for men to ‘teach book’.",
+			"at": { "name": "Duke Town (Atakpa)", "point": [8.32, 4.95] },
+			"mark": "treaty",
+			"confidence": "medium",
+			"sources": ["wikipedia-eyo-honesty-ii", "wikipedia-eyamba-v"]
+		},
+		{
+			"when": "June 1844",
+			"title": "Bonny held to its word",
+			"text": "The British oblige King Pepple again to stop any slave trade from Bonny altogether.",
+			"at": { "name": "Bonny", "point": [7.17, 4.45] },
+			"mark": "treaty",
+			"confidence": "medium",
+			"sources": ["victorianweb-pepple"]
+		},
+		{
+			"when": "1846",
+			"title": "The missionaries the kings asked for",
+			"text": "The first Church of Scotland missionaries reach Old Calabar and settle at Duke Town and Creek Town. King Eyo welcomes them and works with them against the killing of twins and human sacrifice.",
+			"at": { "name": "Creek Town", "point": [8.276, 4.99] },
+			"mark": "founded",
+			"confidence": "high",
+			"sources": ["wikipedia-eyo-honesty-ii"]
+		}
+	],
+	"sources": ["victorianweb-pepple", "bonny-tucker-convention", "wikipedia-eyo-honesty-ii", "wikipedia-eyamba-v", "wikipedia-kingdom-of-bonny"],
+	"confidence": "medium",
+	"reviewNotes": [
+		"Exact signing days are not confirmed: Bonny August 1841 (Victorian Web; a Nigerian source reproducing the Tucker convention gives 1839), Old Calabar 1841 (Wikipedia) with the compensation treaty in 1842. A Calabar union document dates the first Calabar treaty to 6 December 1841; not read directly.",
+		"Whether London ratified and paid Bonny's 10,000 dollars a year is not settled in the sources read.",
+		"Aboh's treaty of 1841 is told in the event niger-expedition-1841 and is not repeated here."
+	]
+}

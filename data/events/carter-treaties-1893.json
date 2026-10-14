@@ -1,0 +1,108 @@
+{
+	"name": "Carter's treaties and the end of the Yoruba wars",
+	"status": "draft",
+	"kind": "treaty",
+	"year": 1893,
+	"yearLabel": "January–August 1893",
+	"until": 1900,
+	"actors": [
+		{ "name": "Lagos Colony (Governor Gilbert Carter; Acting Governor George Denton)", "side": "colonial" },
+		{ "name": "Egba (Abeokuta)", "polity": "egba", "side": "ally" },
+		{ "name": "Oyo (the Alaafin)", "polity": "oyo", "side": "ally" },
+		{ "name": "Ibadan (Bale Fijabi and the chiefs)", "polity": "ibadan", "side": "ally" },
+		{ "name": "Ilorin", "polity": "sokoto", "side": "ally" }
+	],
+	"summary": {
+		"text": "Having crushed Ijebu in 1892, Governor Gilbert Carter of Lagos set out on 3 January 1893, with a column of Hausa soldiers, to make treaties across Yorubaland and end the sixteen-year war between Ibadan and its enemies. At Abeokuta the Egba signed a treaty of friendship and commerce on 18 January that, at their request, guaranteed their independence. At Oyo the Alaafin signed on 3 February. Carter went on by Ogbomoso to Ilorin, then to the war camps on the River Otin, where he made the Ibadan and Ilorin armies break camp on the same day and fixed the Awere stream near Erin as the boundary between them. The Ibadan army came home on 22 March, after sixteen years in the field. Ibadan's chiefs, afraid their slaves would run to a British Resident, refused Carter an agreement when he reached the town on 26 March, but in August they signed one with his deputy. Johnson, the Yoruba historian, noted that Oyo and Ibadan, whose independence was never threatened, got no written guarantee of it, and some held them open to annexation.",
+		"sources": ["johnson-1921", "wikipedia-gilbert-carter"],
+		"confidence": "high"
+	},
+	"routes": [
+		{
+			"kind": "advance",
+			"by": "Lagos Colony (Governor Gilbert Carter; Acting Governor George Denton)",
+			"path": [[3.394, 6.455], [3.35, 7.15], [3.6, 7.967], [3.931, 7.842], [4.25, 8.133], [4.55, 8.5], [4.69, 8.02], [4.67, 7.91], [3.9, 7.38]],
+			"label": "Carter's tour: Lagos, Abeokuta, Iseyin, Oyo, Ogbomoso, Ilorin, the camps on the Otin, Ibadan",
+			"when": "3 January – 26 March 1893",
+			"note": "The station between the camps is drawn approximately, near the Otin between Ikirun and Erin.",
+			"confidence": "high",
+			"sources": ["johnson-1921"]
+		},
+		{
+			"kind": "retreat",
+			"by": "Ibadan (Bale Fijabi and the chiefs)",
+			"path": [[4.67, 7.91], [4.3, 7.62], [3.9, 7.38]],
+			"label": "The Ibadan army breaks camp at Ikirun and marches home",
+			"when": "March 1893; home on 22 March",
+			"confidence": "high",
+			"sources": ["johnson-1921"]
+		},
+		{
+			"kind": "retreat",
+			"by": "Ilorin",
+			"path": [[4.7, 8.08], [4.6, 8.3], [4.55, 8.5]],
+			"label": "The Ilorin army breaks camp the same day and goes home",
+			"when": "March 1893",
+			"confidence": "high",
+			"sources": ["johnson-1921"]
+		}
+	],
+	"moments": [
+		{
+			"when": "18 January 1893",
+			"title": "The Egba treaty",
+			"text": "After a long conference the Egba chiefs sign a treaty of friendship and commerce. Free trade between the Egba and Lagos is guaranteed and no road is to be closed without the Governor's approval; ministers of religion get full protection; human sacrifice is abolished. At the Egba's own request Clause 5 promises that no part of their country will be annexed without their lawful authorities' consent, and that their independence will be fully recognised.",
+			"at": { "name": "Abeokuta", "point": [3.35, 7.15] },
+			"mark": "treaty",
+			"sources": ["johnson-1921", "wikipedia-gilbert-carter"]
+		},
+		{
+			"when": "3 February 1893",
+			"title": "The Oyo treaty",
+			"text": "Carter is well received by the Alaafin, his tent pitched in the Asipa's market. The treaty made at Oyo that day binds the Alaafin to protect ministers of religion, to make no war and no treaty with any foreign government without the Governor's sanction, and to put disputes to arbitrators, one named by each side. The Alaafin sends one of his ilari with Carter to order the dispersal of the war camps.",
+			"at": { "name": "Oyo", "point": [3.931, 7.842] },
+			"mark": "treaty",
+			"sources": ["johnson-1921"]
+		},
+		{
+			"when": "February–March 1893",
+			"title": "At Ilorin",
+			"text": "The Bale of Ogbomoso, fearing Ilorin's bad faith, tries to dissuade Carter from going on. At Ilorin Carter has several interviews with the Emir, and they part with assurances of friendship; no treaty is recorded.",
+			"at": { "name": "Ilorin", "point": [4.55, 8.5] },
+			"mark": "camp",
+			"sources": ["johnson-1921"]
+		},
+		{
+			"when": "March 1893",
+			"title": "The camps broken up",
+			"text": "Between the two camps near the River Otin Carter meets the war chiefs of both sides. Refusing to ‘discuss ancient history’, he fixes a day on which both camps must break up together, names escorts to see each army home, and makes the Awere stream near Erin the boundary between Ibadan and Ilorin.",
+			"at": { "name": "Erin, on the Awere stream (the new boundary)", "point": [4.705, 8.093] },
+			"mark": "treaty",
+			"confidence": "high",
+			"sources": ["johnson-1921"]
+		},
+		{
+			"when": "26 March 1893",
+			"title": "Ibadan says no",
+			"text": "Carter reaches Ibadan, four days after its army, and camps at the Basorun's market. The chiefs decline to sign an agreement that would put a Resident in the town, fearing their slaves would ‘assert their freedom by running to the Resident’, and he leaves disappointed.",
+			"at": { "name": "Ibadan", "point": [3.9, 7.38] },
+			"mark": "camp",
+			"sources": ["johnson-1921", "wikipedia-gilbert-carter"]
+		},
+		{
+			"when": "15 August 1893",
+			"title": "The Ibadan agreement",
+			"text": "Bale Fijabi, the Otun Bale Osuntoki, the Osi Bale Fajinmi and the other chiefs sign an agreement with Acting Governor George Chardin Denton. They accept every provision of the Oyo treaty and agree to receive a British officer at Ibadan.",
+			"at": { "name": "Ibadan", "point": [3.9, 7.38] },
+			"mark": "treaty",
+			"sources": ["johnson-1921"]
+		}
+	],
+	"sources": ["johnson-1921", "wikipedia-gilbert-carter"],
+	"confidence": "high",
+	"reviewNotes": [
+		"Dates and terms are from Johnson's chapter XXXIV and the treaty texts in his Appendix A (read in the archive.org scan of the 1921 edition). The articles of the Oyo treaty are summarised from an OCR text and want checking against a clean copy.",
+		"The Awere stream is drawn at Erin-Ile (GRID3, Oyun LGA); the stream itself was not located.",
+		"Johnson's Appendix also prints Ijesa and Ekiti agreements against human sacrifice dated 29 September 1886, part of the Kiriji peace (kiriji-war)."
+	]
+}

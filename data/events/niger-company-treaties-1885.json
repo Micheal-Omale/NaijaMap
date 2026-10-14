@@ -1,0 +1,70 @@
+{
+	"name": "The Niger Company's treaties with Sokoto and Gwandu",
+	"status": "draft",
+	"kind": "treaty",
+	"year": 1885,
+	"yearLabel": "1885–1886",
+	"until": 1900,
+	"actors": [
+		{ "name": "National African Company (George Goldie; agent Joseph Thomson)", "side": "colonial" },
+		{ "name": "Sokoto Caliphate (Sultan Umaru bin Ali; the emir of Gwandu)", "polity": "sokoto", "side": "ally" }
+	],
+	"summary": {
+		"text": "George Goldie's National African Company, which had bought out its French rivals on the lower Niger by October 1884, set out to tie the river's rulers to it by treaty before Germany or France could. Its agents made more than 400 treaties, from the lower Niger to the Hausa states. In 1885 the explorer Joseph Thomson travelled up to Sokoto and Gwandu, the two capitals of the Caliphate, and secured treaties with both, hoping to keep the Benue and the road to Lake Chad British. In Goldie's account, Sultan Umaru bin Ali granted the Company exclusive trade within his domain and ‘entire rights to the country on both sides of the River Benue’, for a yearly subsidy of three thousand bags of cowries. At Berlin the same year Goldie could announce that on the lower Niger the British flag alone flew. In July 1886 the Company won its royal charter as the Royal Niger Company, which governed the river until the Crown bought it out on 1 January 1900.",
+		"sources": ["wikipedia-umaru-bin-ali", "britannica-joseph-thomson", "wikipedia-george-goldie", "wikipedia-royal-niger-company"],
+		"confidence": "medium",
+		"note": "What the Sultan understood himself to be granting is not known from the sources read; the terms above are the Company's own account."
+	},
+	"moments": [
+		{
+			"when": "1885",
+			"title": "The Sokoto treaty",
+			"text": "Sultan Umaru bin Ali signs with the Company's agent. Goldie later described it as granting exclusive trade privileges and rights to the land on both sides of the Benue in return for 3,000 bags of cowries a year. Sokoto's own view of the payment, a subsidy, a gift or a tribute, is not recorded in these sources.",
+			"at": { "name": "Sokoto", "point": [5.24, 13.06] },
+			"mark": "treaty",
+			"confidence": "disputed",
+			"sources": ["wikipedia-umaru-bin-ali", "britannica-joseph-thomson"]
+		},
+		{
+			"when": "1885",
+			"title": "The Gwandu treaty",
+			"text": "Thomson also secures British trading rights at Gwandu, seat of the emir who oversaw the western emirates of the Caliphate.",
+			"at": { "name": "Gwandu", "point": [4.643, 12.502] },
+			"mark": "treaty",
+			"confidence": "medium",
+			"sources": ["britannica-joseph-thomson"]
+		},
+		{
+			"when": "1884–1885",
+			"title": "Goldie at Berlin",
+			"text": "Goldie attends the Berlin Conference as an expert on the river and argues for the Company's region to be a British sphere. Britain's pledges that trade would stay free were dead letters: the Company's treaties obliged the river's peoples to trade with it alone.",
+			"mark": "treaty",
+			"confidence": "high",
+			"sources": ["wikipedia-george-goldie", "wikipedia-royal-niger-company"]
+		},
+		{
+			"when": "July 1886",
+			"title": "The Royal Niger Company",
+			"text": "The charter is granted: the National African Company becomes the Royal Niger Company, with Lord Aberdare as governor and Goldie as vice-governor. Its own supreme court sits at Asaba.",
+			"at": { "name": "Asaba", "point": [6.733, 6.183] },
+			"mark": "founded",
+			"confidence": "high",
+			"sources": ["wikipedia-george-goldie", "wikipedia-royal-niger-company"]
+		},
+		{
+			"when": "1 January 1900",
+			"title": "Sold to the Crown",
+			"text": "Its charter revoked, the Company hands its territories to the British government for £865,000. They become the Protectorate of Northern Nigeria, beside a Southern Nigeria made from the Niger Coast Protectorate.",
+			"mark": "treaty",
+			"confidence": "high",
+			"sources": ["wikipedia-royal-niger-company", "wikipedia-colonial-nigeria"]
+		}
+	],
+	"sources": ["wikipedia-umaru-bin-ali", "britannica-joseph-thomson", "wikipedia-george-goldie", "wikipedia-royal-niger-company", "wikipedia-colonial-nigeria"],
+	"confidence": "medium",
+	"reviewNotes": [
+		"The exact day of the Sokoto treaty (often given as 1 June 1885) and the name of the Gwandu emir were not confirmed in the sources read.",
+		"Thomson's route to Sokoto and Gwandu is not drawn: it was not found in the sources read.",
+		"Sokoto's side of the treaties is the open question: R. A. Adeleye, Power and Diplomacy in Northern Nigeria 1804–1906 (1971), and H. A. S. Johnston, The Fulani Empire of Sokoto (1967), are the books to read."
+	]
+}

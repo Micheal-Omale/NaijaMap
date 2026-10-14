@@ -78,6 +78,28 @@
 	color: var(--film-ink);
 }
 
+/* Playback waiting on the visitor: a quiet word beside Play, breathing so it reads as paused, not stopped. */
+.app[data-playing] .timeline__cue--held {
+	color: var(--film-muted);
+	cursor: default;
+	animation: held-breathe 2.4s var(--ease-in-out) infinite alternate;
+}
+
+@keyframes held-breathe {
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0.55;
+	}
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.app[data-playing] .timeline__cue--held {
+		animation: none;
+	}
+}
+
 .app[data-playing] .timeline__track input::-webkit-slider-runnable-track {
 	background: var(--film-rule);
 }

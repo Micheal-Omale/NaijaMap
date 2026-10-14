@@ -596,9 +596,15 @@ button.event-actor:hover {
 	transform: rotate(45deg) scale(0.9);
 }
 
-.timeline__event--alliance::before {
+.timeline__event--alliance::before,
+.timeline__event--treaty::before {
 	background: var(--surface);
 	box-shadow: inset 0 0 0 2px var(--map-label-strong), 0 0 0 1.5px var(--surface);
+}
+
+/* A treaty: the alliance's open mark, squared like a sealed document. */
+.timeline__event--treaty::before {
+	border-radius: 2px;
 }
 
 .timeline__event--colonial::before {

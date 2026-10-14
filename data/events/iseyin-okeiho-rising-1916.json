@@ -1,0 +1,61 @@
+{
+	"name": "The Iseyin–Okeiho rising",
+	"status": "draft",
+	"kind": "colonial",
+	"year": 1916,
+	"yearLabel": "October 1916",
+	"until": 1918,
+	"actors": [
+		{ "name": "British forces", "side": "colonial" },
+		{ "name": "Okeiho and Iseyin (Baale Olele and others)", "side": "resister" }
+	],
+	"summary": {
+		"text": "Lugard's indirect rule made the Alaafin of Oyo a ruler answerable to the British over a new Oyo Province, under its Resident, Captain William Ross, and towns such as Iseyin and Okeiho (Okeho) were placed under him. Forced labour, new courts and strange customs came with it. At Okeho a new king, Onjo Olukitibi, was seen as an agent of the colonial order; his opponents included the Baale Olele, the Balogun Atilola, Alasia and Ba'Ogan. On 19 October 1916 he was killed in a bloody rising, and Iseyin rose too. Ross sent troops at once; Olele and others were captured and sentenced to hang. Old Okeho was abandoned, and by early 1917 its people had resettled on the present site. Colonial writers called it an anti-tax riot; the historian J. A. Atanda argued it was a revolt against colonial imposition in every sphere of life.",
+		"sources": ["atanda-1969-iseyin", "newtelegraph-okeho-1916", "britannica-iseyin"],
+		"confidence": "medium"
+	},
+	"moments": [
+		{
+			"when": "1914–1916",
+			"title": "The Alaafin over Oyo Province",
+			"text": "Under Captain Ross, the Alaafin's authority is extended over the towns of Oyo Province as a ruler answerable to the British. Iseyin and Okeho resent it.",
+			"at": { "name": "Oyo", "point": [3.931, 7.842] },
+			"mark": "garrison",
+			"confidence": "medium",
+			"sources": ["britannica-iseyin", "newtelegraph-okeho-1916"]
+		},
+		{
+			"when": "19 October 1916",
+			"title": "The Onjo killed",
+			"text": "Onjo Olukitibi of Okeho is killed in the rising; some accounts say his queen and a prince died with him.",
+			"at": { "name": "Okeho (Okeiho)", "point": [3.356, 8.033] },
+			"mark": "massacre",
+			"confidence": "medium",
+			"sources": ["newtelegraph-okeho-1916", "atanda-1969-iseyin"]
+		},
+		{
+			"when": "October 1916",
+			"title": "Iseyin rises",
+			"text": "Iseyin joins the rising against the new order.",
+			"at": { "name": "Iseyin", "point": [3.6, 7.967] },
+			"mark": "battle",
+			"confidence": "medium",
+			"sources": ["britannica-iseyin", "atanda-1969-iseyin"]
+		},
+		{
+			"when": "Late 1916 – early 1917",
+			"title": "Crushed; Okeho moves",
+			"text": "Ross's troops capture Baale Olele and his companions, who are sentenced to death by hanging. The people of Okeho abandon the old town and resettle at the present site.",
+			"at": { "name": "Okeho (Okeiho)", "point": [3.356, 8.033] },
+			"mark": "captured",
+			"confidence": "medium",
+			"sources": ["newtelegraph-okeho-1916"]
+		}
+	],
+	"sources": ["atanda-1969-iseyin", "newtelegraph-okeho-1916", "britannica-iseyin"],
+	"confidence": "medium",
+	"reviewNotes": [
+		"Atanda's article (JHSN 1969) was not read directly; the date 19 October 1916 and the names come from a newspaper account of Okeho's history seen in a search extract.",
+		"Okeho is placed from GRID3 (Kajola LGA); old Okeho's site, abandoned after the rising, was not located."
+	]
+}

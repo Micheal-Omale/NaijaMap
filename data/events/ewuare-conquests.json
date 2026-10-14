@@ -1,0 +1,69 @@
+{
+	"name": "Ewuare's wars",
+	"status": "draft",
+	"kind": "war",
+	"year": 1440,
+	"yearLabel": "c. 1440–1473",
+	"until": 1473,
+	"actors": [
+		{ "name": "Kingdom of Benin (Oba Ewuare)", "polity": "benin", "side": "attacker" },
+		{ "name": "Owo", "side": "defender" },
+		{ "name": "Akure (the Deji Orito)", "side": "defender" }
+	],
+	"summary": {
+		"text": "Ogun, a son of Oba Ohen, returned from exile, killed his brother Oba Uwaifiokun and took the throne about 1440 as Ewuare, setting a fire that burned the capital for two days and nights. He rebuilt the palace, enlarged the city's great walls and ditches, which archaeology dates to the fifteenth century, and centralised the kingdom under the Oba. Tradition credits him with taking 201 towns and villages in Ekiti, Ikare, Kukuruku, Eka and the Igbo country west of the Niger. Captured rulers were brought to Benin and their towns paid tribute; nearer the capital, within about 64 kilometres, Benin ruled directly. Against Owo he sent Iken of Uselu, who won and died; against Akure, Oronmuza of Umelu, who broke the town's defences and set a Benin resident over its king. The expansion went on under his successors Ozolua and Esigie.",
+		"sources": ["wikipedia-ewuare", "egharevba-1968"],
+		"confidence": "medium",
+		"note": "Ewuare's reign is known from oral tradition and later histories, not from contemporary records; Egharevba dates his accession to about 1440."
+	},
+	"routes": [
+		{ "kind": "advance", "by": "Kingdom of Benin (Oba Ewuare)", "path": [[5.627, 6.335], [5.6, 6.8], [5.586, 7.196]], "label": "Iken of Uselu marches against Owo", "confidence": "medium", "sources": ["wikipedia-ewuare"] },
+		{ "kind": "advance", "by": "Kingdom of Benin (Oba Ewuare)", "path": [[5.627, 6.335], [5.4, 6.8], [5.195, 7.25]], "label": "Oronmuza of Umelu marches against Akure", "confidence": "medium", "sources": ["wikipedia-ewuare"] },
+		{ "kind": "advance", "by": "Kingdom of Benin (Oba Ewuare)", "path": [[5.627, 6.335], [5.75, 6.95], [5.75, 7.517]], "label": "Benin's armies into Ekiti and Ikare country", "note": "Drawn to Ikare to stand for the northeastern campaigns.", "confidence": "medium", "sources": ["wikipedia-ewuare"] }
+	],
+	"moments": [
+		{
+			"when": "c. 1440",
+			"title": "Ewuare takes the throne",
+			"text": "Ogun kills his brother Uwaifiokun, in one tradition with a spear in a festival procession in the Oba's market, and is crowned Ewuare. Before taking the throne he sets a fire in the capital that burns for two days and nights.",
+			"at": { "name": "Benin City", "point": [5.627, 6.335] },
+			"mark": "burned",
+			"confidence": "medium",
+			"sources": ["wikipedia-ewuare"]
+		},
+		{
+			"when": "Ewuare's reign",
+			"title": "Owo humbled; the first Edaiken",
+			"text": "When Owo rebels, Iken of Uselu leads the army, with Ewuare's eldest son Kuoboyuwa as his deputy. Iken defeats Owo after a short battle and sends captives and spoil ahead, but is killed when the enemy attacks again after his bodyguard has gone. Kuoboyuwa becomes his heir, and Edaiken becomes the title of every Oba's eldest son.",
+			"at": { "name": "Owo", "point": [5.586, 7.196] },
+			"mark": "battle",
+			"confidence": "medium",
+			"sources": ["wikipedia-ewuare"]
+		},
+		{
+			"when": "Ewuare's reign",
+			"title": "Akure taken",
+			"text": "Oronmuza enters Akure from several directions, breaks through along the Ikperha and Okelisa roads and surrounds the court of the Deji, Orito, who surrenders. The Isikan, Odokpetu and Usolo quarters fight on before they too are beaten. Orito is left in Akure for his age, but a Benin resident is set over the town.",
+			"at": { "name": "Akure", "point": [5.195, 7.25] },
+			"mark": "captured",
+			"confidence": "medium",
+			"sources": ["wikipedia-ewuare"]
+		},
+		{
+			"when": "Ewuare's reign",
+			"title": "201 towns",
+			"text": "Tradition counts 201 towns and villages taken in Ekiti, Ikare, Kukuruku, Eka and Igbo country west of the Niger. Their rulers are brought to Benin and their towns pay tribute to the Oba.",
+			"at": { "name": "Ikare", "point": [5.75, 7.517] },
+			"mark": "captured",
+			"confidence": "medium",
+			"sources": ["wikipedia-ewuare", "egharevba-1968"]
+		}
+	],
+	"area": { "lgas": ["ondo-owo", "ondo-akure-south", "ondo-akure-north", "ondo-akoko-north-east"], "confidence": "medium" },
+	"sources": ["wikipedia-ewuare", "egharevba-1968"],
+	"confidence": "medium",
+	"reviewNotes": [
+		"Benin's growth under Ewuare is drawn in the benin polity's snapshots; this event marks the campaigns traditions name.",
+		"The Igbo country west of the Niger and the Kukuruku (northern Edo) and Eka campaigns are not drawn as routes: no named places were found."
+	]
+}

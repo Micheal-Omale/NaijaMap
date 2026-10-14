@@ -1,0 +1,52 @@
+{
+	"name": "The Treaty of Epe",
+	"status": "draft",
+	"kind": "treaty",
+	"year": 1853,
+	"yearLabel": "28 September 1854",
+	"until": 1861,
+	"actors": [
+		{ "name": "Kosoko and his chiefs at Epe", "polity": "lagos", "side": "ally" },
+		{ "name": "British consul Benjamin Campbell and Commander Thomas Miller", "side": "colonial" }
+	],
+	"summary": {
+		"text": "Driven from Lagos by the British bombardment of December 1851, the deposed Oba Kosoko built an independent base at Epe, up the lagoon, with about 400 warriors, among them his war captain Oshodi Tapa. From there he attacked Lagos, on 5 and 11 August 1853 coming close to the Oba's palace. After long talks, on 28 September 1854 Kosoko and fourteen of his chiefs signed an agreement with Consul Benjamin Campbell and Commander Thomas Miller of HMS Crane, up the lagoon at Epe. Kosoko gave up any attempt on Lagos and the slave trade; in return Britain recognised Palma as his port for legitimate trade, with an export duty for his benefit, and paid him a yearly allowance for life. It was a tactical success for Kosoko, whose state at Epe Britain now recognised, but the Lagos throne stayed with Akitoye and Dosunmu's line. After Britain annexed Lagos in 1861, Kosoko was allowed home as Oloja of Ereko with a pension of £400 a year; he died there in 1872.",
+		"sources": ["wikipedia-treaty-of-epe", "wikipedia-kosoko", "wikipedia-dosunmu"],
+		"confidence": "high"
+	},
+	"routes": [
+		{
+			"kind": "raid",
+			"by": "Kosoko and his chiefs at Epe",
+			"path": [[3.98, 6.58], [3.7, 6.53], [3.394, 6.455]],
+			"label": "Kosoko's attacks on Lagos from Epe",
+			"when": "5 and 11 August 1853",
+			"sources": ["wikipedia-treaty-of-epe"],
+			"confidence": "high"
+		}
+	],
+	"moments": [
+		{
+			"when": "5 and 11 August 1853",
+			"title": "Kosoko nearly reaches the palace",
+			"text": "Kosoko's warriors attack Lagos twice. The second attack comes dangerously close to the Oba's palace and is turned back only by fire from the British warship HMS Polyphemus under Commander Phillips.",
+			"at": { "name": "Eko (Lagos Island)", "point": [3.394, 6.455] },
+			"mark": "battle",
+			"sources": ["wikipedia-treaty-of-epe"]
+		},
+		{
+			"when": "28 September 1854",
+			"title": "Signed up the lagoon at Epe",
+			"text": "Kosoko and fourteen chiefs, among them Oloosema and Oloto, put their marks to seven articles before Campbell and Miller. Kosoko pledges never to try to regain Lagos ‘by threats, hostilities or stratagem’ and to abandon the slave trade. Britain recognises Palma as his port and allows him a duty on every puncheon of palm oil and pound of ivory shipped there. He is to protect resident traders and help reopen the markets on the Ijebu shore at Agienu, Ikorodu and Aboyee. Britain pays him 2,000 heads of cowries or 1,000 dollars a year for life.",
+			"at": { "name": "Epe", "point": [3.98, 6.58] },
+			"mark": "treaty",
+			"sources": ["wikipedia-treaty-of-epe"]
+		}
+	],
+	"sources": ["wikipedia-treaty-of-epe", "wikipedia-kosoko", "wikipedia-dosunmu"],
+	"confidence": "high",
+	"reviewNotes": [
+		"Palma, Kosoko's port, is not drawn: no reliable coordinates were found (it lay east of Lagos on the lagoon shore).",
+		"The event starts in 1853 so the August 1853 attacks show on the map; the treaty itself is dated 28 September 1854."
+	]
+}

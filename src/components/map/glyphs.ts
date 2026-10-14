@@ -71,6 +71,7 @@ export const EVENT_MARK: Record<EventKind, MarkKind> = {
 	war: 'battle',
 	raid: 'flight',
 	alliance: 'treaty',
+	treaty: 'treaty',
 	migration: 'founded',
 	colonial: 'bombarded',
 	partition: 'captured',

@@ -1,0 +1,91 @@
+{
+	"name": "The Bulala wars and the move to Bornu",
+	"status": "draft",
+	"kind": "war",
+	"year": 1380,
+	"yearLabel": "late 14th century – early 16th century",
+	"until": 1510,
+	"actors": [
+		{ "name": "Bilala (Bulala) of Kanem", "side": "attacker", "ink": "#8a6d3b" },
+		{ "name": "Sayfawa mais of Kanem–Bornu", "polity": "kanem-bornu", "side": "defender" }
+	],
+	"summary": {
+		"text": "In the fourteenth century the Bilala, perhaps a people of the Lake Fitri country allied with the Toubou, rose against the Sayfawa kings of Kanem. The royal chronicle, the girgam, says they killed mai Dawud and three of his successors. Weakened by a civil war between the descendants of Idris I and of Dawud, the Sayfawa lost their capital Njimi to the Bilala late in the century, and mai Umar I Idrismi moved the court west of Lake Chad into Bornu. For three generations the kingdom had no fixed capital. In the mid-fifteenth century Ali Gaji, of the Idrisid line, defeated and deposed the last Dawudid mai, Uthman IV, banished his house, and as mai (c. 1470–1503) founded Ngazargamu on the Komadugu Yobe, the capital for the next three and a half centuries. He fought the Bilala hard without either side winning land. Only his son Idris III Katagarmabe retook Kanem, early in the sixteenth century, leaving the Bilala to govern it as a province.",
+		"sources": ["wikipedia-bilala", "wikipedia-ali-gaji", "wikipedia-ngazargamu", "wikipedia-kanem-bornu"],
+		"confidence": "medium",
+		"note": "The chronology comes from the girgam and later traditions; reign dates are approximate."
+	},
+	"routes": [
+		{
+			"kind": "retreat",
+			"by": "Sayfawa mais of Kanem–Bornu",
+			"path": [[15.6, 14.2], [14.3, 13.9], [13.2, 13.4], [12.6, 13.1]],
+			"label": "The Sayfawa court leaves Kanem for Bornu, west of Lake Chad",
+			"when": "late 14th century",
+			"note": "Drawn from Kanem around the north of the lake. Njimi, the lost capital, has never been located, so the line starts in Kanem in general.",
+			"confidence": "medium",
+			"sources": ["wikipedia-bilala", "wikipedia-ngazargamu"]
+		}
+	],
+	"moments": [
+		{
+			"when": "14th century",
+			"title": "Four mais killed",
+			"text": "The girgam records the Bilala defeating and killing mai Dawud, then his successors Uthman I, Uthman II and Abubakar Liyatu.",
+			"mark": "battle",
+			"confidence": "medium",
+			"sources": ["wikipedia-bilala"]
+		},
+		{
+			"when": "late 14th century",
+			"title": "Njimi lost",
+			"text": "The Bilala take Njimi and drive the Sayfawa out of Kanem. Mai Umar I Idrismi re-centres the kingdom in Bornu. Njimi's site is unknown, so it is not drawn.",
+			"mark": "captured",
+			"confidence": "medium",
+			"sources": ["wikipedia-bilala", "wikipedia-ali-gaji"]
+		},
+		{
+			"when": "mid-15th century",
+			"title": "The civil wars end",
+			"text": "Ali Gaji defeats and deposes Uthman IV, the last mai of Dawud's line, and banishes the Dawudids from the kingdom. He makes two more mais before taking the throne himself.",
+			"mark": "battle",
+			"confidence": "high",
+			"sources": ["wikipedia-ali-gaji"]
+		},
+		{
+			"when": "c. 1470s",
+			"title": "Ngazargamu founded",
+			"text": "Mai Ali Gaji builds Birni Ngazargamu in the fork of the Komadugu Gana and the Komadugu Yobe, near today's Geidam: a walled city about two kilometres across on a great earth rampart, at the southern end of the Saharan trade routes and in the heart of a salt country. Its great nobles must now live at court and govern their fiefs through agents.",
+			"at": { "name": "Ngazargamu", "point": [12.367, 13.083] },
+			"mark": "founded",
+			"confidence": "high",
+			"sources": ["wikipedia-ngazargamu", "wikipedia-ali-gaji"]
+		},
+		{
+			"when": "c. 1470–1503",
+			"title": "Stalemate in Kanem",
+			"text": "Ali Gaji fights the Bilala of Kanem heavily. Some accounts give him victory, but neither side appears to win any land.",
+			"mark": "battle",
+			"confidence": "medium",
+			"sources": ["wikipedia-ali-gaji"]
+		},
+		{
+			"when": "early 16th century",
+			"title": "Kanem retaken",
+			"text": "Mai Idris III Katagarmabe captures Kanem, more than a century after its loss, and lets the Bilala govern it as a province. They rebel several times until Idris Alooma breaks them later in the century.",
+			"mark": "captured",
+			"confidence": "medium",
+			"sources": ["wikipedia-bilala"]
+		}
+	],
+	"area": {
+		"beyond": [[[14.4, 13.6], [15.6, 13.1], [17.0, 13.6], [17.2, 14.8], [15.8, 15.5], [14.5, 14.9]]],
+		"confidence": "medium"
+	},
+	"sources": ["wikipedia-bilala", "wikipedia-ali-gaji", "wikipedia-ngazargamu", "wikipedia-kanem-bornu"],
+	"confidence": "medium",
+	"reviewNotes": [
+		"Kanem, the land fought over, is drawn as a rough ring east of Lake Chad in today's Chad; it is not a mapped frontier.",
+		"Dierk Lange's and Palmer's work on the girgam would firm up the reign dates."
+	]
+}

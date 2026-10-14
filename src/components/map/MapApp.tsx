@@ -1103,6 +1103,7 @@ export default function MapApp({ lang }: Props) {
 						onMoment={(id, i) => showMoment(id, i)}
 						onOpenEvent={openEvent}
 						onPlaying={setPlaying}
+						held={Boolean((hoverItems && !narrow) || pick)}
 						tr={tr}
 						hint={!hintDone ? <ExplainHint used={hintUsed} onDone={closeHint} tr={tr} /> : undefined}
 					/>

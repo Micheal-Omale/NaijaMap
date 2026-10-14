@@ -1,0 +1,63 @@
+{
+	"name": "Abiodun's defeats by Borgu and Nupe",
+	"status": "draft",
+	"kind": "war",
+	"year": 1774,
+	"yearLabel": "1774–1789",
+	"until": 1791,
+	"actors": [
+		{ "name": "Oyo Empire (Alaafin Abiodun)", "polity": "oyo", "side": "attacker" },
+		{ "name": "Borgu (Kaiama)", "polity": "borgu", "side": "defender" },
+		{ "name": "Nupe", "polity": "nupe", "side": "defender" }
+	],
+	"summary": {
+		"text": "In 1774 Abiodun, then a prince, with a coalition of Oyo-Ile chiefs and provincial chiefs, overthrew Basorun Gaha, who for twenty years had ruled Oyo from behind the throne and forced Alaafins to their deaths. Abiodun ruled in an uneasy peace until 1789, but Oyo's army, neglected under Gaha, had weakened. When Kaiama in Borgu broke away in 1783, Abiodun's campaign to bring it back was decisively defeated, at the cost of the equivalent of eleven generals and their men. In 1789 a campaign against the Nupe failed too, with thirteen generals lost. Oyo's cavalry empire, which had once humbled Dahomey, could no longer hold its northern frontier, and the Nupe raids that followed were one of the threats that broke it.",
+		"sources": ["wikipedia-oyo-empire", "wikipedia-yoruba-wars", "wikipedia-abiodun-oyo"],
+		"confidence": "medium"
+	},
+	"routes": [
+		{
+			"kind": "advance",
+			"by": "Oyo Empire (Alaafin Abiodun)",
+			"path": [[4.3075, 8.9747], [4.1, 9.3], [3.94, 9.6]],
+			"label": "Abiodun's army against Kaiama, and its defeat",
+			"when": "1783",
+			"confidence": "medium",
+			"sources": ["wikipedia-oyo-empire", "wikipedia-yoruba-wars"]
+		}
+	],
+	"moments": [
+		{
+			"when": "1774",
+			"title": "Gaha overthrown",
+			"text": "Abiodun and a coalition of the capital's chiefs and the provincial chiefs defeat Basorun Gaha, ending two decades in which the head of the Oyo Mesi had made and unmade Alaafins.",
+			"at": { "name": "Oyo-Ile (Old Oyo)", "point": [4.3075, 8.9747] },
+			"mark": "captured",
+			"confidence": "high",
+			"sources": ["wikipedia-yoruba-wars", "wikipedia-oyo-empire"]
+		},
+		{
+			"when": "1783",
+			"title": "Defeat at Kaiama",
+			"text": "Kaiama breaks away from Oyo. Abiodun's attempt to restore control fails: Oyo loses the equivalent of eleven generals and their men to Borgu.",
+			"at": { "name": "Kaiama", "point": [3.94, 9.6] },
+			"mark": "battle",
+			"confidence": "medium",
+			"sources": ["wikipedia-oyo-empire", "wikipedia-yoruba-wars"]
+		},
+		{
+			"when": "1789",
+			"title": "Defeat by the Nupe",
+			"text": "A campaign against the Nupe ends in failure, with thirteen generals and their men lost. Abiodun dies the same year.",
+			"mark": "battle",
+			"confidence": "medium",
+			"sources": ["wikipedia-oyo-empire"]
+		}
+	],
+	"sources": ["wikipedia-oyo-empire", "wikipedia-yoruba-wars", "wikipedia-abiodun-oyo"],
+	"confidence": "medium",
+	"reviewNotes": [
+		"Where the Nupe beat Oyo in 1789 is not recorded in the sources read, so that campaign is not drawn.",
+		"How Abiodun died is disputed: Wikipedia's Oyo Empire says his son Awole murdered him and took the throne; its Yoruba Wars article says Awole was elected after his death, narrowly beating Afonja. Left out of the moments."
+	]
+}

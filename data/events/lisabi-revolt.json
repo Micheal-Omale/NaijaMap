@@ -1,0 +1,63 @@
+{
+	"name": "Lisabi's revolt: the Egba throw off Oyo",
+	"status": "draft",
+	"kind": "war",
+	"year": 1775,
+	"yearLabel": "c. 1775–1780",
+	"until": 1790,
+	"actors": [
+		{ "name": "Egba (Lisabi Agbongbo-Akala and the Egbe Aaro)", "polity": "egba", "side": "attacker" },
+		{ "name": "Oyo Empire (its ilari tribute agents)", "polity": "oyo", "side": "defender" }
+	],
+	"summary": {
+		"text": "The Egba towns of the forest south of Oyo paid tribute to the Alaafin, and Oyo kept ilari in them, royal agents who acted as both spies and tax collectors. As Oyo tore itself apart in the years of Basorun Gaha and after, the ilari grew more oppressive. Lisabi Agbongbo-Akala, a farmer, organised the young men of the Egba towns in the Egbe Aaro, a mutual-aid society for farm work, which he turned into a secret army that united and armed all the Egba towns. On an agreed day they killed the ilari stationed among them, and when the Alaafin sent an army to punish them, they drove it off. The Egba stopped paying tribute to Oyo. Their independence held, and in 1830 their descendants, driven from the forest by the wars of the next century, founded Abeokuta. Lisabi is remembered in the Lisabi festival, and the Egba still call themselves the children of Lisabi.",
+		"sources": ["wikipedia-oyo-empire", "africanpoems-lisabi", "discoveryoruba-lisabi"],
+		"confidence": "medium",
+		"note": "The Oyo Empire article confirms the massacre of the ilari and the defeat of Oyo's punitive force but gives no date; the date c. 1775–1780, the Egbe Aaro and Lisabi's role in it come from popular accounts."
+	},
+	"routes": [
+		{
+			"kind": "advance",
+			"by": "Oyo Empire (its ilari tribute agents)",
+			"path": [[4.3075, 8.9747], [3.9, 8.2], [3.6, 7.35]],
+			"label": "Oyo's punitive army marches on the Egba, and is driven off",
+			"note": "Drawn to the Egba forest; where it was beaten is not recorded.",
+			"confidence": "medium",
+			"sources": ["wikipedia-oyo-empire"]
+		}
+	],
+	"moments": [
+		{
+			"when": "c. 1775",
+			"title": "The Egbe Aaro",
+			"text": "Lisabi organises a militant movement under the cover of the Aaro, the society in which young farmers work each other's fields in turn. It becomes an army spanning every Egba town.",
+			"mark": "camp",
+			"confidence": "medium",
+			"sources": ["discoveryoruba-lisabi", "africanpoems-lisabi"]
+		},
+		{
+			"when": "c. 1780",
+			"title": "The ilari killed",
+			"text": "On the appointed day the Egba kill the Oyo ilari stationed in their towns. Popular accounts put their number at about 600.",
+			"mark": "massacre",
+			"confidence": "medium",
+			"sources": ["wikipedia-oyo-empire", "discoveryoruba-lisabi"]
+		},
+		{
+			"when": "c. 1780",
+			"title": "Oyo's army driven off",
+			"text": "The Alaafin sends a punitive force. The Egba defeat it, and the tribute to Oyo ends.",
+			"mark": "battle",
+			"confidence": "medium",
+			"sources": ["wikipedia-oyo-empire"]
+		}
+	],
+	"area": { "lgas": ["ogun-odeda", "ogun-abeokuta-north", "ogun-obafemi-owode"], "confidence": "medium" },
+	"sources": ["wikipedia-oyo-empire", "africanpoems-lisabi", "discoveryoruba-lisabi"],
+	"confidence": "medium",
+	"reviewNotes": [
+		"No scholarly account was read: S. O. Biobaku, The Egba and Their Neighbours 1842–1872 (1957), and Biobaku's Lisabi lecture are the sources to check for the date, the number killed, and where the Egba towns stood.",
+		"The land drawn is the Egba forest north of today's Abeokuta, standing for the old Egba towns; their exact sites were not located.",
+		"Popular retellings add the Egba fighting the Dahomey Amazons under Lisabi; that is left out."
+	]
+}

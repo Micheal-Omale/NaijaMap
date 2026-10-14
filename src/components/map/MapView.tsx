@@ -237,17 +237,33 @@ export default function MapView(props: Props) {
 			hovered = id;
 			if (id !== undefined) map.setFeatureState({ source: 'lgas', id }, { hover: true });
 		};
-		map.on('mousemove', (e) => {
+		// Where the mouse rests on the map, so what it points at can be read again when the map moves under it.
+		let pointer: { x: number; y: number } | null = null;
+		let repoint = 0;
+		const pointAt = (point: { x: number; y: number }) => {
 			if (latest.current.mode !== 'then' || !historyRef.current) return;
-			const items = historyRef.current.itemsAt(e.point);
+			const items = historyRef.current.itemsAt([point.x, point.y]);
 			// A town pointed at shows the threads back to its founders; otherwise the pinned town keeps them.
 			historyRef.current.showThreads(items[0]?.type === 'town' || items[0]?.type === 'throne' ? items[0] : latest.current.pinned);
 			map.getCanvas().style.cursor = items.length ? 'pointer' : '';
-			latest.current.onHoverItems(items.length ? { items, x: e.point.x, y: e.point.y } : null);
+			latest.current.onHoverItems(items.length ? { items, x: point.x, y: point.y } : null);
+		};
+		map.on('mousemove', (e) => {
+			pointer = e.point;
+			pointAt(e.point);
 		});
 		map.on('mouseout', () => {
+			pointer = null;
 			latest.current.onHoverItems(null);
 			historyRef.current?.showThreads(latest.current.pinned);
+		});
+		// While playback flies the camera, the card follows what is now under the resting mouse.
+		map.on('move', () => {
+			if (!pointer || repoint) return;
+			repoint = requestAnimationFrame(() => {
+				repoint = 0;
+				if (pointer) pointAt(pointer);
+			});
 		});
 		// The visitor's hand always beats the camera's drift.
 		// Only an automatic move (a cinematic flight or the drift) is interrupted here; stopping on every

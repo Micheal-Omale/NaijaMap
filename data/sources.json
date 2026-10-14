@@ -4123,7 +4123,9 @@
 		"year": 1921,
 		"publisher": "Routledge, London (CMS Lagos)",
 		"kind": "book",
-		"checked": false
+		"checked": true,
+		"url": "https://archive.org/details/the-history-of-the-yorubas-from-the-earliest-times-to-the-beginning-of-the-british-protectorate",
+		"accessed": "2026-10-14"
 	},
 	{
 		"id": "akinjogbin-1967",
@@ -4532,8 +4534,8 @@
 		"author": "Wikipedia contributors",
 		"url": "https://en.wikipedia.org/wiki/Ovonramwen",
 		"kind": "web",
-		"accessed": "2026-10-07",
-		"checked": false
+		"accessed": "2026-10-14",
+		"checked": true
 	},
 	{
 		"id": "wikipedia-arochukwu",
@@ -4604,8 +4606,8 @@
 		"author": "Wikipedia contributors",
 		"url": "https://en.wikipedia.org/wiki/Jaja_of_Opobo",
 		"kind": "web",
-		"accessed": "2026-10-07",
-		"checked": false
+		"accessed": "2026-10-14",
+		"checked": true
 	},
 	{
 		"id": "wikipedia-nana-olomu",
@@ -4613,8 +4615,8 @@
 		"author": "Wikipedia contributors",
 		"url": "https://en.wikipedia.org/wiki/Nana_Olomu",
 		"kind": "web",
-		"accessed": "2026-10-07",
-		"checked": false
+		"accessed": "2026-10-14",
+		"checked": true
 	},
 	{
 		"id": "wikipedia-akassa-raid",
@@ -4640,8 +4642,8 @@
 		"author": "Wikipedia contributors",
 		"url": "https://en.wikipedia.org/wiki/Royal_Niger_Company",
 		"kind": "web",
-		"accessed": "2026-10-07",
-		"checked": false
+		"accessed": "2026-10-14",
+		"checked": true
 	},
 	{
 		"id": "wikipedia-battle-of-sokoto",
@@ -10393,6 +10395,282 @@
 		"title": "Direction from the HistoNaija owner: Igala land was shelled and a garrison mounted at Ankpa, and that is why Igala land was divided",
 		"kind": "testimony",
 		"accessed": "2026-10-11",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-treaty-of-epe",
+		"title": "Treaty of Epe (with the treaty text)",
+		"publisher": "Wikipedia",
+		"url": "https://en.wikipedia.org/wiki/Treaty_of_Epe",
+		"kind": "reference",
+		"accessed": "2026-10-14",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-lagos-treaty-of-cession",
+		"title": "Lagos Treaty of Cession (with the treaty text)",
+		"publisher": "Wikipedia",
+		"url": "https://en.wikipedia.org/wiki/Lagos_Treaty_of_Cession",
+		"kind": "reference",
+		"accessed": "2026-10-14",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-dosunmu",
+		"title": "Dosunmu",
+		"publisher": "Wikipedia",
+		"url": "https://en.wikipedia.org/wiki/Dosunmu",
+		"kind": "reference",
+		"accessed": "2026-10-14",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-berlin-conference",
+		"title": "Berlin Conference",
+		"publisher": "Wikipedia",
+		"url": "https://en.wikipedia.org/wiki/Berlin_Conference",
+		"kind": "reference",
+		"accessed": "2026-10-14",
+		"checked": true
+	},
+	{
+		"id": "businessday-jaja-1884",
+		"title": "Jaja of Opobo and the British (Hewett's 1884 treaty, the 1885 protectorate, the 1887 agreement)",
+		"publisher": "BusinessDay",
+		"url": "https://businessday.ng/?p=237388",
+		"kind": "news",
+		"accessed": "2026-10-14",
+		"checked": true
+	},
+	{
+		"id": "dawodu-bakassi-story",
+		"title": "The Bakassi Story, Part 1 (the Old Calabar treaty of protection, 10 September 1884; read in a search extract)",
+		"publisher": "dawodu.com",
+		"url": "https://dawodu.com/bakassi2.htm",
+		"kind": "web",
+		"accessed": "2026-10-14",
+		"checked": false
+	},
+	{
+		"id": "icj-nigeria-rejoinder-2001",
+		"title": "Rejoinder of the Federal Republic of Nigeria, Cameroon v. Nigeria (the 1884 Old Calabar protectorate treaty; read in a search extract)",
+		"publisher": "International Court of Justice",
+		"url": "https://icj-cij.org/node/104340",
+		"kind": "article",
+		"accessed": "2026-10-14",
+		"checked": false
+	},
+	{
+		"id": "dcstamps-oil-rivers",
+		"title": "Oil Rivers Protectorate (1885–1893): protection over Brass, Bonny, Opobo, Aboh and Old Calabar confirmed 5 June 1885 (read in a search extract)",
+		"publisher": "dcstamps.com",
+		"url": "https://www.dcstamps.com/oil-rivers-protectorate-1885-1893/",
+		"kind": "web",
+		"accessed": "2026-10-14",
+		"checked": false
+	},
+	{
+		"id": "britannica-joseph-thomson",
+		"title": "Joseph Thomson: secured British trading rights at Sokoto and Gwandu, 1885 (read in a search extract)",
+		"publisher": "Encyclopaedia Britannica",
+		"url": "https://www.britannica.com/biography/Joseph-Thomson",
+		"kind": "reference",
+		"accessed": "2026-10-14",
+		"checked": false
+	},
+	{
+		"id": "wikipedia-umaru-bin-ali",
+		"title": "Umaru bin Ali (the 1885 treaty with the Company, in Goldie's account)",
+		"publisher": "Wikipedia",
+		"url": "https://en.wikipedia.org/wiki/Umaru_bin_Ali",
+		"kind": "reference",
+		"accessed": "2026-10-14",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-george-goldie",
+		"title": "George Taubman Goldie",
+		"publisher": "Wikipedia",
+		"url": "https://en.wikipedia.org/wiki/George_Taubman_Goldie",
+		"kind": "reference",
+		"accessed": "2026-10-14",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-gilbert-carter",
+		"title": "Gilbert Thomas Carter",
+		"publisher": "Wikipedia",
+		"url": "https://en.wikipedia.org/wiki/Gilbert_Thomas_Carter",
+		"kind": "reference",
+		"accessed": "2026-10-14",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-aburi-accord",
+		"title": "Aburi Accord",
+		"publisher": "Wikipedia",
+		"url": "https://en.wikipedia.org/wiki/Aburi_Accord",
+		"kind": "reference",
+		"accessed": "2026-10-14",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-eyo-honesty-ii",
+		"title": "Eyo Honesty II",
+		"publisher": "Wikipedia",
+		"url": "https://en.wikipedia.org/wiki/Eyo_Honesty_II",
+		"kind": "reference",
+		"accessed": "2026-10-14",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-eyamba-v",
+		"title": "Eyamba V (his letter of 4 December 1842 on the treaty)",
+		"publisher": "Wikipedia",
+		"url": "https://en.wikipedia.org/wiki/Eyamba_V",
+		"kind": "reference",
+		"accessed": "2026-10-14",
+		"checked": true
+	},
+	{
+		"id": "victorianweb-pepple",
+		"title": "King William Pepple of Bonny (obliged to stop the trade in August 1841 and June 1844, for $10,000 a year)",
+		"publisher": "The Victorian Web",
+		"url": "https://victorianweb.org/victorian/history/antislavery/pepple.html",
+		"kind": "web",
+		"accessed": "2026-10-14",
+		"checked": true
+	},
+	{
+		"id": "bonny-tucker-convention",
+		"title": "Convention for the total suppression of the slave trade between Captain William Tucker of HMS Iris and King Pepple and the chiefs of Bonny ($10,000 a year for five years; text reproduced in a Nigerian source, read in a search extract)",
+		"kind": "web",
+		"accessed": "2026-10-14",
+		"checked": false
+	},
+	{
+		"id": "africanpoems-lisabi",
+		"title": "Lisabi (Lisabi Agbongbo-Akala led the Egba revolt against Oyo between 1775 and 1780; read in a search extract)",
+		"publisher": "africanpoems.net",
+		"url": "https://africanpoems.net/modern-poetry-in-oral-manner/lisabi/",
+		"kind": "web",
+		"accessed": "2026-10-14",
+		"checked": false
+	},
+	{
+		"id": "discoveryoruba-lisabi",
+		"title": "Lisabi: story of a great warrior of Egbaland (the Egbe Aaro farmers' society; read in a search extract)",
+		"publisher": "Discover Yoruba",
+		"url": "https://discoveryoruba.com/lisabi-story-of-a-great-warrior-of-egbaland/",
+		"kind": "web",
+		"accessed": "2026-10-14",
+		"checked": false
+	},
+	{
+		"id": "wikipedia-abiodun-oyo",
+		"title": "Abiodun (Oyo ruler)",
+		"publisher": "Wikipedia",
+		"url": "https://en.wikipedia.org/wiki/Abiodun_(Oyo_ruler)",
+		"kind": "reference",
+		"accessed": "2026-10-14",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ali-gaji",
+		"title": "Ali I Gaji",
+		"publisher": "Wikipedia",
+		"url": "https://en.wikipedia.org/wiki/Ali_I_Gaji",
+		"kind": "reference",
+		"accessed": "2026-10-14",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ewuare",
+		"title": "Ewuare",
+		"publisher": "Wikipedia",
+		"url": "https://en.wikipedia.org/wiki/Ewuare",
+		"kind": "reference",
+		"accessed": "2026-10-14",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-aliyu-babba",
+		"title": "Aliyu Babba",
+		"publisher": "Wikipedia",
+		"url": "https://en.wikipedia.org/wiki/Aliyu_Babba",
+		"kind": "reference",
+		"accessed": "2026-10-14",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-mohammed-tukur",
+		"title": "Mohammed Tukur",
+		"publisher": "Wikipedia",
+		"url": "https://en.wikipedia.org/wiki/Mohammed_Tukur",
+		"kind": "reference",
+		"accessed": "2026-10-14",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-kano-emirate",
+		"title": "Kano Emirate",
+		"publisher": "Wikipedia",
+		"url": "https://en.wikipedia.org/wiki/Kano_Emirate",
+		"kind": "reference",
+		"accessed": "2026-10-14",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-bussa-rebellion",
+		"title": "Bussa rebellion",
+		"publisher": "Wikipedia",
+		"url": "https://en.wikipedia.org/wiki/Bussa_rebellion",
+		"kind": "reference",
+		"accessed": "2026-10-14",
+		"checked": true
+	},
+	{
+		"id": "crowder-1973-bussa",
+		"title": "Revolt in Bussa: A Study of British Native Administration in Nigerian Borgu, 1902–1935",
+		"author": "Michael Crowder",
+		"publisher": "Faber and Faber",
+		"kind": "book",
+		"accessed": "2026-10-14",
+		"checked": false
+	},
+	{
+		"id": "atanda-1969-iseyin",
+		"title": "The Iseyin-Okeiho Rising of 1916: An Example of Socio-Political Conflict in Colonial Nigeria. Journal of the Historical Society of Nigeria 4(4): 497–514",
+		"author": "J. A. Atanda",
+		"kind": "article",
+		"accessed": "2026-10-14",
+		"checked": false
+	},
+	{
+		"id": "newtelegraph-okeho-1916",
+		"title": "Okeho and the rising of 19 October 1916 (Onjo Olukitibi killed; Baale Olele captured by Captain Ross; read in a search extract)",
+		"publisher": "New Telegraph",
+		"url": "https://newtelegraphng.com/?p=345250",
+		"kind": "news",
+		"accessed": "2026-10-14",
+		"checked": false
+	},
+	{
+		"id": "britannica-iseyin",
+		"title": "Iseyin (the riots of 1916 against making the Alaafin a ruler answerable to the British; read in a search extract)",
+		"publisher": "Encyclopaedia Britannica",
+		"url": "https://www.britannica.com/place/Iseyin",
+		"kind": "reference",
+		"accessed": "2026-10-14",
+		"checked": false
+	},
+	{
+		"id": "wikipedia-enugu-colliery-1949",
+		"title": "1949 Enugu Colliery Massacre (the Iva Valley shooting)",
+		"publisher": "Wikipedia",
+		"url": "https://en.wikipedia.org/wiki/1949_Enugu_Colliery_Massacre",
+		"kind": "reference",
+		"accessed": "2026-10-14",
 		"checked": true
 	}
 ]

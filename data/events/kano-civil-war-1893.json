@@ -1,0 +1,78 @@
+{
+	"name": "The Basasa: Kano's civil war",
+	"status": "draft",
+	"kind": "war",
+	"year": 1893,
+	"yearLabel": "1893–1895",
+	"until": 1896,
+	"actors": [
+		{ "name": "Yusufawa (Yusuf, then Aliyu Babba)", "side": "attacker", "ink": "#5b7f3a" },
+		{ "name": "Tukurawa (Emir Muhammad Tukur)", "side": "defender", "ink": "#8a4f3a" },
+		{ "name": "Sokoto Caliphate (Caliph Abdurrahman)", "polity": "sokoto", "side": "ally" }
+	],
+	"summary": {
+		"text": "When Emir Muhammad Bello of Kano died in 1893, Caliph Abdurrahman of Sokoto appointed his son Muhammad Tukur, who had saved the Caliph's life against Kebbi in 1890. Almost at once Yusuf, a son of the earlier emir Abdullahi Maje Karofi, led his brothers in rebellion and left Kano for Takai. Most of the court stood with Tukur, and his commanders fought the rebels at Gano, Gogel and Garko. At Gaya in 1894 they killed Yusuf, but the rebellion went on under his brother Aliyu, who had won at Gogel and Utai. On 19 August 1894 Aliyu took Kano. Tukur moved his court to Kamri and was killed at Guri on 16 March 1895. Aliyu Babba, ‘Mai Sango’, ruled a militarised Kano until the British took it in 1903.",
+		"sources": ["wikipedia-aliyu-babba", "wikipedia-mohammed-tukur", "wikipedia-kano-emirate"],
+		"confidence": "medium"
+	},
+	"routes": [
+		{
+			"kind": "exile",
+			"by": "Yusufawa (Yusuf, then Aliyu Babba)",
+			"path": [[8.52, 12.0], [8.85, 11.8], [9.117, 11.583]],
+			"label": "Yusuf and his brothers leave Kano for Takai",
+			"when": "1893",
+			"confidence": "high",
+			"sources": ["wikipedia-aliyu-babba", "wikipedia-mohammed-tukur"]
+		},
+		{
+			"kind": "advance",
+			"by": "Yusufawa (Yusuf, then Aliyu Babba)",
+			"path": [[9.117, 11.583], [9.011, 11.868], [8.52, 12.0]],
+			"label": "Aliyu's march on Kano",
+			"when": "1894",
+			"confidence": "medium",
+			"sources": ["wikipedia-aliyu-babba"]
+		}
+	],
+	"moments": [
+		{
+			"when": "1893",
+			"title": "Rebellion at Takai",
+			"text": "Tukur is appointed emir; Yusuf leads the sons of Abdullahi Maje Karofi out of Kano to Takai. Aliyu acts as his vizier, coordinating the rebel columns.",
+			"at": { "name": "Takai", "point": [9.117, 11.583] },
+			"mark": "camp",
+			"sources": ["wikipedia-aliyu-babba", "wikipedia-mohammed-tukur"]
+		},
+		{
+			"when": "1894",
+			"title": "The battle of Gaya",
+			"text": "Tukur's commanders kill Yusuf at Gaya. Told on his deathbed that the Caliph planned to march on the rebels, Yusuf names Aliyu, the Caliph's sister's son, in the hope his coronation will pacify Sokoto; the other claimants give way.",
+			"at": { "name": "Gaya", "point": [9.011, 11.868] },
+			"mark": "battle",
+			"sources": ["wikipedia-aliyu-babba", "wikipedia-mohammed-tukur"]
+		},
+		{
+			"when": "19 August 1894",
+			"title": "Kano taken",
+			"text": "Aliyu leads the Yusufawa into the fortified city of Kano. Tukur moves his court to Kamri.",
+			"at": { "name": "Kano", "point": [8.52, 12.0] },
+			"mark": "captured",
+			"sources": ["wikipedia-aliyu-babba", "wikipedia-mohammed-tukur"]
+		},
+		{
+			"when": "16 March 1895",
+			"title": "Tukur killed at Guri",
+			"text": "Aliyu's men catch up with Tukur at Guri, where Barde Abdu Nagwangwazo kills him. He is buried there. Guri is not drawn: its place was not confirmed.",
+			"mark": "battle",
+			"sources": ["wikipedia-mohammed-tukur"]
+		}
+	],
+	"area": { "lgas": ["kano-takai", "kano-gaya", "kano-garko", "kano-kano-municipal"], "confidence": "medium" },
+	"sources": ["wikipedia-aliyu-babba", "wikipedia-mohammed-tukur", "wikipedia-kano-emirate"],
+	"confidence": "medium",
+	"reviewNotes": [
+		"Wikipedia's Kano Emirate article says Yusufu won and became emir; its Aliyu Babba and Mohammed Tukur articles say Yusuf died at Gaya and Aliyu became emir. This event follows the latter.",
+		"Gano, Gogel, Utai, Kamri and Guri are not drawn: GRID3 gives several places with these names (a Kamri in Bindawa, Katsina; Gogel in Buji, Jigawa) and none could be confirmed. The Kano Chronicle (Palmer 1908) or the Tarikh al-Kano would settle them."
+	]
+}

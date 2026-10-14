@@ -6,7 +6,8 @@
 // begins (the invasion of Benin, the founding of Arochukwu), playback slows
 // down and tells it moment by moment, the camera going to each place in turn.
 // Dragging or stepping stops playback, and the newest intent always wins over a
-// queued one.
+// queued one. While the visitor points at something on the map (or has a sign
+// open), playback holds where it is, and carries on once they let go.
 
 import { type ReactNode, useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import type { Translate } from '../../i18n/utils';
@@ -18,25 +19,28 @@ import { MarkIcon } from './Marks';
 
 const MOTION = {
 	/** Counter run between events: ms per year travelled, clamped. Slow enough to feel the years pass. */
-	msPerYear: 14,
-	minRun: 900,
-	maxRun: 2600,
+	msPerYear: 20,
+	minRun: 1400,
+	maxRun: 3600,
 	/**
-	 * How long the map rests on a caption: time for the camera to settle, then about
-	 * 180 words a minute of reading, so a long caption is never cut off mid-sentence.
+	 * How long the map rests on a caption: time for the camera to settle and the eye
+	 * to take in the map, then about 150 words a minute of reading, so a long caption
+	 * is never cut off mid-sentence.
 	 */
-	read: { settle: 2200, msPerWord: 330, min: 7000, max: 17000 },
+	read: { settle: 3200, msPerWord: 400, min: 10000, max: 24000 },
 	/** An event told in detail: each placed moment is read the same way, from a shorter floor. */
-	moment: { min: 5600, max: 14000 },
+	moment: { min: 8000, max: 18000 },
 	/** Before the first moment of an event, the routes (and ships) get this long to set off. */
-	lead: 2400,
+	lead: 3200,
+	/** After a hold, never less than this before playback moves on. */
+	resume: 2500,
 	maxMoments: 6,
 	ease: (t: number) => (t < 0.5 ? 2 * t * t : 1 - (-2 * t + 2) ** 2 / 2), // power2.inOut
 };
 
 const ERAS = [1000, 1400, 1600, 1800, 1900];
 
-const words = (text: string) => text.split(/s+/).filter(Boolean).length;
+const words = (text: string) => text.split(/\s+/).filter(Boolean).length;
 
 /** Time to read a caption made of these lines, within the given bounds. */
 function readMs(lines: (string | undefined)[], bounds: { min: number; max: number } = MOTION.read): number {
@@ -84,12 +88,14 @@ interface Props {
 	onMoment: (event: string, index: number) => void;
 	onOpenEvent: (id: string) => void;
 	onPlaying: (playing: boolean) => void;
+	/** The visitor is looking at something on the map: playback waits for them. */
+	held?: boolean;
 	tr: Translate;
 	/** Shown just above the bar while nothing plays: the hint that the map can be pointed at. */
 	hint?: ReactNode;
 }
 
-export default function Timeline({ history, year, onYear, onArrive, onMoment, onOpenEvent, onPlaying, tr, hint }: Props) {
+export default function Timeline({ history, year, onYear, onArrive, onMoment, onOpenEvent, onPlaying, held = false, tr, hint }: Props) {
 	const { t } = tr;
 	const stops = useMemo(() => eventYears(history), [history]);
 	const [playing, setPlaying] = useState(false);
@@ -98,8 +104,9 @@ export default function Timeline({ history, year, onYear, onArrive, onMoment, on
 	// The moment being told, while playback holds on a detailed event.
 	const [moment, setMoment] = useState<number | null>(null);
 	const frame = useRef(0);
-	const timer = useRef(0);
-	const momentTimer = useRef(0);
+	// The one pending wait of playback (a caption or a moment being read); it can be held and released.
+	const timer = useRef<{ id: number; fn: (() => void) | null; due: number; left: number }>({ id: 0, fn: null, due: 0, left: 0 });
+	const holding = useRef(held);
 	const latest = useRef({ year, onYear, onArrive, onMoment });
 	latest.current = { year, onYear, onArrive, onMoment };
 
@@ -111,13 +118,39 @@ export default function Timeline({ history, year, onYear, onArrive, onMoment, on
 
 	const stop = useCallback(() => {
 		cancelAnimationFrame(frame.current);
-		clearTimeout(timer.current);
-		clearTimeout(momentTimer.current);
+		clearTimeout(timer.current.id);
 		frame.current = 0;
-		timer.current = 0;
-		momentTimer.current = 0;
+		timer.current = { id: 0, fn: null, due: 0, left: 0 };
 		setMoment(null);
 	}, []);
+
+	/** Calls `fn` after `ms` of playback time: time spent held does not count. */
+	const wait = useCallback((ms: number, fn: () => void) => {
+		clearTimeout(timer.current.id);
+		const run = () => {
+			timer.current = { id: 0, fn: null, due: 0, left: 0 };
+			fn();
+		};
+		timer.current = { id: 0, fn: run, due: performance.now() + ms, left: ms };
+		if (!holding.current) timer.current.id = window.setTimeout(run, ms);
+	}, []);
+
+	// Hold the pending wait while the visitor looks; on release, give them a beat before moving on.
+	useEffect(() => {
+		holding.current = held;
+		const pending = timer.current;
+		if (!pending.fn) return;
+		if (held) {
+			if (!pending.id) return;
+			clearTimeout(pending.id);
+			pending.id = 0;
+			pending.left = Math.max(0, pending.due - performance.now());
+		} else if (!pending.id) {
+			const ms = Math.max(pending.left, MOTION.resume);
+			pending.due = performance.now() + ms;
+			pending.id = window.setTimeout(pending.fn, ms);
+		}
+	}, [held]);
 
 	useEffect(() => stop, [stop]);
 
@@ -167,12 +200,12 @@ export default function Timeline({ history, year, onYear, onArrive, onMoment, on
 					const m = e.moments[moments[n]];
 					setMoment(moments[n]);
 					latest.current.onMoment(e.id, moments[n]);
-					momentTimer.current = window.setTimeout(() => (n + 1 < moments.length ? visit(n + 1) : step()), readMs([m.title, firstSentence(m.text), e.name], MOTION.moment));
+					wait(readMs([m.title, firstSentence(m.text), e.name], MOTION.moment), () => (n + 1 < moments.length ? visit(n + 1) : step()));
 				};
-				momentTimer.current = window.setTimeout(() => visit(0), MOTION.lead);
+				wait(MOTION.lead, () => visit(0));
 				return;
 			}
-			timer.current = window.setTimeout(step, readMs(captionLines(history, at)));
+			wait(readMs(captionLines(history, at)), step);
 		};
 		const step = () => {
 			const current = latest.current.year;
@@ -193,7 +226,7 @@ export default function Timeline({ history, year, onYear, onArrive, onMoment, on
 			tell(here);
 		} else step();
 		return stop;
-	}, [playing, stops, nextStop, runTo, stop, history]);
+	}, [playing, stops, nextStop, runTo, stop, wait, history]);
 
 	const snapshots = year < TODAY ? eventsAt(history, year) : [];
 	const starting = year < TODAY ? eventsStarting(history, year) : [];
@@ -274,6 +307,12 @@ export default function Timeline({ history, year, onYear, onArrive, onMoment, on
 				{!playing && (
 					<span id="timeline-cue" className="timeline__cue" onClick={() => setPlaying(true)}>
 						{t('timeline.cue')}
+					</span>
+				)}
+				{/* While the visitor looks at the map, say why the film has stopped moving. */}
+				{playing && held && (
+					<span className="timeline__cue timeline__cue--held" role="status">
+						{t('timeline.held')}
 					</span>
 				)}
 

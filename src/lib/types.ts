@@ -151,7 +151,7 @@ export interface PolityView {
 	reviewNotes: string[];
 }
 
-export type EventKind = 'war' | 'raid' | 'alliance' | 'migration' | 'colonial' | 'partition' | 'contact';
+export type EventKind = 'war' | 'raid' | 'alliance' | 'treaty' | 'migration' | 'colonial' | 'partition' | 'contact';
 export type RouteKind = 'advance' | 'retreat' | 'raid' | 'migration' | 'exile' | 'loot' | 'alliance' | 'voyage';
 /** A ship on a voyage route: sail before the steamers came up the Niger, steam after. */
 export type Vessel = 'sail' | 'steam';

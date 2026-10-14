@@ -1,0 +1,58 @@
+{
+	"name": "The Aburi Accord",
+	"status": "draft",
+	"kind": "treaty",
+	"year": 1967,
+	"yearLabel": "4–5 January 1967",
+	"until": 1967,
+	"actors": [
+		{ "name": "Federal Nigeria (Yakubu Gowon)", "side": "ally", "ink": "#2e6b3f" },
+		{ "name": "Eastern Region (Odumegwu Ojukwu)", "side": "ally", "ink": "#b8860b" },
+		{ "name": "Ghana's National Liberation Council (Lt.-Gen. Joseph Ankrah), host", "side": "ally" }
+	],
+	"summary": {
+		"text": "After the coups and massacres of 1966, Nigeria's military rulers met at Aburi in Ghana on 4 and 5 January 1967, in what was billed as the last chance to prevent war. Aburi was chosen because Ojukwu's safety could not be guaranteed anywhere in the West or North. Gowon, Ojukwu, the governors of the North, West, Mid-West and Lagos, and the police chiefs agreed not to use force to settle the crisis; to vest all powers of the Federal Military Government in the Supreme Military Council, whose national decisions would need everyone's agreement; and to leave each military governor in charge of security in his region. The resolutions were to be issued as a decree from Lagos. The two sides read them differently: Ojukwu as a loose confederation, Lagos as a reorganisation of a federation. Decree No. 8, issued in March, kept powers the East had refused, Ojukwu declared ‘On Aburi we stand’, and the accord collapsed into secession and war.",
+		"sources": ["wikipedia-aburi-accord"],
+		"confidence": "high"
+	},
+	"moments": [
+		{
+			"when": "4–5 January 1967",
+			"title": "Aburi",
+			"text": "Chaired by Ghana's Lt.-Gen. Ankrah, the meeting agrees: no force; legislative and executive authority in the Supreme Military Council, with unanimous agreement for national decisions; regional security under each military governor; senior civil service, police and diplomatic appointments subject to the Council; and the head of the Federal Military Government to be Commander-in-Chief. Ojukwu takes no part in the humour of the meeting.",
+			"at": { "name": "Aburi, Ghana", "point": [-0.183, 5.85] },
+			"mark": "treaty",
+			"sources": ["wikipedia-aburi-accord"]
+		},
+		{
+			"when": "10 March 1967",
+			"title": "The Council meets without the East",
+			"text": "The Supreme Military Council meets at Benin City to pass the decree that is to embody Aburi. Ojukwu stays away, having already rejected a draft that he said made a mockery of the resolutions.",
+			"at": { "name": "Benin City", "point": [5.627, 6.335] },
+			"mark": "treaty",
+			"sources": ["wikipedia-aburi-accord"]
+		},
+		{
+			"when": "17 March 1967",
+			"title": "Decree No. 8",
+			"text": "Lagos issues Decree No. 8. Its sections 70 and 71 let the Head of the Federal Military Government, with three governors, declare a state of emergency and then legislate for any region, with or without its governor's consent.",
+			"at": { "name": "Lagos", "point": [3.394, 6.455] },
+			"mark": "treaty",
+			"sources": ["wikipedia-aburi-accord"]
+		},
+		{
+			"when": "March–May 1967",
+			"title": "‘On Aburi we stand’",
+			"text": "The East treats the decree as a betrayal. Ojukwu warns that if Aburi is not implemented the East will be left with no choice but ‘self-help’. On 30 May he declares the Republic of Biafra.",
+			"at": { "name": "Enugu", "point": [7.49, 6.45] },
+			"mark": "treaty",
+			"sources": ["wikipedia-aburi-accord"]
+		}
+	],
+	"sources": ["wikipedia-aburi-accord"],
+	"confidence": "high",
+	"reviewNotes": [
+		"Wikipedia's Aburi article leans on Segun Toyin Dawodu's site and on Eastern sources for the reading of Decree No. 8. A Federal account (for example the Federal government's own publications of 1967) would balance it.",
+		"The crisis-1966 event also marks Aburi as a moment; this event tells the accord itself."
+	]
+}

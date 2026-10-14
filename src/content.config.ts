@@ -251,8 +251,12 @@ const events = defineCollection({
 		.object({
 			name: z.string(),
 			status: z.enum(['draft', 'reviewed', 'published']),
-			/** colonial: an attack by British forces. partition: a kingdom's lands divided among colonial provinces. */
-			kind: z.enum(['war', 'raid', 'alliance', 'migration', 'colonial', 'partition', 'contact']),
+			/**
+			 * colonial: an attack by British forces. partition: a kingdom's lands divided among colonial
+			 * provinces. treaty: a signed agreement that changed who ruled or traded where (a cession, a
+			 * protection treaty, a peace, an accord), told in its own right rather than as one moment of a war.
+			 */
+			kind: z.enum(['war', 'raid', 'alliance', 'treaty', 'migration', 'colonial', 'partition', 'contact']),
 			year,
 			yearLabel: z.string().optional(),
 			/** Last year the event stays on the map. Left out, it lasts a generation (to the timeline's end for a partition). */

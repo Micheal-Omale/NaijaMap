@@ -1,0 +1,62 @@
+{
+	"name": "The Bussa rising",
+	"status": "draft",
+	"kind": "colonial",
+	"year": 1912,
+	"yearLabel": "1912–1915",
+	"until": 1916,
+	"actors": [
+		{ "name": "British forces", "side": "colonial" },
+		{ "name": "Bussa rebels (prince Sabukki)", "polity": "borgu", "side": "resister" }
+	],
+	"summary": {
+		"text": "Under indirect rule the British meant to govern Borgu through its own kings, but they judged Kitoro Gani, the hereditary emir of Bussa, too weak to collect taxes or supply labourers for the railways. In 1912 the Resident at Yelwa, A. C. Boyd, divided the emirate into areas each run by a Native Administration; at Bussa it was put under Turaki, a former royal adviser, and taxes went up. In early June 1915, with the British stretched by the war in the Cameroons, about 600 rebels led by the prince Sabukki, armed with bows and arrows, occupied Bussa and killed about half the members of the new Administration; the rest fled. A small force of the West African Frontier Force and police retook the town after skirmishes in which only 150 shots were fired and no soldier died. Sabukki fled into French Dahomey. The historian Michael Crowder made the rising the subject of his Revolt in Bussa.",
+		"sources": ["wikipedia-bussa-rebellion", "crowder-1973-bussa"],
+		"confidence": "high"
+	},
+	"routes": [
+		{
+			"kind": "retreat",
+			"by": "Bussa rebels (prince Sabukki)",
+			"path": [[4.5, 10.2], [4.0, 10.25], [3.62, 10.3]],
+			"label": "Sabukki flees into French Dahomey",
+			"when": "June 1915",
+			"note": "Drawn to the Dahomey border; where he crossed is not recorded.",
+			"confidence": "medium",
+			"sources": ["wikipedia-bussa-rebellion"]
+		}
+	],
+	"moments": [
+		{
+			"when": "1912",
+			"title": "The emir set aside",
+			"text": "Resident A. C. Boyd reorganises Borgu into Native Administrations. At Bussa power passes from the emir Kitoro Gani to Turaki, and taxes rise.",
+			"at": { "name": "Bussa (old town)", "point": [4.5, 10.2] },
+			"mark": "captured",
+			"sources": ["wikipedia-bussa-rebellion"]
+		},
+		{
+			"when": "Early June 1915",
+			"title": "Bussa taken by the rebels",
+			"text": "About 600 rebels under Sabukki occupy Bussa and kill about half the members of the Native Administration; the rest flee the district.",
+			"at": { "name": "Bussa (old town)", "point": [4.5, 10.2] },
+			"mark": "massacre",
+			"sources": ["wikipedia-bussa-rebellion"]
+		},
+		{
+			"when": "From 16 June 1915",
+			"title": "The rising put down",
+			"text": "District officer Hamilton-Brown hears of the rising on 16 June, raises a small force of the West African Frontier Force and police, and retakes Bussa after skirmishes.",
+			"at": { "name": "Bussa (old town)", "point": [4.5, 10.2] },
+			"mark": "battle",
+			"sources": ["wikipedia-bussa-rebellion"]
+		}
+	],
+	"sources": ["wikipedia-bussa-rebellion", "crowder-1973-bussa"],
+	"confidence": "high",
+	"reviewNotes": [
+		"Old Bussa now lies under Kainji Lake; the point is the old town's.",
+		"Wikipedia says the Native Administration was set up in 1912 and also that it had been set up three months before the rising; Crowder (1973) would settle it.",
+		"The event starts in 1912 so the reorganisation shows on the map; the rising itself is June 1915."
+	]
+}

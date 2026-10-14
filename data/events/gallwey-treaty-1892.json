@@ -1,0 +1,69 @@
+{
+	"name": "The Gallwey treaty with Benin",
+	"status": "draft",
+	"kind": "treaty",
+	"year": 1892,
+	"yearLabel": "26 March 1892",
+	"until": 1897,
+	"actors": [
+		{ "name": "Kingdom of Benin (Oba Ovonramwen)", "polity": "benin", "side": "ally" },
+		{ "name": "British vice-consul Henry Gallwey", "side": "colonial" }
+	],
+	"summary": {
+		"text": "After the Berlin Conference Britain treated Benin as lying in its sphere, but the Oba had signed nothing: an early mission sent by Consul Hewett never reached the capital, and Ovonramwen would not receive Consul Annesley in 1890. Henry Gallwey, the first resident vice-consul for the Benin River, prepared a new mission through messengers, and Ovonramwen agreed to talk. Gallwey left for Benin on 21 March 1892 without an armed escort, reached the city on the 23rd, and was received only on the 26th. Through several interpreters he explained a standard protectorate treaty while the Oba asked again and again whether it meant peace or war. Assured it meant peace, the Oba and chiefs accepted it; Ovonramwen, in the middle of an important ritual, would not touch the pen, so his name was written and the chiefs touched the pen in turn. In the British reading the treaty bound Benin to take consular advice and open its trade and its country to missionaries; the historian Philip Igbafe doubts the Oba could have understood it as giving away sovereignty. When Benin kept its royal monopolies and closed markets as before, British officials called it a breach, and the dispute led to Phillips's mission and the invasion of 1897.",
+		"sources": ["wikipedia-ovonramwen", "ryder-1969"],
+		"confidence": "high"
+	},
+	"routes": [
+		{
+			"kind": "advance",
+			"by": "British vice-consul Henry Gallwey",
+			"path": [[5.367, 6.167], [5.5, 6.26], [5.627, 6.335]],
+			"label": "Gallwey goes up to Benin City without an armed escort",
+			"when": "21–23 March 1892",
+			"note": "Drawn from Ughoton, Benin's port; where he set out from is not stated.",
+			"confidence": "medium",
+			"sources": ["wikipedia-ovonramwen"]
+		}
+	],
+	"moments": [
+		{
+			"when": "23–26 March 1892",
+			"title": "Three days' wait",
+			"text": "Gallwey reaches the city on 23 March but repeated delays keep him from an audience until the 26th. Ovonramwen first listens from behind a curtain to Gallwey's exchanges with his senior advisers, then appears in full coral regalia with his chiefs and swordbearers.",
+			"at": { "name": "Benin City", "point": [5.627, 6.335] },
+			"mark": "camp",
+			"sources": ["wikipedia-ovonramwen"]
+		},
+		{
+			"when": "26 March 1892",
+			"title": "The pen not touched",
+			"text": "The Oba and chiefs accept the treaty. Ovonramwen, engaged in a ritual, refuses to touch the pen himself; his name is written and the chiefs touch the pen one after another. Articles IV and V put the Oba under consular advice at home and abroad, Article VI opens unrestricted trade, Article VII admits Christian missionaries, and British subjects come under consular jurisdiction. It says nothing specific against slavery or human sacrifice.",
+			"at": { "name": "Benin City", "point": [5.627, 6.335] },
+			"mark": "treaty",
+			"sources": ["wikipedia-ovonramwen", "ryder-1969"]
+		},
+		{
+			"when": "1892",
+			"title": "The road to Ughoton",
+			"text": "Ovonramwen promises to clear and widen the road to Ughoton and to lift his embargo on gum copal.",
+			"at": { "name": "Ughoton (Gwato)", "point": [5.367, 6.167] },
+			"mark": "treaty",
+			"sources": ["wikipedia-ovonramwen"]
+		},
+		{
+			"when": "2 April 1896",
+			"title": "Trade with the Itsekiri stopped",
+			"text": "Ovonramwen suspends commerce with the Itsekiri, in a dispute over prices and dues. He would reopen only for a large quantity of corrugated iron. British officials, reading the treaty as abolishing customary payments, call it a breach and press London for force.",
+			"at": { "name": "Benin City", "point": [5.627, 6.335] },
+			"mark": "treaty",
+			"sources": ["wikipedia-ovonramwen"]
+		}
+	],
+	"sources": ["wikipedia-ovonramwen", "ryder-1969"],
+	"confidence": "high",
+	"reviewNotes": [
+		"The account of the signing (the pen touched by the chiefs, not the Oba) follows Ryder via Wikipedia and differs from summaries saying simply that Ovonramwen signed or refused to sign.",
+		"The invasion that followed is told in benin-expedition-1897."
+	]
+}
