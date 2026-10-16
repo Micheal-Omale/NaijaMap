@@ -1,5 +1,6 @@
 import type { Translate } from '../../i18n/utils';
 import adsData from '../../../data/ads.json';
+import './ads.css';
 
 // Sponsored banners inside the description cards. Ads live in data/ads.json and
 // are bundled with the island, so changing them needs a rebuild, like the rest of the data.

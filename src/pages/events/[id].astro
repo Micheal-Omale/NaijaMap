@@ -1,0 +1,122 @@
+---
+// One event's reading page: who took part, what happened moment by moment, and the
+// sources. No ads here: many of these pages are about wars and massacres.
+import Page from '../../layouts/Page.astro';
+import Claim from '../../components/reading/Claim.astro';
+import Sources from '../../components/reading/Sources.astro';
+import { getLangFromUrl, useTranslations } from '../../i18n/utils';
+import { getHistory } from '../../lib/polities';
+import { article, clip, firstSentence, mapLinks, paths, yearText } from '../../lib/seo';
+import type { EventView } from '../../lib/types';
+
+export async function getStaticPaths() {
+	const history = await getHistory();
+	const names = new Map(history.polities.map((p) => [p.id, p.name]));
+	return history.events.map((event) => ({
+		params: { id: event.id },
+		props: { event, kingdoms: event.polities.filter((id) => names.has(id)).map((id) => ({ id, name: names.get(id)! })) },
+	}));
+}
+
+const { event: e, kingdoms } = Astro.props as { event: EventView; kingdoms: { id: string; name: string }[] };
+const { t } = useTranslations(getLangFromUrl(Astro.url));
+
+const when = e.yearLabel ?? yearText(e.year);
+const title = `${t('events.pageTitle', { name: e.name, year: yearText(e.year) })} · ${t('site.name')}`;
+const description = clip(`${t(`event.kind.${e.kind}`)}, ${when}. ${firstSentence(e.summary.text)}`);
+const path = paths.event(e.id);
+const schema = [
+	article({
+		path,
+		headline: t('events.pageTitle', { name: e.name, year: yearText(e.year) }),
+		description,
+		sources: e.sources,
+		image: '/og/kingdoms.png',
+		about: { '@type': 'Thing', name: e.name, description: firstSentence(e.summary.text) },
+	}),
+];
+---
+
+<Page
+	title={title}
+	description={description}
+	crumbs={[{ name: t('nav.events'), path: paths.events }, { name: e.name, path }]}
+	schema={schema}
+	mood="then"
+	image="/og/kingdoms.png"
+>
+	<article>
+		<header>
+			<p class="rd-kicker">{t(`event.kind.${e.kind}`)} · {when}</p>
+			<h1>{e.name}</h1>
+			<p class="rd-lede">{firstSentence(e.summary.text, 400)}</p>
+			<div class="rd-actions">
+				<a class="rd-button" href={mapLinks.event(e.id, e.year)}>{t('events.openMap')}</a>
+			</div>
+		</header>
+
+		<section aria-labelledby="overview">
+			<h2 id="overview">{t('page.overview')}</h2>
+			<p>{e.summary.text}<Claim e={e.summary} /></p>
+			{e.note && <p class="rd-note">{e.note}</p>}
+		</section>
+
+		{
+			e.actors.length > 0 && (
+				<section aria-labelledby="actors">
+					<h2 id="actors">{t('events.actors')}</h2>
+					<ul class="rd-chips">
+						{e.actors.map((a) => (
+							<li>
+								{a.polity && kingdoms.some((k) => k.id === a.polity) ? <a href={paths.kingdom(a.polity)}>{a.name}</a> : a.name}
+								<span class="rd-muted">· {t(`event.side.${a.side}`)}</span>
+							</li>
+						))}
+					</ul>
+				</section>
+			)
+		}
+
+		{
+			e.moments.length > 0 && (
+				<section aria-labelledby="moments">
+					<h2 id="moments">{t('events.moments')}</h2>
+					<ol class="rd-timeline">
+						{e.moments.map((m) => (
+							<li>
+								<span class="rd-when">
+									{m.when}
+									{m.at && ` · ${m.at.name}`}
+								</span>
+								<h3>{m.title}</h3>
+								<p>
+									{m.text}
+									{m.refs.length > 0 && <Claim e={{ refs: m.refs, confidence: m.confidence ?? e.confidence }} quiet={!m.confidence} />}
+								</p>
+							</li>
+						))}
+					</ol>
+				</section>
+			)
+		}
+
+		{
+			kingdoms.length > 0 && (
+				<section aria-labelledby="kingdoms">
+					<h2 id="kingdoms">{t('events.kingdoms')}</h2>
+					<ul class="rd-list rd-list--grid">
+						{kingdoms.map((k) => (
+							<li>
+								<a href={paths.kingdom(k.id)}>
+									<strong>{k.name}</strong>
+								</a>
+							</li>
+						))}
+					</ul>
+				</section>
+			)
+		}
+
+		<Sources sources={e.sources} />
+	</article>
+</Page>

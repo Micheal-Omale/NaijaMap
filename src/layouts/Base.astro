@@ -2,29 +2,76 @@
 import '@fontsource-variable/bricolage-grotesque';
 import '../styles/global.css';
 import { getLangFromUrl, useTranslations } from '../i18n/utils';
+import { SITE_CONFIG } from '../lib/site';
+import { jsonLd } from '../lib/seo';
 
 interface Props {
 	title?: string;
 	description?: string;
 	noindex?: boolean;
+	/** The share preview, a path under public/ (1200 by 630). */
+	image?: string;
+	/** website for the home page, article for reading pages. */
+	type?: 'website' | 'article';
+	/** schema.org data for search engines and AI answers. */
+	schema?: object | object[];
+	/** The old-map look, set before the first paint. */
+	mood?: 'then';
+	/** Loads the AdSense script; only reading pages ask for it. */
+	adClient?: string;
 }
 
 const lang = getLangFromUrl(Astro.url);
 const { t } = useTranslations(lang);
-const { title = t('site.name'), description = t('site.description'), noindex = false } = Astro.props;
+const {
+	title = t('site.name'),
+	description = t('site.description'),
+	noindex = false,
+	image = '/og/atlas.png',
+	type = 'website',
+	schema,
+	mood,
+	adClient,
+} = Astro.props;
+
+// One address per page: no trailing slash, no query (shared map views fold into the page they open on).
+const path = Astro.url.pathname.replace(/\/(index\.html)?$/, '') || '/';
+const canonical = new URL(path, Astro.site).href;
+const imageUrl = new URL(image, Astro.site).href;
 ---
 
 <!doctype html>
-<html lang={lang}>
+<html lang={lang} data-mood={mood}>
 	<head>
 		<meta charset="utf-8" />
 		<!-- Marks the page as scripted before it paints, so the loading screen shows instead of the text-only fallback. -->
 		<script is:inline>document.documentElement.classList.add('js');</script>
 		<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+		<title>{title}</title>
 		<meta name="description" content={description} />
+		{noindex ? <meta name="robots" content="noindex" /> : <link rel="canonical" href={canonical} />}
 		<meta name="theme-color" content="#f4f2ed" media="(prefers-color-scheme: light)" />
 		<meta name="theme-color" content="#0f1115" media="(prefers-color-scheme: dark)" />
-		{noindex && <meta name="robots" content="noindex" />}
+
+		<!-- Share previews (WhatsApp, Facebook, X, LinkedIn). -->
+		<meta property="og:site_name" content={t('site.name')} />
+		<meta property="og:type" content={type} />
+		<meta property="og:title" content={title} />
+		<meta property="og:description" content={description} />
+		<meta property="og:url" content={canonical} />
+		<meta property="og:image" content={imageUrl} />
+		<meta property="og:image:width" content="1200" />
+		<meta property="og:image:height" content="630" />
+		<meta property="og:locale" content="en_NG" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:title" content={title} />
+		<meta name="twitter:description" content={description} />
+		<meta name="twitter:image" content={imageUrl} />
+
+		{SITE_CONFIG.googleVerification && <meta name="google-site-verification" content={SITE_CONFIG.googleVerification} />}
+		{SITE_CONFIG.bingVerification && <meta name="msvalidate.01" content={SITE_CONFIG.bingVerification} />}
+		<link rel="sitemap" type="application/xml" href="/sitemap.xml" />
+
 		<link rel="icon" href="/favicon.ico" sizes="32x32" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<!-- Installable as an app: full screen from the home screen, with its own icon. -->
@@ -36,8 +83,9 @@ const { title = t('site.name'), description = t('site.description'), noindex = f
 		<meta name="apple-mobile-web-app-title" content="HistoNaija" />
 		<!-- Visitor counts (GoatCounter: no cookies, so no consent banner). Ignores localhost. -->
 		<script is:inline data-goatcounter="https://histonaija.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+		{adClient && <script is:inline async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adClient}`} crossorigin="anonymous"></script>}
+		{schema && <script is:inline type="application/ld+json" set:html={jsonLd(schema)} />}
 		<slot name="head" />
-		<title>{title}</title>
 	</head>
 	<body>
 		<slot />

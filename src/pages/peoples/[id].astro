@@ -1,0 +1,215 @@
+---
+// One people's reading page: where they live, their language, ruler and kingdoms,
+// with every claim's sources. Answers "where do the Igala live" for search engines
+// and AI answers, and opens the people on the map.
+import Page from '../../layouts/Page.astro';
+import AdSlot from '../../components/AdSlot.astro';
+import Claim from '../../components/reading/Claim.astro';
+import Sources from '../../components/reading/Sources.astro';
+import { getLangFromUrl, useTranslations } from '../../i18n/utils';
+import { getGroupViews } from '../../lib/groups';
+import { article, byState, clip, firstSentence, mapLinks, paths, placesText, stateName } from '../../lib/seo';
+import type { GroupView, Presence } from '../../lib/types';
+
+export async function getStaticPaths() {
+	const groups = await getGroupViews();
+	return groups.map((group) => ({ params: { id: group.id }, props: { group } }));
+}
+
+const { group: g } = Astro.props as { group: GroupView };
+const tr = useTranslations(getLangFromUrl(Astro.url));
+const { t, plural } = tr;
+const and = t('page.and');
+
+const ORDER: Presence[] = ['core', 'significant', 'minority'];
+const areas = [...g.areas].sort((a, b) => ORDER.indexOf(a.presence) - ORDER.indexOf(b.presence) || a.name.localeCompare(b.name));
+const core = areas.filter((a) => a.presence === 'core');
+const homeland = core.length ? core : areas.filter((a) => a.presence === 'significant');
+const shared = core.length ? areas.filter((a) => a.presence === 'significant') : [];
+const states = byState(areas);
+const family = g.language.family;
+const lineage = family.lineage.join(' › ');
+
+const where = `${t('peoples.aWhere', { places: placesText(homeland, and), lgas: plural('page.lgas', homeland.length) })}${
+	shared.length ? ` ${t('peoples.aWhereMore', { places: placesText(shared, and) })}` : ''
+}`;
+const languageAnswer = t('peoples.aLanguage', { language: g.language.name, family: family.name, lineage });
+const rulerText = g.ruler ? (g.ruler.seat ? t('profile.rulerSeat', { title: g.ruler.title, seat: g.ruler.seat }) : g.ruler.title) : undefined;
+
+const title = `${t('peoples.pageTitle', { name: g.name })} · ${t('site.name')}`;
+const description = clip(
+	`${t('peoples.description', { name: g.name, places: placesText(homeland, and), language: g.language.name, family: family.name })} ${firstSentence(g.summary.text)}`,
+);
+const path = paths.people(g.id);
+const aliases = [...new Set(g.searchAliases.filter((a) => a !== g.name))];
+const adCtx = { group: g.id, lgas: g.areas.map((a) => a.lga), states: states.map((s) => s.state) };
+
+const schema = [
+	article({
+		path,
+		headline: t('peoples.pageTitle', { name: g.name }),
+		description,
+		sources: g.sources,
+		about: {
+			'@type': 'Thing',
+			name: `${g.name} people`,
+			...(aliases.length ? { alternateName: aliases } : {}),
+			description: firstSentence(g.summary.text),
+		},
+	}),
+];
+---
+
+<Page title={title} description={description} crumbs={[{ name: t('nav.peoples'), path: paths.peoples }, { name: g.name, path }]} schema={schema} ads>
+	<article>
+		<header>
+			<p class="rd-kicker">{family.name} · {t('peoples.heading')}</p>
+			<h1>{g.name}</h1>
+			<p class="rd-lede">{firstSentence(g.summary.text, 400)}</p>
+			<div class="rd-actions">
+				<a class="rd-button" href={mapLinks.people(g.id)}>{t('peoples.openMap', { name: g.name })}</a>
+				{g.kingdoms.slice(0, 1).map((k) => <a class="rd-button rd-button--quiet" href={paths.kingdom(k.id)}>{k.name}</a>)}
+			</div>
+		</header>
+
+		<section class="rd-facts" aria-labelledby="facts">
+			<h2 id="facts">{t('page.facts')}</h2>
+			<dl>
+				<div>
+					<dt>{t('peoples.qWhere', { name: g.name })}</dt>
+					<dd>{where}</dd>
+				</div>
+				<div>
+					<dt>{t('peoples.qLanguage', { name: g.name })}</dt>
+					<dd>{languageAnswer}</dd>
+				</div>
+				{
+					rulerText && (
+						<div>
+							<dt>{t('peoples.qRuler', { name: g.name })}</dt>
+							<dd>{rulerText}.</dd>
+						</div>
+					)
+				}
+				{
+					g.kingdoms.length > 0 && (
+						<div>
+							<dt>{t('peoples.qKingdom', { name: g.name })}</dt>
+							<dd>
+								{g.kingdoms.map((k, i) => (
+									<>
+										{i > 0 && ', '}
+										<a href={paths.kingdom(k.id)}>{k.name}</a>
+									</>
+								))}
+							</dd>
+						</div>
+					)
+				}
+			</dl>
+		</section>
+
+		<section aria-labelledby="overview">
+			<h2 id="overview">{t('page.overview')}</h2>
+			<p>{g.summary.text}<Claim e={g.summary} /></p>
+		</section>
+
+		<AdSlot slot="reading-people-mid" ctx={adCtx} />
+
+		<section aria-labelledby="where">
+			<h2 id="where">{t('peoples.where', { name: g.name })}</h2>
+			<p class="rd-muted">{t('peoples.whereHelp')}</p>
+			<ul class="rd-states">
+				{
+					states.map((s) => (
+						<li>
+							<h3>{s.state}</h3>
+							<ul class="rd-chips">
+								{s.areas.map((a) => (
+									<li data-presence={a.presence} title={t(`presence.${a.presence}`)}>
+										{a.name}
+										<span class="visually-hidden">({t(`presence.${a.presence}`)})</span>
+									</li>
+								))}
+							</ul>
+						</li>
+					))
+				}
+			</ul>
+			<p class="rd-muted">{t('site.notOwnership')}</p>
+		</section>
+
+		{
+			g.communities.length > 0 && (
+				<section aria-labelledby="communities">
+					<h2 id="communities">{t('peoples.communities')}</h2>
+					{g.communities.map((c) => (
+						<>
+							<h3>{c.name}</h3>
+							<p>
+								{c.lgaName}, {stateName(c.state)}
+								{c.alsoIn.map((o) => `; ${o.name}, ${stateName(o.state)}`).join('')}
+								{c.villages.length > 0 && <>: {c.villages.map((v) => v.name).join(', ')}</>}.
+								<Claim e={c} />
+							</p>
+							{c.history && (
+								<p>
+									{c.history.text}
+									<Claim e={c.history} quiet />
+								</p>
+							)}
+							{c.livelihoods && (
+								<p>
+									{c.livelihoods.text}
+									<Claim e={c.livelihoods} quiet />
+								</p>
+							)}
+						</>
+					))}
+				</section>
+			)
+		}
+
+		<section aria-labelledby="language">
+			<h2 id="language">{t('profile.language')}</h2>
+			<p>
+				{languageAnswer}
+				{g.language.iso639_3 && <> ISO 639-3: <code>{g.language.iso639_3}</code>.</>}
+				<Claim e={g.language} />
+			</p>
+			{
+				g.ruler && (
+					<>
+						<h3>{t('profile.ruler')}</h3>
+						<p>
+							{rulerText}.<Claim e={g.ruler} />
+						</p>
+					</>
+				)
+			}
+		</section>
+
+		{
+			g.kingdoms.length > 0 && (
+				<section aria-labelledby="history">
+					<h2 id="history">{t('peoples.kingdoms')}</h2>
+					<ul class="rd-list">
+						{g.kingdoms.map((k) => (
+							<li>
+								<a href={paths.kingdom(k.id)}>
+									<strong>{k.name}</strong>
+									<span>{t('profile.seeKingdom', { name: k.name, year: k.peak })}</span>
+								</a>
+							</li>
+						))}
+					</ul>
+				</section>
+			)
+		}
+
+		<AdSlot slot="reading-people-end" ctx={adCtx} house={false} />
+
+		<Sources sources={g.sources} />
+	</article>
+</Page>
+

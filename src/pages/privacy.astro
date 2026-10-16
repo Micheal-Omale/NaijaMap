@@ -1,0 +1,38 @@
+---
+// What the site records, and what the ads on its reading pages may do. AdSense
+// requires a page like this before it serves ads.
+import Page from '../layouts/Page.astro';
+import { getLangFromUrl, useTranslations } from '../i18n/utils';
+import { SITE_CONFIG } from '../lib/site';
+import { paths } from '../lib/seo';
+
+const { t } = useTranslations(getLangFromUrl(Astro.url));
+const title = `${t('privacy.title')} · ${t('site.name')}`;
+---
+
+<Page title={title} description={t('privacy.lede')} crumbs={[{ name: t('nav.privacy'), path: paths.privacy }]}>
+	<h1>{t('privacy.heading')}</h1>
+	<p class="rd-lede">{t('privacy.lede')}</p>
+
+	<h2>{t('privacy.countsHeading')}</h2>
+	<p>{t('privacy.counts')}</p>
+
+	<h2>{t('privacy.storageHeading')}</h2>
+	<p>{t('privacy.storage')}</p>
+
+	<h2>{t('privacy.adsHeading')}</h2>
+	<p>{t('privacy.ads')}</p>
+	<p>
+		<a href="https://adssettings.google.com/" rel="noopener">{t('privacy.adsOptOut')}</a>
+	</p>
+	<p>{t('privacy.sponsored')}</p>
+
+	{
+		SITE_CONFIG.contact && (
+			<>
+				<h2>{t('privacy.contactHeading')}</h2>
+				<p>{t('privacy.contact', { email: SITE_CONFIG.contact })}</p>
+			</>
+		)
+	}
+</Page>

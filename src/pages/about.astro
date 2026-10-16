@@ -1,0 +1,47 @@
+---
+// How the map was made: sources, confidence levels, licence. Also who stands behind
+// it, which search engines weigh when they judge a history site.
+import Page from '../layouts/Page.astro';
+import { getLangFromUrl, useTranslations } from '../i18n/utils';
+import { SITE_CONFIG } from '../lib/site';
+import { absolute, dataLicence, paths, publisher } from '../lib/seo';
+
+const { t } = useTranslations(getLangFromUrl(Astro.url));
+const title = `${t('about.title')} · ${t('site.name')}`;
+const description = t('about.lede');
+const schema = [{ '@context': 'https://schema.org', '@type': 'AboutPage', name: t('about.title'), description, url: absolute(paths.about), publisher, license: dataLicence }];
+---
+
+<Page title={title} description={description} crumbs={[{ name: t('nav.about'), path: paths.about }]} schema={schema}>
+	<h1>{t('about.heading')}</h1>
+	<p class="rd-lede">{t('about.lede')}</p>
+	<div class="rd-actions">
+		<a class="rd-button" href="/">{t('nav.map')}</a>
+		<a class="rd-button rd-button--quiet" href={paths.peoples}>{t('nav.peoples')}</a>
+		<a class="rd-button rd-button--quiet" href={paths.kingdoms}>{t('nav.kingdoms')}</a>
+	</div>
+
+	<h2>{t('about.methodHeading')}</h2>
+	<p>{t('about.method1')}</p>
+	<p>{t('about.method2')}</p>
+
+	<h2>{t('about.confidenceHeading')}</h2>
+	<ul>
+		<li><span class="rd-conf rd-conf--high">{t('confidence.high')}</span> {t('about.confHigh')}</li>
+		<li><span class="rd-conf rd-conf--medium">{t('confidence.medium')}</span> {t('about.confMedium')}</li>
+		<li><span class="rd-conf rd-conf--disputed">{t('confidence.disputed')}</span> {t('about.confDisputed')}</li>
+	</ul>
+	<p>{t('about.testimony')}</p>
+
+	<h2>{t('about.ownershipHeading')}</h2>
+	<p>{t('site.notOwnership')}</p>
+
+	<h2>{t('about.licenceHeading')}</h2>
+	<p>{t('about.licence')}</p>
+
+	<h2>{t('about.correctHeading')}</h2>
+	<p>
+		{t('about.correct')}
+		{SITE_CONFIG.contact && <> {t('about.contact', { email: SITE_CONFIG.contact })}</>}
+	</p>
+</Page>

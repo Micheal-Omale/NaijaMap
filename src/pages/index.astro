@@ -3,13 +3,47 @@ import Base from '../layouts/Base.astro';
 import MapApp from '../components/map/MapApp';
 import { getLangFromUrl, useTranslations } from '../i18n/utils';
 import { getGroupViews } from '../lib/groups';
+import { getHistory } from '../lib/polities';
+import { absolute, dataLicence, paths, publisher, SITE_URL } from '../lib/seo';
 
 const lang = getLangFromUrl(Astro.url);
 const { t } = useTranslations(lang);
 const groups = await getGroupViews();
+const { polities } = await getHistory();
+
+// The site, and the atlas as a dataset (Google Dataset Search, AI answers).
+const schema = [
+	{
+		'@context': 'https://schema.org',
+		'@type': 'WebSite',
+		name: t('site.name'),
+		alternateName: 'Nigeria Histomap',
+		url: SITE_URL,
+		description: t('site.description'),
+		inLanguage: 'en',
+		publisher,
+	},
+	{
+		'@context': 'https://schema.org',
+		'@type': 'Dataset',
+		name: 'HistoNaija atlas of Nigeria’s peoples and precolonial states',
+		description: `${t('site.description')} Covers ${groups.length} peoples by local government area and ${polities.length} kingdoms, empires and city-states from about 1000 AD, each claim with its sources and a confidence level (high, medium or disputed).`,
+		url: SITE_URL,
+		license: dataLicence,
+		isAccessibleForFree: true,
+		creator: publisher,
+		keywords: ['Nigeria', 'ethnic groups', 'precolonial kingdoms', 'local government areas', 'African history', 'languages of Nigeria'],
+		spatialCoverage: { '@type': 'Place', name: 'Nigeria' },
+		temporalCoverage: '1000/2026',
+		distribution: [
+			{ '@type': 'DataDownload', encodingFormat: 'application/json', contentUrl: absolute('/data/groups.json') },
+			{ '@type': 'DataDownload', encodingFormat: 'application/json', contentUrl: absolute('/data/history.json') },
+		],
+	},
+];
 ---
 
-<Base>
+<Base title={t('site.title')} schema={schema}>
 	<Fragment slot="head">
 		<link rel="preload" href="/geo/lgas.json" as="fetch" crossorigin="anonymous" />
 		<link rel="preload" href="/data/groups.json" as="fetch" crossorigin="anonymous" />
@@ -43,13 +77,21 @@ const groups = await getGroupViews();
 					<ul>
 						{groups.map((g) => (
 							<li>
-								<a href={`/?group=${g.id}`}>{g.name}</a>: {g.areas.map((a) => `${a.name} (${a.state})`).join(', ')}
+								<a href={paths.people(g.id)}>{g.name}</a>: {g.areas.map((a) => `${a.name} (${a.state})`).join(', ')}
 								{g.communities.length > 0 && <>; {g.communities.map((c) => `${c.name} (${c.lgaName}, ${c.state})`).join(', ')}</>}
 							</li>
 						))}
 					</ul>
 				)
 			}
+			<h2>{t('kingdoms.heading')}</h2>
+			<ul>
+				{polities.map((p) => <li><a href={paths.kingdom(p.id)}>{p.name}</a></li>)}
+			</ul>
+			<p>
+				<a href={paths.peoples}>{t('nav.peoples')}</a> · <a href={paths.kingdoms}>{t('nav.kingdoms')}</a> · <a href={paths.events}>{t('nav.events')}</a> ·
+				<a href={paths.about}>{t('nav.about')}</a>
+			</p>
 			<p class="fallback__note">{t('site.notOwnership')}</p>
 		</main>
 	</MapApp>

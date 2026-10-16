@@ -1,0 +1,208 @@
+---
+// One kingdom's reading page: its story chapter by chapter, its rulers, its peoples
+// and what became of it, with every claim's sources. Opens its story on the old map.
+import Page from '../../layouts/Page.astro';
+import AdSlot from '../../components/AdSlot.astro';
+import Claim from '../../components/reading/Claim.astro';
+import Sources from '../../components/reading/Sources.astro';
+import { getLangFromUrl, useTranslations } from '../../i18n/utils';
+import { getHistory } from '../../lib/polities';
+import { snapshotAt } from '../../lib/timeline';
+import { article, clip, firstSentence, joinList, mapLinks, paths, yearText } from '../../lib/seo';
+import type { EventView, PolityView } from '../../lib/types';
+
+export async function getStaticPaths() {
+	const history = await getHistory();
+	return history.polities.map((polity) => ({
+		params: { id: polity.id },
+		props: { polity, events: history.events.filter((e) => e.polities.includes(polity.id)).sort((a, b) => a.year - b.year) },
+	}));
+}
+
+const { polity: p, events } = Astro.props as { polity: PolityView; events: EventView[] };
+const { t } = useTranslations(getLangFromUrl(Astro.url));
+const and = t('page.and');
+
+const from = p.span.fromLabel ?? yearText(p.span.from);
+const to = p.span.toLabel ?? yearText(p.span.to);
+const atPeak = p.snapshots[snapshotAt(p, p.peak)] ?? p.snapshots.at(-1);
+const capital = atPeak?.capital?.name;
+const lives = p.livesThereToday.slice(0, 8);
+const others = p.otherNames.filter((n) => n !== p.name && n !== p.shortName);
+
+const title = `${t('kingdoms.pageTitle', { name: p.name })} · ${t('site.name')}`;
+const description = clip(`${p.name} (${yearText(p.span.from)}–${yearText(p.span.to)}). ${firstSentence(p.summary.text)}`);
+const path = paths.kingdom(p.id);
+const schema = [
+	article({
+		path,
+		headline: t('kingdoms.pageTitle', { name: p.name }),
+		description,
+		sources: p.sources,
+		image: '/og/kingdoms.png',
+		about: {
+			'@type': 'Place',
+			name: p.name,
+			...(others.length ? { alternateName: others } : {}),
+			description: firstSentence(p.summary.text),
+			containedInPlace: { '@type': 'Country', name: 'Nigeria' },
+		},
+	}),
+];
+---
+
+<Page
+	title={title}
+	description={description}
+	crumbs={[{ name: t('nav.kingdoms'), path: paths.kingdoms }, { name: p.name, path }]}
+	schema={schema}
+	mood="then"
+	image="/og/kingdoms.png"
+	ads
+>
+	<article>
+		<header>
+			<p class="rd-kicker">{t(`kind.${p.kind}`)} · {yearText(p.span.from)}–{yearText(p.span.to)}</p>
+			<h1>{p.name}</h1>
+			{others.length > 0 && <p class="rd-muted">{joinList(others, and)}</p>}
+			<p class="rd-lede">{firstSentence(p.summary.text, 400)}</p>
+			<div class="rd-actions">
+				<a class="rd-button" href={mapLinks.kingdom(p.id, p.peak)}>{t('kingdoms.openStory', { name: p.shortName })}</a>
+			</div>
+		</header>
+
+		<section class="rd-facts" aria-labelledby="facts">
+			<h2 id="facts">{t('page.facts')}</h2>
+			<dl>
+				<div>
+					<dt>{t('kingdoms.qWhen', { name: p.name })}</dt>
+					<dd>{t('kingdoms.aWhen', { from, to, peak: p.peak })}</dd>
+				</div>
+				{
+					capital && (
+						<div>
+							<dt>{t('kingdoms.qCapital', { name: p.name })}</dt>
+							<dd>{capital}.</dd>
+						</div>
+					)
+				}
+				{
+					p.ruler && (
+						<div>
+							<dt>{t('kingdoms.qRuler', { name: p.name })}</dt>
+							<dd>{p.ruler.title}.</dd>
+						</div>
+					)
+				}
+				<div>
+					<dt>{t('kingdoms.qToday', { name: p.name })}</dt>
+					<dd>{firstSentence(p.today.text, 300)}</dd>
+				</div>
+				{
+					lives.length > 0 && (
+						<div>
+							<dt>{t('kingdoms.qPeoples', { name: p.name })}</dt>
+							<dd>
+								{lives.map((g, i) => (
+									<>
+										{i > 0 && ', '}
+										<a href={paths.people(g.id)}>{g.name}</a>
+									</>
+								))}
+							</dd>
+						</div>
+					)
+				}
+			</dl>
+		</section>
+
+		<section aria-labelledby="overview">
+			<h2 id="overview">{t('page.overview')}</h2>
+			<p>{p.summary.text}<Claim e={p.summary} /></p>
+			{p.span.note && <p class="rd-note">{p.span.note}</p>}
+		</section>
+
+		<AdSlot slot="reading-kingdom-mid" />
+
+		<section aria-labelledby="chapters">
+			<h2 id="chapters">{t('kingdoms.chapters')}</h2>
+			<ol class="rd-timeline">
+				{
+					p.snapshots.map((s) => (
+						<li>
+							<span class="rd-when">{s.yearLabel ?? yearText(s.year)}</span>
+							<h3>{s.title}</h3>
+							<p>
+								{s.text}
+								<Claim e={s} />
+							</p>
+							{s.capital && <p class="rd-muted">{t('kingdoms.capital', { name: s.capital.name })}</p>}
+							{s.note && <p class="rd-note">{s.note}</p>}
+						</li>
+					))
+				}
+			</ol>
+		</section>
+
+		{
+			events.length > 0 && (
+				<section aria-labelledby="events">
+					<h2 id="events">{t('kingdoms.events')}</h2>
+					<ul class="rd-list">
+						{events.map((e) => (
+							<li>
+								<a href={paths.event(e.id)}>
+									<strong>{e.name}</strong>
+									<span>
+										{t(`event.kind.${e.kind}`)} · {e.yearLabel ?? yearText(e.year)}
+									</span>
+								</a>
+							</li>
+						))}
+					</ul>
+				</section>
+			)
+		}
+
+		<section aria-labelledby="today">
+			<h2 id="today">{t('kingdoms.today')}</h2>
+			{p.today.title && <h3>{p.today.title}{p.today.seat && `, ${p.today.seat.name}`}</h3>}
+			<p>{p.today.text}<Claim e={p.today} /></p>
+			{
+				p.peoples.length > 0 && (
+					<>
+						<h3>{t('kingdoms.peoples')}</h3>
+						<p>
+							{p.peoples.map((g, i) => (
+								<>
+									{i > 0 && ', '}
+									<a href={paths.people(g.id)}>{g.name}</a>
+								</>
+							))}
+						</p>
+					</>
+				)
+			}
+			{
+				p.livesThereToday.length > 0 && (
+					<>
+						<h3>{t('kingdoms.livesThere')}</h3>
+						<p class="rd-muted">{t('story.livesHelp')}</p>
+						<p>
+							{p.livesThereToday.map((g, i) => (
+								<>
+									{i > 0 && ', '}
+									<a href={paths.people(g.id)}>{g.name}</a>
+								</>
+							))}
+						</p>
+					</>
+				)
+			}
+		</section>
+
+		<AdSlot slot="reading-kingdom-end" house={false} />
+
+		<Sources sources={p.sources} />
+	</article>
+</Page>

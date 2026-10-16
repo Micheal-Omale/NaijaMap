@@ -1,0 +1,47 @@
+---
+// One ad on a reading page. With AdSense set up in data/ads.json, a responsive
+// AdSense unit; without it, the site's own sponsored banner (or none).
+// Only the reading pages place these; the map, the event pages, about and privacy never do.
+import adsData from '../../data/ads.json';
+import { AdBanner, type AdContext } from './map/AdBanner';
+import { getLangFromUrl, useTranslations } from '../i18n/utils';
+
+interface Props {
+	slot: string;
+	ctx?: AdContext;
+	/** Show the "Advertise here" slot when no sponsor matches. */
+	house?: boolean;
+}
+
+const { slot, ctx = {}, house = true } = Astro.props;
+const tr = useTranslations(getLangFromUrl(Astro.url));
+const { client, slot: unit } = adsData.adsense;
+// The "Advertise here" box waits for a real contact address.
+const houseReady = house && !adsData.contact.includes('example.com');
+---
+
+{
+	client && unit ? (
+		<aside class="ad ad--network" aria-label={tr.t('ad.advert')}>
+			<span class="ad__label">{tr.t('ad.advert')}</span>
+			<ins class="adsbygoogle" style="display:block" data-ad-client={client} data-ad-slot={unit} data-ad-format="auto" data-full-width-responsive="true" />
+		</aside>
+	) : (
+		<AdBanner ctx={ctx} slot={slot} tr={tr} house={houseReady} />
+	)
+}
+
+<style>
+	/* Room held for the ad so the text below does not jump when it arrives; given back when no ad fills it. */
+	.ad--network {
+		margin: 32px 0;
+	}
+
+	.ad--network ins {
+		min-height: 250px;
+	}
+
+	.ad--network:has(ins[data-ad-status='unfilled']) {
+		display: none;
+	}
+</style>

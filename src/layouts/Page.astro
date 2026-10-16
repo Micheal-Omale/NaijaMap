@@ -1,0 +1,93 @@
+---
+// A reading page: plain HTML, no map and no JavaScript of its own, so it loads fast
+// and search engines and AI answers can read every word. Each one links into the map.
+import Base from './Base.astro';
+import adsData from '../../data/ads.json';
+import { getLangFromUrl, useTranslations } from '../i18n/utils';
+import { breadcrumbs, paths } from '../lib/seo';
+import '../styles/reading.css';
+
+interface Props {
+	title: string;
+	description: string;
+	/** Trail from the home page, ending with this page. */
+	crumbs: { name: string; path: string }[];
+	schema?: object[];
+	mood?: 'then';
+	image?: string;
+	/** Reading pages that may carry ads (data/ads.json). */
+	ads?: boolean;
+}
+
+const { title, description, crumbs, schema = [], mood, image, ads = false } = Astro.props;
+const { t } = useTranslations(getLangFromUrl(Astro.url));
+const adClient = ads && adsData.adsense.client && adsData.adsense.slot ? adsData.adsense.client : undefined;
+const trail = [{ name: t('nav.home'), path: '/' }, ...crumbs];
+const nav = [
+	{ path: paths.peoples, label: t('nav.peoples') },
+	{ path: paths.kingdoms, label: t('nav.kingdoms') },
+	{ path: paths.events, label: t('nav.events') },
+	{ path: paths.about, label: t('nav.about') },
+];
+const here = Astro.url.pathname.replace(/\/$/, '');
+---
+
+<Base
+	title={title}
+	description={description}
+	type="article"
+	mood={mood}
+	image={image}
+	adClient={adClient}
+	schema={[...schema, { '@context': 'https://schema.org', ...breadcrumbs(trail) }]}
+>
+	<header class="rd-top">
+		<a class="rd-brand" href="/">
+			<svg viewBox="0 0 512 512" aria-hidden="true">
+				<rect width="512" height="512" rx="112" fill="#0a7650"></rect>
+				<rect x="200" y="96" width="112" height="320" rx="18" fill="#f7efdc"></rect>
+				<circle cx="372" cy="380" r="58" fill="#e8590c" stroke="#f7efdc" stroke-width="18"></circle>
+			</svg>
+			{t('site.name')}
+		</a>
+		<nav class="rd-nav" aria-label={t('nav.label')}>
+			{nav.map((n) => <a href={n.path} aria-current={here === n.path || here.startsWith(`${n.path}/`) ? 'page' : undefined}>{n.label}</a>)}
+		</nav>
+		<a class="rd-cta" href="/">{t('nav.map')}</a>
+	</header>
+
+	<main class="rd">
+		<nav class="rd-crumbs" aria-label={t('nav.crumbs')}>
+			<ol>
+				{
+					trail.map((c, i) =>
+						i === trail.length - 1 ? (
+							<li aria-current="page">{c.name}</li>
+						) : (
+							<li>
+								<a href={c.path}>{c.name}</a>
+							</li>
+						),
+					)
+				}
+			</ol>
+		</nav>
+		<slot />
+	</main>
+
+	<footer class="rd-foot">
+		<nav aria-label={t('nav.footer')}>
+			<a href="/">{t('nav.map')}</a>
+			{nav.map((n) => <a href={n.path}>{n.label}</a>)}
+			<a href={paths.privacy}>{t('nav.privacy')}</a>
+		</nav>
+		<p>{t('site.notOwnership')}</p>
+		<p class="rd-foot__fine">
+			{t('map.creditBoundaries')}: <a href="https://data.grid3.org/" rel="noopener">GRID3</a> (CC BY 4.0) · <a href="https://www.naturalearthdata.com/" rel="noopener"
+				>Natural Earth</a
+			>. Data: <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license noopener">CC BY-SA 4.0</a>.
+		</p>
+	</footer>
+
+	{adClient && <script is:inline>document.querySelectorAll('ins.adsbygoogle').forEach(function () { (window.adsbygoogle = window.adsbygoogle || []).push({}); });</script>}
+</Base>

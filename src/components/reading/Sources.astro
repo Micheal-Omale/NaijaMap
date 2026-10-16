@@ -1,0 +1,35 @@
+---
+// The numbered sources of one page, the targets of its footnotes.
+import type { SourceView } from '../../lib/types';
+import { getLangFromUrl, useTranslations } from '../../i18n/utils';
+
+interface Props {
+	sources: SourceView[];
+}
+
+const { sources } = Astro.props;
+const { t } = useTranslations(getLangFromUrl(Astro.url));
+---
+
+{
+	sources.length > 0 && (
+		<section aria-labelledby="sources">
+			<h2 id="sources">{t('page.sources')}</h2>
+			<p class="rd-muted">{t('page.confidenceHelp')}</p>
+			<ol class="rd-sources">
+				{sources.map((s) => (
+					<li id={`src-${s.n}`} value={s.n}>
+						{s.url ? (
+							<a href={s.url} rel="noopener">
+								{s.citation}
+							</a>
+						) : (
+							s.citation
+						)}
+						{!s.checked && <em> ({t('page.unchecked')})</em>}
+					</li>
+				))}
+			</ol>
+		</section>
+	)
+}

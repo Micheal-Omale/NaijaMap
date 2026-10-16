@@ -1,0 +1,75 @@
+---
+// Every people on the atlas, by language family, each linking to its own page.
+import Page from '../../layouts/Page.astro';
+import AdSlot from '../../components/AdSlot.astro';
+import { getLangFromUrl, useTranslations } from '../../i18n/utils';
+import { getGroupViews } from '../../lib/groups';
+import { absolute, byState, paths } from '../../lib/seo';
+
+const { t } = useTranslations(getLangFromUrl(Astro.url));
+const groups = await getGroupViews();
+
+const families = new Map<string, typeof groups>();
+for (const g of groups) families.set(g.language.family.name, [...(families.get(g.language.family.name) ?? []), g]);
+const sections = [...families].sort((a, b) => b[1].length - a[1].length || a[0].localeCompare(b[0]));
+const slug = (name: string) => name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+const homeStates = (g: (typeof groups)[number]) => {
+	const core = g.areas.filter((a) => a.presence === 'core');
+	return byState(core.length ? core : g.areas)
+		.map((s) => s.state)
+		.join(', ');
+};
+
+const title = `${t('peoples.title')} · ${t('site.name')}`;
+const description = t('peoples.lede', { count: groups.length });
+const schema = [
+	{
+		'@context': 'https://schema.org',
+		'@type': 'CollectionPage',
+		name: t('peoples.title'),
+		description,
+		url: absolute(paths.peoples),
+		mainEntity: {
+			'@type': 'ItemList',
+			numberOfItems: groups.length,
+			itemListElement: groups.map((g, i) => ({ '@type': 'ListItem', position: i + 1, name: g.name, url: absolute(paths.people(g.id)) })),
+		},
+	},
+];
+---
+
+<Page title={title} description={description} crumbs={[{ name: t('nav.peoples'), path: paths.peoples }]} schema={schema} ads>
+	<header>
+		<h1>{t('peoples.heading')}</h1>
+		<p class="rd-lede">{description}</p>
+		<div class="rd-actions"><a class="rd-button" href="/">{t('nav.map')}</a></div>
+	</header>
+
+	<nav aria-labelledby="families">
+		<h2 id="families" class="visually-hidden">{t('peoples.family')}</h2>
+		<ul class="rd-jump">
+			{sections.map(([family, list]) => <li><a href={`#${slug(family)}`}>{family} ({list.length})</a></li>)}
+		</ul>
+	</nav>
+
+	{
+		sections.map(([family, list], i) => (
+			<>
+				<section aria-labelledby={slug(family)}>
+					<h2 id={slug(family)}>{family}</h2>
+					<ul class="rd-list rd-list--grid">
+						{list.map((g) => (
+							<li>
+								<a href={paths.people(g.id)}>
+									<strong>{g.name}</strong>
+									<span>{homeStates(g)}</span>
+								</a>
+							</li>
+						))}
+					</ul>
+				</section>
+				{i === 1 && <AdSlot slot="reading-peoples" />}
+			</>
+		))
+	}
+</Page>

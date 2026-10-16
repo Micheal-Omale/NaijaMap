@@ -277,6 +277,13 @@ export default function SiteMenu({ tr, current, onView, hrefs }: Props) {
 					<footer className="site-menu__about">
 						<h2 className="site-menu__label">{t('menu.about')}</h2>
 						<p>{t('menu.aboutText')}</p>
+						<p className="site-menu__pages">
+							<a href="/peoples">{t('nav.peoples')}</a>
+							<a href="/kingdoms">{t('nav.kingdoms')}</a>
+							<a href="/events">{t('nav.events')}</a>
+							<a href="/about">{t('nav.about')}</a>
+							<a href="/privacy">{t('nav.privacy')}</a>
+						</p>
 						<p>{t('site.notOwnership')}</p>
 						<p className="site-menu__credit">
 							{t('map.creditBoundaries')}:{' '}

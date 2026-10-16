@@ -1,0 +1,53 @@
+---
+// Every kingdom, empire and city-state on the old map, oldest first.
+import Page from '../../layouts/Page.astro';
+import AdSlot from '../../components/AdSlot.astro';
+import { getLangFromUrl, useTranslations } from '../../i18n/utils';
+import { getHistory } from '../../lib/polities';
+import { absolute, firstSentence, paths, yearText } from '../../lib/seo';
+
+const { t } = useTranslations(getLangFromUrl(Astro.url));
+const { polities } = await getHistory();
+
+const title = `${t('kingdoms.title')} · ${t('site.name')}`;
+const description = t('kingdoms.lede', { count: polities.length });
+const schema = [
+	{
+		'@context': 'https://schema.org',
+		'@type': 'CollectionPage',
+		name: t('kingdoms.title'),
+		description,
+		url: absolute(paths.kingdoms),
+		mainEntity: {
+			'@type': 'ItemList',
+			numberOfItems: polities.length,
+			itemListElement: polities.map((p, i) => ({ '@type': 'ListItem', position: i + 1, name: p.name, url: absolute(paths.kingdom(p.id)) })),
+		},
+	},
+];
+---
+
+<Page title={title} description={description} crumbs={[{ name: t('nav.kingdoms'), path: paths.kingdoms }]} schema={schema} mood="then" image="/og/kingdoms.png" ads>
+	<header>
+		<h1>{t('kingdoms.heading')}</h1>
+		<p class="rd-lede">{description}</p>
+		<div class="rd-actions"><a class="rd-button" href="/?mode=then">{t('nav.map')}</a></div>
+	</header>
+
+	<ul class="rd-list">
+		{
+			polities.map((p) => (
+				<li>
+					<a href={paths.kingdom(p.id)}>
+						<strong>{p.name}</strong>
+						<span>
+							{t(`kind.${p.kind}`)} · {yearText(p.span.from)}–{yearText(p.span.to)} · {firstSentence(p.summary.text, 140)}
+						</span>
+					</a>
+				</li>
+			))
+		}
+	</ul>
+
+	<AdSlot slot="reading-kingdoms" />
+</Page>

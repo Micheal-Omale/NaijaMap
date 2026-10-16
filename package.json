@@ -18,7 +18,9 @@
     "geo:region": "node scripts/build-region.mjs",
     "geo:previews": "node scripts/build-menu-previews.mjs",
     "film": "remotion studio src/index.ts",
-    "film:render": "remotion render src/index.ts BeforeTheLines out/before-the-lines.raw.mp4 --codec=h264 --crf=17 --audio-codec=aac --audio-bitrate=256k && node scripts/loudnorm.mjs out/before-the-lines.raw.mp4 out/before-the-lines.mp4"
+    "film:render": "remotion render src/index.ts BeforeTheLines out/before-the-lines.raw.mp4 --codec=h264 --crf=17 --audio-codec=aac --audio-bitrate=256k && node scripts/loudnorm.mjs out/before-the-lines.raw.mp4 out/before-the-lines.mp4",
+    "geo:og": "node scripts/build-og-images.mjs",
+    "seo:ping": "node scripts/indexnow.mjs"
   },
   "dependencies": {
     "@astrojs/react": "^7.0.0",

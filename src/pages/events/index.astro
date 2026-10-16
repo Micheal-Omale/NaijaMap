@@ -1,0 +1,66 @@
+---
+// Every event on the old map, by century, oldest first. No ads on the event pages.
+import Page from '../../layouts/Page.astro';
+import { getLangFromUrl, useTranslations } from '../../i18n/utils';
+import { getHistory } from '../../lib/polities';
+import { absolute, paths, yearText } from '../../lib/seo';
+
+const { t } = useTranslations(getLangFromUrl(Astro.url));
+const events = [...(await getHistory()).events].sort((a, b) => a.year - b.year || a.name.localeCompare(b.name));
+
+const centuries = new Map<number, typeof events>();
+for (const e of events) {
+	const c = Math.floor(e.year / 100);
+	centuries.set(c, [...(centuries.get(c) ?? []), e]);
+}
+const centuryName = (c: number) => (c < 0 ? yearText(c * 100) : `${c * 100}s`);
+
+const title = `${t('events.title')} · ${t('site.name')}`;
+const description = t('events.lede', { count: events.length });
+const schema = [
+	{
+		'@context': 'https://schema.org',
+		'@type': 'CollectionPage',
+		name: t('events.title'),
+		description,
+		url: absolute(paths.events),
+		mainEntity: {
+			'@type': 'ItemList',
+			numberOfItems: events.length,
+			itemListElement: events.map((e, i) => ({ '@type': 'ListItem', position: i + 1, name: e.name, url: absolute(paths.event(e.id)) })),
+		},
+	},
+];
+---
+
+<Page title={title} description={description} crumbs={[{ name: t('nav.events'), path: paths.events }]} schema={schema} mood="then" image="/og/kingdoms.png">
+	<header>
+		<h1>{t('events.heading')}</h1>
+		<p class="rd-lede">{description}</p>
+		<div class="rd-actions"><a class="rd-button" href="/?mode=then">{t('nav.map')}</a></div>
+	</header>
+
+	<ul class="rd-jump">
+		{[...centuries.keys()].map((c) => <li><a href={`#c${c}`}>{centuryName(c)}</a></li>)}
+	</ul>
+
+	{
+		[...centuries].map(([c, list]) => (
+			<section aria-labelledby={`c${c}`}>
+				<h2 id={`c${c}`}>{centuryName(c)}</h2>
+				<ul class="rd-list">
+					{list.map((e) => (
+						<li>
+							<a href={paths.event(e.id)}>
+								<strong>{e.name}</strong>
+								<span>
+									{t(`event.kind.${e.kind}`)} · {e.yearLabel ?? yearText(e.year)}
+								</span>
+							</a>
+						</li>
+					))}
+				</ul>
+			</section>
+		))
+	}
+</Page>

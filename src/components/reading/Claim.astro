@@ -1,0 +1,27 @@
+---
+// A claim's footnotes and confidence, after its text.
+import type { Evidence } from '../../lib/types';
+import { getLangFromUrl, useTranslations } from '../../i18n/utils';
+
+interface Props {
+	e: Pick<Evidence, 'refs' | 'confidence'> & { refs: number[] };
+	/** Hide the confidence label (shown once for the whole block elsewhere). */
+	quiet?: boolean;
+}
+
+const { e, quiet = false } = Astro.props;
+const { t } = useTranslations(getLangFromUrl(Astro.url));
+---
+
+{
+	e.refs.length > 0 && (
+		<sup class="rd-refs">
+			{e.refs.map((n, i) => (
+				<>
+					{i > 0 && ','}
+					<a href={`#src-${n}`}>[{n}]</a>
+				</>
+			))}
+		</sup>
+	)
+}{!quiet && <span class={`rd-conf rd-conf--${e.confidence}`}>{t(`confidence.${e.confidence}`)}</span>}

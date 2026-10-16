@@ -1,0 +1,462 @@
+/*
+ * Reading pages (src/layouts/Page.astro): peoples, kingdoms, events, about.
+ * A single readable column in the site's tokens, so kingdom and event pages take
+ * the old-map look from [data-mood="then"] with no styles of their own.
+ */
+
+body:has(.rd) {
+	height: auto;
+	min-height: 100%;
+	overscroll-behavior: auto;
+}
+
+/* Header */
+
+.rd-top {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px 20px;
+	align-items: center;
+	max-width: 64rem;
+	margin: 0 auto;
+	padding: 14px 16px;
+}
+
+.rd-brand {
+	display: inline-flex;
+	gap: 10px;
+	align-items: center;
+	color: var(--ink);
+	font-family: var(--font-display);
+	font-size: 1.125rem;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+.rd-brand svg {
+	width: 28px;
+	height: 28px;
+}
+
+.rd-nav {
+	display: flex;
+	gap: 4px;
+	order: 3;
+	width: 100%;
+	margin: 0 -10px;
+	overflow-x: auto;
+	scrollbar-width: none;
+}
+
+.rd-nav a {
+	flex: none;
+	padding: 6px 10px;
+	border-radius: 999px;
+	color: var(--ink-muted);
+	font-size: 0.9375rem;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+.rd-nav a:hover {
+	color: var(--ink);
+}
+
+.rd-nav a[aria-current='page'] {
+	background: var(--surface);
+	color: var(--ink);
+	box-shadow: var(--shadow);
+}
+
+.rd-cta,
+.rd-button {
+	display: inline-flex;
+	gap: 8px;
+	align-items: center;
+	padding: 9px 16px;
+	border-radius: 999px;
+	background: var(--accent);
+	color: var(--accent-ink);
+	font-size: 0.9375rem;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+.rd-cta {
+	margin-left: auto;
+	padding: 7px 14px;
+	font-size: 0.875rem;
+}
+
+.rd-cta:hover,
+.rd-button:hover {
+	filter: brightness(1.08);
+}
+
+@media (min-width: 760px) {
+	.rd-nav {
+		order: 0;
+		width: auto;
+		margin: 0;
+	}
+}
+
+/* The column */
+
+.rd {
+	max-width: 46rem;
+	margin: 0 auto;
+	padding: 8px 16px 48px;
+	font-size: 1.0625rem;
+	line-height: 1.65;
+}
+
+.rd p {
+	margin: 0 0 1em;
+}
+
+.rd h2 {
+	margin: 2.2em 0 0.6em;
+	font-size: 1.5rem;
+}
+
+.rd h3 {
+	margin: 1.4em 0 0.4em;
+	font-size: 1.125rem;
+}
+
+.rd-crumbs ol {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 4px;
+	margin: 0 0 20px;
+	padding: 0;
+	color: var(--ink-faint);
+	font-size: 0.875rem;
+	list-style: none;
+}
+
+.rd-crumbs li + li::before {
+	content: '›';
+	margin-right: 4px;
+}
+
+.rd-crumbs a {
+	color: var(--ink-muted);
+}
+
+/* The top of a page */
+
+.rd-kicker {
+	margin: 0 0 6px;
+	color: var(--ink-faint);
+	font-size: 0.8125rem;
+	font-weight: 700;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+}
+
+.rd h1 {
+	margin: 0 0 12px;
+	font-size: clamp(2rem, 6vw, 2.75rem);
+}
+
+.rd-lede {
+	color: var(--ink-muted);
+	font-size: 1.1875rem;
+}
+
+.rd-actions {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	margin: 20px 0 8px;
+}
+
+.rd-button--quiet {
+	background: transparent;
+	color: var(--accent);
+	box-shadow: inset 0 0 0 1.5px currentColor;
+}
+
+/* At a glance: the questions people search, answered in a line each */
+
+.rd-facts {
+	display: grid;
+	gap: 12px;
+	margin: 28px 0;
+	padding: 20px;
+	border: 1px solid var(--rule);
+	border-radius: var(--radius);
+	background: var(--surface);
+}
+
+.rd-facts h2 {
+	margin: 0;
+	color: var(--ink-faint);
+	font-family: var(--font-body);
+	font-size: 0.8125rem;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+}
+
+.rd-facts dl {
+	display: grid;
+	gap: 14px;
+	margin: 0;
+}
+
+.rd-facts dt {
+	font-weight: 700;
+	line-height: 1.35;
+}
+
+.rd-facts dd {
+	margin: 2px 0 0;
+	color: var(--ink-muted);
+}
+
+/* A claim's confidence and its footnotes */
+
+.rd-conf {
+	display: inline-block;
+	margin-left: 4px;
+	padding: 0 7px;
+	border-radius: 999px;
+	font-size: 0.75rem;
+	font-weight: 700;
+	line-height: 1.6;
+	vertical-align: 0.1em;
+	white-space: nowrap;
+}
+
+.rd-conf--high {
+	background: color-mix(in srgb, var(--conf-high) 14%, transparent);
+	color: var(--conf-high);
+}
+
+.rd-conf--medium {
+	background: color-mix(in srgb, var(--conf-medium) 14%, transparent);
+	color: var(--conf-medium);
+}
+
+.rd-conf--disputed {
+	background: color-mix(in srgb, var(--conf-disputed) 14%, transparent);
+	color: var(--conf-disputed);
+}
+
+.rd-refs {
+	font-size: 0.75em;
+	vertical-align: super;
+	line-height: 0;
+}
+
+.rd-refs a {
+	text-decoration: none;
+}
+
+.rd-note {
+	padding-left: 12px;
+	border-left: 3px solid var(--rule);
+	color: var(--ink-muted);
+	font-size: 0.9375rem;
+}
+
+.rd-muted {
+	color: var(--ink-muted);
+	font-size: 0.9375rem;
+}
+
+/* Where a people lives: states, each with its LGAs */
+
+.rd-states {
+	display: grid;
+	gap: 16px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.rd-states h3 {
+	margin: 0 0 6px;
+}
+
+.rd-chips {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 6px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.rd-chips li {
+	display: inline-flex;
+	gap: 6px;
+	align-items: center;
+	padding: 2px 10px;
+	border: 1px solid var(--rule);
+	border-radius: 999px;
+	background: var(--surface);
+	font-size: 0.875rem;
+}
+
+.rd-chips li[data-presence]::before {
+	content: '';
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: var(--highlight);
+}
+
+.rd-chips li[data-presence='significant']::before {
+	background: var(--highlight-soft);
+}
+
+.rd-chips li[data-presence='minority']::before {
+	background: transparent;
+	box-shadow: inset 0 0 0 1.5px var(--highlight);
+}
+
+/* Lists of pages: peoples, kingdoms, events */
+
+.rd-list {
+	display: grid;
+	gap: 10px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.rd-list a {
+	display: block;
+	padding: 12px 16px;
+	border: 1px solid var(--rule);
+	border-radius: var(--radius-sm);
+	background: var(--surface);
+	color: var(--ink);
+	text-decoration: none;
+	transition: border-color 0.2s ease;
+}
+
+.rd-list a:hover {
+	border-color: var(--accent);
+}
+
+.rd-list strong {
+	display: block;
+	font-family: var(--font-display);
+	font-size: 1.0625rem;
+	line-height: 1.3;
+}
+
+.rd-list span {
+	display: block;
+	margin-top: 2px;
+	color: var(--ink-muted);
+	font-size: 0.875rem;
+	line-height: 1.45;
+}
+
+.rd-list--grid {
+	grid-template-columns: repeat(auto-fill, minmax(min(100%, 13rem), 1fr));
+}
+
+.rd-jump {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 6px 14px;
+	margin: 0 0 8px;
+	padding: 0;
+	font-size: 0.875rem;
+	list-style: none;
+}
+
+/* A kingdom's chapters and an event's moments */
+
+.rd-timeline {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.rd-timeline > li {
+	position: relative;
+	padding: 0 0 24px 22px;
+	border-left: 2px solid var(--rule);
+}
+
+.rd-timeline > li:last-child {
+	padding-bottom: 0;
+	border-left-color: transparent;
+}
+
+.rd-timeline > li::before {
+	content: '';
+	position: absolute;
+	top: 0.45em;
+	left: -7px;
+	width: 12px;
+	height: 12px;
+	border: 2px solid var(--accent);
+	border-radius: 50%;
+	background: var(--bg);
+}
+
+.rd-timeline h3 {
+	margin: 0 0 4px;
+}
+
+.rd-when {
+	display: block;
+	color: var(--accent);
+	font-size: 0.8125rem;
+	font-weight: 700;
+	letter-spacing: 0.04em;
+}
+
+/* Sources */
+
+.rd-sources {
+	padding-left: 1.6em;
+	color: var(--ink-muted);
+	font-size: 0.875rem;
+	line-height: 1.5;
+}
+
+.rd-sources li {
+	margin-bottom: 6px;
+	overflow-wrap: anywhere;
+}
+
+.rd-sources li:target {
+	background: color-mix(in srgb, var(--highlight) 14%, transparent);
+}
+
+/* Footer */
+
+.rd-foot {
+	max-width: 46rem;
+	margin: 0 auto;
+	padding: 24px 16px 40px;
+	border-top: 1px solid var(--rule);
+	color: var(--ink-muted);
+	font-size: 0.875rem;
+}
+
+.rd-foot nav {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 6px 16px;
+	margin-bottom: 12px;
+	font-weight: 600;
+}
+
+.rd-foot p {
+	margin: 0 0 6px;
+}
+
+.rd-foot__fine {
+	color: var(--ink-faint);
+	font-size: 0.8125rem;
+}

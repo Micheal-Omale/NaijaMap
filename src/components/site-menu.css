@@ -353,6 +353,13 @@
 	margin: 0 0 8px;
 }
 
+.site-menu__pages {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 4px 14px;
+	font-weight: 600;
+}
+
 .site-menu__credit {
 	color: var(--ink-faint);
 	font-size: 0.75rem;
