@@ -725,7 +725,7 @@ export default function MapApp({ lang }: Props) {
 		} else if (mode === 'then') {
 			const when = year >= TODAY ? t('timeline.today') : String(year);
 			document.title = `${polity ? polity.name : event ? event.name : t('mode.then')}, ${when} · ${t('site.name')}`;
-		} else document.title = group ? `${group.name} · ${t('site.name')}` : t('site.name');
+		} else document.title = group ? `${group.name} · ${t('site.name')}` : t('site.title');
 	}, [group, polity, event, mode, year, era, t]);
 
 	const showLga = useCallback((id: string) => {
