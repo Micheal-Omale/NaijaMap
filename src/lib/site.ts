@@ -5,7 +5,7 @@ export const SITE_CONFIG = {
 	/** Google Search Console, "HTML tag" method: only the content="…" value. Leave empty when verified by DNS. */
 	googleVerification: '',
 	/** Bing Webmaster Tools, "Meta tag" method: only the content="…" value. Bing also accepts an import from Search Console. */
-	bingVerification: '',
+	bingVerification: 'D6C614190BF07F869DAEBBA509046BC7',
 	/** A public contact address for the about and privacy pages. Empty hides those lines. */
 	contact: '',
 	/** IndexNow key (Bing, Yandex, Seznam; Bing feeds ChatGPT and Copilot search). The same key is in public/<key>.txt. */
