@@ -10672,5 +10672,159 @@
 		"kind": "reference",
 		"accessed": "2026-10-14",
 		"checked": true
+	},
+	{
+		"id": "ochonu-2008",
+		"title": "Colonialism within Colonialism: The Hausa-Caliphate Imaginary and the British Colonial Administration of the Nigerian Middle Belt",
+		"author": "Moses E. Ochonu",
+		"year": 2008,
+		"publisher": "African Studies Quarterly 10 (2–3): 95–128",
+		"url": "https://asq.africa.ufl.edu/wp-content/uploads/sites/168/Ochonu-Vol10Issue23.pdf",
+		"kind": "article",
+		"accessed": "2026-10-29",
+		"checked": true
+	},
+	{
+		"id": "enwerem-1995",
+		"title": "A Dangerous Awakening: The Politicization of Religion in Nigeria",
+		"author": "Iheanyi M. Enwerem",
+		"year": 1995,
+		"publisher": "IFRA-Nigeria",
+		"url": "https://books.openedition.org/ifra/414",
+		"kind": "book",
+		"accessed": "2026-10-29",
+		"checked": true
+	},
+	{
+		"id": "makar-tiv-political-change",
+		"title": "The History of Political Change among the Tiv in the 19th and 20th Centuries",
+		"author": "Tesemchi Makar",
+		"url": "https://nigeriareposit.nln.gov.ng/handle/20.500.14186/958",
+		"kind": "book",
+		"accessed": "2026-10-29",
+		"checked": false
+	},
+	{
+		"id": "minorityrights-tiv",
+		"title": "Tiv (World Directory of Minorities and Indigenous Peoples)",
+		"author": "Minority Rights Group International",
+		"url": "https://minorityrights.org/communities/tiv/",
+		"kind": "reference",
+		"accessed": "2026-10-29",
+		"checked": false
+	},
+	{
+		"id": "teniola-2026-benue-plateau",
+		"title": "Nigeria: The Ever-Lingering Benue-Plateau Crisis (2)",
+		"author": "Eric Teniola",
+		"year": 2026,
+		"publisher": "AllAfrica",
+		"url": "https://allafrica.com/stories/202510280154.html",
+		"kind": "news",
+		"accessed": "2026-10-29",
+		"checked": false
+	},
+	{
+		"id": "wikipedia-joseph-tarka",
+		"title": "Joseph Tarka",
+		"publisher": "Wikipedia",
+		"url": "https://en.wikipedia.org/wiki/Joseph_Tarka",
+		"kind": "reference",
+		"accessed": "2026-10-29",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-united-middle-belt-congress",
+		"title": "United Middle Belt Congress",
+		"publisher": "Wikipedia",
+		"url": "https://en.wikipedia.org/wiki/United_Middle_Belt_Congress",
+		"kind": "reference",
+		"accessed": "2026-10-29",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-jamaatu-nasril-islam",
+		"title": "Jama'atu Nasril Islam",
+		"publisher": "Wikipedia",
+		"url": "https://en.wikipedia.org/wiki/Jama%27atu_Nasril_Islam",
+		"kind": "reference",
+		"accessed": "2026-10-29",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-ningi-chiefdom",
+		"title": "Ningi Chiefdom",
+		"publisher": "Wikipedia",
+		"url": "https://en.wikipedia.org/wiki/Ningi_Chiefdom",
+		"kind": "reference",
+		"accessed": "2026-10-29",
+		"checked": true
+	},
+	{
+		"id": "intervention-2022-hayab",
+		"title": "A History of the Middle-Belt of Nigeria in Early Written History (report of a lecture by Philip Hayab John)",
+		"author": "Patrick Sunday Ibbi",
+		"year": 2022,
+		"publisher": "Intervention",
+		"url": "https://intervention.ng/26381/",
+		"kind": "news",
+		"accessed": "2026-10-29",
+		"checked": true
+	},
+	{
+		"id": "barnes-2007",
+		"title": "The Middle Belt Movement and the Formation of Christian Consciousness in Colonial Northern Nigeria",
+		"author": "Andrew Barnes",
+		"year": 2007,
+		"publisher": "Church History 76: 1–20",
+		"kind": "article",
+		"checked": false
+	},
+	{
+		"id": "newschronicle-2026-middle-belt",
+		"title": "The Middle Belt Is Not A Footnote",
+		"author": "Shaakaa Stephanie Sewuese",
+		"year": 2026,
+		"publisher": "The News Chronicle",
+		"url": "https://thenews-chronicle.com/the-middle-belt-is-not-a-footnote/",
+		"kind": "news",
+		"accessed": "2026-10-29",
+		"checked": true
+	},
+	{
+		"id": "ejotmas-willink",
+		"title": "The Willink Minority Commission and minority rights in Nigeria",
+		"publisher": "EJOTMAS: Ekpoma Journal of Theatre and Media Arts",
+		"url": "https://www.ajol.info/index.php/ejotmas/article/view/141208",
+		"kind": "article",
+		"accessed": "2026-10-29",
+		"checked": false
+	},
+	{
+		"id": "patton-1975-ningi",
+		"title": "The Ningi Chiefdom and the African Frontier: Mountaineers and Resistance to the Sokoto Caliphate, ca. 1800–1908",
+		"author": "Adell Patton Jr.",
+		"year": 1975,
+		"publisher": "PhD thesis, University of Wisconsin",
+		"kind": "book",
+		"checked": false
+	},
+	{
+		"id": "unh-kabba-province",
+		"title": "Young Elite of Kabba Division, 1946–1966",
+		"publisher": "Nigerian Studies (University of New Hampshire)",
+		"url": "https://www.unh.edu/nigerianstudies/articles/Issue2/Politics_in_Kabba.pdf",
+		"kind": "article",
+		"accessed": "2026-10-29",
+		"checked": false
+	},
+	{
+		"id": "wikipedia-makurdi",
+		"title": "Makurdi",
+		"publisher": "Wikipedia",
+		"url": "https://en.wikipedia.org/wiki/Makurdi",
+		"kind": "reference",
+		"accessed": "2026-10-29",
+		"checked": false
 	}
 ]

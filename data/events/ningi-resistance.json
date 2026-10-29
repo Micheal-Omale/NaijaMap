@@ -1,0 +1,107 @@
+{
+	"name": "Ningi holds out against the emirates",
+	"status": "draft",
+	"kind": "war",
+	"year": 1847,
+	"yearLabel": "c. 1847–1902",
+	"until": 1902,
+	"actors": [
+		{
+			"name": "Ningi, with the Butawa and Warjawa",
+			"side": "defender"
+		},
+		{
+			"name": "Bauchi emirate",
+			"polity": "sokoto",
+			"side": "attacker"
+		},
+		{
+			"name": "Kano emirate",
+			"polity": "sokoto",
+			"side": "attacker"
+		},
+		{
+			"name": "Zaria emirate",
+			"polity": "sokoto",
+			"side": "attacker"
+		},
+		{
+			"name": "British forces",
+			"side": "colonial"
+		}
+	],
+	"summary": {
+		"text": "In the mid-19th century a Kano Qur’anic teacher, Malam Hamza, fell out with the emir over politics and religion and took his followers into the Kabara hills, among peoples who were not Hausa. There, at Old Ningi, they joined loosely with the Butawa, Warjawa and other hill peoples, and fighting from the hills they kept their independence from Bauchi, Zaria and Kano for half a century; Ningi leaders such as Gwarsum defeated the Kano emirate. Ningi raids reached the trade route at Zangon Katab, where a Fulani ward was set up in the market because of them, and Bauchi’s emir Umaru had to contain them in the 1880s. Ningi shows that resistance to the caliphate did not come only from non-Muslims: its founder was a Muslim scholar. The British defeated it in 1902.",
+		"sources": [
+			"wikipedia-ningi-chiefdom",
+			"wikipedia-bauchi-emirate",
+			"wikipedia-southern-kaduna",
+			"patton-1975-ningi"
+		],
+		"confidence": "medium"
+	},
+	"moments": [
+		{
+			"when": "c. 1847",
+			"title": "Old Ningi founded",
+			"text": "Malam Hamza and his followers settle in the Kabara hills among the Butawa and Warjawa.",
+			"at": {
+				"name": "Ningi",
+				"point": [
+					9.567,
+					11.067
+				]
+			},
+			"mark": "founded",
+			"confidence": "medium",
+			"sources": [
+				"wikipedia-ningi-chiefdom",
+				"patton-1975-ningi"
+			]
+		},
+		{
+			"when": "1880s",
+			"title": "Bauchi holds the line",
+			"text": "Emir Umaru of Bauchi, rebuilding after the civil war of 1881, takes measures to contain the Ningi raids, which had grown in the years of disorder.",
+			"mark": "battle",
+			"confidence": "medium",
+			"sources": [
+				"wikipedia-bauchi-emirate"
+			]
+		},
+		{
+			"when": "1902",
+			"title": "The British defeat Ningi",
+			"text": "British forces end the chiefdom’s independence.",
+			"at": {
+				"name": "Ningi",
+				"point": [
+					9.567,
+					11.067
+				]
+			},
+			"mark": "captured",
+			"confidence": "high",
+			"sources": [
+				"wikipedia-ningi-chiefdom"
+			]
+		}
+	],
+	"area": {
+		"lgas": [
+			"bauchi-ningi",
+			"bauchi-warji"
+		],
+		"confidence": "medium"
+	},
+	"sources": [
+		"wikipedia-ningi-chiefdom",
+		"patton-1975-ningi"
+	],
+	"confidence": "medium",
+	"reviewNotes": [
+		"Old Ningi in the Kabara hills is not located; the marker sits on today’s Ningi town.",
+		"Wikipedia dates Gwarsum’s campaigns from about 1807, before Hamza’s founding of about 1847; the two accounts need reconciling from Patton (unread).",
+		"Hamza’s break with Kano and the Butawa and Warjawa alliance come from an article in the journal Africa, seen only through a search summary; find and cite it."
+	]
+}

@@ -1,0 +1,65 @@
+{
+	"name": "The Tiv and Jukun strike Abinsi",
+	"status": "draft",
+	"kind": "raid",
+	"year": 1906,
+	"until": 1908,
+	"actors": [
+		{
+			"name": "Tiv fighters",
+			"side": "attacker"
+		},
+		{
+			"name": "Jukun of Abinsi",
+			"side": "attacker"
+		},
+		{
+			"name": "Hausa traders and auxiliaries of the Royal Niger Company station",
+			"side": "defender"
+		},
+		{
+			"name": "British forces",
+			"side": "colonial"
+		}
+	],
+	"summary": {
+		"text": "In 1906 Tiv and Jukun fighters destroyed the Royal Niger Company’s trading station at Abinsi on the Benue. They were not after the British traders. They struck at the hundreds of Hausa traders, workers and interpreters who had settled there under the company’s protection and were using it to press the villages around for concessions. About 76 of these auxiliaries were killed and about 113 taken captive; there is no record of British traders being targeted. The British answered with an expedition that opened the conquest of Tivland. Its declaration of victory was written in Hausa and turned into Tiv by two Hausa interpreters, Mohammed and Maradu: the start of forty years of rule through Hausa-speaking agents that the Tiv resented.",
+		"sources": [
+			"ochonu-2008"
+		],
+		"confidence": "high"
+	},
+	"moments": [
+		{
+			"when": "1906",
+			"title": "Abinsi destroyed",
+			"text": "Tiv and Jukun fighters destroy the company station, which was peopled mostly by Hausa traders and auxiliaries. About 76 are killed and about 113 taken captive.",
+			"at": {
+				"name": "Abinsi",
+				"point": [
+					8.751,
+					7.754
+				]
+			},
+			"mark": "burned",
+			"confidence": "high",
+			"sources": [
+				"ochonu-2008"
+			]
+		}
+	],
+	"area": {
+		"lgas": [
+			"benue-guma"
+		],
+		"confidence": "medium"
+	},
+	"sources": [
+		"ochonu-2008"
+	],
+	"confidence": "high",
+	"reviewNotes": [
+		"Overlaps the published event british-in-tivland, which starts in 1906 but does not tell the Abinsi attack. Consider merging this into it as a moment.",
+		"Ochonu takes the figures (76 killed, 113 captive) and the interpreters’ names from Makar, which is unread."
+	]
+}

@@ -1,0 +1,211 @@
+{
+	"name": "The North divided into six states",
+	"status": "draft",
+	"kind": "partition",
+	"year": 1967,
+	"yearLabel": "27 May 1967",
+	"actors": [
+		{
+			"name": "Federal Military Government (Yakubu Gowon)",
+			"side": "ally",
+			"ink": "#2e6b3f"
+		},
+		{
+			"name": "Middle Belt leaders (Joseph Tarka and others)",
+			"side": "ally",
+			"ink": "#7a4e9c"
+		}
+	],
+	"summary": {
+		"text": "On 27 May 1967, days before Biafra seceded, Yakubu Gowon, an Ngas officer from the Middle Belt, abolished the four regions and created twelve states by Decree No. 14. The Northern Region, three-quarters of Nigeria’s land, became six states. For the first time the Middle Belt had states of its own: Benue-Plateau, governed from Jos by Joseph Gomwalk, an Ngas police commissioner, and Kwara (first called West Central State), which joined the Ilorin emirate to the Okun, Ebira and Igala of Kabba Province. The change answered the minorities’ demand of the 1950s and cut the ground from under Biafra by offering the East’s minorities states too. It ended “One North” as a single government. Southern Kaduna, southern Bauchi and the peoples of Taraba and Adamawa stayed inside states run from emirate capitals.",
+		"sources": [
+			"wikipedia-benue-plateau-state",
+			"wikipedia-kwara-state",
+			"wikipedia-northern-region-nigeria",
+			"wikipedia-yakubu-gowon",
+			"wikipedia-joseph-gomwalk",
+			"worldstatesmen-nigeria-states"
+		],
+		"confidence": "high"
+	},
+	"moments": [
+		{
+			"when": "27 May 1967",
+			"title": "Decree No. 14",
+			"text": "Gowon replaces the four regions with twelve states.",
+			"at": {
+				"name": "Lagos",
+				"point": [
+					3.394,
+					6.455
+				]
+			},
+			"mark": "treaty",
+			"confidence": "high",
+			"sources": [
+				"wikipedia-northern-region-nigeria",
+				"worldstatesmen-nigeria-states"
+			]
+		},
+		{
+			"when": "1967",
+			"title": "Jos, capital of Benue-Plateau",
+			"text": "Joseph Gomwalk, an Ngas police commissioner, becomes the first military governor (1967–1975).",
+			"at": {
+				"name": "Jos",
+				"point": [
+					8.89,
+					9.917
+				]
+			},
+			"mark": "founded",
+			"confidence": "high",
+			"sources": [
+				"wikipedia-benue-plateau-state",
+				"wikipedia-joseph-gomwalk"
+			]
+		},
+		{
+			"when": "1967",
+			"title": "Ilorin, capital of Kwara",
+			"text": "West Central State, renamed Kwara, joins Ilorin and Kabba provinces.",
+			"at": {
+				"name": "Ilorin",
+				"point": [
+					4.5145,
+					8.4565
+				]
+			},
+			"mark": "founded",
+			"confidence": "high",
+			"sources": [
+				"wikipedia-kwara-state"
+			]
+		}
+	],
+	"pieces": [
+		{
+			"name": "North-Western State",
+			"extent": {
+				"states": [
+					"sokoto",
+					"kebbi",
+					"zamfara",
+					"niger"
+				],
+				"lgas": [
+					"fct-abaji",
+					"fct-bwari",
+					"fct-gwagwalada",
+					"fct-kuje",
+					"fct-kwali",
+					"fct-municipal-area-council"
+				]
+			},
+			"note": "Sokoto and Niger provinces. The land later taken for the FCT is drawn here."
+		},
+		{
+			"name": "North-Central State",
+			"extent": {
+				"states": [
+					"kaduna",
+					"katsina"
+				]
+			},
+			"note": "Zaria and Katsina; its southern peoples had no state of their own."
+		},
+		{
+			"name": "Kano State",
+			"extent": {
+				"states": [
+					"kano",
+					"jigawa"
+				]
+			}
+		},
+		{
+			"name": "North-Eastern State",
+			"extent": {
+				"states": [
+					"borno",
+					"yobe",
+					"bauchi",
+					"gombe",
+					"adamawa",
+					"taraba"
+				],
+				"except": [
+					"taraba-wukari",
+					"taraba-takum",
+					"taraba-donga",
+					"taraba-ibi",
+					"taraba-ussa"
+				]
+			}
+		},
+		{
+			"name": "Benue-Plateau State",
+			"extent": {
+				"states": [
+					"benue",
+					"plateau",
+					"nasarawa"
+				],
+				"lgas": [
+					"taraba-wukari",
+					"taraba-takum",
+					"taraba-donga",
+					"taraba-ibi",
+					"taraba-ussa"
+				]
+			},
+			"note": "Benue and Plateau provinces, with Wukari Division (moved to Gongola in 1976; its LGAs here are approximate)."
+		},
+		{
+			"name": "Kwara State",
+			"extent": {
+				"states": [
+					"kwara"
+				],
+				"lgas": [
+					"kogi-adavi",
+					"kogi-ajaokuta",
+					"kogi-ijumu",
+					"kogi-kabba-bunu",
+					"kogi-kogi",
+					"kogi-lokoja",
+					"kogi-mopa-muro",
+					"kogi-ogori-magongo",
+					"kogi-okehi",
+					"kogi-okene",
+					"kogi-yagba-east",
+					"kogi-yagba-west",
+					"kogi-idah",
+					"kogi-ibaji",
+					"kogi-igalamela-odolu",
+					"kogi-ofu",
+					"kogi-dekina",
+					"kogi-bassa",
+					"kogi-omala",
+					"kogi-ankpa",
+					"kogi-olamaboro"
+				]
+			},
+			"note": "Ilorin and Kabba provinces. Kabba Province had four divisions: Koton Karfe, Okene, Kabba and Igala. The Igala Division (Idah, Dekina, Ankpa) went to Benue on 13 February 1976 and to Kogi in 1991."
+		}
+	],
+	"sources": [
+		"wikipedia-benue-plateau-state",
+		"wikipedia-kwara-state",
+		"wikipedia-gongola-state",
+		"worldstatesmen-nigeria-states",
+		"wikipedia-igala-people",
+		"unh-kabba-province"
+	],
+	"confidence": "medium",
+	"reviewNotes": [
+		"The published Politics view (politics/military-1967.json and military-1975.json) had every Igala LGA in Benue-Plateau in 1967. Kabba Province had an Igala Division; Kwara’s government made Ankpa and Dekina local authorities in 1969; Idah and Dekina left Kwara for Benue on 13 February 1976. Both files are now corrected to match.",
+		"Which LGAs made up Wukari Division in 1967 is approximate (Wukari, Takum, Donga, Ibi, Ussa).",
+		"The timeline ends in 1970, so the later exercises (1976, 1987, 1991, 1996) cannot be drawn as events; they are told in docs/research/middle-belt.md."
+	]
+}

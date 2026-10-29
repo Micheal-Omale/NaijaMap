@@ -668,7 +668,7 @@
 				"idoma",
 				"igala"
 			],
-			"text": "The Tiv, the Idoma and, until Kogi State was made in 1991, the Igala.",
+			"text": "The Tiv, the Idoma and, moved from Kwara in 1976 until Kogi State was made in 1991, the Igala.",
 			"leaders": [
 				{
 					"name": "Abdullahi Shelleng",
@@ -710,7 +710,9 @@
 				}
 			],
 			"sources": [
-				"worldstatesmen-nigeria-states"
+				"worldstatesmen-nigeria-states",
+				"wikipedia-kwara-state",
+				"wikipedia-benue-state"
 			],
 			"confidence": "medium"
 		},
@@ -749,7 +751,7 @@
 				"nupe",
 				"ebira"
 			],
-			"text": "Unchanged from 1967. In 1991 its Okun Yoruba and Ebira districts went to the new Kogi State.",
+			"text": "Smaller than in 1967: on 13 February 1976 its Igala and Bassa districts (Idah, Dekina, Ankpa) went to the new Benue State. In 1991 its Okun Yoruba and Ebira districts went to the new Kogi State.",
 			"leaders": [
 				{
 					"name": "Ibrahim Taiwo",
@@ -810,7 +812,8 @@
 				}
 			],
 			"sources": [
-				"worldstatesmen-nigeria-states"
+				"worldstatesmen-nigeria-states",
+				"wikipedia-kwara-state"
 			],
 			"confidence": "high"
 		},

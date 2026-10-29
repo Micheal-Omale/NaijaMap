@@ -1,0 +1,126 @@
+{
+	"name": "The Tiv risings: Makurdi, nande nande and atemtyo",
+	"status": "draft",
+	"kind": "war",
+	"year": 1947,
+	"yearLabel": "1947, 1960 and 1964",
+	"until": 1966,
+	"actors": [
+		{
+			"name": "Tiv, mostly United Middle Belt Congress supporters",
+			"side": "resister"
+		},
+		{
+			"name": "Northern Region government and Native Authority police (Northern People’s Congress)",
+			"side": "attacker"
+		},
+		{
+			"name": "Nigerian Army",
+			"side": "attacker",
+			"ink": "#2e6b3f"
+		}
+	],
+	"summary": {
+		"text": "Tiv anger at being ruled through outsiders broke out three times. From 1914 the British had put the Tiv around Makurdi under Audu Dan Afoda, a Hausa-speaking Nupe Muslim they made Sarkin Makurdi. When he died in 1945 they tried to appoint another “Hausa”, and in 1946 or 1947 riots in Makurdi turned into street fighting between the Tiv and Hausa of the town. The British dropped the plan, and the Tiv got a paramount ruler of their own, the Tor Tiv. After independence the quarrel became political. Most Tiv backed Joseph Tarka’s United Middle Belt Congress against the Northern People’s Congress, which held the Native Authority. In 1960 the Tiv rose against the Native Authority in the disturbances they call nande nande, and in 1964 again in atemtyo, when the army was sent in. Property was burned, people were beaten, killed and driven from their homes; estimates of the dead vary enormously. The risings fed the demand that ended in Benue-Plateau State in 1967.",
+		"sources": [
+			"ochonu-2008",
+			"makar-tiv-political-change",
+			"minorityrights-tiv",
+			"wikipedia-joseph-tarka",
+			"teniola-2026-benue-plateau",
+			"wikipedia-makurdi",
+			"wikipedia-makir-zakpe"
+		],
+		"confidence": "medium"
+	},
+	"moments": [
+		{
+			"when": "1946 or 1947",
+			"title": "The Makurdi riots",
+			"text": "The British try to give the Tiv of Makurdi another “Hausa” chief, Audu Dan Afoda’s son by one account. Riots turn into street clashes between the Tiv and Hausa of the town. The British give up the plan and appoint no new Sarkin Makurdi.",
+			"at": {
+				"name": "Makurdi",
+				"point": [
+					8.53,
+					7.73
+				]
+			},
+			"mark": "battle",
+			"confidence": "disputed",
+			"sources": [
+				"ochonu-2008",
+				"wikipedia-makir-zakpe"
+			]
+		},
+		{
+			"when": "1960",
+			"title": "Nande nande",
+			"text": "Tiv supporters of the United Middle Belt Congress rise against the Northern People’s Congress Native Authority across Tivland.",
+			"mark": "burned",
+			"confidence": "high",
+			"sources": [
+				"makar-tiv-political-change",
+				"minorityrights-tiv"
+			]
+		},
+		{
+			"when": "April 1961",
+			"title": "Tarka detained",
+			"text": "Joseph Tarka, the UMBC leader, is held for three weeks in Jos, investigated for treason and for inciting the Tiv disturbances, a month before the regional elections.",
+			"at": {
+				"name": "Jos",
+				"point": [
+					8.89,
+					9.917
+				]
+			},
+			"mark": "captured",
+			"confidence": "high",
+			"sources": [
+				"wikipedia-joseph-tarka"
+			]
+		},
+		{
+			"when": "1964",
+			"title": "Atemtyo, and the army",
+			"text": "The second rising. The army is sent in to put it down.",
+			"mark": "burned",
+			"confidence": "medium",
+			"sources": [
+				"makar-tiv-political-change",
+				"minorityrights-tiv",
+				"teniola-2026-benue-plateau"
+			]
+		}
+	],
+	"area": {
+		"lgas": [
+			"benue-buruku",
+			"benue-gboko",
+			"benue-katsina-ala",
+			"benue-konshisha",
+			"benue-kwande",
+			"benue-logo",
+			"benue-guma",
+			"benue-gwer-east",
+			"benue-gwer-west",
+			"benue-tarka",
+			"benue-ukum",
+			"benue-ushongo",
+			"benue-vandeikya",
+			"benue-makurdi"
+		],
+		"confidence": "medium"
+	},
+	"sources": [
+		"ochonu-2008",
+		"makar-tiv-political-change",
+		"minorityrights-tiv"
+	],
+	"confidence": "medium",
+	"reviewNotes": [
+		"Death tolls are left out on purpose: a Nigerian Defence Academy study, seen only through a search summary, gives estimates from 16 to over 4,000.",
+		"“Operation Adzua”, found in popular accounts, could not be verified and is not used.",
+		"Ochonu dates the Makurdi riots to 1947; Wikipedia’s Makir Zakpe article says 1946, after the British tried to crown Dan Afoda’s son. The Tor Tiv was created in September 1946, which fits 1946 better."
+	]
+}

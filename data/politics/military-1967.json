@@ -202,6 +202,13 @@
 					"gombe",
 					"adamawa",
 					"taraba"
+				],
+				"except": [
+					"taraba-wukari",
+					"taraba-takum",
+					"taraba-donga",
+					"taraba-ibi",
+					"taraba-ussa"
 				]
 			},
 			"seat": {
@@ -248,15 +255,11 @@
 					"nasarawa"
 				],
 				"lgas": [
-					"kogi-ankpa",
-					"kogi-bassa",
-					"kogi-dekina",
-					"kogi-ibaji",
-					"kogi-idah",
-					"kogi-igalamela-odolu",
-					"kogi-ofu",
-					"kogi-olamaboro",
-					"kogi-omala"
+					"taraba-wukari",
+					"taraba-takum",
+					"taraba-donga",
+					"taraba-ibi",
+					"taraba-ussa"
 				]
 			},
 			"seat": {
@@ -271,7 +274,7 @@
 				"idoma",
 				"ngas"
 			],
-			"text": "The first state for the Middle Belt minorities: the Tiv and Idoma of Benue, the Igala of Idah and Ankpa, and the many peoples of the Plateau. It was governed by an Ngas police officer.",
+			"text": "The first state for the Middle Belt minorities: the Tiv and Idoma of Benue, the Jukun of Wukari Division, and the many peoples of the Plateau. It was governed by an Ngas police officer.",
 			"leaders": [
 				{
 					"name": "Joseph Gomwalk",
@@ -294,7 +297,8 @@
 			],
 			"sources": [
 				"worldstatesmen-nigeria-states",
-				"wikipedia-benue-plateau-state"
+				"wikipedia-benue-plateau-state",
+				"wikipedia-gongola-state"
 			],
 			"confidence": "medium"
 		},
@@ -318,7 +322,16 @@
 					"kogi-okehi",
 					"kogi-okene",
 					"kogi-yagba-east",
-					"kogi-yagba-west"
+					"kogi-yagba-west",
+					"kogi-ankpa",
+					"kogi-bassa",
+					"kogi-dekina",
+					"kogi-ibaji",
+					"kogi-idah",
+					"kogi-igalamela-odolu",
+					"kogi-ofu",
+					"kogi-olamaboro",
+					"kogi-omala"
 				]
 			},
 			"seat": {
@@ -331,9 +344,10 @@
 			"groups": [
 				"yoruba",
 				"nupe",
-				"ebira"
+				"ebira",
+				"igala"
 			],
-			"text": "Created as West Central State and renamed Kwara in 1968: the Ilorin emirate and the Igbomina, Ekiti and Okun Yoruba, the Nupe south of the Niger, and the Ebira of Okene.",
+			"text": "Created as West Central State and renamed Kwara in 1968: the Ilorin emirate and the Igbomina, Ekiti and Okun Yoruba, the Nupe south of the Niger, the Ebira of Okene, and the Igala and Bassa of the old Igala Division of Kabba Province, until they went to Benue in 1976.",
 			"leaders": [
 				{
 					"name": "David Bamigboye",
@@ -356,7 +370,10 @@
 				}
 			],
 			"sources": [
-				"worldstatesmen-nigeria-states"
+				"worldstatesmen-nigeria-states",
+				"wikipedia-kwara-state",
+				"wikipedia-igala-people",
+				"unh-kabba-province"
 			],
 			"confidence": "high"
 		},

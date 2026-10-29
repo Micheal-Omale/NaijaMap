@@ -1,0 +1,186 @@
+{
+	"name": "The Middle Belt movement and the UMBC",
+	"status": "draft",
+	"kind": "alliance",
+	"year": 1949,
+	"yearLabel": "1949–1967",
+	"until": 1967,
+	"actors": [
+		{
+			"name": "The Middle Belt movement: Non-Muslim League, Middle Zone League, United Middle Belt Congress",
+			"side": "ally",
+			"ink": "#7a4e9c"
+		},
+		{
+			"name": "Action Group (Obafemi Awolowo)",
+			"side": "ally"
+		},
+		{
+			"name": "Northern Elements Progressive Union (Aminu Kano)",
+			"side": "ally"
+		}
+	],
+	"summary": {
+		"text": "The non-Muslim peoples of the Northern Region began organising in 1949, when a motion in the Northern House of Assembly to restrict Christian missions led Patrick Dokotri, a Berom, Pastor David Lot and others to found the Non-Muslim League. It became the Middle Zone League, which later joined the Middle Belt People’s Party in the United Middle Belt Congress. Under Joseph Tarka, a Tiv teacher who led it from 1957, the UMBC asked for a Middle Belt region of its own, outside a North ruled by the Northern People’s Congress. In 1958 it allied with Obafemi Awolowo’s Action Group, which backed a Middle Belt state in return for support for moving Ilorin and Kabba to the West. The Willink Commission accepted that the North’s minorities feared domination but would not recommend the state. The UMBC held the Tiv country against the NPC, and its supporters paid for it in the Tiv risings; Tarka was detained in 1961 and tried for treasonable felony in 1962, then acquitted. Meanwhile the Premier, Ahmadu Bello, pressed a drive to convert the North’s “pagan” enclaves to Islam. After the coups of 1966 Tarka agreed with the Makaman Bida and Aminu Kano to work for a united North, a bargain that went with the North’s acceptance of new states. In May 1967 Benue-Plateau became the first state of the Middle Belt.",
+		"sources": [
+			"intervention-2022-hayab",
+			"wikipedia-united-middle-belt-congress",
+			"wikipedia-joseph-tarka",
+			"kperogi-2020",
+			"barnes-2007",
+			"newschronicle-2026-middle-belt",
+			"enwerem-1995"
+		],
+		"confidence": "medium"
+	},
+	"routes": [
+		{
+			"kind": "alliance",
+			"path": [
+				[
+					8.89,
+					9.917
+				],
+				[
+					3.917,
+					7.396
+				]
+			],
+			"label": "The UMBC–Action Group alliance",
+			"by": "Action Group (Obafemi Awolowo)",
+			"when": "1958–1962",
+			"note": "The Action Group backed a Middle Belt state; the UMBC backed moving Ilorin and Kabba to the West.",
+			"confidence": "high",
+			"sources": [
+				"wikipedia-joseph-tarka",
+				"wikipedia-united-middle-belt-congress"
+			]
+		},
+		{
+			"kind": "alliance",
+			"path": [
+				[
+					8.89,
+					9.917
+				],
+				[
+					8.52,
+					12
+				]
+			],
+			"label": "The UMBC joins NEPU in a new front",
+			"by": "Northern Elements Progressive Union (Aminu Kano)",
+			"when": "1962",
+			"note": "Aminu Kano was its president and Tarka its general secretary.",
+			"confidence": "high",
+			"sources": [
+				"wikipedia-joseph-tarka"
+			]
+		}
+	],
+	"moments": [
+		{
+			"when": "1949",
+			"title": "The Non-Muslim League",
+			"text": "Founded by Patrick Dokotri, Pastor David Lot and others, in answer to a motion in the Northern House of Assembly to restrict Christian missions. Andrew Barnes traces the Middle Belt movement to it.",
+			"mark": "founded",
+			"confidence": "medium",
+			"sources": [
+				"intervention-2022-hayab",
+				"kperogi-2020",
+				"barnes-2007"
+			]
+		},
+		{
+			"when": "1950s",
+			"title": "From the Middle Zone League to the UMBC",
+			"text": "The League becomes the Middle Zone League under David Lot, which merges with the Middle Belt People’s Party into the United Middle Belt Congress.",
+			"mark": "founded",
+			"confidence": "medium",
+			"sources": [
+				"wikipedia-united-middle-belt-congress",
+				"wikipedia-joseph-tarka",
+				"intervention-2022-hayab"
+			]
+		},
+		{
+			"when": "1957",
+			"title": "Tarka leads, at Lafia",
+			"text": "Joseph Tarka becomes the UMBC’s leader, and its convention at Lafia carries it to new strength, above all among the Tiv. Tarka is the Middle Belt’s delegate to the Willink Commission.",
+			"at": {
+				"name": "Lafia",
+				"point": [
+					8.517,
+					8.494
+				]
+			},
+			"mark": "founded",
+			"confidence": "high",
+			"sources": [
+				"intervention-2022-hayab",
+				"wikipedia-joseph-tarka"
+			]
+		},
+		{
+			"when": "1958",
+			"title": "Willink says no",
+			"text": "The minorities commission accepts that the fears are real but declines to recommend a Middle Belt state, offering a bill of rights instead.",
+			"mark": "treaty",
+			"confidence": "high",
+			"sources": [
+				"newschronicle-2026-middle-belt",
+				"ejotmas-willink"
+			]
+		},
+		{
+			"when": "1962–1965",
+			"title": "The conversion drive",
+			"text": "After his pilgrimage in 1962 the Premier, Ahmadu Bello, founds Jama’atu Nasril Islam. Enwerem: his “specific target for the final unification of the North was to convert the ‘pagan’ enclaves in the region to Islam”, where Christianity was growing fastest.",
+			"mark": "shrine",
+			"confidence": "high",
+			"sources": [
+				"enwerem-1995",
+				"wikipedia-jamaatu-nasril-islam"
+			]
+		},
+		{
+			"when": "1966",
+			"title": "A bargain for states",
+			"text": "Middle Belt Christians welcome the January coup. Then Tarka agrees with the Makaman Bida and Aminu Kano to work for a united North, and the North accepts the creation of states.",
+			"mark": "treaty",
+			"confidence": "medium",
+			"sources": [
+				"enwerem-1995"
+			]
+		},
+		{
+			"when": "27 May 1967",
+			"title": "Benue-Plateau",
+			"text": "The first state of the Middle Belt is created, with its capital at Jos.",
+			"at": {
+				"name": "Jos",
+				"point": [
+					8.89,
+					9.917
+				]
+			},
+			"mark": "founded",
+			"confidence": "high",
+			"sources": [
+				"wikipedia-benue-plateau-state"
+			]
+		}
+	],
+	"sources": [
+		"wikipedia-united-middle-belt-congress",
+		"wikipedia-joseph-tarka",
+		"intervention-2022-hayab",
+		"enwerem-1995"
+	],
+	"confidence": "medium",
+	"reviewNotes": [
+		"Sources disagree on when the UMBC was formed: about 1955, or at the 1957 merger.",
+		"Where the Non-Muslim League was founded is not given in any source read.",
+		"Ojukwu’s remark that the Sardauna “converted fifty thousand” in Tiv land (in Enwerem) is not used: no independent count was found."
+	]
+}
