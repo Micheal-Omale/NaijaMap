@@ -1,0 +1,237 @@
+{
+	"name": "The Cameroons choose: the South leaves, the North stays",
+	"status": "draft",
+	"kind": "partition",
+	"year": 1961,
+	"yearLabel": "1953–1963",
+	"actors": [
+		{
+			"name": "British administration (UN trust territory)",
+			"side": "colonial"
+		},
+		{
+			"name": "Federation of Nigeria",
+			"side": "ally",
+			"ink": "#2e6b3f"
+		},
+		{
+			"name": "Republic of Cameroun",
+			"side": "ally",
+			"ink": "#3f7f8c"
+		}
+	],
+	"summary": {
+		"text": "Britain ruled its two strips of the old German Kamerun as part of Nigeria, Northern Cameroons with the North and Southern Cameroons with the Eastern Region. In 1953 the Southern Cameroons members of the Eastern House at Enugu, unhappy with the domineering attitude of Nigerian politicians, declared “benevolent neutrality” and walked out; in 1954 they won their own government at Buea. Feeling against Nigerians, above all the Igbo, ran deep, and John Ngu Foncha’s KNDP campaigned for reunion with Cameroun. Independence alone was not on the ballot. On 11 February 1961 Southern Cameroons voted by 233,571 to 97,741 to join Cameroun. Northern Cameroons had voted in 1959 to put off joining Nigeria, a protest against its Native Authority rulers; after reforms it voted on 11–12 February 1961, by 146,296 to 97,659, to join Nigeria, and on 1 June 1961 became Sardauna Province. Cameroun took Britain to the International Court of Justice, which in 1963 declined to rule.",
+		"sources": [
+			"un-repertory-art76",
+			"wikipedia-southern-cameroons",
+			"wikipedia-british-cameroons",
+			"nfi-2011-southern-cameroons",
+			"icj-northern-cameroons"
+		],
+		"confidence": "high"
+	},
+	"moments": [
+		{
+			"when": "1953",
+			"title": "Benevolent neutrality",
+			"text": "The Southern Cameroons members of the Eastern House of Assembly walk out, complaining of domination, and ask in London for a region of their own.",
+			"at": {
+				"name": "Enugu",
+				"point": [
+					7.49,
+					6.45
+				]
+			},
+			"mark": "flight",
+			"confidence": "high",
+			"sources": [
+				"wikipedia-southern-cameroons",
+				"wikipedia-eml-endeley"
+			]
+		},
+		{
+			"when": "1 October 1954",
+			"title": "Southern Cameroons governs itself",
+			"text": "An autonomous Southern Cameroons with its own House at Buea, led by E. M. L. Endeley.",
+			"at": {
+				"name": "Buea",
+				"point": [
+					9.24,
+					4.155
+				]
+			},
+			"mark": "founded",
+			"confidence": "high",
+			"sources": [
+				"wikipedia-southern-cameroons",
+				"wikipedia-eml-endeley"
+			]
+		},
+		{
+			"when": "7 November 1959",
+			"title": "The North says “not yet”",
+			"text": "Almost 88% vote; 62% choose to decide later. The UN commissioner calls it “a protest vote against the system of local administration”. Reforms follow and Mubi becomes the territory’s capital.",
+			"at": {
+				"name": "Mubi",
+				"point": [
+					13.26,
+					10.27
+				]
+			},
+			"mark": "treaty",
+			"confidence": "high",
+			"sources": [
+				"un-repertory-art76",
+				"wikipedia-1959-northern-cameroons-referendum",
+				"prnigeria-2019-northern-cameroons"
+			]
+		},
+		{
+			"when": "11 February 1961",
+			"title": "The South votes for Cameroun",
+			"text": "Turnout 94.75%: 233,571 for Cameroun, 97,741 for Nigeria. Southern Cameroons joins Cameroun as West Cameroon on 1 October 1961.",
+			"at": {
+				"name": "Buea",
+				"point": [
+					9.24,
+					4.155
+				]
+			},
+			"mark": "treaty",
+			"confidence": "high",
+			"sources": [
+				"un-repertory-art76",
+				"wikipedia-1961-british-cameroons-referendum"
+			]
+		},
+		{
+			"when": "11–12 February 1961",
+			"title": "The North votes for Nigeria",
+			"text": "146,296 for Nigeria, 97,659 for Cameroun. On 1 June 1961 it becomes Sardauna Province of Northern Nigeria.",
+			"at": {
+				"name": "Mubi",
+				"point": [
+					13.26,
+					10.27
+				]
+			},
+			"mark": "treaty",
+			"confidence": "high",
+			"sources": [
+				"un-repertory-art76",
+				"wikipedia-british-cameroons"
+			]
+		},
+		{
+			"when": "2 December 1963",
+			"title": "The court declines",
+			"text": "Cameroun had sued Britain over the northern plebiscite. The International Court of Justice declines to rule, since its judgment could not undo the result.",
+			"mark": "treaty",
+			"confidence": "high",
+			"sources": [
+				"icj-northern-cameroons"
+			]
+		}
+	],
+	"pieces": [
+		{
+			"name": "Northern Cameroons, to Nigeria (Sardauna Province)",
+			"extent": {
+				"lgas": [
+					"adamawa-ganye",
+					"adamawa-jada",
+					"adamawa-madagali",
+					"adamawa-maiha",
+					"adamawa-michika",
+					"adamawa-mubi-north",
+					"adamawa-mubi-south",
+					"adamawa-toungo",
+					"borno-bama",
+					"borno-dikwa",
+					"borno-gwoza",
+					"borno-kala-balge",
+					"taraba-gashaka",
+					"taraba-kurmi",
+					"taraba-sardauna"
+				],
+				"confidence": "medium"
+			},
+			"note": "Whole LGAs only. Parts of Fufore, Hong, Mayo Belwa and Song (Adamawa) and of Ardo Kola, Bali, Takum and Yorro (Taraba) were also in the territory but are not drawn."
+		},
+		{
+			"name": "Southern Cameroons, to Cameroun",
+			"extent": {
+				"beyond": [
+					[
+						[
+							8.55,
+							4.5
+						],
+						[
+							9.2,
+							3.95
+						],
+						[
+							9.7,
+							3.85
+						],
+						[
+							9.85,
+							4.8
+						],
+						[
+							10.3,
+							5.35
+						],
+						[
+							10.9,
+							5.9
+						],
+						[
+							11.2,
+							6.5
+						],
+						[
+							10.8,
+							7
+						],
+						[
+							10.2,
+							6.9
+						],
+						[
+							9.6,
+							6.4
+						],
+						[
+							9.1,
+							5.9
+						],
+						[
+							8.8,
+							5.3
+						],
+						[
+							8.55,
+							4.5
+						]
+					]
+				],
+				"confidence": "medium"
+			},
+			"note": "Today Cameroon’s North-West and South-West regions. Drawn as a rough ring."
+		}
+	],
+	"sources": [
+		"un-repertory-art76",
+		"wikipedia-british-cameroons",
+		"prnigeria-2019-northern-cameroons"
+	],
+	"confidence": "high",
+	"reviewNotes": [
+		"The Southern Cameroons ring is hand-drawn and approximate.",
+		"Pro-Ambazonian writers call Eastern Region rule “Ibo domination and hegemony”; Nfi (2011) records “a deep-seated antipathy towards Nigerians, especially the Igbo people”. The summary keeps to the milder, sourced wording.",
+		"One paper says only men voted in the north in 1959; the UN required universal adult suffrage for 1961. Not confirmed, so not stated."
+	]
+}

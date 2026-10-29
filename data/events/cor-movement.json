@@ -1,0 +1,161 @@
+{
+	"name": "The COR and Rivers state movements",
+	"status": "draft",
+	"kind": "alliance",
+	"year": 1953,
+	"yearLabel": "1953–1967",
+	"until": 1967,
+	"actors": [
+		{
+			"name": "COR State Movement (Udo Udoma, Okoi Arikpo)",
+			"side": "ally",
+			"ink": "#7a4e9c"
+		},
+		{
+			"name": "Rivers Chiefs and Peoples’ Conference (Harold Dappa-Biriye)",
+			"side": "ally"
+		},
+		{
+			"name": "Action Group (Obafemi Awolowo)",
+			"side": "ally"
+		}
+	],
+	"summary": {
+		"text": "In January 1953 the NCNC drove Eyo Ita, an Ibibio from Eket, from the leadership of the Eastern government so that Nnamdi Azikiwe could take the East. Udo Udoma and Okoi Arikpo left the party in protest, formed what became the United National Independence Party, and allied with the Action Group. That year they founded the Calabar-Ogoja-Rivers (COR) State Movement, Udoma its president and Arikpo its secretary-general, to take the minority provinces out of the Igbo-led East. The Ijaw leaders of the Rivers wanted a state of their own: Harold Dappa-Biriye, who had co-founded the Ijo Peoples League in 1941, broke away over the plan to merge the Rivers with Calabar and Ogoja, and the Council of Rivers Chiefs (1953) became the Rivers Chiefs and Peoples’ Conference. The Willink Commission refused both states in 1958, making Calabar a “minority area” and the Niger Delta a “special area” with a development board. The states came only on 27 May 1967, when Gowon created Rivers and South-Eastern states, three days before Biafra seceded.",
+		"sources": [
+			"wikipedia-eyo-ita",
+			"wikipedia-udo-udoma",
+			"wikipedia-okoi-arikpo",
+			"wikipedia-harold-dappa-biriye",
+			"wikipedia-rivers-state",
+			"dailytimes-1958-willink"
+		],
+		"confidence": "high"
+	},
+	"routes": [
+		{
+			"kind": "alliance",
+			"path": [
+				[
+					8.32,
+					4.96
+				],
+				[
+					3.917,
+					7.396
+				]
+			],
+			"label": "UNIP and COR with the Action Group",
+			"by": "Action Group (Obafemi Awolowo)",
+			"when": "1953–1959",
+			"confidence": "high",
+			"sources": [
+				"wikipedia-okoi-arikpo",
+				"wikipedia-udo-udoma"
+			]
+		}
+	],
+	"moments": [
+		{
+			"when": "January 1953",
+			"title": "Eyo Ita forced out",
+			"text": "The NCNC removes the Ibibio leader of the Eastern government; Udoma and Arikpo resign from the party in protest.",
+			"at": {
+				"name": "Enugu",
+				"point": [
+					7.49,
+					6.45
+				]
+			},
+			"mark": "exile",
+			"confidence": "high",
+			"sources": [
+				"wikipedia-eyo-ita",
+				"wikipedia-okoi-arikpo",
+				"wikipedia-udo-udoma"
+			]
+		},
+		{
+			"when": "1953",
+			"title": "The COR State Movement",
+			"text": "Founded to take Calabar, Ogoja and Rivers provinces out of the East; Udo Udoma president, Okoi Arikpo secretary-general.",
+			"at": {
+				"name": "Calabar",
+				"point": [
+					8.32,
+					4.96
+				]
+			},
+			"mark": "founded",
+			"confidence": "high",
+			"sources": [
+				"wikipedia-okoi-arikpo",
+				"wikipedia-rivers-state"
+			]
+		},
+		{
+			"when": "1953–1956",
+			"title": "The Rivers go their own way",
+			"text": "The Council of Rivers Chiefs (1953) becomes the Rivers Chiefs and Peoples’ Congress (1954) and Conference (1956), asking for a Rivers state apart from COR.",
+			"mark": "founded",
+			"confidence": "high",
+			"sources": [
+				"wikipedia-rivers-state",
+				"wikipedia-harold-dappa-biriye"
+			]
+		},
+		{
+			"when": "1958",
+			"title": "Willink: a minority area and a special area",
+			"text": "No new states. Calabar is to be a “minority area” with a council; the Niger Delta a “special area” with a development board; one federal police force.",
+			"mark": "treaty",
+			"confidence": "high",
+			"sources": [
+				"dailytimes-1958-willink"
+			]
+		},
+		{
+			"when": "27 May 1967",
+			"title": "Rivers State",
+			"text": "Created by Decree No. 14, with its capital at Port Harcourt.",
+			"at": {
+				"name": "Port Harcourt",
+				"point": [
+					7,
+					4.8
+				]
+			},
+			"mark": "founded",
+			"confidence": "high",
+			"sources": [
+				"wikipedia-rivers-state"
+			]
+		},
+		{
+			"when": "27 May 1967",
+			"title": "South-Eastern State",
+			"text": "Created by Decree No. 14 for the Ibibio, Efik, Annang, Ejagham and their neighbours, with its capital at Calabar.",
+			"at": {
+				"name": "Calabar",
+				"point": [
+					8.32,
+					4.96
+				]
+			},
+			"mark": "founded",
+			"confidence": "high",
+			"sources": [
+				"wikipedia-cross-river-state"
+			]
+		}
+	],
+	"sources": [
+		"wikipedia-okoi-arikpo",
+		"wikipedia-rivers-state",
+		"dailytimes-1958-willink"
+	],
+	"confidence": "high",
+	"reviewNotes": [
+		"The COR memorandum’s 15 divisions are not listed in any source read; Ogoja Province included the Igbo divisions of Abakaliki and Afikpo."
+	]
+}

@@ -1,0 +1,185 @@
+{
+	"name": "The Mid-West is carved out of the West",
+	"status": "draft",
+	"kind": "partition",
+	"year": 1963,
+	"yearLabel": "9 August 1963",
+	"actors": [
+		{
+			"name": "Mid-West State Movement (Dennis Osadebay), Otu-Edo and the Oba of Benin",
+			"side": "ally",
+			"ink": "#7a4e9c"
+		},
+		{
+			"name": "Federal parliament (NPC and NCNC majority)",
+			"side": "ally",
+			"ink": "#2e6b3f"
+		},
+		{
+			"name": "Action Group government of the Western Region",
+			"side": "defender"
+		}
+	],
+	"summary": {
+		"text": "The Western Region was about three-quarters Yoruba. Its minorities in Benin and Delta provinces, the Edo, Urhobo, Isoko, Itsekiri, western Ijaw and Anioma, asked from the early 1950s to be let out. Oba Akenzua II’s Benin Delta Peoples Party (1953), Humphrey Omo-Osagie’s Otu-Edo and Dennis Osadebay’s Mid-West State Movement (1956) led the cause; Urhobo leaders joined after the 1952 change of the Itsekiri ruler’s title to Olu of Warri, while the Anioma at first feared Benin domination. The Willink Commission offered only a council for Edo affairs in 1958, and the Action Group government held out until its own split brought a state of emergency in the West in May 1962. The federal parliament, where the NPC and NCNC ruled, had passed the motion 214 to 49. On 13 July 1963, 579,077 voted yes and 7,218 no, and on 9 August 1963 the Mid-Western Region was born, with its capital at Benin City. It was the only new region of the First Republic.",
+		"sources": [
+			"omoigui-midwest-referendum",
+			"wikipedia-mid-western-region-nigeria",
+			"wikipedia-western-region-nigeria",
+			"wikipedia-akenzua-ii",
+			"wikipedia-humphrey-omo-osagie",
+			"wikipedia-dennis-osadebay",
+			"dailytimes-1958-willink"
+		],
+		"confidence": "high"
+	},
+	"moments": [
+		{
+			"when": "1953",
+			"title": "The Benin Delta Peoples Party",
+			"text": "Formed under Oba Akenzua II to press for a separate Benin–Delta region.",
+			"at": {
+				"name": "Benin City",
+				"point": [
+					5.627,
+					6.335
+				]
+			},
+			"mark": "founded",
+			"confidence": "high",
+			"sources": [
+				"omoigui-midwest-referendum"
+			]
+		},
+		{
+			"when": "5 May 1956",
+			"title": "The Mid-West State Movement",
+			"text": "Inaugurated from the remains of the BDPP, led by Dennis Osadebay of Asaba.",
+			"mark": "founded",
+			"confidence": "high",
+			"sources": [
+				"omoigui-midwest-referendum",
+				"wikipedia-dennis-osadebay"
+			]
+		},
+		{
+			"when": "30 July 1958",
+			"title": "Willink: a council, not a state",
+			"text": "The Edo districts are to be a “minority area” with a council for Edo affairs. The Movement rejects the report.",
+			"mark": "treaty",
+			"confidence": "high",
+			"sources": [
+				"omoigui-midwest-referendum",
+				"dailytimes-1958-willink"
+			]
+		},
+		{
+			"when": "24 March 1962",
+			"title": "Parliament votes 214 to 49",
+			"text": "The federal parliament passes the Mid-West motion; the North and East approve, the Western House opposes.",
+			"at": {
+				"name": "Lagos",
+				"point": [
+					3.394,
+					6.455
+				]
+			},
+			"mark": "treaty",
+			"confidence": "high",
+			"sources": [
+				"omoigui-midwest-referendum"
+			]
+		},
+		{
+			"when": "29 May 1962",
+			"title": "Emergency in the West",
+			"text": "The Awolowo–Akintola split brings a state of emergency in the Western Region, clearing the way.",
+			"at": {
+				"name": "Ibadan",
+				"point": [
+					3.917,
+					7.396
+				]
+			},
+			"mark": "captured",
+			"confidence": "high",
+			"sources": [
+				"omoigui-midwest-referendum"
+			]
+		},
+		{
+			"when": "13 July 1963",
+			"title": "The referendum",
+			"text": "Of 654,130 registered voters, 60% had to say yes. 579,077 vote yes and 7,218 no.",
+			"at": {
+				"name": "Benin City",
+				"point": [
+					5.627,
+					6.335
+				]
+			},
+			"mark": "treaty",
+			"confidence": "high",
+			"sources": [
+				"omoigui-midwest-referendum"
+			]
+		},
+		{
+			"when": "9 August 1963",
+			"title": "The Mid-Western Region",
+			"text": "Created from Benin and Delta provinces, with Akoko-Edo and Warri, its capital at Benin City.",
+			"at": {
+				"name": "Benin City",
+				"point": [
+					5.627,
+					6.335
+				]
+			},
+			"mark": "founded",
+			"confidence": "high",
+			"sources": [
+				"omoigui-midwest-referendum",
+				"wikipedia-mid-western-region-nigeria"
+			]
+		}
+	],
+	"pieces": [
+		{
+			"name": "Mid-Western Region",
+			"extent": {
+				"states": [
+					"edo",
+					"delta"
+				],
+				"lgas": [
+					"bayelsa-ekeremor",
+					"bayelsa-sagbama"
+				]
+			},
+			"note": "Benin and Delta provinces. Ekeremor and Sagbama, western Ijaw country later in Bayelsa, are drawn here because they were in the old Western Region."
+		},
+		{
+			"name": "Western Region (the rest)",
+			"extent": {
+				"states": [
+					"oyo",
+					"osun",
+					"ogun",
+					"ondo",
+					"ekiti"
+				]
+			},
+			"note": "Over 95% Yoruba after 1963. Lagos had been separated in 1954."
+		}
+	],
+	"sources": [
+		"omoigui-midwest-referendum",
+		"wikipedia-mid-western-region-nigeria",
+		"wikipedia-western-region-nigeria"
+	],
+	"confidence": "high",
+	"reviewNotes": [
+		"Omoigui’s source prints 89.07%, but its own totals give 88.5% of the register (98.8% of votes cast); the summary gives the counts only.",
+		"Ekeremor and Sagbama: Wikipedia’s Western Region article puts them in the old West. When they passed to Rivers before Bayelsa was made in 1996 is not known; the Politics view puts all of Bayelsa in Rivers in 1967."
+	]
+}

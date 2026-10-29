@@ -10826,5 +10826,182 @@
 		"kind": "reference",
 		"accessed": "2026-10-29",
 		"checked": false
+	},
+	{
+		"id": "wikipedia-british-cameroons",
+		"title": "British Cameroons",
+		"publisher": "Wikipedia",
+		"url": "https://en.wikipedia.org/wiki/British_Cameroons",
+		"kind": "reference",
+		"accessed": "2026-10-29",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-southern-cameroons",
+		"title": "Southern Cameroons",
+		"publisher": "Wikipedia",
+		"url": "https://en.wikipedia.org/wiki/Southern_Cameroons",
+		"kind": "reference",
+		"accessed": "2026-10-29",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-1961-british-cameroons-referendum",
+		"title": "1961 British Cameroons referendum",
+		"publisher": "Wikipedia",
+		"url": "https://en.wikipedia.org/wiki/1961_British_Cameroons_referendum",
+		"kind": "reference",
+		"accessed": "2026-10-29",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-1959-northern-cameroons-referendum",
+		"title": "1959 Northern Cameroons referendum",
+		"publisher": "Wikipedia",
+		"url": "https://en.wikipedia.org/wiki/1959_Northern_Cameroons_referendum",
+		"kind": "reference",
+		"accessed": "2026-10-29",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-eml-endeley",
+		"title": "E. M. L. Endeley",
+		"publisher": "Wikipedia",
+		"url": "https://en.wikipedia.org/wiki/E._M._L._Endeley",
+		"kind": "reference",
+		"accessed": "2026-10-29",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-kndp",
+		"title": "Kamerun National Democratic Party",
+		"publisher": "Wikipedia",
+		"url": "https://en.wikipedia.org/wiki/Kamerun_National_Democratic_Party",
+		"kind": "reference",
+		"accessed": "2026-10-29",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-akenzua-ii",
+		"title": "Akenzua II",
+		"publisher": "Wikipedia",
+		"url": "https://en.wikipedia.org/wiki/Akenzua_II",
+		"kind": "reference",
+		"accessed": "2026-10-29",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-humphrey-omo-osagie",
+		"title": "Humphrey Omo-Osagie",
+		"publisher": "Wikipedia",
+		"url": "https://en.wikipedia.org/wiki/Humphrey_Omo-Osagie",
+		"kind": "reference",
+		"accessed": "2026-10-29",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-eyo-ita",
+		"title": "Eyo Ita",
+		"publisher": "Wikipedia",
+		"url": "https://en.wikipedia.org/wiki/Eyo_Ita",
+		"kind": "reference",
+		"accessed": "2026-10-29",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-udo-udoma",
+		"title": "Udo Udoma",
+		"publisher": "Wikipedia",
+		"url": "https://en.wikipedia.org/wiki/Udo_Udoma",
+		"kind": "reference",
+		"accessed": "2026-10-29",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-okoi-arikpo",
+		"title": "Okoi Arikpo",
+		"publisher": "Wikipedia",
+		"url": "https://en.wikipedia.org/wiki/Okoi_Arikpo",
+		"kind": "reference",
+		"accessed": "2026-10-29",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-harold-dappa-biriye",
+		"title": "Harold Dappa-Biriye",
+		"publisher": "Wikipedia",
+		"url": "https://en.wikipedia.org/wiki/Harold_Dappa-Biriye",
+		"kind": "reference",
+		"accessed": "2026-10-29",
+		"checked": true
+	},
+	{
+		"id": "wikipedia-isaac-adaka-boro",
+		"title": "Isaac Adaka Boro",
+		"publisher": "Wikipedia",
+		"url": "https://en.wikipedia.org/wiki/Isaac_Adaka_Boro",
+		"kind": "reference",
+		"accessed": "2026-10-29",
+		"checked": true
+	},
+	{
+		"id": "un-repertory-art76",
+		"title": "Repertory of Practice of United Nations Organs, Supplement No. 3, vol. III: Article 76",
+		"author": "United Nations",
+		"url": "https://legal.un.org/repertory/art76/english/rep_supp3_vol3_art76.pdf",
+		"kind": "reference",
+		"accessed": "2026-10-29",
+		"checked": true
+	},
+	{
+		"id": "icj-northern-cameroons",
+		"title": "Northern Cameroons (Cameroon v. United Kingdom), Preliminary Objections, Judgment of 2 December 1963",
+		"author": "International Court of Justice",
+		"year": 1963,
+		"url": "https://www.icj-cij.org/node/103804",
+		"kind": "reference",
+		"accessed": "2026-10-29",
+		"checked": false
+	},
+	{
+		"id": "dailytimes-1958-willink",
+		"title": "Daily Times Archive: Details of the 1958 Willink Commission minority report",
+		"publisher": "Daily Times",
+		"year": 2020,
+		"url": "https://dailytimesng.com/daily-times-archive-details-of-the-1958-wilink-commission-minority-report/",
+		"kind": "news",
+		"accessed": "2026-10-29",
+		"checked": true
+	},
+	{
+		"id": "omoigui-midwest-referendum",
+		"title": "Benin and the Midwest Referendum",
+		"author": "Nowa Omoigui",
+		"publisher": "Dawodu.com",
+		"url": "https://dawodu.com/omoigui22.htm",
+		"kind": "web",
+		"accessed": "2026-10-29",
+		"checked": true
+	},
+	{
+		"id": "nfi-2011-southern-cameroons",
+		"title": "The Question of Insecurity in the Southern Cameroons Reunification Debate",
+		"author": "Joseph Nfi",
+		"year": 2011,
+		"publisher": "Leeds African Studies Bulletin 73: 53–66",
+		"url": "https://lucas.leeds.ac.uk/article/insecurity-southern-cameroons-reunification-debate-joseph-nfi/",
+		"kind": "article",
+		"accessed": "2026-10-29",
+		"checked": true
+	},
+	{
+		"id": "prnigeria-2019-northern-cameroons",
+		"title": "The Nigerian States that Formed Parts of Northern Cameroons",
+		"publisher": "PRNigeria",
+		"year": 2019,
+		"url": "https://prnigeria.com/2019/04/20/nigerian-states-northern-cameroons/",
+		"kind": "news",
+		"accessed": "2026-10-29",
+		"checked": true
 	}
 ]

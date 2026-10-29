@@ -1,0 +1,98 @@
+{
+	"name": "Isaac Boro’s Niger Delta Republic",
+	"status": "draft",
+	"kind": "war",
+	"year": 1966,
+	"yearLabel": "February–March 1966",
+	"until": 1968,
+	"actors": [
+		{
+			"name": "Niger Delta Volunteer Force (Isaac Boro, Sam Owonaro, Nottingham Dick)",
+			"side": "resister"
+		},
+		{
+			"name": "Eastern Region military government (Odumegwu Ojukwu)",
+			"side": "attacker"
+		}
+	],
+	"summary": {
+		"text": "Isaac Adaka Boro, an Ijaw born at Oloibiri, where oil was first struck, was a former policeman and student leader at Nsukka who wanted the Ijaw to control the Delta’s oil. After the coup of January 1966 he trained young men from the Ijaw clans as the Niger Delta Volunteer Force behind his father’s compound at Kaiama, and on 23 February 1966 proclaimed a Niger Delta Republic. It held out for twelve days before soldiers under Ojukwu, the East’s military governor, captured Boro and his comrades, who were tried for treason. Gowon pardoned them in May 1967. Boro joined the federal army as a major and was killed near Okrika on 9 May 1968. Ken Saro-Wiwa, the Ijaw youth movements and later Delta militants all claimed him.",
+		"sources": [
+			"wikipedia-isaac-adaka-boro",
+			"wikipedia-rivers-state"
+		],
+		"confidence": "high"
+	},
+	"moments": [
+		{
+			"when": "23 February 1966",
+			"title": "The Niger Delta Republic",
+			"text": "Boro proclaims the republic; his volunteers had trained behind his father’s compound at Kaiama.",
+			"at": {
+				"name": "Kaiama",
+				"point": [
+					6.303,
+					5.116
+				]
+			},
+			"mark": "founded",
+			"confidence": "high",
+			"sources": [
+				"wikipedia-isaac-adaka-boro"
+			]
+		},
+		{
+			"when": "March 1966",
+			"title": "Twelve days, then capture",
+			"text": "After twelve days the rising is put down; Boro and his comrades are taken by soldiers under Ojukwu and charged with treason.",
+			"mark": "captured",
+			"confidence": "high",
+			"sources": [
+				"wikipedia-isaac-adaka-boro",
+				"wikipedia-rivers-state"
+			]
+		},
+		{
+			"when": "May 1967",
+			"title": "Pardoned",
+			"text": "Gowon’s government grants them amnesty shortly before the civil war.",
+			"mark": "treaty",
+			"confidence": "high",
+			"sources": [
+				"wikipedia-isaac-adaka-boro"
+			]
+		},
+		{
+			"when": "9 May 1968",
+			"title": "Boro killed",
+			"text": "Now a federal major, Boro dies on active duty near Ogu, close to Okrika, in unclear circumstances.",
+			"at": {
+				"name": "near Okrika",
+				"point": [
+					7.08,
+					4.74
+				]
+			},
+			"mark": "battle",
+			"confidence": "high",
+			"sources": [
+				"wikipedia-isaac-adaka-boro"
+			]
+		}
+	],
+	"area": {
+		"lgas": [
+			"bayelsa-kolokuma-opokuma",
+			"bayelsa-yenegoa",
+			"bayelsa-southern-ijaw"
+		],
+		"confidence": "medium"
+	},
+	"sources": [
+		"wikipedia-isaac-adaka-boro"
+	],
+	"confidence": "high",
+	"reviewNotes": [
+		"The area of the rising is approximate: Kaiama and the creeks around Yenagoa."
+	]
+}

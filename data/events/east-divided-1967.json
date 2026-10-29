@@ -1,0 +1,128 @@
+{
+	"name": "The East divided into three states",
+	"status": "draft",
+	"kind": "partition",
+	"year": 1967,
+	"yearLabel": "27 May 1967",
+	"actors": [
+		{
+			"name": "Federal Military Government (Yakubu Gowon)",
+			"side": "ally",
+			"ink": "#2e6b3f"
+		},
+		{
+			"name": "Eastern minorities (Rivers and COR leaders)",
+			"side": "ally",
+			"ink": "#7a4e9c"
+		}
+	],
+	"summary": {
+		"text": "Gowon’s Decree No. 14 of 27 May 1967 split the Eastern Region into three states. East-Central State, with its capital at Enugu, held the Igbo heartland. Rivers State, at Port Harcourt, went to the Ijaw, Ogoni, Ikwerre and other peoples of the Rivers, under Alfred Diete-Spiff, a 25-year-old Ijaw naval officer. South-Eastern State, at Calabar, went to the Ibibio, Efik, Annang, Ejagham and the peoples of the Cross River. It gave the minorities what the COR and Rivers movements had asked for since 1953, and cut the oil coast and the ports out of a seceding East. Three days later Biafra declared independence over the whole region, and much of the war that followed was fought on minority land.",
+		"sources": [
+			"wikipedia-eastern-region-nigeria",
+			"wikipedia-rivers-state",
+			"wikipedia-cross-river-state",
+			"wikipedia-east-central-state",
+			"worldstatesmen-nigeria-states"
+		],
+		"confidence": "high"
+	},
+	"moments": [
+		{
+			"when": "27 May 1967",
+			"title": "Enugu, capital of East-Central State",
+			"text": "The Igbo heartland becomes one state.",
+			"at": {
+				"name": "Enugu",
+				"point": [
+					7.49,
+					6.45
+				]
+			},
+			"mark": "founded",
+			"confidence": "high",
+			"sources": [
+				"wikipedia-east-central-state"
+			]
+		},
+		{
+			"when": "27 May 1967",
+			"title": "Port Harcourt, capital of Rivers State",
+			"text": "Governed by Alfred Diete-Spiff, an Ijaw naval officer of 25.",
+			"at": {
+				"name": "Port Harcourt",
+				"point": [
+					7,
+					4.8
+				]
+			},
+			"mark": "founded",
+			"confidence": "high",
+			"sources": [
+				"wikipedia-rivers-state"
+			]
+		},
+		{
+			"when": "27 May 1967",
+			"title": "Calabar, capital of South-Eastern State",
+			"text": "Renamed Cross River in 1976; Akwa Ibom was carved out in 1987.",
+			"at": {
+				"name": "Calabar",
+				"point": [
+					8.32,
+					4.96
+				]
+			},
+			"mark": "founded",
+			"confidence": "high",
+			"sources": [
+				"wikipedia-cross-river-state"
+			]
+		}
+	],
+	"pieces": [
+		{
+			"name": "East-Central State",
+			"extent": {
+				"states": [
+					"anambra",
+					"enugu",
+					"imo",
+					"abia",
+					"ebonyi"
+				]
+			}
+		},
+		{
+			"name": "Rivers State",
+			"extent": {
+				"states": [
+					"rivers",
+					"bayelsa"
+				],
+				"except": [
+					"bayelsa-ekeremor",
+					"bayelsa-sagbama"
+				]
+			},
+			"note": "Bayelsa was carved out of Rivers in 1996."
+		},
+		{
+			"name": "South-Eastern State",
+			"extent": {
+				"states": [
+					"cross-river",
+					"akwa-ibom"
+				]
+			}
+		}
+	],
+	"sources": [
+		"wikipedia-eastern-region-nigeria",
+		"worldstatesmen-nigeria-states"
+	],
+	"confidence": "high",
+	"reviewNotes": [
+		"Ekeremor and Sagbama are left out of Rivers here, as old Western Region land (see mid-west-1963); the Politics view puts all of Bayelsa in Rivers."
+	]
+}
