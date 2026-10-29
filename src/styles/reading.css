@@ -301,6 +301,15 @@ body:has(.rd) {
 	font-size: 0.875rem;
 }
 
+.rd-chips a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.rd-chips a:hover {
+	text-decoration: underline;
+}
+
 .rd-chips li[data-presence]::before {
 	content: '';
 	width: 8px;

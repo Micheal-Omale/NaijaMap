@@ -42,7 +42,10 @@ const schema = [
 	<header>
 		<h1>{t('peoples.heading')}</h1>
 		<p class="rd-lede">{description}</p>
-		<div class="rd-actions"><a class="rd-button" href="/">{t('nav.map')}</a></div>
+		<div class="rd-actions">
+			<a class="rd-button" href="/">{t('nav.map')}</a>
+			<a class="rd-button rd-button--quiet" href={paths.states}>{t('states.heading')}</a>
+		</div>
 	</header>
 
 	<nav aria-labelledby="families">

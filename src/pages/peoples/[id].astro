@@ -8,15 +8,33 @@ import Claim from '../../components/reading/Claim.astro';
 import Sources from '../../components/reading/Sources.astro';
 import { getLangFromUrl, useTranslations } from '../../i18n/utils';
 import { getGroupViews } from '../../lib/groups';
-import { article, byState, clip, firstSentence, mapLinks, paths, placesText, stateName } from '../../lib/seo';
+import lgaIndex from '../../data/lgas.json';
+import { article, byState, clip, firstSentence, homeStates, joinList, mapLinks, paths, placesText, stateName, statesText, withArticle } from '../../lib/seo';
 import type { GroupView, Presence } from '../../lib/types';
 
 export async function getStaticPaths() {
 	const groups = await getGroupViews();
-	return groups.map((group) => ({ params: { id: group.id }, props: { group } }));
+	// The other peoples who are at home in this people's main state, for links between pages.
+	const mainState = (g: GroupView) => {
+		const core = g.areas.filter((a) => a.presence === 'core');
+		return homeStates(core.length ? core : g.areas)[0];
+	};
+	return groups.map((group) => {
+		const state = mainState(group);
+		const neighbours = groups
+			.filter((o) => o.id !== group.id && o.areas.some((a) => a.state === state && a.presence !== 'minority'))
+			.map((o) => ({ id: o.id, name: o.name, core: o.areas.filter((a) => a.state === state && a.presence === 'core').length }))
+			.sort((a, b) => b.core - a.core || a.name.localeCompare(b.name))
+			.slice(0, 12);
+		return { params: { id: group.id }, props: { group, state, neighbours } };
+	});
 }
 
-const { group: g } = Astro.props as { group: GroupView };
+const { group: g, state: mainStateName, neighbours } = Astro.props as {
+	group: GroupView;
+	state?: string;
+	neighbours: { id: string; name: string }[];
+};
 const tr = useTranslations(getLangFromUrl(Astro.url));
 const { t, plural } = tr;
 const and = t('page.and');
@@ -36,9 +54,24 @@ const where = `${t('peoples.aWhere', { places: placesText(homeland, and), lgas: 
 const languageAnswer = t('peoples.aLanguage', { language: g.language.name, family: family.name, lineage });
 const rulerText = g.ruler ? (g.ruler.seat ? t('profile.rulerSeat', { title: g.ruler.title, seat: g.ruler.seat }) : g.ruler.title) : undefined;
 
-const title = `${t('peoples.pageTitle', { name: g.name })} · ${t('site.name')}`;
+// Searchers ask which state a people is from, so a homeland in one or two states names them
+// in the title and the first fact; a people spread wider is "of Nigeria".
+const home = homeStates(homeland);
+const fewStates = home.length > 0 && home.length <= 2;
+const homeText = statesText(home, and);
+const homeLgas = homeland.length <= 6 ? `${joinList(homeland.map((a) => a.name), and)} ${homeland.length === 1 ? 'LGA' : 'LGAs'}` : plural('page.lgas', homeland.length);
+const stateAnswer = fewStates ? t('peoples.aState', { name: g.name, states: homeText }) : t('peoples.aStateMany', { name: g.name, states: homeText });
+const stateIdOf = new Map(lgaIndex.map((l) => [l.state, l.stateId]));
+const familyWithArticle = withArticle(family.name);
+
+const headline = fewStates ? t('peoples.titleState', { name: g.name, states: homeText }) : t('peoples.pageTitle', { name: g.name });
+const title = `${headline} · ${t('site.name')}`;
 const description = clip(
-	`${t('peoples.description', { name: g.name, places: placesText(homeland, and), language: g.language.name, family: family.name })} ${firstSentence(g.summary.text)}`,
+	`${
+		fewStates
+			? t('peoples.descriptionState', { name: g.name, states: homeText, places: homeLgas, language: g.language.name, family: familyWithArticle })
+			: t('peoples.description', { name: g.name, places: placesText(homeland, and), language: g.language.name, family: familyWithArticle })
+	} ${firstSentence(g.summary.text)}`,
 );
 const path = paths.people(g.id);
 const aliases = [...new Set(g.searchAliases.filter((a) => a !== g.name))];
@@ -47,7 +80,7 @@ const adCtx = { group: g.id, lgas: g.areas.map((a) => a.lga), states: states.map
 const schema = [
 	article({
 		path,
-		headline: t('peoples.pageTitle', { name: g.name }),
+		headline,
 		description,
 		sources: g.sources,
 		about: {
@@ -75,6 +108,14 @@ const schema = [
 		<section class="rd-facts" aria-labelledby="facts">
 			<h2 id="facts">{t('page.facts')}</h2>
 			<dl>
+				{
+					home.length > 0 && (
+						<div>
+							<dt>{t('peoples.qState', { name: g.name })}</dt>
+							<dd>{stateAnswer}</dd>
+						</div>
+					)
+				}
 				<div>
 					<dt>{t('peoples.qWhere', { name: g.name })}</dt>
 					<dd>{where}</dd>
@@ -123,7 +164,7 @@ const schema = [
 				{
 					states.map((s) => (
 						<li>
-							<h3>{s.state}</h3>
+							<h3>{stateIdOf.has(s.state) ? <a href={paths.state(stateIdOf.get(s.state)!)}>{s.state}</a> : s.state}</h3>
 							<ul class="rd-chips">
 								{s.areas.map((a) => (
 									<li data-presence={a.presence} title={t(`presence.${a.presence}`)}>
@@ -200,6 +241,27 @@ const schema = [
 									<strong>{k.name}</strong>
 									<span>{t('profile.seeKingdom', { name: k.name, year: k.peak })}</span>
 								</a>
+							</li>
+						))}
+					</ul>
+				</section>
+			)
+		}
+
+		{
+			mainStateName && neighbours.length > 0 && (
+				<section aria-labelledby="neighbours">
+					<h2 id="neighbours">
+						{stateIdOf.has(mainStateName) ? (
+							<a href={paths.state(stateIdOf.get(mainStateName)!)}>{t('peoples.otherInState', { state: stateName(mainStateName) })}</a>
+						) : (
+							t('peoples.otherInState', { state: stateName(mainStateName) })
+						)}
+					</h2>
+					<ul class="rd-chips">
+						{neighbours.map((n) => (
+							<li>
+								<a href={paths.people(n.id)}>{n.name}</a>
 							</li>
 						))}
 					</ul>

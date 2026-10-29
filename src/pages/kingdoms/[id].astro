@@ -31,7 +31,7 @@ const lives = p.livesThereToday.slice(0, 8);
 const others = p.otherNames.filter((n) => n !== p.name && n !== p.shortName);
 
 const title = `${t('kingdoms.pageTitle', { name: p.name })} · ${t('site.name')}`;
-const description = clip(`${p.name} (${yearText(p.span.from)}–${yearText(p.span.to)}). ${firstSentence(p.summary.text)}`);
+const description = clip(`${p.name} (${yearText(p.span.from)}–${yearText(p.span.to)}). ${p.summary.text}`);
 const path = paths.kingdom(p.id);
 const schema = [
 	article({

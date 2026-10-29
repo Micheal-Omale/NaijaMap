@@ -560,6 +560,7 @@ async function buildEvents(shapes: Shape[]): Promise<EventView[]> {
 			status: e.status,
 			year: e.year,
 			yearLabel: e.yearLabel,
+			seoTitle: e.seoTitle,
 			until: e.until ?? defaultUntil(e.kind, e.year),
 			actors,
 			summary: { text: e.summary.text, ...(await evidence(e.summary)) },

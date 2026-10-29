@@ -165,6 +165,8 @@ export interface EventView extends Evidence {
 	status: ReviewStatus;
 	year: number;
 	yearLabel?: string;
+	/** The reading page's title for search results, when the name alone would not match what people search. */
+	seoTitle?: string;
 	/** Last year on the map. */
 	until: number;
 	/** Each actor's ink: its polity's, or the colonial red. */

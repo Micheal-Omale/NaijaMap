@@ -12,6 +12,8 @@ export const paths = {
 	kingdom: (id: string) => `/kingdoms/${id}`,
 	events: '/events',
 	event: (id: string) => `/events/${id}`,
+	states: '/states',
+	state: (id: string) => `/states/${id}`,
 	about: '/about',
 	privacy: '/privacy',
 };
@@ -53,6 +55,29 @@ export function joinList(items: string[], and = 'and'): string {
 /** "Kogi State", but "the Federal Capital Territory". */
 export function stateName(state: string): string {
 	return state === 'Federal Capital Territory' ? `the ${state}` : `${state} State`;
+}
+
+/** "an Idomoid", "a Chadic". */
+export function withArticle(word: string): string {
+	return `${/^[aeiou]/i.test(word) ? 'an' : 'a'} ${word}`;
+}
+
+/** The states of a people's homeland, the one with the most LGAs first. */
+export function homeStates(areas: { state: string }[]): string[] {
+	const counts = new Map<string, number>();
+	for (const a of areas) counts.set(a.state, (counts.get(a.state) ?? 0) + 1);
+	return [...counts].sort((a, b) => b[1] - a[1]).map(([state]) => state);
+}
+
+/** "Benue State", "Delta and Edo States", "Niger State and the Federal Capital Territory". */
+export function statesText(states: string[], and = 'and'): string {
+	if (states.length === 2 && !states.includes('Federal Capital Territory')) return `${states[0]} ${and} ${states[1]} States`;
+	return joinList(states.map(stateName), and);
+}
+
+/** An event's dates for its title: "1877–1886" from its label, or its first year. */
+export function eventYears(e: { year: number; yearLabel?: string }): string {
+	return e.yearLabel && /^(c\. )?\d{3,4}(–\d{2,4})?$/.test(e.yearLabel) ? e.yearLabel : yearText(e.year);
 }
 
 /** LGAs grouped by state, in first-seen order. */

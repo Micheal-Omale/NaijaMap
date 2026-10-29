@@ -4,14 +4,17 @@
 import { getGroupViews } from './groups';
 import { getHistory } from './polities';
 import { paths } from './seo';
+import { getStateViews } from './states';
 
 export async function publicPaths(): Promise<string[]> {
-	const [groups, history] = await Promise.all([getGroupViews(), getHistory()]);
+	const [groups, history, states] = await Promise.all([getGroupViews(), getHistory(), getStateViews()]);
 	return [
 		'/',
 		'/versus',
 		paths.peoples,
 		...groups.map((g) => paths.people(g.id)),
+		paths.states,
+		...states.map((s) => paths.state(s.id)),
 		paths.kingdoms,
 		...history.polities.map((p) => paths.kingdom(p.id)),
 		paths.events,

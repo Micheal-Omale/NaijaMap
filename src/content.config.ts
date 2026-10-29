@@ -259,6 +259,8 @@ const events = defineCollection({
 			kind: z.enum(['war', 'raid', 'alliance', 'treaty', 'migration', 'colonial', 'partition', 'contact']),
 			year,
 			yearLabel: z.string().optional(),
+			/** The reading page's title in search results, when the name alone would not match what people search (names, dates). */
+			seoTitle: z.string().max(70).optional(),
 			/** Last year the event stays on the map. Left out, it lasts a generation (to the timeline's end for a partition). */
 			until: year.optional(),
 			/** Who took part. `polity` links to the state on the timeline, for its ink and its story. */

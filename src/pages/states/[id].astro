@@ -1,0 +1,151 @@
+---
+// One state's reading page: which peoples live there, LGA by LGA. Answers "tribes in
+// Plateau State" and "which ethnic group lives around Uyo" for search engines and AI
+// answers, and links to every people's own page.
+import Page from '../../layouts/Page.astro';
+import AdSlot from '../../components/AdSlot.astro';
+import { getLangFromUrl, useTranslations } from '../../i18n/utils';
+import { getStateViews, type StateView } from '../../lib/states';
+import { absolute, clip, joinList, paths, stateName } from '../../lib/seo';
+
+export async function getStaticPaths() {
+	const states = await getStateViews();
+	return states.map((state) => ({ params: { id: state.id }, props: { state } }));
+}
+
+const { state: s } = Astro.props as { state: StateView };
+const { t, plural } = useTranslations(getLangFromUrl(Astro.url));
+const and = t('page.and');
+
+const full = stateName(s.name);
+const heading = s.name === 'Federal Capital Territory' ? s.name : `${s.name} State`;
+const Full = full.charAt(0).toUpperCase() + full.slice(1);
+const mainText = s.main.length
+	? `the ${joinList(
+			s.main.map((p) => p.name),
+			and,
+		)}`
+	: '';
+const allText = joinList(
+	s.peoples.map((p) => p.name),
+	and,
+);
+const lgas = plural('page.lgas', s.lgas.length);
+const presenceText = (p: StateView['peoples'][number]) =>
+	[
+		p.core > 0 && (p.core === 1 ? t('states.homeInOne') : t('states.homeIn', { count: p.core })),
+		p.significant + p.minority > 0 &&
+			(p.significant + p.minority === 1 ? t('states.sharedInOne') : t('states.sharedIn', { count: p.significant + p.minority })),
+	]
+		.filter(Boolean)
+		.join(', ');
+
+const headline = t('states.pageTitle', { state: full });
+const title = `${headline} · ${t('site.name')}`;
+const description = clip(s.main.length ? t('states.description', { state: full, main: mainText }) : t('states.descriptionNone', { state: full }));
+const path = paths.state(s.id);
+const adCtx = { states: [s.name], lgas: s.lgas.map((l) => l.id) };
+
+const schema = [
+	{
+		'@context': 'https://schema.org',
+		'@type': 'CollectionPage',
+		name: headline,
+		description,
+		url: absolute(path),
+		about: { '@type': 'AdministrativeArea', name: heading, containedInPlace: { '@type': 'Country', name: 'Nigeria' } },
+		mainEntity: {
+			'@type': 'ItemList',
+			numberOfItems: s.peoples.length,
+			itemListElement: s.peoples.map((p, i) => ({ '@type': 'ListItem', position: i + 1, name: `${p.name} people`, url: absolute(paths.people(p.id)) })),
+		},
+	},
+];
+---
+
+<Page title={title} description={description} crumbs={[{ name: t('nav.states'), path: paths.states }, { name: heading, path }]} schema={schema} ads>
+	<article>
+		<header>
+			<p class="rd-kicker">{t('states.heading')}</p>
+			<h1>{t('states.h1', { state: full })}</h1>
+			<p class="rd-lede">
+				{t('states.lede1', { state: Full, lgas, count: s.peoples.length })}
+				{s.main.length > 0 && ` ${t('states.ledeMain', { main: mainText })}`}
+			</p>
+			<div class="rd-actions">
+				<a class="rd-button" href="/">{t('nav.map')}</a>
+			</div>
+		</header>
+
+		<section class="rd-facts" aria-labelledby="facts">
+			<h2 id="facts">{t('page.facts')}</h2>
+			<dl>
+				{
+					s.main.length > 0 && (
+						<div>
+							<dt>{t('states.qMain', { state: full })}</dt>
+							<dd>{t('states.aMain', { state: full, main: mainText })}</dd>
+						</div>
+					)
+				}
+				<div>
+					<dt>{t('states.qLgas', { state: full })}</dt>
+					<dd>{t('states.aLgas', { state: Full, lgas })}</dd>
+				</div>
+				{
+					s.peoples.length > 0 && (
+						<div>
+							<dt>{t('states.qCount', { state: full })}</dt>
+							<dd>{t('states.aCount', { state: full, count: s.peoples.length, list: allText })}</dd>
+						</div>
+					)
+				}
+			</dl>
+		</section>
+
+		<section aria-labelledby="peoples">
+			<h2 id="peoples">{t('states.all', { state: full })}</h2>
+			<ul class="rd-list rd-list--grid">
+				{
+					s.peoples.map((p) => (
+						<li>
+							<a href={paths.people(p.id)}>
+								<strong>{p.name}</strong>
+								<span>{presenceText(p)}</span>
+							</a>
+						</li>
+					))
+				}
+			</ul>
+		</section>
+
+		<AdSlot slot="reading-state-mid" ctx={adCtx} />
+
+		<section aria-labelledby="by-lga">
+			<h2 id="by-lga">{t('states.byLga')}</h2>
+			<p class="rd-muted">{t('states.byLgaHelp')}</p>
+			<ul class="rd-states">
+				{
+					s.lgas.map((l) => (
+						<li>
+							<h3>{l.name}</h3>
+							{l.peoples.length ? (
+								<ul class="rd-chips">
+									{l.peoples.map((p) => (
+										<li data-presence={p.presence} title={t(`presence.${p.presence}`)}>
+											<a href={paths.people(p.id)}>{p.name}</a>
+											<span class="visually-hidden">({t(`presence.${p.presence}`)})</span>
+										</li>
+									))}
+								</ul>
+							) : (
+								<p class="rd-muted">{t('states.notMapped')}</p>
+							)}
+						</li>
+					))
+				}
+			</ul>
+			<p class="rd-muted">{t('states.census')} {t('site.notOwnership')}</p>
+		</section>
+	</article>
+</Page>

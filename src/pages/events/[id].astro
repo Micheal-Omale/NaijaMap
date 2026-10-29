@@ -6,7 +6,7 @@ import Claim from '../../components/reading/Claim.astro';
 import Sources from '../../components/reading/Sources.astro';
 import { getLangFromUrl, useTranslations } from '../../i18n/utils';
 import { getHistory } from '../../lib/polities';
-import { article, clip, firstSentence, mapLinks, paths, yearText } from '../../lib/seo';
+import { article, clip, eventYears, firstSentence, mapLinks, paths, yearText } from '../../lib/seo';
 import type { EventView } from '../../lib/types';
 
 export async function getStaticPaths() {
@@ -22,13 +22,15 @@ const { event: e, kingdoms } = Astro.props as { event: EventView; kingdoms: { id
 const { t } = useTranslations(getLangFromUrl(Astro.url));
 
 const when = e.yearLabel ?? yearText(e.year);
-const title = `${t('events.pageTitle', { name: e.name, year: yearText(e.year) })} · ${t('site.name')}`;
-const description = clip(`${t(`event.kind.${e.kind}`)}, ${when}. ${firstSentence(e.summary.text)}`);
+const headline = e.seoTitle ?? t('events.pageTitle', { name: e.name, year: eventYears(e) });
+const title = `${headline} · ${t('site.name')}`;
+// The whole summary, clipped, so the snippet carries names and dates beyond the first sentence.
+const description = clip(`${t(`event.kind.${e.kind}`)}, ${when}. ${e.summary.text}`);
 const path = paths.event(e.id);
 const schema = [
 	article({
 		path,
-		headline: t('events.pageTitle', { name: e.name, year: yearText(e.year) }),
+		headline,
 		description,
 		sources: e.sources,
 		image: '/og/kingdoms.png',

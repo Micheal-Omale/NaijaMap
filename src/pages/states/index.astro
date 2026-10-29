@@ -1,0 +1,49 @@
+---
+// Every state and the FCT, each with its main peoples, linking to its own page.
+import Page from '../../layouts/Page.astro';
+import { getLangFromUrl, useTranslations } from '../../i18n/utils';
+import { getStateViews } from '../../lib/states';
+import { absolute, joinList, paths } from '../../lib/seo';
+
+const { t } = useTranslations(getLangFromUrl(Astro.url));
+const states = (await getStateViews()).sort((a, b) => a.name.localeCompare(b.name));
+const heading = (name: string) => (name === 'Federal Capital Territory' ? name : `${name} State`);
+
+const title = `${t('states.title')} · ${t('site.name')}`;
+const description = t('states.lede');
+const schema = [
+	{
+		'@context': 'https://schema.org',
+		'@type': 'CollectionPage',
+		name: t('states.title'),
+		description,
+		url: absolute(paths.states),
+		mainEntity: {
+			'@type': 'ItemList',
+			numberOfItems: states.length,
+			itemListElement: states.map((s, i) => ({ '@type': 'ListItem', position: i + 1, name: heading(s.name), url: absolute(paths.state(s.id)) })),
+		},
+	},
+];
+---
+
+<Page title={title} description={description} crumbs={[{ name: t('nav.states'), path: paths.states }]} schema={schema}>
+	<header>
+		<h1>{t('states.heading')}</h1>
+		<p class="rd-lede">{description}</p>
+		<div class="rd-actions"><a class="rd-button" href="/">{t('nav.map')}</a></div>
+	</header>
+
+	<ul class="rd-list rd-list--grid">
+		{
+			states.map((s) => (
+				<li>
+					<a href={paths.state(s.id)}>
+						<strong>{heading(s.name)}</strong>
+						<span>{joinList(s.main.map((p) => p.name), t('page.and'))}</span>
+					</a>
+				</li>
+			))
+		}
+	</ul>
+</Page>
