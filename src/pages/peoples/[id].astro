@@ -42,13 +42,17 @@ const and = t('page.and');
 const ORDER: Presence[] = ['core', 'significant', 'minority'];
 const areas = [...g.areas].sort((a, b) => ORDER.indexOf(a.presence) - ORDER.indexOf(b.presence) || a.name.localeCompare(b.name));
 const core = areas.filter((a) => a.presence === 'core');
-const homeland = core.length ? core : areas.filter((a) => a.presence === 'significant');
-const shared = core.length ? areas.filter((a) => a.presence === 'significant') : [];
+const significant = areas.filter((a) => a.presence === 'significant');
+// A people present only as small minorities (often one at home across a border) has no
+// homeland LGA here, so the page names the places they live instead of an empty list.
+const scattered = !core.length && !significant.length;
+const homeland = core.length ? core : scattered ? areas : significant;
+const shared = core.length ? significant : [];
 const states = byState(areas);
 const family = g.language.family;
 const lineage = family.lineage.join(' › ');
 
-const where = `${t('peoples.aWhere', { places: placesText(homeland, and), lgas: plural('page.lgas', homeland.length) })}${
+const where = `${t(scattered ? 'peoples.aWhereScattered' : 'peoples.aWhere', { places: placesText(homeland, and), lgas: plural('page.lgas', homeland.length) })}${
 	shared.length ? ` ${t('peoples.aWhereMore', { places: placesText(shared, and) })}` : ''
 }`;
 const languageAnswer = t('peoples.aLanguage', { language: g.language.name, family: family.name, lineage });

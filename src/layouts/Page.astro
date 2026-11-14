@@ -21,7 +21,9 @@ interface Props {
 
 const { title, description, crumbs, schema = [], mood, image, ads = false } = Astro.props;
 const { t } = useTranslations(getLangFromUrl(Astro.url));
-const adClient = ads && adsData.adsense.client && adsData.adsense.slot ? adsData.adsense.client : undefined;
+// The AdSense script loads once a publisher id is set; display units also need a slot.
+const adClient = ads && adsData.adsense.client ? adsData.adsense.client : undefined;
+const adUnits = adClient && adsData.adsense.slot;
 const trail = [{ name: t('nav.home'), path: '/' }, ...crumbs];
 const nav = [
 	{ path: paths.peoples, label: t('nav.peoples') },
@@ -90,5 +92,5 @@ const here = Astro.url.pathname.replace(/\/$/, '');
 		</p>
 	</footer>
 
-	{adClient && <script is:inline>document.querySelectorAll('ins.adsbygoogle').forEach(function () { (window.adsbygoogle = window.adsbygoogle || []).push({}); });</script>}
+	{adUnits && <script is:inline>document.querySelectorAll('ins.adsbygoogle').forEach(function () { (window.adsbygoogle = window.adsbygoogle || []).push({}); });</script>}
 </Base>

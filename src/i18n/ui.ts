@@ -618,6 +618,7 @@ export const ui = {
 		'peoples.openMap': 'See the {name} on the map',
 		'peoples.qWhere': 'Where do the {name} people live?',
 		'peoples.aWhere': 'Their homeland is in {places}, across {lgas}.',
+		'peoples.aWhereScattered': 'In Nigeria they live as smaller communities in {places}, across {lgas}.',
 		'peoples.aWhereMore': 'They are also a large share of {places}.',
 		'peoples.qLanguage': 'What language do the {name} speak?',
 		'peoples.aLanguage': '{language}, a language of the {family} family ({lineage}).',
