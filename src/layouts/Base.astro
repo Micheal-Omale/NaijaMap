@@ -4,6 +4,7 @@ import '../styles/global.css';
 import { getLangFromUrl, useTranslations } from '../i18n/utils';
 import { SITE_CONFIG } from '../lib/site';
 import { jsonLd } from '../lib/seo';
+import adsData from '../../data/ads.json';
 
 interface Props {
 	title?: string;
@@ -83,6 +84,8 @@ const imageUrl = new URL(image, Astro.site).href;
 		<meta name="apple-mobile-web-app-title" content="HistoNaija" />
 		<!-- Visitor counts (GoatCounter: no cookies, so no consent banner). Ignores localhost. -->
 		<script is:inline data-goatcounter="https://histonaija.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+		{/* Lets AdSense verify the site on every page (the home page included), before any ad unit exists. */}
+		{adsData.adsense.client.trim() && <meta name="google-adsense-account" content={adsData.adsense.client.trim()} />}
 		{adClient && <script is:inline async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adClient}`} crossorigin="anonymous"></script>}
 		{schema && <script is:inline type="application/ld+json" set:html={jsonLd(schema)} />}
 		<slot name="head" />
